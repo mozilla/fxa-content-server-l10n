@@ -66,7 +66,7 @@ new-user-sign-in-link = У вас ужо ёсць уліковы запіс { -b
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Увядзіце сваю электронную пошту
 new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
@@ -192,6 +192,13 @@ plan-details-tax = Падаткі і зборы
 
 product-no-such-plan = Няма такога плана для гэтага прадукту.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + падаткі { $taxAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Наладзьце падпіску
@@ -215,8 +222,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Закрыць акно
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Загрузка…
 settings-subscriptions-title = Падпіскі
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Прамакод
@@ -224,34 +229,6 @@ coupon-promo-code = Прамакод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } штодзень
-        [few] { $amount } кожныя { $intervalCount } дні
-       *[many] { $amount } кожныя { $intervalCount } дзён
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } штотыдзень
-        [few] { $amount } кожныя { $intervalCount } тыдні
-       *[many] { $amount } кожныя { $intervalCount } тыдняў
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } штомесяц
-        [few] { $amount } кожныя { $intervalCount } месяцы
-       *[many] { $amount } кожныя { $intervalCount } месяцаў
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } штогод
-        [few] { $amount } кожныя { $intervalCount } гады
-       *[many] { $amount } кожныя { $intervalCount } гадоў
-    }
 
 ## Error messages
 
@@ -344,38 +321,6 @@ sub-item-cancel-msg =
     { $period }, гэта апошні дзень вашага плацежнага цыкла.
 sub-item-cancel-confirm = Скасаваць мой доступ да { $name } разам з захаванай інфармацыяй { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } штодзень
-        [few] { $amount } кожныя { $intervalCount } дні
-       *[many] { $amount } кожныя { $intervalCount } дзён
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } штотыдзень
-        [few] { $amount } кожныя { $intervalCount } тыдні
-       *[many] { $amount } кожныя { $intervalCount } тыдняў
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } штомесяц
-        [few] { $amount } кожныя { $intervalCount } месяцы
-       *[many] { $amount } кожныя { $intervalCount } месяцаў
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } штогод
-        [few] { $amount } кожныя { $intervalCount } гады
-       *[many] { $amount } кожныя { $intervalCount } гадоў
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Не атрымалася паўторна актываваць падпіску
@@ -404,6 +349,8 @@ pay-update-change-btn = Змяніць
 pay-update-manage-btn = Кіраваць
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступная аплата { $date }
