@@ -238,6 +238,50 @@ price-details-no-tax-year =
             [one] { $priceAmount } жыл сайын
            *[other] { $priceAmount } әр { $intervalCount } жыл сайын
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } салық күн сайын
+       *[other] { $priceAmount } + { $taxAmount } салық  әр { $intervalCount } күн сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } салық күн сайын
+           *[other] { $priceAmount } + { $taxAmount } салық  әр { $intervalCount } күн сайын
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } салық апта сайын
+       *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } апта сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } салық апта сайын
+           *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } апта сайын
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } салық ай сайын
+       *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } ай сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } салық ай сайын
+           *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } ай сайын
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } салық жыл сайын
+       *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } жыл сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } салық жыл сайын
+           *[other] { $priceAmount } + { $taxAmount } салық әр { $intervalCount } жыл сайын
+        }
 
 ## Component - SubscriptionTitle
 
@@ -269,6 +313,50 @@ coupon-promo-code = Промокод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } күн сайын
+       *[other] { $amount } әр { $intervalCount } күн сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } күн сайын
+           *[other] { $amount } әр { $intervalCount } күн сайын
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } апта сайын
+       *[other] { $amount } әр { $intervalCount } апта сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } апта сайын
+           *[other] { $amount } әр { $intervalCount } апта сайын
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } ай сайын
+       *[other] { $amount } әр { $intervalCount } ай сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ай сайын
+           *[other] { $amount } әр { $intervalCount } ай сайын
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } жыл сайын
+       *[other] { $amount } әр { $intervalCount } жыл сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } жыл сайын
+           *[other] { $amount } әр { $intervalCount } жыл сайын
+        }
 
 ## Error messages
 
