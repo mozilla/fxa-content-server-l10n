@@ -208,12 +208,12 @@ price-details-no-tax-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-no-tax-week =
     { $intervalCount ->
-        [one] { $priceAmount } settimanalmente
+        [one] { $priceAmount } alla settimana
        *[other] { $priceAmount } ogni { $intervalCount } settimane
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } settimanalmente
+            [one] { $priceAmount } alla settimana
            *[other] { $priceAmount } ogni { $intervalCount } settimane
         }
 # $intervalCount (Number) - The interval between payments, in months.
@@ -241,23 +241,23 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } al giorno
+        [one] { $priceAmount } + { $taxAmount } tasse al giorno
        *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } giorni
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } al giorno
+            [one] { $priceAmount } + { $taxAmount } tasse al giorno
            *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } giorni
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } settimanali
+        [one] { $priceAmount } + { $taxAmount } alla settimana
        *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } settimane
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } settimanali
+            [one] { $priceAmount } + { $taxAmount } alla settimana
            *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } settimane
         }
 # $intervalCount (Number) - The interval between payments, in months.
@@ -274,12 +274,12 @@ price-details-tax-month =
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } all’anno
+        [one] { $priceAmount } + { $taxAmount } tasse all’anno
        *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } anni
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } all’anno
+            [one] { $priceAmount } + { $taxAmount } tasse all’anno
            *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } anni
         }
 
@@ -479,8 +479,8 @@ pay-update-manage-btn = Gestisci
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prossimo addebito il { $date }
-sub-next-bill-no-tax = La prossima fattura di <strong>{ $priceAmount }</strong> è in scadenza <strong>{ $date }</strong>
-sub-next-bill-tax = La prossima fattura di <strong>{ $priceAmount } + { $taxAmount }</strong> è dovuta <strong>{ $date }</strong>
+sub-next-bill-no-tax = La prossima fattura di <strong>{ $priceAmount }</strong> è in scadenza il <strong>{ $date }</strong>
+sub-next-bill-tax = La prossima fattura di <strong>{ $priceAmount } + { $taxAmount }</strong> è dovuta il <strong>{ $date }</strong>
 sub-expires-on = Scade il { $date }
 
 ## Routes - Subscription - PaymentUpdate

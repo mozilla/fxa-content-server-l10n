@@ -591,14 +591,14 @@ auth-error-1008 = La nuova password deve essere diversa
 ## ResetPassword page
 
 # If more appropriate in a locale, this can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Reimposta la password <span>per continuare con le impostazioni dell’account</span>
+reset-password-heading-w-default-service = Reimposta la password <span>per passare alle impostazioni dell’account</span>
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reimposta la password <span>per continuare su { $serviceName }</span>
-reset-password-warning-message = <span>Nota:</span> quando reimposti la password, reimposta l’account. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittografiamo i tuoi dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { product-pocket } non subiranno modifiche.
+reset-password-warning-message = <span>Nota:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { product-pocket } non subiranno modifiche.
 reset-password-button = Inizia il ripristino
 reset-password-success-alert = Password reimpostata
 reset-password-error-general = Si è verificato un problema durante la reimpostazione della password
 reset-password-error-unknown-account = Account sconosciuto
 reset-password-with-recovery-key-verified-generate-new-key = Genera una nuova chiave di recupero dell’account
-reset-password-with-recovery-key-verified-continue-to-account = Passa al mio account
+reset-password-with-recovery-key-verified-continue-to-account = Vai al mio account
