@@ -606,6 +606,15 @@ auth-error-1008 = La nueva contraseña debe ser diferente
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Restablecer la contraseña <span>para continuar con la configuración de la cuenta</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Restablecer la contraseña <span>para continuar con la configuración de la cuenta</span>
+reset-password-warning-message = <span>NOTA:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Podés perder parte de tu información personal (incluyendo el historial, marcadores y contraseñas). Eso es porque ciframos tu información con tu contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y la información de { product-pocket } no se verá afectada.
+reset-password-button = Iniciar el restablecimiento
+reset-password-success-alert = Restablecer la contraseña
+reset-password-error-general = Disculpá, hubo un problema al restablecer tu contraseña
 reset-password-error-unknown-account = Cuenta desconocida
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
