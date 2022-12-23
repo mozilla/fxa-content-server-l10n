@@ -249,6 +249,39 @@ price-details-tax-day =
             [one] { $priceAmount } + { $taxAmount } Steuern pro Tag
            *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Tage
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } Steuern pro Woche
+       *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Wochen
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } Steuern pro Woche
+           *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Wochen
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } Steuern pro Monat
+       *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Monate
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } Steuern pro Monat
+           *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Monate
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } Steuern pro Jahr
+       *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Jahre
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } Steuern pro Jahr
+           *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Jahre
+        }
 
 ## Component - SubscriptionTitle
 
@@ -280,6 +313,50 @@ coupon-promo-code = Aktionscode
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } pro Tag
+       *[other] { $amount } alle { $intervalCount } Tage
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } pro Tag
+           *[other] { $amount } alle { $intervalCount } Tage
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } pro Woche
+       *[other] { $amount } alle { $intervalCount } Wochen
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } pro Woche
+           *[other] { $amount } alle { $intervalCount } Wochen
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } pro Monat
+       *[other] { $amount } alle { $intervalCount } Monate
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } pro Monat
+           *[other] { $amount } alle { $intervalCount } Monate
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } pro Jahr
+       *[other] { $amount } alle{ $intervalCount } Jahre
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } pro Jahr
+           *[other] { $amount } alle{ $intervalCount } Jahre
+        }
 
 ## Error messages
 
@@ -395,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem beim Laden von Rechnungen
 sub-billing-update-success = Ihre Zahlungsinformationen wurden erfolgreich aktualisiert
+sub-invoice-previews-error-title = Fehler beim Laden der Rechnungsvorschau
+sub-invoice-previews-error-text = Rechnungsvorschau konnte nicht geladen werden
 
 ## Routes - Subscription - ActionButton
 
@@ -407,6 +486,8 @@ pay-update-manage-btn = Verwalten
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nächste Abrechnung am { $date }
+sub-next-bill-no-tax = Ihre nächste Rechnung über <strong>{ $priceAmount }</strong> ist am <strong>{ $date }</strong> fällig
+sub-next-bill-tax = Ihre nächste Rechnung in über <strong>{ $priceAmount } + { $taxAmount }</strong> Steuern ist am <strong>{ $date }</strong> fällig
 sub-expires-on = Läuft am { $date } ab
 
 ## Routes - Subscription - PaymentUpdate
@@ -426,6 +507,8 @@ sub-route-funding-source-payment-alert = Ungültige Zahlungsinformationen; es gi
 sub-item-no-such-plan = Für diesen Dauerauftrag existiert kein solcher Plan.
 invoice-not-found = Folgerechnung nicht gefunden
 sub-item-no-such-subsequent-invoice = Folgerechnung für dieses Abonnement nicht gefunden.
+sub-invoice-preview-error-title = Rechnungsvorschau nicht gefunden
+sub-invoice-preview-error-text = Rechnungsvorschau für dieses Abonnement nicht gefunden
 
 ## Routes - Subscriptions - Pocket Subscription
 
