@@ -35,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
+
 ## Ready component
 
 ready-confirmation = Salasanasi on nollattu
@@ -575,3 +581,9 @@ auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi en
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
+
+## ResetPassword page
+
+reset-password-error-unknown-account = Tuntematon tili
+reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
+reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille

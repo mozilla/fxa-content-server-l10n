@@ -72,8 +72,7 @@ new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaud
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Kirjoita sähköpostiosoitteesi
 new-user-confirm-email =
     .label = Vahvista sähköposti
@@ -195,6 +194,13 @@ plan-details-tax = Verot ja maksut
 
 product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppiä.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } vero
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Määritä tilaus
@@ -218,8 +224,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Sulje valintaikkuna
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Ladataan…
 settings-subscriptions-title = Tilaukset
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Tarjouskoodi
@@ -227,30 +231,6 @@ coupon-promo-code = Tarjouskoodi
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } päivittäin
-       *[other] { $amount } joka { $intervalCount }. päivä
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } viikoittain
-       *[other] { $amount } joka { $intervalCount }. viikko
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } kuukausittain
-       *[other] { $amount } joka { $intervalCount }. kuukausi
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } vuosittain
-       *[other] { $amount } joka { $intervalCount }. vuosi
-    }
 
 ## Error messages
 
@@ -342,34 +322,6 @@ sub-item-cancel-confirm =
     Peru käyttömahdollisuuteni ja pääsy tietoihini
     palvelussa { $name } { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } päivittäin
-       *[other] { $amount } { $intervalCount } päivän välein
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } viikottain
-       *[other] { $amount } { $intervalCount } viikon välein
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } kuukausittain
-       *[other] { $amount } { $intervalCount } kuukauden välein
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } vuosittain
-       *[other] { $amount } { $intervalCount } vuoden välein
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Tilauksen aktivointi uudelleen epäonnistui
@@ -391,6 +343,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Ongelma laskuja ladatessa
 sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
+sub-invoice-previews-error-title = Ongelma ladattaessa laskun esikatseluita
+sub-invoice-previews-error-text = Laskun esikatseluita ei voitu ladata
 
 ## Routes - Subscription - ActionButton
 
@@ -398,6 +352,8 @@ pay-update-change-btn = Muuta
 pay-update-manage-btn = Hallitse
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Seuraava laskutus { $date }
@@ -420,6 +376,8 @@ sub-route-funding-source-payment-alert = Virheelliset maksutiedot; tililläsi on
 sub-item-no-such-plan = Tälle tilaukselle ei ole kyseistä tilaustyyppiä.
 invoice-not-found = Seuraavaa laskua ei löydy
 sub-item-no-such-subsequent-invoice = Seuraavaa laskua ei löydy tälle tilaukselle.
+sub-invoice-preview-error-title = Laskun esikatselua ei löydy
+sub-invoice-preview-error-text = Tälle tilaukselle ei löytynyt laskun esikatselua
 
 ## Routes - Subscriptions - Pocket Subscription
 
