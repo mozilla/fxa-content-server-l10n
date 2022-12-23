@@ -193,6 +193,95 @@ product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } belasting
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] dagelijks { $priceAmount }
+       *[other] elke { $intervalCount } dagen { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] dagelijks { $priceAmount }
+           *[other] elke { $intervalCount } dagen { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] wekelijks { $priceAmount }
+       *[other] elke { $intervalCount } weken { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] wekelijks { $priceAmount }
+           *[other] elke { $intervalCount } weken { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] maandelijks { $priceAmount }
+       *[other] elke { $intervalCount } maanden { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] maandelijks { $priceAmount }
+           *[other] elke { $intervalCount } maanden { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] jaarlijks { $priceAmount }
+       *[other] elke { $intervalCount } jaar { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] jaarlijks { $priceAmount }
+           *[other] elke { $intervalCount } jaar { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] dagelijks { $priceAmount } + { $taxAmount } belasting
+       *[other] elke { $intervalCount } dagen { $priceAmount } + { $taxAmount } belasting
+    }
+    .title =
+        { $intervalCount ->
+            [one] dagelijks { $priceAmount } + { $taxAmount } belasting
+           *[other] elke { $intervalCount } dagen { $priceAmount } + { $taxAmount } belasting
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] wekelijks { $priceAmount } + { $taxAmount } belasting
+       *[other] elke { $intervalCount } weken { $priceAmount } + { $taxAmount } belasting
+    }
+    .title =
+        { $intervalCount ->
+            [one] wekelijks { $priceAmount } + { $taxAmount } belasting
+           *[other] elke { $intervalCount } weken { $priceAmount } + { $taxAmount } belasting
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] maandelijks { $priceAmount } + { $taxAmount } belasting
+       *[other] elke { $intervalCount } maanden { $priceAmount } + { $taxAmount } belasting
+    }
+    .title =
+        { $intervalCount ->
+            [one] maandelijks { $priceAmount } + { $taxAmount } belasting
+           *[other] elke { $intervalCount } maanden { $priceAmount } + { $taxAmount } belasting
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] jaarlijks { $priceAmount } + { $taxAmount } belasting
+       *[other] elke { $intervalCount } jaar { $priceAmount } + { $taxAmount } belasting
+    }
+    .title =
+        { $intervalCount ->
+            [one] jaarlijks { $priceAmount } + { $taxAmount } belasting
+           *[other] elke { $intervalCount } jaar { $priceAmount } + { $taxAmount } belasting
+        }
 
 ## Component - SubscriptionTitle
 
@@ -224,6 +313,50 @@ coupon-promo-code = Promotiecode
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] dagelijks { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] dagelijks { $amount }
+           *[other] elke { $intervalCount } dagen { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] wekelijks { $amount }
+       *[other] elke { $intervalCount } weken { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] wekelijks { $amount }
+           *[other] elke { $intervalCount } weken { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] maandelijks { $amount }
+       *[other] elke { $intervalCount } maanden { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] maandelijks { $amount }
+           *[other] elke { $intervalCount } maanden { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] jaarlijks { $amount }
+       *[other] elke { $intervalCount } jaar { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] jaarlijks { $amount }
+           *[other] elke { $intervalCount } jaar { $amount }
+        }
 
 ## Error messages
 
@@ -339,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Probleem bij het laden van facturen
 sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
+sub-invoice-previews-error-title = Probleem bij het laden van factuurvoorbeelden
+sub-invoice-previews-error-text = Kan factuurvoorbeelden niet laden
 
 ## Routes - Subscription - ActionButton
 
@@ -351,6 +486,8 @@ pay-update-manage-btn = Beheren
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
+sub-next-bill-no-tax = Uw volgende rekening van <strong>{ $priceAmount }</strong> is verschuldigd op <strong>{ $date }</strong>
+sub-next-bill-tax = Uw volgende factuur van <strong>{ $priceAmount } + { $taxAmount }</strong> belasting is verschuldigd op <strong>{ $date }</strong>
 sub-expires-on = Vervalt op { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -370,6 +507,8 @@ sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een 
 sub-item-no-such-plan = Abonnementschema bestaat niet.
 invoice-not-found = Volgende factuur niet gevonden
 sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit abonnement.
+sub-invoice-preview-error-title = Factuurvoorbeeld niet gevonden
+sub-invoice-preview-error-text = Factuurvoorbeeld niet gevonden voor dit abonnement
 
 ## Routes - Subscriptions - Pocket Subscription
 
