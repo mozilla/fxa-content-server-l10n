@@ -260,6 +260,58 @@ price-details-no-tax-year =
             [few] { $priceAmount } každé { $intervalCount } roky
            *[other] { $priceAmount } každých { $intervalCount } rokov
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } každý deň
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } dni
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } každý deň
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } dni
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } každý týždeň
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } týždne
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týždňov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } každý týždeň
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } týždne
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týždňov
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } každý mesiac
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } mesiace
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } mesiacov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } každý mesiac
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } mesiace
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } mesiacov
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } každý rok
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } roky
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } rokov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } každý rok
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } roky
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } rokov
+        }
 
 ## Component - SubscriptionTitle
 
