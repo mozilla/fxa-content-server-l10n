@@ -66,8 +66,7 @@ new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanme
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Fier jo e-mailadres yn
 new-user-confirm-email =
     .label = Befêstigje jo e-mailadres
@@ -189,6 +188,101 @@ plan-details-tax = Belestingen en heffingen
 
 product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } belesting
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] deistich { $priceAmount }
+       *[other] elke { $intervalCount } dagen { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] deistich { $priceAmount }
+           *[other] elke { $intervalCount } dagen { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] wykliks { $priceAmount }
+       *[other] elke { $intervalCount } wiken { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] wykliks { $priceAmount }
+           *[other] elke { $intervalCount } wiken { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] moanliks { $priceAmount }
+       *[other] elke { $intervalCount } moannen { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] moanliks { $priceAmount }
+           *[other] elke { $intervalCount } moannen { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] jierliks { $priceAmount }
+       *[other] elke { $intervalCount } jier { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] jierliks { $priceAmount }
+           *[other] elke { $intervalCount } jier { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] deistich { $priceAmount } + { $taxAmount } belesting
+       *[other] elke { $intervalCount } dagen { $priceAmount } + { $taxAmount } belesting
+    }
+    .title =
+        { $intervalCount ->
+            [one] deistich { $priceAmount } + { $taxAmount } belesting
+           *[other] elke { $intervalCount } dagen { $priceAmount } + { $taxAmount } belesting
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] wykliks { $priceAmount } + { $taxAmount } belesting
+       *[other] elke { $intervalCount } wiken { $priceAmount } + { $taxAmount } belesting
+    }
+    .title =
+        { $intervalCount ->
+            [one] wykliks { $priceAmount } + { $taxAmount } belesting
+           *[other] elke { $intervalCount } wiken { $priceAmount } + { $taxAmount } belesting
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] moanliks { $priceAmount } + { $taxAmount } belesting
+       *[other] elke { $intervalCount } moannen { $priceAmount } + { $taxAmount } belesting
+    }
+    .title =
+        { $intervalCount ->
+            [one] moanliks { $priceAmount } + { $taxAmount } belesting
+           *[other] elke { $intervalCount } moannen { $priceAmount } + { $taxAmount } belesting
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] jierliks { $priceAmount } + { $taxAmount } belesting
+       *[other] elke { $intervalCount } jier { $priceAmount } + { $taxAmount } belesting
+    }
+    .title =
+        { $intervalCount ->
+            [one] jierliks { $priceAmount } + { $taxAmount } belesting
+           *[other] elke { $intervalCount } jier { $priceAmount } + { $taxAmount } belesting
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Jo abonnemint ynstelle
@@ -212,8 +306,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Modal slute
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Lade…
 settings-subscriptions-title = Abonneminten
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promoasjekoade
@@ -222,29 +314,49 @@ coupon-promo-code = Promoasjekoade
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
         [one] deistich { $amount }
        *[other] elke { $intervalCount } dagen { $amount }
     }
+    .title =
+        { $intervalCount ->
+            [one] deistich { $amount }
+           *[other] elke { $intervalCount } dagen { $amount }
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
         [one] wykliks { $amount }
        *[other] elke { $intervalCount } wiken { $amount }
     }
+    .title =
+        { $intervalCount ->
+            [one] wykliks { $amount }
+           *[other] elke { $intervalCount } wiken { $amount }
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] moanliks { $amount }
        *[other] elke { $intervalCount } moannen { $amount }
     }
+    .title =
+        { $intervalCount ->
+            [one] moanliks { $amount }
+           *[other] elke { $intervalCount } moannen { $amount }
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] jierliks { $amount }
        *[other] elke { $intervalCount } jier { $amount }
     }
+    .title =
+        { $intervalCount ->
+            [one] jierliks { $amount }
+           *[other] elke { $intervalCount } jier { $amount }
+        }
 
 ## Error messages
 
@@ -339,34 +451,6 @@ sub-item-cancel-confirm =
     Myn tagong ta en bewarre gegevens yn { $name }
     op { $period } opsizze
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] deistich { $amount }
-       *[other] elke { $intervalCount } dagen { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] wykliks { $amount }
-       *[other] elke { $intervalCount } wiken { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] moanliks { $amount }
-       *[other] elke { $intervalCount } moannen { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] jierliks { $amount }
-       *[other] elke { $intervalCount } jier { $amount }
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Opnij aktivearjen fan abonnemint is mislearre
@@ -388,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Probleem by it laden fan faktueren
 sub-billing-update-success = Jo betellingsgegevens binne mei sukses bywurke
+sub-invoice-previews-error-title = Probleem by it laden fan faktuerfoarbylden
+sub-invoice-previews-error-text = Kin faktuerfoarbylden net lade
 
 ## Routes - Subscription - ActionButton
 
@@ -395,9 +481,13 @@ pay-update-change-btn = Wizigje
 pay-update-manage-btn = Beheare
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Folgjende ynkasso op { $date }
+sub-next-bill-no-tax = Jo folgjende rekkening fan <strong>{ $priceAmount }</strong> is ferskuldige op <strong>{ $date }</strong>
+sub-next-bill-tax = Jo folgjende faktuer fan <strong>{ $priceAmount } + { $taxAmount }</strong> belesting is ferskuldige op <strong>{ $date }</strong>
 sub-expires-on = Ferrint op { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -417,6 +507,8 @@ sub-route-funding-source-payment-alert = Ungjidige betellingsgegevens; der is in
 sub-item-no-such-plan = Abonnemintskema bestiet net.
 invoice-not-found = Folgjende faktuer net fûn
 sub-item-no-such-subsequent-invoice = Folgjende faktuer net fûn foar dit abonnemint.
+sub-invoice-preview-error-title = Faktuerfoarbyld net fûn
+sub-invoice-preview-error-text = Faktuerfoarbyld net fûn foar dit abonnemint
 
 ## Routes - Subscriptions - Pocket Subscription
 
