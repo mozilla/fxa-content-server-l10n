@@ -66,8 +66,7 @@ new-user-sign-in-link = Ha tu jam un conto { -brand-name-firefox }? <a>Accede</a
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Insere tu email
 new-user-confirm-email =
     .label = Confirma tu email
@@ -189,6 +188,12 @@ plan-details-tax = Taxas e oneres
 
 product-no-such-plan = Nulle tal plano pro iste producto.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Preparation de tu subscription
@@ -212,8 +217,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Clauder dialogo
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Cargante…
 settings-subscriptions-title = Subscriptiones
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Codice promo
@@ -221,30 +224,6 @@ coupon-promo-code = Codice promo
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } cata die
-       *[other] { $amount } cata { $intervalCount } dies
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } cata septimana
-       *[other] { $amount } cata { $intervalCount } septimanas
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } cata mense
-       *[other] { $amount } cata { $intervalCount }menses
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } annual
-       *[other] { $amount } cata { $intervalCount } annos
-    }
 
 ## Error messages
 
@@ -332,34 +311,6 @@ sub-item-stay-sub = Resta abonate
 sub-item-cancel-msg = Tu non sera plus capace usar { $name } post { $period }, le ultime die de tu termino de facturation.
 sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate intra { $name } le { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } cata die
-       *[other] { $amount } cata { $intervalCount } dies
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } cata septimana
-       *[other] { $amount } cata { $intervalCount } septimanas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } cata mene
-       *[other] { $amount } cata{ $intervalCount } menses
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } cata anno
-       *[other] { $amount } cata{ $intervalCount } annos
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Reactivation del subscription fallite
@@ -388,6 +339,8 @@ pay-update-change-btn = Cambiar
 pay-update-manage-btn = Gerer
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxime factura le { $date }
@@ -410,6 +363,7 @@ sub-route-funding-source-payment-alert = Informationes de pagamento non valide; 
 sub-item-no-such-plan = Nulle tal plano pro iste subscription.
 invoice-not-found = Factura posterior no trovate
 sub-item-no-such-subsequent-invoice = Factura posterior non trovate pro iste abonamento.
+sub-invoice-preview-error-title = Vista previe de factura non trovate
 
 ## Routes - Subscriptions - Pocket Subscription
 
