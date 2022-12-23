@@ -261,15 +261,15 @@ price-details-tax-week =
            *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } settimane
         }
 # $intervalCount (Number) - The interval between payments, in months.
-prezzo-dettagli-imposta-mese =
+price-details-tax-month =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } mensili
+        [one] { $priceAmount } + { $taxAmount } tasse al mese
        *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } mesi
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } mensili
-           *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } mesi
+            [one] { $priceAmount } + { $taxAmount } tax al mese
+           *[other] { $priceAmount } + { $taxAmount } tax ogni { $intervalCount } mesi
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
@@ -314,7 +314,7 @@ coupon-promo-code = Codice promozionale
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-piano-prezzo-intervallo-giorno =
+plan-price-interval-day =
     { $intervalCount ->
         [one] { $amount } al giorno
        *[other] { $amount } ogni { $intervalCount } giorni
@@ -323,39 +323,6 @@ piano-prezzo-intervallo-giorno =
         { $intervalCount ->
             [one] { $amount } al giorno
            *[other] { $amount } ogni { $intervalCount } giorni
-        }
-# $intervalCount (Number) - The interval between payments, in weeks.
-piano-intervallo-prezzo-settimana =
-    { $intervalCount ->
-        [one] { $amount } settimanalmente
-       *[other] { $amount } ogni { $intervalCount } settimane
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } settimanalmente
-           *[other] { $amount } ogni { $intervalCount } settimane
-        }
-# $intervalCount (Number) - The interval between payments, in months.
-piano-prezzo-intervallo-mese =
-    { $intervalCount ->
-        [one] { $amount } al mese
-       *[other] { $amount } ogni { $intervalCount } mesi
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } al mese
-           *[other] { $amount } ogni { $intervalCount } mesi
-        }
-# $intervalCount (Number) - The interval between payments, in years.
-piano-prezzo-intervallo-anno =
-    { $intervalCount ->
-        [one] { $amount } all’anno
-       *[other] { $amount } ogni { $intervalCount } anni
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } all’anno
-           *[other] { $amount } ogni { $intervalCount } anni
         }
 
 ## Error messages
