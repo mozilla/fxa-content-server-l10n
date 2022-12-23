@@ -88,7 +88,7 @@ payment-confirmation-thanks-subheading = 我們已將確認郵件發送到 { $em
 # $email (string) - The user's email.
 payment-confirmation-thanks-subheading-account-exists = 您將會在 { $email } 收到一封信，當中包含如何設定帳號、付款方式的相關資訊。
 payment-confirmation-order-heading = 訂單詳細資訊
-payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
+payment-confirmation-invoice-number = 請款單號碼 #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = 付款資訊
 payment-confirmation-amount = 每 { $interval } { $amount }
 # $amount (Number) - The amount billed. It will be formatted as currency.
