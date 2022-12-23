@@ -613,3 +613,15 @@ auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei jo accountynstellingen</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
+reset-password-warning-message = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { product-pocket }-gegevens wurde net beynfloede.
+reset-password-button = Werinisjalisaasje begjinne
+reset-password-success-alert = Wachtwurd opnij ynstelle:
+reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstellen fan jo wachtwurd
+reset-password-error-unknown-account = Unbekende account
+reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
+reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
