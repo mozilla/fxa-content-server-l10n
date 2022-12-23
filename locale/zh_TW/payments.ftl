@@ -66,9 +66,8 @@ new-user-sign-in-link = 已經有 { -brand-name-firefox } 帳號了嗎？<a>請�
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = 輸入您的電子郵件信箱
+new-user-enter-email =
+    .label = 輸入您的電子郵件地址
 new-user-confirm-email =
     .label = 確認電子郵件信箱
 new-user-subscribe-product-updates = 我想要收到 { -brand-name-firefox } 的產品更新資訊
@@ -189,6 +188,33 @@ plan-details-tax = 稅費
 
 product-no-such-plan = 此產品無此方案。
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + 稅金 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] 每天 { $priceAmount }
+       *[other] 每 { $intervalCount } 天 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每天 { $priceAmount }
+           *[other] 每 { $intervalCount } 天 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+       *[one] 每週 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] 每 { $intervalCount } 週 { $priceAmount }
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = 設定訂閱
@@ -212,8 +238,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = 關閉對話框
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = 載入中…
 settings-subscriptions-title = 訂閱
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = 折扣碼
@@ -221,30 +245,6 @@ coupon-promo-code = 折扣碼
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [1] 每天 { $amount }
-       *[other] 每 { $intervalCount } 天 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [1] 每週 { $amount }
-       *[other] 每 { $intervalCount } 週 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [1] 每個月 { $amount }
-       *[other] 每 { $intervalCount } 個月 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [1] 每年 { $amount }
-       *[other] 每 { $intervalCount } 年 { $amount }
-    }
 
 ## Error messages
 
@@ -332,34 +332,6 @@ sub-item-stay-sub = 保持訂閱
 sub-item-cancel-msg = 在帳務週期最後一天（{ $period }）之後，將無法再使用 { $name }。
 sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用權限與儲存的所有資訊
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] 每天 { $amount }
-       *[other] 每 { $intervalCount } 天 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] 每週 { $amount }
-       *[other] 每 { $intervalCount } 週 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] 每個月 { $amount }
-       *[other] 每 { $intervalCount } 個月 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] 每年 { $amount }
-       *[other] 每 { $intervalCount } 年 { $amount }
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = 重新訂閱失敗
@@ -385,6 +357,8 @@ pay-update-change-btn = 變更
 pay-update-manage-btn = 管理
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下次收費時間：{ $date }
