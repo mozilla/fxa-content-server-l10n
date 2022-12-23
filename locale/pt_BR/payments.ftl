@@ -66,8 +66,7 @@ new-user-sign-in-link = Já tem uma Conta { -brand-name-firefox }? <a>Entre</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Digite seu email
 new-user-confirm-email =
     .label = Confirme seu email
@@ -189,6 +188,46 @@ plan-details-tax = Impostos e taxas
 
 product-no-such-plan = Não existe esse plano para este produto.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } de imposto
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } por dia
+       *[other] { $priceAmount } a cada { $intervalCount } dias
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } por dia
+           *[other] { $priceAmount } a cada { $intervalCount } dias
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } por semana
+       *[other] { $priceAmount } a cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } por semana
+           *[other] { $priceAmount } a cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } por mês
+       *[other] { $priceAmount } a cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } por mês
+           *[other] { $priceAmount } a cada { $intervalCount } meses
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Configurar assinatura
@@ -212,8 +251,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Fechar modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Carregando…
 settings-subscriptions-title = Assinaturas
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Código promocional
@@ -221,30 +258,6 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } diariamente
-       *[other] { $amount } a cada { $intervalCount } dias
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } semanalmente
-       *[other] { $amount } a cada { $intervalCount } semanas
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mensalmente
-       *[other] { $amount } a cada { $intervalCount } meses
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } anualmente
-       *[other] { $amount } a cada { $intervalCount } anos
-    }
 
 ## Error messages
 
@@ -334,34 +347,6 @@ sub-item-cancel-confirm =
     Cancele meu acesso e minhas informações salvas dentro do
     { $name } em { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } diariamente
-       *[other] { $amount } a cada { $intervalCount } dias
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } semanalmente
-       *[other] { $amount } a cada { $intervalCount } semanas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mensalmente
-       *[other] { $amount } a cada { $intervalCount } meses
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } anualmente
-       *[other] { $amount } a cada { $intervalCount } anos
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Falha na reativação da assinatura
@@ -390,6 +375,8 @@ pay-update-change-btn = Alterar
 pay-update-manage-btn = Gerenciar
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança em { $date }
