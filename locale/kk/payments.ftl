@@ -66,8 +66,8 @@ new-user-sign-in-link = { -brand-name-firefox } тіркелгіңіз бар м
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .label = Эл. пошта адресіңізді енгізіңіз
+new-user-enter-email =
+    .label = Эл. поштаңызды енгізіңіз
 new-user-confirm-email =
     .label = Эл. пошта адресіңізді растаңыз
 new-user-subscribe-product-updates = Мен { -brand-name-firefox } өнім жаңалықтарын алғым келеді
@@ -188,6 +188,24 @@ plan-details-tax = Салықтар мен алымдар
 
 product-no-such-plan = Бұл өнім үшін мұндай жоспар жоқ.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } салық
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } күн сайын
+       *[other] { $priceAmount } әр { $intervalCount } күн сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } күн сайын
+           *[other] { $priceAmount } әр { $intervalCount } күн сайын
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Жазылуыңызды реттеу
@@ -218,50 +236,6 @@ coupon-promo-code = Промокод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } күнде
-       *[other] { $amount } әр { $intervalCount } күн сайын
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } күнде
-           *[other] { $amount } әр { $intervalCount } күн сайын
-        }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } апта сайын
-       *[other] { $amount } әр { $intervalCount } апта сайын
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } апта сайын
-           *[other] { $amount } әр { $intervalCount } апта сайын
-        }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } ай сайын
-       *[other] { $amount } әр { $intervalCount } ай сайын
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } ай сайын
-           *[other] { $amount } әр { $intervalCount } ай сайын
-        }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } жыл сайын
-       *[other] { $amount } әр { $intervalCount } жыл сайын
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } жыл сайын
-           *[other] { $amount } әр { $intervalCount } жыл сайын
-        }
 
 ## Error messages
 
@@ -352,34 +326,6 @@ sub-item-stay-sub = Жазылуда қала беру
 sub-item-cancel-msg = Төлем циклінің соңғы күнінен, яғни { $period } кейін, { $name } бұдан былай пайдалана алмайсыз.
 sub-item-cancel-confirm = { $period } күні { $name } ішіне кіру рұқсатымды және сақталған ақпаратымды тоқтатыңыз
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } күн сайын
-       *[other] { $amount } әр { $intervalCount } күн сайын
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } апта сайын
-       *[other] { $amount } әр { $intervalCount } апта сайын
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } ай сайын
-       *[other] { $amount } әр { $intervalCount } ай сайын
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } жыл сайын
-       *[other] { $amount } әр { $intervalCount } жыл сайын
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Жазылуды қайта белсендіру сәтсіз аяқталды
@@ -401,6 +347,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Шот-фактураларды жүктеу мәселесі
 sub-billing-update-success = Төлем ақпаратыңыз сәтті жаңартылды
+sub-invoice-previews-error-title = Шот-фактураны алдын ала қарауды жүктеу кезінде мәселе
+sub-invoice-previews-error-text = Шот-фактураны алдын ала қарауды жүктеу мүмкін болмады
 
 ## Routes - Subscription - ActionButton
 
@@ -408,6 +356,8 @@ pay-update-change-btn = Өзгерту
 pay-update-manage-btn = Басқару
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Келесі төлем { $date } күні
@@ -430,6 +380,8 @@ sub-route-funding-source-payment-alert = Төлем ақпараты жарам�
 sub-item-no-such-plan = Бұл жазылу үшін мұндай жоспар жоқ.
 invoice-not-found = Кейінгі шот-фактура табылмады
 sub-item-no-such-subsequent-invoice = Бұл жазылу үшін келесі шот-фактура табылмады.
+sub-invoice-preview-error-title = Шот-фактураны алдын ала қарау табылмады
+sub-invoice-preview-error-text = Бұл жазылу үшін шот-фактураны алдын ала қарау табылмады
 
 ## Routes - Subscriptions - Pocket Subscription
 
