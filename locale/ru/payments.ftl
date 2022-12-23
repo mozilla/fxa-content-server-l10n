@@ -197,6 +197,58 @@ product-no-such-plan = Нет такого плана для этого прод
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } каждый { $intervalCount } день
+        [few] { $priceAmount } каждые { $intervalCount } дня
+       *[many] { $priceAmount } каждые { $intervalCount } дней
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } каждый { $intervalCount } день
+            [few] { $priceAmount } каждые { $intervalCount } дня
+           *[many] { $priceAmount } каждые { $intervalCount } дней
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } каждую { $intervalCount } неделю
+        [few] { $priceAmount } каждые { $intervalCount } недели
+       *[many] { $priceAmount } каждые { $intervalCount } недель
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } каждую { $intervalCount } неделю
+            [few] { $priceAmount } каждые { $intervalCount } недели
+           *[many] { $priceAmount } каждые { $intervalCount } недель
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } каждый { $intervalCount } месяц
+        [few] { $priceAmount } каждые { $intervalCount } месяца
+       *[many] { $priceAmount } каждые { $intervalCount } месяцев
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } каждый { $intervalCount } месяц
+            [few] { $priceAmount } каждые { $intervalCount } месяца
+           *[many] { $priceAmount } каждые { $intervalCount } месяцев
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } каждый { $intervalCount } год
+        [few] { $priceAmount } каждые { $intervalCount } года
+       *[many] { $priceAmount } каждые { $intervalCount } лет
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } каждый { $intervalCount } год
+            [few] { $priceAmount } каждые { $intervalCount } года
+           *[many] { $priceAmount } каждые { $intervalCount } лет
+        }
 
 ## Component - SubscriptionTitle
 
@@ -228,6 +280,58 @@ coupon-promo-code = Промокод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } каждый { $intervalCount } день
+        [few] { $amount } каждые { $intervalCount } дня
+       *[many] { $amount } каждые { $intervalCount } дней
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } каждый { $intervalCount } день
+            [few] { $amount } каждые { $intervalCount } дня
+           *[many] { $amount } каждые { $intervalCount } дней
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } каждую { $intervalCount } неделю
+        [few] { $amount } каждые { $intervalCount } недели
+       *[many] { $amount } каждые { $intervalCount } недель
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } каждую { $intervalCount } неделю
+            [few] { $amount } каждые { $intervalCount } недели
+           *[many] { $amount } каждые { $intervalCount } недель
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } каждый { $intervalCount } месяц
+        [few] { $amount } каждые { $intervalCount } месяца
+       *[many] { $amount } каждые { $intervalCount } месяцев
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } каждый { $intervalCount } месяц
+            [few] { $amount } каждые { $intervalCount } месяца
+           *[many] { $amount } каждые { $intervalCount } месяцев
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } каждый { $intervalCount } год
+        [few] { $amount } каждые { $intervalCount } года
+       *[many] { $amount } каждые { $intervalCount } лет
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } каждый { $intervalCount } год
+            [few] { $amount } каждые { $intervalCount } года
+           *[many] { $amount } каждые { $intervalCount } лет
+        }
 
 ## Error messages
 
