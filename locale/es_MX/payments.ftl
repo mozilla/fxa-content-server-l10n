@@ -387,7 +387,7 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
-sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }
+sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
 sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> vence el <strong>{ $date }</strong>
 sub-expires-on = Expira el { $date }
 
