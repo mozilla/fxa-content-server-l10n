@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -42,6 +43,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = Votre mot de passe à été réinitialisé
@@ -64,18 +68,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } est une technologie qui lutte pour votre vie privée.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navigateur { -brand-firefox } pour ordinateur
 bento-menu-firefox-mobile = Navigateur { -brand-firefox } pour mobile
-
 bento-menu-made-by-mozilla = Conçu par { -brand-mozilla }
 
 ## Connect another device promo
@@ -84,7 +87,6 @@ connect-another-fx-mobile = Installez { -brand-firefox } sur mobile ou tablette
 connect-another-find-fx-mobile =
     Recherchez { -brand-firefox } sur { -google-play } ou l’{ -app-store } ou
     <br /><linkexternal>envoyez un lien de téléchargement sur votre appareil.</linkexternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -93,6 +95,7 @@ connect-another-app-store-image-2 =
     .title = Télécharger { -brand-firefox } sur l’{ -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -105,13 +108,10 @@ cs-cannot-disconnect = Client introuvable, impossible de se déconnecter
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Déconnecté·e de { $service }.
-
 cs-refresh-button =
     .title = Actualiser les services connectés
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Éléments manquants ou dupliqués ?
-
 cs-disconnect-sync-heading = Se déconnecter de Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -140,10 +140,10 @@ cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconne
 cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-disconnect-suspicious-advice-content = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-firefox-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
-
 cs-sign-out-button = Se déconnecter
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -172,7 +172,6 @@ drop-down-menu-title = Menu { -product-firefox-account(capitalization: "uppercas
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Connecté·e en tant que</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Déconnexion
-
 drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconnexion
 
 ## Flow Container
@@ -206,7 +205,6 @@ input-password-hide = Masquer le mot de passe
 input-password-show = Afficher le mot de passe
 input-password-hide-aria = Masquer le mot de passe de l’écran.
 input-password-show-aria = Afficher le mot de passe sous forme de texte brut. Votre mot de passe sera visible à l’écran.
-
 
 ## Linked Accounts section
 
@@ -287,11 +285,11 @@ avatar-page-image-too-large-error-2 = Cette image est trop volumineuse pour êtr
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Changement de mot de passe
-
 pw-8-chars = Au moins 8 caractères
 pw-not-email = Pas votre adresse e-mail
 pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
@@ -301,40 +299,35 @@ pw-tips = Protégez-vous — ne réutilisez pas vos mots de passe. Voici plus de
 pw-change-cancel-button = Annuler
 pw-change-save-button = Enregistrer
 pw-change-forgot-password-link = Mot de passe oublié ?
-
 pw-change-current-password =
     .label = Saisissez votre mot de passe actuel
 pw-change-new-password =
     .label = Saisissez le nouveau mot de passe
 pw-change-confirm-password =
     .label = Confirmez le nouveau mot de passe
-
 pw-change-success-alert-2 = Mot de passe mis à jour
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Créer un mot de passe
-
 pw-create-success-alert-2 = Mot de passe défini
 pw-create-error-2 = Un problème est survenu lors de la création de votre mot de passe
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Supprimer le compte
-
 delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
-
 delete-account-confirm-title-2 = Votre { -product-firefox-account } est connecté à des produits { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
-
 delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
-
 delete-account-chk-box-1-v2 =
     .label = Tous les abonnements payants que vous détenez seront annulés (sauf { product-pocket })
 delete-account-chk-box-2 =
@@ -343,33 +336,28 @@ delete-account-chk-box-3 =
     .label = Réactiver le compte avec cette adresse e-mail peut ne pas restaurer vos informations enregistrées
 delete-account-chk-box-4 =
     .label = Toutes les extensions et tous les thèmes que vous avez publiés sur addons.mozilla.org seront supprimés
-
-
 delete-account-continue-button = Continuer
-
 delete-account-password-input =
     .label = Saisissez votre mot de passe
-
 delete-account-cancel-button = Annuler
 delete-account-delete-button-2 = Supprimer
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Nom d’affichage
-
 display-name-input =
     .label = Saisissez le nom à afficher
 submit-display-name = Enregistrer
 cancel-display-name = Annuler
-
 display-name-update-error-2 = Un problème est survenu lors de la mise à jour de votre nom d’affichage.
-
 display-name-success-alert-2 = Nom d’affichage mis à jour
 
 ##
+
 
 # Account recovery key setup page
 
@@ -423,25 +411,20 @@ delete-account-link = Supprimer le compte
 ## Two Step Authentication
 
 tfa-title = Authentification en deux étapes
-
 tfa-step-1-3 = Étape 1 sur 3
 tfa-step-2-3 = Étape 2 sur 3
 tfa-step-3-3 = Étape 3 sur 3
-
 tfa-button-continue = Continuer
 tfa-button-cancel = Annuler
 tfa-button-finish = Terminer
-
 tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
 tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
 tfa-cannot-verify-code-4 = Un problème est survenu lors de la confirmation de vos codes d’authentification de secours
 tfa-incorrect-recovery-code-1 = Code d’authentification de secours incorrect
 tfa-enabled = Authentification en deux étapes activée
-
 tfa-scan-this-code =
     Scannez ce code QR en utilisant l’une de <linkExternal>ces 
     applications d’authentification</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -452,22 +435,20 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Impossible de scanner le code ?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Saisissez cette clé secrète dans votre application d’authentification :
-
 tfa-enter-totp = Maintenant, saisissez le code de sécurité de l’application d’authentification.
 tfa-input-enter-totp =
     .label = Saisissez le code de sécurité
 tfa-save-these-codes-1 =
     Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
     vous n’avez pas votre appareil mobile.
-
 tfa-enter-code-to-confirm-1 = Veuillez saisir l’un de vos codes d’authentification de secours maintenant pour confirmer que vous les avez enregistrés. Vous aurez besoin d’un code pour vous connecter si vous n’avez pas accès à votre appareil mobile.
 tfa-enter-recovery-code-1 =
     .label = Saisissez un code d’authentification de secours
 
 ##
+
 
 ## Profile section
 
@@ -480,6 +461,7 @@ profile-primary-email =
     .header = Adresse e-mail principale
 
 ##
+
 
 ## Security section of Setting
 
@@ -569,6 +551,7 @@ se-secondary-email-none = Aucune
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authentification en deux étapes
@@ -577,20 +560,17 @@ tfa-row-enabled = Activée
 tfa-row-not-set = Non définie
 tfa-row-action-add = Ajouter
 tfa-row-action-disable = Désactiver
-
 tfa-row-button-refresh =
     .title = Actualiser l’authentification en deux étapes
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.
 tfa-row-content-explain = Empêche quelqu’un d’autre de se connecter en exigeant un code unique auquel vous seul·e avez accès.
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
-
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
 tfa-row-disable-modal-explain-1 =
     Vous ne pourrez pas annuler cette action. Vous avez également
     la possibilité de <linkExternal>remplacer vos code d’authentification de secours</linkExternal>.
 tfa-row-cannot-disable-2 = L’authentification en deux étapes n’a pas pu être désactivée
-
 tfa-row-change-modal-heading-1 = Changer les code d’authentification de secours ?
 tfa-row-change-modal-confirm = Changer
 tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
@@ -614,3 +594,13 @@ auth-error-139 = L’adresse alternative doit être différente de l’adresse d
 auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent
+
+## ResetPassword page
+
+reset-password-warning-message = <span>Attention :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { product-pocket } ne seront pas affectées.
+reset-password-button = Lancer la réinitialisation
+reset-password-success-alert = Mot de passe réinitialisé
+reset-password-error-general = Un problème est survenu lors de la réinitialisation de votre mot de passe
+reset-password-error-unknown-account = Compte inconnu
+reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
+reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
