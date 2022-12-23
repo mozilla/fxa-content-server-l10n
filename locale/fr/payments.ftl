@@ -66,7 +66,7 @@ new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Saisissez votre adresse e-mail
 new-user-confirm-email =
     .label = Confirmez votre adresse e-mail
@@ -188,6 +188,13 @@ plan-details-tax = Taxes et frais
 
 product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } de taxes
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Configuration de votre abonnement
@@ -211,8 +218,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Fermer le dialogue
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Chargement…
 settings-subscriptions-title = Abonnements
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Code promo
@@ -220,30 +225,6 @@ coupon-promo-code = Code promo
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } chaque jour
-       *[other] { $amount } tous les { $intervalCount } jours
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } chaque semaine
-       *[other] { $amount } toutes les { $intervalCount } semaines
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } chaque mois
-       *[other] { $amount } tous les { $intervalCount } mois
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } chaque année
-       *[other] { $amount } tous les { $intervalCount } ans
-    }
 
 ## Error messages
 
@@ -336,34 +317,6 @@ sub-item-cancel-confirm =
     Annuler mon accès et mes informations enregistrées dans
     { $name } le { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } par jour
-       *[other] { $amount } tous les { $intervalCount } jours
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } par semaine
-       *[other] { $amount } toutes les { $intervalCount } semaines
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } par mois
-       *[other] { $amount } tous les { $intervalCount } mois
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } par an
-       *[other] { $amount } tous les { $intervalCount } ans
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
@@ -392,6 +345,8 @@ pay-update-change-btn = Changer
 pay-update-manage-btn = Gérer
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prochaine facturation le { $date }
