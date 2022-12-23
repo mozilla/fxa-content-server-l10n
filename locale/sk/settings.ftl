@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -98,6 +99,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
+
 ## Ready component
 
 ready-confirmation = Vaše heslo bolo obnovené
@@ -120,18 +127,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Ponuka { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
 bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
-
 bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 
 ## Connect another device promo
@@ -140,7 +146,6 @@ connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile =
     Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
     <br />prípadne si nechajte <linkExternal>poslať odkaz na svoje zariadenie</linkExternal>.
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -149,6 +154,7 @@ connect-another-app-store-image-2 =
     .title = Stiahnite si { -brand-firefox } z { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -163,13 +169,10 @@ cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Odhlásené zo služby { $service }
-
 cs-refresh-button =
     .title = Obnoviť pripojené služby
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
-
 cs-disconnect-sync-heading = Odpojiť zo služby Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -209,10 +212,10 @@ cs-disconnect-suspicious-advice-content =
     Mali by ste tiež zmeniť akékoľvek iné heslá, ktoré ste si
     uložili na prehliadači { -brand-firefox }, a to zadaním výrazu
     about:logins do panela s adresou.
-
 cs-sign-out-button = Odhlásiť sa
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -241,7 +244,6 @@ drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitaliza
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prihlásený ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odhlásiť sa
-
 drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
 ## Flow Container
@@ -275,7 +277,6 @@ input-password-hide = Skryť heslo
 input-password-show = Zobraziť heslo
 input-password-hide-aria = Skryť heslo z obrazovky.
 input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
-
 
 ## Linked Accounts section
 
@@ -356,11 +357,11 @@ avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože 
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Zmena hesla
-
 pw-8-chars = Minimálne 8 znakov
 pw-not-email = Nepoužívajte vašu e-mailovú adresu
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
@@ -370,40 +371,35 @@ pw-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďal
 pw-change-cancel-button = Zrušiť
 pw-change-save-button = Uložiť
 pw-change-forgot-password-link = Zabudli ste heslo?
-
 pw-change-current-password =
     .label = Zadajte súčasné heslo
 pw-change-new-password =
     .label = Zadajte nové heslo
 pw-change-confirm-password =
     .label = Potvrďte nové heslo
-
 pw-change-success-alert-2 = Heslo bolo aktualizované
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Vytvorenie hesla
-
 pw-create-success-alert-2 = Heslo bolo nastavené
 pw-create-error-2 = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Odstrániť účet
-
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-
 delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization: "lower") } ste pripojili k produktom { -brand-mozilla(case: "gen") }, ktoré vám pomôžu zaistiť vaše bezpečie a produktivitu na webe:
-
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
-
 delete-account-chk-box-1-v2 =
     .label = Všetky predplatné, ktoré máte, budú zrušené (okrem služby { product-pocket })
 delete-account-chk-box-2 =
@@ -412,33 +408,28 @@ delete-account-chk-box-3 =
     .label = opätovná aktivácia pomocou tejto e-mailovej adresy nemusí obnoviť vaše uložené informácie
 delete-account-chk-box-4 =
     .label = všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
-
-
 delete-account-continue-button = Pokračovať
-
 delete-account-password-input =
     .label = Zadajte heslo
-
 delete-account-cancel-button = Zrušiť
 delete-account-delete-button-2 = Odstrániť
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Zobrazované meno
-
 display-name-input =
     .label = Zadajte zobrazované meno
 submit-display-name = Uložiť
 cancel-display-name = Zrušiť
-
 display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém
-
 display-name-success-alert-2 = Zobrazované meno aktualizované
 
 ##
+
 
 # Account recovery key setup page
 
@@ -492,25 +483,20 @@ delete-account-link = Odstrániť účet
 ## Two Step Authentication
 
 tfa-title = Dvojstupňové overenie
-
 tfa-step-1-3 = Krok 1 z 3
 tfa-step-2-3 = Krok 2 z 3
 tfa-step-3-3 = Krok 3 z 3
-
 tfa-button-continue = Pokračovať
 tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
-
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
 tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
-
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
     aplikácií</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -521,17 +507,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
-
 tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
 tfa-input-enter-totp =
     .label = Zadajte bezpečnostný kód
 tfa-save-these-codes-1 =
     Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
     keď nebudete mať svoje mobilné zariadenie.
-
 tfa-enter-code-to-confirm-1 =
     Zadajte jeden zo svojich záložných overovacích kódov a potvrďte, že ste ho uložili.
     Ak nebudete mať prístup k svojmu mobilnému zariadeniu, na prihlásenie budete potrebovať tento kód.
@@ -539,6 +522,7 @@ tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
 ##
+
 
 ## Profile section
 
@@ -551,6 +535,7 @@ profile-primary-email =
     .header = Hlavná e-mailová adresa
 
 ##
+
 
 ## Security section of Setting
 
@@ -641,6 +626,7 @@ se-secondary-email-none = žiadna
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvojstupňové overenie
@@ -649,7 +635,6 @@ tfa-row-enabled = Povolené
 tfa-row-not-set = Nie je nastavené
 tfa-row-action-add = Pridať
 tfa-row-action-disable = Zakázať
-
 tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
@@ -657,14 +642,12 @@ tfa-row-content-explain =
     Zabráňte niekomu inému v prihlásení vyžadovaním
     jedinečného kódu, ku ktorému máte prístup iba vy.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
-
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain-1 =
     Túto akciu nebudete môcť vrátiť späť. Máte tiež
     možnosť <linkExternal>nahradiť svoje záložné overovacie kódy</linkExternal>.
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
-
 tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
@@ -688,3 +671,18 @@ auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa úč
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-1008 = Staré a nové heslo sa musia líšiť
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do nastavení účtu</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
+reset-password-warning-message = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { product-pocket }.
+reset-password-button = Spustiť obnovu
+reset-password-success-alert = Obnova hesla
+reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
+reset-password-error-unknown-account = Neznámy účet
+reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
+reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu

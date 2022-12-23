@@ -76,7 +76,7 @@ new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste 
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Zadajte e-mailovú adresu
 new-user-confirm-email =
     .label = Potvrďte vašu e-mailovú adresu
@@ -202,6 +202,65 @@ plan-details-tax = Dane a poplatky
 
 product-no-such-plan = Pre tento produkt takýto plán neexistuje.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + daň { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } každý deň
+        [few] { $priceAmount } každé { $intervalCount } dni
+       *[other] { $priceAmount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } každý deň
+            [few] { $priceAmount } každé { $intervalCount } dni
+           *[other] { $priceAmount } každých { $intervalCount } dní
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } každý týždeň
+        [few] { $priceAmount } každé { $intervalCount } týždne
+       *[other] { $priceAmount } každých { $intervalCount } týždňov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } každý týždeň
+            [few] { $priceAmount } každé { $intervalCount } týždne
+           *[other] { $priceAmount } každých { $intervalCount } týždňov
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } každý mesiac
+        [few] { $priceAmount } každé { $intervalCount } mesiace
+       *[other] { $priceAmount } každých { $intervalCount } mesiacov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } každý mesiac
+            [few] { $priceAmount } každé { $intervalCount } mesiace
+           *[other] { $priceAmount } každých { $intervalCount } mesiacov
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ročne
+        [few] { $priceAmount } každé { $intervalCount } roky
+       *[other] { $priceAmount } každých { $intervalCount } rokov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ročne
+            [few] { $priceAmount } každé { $intervalCount } roky
+           *[other] { $priceAmount } každých { $intervalCount } rokov
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Nastavte si predplatné
@@ -225,8 +284,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Zavrieť
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Načítava sa…
 settings-subscriptions-title = Predplatné
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promo kód
@@ -235,46 +292,46 @@ coupon-promo-code = Promo kód
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } denne
+        [one] { $amount } každý deň
         [few] { $amount } každé { $intervalCount } dni
        *[other] { $amount } každých { $intervalCount } dní
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } denne
+            [one] { $amount } každý deň
             [few] { $amount } každé { $intervalCount } dni
            *[other] { $amount } každých { $intervalCount } dní
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
-        [one] { $amount } týždenne
+        [one] { $amount } každý týždeň
         [few] { $amount } každé { $intervalCount } týždne
        *[other] { $amount } každých { $intervalCount } týždňov
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } týždenne
+            [one] { $amount } každý týždeň
             [few] { $amount } každé { $intervalCount } týždne
            *[other] { $amount } každých { $intervalCount } týždňov
         }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
-        [one] { $amount } mesačne
+        [one] { $amount } každý mesiac
         [few] { $amount } každé { $intervalCount } mesiace
        *[other] { $amount } každých { $intervalCount } mesiacov
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } mesačne
+            [one] { $amount } každý mesiac
             [few] { $amount } každé { $intervalCount } mesiace
            *[other] { $amount } každých { $intervalCount } mesiacov
         }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } ročne
         [few] { $amount } každé { $intervalCount } roky
@@ -375,38 +432,6 @@ sub-item-stay-sub = Ponechať predplatné
 sub-item-cancel-msg = Po { $period }, poslednom dni vášho fakturačného cyklu, už produkt { $name } nebudete môcť používať.
 sub-item-cancel-confirm = Zrušiť môj prístup k produktu { $name } a dáta v ňom uložené ku dňu { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } denne
-        [few] { $amount } každé { $intervalCount } dni
-       *[other] { $amount } každých { $intervalCount } dní
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } týždenne
-        [few] { $amount } každé { $intervalCount } týždne
-       *[other] { $amount } každých { $intervalCount } týždňov
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mesačne
-        [few] { $amount } každé { $intervalCount } mesiace
-       *[other] { $amount } každých { $intervalCount } mesiacov
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } ročne
-        [few] { $amount } každé { $intervalCount } roky
-       *[other] { $amount } každých { $intervalCount } rokov
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Predplatné sa nepodarilo obnoviť
@@ -428,6 +453,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problém s načítaním faktúr
 sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizované
+sub-invoice-previews-error-title = Problém s načítaním ukážok faktúr
+sub-invoice-previews-error-text = Nepodarilo sa načítať ukážky faktúr
 
 ## Routes - Subscription - ActionButton
 
@@ -435,9 +462,13 @@ pay-update-change-btn = Zmeniť
 pay-update-manage-btn = Spravovať
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ďalšia fakturácia dňa { $date }
+sub-next-bill-no-tax = Vaša ďalšia faktúra vo výške <strong>{ $priceAmount }</strong> je splatná dňa <strong>{ $date }</strong>
+sub-next-bill-tax = Vaša ďalšia faktúra vo výške <strong>{ $priceAmount } + daň { $taxAmount }</strong> je splatná dňa <strong>{ $date }</strong>
 sub-expires-on = Vyprší dňa { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -457,6 +488,8 @@ sub-route-funding-source-payment-alert = Neplatné informácie o platbe; vo vaš
 sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 invoice-not-found = Následná faktúra sa nenašla
 sub-item-no-such-subsequent-invoice = Následná faktúra za toto predplatné sa nenašla.
+sub-invoice-preview-error-title = Ukážka faktúry sa nenašla
+sub-invoice-preview-error-text = Pre toto predplatné sa nenašla ukážka faktúry
 
 ## Routes - Subscriptions - Pocket Subscription
 
