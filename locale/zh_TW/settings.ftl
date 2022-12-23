@@ -575,6 +575,12 @@ auth-error-1008 = 您的新密碼必須與舊密碼不同
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往帳號設定</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
+reset-password-warning-message = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ product-pocket } 服務當中的資料也不受影響。
 reset-password-button = 開始重設
 reset-password-success-alert = 密碼重設
 reset-password-error-general = 很抱歉，重設您的密碼時發生問題

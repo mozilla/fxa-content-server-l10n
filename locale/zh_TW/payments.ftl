@@ -238,6 +238,17 @@ price-details-no-tax-year =
             [one] 每年 { $priceAmount }
            *[other] 每 { $intervalCount } 年 { $priceAmount }
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] 每天 { $priceAmount } + 稅金 { $taxAmount }
+       *[other] 每 { $intervalCount } 天 { $priceAmount } + 稅金 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每天 { $priceAmount } + 稅金 { $taxAmount }
+           *[other] 每 { $intervalCount } 天 { $priceAmount } + 稅金 { $taxAmount }
+        }
 
 ## Component - SubscriptionTitle
 
@@ -374,6 +385,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = 載入請款單時發生問題
 sub-billing-update-success = 成功更新帳務資訊！
+sub-invoice-previews-error-title = 載入請款單預覽頁面時發生問題
+sub-invoice-previews-error-text = 無法載入請款單預覽頁面
 
 ## Routes - Subscription - ActionButton
 
@@ -386,6 +399,8 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下次收費時間：{ $date }
+sub-next-bill-no-tax = 您的下一張帳單<strong>（金額 { $priceAmount }）</strong>將於 <strong>{ $date }</strong> 到期
+sub-next-bill-tax = 您的下一張帳單<strong>（金額 { $priceAmount } + 稅金 { $taxAmount }）</strong>將於 <strong>{ $date }</strong> 到期
 sub-expires-on = 於 { $date } 到期
 
 ## Routes - Subscription - PaymentUpdate
@@ -405,6 +420,8 @@ sub-route-funding-source-payment-alert = 您的帳號發生問題，付款資訊
 sub-item-no-such-plan = 此訂閱內容無此方案。
 invoice-not-found = 找不到後續請款單
 sub-item-no-such-subsequent-invoice = 找不到此訂閱後續的請款單
+sub-invoice-preview-error-title = 找不到請款單預覽頁面
+sub-invoice-preview-error-text = 找不到此訂閱的請款單預覽頁面
 
 ## Routes - Subscriptions - Pocket Subscription
 
