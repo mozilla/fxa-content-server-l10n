@@ -66,9 +66,8 @@ new-user-sign-in-link = Sie haben bereits einen { -brand-name-firefox } Account?
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Ihre E-Mail-Adresse
+new-user-enter-email =
+    .label = Geben Sie Ihre E-Mail-Adresse ein
 new-user-confirm-email =
     .label = Ihre E-Mail-Adresse bestätigen
 new-user-subscribe-product-updates = Ich möchte Neuigkeiten zu Produkten von { -brand-name-firefox } erhalten
@@ -189,6 +188,68 @@ plan-details-tax = Steuern und Gebühren
 
 product-no-such-plan = Für dieses Produkt existiert kein solcher Plan.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } Steuern
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } pro Tag
+       *[other] { $priceAmount } alle { $intervalCount } Tage
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } pro Tag
+           *[other] { $priceAmount } alle { $intervalCount } Tage
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } pro Woche
+       *[other] { $priceAmount } alle { $intervalCount } Wochen
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } pro Woche
+           *[other] { $priceAmount } alle { $intervalCount } Wochen
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } pro Monat
+       *[other] { $priceAmount } alle { $intervalCount } Monate
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } pro Monat
+           *[other] { $priceAmount } alle { $intervalCount } Monate
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } pro Jahr
+       *[other] { $priceAmount } alle { $intervalCount } Jahre
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } pro Jahr
+           *[other] { $priceAmount } alle { $intervalCount } Jahre
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } Steuern pro Tag
+       *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Tage
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } Steuern pro Tag
+           *[other] { $priceAmount } + { $taxAmount } Steuern alle { $intervalCount } Tage
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Ihr Abonnement einrichten
@@ -212,8 +273,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Modal schließen
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Wird geladen…
 settings-subscriptions-title = Abonnements
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Aktionscode
@@ -221,30 +280,6 @@ coupon-promo-code = Aktionscode
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } pro Tag
-       *[other] { $amount } alle { $intervalCount } Tage
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } pro Woche
-       *[other] { $amount } alle { $intervalCount } Wochen
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } pro Monat
-       *[other] { $amount } alle { $intervalCount } Monate
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } pro Jahr
-       *[other] { $amount } alle { $intervalCount } Jahre
-    }
 
 ## Error messages
 
@@ -339,34 +374,6 @@ sub-item-cancel-confirm =
     Am { $period } meinen Zugriff beenden und meine in { $name }
     gespeicherten Daten entfernen
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } pro Tag
-       *[other] { $amount } alle { $intervalCount } Tage
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } pro Woche
-       *[other] { $amount } alle { $intervalCount } Wochen
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } pro Monat
-       *[other] { $amount } alle { $intervalCount } Monate
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } pro Jahr
-       *[other] { $amount } alle { $intervalCount } Jahre
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Die Erneuerung des Dauerauftrages ist fehlgeschlagen
@@ -395,6 +402,8 @@ pay-update-change-btn = Ändern
 pay-update-manage-btn = Verwalten
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nächste Abrechnung am { $date }
