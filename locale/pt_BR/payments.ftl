@@ -227,6 +227,61 @@ price-details-no-tax-month =
             [one] { $priceAmount } por mês
            *[other] { $priceAmount } a cada { $intervalCount } meses
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } por ano
+       *[other] { $priceAmount } a cada { $intervalCount } anos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } por ano
+           *[other] { $priceAmount } a cada { $intervalCount } anos
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } de imposto por dia
+       *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } dias
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } de imposto por dia
+           *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } dias
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } de imposto por semana
+       *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } de imposto por semana
+           *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } de imposto por mês
+       *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } de imposto por mês
+           *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } de imposto por ano
+       *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } anos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } de imposto por ano
+           *[other] { $priceAmount } + { $taxAmount } de imposto a cada { $intervalCount } anos
+        }
 
 ## Component - SubscriptionTitle
 
@@ -258,6 +313,50 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } por dia
+       *[other] { $amount } a cada { $intervalCount } dias
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } por dia
+           *[other] { $amount } a cada { $intervalCount } dias
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } por semana
+       *[other] { $amount } a cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } por semana
+           *[other] { $amount } a cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } por mês
+       *[other] { $amount } a cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } por mês
+           *[other] { $amount } a cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } por ano
+       *[other] { $amount } a cada { $intervalCount } anos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } por ano
+           *[other] { $amount } a cada { $intervalCount } anos
+        }
 
 ## Error messages
 

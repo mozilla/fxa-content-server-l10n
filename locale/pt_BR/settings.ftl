@@ -35,6 +35,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = Sua senha foi redefinida
@@ -568,3 +571,11 @@ auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
 auth-error-183-2 = Código de confirmação inválido ou vencido
 auth-error-1008 = Sua nova senha deve ser diferente
+
+## ResetPassword page
+
+reset-password-success-alert = Redefinição de senha
+reset-password-error-general = Desculpe, houve um problema ao redefinir sua senha
+reset-password-error-unknown-account = Conta desconhecida
+reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
