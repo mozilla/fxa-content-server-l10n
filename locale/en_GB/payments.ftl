@@ -486,6 +486,8 @@ pay-update-manage-btn = Manage
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Next billed on { $date }
+sub-next-bill-no-tax = Your next bill of <strong>{ $priceAmount }</strong> is due <strong>{ $date }</strong>
+sub-next-bill-tax = Your next bill of <strong>{ $priceAmount } + { $taxAmount }</strong> tax is due <strong>{ $date }</strong>
 sub-expires-on = Expires on { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -505,6 +507,8 @@ sub-route-funding-source-payment-alert = Invalid payment information; there is a
 sub-item-no-such-plan = No such plan for this subscription.
 invoice-not-found = Subsequent invoice not found
 sub-item-no-such-subsequent-invoice = Subsequent invoice not found for this subscription.
+sub-invoice-preview-error-title = Invoice preview not found
+sub-invoice-preview-error-text = Invoice preview not found for this subscription
 
 ## Routes - Subscriptions - Pocket Subscription
 
