@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = Tu contraseña ha sido restablecida
@@ -56,18 +60,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-firefox-title = La tecnología de { -brand-firefox } lucha por tu privacidad en la red.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móviles
-
 bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,7 +79,6 @@ connect-another-fx-mobile = Obtén { -brand-firefox } en tu dispositivo móvil o
 connect-another-find-fx-mobile =
     Busca { -brand-firefox } en { -google-play } y { -app-store } o
     <br /><linkExternal>envía un enlace de descarga a tu dispositivo.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +87,7 @@ connect-another-app-store-image-2 =
     .title = Descarga { -brand-firefox } en { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +102,10 @@ cs-cannot-disconnect = Cliente no encontrado, no se ha podido desconectar
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Desconectado de { $service }
-
 cs-refresh-button =
     .title = Actualizar servicios conectados
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Faltan elementos o están duplicados?
-
 cs-disconnect-sync-heading = Desconectar de Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -144,10 +144,10 @@ cs-disconnect-suspicious-advice-content =
     sospechoso, para mantener tu información segura, deberías cambiar la contraseña de { -product-firefox-account }
     en la configuración de tu cuenta. También deberías cambiar cualquier otra
     contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
-
 cs-sign-out-button = Cerrar sesión
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -176,7 +176,6 @@ drop-down-menu-title = Menú de { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Cerrar sesión
-
 drop-down-menu-sign-out-error-2 = Lo sentimos, hubo un problema al cerrar sesión
 
 ## Flow Container
@@ -210,7 +209,6 @@ input-password-hide = Ocultar contraseña
 input-password-show = Mostrar contraseña
 input-password-hide-aria = Ocultar contraseña de la pantalla.
 input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
-
 
 ## Linked Accounts section
 
@@ -290,11 +288,11 @@ avatar-page-image-too-large-error-2 = El tamaño de la imagen es demasiado grand
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Cambiar contraseña
-
 pw-8-chars = Al menos 8 carácteres
 pw-not-email = No es tu dirección de correo electrónico
 pw-change-must-match = La nueva contraseña coincide con la confirmación
@@ -304,40 +302,35 @@ pw-tips = Mantente seguro — no reutilices las contraseñas. Vea más consejos 
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
-
 pw-change-current-password =
     .label = Ingresa la contraseña actual
 pw-change-new-password =
     .label = Ingresa nueva contraseña
 pw-change-confirm-password =
     .label = Confirma nueva contraseña
-
 pw-change-success-alert-2 = Contraseña actualizada
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Crear contraseña
-
 pw-create-success-alert-2 = Restablecer contraseña
 pw-create-error-2 = Lo sentimos, hubo un problema al establecer tu contraseña
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Eliminar cuenta
-
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
-
 delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a los productos { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
-
 delete-account-acknowledge = Por favor, recuerda que si eliminas tu cuenta:
-
 delete-account-chk-box-1-v2 =
     .label = Todas las suscripciones de pago que tengas se van a cancelar (excepto { product-pocket })
 delete-account-chk-box-2 =
@@ -346,33 +339,28 @@ delete-account-chk-box-3 =
     .label = Es posible que la reactivación con este correo electrónico no restaure la información guardada
 delete-account-chk-box-4 =
     .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org se eliminará
-
-
 delete-account-continue-button = Continuar
-
 delete-account-password-input =
     .label = Ingresar contraseña
-
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Nombre para mostrar
-
 display-name-input =
     .label = Ingresa el nombre para mostrar
 submit-display-name = Guardar
 cancel-display-name = Cancelar
-
 display-name-update-error-2 = Hubo un problema al actualizar tu nombre para mostrar
-
 display-name-success-alert-2 = Nombre para mostrar actualizado
 
 ##
+
 
 # Account recovery key setup page
 
@@ -426,25 +414,20 @@ delete-account-link = Eliminar cuenta
 ## Two Step Authentication
 
 tfa-title = Autenticación en dos pasos
-
 tfa-step-1-3 = Paso 1 de 3
 tfa-step-2-3 = Paso 2 de 3
 tfa-step-3-3 = Paso 3 de 3
-
 tfa-button-continue = Continuar
 tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
-
 tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
 tfa-cannot-verify-code-4 = Hubo un problema al confirmar tu código de autenticación de respaldo
 tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
 tfa-enabled = Autenticación en dos pasos activada
-
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
     aplicaciones de autenticación</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -453,17 +436,14 @@ tfa-qa-code-alt = Usa el código { $secret } para configurar la autenticación e
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
-
 tfa-enter-totp = Ahora ingresa el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Ingresa código de seguridad
 tfa-save-these-codes-1 =
     Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
     no tengas tu dispositivo móvil.
-
 tfa-enter-code-to-confirm-1 =
     Ingresa uno de tus códigos de autenticación de respaldo ahora para
     confirmar que lo has guardado. Necesitarás un código para iniciar sesión si no tienes acceso a tu
@@ -472,6 +452,7 @@ tfa-enter-recovery-code-1 =
     .label = Ingresa un código de autenticación de respaldo
 
 ##
+
 
 ## Profile section
 
@@ -484,6 +465,7 @@ profile-primary-email =
     .header = Correo electrónico principal
 
 ##
+
 
 ## Security section of Setting
 
@@ -575,6 +557,7 @@ se-secondary-email-none = Ninguno
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticación en dos pasos
@@ -583,7 +566,6 @@ tfa-row-enabled = Habilitada
 tfa-row-not-set = No establecida
 tfa-row-action-add = Agregar
 tfa-row-action-disable = Deshabilitar
-
 tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
@@ -591,14 +573,12 @@ tfa-row-content-explain =
     Evita que otra persona se conecte solicitando un
     código único al que solo tú tienes acceso.
 tfa-row-cannot-verify-session-4 = Lo sentimos, hubo un problema al confirmar tu sesión
-
 tfa-row-disable-modal-heading = ¿Deshabilitar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
 tfa-row-disable-modal-explain-1 =
     No podrás deshacer esta acción. También
     tienes la opción de <linkExternal>reemplazar tus códigos de autenticación de respaldo</linkExternal>.
 tfa-row-cannot-disable-2 = La atención en dos pasos no pudo ser deshabilitada
-
 tfa-row-change-modal-heading-1 = ¿Cambiar códigos de autenticación de respaldo?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = No podrás deshacer esta acción.
@@ -622,3 +602,11 @@ auth-error-139 = El correo electrónico secundario debe ser diferente al correo 
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
 auth-error-1008 = Tu nueva contraseña debe ser diferente
+
+## ResetPassword page
+
+reset-password-success-alert = Restablecer contraseña
+reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu contraseña
+reset-password-error-unknown-account = Cuenta desconocida
+reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de la cuenta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
