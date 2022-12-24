@@ -66,8 +66,8 @@ new-user-sign-in-link = Већ имате { -brand-name-firefox } налог? <a
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .label = Унеси адресу е-поште
+new-user-enter-email =
+    .label = Унесите вашу е-адресу
 new-user-confirm-email =
     .label = Потврди адресу е-поште
 new-user-subscribe-product-updates = Желим да примам ажурирања производа од { -brand-name-firefox }-а
@@ -192,6 +192,13 @@ plan-details-tax = Порези и надокнаде
 
 product-no-such-plan = Не постоји такав план за овај производ.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } порез
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Подесите вашу претплату
@@ -222,34 +229,6 @@ coupon-promo-code = Промотивни код
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } дневно
-        [few] { $amount } свака { $intervalCount } дана
-       *[other] { $amount } сваких { $intervalCount } дана
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } недељно
-        [few] { $amount } сваке { $intervalCount } недеље
-       *[other] { $amount } сваких { $intervalCount } недеља
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } месечно
-        [few] { $amount } свака { $intervalCount } месеца
-       *[other] { $amount } сваких { $intervalCount } месеци
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } годишње
-        [few] { $amount } сваке { $intervalCount } године
-       *[other] { $amount } сваких { $intervalCount } година
-    }
 
 ## Error messages
 
@@ -344,38 +323,6 @@ sub-item-cancel-confirm =
     Откажи мој приступ и сачуване податке на услузи
     { $name }, { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } дневно
-        [few] { $amount } свака { $intervalCount } дана
-       *[other] { $amount } сваких { $intervalCount } дана
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } недељно
-        [few] { $amount } сваке { $intervalCount } недеље
-       *[other] { $amount } сваких { $intervalCount } недеља
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } месечно
-        [few] { $amount } свака { $intervalCount } месеца
-       *[other] { $amount } сваких { $intervalCount } месеци
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } годишње
-        [few] { $amount } сваке { $intervalCount } године
-       *[other] { $amount } сваких { $intervalCount } година
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Поновно активирање претплате није успело
@@ -397,6 +344,7 @@ sub-customer-error =
 sub-invoice-error =
     .title = Проблем при учитавању рачуна
 sub-billing-update-success = Ваши подаци о плаћању су успешно ажурирани
+sub-invoice-previews-error-title = Проблем при учитавању примера рачуна
 
 ## Routes - Subscription - ActionButton
 
@@ -404,6 +352,8 @@ pay-update-change-btn = Промени
 pay-update-manage-btn = Управљај
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следећи обрачун { $date }
