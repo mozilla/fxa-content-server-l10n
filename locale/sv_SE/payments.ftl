@@ -194,6 +194,17 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } skatt
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } dagligen
+       *[other] { $priceAmount } var { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } dagligen
+           *[other] { $priceAmount } var { $intervalCount } dag
+        }
 
 ## Component - SubscriptionTitle
 
@@ -340,6 +351,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem med att ladda fakturor
 sub-billing-update-success = Din faktureringsinformation har uppdaterats
+sub-invoice-previews-error-title = Problem med att ladda förhandsgranskningar av faktura
+sub-invoice-previews-error-text = Det gick inte att läsa in förhandsgranskningar av faktura
 
 ## Routes - Subscription - ActionButton
 
@@ -352,6 +365,8 @@ pay-update-manage-btn = Hantera
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
+sub-next-bill-no-tax = Din nästa räkning på <strong>{ $priceAmount }</strong> förfaller den <strong>{ $date }</strong>
+sub-next-bill-tax = Din nästa faktura på <strong>{ $priceAmount } + { $taxAmount }</strong> skatt ska betalas den <strong>{ $date }</strong>
 sub-expires-on = Upphör { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -371,6 +386,8 @@ sub-route-funding-source-payment-alert = Ogiltig betalningsinformation. Det finn
 sub-item-no-such-plan = Ingen sådan plan för denna prenumeration.
 invoice-not-found = Efterföljande faktura hittades inte
 sub-item-no-such-subsequent-invoice = Efterföljande faktura hittades inte för denna prenumeration.
+sub-invoice-preview-error-title = Förhandsgranskning av faktura hittades inte
+sub-invoice-preview-error-text = Förhandsgranskning av faktura hittades inte för denna prenumeration
 
 ## Routes - Subscriptions - Pocket Subscription
 

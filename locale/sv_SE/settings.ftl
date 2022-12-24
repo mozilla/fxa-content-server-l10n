@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Kommer du ihåg ditt lösenord? Logga in
+
 ## Ready component
 
 ready-confirmation = Ditt lösenord har återställts
@@ -56,18 +63,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din integritet online.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser för datorer
 bento-menu-firefox-mobile = { -brand-firefox } Browser för mobiler
-
 bento-menu-made-by-mozilla = Skapad av { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,7 +82,6 @@ connect-another-fx-mobile = Hämta { -brand-firefox } till mobil eller surfplatt
 connect-another-find-fx-mobile =
     Hitta { -brand-firefox } i { -google-play } och { -app-store } eller
     <br /><linkExternal>skicka en nedladdningslänk till din enhet.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +90,7 @@ connect-another-app-store-image-2 =
     .title = Ladda ner { -brand-firefox } från { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +105,10 @@ cs-cannot-disconnect = Klienten hittades inte, kunde inte koppla ifrån
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Loggade ut från { $service }
-
 cs-refresh-button =
     .title = Uppdatera anslutna tjänster
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Saknas något eller finns dubbletter?
-
 cs-disconnect-sync-heading = Koppla från Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -144,10 +147,10 @@ cs-disconnect-suspicious-advice-content =
     misstänkt bör du ändra lösenordet för { -product-firefox-account } i dina kontoinställningar
     för att skydda din information. Du bör också ändra alla andra lösenord som du har
     sparat i { -brand-firefox } genom att skriva about:logins in i adressfältet.
-
 cs-sign-out-button = Logga ut
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -176,7 +179,6 @@ drop-down-menu-title = { -product-firefox-account }-meny
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logga ut
-
 drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
 ## Flow Container
@@ -210,7 +212,6 @@ input-password-hide = Dölj lösenord
 input-password-show = Visa lösenord
 input-password-hide-aria = Dölj lösenord från skärmen.
 input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
-
 
 ## Linked Accounts section
 
@@ -291,11 +292,11 @@ avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att 
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Ändra lösenord
-
 pw-8-chars = Minst 8 tecken
 pw-not-email = Inte din e-postadress
 pw-change-must-match = Nytt lösenord matchar
@@ -305,40 +306,35 @@ pw-tips = Var säker — återanvänd inte lösenord. Se fler tips för att <lin
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Spara
 pw-change-forgot-password-link = Glömt lösenordet?
-
 pw-change-current-password =
     .label = Ange nuvarande lösenord
 pw-change-new-password =
     .label = Ange nytt lösenord
 pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
-
 pw-change-success-alert-2 = Lösenord uppdaterat
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Skapa lösenord
-
 pw-create-success-alert-2 = Lösenord inställt
 pw-create-error-2 = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Ta bort konto
-
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-
 delete-account-confirm-title-2 = Du har kopplat ditt { -product-firefox-account } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
-
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
-
 delete-account-chk-box-1-v2 =
     .label = Alla betalda prenumerationer du har kommer att avbrytas (förutom { product-pocket }
 delete-account-chk-box-2 =
@@ -347,33 +343,28 @@ delete-account-chk-box-3 =
     .label = Återaktivering med det här e-postadressen kanske inte återställer din sparade information
 delete-account-chk-box-4 =
     .label = Alla tillägg och teman som du publicerade på addons.mozilla.org raderas
-
-
 delete-account-continue-button = Fortsätt
-
 delete-account-password-input =
     .label = Ange lösenord
-
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Visningsnamn
-
 display-name-input =
     .label = Ange visningsnamn
 submit-display-name = Spara
 cancel-display-name = Avbryt
-
 display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
-
 display-name-success-alert-2 = Visningsnamn uppdaterat
 
 ##
+
 
 # Account recovery key setup page
 
@@ -427,25 +418,20 @@ delete-account-link = Ta bort konto
 ## Two Step Authentication
 
 tfa-title = Tvåstegsautentisering
-
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
-
 tfa-button-continue = Fortsätt
 tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
-
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
 tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din autentiseringskod
 tfa-incorrect-recovery-code-1 = Felaktig autentiseringskod
 tfa-enabled = Tvåstegsautentisering aktiverad
-
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
     <linkExternal>autentiseringsappar</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -456,17 +442,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du inte skanna koden?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
-
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
 tfa-save-these-codes-1 =
     Spara dessa autentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
-
 tfa-enter-code-to-confirm-1 =
     Ange en av dina autentiseringskoder nu för att bekräfta
     att du har sparat den. Du behöver en kod för att logga in om
@@ -475,6 +458,7 @@ tfa-enter-recovery-code-1 =
     .label = Ange en autentiseringskod
 
 ##
+
 
 ## Profile section
 
@@ -487,6 +471,7 @@ profile-primary-email =
     .header = Primär e-post
 
 ##
+
 
 ## Security section of Setting
 
@@ -578,6 +563,7 @@ se-secondary-email-none = Ingen
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tvåstegsautentisering
@@ -586,7 +572,6 @@ tfa-row-enabled = Aktiverad
 tfa-row-not-set = Inte inställd
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
-
 tfa-row-button-refresh =
     .title = Uppdatera tvåstegsautentisering
 tfa-row-cannot-refresh =
@@ -596,12 +581,10 @@ tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
-
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain-1 = Du kommer inte att kunna ångra den här åtgärden. Du har också möjlighet att <linkExternal>byta ut dina autentiseringskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
-
 tfa-row-change-modal-heading-1 = Ändra autentiseringskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
@@ -625,3 +608,17 @@ auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-po
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Återställ lösenordet <span>för att fortsätta till kontoinställningarna</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
+reset-password-button = Påbörja återställning
+reset-password-success-alert = Lösenordsåterställning
+reset-password-error-general = Tyvärr, det uppstod ett problem med att återställa ditt lösenord
+reset-password-error-unknown-account = Okänt konto
+reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
+reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
