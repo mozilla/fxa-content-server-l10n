@@ -66,9 +66,8 @@ new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Nhập địa chỉ email của bạn
+new-user-enter-email =
+    .label = Nhập email của bạn
 new-user-confirm-email =
     .label = Xác nhận email của bạn
 new-user-subscribe-product-updates = Tôi muốn nhận các cập nhật sản phẩm từ { -brand-name-firefox }
@@ -185,6 +184,85 @@ plan-details-tax = Thuế và phí
 
 product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + thuế { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+       *[other] { $priceAmount } mỗi ngày
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } mỗi { $intervalCount } ngày
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+       *[other] { $priceAmount } mỗi tuần
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } mỗi { $intervalCount } tuần
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+       *[other] { $priceAmount } mỗi tháng
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } mỗi { $intervalCount } tháng
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+       *[other] { $priceAmount } mỗi năm
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } mỗi { $intervalCount } năm
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi ngày
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } ngày
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi tuần
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } tuần
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi tháng
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } tháng
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi năm
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } năm
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Thiết lập thuê bao của bạn
@@ -208,8 +286,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Đóng phương thức
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Đang tải…
 settings-subscriptions-title = Thuê bao
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Mã khuyến mãi
@@ -218,25 +294,41 @@ coupon-promo-code = Mã khuyến mãi
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } ngày
+       *[other] { $amount } mỗi ngày
     }
+    .title =
+        { $intervalCount ->
+           *[other] { $amount } mỗi { $intervalCount } ngày
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } tuần
+       *[other] { $amount } mỗi tuần
     }
+    .title =
+        { $intervalCount ->
+           *[other] { $amount } mỗi { $intervalCount } tuần
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } tháng
+       *[other] { $amount } mỗi tháng
     }
+    .title =
+        { $intervalCount ->
+           *[other] { $amount } mỗi { $intervalCount } tháng
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } năm
+       *[other] { $amount } mỗi năm
     }
+    .title =
+        { $intervalCount ->
+           *[other] { $amount } mỗi { $intervalCount } năm
+        }
 
 ## Error messages
 
@@ -331,30 +423,6 @@ sub-item-cancel-confirm =
     Hủy quyền truy cập của tôi và thông tin đã lưu của tôi trong
     { $name } vào { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } ngày
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } tuần
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } tháng
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-       *[other] { $amount } mỗi { $intervalCount } năm
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Không thể kích hoạt lại thuê bao
@@ -376,6 +444,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Sự cố khi tải hóa đơn
 sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
+sub-invoice-previews-error-title = Sự cố khi tải bản xem trước hóa đơn
+sub-invoice-previews-error-text = Không thể tải bản xem trước hóa đơn
 
 ## Routes - Subscription - ActionButton
 
@@ -383,9 +453,13 @@ pay-update-change-btn = Thay đổi
 pay-update-manage-btn = Quản lý
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Thanh toán tiếp theo vào { $date }
+sub-next-bill-no-tax = Hóa đơn tiếp theo của bạn <strong>{ $priceAmount }</strong> đến hạn vào <strong>{ $date }</strong>
+sub-next-bill-tax = Hóa đơn tiếp theo của bạn gồm <strong>{ $priceAmount } + thuế { $taxAmount }</strong> đến hạn vào <strong>{ $date }</strong>
 sub-expires-on = Hết hạn vào { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -405,6 +479,8 @@ sub-route-funding-source-payment-alert = Thông tin thanh toán không hợp l�
 sub-item-no-such-plan = Không có lịch như vậy cho đăng ký này.
 invoice-not-found = Không tìm thấy hóa đơn tiếp theo
 sub-item-no-such-subsequent-invoice = Không tìm thấy hóa đơn tiếp theo cho thuê bao này.
+sub-invoice-preview-error-title = Không tìm thấy bản xem trước hóa đơn
+sub-invoice-preview-error-text = Không tìm thấy bản xem trước hóa đơn cho thuê bao này
 
 ## Routes - Subscriptions - Pocket Subscription
 

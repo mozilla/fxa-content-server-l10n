@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Đã nhớ mật khẩu của bạn? Đăng nhập
+
 ## Ready component
 
 ready-confirmation = Mật khẩu của bạn đã được đặt lại
@@ -56,18 +63,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Menu { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
 bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
-
 bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,7 +82,6 @@ connect-another-fx-mobile = Tải xuống { -brand-firefox } trên điện tho�
 connect-another-find-fx-mobile =
     Tìm kiếm { -brand-firefox } trong { -google-play } và { -app-store } hoặc
     <br /><linkExternal>gửi liên kết tải xuống cho thiết bị của bạn.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +90,7 @@ connect-another-app-store-image-2 =
     .title = Tải xuống { -brand-firefox } trên { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +105,10 @@ cs-cannot-disconnect = Không tìm thấy ứng dụng khách, không ngắt k�
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Đã đăng xuất khỏi { $service }
-
 cs-refresh-button =
     .title = Tải lại dịch vụ đã kết nối
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Các mục bị thiếu hoặc trùng lặp?
-
 cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -144,10 +147,10 @@ cs-disconnect-suspicious-advice-content =
     để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-firefox-account }
     trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác
     mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:login vào thanh địa chỉ.
-
 cs-sign-out-button = Đăng xuất
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -176,7 +179,6 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Đã đăng nhập bằng</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Đăng xuất
-
 drop-down-menu-sign-out-error-2 = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn
 
 ## Flow Container
@@ -210,7 +212,6 @@ input-password-hide = Ẩn mật khẩu
 input-password-show = Hiện mật khẩu
 input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
 input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
-
 
 ## Linked Accounts section
 
@@ -291,11 +292,11 @@ avatar-page-image-too-large-error-2 = Không thể tải lên ảnh có kích th
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Thay đổi mật khẩu
-
 pw-8-chars = Ít nhất 8 ký tự
 pw-not-email = Không phải địa chỉ email của bạn
 pw-change-must-match = Mật khẩu mới khớp với xác nhận mật khẩu
@@ -305,40 +306,35 @@ pw-tips = Giữ an toàn — không sử dụng lại mật khẩu. Xem thêm c�
 pw-change-cancel-button = Huỷ bỏ
 pw-change-save-button = Lưu
 pw-change-forgot-password-link = Quên mật khẩu?
-
 pw-change-current-password =
     .label = Nhập mật khẩu hiện tại:
 pw-change-new-password =
     .label = Nhập mật khẩu mới:
 pw-change-confirm-password =
     .label = Xác nhận mật khẩu mới
-
 pw-change-success-alert-2 = Đã cập nhật mật khẩu
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Tạo mật khẩu
-
 pw-create-success-alert-2 = Đã đặt mật khẩu
 pw-create-error-2 = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Xóa tài khoản
-
 delete-account-step-1-2 = Bước 1/2
 delete-account-step-2-2 = Bước 2/2
-
 delete-account-confirm-title-2 = Bạn đã kết nối { -product-firefox-account } của mình với các sản phẩm { -brand-mozilla } giúp bạn bảo mật và làm việc hiệu quả trên web:
-
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
-
 delete-account-chk-box-1-v2 =
     .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { product-pocket })
 delete-account-chk-box-2 =
@@ -347,33 +343,28 @@ delete-account-chk-box-3 =
     .label = Kích hoạt lại với email này có thể không khôi phục thông tin đã lưu của bạn
 delete-account-chk-box-4 =
     .label = Mọi tiện ích mở rộng và chủ đề mà bạn đã xuất bản lên addons.mozilla.org sẽ bị xóa
-
-
 delete-account-continue-button = Tiếp tục
-
 delete-account-password-input =
     .label = Nhập mật khẩu
-
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Tên hiển thị
-
 display-name-input =
     .label = Nhập tên hiển thị
 submit-display-name = Lưu
 cancel-display-name = Huỷ bỏ
-
 display-name-update-error-2 = Đã xảy ra sự cố trong khi cập nhật tên hiển thị của bạn
-
 display-name-success-alert-2 = Đã cập nhật tên hiển thị
 
 ##
+
 
 # Account recovery key setup page
 
@@ -427,25 +418,20 @@ delete-account-link = Xóa tài khoản
 ## Two Step Authentication
 
 tfa-title = Xác thực hai bước
-
 tfa-step-1-3 = Bước 1/3
 tfa-step-2-3 = Bước 2/3
 tfa-step-3-3 = Bước 3/3
-
 tfa-button-continue = Tiếp tục
 tfa-button-cancel = Hủy bỏ
 tfa-button-finish = Hoàn thành
-
 tfa-incorrect-totp = Mã xác thực hai bước không đúng
 tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
 tfa-cannot-verify-code-4 = Đã xảy ra sự cố khi xác nhận mã xác thực dự phòng của bạn
 tfa-incorrect-recovery-code-1 = Mã xác thực dự phòng không chính xác
 tfa-enabled = Đã bật xác thực hai bước
-
 tfa-scan-this-code =
     Quét mã QR này sử dụng một trong <linkExternal>những
     ứng dụng xác thực này</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -456,17 +442,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Không thể quét mã?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Nhập khóa bí mật này vào ứng dụng xác thực của bạn:
-
 tfa-enter-totp = Bây giờ nhập mã từ ứng dụng xác thực.
 tfa-input-enter-totp =
     .label = Nhập mã bảo mật
 tfa-save-these-codes-1 =
     Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
     bạn không có thiết bị di động của mình.
-
 tfa-enter-code-to-confirm-1 =
     Vui lòng nhập một trong các mã xác thực dự phòng của bạn ngay bây giờ để
     xác nhận bạn đã lưu nó. Bạn sẽ cần mã để đăng nhập nếu bạn không có quyền truy cập vào
@@ -475,6 +458,7 @@ tfa-enter-recovery-code-1 =
     .label = Nhập mã xác thực dự phòng
 
 ##
+
 
 ## Profile section
 
@@ -487,6 +471,7 @@ profile-primary-email =
     .header = Email chính
 
 ##
+
 
 ## Security section of Setting
 
@@ -578,6 +563,7 @@ se-secondary-email-none = Không có
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Xác thực hai bước
@@ -586,7 +572,6 @@ tfa-row-enabled = Đã bật
 tfa-row-not-set = Chưa tạo
 tfa-row-action-add = Thêm
 tfa-row-action-disable = Vô hiệu hóa
-
 tfa-row-button-refresh =
     .title = Làm mới xác thực hai bước
 tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
@@ -594,14 +579,12 @@ tfa-row-content-explain =
     Ngăn người khác đăng nhập bằng cách yêu cầu
     mã duy nhất chỉ bạn có quyền truy cập.
 tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
-
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
 tfa-row-disable-modal-explain-1 =
     Bạn sẽ không thể hoàn tác hành động này. Bạn cũng
     có tùy chọn <linkExternal>thay thế mã xác thực dự phòng của bạn</linkExternal>.
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
-
 tfa-row-change-modal-heading-1 = Thay đổi mã xác thực dự phòng?
 tfa-row-change-modal-confirm = Thay đổi
 tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
@@ -625,3 +608,18 @@ auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Đặt lại mật khẩu <span>để tiếp tục cài đặt tài khoản</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Đặt lại mật khẩu <span>để tiếp tục đến với { $serviceName }</span>
+reset-password-warning-message = <span>Lưu ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { product-pocket } sẽ không bị ảnh hưởng.
+reset-password-button = Bắt đầu đặt lại
+reset-password-success-alert = Đặt lại mật khẩu
+reset-password-error-general = Xin lỗi, đã xảy ra sự cố khi đặt lại mật khẩu của bạn
+reset-password-error-unknown-account = Tài khoản không xác định
+reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
+reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
