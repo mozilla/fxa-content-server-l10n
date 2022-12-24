@@ -372,34 +372,46 @@ plan-price-interval-day =
 plan-price-interval-week =
     { $intervalCount ->
         [one] { $amount } na teden
+        [two] { $amount } vsaka { $intervalCount } tedna
+        [few] { $amount } vsake { $intervalCount } tedne
        *[other] { $amount } vsakih { $intervalCount } tednov
     }
     .title =
         { $intervalCount ->
             [one] { $amount } na teden
+            [two] { $amount } vsaka { $intervalCount } tedna
+            [few] { $amount } vsake { $intervalCount } tedne
            *[other] { $amount } vsakih { $intervalCount } tednov
         }
 # $intervalCount (Number) - The interval between payments, in months.
 plan-price-interval-month =
     { $intervalCount ->
-        [one] { $amount } mesečno
+        [one] { $amount } na mesec
+        [two] { $amount } vsaka { $intervalCount } meseca
+        [few] { $amount } vsake { $intervalCount } mesece
        *[other] { $amount } vsakih { $intervalCount } mesecev
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } mesečno
+            [one] { $amount } na mesec
+            [two] { $amount } vsaka { $intervalCount } meseca
+            [few] { $amount } vsake { $intervalCount } mesece
            *[other] { $amount } vsakih { $intervalCount } mesecev
         }
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
     { $intervalCount ->
-        [one] { $amount } letno
-       *[other] { $amount } vsakih { $intervalCount } let
+        [one] { $amount } na leto
+        [two] { $amount } na { $intervalCount } leti
+        [few] { $amount } na { $intervalCount } leta
+       *[other] { $amount } na { $intervalCount } let
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } letno
-           *[other] { $amount } vsakih { $intervalCount } let
+            [one] { $amount } na leto
+            [two] { $amount } na { $intervalCount } leti
+            [few] { $amount } na { $intervalCount } leta
+           *[other] { $amount } na { $intervalCount } let
         }
 
 ## Error messages
