@@ -217,50 +217,66 @@ product-no-such-plan = Za ta izdelek ni takšnega načrta.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-price-details-tax = { $priceAmount } + { $taxAmount } davek
+price-details-tax = { $priceAmount } + { $taxAmount } davka
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
         [one] { $priceAmount } na dan
+        [two] { $priceAmount } vsaka { $intervalCount } dneva
+        [few] { $priceAmount } vsake { $intervalCount } dni
        *[other] { $priceAmount } vsakih { $intervalCount } dni
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } na dan
+            [two] { $priceAmount } vsaka { $intervalCount } dneva
+            [few] { $priceAmount } vsake { $intervalCount } dni
            *[other] { $priceAmount } vsakih { $intervalCount } dni
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-no-tax-week =
     { $intervalCount ->
         [one] { $priceAmount } na teden
+        [two] { $priceAmount } vsaka { $intervalCount } tedna
+        [few] { $priceAmount } vsake { $intervalCount } tedne
        *[other] { $priceAmount } vsakih { $intervalCount } tednov
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } na teden
+            [two] { $priceAmount } vsaka { $intervalCount } tedna
+            [few] { $priceAmount } vsake { $intervalCount } tedne
            *[other] { $priceAmount } vsakih { $intervalCount } tednov
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
-        [one] { $priceAmount } mesečno
+        [one] { $priceAmount } na mesec
+        [two] { $priceAmount } vsaka { $intervalCount } meseca
+        [few] { $priceAmount } vsake { $intervalCount } mesece
        *[other] { $priceAmount } vsakih { $intervalCount } mesecev
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } mesečno
+            [one] { $priceAmount } na mesec
+            [two] { $priceAmount } vsaka { $intervalCount } meseca
+            [few] { $priceAmount } vsake { $intervalCount } mesece
            *[other] { $priceAmount } vsakih { $intervalCount } mesecev
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-no-tax-year =
     { $intervalCount ->
-        [one] { $priceAmount } letno
-       *[other] { $priceAmount } vsakih { $intervalCount } let
+        [one] { $priceAmount } na leto
+        [two] { $priceAmount } na { $intervalCount } leti
+        [few] { $priceAmount } na { $intervalCount } leta
+       *[other] { $priceAmount } na { $intervalCount } let
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } letno
-           *[other] { $priceAmount } vsakih { $intervalCount } let
+            [one] { $priceAmount } na leto
+            [two] { $priceAmount } na { $intervalCount } leti
+            [few] { $priceAmount } na { $intervalCount } leta
+           *[other] { $priceAmount } na { $intervalCount } let
         }
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
@@ -527,7 +543,7 @@ sub-item-no-such-plan = Za to naročnino ni takega načrta.
 invoice-not-found = Naknadnega računa ni mogoče najti
 sub-item-no-such-subsequent-invoice = Naknadnega računa za to naročnino ni mogoče najti.
 sub-invoice-preview-error-title = Predogleda računa ni bilo mogoče najti
-sub-invoice-preview-error-text = Predogleda računa ni bilo mogoče najti za to naročnino
+sub-invoice-preview-error-text = Predogleda računa za to naročnino ni bilo mogoče najti
 
 ## Routes - Subscriptions - Pocket Subscription
 
