@@ -197,7 +197,7 @@ product-no-such-plan = Не постоји такав план за овај п�
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-price-details-tax = { $priceAmount } + { $taxAmount } порез
+price-details-tax = { $priceAmount } + { $taxAmount } пореза
 
 ## Component - SubscriptionTitle
 
@@ -344,7 +344,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Проблем при учитавању рачуна
 sub-billing-update-success = Ваши подаци о плаћању су успешно ажурирани
-sub-invoice-previews-error-title = Проблем при учитавању примера рачуна
+sub-invoice-previews-error-title = Проблем при учитавању прегледа рачуна
+sub-invoice-previews-error-text = Није могуће учитати прегледе рачуна
 
 ## Routes - Subscription - ActionButton
 
@@ -357,6 +358,8 @@ pay-update-manage-btn = Управљај
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следећи обрачун { $date }
+sub-next-bill-no-tax = Ваш следећи рачун од <strong>{ $priceAmount }</strong> доспева <strong>{ $date }</strong>
+sub-next-bill-tax = Ваш следећи рачун од <strong>{ $priceAmount } + { $taxAmount }</strong> пореза доспева <strong>{ $date }</strong>
 sub-expires-on = Истиче { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -376,6 +379,8 @@ sub-route-funding-source-payment-alert = Неважећи подаци о пла
 sub-item-no-such-plan = Не постоји такав план за ову претплату.
 invoice-not-found = Накнадни рачун није пронађен
 sub-item-no-such-subsequent-invoice = Накнадни рачун није пронађен за ову претплату.
+sub-invoice-preview-error-title = Преглед рачуна није пронађен
+sub-invoice-preview-error-text = Преглед рачуна није пронађен за ову претплату
 
 ## Routes - Subscriptions - Pocket Subscription
 
