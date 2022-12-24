@@ -620,6 +620,11 @@ auth-error-1008 = Ваш новый пароль должен быть друг�
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Сбросьте пароль <span>для перехода к настройкам аккаунта</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Сбросьте пароль <span>для перехода к { $serviceName }</span>
 reset-password-warning-message = <span>Примечание:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { product-pocket } затронуты не будут.
 reset-password-button = Начать сброс
 reset-password-success-alert = Сброс пароля

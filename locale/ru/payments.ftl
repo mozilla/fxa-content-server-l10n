@@ -197,6 +197,7 @@ product-no-such-plan = Нет такого плана для этого прод
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } налог
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
@@ -248,6 +249,58 @@ price-details-no-tax-year =
             [one] { $priceAmount } каждый { $intervalCount } год
             [few] { $priceAmount } каждые { $intervalCount } года
            *[many] { $priceAmount } каждые { $intervalCount } лет
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } день
+        [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } дня
+       *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } дней
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } день
+            [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } дня
+           *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } дней
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } налог каждую { $intervalCount } неделю
+        [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } недели
+       *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } недель
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } налог каждую { $intervalCount } неделю
+            [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } недели
+           *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } недель
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } месяц
+        [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } месяца
+       *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } месяцев
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } месяц
+            [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } месяца
+           *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } месяцев
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } год
+        [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } года
+       *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } лет
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } налог каждый { $intervalCount } год
+            [few] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } года
+           *[many] { $priceAmount } + { $taxAmount } налог каждые { $intervalCount } лет
         }
 
 ## Component - SubscriptionTitle
@@ -447,6 +500,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Проблема с загрузкой счетов
 sub-billing-update-success = Ваша платёжная информация была обновлена
+sub-invoice-previews-error-title = Проблема с загрузкой предварительного просмотра счетов
+sub-invoice-previews-error-text = Не удалось загрузить предварительный просмотр счетов
 
 ## Routes - Subscription - ActionButton
 
@@ -459,6 +514,8 @@ pay-update-manage-btn = Управление
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следующий счёт будет выставлен { $date }
+sub-next-bill-no-tax = Ваш следующий счёт на <strong>{ $priceAmount }</strong> подлежит оплате до <strong>{ $date }</strong>
+sub-next-bill-tax = Ваш следующий счёт в размере <strong>{ $priceAmount } + { $taxAmount }</strong> налог подлежит оплате до <strong>{ $date }</strong>
 sub-expires-on = Истекает { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -478,6 +535,8 @@ sub-route-funding-source-payment-alert = Некорректная платежн
 sub-item-no-such-plan = Нет такого плана для этой подписки.
 invoice-not-found = Следующий счёт не найден
 sub-item-no-such-subsequent-invoice = Следующий счёт для этой подписки не найден.
+sub-invoice-preview-error-title = Предварительный просмотр счёта не найден
+sub-invoice-preview-error-text = Предварительный просмотр счёта для этой подписки не найден
 
 ## Routes - Subscriptions - Pocket Subscription
 
