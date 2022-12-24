@@ -194,6 +194,58 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = ‏{ $priceAmount } + מס בסך { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } כל יום
+        [two] ‏{ $priceAmount } כל יומיים
+       *[other] ‏{ $priceAmount } כל { $intervalCount } ימים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } כל יום
+            [two] ‏{ $priceAmount } כל יומיים
+           *[other] ‏{ $priceAmount } כל { $intervalCount } ימים
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } כל שבוע
+        [two] ‏{ $priceAmount } כל שבועיים
+       *[other] ‏{ $priceAmount } כל { $intervalCount } שבועות
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } כל שבוע
+            [two] ‏{ $priceAmount } כל שבועיים
+           *[other] ‏{ $priceAmount } כל { $intervalCount } שבועות
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } כל חודש
+        [two] ‏{ $priceAmount } כל חודשיים
+       *[other] ‏{ $priceAmount } כל { $intervalCount } חודשים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } כל יום
+            [two] ‏{ $priceAmount } כל חודשיים
+           *[other] ‏{ $priceAmount } כל { $intervalCount } חודשים
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } כל שנה
+        [two] ‏{ $priceAmount } כל שנתיים
+       *[other] ‏{ $priceAmount } כל { $intervalCount } שנים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } כל שנה
+            [two] ‏{ $priceAmount } כל שנתיים
+           *[other] ‏{ $priceAmount } כל { $intervalCount } שנים
+        }
 
 ## Component - SubscriptionTitle
 
