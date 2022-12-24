@@ -357,11 +357,15 @@ coupon-promo-code = Promocijska koda
 plan-price-interval-day =
     { $intervalCount ->
         [one] { $amount } na dan
+        [two] { $amount } vsaka { $intervalCount } dneva
+        [few] { $amount } vsake { $intervalCount } dni
        *[other] { $amount } vsakih { $intervalCount } dni
     }
     .title =
         { $intervalCount ->
             [one] { $amount } na dan
+            [two] { $amount } vsaka { $intervalCount } dneva
+            [few] { $amount } vsake { $intervalCount } dni
            *[other] { $amount } vsakih { $intervalCount } dni
         }
 # $intervalCount (Number) - The interval between payments, in weeks.

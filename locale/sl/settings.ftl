@@ -650,10 +650,10 @@ auth-error-1008 = Novo geslo mora biti drugačno
 ## ResetPassword page
 
 # If more appropriate in a locale, this can stand alone as "Continue to account settings"
-reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevanje v nastavitvah računa</span>
+reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevanje v nastavitve računa</span>
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje na { $serviceName }</span>
+reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje v { $serviceName }</span>
 reset-password-warning-message = <span>Opomba:</span> Ko ponastavite svoje geslo, ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke v { product-pocket }.
 reset-password-button = Začni ponastavitev
 reset-password-success-alert = Geslo ponastavljeno
