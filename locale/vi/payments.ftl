@@ -191,45 +191,9 @@ product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + thuế { $taxAmount }
 # $intervalCount (Number) - The interval between payments, in days.
-price-details-no-tax-day =
-    { $intervalCount ->
-       *[other] { $priceAmount } mỗi ngày
-    }
-    .title =
-        { $intervalCount ->
-           *[other] { $priceAmount } mỗi { $intervalCount } ngày
-        }
-# $intervalCount (Number) - The interval between payments, in weeks.
-price-details-no-tax-week =
-    { $intervalCount ->
-       *[other] { $priceAmount } mỗi tuần
-    }
-    .title =
-        { $intervalCount ->
-           *[other] { $priceAmount } mỗi { $intervalCount } tuần
-        }
-# $intervalCount (Number) - The interval between payments, in months.
-price-details-no-tax-month =
-    { $intervalCount ->
-       *[other] { $priceAmount } mỗi tháng
-    }
-    .title =
-        { $intervalCount ->
-           *[other] { $priceAmount } mỗi { $intervalCount } tháng
-        }
-# $intervalCount (Number) - The interval between payments, in years.
-price-details-no-tax-year =
-    { $intervalCount ->
-       *[other] { $priceAmount } mỗi năm
-    }
-    .title =
-        { $intervalCount ->
-           *[other] { $priceAmount } mỗi { $intervalCount } năm
-        }
-# $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-       *[other] { $priceAmount } + thuế { $taxAmount } mỗi ngày
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } ngày
     }
     .title =
         { $intervalCount ->
@@ -238,7 +202,7 @@ price-details-tax-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-       *[other] { $priceAmount } + thuế { $taxAmount } mỗi tuần
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } tuần
     }
     .title =
         { $intervalCount ->
@@ -247,7 +211,7 @@ price-details-tax-week =
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-       *[other] { $priceAmount } + thuế { $taxAmount } mỗi tháng
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } tháng
     }
     .title =
         { $intervalCount ->
@@ -256,7 +220,7 @@ price-details-tax-month =
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-       *[other] { $priceAmount } + thuế { $taxAmount } mỗi năm
+       *[other] { $priceAmount } + thuế { $taxAmount } mỗi { $intervalCount } năm
     }
     .title =
         { $intervalCount ->
@@ -296,7 +260,7 @@ coupon-promo-code = Mã khuyến mãi
 # $intervalCount (Number) - The interval between payments, in days.
 plan-price-interval-day =
     { $intervalCount ->
-       *[other] { $amount } mỗi ngày
+       *[other] { $amount } mỗi { $intervalCount } ngày
     }
     .title =
         { $intervalCount ->
@@ -305,7 +269,7 @@ plan-price-interval-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-interval-week =
     { $intervalCount ->
-       *[other] { $amount } mỗi tuần
+       *[other] { $amount } mỗi { $intervalCount } tuần
     }
     .title =
         { $intervalCount ->
@@ -314,7 +278,7 @@ plan-price-interval-week =
 # $intervalCount (Number) - The interval between payments, in months.
 plan-price-interval-month =
     { $intervalCount ->
-       *[other] { $amount } mỗi tháng
+       *[other] { $amount } mỗi { $intervalCount } tháng
     }
     .title =
         { $intervalCount ->
@@ -323,7 +287,7 @@ plan-price-interval-month =
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
     { $intervalCount ->
-       *[other] { $amount } mỗi năm
+       *[other] { $amount } mỗi { $intervalCount } năm
     }
     .title =
         { $intervalCount ->
