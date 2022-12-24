@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -38,6 +39,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = הססמה שלך אופסה
@@ -60,17 +64,16 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
 bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
-
 bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 
 ## Connect another device promo
@@ -79,7 +82,6 @@ connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחש
 connect-another-find-fx-mobile =
     ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store } או
     <br /><linkExternal>לשלוח קישור להורדה למכשיר שלך.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -88,6 +90,7 @@ connect-another-app-store-image-2 =
     .title = הורדת { -brand-firefox } מ־{ -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -100,13 +103,10 @@ cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = נותקת מ־{ $service }
-
 cs-refresh-button =
     .title = רענון שירותים מחוברים
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = פריטים חסרים או כפולים?
-
 cs-disconnect-sync-heading = ניתוק מ־Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -135,10 +135,10 @@ cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נו
 cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
-
 cs-sign-out-button = התנתקות
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -167,7 +167,6 @@ drop-down-menu-title = תפריט { -product-firefox-account(case: "a") }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>נכנסת בתור</signin><user>{ $user }</user>
 drop-down-menu-sign-out = התנתקות
-
 drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה
 
 ## Flow Container
@@ -200,7 +199,6 @@ input-password-hide = הסתרת ססמה
 input-password-show = הצגת ססמה
 input-password-hide-aria = הסתרת הססמה מהמסך.
 input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
-
 
 ## Linked Accounts section
 
@@ -271,11 +269,11 @@ avatar-page-image-too-large-error-2 = גודל קובץ התמונה גדול מ
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = שינוי ססמה
-
 pw-8-chars = לפחות 8 תווים
 pw-not-email = לא כתובת הדוא״ל שלך
 pw-change-must-match = הססמה החדשה צריכה להיות תואמת לשדה אימות הססמה
@@ -285,40 +283,35 @@ pw-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה �
 pw-change-cancel-button = ביטול
 pw-change-save-button = שמירה
 pw-change-forgot-password-link = שכחת את הססמה?
-
 pw-change-current-password =
     .label = נא להכניס את הססמה הנוכחית
 pw-change-new-password =
     .label = נא להכניס ססמה חדשה
 pw-change-confirm-password =
     .label = נא לאמת את הססמה החדשה
-
 pw-change-success-alert-2 = הססמה עודכנה
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = יצירת ססמה
-
 pw-create-success-alert-2 = הססמה הוגדרה
 pw-create-error-2 = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = מחיקת חשבון
-
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
-
 delete-account-confirm-title-2 = חיברת את { -product-firefox-account(case: "the") } שלך למוצרי { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
-
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
-
 delete-account-chk-box-1-v2 =
     .label = כל המינויים בתשלום שיש לך יבוטלו (למעט { product-pocket })
 delete-account-chk-box-2 =
@@ -327,33 +320,28 @@ delete-account-chk-box-3 =
     .label = הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר את המידע השמור שלך
 delete-account-chk-box-4 =
     .label = כל ההרחבות וערכות הנושא שפרסמת ב־addons.mozilla.org יימחקו
-
-
 delete-account-continue-button = המשך
-
 delete-account-password-input =
     .label = נא להכניס ססמה
-
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = שם תצוגה
-
 display-name-input =
     .label = נא להכניס שם תצוגה
 submit-display-name = שמירה
 cancel-display-name = ביטול
-
 display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה שלך
-
 display-name-success-alert-2 = שם התצוגה עודכן
 
 ##
+
 
 # Account recovery key setup page
 
@@ -407,21 +395,16 @@ delete-account-link = מחיקת חשבון
 ## Two Step Authentication
 
 tfa-title = אימות דו־שלבי
-
 tfa-step-1-3 = שלב 1 מתוך 3
 tfa-step-2-3 = שלב 2 מתוך 3
 tfa-step-3-3 = שלב 3 מתוך 3
-
 tfa-button-continue = המשך
 tfa-button-cancel = ביטול
 tfa-button-finish = סיום
-
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
 tfa-enabled = אימות דו־שלבי הופעל
-
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -430,15 +413,14 @@ tfa-qa-code-alt = ניתן להשתמש בקוד { $secret } כדי להגדיר
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = אין לך אפשרות לסרוק קוד?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:
-
 tfa-enter-totp = כעת יש להכניס את קוד האבטחה מיישומון האימות.
 tfa-input-enter-totp =
     .label = נא להכניס קוד אבטחה
 
 ##
+
 
 ## Profile section
 
@@ -451,6 +433,7 @@ profile-primary-email =
     .header = כתובת דוא״ל ראשית
 
 ##
+
 
 ## Security section of Setting
 
@@ -535,6 +518,7 @@ se-secondary-email-none = ללא
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = אימות דו־שלבי
@@ -543,17 +527,14 @@ tfa-row-enabled = מופעל
 tfa-row-not-set = לא מוגדר
 tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
-
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
-
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
-
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
@@ -576,3 +557,12 @@ auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שו
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
+
+## ResetPassword page
+
+reset-password-button = התחלת איפוס
+reset-password-success-alert = הססמא אופסה
+reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
+reset-password-error-unknown-account = חשבון לא מוכר
+reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
+reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
