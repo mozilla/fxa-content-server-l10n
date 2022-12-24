@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Сећате се лозинке? Пријавите се
+
 ## Ready component
 
 ready-confirmation = Ваша лозинка је ресетована
@@ -56,18 +63,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento мени
 bento-menu-firefox-title = { -brand-firefox } је технологија која се бори за вашу приватност.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } прегледач за десктоп
 bento-menu-firefox-mobile = { -brand-firefox } прегледач за мобилни
-
 bento-menu-made-by-mozilla = Створила { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,7 +82,6 @@ connect-another-fx-mobile = Преузмите { -brand-firefox } на теле�
 connect-another-find-fx-mobile =
     Пронађите { -brand-firefox } у { -google-play } и { -app-store }-у или
     <br /><linkExternal>пошаљите везу за преузимање на ваш уређај.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +90,7 @@ connect-another-app-store-image-2 =
     .title = Преузмите { -brand-firefox } на { -app-store }-у
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +105,10 @@ cs-cannot-disconnect = Клијент није пронађен, није мог
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Одјављени сте из { $service }-а
-
 cs-refresh-button =
     .title = Освежите повезане услуге
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Ставке недостају или се понављају?
-
 cs-disconnect-sync-heading = Прекини везу са Sync-ом
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -144,10 +147,10 @@ cs-disconnect-suspicious-advice-content =
     у подешавањима налога морате да промените { -product-firefox-account } лозинку.
     Такође бисте требали променити све друге лозинке
     које сте сачували у { -brand-firefox }-у тако што ћете у траку за адресу откуцати about:logins.
-
 cs-sign-out-button = Одјави се
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -176,7 +179,6 @@ drop-down-menu-title = { -product-firefox-account } мени
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Пријављени сте као</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Одјави се
-
 drop-down-menu-sign-out-error-2 = Жао нам је, дошло је до грешке при одјављивању
 
 ## Flow Container
@@ -210,7 +212,6 @@ input-password-hide = Сакриј лозинку
 input-password-show = Прикажи лозинку
 input-password-hide-aria = Сакриј лозинку са екрана.
 input-password-show-aria = Прикажи лозинку као обични текст. Ваша лозинка ће бити видљива на екрану.
-
 
 ## Linked Accounts section
 
@@ -291,11 +292,11 @@ avatar-page-image-too-large-error-2 = Величина датотеке слик
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Промени лозинку
-
 pw-8-chars = Најмање 8 знакова
 pw-not-email = Није ваша адреса е-поште
 pw-change-must-match = Нова лозинка одговара потврди
@@ -305,40 +306,35 @@ pw-tips = Будите безбедни — немојте да дуплират
 pw-change-cancel-button = Откажи
 pw-change-save-button = Сачувај
 pw-change-forgot-password-link = Заборавили сте лозинку?
-
 pw-change-current-password =
     .label = Унесите тренутну лозинку
 pw-change-new-password =
     .label = Унесите нову лозинку
 pw-change-confirm-password =
     .label = Потврдите нову лозинку
-
 pw-change-success-alert-2 = Лозинка је ажурирана
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Направи лозинку
-
 pw-create-success-alert-2 = Лозинка је постављена
 pw-create-error-2 = Жао нам је, дошло је до грешке при постављању лозинке
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Обриши налог
-
 delete-account-step-1-2 = Корак 1 од 2
 delete-account-step-2-2 = Корак 2 од 2
-
 delete-account-confirm-title-2 = Ваш { -product-firefox-account } повезан је са { -brand-mozilla } производима који вам омогућавају сигурно прегледање и бољу продуктивност на мрежи:
-
 delete-account-acknowledge = Брисањем налога признајете да:
-
 delete-account-chk-box-1-v2 =
     .label = Све плаћене претплате које имате биће отказане (осим { product-pocket }-а)
 delete-account-chk-box-2 =
@@ -347,33 +343,28 @@ delete-account-chk-box-3 =
     .label = Поновна активација ове адресе е-поште неће повратити сачуване податке
 delete-account-chk-box-4 =
     .label = Сва проширења и теме које сте објавили на addons.mozilla.org биће обрисане
-
-
 delete-account-continue-button = Настави
-
 delete-account-password-input =
     .label = Унесите лозинку
-
 delete-account-cancel-button = Откажи
 delete-account-delete-button-2 = Обриши
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Име за приказ
-
 display-name-input =
     .label = Унесите име за приказ
 submit-display-name = Сачувај
 cancel-display-name = Откажи
-
 display-name-update-error-2 = Дошло је до грешке при ажурирању вашег имена за приказ
-
 display-name-success-alert-2 = Име за приказ је ажурирано
 
 ##
+
 
 # Account recovery key setup page
 
@@ -427,25 +418,20 @@ delete-account-link = Обриши налог
 ## Two Step Authentication
 
 tfa-title = Аутентификација у два корака
-
 tfa-step-1-3 = Корак 1 од 3
 tfa-step-2-3 = Корак 2 од 3
 tfa-step-3-3 = Корак 3 од 3
-
 tfa-button-continue = Настави
 tfa-button-cancel = Откажи
 tfa-button-finish = Доврши
-
 tfa-incorrect-totp = Неисправан код за аутентификацију
 tfa-cannot-retrieve-code = Дошло је до проблема приликом добављања вашег кода.
 tfa-cannot-verify-code-4 = Дошло је до грешке при потврђивању вашег резервног приступног кода
 tfa-incorrect-recovery-code-1 = Неисправан резервни приступни код
 tfa-enabled = Аутентификација у два корака омогућена
-
 tfa-scan-this-code =
     Скенирајте овај QR код помоћу једне од <linkExternal>ових
     апликација за аутентификацију</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -456,17 +442,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не можете скенирати код?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Унесите овај тајни кључ у вашу апликацију за аутентификацију:
-
 tfa-enter-totp = Сада унесите безбедносни код из апликације за аутентификацију.
 tfa-input-enter-totp =
     .label = Унесите безбедносни код
 tfa-save-these-codes-1 =
     Чувајте ове једнократне кодове на сигурном месту,
     у случају да изгубите приступ мобилном уређају.
-
 tfa-enter-code-to-confirm-1 =
     Унесите један од резервних приступних кодова да
     потврдите да сте их сачували. Требаће вам код за пријаву у случају да изгубите приступ
@@ -475,6 +458,7 @@ tfa-enter-recovery-code-1 =
     .label = Унеси резервни приступни код
 
 ##
+
 
 ## Profile section
 
@@ -487,6 +471,7 @@ profile-primary-email =
     .header = Примарна е-пошта
 
 ##
+
 
 ## Security section of Setting
 
@@ -578,6 +563,7 @@ se-secondary-email-none = Ништа
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Аутентификација у два корака
@@ -586,7 +572,6 @@ tfa-row-enabled = Омогућено
 tfa-row-not-set = Није постављено
 tfa-row-action-add = Додај
 tfa-row-action-disable = Онемогући
-
 tfa-row-button-refresh =
     .title = Освежите аутентификацију у два корака
 tfa-row-cannot-refresh =
@@ -596,14 +581,12 @@ tfa-row-content-explain =
     Спречите неовлашћени приступ вашем налогу
     захтевањем јединственог кода који имате само ви.
 tfa-row-cannot-verify-session-4 = Жао нам је, дошло је до грешке при потврђивању ваше сесије
-
 tfa-row-disable-modal-heading = Онемогућити аутентификацију у два корака?
 tfa-row-disable-modal-confirm = Онемогући
 tfa-row-disable-modal-explain-1 =
     Нећете моћи да опозовете ову радњу. Такође,
     имате опцију за <linkExternal>замену ваших резервних приступних кодова</linkExternal>.
 tfa-row-cannot-disable-2 = Није могуће онемогућити аутентификацију у два корака
-
 tfa-row-change-modal-heading-1 = Променити резервне приступне кодове?
 tfa-row-change-modal-confirm = Промени
 tfa-row-change-modal-explain = Нећете моћи да опозовете ову радњу.
@@ -627,3 +610,18 @@ auth-error-139 = Секундарна адреса мора бити друга�
 auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао верификациони код
 auth-error-1008 = Нова лозинка мора да буде другачија
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Ресетујте лозинку <span>да наставите на подешавања налога</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Ресетујте лозинку <span>да наставите на { $serviceName }</span>
+reset-password-warning-message = <span>Напомена:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { product-pocket } подаци неће бити погођени.
+reset-password-button = Започни ресетовање
+reset-password-success-alert = Ресетовање лозинке
+reset-password-error-general = Жао нам је, дошло је до грешке при ресетовању лозинке
+reset-password-error-unknown-account = Непознат налог
+reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
+reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
