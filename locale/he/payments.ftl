@@ -327,6 +327,58 @@ coupon-promo-code = קוד קופון
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] ‏{ $amount } כל יום
+        [two] ‏{ $amount } כל יומיים
+       *[other] ‏{ $amount } כל { $intervalCount } ימים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $amount } כל יום
+            [two] ‏{ $amount } כל יומיים
+           *[other] ‏{ $amount } כל { $intervalCount } ימים
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] ‏{ $amount } כל שבוע
+        [two] ‏{ $amount } כל שבועיים
+       *[other] ‏{ $amount } כל { $intervalCount } שבועות
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $amount } כל שבוע
+            [two] ‏{ $amount } כל שבועיים
+           *[other] ‏{ $amount } כל { $intervalCount } שבועות
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] ‏{ $amount } כל חודש
+        [two] ‏{ $amount } כל חודשיים
+       *[other] ‏{ $amount } כל { $intervalCount } חודשים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $amount } כל חודש
+            [two] ‏{ $amount } כל חודשיים
+           *[other] ‏{ $amount } כל { $intervalCount } חודשים
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] ‏{ $amount } כל שנה
+        [two] ‏{ $amount } כל שנתיים
+       *[other] ‏{ $amount } כל { $intervalCount } שנים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $amount } כל שנה
+            [two] ‏{ $amount } כל שנתיים
+           *[other] ‏{ $amount } כל { $intervalCount } שנים
+        }
 
 ## Error messages
 
@@ -435,6 +487,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = בעיה בטעינת חשבוניות
 sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
+sub-invoice-previews-error-title = בעיה בטעינת תצוגות מקדימות של חשבוניות
+sub-invoice-previews-error-text = לא ניתן לטעון תצוגות מקדימות של חשבוניות
 
 ## Routes - Subscription - ActionButton
 
@@ -463,6 +517,8 @@ sub-route-funding-source-payment-alert = פרטי תשלום לא חוקיים; 
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = אין תוכנית כזו למנוי הזה.
+sub-invoice-preview-error-title = תצוגה מקדימה של החשבונית לא נמצאה
+sub-invoice-preview-error-text = תצוגה מקדימה של החשבונית לא נמצאה עבור מינוי זה
 
 ## Routes - Subscriptions - Pocket Subscription
 
