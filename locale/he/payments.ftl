@@ -246,6 +246,58 @@ price-details-no-tax-year =
             [two] ‏{ $priceAmount } כל שנתיים
            *[other] ‏{ $priceAmount } כל { $intervalCount } שנים
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל יום
+        [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל יומיים
+       *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } ימים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל יום
+            [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל יומיים
+           *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } ימים
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שבוע
+        [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שבועיים
+       *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } שבועות
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שבוע
+            [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שבועיים
+           *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } שבועות
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל חודש
+        [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל חודשיים
+       *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } חודשים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל חודש
+            [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל חודשיים
+           *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } חודשים
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שנה
+        [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שנתיים
+       *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } שנים
+    }
+    .title =
+        { $intervalCount ->
+            [one] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שנה
+            [two] ‏{ $priceAmount } + מס בסך { $taxAmount } כל שנתיים
+           *[other] ‏{ $priceAmount } + מס בסך { $taxAmount } כל { $intervalCount } שנים
+        }
 
 ## Component - SubscriptionTitle
 
