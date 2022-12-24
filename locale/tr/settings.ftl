@@ -37,6 +37,9 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
 
 ## Ready component
 

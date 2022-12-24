@@ -190,6 +190,63 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } vergi
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] Günlük { $priceAmount }
+       *[other] { $intervalCount } günde bir { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Günlük { $priceAmount }
+           *[other] { $intervalCount } günde bir { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] Haftalık { $priceAmount }
+       *[other] { $intervalCount } haftada bir { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Haftalık { $priceAmount }
+           *[other] { $intervalCount } haftada bir { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] Aylık { $priceAmount }
+       *[other] { $intervalCount } ayda bir { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Aylık { $priceAmount }
+           *[other] { $intervalCount } ayda bir { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] Yıllık { $priceAmount }
+       *[other] { $intervalCount } yılda bir { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Yıllık { $priceAmount }
+           *[other] { $intervalCount } yılda bir { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] Günlük { $priceAmount } + { $taxAmount } vergi
+       *[other] { $intervalCount } günde bir { $priceAmount } + { $taxAmount } vergi
+    }
+    .title =
+        { $intervalCount ->
+            [one] Günlük { $priceAmount } + { $taxAmount } vergi
+           *[other] { $intervalCount } günde bir { $priceAmount } + { $taxAmount } vergi
+        }
 
 ## Component - SubscriptionTitle
 
@@ -328,6 +385,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Faturalar yüklenirken sorun oluştu
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
+sub-invoice-previews-error-title = Fatura ön izlemeleri yüklenirken sorun oluştu
+sub-invoice-previews-error-text = Fatura ön izlemeleri yüklenemedi
 
 ## Routes - Subscription - ActionButton
 
@@ -359,6 +418,8 @@ sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla
 sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
 invoice-not-found = Sonraki fatura bulunamadı
 sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamadı.
+sub-invoice-preview-error-title = Fatura ön izlemesi bulunamadı
+sub-invoice-preview-error-text = Bu abonelik için fatura ön izlemesi bulunamadı
 
 ## Routes - Subscriptions - Pocket Subscription
 
