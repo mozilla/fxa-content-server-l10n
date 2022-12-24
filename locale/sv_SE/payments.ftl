@@ -66,8 +66,7 @@ new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Ange din e-postadress
 new-user-confirm-email =
     .label = bekräfta din e-postadress
@@ -189,6 +188,13 @@ plan-details-tax = Skatter och avgifter
 
 product-no-such-plan = Ingen sådan plan för denna produkt.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } skatt
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Konfigurera din prenumeration
@@ -212,8 +218,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Stäng modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Laddar…
 settings-subscriptions-title = Prenumerationer
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kampanjkod
@@ -221,30 +225,6 @@ coupon-promo-code = Kampanjkod
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dagligen
-       *[other] { $amount } var { $intervalCount } dag
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } varje vecka
-       *[other] { $amount } var { $intervalCount } vecka
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } varje månad
-       *[other] { $amount } var { $intervalCount } månad
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } varje år
-       *[other] { $amount } var { $intervalCount } år
-    }
 
 ## Error messages
 
@@ -339,34 +319,6 @@ sub-item-cancel-confirm =
     Avbryt min åtkomst och min sparade information för
     { $name } den { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dagligen
-       *[other] { $amount } var { $intervalCount } dag
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } veckovis
-       *[other] { $amount } var { $intervalCount } vecka
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } månadsvis
-       *[other] { $amount } var { $intervalCount } månad
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } årligen
-       *[other] { $amount } var { $intervalCount } år
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Återaktivering av prenumerationen misslyckades
@@ -395,6 +347,8 @@ pay-update-change-btn = Ändra
 pay-update-manage-btn = Hantera
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
