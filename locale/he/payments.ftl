@@ -65,9 +65,8 @@ new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = נא להכניס את הדוא״ל שלך
+new-user-enter-email =
+    .label = נא להכניס את כתובת הדוא״ל שלך
 new-user-confirm-email =
     .label = אימות כתובת הדוא״ל שלך
 new-user-subscribe-product-updates = ברצוני לקבל עדכוני מוצר מ־{ -brand-name-firefox }
@@ -165,6 +164,8 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות �
 ## Component - PaymentMethodHeader
 
 payment-method-header = נא לבחור את שיטת התשלום שלך
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = נדרש
 
 ## Component - PaymentProcessing
@@ -186,6 +187,13 @@ plan-details-tax = מיסים ועמלות
 ## Component - PlanErrorDialog
 
 product-no-such-plan = אין תוכנית כזו למוצר הזה.
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = ‏{ $priceAmount } + מס בסך { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -215,34 +223,6 @@ coupon-promo-code = קוד קופון
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } כל יום
-        [two] { $amount } כל יומיים
-       *[other] { $amount } כל { $intervalCount } ימים
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } כל שבוע
-        [two] { $amount } כל שבועיים
-       *[other] { $amount } כל { $intervalCount } שבועות
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } כל חודש
-        [two] { $amount } כל חודשיים
-       *[other] { $amount } כל { $intervalCount } חודשים
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } כל שנה
-        [two] { $amount } כל שנתיים
-       *[other] { $amount } כל { $intervalCount } שנים
-    }
 
 ## Error messages
 
@@ -330,38 +310,6 @@ sub-item-cancel-confirm =
     בטלו את הגישה ואת המידע השמור שלי
     בתוך { $name } בתאריך { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } כל יום
-        [two] { $amount } כל יומיים
-       *[other] { $amount } כל { $intervalCount } ימים
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } כל שבוע
-        [two] { $amount } כל שבועיים
-       *[other] { $amount } כל { $intervalCount } שבועות
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } כל חודש
-        [two] { $amount } כל חודשיים
-       *[other] { $amount } כל { $intervalCount } חודשים
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } כל שנה
-        [two] { $amount } כל שנתיים
-       *[other] { $amount } כל { $intervalCount } שנים
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = הפעלת המינוי מחדש נכשלה
@@ -390,6 +338,8 @@ pay-update-change-btn = עדכון
 pay-update-manage-btn = ניהול
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = החיוב הבא בתאריך { $date }
