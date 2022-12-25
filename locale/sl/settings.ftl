@@ -78,6 +78,9 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Se spomnite gesla? Prijavite se
 
 ## Ready component
 
@@ -654,7 +657,7 @@ reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevan
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje v { $serviceName }</span>
-reset-password-warning-message = <span>Opomba:</span> Ko ponastavite svoje geslo, ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke v { product-pocket }.
+reset-password-warning-message = <span>Opomba:</span> S ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli), saj podatke šifriramo z vašim geslom, da zaščitimo vašo zasebnost. Vse morebitne naročnine boste obdržali in podatki { product-pocket } bodo ostali nedotaknjeni.
 reset-password-button = Začni ponastavitev
 reset-password-success-alert = Geslo ponastavljeno
 reset-password-error-general = Pri ponastavitvi vašega gesla je žal prišlo do težave
