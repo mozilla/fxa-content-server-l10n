@@ -563,6 +563,11 @@ auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = המשך להגדרות החשבון
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = המשך אל { $serviceName }
 reset-password-warning-message = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
 reset-password-button = התחלת איפוס
 reset-password-success-alert = הססמא אופסה
