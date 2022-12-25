@@ -63,12 +63,6 @@ brand-name-firefox-logo = Λογότυπο { -brand-name-firefox }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Εισαγάγετε το email σας
 new-user-confirm-email =
     .label = Επιβεβαιώστε το email σας
 new-user-subscribe-product-updates = Επιθυμώ να λαμβάνω ενημερώσεις προϊόντων από το { -brand-name-firefox }
@@ -189,6 +183,12 @@ plan-details-tax = Φόροι και τέλη
 
 product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα για αυτό το προϊόν.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Ρύθμιση συνδρομής
@@ -212,8 +212,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Κλείσιμο διαλόγου
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Φόρτωση…
 settings-subscriptions-title = Συνδρομές
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Κωδικός προσφοράς
@@ -221,30 +219,6 @@ coupon-promo-code = Κωδικός προσφοράς
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } ημερησίως
-       *[other] { $amount } κάθε { $intervalCount } ημέρες
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } εβδομαδιαία
-       *[other] { $amount } κάθε { $intervalCount } εβδομάδες
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } μηνιαία
-       *[other] { $amount } κάθε { $intervalCount } μήνες
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } ετησίως
-       *[other] { $amount } κάθε { $intervalCount } χρόνια
-    }
 
 ## Error messages
 
@@ -339,34 +313,6 @@ sub-item-cancel-confirm =
     Ακύρωση πρόσβασης και αποθηκευμένων πληροφοριών στο
     { $name } στις { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } ημερησίως
-       *[other] { $amount } κάθε { $intervalCount } ημέρες
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } εβδομαδιαία
-       *[other] { $amount } κάθε { $intervalCount } εβδομάδες
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } μηνιαία
-       *[other] { $amount } κάθε { $intervalCount } μήνες
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } ετησίως
-       *[other] { $amount } κάθε { $intervalCount } έτη
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Αποτυχία επανενεργοποίησης της συνδρομής
@@ -395,6 +341,8 @@ pay-update-change-btn = Αλλαγή
 pay-update-manage-btn = Διαχείριση
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Επόμενη χρέωση στις { $date }
