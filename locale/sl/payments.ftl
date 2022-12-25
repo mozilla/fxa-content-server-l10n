@@ -326,13 +326,17 @@ price-details-tax-month =
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } davka letno
-       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } let
+        [one] { $priceAmount } + { $taxAmount } davka na leto
+        [two] { $priceAmount } + { $taxAmount } davka vsaki { $intervalCount } leti
+        [few] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } leta
+       *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } let
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } davka letno
-           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } let
+            [one] { $priceAmount } + { $taxAmount } davka na leto
+            [two] { $priceAmount } + { $taxAmount } davka vsaki { $intervalCount } leti
+            [few] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } leta
+           *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } let
         }
 
 ## Component - SubscriptionTitle
