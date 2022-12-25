@@ -281,35 +281,47 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } davka dnevno
-       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } dni
+        [one] { $priceAmount } + { $taxAmount } davka na dan
+        [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } dneva
+        [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } dni
+       *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } dni
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } davka dnevno
-           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } dni
+            [one] { $priceAmount } + { $taxAmount } davka na dan
+            [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } dneva
+            [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } dni
+           *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } dni
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
         [one] { $priceAmount } + { $taxAmount } davka na teden
+        [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } tedna
+        [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } tedne
        *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } tednov
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } davka na teden
+            [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } tedna
+            [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } tedne
            *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } tednov
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } davka mesečno
-       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } mesecev
+        [one] { $priceAmount } + { $taxAmount } davka na mesec
+        [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } meseca
+        [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } mesece
+       *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } mesecev
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } davka mesečno
-           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } mesecev
+            [one] { $priceAmount } + { $taxAmount } davka na mesec
+            [two] { $priceAmount } + { $taxAmount } davka vsaka { $intervalCount } meseca
+            [few] { $priceAmount } + { $taxAmount } davka vsake { $intervalCount } mesece
+           *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } mesecev
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
