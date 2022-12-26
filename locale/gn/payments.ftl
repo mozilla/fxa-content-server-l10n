@@ -66,8 +66,7 @@ new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>E
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Ehai ne ñanduti veve
 new-user-confirm-email =
     .label = Emoneĩjey ne ñanduti veve
@@ -188,6 +187,13 @@ plan-details-tax = Impuesto ha tása
 
 product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + jehepyme’ẽ { $taxAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Ñemboheraguapy ñemboheko
@@ -211,8 +217,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Emboty modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Henyhẽhína…
 settings-subscriptions-title = Mboheraguapy
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Ayvu ñemoherakuãgua
@@ -220,30 +224,6 @@ coupon-promo-code = Ayvu ñemoherakuãgua
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } aragua
-       *[other] { $amount } peteĩ { $intervalCount } ára
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } arapokõindýpe
-       *[other] { $amount } peteĩ { $intervalCount } arapokõindýpe
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } jasýpe
-       *[other] { $amount } peteĩ { $intervalCount } jasýpe
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } arýpe
-       *[other] { $amount } peteĩ { $intervalCount } arýpe
-    }
 
 ## Error messages
 
@@ -338,34 +318,6 @@ sub-item-cancel-confirm =
     Ehejarei che jeikeha ha che marandu ñongatupyre
     { $name } pegua { $period }-pe
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } aragua
-       *[other] { $amount } peteĩteĩva { $intervalCount } ára
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } arapokõindýpe
-       *[other] { $amount } peteĩteĩ { $intervalCount } arapokõindýpe
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } jasýpe
-       *[other] { $amount } peteĩteĩva { $intervalCount } jasýpe
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } arýpe
-       *[other] { $amount } peteĩteĩva { $intervalCount } arýpe
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Ojavy pe mboheraguapy myandyjey
@@ -394,6 +346,8 @@ pay-update-change-btn = Moambue
 pay-update-manage-btn = Ñangareko
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
