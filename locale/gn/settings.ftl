@@ -609,3 +609,6 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 reset-password-button = Emoñepyrũ jeguerujey
 reset-password-success-alert = Eguerujey ñe’ẽñemi
 reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
+reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
+reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
+reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
