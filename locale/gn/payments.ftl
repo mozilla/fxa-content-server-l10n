@@ -193,6 +193,50 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + jehepyme’ẽ { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } peteĩ árape
+       *[other] { $priceAmount } opa { $intervalCount } árape
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } peteĩ árape
+           *[other] { $priceAmount } opa { $intervalCount } árape
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } arapokõindýpe
+       *[other] { $priceAmount } opa { $intervalCount } arapokõindýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } arapokõindýpe
+           *[other] { $priceAmount } opa { $intervalCount } arapokõindýpe
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } jasýpe
+       *[other] { $priceAmount } opa { $intervalCount } jasýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } jasýpe
+           *[other] { $priceAmount } opa { $intervalCount } jasýpe
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } arýpe
+       *[other] { $priceAmount } opa { $intervalCount } arýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } arýpe
+           *[other] { $priceAmount } opa { $intervalCount } arýpe
+        }
 
 ## Component - SubscriptionTitle
 
