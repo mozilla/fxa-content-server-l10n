@@ -237,6 +237,50 @@ price-details-no-tax-year =
             [one] { $priceAmount } arýpe
            *[other] { $priceAmount } opa { $intervalCount } arýpe
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } jehepyme'ẽ aragua
+       *[other] { $priceAmount } + { $taxAmount }  jehepyme'ẽ aragua { $intervalCount } árape
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } jehepyme'ẽ aragua
+           *[other] { $priceAmount } + { $taxAmount }  jehepyme'ẽ aragua { $intervalCount } árape
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } jejepyme’ẽ arapokindygua
+       *[other] { $priceAmount } + { $taxAmount } ñavo jejepyme’ẽ { $intervalCount } arapokõindýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } jejepyme’ẽ arapokindygua
+           *[other] { $priceAmount } + { $taxAmount } ñavo jejepyme’ẽ { $intervalCount } arapokõindýpe
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ jasygua
+       *[other] { $priceAmount } + { $taxAmount } ñavo jehepyme’ẽ { $intervalCount } jasýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ jasygua
+           *[other] { $priceAmount } + { $taxAmount } ñavo jehepyme’ẽ { $intervalCount } jasýpe
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ arygua
+       *[other] { $priceAmount } + { $taxAmount } ñavo jehepyme’ẽ { $intervalCount } arýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ arygua
+           *[other] { $priceAmount } + { $taxAmount } ñavo jehepyme’ẽ { $intervalCount } arýpe
+        }
 
 ## Component - SubscriptionTitle
 
@@ -268,6 +312,39 @@ coupon-promo-code = Ayvu ñemoherakuãgua
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } aragua
+       *[other] { $amount } opa { $intervalCount } árape
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } aragua
+           *[other] { $amount } opa { $intervalCount } árape
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } arapokõindýpe
+       *[other] { $amount } opa { $intervalCount } arapokõindy
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } arapokõindýpe
+           *[other] { $amount } opa { $intervalCount } arapokõindy
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } jasygua
+       *[other] { $amount } opa { $intervalCount } jasýpe
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } jasygua
+           *[other] { $amount } opa { $intervalCount } jasýpe
+        }
 
 ## Error messages
 
