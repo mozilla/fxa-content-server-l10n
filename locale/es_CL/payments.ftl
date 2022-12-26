@@ -487,6 +487,7 @@ pay-update-manage-btn = Gestionar
 
 sub-next-bill = Próxima facturación el { $date }
 sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
+sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> por impuestos vence el <strong>{ $date }</strong>
 sub-expires-on = Expira el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -506,6 +507,8 @@ sub-route-funding-source-payment-alert = Información de pago inválida; Hay un 
 sub-item-no-such-plan = No existe ese plan para esta suscripción.
 invoice-not-found = Factura posterior no encontrada
 sub-item-no-such-subsequent-invoice = Factura posterior no encontrada para esta suscripción.
+sub-invoice-preview-error-title = Previsualización de la factura no encontrada
+sub-invoice-preview-error-text = Previsualización de la factura no encontrada para esta suscripción
 
 ## Routes - Subscriptions - Pocket Subscription
 
