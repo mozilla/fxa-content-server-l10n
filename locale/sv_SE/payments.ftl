@@ -205,6 +205,83 @@ price-details-no-tax-day =
             [one] { $priceAmount } dagligen
            *[other] { $priceAmount } var { $intervalCount } dag
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } varje vecka
+       *[other] { $priceAmount } var { $intervalCount } vecka
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje vecka
+           *[other] { $priceAmount } var { $intervalCount } vecka
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } varje månad
+       *[other] { $priceAmount } var { $intervalCount } månad
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje månad
+           *[other] { $priceAmount } var { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } varje år
+       *[other] { $priceAmount } var { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje år
+           *[other] { $priceAmount } var { $intervalCount } år
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt dagligen
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt dagligen
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje vecka
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } vecka
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje vecka
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } vecka
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje månad
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } månad
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje månad
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje år
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje år
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } år
+        }
 
 ## Component - SubscriptionTitle
 
@@ -236,6 +313,50 @@ coupon-promo-code = Kampanjkod
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } dagligen
+       *[other] { $amount } var { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } dagligen
+           *[other] { $amount } var { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } varje vecka
+       *[other] { $amount } var { $intervalCount } vecka
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje vecka
+           *[other] { $amount } var { $intervalCount } vecka
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } varje månad
+       *[other] { $amount } var { $intervalCount } månad
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje månad
+           *[other] { $amount } var { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } varje år
+       *[other] { $amount } var { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje år
+           *[other] { $amount } var { $intervalCount } år
+        }
 
 ## Error messages
 
