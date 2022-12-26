@@ -193,6 +193,95 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + taxa de { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } quotidian
+       *[other] { $priceAmount } cata{ $intervalCount } dies
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } quotidian
+           *[other] { $priceAmount } cata{ $intervalCount } dies
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } septimanal
+       *[other] { $priceAmount } cata { $intervalCount } septimanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } septimanal
+           *[other] { $priceAmount } cata { $intervalCount } septimanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mensual
+       *[other] { $priceAmount } cata { $intervalCount } menses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mensual
+           *[other] { $priceAmount } cata { $intervalCount } menses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } annual
+       *[other] { $priceAmount } cata { $intervalCount } annos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } annual
+           *[other] { $priceAmount } cata { $intervalCount } annos
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + taxa de { $taxAmount } quotidian
+       *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } dies
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + taxa de { $taxAmount } quotidian
+           *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } dies
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + taxa de { $taxAmount } septimanal
+       *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } septimanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + taxa de { $taxAmount } septimanal
+           *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } septimanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + taxa de { $taxAmount } mensual
+       *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } menses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + taxa de { $taxAmount } mensual
+           *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } menses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + taxa de { $taxAmount } annual
+       *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } annos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + taxa de { $taxAmount } annual
+           *[other] { $priceAmount } + taxa de { $taxAmount } cata { $intervalCount } annos
+        }
 
 ## Component - SubscriptionTitle
 
@@ -245,6 +334,28 @@ plan-price-interval-week =
         { $intervalCount ->
             [one] { $amount } cata septimana
            *[other] { $amount } cata { $intervalCount } septimanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cata { $intervalCount } menses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensual
+           *[other] { $amount } cata { $intervalCount } menses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } annualmente
+       *[other] { $amount } cata { $intervalCount } annos
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } annualmente
+           *[other] { $amount } cata { $intervalCount } annos
         }
 
 ## Error messages
@@ -368,6 +479,8 @@ pay-update-manage-btn = Gerer
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxime factura le { $date }
+sub-next-bill-no-tax = Le factura proxime de <strong>{ $priceAmount }</strong> expira le <strong>{ $date }</strong>
+sub-next-bill-tax = Tu factura proxime de <strong>{ $priceAmount }</strong> + taxa de { $taxAmount }</strong> expira le <strong>{ $date }</strong>
 sub-expires-on = Expira le { $date }
 
 ## Routes - Subscription - PaymentUpdate

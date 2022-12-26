@@ -603,6 +603,11 @@ auth-error-1008 = Tu nove contrasigno debe esser differente
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Remonta le contrasigno <span>pro continuar a configurar le conto</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
 reset-password-warning-message = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
 reset-password-button = Initiar reinitialisation
 reset-password-success-alert = Remontar contrasigno
