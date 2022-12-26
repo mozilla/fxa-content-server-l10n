@@ -349,7 +349,7 @@ plan-price-interval-month =
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
     { $intervalCount ->
-        [one] { $amount } annualmente
+        [one] { $amount } annual
        *[other] { $amount } cata { $intervalCount } annos
     }
     .title =
