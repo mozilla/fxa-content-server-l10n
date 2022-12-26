@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = Ne ñe’ẽñemi oñemonepyrũma
@@ -56,18 +60,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
-
 bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 
 ## Connect another device promo
@@ -76,7 +79,6 @@ connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablé
 connect-another-find-fx-mobile =
     Eheka { -brand-firefox } { -google-play }-pe ha { -app-store } térã
     <br /><linkExternal>emondo ñemboguejy juajuha ne mba’e’okápe.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +87,7 @@ connect-another-app-store-image-2 =
     .title = Emboguejy { -brand-firefox } { -app-store } rupi
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +102,10 @@ cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Osẽma { $service }-gui.
-
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Mba’epuru oĩ’ỹva térã ikõiva?
-
 cs-disconnect-sync-heading = Sync-gui ñesẽ
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -144,10 +144,10 @@ cs-disconnect-suspicious-advice-content =
     ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-firefox-account } pegua
     ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
     ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
-
 cs-sign-out-button = Emboty tembiapo
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -176,7 +176,6 @@ drop-down-menu-title = { -product-firefox-account } poravopyrã
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 drop-down-menu-sign-out = Ñesẽ
-
 drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembiapo
 
 ## Flow Container
@@ -210,7 +209,6 @@ input-password-hide = Emokañy ñe’ẽñemi
 input-password-show = Ehechauka ñe’ẽñemi
 input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
 input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
-
 
 ## Linked Accounts section
 
@@ -291,11 +289,11 @@ avatar-page-image-too-large-error-2 = Pe ta’ãnga marandurenda tuicha emyanyh�
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Emoambue ñe’ẽñemi
-
 pw-8-chars = Michĩvéramo 8 tai
 pw-not-email = Iñambue ne ñanduti veve kundaharapégui
 pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
@@ -305,40 +303,35 @@ pw-tips = Epyta porã — ani reipuru jey ñe’ẽñemi. Eikuaave ñe’ẽñem
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
 pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
-
 pw-change-current-password =
     .label = Emoinge ñe’ẽñemi ag̃agua
 pw-change-new-password =
     .label = Emoinge ñe’ẽñemi pyahu
 pw-change-confirm-password =
     .label = Emoneĩ ñe’ẽñemi pyahu
-
 pw-change-success-alert-2 = Ñe’ẽñemi hekopyahúva
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
-
 pw-create-success-alert-2 = Ñe’ẽñemi moĩmbyre
 pw-create-error-2 = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Embogue mba’ete
-
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
-
 delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
-
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-
 delete-account-chk-box-1-v2 =
     .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ha’e’ỹva { product-pocket })
 delete-account-chk-box-2 =
@@ -347,33 +340,28 @@ delete-account-chk-box-3 =
     .label = Ikatu eipurujeýrõ ko ñanduti veve ndogueruvéima marandu ñongatupyre
 delete-account-chk-box-4 =
     .label = Oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe oñemboguepáta
-
-
 delete-account-continue-button = Ku’ejey
-
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
-
 delete-account-cancel-button = Heja
 delete-account-delete-button-2 = Mboguete
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Téra ehechauka hag̃ua
-
 display-name-input =
     .label = Emoinge téra ehechauka hag̃ua
 submit-display-name = Ñongatu
 cancel-display-name = Heja
-
 display-name-update-error-2 = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua
-
 display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 
 ##
+
 
 # Account recovery key setup page
 
@@ -427,25 +415,20 @@ delete-account-link = Emboguete mba’ete
 ## Two Step Authentication
 
 tfa-title = Ñemoneĩ mokõi jeku’épe
-
 tfa-step-1-3 = Ku’e 1 3-gui
 tfa-step-2-3 = Ku’e 2 3-gui
 tfa-step-3-3 = Ku’e 3 3-gui
-
 tfa-button-continue = Ku’ejey
 tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
-
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
 tfa-cannot-verify-code-4 = Oiko peteĩ apañuãi emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
-
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
     ñemoneĩrã rembipuru’i</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -456,21 +439,19 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
-
 tfa-enter-totp = Emoinge ko’ág̃a tekorosã ayvu tembipuru’i ñemoneĩmbýpe.
 tfa-input-enter-totp =
     .label = Emoinge tekorosã ayvu
 tfa-save-these-codes-1 =
     Eñongatu ko’ã ayvu ñemoneĩrã ijepuru peteĩva tenda hekorosãvévape
     ndereguerekói jave ne pumbyry jeheguáva.
-
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
 ##
+
 
 ## Profile section
 
@@ -483,6 +464,7 @@ profile-primary-email =
     .header = Ñandutiveve mba’eguasuvéva
 
 ##
+
 
 ## Security section of Setting
 
@@ -574,6 +556,7 @@ se-secondary-email-none = Avave
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ñemoneĩ mokõi jeku’épe
@@ -582,7 +565,6 @@ tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
-
 tfa-row-button-refresh =
     .title = Embopyahu ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-refresh =
@@ -592,14 +574,12 @@ tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eipurukuaáva.
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
-
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain-1 =
     Nerembojevymo’ãi ko tembiapo. Nde avei
     eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã jeykekoguáva </linkExternal>.
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
-
 tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
@@ -623,3 +603,9 @@ auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
+
+## ResetPassword page
+
+reset-password-button = Emoñepyrũ jeguerujey
+reset-password-success-alert = Eguerujey ñe’ẽñemi
+reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
