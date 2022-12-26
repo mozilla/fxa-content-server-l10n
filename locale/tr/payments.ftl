@@ -247,6 +247,39 @@ price-details-tax-day =
             [one] Günlük { $priceAmount } + { $taxAmount } vergi
            *[other] { $intervalCount } günde bir { $priceAmount } + { $taxAmount } vergi
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] Haftalık { $priceAmount } + { $taxAmount } vergi
+       *[other] { $intervalCount } haftada bir { $priceAmount } + { $taxAmount } vergi
+    }
+    .title =
+        { $intervalCount ->
+            [one] Haftalık { $priceAmount } + { $taxAmount } vergi
+           *[other] { $intervalCount } haftada bir { $priceAmount } + { $taxAmount } vergi
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] Aylık { $priceAmount } + { $taxAmount } vergi
+       *[other] { $intervalCount } ayda bir { $priceAmount } + { $taxAmount } vergi
+    }
+    .title =
+        { $intervalCount ->
+            [one] Aylık { $priceAmount } + { $taxAmount } vergi
+           *[other] { $intervalCount } ayda bir { $priceAmount } + { $taxAmount } vergi
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] Yıllık { $priceAmount } + { $taxAmount } vergi
+       *[other] { $intervalCount } yılda bir { $priceAmount } + { $taxAmount } vergi
+    }
+    .title =
+        { $intervalCount ->
+            [one] Yıllık { $priceAmount } + { $taxAmount } vergi
+           *[other] { $intervalCount } yılda bir { $priceAmount } + { $taxAmount } vergi
+        }
 
 ## Component - SubscriptionTitle
 
@@ -278,6 +311,50 @@ coupon-promo-code = Promosyon kodu
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] Günlük { $amount }
+       *[other] { $intervalCount } günde bir { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Günlük { $amount }
+           *[other] { $intervalCount } günde bir { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] Haftalık { $amount }
+       *[other] { $intervalCount } haftada bir { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Haftalık { $amount }
+           *[other] { $intervalCount } haftada bir { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] Aylık { $amount }
+       *[other] { $intervalCount } ayda bir { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Aylık { $amount }
+           *[other] { $intervalCount } ayda bir { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] Yıllık { $amount }
+       *[other] { $intervalCount } yılda bir { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] Yıllık { $amount }
+           *[other] { $intervalCount } yılda bir { $amount }
+        }
 
 ## Error messages
 
