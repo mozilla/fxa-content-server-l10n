@@ -66,8 +66,7 @@ new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } accoun
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Jepni email-in tuaj
 new-user-confirm-email =
     .label = Ripohoni email-in tuaj
@@ -189,6 +188,46 @@ plan-details-tax = Taksa dhe Tarifa
 
 product-no-such-plan = S’ka plan të tillë për këtë produkt.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } taksë
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } në ditë
+       *[other] { $priceAmount } çdo { $intervalCount } ditë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } në ditë
+           *[other] { $priceAmount } çdo { $intervalCount } ditë
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } në javë
+       *[other] { $priceAmount } çdo { $intervalCount } javë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } në javë
+           *[other] { $priceAmount } çdo { $intervalCount } javë
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } në muaj
+       *[other] { $priceAmount } çdo { $intervalCount } muaj
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } muaj
+           *[other] { $priceAmount } çdo { $intervalCount } muaj
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Ujdisje e pajtimit tim
@@ -212,8 +251,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Mbylle dritaren modale
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Po ngarkohet…
 settings-subscriptions-title = Pajtime
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kod Promocional
@@ -221,30 +258,6 @@ coupon-promo-code = Kod Promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } në ditë
-       *[other] { $amount } çdo { $intervalCount } ditë
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } në javë
-       *[other] { $amount } çdo { $intervalCount } javë
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } në muaj
-       *[other] { $amount } çdo { $intervalCount } muaj
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } në vit
-       *[other] { $amount } çdo { $intervalCount } vjet
-    }
 
 ## Error messages
 
@@ -334,34 +347,6 @@ sub-item-stay-sub = Qëndroni i Pajtuar
 sub-item-cancel-msg = Pas { $period }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $name }.
 sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $name }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } në ditë
-       *[other] { $amount } çdo { $intervalCount } ditë
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } në javë
-       *[other] { $amount } çdo { $intervalCount } javë
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } në muaj
-       *[other] { $amount } çdo { $intervalCount } muaj
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } në vit
-       *[other] { $amount } çdo { $intervalCount } vit
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Riaktivizimi i pajtimit dështoi
@@ -390,6 +375,8 @@ pay-update-change-btn = Ndryshoje
 pay-update-manage-btn = Administrojini
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Faturimi i ardhshëm më { $date }
