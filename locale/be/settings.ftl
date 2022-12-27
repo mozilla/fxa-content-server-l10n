@@ -617,9 +617,9 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
-reset-password-button = Пачаць скіданне
-reset-password-success-alert = Скіданне пароля
-reset-password-error-general = На жаль, падчас скідання вашага пароля ўзнікла праблема
+reset-password-button = Пачаць скід
+reset-password-success-alert = Скід пароля
+reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
 reset-password-error-unknown-account = Невядомы ўліковы запіс
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
