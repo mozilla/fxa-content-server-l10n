@@ -149,6 +149,7 @@ payment-processing-message = โปรดรอสักครู่ขณะท
 ## Component - PlanDetails
 
 plan-details-header = รายละเอียดสินค้า
+plan-details-list-price = ราคาขาย
 plan-details-show-button = แสดงรายละเอียด
 plan-details-hide-button = ซ่อนรายละเอียด
 plan-details-total-label = รวมทั้งหมด
@@ -209,6 +210,8 @@ currency-currency-mismatch = ขออภัย คุณไม่สามา�
 no-subscription-change = ขออภัย คุณไม่สามารถเปลี่ยนแผนการสมัครสมาชิกของคุณได้
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = คุณได้สมัครสมาชิกผ่านทาง { $mobileAppStore } แล้ว
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = เกิดข้อผิดพลาดของระบบที่ทำให้การสมัครใช้งาน { $productName } ของคุณล้มเหลว จึงยังไม่มีการเรียกเก็บเงินผ่านวิธีการชำระเงินของคุณ โปรดลองอีกครั้ง
 product-plan-error =
     .title = เกิดปัญหาในการโหลดแผน
 product-profile-error =
@@ -288,6 +291,8 @@ sub-route-idx-cancel-aside = มีคำถามใช่หรือไม่
 
 sub-customer-error =
     .title = เกิดปัญหาในการโหลดลูกค้า
+sub-invoice-error =
+    .title = มีปัญหาในการโหลดใบแจ้งหนี้
 sub-billing-update-success = อัปเดตข้อมูลการเรียกเก็บเงินของคุณเรียบร้อยแล้ว
 
 ## Routes - Subscription - ActionButton
@@ -347,4 +352,6 @@ reactivate-success-button = ปิด
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: การซื้อในแอป
+sub-iap-item-apple-purchase = { -brand-name-apple }: การซื้อในแอป
 sub-iap-item-manage-button = จัดการ
