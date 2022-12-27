@@ -227,6 +227,39 @@ price-details-no-tax-month =
             [one] { $priceAmount } muaj
            *[other] { $priceAmount } çdo { $intervalCount } muaj
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } në vit
+       *[other] { $priceAmount } çdo { $intervalCount } vjet
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } në vit
+           *[other] { $priceAmount } çdo { $intervalCount } vjet
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taksë në ditë
+       *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } ditë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taksë në ditë
+           *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } ditë
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taksë në javë
+       *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } javë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taksë në javë
+           *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } javë
+        }
 
 ## Component - SubscriptionTitle
 
