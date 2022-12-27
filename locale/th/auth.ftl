@@ -176,6 +176,9 @@ passwordChangeRequired-different-password-plaintext = สำคัญ: เลื
 passwordReset-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordReset-title = รหัสผ่านบัญชีคุณถูกเปลี่ยนแล้ว
 passwordReset-description = คุณจะต้องป้อนรหัสผ่านใหม่ของคุณบนอุปกรณ์อื่น ๆ เพื่อดำเนินการซิงค์ต่อ
+postAddAccountRecovery-subject-2 = สร้างคีย์กู้คืนบัญชีแล้ว
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = ไม่ใช่คุณใช่หรือไม่?
 postAddAccountRecovery-action = จัดการบัญชี
 postAddLinkedAccount-subject = เชื่อมโยงบัญชีใหม่กับ { -brand-firefox } แล้ว
 #  Variables:
@@ -191,6 +194,8 @@ postChangePrimary-description = คุณได้เปลี่ยนแปล
 postChangePrimary-action = จัดการบัญชี
 postConsumeRecoveryCode-action = จัดการบัญชี
 postNewRecoveryCodes-action = จัดการบัญชี
+postRemoveAccountRecovery-subject-2 = ลบคีย์กู้คืนบัญชีแล้ว
+postRemoveAccountRecovery-title-2 = คุณลบคีย์กู้คืนบัญชีของคุณแล้ว
 postRemoveAccountRecovery-action = จัดการบัญชี
 postRemoveSecondary-subject = อีเมลสำรองถูกลบแล้ว
 postRemoveSecondary-title = อีเมลสำรองถูกลบแล้ว
@@ -203,6 +208,7 @@ postVerifySecondary-subject = เพิ่มอีเมลสำรองแ�
 postVerifySecondary-title = เพิ่มอีเมลสำรองแล้ว
 postVerifySecondary-action = จัดการบัญชี
 recovery-subject = ตั้งรหัสผ่านใหม่
+recovery-title-2 = ลืมรหัสผ่านของคุณใช่หรือไม่?
 recovery-action = สร้างรหัสผ่านใหม่
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

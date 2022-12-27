@@ -63,11 +63,6 @@ brand-name-firefox-logo = โลโก้ { -brand-name-firefox }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = มีบัญชี { -brand-name-firefox } แล้วหรือยัง? <a>ลงชื่อเข้า</a>
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .label = ใส่อีเมลของคุณ
 new-user-confirm-email =
     .label = ยืนยันอีเมลของคุณ
 new-user-subscribe-product-updates = ฉันต้องการรับข่าวสารผลิตภัณฑ์จาก { -brand-name-firefox }
@@ -139,12 +134,14 @@ payment-validate-name-error = โปรดป้อนชื่อของค�
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-link-stripe-3 = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
 
 ## Component - PaymentProcessing
 
+payment-processing-message = โปรดรอสักครู่ขณะที่เราดำเนินการชำระเงินของคุณ…
 
 ## Component - PaymentProviderDetails
 
@@ -159,6 +156,11 @@ plan-details-total-label = รวมทั้งหมด
 ## Component - PlanErrorDialog
 
 product-no-such-plan = ไม่มีแผนดังกล่าวสำหรับผลิตภัณฑ์นี้
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
 
 ## Component - SubscriptionTitle
 
@@ -185,26 +187,6 @@ settings-subscriptions-title = การสมัครสมาชิก
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } วัน
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } สัปดาห์
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } เดือน
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } ปี
-    }
 
 ## Error messages
 
@@ -288,30 +270,6 @@ sub-item-cancel-confirm =
     ยกเลิกการเข้าถึงและข้อมูลที่บันทึกไว้ของฉันภายใน
     { $name } ใน { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } วัน
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } สัปดาห์
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } เดือน
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-       *[other] { $amount } ทุก { $intervalCount } ปี
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = การต่ออายุการสมัครสมาชิกล้มเหลว
@@ -338,6 +296,8 @@ pay-update-change-btn = เปลี่ยน
 pay-update-manage-btn = จัดการ
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = จะเรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
