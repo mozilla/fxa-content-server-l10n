@@ -345,6 +345,17 @@ plan-price-interval-month =
             [one] { $amount } jasygua
            *[other] { $amount } opa { $intervalCount } jasýpe
         }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } arygua
+       *[other] { $amount } opa { $intervalCount } ary
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } arygua
+           *[other] { $amount } opa { $intervalCount } ary
+        }
 
 ## Error messages
 
@@ -460,6 +471,7 @@ sub-customer-error =
 sub-invoice-error =
     .title = Apañuãi emyanyhẽvo kuatiañemure
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
+sub-invoice-previews-error-title = Apañuãi emyanyhẽvo kuatiañemure
 
 ## Routes - Subscription - ActionButton
 
