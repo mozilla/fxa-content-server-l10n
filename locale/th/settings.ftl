@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,7 +35,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
+
 
 ## Alert Bar
 
@@ -49,26 +54,32 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = เมนู Bento ของ { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } เป็นเทคโนโลยีที่ต่อสู้เพื่อความเป็นส่วนตัวออนไลน์ของคุณ
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
-
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 ## Connect another device promo
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
 connect-another-find-fx-mobile = ค้นหา { -brand-firefox } ใน { -google-play } และ { -app-store } หรือ<br /><linkExternal>ส่งลิงก์ดาวน์โหลดไปยังอุปกรณ์ของคุณ</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = ดาวน์โหลด { -brand-firefox } บน { -google-play }
+connect-another-app-store-image-2 =
+    .title = ดาวน์โหลด { -brand-firefox } บน { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -76,13 +87,10 @@ cs-heading = บริการที่เชื่อมต่อ
 cs-description = ทุกสิ่งที่คุณใช้และลงชื่อเข้า
 cs-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชรายการบริการที่เชื่อมต่อ
 cs-cannot-disconnect = ไม่พบไคลเอ็นต์ ไม่สามารถยกเลิกการเชื่อมต่อได้
-
 cs-refresh-button =
     .title = รีเฟรชบริการที่เชื่อมต่อ
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = รายการขาดหายหรือซ้ำ?
-
 cs-disconnect-sync-heading = ตัดการเชื่อมต่อจาก Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -116,10 +124,10 @@ cs-disconnect-suspicious-advice-content =
     เพื่อรักษาข้อมูลของคุณให้ปลอดภัย คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account }
     ของคุณในการตั้งค่าบัญชี นอกจากนี้คุณควรเปลี่ยนรหัสผ่านอื่น ๆ
     ที่คุณบันทึกไว้ใน { -brand-firefox } โดยพิมพ์ about:logins ลงในแถบที่อยู่
-
 cs-sign-out-button = ลงชื่อออก
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -177,9 +185,12 @@ input-password-hide = ซ่อนรหัสผ่าน
 input-password-show = แสดงรหัสผ่าน
 input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 
-
 ## Linked Accounts section
 
+la-heading = บัญชีที่เชื่อมโยง
+la-description = คุณได้รับอนุญาตให้เข้าถึงบัญชีต่อไปนี้แล้ว
+la-unlink-button = เลิกเชื่อมโยง
+la-unlink-account-button = เลิกเชื่อมโยง
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -245,11 +256,11 @@ avatar-page-image-too-large-error-2 = ไฟล์ภาพมีขนาดใ
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = เปลี่ยนรหัสผ่าน
-
 pw-8-chars = อย่างน้อย 8 ตัวอักษร
 pw-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
@@ -257,73 +268,63 @@ pw-commonly-used = ไม่ใช่รหัสผ่านที่พบบ�
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
-
 pw-change-current-password =
     .label = ป้อนรหัสผ่านปัจจุบัน
 pw-change-new-password =
     .label = ป้อนรหัสผ่านใหม่
 pw-change-confirm-password =
     .label = ยืนยันรหัสผ่านใหม่
-
 pw-change-success-alert-2 = ปรับปรุงรหัสผ่านแล้ว
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = สร้างรหัสผ่าน
-
 pw-create-success-alert-2 = ตั้งรหัสผ่านแล้ว
 pw-create-error-2 = ขออภัย เกิดปัญหาในการตั้งรหัสผ่านของคุณ
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = ลบบัญชี
-
 delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
-
 delete-account-confirm-title-2 = คุณได้เชื่อมต่อ{ -product-firefox-account } ของคุณกับผลิตภัณฑ์ { -brand-mozilla } ที่ช่วยให้คุณปลอดภัยและทำงานได้อย่างมีประสิทธิภาพบนเว็บแล้ว:
-
 delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
-
 delete-account-chk-box-2 =
     .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = การเปิดใช้งานอีเมลนี้ใหม่อาจไม่คืนค่าข้อมูลที่บันทึกไว้ของคุณ
 delete-account-chk-box-4 =
     .label = ส่วนขยายและชุดตกแต่งใด ๆ ที่คุณเผยแพร่ไปยัง addons.mozilla.org จะถูกลบ
-
-
 delete-account-continue-button = ดำเนินการต่อ
-
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
-
 delete-account-cancel-button = ยกเลิก
 delete-account-delete-button-2 = ลบ
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = ชื่อที่ใช้แสดง
-
 display-name-input =
     .label = ป้อนชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
-
 display-name-update-error-2 = เกิดปัญหาในการปรับปรุงชื่อที่ใช้แสดงของคุณ
-
 display-name-success-alert-2 = ปรับปรุงชื่อที่ใช้แสดงแล้ว
 
 ##
+
 
 # Account recovery key setup page
 
@@ -376,25 +377,21 @@ delete-account-link = ลบบัญชี
 ## Two Step Authentication
 
 tfa-title = การยืนยันตัวบุคคลแบบสองขั้นตอน
-
 tfa-step-1-3 = ขั้นตอนที่ 1 จาก 3
 tfa-step-2-3 = ขั้นตอนที่ 2 จาก 3
 tfa-step-3-3 = ขั้นตอนที่ 3 จาก 3
-
 tfa-button-continue = ดำเนินการต่อ
 tfa-button-cancel = ยกเลิก
 tfa-button-finish = เสร็จสิ้น
-
 tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
-
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
-
 tfa-input-enter-totp =
     .label = ป้อนรหัสความปลอดภัย
 
 ##
+
 
 ## Profile section
 
@@ -408,11 +405,13 @@ profile-primary-email =
 
 ##
 
+
 ## Security section of Setting
 
 security-heading = ความปลอดภัย
 
 ## Switch component
+
 
 ## Sub-section row Defaults
 
@@ -438,15 +437,14 @@ se-remove-email =
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-enabled = เปิดใช้งานอยู่
 tfa-row-not-set = ไม่ได้ตั้งค่า
 tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
-
 tfa-row-disable-modal-confirm = ปิดใช้งาน
-
 tfa-row-change-modal-confirm = เปลี่ยน
 
 ## Auth-server based errors that originate from backend service
@@ -454,3 +452,6 @@ tfa-row-change-modal-confirm = เปลี่ยน
 auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
+
+## ResetPassword page
+
