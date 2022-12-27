@@ -143,7 +143,11 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = ต้องใช้อุปกรณ์สองเครื่องในการซิงค์
 cadReminderFirst-description-2 = การซิงค์ใช้เวลาเพียงไม่กี่วินาทีเท่านั้น
+cadReminderSecond-subject-2 = อย่าพลาด! มาตั้งค่าการซิงค์ของคุณให้เสร็จกันเถอะ
 cadReminderSecond-action = ซิงค์กับอุปกรณ์อื่น
+cadReminderSecond-title-2 = อย่าลืมซิงค์!
+cadReminderSecond-description-sync = ซิงค์ที่คั่นหน้า รหัสผ่าน แท็บที่เปิดอยู่ และอื่น ๆ ของคุณในทุกที่ที่คุณใช้ { -brand-firefox }
+cadReminderSecond-description-plus = นอกจากนี้ ข้อมูลของคุณจะถูกเข้ารหัสอยู่เสมอ ซึ่งจะมีเพียงคุณและอุปกรณ์ที่คุณอนุมัติเท่านั้นที่จะสามารถเห็นได้
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ยินดีต้อนรับสู่ { $productName }
@@ -152,6 +156,8 @@ downloadSubscription-subject = ยินดีต้อนรับสู่ { $
 downloadSubscription-title = ยินดีต้อนรับสู่ { $productName }
 downloadSubscription-content-2 = เริ่มต้นใช้คุณลักษณะทั้งหมดที่รวมอยู่ในการสมัครสมาชิกของคุณ:
 downloadSubscription-link-action-2 = เริ่มต้น
+fraudulentAccountDeletion-subject = ลบ{ -product-firefox-account } ของคุณแล้ว
+fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
