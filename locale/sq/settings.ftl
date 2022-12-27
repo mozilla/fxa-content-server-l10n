@@ -609,3 +609,15 @@ auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ricaktoni fjalëkalimin
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = <span>Që të vazhdoni te { $serviceName }</span>, ricaktoni fjalëkalimin
+reset-password-warning-message = <span>Shënim:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { product-pocket } s’do të preken.
+reset-password-button = Filloni ricaktimin
+reset-password-success-alert = Fjalëkalimi u ricaktua
+reset-password-error-general = Na ndjeni, pati një problem me ricaktimin e fjalëkalimit tuaj
+reset-password-error-unknown-account = Llogari e panjohur
+reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
+reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
