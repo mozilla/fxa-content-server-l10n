@@ -480,7 +480,7 @@ pay-update-manage-btn = Gerer
 
 sub-next-bill = Proxime factura le { $date }
 sub-next-bill-no-tax = Le factura proxime de <strong>{ $priceAmount }</strong> expira le <strong>{ $date }</strong>
-sub-next-bill-tax = Tu factura proxime de <strong>{ $priceAmount }</strong> + taxa de { $taxAmount }</strong> expira le <strong>{ $date }</strong>
+sub-next-bill-tax = Tu factura proxime de <strong>{ $priceAmount } + taxa de { $taxAmount }</strong> expira le <strong>{ $date }</strong>
 sub-expires-on = Expira le { $date }
 
 ## Routes - Subscription - PaymentUpdate
