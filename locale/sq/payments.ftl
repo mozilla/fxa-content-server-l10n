@@ -241,24 +241,46 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } taksë në ditë
+        [one] { $priceAmount } + { $taxAmount } taksë ditore
        *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } ditë
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } taksë në ditë
+            [one] { $priceAmount } + { $taxAmount } taksë ditore
            *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } ditë
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } taksë në javë
+        [one] { $priceAmount } + { $taxAmount } taksë javore
        *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } javë
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } taksë në javë
+            [one] { $priceAmount } + { $taxAmount } taksë javore
            *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } javë
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taksë mujore
+       *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } muaj
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taksë mujore
+           *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } muaj
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taksë vjetore
+       *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } vjet
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taksë vjetore
+           *[other] { $priceAmount } + { $taxAmount } taksë çdo { $intervalCount } vjet
         }
 
 ## Component - SubscriptionTitle
@@ -291,6 +313,50 @@ coupon-promo-code = Kod Promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } në ditë
+       *[other] { $amount } çdo { $intervalCount } ditë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } në ditë
+           *[other] { $amount } çdo { $intervalCount } ditë
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } në javë
+       *[other] { $amount } çdo { $intervalCount } javë
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } në javë
+           *[other] { $amount } çdo { $intervalCount } javë
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } në muaj
+       *[other] { $amount } çdo { $intervalCount } muaj
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } monthly
+           *[other] { $amount } çdo { $intervalCount } muaj
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } në vit
+       *[other] { $amount } çdo { $intervalCount } vjet
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } në vit
+           *[other] { $amount } çdo { $intervalCount } vjet
+        }
 
 ## Error messages
 
@@ -401,6 +467,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem në ngarkim faturash
 sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me sukses
+sub-invoice-previews-error-title = Problem në ngarkim paraparjesh faturash
+sub-invoice-previews-error-text = S’u ngarkuan dot paraparje faturash
 
 ## Routes - Subscription - ActionButton
 
@@ -413,6 +481,8 @@ pay-update-manage-btn = Administrojini
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Faturimi i ardhshëm më { $date }
+sub-next-bill-no-tax = Fatura juaj pasuese prej <strong>{ $priceAmount }</strong> ka afat deri më <strong>{ $date }</strong>
+sub-next-bill-tax = Fatura juaj pasuese prej <strong>{ $priceAmount } + { $taxAmount }</strong> taksë ka afat deri më <strong>{ $date }</strong>
 sub-expires-on = Skadon më { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -432,6 +502,8 @@ sub-route-funding-source-payment-alert = Hollësi të pavlefshme pagese; ka një
 sub-item-no-such-plan = S’ka plan të tillë për këtë pajtim.
 invoice-not-found = S’u gjet fatura pasuese
 sub-item-no-such-subsequent-invoice = S’u gjet fatura pasuese për këtë pajtim.
+sub-invoice-preview-error-title = S’u gjet paraparje fature
+sub-invoice-preview-error-text = S’u gjet paraparje fature për këtë pajtim
 
 ## Routes - Subscriptions - Pocket Subscription
 
