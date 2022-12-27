@@ -37,6 +37,9 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Памятаеце свой пароль? Увайсці
 
 ## Ready component
 
@@ -609,6 +612,14 @@ auth-error-1008 = Ваш новы пароль павінен адрозніва
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Скіньце пароль, <span>каб перайсці да налад уліковага запісу</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
+reset-password-button = Пачаць скіданне
+reset-password-success-alert = Скіданне пароля
+reset-password-error-general = На жаль, падчас скідання вашага пароля ўзнікла праблема
 reset-password-error-unknown-account = Невядомы ўліковы запіс
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс

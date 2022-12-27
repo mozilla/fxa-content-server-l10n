@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-09 22:13+0000\n"
+"PO-Revision-Date: 2022-12-27 07:19+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1379,7 +1379,7 @@ msgstr "Электронная пошта"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr "Пачаць скід"
+msgstr "Пачаць скіданне"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
