@@ -506,6 +506,7 @@ sub-item-no-such-plan = Ndaipóri tembiaporã ko mboheraguapýpe g̃uarã.
 invoice-not-found = Ndojejuhúi kuatiañemure
 sub-item-no-such-subsequent-invoice = Ndojejuhúi kuatiañemure ko ñemboheraguapýpe g̃uarã.
 sub-invoice-preview-error-title = Kuatiañemure jehecha’ypy jejuhu’ỹva
+sub-invoice-preview-error-text = Kuatiañemungue jehecha ypy ndojejuhúi ko ñemboheraguapyrã
 
 ## Routes - Subscriptions - Pocket Subscription
 
