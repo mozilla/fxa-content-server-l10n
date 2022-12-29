@@ -485,6 +485,7 @@ pay-update-manage-btn = Ñangareko
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
+sub-next-bill-tax = Kuatiañemungue oútava <strong>{ $priceAmount } + jehepyme’ẽrã { $taxAmount }</strong> omohu’ã <strong>{ $date }</strong>
 sub-expires-on = Opáta { $date }
 
 ## Routes - Subscription - PaymentUpdate
