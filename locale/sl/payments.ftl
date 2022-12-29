@@ -483,6 +483,8 @@ sub-update-payment-title = Podatki o plačilu
 
 pay-with-heading-card-or = Ali plačajte s kartico
 pay-with-heading-card-only = Plačajte s kartico
+product-invoice-preview-error-title = Težava pri nalaganju predogleda računa
+product-invoice-preview-error-text = Ni bilo mogoče naložiti predogleda računa
 
 ## Routes - Product - IapRoadblock
 

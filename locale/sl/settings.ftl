@@ -84,12 +84,15 @@ remember-pw-link = Se spomnite gesla? Prijavite se
 
 ## Ready component
 
-ready-confirmation = Vaše geslo je ponastavljeno
+reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Zdaj ste pripravljeni na uporabo storitve { $serviceName }
+ready-account-ready = Vaš račun je pripravljen!
 ready-continue = Nadaljuj
+sign-in-complete-header = Prijava potrjena
+pulsing-hearts-description = Rožnat prenosni računalnik in vijolična mobilna naprava z utripajočim srcem
 
 ## Alert Bar
 
@@ -649,6 +652,21 @@ auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova račun
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Povezava za ponastavitev gesla je potekla
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Povezava za ponastavitev gesla je poškodovana
+# Header for form to create new password
+create-new-password-header = Ustvari novo geslo
+# Link that user can click to receive a new reset password link
+receive-new-link = Prejmi novo povezavo
+confirm-account-recovery-key-button = Ponastavi geslo
+account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
+password-link-damaged-message = Povezava, ki ste jo kliknili, vsebuje manj znakov in jo je morda pokvaril vaš e-poštni odjemalec. Previdno prepirajte naslov in poskusite znova.
+password-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
 
 ## ResetPassword page
 
