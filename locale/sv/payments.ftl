@@ -66,8 +66,7 @@ new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Ange din e-postadress
 new-user-confirm-email =
     .label = bekräfta din e-postadress
@@ -189,6 +188,101 @@ plan-details-tax = Skatter och avgifter
 
 product-no-such-plan = Ingen sådan plan för denna produkt.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } skatt
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } dagligen
+       *[other] { $priceAmount } var { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } dagligen
+           *[other] { $priceAmount } var { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } varje vecka
+       *[other] { $priceAmount } var { $intervalCount } vecka
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje vecka
+           *[other] { $priceAmount } var { $intervalCount } vecka
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } varje månad
+       *[other] { $priceAmount } var { $intervalCount } månad
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje månad
+           *[other] { $priceAmount } var { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } varje år
+       *[other] { $priceAmount } var { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } varje år
+           *[other] { $priceAmount } var { $intervalCount } år
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt dagligen
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt dagligen
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje vecka
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } vecka
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje vecka
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } vecka
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje månad
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } månad
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje månad
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt varje år
+       *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt varje år
+           *[other] { $priceAmount } + { $taxAmount } skatt var { $intervalCount } år
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Konfigurera din prenumeration
@@ -212,8 +306,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Stäng modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Laddar…
 settings-subscriptions-title = Prenumerationer
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kampanjkod
@@ -222,29 +314,49 @@ coupon-promo-code = Kampanjkod
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
         [one] { $amount } dagligen
        *[other] { $amount } var { $intervalCount } dag
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } dagligen
+           *[other] { $amount } var { $intervalCount } dag
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
         [one] { $amount } varje vecka
        *[other] { $amount } var { $intervalCount } vecka
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje vecka
+           *[other] { $amount } var { $intervalCount } vecka
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] { $amount } varje månad
        *[other] { $amount } var { $intervalCount } månad
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje månad
+           *[other] { $amount } var { $intervalCount } månad
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } varje år
        *[other] { $amount } var { $intervalCount } år
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } varje år
+           *[other] { $amount } var { $intervalCount } år
+        }
 
 ## Error messages
 
@@ -339,34 +451,6 @@ sub-item-cancel-confirm =
     Avbryt min åtkomst och min sparade information för
     { $name } den { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dagligen
-       *[other] { $amount } var { $intervalCount } dag
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } veckovis
-       *[other] { $amount } var { $intervalCount } vecka
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } månadsvis
-       *[other] { $amount } var { $intervalCount } månad
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } årligen
-       *[other] { $amount } var { $intervalCount } år
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Återaktivering av prenumerationen misslyckades
@@ -388,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem med att ladda fakturor
 sub-billing-update-success = Din faktureringsinformation har uppdaterats
+sub-invoice-previews-error-title = Problem med att ladda förhandsgranskningar av faktura
+sub-invoice-previews-error-text = Det gick inte att läsa in förhandsgranskningar av faktura
 
 ## Routes - Subscription - ActionButton
 
@@ -395,9 +481,13 @@ pay-update-change-btn = Ändra
 pay-update-manage-btn = Hantera
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
+sub-next-bill-no-tax = Din nästa räkning på <strong>{ $priceAmount }</strong> förfaller den <strong>{ $date }</strong>
+sub-next-bill-tax = Din nästa faktura på <strong>{ $priceAmount } + { $taxAmount }</strong> skatt ska betalas den <strong>{ $date }</strong>
 sub-expires-on = Upphör { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -417,6 +507,8 @@ sub-route-funding-source-payment-alert = Ogiltig betalningsinformation. Det finn
 sub-item-no-such-plan = Ingen sådan plan för denna prenumeration.
 invoice-not-found = Efterföljande faktura hittades inte
 sub-item-no-such-subsequent-invoice = Efterföljande faktura hittades inte för denna prenumeration.
+sub-invoice-preview-error-title = Förhandsgranskning av faktura hittades inte
+sub-invoice-preview-error-text = Förhandsgranskning av faktura hittades inte för denna prenumeration
 
 ## Routes - Subscriptions - Pocket Subscription
 
