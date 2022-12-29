@@ -609,6 +609,11 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
 reset-password-button = Emoñepyrũ jeguerujey
 reset-password-success-alert = Eguerujey ñe’ẽñemi
 reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
