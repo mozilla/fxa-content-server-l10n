@@ -47,12 +47,15 @@ remember-pw-link = Ricordi la tua password? Accedi
 
 ## Ready component
 
-ready-confirmation = La password è stata reimpostata
+reset-password-complete-header = La password è stata reimpostata
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ora puoi utilizzare { $serviceName }
+ready-account-ready = Il tuo account è pronto!
 ready-continue = Continua
+sign-in-complete-header = Accesso confermato
+pulsing-hearts-description = Un laptop rosa e un dispositivo mobile viola, ciascuno con un cuore pulsante
 
 ## Alert Bar
 
@@ -587,6 +590,21 @@ auth-error-139 = L’email secondaria deve essere diversa dall’email principal
 auth-error-155 = Token TOTP non trovato
 auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-1008 = La nuova password deve essere diversa
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Il link per la reimpostazione della password è scaduto
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Il link reimposta la password è danneggiato
+# Header for form to create new password
+create-new-password-header = Crea una nuova password
+# Link that user can click to receive a new reset password link
+receiver-new-link = Ricevi un nuovo link
+confirm-account-recovery-key-button = Reimposta password
+account-restored-success-message = Hai ripristinato correttamente il tuo account utilizzando la tua chiave di recupero. Crea una nuova password per proteggere i tuoi dati e conservala in un luogo sicuro.
+password-link-damaged-message = Il link su cui hai fatto clic non contiene caratteri e potrebbe essere stato interrotto dal tuo client di posta elettronica. Copia attentamente l’indirizzo e riprova.
+password-link-expired-message = Il link su cui hai fatto clic per reimpostare la password è scaduto.
 
 ## ResetPassword page
 

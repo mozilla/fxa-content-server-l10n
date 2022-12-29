@@ -411,6 +411,8 @@ sub-update-payment-title = Informazioni sul pagamento
 
 pay-with-heading-card-or = O paga con la carta
 pay-with-heading-card-only = Paga con la carta
+product-invoice-preview-error-title = Problema durante il caricamento dell'anteprima della fattura
+product-invoice-preview-error-text = Impossibile caricare l'anteprima della fattura
 
 ## Routes - Product - IapRoadblock
 
