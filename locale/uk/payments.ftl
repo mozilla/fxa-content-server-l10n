@@ -439,6 +439,8 @@ sub-update-payment-title = Платіжні дані
 
 pay-with-heading-card-or = Або сплатити карткою
 pay-with-heading-card-only = Сплатити карткою
+product-invoice-preview-error-title = Проблема із завантаженням попереднього перегляду рахунка-фактури
+product-invoice-preview-error-text = Не вдається завантажити попередній перегляд рахунка-фактури
 
 ## Routes - Product - IapRoadblock
 

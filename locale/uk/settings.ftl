@@ -107,12 +107,15 @@ remember-pw-link = Пам'ятаєте свій пароль? Увійдіть
 
 ## Ready component
 
-ready-confirmation = Ваш пароль було відновлено
+reset-password-complete-header = Ваш пароль було відновлено
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } налаштовано для роботи
+ready-account-ready = Ваш обліковий запис готовий!
 ready-continue = Продовжити
+sign-in-complete-header = Вхід підтверджено
+pulsing-hearts-description = Рожевий ноутбук і пурпуровий мобільний пристрій із серцем, що пульсує
 
 ## Alert Bar
 
@@ -675,6 +678,21 @@ auth-error-139 = Додаткова адреса електронної пошт
 auth-error-155 = TOTP-код не знайдено
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Посилання для відновлення пароля протерміноване
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Посилання для відновлення пароля пошкоджене
+# Header for form to create new password
+create-new-password-header = Створити новий пароль
+# Link that user can click to receive a new reset password link
+receive-new-link = Отримати нове посилання
+confirm-account-recovery-key-button = Відновити пароль
+account-restored-success-message = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
+password-link-damaged-message = Посилання за яким ви перейшли має втрачені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Обережно скопіюйте адресу та спробуйте знову.
+password-link-expired-message = Посилання для скидання пароля, за яким ви перейшли, протерміноване.
 
 ## ResetPassword page
 
