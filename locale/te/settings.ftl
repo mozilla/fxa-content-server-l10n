@@ -19,13 +19,16 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox ఖాతాలు
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
+product-mozilla-vpn = Mozilla VPN
 product-pocket = పాకెట్
 product-firefox-monitor = Firefox మానిటర్
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -34,11 +37,21 @@ product-firefox-monitor = Firefox మానిటర్
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = సంకేతపదం గుర్తుందా? ప్రవేశించండి
 
 ## Ready component
 
+reset-password-complete-header = మీ సంకేతపదము మార్చబడినది.
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు
 ready-account-ready = మీ ఖాతా సిద్ధంగా ఉంది!
 ready-continue = కొనసాగించు
+sign-in-complete-header = సైన్ ఇన్ ధ్రువీకరించబడింది
+pulsing-hearts-description = పింక్ ల్యాప్‌టాప్ మరియు ఊదారంగు మొబైల్ పరికరం ప్రతి ఒక్కటి హృదయాన్ని కదిలిస్తుంది
 
 ## Alert Bar
 
@@ -54,6 +67,8 @@ avatar-your-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } బెంటో మెనూ
+bento-menu-firefox-title = { -brand-firefox } అనేది మీ ఆన్‌లైన్ గోప్యత కోసం పోరాడే సాంకేతికత.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -74,6 +89,7 @@ connect-another-play-store-image =
 ## Connected services section
 
 cs-heading = సంధానిత సేవలు
+cs-description = మీరు ఉపయోగిస్తున్న మరియు సైన్ ఇన్ చేసిన ప్రతిదీ.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -92,9 +108,24 @@ cs-missing-device-help = తప్పినవి లేదా నకిలీ �
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = పరికరం:
+cs-disconnect-sync-opt-suspicious = అనుమానాస్పదమైనది
+cs-disconnect-sync-opt-lost = పోయింది లేదా దొంగిలించబడింది
+cs-disconnect-sync-opt-old = పాతది లేదా భర్తీ చేయబడింది
+cs-disconnect-sync-opt-duplicate = నకిలీ
+cs-disconnect-sync-opt-not-say = చెప్పకూడదని అనుకుంటున్నాను
 
 ##
 
+cs-disconnect-advice-confirm = సరే, అర్థమయ్యింది
+cs-disconnect-lost-advice-heading = పోయిన లేదా దొంగిలించబడిన పరికరం డిస్‌కనెక్ట్ చేయబడింది
+cs-disconnect-lost-advice-content-2 =
+    మీ పరికరం పోయింది లేదా దొంగిలించబడినందున
+    మీ సమాచారాన్ని సురక్షితంగా ఉంచుకోండి, మీరు మీ { -product-firefox-account } పాస్‌వర్డ్‌ని మార్చాలి
+    మీ ఖాతా సెట్టింగ్‌లలో. మీరు మీ నుండి సమాచారం కోసం కూడా వెతకాలి
+    మీ డేటాను రిమోట్‌గా తొలగించడం గురించి పరికర తయారీదారు.
+cs-disconnect-suspicious-advice-heading = అనుమానాస్పద పరికరం డిస్‌కనెక్ట్ చేయబడింది
+cs-sign-out-button = సైన్ అవుట్ చేయండి
 
 ##
 
@@ -115,6 +146,8 @@ dc-learn-more = ఇంకా తెలుసుకోండి
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = నిష్క్రమించు
+drop-down-menu-sign-out-error-2 = క్షమించండి, మిమ్మల్ని సైన్ అవుట్ చేయడంలో సమస్య ఉంది
 
 ## Flow Container
 
@@ -122,6 +155,9 @@ flow-container-back = వెనుకకు
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } ఖాతా రికవరీ కీ
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } బ్యాకప్ ప్రమాణీకరణ కోడ్‌లు
 get-data-trio-download =
     .title = దింపుకోళ్ళు
 get-data-trio-copy =
@@ -132,6 +168,8 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = మెనుని మూసివేయండి
+header-back-to-top-link =
+    .title = తిరిగి పైకి
 header-title = Firefox ఖాతా
 header-help = సహాయం
 
@@ -158,8 +196,10 @@ msv-submit-button-2 = నిర్థారించు
 ## Settings Nav
 
 nav-settings = అమరికలు
+nav-profile = ప్రొఫైలు
 nav-security = భద్రత
 nav-connected-services = సంధానిత సేవలు
+nav-data-collection = డేటా సేకరణ మరియు ఉపయోగం
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -282,23 +322,51 @@ verify-secondary-email-page-title =
 verify-secondary-email-verification-code-2 =
     .label = మీ నిర్ధారణ కోడ్‌ని నమోదు చేయండి
 verify-secondary-email-cancel-button = రద్దుచేయి
+verify-secondary-email-verify-button-2 = నిర్ధారించు
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = దయచేసి 5 నిమిషాల్లో <strong>{ $email }</strong>కి పంపబడిన నిర్ధారణ కోడ్‌ని నమోదు చేయండి.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } విజయవంతంగా జోడించబడింది
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = ఖాతాను తొలగించండి
 
 ## Two Step Authentication
 
+tfa-title = రెండు-దశల ప్రమాణీకరణ
+tfa-step-1-3 = 3లో 1వ దశ
+tfa-step-2-3 = 3లో 2వ దశ
+tfa-step-3-3 = 3లో 3వ దశ
 tfa-button-continue = కొనసాగించు
 tfa-button-cancel = రద్దుచేయి
 tfa-button-finish = ముగించు
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = కోడ్ను స్కాన్ చేయలేవా?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = మీ ప్రామాణీకరణ యాప్‌లో ఈ రహస్య కీని నమోదు చేయండి:
+tfa-enter-totp = ఇప్పుడు ప్రమాణీకరణ యాప్ నుండి సెక్యూరిటీ కోడ్‌ని నమోదు చేయండి.
+tfa-input-enter-totp =
+    .label = భద్రతా కోడ్‌ని నమోదు చేయండి
 
 ##
 
 
 ## Profile section
 
+profile-heading = ప్రొఫైలు
+profile-picture =
+    .header = చిత్రం
 profile-display-name =
     .header = చూపించే పేరు
+profile-primary-email =
+    .header = ప్రాథమిక ఇమెయిల్
 
 ##
 
@@ -308,24 +376,67 @@ profile-display-name =
 security-heading = భద్రత
 security-password =
     .header = సంకేతపదం
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = సృష్టించినది { $date }
+security-action-create = సృష్టించు
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = ఆపివేయి
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = ఆరంభించండి
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = సమర్పిస్తోంది...
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = చేర్చు
+row-defaults-action-change = మార్చు
+row-defaults-action-disable = అచేతనం
+row-defaults-status = ఏదీకాదు
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = ఖాతా పునరుద్ధరణ కీ
+rk-enabled = చేతనం
+rk-action-create = సృష్టించు
+rk-action-remove = తీసివేయి
+rk-cannot-refresh-1 = క్షమించండి, ఖాతా పునరుద్ధరణ కీని రిఫ్రెష్ చేయడంలో సమస్య ఉంది.
+rk-key-removed-2 = ఖాతా పునరుద్ధరణ కీ తీసివేయబడింది
+rk-cannot-remove-key = మీ ఖాతా పునరుద్ధరణ కీ తీసివేయబడలేదు.
+rk-refresh-key-1 = ఖాతా పునరుద్ధరణ కీని రిఫ్రెష్ చేయండి
+rk-content-explain = మీరు మీ పాస్‌వర్డ్‌ను మరచిపోయినప్పుడు మీ సమాచారాన్ని పునరుద్ధరించండి.
 
 ## Secondary email sub-section on main Settings page
 
+# Button to remove the secondary email
+se-remove-email =
+    .title = ఇమెయిల్‌ని తీసివేయండి
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = ఇమెయిల్‌ని రిఫ్రెష్ చేయండి
+se-unverified-2 = ధృవీకరించబడలేదు
+# Default value for the secondary email
+se-secondary-email-none = ఏదీకాదు
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = రెండు-దశల ప్రమాణీకరణ
+tfa-row-disabled-2 = రెండు-దశల ప్రమాణీకరణ అచేతనమైనది
+tfa-row-enabled = చేతనం
+tfa-row-action-disable = అచేతనం
+tfa-row-button-refresh =
+    .title = రెండు-దశల ప్రమాణీకరణను రిఫ్రెష్ చేయండి
+tfa-row-cannot-refresh =
+    క్షమించండి, రెండు-దశల ప్రమాణీకరణను రిఫ్రెష్ చేయడంలో సమస్య ఉంది
+    ప్రమాణీకరణ.
+tfa-row-disable-modal-confirm = అచేతనం
 tfa-row-change-modal-confirm = మార్చు
 
 ## Auth-server based errors that originate from backend service
@@ -339,3 +450,5 @@ auth-error-1008 = మీ కొత్త సంకేతపదం వేరు�
 
 ## ResetPassword page
 
+reset-password-error-unknown-account = తెలియని ఖాతా
+reset-password-with-recovery-key-verified-continue-to-account = నా ఖాతాకు కొనసాగు
