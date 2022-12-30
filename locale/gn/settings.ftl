@@ -611,6 +611,15 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Juajuha ñe’ẽñemi jeguerujeyrã oñembyai
+# Header for form to create new password
+create-new-password-header = Emoheñói ñe’ẽñemi pyahu
+# Link that user can click to receive a new reset password link
+receive-new-link = Ereko juajuha pyahu
+confirm-account-recovery-key-button = Ñe’ẽñemi mbojevyjey
 
 ## ResetPassword page
 
