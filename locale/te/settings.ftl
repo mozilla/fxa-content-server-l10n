@@ -101,6 +101,10 @@ cs-missing-device-help = తప్పినవి లేదా నకిలీ �
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = దింపుకున్నవి
+datablock-copy =
+    .message = నకలు చేయబడినది
 datablock-print =
     .message = ముద్రించబడింది
 
@@ -118,9 +122,17 @@ flow-container-back = వెనుకకు
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-download =
+    .title = దింపుకోళ్ళు
+get-data-trio-copy =
+    .title = నకలు
+get-data-trio-print =
+    .title = ముద్రించు
 
 # HeaderLockup component
 
+header-menu-open = మెనుని మూసివేయండి
+header-title = Firefox ఖాతా
 header-help = సహాయం
 
 ## Input Password
@@ -130,6 +142,7 @@ input-password-show = సంకేతపదాన్ని చూపించు
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -138,7 +151,9 @@ modal-cancel-button = రద్దుచేయి
 
 ## Modal Verify Session
 
+mvs-enter-verification-code-2 = మీ నిర్ధారణ కోడ్‌ని నమోదు చేయండి
 msv-cancel-button = రద్దుచేయి
+msv-submit-button-2 = నిర్థారించు
 
 ## Settings Nav
 
@@ -148,34 +163,76 @@ nav-connected-services = సంధానిత సేవలు
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = 2లో 1వ దశ
+tfa-replace-code-2-2 = 2లో 2వ దశ
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = ప్రొఫైల్ చిత్రం
+avatar-page-add-photo = ఫోటోను జోడించండి
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = ఫోటో తీసుకో
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = ఫోటోను తీసివేయండి
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
 avatar-page-cancel-button = రద్దుచేయి
 avatar-page-save-button = భద్రపరుచు
 avatar-page-saving-button = భద్రపరుస్తోంది…
+avatar-page-zoom-in-button =
+    .title = పెద్దదిగా చూపు
+avatar-page-rotate-button =
+    .title = తిప్పు
+avatar-page-camera-error = కెమెరా ప్రారంభించడం సాధ్యం కాలేదు
+avatar-page-new-avatar =
+    .alt = కొత్త ప్రొఫైల్ చిత్రం
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = సంకేతపదాన్ని మార్చు
+pw-8-chars = కనీసం 8 అక్షరాలు
+pw-not-email = మీ ఇమెయిల్ చిరునామా కాదు
+pw-change-must-match = కొత్త సంకేతపదం నిర్ధారణతో సరిపోలుతుంది
+pw-commonly-used = సాధారణంగా ఉపయోగించే సంకేతపదం కాదు
 pw-change-cancel-button = రద్దుచేయి
 pw-change-save-button = భద్రపరుచు
 pw-change-forgot-password-link = సంకేతపదం మరిచిపోయారా?
+pw-change-current-password =
+    .label = ప్రస్తుత సంకేతపదం నమోదు చేయండి
+pw-change-new-password =
+    .label = కొత్త సంకేతపదం ఇవ్వండి
+pw-change-confirm-password =
+    .label = కొత్త సంకేతపదంను నిర్ధారించండి
+pw-change-success-alert-2 = సంకేతపదం నవీకరించబడింది
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = సంకేతపదం సృష్టించు
+pw-create-success-alert-2 = సంకేతపదం అమరింది
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = ఖాతాను తొలగించండి
+delete-account-step-1-2 = 2లో 1వ దశ
+delete-account-step-2-2 = 2లో 2వ దశ
 delete-account-continue-button = కొనసాగించు
+delete-account-password-input =
+    .label = సంకేతపదం తెలపండి
 delete-account-cancel-button = రద్దుచేయి
 delete-account-delete-button-2 = తొలగించు
 
@@ -197,14 +254,33 @@ cancel-display-name = రద్దుచేయి
 recovery-key-cancel-button = రద్దుచేయి
 recovery-key-close-button = మూసివేయి
 recovery-key-continue-button = కొనసాగించు
+recovery-key-enter-password =
+    .label = సంకేతపదం తెలపండి
+recovery-key-page-title-1 =
+    .title = ఖాతా పునరుద్ధరణ కీ
+recovery-key-step-1 = 2లో 1వ దశ
+recovery-key-step-2 = 2లో 2వ దశ
+recovery-key-success-alert-3 = ఖాతా పునరుద్ధరణ కీ సృష్టించబడింది
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 2లో 1వ దశ
+add-secondary-email-error-2 = ఈ ఇమెయిల్‌ని సృష్టించడంలో సమస్య ఏర్పడింది
+add-secondary-email-page-title =
+    .title = రెండవ ఇమెయిల్
+add-secondary-email-enter-address =
+    .label = ఇమెయిల్ చిరునామా ఇవ్వండి
 add-secondary-email-cancel-button = రద్దుచేయి
 add-secondary-email-save-button = భద్రపరుచు
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 2లో 2వ దశ
+verify-secondary-email-error-3 = నిర్ధారణ కోడ్‌ని పంపడంలో సమస్య ఉంది
+verify-secondary-email-page-title =
+    .title = రెండవ ఇమెయిల్
+verify-secondary-email-verification-code-2 =
+    .label = మీ నిర్ధారణ కోడ్‌ని నమోదు చేయండి
 verify-secondary-email-cancel-button = రద్దుచేయి
 
 ##
