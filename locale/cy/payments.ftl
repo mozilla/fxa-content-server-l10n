@@ -66,9 +66,8 @@ new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnod
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Rhowch eich cyfeiriad e-bost
+new-user-enter-email =
+    .label = Rhowch eich e-bost
 new-user-confirm-email =
     .label = Cadarnhewch eich e-bost
 new-user-subscribe-product-updates = Hoffwn i dderbyn diweddariadau am gynnyrch { -brand-name-firefox }
@@ -205,6 +204,51 @@ plan-details-tax = Trethi a Ffioedd
 
 product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } treth
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } yn ddyddiol
+        [two] { "" }
+        [few] { "" }
+        [many] { "" }
+       *[other] { $priceAmount } bob { $intervalCount } diwrnod
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } yn ddyddiol
+            [two] { "" }
+            [few] { "" }
+            [many] { "" }
+           *[other] { $priceAmount } bob { $intervalCount } diwrnod
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } bob wythnos
+        [two] { $priceAmount } bob pythefnos
+        [few] { $priceAmount } bob { $intervalCount } wythnos
+        [many] { $priceAmount } bob { $intervalCount } wythnos
+       *[other] { $priceAmount } bob { $intervalCount } wythnos
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } bob wythnos
+            [two] { $priceAmount } bob pythefnos
+            [few] { $priceAmount } bob { $intervalCount } wythnos
+            [many] { $priceAmount } bob { $intervalCount } wythnos
+           *[other] { $priceAmount } bob { $intervalCount } wythnos
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Gosod eich tanysgrifiad
@@ -228,8 +272,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Cau'r moddol
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Yn llwytho…
 settings-subscriptions-title = Tanysgrifiadau
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Cod Hyrwyddo
@@ -237,46 +279,6 @@ coupon-promo-code = Cod Hyrwyddo
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [zero] { $amount } bob { $intervalCount } ddiwrnod
-        [one] { $amount } yn ddyddiol
-        [two] { $amount } bob { $intervalCount } ddiwrnod
-        [few] { $amount } bob { $intervalCount } diwrnod
-        [many] { $amount } bob { $intervalCount } niwrnod
-       *[other] { $amount } bob { $intervalCount } diwrnod
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [zero] { $amount } bob { $intervalCount } wythnos
-        [one] { $amount } yn wythnosol
-        [two] { $amount } bob { $intervalCount } wythnos
-        [few] { $amount } bob { $intervalCount } wythnos
-        [many] { $amount } bob { $intervalCount } wythnos
-       *[other] { $amount } bob { $intervalCount } wythnos
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [zero] { $amount } bob { $intervalCount } mis
-        [one] { $amount } yn fisol
-        [two] { $amount } bob { $intervalCount } fis
-        [few] { $amount } bob { $intervalCount } mis
-        [many] { $amount } bob { $intervalCount } mis
-       *[other] { $amount } bob { $intervalCount } mis
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [zero] { $amount } bob { $intervalCount } blynedd
-        [one] { $amount } yn flynyddol
-        [two] { $amount } bob { $intervalCount } flynedd
-        [few] { $amount } bob { $intervalCount } blynedd
-        [many] { $amount } bob { $intervalCount } mlynedd
-       *[other] { $amount } bob { $intervalCount } blynedd
-    }
 
 ## Error messages
 
@@ -371,50 +373,6 @@ sub-item-cancel-confirm =
     Diddymwch fy mynediad a'm manylion sydd wedi'u 
     cadw o fewn { $name } ar { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [zero] { $amount } bob ddydd
-        [one] { $amount } bob ddydd
-        [two] { $amount } bob { $intervalCount } ddiwrnod
-        [few] { $amount } bob { $intervalCount } diwrnod
-        [many] { $amount } bob { $intervalCount } niwrnod
-       *[other] { $amount } bob { $intervalCount } diwrnod
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [zero] { $amount } yn wythnosol
-        [one] { $amount } yn wythnosol
-        [two] { $amount } bob { $intervalCount } wythnos
-        [few] { $amount } bob { $intervalCount } wythnos
-        [many] { $amount } bob { $intervalCount } wythnos
-       *[other] { $amount } bob { $intervalCount } wythnos
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [zero] { $amount } yn fisol
-        [one] { $amount } yn fisol
-        [two] { $amount } bob { $intervalCount } mis
-        [few] { $amount } bob { $intervalCount } mis
-        [many] { $amount } bob { $intervalCount } mis
-       *[other] { $amount } bob { $intervalCount } mis
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [zero] { $amount } bob blwyddyn
-        [one] { $amount } bob blwyddyn
-        [two] { $amount } bob { $intervalCount } flynedd
-        [few] { $amount } bob { $intervalCount } blynedd
-        [many] { $amount } bob { $intervalCount } mlynedd
-       *[other] { $amount } bob { $intervalCount } blynedd
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Methodd ail agor tanysgrifiad
@@ -443,6 +401,8 @@ pay-update-change-btn = Newid
 pay-update-manage-btn = Rheoli
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
