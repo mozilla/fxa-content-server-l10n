@@ -411,6 +411,8 @@ sub-update-payment-title = 付款資訊
 
 pay-with-heading-card-or = 或刷卡付款
 pay-with-heading-card-only = 刷卡付款
+product-invoice-preview-error-title = 載入請款單預覽頁面時發生問題
+product-invoice-preview-error-text = 無法載入請款單預覽頁面
 
 ## Routes - Product - IapRoadblock
 

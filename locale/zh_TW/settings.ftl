@@ -43,12 +43,15 @@ remember-pw-link = 記得密碼嗎？請登入
 
 ## Ready component
 
-ready-confirmation = 已重設您的密碼
+reset-password-complete-header = 已重設您的密碼
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = 您可以使用 { $serviceName } 了
+ready-account-ready = 您的帳號準備好了！
 ready-continue = 繼續
+sign-in-complete-header = 登入完成
+pulsing-hearts-description = 粉紅色的筆記型電腦跟紫色的行動裝置，背後分別都有個跳動的心形圖案
 
 ## Alert Bar
 
@@ -572,6 +575,9 @@ auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同
+
+## Account recovery reset password page
+
 
 ## ResetPassword page
 
