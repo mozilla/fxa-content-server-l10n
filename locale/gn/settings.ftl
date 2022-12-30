@@ -620,6 +620,9 @@ create-new-password-header = Emoheñói ñe’ẽñemi pyahu
 # Link that user can click to receive a new reset password link
 receive-new-link = Ereko juajuha pyahu
 confirm-account-recovery-key-button = Ñe’ẽñemi mbojevyjey
+account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
+password-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+password-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
 
 ## ResetPassword page
 
