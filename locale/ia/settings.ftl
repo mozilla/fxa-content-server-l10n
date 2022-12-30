@@ -43,12 +43,14 @@ remember-pw-link = Memora tu contrasigno? Accede.
 
 ## Ready component
 
-ready-confirmation = Tu contrasigno ha essite remontate
+reset-password-complete-header = Tu contrasigno ha essite remontate
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Tu es preste a usar { $serviceName }
+ready-account-ready = Tu conto es preste!
 ready-continue = Continuar
+sign-in-complete-header = Apertura de session confirmate
 
 ## Alert Bar
 
@@ -600,6 +602,21 @@ auth-error-139 = Le adresse de e-mail secundari debe esser differente del adress
 auth-error-155 = Token TOTP non trovate
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
+# Header for form to create new password
+create-new-password-header = Crear nove contrasigno
+# Link that user can click to receive a new reset password link
+receive-new-link = Recipe un nove ligamine
+confirm-account-recovery-key-button = Reinitialisar le contrasigno
+account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
+password-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
+password-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
 
 ## ResetPassword page
 
