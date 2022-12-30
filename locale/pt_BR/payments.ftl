@@ -479,6 +479,8 @@ pay-update-manage-btn = Gerenciar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança em { $date }
+sub-next-bill-no-tax = Sua próxima fatura de <strong>{ $priceAmount }</strong> vence em <strong>{ $date }</strong>
+sub-next-bill-tax = Sua próxima fatura de <strong>{ $priceAmount } + { $taxAmount }</strong> de imposto vence em <strong>{ $date }</strong>
 sub-expires-on = Expira em { $date }
 
 ## Routes - Subscription - PaymentUpdate

@@ -37,13 +37,16 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Lembra sua senha? Entre na conta
 
 ## Ready component
 
-ready-confirmation = Sua senha foi redefinida
+reset-password-complete-header = Sua senha foi redefinida
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Está tudo pronto para usar o { $serviceName }
 ready-continue = Continuar
 
@@ -571,6 +574,9 @@ auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
 auth-error-183-2 = Código de confirmação inválido ou vencido
 auth-error-1008 = Sua nova senha deve ser diferente
+
+## Account recovery reset password page
+
 
 ## ResetPassword page
 
