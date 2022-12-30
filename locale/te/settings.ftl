@@ -142,10 +142,12 @@ datablock-print =
 ## Data collection section
 
 dc-heading = డేటా సేకరణ మరియు ఉపయోగం
+dc-subheader = { -product-firefox-accounts }ని మెరుగుపరచడంలో సహాయపడండి
 dc-learn-more = ఇంకా తెలుసుకోండి
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } మెను
 drop-down-menu-sign-out = నిష్క్రమించు
 drop-down-menu-sign-out-error-2 = క్షమించండి, మిమ్మల్ని సైన్ అవుట్ చేయడంలో సమస్య ఉంది
 
@@ -180,6 +182,7 @@ input-password-show = సంకేతపదాన్ని చూపించు
 
 ## Linked Accounts section
 
+la-description = మీరు క్రింది ఖాతాలకు ప్రామాణీకరించిన ప్రాప్యతను కలిగి ఉన్నారు.
 nav-linked-accounts = { la-heading }
 
 ## Modal
