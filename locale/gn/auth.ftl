@@ -388,7 +388,11 @@ subscriptionCancellation-title = Ambyasy eho haguére
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Roipe’a ndereraguapy { $productName }-gui. Ne ñehepyme’ẽ paha { $invoiceTotal } rehegua oñehepyme’ẽma { $invoiceDateOnly }
 subscriptionCancellation-outstanding-content-2 = Roipe’a ndereraguapy { $productName }-gui. Ne ñehepyme’ẽ paha { $invoiceTotal } rehegua oñehepyme’ẽta ag̃a { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Ne mba’epuru ohóta opa peve kuatiañemure ko’ag̃aguáva, oikótava { $serviceLastActiveDateOnly } peve.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Eñemoambuéma { $productName }-pe
