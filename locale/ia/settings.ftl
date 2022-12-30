@@ -51,6 +51,7 @@ ready-use-service = Tu es preste a usar { $serviceName }
 ready-account-ready = Tu conto es preste!
 ready-continue = Continuar
 sign-in-complete-header = Apertura de session confirmate
+pulsing-hearts-description = Un portabile rosate e un apparato mobile purpuree cata con un corde palpitante
 
 ## Alert Bar
 
