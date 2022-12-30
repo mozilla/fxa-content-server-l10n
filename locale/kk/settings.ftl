@@ -43,12 +43,15 @@ remember-pw-link = Пароліңіз есіңізде бар ма? Кіріңі
 
 ## Ready component
 
-ready-confirmation = Пароліңіз тасталды
+reset-password-complete-header = Пароліңіз тасталды
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сіз енді { $serviceName } қолдануға дайынсыз
+ready-account-ready = Сіздің тіркелгіңіз дайын!
 ready-continue = Жалғастыру
+sign-in-complete-header = Кіру расталды
+pulsing-hearts-description = Қызғылт түсті ноутбук және жүрек соғуы бар күлгін мобильді құрылғы
 
 ## Alert Bar
 
@@ -609,6 +612,21 @@ auth-error-139 = Екіншілік эл. пошта адресі негізгі
 auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Тастау сілтемесі зақымдалған
+# Header for form to create new password
+create-new-password-header = Жаңа парольді жасау
+# Link that user can click to receive a new reset password link
+receive-new-link = Жаңа сілтемені алу
+confirm-account-recovery-key-button = Парольді тастау
+account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
+password-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
+password-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
 
 ## ResetPassword page
 

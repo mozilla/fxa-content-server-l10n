@@ -411,6 +411,8 @@ sub-update-payment-title = Төлем ақпараты
 
 pay-with-heading-card-or = Немесе картамен төлеңіз
 pay-with-heading-card-only = Картамен төлеу
+product-invoice-preview-error-title = Шот-фактураны алдын ала қарауды жүктеу кезінде мәселе
+product-invoice-preview-error-text = Шот-фактураны алдын ала қарауды жүктеу мүмкін болмады
 
 ## Routes - Product - IapRoadblock
 
