@@ -48,7 +48,10 @@ reset-password-complete-header = Sua senha foi redefinida
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Está tudo pronto para usar o { $serviceName }
+ready-account-ready = Sua conta está pronta!
 ready-continue = Continuar
+sign-in-complete-header = Acesso confirmado
+pulsing-hearts-description = Um notebook rosa e um dispositivo móvel roxo, cada um com um coração pulsante
 
 ## Alert Bar
 
@@ -577,6 +580,16 @@ auth-error-1008 = Sua nova senha deve ser diferente
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = O link para redefinir a senha expirou
+# Appears when a link to reset password is damaged
+password-link-damaged-header = O link para redefinir a senha está danificado
+# Header for form to create new password
+create-new-password-header = Criar nova senha
+# Link that user can click to receive a new reset password link
+receive-new-link = Receber novo link
+confirm-account-recovery-key-button = Redefinir senha
+account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
 
 ## ResetPassword page
 
