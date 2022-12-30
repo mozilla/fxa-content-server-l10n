@@ -43,12 +43,14 @@ remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
 
 ## Ready component
 
-ready-confirmation = Ne ñe’ẽñemi oñemonepyrũma
+reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
+ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
+sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
 
 ## Alert Bar
 
@@ -606,6 +608,9 @@ auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
+
+## Account recovery reset password page
+
 
 ## ResetPassword page
 

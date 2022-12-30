@@ -410,6 +410,8 @@ sub-update-payment-title = Jehepyme’ẽ marandu
 
 pay-with-heading-card-or = Térã ehepyme’ẽ kuatia’atãme
 pay-with-heading-card-only = Ehepyme’ẽ kuatia’atãme
+product-invoice-preview-error-title = Apañuãi emyanyhẽvo kuatiañemure jehecha ypy
+product-invoice-preview-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha ypy
 
 ## Routes - Product - IapRoadblock
 
@@ -485,6 +487,7 @@ pay-update-manage-btn = Ñangareko
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
+sub-next-bill-no-tax = Kuatiañemure oútava <strong>{ $priceAmount } </strong> hu’ãta <strong>{ $date }</strong>
 sub-next-bill-tax = Kuatiañemungue oútava <strong>{ $priceAmount } + jehepyme’ẽrã { $taxAmount }</strong> omohu’ã <strong>{ $date }</strong>
 sub-expires-on = Opáta { $date }
 
