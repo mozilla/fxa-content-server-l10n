@@ -449,6 +449,8 @@ sub-update-payment-title = Informácie o platbe
 
 pay-with-heading-card-or = Alebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatiť kartou
+product-invoice-preview-error-title = Problém s načítaním ukážky faktúry
+product-invoice-preview-error-text = Nepodarilo sa načítať ukážku faktúry
 
 ## Routes - Product - IapRoadblock
 

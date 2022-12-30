@@ -107,12 +107,15 @@ remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
 
 ## Ready component
 
-ready-confirmation = Vaše heslo bolo obnovené
+reset-password-complete-header = Vaše heslo bolo obnovené
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Odteraz môžete využívať službu { $serviceName }
+ready-account-ready = Váš účet je pripravený.
 ready-continue = Pokračovať
+sign-in-complete-header = Prihlásenie potvrdené
+pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
 
 ## Alert Bar
 
@@ -671,6 +674,21 @@ auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa úč
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-1008 = Staré a nové heslo sa musia líšiť
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Odkaz na obnovenie hesla je poškodený
+# Header for form to create new password
+create-new-password-header = Vytvoriť nové heslo
+# Link that user can click to receive a new reset password link
+receive-new-link = Získať nový odkaz
+confirm-account-recovery-key-button = Obnoviť heslo
+account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
+password-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
+password-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
 
 ## ResetPassword page
 
