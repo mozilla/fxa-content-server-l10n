@@ -203,12 +203,12 @@ price-details-tax = { $priceAmount } + { $taxAmount } adó
 price-details-no-tax-day =
     { $intervalCount ->
         [one] { $priceAmount } naponta
-       *[other] { $priceAmount } { $intervalCount } naponta
+       *[other] { $priceAmount } minden { $intervalCount }. napon
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } naponta
-           *[other] { $priceAmount } { $intervalCount } naponta
+           *[other] { $priceAmount } minden { $intervalCount }. napon
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-no-tax-week =
@@ -220,6 +220,72 @@ price-details-no-tax-week =
         { $intervalCount ->
             [one] { $priceAmount } hetente
            *[other] { $priceAmount } minden { $intervalCount }. héten
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } havonta
+       *[other] { $priceAmount } minden { $intervalCount }. hónapban
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } havonta
+           *[other] { $priceAmount } minden { $intervalCount }. hónapban
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } évente
+       *[other] { $priceAmount } minden { $intervalCount }. évben
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } évente
+           *[other] { $priceAmount } minden { $intervalCount }. évben
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } adó naponta
+       *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. napon
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } adó naponta
+           *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. napon
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } adó hetente
+       *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. hetente
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } adó hetente
+           *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. hetente
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } adó havonta
+       *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. hónapban
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } adó havonta
+           *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. hónapban
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } adó évente
+       *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. évben
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } adó évente
+           *[other] { $priceAmount } + { $taxAmount } adó minden { $intervalCount }. évben
         }
 
 ## Component - SubscriptionTitle
