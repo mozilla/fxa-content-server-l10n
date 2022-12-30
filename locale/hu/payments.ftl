@@ -318,6 +318,50 @@ coupon-promo-code = Promóciós kód
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } naponta
+       *[other] { $amount } minden { $intervalCount }. napon
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } naponta
+           *[other] { $amount } minden { $intervalCount }. napon
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } hetente
+       *[other] { $amount } minden { $intervalCount }. héten
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } hetente
+           *[other] { $amount } minden { $intervalCount }. héten
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } havonta
+       *[other] { $amount } minden { $intervalCount }. hónapban
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } havonta
+           *[other] { $amount } minden { $intervalCount }. hónapban
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } évente
+       *[other] { $amount } minden { $intervalCount }. évben
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } évente
+           *[other] { $amount } minden { $intervalCount }. évben
+        }
 
 ## Error messages
 
@@ -372,6 +416,8 @@ sub-update-payment-title = Fizetési információk
 
 pay-with-heading-card-or = Vagy fizessen kártyával
 pay-with-heading-card-only = Fizessen kártyával
+product-invoice-preview-error-title = Probléma a számla előnézetének betöltésekor
+product-invoice-preview-error-text = Nem sikerült betölteni a számla előnézetét
 
 ## Routes - Product - IapRoadblock
 
@@ -433,6 +479,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Probléma a számlák betöltésekor
 sub-billing-update-success = A számlázási adatai sikeresen frissítettve
+sub-invoice-previews-error-title = Probléma a számlák előnézetének betöltésekor
+sub-invoice-previews-error-text = Nem sikerült betölteni a számlák előnézetét
 
 ## Routes - Subscription - ActionButton
 
@@ -445,6 +493,7 @@ pay-update-manage-btn = Kezelés
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Következő számlázás: { $date }
+sub-next-bill-no-tax = A következő <strong>{ $priceAmount }</strong> összegű számlájának esedékessége: <strong>{ $date }</strong>
 sub-expires-on = Lejár: { $date }
 
 ## Routes - Subscription - PaymentUpdate
