@@ -71,8 +71,7 @@ new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezze
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Adja meg az e-mail-címét
 new-user-confirm-email =
     .label = Erősítse meg az e-mail-címét
@@ -194,6 +193,35 @@ plan-details-tax = Adók és díjak
 
 product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } adó
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } naponta
+       *[other] { $priceAmount } { $intervalCount } naponta
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } naponta
+           *[other] { $priceAmount } { $intervalCount } naponta
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } hetente
+       *[other] { $priceAmount } minden { $intervalCount }. héten
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } hetente
+           *[other] { $priceAmount } minden { $intervalCount }. héten
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Állítsa be a feliratkozását
@@ -217,8 +245,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Felugró ablak bezárása
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Betöltés…
 settings-subscriptions-title = Előfizetések
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promóciós kód
@@ -226,30 +252,6 @@ coupon-promo-code = Promóciós kód
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } naponta
-       *[other] { $amount } { $intervalCount } naponta
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } hetente
-       *[other] { $amount } { $intervalCount } hetente
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } havonta
-       *[other] { $amount } { $intervalCount } havonta
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } évente
-       *[other] { $amount } { $intervalCount } évente
-    }
 
 ## Error messages
 
@@ -344,34 +346,6 @@ sub-item-cancel-confirm =
     A(z) { $name } szolgáltatás hozzáférésének lemondása,
     és az abban mentett adatok törlése ekkor: { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } naponta
-       *[other] { $amount } { $intervalCount } naponta
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } hetente
-       *[other] { $amount } { $intervalCount } hetente
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } havonta
-       *[other] { $amount } { $intervalCount } havonta
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } évente
-       *[other] { $amount } { $intervalCount } évente
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Az előfizetés újraaktiválása sikertelen
@@ -400,6 +374,8 @@ pay-update-change-btn = Módosítás
 pay-update-manage-btn = Kezelés
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Következő számlázás: { $date }
