@@ -596,15 +596,13 @@ auth-error-1008 = La nuova password deve essere diversa
 #  Appears when a link to reset password has expired
 password-link-expired-header = Il link per la reimpostazione della password è scaduto
 # Appears when a link to reset password is damaged
-password-link-damaged-header = Il link reimposta la password è danneggiato
+password-link-damaged-header = Il link per reimpostare la password è danneggiato
 # Header for form to create new password
-create-new-password-header = Crea una nuova password
-# Link that user can click to receive a new reset password link
-receiver-new-link = Ricevi un nuovo link
+create-new-password-header = Creazione nuova password
 confirm-account-recovery-key-button = Reimposta password
-account-restored-success-message = Hai ripristinato correttamente il tuo account utilizzando la tua chiave di recupero. Crea una nuova password per proteggere i tuoi dati e conservala in un luogo sicuro.
-password-link-damaged-message = Il link su cui hai fatto clic non contiene caratteri e potrebbe essere stato interrotto dal tuo client di posta elettronica. Copia attentamente l’indirizzo e riprova.
-password-link-expired-message = Il link su cui hai fatto clic per reimpostare la password è scaduto.
+account-restored-success-message = L’account è stato correttamente recuperato utilizzando la chiave di recupero dell’account. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro.
+password-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
+password-link-expired-message = Il link per la reimpostazione della password è scaduto.
 
 ## ResetPassword page
 
