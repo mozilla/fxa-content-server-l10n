@@ -578,6 +578,18 @@ auth-error-1008 = 您的新密碼必須與舊密碼不同
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = 重設密碼鏈結已過期
+# Appears when a link to reset password is damaged
+password-link-damaged-header = 重設密碼鏈結已毀損
+# Header for form to create new password
+create-new-password-header = 設定新密碼
+# Link that user can click to receive a new reset password link
+receive-new-link = 收信取得新鏈結
+confirm-account-recovery-key-button = 重設密碼
+account-restored-success-message = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
+password-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
+password-link-expired-message = 您點擊的密碼重設鏈結已逾時。
 
 ## ResetPassword page
 
