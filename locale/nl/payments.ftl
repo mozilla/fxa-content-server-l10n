@@ -411,6 +411,8 @@ sub-update-payment-title = Betalingsgegevens
 
 pay-with-heading-card-or = Of betaal met kaart
 pay-with-heading-card-only = Betalen met kaart
+product-invoice-preview-error-title = Probleem bij het laden van factuurvoorbeeld
+product-invoice-preview-error-text = Kan factuurvoorbeeld niet laden
 
 ## Routes - Product - IapRoadblock
 

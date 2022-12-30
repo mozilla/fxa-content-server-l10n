@@ -43,12 +43,15 @@ remember-pw-link = Weet u uw wachtwoord nog? Aanmelden
 
 ## Ready component
 
-ready-confirmation = Uw wachtwoord is opnieuw ingesteld
+reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = U kunt { $serviceName } nu gebruiken
+ready-account-ready = Uw account is gereed!
 ready-continue = Doorgaan
+sign-in-complete-header = Aanmelding bevestigd
+pulsing-hearts-description = Een roze laptop en een paars mobiel apparaat met elk een kloppend hart
 
 ## Alert Bar
 
@@ -610,6 +613,21 @@ auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadr
 auth-error-155 = TOTP-token niet gevonden
 auth-error-183-2 = Ongeldige of verlopen bevestigingscode
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Herinitialisatiekoppeling verlopen
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Herinitialisatiekoppeling beschadigd
+# Header for form to create new password
+create-new-password-header = Nieuw wachtwoord aanmaken
+# Link that user can click to receive a new reset password link
+receive-new-link = Nieuwe koppeling ontvangen
+confirm-account-recovery-key-button = Wachtwoord herinitialiseren
+account-restored-success-message = U hebt met succes uw account hersteld via uw accountherstelsleutel. Maak een nieuw wachtwoord aan om uw gegevens te beveiligen, en sla dit op een veilige locatie op.
+password-link-damaged-message = De koppeling waarop u hebt geklikt miste tekens en is mogelijk beschadigd geraakt door uw e-mailclient. Kopieer het adres zorgvuldig en probeer het opnieuw.
+password-link-expired-message = De koppeling waarop u hebt geklikt voor het opnieuw instellen van uw wachtwoord is verlopen.
 
 ## ResetPassword page
 
