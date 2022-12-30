@@ -40,6 +40,7 @@ settings-home = ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
 
 coupon-submit = ਲਾਗੂ ਕਰੋ
 coupon-remove = ਹਟਾਓ
+coupon-error-expired = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = ਕੋਡ ਦਿਓ
@@ -59,11 +60,13 @@ new-user-sign-in-link = ਪਹਿਲਾਂ ਹੀ { -brand-name-firefox } ਖਾ
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+new-user-enter-email =
+    .label = ਆਪਣੀ ਈਮੇਲ ਦਿਓ
 new-user-confirm-email =
     .label = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 new-user-subscribe-product-updates = ਮੈਂ { -brand-name-firefox } ਤੋਂ ਉਤਪਾਦ ਅੱਪਡੇਟ ਹਾਸਲ ਕਰਨੇ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ
+new-user-email-validate = ਈਮੇਲ ਠੀਕ ਨਹੀਂ ਹੈ
+new-user-email-validate-confirm = ਈਮੇਲ ਮਿਲਦੀਆਂ ਨਹੀਂ ਹਨ
 new-user-already-has-account-sign-in = ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ। <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
 
 ## Component - PaymentConfirmation
@@ -164,6 +167,11 @@ plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
 
 product-no-such-plan = ਉਸ ਉਤਪਾਦ ਲਈ ਕੋਈ ਪਲਾਨ ਨਹੀਂ ਹੈ।
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = ਆਪਣੀ ਮੈਂਬਰੀ ਸੈਟਅੱਪ ਕਰੋ
@@ -187,8 +195,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = ਮਾਡਲ ਬੰਦ ਕਰੋ
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 settings-subscriptions-title = ਮੈਂਬਰੀਆਂ
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
@@ -196,28 +202,6 @@ coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } ਦਿਨ
-       *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } ਦਿਨ
-           *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
-        }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } ਹਫ਼ਤੇਵਾਰ
-       *[other] { $amount } ਹਰ { $intervalCount } ਹਫ਼਼ਤੇ
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } ਹਫ਼਼ਤੇਵਾਰ
-           *[other] { $amount } ਹਰ { $intervalCount } ਹਫ਼਼ਤੇ
-        }
 
 ## Error messages
 
@@ -284,10 +268,6 @@ sub-item-stay-sub = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
 ## $period (Date) - The last day of product access
 
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = ਮੈਂਬਰ ਨੂੰ ਮੁੜ-ਐਕਟੀਵੇਟ ਕਰਨਾ ਅਸਫ਼ਲ ਹੈ
@@ -307,6 +287,8 @@ pay-update-change-btn = ਬਦਲੋ
 pay-update-manage-btn = ਬੰਦੋਬਸਤ
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 

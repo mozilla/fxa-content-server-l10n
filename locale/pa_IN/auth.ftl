@@ -73,6 +73,8 @@ automated-email-support = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-na
 automated-email-change-plaintext-2 = ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨਹੀਂ ਕੀਤੀ ਤਾਂ ਫ਼ੌਰਨ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਾਇਤਾ ਨੂੰ ਵੇਖੋ:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ ਤਾਂ ਹੁਣੇ ਆਪਣਾ ਪਾਸਵਰਡ { $resetLink } ਰਾਹੀਂ ਬਦਲੋ
@@ -248,6 +250,8 @@ postChangePrimary-subject = ਮੁੱਢਲਾ ਈਮੇਲ ਅੱਪਡੇਟ �
 postChangePrimary-title = ਨਵਾਂ ਮੁੱਢਲਾ ਈਮੇਲ
 postChangePrimary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postConsumeRecoveryCode-title-2 = ਤੁਸੀਂ ਇੱਕ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਰਤਿਆ ਹੈ
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = ਇਸ ਨੂੰ ਵਰਤਿਆ ਗਿਆ ਸੀ:
 postConsumeRecoveryCode-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
