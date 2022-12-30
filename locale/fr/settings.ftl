@@ -45,15 +45,20 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Vous vous souvenez de votre mot de passe ? Connectez-vous
 
 ## Ready component
 
-ready-confirmation = Votre mot de passe à été réinitialisé
+reset-password-complete-header = Votre mot de passe à été réinitialisé
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
+ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
+sign-in-complete-header = Connexion confirmée
 
 ## Alert Bar
 
@@ -594,6 +599,21 @@ auth-error-139 = L’adresse alternative doit être différente de l’adresse d
 auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Le lien de réinitialisation du mot de passe a expiré
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Le lien de réinitialisation du mot de passe est endommagé
+# Header for form to create new password
+create-new-password-header = Créer un nouveau mot de passe
+# Link that user can click to receive a new reset password link
+receive-new-link = Recevoir un nouveau lien
+confirm-account-recovery-key-button = Réinitialiser le mot de passe
+account-restored-success-message = Vous avez correctement restauré votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
+password-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
+password-link-expired-message = Le lien de réinitialisation de votre mot de passe a expiré.
 
 ## ResetPassword page
 
