@@ -62,15 +62,21 @@ product-firefox-relay =
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Emlékszik a jelszavára? Jelentkezzen be
 
 ## Ready component
 
-ready-confirmation = A jelszó alaphelyzetbe lett állítva
+reset-password-complete-header = A jelszó vissza lett állítva
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Most már készen áll a { $serviceName } használatára
+ready-account-ready = A fiókja elkészült!
 ready-continue = Folytatás
+sign-in-complete-header = Bejelentkezés megerősítve
+pulsing-hearts-description = Egy rózsaszín laptop és egy lila mobileszköz lüktető szívvel
 
 ## Alert Bar
 
@@ -631,5 +637,32 @@ auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
+# Appears when a link to reset password is damaged
+password-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
+# Header for form to create new password
+create-new-password-header = Új jelszó létrehozása
+# Link that user can click to receive a new reset password link
+receive-new-link = Új hivatkozás kérése
+confirm-account-recovery-key-button = Jelszó visszaállítása
+account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
+password-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
+password-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a fiókbeállításokhoz való továbblépéshez</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+reset-password-warning-message = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { product-pocket }-adatait továbbra is meg fogja tartani.
+reset-password-button = Visszaállítás elkezdése
+reset-password-success-alert = Jelszó visszaállítása
+reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
+reset-password-error-unknown-account = Ismeretlen fiók
+reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
+reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához

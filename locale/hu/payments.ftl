@@ -494,6 +494,7 @@ pay-update-manage-btn = Kezelés
 
 sub-next-bill = Következő számlázás: { $date }
 sub-next-bill-no-tax = A következő <strong>{ $priceAmount }</strong> összegű számlájának esedékessége: <strong>{ $date }</strong>
+sub-next-bill-tax = A következő <strong>{ $priceAmount } + { $taxAmount }</strong> adó összegű számlájának esedékessége: <strong>{ $date }</strong>
 sub-expires-on = Lejár: { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -513,6 +514,8 @@ sub-route-funding-source-payment-alert = Érvénytelen fizetési információk; 
 sub-item-no-such-plan = Nincs ilyen csomag ennél az előfizetésnél.
 invoice-not-found = Későbbi számla nem található
 sub-item-no-such-subsequent-invoice = Későbbi számlák nem találhatók ehhez az előfizetéshez.
+sub-invoice-preview-error-title = A számla előnézete nem található
+sub-invoice-preview-error-text = A számla előnézete nem található ehhez az előfizetéshez
 
 ## Routes - Subscriptions - Pocket Subscription
 
