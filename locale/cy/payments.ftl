@@ -214,19 +214,19 @@ price-details-tax = { $priceAmount } + { $taxAmount } treth
 price-details-no-tax-day =
     { $intervalCount ->
         [zero] { "" }
-        [one] { $priceAmount } yn ddyddiol
-        [two] { "" }
-        [few] { "" }
-        [many] { "" }
+        [one] { $priceAmount } bob dydd
+        [two] { $priceAmount } bob { $intervalCount } ddiwrnod
+        [few] { $priceAmount } bob { $intervalCount } diwrnod
+        [many] { $priceAmount } bob { $intervalCount } niwrnod
        *[other] { $priceAmount } bob { $intervalCount } diwrnod
     }
     .title =
         { $intervalCount ->
             [zero] { "" }
             [one] { $priceAmount } yn ddyddiol
-            [two] { "" }
-            [few] { "" }
-            [many] { "" }
+            [two] { $priceAmount } bob { $intervalCount } ddiwrnod
+            [few] { $priceAmount } bob { $intervalCount } diwrnod
+            [many] { $priceAmount } bob { $intervalCount } niwrnod
            *[other] { $priceAmount } bob { $intervalCount } diwrnod
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
@@ -247,6 +247,63 @@ price-details-no-tax-week =
             [few] { $priceAmount } bob { $intervalCount } wythnos
             [many] { $priceAmount } bob { $intervalCount } wythnos
            *[other] { $priceAmount } bob { $intervalCount } wythnos
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } bob mis
+        [two] { $priceAmount } bob { $intervalCount } fis
+        [few] { $priceAmount } bob { $intervalCount } mis
+        [many] { $priceAmount } bob { $intervalCount } mis
+       *[other] { $priceAmount } bob { $intervalCount } mis
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } bob mis
+            [two] { $priceAmount } bob { $intervalCount } fis
+            [few] { $priceAmount } bob { $intervalCount } mis
+            [many] { $priceAmount } bob { $intervalCount } mis
+           *[other] { $priceAmount } bob { $intervalCount } mis
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } bob blwyddyn
+        [two] { $priceAmount } bob { $intervalCount } flynedd
+        [few] { $priceAmount } bob { $intervalCount } blynedd
+        [many] { $priceAmount } bob { $intervalCount } mlynedd
+       *[other] { $priceAmount } bob { $intervalCount } blynedd
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } bob blwyddyn
+            [two] { $priceAmount } bob { $intervalCount } flynedd
+            [few] { $priceAmount } bob { $intervalCount } blynedd
+            [many] { $priceAmount } bob { $intervalCount } mlynedd
+           *[other] { $priceAmount } bob { $intervalCount } blynedd
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } a { $taxAmount } o dreth bob diwrnod
+        [two] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
+        [few] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
+        [many] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } niwrnod
+       *[other] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } a { $taxAmount } o dreth bob diwrnod
+            [two] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
+            [few] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
+            [many] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } niwrnod
+           *[other] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
         }
 
 ## Component - SubscriptionTitle
