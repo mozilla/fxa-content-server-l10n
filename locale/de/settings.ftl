@@ -43,12 +43,15 @@ remember-pw-link = Kennen Sie Ihr Passwort noch? Melden Sie sich an
 
 ## Ready component
 
-ready-confirmation = Ihr Passwort wurde zurückgesetzt.
+reset-password-complete-header = Ihr Passwort wurde zurückgesetzt.
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Sie können jetzt { $serviceName } verwenden
+ready-account-ready = Ihr Konto ist bereit!
 ready-continue = Weiter
+sign-in-complete-header = Anmeldung bestätigt
+pulsing-hearts-description = Ein rosafarbener Laptop und ein lilafarbenes Mobilgerät mit jeweils einem pulsierenden Herzen
 
 ## Alert Bar
 
@@ -603,6 +606,21 @@ auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos
 auth-error-155 = TOTP-Token nicht gefunden
 auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Link zum Zurücksetzen des Passworts abgelaufen
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Link zum Zurücksetzen des Passworts beschädigt
+# Header for form to create new password
+create-new-password-header = Neues Passwort erstellen
+# Link that user can click to receive a new reset password link
+receive-new-link = Neuen Link erhalten
+confirm-account-recovery-key-button = Passwort zurücksetzen
+account-restored-success-message = Sie haben Ihr Konto mit Ihrem Kontowiederherstellungsschlüssel erfolgreich wiederhergestellt. Erstellen Sie ein neues Passwort zum Schutz Ihrer Daten und speichern Sie es an einem sicheren Ort.
+password-link-damaged-message = Der Link, den Sie angeklickt haben, war unvollständig und könnte durch Ihr E-Mail-Programm beschädigt worden sein. Achten Sie darauf, dass die Adresse korrekt kopiert wird und versuchen Sie es erneut.
+password-link-expired-message = Der Link, den Sie zum Zurücksetzen Ihres Passworts angeklickt haben, ist abgelaufen.
 
 ## ResetPassword page
 
