@@ -411,6 +411,8 @@ sub-update-payment-title = Informações de pagamento
 
 pay-with-heading-card-or = Ou pague com cartão
 pay-with-heading-card-only = Pagar com cartão
+product-invoice-preview-error-title = Problema ao carregar a visão prévia da fatura
+product-invoice-preview-error-text = Não foi possível carregar a visão prévia da fatura
 
 ## Routes - Product - IapRoadblock
 
@@ -467,6 +469,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema ao carregar faturas
 sub-billing-update-success = Suas informações de cobrança foram atualizadas com sucesso
+sub-invoice-previews-error-title = Problema ao carregar visão prévia de faturas
+sub-invoice-previews-error-text = Não foi possível carregar visão prévia de faturas
 
 ## Routes - Subscription - ActionButton
 
@@ -500,6 +504,8 @@ sub-route-funding-source-payment-alert = Informações de pagamento inválidas. 
 sub-item-no-such-plan = Não existe esse plano para esta assinatura.
 invoice-not-found = Próxima fatura não encontrada
 sub-item-no-such-subsequent-invoice = Próxima fatura não encontrada desta assinatura.
+sub-invoice-preview-error-title = Visão prévia da fatura não encontrada
+sub-invoice-preview-error-text = Visão prévia da fatura não foi encontrada para esta assinatura
 
 ## Routes - Subscriptions - Pocket Subscription
 

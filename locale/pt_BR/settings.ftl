@@ -590,9 +590,18 @@ create-new-password-header = Criar nova senha
 receive-new-link = Receber novo link
 confirm-account-recovery-key-button = Redefinir senha
 account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
+password-link-damaged-message = O link que você clicou tem caracteres faltando. Pode ter sido corrompido pelo seu cliente de email. Copie o endereço com cuidado e tente novamente.
+password-link-expired-message = O link que você clicou para redefinir sua senha expirou.
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Redefina a senha <span>para continuar para as configurações da conta</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Redefina a senha <span>para continuar para { $serviceName }</span>
+reset-password-warning-message = <span>Nota:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { product-pocket } não são afetados.
+reset-password-button = Iniciar redefinição
 reset-password-success-alert = Redefinição de senha
 reset-password-error-general = Desculpe, houve um problema ao redefinir sua senha
 reset-password-error-unknown-account = Conta desconhecida
