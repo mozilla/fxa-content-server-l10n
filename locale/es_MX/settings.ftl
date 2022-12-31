@@ -43,10 +43,12 @@ remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
 
 ## Ready component
 
+reset-password-complete-header = Tu contraseña ha sido restablecida
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ahora estas listo para usar { $serviceName }
+ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
 
