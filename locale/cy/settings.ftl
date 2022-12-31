@@ -630,3 +630,10 @@ reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
+reset-password-warning-message = <span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { product-pocket } yn cael ei effeithio.
+reset-password-button = Cychwyn ailosod
+reset-password-success-alert = Ailosod cyfrinair
+reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
+reset-password-error-unknown-account = Cyfrif anhysbys
+reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
+reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
