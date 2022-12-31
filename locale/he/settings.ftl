@@ -575,7 +575,8 @@ create-new-password-header = יצירת ססמה חדשה
 receive-new-link = קבלת קישור חדש
 confirm-account-recovery-key-button = איפוס ססמה
 account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
-password-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולבדוק שנית.
+password-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
+password-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
 
 ## ResetPassword page
 
