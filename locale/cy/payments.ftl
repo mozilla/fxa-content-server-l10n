@@ -305,6 +305,63 @@ price-details-tax-day =
             [many] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } niwrnod
            *[other] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } a { $taxAmount } treth bob wythnos
+        [two] { $priceAmount } a { $taxAmount } treth bob pythefnos
+        [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+        [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+       *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } a { $taxAmount } treth bob wythnos
+            [two] { $priceAmount } a { $taxAmount } treth bob pythefnos
+            [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+            [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+           *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } a { $taxAmount } treth bob mis
+        [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } fis
+        [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+        [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+       *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } a { $taxAmount } treth bob mis
+            [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } fis
+            [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+            [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+           *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $priceAmount } a { $taxAmount } treth bob blwyddyn
+        [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } flynedd
+        [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
+        [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mlynedd
+       *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $priceAmount } a { $taxAmount } treth bob blwyddyn
+            [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } flynedd
+            [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
+            [many] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mlynedd
+           *[other] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
+        }
 
 ## Component - SubscriptionTitle
 
@@ -336,6 +393,82 @@ coupon-promo-code = Cod Hyrwyddo
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $amount } bob diwrnod
+        [two] { $amount } bob { $intervalCount } ddiwrnod
+        [few] { $amount } bob { $intervalCount } diwrnod
+        [many] { $amount } bob { $intervalCount } niwrnod
+       *[other] { $amount } bob { $intervalCount } diwrnod
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $amount } bob diwrnod
+            [two] { $amount } bob { $intervalCount } ddiwrnod
+            [few] { $amount } bob { $intervalCount } diwrnod
+            [many] { $amount } bob { $intervalCount } niwrnod
+           *[other] { $amount } bob { $intervalCount } diwrnod
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $amount } bob wythnos
+        [two] { $amount } bob pythefnos
+        [few] { $amount } bob { $intervalCount } wythnos
+        [many] { $amount } bob { $intervalCount } wythnos
+       *[other] { $amount } bob { $intervalCount } wythnos
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $amount } bob wythnos
+            [two] { $amount } bob pythefnos
+            [few] { $amount } bob { $intervalCount } wythnos
+            [many] { $amount } bob { $intervalCount } wythnos
+           *[other] { $amount } bob { $intervalCount } wythnos
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $amount } bob mis
+        [two] { $amount } bob { $intervalCount } fis
+        [few] { $amount } bob { $intervalCount } mis
+        [many] { $amount } bob { $intervalCount } mis
+       *[other] { $amount } bob { $intervalCount } mis
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { $amount } bob mis
+            [two] { $amount } bob { $intervalCount } fis
+            [few] { $amount } bob { $intervalCount } mis
+            [many] { $amount } bob { $intervalCount } mis
+           *[other] { $amount } bob { $intervalCount } mis
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [zero] { "" }
+        [one] { $amount } bob blwyddyn
+        [two] { $amount } bob { $intervalCount } flynedd
+        [few] { $amount } bob { $intervalCount } blynedd
+        [many] { $amount } bob { $intervalCount } mlynedd
+       *[other] { $amount } bob { $intervalCount } blynedd
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { "" }
+            [one] { "" }
+            [two] { $amount } bob { $intervalCount } flynedd
+            [few] { $amount } bob { $intervalCount } blynedd
+            [many] { $amount } bob { $intervalCount } mlynedd
+           *[other] { $amount } bob { $intervalCount } blynedd
+        }
 
 ## Error messages
 
@@ -390,6 +523,7 @@ sub-update-payment-title = Manylion talu
 
 pay-with-heading-card-or = Neu dalu gyda cherdyn
 pay-with-heading-card-only = Talu gyda cherdyn
+product-invoice-preview-error-title = Anhawster wrth lwytho rhagolwg anfoneb
 
 ## Routes - Product - IapRoadblock
 
