@@ -47,12 +47,14 @@ remember-pw-link = נזכרת בססמה שלך? התחברות
 
 ## Ready component
 
-ready-confirmation = הססמה שלך אופסה
+reset-password-complete-header = הססמה שלך אופסה
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = כעת ניתן להשתמש ב־{ $serviceName }
+ready-account-ready = החשבון שלך מוכן!
 ready-continue = המשך
+pulsing-hearts-description = מחשב נייד ורוד ומכשיר סלולרי סגול, כל אחד עם לב פועם
 
 ## Alert Bar
 
@@ -560,6 +562,20 @@ auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שו
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = פג תוקף הקישור לאיפוס הססמה
+# Appears when a link to reset password is damaged
+password-link-damaged-header = קישור לאיפוס ססמה פגום
+# Header for form to create new password
+create-new-password-header = יצירת ססמה חדשה
+# Link that user can click to receive a new reset password link
+receive-new-link = קבלת קישור חדש
+confirm-account-recovery-key-button = איפוס ססמה
+account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
+password-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולבדוק שנית.
 
 ## ResetPassword page
 

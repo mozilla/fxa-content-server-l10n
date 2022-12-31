@@ -426,6 +426,8 @@ sub-update-payment-title = פרטי תשלום
 
 pay-with-heading-card-or = או לשלם עם כרטיס
 pay-with-heading-card-only = תשלום באמצעות כרטיס
+product-invoice-preview-error-title = בעיה בטעינת תצוגה מקדימה של החשבונית
+product-invoice-preview-error-text = לא ניתן לטעון תצוגה מקדימה של החשבונית
 
 ## Routes - Product - IapRoadblock
 
