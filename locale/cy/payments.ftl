@@ -524,6 +524,7 @@ sub-update-payment-title = Manylion talu
 pay-with-heading-card-or = Neu dalu gyda cherdyn
 pay-with-heading-card-only = Talu gyda cherdyn
 product-invoice-preview-error-title = Anhawster wrth lwytho rhagolwg anfoneb
+product-invoice-preview-error-text = Methu llwytho rhagolwg anfoneb
 
 ## Routes - Product - IapRoadblock
 
@@ -585,6 +586,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Anhawster llwytho anfonebau
 sub-billing-update-success = Diweddarwyd eich manylion bilio'n llwyddiannus
+sub-invoice-previews-error-title = Anhawster wrth lwytho rhagolwg anfoneb
+sub-invoice-previews-error-text = Methu llwytho rhagolygon anfoneb
 
 ## Routes - Subscription - ActionButton
 
@@ -597,6 +600,8 @@ pay-update-manage-btn = Rheoli
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
+sub-next-bill-no-tax = Mae eich bil nesaf o <strong>{ $priceAmount }</strong> yn ddyledus ar <strong>{ $date }</strong>
+sub-next-bill-tax = Mae eich bil nesaf o <strong>{ $priceAmount } a { $taxAmount }</strong> treth yn ddyledus ar <strong>{ $date }</strong>
 sub-expires-on = Yn dod i ben ar: { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -616,6 +621,8 @@ sub-route-funding-source-payment-alert = Manylion talu annilys; mae gwall gyda'c
 sub-item-no-such-plan = Dim cynllun o'r fath ar gyfer y tanysgrifiad hwn.
 invoice-not-found = Heb ganfod yr anfoneb ddilynol
 sub-item-no-such-subsequent-invoice = Heb ganfod anfoneb ddilynol y tanysgrifiad hwn.
+sub-invoice-preview-error-title = Heb ganfod rhagolwg anfoneb
+sub-invoice-preview-error-text = Heb ganfod rhagolwg anfoneb y tanysgrifiad hwn
 
 ## Routes - Subscriptions - Pocket Subscription
 

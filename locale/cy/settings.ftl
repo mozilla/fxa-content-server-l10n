@@ -35,14 +35,23 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Yn cofio eich cyfrinair? Mewngofnodwch
+
 ## Ready component
 
-ready-confirmation = Mae eich cyfrinair wedi ei ailosod
+reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Rydych nawr yn barod i ddefnyddio { $serviceName }
+ready-account-ready = Mae eich cyfrif yn barod!
 ready-continue = Parhau
+sign-in-complete-header = Mewngofnodi wedi ei gadarnhau
+pulsing-hearts-description = Gliniadur pinc a dyfais symudol borffor, pob un â chalon yn curo
 
 ## Alert Bar
 
@@ -598,3 +607,26 @@ auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Ailosod dolen cyfrinair sydd wedi dod i ben
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Mae dolen ailosod y cyfrinair sydd wedi ei difrodi
+# Header for form to create new password
+create-new-password-header = Creu cyfrinair newydd
+# Link that user can click to receive a new reset password link
+receive-new-link = Derbyn dolen newydd
+confirm-account-recovery-key-button = Ailosod y cyfrinair
+account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
+password-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
+password-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau i osodiadau cyfrif</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
