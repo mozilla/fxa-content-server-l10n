@@ -43,10 +43,9 @@ remember-pw-link = Памятаеце свой пароль? Увайсці
 
 ## Ready component
 
-ready-confirmation = Ваш пароль быў скінуты
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
 ready-continue = Працягнуць
 
@@ -609,6 +608,13 @@ auth-error-139 = Другі адрас электроннай пошты мус�
 auth-error-155 = TOTP-токен не знойдзены
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
+
+## Account recovery reset password page
+
+confirm-account-recovery-key-button = Скінуць пароль
+account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
+password-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
+password-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
 
 ## ResetPassword page
 
