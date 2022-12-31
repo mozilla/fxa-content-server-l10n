@@ -43,12 +43,12 @@ remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
 
 ## Ready component
 
-ready-confirmation = Tu contraseña ha sido restablecida
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ahora estas listo para usar { $serviceName }
 ready-continue = Continuar
+sign-in-complete-header = Inicio de sesión confirmado
 
 ## Alert Bar
 
@@ -605,6 +605,14 @@ auth-error-139 = El correo electrónico secundario debe ser diferente al correo 
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
 auth-error-1008 = Tu nueva contraseña debe ser diferente
+
+## Account recovery reset password page
+
+# Header for form to create new password
+create-new-password-header = Crear nueva contraseña
+# Link that user can click to receive a new reset password link
+receive-new-link = Recibir nuevo enlace
+confirm-account-recovery-key-button = Restablecer contraseña
 
 ## ResetPassword page
 
