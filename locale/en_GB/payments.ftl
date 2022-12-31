@@ -411,6 +411,8 @@ sub-update-payment-title = Payment information
 
 pay-with-heading-card-or = Or pay with card
 pay-with-heading-card-only = Pay with card
+product-invoice-preview-error-title = Problem loading invoice preview
+product-invoice-preview-error-text = Could not load invoice preview
 
 ## Routes - Product - IapRoadblock
 

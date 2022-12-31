@@ -43,12 +43,15 @@ remember-pw-link = Remember your password? Sign in
 
 ## Ready component
 
-ready-confirmation = Your password has been reset
+reset-password-complete-header = Your password has been reset
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = You’re now ready to use { $serviceName }
+ready-account-ready = Your account is ready!
 ready-continue = Continue
+sign-in-complete-header = Sign-in confirmed
+pulsing-hearts-description = A pink laptop and a purple mobile device each with a pulsing heart
 
 ## Alert Bar
 
@@ -610,6 +613,21 @@ auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-1008 = Your new password must be different
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Reset password link expired
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Reset password link damaged
+# Header for form to create new password
+create-new-password-header = Create new password
+# Link that user can click to receive a new reset password link
+receive-new-link = Receive new link
+confirm-account-recovery-key-button = Reset password
+account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+password-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
+password-link-expired-message = The link you clicked to reset your password is expired.
 
 ## ResetPassword page
 
