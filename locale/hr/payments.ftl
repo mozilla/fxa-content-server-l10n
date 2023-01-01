@@ -28,6 +28,9 @@ project-brand = Firefox računi
 
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
 
 ## Component - AppLayout
 
@@ -35,6 +38,16 @@ settings-home = Početna stranica računa
 
 ## Component - CouponForm
 
+coupon-submit = Primijeni
+coupon-remove = Ukloni
+coupon-error = Upisani kôd je neispravan i je istekao.
+coupon-error-generic = Došlo je do greške prilikom obrade koda. Pokušaj ponovo.
+coupon-error-expired = Upisani kôd je istekao.
+coupon-error-limit-reached = Upisani kôd je dosegao ograničenje.
+coupon-error-invalid = Upisani kôd je neispravan.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Upiši kȏd
 
 ## Component - Fields
 
@@ -43,6 +56,7 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## Component - Header
 
+brand-name-firefox-logo = { -brand-name-firefox } logotip
 
 ## Component - NewUserEmailForm
 
@@ -50,7 +64,7 @@ new-user-sign-in-link = Već imaš { -brand-name-firefox } račun? <a>Prijavi se
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Upiši svoju e-mail adresu
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
@@ -164,6 +178,13 @@ plan-details-tax = Porezi i naknade
 
 product-no-such-plan = Za ovaj proizvod ne postoji takav plan.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } porez
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Postavi svoju pretplatu
@@ -177,6 +198,7 @@ sub-guarantee = 30-dnevno jamstvo povrata novca
 
 terms = Uvjeti usluge
 privacy = Napomena o privatnosti
+terms-download = Uvjeti preuzimanja
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -190,34 +212,6 @@ settings-subscriptions-title = Pretplate
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dnevno
-        [few] { $amount } svaka { $intervalCount } dana
-       *[other] { $amount } svakih { $intervalCount } dana
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } tjedno
-        [few] { $amount } svaka { $intervalCount } tjedna
-       *[other] { $amount } svakih { $intervalCount } tjedana
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mjesečno
-        [few] { $amount } svaka { $intervalCount } mjeseca
-       *[other] { $amount } svakih { $intervalCount } mjeseci
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } godišnje
-        [few] { $amount } svake { $intervalCount } godine
-       *[other] { $amount } svakih { $intervalCount } godina
-    }
 
 ## Error messages
 
@@ -304,38 +298,6 @@ sub-item-cancel-confirm =
     Otkaži moj pristup i moje spremljene podatke na usluzi
     { $name } { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dnevno
-        [few] { $amount } svaka { $intervalCount } dana
-       *[other] { $amount } svakih { $intervalCount } dana
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } tjedno
-        [few] { $amount } svaka { $intervalCount } tjedna
-       *[other] { $amount } svakih { $intervalCount } tjedana
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mjesečno
-        [few] { $amount } svaka { $intervalCount } mjeseca
-       *[other] { $amount } svakih { $intervalCount } mjeseci
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } godišnje
-        [few] { $amount } svake { $intervalCount } godine
-       *[other] { $amount } svakih { $intervalCount } godina
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
@@ -362,6 +324,8 @@ pay-update-change-btn = Promijeni
 pay-update-manage-btn = Upravljaj
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
