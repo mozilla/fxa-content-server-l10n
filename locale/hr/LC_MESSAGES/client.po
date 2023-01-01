@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-19 19:37+0000\n"
+"PO-Revision-Date: 2023-01-01 23:41+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -94,7 +94,7 @@ msgstr "Sada možeš koristiti %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Račun potvrđen"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -123,7 +123,7 @@ msgstr "Zahvaljujemo na kontaktiranju Mozilline podrške zbog <b>%(escapedLowerc
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -223,7 +223,7 @@ msgstr "Ispisano"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Račun je uspješno potvrđen"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -255,7 +255,7 @@ msgstr "Povijest"
 
 #: .es5/models/sync-engines.js:66
 msgid "Passwords"
-msgstr ""
+msgstr "Lozinka"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1115,7 +1115,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Ne sada"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1388,7 +1388,7 @@ msgstr "Naziv događaja"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Potvrđeno"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1742,7 +1742,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Upiši lozinku"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1751,7 +1751,7 @@ msgstr "Potvrdi lozinku"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Stvori lozinku"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1907,11 +1907,11 @@ msgstr "IP adresa: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Zahtjevi za lozinku"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Barem 8 znakova"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
@@ -1943,15 +1943,15 @@ msgstr "Tražiš Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Započni ovdje<
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "ili"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "Nastavi s Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Nastavi s Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
