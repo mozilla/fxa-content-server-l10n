@@ -54,12 +54,15 @@ remember-pw-link = Помните свой пароль? Войти
 
 ## Ready component
 
-ready-confirmation = Ваш пароль был сброшен
+reset-password-complete-header = Ваш пароль был сброшен
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Теперь вы готовы к использованию { $serviceName }
+ready-account-ready = Ваш аккаунт готов!
 ready-continue = Продолжить
+sign-in-complete-header = Вход подтверждён
+pulsing-hearts-description = Розовый ноутбук и фиолетовое носимое устройство с бьющимся сердцем
 
 ## Alert Bar
 
@@ -617,6 +620,21 @@ auth-error-139 = Дополнительный адрес электронной 
 auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
 auth-error-1008 = Ваш новый пароль должен быть другим
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Срок действия ссылки для сброса пароля истёк
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Ссылка для сброса пароля повреждена
+# Header for form to create new password
+create-new-password-header = Создать новый пароль
+# Link that user can click to receive a new reset password link
+receive-new-link = Получить новую ссылку
+confirm-account-recovery-key-button = Сбросить пароль
+account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
+password-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
+password-link-expired-message = Срок действия ссылки, по которой вы перешли, чтобы сбросить пароль, истёк.
 
 ## ResetPassword page
 

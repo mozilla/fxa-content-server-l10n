@@ -439,6 +439,8 @@ sub-update-payment-title = Платежная информация
 
 pay-with-heading-card-or = Или оплатите картой
 pay-with-heading-card-only = Оплатить картой
+product-invoice-preview-error-title = Проблема с загрузкой предварительного просмотра счета
+product-invoice-preview-error-text = Не удалось загрузить предварительный просмотр счета
 
 ## Routes - Product - IapRoadblock
 
