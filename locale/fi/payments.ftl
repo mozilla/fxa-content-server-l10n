@@ -285,6 +285,8 @@ sub-update-payment-title = Maksun tiedot
 
 pay-with-heading-card-or = Tai maksa kortilla
 pay-with-heading-card-only = Maksa kortilla
+product-invoice-preview-error-title = Ongelma ladattaessa laskun esikatselua
+product-invoice-preview-error-text = Laskun esikatselua ei voitu ladata
 
 ## Routes - Product - IapRoadblock
 

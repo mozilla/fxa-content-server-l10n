@@ -43,12 +43,13 @@ remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
 
 ## Ready component
 
-ready-confirmation = Salasanasi on nollattu
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
+ready-account-ready = Tilisi on valmis!
 ready-continue = Jatka
+sign-in-complete-header = Kirjautuminen vahvistettu
 
 ## Alert Bar
 
@@ -581,6 +582,14 @@ auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi en
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
+
+## Account recovery reset password page
+
+# Header for form to create new password
+create-new-password-header = Luo uusi salasana
+# Link that user can click to receive a new reset password link
+receive-new-link = Vastaanota uusi linkki
+password-link-expired-message = Linkki, jota napsautit nollataksesi salasanasi, on vanhentunut.
 
 ## ResetPassword page
 
