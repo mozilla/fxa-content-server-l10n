@@ -599,6 +599,8 @@ password-link-expired-header = Il link per la reimpostazione della password è s
 password-link-damaged-header = Il link per reimpostare la password è danneggiato
 # Header for form to create new password
 create-new-password-header = Creazione nuova password
+# Link that user can click to receive a new reset password link
+receive-new-link = Ricevi un nuovo link
 confirm-account-recovery-key-button = Reimposta password
 account-restored-success-message = L’account è stato correttamente recuperato utilizzando la chiave di recupero dell’account. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro.
 password-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
