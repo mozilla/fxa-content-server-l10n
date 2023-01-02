@@ -205,6 +205,83 @@ price-details-no-tax-day =
             [one] { $priceAmount } á dag
            *[other] { $priceAmount } á { $intervalCount } daga fresti
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } á viku
+       *[other] { $priceAmount } á { $intervalCount } vikna fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } á viku
+           *[other] { $priceAmount } á { $intervalCount } vikna fresti
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } á mánuði
+       *[other] { $priceAmount } á { $intervalCount } mánaða fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } á mánuði
+           *[other] { $priceAmount } á { $intervalCount } mánaða fresti
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } á { $intervalCount } ári
+       *[other] { $priceAmount } á { $intervalCount } ára fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } á { $intervalCount } ári
+           *[other] { $priceAmount } á { $intervalCount } ára fresti
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skattur á dag
+       *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } daga fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skattur á dag
+           *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } daga fresti
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skattur á viku
+       *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } vikna fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skattur á viku
+           *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } vikna fresti
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skattur á mánuði
+       *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } mánaða fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skattur á mánuði
+           *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } mánaða fresti
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skattur á ári
+       *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } ára fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skattur á ári
+           *[other] { $priceAmount } + { $taxAmount } skattur á { $intervalCount } ára fresti
+        }
 
 ## Component - SubscriptionTitle
 
@@ -236,6 +313,50 @@ coupon-promo-code = Kynningarkóði
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } á dag
+       *[other] { $amount } á { $intervalCount } daga fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á dag
+           *[other] { $amount } á { $intervalCount } daga fresti
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } á viku
+       *[other] { $amount } á { $intervalCount } vikna fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á viku
+           *[other] { $amount } á { $intervalCount } vikna fresti
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } á mánuði
+       *[other] { $amount } á { $intervalCount } mánaða fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á mánuði
+           *[other] { $amount } á { $intervalCount } mánaða fresti
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } á ári
+       *[other] { $amount } á { $intervalCount } ára fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á ári
+           *[other] { $amount } á { $intervalCount } ára fresti
+        }
 
 ## Error messages
 
@@ -290,6 +411,8 @@ sub-update-payment-title = Greiðsluupplýsingar
 
 pay-with-heading-card-or = Eða borga með greiðslukorti
 pay-with-heading-card-only = Borga með greiðslukorti
+product-invoice-preview-error-title = Vandamál við að hlaða inn forskoðun á greiðsluseðli
+product-invoice-preview-error-text = Ekki tókst að hlaða inn forskoðun á greiðsluseðli
 
 ## Routes - Product - IapRoadblock
 
@@ -351,6 +474,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Vandamál við að hlaða inn greiðsluseðlum
 sub-billing-update-success = Innheimtuupplýsingarnar þínar hafa verið uppfærðar
+sub-invoice-previews-error-title = Vandamál við að hlaða inn forskoðun á greiðsluseðlum
+sub-invoice-previews-error-text = Ekki tókst að hlaða inn forskoðun greiðsluseðils
 
 ## Routes - Subscription - ActionButton
 
