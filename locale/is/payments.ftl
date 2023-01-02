@@ -475,7 +475,7 @@ sub-invoice-error =
     .title = Vandamál við að hlaða inn greiðsluseðlum
 sub-billing-update-success = Innheimtuupplýsingarnar þínar hafa verið uppfærðar
 sub-invoice-previews-error-title = Vandamál við að hlaða inn forskoðun á greiðsluseðlum
-sub-invoice-previews-error-text = Ekki tókst að hlaða inn forskoðun greiðsluseðils
+sub-invoice-previews-error-text = Ekki tókst að hlaða inn forskoðun á greiðsluseðlum
 
 ## Routes - Subscription - ActionButton
 
@@ -488,6 +488,8 @@ pay-update-manage-btn = Stjórna
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Næst innheimt { $date }
+sub-next-bill-no-tax = Næsti reikningur þinn upp á <strong>{ $priceAmount }</strong> er á gjalddaga <strong>{ $date }</strong>
+sub-next-bill-tax = Næsti reikningur þinn upp á <strong>{ $priceAmount } + { $taxAmount }</strong> skattur er á gjalddaga <strong>{ $date }</strong>
 sub-expires-on = Rennur út { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -507,6 +509,8 @@ sub-route-funding-source-payment-alert = Ógildar greiðsluupplýsingar; það e
 sub-item-no-such-plan = Engin slík áskriftarleið fyrir þessa áskrift.
 invoice-not-found = Næsti greiðsluseðill fannst ekki
 sub-item-no-such-subsequent-invoice = Næsti greiðsluseðill fannst ekki fyrir þessa áskrift.
+sub-invoice-preview-error-title = Forskoðun greiðsluseðils fannst ekki
+sub-invoice-preview-error-text = Forskoðun greiðsluseðils fyrir þessa áskrift fannst ekki
 
 ## Routes - Subscriptions - Pocket Subscription
 
