@@ -66,9 +66,8 @@ new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录<
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = 输入您的电子邮件地址
+new-user-enter-email =
+    .label = 请输入您的电子邮箱
 new-user-confirm-email =
     .label = 确认邮箱地址
 new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产品更新信息。
@@ -185,6 +184,35 @@ plan-details-tax = 税费
 
 product-no-such-plan = 此产品无此方案。
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + 税费 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] 每天 { $priceAmount }
+       *[other] 每 { $intervalCount } 天 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每天 { $priceAmount }
+           *[other] 每 { $intervalCount } 天 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] 每周 { $priceAmount }
+       *[other] 每 { $intervalCount } 周 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每周 { $priceAmount }
+           *[other] 每 { $intervalCount } 周 { $priceAmount }
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = 设置您的订阅
@@ -208,8 +236,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = 关闭对话框
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = 加载中…
 settings-subscriptions-title = 订阅
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = 折扣码
@@ -217,30 +243,6 @@ coupon-promo-code = 折扣码
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] 每天 { $amount }
-       *[other] 每 { $intervalCount } 天 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] 每周 { $amount }
-       *[other] 每 { $intervalCount } 周 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] 每月 { $amount }
-       *[other] 每 { $intervalCount } 个月 { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] 每年{ $amount }
-       *[other] 每 { $intervalCount } 年 { $amount }
-    }
 
 ## Error messages
 
@@ -295,6 +297,8 @@ sub-update-payment-title = 付款信息
 
 pay-with-heading-card-or = 或刷卡支付
 pay-with-heading-card-only = 刷卡支付
+product-invoice-preview-error-title = 加载发票预览时出现问题
+product-invoice-preview-error-text = 无法加载发票预览
 
 ## Routes - Product - IapRoadblock
 
@@ -328,34 +332,6 @@ sub-item-stay-sub = 保持订阅
 sub-item-cancel-msg = 在账单最后一天（{ $period }）之后，将无法继续使用 { $name }。
 sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问权限与保存的所有信息
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] 每天 { $amount }
-       *[other] 每 { $intervalCount } 天 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] 每周 { $amount }
-       *[other] 每 { $intervalCount } 周 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] 每月 { $amount }
-       *[other] 每 { $intervalCount } 个月 { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] 每年 { $amount }
-       *[other] 每 { $intervalCount } 年 { $amount }
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = 重新激活订阅失败
@@ -377,6 +353,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = 加载发票时出现问题
 sub-billing-update-success = 已成功更新账单信息
+sub-invoice-previews-error-title = 加载发票预览时出现问题
+sub-invoice-previews-error-text = 无法加载发票预览。
 
 ## Routes - Subscription - ActionButton
 
@@ -384,6 +362,8 @@ pay-update-change-btn = 更改
 pay-update-manage-btn = 管理
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下个结算日在 { $date }
@@ -406,6 +386,8 @@ sub-route-funding-source-payment-alert = 您的账户出现问题，付款信息
 sub-item-no-such-plan = 该订阅无此类方案。
 invoice-not-found = 找不到后续发票
 sub-item-no-such-subsequent-invoice = 找不到此订阅的后续发票。
+sub-invoice-preview-error-title = 找不到发票预览
+sub-invoice-preview-error-text = 找不到此订阅的发票预览
 
 ## Routes - Subscriptions - Pocket Subscription
 
