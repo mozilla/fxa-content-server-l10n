@@ -66,7 +66,7 @@ new-user-sign-in-link = Ertu nú þegar með { -brand-name-firefox } reikning? <
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Settu inn tölvupóstfangið þitt
 new-user-confirm-email =
     .label = Staðfestu tölvupóstfangið þitt
@@ -188,6 +188,24 @@ plan-details-tax = Skattar og gjöld
 
 product-no-such-plan = Engin slík áskriftarleið fyrir þennan hugbúnað/þjónustu.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } skattur
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } á dag
+       *[other] { $priceAmount } á { $intervalCount } daga fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } á dag
+           *[other] { $priceAmount } á { $intervalCount } daga fresti
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Settu upp áskriftina þína
@@ -211,8 +229,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Loka glugga
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Hleð inn…
 settings-subscriptions-title = Áskriftir
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kynningarkóði
@@ -220,50 +236,6 @@ coupon-promo-code = Kynningarkóði
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } á dag
-       *[other] { $amount } á { $intervalCount } daga fresti
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } á dag
-           *[other] { $amount } á { $intervalCount } daga fresti
-        }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } á viku
-       *[other] { $amount } á { $intervalCount } vikna fresti
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } á viku
-           *[other] { $amount } á { $intervalCount } vikna fresti
-        }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } á mánuði
-       *[other] { $amount } á { $intervalCount } mánaða fresti
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } á mánuði
-           *[other] { $amount } á { $intervalCount } mánaða fresti
-        }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } á ári
-       *[other] { $amount } á { $intervalCount } ára fresti
-    }
-    .title =
-        { $intervalCount ->
-            [one] { $amount } á ári
-           *[other] { $amount } á { $intervalCount } ára fresti
-        }
 
 ## Error messages
 
@@ -358,34 +330,6 @@ sub-item-cancel-confirm =
     Hætta við aðgang minn og vistaðar upplýsingar mínar innan
     { $name } þann { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } á dag
-       *[other] { $amount } á { $intervalCount } daga fresti
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } á viku
-       *[other] { $amount } á { $intervalCount } vikna fresti
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } á mánuði
-       *[other] { $amount } á { $intervalCount } mánaða fresti
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } á ári
-       *[other] { $amount } á { $intervalCount } ára fresti
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Mistókst að endurvirkja áskrift
@@ -414,6 +358,8 @@ pay-update-change-btn = Breyta
 pay-update-manage-btn = Stjórna
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Næst innheimt { $date }
