@@ -212,6 +212,28 @@ price-details-no-tax-week =
             [one] 每周 { $priceAmount }
            *[other] 每 { $intervalCount } 周 { $priceAmount }
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] 每月 { $priceAmount }
+       *[other] 每 { $intervalCount } 个月 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每月 { $priceAmount }
+           *[other] 每 { $intervalCount } 个月 { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] 每年 { $priceAmount }
+       *[other] 每 { $intervalCount } 年 { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每年 { $priceAmount }
+           *[other] 每 { $intervalCount } 年 { $priceAmount }
+        }
 
 ## Component - SubscriptionTitle
 
