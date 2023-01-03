@@ -43,12 +43,15 @@ remember-pw-link = Сећате се лозинке? Пријавите се
 
 ## Ready component
 
-ready-confirmation = Ваша лозинка је ресетована
+reset-password-complete-header = Ваша лозинка је ресетована
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сада сте спремни да користите { $serviceName }
+ready-account-ready = Ваш налог је спреман!
 ready-continue = Настави
+sign-in-complete-header = Пријава је потврђена
+pulsing-hearts-description = Ружичасти лаптоп и љубичасти мобилни уређај са пулсирајућим срцима
 
 ## Alert Bar
 
@@ -610,6 +613,21 @@ auth-error-139 = Секундарна адреса мора бити друга�
 auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао верификациони код
 auth-error-1008 = Нова лозинка мора да буде другачија
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Веза за ресетовање лозинке је истекла
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Веза за ресетовање лозинке је оштећена
+# Header for form to create new password
+create-new-password-header = Направи нову лозинку
+# Link that user can click to receive a new reset password link
+receive-new-link = Примите нову везу
+confirm-account-recovery-key-button = Ресетуј лозинку
+account-restored-success-message = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
+password-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
+password-link-expired-message = Везу коју сте кликнули за обнављање лозинке је истекла.
 
 ## ResetPassword page
 
