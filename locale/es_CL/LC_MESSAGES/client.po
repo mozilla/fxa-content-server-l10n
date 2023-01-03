@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-12 03:32+0000\n"
+"PO-Revision-Date: 2023-01-03 01:52+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1345,7 +1345,7 @@ msgstr "Continuar a mi cuenta"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
-msgstr "Mantente en sincronía en el camino:"
+msgstr "¡Tu cuenta está lista!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
