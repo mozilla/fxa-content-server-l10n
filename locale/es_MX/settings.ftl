@@ -610,11 +610,16 @@ auth-error-1008 = Tu nueva contraseña debe ser diferente
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = Enlace para restablecer la contraseña expirado
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Enlace para restablecer la contraseña dañado
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
 # Link that user can click to receive a new reset password link
 receive-new-link = Recibir nuevo enlace
 confirm-account-recovery-key-button = Restablecer contraseña
+password-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha expirado.
 
 ## ResetPassword page
 
