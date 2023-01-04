@@ -123,6 +123,15 @@ remember-pw-link = Pamiętasz hasło? Zaloguj się
 
 ## Ready component
 
+reset-password-complete-header = Zmieniono hasło
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Można teraz używać usługi { $serviceName }
+ready-account-ready = Konto jest gotowe!
+ready-continue = Kontynuuj
+sign-in-complete-header = Potwierdzono logowanie
+pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
 
 ## Alert Bar
 
@@ -683,6 +692,30 @@ auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = Odnośnik do zmiany hasła wygasł
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
+# Header for form to create new password
+create-new-password-header = Utwórz nowe hasło
+# Link that user can click to receive a new reset password link
+receive-new-link = Wyślij nowy odnośnik
+confirm-account-recovery-key-button = Zmień hasło
+account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
+password-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
+password-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do ustawień konta</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
+reset-password-warning-message = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { product-pocket }.
+reset-password-button = Rozpocznij zmianę
+reset-password-success-alert = Zmieniono hasło
+reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem hasła
+reset-password-error-unknown-account = Nieznane konto
+reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
+reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
