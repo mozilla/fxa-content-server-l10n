@@ -82,9 +82,8 @@ new-user-sign-in-link = Masz już konto { -brand-name-firefox(case: "gen") }? <a
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Wpisz swój adres e-mail
+new-user-enter-email =
+    .label = Wpisz adres e-mail
 new-user-confirm-email =
     .label = Potwierdź adres e-mail
 new-user-subscribe-product-updates = Chcę otrzymywać wiadomości o produktach od { -brand-name-firefox(case: "gen") }
@@ -209,6 +208,13 @@ plan-details-tax = Podatki i opłaty
 
 product-no-such-plan = Nie ma takiego planu dla tego produktu.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } podatku
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Skonfiguruj swoją subskrypcję
@@ -232,8 +238,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Zamknij okno
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Wczytywanie…
 settings-subscriptions-title = Subskrypcje
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kod promocyjny
@@ -241,34 +245,6 @@ coupon-promo-code = Kod promocyjny
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dziennie
-        [few] { $amount } co { $intervalCount } dni
-       *[many] { $amount } co { $intervalCount } dni
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } tygodniowo
-        [few] { $amount } co { $intervalCount } tygodnie
-       *[many] { $amount } co { $intervalCount } tygodni
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } miesięcznie
-        [few] { $amount } co { $intervalCount } miesiące
-       *[many] { $amount } co { $intervalCount } miesięcy
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } rocznie
-        [few] { $amount } co { $intervalCount } lata
-       *[many] { $amount } co { $intervalCount } lat
-    }
 
 ## Error messages
 
@@ -323,6 +299,8 @@ sub-update-payment-title = Informacje o płatności
 
 pay-with-heading-card-or = Lub zapłać kartą
 pay-with-heading-card-only = Zapłać kartą
+product-invoice-preview-error-title = Problem podczas wczytywania podglądu faktury
+product-invoice-preview-error-text = Nie można wczytać podglądu faktury
 
 ## Routes - Product - IapRoadblock
 
@@ -363,38 +341,6 @@ sub-item-cancel-confirm =
     Anuluj mój dostęp i moje zachowane informacje
     w { $name } w dniu { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dziennie
-        [few] { $amount } co { $intervalCount } dni
-       *[many] { $amount } co { $intervalCount } dni
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } tygodniowo
-        [few] { $amount } co { $intervalCount } tygodnie
-       *[many] { $amount } co { $intervalCount } tygodni
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } miesięcznie
-        [few] { $amount } co { $intervalCount } miesiące
-       *[many] { $amount } co { $intervalCount } miesięcy
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } rocznie
-        [few] { $amount } co { $intervalCount } lata
-       *[many] { $amount } co { $intervalCount } lat
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Ponowna aktywacja subskrypcji się nie powiodła
@@ -416,6 +362,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem podczas wczytywania faktur
 sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
+sub-invoice-previews-error-title = Problem podczas wczytywania podglądu faktur
+sub-invoice-previews-error-text = Nie można wczytać podglądu faktur
 
 ## Routes - Subscription - ActionButton
 
@@ -423,6 +371,8 @@ pay-update-change-btn = Zmień
 pay-update-manage-btn = Zarządzaj
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Następna płatność: { $date }
@@ -445,6 +395,8 @@ sub-route-funding-source-payment-alert = Nieprawidłowe informacje o płatnośc
 sub-item-no-such-plan = Nie ma takiego planu dla tej subskrypcji.
 invoice-not-found = Nie odnaleziono kolejnej faktury
 sub-item-no-such-subsequent-invoice = Nie odnaleziono kolejnej faktury za tę subskrypcję.
+sub-invoice-preview-error-title = Nie odnaleziono podglądu faktury
+sub-invoice-preview-error-text = Nie odnaleziono podglądu faktury dla tej subskrypcji
 
 ## Routes - Subscriptions - Pocket Subscription
 
