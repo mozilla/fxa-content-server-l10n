@@ -450,25 +450,6 @@ plan-price-interval-month =
             [many] { $amount } bob { $intervalCount } mis
            *[other] { $amount } bob { $intervalCount } mis
         }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-interval-year =
-    { $intervalCount ->
-        [zero] { "" }
-        [one] { $amount } bob blwyddyn
-        [two] { $amount } bob { $intervalCount } flynedd
-        [few] { $amount } bob { $intervalCount } blynedd
-        [many] { $amount } bob { $intervalCount } mlynedd
-       *[other] { $amount } bob { $intervalCount } blynedd
-    }
-    .title =
-        { $intervalCount ->
-            [zero] { "" }
-            [one] { "" }
-            [two] { $amount } bob { $intervalCount } flynedd
-            [few] { $amount } bob { $intervalCount } blynedd
-            [many] { $amount } bob { $intervalCount } mlynedd
-           *[other] { $amount } bob { $intervalCount } blynedd
-        }
 
 ## Error messages
 
