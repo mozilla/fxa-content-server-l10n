@@ -111,7 +111,7 @@ payment-confirmation-amount = { $amount } co { $interval }
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $amount } dzienie
+        [one] { $amount } dziennie
         [few] { $amount } co { $intervalCount } dni
        *[many] { $amount } co { $intervalCount } dni
     }
@@ -266,6 +266,58 @@ price-details-no-tax-year =
             [few] { $priceAmount } co { $intervalCount } lata
            *[many] { $priceAmount } co { $intervalCount } lat
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } podatku dziennie
+        [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } dni
+       *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } dni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } podatku dziennie
+            [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } dni
+           *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } dni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } podatku tygodniowo
+        [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } tygodnie
+       *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } tygodni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } podatku tygodniowo
+            [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } tygodnie
+           *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } tygodni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } podatku miesięcznie
+        [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } miesiące
+       *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } miesięcy
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } podatku miesięcznie
+            [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } miesiące
+           *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } miesięcy
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } podatku rocznie
+        [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } lata
+       *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } lat
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } podatku rocznie
+            [few] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } lata
+           *[many] { $priceAmount } + { $taxAmount } podatku co { $intervalCount } lat
+        }
 
 ## Component - SubscriptionTitle
 
@@ -297,6 +349,58 @@ coupon-promo-code = Kod promocyjny
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } dziennie
+        [few] { $amount } co { $intervalCount } dni
+       *[many] { $amount } co { $intervalCount } dni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } dziennie
+            [few] { $amount } co { $intervalCount } dni
+           *[many] { $amount } co { $intervalCount } dni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } tygodniowo
+        [few] { $amount } co { $intervalCount } tygodnie
+       *[many] { $amount } co { $intervalCount } tygodni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } tygodniowo
+            [few] { $amount } co { $intervalCount } tygodnie
+           *[many] { $amount } co { $intervalCount } tygodni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } miesięcznie
+        [few] { $amount } co { $intervalCount } miesiące
+       *[many] { $amount } co { $intervalCount } mięsięcy
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } miesięcznie
+            [few] { $amount } co { $intervalCount } miesiące
+           *[many] { $amount } co { $intervalCount } mięsięcy
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } rocznie
+        [few] { $amount } co { $intervalCount } lata
+       *[many] { $amount } co { $intervalCount } lat
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } rocznie
+            [few] { $amount } co { $intervalCount } lata
+           *[many] { $amount } co { $intervalCount } lat
+        }
 
 ## Error messages
 
@@ -428,6 +532,8 @@ pay-update-manage-btn = Zarządzaj
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Następna płatność: { $date }
+sub-next-bill-no-tax = Następny rachunek na kwotę <strong>{ $priceAmount }</strong> ma termin płatności <strong>{ $date }</strong>
+sub-next-bill-tax = Następny rachunek na kwotę <strong>{ $priceAmount } + { $taxAmount }</strong> podatku ma termin płatności <strong>{ $date }</strong>
 sub-expires-on = Wygasa: { $date }
 
 ## Routes - Subscription - PaymentUpdate
