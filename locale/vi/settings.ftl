@@ -43,12 +43,15 @@ remember-pw-link = Đã nhớ mật khẩu của bạn? Đăng nhập
 
 ## Ready component
 
-ready-confirmation = Mật khẩu của bạn đã được đặt lại
+reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Bạn hiện đã sẵn sàng sử dụng { $serviceName }
+ready-account-ready = Tài khoản của bạn đã sẵn sàng!
 ready-continue = Tiếp tục
+sign-in-complete-header = Đã xác nhận đăng nhập
+pulsing-hearts-description = Một chiếc máy tính xách tay màu hồng và một thiết bị di động màu tím đều có một trái tim đang đập
 
 ## Alert Bar
 
@@ -608,6 +611,21 @@ auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Liên kết đặt lại mật khẩu đã bị hỏng
+# Header for form to create new password
+create-new-password-header = Tạo mật khẩu mới
+# Link that user can click to receive a new reset password link
+receive-new-link = Nhận liên kết mới
+confirm-account-recovery-key-button = Đặt lại mật khẩu
+account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
+password-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
+password-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
 
 ## ResetPassword page
 

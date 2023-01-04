@@ -383,6 +383,8 @@ sub-update-payment-title = Thông tin thanh toán
 
 pay-with-heading-card-or = Hoặc thanh toán bằng thẻ
 pay-with-heading-card-only = Thanh toán bằng thẻ
+product-invoice-preview-error-title = Sự cố khi tải bản xem trước hóa đơn
+product-invoice-preview-error-text = Không thể tải bản xem trước hóa đơn
 
 ## Routes - Product - IapRoadblock
 
