@@ -611,6 +611,10 @@ auth-error-1008 = Ваш новы пароль павінен адрозніва
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Стварыць новы пароль
+# Link that user can click to receive a new reset password link
+receive-new-link = Атрымаць новую спасылку
 confirm-account-recovery-key-button = Скінуць пароль
 account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
 password-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
