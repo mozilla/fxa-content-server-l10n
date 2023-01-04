@@ -194,6 +194,17 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } de taxes
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } par jour
+       *[other] { $priceAmount } tous les { $intervalCount } jours
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } par jour
+           *[other] { $priceAmount } tous les { $intervalCount } jours
+        }
 
 ## Component - SubscriptionTitle
 
