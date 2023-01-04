@@ -43,12 +43,15 @@ remember-pw-link = E mbani mend fjalëkalimin tuaj? Hyni
 
 ## Ready component
 
-ready-confirmation = Fjalëkalimi juaj u ricaktua
+reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Tani jeni gati të përdorni { $serviceName }
+ready-account-ready = Llogaria juaj është gati!
 ready-continue = Vazhdo
+sign-in-complete-header = Hyrje e ripohuar
+pulsing-hearts-description = Një laptop rozë dhe një pajisje celulare e purpurt, secila me një zemër që rreh
 
 ## Alert Bar
 
@@ -606,6 +609,21 @@ auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj 
 auth-error-155 = S’u gjet token TOTP
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Lidhja e ricaktimit të fjalëkalimit skadoi
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Lidhja e ricaktimit të fjalëkalimit është e dëmtuar
+# Header for form to create new password
+create-new-password-header = Krijoni fjalëkalim të ri
+# Link that user can click to receive a new reset password link
+receive-new-link = Merrni lidhje të re
+confirm-account-recovery-key-button = Ricaktoni fjalëkalimin
+account-restored-success-message = E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes së llogarisë. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezik.
+password-link-damaged-message = Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni.
+password-link-expired-message = Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar.
 
 ## ResetPassword page
 

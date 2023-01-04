@@ -411,6 +411,8 @@ sub-update-payment-title = Të dhëna pagese
 
 pay-with-heading-card-or = Ose paguani me kartë
 pay-with-heading-card-only = Paguani me kartë
+product-invoice-preview-error-title = Problem me ngarkim paraparjeje fature
+product-invoice-preview-error-text = S’u ngarkua dot paraparje faturash
 
 ## Routes - Product - IapRoadblock
 
