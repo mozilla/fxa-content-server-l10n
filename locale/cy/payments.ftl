@@ -213,7 +213,7 @@ price-details-tax = { $priceAmount } + { $taxAmount } treth
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } bob { $intervalCount } ddiwrnod
         [one] { $priceAmount } bob dydd
         [two] { $priceAmount } bob { $intervalCount } ddiwrnod
         [few] { $priceAmount } bob { $intervalCount } diwrnod
@@ -222,7 +222,7 @@ price-details-no-tax-day =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } bob { $intervalCount } ddiwrnod
             [one] { $priceAmount } yn ddyddiol
             [two] { $priceAmount } bob { $intervalCount } ddiwrnod
             [few] { $priceAmount } bob { $intervalCount } diwrnod
@@ -232,7 +232,7 @@ price-details-no-tax-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-no-tax-week =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } bob { $intervalCount } wythnos
         [one] { $priceAmount } bob wythnos
         [two] { $priceAmount } bob pythefnos
         [few] { $priceAmount } bob { $intervalCount } wythnos
@@ -241,7 +241,7 @@ price-details-no-tax-week =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } bob { $intervalCount } wythnos
             [one] { $priceAmount } bob wythnos
             [two] { $priceAmount } bob pythefnos
             [few] { $priceAmount } bob { $intervalCount } wythnos
@@ -251,7 +251,7 @@ price-details-no-tax-week =
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } bob { $intervalCount } mis
         [one] { $priceAmount } bob mis
         [two] { $priceAmount } bob { $intervalCount } fis
         [few] { $priceAmount } bob { $intervalCount } mis
@@ -260,7 +260,7 @@ price-details-no-tax-month =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } bob { $intervalCount } mis
             [one] { $priceAmount } bob mis
             [two] { $priceAmount } bob { $intervalCount } fis
             [few] { $priceAmount } bob { $intervalCount } mis
@@ -270,7 +270,7 @@ price-details-no-tax-month =
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-no-tax-year =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } bob { $intervalCount } blynedd
         [one] { $priceAmount } bob blwyddyn
         [two] { $priceAmount } bob { $intervalCount } flynedd
         [few] { $priceAmount } bob { $intervalCount } blynedd
@@ -279,7 +279,7 @@ price-details-no-tax-year =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } bob { $intervalCount } blynedd
             [one] { $priceAmount } bob blwyddyn
             [two] { $priceAmount } bob { $intervalCount } flynedd
             [few] { $priceAmount } bob { $intervalCount } blynedd
@@ -289,7 +289,7 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
         [one] { $priceAmount } a { $taxAmount } o dreth bob diwrnod
         [two] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
         [few] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
@@ -298,7 +298,7 @@ price-details-tax-day =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
             [one] { $priceAmount } a { $taxAmount } o dreth bob diwrnod
             [two] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } ddiwrnod
             [few] { $priceAmount } a { $taxAmount } o dreth bob { $intervalCount } diwrnod
@@ -308,7 +308,7 @@ price-details-tax-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
         [one] { $priceAmount } a { $taxAmount } treth bob wythnos
         [two] { $priceAmount } a { $taxAmount } treth bob pythefnos
         [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
@@ -317,7 +317,7 @@ price-details-tax-week =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
             [one] { $priceAmount } a { $taxAmount } treth bob wythnos
             [two] { $priceAmount } a { $taxAmount } treth bob pythefnos
             [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } wythnos
@@ -327,7 +327,7 @@ price-details-tax-week =
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
         [one] { $priceAmount } a { $taxAmount } treth bob mis
         [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } fis
         [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
@@ -336,7 +336,7 @@ price-details-tax-month =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
             [one] { $priceAmount } a { $taxAmount } treth bob mis
             [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } fis
             [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } mis
@@ -346,7 +346,7 @@ price-details-tax-month =
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
         [one] { $priceAmount } a { $taxAmount } treth bob blwyddyn
         [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } flynedd
         [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
@@ -355,7 +355,7 @@ price-details-tax-year =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
             [one] { $priceAmount } a { $taxAmount } treth bob blwyddyn
             [two] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } flynedd
             [few] { $priceAmount } a { $taxAmount } treth bob { $intervalCount } blynedd
