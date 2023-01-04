@@ -214,6 +214,58 @@ product-no-such-plan = Nie ma takiego planu dla tego produktu.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } podatku
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } dziennie
+        [few] { $priceAmount } co { $intervalCount } dni
+       *[many] { $priceAmount } co { $intervalCount } dni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } dziennie
+            [few] { $priceAmount } co { $intervalCount } dni
+           *[many] { $priceAmount } co { $intervalCount } dni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } tygodniowo
+        [few] { $priceAmount } co { $intervalCount } tygodnie
+       *[many] { $priceAmount } co { $intervalCount } tygodni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } tygodniowo
+            [few] { $priceAmount } co { $intervalCount } tygodnie
+           *[many] { $priceAmount } co { $intervalCount } tygodni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } miesięcznie
+        [few] { $priceAmount } co { $intervalCount } miesiące
+       *[many] { $priceAmount } co { $intervalCount } miesięcy
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } miesięcznie
+            [few] { $priceAmount } co { $intervalCount } miesiące
+           *[many] { $priceAmount } co { $intervalCount } miesięcy
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } rocznie
+        [few] { $priceAmount } co { $intervalCount } lata
+       *[many] { $priceAmount } co { $intervalCount } lat
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } rocznie
+            [few] { $priceAmount } co { $intervalCount } lata
+           *[many] { $priceAmount } co { $intervalCount } lat
+        }
 
 ## Component - SubscriptionTitle
 
