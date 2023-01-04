@@ -392,7 +392,7 @@ switch-turn-off = ఆపివేయి
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = ఆరంభించండి
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = సమర్పిస్తోంది...
+switch-submitting = సమర్పిస్తోంది…
 
 ## Sub-section row Defaults
 
