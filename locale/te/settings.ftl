@@ -47,7 +47,7 @@ reset-password-complete-header = మీ సంకేతపదము మార్
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు
+ready-use-service = మీరు ఇప్పుడు { $serviceName } ఉపయోగించడానికి సిద్ధంగా ఉన్నారు
 ready-account-ready = మీ ఖాతా సిద్ధంగా ఉంది!
 ready-continue = కొనసాగించు
 sign-in-complete-header = సైన్ ఇన్ ధ్రువీకరించబడింది
