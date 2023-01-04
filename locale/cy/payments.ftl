@@ -396,7 +396,7 @@ coupon-promo-code = Cod Hyrwyddo
 # $intervalCount (Number) - The interval between payments, in days.
 plan-price-interval-day =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $amount } bob { $intervalCount } ddiwrnod
         [one] { $amount } bob diwrnod
         [two] { $amount } bob { $intervalCount } ddiwrnod
         [few] { $amount } bob { $intervalCount } diwrnod
@@ -405,7 +405,7 @@ plan-price-interval-day =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $amount } bob { $intervalCount } ddiwrnod
             [one] { $amount } bob diwrnod
             [two] { $amount } bob { $intervalCount } ddiwrnod
             [few] { $amount } bob { $intervalCount } diwrnod
@@ -415,7 +415,7 @@ plan-price-interval-day =
 # $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-interval-week =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $amount } bob { $intervalCount } wythnos
         [one] { $amount } bob wythnos
         [two] { $amount } bob pythefnos
         [few] { $amount } bob { $intervalCount } wythnos
@@ -424,7 +424,7 @@ plan-price-interval-week =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $amount } bob { $intervalCount } wythnos
             [one] { $amount } bob wythnos
             [two] { $amount } bob pythefnos
             [few] { $amount } bob { $intervalCount } wythnos
@@ -434,7 +434,7 @@ plan-price-interval-week =
 # $intervalCount (Number) - The interval between payments, in months.
 plan-price-interval-month =
     { $intervalCount ->
-        [zero] { "" }
+        [zero] { $amount } bob { $intervalCount } mis
         [one] { $amount } bob mis
         [two] { $amount } bob { $intervalCount } fis
         [few] { $amount } bob { $intervalCount } mis
@@ -443,12 +443,31 @@ plan-price-interval-month =
     }
     .title =
         { $intervalCount ->
-            [zero] { "" }
+            [zero] { $amount } bob { $intervalCount } mis
             [one] { $amount } bob mis
             [two] { $amount } bob { $intervalCount } fis
             [few] { $amount } bob { $intervalCount } mis
             [many] { $amount } bob { $intervalCount } mis
            *[other] { $amount } bob { $intervalCount } mis
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [zero] { $amount } bob { $intervalCount } blynedd
+        [one] { $amount } bob blwyddyn
+        [two] { $amount } bob { $intervalCount } flynedd
+        [few] { $amount } bob { $intervalCount } blynedd
+        [many] { $amount } bob { $intervalCount } mlynedd
+       *[other] { $amount } bob { $intervalCount } blynedd
+    }
+    .title =
+        { $intervalCount ->
+            [zero] { $amount } bob { $intervalCount } blynedd
+            [one] { $amount } bob blwyddyn
+            [two] { $amount } bob { $intervalCount } flynedd
+            [few] { $amount } bob { $intervalCount } blynedd
+            [many] { $amount } bob { $intervalCount } mlynedd
+           *[other] { $amount } bob { $intervalCount } blynedd
         }
 
 ## Error messages
