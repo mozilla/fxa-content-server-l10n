@@ -411,6 +411,8 @@ sub-update-payment-title = Betellingsgegevens
 
 pay-with-heading-card-or = Of betelje mei kaart
 pay-with-heading-card-only = Betelje mei kaart
+product-invoice-preview-error-title = Probleem by it laden fan faktuerfoarbyld
+product-invoice-preview-error-text = Kin faktuerfoarbyld net lade
 
 ## Routes - Product - IapRoadblock
 

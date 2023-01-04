@@ -411,6 +411,8 @@ sub-update-payment-title = Betalningsinformation
 
 pay-with-heading-card-or = Eller betala med kort
 pay-with-heading-card-only = Betala med kort
+product-invoice-preview-error-title = Problem med att ladda förhandsgranskning av faktura
+product-invoice-preview-error-text = Det gick inte att läsa in förhandsgranskning av faktura
 
 ## Routes - Product - IapRoadblock
 

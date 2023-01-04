@@ -43,12 +43,15 @@ remember-pw-link = Witte jo jo wachtwurd noch? Oanmelde
 
 ## Ready component
 
-ready-confirmation = Jo wachtwurd is opnij ynsteld
+reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Jo kinne { $serviceName } no brûke
+ready-account-ready = Jo account is ree!
 ready-continue = Trochgean
+sign-in-complete-header = Oanmelding befêstige
+pulsing-hearts-description = In rôze laptop en in pears mobyl apparaat elk mei in klopjend hert
 
 ## Alert Bar
 
@@ -610,6 +613,21 @@ auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Keppeling foar opnij ynstellen skansearre
+# Header for form to create new password
+create-new-password-header = Nij wachtwurd oanmeitsje
+# Link that user can click to receive a new reset password link
+receive-new-link = Nije keppeling ûntfange
+confirm-account-recovery-key-button = Wachtwurd opnij ynstelle
+account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
+password-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
+password-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
 
 ## ResetPassword page
 
