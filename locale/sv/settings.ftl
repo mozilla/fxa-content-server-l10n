@@ -43,12 +43,15 @@ remember-pw-link = Kommer du ihåg ditt lösenord? Logga in
 
 ## Ready component
 
-ready-confirmation = Ditt lösenord har återställts
+reset-password-complete-header = Ditt lösenord har återställts
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Du kan nu använda { $serviceName }
+ready-account-ready = Ditt konto är klart!
 ready-continue = Fortsätt
+sign-in-complete-header = Inloggning bekräftad
+pulsing-hearts-description = En rosa bärbar dator och en lila mobil enhet, var och en med ett bultande hjärta
 
 ## Alert Bar
 
@@ -608,6 +611,21 @@ auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-po
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
+
+## Account recovery reset password page
+
+#  Appears when a link to reset password has expired
+password-link-expired-header = Länken för återställning av lösenord har upphört
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Länken för att återställa lösenordet fungerar inte
+# Header for form to create new password
+create-new-password-header = Skapa nytt lösenord
+# Link that user can click to receive a new reset password link
+receive-new-link = Hämta ny länk
+confirm-account-recovery-key-button = Återställ lösenordet
+account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
+password-link-damaged-message = Länken du klickade på saknade tecken och kan ha brutits av din e-postklient. Kopiera adressen noggrant och försök igen.
+password-link-expired-message = Länken du klickade på för att återställa ditt lösenord har upphört att gälla.
 
 ## ResetPassword page
 
