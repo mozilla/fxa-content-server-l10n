@@ -665,7 +665,7 @@ create-new-password-header = Ustvari novo geslo
 receive-new-link = Prejmi novo povezavo
 confirm-account-recovery-key-button = Ponastavi geslo
 account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
-password-link-damaged-message = Povezava, ki ste jo kliknili, vsebuje manj znakov in jo je morda pokvaril vaš e-poštni odjemalec. Previdno prepirajte naslov in poskusite znova.
+password-link-damaged-message = Povezavi, ki ste jo kliknili, manjka nekaj znakov. Morda jo je pokvaril vaš e-poštni odjemalec. Previdno kopirajte naslov in poskusite znova.
 password-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
 
 ## ResetPassword page
