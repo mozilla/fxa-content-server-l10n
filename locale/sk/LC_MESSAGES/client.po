@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-11 18:12+0000\n"
+"PO-Revision-Date: 2023-01-05 09:00+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1074,7 +1074,7 @@ msgstr "Zadajte šesťmiestny kód"
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
-msgstr "Potvrdenie"
+msgstr "Potvrdiť"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
