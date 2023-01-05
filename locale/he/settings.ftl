@@ -615,9 +615,23 @@ account-restored-success-message = שחזרת בהצלחה את החשבון ש�
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = יצירת ססמה חדשה
 complete-reset-password-warning-message = <span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = הססמה הוגדרה
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = הודעת דוא״ל לאיפוס נשלחה
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = נא ללחוץ על הקישור שנשלח בדוא״ל אל { $email } בשעה הקרובה כדי ליצור ססמה חדשה.
 
 ## ResetPassword page
 
@@ -638,3 +652,5 @@ reset-password-with-recovery-key-verified-continue-to-account = המשך לחש�
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = תודה על הערנות שלך
+signin-reported-message = נשלחה הודעה לצוות שלנו. דיווחים כאלה מסייעים לנו להישמר מתוקפים.
