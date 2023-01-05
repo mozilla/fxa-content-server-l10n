@@ -1,5 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = General application error
+app-general-err-message = Something went wrong. Please try again later.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
@@ -18,6 +20,8 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+# Message for screen readers, to announce that external link will open in new window
+link-sr-new-window = Opens in new window
 
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
