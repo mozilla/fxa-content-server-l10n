@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-03 19:29+0000\n"
+"PO-Revision-Date: 2023-01-05 13:26+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -248,11 +248,11 @@ msgstr "ni našteto"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr "Zaznamki"
+msgstr "Zaznamke"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
-msgstr "Zgodovina"
+msgstr "Zgodovino"
 
 #: .es5/models/sync-engines.js:66
 msgid "Passwords"
@@ -260,7 +260,7 @@ msgstr "Gesla"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
-msgstr "Dodatki"
+msgstr "Dodatke"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
@@ -272,7 +272,7 @@ msgstr "Nastavitve"
 
 #: .es5/models/sync-engines.js:86
 msgid "Addresses"
-msgstr "Naslovi"
+msgstr "Naslove"
 
 #: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
