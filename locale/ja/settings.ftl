@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,7 +35,34 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = パスワードを隠す
+input-password-show = パスワードを開示
+input-password-hide-aria = 画面上のパスワードを隠す
+input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
+
+## LinkRememberPassword component
+
+
 ## Ready component
+
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = パスワードをリセットするリンクが壊れています
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
+reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 新しいリンクを受け取る
 
 ## Alert Bar
 
@@ -49,18 +77,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
-
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 ## Connect another device promo
@@ -69,7 +96,6 @@ connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-
 connect-another-find-fx-mobile =
     { -google-play } や { -app-store } で { -brand-firefox } を見つけるか
     <br /><linkExternal>ダウンロードリンクを端末に送信してください。</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -78,6 +104,7 @@ connect-another-app-store-image-2 =
     .title = { -app-store } で { -brand-firefox } をダウンロード
 
 ##
+
 
 ## Connected services section
 
@@ -90,13 +117,10 @@ cs-cannot-disconnect = クライアントが見つからないため、切断で
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } からログアウトしました
-
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 項目が不足または重複していますか？
-
 cs-disconnect-sync-heading = Sync から切断
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -125,10 +149,10 @@ cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を�
 cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
-
 cs-sign-out-button = ログアウト
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -157,7 +181,6 @@ drop-down-menu-title = { -product-firefox-account } メニュー
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ログアウト
-
 drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
 ## Flow Container
@@ -184,14 +207,6 @@ header-back-to-top-link =
     .title = トップに戻る
 header-title = { -product-firefox-accounts }
 header-help = ヘルプ
-
-## Input Password
-
-input-password-hide = パスワードを隠す
-input-password-show = パスワードを開示
-input-password-hide-aria = 画面上のパスワードを隠す
-input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
-
 
 ## Linked Accounts section
 
@@ -268,11 +283,11 @@ avatar-page-image-too-large-error-2 = 画像ファイルのサイズが大きす
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = パスワードを変更
-
 pw-8-chars = 最低 8 文字
 pw-not-email = あなたのメールアドレスではありません
 pw-change-must-match = 新しいパスワードを再入力して一致させる必要があります
@@ -282,40 +297,35 @@ pw-tips = 安全のため、パスワードを再利用してはいけません�
 pw-change-cancel-button = キャンセル
 pw-change-save-button = 保存
 pw-change-forgot-password-link = パスワードを忘れましたか？
-
 pw-change-current-password =
     .label = 現在のパスワードを入力してください
 pw-change-new-password =
     .label = 新しいパスワードを入力してください
 pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
-
 pw-change-success-alert-2 = パスワードを更新しました
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = パスワードを作成
-
 pw-create-success-alert-2 = パスワードを設定しました
 pw-create-error-2 = 申し訳ありませんが、パスワードの設定中に問題が発生しました
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = アカウントを削除
-
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
-
 delete-account-confirm-title-2 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ { -brand-mozilla } 製品と接続されました:
-
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
-
 delete-account-chk-box-1-v2 =
     .label = 有料サブスクリプションがあればキャンセルされます ({ product-pocket } を除く)
 delete-account-chk-box-2 =
@@ -324,33 +334,28 @@ delete-account-chk-box-3 =
     .label = このメールアドレスで再び有効化しても、保存された情報が復元できない場合があります
 delete-account-chk-box-4 =
     .label = addons.mozilla.org に公開されたすべての拡張機能とテーマは削除されます
-
-
 delete-account-continue-button = 続ける
-
 delete-account-password-input =
     .label = パスワードを入力してください
-
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = 表示名
-
 display-name-input =
     .label = 表示名を入力してください
 submit-display-name = 保存
 cancel-display-name = キャンセル
-
 display-name-update-error-2 = 表示名のアップデートに問題がありました
-
 display-name-success-alert-2 = 表示名が更新されました
 
 ##
+
 
 # Account recovery key setup page
 
@@ -403,25 +408,20 @@ delete-account-link = アカウントを削除
 ## Two Step Authentication
 
 tfa-title = 2 段階認証
-
 tfa-step-1-3 = ステップ 1/3
 tfa-step-2-3 = ステップ 2/3
 tfa-step-3-3 = ステップ 3/3
-
 tfa-button-continue = 続ける
 tfa-button-cancel = キャンセル
 tfa-button-finish = 完了
-
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
 tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
 tfa-enabled = 2 段階認証が有効化されました
-
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -430,18 +430,16 @@ tfa-qa-code-alt = コード { $secret } を使って対応アプリケーショ�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = コードをスキャンできませんか？
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = この秘密キーを認証アプリに入力してください:
-
 tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
 tfa-input-enter-totp =
     .label = セキュリティコードを入力
-
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
 ##
+
 
 ## Profile section
 
@@ -454,6 +452,7 @@ profile-primary-email =
     .header = 主要アドレス
 
 ##
+
 
 ## Security section of Setting
 
@@ -543,6 +542,7 @@ se-secondary-email-none = なし
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2 段階認証
@@ -551,20 +551,17 @@ tfa-row-enabled = 有効
 tfa-row-not-set = 未設定
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
-
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
 tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
-
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-disable-modal-explain-1 =
     この操作は元に戻せません。
     <linkExternal>バックアップ認証コードを差し替える</linkExternal> オプションもあります。
 tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
-
 tfa-row-change-modal-heading-1 = バックアップ認証コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
 tfa-row-change-modal-explain = この操作は元に戻せません。
@@ -588,3 +585,24 @@ auth-error-139 = 予備のメールアドレスはアカウントのアドレス
 auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
+
+## AccountRecoveryConfirmKey page
+
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = アカウント回復用キーを入力してください
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
