@@ -51,6 +51,7 @@ ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
 ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
+pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
 
 ## Alert Bar
 
