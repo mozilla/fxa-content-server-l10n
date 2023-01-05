@@ -39,6 +39,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = הסתרת ססמה
+input-password-show = הצגת ססמה
+input-password-hide-aria = הסתרת הססמה מהמסך.
+input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -54,7 +61,24 @@ reset-password-complete-header = הססמה שלך אופסה
 ready-use-service = כעת ניתן להשתמש ב־{ $serviceName }
 ready-account-ready = החשבון שלך מוכן!
 ready-continue = המשך
+sign-in-complete-header = ההתחברות אומתה
 pulsing-hearts-description = מחשב נייד ורוד ומכשיר סלולרי סגול, כל אחד עם לב פועם
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = פג תוקף הקישור לאיפוס הססמה
+reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = קבלת קישור חדש
 
 ## Alert Bar
 
@@ -197,13 +221,6 @@ header-back-to-top-link =
     .title = חזרה למעלה
 header-title = חשבון Firefox
 header-help = עזרה
-
-## Input Password
-
-input-password-hide = הסתרת ססמה
-input-password-show = הצגת ססמה
-input-password-hide-aria = הסתרת הססמה מהמסך.
-input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
 
 ## Linked Accounts section
 
@@ -563,26 +580,52 @@ auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך להגדרות החשבון</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך אל { $serviceName }</span>
+account-recovery-confirm-key-instructions = יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה ל{ -product-firefox-account(case: "the") } שלך.
+account-recovery-confirm-key-warning-message = <span>לתשומת לבך:</span> אם יבוצע איפוס הססמה ולא שמרת את מפתח שחזור החשבון שלך, חלק מהנתונים שלך יימחקו (כולל נתוני שרת מסונכרנים כמו היסטוריה וסימניות).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = נא להכניס מפתח לשחזור חשבון
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = נא לחזור שנית על מפתח שחזור החשבון
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = מפתח שחזור חשבון שגוי
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = נדרש מפתח שחזור חשבון
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חשבון?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = פג תוקף הקישור לאיפוס הססמה
-# Appears when a link to reset password is damaged
-password-link-damaged-header = קישור לאיפוס ססמה פגום
 # Header for form to create new password
 create-new-password-header = יצירת ססמה חדשה
-# Link that user can click to receive a new reset password link
-receive-new-link = קבלת קישור חדש
 confirm-account-recovery-key-button = איפוס ססמה
 account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
-password-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
-password-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = יצירת ססמה חדשה
+complete-reset-password-warning-message = <span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = איפוס ססמה <span>כדי להמשיך להגדרות החשבון</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
 reset-password-warning-message = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
@@ -592,3 +635,6 @@ reset-password-error-general = הייתה בעיה באיפוס הססמה של�
 reset-password-error-unknown-account = חשבון לא מוכר
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
