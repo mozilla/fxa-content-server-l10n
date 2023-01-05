@@ -76,6 +76,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Skrij geslo
+input-password-show = Pokaži geslo
+input-password-hide-aria = Skrij geslo z zaslona.
+input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -93,6 +100,22 @@ ready-account-ready = Vaš račun je pripravljen!
 ready-continue = Nadaljuj
 sign-in-complete-header = Prijava potrjena
 pulsing-hearts-description = Rožnat prenosni računalnik in vijolična mobilna naprava z utripajočim srcem
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Povezava za ponastavitev gesla je poškodovana
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Povezava, ki ste jo kliknili, vsebuje manj znakov in jo je morda pokvaril vaš e-poštni odjemalec. Previdno prepirajte naslov in poskusite znova.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Povezava za ponastavitev gesla je potekla
+reset-pwd-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Prejmi novo povezavo
 
 ## Alert Bar
 
@@ -249,13 +272,6 @@ header-back-to-top-link =
     .title = Nazaj na vrh
 header-title = { -product-firefox-accounts }
 header-help = Pomoč
-
-## Input Password
-
-input-password-hide = Skrij geslo
-input-password-show = Pokaži geslo
-input-password-hide-aria = Skrij geslo z zaslona.
-input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
 
 ## Linked Accounts section
 
@@ -653,26 +669,66 @@ auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje nastavitev računa</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na { $serviceName }</span>
+account-recovery-confirm-key-instructions = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Opomba:</span> Če ponastavite geslo in nimate shranjenega ključa za obnovitev računa, bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki strežnika, npr. zgodovina in zaznamki).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Vnesite ključ za obnovitev računa
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Potrdite ključ za obnovitev računa
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Neveljaven ključ za obnovitev računa
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Potreben je ključ za obnovitev računa
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nimate ključa za obnovitev računa?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Povezava za ponastavitev gesla je potekla
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Povezava za ponastavitev gesla je poškodovana
 # Header for form to create new password
 create-new-password-header = Ustvari novo geslo
-# Link that user can click to receive a new reset password link
-receive-new-link = Prejmi novo povezavo
 confirm-account-recovery-key-button = Ponastavi geslo
 account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
-password-link-damaged-message = Povezavi, ki ste jo kliknili, manjka nekaj znakov. Morda jo je pokvaril vaš e-poštni odjemalec. Previdno kopirajte naslov in poskusite znova.
-password-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Ustvari novo geslo
+complete-reset-password-warning-message = <span>Ne pozabite:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke v { product-pocket }.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Geslo je nastavljeno
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Ponastavitev e-pošte poslana
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Kliknite povezavo, poslano na { $email } v naslednji uri, da ustvarite novo geslo.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevanje v nastavitve računa</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje v { $serviceName }</span>
 reset-password-warning-message = <span>Opomba:</span> S ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli), saj podatke šifriramo z vašim geslom, da zaščitimo vašo zasebnost. Vse morebitne naročnine boste obdržali in podatki { product-pocket } bodo ostali nedotaknjeni.
@@ -682,3 +738,8 @@ reset-password-error-general = Pri ponastavljanju gesla je žal prišlo do teža
 reset-password-error-unknown-account = Neznan račun
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Hvala za vašo pozornost
+signin-reported-message = Naša ekipa je bila obveščena. Poročila, kot je ta, nam pomagajo ubraniti vsiljivce.
