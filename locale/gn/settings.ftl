@@ -453,6 +453,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Eñongatu ko’ã ayvu ñemoneĩrã ijepuru peteĩva tenda hekorosãvévape
     ndereguerekói jave ne pumbyry jeheguáva.
+tfa-enter-code-to-confirm-1 =
+    Ikatúpa, emoinge peteĩva ayvu jeguerujeyrã jeykekoha
+    emoneĩ hag̃ua eñongatuva’ekue. Eikotevẽta peteĩ ayvu eike hag̃ua ndaikatúitaramo eike
+    ne pumbyry rupive.
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
