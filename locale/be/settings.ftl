@@ -48,6 +48,8 @@ remember-pw-link = Памятаеце свой пароль? Увайсці
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
 ready-continue = Працягнуць
+sign-in-complete-header = Уваход пацверджаны
+pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
 
 ## Alert Bar
 
@@ -611,6 +613,10 @@ auth-error-1008 = Ваш новы пароль павінен адрозніва
 
 ## Account recovery reset password page
 
+#  Appears when a link to reset password has expired
+password-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
+# Appears when a link to reset password is damaged
+password-link-damaged-header = Спасылка для скіду пароля пашкоджана
 # Header for form to create new password
 create-new-password-header = Стварыць новы пароль
 # Link that user can click to receive a new reset password link
