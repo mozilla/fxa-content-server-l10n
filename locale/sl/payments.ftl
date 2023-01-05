@@ -555,7 +555,7 @@ pay-update-manage-btn = Upravljaj
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Naslednji obračun { $date }
-sub-next-bill-no-tax = Vaš naslednji račun v višini <strong>{ $priceAmount }</strong> zapade v plačilo <strong>{ $date }</strong>
+sub-next-bill-no-tax = Rok za plačilo vašega naslednjega računa v višini <strong>{ $priceAmount }</strong> je <strong>{ $date }</strong>
 sub-next-bill-tax = Vaš naslednji račun v višini <strong>{ $priceAmount } + { $taxAmount }</strong> davka zapade <strong>{ $date }</strong>
 sub-expires-on = Preteče { $date }
 
