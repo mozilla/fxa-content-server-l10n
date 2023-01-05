@@ -283,6 +283,8 @@ sub-update-payment-title = Плацежная інфармацыя
 
 pay-with-heading-card-or = Або аплаціць картай
 pay-with-heading-card-only = Аплаціць картай
+product-invoice-preview-error-title = Праблема з загрузкай папярэдняга прагляду рахунка-фактуры
+product-invoice-preview-error-text = Не ўдалося загрузіць папярэдні прагляд рахунка-фактуры
 
 ## Routes - Product - IapRoadblock
 
@@ -342,6 +344,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Праблема з загрузкай рахункаў-фактур
 sub-billing-update-success = Ваша плацежная інфармацыя была паспяхова абноўлена
+sub-invoice-previews-error-title = Праблема з загрузкай папярэдняга прагляду рахункаў-фактур
+sub-invoice-previews-error-text = Не ўдалося загрузіць папярэдні прагляд рахункаў-фактур
 
 ## Routes - Subscription - ActionButton
 
@@ -354,6 +358,8 @@ pay-update-manage-btn = Кіраваць
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступная аплата { $date }
+sub-next-bill-no-tax = Ваш наступны рахунак на суму <strong>{ $priceAmount }</strong> павінен быць аплачаны да <strong>{ $date }</strong>
+sub-next-bill-tax = Ваш наступны рахунак на суму <strong>{ $priceAmount } + падатак { $taxAmount }</strong> павінен быць аплачаны да <strong>{ $date }</strong>
 sub-expires-on = Дзейнічае да { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -373,6 +379,8 @@ sub-route-funding-source-payment-alert = Недапушчальная плаце
 sub-item-no-such-plan = Няма такога плана для гэтай падпіскі.
 invoice-not-found = Наступны рахунак-фактура не знойдзены
 sub-item-no-such-subsequent-invoice = Наступны рахунак-фактура для гэтай падпіскі не знойдзены.
+sub-invoice-preview-error-title = Папярэдні прагляд рахунка-фактуры не знойдзены
+sub-invoice-preview-error-text = Папярэдні прагляд рахунка-фактуры не знойдзены для гэтай падпіскі
 
 ## Routes - Subscriptions - Pocket Subscription
 

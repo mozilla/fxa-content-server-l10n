@@ -43,10 +43,12 @@ remember-pw-link = Памятаеце свой пароль? Увайсці
 
 ## Ready component
 
+reset-password-complete-header = Ваш пароль быў скінуты
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
+ready-account-ready = Ваш уліковы запіс гатовы!
 ready-continue = Працягнуць
 sign-in-complete-header = Уваход пацверджаны
 pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
