@@ -588,21 +588,50 @@ auth-error-1008 = 新しいパスワードは別のものにしてください
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-instructions = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-firefox-account } へのアクセスを取り戻しましょう。
+account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = アカウント回復用キーを入力してください
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = アカウント回復用キーを確認
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = 無効なアカウント回復用キー
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = アカウント回復用キーが必要です
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = アカウント回復用キーを持っていませんか？
 
 ## Account recovery reset password page
 
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = 新しいパスワードを設定
+complete-reset-password-warning-message = <span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { product-pocket } のデータは影響を受けません。
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = パスワードを設定しました
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = 申し訳ありませんが、パスワードの設定中に問題が発生しました
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = リセット用のメールが送信されました
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。
 
 ## ResetPassword page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = あなたの警戒心に感謝します
+signin-reported-message = 担当者に通知が送られました。こうした報告が侵入者を防ぐための助けとなります。
