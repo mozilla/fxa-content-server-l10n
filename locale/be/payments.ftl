@@ -224,6 +224,45 @@ price-details-no-tax-week =
             [few] { $priceAmount } кожныя { $intervalCount } тыдні
            *[many] { $priceAmount } кожныя { $intervalCount } тыдняў
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } кожны { $intervalCount } месяц
+        [few] { $priceAmount } кожныя { $intervalCount } месяцы
+       *[many] { $priceAmount } кожныя { $intervalCount } месяцаў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } кожны { $intervalCount } месяц
+            [few] { $priceAmount } кожныя { $intervalCount } месяцы
+           *[many] { $priceAmount } кожныя { $intervalCount } месяцаў
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } штогод
+        [few] { $priceAmount } кожныя { $intervalCount } гады
+       *[many] { $priceAmount } кожныя { $intervalCount } гадоў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } штогод
+            [few] { $priceAmount } кожныя { $intervalCount } гады
+           *[many] { $priceAmount } кожныя { $intervalCount } гадоў
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } дзень
+        [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дні
+       *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дзён
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } дзень
+            [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дні
+           *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дзён
+        }
 
 ## Component - SubscriptionTitle
 
@@ -255,6 +294,58 @@ coupon-promo-code = Прамакод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } кожны { $intervalCount } дзень
+        [few] { $amount } кожныя { $intervalCount } дні
+       *[many] { $amount } кожныя { $intervalCount } дзён
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } кожны { $intervalCount } дзень
+            [few] { $amount } кожныя { $intervalCount } дні
+           *[many] { $amount } кожныя { $intervalCount } дзён
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } кожны { $intervalCount } тыдзень
+        [few] { $amount } кожныя { $intervalCount } тыдні
+       *[many] { $amount } кожныя { $intervalCount } тыдняў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } кожны { $intervalCount } тыдзень
+            [few] { $amount } кожныя { $intervalCount } тыдні
+           *[many] { $amount } кожныя { $intervalCount } тыдняў
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } кожны { $intervalCount } месяц
+        [few] { $amount } кожныя { $intervalCount } месяцы
+       *[many] { $amount } кожныя { $intervalCount } месяцаў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } кожны { $intervalCount } месяц
+            [few] { $amount } кожныя { $intervalCount } месяцы
+           *[many] { $amount } кожныя { $intervalCount } месяцаў
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } штогод
+        [few] { $amount } кожныя { $intervalCount } гады
+       *[many] { $amount } кожныя { $intervalCount } гадоў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } штогод
+            [few] { $amount } кожныя { $intervalCount } гады
+           *[many] { $amount } кожныя { $intervalCount } гадоў
+        }
 
 ## Error messages
 
