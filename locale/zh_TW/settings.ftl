@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = 隱藏密碼
+input-password-show = 顯示密碼
+input-password-hide-aria = 在畫面上隱藏密碼。
+input-password-show-aria = 用明文顯示密碼在螢幕上。
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = 您的帳號準備好了！
 ready-continue = 繼續
 sign-in-complete-header = 登入完成
 pulsing-hearts-description = 粉紅色的筆記型電腦跟紫色的行動裝置，背後分別都有個跳動的心形圖案
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = 重設密碼鏈結已過期
+reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已逾時。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 取得新鏈結
 
 ## Alert Bar
 
@@ -194,13 +217,6 @@ header-back-to-top-link =
     .title = 回到頁面頂端
 header-title = { -product-firefox-accounts }
 header-help = 說明
-
-## Input Password
-
-input-password-hide = 隱藏密碼
-input-password-show = 顯示密碼
-input-password-hide-aria = 在畫面上隱藏密碼。
-input-password-show-aria = 用明文顯示密碼在螢幕上。
 
 ## Linked Accounts section
 
@@ -576,26 +592,66 @@ auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往帳號設定</span>頁面
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
+account-recovery-confirm-key-instructions = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-firefox-account }的使用權限。
+account-recovery-confirm-key-warning-message = <span class="note">註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = 輸入帳號救援金鑰
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = 確認帳號救援金鑰
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = 帳號救援金鑰無效
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = 需要使用帳號救援金鑰
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = 沒有帳號救援金鑰嗎？
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = 重設密碼鏈結已過期
-# Appears when a link to reset password is damaged
-password-link-damaged-header = 重設密碼鏈結已毀損
 # Header for form to create new password
 create-new-password-header = 設定新密碼
-# Link that user can click to receive a new reset password link
-receive-new-link = 收信取得新鏈結
 confirm-account-recovery-key-button = 重設密碼
 account-restored-success-message = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
-password-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
-password-link-expired-message = 您點擊的密碼重設鏈結已逾時。
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = 建立新密碼
+complete-reset-password-warning-message = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ product-pocket } 服務當中的資料也不受影響。
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = 已設定密碼
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問題
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = 已寄出重設郵件
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = 請在一小時內點擊我們發送到 { $email } 的鏈結，以設定新密碼。
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往帳號設定</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
 reset-password-warning-message = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ product-pocket } 服務當中的資料也不受影響。
@@ -605,3 +661,8 @@ reset-password-error-general = 很抱歉，重設您的密碼時發生問題
 reset-password-error-unknown-account = 未知帳號
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = 感謝您提高警覺
+signin-reported-message = 已通知我們的營運團隊。像這樣的回報可以幫助我們阻擋入侵者。
