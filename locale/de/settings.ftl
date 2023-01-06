@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Passwort verbergen
+input-password-show = Passwort anzeigen
+input-password-hide-aria = Passwort vom Bildschirm ausblenden.
+input-password-show-aria = Passwort als Klartext anzeigen Ihr Passwort ist auf dem Bildschirm sichtbar.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Ihr Konto ist bereit!
 ready-continue = Weiter
 sign-in-complete-header = Anmeldung bestätigt
 pulsing-hearts-description = Ein rosafarbener Laptop und ein lilafarbenes Mobilgerät mit jeweils einem pulsierenden Herzen
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Link zum Zurücksetzen des Passworts beschädigt
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Der Link, den Sie angeklickt haben, war unvollständig und könnte durch Ihr E-Mail-Programm beschädigt worden sein. Achten Sie darauf, dass die Adresse korrekt kopiert wird und versuchen Sie es erneut.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Link zum Zurücksetzen des Passworts abgelaufen
+reset-pwd-link-expired-message = Der Link, den Sie zum Zurücksetzen Ihres Passworts angeklickt haben, ist abgelaufen.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Neuen Link erhalten
 
 ## Alert Bar
 
@@ -206,13 +229,6 @@ header-back-to-top-link =
     .title = Zum Seitenanfang
 header-title = { -product-firefox-accounts }
 header-help = Hilfe
-
-## Input Password
-
-input-password-hide = Passwort verbergen
-input-password-show = Passwort anzeigen
-input-password-hide-aria = Passwort vom Bildschirm ausblenden.
-input-password-show-aria = Passwort als Klartext anzeigen Ihr Passwort ist auf dem Bildschirm sichtbar.
 
 ## Linked Accounts section
 
@@ -607,26 +623,66 @@ auth-error-155 = TOTP-Token nicht gefunden
 auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Setzen Sie das Passwort mit dem Kontowiederherstellungsschlüssel zurück, <span>um mit den Kontoeinstellungen fortzufahren</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Passwort mit Kontowiederherstellungsschlüssel zurücksetzen <span>um zu { $serviceName } weiterzugehen</span>
+account-recovery-confirm-key-instructions = Bitte geben Sie den einmaligen Kontowiederherstellungsschlüssel ein, den Sie an einem sicheren Ort gespeichert haben, um wieder Zugriff auf Ihr { -product-firefox-account } zu erhalten.
+account-recovery-confirm-key-warning-message = <span>Hinweis:</span> Wenn Sie Ihr Passwort zurücksetzen und Ihren Wiederherstellungsschlüssel nicht gespeichert haben, werden einige Ihrer Daten gelöscht (einschließlich synchronisierter Serverdaten wie Chronik und Lesezeichen).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Kontowiederherstellungsschlüssel eingeben
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Kontowiederherstellungsschlüssel bestätigen
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Ungültiger Kontowiederherstellungsschlüssel
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Kontowiederherstellungsschlüssel erforderlich
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Haben Sie keinen Kontowiederherstellungsschlüssel?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Link zum Zurücksetzen des Passworts abgelaufen
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Link zum Zurücksetzen des Passworts beschädigt
 # Header for form to create new password
 create-new-password-header = Neues Passwort erstellen
-# Link that user can click to receive a new reset password link
-receive-new-link = Neuen Link erhalten
 confirm-account-recovery-key-button = Passwort zurücksetzen
 account-restored-success-message = Sie haben Ihr Konto mit Ihrem Kontowiederherstellungsschlüssel erfolgreich wiederhergestellt. Erstellen Sie ein neues Passwort zum Schutz Ihrer Daten und speichern Sie es an einem sicheren Ort.
-password-link-damaged-message = Der Link, den Sie angeklickt haben, war unvollständig und könnte durch Ihr E-Mail-Programm beschädigt worden sein. Achten Sie darauf, dass die Adresse korrekt kopiert wird und versuchen Sie es erneut.
-password-link-expired-message = Der Link, den Sie zum Zurücksetzen Ihres Passworts angeklickt haben, ist abgelaufen.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Neues Passwort erstellen
+complete-reset-password-warning-message = <span>Hinweis:</span> Wenn Sie Ihr Passwort zurücksetzen, wird Ihr Konto zurückgesetzt. Einige Ihrer persönlichen Daten (einschließlich Chronik, Lesezeichen und Passwörter) können verloren gehen. Dies liegt daran, dass wir aus Datenschutzgründen Ihre Daten mit Ihrem Passwort verschlüsseln. Sie behalten weiterhin alle Abonnements, die Sie haben könnten. Daten von { product-pocket } sind davon nicht betroffen.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Sie haben Ihr Konto mit Ihrem Kontowiederherstellungsschlüssel erfolgreich wiederhergestellt. Erstellen Sie ein neues Passwort zum Schutz Ihrer Daten und speichern Sie es an einem sicheren Ort.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Passwort gesetzt
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Beim Setzen Ihres Passworts ist ein Fehler aufgetreten.
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-Mail zum Zurücksetzen gesendet
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Klicken Sie innerhalb einer Stunde auf den Link, den wir per E-Mail an { $email } geschickt haben, um ein neues Passwort zu erstellen.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Setzen Sie Ihr Passwort zurück, <span>um mit den Kontoeinstellungen fortzufahren</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Setzen Sie Ihr Passwort zurück, <span>um mit { $serviceName } fortzufahren</span>
 reset-password-warning-message = <span>Hinweis:</span> Wenn Sie Ihr Passwort zurücksetzen, wird Ihr Konto zurückgesetzt. Einige Ihrer persönlichen Daten (einschließlich Chronik, Lesezeichen und Passwörter) können verloren gehen. Dies liegt daran, dass wir aus Datenschutzgründen Ihre Daten mit Ihrem Passwort verschlüsseln. Sie behalten weiterhin alle Abonnements, die Sie haben könnten. Daten von { product-pocket } sind davon nicht betroffen.
@@ -636,3 +692,8 @@ reset-password-error-general = Entschuldigung, beim Zurücksetzen Ihres Passwort
 reset-password-error-unknown-account = Unbekanntes Konto
 reset-password-with-recovery-key-verified-generate-new-key = Einen neuen Kontowiederherstellungsschlüssel erzeugen
 reset-password-with-recovery-key-verified-continue-to-account = Weiter zu meinem Konto
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Vielen Dank für Ihre Wachsamkeit
+signin-reported-message = Unser Team wurde benachrichtigt. Meldungen wie diese helfen uns bei der Abwehr von Eindringlingen.
