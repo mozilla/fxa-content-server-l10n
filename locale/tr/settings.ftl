@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Parolayı gizle
+input-password-show = Parolayı göster
+input-password-hide-aria = Parolayı ekrandan gizle.
+input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -43,12 +50,20 @@ remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
 
 ## Ready component
 
-ready-confirmation = Parolanız sıfırlandı
+reset-password-complete-header = Parolanız sıfırlandı
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } artık kullanıma hazır
+ready-account-ready = Hesabınız hazır!
 ready-continue = Devam et
+sign-in-complete-header = Giriş onaylandı
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -197,13 +212,6 @@ header-back-to-top-link =
     .title = Başa dön
 header-title = { -product-firefox-accounts }
 header-help = Yardım
-
-## Input Password
-
-input-password-hide = Parolayı gizle
-input-password-show = Parolayı göster
-input-password-hide-aria = Parolayı ekrandan gizle.
-input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
 
 ## Linked Accounts section
 
@@ -584,6 +592,21 @@ auth-error-155 = TOTP jetonu bulunamadı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+# Header for form to create new password
+create-new-password-header = Yeni parola oluştur
+confirm-account-recovery-key-button = Parolayı sıfırla
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
+
 ## ResetPassword page
 
 reset-password-button = Sıfırlamayı başlat
@@ -592,3 +615,6 @@ reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
 reset-password-error-unknown-account = Bilinmeyen hesap
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
