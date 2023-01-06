@@ -631,6 +631,15 @@ auth-error-1008 = Жаңа пароль ескі парольден өзгеше
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = <span>тіркелгі баптауларына өту үшін<span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
+account-recovery-confirm-key-instructions = { -product-firefox-account } ішіне қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз.
+account-recovery-confirm-key-warning-message = <span>ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз өшіріледі (соның ішінде тарих және бетбелгілер сияқты синхрондалған сервер деректері).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Тіркелгіні қалпына келтіру кілтін енгізіңіз
@@ -669,6 +678,9 @@ complete-reset-password-error-alert = Кешіріңіз, пароліңізді
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Тастау эл. пошта хаты жіберілді
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Жаңа парольді жасау үшін келесі сағат ішінде { $email } электрондық поштасына жіберілген сілтемені басыңыз.
 
 ## ResetPassword page
 
@@ -689,3 +701,4 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-message = Біздің топ хабарды алды. Шағымдарыңыз алаяқтылармен күресуге көмектеседі.
