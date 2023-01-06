@@ -616,8 +616,8 @@ account-recovery-confirm-key-heading-w-default-service = Reimposta la password c
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Reimposta la password con la chiave di recupero dell’account <span>per continuare su { $serviceName }</span>
-account-recovery-confirm-key-instructions = Inserisci la chiave di recupero dell'account monouso che hai memorizzato in un luogo sicuro per riottenere l'accesso al tuo { -product-firefox-account }.
-account-recovery-confirm-key-warning-message = <span>Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno cancellati (compresi i dati sincronizzati del server come cronologia e segnalibri).
+account-recovery-confirm-key-instructions = Inserisci la chiave di recupero monouso dell’account per riottenere accesso al tuo { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno eliminati (compresi i dati sincronizzati sul server come cronologia e segnalibri).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Inserisci la chiave di recupero dell'account
@@ -626,9 +626,9 @@ account-recovery-confirm-key-button = Conferma la chiave di recupero dell’acco
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
 account-recovery-confirm-key-error-general = Chiave di recupero account non valida
 # Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Chiave di recupero account richiesta
+account-recovery-confirm-key-empty-input-error = È richiesta la chiave di recupero dell’account
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link = Non possiedi una chiave per il recupero dell’account?
+account-recovery-lost-recovery-key-link = Non possiedi una chiave di recupero per l’account?
 
 ## Account recovery reset password page
 
@@ -641,24 +641,24 @@ account-restored-success-message = L’account è stato correttamente recuperato
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Crea nuova password
-complete-reset-password-warning-message = <span>Ricorda:</span> quando reimposti la password, reimposta il tuo account. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittografiamo i tuoi dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { product-pocket } non subiranno modifiche.
+complete-reset-password-warning-message = <span>Ricorda:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { product-pocket } non subiranno modifiche.
 # This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Hai ripristinato correttamente il tuo account utilizzando la tua chiave di recupero. Crea una nuova password per proteggere i tuoi dati e conservala in un luogo sicuro.
+complete-reset-password-account-recovery-info = L’account è stato correttamente recuperato utilizzando la chiave di recupero dell’account. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password impostata
 # An error occured while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
-complete-reset-password-error-alert = Si è verificato un problema durante l'impostazione della password
+complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Reimposta email inviata
+confirm-pw-reset-header = Email per la reimpostazione della password inviata
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Fai clic sul link inviato via email a { $email } entro un'ora per creare una nuova password.
+confirm-pw-reset-instructions = Per impostare una nuova password fai clic sul link inviato a { $email } entro un’ora.
 
 ## ResetPassword page
 
