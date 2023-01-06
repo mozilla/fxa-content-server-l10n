@@ -263,6 +263,45 @@ price-details-tax-day =
             [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дні
            *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } дзён
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } тыдзень
+        [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } тыдні
+       *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } тыдняў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } тыдзень
+            [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } тыдні
+           *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } тыдняў
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } месяц
+        [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } месяцы
+       *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } месяцаў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } падатку кожны { $intervalCount } месяц
+            [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } месяцы
+           *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } месяцаў
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } падатку штогод
+        [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } гады
+       *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } гадоў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } падатку штогод
+            [few] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } гады
+           *[many] { $priceAmount } + { $taxAmount } падатку кожныя { $intervalCount } гадоў
+        }
 
 ## Component - SubscriptionTitle
 

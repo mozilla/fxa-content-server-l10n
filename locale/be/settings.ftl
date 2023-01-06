@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Схаваць пароль
+input-password-show = Паказаць пароль
+input-password-hide-aria = Схаваць пароль з экрана.
+input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Ваш уліковы запіс гатовы!
 ready-continue = Працягнуць
 sign-in-complete-header = Уваход пацверджаны
 pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Спасылка для скіду пароля пашкоджана
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
+reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Атрымаць новую спасылку
 
 ## Alert Bar
 
@@ -207,13 +230,6 @@ header-back-to-top-link =
     .title = Вярнуцца ўгару
 header-title = { -product-firefox-accounts }
 header-help = Даведка
-
-## Input Password
-
-input-password-hide = Схаваць пароль
-input-password-show = Паказаць пароль
-input-password-hide-aria = Схаваць пароль з экрана.
-input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
 
 ## Linked Accounts section
 
@@ -613,26 +629,51 @@ auth-error-155 = TOTP-токен не знойдзены
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да налад уліковага запісу</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да { $serviceName }</span>
+account-recovery-confirm-key-instructions = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Заўвага:</span> Калі вы скінеце пароль, але не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер звесткі, такія як гісторыя і закладкі).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Увядзіце ключ аднаўлення ўліковага запісу
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Пацвердзіце ключ аднаўлення ўліковага запісу
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Нядзейсны ключ аднаўлення ўліковага запісу
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Патрабуецца ключ аднаўлення ўліковага запісу
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = У вас няма ключа аднаўлення ўліковага запісу?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Спасылка для скіду пароля пашкоджана
 # Header for form to create new password
 create-new-password-header = Стварыць новы пароль
-# Link that user can click to receive a new reset password link
-receive-new-link = Атрымаць новую спасылку
 confirm-account-recovery-key-button = Скінуць пароль
 account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
-password-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
-password-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Стварыць новы пароль
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Скіньце пароль, <span>каб перайсці да налад уліковага запісу</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
 reset-password-button = Пачаць скід
@@ -641,3 +682,6 @@ reset-password-error-general = На жаль, падчас скіду вашаг
 reset-password-error-unknown-account = Невядомы ўліковы запіс
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
