@@ -271,6 +271,17 @@ price-details-tax-month =
             [one] { $priceAmount } + { $taxAmount } tax monthly
            *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } months
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } tax yearly
+       *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } years
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } tax yearly
+           *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } years
+        }
 
 ## Component - SubscriptionTitle
 
@@ -302,6 +313,50 @@ coupon-promo-code = Promo Code
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } daily
+       *[other] { $amount } every { $intervalCount } days
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } daily
+           *[other] { $amount } every { $intervalCount } days
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } weekly
+       *[other] { $amount } every { $intervalCount } weeks
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } weekly
+           *[other] { $amount } every { $intervalCount } weeks
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } monthly
+       *[other] { $amount } every { $intervalCount } months
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } monthly
+           *[other] { $amount } every { $intervalCount } months
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } yearly
+       *[other] { $amount } every { $intervalCount } years
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } yearly
+           *[other] { $amount } every { $intervalCount } years
+        }
 
 ## Error messages
 
@@ -433,6 +488,8 @@ pay-update-manage-btn = Manage
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Next billed on { $date }
+sub-next-bill-no-tax = Your next bill of <strong>{ $priceAmount }</strong> is due <strong>{ $date }</strong>
+sub-next-bill-tax = Your next bill of <strong>{ $priceAmount } + { $taxAmount }</strong> tax is due <strong>{ $date }</strong>
 sub-expires-on = Expires on { $date }
 
 ## Routes - Subscription - PaymentUpdate
