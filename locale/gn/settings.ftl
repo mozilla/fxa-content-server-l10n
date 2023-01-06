@@ -639,6 +639,10 @@ account-recovery-confirm-key-input =
 account-recovery-confirm-key-button = Emoneĩ mba’ete mba’eñemi jeguerujeyrã
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
 account-recovery-confirm-key-error-general = Mba’eñemi jeguerujeyrã ndoikóiva
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Oñeikotevẽ mba’ete mba’eñemi jeguerujeyrã
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jeguerujeyrã?
 
 ## Account recovery reset password page
 
@@ -649,9 +653,23 @@ account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñe
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Ñanduti jeguerujeyrã mondopyre
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Eikutu juajuha romondóva { $email } rupive peteĩ aravópe emoheñói hag̃ua ñe’ẽñemi pyahu.
 
 ## ResetPassword page
 
@@ -672,3 +690,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Aguyje ne ñangareko rehe
+signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore pytyvõ roñemo’ã hag̃ua iñañávagui.
