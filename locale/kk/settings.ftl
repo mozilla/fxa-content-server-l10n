@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Парольді жасыру
+input-password-show = Парольді көрсету
+input-password-hide-aria = Парольді экраннан жасыру.
+input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Сіздің тіркелгіңіз дайын!
 ready-continue = Жалғастыру
 sign-in-complete-header = Кіру расталды
 pulsing-hearts-description = Қызғылт түсті ноутбук және жүрек соғуы бар күлгін мобильді құрылғы
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Парольді тастау сілтемесі зақымдалған
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
+reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Жаңа сілтемені алу
 
 ## Alert Bar
 
@@ -209,13 +232,6 @@ header-back-to-top-link =
     .title = Жоғарыға оралу
 header-title = Firefox тіркелгісі
 header-help = Көмек
-
-## Input Password
-
-input-password-hide = Парольді жасыру
-input-password-show = Парольді көрсету
-input-password-hide-aria = Парольді экраннан жасыру.
-input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
 
 ## Linked Accounts section
 
@@ -613,26 +629,54 @@ auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
+## AccountRecoveryConfirmKey page
+
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Тіркелгіні қалпына келтіру кілтін енгізіңіз
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Тіркелгіні қалпына келтіру кілтін растаңыз
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Тіркелгіні қалпына келтіру кілті жарамсыз
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Тіркелгіні қалпына келтіру кілті керек
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Тіркелгіні қалпына келтіру кілтіңіз жоқ па?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Тастау сілтемесі зақымдалған
 # Header for form to create new password
 create-new-password-header = Жаңа парольді жасау
-# Link that user can click to receive a new reset password link
-receive-new-link = Жаңа сілтемені алу
 confirm-account-recovery-key-button = Парольді тастау
 account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
-password-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
-password-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Жаңа парольді жасау
+complete-reset-password-warning-message = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { product-pocket } деректеріне әсер етпейді.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Пароль орнатылды
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Тастау эл. пошта хаты жіберілді
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> парольді қалпына келтіріңіз
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
 reset-password-warning-message = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { product-pocket } деректеріне әсер етпейді.
@@ -642,3 +686,6 @@ reset-password-error-general = Кешіріңіз, пароліңізді қал
 reset-password-error-unknown-account = Белгісіз тіркелгі
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
