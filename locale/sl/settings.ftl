@@ -107,7 +107,7 @@ pulsing-hearts-description = Rožnat prenosni računalnik in vijolična mobilna 
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Povezava za ponastavitev gesla je poškodovana
 # The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Povezava, ki ste jo kliknili, vsebuje manj znakov in jo je morda pokvaril vaš e-poštni odjemalec. Previdno prepirajte naslov in poskusite znova.
+reset-pwd-link-damaged-message = Povezavi, ki ste jo kliknili, so manjkali nekateri znaki. Morda jo je pokvaril vaš poštni odjemalec. Bodite previdni pri kopiranju in poskusite znova.
 
 ## ResetPasswordLinkExpired component
 
@@ -673,7 +673,7 @@ auth-error-1008 = Novo geslo mora biti drugačno
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje nastavitev računa</span>
+account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na nastavitve računa</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
