@@ -99,6 +99,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Skryť heslo
+input-password-show = Zobraziť heslo
+input-password-hide-aria = Skryť heslo z obrazovky.
+input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -116,6 +123,22 @@ ready-account-ready = Váš účet je pripravený.
 ready-continue = Pokračovať
 sign-in-complete-header = Prihlásenie potvrdené
 pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
+reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Získať nový odkaz
 
 ## Alert Bar
 
@@ -273,13 +296,6 @@ header-back-to-top-link =
     .title = Návrat hore
 header-title = { -product-firefox-accounts }
 header-help = Pomocník
-
-## Input Password
-
-input-password-hide = Skryť heslo
-input-password-show = Zobraziť heslo
-input-password-hide-aria = Skryť heslo z obrazovky.
-input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
 
 ## Linked Accounts section
 
@@ -675,26 +691,66 @@ auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocou kľúča na obnovenie účtu <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocou kľúča na obnovenie účtu <span>a pokračujte do služby { $serviceName }</span>
+account-recovery-confirm-key-instructions = Zadajte jednorazový kľúč na obnovenie účtu, ktorý ste uložili na bezpečnom mieste, aby ste znova získali prístup k svojmu účtu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Ak obnovíte svoje heslo a nemáte uložený kľúč na obnovenie účtu, niektoré z vašich údajov budú vymazané (vrátane synchronizovaných údajov na serveri, ako je história a záložky).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Zadajte kľúč na obnovenie účtu
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Potvrďte kľúč na obnovenie účtu
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Neplatný kľúč na obnovenie účtu
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Vyžaduje sa kľúč na obnovenie účtu
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nemáte kľúč na obnovenie účtu?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Odkaz na obnovenie hesla je poškodený
 # Header for form to create new password
 create-new-password-header = Vytvoriť nové heslo
-# Link that user can click to receive a new reset password link
-receive-new-link = Získať nový odkaz
 confirm-account-recovery-key-button = Obnoviť heslo
 account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
-password-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
-password-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Vytvoriť nové heslo
+complete-reset-password-warning-message = <span>Nezabudnite:</span> ak obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { product-pocket }.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Heslo bolo nastavené
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-mailová správa na obnovu hesla bola odoslaná
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e-mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do nastavení účtu</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
 reset-password-warning-message = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { product-pocket }.
@@ -704,3 +760,8 @@ reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol probl�
 reset-password-error-unknown-account = Neznámy účet
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Ďakujeme za vašu ostražitosť
+signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať narušiteľov.
