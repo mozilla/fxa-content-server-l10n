@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Celar contrasigno
+input-password-show = Monstrar contrasigno
+input-password-hide-aria = Celar le contrasigno ab le schermo.
+input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Tu conto es preste!
 ready-continue = Continuar
 sign-in-complete-header = Apertura de session confirmate
 pulsing-hearts-description = Un portabile rosate e un apparato mobile purpuree cata con un corde palpitante
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
+reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recipe un nove ligamine
 
 ## Alert Bar
 
@@ -202,13 +225,6 @@ header-back-to-top-link =
     .title = Retornar al initio
 header-title = { -product-firefox-accounts }
 header-help = Adjuta
-
-## Input Password
-
-input-password-hide = Celar contrasigno
-input-password-show = Monstrar contrasigno
-input-password-hide-aria = Celar le contrasigno ab le schermo.
-input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
 
 ## Linked Accounts section
 
@@ -604,26 +620,59 @@ auth-error-155 = Token TOTP non trovate
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-instructions = Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como chronologia e marcapaginas).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Insere clave de recuperation del conto
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirma clave de recuperation del conto
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Clave de recuperation del conto non valide
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Clave de recuperation del conto necessari
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Non ha tu un clave de recuperation del conto?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
 # Header for form to create new password
 create-new-password-header = Crear nove contrasigno
-# Link that user can click to receive a new reset password link
-receive-new-link = Recipe un nove ligamine
 confirm-account-recovery-key-button = Reinitialisar le contrasigno
 account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
-password-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
-password-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Crear le nove contrasigno
+complete-reset-password-warning-message = <span>Memora:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Configuration del contrasigno
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Message de reinitialisation inviate
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Clicca sur le ligamine inviate a { $email } intra le proxime hora pro crear un nove contrasigno.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Remonta le contrasigno <span>pro continuar a configurar le conto</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
 reset-password-warning-message = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
@@ -633,3 +682,8 @@ reset-password-error-general = Desolate, problema durante le remontage de tu con
 reset-password-error-unknown-account = Conto incognite
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Gratias pro tu vigilantia
+signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adjuta a luctar contra le intrusos.
