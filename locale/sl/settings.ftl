@@ -678,8 +678,8 @@ account-recovery-confirm-key-heading-w-default-service = Ponastavite geslo s klj
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ponastavite geslo s ključem za obnovitev računa <span>za nadaljevanje na { $serviceName }</span>
-account-recovery-confirm-key-instructions = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-firefox-account }.
-account-recovery-confirm-key-warning-message = <span>Opomba:</span> Če ponastavite geslo in nimate shranjenega ključa za obnovitev računa, bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki strežnika, npr. zgodovina in zaznamki).
+account-recovery-confirm-key-instructions = Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do svojega { -product-firefox-account(sklon: "rodilnik") }.
+account-recovery-confirm-key-warning-message = <span>Opomba:</span> Če ponastavite geslo in nimate shranjenega ključa za obnovitev računa, bodo nekateri vaši podatki izbrisani (vključno s sinhroniziranimi podatki strežnika, npr. zgodovino in zaznamki).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Vnesite ključ za obnovitev računa
