@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Emokañy ñe’ẽñemi
+input-password-show = Ehechauka ñe’ẽñemi
+input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
+input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,17 @@ ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
 pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñembyai
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -208,13 +226,6 @@ header-back-to-top-link =
     .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
 header-help = Pytyvõ
-
-## Input Password
-
-input-password-hide = Emokañy ñe’ẽñemi
-input-password-show = Ehechauka ñe’ẽñemi
-input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
-input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
 
 ## Linked Accounts section
 
@@ -614,26 +625,29 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
+## AccountRecoveryConfirmKey page
+
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Juajuha ñe’ẽñemi jeguerujeyrã oñembyai
 # Header for form to create new password
 create-new-password-header = Emoheñói ñe’ẽñemi pyahu
-# Link that user can click to receive a new reset password link
-receive-new-link = Ereko juajuha pyahu
 confirm-account-recovery-key-button = Ñe’ẽñemi mbojevyjey
 account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
-password-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
-password-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
 reset-password-warning-message = <span>HAIPY:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { product-pocket } mba’ekuaarã noñemoambuemo’ãi.
@@ -643,3 +657,6 @@ reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe�
 reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
