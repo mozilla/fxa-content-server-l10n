@@ -680,4 +680,4 @@ reset-password-with-recovery-key-verified-continue-to-account = Vai al mio accou
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Grazie per la tua attenzione
-signin-reported-message = Il nostro team ha ricevuto una notifica. Segnalazioni come questa ci aiutano a respingere gli intrusi.
+signin-reported-message = Il nostro team ha ricevuto la segnalazione. La tua collaborazione ci aiuta a tenere alla larga gli intrusi.
