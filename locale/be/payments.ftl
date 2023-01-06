@@ -198,6 +198,32 @@ product-no-such-plan = Няма такога плана для гэтага пр
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + падаткі { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } кожны { $intervalCount } дзень
+        [few] { $priceAmount } кожныя { $intervalCount } дні
+       *[many] { $priceAmount } кожныя { $intervalCount } дзён
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } кожны { $intervalCount } дзень
+            [few] { $priceAmount } кожныя { $intervalCount } дні
+           *[many] { $priceAmount } кожныя { $intervalCount } дзён
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } кожны { $intervalCount } тыдзень
+        [few] { $priceAmount } кожныя { $intervalCount } тыдні
+       *[many] { $priceAmount } кожныя { $intervalCount } тыдняў
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } кожны { $intervalCount } тыдзень
+            [few] { $priceAmount } кожныя { $intervalCount } тыдні
+           *[many] { $priceAmount } кожныя { $intervalCount } тыдняў
+        }
 
 ## Component - SubscriptionTitle
 
