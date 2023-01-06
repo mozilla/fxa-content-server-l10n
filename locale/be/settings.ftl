@@ -663,9 +663,24 @@ account-restored-success-message = Вы паспяхова аднавілі св
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Стварыць новы пароль
+complete-reset-password-warning-message = <span>Памятайце:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { product-pocket } таксама не будуць закранутыя.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Пароль усталяваны
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Ліст для скіду пароля дасланы
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Прайдзіце па спасылцы, дасланай на { $email }, на працягу наступнай гадзіны, каб стварыць новы пароль.
 
 ## ResetPassword page
 
@@ -676,6 +691,7 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
+reset-password-warning-message = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { product-pocket } таксама не будуць закранутыя.
 reset-password-button = Пачаць скід
 reset-password-success-alert = Скід пароля
 reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
@@ -685,3 +701,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Перайсці
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Дзякуем за вашу пільнасць
+signin-reported-message = Наша каманда апавешчана. Такія паведамленні дапамагаюць нам стрымліваць зламыснікаў.
