@@ -43,6 +43,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Masquer le mot de passe
+input-password-show = Afficher le mot de passe
+input-password-hide-aria = Masquer le mot de passe de l’écran.
+input-password-show-aria = Afficher le mot de passe sous forme de texte brut. Votre mot de passe sera visible à l’écran.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -59,6 +66,22 @@ ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
 ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
 sign-in-complete-header = Connexion confirmée
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Le lien de réinitialisation du mot de passe est endommagé
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Le lien de réinitialisation du mot de passe a expiré
+reset-pwd-link-expired-message = Le lien de réinitialisation de votre mot de passe a expiré.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recevoir un nouveau lien
 
 ## Alert Bar
 
@@ -203,13 +226,6 @@ header-back-to-top-link =
     .title = Haut de la page
 header-title = { -product-firefox-accounts(capitalization: "uppercase") }
 header-help = Aide
-
-## Input Password
-
-input-password-hide = Masquer le mot de passe
-input-password-show = Afficher le mot de passe
-input-password-hide-aria = Masquer le mot de passe de l’écran.
-input-password-show-aria = Afficher le mot de passe sous forme de texte brut. Votre mot de passe sera visible à l’écran.
 
 ## Linked Accounts section
 
@@ -600,20 +616,30 @@ auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-instructions = Veuillez saisir la clé de récupération à usage unique de votre compte que vous avez stockée en lieu sûr pour retrouver l’accès à votre { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Remarque :</span> si vous réinitialisez votre mot de passe et n’avez pas de clé de récupération de compte enregistrée, certaines de vos données seront effacées (y compris les données synchronisées sur les serveurs, comme l’historique et les marque-pages).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Saisissez la clé de récupération du compte
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirmer la clé de récupération du compte
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Clé de récupération du compte non valide
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Le lien de réinitialisation du mot de passe a expiré
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Le lien de réinitialisation du mot de passe est endommagé
 # Header for form to create new password
 create-new-password-header = Créer un nouveau mot de passe
-# Link that user can click to receive a new reset password link
-receive-new-link = Recevoir un nouveau lien
 confirm-account-recovery-key-button = Réinitialiser le mot de passe
 account-restored-success-message = Vous avez correctement restauré votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
-password-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
-password-link-expired-message = Le lien de réinitialisation de votre mot de passe a expiré.
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
@@ -624,3 +650,6 @@ reset-password-error-general = Un problème est survenu lors de la réinitialisa
 reset-password-error-unknown-account = Compte inconnu
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
