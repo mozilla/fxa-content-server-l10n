@@ -34,6 +34,7 @@
     { $case ->
        *[singular_nominative] Аккаунт Firefox
         [singular_genitive] Аккаунта Firefox
+        [singular_dative] Аккаунту Firefox
         [singular_prepositional] Аккаунте Firefox
     }
 product-mozilla-vpn = Mozilla VPN
@@ -45,6 +46,13 @@ product-firefox-relay = Firefox Relay
 
 -google-play = Google Play
 -app-store = App Store
+
+## Input Password
+
+input-password-hide = Скрыть пароль
+input-password-show = Показать пароль
+input-password-hide-aria = Скрыть пароль с экрана.
+input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
 
 ## LinkRememberPassword component
 
@@ -63,6 +71,22 @@ ready-account-ready = Ваш аккаунт готов!
 ready-continue = Продолжить
 sign-in-complete-header = Вход подтверждён
 pulsing-hearts-description = Розовый ноутбук и фиолетовое носимое устройство с бьющимся сердцем
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Ссылка для сброса пароля повреждена
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Срок жизни ссылки для сброса пароля истёк
+reset-pwd-link-expired-message = Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Получить новую ссылку
 
 ## Alert Bar
 
@@ -217,13 +241,6 @@ header-back-to-top-link =
     .title = Наверх
 header-title = Аккаунт Firefox
 header-help = Помощь
-
-## Input Password
-
-input-password-hide = Скрыть пароль
-input-password-show = Показать пароль
-input-password-hide-aria = Скрыть пароль с экрана.
-input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
 
 ## Linked Accounts section
 
@@ -621,26 +638,59 @@ auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
 auth-error-1008 = Ваш новый пароль должен быть другим
 
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему { -product-firefox-account(case: "singular_dative") }
+account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Введите ключ восстановления аккаунта
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Подтвердите ключ восстановления аккаунта
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Некорректный ключ восстановления аккаунта
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Требуется ключ восстановления аккаунта
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = У вас нет ключа восстановления аккаунта?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Срок действия ссылки для сброса пароля истёк
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Ссылка для сброса пароля повреждена
 # Header for form to create new password
 create-new-password-header = Создать новый пароль
-# Link that user can click to receive a new reset password link
-receive-new-link = Получить новую ссылку
 confirm-account-recovery-key-button = Сбросить пароль
 account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
-password-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
-password-link-expired-message = Срок действия ссылки, по которой вы перешли, чтобы сбросить пароль, истёк.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Создать новый пароль
+complete-reset-password-warning-message = <span>Помните:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { product-pocket } затронуты не будут.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Пароль установлен
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Письмо о сбросе пароля отправлено
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Щёлкните по ссылке, которая была отправлена на { $email } в течение часа, чтобы создать новый пароль.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Сбросьте пароль <span>для перехода к настройкам аккаунта</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Сбросьте пароль <span>для перехода к { $serviceName }</span>
 reset-password-warning-message = <span>Примечание:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { product-pocket } затронуты не будут.
@@ -650,3 +700,8 @@ reset-password-error-general = К сожалению, при сбросе ваш
 reset-password-error-unknown-account = Неизвестный аккаунт
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Спасибо за вашу бдительность
+signin-reported-message = Наша команда оповещена. Ваши сообщения помогают нам бороться со злоумышленниками.
