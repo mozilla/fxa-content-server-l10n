@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Hide password
+input-password-show = Show password
+input-password-hide-aria = Hide password from screen.
+input-password-show-aria = Show password as plain text. Your password will be visible on screen.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Your account is ready!
 ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
 pulsing-hearts-description = A pink laptop and a purple mobile device each with a pulsing heart
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Reset password link damaged
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Reset password link expired
+reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Receive new link
 
 ## Alert Bar
 
@@ -208,13 +231,6 @@ header-back-to-top-link =
     .title = Back to top
 header-title = { -product-firefox-accounts }
 header-help = Help
-
-## Input Password
-
-input-password-hide = Hide password
-input-password-show = Show password
-input-password-hide-aria = Hide password from screen.
-input-password-show-aria = Show password as plain text. Your password will be visible on screen.
 
 ## Linked Accounts section
 
@@ -614,26 +630,66 @@ auth-error-155 = TOTP token not found
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-1008 = Your new password must be different
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Reset password with account recovery key <span>to continue to account settings</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Reset password with account recovery key <span>to continue to { $serviceName }</span>
+account-recovery-confirm-key-instructions = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Note:</span> If you reset your password and don’t have your account recovery key saved, some of your data will be erased (including synchronised server data like history and bookmarks).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Enter account recovery key
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirm account recovery key
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Invalid account recovery key
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Account recovery key required
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Reset password link expired
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Reset password link damaged
 # Header for form to create new password
 create-new-password-header = Create new password
-# Link that user can click to receive a new reset password link
-receive-new-link = Receive new link
 confirm-account-recovery-key-button = Reset password
 account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
-password-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
-password-link-expired-message = The link you clicked to reset your password is expired.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Create new password
+complete-reset-password-warning-message = <span>Remember:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { product-pocket } data will not be affected.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Password set
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Sorry, there was a problem setting your password
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Reset email sent
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Reset password <span>to continue to account settings</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
 reset-password-warning-message = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { product-pocket } data will not be affected.
@@ -643,3 +699,8 @@ reset-password-error-general = Sorry, there was a problem resetting your passwor
 reset-password-error-unknown-account = Unknown account
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Thank you for your vigilance
+signin-reported-message = Our team has been notified. Reports like this help us fend off intruders.
