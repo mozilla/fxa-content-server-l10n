@@ -635,6 +635,11 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 account-recovery-confirm-key-heading-w-default-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>embohekokuaa hag̃ua ne mba’egueru</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>eku’ejey hag̃ua { $serviceName }</span>
+account-recovery-confirm-key-instructions = Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde { -product-firefox-account }.
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
