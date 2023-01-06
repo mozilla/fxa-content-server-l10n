@@ -71,8 +71,8 @@ reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元�
 ## ResetPasswordLinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = 重設密碼鏈結已過期
-reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已逾時。
+reset-pwd-link-expired-header = 重設密碼鏈結已失效
+reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = 取得新鏈結
 

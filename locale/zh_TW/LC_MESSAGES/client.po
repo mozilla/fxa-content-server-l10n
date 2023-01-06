@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-06 03:10+0000\n"
+"PO-Revision-Date: 2023-01-06 03:11+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -549,7 +549,7 @@ msgstr "已取消登入嘗試"
 
 #: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
-msgstr "登入階段已結束，請登入以繼續。"
+msgstr "登入階段已失效，請登入以繼續。"
 
 #: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
@@ -885,11 +885,11 @@ msgstr "喔喔，這邊有些問題。我們已發送通知給工程師，很快
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "重設密碼鏈結已過期"
+msgstr "重設密碼鏈結已失效"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "您點擊的密碼重設鏈結已逾時。"
+msgstr "您點擊的密碼重設鏈結已失效。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -1001,7 +1001,7 @@ msgstr "驗證鏈結已失效"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr "您點擊的密碼重設驗證鏈結已過期。"
+msgstr "您點擊的密碼重設驗證鏈結已失效。"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1074,7 +1074,7 @@ msgstr "確認"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr "驗證碼已過期？"
+msgstr "驗證碼失效？"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."

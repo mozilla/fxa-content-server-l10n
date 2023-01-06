@@ -42,9 +42,9 @@ settings-home = 帳號首頁
 coupon-promo-code-applied = 已套用折扣碼
 coupon-submit = 套用
 coupon-remove = 移除
-coupon-error = 您輸入的折扣碼無效或已過期。
+coupon-error = 您輸入的折扣碼無效或已失效。
 coupon-error-generic = 處理代碼時發生錯誤，請再試一次。
-coupon-error-expired = 您輸入的代碼已過期。
+coupon-error-expired = 您輸入的折扣碼已失效。
 coupon-error-limit-reached = 您輸入的代碼已達使用次數上限。
 coupon-error-invalid = 您輸入的代碼無效。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
