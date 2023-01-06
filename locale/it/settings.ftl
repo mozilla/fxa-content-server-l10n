@@ -70,12 +70,12 @@ pulsing-hearts-description = Un laptop rosa e un dispositivo mobile viola, ciasc
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Link per la reimpostazione della password danneggiato
 # The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Il link su cui hai fatto clic non contiene caratteri e potrebbe essere stato interrotto dal tuo client di posta elettronica. Copia attentamente l’indirizzo e riprova.
+reset-pwd-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
 
 ## ResetPasswordLinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Il link per la reimpostazione della password è scaduto
+reset-pwd-link-expired-header = Link per la reimpostazione della password scaduto
 reset-pwd-link-expired-message = Il link su cui hai fatto clic per reimpostare la password è scaduto.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Ricevi un nuovo link
@@ -611,11 +611,11 @@ auth-error-1008 = La nuova password deve essere diversa
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = Reimposta la password con la chiave di ripristino dell’account <span>per continuare con le impostazioni dell’account</span>
+account-recovery-confirm-key-heading-w-default-service = Reimposta la password con la chiave di recupero dell’account <span>per passare alle impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-account-recovery-confirm-key-heading-w-custom-service = Reimposta la password con la chiave di ripristino dell’account <span>per continuare su { $serviceName }</span>
+account-recovery-confirm-key-heading-w-custom-service = Reimposta la password con la chiave di recupero dell’account <span>per continuare su { $serviceName }</span>
 account-recovery-confirm-key-instructions = Inserisci la chiave di recupero dell'account monouso che hai memorizzato in un luogo sicuro per riottenere l'accesso al tuo { -product-firefox-account }.
 account-recovery-confirm-key-warning-message = <span>Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno cancellati (compresi i dati sincronizzati del server come cronologia e segnalibri).
 # Prompts the user to enter their account recovery code

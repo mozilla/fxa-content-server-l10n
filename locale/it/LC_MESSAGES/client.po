@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-09 19:14+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2023-01-06 08:38+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -304,7 +304,7 @@ msgstr "Si è verificato un errore inatteso"
 
 #: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Questo link per la verifica dell’account di posta elettronica è scaduto."
+msgstr "Il link su cui hai fatto clic per verificare il tuo indirizzo di posta elettronica è scaduto."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -891,7 +891,7 @@ msgstr "Questo link per reimpostare la password è scaduto"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Il link per la reimpostazione della password è scaduto."
+msgstr "Il link su cui hai fatto clic per reimpostare la password è scaduto."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -963,7 +963,7 @@ msgstr "Questo link per reimpostare la password è danneggiato"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Il link sul quale hai fatto clic manca di alcuni caratteri, probabilmente ciò dipende dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link."
+msgstr "Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1007,7 +1007,7 @@ msgstr "Il link di conferma è scaduto"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr "Questo link per la conferma dell’account di posta elettronica è scaduto."
+msgstr "Il link su cui hai fatto clic per confermare il tuo indirizzo di posta elettronica è scaduto."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1743,7 +1743,7 @@ msgstr "Iscriviti a %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Il link su cui hai fatto clic era privo di alcuni caratteri e potrebbe essere stato modificato dal tuo client di posta elettronica."
+msgstr "Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
