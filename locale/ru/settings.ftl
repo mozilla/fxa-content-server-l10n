@@ -640,6 +640,13 @@ auth-error-1008 = Ваш новый пароль должен быть друг�
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к настройкам аккаунта</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к { $serviceName }</span>
 account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему { -product-firefox-account(case: "singular_dative") }
 account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
 # Prompts the user to enter their account recovery code
