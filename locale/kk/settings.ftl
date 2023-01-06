@@ -633,7 +633,7 @@ auth-error-1008 = Жаңа пароль ескі парольден өзгеше
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = <span>тіркелгі баптауларына өту үшін<span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
+account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін<span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -701,4 +701,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Қырағылығыңыз үшін рахмет
 signin-reported-message = Біздің топ хабарды алды. Шағымдарыңыз алаяқтылармен күресуге көмектеседі.
