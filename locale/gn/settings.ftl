@@ -632,6 +632,9 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>embohekokuaa hag̃ua ne mba’egueru</span>
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
