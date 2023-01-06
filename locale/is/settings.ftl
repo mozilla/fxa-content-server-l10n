@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Fela lykilorð
+input-password-show = Birta lykilorð
+input-password-hide-aria = Fela lykilorð af skjánum.
+input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,17 @@ ready-account-ready = Aðgangurinn þinn er tilbúinn!
 ready-continue = Halda áfram
 sign-in-complete-header = Innskráning staðfest
 pulsing-hearts-description = Bleik fartölva og fjólublátt snjalltæki, hvort um sig með hjarta sem slær
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdur
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -208,13 +226,6 @@ header-back-to-top-link =
     .title = Til baka efst
 header-title = Firefox-reikningur
 header-help = Hjálp
-
-## Input Password
-
-input-password-hide = Fela lykilorð
-input-password-show = Birta lykilorð
-input-password-hide-aria = Fela lykilorð af skjánum.
-input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
 
 ## Linked Accounts section
 
@@ -608,26 +619,29 @@ auth-error-155 = TOTP-teikn fannst ekki
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
+## AccountRecoveryConfirmKey page
+
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdur
 # Header for form to create new password
 create-new-password-header = Búa til nýtt lykilorð
-# Link that user can click to receive a new reset password link
-receive-new-link = Fá nýjan tengil
 confirm-account-recovery-key-button = Endurstilla lykilorð
 account-restored-success-message = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
-password-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
-password-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til að halda áfram í aðgangsstillingar</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
 reset-password-warning-message = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { product-pocket }.
@@ -637,3 +651,6 @@ reset-password-error-general = Því miður kom upp vandamál við að endurstil
 reset-password-error-unknown-account = Óþekktur reikningur
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
