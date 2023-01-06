@@ -70,6 +70,11 @@ reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu
 
 ## ResetPasswordLinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
+reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Ereko juajuha pyahu
 
 ## Alert Bar
 
@@ -627,6 +632,13 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Emoneĩ mba’ete mba’eñemi jeguerujeyrã
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Mba’eñemi jeguerujeyrã ndoikóiva
 
 ## Account recovery reset password page
 
