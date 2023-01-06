@@ -620,7 +620,7 @@ account-recovery-confirm-key-instructions = Inserisci la chiave di recupero mono
 account-recovery-confirm-key-warning-message = <span>Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno eliminati (compresi i dati sincronizzati sul server come cronologia e segnalibri).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
-    .label = Inserisci la chiave di recupero dell'account
+    .label = Inserisci la chiave di recupero dell’account
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Conferma la chiave di recupero dell’account
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
