@@ -702,10 +702,10 @@ account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo k
 ## CompleteResetPassword component
 
 # User followed a password reset link and is now prompted to create a new password
-complete-reset-pw-header = Ustvari novo geslo
-complete-reset-password-warning-message = <span>Ne pozabite:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke v { product-pocket }.
+complete-reset-pw-header = Ustvarite novo geslo
+complete-reset-password-warning-message = <span>Ne pozabite:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli), saj podatke šifriramo z vašim geslom, da zaščitimo vašo zasebnost. Vse morebitne naročnine boste obdržali in podatki { product-pocket } bodo ostali nedotaknjeni.
 # This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
+complete-reset-password-account-recovery-info = Uspešno ste obnovili svoj račun z obnovitvenim ključem. Ustvarite novo geslo, da zaščitite svoje podatke, in ga shranite na varno mesto.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Geslo je nastavljeno
@@ -717,10 +717,10 @@ complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do teža
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
-confirm-pw-reset-header = Ponastavitev e-pošte poslana
+confirm-pw-reset-header = Ponastavitvena e-pošta poslana
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Kliknite povezavo, poslano na { $email } v naslednji uri, da ustvarite novo geslo.
+confirm-pw-reset-instructions = V naslednji uri kliknite na povezavo, poslano na %(email)s, da ustvarite novo geslo.
 
 ## ResetPassword page
 
@@ -742,4 +742,4 @@ reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj r
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Hvala za vašo pozornost
-signin-reported-message = Naša ekipa je bila obveščena. Poročila, kot je ta, nam pomagajo ubraniti vsiljivce.
+signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam pomagajo odgnati vsiljivce.
