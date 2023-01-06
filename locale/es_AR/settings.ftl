@@ -641,6 +641,10 @@ account-recovery-confirm-key-input =
 account-recovery-confirm-key-button = Confirmar la clave de recuperación de la cuenta
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
 account-recovery-confirm-key-error-general = La clave de recuperación de la cuenta no es válida
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Se requiere la clave de recuperación de la cuenta
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = ¿No tenés una clave de recuperación?
 
 ## Account recovery reset password page
 
@@ -651,9 +655,26 @@ account-restored-success-message = Restauraste tu cuenta sin problemas usando tu
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Crear una nueva contraseña
+complete-reset-password-warning-message = <span>Recordá:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Podés perder parte de tu información personal (incluyendo el historial, marcadores y contraseñas). Eso es porque ciframos tu información con tu contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y la información de { product-pocket } no se verá afectada.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Restauraste tu cuenta sin problemas usando tu clave de recuperación de la cuenta. Creá una nueva contraseña para asegurar tus datos y guardala en un lugar seguro.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Contraseña establecida
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Disculpá, hubo un problema al establecer tu contraseña
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Se envió el correo para restablecerla
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Hacé clic en el enlace que te enviamos a { $email } dentro de la próxima hora para crear una nueva contraseña.
 
 ## ResetPassword page
 
@@ -674,3 +695,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Gracias por la vigilancia
+signin-reported-message = Nuestro equipo fue notificado. Informes como este nos ayudan a defendernos de los intrusos.
