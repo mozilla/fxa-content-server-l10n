@@ -60,6 +60,13 @@ product-firefox-relay =
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Jelszó elrejtése
+input-password-show = Jelszó megjelenítése
+input-password-hide-aria = Jelszó elrejtése a képernyőn.
+input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -77,6 +84,22 @@ ready-account-ready = A fiókja elkészült!
 ready-continue = Folytatás
 sign-in-complete-header = Bejelentkezés megerősítve
 pulsing-hearts-description = Egy rózsaszín laptop és egy lila mobileszköz lüktető szívvel
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
+reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Új hivatkozás kérése
 
 ## Alert Bar
 
@@ -233,13 +256,6 @@ header-back-to-top-link =
     .title = Vissza a tetejére
 header-title = { -product-firefox-accounts }
 header-help = Súgó
-
-## Input Password
-
-input-password-hide = Jelszó elrejtése
-input-password-show = Jelszó megjelenítése
-input-password-hide-aria = Jelszó elrejtése a képernyőn.
-input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
 
 ## Linked Accounts section
 
@@ -637,26 +653,59 @@ auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-instructions = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a { -product-firefox-account }jához.
+account-recovery-confirm-key-warning-message = <span>Megjegyzés</span> Ha a jelszót visszaállítja, és nincs mentett fiókhelyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Adja meg a fiók-helyreállítási kulcsot
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Erősítse meg a fiók-helyreállítási kulcsot
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Érvénytelen fiók-helyreállítási kulcs
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Fiók helyreállítási kulcs szükséges
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
-# Appears when a link to reset password is damaged
-password-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
 # Header for form to create new password
 create-new-password-header = Új jelszó létrehozása
-# Link that user can click to receive a new reset password link
-receive-new-link = Új hivatkozás kérése
 confirm-account-recovery-key-button = Jelszó visszaállítása
 account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
-password-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
-password-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Új jelszó létrehozása
+complete-reset-password-warning-message = <span>Ne feledje:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { product-pocket }-adatait továbbra is meg fogja tartani.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Jelszó megadva
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Visszaállítási e-mail elküldve
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Kattintson a(z) { $email } címre elküldött hivatkozásra a következő órán belül, hogy létrehozza az új jelszavát.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a fiókbeállításokhoz való továbblépéshez</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 reset-password-warning-message = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { product-pocket }-adatait továbbra is meg fogja tartani.
@@ -666,3 +715,8 @@ reset-password-error-general = Sajnos probléma merült fel a jelszó visszaáll
 reset-password-error-unknown-account = Ismeretlen fiók
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Köszönjük az éberségét
+signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segítenek kivédeni a behatolókat.
