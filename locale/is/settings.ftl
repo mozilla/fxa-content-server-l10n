@@ -70,6 +70,11 @@ reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi o
 
 ## ResetPasswordLinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
+reset-pwd-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Fá nýjan tengil
 
 ## Alert Bar
 
@@ -621,6 +626,26 @@ auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í reikningsstillingarnar</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í { $serviceName }</span>
+account-recovery-confirm-key-instructions = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Athugaðu:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á netþjóni á borð við vafurferil og bókamerki).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Settu inn endurheimtulykil reiknings
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Staðfestu endurheimtulykil reiknings
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Ógildur endurheimtulykill reiknings
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Endurheimtulykill reiknings nauðsynlegur
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Ertu ekki með endurheimtulykil reiknings?
 
 ## Account recovery reset password page
 
@@ -631,9 +656,26 @@ account-restored-success-message = Þér hefur tekist að endurheimta reikningin
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Búðu til nýtt lykilorð
+complete-reset-password-warning-message = <span>Mundu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { product-pocket }.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Lykilorð stillt
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Því miður kom upp vandamál við að stilla lykilorðið þitt
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Endurstillingarpóstur sendur
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á { $email } til að útbúa nýtt lykilorð.
 
 ## ResetPassword page
 
@@ -654,3 +696,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Þakka þér fyrir að vera á verði
+signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tikynningar eins og þessi hjálpa okkur við að bægja frá óprúttnum aðilum.
