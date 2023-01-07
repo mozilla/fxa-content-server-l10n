@@ -58,12 +58,23 @@ ready-use-service = { $serviceName } artık kullanıma hazır
 ready-account-ready = Hesabınız hazır!
 ready-continue = Devam et
 sign-in-complete-header = Giriş onaylandı
+pulsing-hearts-description = Kalp atışları olan pembe bir dizüstü bilgisayar ve mor bir mobil cihaz
 
 ## ResetPasswordLinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
 
 ## ResetPasswordLinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
+reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Yeni bağlantı iste
 
 ## Alert Bar
 
@@ -594,18 +605,49 @@ auth-error-1008 = Yeni parolanız farklı olmalıdır
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
+account-recovery-confirm-key-instructions = { -product-firefox-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
+account-recovery-confirm-key-warning-message = <span>Not:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir.
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Hesap kurtarma anahtarını girin
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Hesap kurtarma anahtarını onaylayın
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Geçersiz hesap kurtarma anahtarı
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Hesap kurtarma anahtarı gerekiyor
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Hesap kurtarma anahtarınız yok mu?
 
 ## Account recovery reset password page
 
 # Header for form to create new password
 create-new-password-header = Yeni parola oluştur
 confirm-account-recovery-key-button = Parolayı sıfırla
+account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Yeni parola oluştur
+complete-reset-password-warning-message = <span>Unutmayın:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { product-pocket } verileriniz etkilenmeyecektir.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Parola ayarlandı
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Sıfırlama e-postası gönderildi
 
 ## ResetPassword page
 
@@ -618,3 +660,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Desteğiniz için teşekkür ederiz
+signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırganları dışarıda tutmamıza yardımcı oluyor.

@@ -409,6 +409,8 @@ sub-update-payment-title = Ödeme bilgileri
 
 pay-with-heading-card-or = veya kartla ödeyin
 pay-with-heading-card-only = Kartla öde
+product-invoice-preview-error-title = Fatura ön izlemesi yüklenirken sorun oluştu
+product-invoice-preview-error-text = Fatura ön izlemesi yüklenemedi
 
 ## Routes - Product - IapRoadblock
 
