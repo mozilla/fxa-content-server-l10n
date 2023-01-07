@@ -644,6 +644,9 @@ confirm-pw-reset-header = 已发送重置邮件
 ## ResetPassword page
 
 # Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = 重置密码以<span>继续设置账户</span>
+# Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
@@ -657,3 +660,5 @@ reset-password-with-recovery-key-verified-continue-to-account = 继续前往我�
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = 感谢您的反馈
+signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防范入侵者。
