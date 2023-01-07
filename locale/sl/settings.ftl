@@ -720,7 +720,7 @@ complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do teža
 confirm-pw-reset-header = Ponastavitvena e-pošta poslana
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = V naslednji uri kliknite na povezavo, poslano na %(email)s, da ustvarite novo geslo.
+confirm-pw-reset-instructions = V naslednji uri kliknite na povezavo, poslano na { $email }, da ustvarite novo geslo.
 
 ## ResetPassword page
 
