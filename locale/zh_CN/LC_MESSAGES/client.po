@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-10 01:14+0000\n"
-"Last-Translator: bingchuanjuzi <dududu233@outlook.com>\n"
+"PO-Revision-Date: 2023-01-07 13:18+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -960,7 +960,7 @@ msgstr "重置密码链接已损坏"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "您点击的链接缺少字符，可能由于您的邮件客户端的原因损坏了。请确保复制了完整的网址，然后再试一次。"
+msgstr "您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。"
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"

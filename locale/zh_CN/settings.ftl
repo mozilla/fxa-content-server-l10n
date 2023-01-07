@@ -61,9 +61,19 @@ sign-in-complete-header = 已确认登录
 
 ## ResetPasswordLinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = 重置密码链接已损坏
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。
 
 ## ResetPasswordLinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = 重置密码链接已过期
+reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 接收新链接
 
 ## Alert Bar
 
@@ -583,6 +593,13 @@ auth-error-1008 = 新旧密码不能相同
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密钥重置密码以<span>继续设置账户</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码以<span>继续使用 { $serviceName }</span>
 
 ## Account recovery reset password page
 
