@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Piilota salasana
+input-password-show = Näytä salasana
+input-password-hide-aria = Piilota salasana näytöltä.
+input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -43,6 +50,7 @@ remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
 
 ## Ready component
 
+reset-password-complete-header = Salasanasi on nollattu
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -50,6 +58,20 @@ ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
 ready-account-ready = Tilisi on valmis!
 ready-continue = Jatka
 sign-in-complete-header = Kirjautuminen vahvistettu
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
+reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Vastaanota uusi linkki
 
 ## Alert Bar
 
@@ -205,13 +227,6 @@ header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
 header-help = Ohje
-
-## Input Password
-
-input-password-hide = Piilota salasana
-input-password-show = Näytä salasana
-input-password-hide-aria = Piilota salasana näytöltä.
-input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
 
 ## Linked Accounts section
 
@@ -583,16 +598,46 @@ auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
+## AccountRecoveryConfirmKey page
+
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Anna tilin palautusavain
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Vahvista tilin palautusavain
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Virheellinen tilin palautusavain
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Tilin palautusavain vaaditaan
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavainta?
+
 ## Account recovery reset password page
 
 # Header for form to create new password
 create-new-password-header = Luo uusi salasana
-# Link that user can click to receive a new reset password link
-receive-new-link = Vastaanota uusi linkki
-password-link-expired-message = Linkki, jota napsautit nollataksesi salasanasi, on vanhentunut.
+confirm-account-recovery-key-button = Nollaa salasana
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Luo uusi salasana
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Salasana asetettu
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
+reset-password-button = Aloita nollaus
+reset-password-success-alert = Salasanan nollaus
 reset-password-error-unknown-account = Tuntematon tili
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Kiitos valppaudestasi
+signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset auttavat meitä torjumaan tunkeutujia.
