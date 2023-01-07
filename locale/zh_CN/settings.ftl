@@ -640,6 +640,9 @@ complete-reset-password-error-alert = 抱歉，设置密码时出现问题
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = 已发送重置邮件
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = 请在一小时内点击发送到 { $email } 的链接以创建新密码。
 
 ## ResetPassword page
 
