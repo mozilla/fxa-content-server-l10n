@@ -600,18 +600,46 @@ account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码以<span>继续使用 { $serviceName }</span>
+account-recovery-confirm-key-instructions = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-firefox-account }的访问权限。
+account-recovery-confirm-key-warning-message = <span>注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = 请输入账户恢复密钥
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = 确认账户恢复密钥
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = 无效的账户恢复密钥
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = 需要使用账户恢复密钥
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = 没有账户恢复密钥？
 
 ## Account recovery reset password page
 
 # Header for form to create new password
 create-new-password-header = 创建新密码
 confirm-account-recovery-key-button = 重置密码
+account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = 创建新密码
+complete-reset-password-warning-message = <span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，{ product-pocket } 服务的数据也不受影响。
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = 密码已设置
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = 抱歉，设置密码时出现问题
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = 已发送重置邮件
 
 ## ResetPassword page
 
