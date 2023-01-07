@@ -35,8 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = 隐藏密码
+input-password-show = 显示密码
+input-password-hide-aria = 在屏幕上隐藏密码。
+input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
+
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = 记起了密码？登录
 
 ## Ready component
 
@@ -48,6 +58,12 @@ ready-use-service = 您可以使用 { $serviceName } 了
 ready-account-ready = 您的账户准备好了！
 ready-continue = 继续
 sign-in-complete-header = 已确认登录
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -190,13 +206,6 @@ header-back-to-top-link =
     .title = 回到顶端
 header-title = { -product-firefox-accounts }
 header-help = 帮助
-
-## Input Password
-
-input-password-hide = 隐藏密码
-input-password-show = 显示密码
-input-password-hide-aria = 在屏幕上隐藏密码。
-input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
 
 ## Linked Accounts section
 
@@ -572,23 +581,34 @@ auth-error-155 = 找不到 TOTP 令牌
 auth-error-183-2 = 验证码无效或已过期
 auth-error-1008 = 新旧密码不能相同
 
+## AccountRecoveryConfirmKey page
+
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = 重置密码链接已过期
-# Appears when a link to reset password is damaged
-password-link-damaged-header = 重置密码链接已损坏
 # Header for form to create new password
 create-new-password-header = 创建新密码
-# Link that user can click to receive a new reset password link
-receive-new-link = 接收新链接
 confirm-account-recovery-key-button = 重置密码
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
+reset-password-warning-message = <span>注意：</span>重置密码的同时也会重置账户，可能导致一些个人信息丢失（包括历史记录、书签和密码）。这是因为我们用您的密码对数据进行了加密以保护隐私。您的订阅项目将会保留，{ product-pocket } 的数据也不会受到影响。
 reset-password-button = 开始重置
 reset-password-success-alert = 密码重置
 reset-password-error-general = 抱歉，重置密码时出现问题
 reset-password-error-unknown-account = 未知账户
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续前往我的账户
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
