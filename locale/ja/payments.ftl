@@ -190,6 +190,78 @@ product-no-such-plan = この製品にはご指定のプランがありません
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + 税 { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 日ごとに { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 週間ごとに { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } か月ごとに { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か月ごとに { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } か年ごとに { $priceAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か年ごとに { $priceAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $priceAmount } + 税 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 日ごとに { $priceAmount } + 税 { $taxAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $priceAmount } + 税 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 週間ごとに { $priceAmount } + 税 { $taxAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } 月ごとに { $priceAmount } + 税 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 月ごとに { $priceAmount } + 税 { $taxAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } 年ごとに { $priceAmount } + 税 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 年ごとに { $priceAmount } + 税 { $taxAmount }
+        }
 
 ## Component - SubscriptionTitle
 
@@ -215,10 +287,48 @@ document =
 close-aria =
     .aria-label = モーダルダイアログを閉じる
 settings-subscriptions-title = 購読
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = プロモーションコード
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 日ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 週間ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } か月ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か月ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } か年ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か年ごとに { $amount }
+        }
 
 ## Error messages
 
