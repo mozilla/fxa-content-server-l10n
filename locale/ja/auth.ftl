@@ -345,8 +345,8 @@ recovery-title-2 = パスワードを忘れた場合
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = 次の端末で { -product-firefox-account } のパスワード変更がリクエストされました:
-recovery-new-password-button = 以下のボタンをクリックして新しいパスワードを生成してください。このリンクは 1 時間以内に期限切れになります。
-recovery-copy-paste = 以下の URL をコピーしてブラウザーに貼り付け、新しいパスワードを生成してください。このリンクは 1 時間以内に期限切れになります。
+recovery-new-password-button = 以下のボタンをクリックして新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
+recovery-copy-paste = 以下の URL をコピーしてブラウザーに貼り付け、新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
 recovery-action = 新しいパスワードを設定
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -542,6 +542,7 @@ verificationReminderSecond-subject-2 = アカウントを確認してくださ�
 verificationReminderSecond-title-2 = { -brand-firefox } をお忘れなく！
 verificationReminderSecond-description-3 = 数日前に { -product-firefox-account } を作成されましたが、まだ確認が終わっていません。10 日以内に確認されない場合、アカウントが自動的に削除されます。
 verificationReminderSecond-second-description = { -product-firefox-account } は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
+verificationReminderSecond-sub-description-2 = インターネットをすべての人に開かれ、アクセス可能な場所として形作っていく私たちの使命にご協力ください。
 verificationReminderSecond-action-2 = アカウントを確認
 verify-title-2 = { -brand-firefox } でインターネットをオープンに
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
@@ -561,16 +562,22 @@ verifyLoginCode-subject-line-2 = { $serviceName } へのログインを承認
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = アカウントを安全に保つために、次の端末からのログインを承認してください：
+verifyLoginCode-prompt-3 = はいの場合の認証コードはこちら:
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
+verifyPrimary-title-2 = 優先メールアドレス確認
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action-2 = メールアドレスを確認
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = 確認が済むと、予備アドレスの追加などのアカウント変更をこの端末から行えるようになります。
 verifySecondaryCode-subject = 予備メールアドレスの確認
 verifySecondaryCode-title-2 = 予備メールアドレスの確認
 verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
+verifySecondaryCode-prompt-2 = この確認コードを使用してください:
+verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
 verifyShortCode-title-2 = { -brand-firefox } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:

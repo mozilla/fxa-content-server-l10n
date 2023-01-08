@@ -583,7 +583,7 @@ auth-error-114 = 何回も試したため中断されました。{ $retryAfter }
 auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
-auth-error-183-2 = 確認コードが不正または期限切れです
+auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
 ## AccountRecoveryConfirmKey page
