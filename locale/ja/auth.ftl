@@ -388,6 +388,11 @@ subscriptionCancellation-title = ご利用ありがとうございました
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = { $productName } のサブスクリプションをキャンセルしました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われました。
+subscriptionCancellation-outstanding-content-2 = { $productName } のサブスクリプションをキャンセルしました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われます。
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = サービスは現在の請求期間の終了日 { $serviceLastActiveDateOnly } まで継続されます。
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productName } に切り替えました
@@ -509,6 +514,7 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } から { $productName } �
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = 次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。その際、この { $productPaymentCycleOld } の残りの期間は余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。
+subscriptionUpgrade-content-charge-info-different-cycle = この { $productPaymentCycleOld } の残りの期間はサブスクリプションの余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = { $productName } の使用に必要な新しいソフトウェアをインストールする場合は、ダウンロード手順が記載された別のメールが届きます。
