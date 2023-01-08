@@ -596,6 +596,15 @@ auth-error-1008 = Sua nova senha deve ser diferente
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Redefina a senha com a chave de recuperação de conta <span>para seguir para as configurações da conta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Redefina a senha com a chave de recuperação de conta <span>para seguir para { $serviceName }</span>
+account-recovery-confirm-key-instructions = Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Se você redefinir sua senha e não tiver salva uma chave de recuperação de conta, alguns dos seus dados serão apagados (incluindo dados sincronizados no servidor, como histórico e favoritos).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Digite a chave de recuperação da conta
@@ -619,6 +628,7 @@ account-restored-success-message = Você restaurou sua conta com sucesso usando 
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Criar nova senha
+complete-reset-password-warning-message = <span>Lembre:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (incluindo histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { product-pocket } não são afetados.
 # This information message is followed by a form to create a new password.
 complete-reset-password-account-recovery-info = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
 # A new password was successfully set for the user's account
