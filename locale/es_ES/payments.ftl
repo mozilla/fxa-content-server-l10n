@@ -474,6 +474,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema al cargar facturas
 sub-billing-update-success = Tu información de facturación ha sido actualizada correctamente
+sub-invoice-previews-error-title = Problema al cargar la vista previa de las facturas
+sub-invoice-previews-error-text = No se ha podido cargar la vista previa de las facturas
 
 ## Routes - Subscription - ActionButton
 
@@ -486,6 +488,8 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
+sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> por impuestos vence el <strong>{ $date }</strong>
 sub-expires-on = Caduca el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -505,6 +509,8 @@ sub-route-funding-source-payment-alert = Información de pago no válida; hay un
 sub-item-no-such-plan = No existe ese plan para esta suscripción.
 invoice-not-found = Factura posterior no encontrada
 sub-item-no-such-subsequent-invoice = No se ha encontradola factura posterior para esta suscripción.
+sub-invoice-preview-error-title = Vista previa de la factura no encontrada
+sub-invoice-preview-error-text = Vista previa de la factura no encontrada para esta suscripción
 
 ## Routes - Subscriptions - Pocket Subscription
 
