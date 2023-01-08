@@ -327,6 +327,7 @@ postRemoveTwoStepAuthentication-title-2 = 2 段階認証をオフにしました
 postRemoveTwoStepAuthentication-from-device = 次の端末から無効にしました:
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required-2 = 今後はログイン時に認証アプリからのセキュリティコードを必要としません。
+postVerify-sub-title-3 = 会えて光栄です！
 postVerify-title-2 = 2 台の端末で同じタブを表示したいですか？
 postVerify-description-2 = 簡単です！別の端末に { -brand-firefox } をインストールして同期するだけです。まるで魔法のようです！
 postVerify-sub-description = （ログインしたどの端末からでも、ブックマークやパスワード、{ -brand-firefox } の他のデータにアクセスできます。）
