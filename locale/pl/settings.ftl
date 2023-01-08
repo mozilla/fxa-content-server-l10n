@@ -115,6 +115,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Ukryj hasło
+input-password-show = Pokaż hasło
+input-password-hide-aria = Ukryj hasło z ekranu.
+input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -132,6 +139,22 @@ ready-account-ready = Konto jest gotowe!
 ready-continue = Kontynuuj
 sign-in-complete-header = Potwierdzono logowanie
 pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
+reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Wyślij nowy odnośnik
 
 ## Alert Bar
 
@@ -288,13 +311,6 @@ header-back-to-top-link =
     .title = Wróć na górę
 header-title = { -product-firefox-accounts }
 header-help = Pomoc
-
-## Input Password
-
-input-password-hide = Ukryj hasło
-input-password-show = Pokaż hasło
-input-password-hide-aria = Ukryj hasło z ekranu.
-input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
 
 ## Linked Accounts section
 
@@ -690,26 +706,36 @@ auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Zmień hasło za pomocą klucza odzyskiwania konta, <span>aby przejść do ustawień konta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Zmień hasło za pomocą klucza odzyskiwania konta, <span>aby przejść do usługi { $serviceName }</span>
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Odnośnik do zmiany hasła wygasł
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
 # Header for form to create new password
 create-new-password-header = Utwórz nowe hasło
-# Link that user can click to receive a new reset password link
-receive-new-link = Wyślij nowy odnośnik
 confirm-account-recovery-key-button = Zmień hasło
 account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
-password-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
-password-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do ustawień konta</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
 reset-password-warning-message = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { product-pocket }.
@@ -719,3 +745,6 @@ reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem h
 reset-password-error-unknown-account = Nieznane konto
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
