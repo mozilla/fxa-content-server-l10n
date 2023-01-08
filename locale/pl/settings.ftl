@@ -715,6 +715,19 @@ account-recovery-confirm-key-heading-w-default-service = Zmień hasło za pomoc�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Zmień hasło za pomocą klucza odzyskiwania konta, <span>aby przejść do usługi { $serviceName }</span>
+account-recovery-confirm-key-instructions = Proszę wpisać jednorazowy klucz odzyskiwania konta przechowany w bezpiecznym miejscu, aby odzyskać dostęp do { -product-firefox-account(case: "gen", capitalization: "lower") }.
+account-recovery-confirm-key-warning-message = <span>Uwaga:</span> zmiana hasła bez dostępu do zachowanego klucza odzyskiwania konta spowoduje usunięcie części danych (w tym danych synchronizowanych na serwerze, takich jak historia i zakładki).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Wpisz klucz odzyskiwania konta
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Potwierdź klucz odzyskiwania konta
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Nieprawidłowy klucz odzyskiwania konta
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Wymagany jest klucz odzyskiwania konta
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nie masz klucza odzyskiwania konta?
 
 ## Account recovery reset password page
 
@@ -725,9 +738,26 @@ account-restored-success-message = Pomyślnie przywrócono konto za pomocą kluc
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Utwórz nowe hasło
+complete-reset-password-warning-message = <span>Pamiętaj:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { product-pocket }.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Ustawiono hasło
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Przepraszamy, wystąpił problem z ustawieniem hasła
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Wysłano e-mail do zmiany hasła
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Kliknij odnośnik wysłany na adres { $email } w ciągu godziny, aby utworzyć nowe hasło.
 
 ## ResetPassword page
 
@@ -748,3 +778,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Przejdź do moje
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Dziękujemy za czujność
+signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomagają nam odpędzać intruzów.

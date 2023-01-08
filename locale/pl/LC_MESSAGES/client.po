@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-04 18:47+0000\n"
+"PO-Revision-Date: 2023-01-08 15:15+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1052,7 +1052,7 @@ msgstr "Wysłano e-mail do zmiany hasła"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć nowe hasło."
+msgstr "Kliknij odnośnik wysłany na adres %(email)s w ciągu godziny, aby utworzyć nowe hasło."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
