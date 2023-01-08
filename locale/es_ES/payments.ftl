@@ -194,6 +194,94 @@ product-no-such-plan = No existe el plan para este producto.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } de impuestos
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } diariamente
+       *[other] { $priceAmount } cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } diariamente
+           *[other] { $priceAmount } cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } semanalmente
+       *[other] { $priceAmount } cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } semanalmente
+           *[other] { $priceAmount } cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mensualmente
+       *[other] { $priceAmount } cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mensualmente
+           *[other] { $priceAmount } cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } anualmente
+       *[other] { $priceAmount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } anualmente
+           *[other] { $priceAmount } cada { $intervalCount } años
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos diariamente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos diariamente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos semanalmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos semanalmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos mensualmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos mensualmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos anualmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos anualmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } años
+        }
 
 ## Component - SubscriptionTitle
 
@@ -225,6 +313,50 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } diariamente
+       *[other] { $amount } cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } diariamente
+           *[other] { $amount } cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } semanalmente
+           *[other] { $amount } cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } mensualmente
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensualmente
+           *[other] { $amount } cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anualmente
+           *[other] { $amount } cada { $intervalCount } años
+        }
 
 ## Error messages
 
@@ -279,6 +411,8 @@ sub-update-payment-title = Información del pago
 
 pay-with-heading-card-or = O paga con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
+product-invoice-preview-error-title = Problema al cargar la vista previa de la factura
+product-invoice-preview-error-text = No se ha podido cargar la vista previa de la factura
 
 ## Routes - Product - IapRoadblock
 
