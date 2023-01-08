@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-08 05:50+0000\n"
+"PO-Revision-Date: 2023-01-08 05:55+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1990,7 +1990,7 @@ msgstr "お使いのすべての端末でブックマークやタブ、パスワ
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "同期された端末のタブを表示します"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2010,23 +2010,23 @@ msgstr "セットアップ処理が中断されました。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "別の端末の Firefox を接続する"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "スマートフォンやタブレットで Firefox を同期する"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "スマートフォンやタブレットでお使いの Firefox がありますか？"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "端末を同期する"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "スキャンしてモバイル版 Firefox をダウンロードするか、自分に<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ダウンロードのリンク</a>を送る"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2034,7 +2034,7 @@ msgstr "QR コード"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Firefox を使用しているすべての場所でパスワード、タブ、ブックマークを持ち運びましょう。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2046,7 +2046,7 @@ msgstr "ペアリングに成功しました。"
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span></span> のペアリングを確認"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
