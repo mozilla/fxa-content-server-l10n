@@ -342,6 +342,8 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 次回の請求日: { $date }
+sub-next-bill-no-tax = 次回は <strong>{ $date }</strong> に <strong>{ $priceAmount }</strong> が請求されます
+sub-next-bill-tax = 次回は <strong>{ $date }</strong> に <strong>{ $priceAmount } + 税 { $taxAmount }</strong> が請求されます
 sub-expires-on = 有効期限: { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -361,6 +363,8 @@ sub-route-funding-source-payment-alert = 支払い方法が無効です。アカ
 sub-item-no-such-plan = このサブスクリプションにはご指定のプランがありません。
 invoice-not-found = 後続の請求書が見つかりませんでした
 sub-item-no-such-subsequent-invoice = このサブスクリプションの後続の請求書が見つかりませんでした
+sub-invoice-preview-error-title = 請求書プレビューが見つかりません
+sub-invoice-preview-error-text = サブスクリプションの請求書プレビューが見つかりませんでした
 
 ## Routes - Subscriptions - Pocket Subscription
 

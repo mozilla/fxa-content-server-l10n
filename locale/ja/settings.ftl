@@ -44,9 +44,21 @@ input-password-show-aria = パスワードをプレーンテキストで表示�
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = パスワードを覚えている場合はログインしてください
 
 ## Ready component
 
+reset-password-complete-header = パスワードがリセットされました
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = { $serviceName } が利用可能になりました
+ready-account-ready = アカウントの準備が整いました。
+ready-continue = 続ける
+sign-in-complete-header = ログインが確認されました
+pulsing-hearts-description = 鼓動するハートが表示されたピンク色のノートパソコンと紫色のモバイル端末
 
 ## ResetPasswordLinkDamaged component
 
@@ -247,6 +259,7 @@ nav-email-comm = メールの設定管理
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
+tfa-replace-code-success-1 = 新しいバックアップ認証コードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
 tfa-replace-code-success-alert-3 = アカウントのバックアップ認証コードが更新されました
 tfa-replace-code-1-2 = ステップ 1/2
 tfa-replace-code-2-2 = ステップ 2/2
@@ -362,6 +375,7 @@ display-name-success-alert-2 = 表示名が更新されました
 recovery-key-cancel-button = キャンセル
 recovery-key-close-button = 閉じる
 recovery-key-continue-button = 続ける
+recovery-key-created-1 = アカウント回復用キーが作成されました。後で簡単に見つけられる安全な場所にキーを保存してください — パスワードを忘れた場合、データに再びアクセスするには、キーが必要になります。
 recovery-key-enter-password =
     .label = パスワードを入力してください
 recovery-key-page-title-1 =
@@ -435,6 +449,8 @@ tfa-enter-secret-key = この秘密キーを認証アプリに入力してくだ
 tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
 tfa-input-enter-totp =
     .label = セキュリティコードを入力
+tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
+tfa-enter-code-to-confirm-1 = 保存できたことを確認するためにバックアップ認証コードを 1 個入力してください。こららのコードは、モバイル端末を持っていない場合に必要になります。
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
@@ -588,6 +604,13 @@ auth-error-1008 = 新しいパスワードは別のものにしてください
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = アカウント回復用キーでパスワードをリセットして <span>アカウント設定に進む</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = アカウント回復用キーでパスワードをリセットして <span>{ $serviceName } に進む</span>
 account-recovery-confirm-key-instructions = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-firefox-account } へのアクセスを取り戻しましょう。
 account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
 # Prompts the user to enter their account recovery code
@@ -604,6 +627,10 @@ account-recovery-lost-recovery-key-link = アカウント回復用キーを持�
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = 新しいパスワードを作成
+confirm-account-recovery-key-button = パスワードをリセット
+account-restored-success-message = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
 
 ## CompleteResetPassword component
 
@@ -630,6 +657,20 @@ confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールで�
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = パスワードをリセットして <span>アカウント設定に進む</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
+reset-password-warning-message = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { product-pocket } のデータは影響を受けません。
+reset-password-button = リセットを開始
+reset-password-success-alert = パスワードをリセット
+reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
+reset-password-error-unknown-account = 不明なアカウントです
+reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
+reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
