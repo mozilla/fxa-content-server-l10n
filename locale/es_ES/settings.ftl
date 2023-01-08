@@ -659,6 +659,9 @@ account-restored-success-message = Has restaurado correctamente tu cuenta usando
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Crear nueva contraseña
+complete-reset-password-warning-message = <span>Recuerda:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { product-pocket } no se verán modificados.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
@@ -684,6 +687,15 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+reset-password-warning-message = <span>Nota:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { product-pocket } no se verán modificados.
+reset-password-button = Iniciar restablecimiento
+reset-password-success-alert = Contraseña restablecida
+reset-password-error-general = Lo sentimos, ha surgido un problema al establecer tu contraseña
+reset-password-error-unknown-account = Cuenta desconocida
+reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Gracias por tu vigilancia
+signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste nos permiten mantener a raya a los intrusos.
