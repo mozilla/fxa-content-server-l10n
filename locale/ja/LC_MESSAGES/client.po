@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-08 05:37+0000\n"
+"PO-Revision-Date: 2023-01-08 05:50+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1425,18 +1425,22 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+"Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+"Firefox の <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>。"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "バックアップ認証コードを入力してください"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。"
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "10 桁のバックアップ認証コードを入力してください"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1496,7 +1500,7 @@ msgstr "パスワードを再入力してください"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "このパスワードはサーバーに保存した暗号化されたデータにアクセスするのに必要です。<br class=\"mb-3\">リセットするとログイン情報やブックマークなどのデータが失われる可能性があります。"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1518,6 +1522,10 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+"Pocket の <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+"Firefox の <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1597,7 +1605,7 @@ msgstr "ステップ 2 の 1: パスワードを再入力"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "アカウント回復用キーを表示するにはパスワードを入力してください。"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1825,7 +1833,7 @@ msgstr "<span class = \"number\">4</ span> アカウントにログインして�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "アカウント回復用キーでデータを保護する"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1837,19 +1845,19 @@ msgstr "これはあなたの安全のために重要な情報であるため、
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "アカウント回復用キーを取得する"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "%(escapedEmail)s のパスワードを確認して、アカウント回復用キーを生成してください。"
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "アカウント回復用キーを入力して、コピーを保存したことを確認してください。"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "アカウント回復用キーを保存する"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1861,7 +1869,7 @@ msgstr "このアカウントを作成する必要があるのはなぜですか
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "年齢を教えてください。年齢をお尋ねする理由については、以下の「この質問の理由」のリンクをクリックしてください。"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1913,7 +1921,7 @@ msgstr "よく使われるパスワードと一致しないこと"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "安全のため、パスワードを再利用してはいけません。<a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">強力なパスワードを作成する</a>ためのヒントをご覧ください。"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1945,23 +1953,23 @@ msgstr "Apple で続ける"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "今 Firefox にログインしましたか？"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr "%(email)s"
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "ロケーションピン"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "はい。端末を承認します。"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "これがあなたではない場合は、<a id=\"change-password\" class=\"link-blue\">パスワードを変更してください</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1973,10 +1981,12 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"現在、次の端末と同期しています: <span>%(deviceOS)s の %(deviceFamily)s</span>"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "お使いのすべての端末でブックマークやタブ、パスワードにアクセスできるようになりました。"
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
