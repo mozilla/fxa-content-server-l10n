@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-08 05:29+0000\n"
+"PO-Revision-Date: 2023-01-08 05:37+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -125,7 +125,7 @@ msgstr "<b>%(escapedSelectedProduct)s</b> の <b>%(escapedLowercaseTopic)s</b> �
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -1008,15 +1008,15 @@ msgstr "クリックされたメールアドレス確認リンクの有効期限
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "クリックすると確認リンクを再発行できます"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "確認リンクが壊れています"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "確認エラー"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1028,7 +1028,7 @@ msgstr "このログインを確認"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "%(escapedEmail)s 宛に送られた確認リンクのメールをご確認ください"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1059,11 +1059,11 @@ msgstr "確認コードの入力"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "Firefox アカウントの確認コード"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "5 分以内に %(escapedEmail)s に送信されたコードを入力してください。"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1089,11 +1089,11 @@ msgstr "他の端末を接続"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Firefox にログインしました"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "メールアドレスを確認しました"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1113,11 +1113,11 @@ msgstr "他の端末上の Firefox へログインして設定を完了してく
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "他の端末で開いているタブやブックマーク、パスワードを読み込みますか？"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "後で"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1148,7 +1148,7 @@ msgid ""
 "\n"
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Firefox アカウント</span>のパスワードを入力してください"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1192,7 +1192,7 @@ msgstr "Firefox アカウントを使用すると、さらにプライバシー�
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "バックアップ認証コードを保存する"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1223,15 +1223,15 @@ msgstr "セットアップをキャンセル"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "バックアップ認証コードを確認する"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかのバックアップ認証コードを入力してください。"
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "バックアップ認証コード"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1341,7 +1341,7 @@ msgstr "アカウントの準備が整いました。"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "新しいアカウント回復用キーを生成する"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1387,7 +1387,7 @@ msgstr "イベント名"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "確認しました"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"

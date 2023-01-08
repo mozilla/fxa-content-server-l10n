@@ -578,6 +578,9 @@ verifySecondaryCode-action-2 = メールアドレスを確認
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
 verifySecondaryCode-prompt-2 = この確認コードを使用してください:
 verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = アカウントを確認してください
 verifyShortCode-title-2 = { -brand-firefox } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
