@@ -289,6 +289,19 @@ price-details-tax-month =
             [few] { $priceAmount } + { $taxAmount } пореза свака { $intervalCount } месеца
            *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } месеци
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } пореза сваку { $intervalCount } годину
+        [few] { $priceAmount } + { $taxAmount } пореза сваке { $intervalCount } године
+       *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } година
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } пореза сваку { $intervalCount } годину
+            [few] { $priceAmount } + { $taxAmount } пореза сваке { $intervalCount } године
+           *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } година
+        }
 
 ## Component - SubscriptionTitle
 
