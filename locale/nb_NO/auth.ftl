@@ -316,6 +316,7 @@ postRemoveAccountRecovery-title-2 = Du slettet din kontogjenopprettingsnøkkel.
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Den ble slettet fra:
 postRemoveAccountRecovery-action = Behandle konto
+postRemoveAccountRecovery-invalid-2 = Du trenger en kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataene dine hvis du glemmer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
 postRemoveSecondary-action = Behandle konto
