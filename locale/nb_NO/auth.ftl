@@ -130,6 +130,13 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Engangsrabatt: -{ $
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-måneders rabatt: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Skatter og avgifter: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Belastet { $invoiceTotal } den { $invoiceDateOnly }
 subscriptionSupport = Har du spørsmål om ditt abonnement? Vårt <a data-l10n-name="subscriptionSupportUrl">supportteam</a> står klar til å hjelpe deg.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om ditt abonnement? Vårt supportteam står klar til å hjelpe deg:
@@ -278,6 +285,7 @@ postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er koblet til { -product-firefox-account } din
 postAddLinkedAccount-action = Behandle konto
+postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
 postAddTwoStepAuthentication-action = Behandle konto
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
