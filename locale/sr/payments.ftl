@@ -198,6 +198,19 @@ product-no-such-plan = Не постоји такав план за овај п�
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } пореза
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } сваки { $intervalCount } дан
+        [few] { $priceAmount } свака { $intervalCount } дана
+       *[other] { $priceAmount } сваких { $intervalCount } дана
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } сваки { $intervalCount } дан
+            [few] { $priceAmount } свака { $intervalCount } дана
+           *[other] { $priceAmount } сваких { $intervalCount } дана
+        }
 
 ## Component - SubscriptionTitle
 
