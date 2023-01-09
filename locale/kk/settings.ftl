@@ -633,7 +633,7 @@ auth-error-1008 = Жаңа пароль ескі парольден өзгеше
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін<span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
+account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
