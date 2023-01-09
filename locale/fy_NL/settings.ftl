@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Wachtwurd ferstopje
+input-password-show = Wachtwurd toane
+input-password-hide-aria = Wachtwurd op skerm ferstopje
+input-password-show-aria = Wachtwurd as platte tekst toane. Jo wachtwurd sil sichtber wêze op it skerm.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Jo account is ree!
 ready-continue = Trochgean
 sign-in-complete-header = Oanmelding befêstige
 pulsing-hearts-description = In rôze laptop en in pears mobyl apparaat elk mei in klopjend hert
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Keppeling foar opnij ynstellen skansearre
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
+reset-pwd-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Nije keppeling ûntfange
 
 ## Alert Bar
 
@@ -208,13 +231,6 @@ header-back-to-top-link =
     .title = Nei boppe
 header-title = { -product-firefox-accounts }
 header-help = Help
-
-## Input Password
-
-input-password-hide = Wachtwurd ferstopje
-input-password-show = Wachtwurd toane
-input-password-hide-aria = Wachtwurd op skerm ferstopje
-input-password-show-aria = Wachtwurd as platte tekst toane. Jo wachtwurd sil sichtber wêze op it skerm.
 
 ## Linked Accounts section
 
@@ -614,26 +630,36 @@ auth-error-155 = TOTP-token net fûn
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei jo accountynstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Keppeling foar opnij ynstellen skansearre
 # Header for form to create new password
 create-new-password-header = Nij wachtwurd oanmeitsje
-# Link that user can click to receive a new reset password link
-receive-new-link = Nije keppeling ûntfange
 confirm-account-recovery-key-button = Wachtwurd opnij ynstelle
 account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
-password-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik defekt rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
-password-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei jo accountynstellingen</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
 reset-password-warning-message = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { product-pocket }-gegevens wurde net beynfloede.
@@ -643,3 +669,6 @@ reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstel
 reset-password-error-unknown-account = Unbekende account
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
