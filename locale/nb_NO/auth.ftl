@@ -286,7 +286,11 @@ postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 postAddLinkedAccount-title = Din { $providerName }-konto er koblet til { -product-firefox-account } din
 postAddLinkedAccount-action = Behandle konto
 postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
+postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Du har slått det på det fra:
 postAddTwoStepAuthentication-action = Behandle konto
+postAddTwoStepAuthentication-code-required-2 = Sikkerhetskoder fra autentiseringsappen din kreves nå hver gang du logger inn.
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
 # Variables:
@@ -309,6 +313,8 @@ postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
 postRemoveAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel slettet
 postRemoveAccountRecovery-title-2 = Du slettet din kontogjenopprettingsnøkkel.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Den ble slettet fra:
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
