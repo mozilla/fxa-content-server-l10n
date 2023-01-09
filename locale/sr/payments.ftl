@@ -211,6 +211,84 @@ price-details-no-tax-day =
             [few] { $priceAmount } свака { $intervalCount } дана
            *[other] { $priceAmount } сваких { $intervalCount } дана
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } сваку { $intervalCount } недељу
+        [few] { $priceAmount } сваке { $intervalCount } недеље
+       *[other] { $priceAmount } сваких { $intervalCount } недеља
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } сваку { $intervalCount } недељу
+            [few] { $priceAmount } сваке { $intervalCount } недеље
+           *[other] { $priceAmount } сваких { $intervalCount } недеља
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } сваки { $intervalCount } месец
+        [few] { $priceAmount } свака { $intervalCount } месеца
+       *[other] { $priceAmount } сваких { $intervalCount } месеци
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } сваки { $intervalCount } месец
+            [few] { $priceAmount } свака { $intervalCount } месеца
+           *[other] { $priceAmount } сваких { $intervalCount } месеци
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } сваку { $intervalCount } годину
+        [few] { $priceAmount } сваке { $intervalCount } године
+       *[other] { $priceAmount } сваких { $intervalCount } година
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } сваку { $intervalCount } годину
+            [few] { $priceAmount } сваке { $intervalCount } године
+           *[other] { $priceAmount } сваких { $intervalCount } година
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } пореза сваки { $intervalCount } дан
+        [few] { $priceAmount } + { $taxAmount } пореза свака { $intervalCount } дана
+       *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } дана
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } пореза сваки { $intervalCount } дан
+            [few] { $priceAmount } + { $taxAmount } пореза свака { $intervalCount } дана
+           *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } дана
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } пореза сваку { $intervalCount } недељу
+        [few] { $priceAmount } + { $taxAmount } пореза сваке { $intervalCount } недеље
+       *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } недеља
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } пореза сваку { $intervalCount } недељу
+            [few] { $priceAmount } + { $taxAmount } пореза сваке { $intervalCount } недеље
+           *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } недеља
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } пореза сваки { $intervalCount } месец
+        [few] { $priceAmount } + { $taxAmount } пореза свака { $intervalCount } месеца
+       *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } месеци
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } пореза сваки { $intervalCount } месец
+            [few] { $priceAmount } + { $taxAmount } пореза свака { $intervalCount } месеца
+           *[other] { $priceAmount } + { $taxAmount } пореза сваких { $intervalCount } месеци
+        }
 
 ## Component - SubscriptionTitle
 
@@ -242,6 +320,58 @@ coupon-promo-code = Промотивни код
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } сваки { $intervalCount } дан
+        [few] { $amount } свака { $intervalCount } дана
+       *[other] { $amount } сваких { $intervalCount } дана
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } сваки { $intervalCount } дан
+            [few] { $amount } свака { $intervalCount } дана
+           *[other] { $amount } сваких { $intervalCount } дана
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } сваку { $intervalCount } недељу
+        [few] { $amount } сваке { $intervalCount } недеље
+       *[other] { $amount } сваких { $intervalCount } недеља
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } сваку { $intervalCount } недељу
+            [few] { $amount } сваке { $intervalCount } недеље
+           *[other] { $amount } сваких { $intervalCount } недеља
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } сваки { $intervalCount } месец
+        [few] { $amount } свака { $intervalCount } месеца
+       *[other] { $amount } сваких { $intervalCount } месеци
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } сваки { $intervalCount } месец
+            [few] { $amount } свака { $intervalCount } месеца
+           *[other] { $amount } сваких { $intervalCount } месеци
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } сваку { $intervalCount } годину
+        [few] { $amount } сваке { $intervalCount } године
+       *[other] { $amount } сваких { $intervalCount } година
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } сваку { $intervalCount } годину
+            [few] { $amount } сваке { $intervalCount } године
+           *[other] { $amount } сваких { $intervalCount } година
+        }
 
 ## Error messages
 
