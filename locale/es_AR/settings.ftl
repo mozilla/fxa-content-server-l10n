@@ -633,7 +633,7 @@ account-recovery-confirm-key-heading-w-default-service = Restablecer la contrase
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Restablecer la contraseña con la clave de recuperación de cuenta <span> para continuar con { $serviceName }</span>
 account-recovery-confirm-key-instructions = Ingresá la clave de recuperación de cuenta de un solo uso que guardaste en un lugar seguro para recuperar el acceso a tu { -product-firefox-account }.
-account-recovery-confirm-key-warning-message = <span class="note">Nota:</span> Si restablecés tu contraseña y no tenés una clave de recuperación de cuenta guardada, algunos de tus datos se van a eliminar (incluyendo los datos sincronizados con el servidor tales como el historial y los marcadores).
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Si restablecés tu contraseña y no tenés una clave de recuperación de cuenta guardada, algunos de tus datos se van a eliminar (incluyendo los datos sincronizados con el servidor tales como el historial y los marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Ingresar la clave de recuperación de la cuenta
