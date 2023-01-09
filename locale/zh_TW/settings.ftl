@@ -602,7 +602,7 @@ account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
 account-recovery-confirm-key-instructions = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-firefox-account }的使用權限。
-account-recovery-confirm-key-warning-message = <span class="note">註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
+account-recovery-confirm-key-warning-message = <span>註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = 輸入帳號救援金鑰
