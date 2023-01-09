@@ -655,6 +655,13 @@ auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a fiókbeállításokhoz való továbblépéshez</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a { $serviceName } szolgáltatáshoz való továbblépéshez</span>
 account-recovery-confirm-key-instructions = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a { -product-firefox-account }jához.
 account-recovery-confirm-key-warning-message = <span>Megjegyzés</span> Ha a jelszót visszaállítja, és nincs mentett fiókhelyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők).
 # Prompts the user to enter their account recovery code
