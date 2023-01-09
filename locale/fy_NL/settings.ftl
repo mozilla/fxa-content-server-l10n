@@ -639,6 +639,19 @@ account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
+account-recovery-confirm-key-instructions = Fier de accountwerstelkaai foar ienmalich gebrûk, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-firefox-account } te krijen.
+account-recovery-confirm-key-warning-message = <span>Noat:</span> as jo jo wachtwurd opnij ynstelle en jo kaai foar accountwerstel bewarre hawwe, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens lykas skiednis en blêdwizers).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Fier accountwerstelkaai yn
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Befêstigje accountwerstelkaai
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Unjildige accountwerstelkaai
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Accountwerstelkaai fereaske
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Hawwe jo gjin accountwerstelkaai?
 
 ## Account recovery reset password page
 
@@ -649,9 +662,26 @@ account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia j
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Nij wachtwurd oanmeitsje
+complete-reset-password-warning-message = <span>Unthâld:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { product-pocket }-gegevens wurde net beynfloede.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Wachtwurd ynsteld
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-mailberjocht foar opnij ynstellen ferstjoerd
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Klik binnen in oere op de keppeling dy’t nei { $email } ferstjoerd is om in nij wachtwurd oan te meitsjen.
 
 ## ResetPassword page
 
@@ -672,3 +702,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei my
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Tank foar jo wachens
+signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringers tsjin te hâlden.
