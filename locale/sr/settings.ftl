@@ -639,6 +639,19 @@ account-recovery-confirm-key-heading-w-default-service = Ресетујте ло
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ресетујте лозинку уз кључ за опоравак налога да <span>наставите на { $serviceName }</span>
+account-recovery-confirm-key-instructions = Унесите једнократни кључ за опоравак, који сте претходно сачували, како би повратили приступ вашем { -product-firefox-account }-у.
+account-recovery-confirm-key-warning-message = <span>Напомена:</span> Ако ресетујете вашу лозинку и немате сачуван кључ за опоравак, неки ваши подаци ће бити обрисани (укључући синхронизоване податке као што су историја и обележивачи).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Унеси кључ за опоравак налога
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Потврди кључ за опоравак налога
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Неисправан кључ за опоравак налога
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Потребан је кључ за опоравак налога
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Немате кључ за опоравак налога?
 
 ## Account recovery reset password page
 
@@ -649,9 +662,26 @@ account-restored-success-message = Ваш налог је успешно вра�
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Направи нову лозинку
+complete-reset-password-warning-message = <span>Подсетник:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { product-pocket } подаци неће бити погођени.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Лозинка је постављена
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Жао нам је, дошло је до грешке при постављању лозинке
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Е-пошта за ресетовање је послата
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Кликните на везу послату на { $email } у наредних сат времена да направите нову лозинку.
 
 ## ResetPassword page
 
@@ -672,3 +702,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Настави �
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Хвала вам на вашој опрезности
+signin-reported-message = Наш тим је обавештен. Овакви извешаји нам помажу да се одбранимо од нападача.
