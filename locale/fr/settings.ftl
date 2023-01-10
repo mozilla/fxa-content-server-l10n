@@ -66,6 +66,7 @@ ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
 ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
 sign-in-complete-header = Connexion confirmée
+pulsing-hearts-description = Un ordinateur portable rose et un appareil mobile violet, chacun avec un cœur qui bat
 
 ## ResetPasswordLinkDamaged component
 
@@ -618,6 +619,13 @@ auth-error-1008 = Votre nouveau mot de passe doit être différent
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Réinitialisez le mot de passe avec la clé de récupération de compte <span>pour accéder aux paramètres du compte</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Réinitialisez le mot de passe avec la clé de récupération de compte <span>pour continuer vers { $serviceName }</span>
 account-recovery-confirm-key-instructions = Veuillez saisir la clé de récupération à usage unique de votre compte que vous avez stockée en lieu sûr pour retrouver l’accès à votre { -product-firefox-account }.
 account-recovery-confirm-key-warning-message = <span>Remarque :</span> si vous réinitialisez votre mot de passe et n’avez pas de clé de récupération de compte enregistrée, certaines de vos données seront effacées (y compris les données synchronisées sur les serveurs, comme l’historique et les marque-pages).
 # Prompts the user to enter their account recovery code
@@ -664,6 +672,13 @@ confirm-pw-reset-instructions = Cliquez sur le lien envoyé à l’adresse { $em
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Réinitialisez le mot de passe <span>pour accéder aux paramètres du compte</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Réinitialisez le mot de passe <span>pour continuer vers { $serviceName }</span>
 reset-password-warning-message = <span>Attention :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { product-pocket } ne seront pas affectées.
 reset-password-button = Lancer la réinitialisation
 reset-password-success-alert = Mot de passe réinitialisé
