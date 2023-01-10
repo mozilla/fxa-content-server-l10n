@@ -652,6 +652,10 @@ auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπ�
 
 ## AccountRecoveryConfirmKey page
 
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Απαιτείται κλειδί ανάκτησης λογαριασμού
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανάκτησης λογαριασμού;
 
 ## Account recovery reset password page
 
