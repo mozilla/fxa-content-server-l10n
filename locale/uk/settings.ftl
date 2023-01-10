@@ -99,6 +99,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Сховати пароль
+input-password-show = Показати пароль
+input-password-hide-aria = Сховати пароль з екрана.
+input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -116,6 +123,20 @@ ready-account-ready = Ваш обліковий запис готовий!
 ready-continue = Продовжити
 sign-in-complete-header = Вхід підтверджено
 pulsing-hearts-description = Рожевий ноутбук і пурпуровий мобільний пристрій із серцем, що пульсує
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Посилання для відновлення пароля пошкоджене
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Посилання для відновлення пароля протерміноване
+reset-pwd-link-expired-message = Посилання для відновлення пароля, за яким ви перейшли, протерміноване.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Отримати нове посилання
 
 ## Alert Bar
 
@@ -273,13 +294,6 @@ header-back-to-top-link =
     .title = Вгору
 header-title = { -product-firefox-accounts }
 header-help = Допомога
-
-## Input Password
-
-input-password-hide = Сховати пароль
-input-password-show = Показати пароль
-input-password-hide-aria = Сховати пароль з екрана.
-input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
 
 ## Linked Accounts section
 
@@ -679,26 +693,66 @@ auth-error-155 = TOTP-код не знайдено
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до налаштувань облікового запису</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до { $serviceName }</span>
+account-recovery-confirm-key-instructions = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-firefox-account(case: "gen", capitalization: "lower") }.
+account-recovery-confirm-key-warning-message = <span>Примітка:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включно з історією перегляду й закладками).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Введіть ключ відновлення облікового запису
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Підтвердьте ключ відновлення облікового запису
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Недійсний ключ відновлення облікового запису
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Потрібен ключ відновлення облікового запису
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Не маєте ключа відновлення облікового запису?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Посилання для відновлення пароля протерміноване
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Посилання для відновлення пароля пошкоджене
 # Header for form to create new password
 create-new-password-header = Створити новий пароль
-# Link that user can click to receive a new reset password link
-receive-new-link = Отримати нове посилання
 confirm-account-recovery-key-button = Відновити пароль
 account-restored-success-message = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
-password-link-damaged-message = Посилання за яким ви перейшли має втрачені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Обережно скопіюйте адресу та спробуйте знову.
-password-link-expired-message = Посилання для скидання пароля, за яким ви перейшли, протерміноване.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Створити новий пароль
+complete-reset-password-warning-message = <span>Пам'ятайте:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші поточні передплати й дані, раніше збережені в { product-pocket }.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Пароль встановлено
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Повідомлення для скидання надіслано
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Перейдіть за посиланням, надісланим на { $email } протягом наступної години, щоб створити новий пароль.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Скиньте пароль, <span>щоб перейти до налаштувань облікового запису</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скиньте пароль, <span>щоб перейти до { $serviceName }</span>
 reset-password-warning-message = <span>Примітка:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші чинні передплати й дані, раніше збережені в { product-pocket }.
@@ -708,3 +762,8 @@ reset-password-error-general = Перепрошуємо, але під час с
 reset-password-error-unknown-account = Невідомий обліковий запис
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Дякуємо за вашу уважність
+signin-reported-message = Наша команда була сповіщена. Такі звіти допомагають нам захиститися від зловмисників.
