@@ -129,6 +129,8 @@ pulsing-hearts-description = Рожевий ноутбук і пурпурови
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Посилання для відновлення пароля пошкоджене
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Посилання, за яким ви перейшли, має пропущені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Уважно скопіюйте адресу та спробуйте знову.
 
 ## ResetPasswordLinkExpired component
 
