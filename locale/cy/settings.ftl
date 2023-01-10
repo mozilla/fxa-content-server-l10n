@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Cuddio cyfrinair
+input-password-show = Dangos cyfrinair
+input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
+input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Mae eich cyfrif yn barod!
 ready-continue = Parhau
 sign-in-complete-header = Mewngofnodi wedi ei gadarnhau
 pulsing-hearts-description = Gliniadur pinc a dyfais symudol borffor, pob un â chalon yn curo
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Mae dolen ailosod y cyfrinair wedi ei difrodi
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
+reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Derbyn dolen newydd
 
 ## Alert Bar
 
@@ -206,13 +229,6 @@ header-back-to-top-link =
     .title = Nôl i'r brig
 header-title = { -product-firefox-accounts }
 header-help = Cymorth
-
-## Input Password
-
-input-password-hide = Cuddio cyfrinair
-input-password-show = Dangos cyfrinair
-input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
-input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
 
 ## Linked Accounts section
 
@@ -608,26 +624,66 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau i osodiadau cyfrif</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau { $serviceName }</span>
+account-recovery-confirm-key-instructions = Rhowch yr allwedd adfer cyfrif un-tro rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span class="note">Sylwch:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau tudalen).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Rhowch allwedd adfer cyfrif
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Cadarnhewch allwedd adfer cyfrif
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Allwedd adfer cyfrif annilys
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Mae angen allwedd adfer cyfrif
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Ailosod dolen cyfrinair sydd wedi dod i ben
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Mae dolen ailosod y cyfrinair sydd wedi ei difrodi
 # Header for form to create new password
 create-new-password-header = Creu cyfrinair newydd
-# Link that user can click to receive a new reset password link
-receive-new-link = Derbyn dolen newydd
 confirm-account-recovery-key-button = Ailosod y cyfrinair
 account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
-password-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
-password-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Creu cyfrinair newydd
+complete-reset-password-warning-message = <span>Cofiwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch manylion personol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { product-pocket } yn cael ei effeithio.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Wedi gosod y cyfrinair
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Wedi anfon yr e-bost ailosod
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at %(email)s o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau i osodiadau cyfrif</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
 reset-password-warning-message = <span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { product-pocket } yn cael ei effeithio.
@@ -637,3 +693,8 @@ reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfri
 reset-password-error-unknown-account = Cyfrif anhysbys
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Diolch am eich gwyliadwriaeth
+signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn y ein cynorthwyo i gadw ymyrraeth allanol draw.
