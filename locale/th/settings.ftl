@@ -35,10 +35,23 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = ซ่อนรหัสผ่าน
+input-password-show = แสดงรหัสผ่าน
+input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
+input-password-show-aria = แสดงรหัสผ่านในรูปข้อความธรรมดา รหัสผ่านของคุณจะปรากฏให้เห็นบนหน้าจอ
+
 ## LinkRememberPassword component
 
 
 ## Ready component
+
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
 
 
 ## Alert Bar
@@ -178,12 +191,6 @@ header-back-to-top-link =
     .title = กลับขึ้นด้านบน
 header-title = { -product-firefox-accounts }
 header-help = ช่วยเหลือ
-
-## Input Password
-
-input-password-hide = ซ่อนรหัสผ่าน
-input-password-show = แสดงรหัสผ่าน
-input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 
 ## Linked Accounts section
 
@@ -453,5 +460,20 @@ auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
 
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
+
 ## ResetPassword page
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
