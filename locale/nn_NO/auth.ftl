@@ -129,7 +129,7 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Eingongsrabatt: -{ 
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } månadars rabatt: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-månadars rabatt: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
