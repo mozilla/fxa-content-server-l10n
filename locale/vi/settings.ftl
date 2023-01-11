@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Ẩn mật khẩu
+input-password-show = Hiện mật khẩu
+input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
+input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Tài khoản của bạn đã sẵn sàng!
 ready-continue = Tiếp tục
 sign-in-complete-header = Đã xác nhận đăng nhập
 pulsing-hearts-description = Một chiếc máy tính xách tay màu hồng và một thiết bị di động màu tím đều có một trái tim đang đập
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Liên kết đặt lại mật khẩu đã bị hỏng
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
+reset-pwd-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Nhận liên kết mới
 
 ## Alert Bar
 
@@ -208,13 +231,6 @@ header-back-to-top-link =
     .title = Về đầu trang
 header-title = { -product-firefox-accounts }
 header-help = Trợ giúp
-
-## Input Password
-
-input-password-hide = Ẩn mật khẩu
-input-password-show = Hiện mật khẩu
-input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
-input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
 
 ## Linked Accounts section
 
@@ -612,26 +628,66 @@ auth-error-155 = Không tìm thấy token TOTP
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Đặt lại mật khẩu bằng khóa khôi phục tài khoản <span>để tiếp tục đến cài đặt tài khoản</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Đặt lại mật khẩu bằng khóa khôi phục tài khoản <span>để tiếp tục đến { $serviceName }</span>
+account-recovery-confirm-key-instructions = Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào { -product-firefox-account } của bạn.
+account-recovery-confirm-key-warning-message = <span>Lưu ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và dấu trang).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Nhập khóa khôi phục tài khoản
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Xác nhận khóa khôi phục tài khoản
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Khóa khôi phục tài khoản không hợp lệ
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Cần có khóa khôi phục tài khoản
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Không có khóa khôi phục tài khoản?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Liên kết đặt lại mật khẩu đã bị hỏng
 # Header for form to create new password
 create-new-password-header = Tạo mật khẩu mới
-# Link that user can click to receive a new reset password link
-receive-new-link = Nhận liên kết mới
 confirm-account-recovery-key-button = Đặt lại mật khẩu
 account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
-password-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
-password-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Tạo mật khẩu mới
+complete-reset-password-warning-message = <span>Hãy nhớ:</span> Khi bạn đặt lại mật khẩu, bạn sẽ đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { product-pocket } sẽ không bị ảnh hưởng.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Đã đặt mật khẩu
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Đã gửi email đặt lại
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Nhấp vào liên kết được gửi qua email tới { $email } trong vòng một giờ tới để tạo mật khẩu mới.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Đặt lại mật khẩu <span>để tiếp tục cài đặt tài khoản</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Đặt lại mật khẩu <span>để tiếp tục đến với { $serviceName }</span>
 reset-password-warning-message = <span>Lưu ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { product-pocket } sẽ không bị ảnh hưởng.
@@ -641,3 +697,8 @@ reset-password-error-general = Xin lỗi, đã xảy ra sự cố khi đặt l�
 reset-password-error-unknown-account = Tài khoản không xác định
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Cảm ơn vì sự cảnh giác của bạn
+signin-reported-message = Nhóm của chúng tôi đã được thông báo. Các báo cáo như thế này giúp chúng tôi chống lại những kẻ xâm nhập.
