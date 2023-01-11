@@ -189,7 +189,7 @@ product-no-such-plan = 此产品无此方案。
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-price-details-tax = { $priceAmount } + 税费 { $taxAmount }
+price-details-tax = { $priceAmount } + 税款 { $taxAmount }
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
@@ -237,46 +237,46 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] 每天 { $priceAmount } + 税费 { $taxAmount }
-       *[other] 每 { $intervalCount } 天 { $priceAmount } + 税费 { $taxAmount }
+        [one] 每天 { $priceAmount } + 税款 { $taxAmount }
+       *[other] 每 { $intervalCount } 天 { $priceAmount } + 税款 { $taxAmount }
     }
     .title =
         { $intervalCount ->
-            [one] 每天 { $priceAmount } + 税费 { $taxAmount }
-           *[other] 每 { $intervalCount } 天 { $priceAmount } + 税费 { $taxAmount }
+            [one] 每天 { $priceAmount } + 税款 { $taxAmount }
+           *[other] 每 { $intervalCount } 天 { $priceAmount } + 税款 { $taxAmount }
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
-        [one] 每周 { $priceAmount } + 税费 { $taxAmount }
-       *[other] 每 { $intervalCount } 周 { $priceAmount } + 税费 { $taxAmount }
+        [one] 每周 { $priceAmount } + 税款 { $taxAmount }
+       *[other] 每 { $intervalCount } 周 { $priceAmount } + 税款 { $taxAmount }
     }
     .title =
         { $intervalCount ->
-            [one] 每周 { $priceAmount } + 税费 { $taxAmount }
-           *[other] 每 { $intervalCount } 周 { $priceAmount } + 税费 { $taxAmount }
+            [one] 每周 { $priceAmount } + 税款 { $taxAmount }
+           *[other] 每 { $intervalCount } 周 { $priceAmount } + 税款 { $taxAmount }
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-        [one] 每月 { $priceAmount } + 税费 { $taxAmount }
-       *[other] 每 { $intervalCount } 个月 { $priceAmount } + 税费 { $taxAmount }
+        [one] 每月 { $priceAmount } + 税款 { $taxAmount }
+       *[other] 每 { $intervalCount } 个月 { $priceAmount } + 税款 { $taxAmount }
     }
     .title =
         { $intervalCount ->
-            [one] 每月 { $priceAmount } + 税费 { $taxAmount }
-           *[other] 每 { $intervalCount } 个月 { $priceAmount } + 税费 { $taxAmount }
+            [one] 每月 { $priceAmount } + 税款 { $taxAmount }
+           *[other] 每 { $intervalCount } 个月 { $priceAmount } + 税款 { $taxAmount }
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [one] 每年 { $priceAmount } + 税费 { $taxAmount }
-       *[other] 每 { $intervalCount } 年 { $priceAmount } + 税费 { $taxAmount }
+        [one] 每年 { $priceAmount } + 税款 { $taxAmount }
+       *[other] 每 { $intervalCount } 年 { $priceAmount } + 税款 { $taxAmount }
     }
     .title =
         { $intervalCount ->
-            [one] 每年 { $priceAmount } + 税费 { $taxAmount }
-           *[other] 每 { $intervalCount } 年 { $priceAmount } + 税费 { $taxAmount }
+            [one] 每年 { $priceAmount } + 税款 { $taxAmount }
+           *[other] 每 { $intervalCount } 年 { $priceAmount } + 税款 { $taxAmount }
         }
 
 ## Component - SubscriptionTitle
@@ -477,7 +477,8 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下个结算日在 { $date }
-sub-next-bill-no-tax = 您的下一笔 <strong>{ $priceAmount }</strong> 账单将于 <strong>{ $date }</strong> 到期
+sub-next-bill-no-tax = 您的下一笔账单（<strong>金额 { $priceAmount }</strong>）将于 <strong>{ $date }</strong> 到期
+sub-next-bill-tax = 您的下一笔账单（<strong>金额 { $priceAmount } + 税款 { $taxAmount }</strong>）将于 <strong>{ $date }</strong> 到期
 sub-expires-on = 到期于 { $date }
 
 ## Routes - Subscription - PaymentUpdate

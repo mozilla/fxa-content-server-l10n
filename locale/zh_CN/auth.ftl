@@ -130,7 +130,7 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = 一次性抵扣：-
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } 个月抵扣：-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = 税费：{ $invoiceTaxAmount }
+subscriptionCharges-content-tax = 税款和其他费用：{ $invoiceTaxAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
