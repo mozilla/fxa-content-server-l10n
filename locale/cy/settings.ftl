@@ -634,7 +634,7 @@ account-recovery-confirm-key-heading-w-default-service = Ailosodwch gyfrinair gy
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ailosodwch gyfrinair gydag allwedd adfer cyfrif <span>i barhau { $serviceName }</span>
 account-recovery-confirm-key-instructions = Rhowch yr allwedd adfer cyfrif un-tro rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch { -product-firefox-account }.
-account-recovery-confirm-key-warning-message = <span class="note">Sylwch:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau tudalen).
+account-recovery-confirm-key-warning-message = <span>Sylwch:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau tudalen).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Rhowch allwedd adfer cyfrif
@@ -675,7 +675,7 @@ complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eic
 confirm-pw-reset-header = Wedi anfon yr e-bost ailosod
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
-confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at %(email)s o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
+confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at { $email } o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
 
 ## ResetPassword page
 
