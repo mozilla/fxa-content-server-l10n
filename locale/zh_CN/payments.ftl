@@ -234,15 +234,6 @@ price-details-no-tax-year =
             [one] 每年 { $priceAmount }
            *[other] 每 { $intervalCount } 年 { $priceAmount }
         }
-# $intervalCount (Number) - The interval between payments, in days.
-price-details-tax-day =
-    { $intervalCount ->
-       *[other] 每 { $intervalCount } 天：{ $priceAmount } + 税费 { $taxAmount }
-    }
-    .title =
-        { $intervalCount ->
-           *[other] 每 { $intervalCount } 天：{ $priceAmount } + 税费 { $taxAmount }
-        }
 
 ## Component - SubscriptionTitle
 
