@@ -58,6 +58,7 @@ ready-use-service = 您可以使用 { $serviceName } 了
 ready-account-ready = 您的账户准备好了！
 ready-continue = 继续
 sign-in-complete-header = 已确认登录
+pulsing-hearts-description = 粉色的笔记本电脑和紫色的移动设备，分别傍着颗跃动的心
 
 ## ResetPasswordLinkDamaged component
 
