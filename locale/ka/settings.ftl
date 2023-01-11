@@ -53,14 +53,29 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = პაროლის დამალვა
+input-password-show = პაროლის ჩვენება
+input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
+input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
+
+## LinkRememberPassword component
+
+
 ## Ready component
 
-ready-confirmation = თქვენი პაროლი აღდგა.
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = ყველაფერი მზადაა, რომ გამოიყენოთ { $serviceName }
 ready-continue = გაგრძელება
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -217,13 +232,6 @@ header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
 header-title = { -product-firefox-accounts }
 header-help = დახმარება
-
-## Input Password
-
-input-password-hide = პაროლის დამალვა
-input-password-show = პაროლის ჩვენება
-input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
-input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
 
 ## Linked Accounts section
 
@@ -587,3 +595,22 @@ auth-error-139 = ელფოსტის დამატებითი მი�
 auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
+
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
