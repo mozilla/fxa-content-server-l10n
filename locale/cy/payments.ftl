@@ -213,6 +213,7 @@ price-details-tax = { $priceAmount } + { $taxAmount } treth
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
+        [zero] { $priceAmount } bob { $intervalCount } ddiwrnod
         [one] { $priceAmount } bob diwrnod
         [two] { $priceAmount } bob { $intervalCount } ddiwrnod
         [few] { $priceAmount } bob { $intervalCount } diwrnod
@@ -221,6 +222,7 @@ price-details-no-tax-day =
     }
     .title =
         { $intervalCount ->
+            [zero] { $priceAmount } bob { $intervalCount } ddiwrnod
             [one] { $priceAmount } bob diwrnod
             [two] { $priceAmount } bob { $intervalCount } ddiwrnod
             [few] { $priceAmount } bob { $intervalCount } diwrnod
