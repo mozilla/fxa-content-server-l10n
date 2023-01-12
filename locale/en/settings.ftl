@@ -34,6 +34,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+  .label = New password
+form-reset-password-with-balloon-confirm-password =
+  .label = Re-enter password
+
 ## Input Password
 
 input-password-hide = Hide password
@@ -47,6 +54,14 @@ input-password-show-aria = Show password as plain text. Your password will be vi
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Remember your password? Sign in
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Password requirements
+password-strength-balloon-min-length = At least 8 characters
+password-strength-balloon-not-email = Not your email address
+password-strength-balloon-not-common = Not a commonly used password
+password-strength-balloon-stay-safe-tips = Stay safe {"\u2014"} Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
 
 ## Ready component
 
@@ -712,7 +727,32 @@ reset-password-error-unknown-account = Unknown account
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
+signin-bounced-header = Sorry. We’ve locked your account.
+# $email (string) - The user's email.
+signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your Firefox data.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = If this is a valid email address, <linkExternal>let us know</linkExternal> and we can help unlock your account.
+signin-bounced-create-new-account = No longer own that email? Create a new account
+back = Back
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Thank you for your vigilance
 signin-reported-message = Our team has been notified. Reports like this help us fend off intruders.
+
+## SigninTokenCode
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Enter confirmation code<span> for your { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
+signin-token-code-input =
+  .label = Confirmation code
+  .placeholder = Enter 6-digit code
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirm
+signin-token-code-code-expired = Code expired?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Email new code.
