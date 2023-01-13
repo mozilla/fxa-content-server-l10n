@@ -651,6 +651,9 @@ confirm-pw-reset-header = Sıfırlama e-postası gönderildi
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> parolayı sıfırlayın
 reset-password-button = Sıfırlamayı başlat
 reset-password-success-alert = Parola sıfırlama
 reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
