@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - checkout
+      - run:
+          command: echo jbuck was here
+workflows:
+  test:
+    jobs:
+      - test
