@@ -63,6 +63,11 @@ brand-name-firefox-logo = Λογότυπο { -brand-name-firefox }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Εισαγάγετε το email σας
 new-user-confirm-email =
     .label = Επιβεβαιώστε το email σας
 new-user-subscribe-product-updates = Επιθυμώ να λαμβάνω ενημερώσεις προϊόντων από το { -brand-name-firefox }
@@ -273,6 +278,7 @@ sub-update-payment-title = Πληροφορίες πληρωμής
 
 pay-with-heading-card-or = Ή πληρωμή με κάρτα
 pay-with-heading-card-only = Πληρωμή με κάρτα
+product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης τιμολογίου
 
 ## Routes - Product - IapRoadblock
 
