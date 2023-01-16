@@ -545,6 +545,15 @@ verifyLogin-title-2 = Sćo se pśizjawił pla { $clientName }?
 verifyLogin-description-2 = Wobkšuśćo, až sćo se pśizjawił, aby nam pomagał, wašo konto šćitaś.
 verifyLogin-subject-2 = Pśizjawjenje wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Pśizjawjenje pla { $serviceName } pśizwóliś
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Sćo se pśizjawił pla { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pśizwólśo swójo pśizjawjenje, aby nam pomagał, wašo konto šćitaś.
+verifyLoginCode-prompt-3 = Jolic jo, how jo waš awtorizěrowański kod:
 verifyLoginCode-expiry-notice = Spadnjo za 5 minutow.
 verifyPrimary-title-2 = Primarnu e-maijlowu adresu wobkšuśiś
 verifyPrimary-description = Slědujucy rěd jo sebje pominał, kontowu změnu pśewjasć:
