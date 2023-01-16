@@ -661,9 +661,21 @@ complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju w
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Mailka za slědkstajenje jo se pósłała
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž smy pśez e-mejl na { $email } pósłali, aby napórał nowe gronidło.
 
 ## ResetPassword page
 
+reset-password-warning-message = <span>GLĚDAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { product-pocket } njejsu pótrjefjone.
+reset-password-button = Slědkstajanje zachopiś
+reset-password-success-alert = Gronidło slědk stajone
+reset-password-error-general = Bóžko jo nastał problem pśi slědkstajanju wašogo gronidła
+reset-password-error-unknown-account = Njeznate konto
+reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
+reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Źěkujomy se za wašu stražniwosć
+signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś ta nam pomagaju, zadobywarje wótwoboraś.
