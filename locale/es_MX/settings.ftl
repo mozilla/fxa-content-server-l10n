@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Ocultar contraseña
+input-password-show = Mostrar contraseña
+input-password-hide-aria = Ocultar contraseña de la pantalla.
+input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -51,6 +58,12 @@ ready-use-service = Ahora estas listo para usar { $serviceName }
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -207,13 +220,6 @@ header-back-to-top-link =
     .title = Volver arriba
 header-title = Cuenta de Firefox
 header-help = Ayuda
-
-## Input Password
-
-input-password-hide = Ocultar contraseña
-input-password-show = Mostrar contraseña
-input-password-hide-aria = Ocultar contraseña de la pantalla.
-input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
 
 ## Linked Accounts section
 
@@ -608,24 +614,34 @@ auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
 auth-error-1008 = Tu nueva contraseña debe ser diferente
 
+## AccountRecoveryConfirmKey page
+
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Enlace para restablecer la contraseña expirado
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Enlace para restablecer la contraseña dañado
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
-# Link that user can click to receive a new reset password link
-receive-new-link = Recibir nuevo enlace
 confirm-account-recovery-key-button = Restablecer contraseña
-password-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha expirado.
+
+## CompleteResetPassword component
+
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Contraseña establecida
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Lo sentimos, hubo un problema al establecer tu contraseña
+
+## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Restablecer contraseña <span>para continuar a los ajustes de la cuenta</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
 reset-password-button = Comenzar restablecimiento
@@ -634,3 +650,7 @@ reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu c
 reset-password-error-unknown-account = Cuenta desconocida
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de la cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-message = Se ha informado a nuestro equipo. Reportes como este nos ayudan a luchar contra los intrusos.
