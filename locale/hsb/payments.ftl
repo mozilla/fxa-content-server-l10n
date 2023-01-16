@@ -131,6 +131,7 @@ payment-confirmation-download-button = Dale k sćehnjenju
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
 
 ## Component - PaymentErrorView
 
@@ -199,6 +200,8 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } dawk
 
 ## Component - SubscriptionTitle
 
@@ -284,6 +287,8 @@ sub-update-payment-title = Płaćenske informacije
 
 pay-with-heading-card-or = Abo płaćće z kartu
 pay-with-heading-card-only = Z kartu płaćić
+product-invoice-preview-error-title = Problem při čitanju přehlada zličbowanki
+product-invoice-preview-error-text = Přehlad zličbowanki njeda so začitać
 
 ## Routes - Product - IapRoadblock
 
@@ -345,6 +350,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem při čitanju zličbowankow
 sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zaktualizowali
+sub-invoice-previews-error-title = Problem při čitanju přehladow zličbowankow
+sub-invoice-previews-error-text = Přehlady zličbowankow njedadźa so začitać
 
 ## Routes - Subscription - ActionButton
 
@@ -376,6 +383,7 @@ sub-route-funding-source-payment-alert = Njepłaciwe płaćenske informacije; je
 sub-item-no-such-plan = Žadyn plan za tutón abonement.
 invoice-not-found = Naslědna zličbowanka njeje so namakała
 sub-item-no-such-subsequent-invoice = Naslědna zličbowanka njeje so za tutón abonement namakała.
+sub-invoice-preview-error-title = Přehlad zličbowanki njeje so namakał
 
 ## Routes - Subscriptions - Pocket Subscription
 
