@@ -378,6 +378,7 @@ sub-route-funding-source-payment-alert = Njepłaśiwe płaśeńske informacije; 
 sub-item-no-such-plan = Žeden plan za toś ten abonement.
 invoice-not-found = Naslědna zliceńka njejo se namakała
 sub-item-no-such-subsequent-invoice = Naslědna zliceńka njejo se namakała za toś ten abonement.
+sub-invoice-preview-error-title = Pśeglěd zliceńki njejo se namakał
 
 ## Routes - Subscriptions - Pocket Subscription
 
