@@ -58,12 +58,21 @@ ready-use-service = Ahora estas listo para usar { $serviceName }
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
+pulsing-hearts-description = Una computadora portátil rosa y un dispositivo móvil morado, cada uno con un corazón palpitante
 
 ## ResetPasswordLinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = El enlace para restablecer la contraseña esta dañado
 
 ## ResetPasswordLinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Enlace para restablecer la contraseña expirado
+reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha expirado.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recibir nuevo enlace
 
 ## Alert Bar
 
@@ -616,6 +625,24 @@ auth-error-1008 = Tu nueva contraseña debe ser diferente
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Restablece la contraseña con la clave de recuperación de cuenta <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Restablece la contraseña con la clave de recuperación de cuenta <span>para continuar con { $serviceName }</span>
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Ingresa la clave de recuperación de cuenta
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirmar clave de recuperación de cuenta
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Clave de recuperación de cuenta no válida
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = La clave de recuperación de cuenta es requerida
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación de cuenta?
 
 ## Account recovery reset password page
 
@@ -625,6 +652,10 @@ confirm-account-recovery-key-button = Restablecer contraseña
 
 ## CompleteResetPassword component
 
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Crear nueva contraseña
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Has restaurado exitosamente tu cuenta utilizando tu clave de recuperación de cuenta. Crea una nueva contraseña para proteger tus datos y guárdala en un lugar seguro.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
@@ -634,6 +665,12 @@ complete-reset-password-error-alert = Lo sentimos, hubo un problema al establece
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Correo de restablecimiento enviado
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Haz clic en el enlace enviado por correo electrónico a { $email } dentro de la próxima hora para crear una nueva contraseña.
 
 ## ResetPassword page
 
@@ -653,4 +690,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Gracias por estar tu vigilancia
 signin-reported-message = Se ha informado a nuestro equipo. Reportes como este nos ayudan a luchar contra los intrusos.
