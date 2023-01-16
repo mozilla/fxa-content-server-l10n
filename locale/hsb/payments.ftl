@@ -66,8 +66,7 @@ new-user-sign-in-link = Maće hižo konto { -brand-name-firefox }? <a>Přizjewi�
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Zapodajće swoju e-mejlowu adresu
 new-user-confirm-email =
     .label = Wobkrućće swoju e-mejlowu adresu
@@ -196,6 +195,11 @@ plan-details-tax = Dawki a popłatki
 
 product-no-such-plan = Žadyn plan za tutón produkt.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Waš abonement konfigurować
@@ -219,8 +223,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Modalnje začinić
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Čita so…
 settings-subscriptions-title = Abonementy
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Akciski kod
@@ -228,38 +230,6 @@ coupon-promo-code = Akciski kod
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } kóždy dźeń
-        [two] { $amount } kóždej { $intervalCount } dnjej
-        [few] { $amount } kóžde { $intervalCount } dny
-       *[other] { $amount } kóžde { $intervalCount } dnjow
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } kóždy tydźeń
-        [two] { $amount } kóždej { $intervalCount } njedźeli
-        [few] { $amount } kódźe { $intervalCount } njedźele
-       *[other] { $amount } kóžde { $intervalCount } njedźel
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } kóždy měsac
-        [two] { $amount } kóždej { $intervalCount } měsacaj
-        [few] { $amount } kóžde { $intervalCount } měsacy
-       *[other] { $amount } kóžde { $intervalCount } měsacow
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } kóžde lěto
-        [two] { $amount } kóždej { $intervalCount } lěće
-        [few] { $amount } kóžde { $intervalCount } lěta
-       *[other] { $amount } kóžde { $intervalCount } lět
-    }
 
 ## Error messages
 
@@ -354,42 +324,6 @@ sub-item-cancel-confirm =
     { $period } mój přistup a moje w { $name }
     składowane informacije wotstronić
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } kóždy { $intervalCount } dźeń
-        [two] { $amount } kóždej { $intervalCount } dnjej
-        [few] { $amount } kóžde { $intervalCount } dny
-       *[other] { $amount } kóžde { $intervalCount } dnjow
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } kóždy { $intervalCount } tydźeń
-        [two] { $amount } kóždej { $intervalCount } njedźeli
-        [few] { $amount } kóžde { $intervalCount } njedźele
-       *[other] { $amount } kóžde { $intervalCount } njedźel
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } kóždy { $intervalCount } měsac
-        [two] { $amount } kóždej { $intervalCount } měsacaj
-        [few] { $amount } kóžde { $intervalCount } měsacy
-       *[other] { $amount } kóžde { $intervalCount } měsacow
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } kóžde { $intervalCount } lěto
-        [two] { $amount } kóždej { $intervalCount } lěće
-        [few] { $amount } kóžde { $intervalCount } lěta
-       *[other] { $amount } kóžde { $intervalCount } lět
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Zasoaktiwizowanje abonementa je so nimokuliło
@@ -418,6 +352,8 @@ pay-update-change-btn = Změnić
 pay-update-manage-btn = Rjadować
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Přichodna zličbowanka: { $date }
