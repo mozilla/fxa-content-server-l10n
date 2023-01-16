@@ -21,7 +21,7 @@ app-page-title = { $title } | { -product-firefox-accounts }
 ## FxA React - Strings shared between multiple FxA products for external link
 
 # Message for screen readers, to announce that external link will open in new window
-link-sr-new-window = Wócynja w nowym woknje
+link-sr-new-window = Wócynja w nowem woknje
 
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
