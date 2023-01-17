@@ -278,6 +278,7 @@ sub-update-payment-title = Πληροφορίες πληρωμής
 
 pay-with-heading-card-or = Ή πληρωμή με κάρτα
 pay-with-heading-card-only = Πληρωμή με κάρτα
+product-invoice-preview-error-title = Πρόβλημα φόρτωσης προεπισκόπησης τιμολογίου
 product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης τιμολογίου
 
 ## Routes - Product - IapRoadblock
@@ -371,6 +372,7 @@ sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πλ
 sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτή τη συνδρομή.
 invoice-not-found = Δεν βρέθηκε επόμενο τιμολόγιο
 sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο τιμολόγιο για αυτήν τη συνδρομή.
+sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση τιμολογίου
 
 ## Routes - Subscriptions - Pocket Subscription
 

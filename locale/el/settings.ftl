@@ -81,6 +81,7 @@ input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ω
 
 ## Ready component
 
+reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
