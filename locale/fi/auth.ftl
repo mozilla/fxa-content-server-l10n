@@ -540,5 +540,7 @@ verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen j�
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Vahvista tilisi
 verifyShortCode-title-2 = Avaa internet { -brand-firefox }illa
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verifyShortCode-prompt-3 = Käytä tätä vahvistuskoodia:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.
