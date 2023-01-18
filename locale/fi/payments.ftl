@@ -200,6 +200,94 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } vero
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } päivittäin
+       *[other] { $priceAmount } { $intervalCount } päivän välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } päivittäin
+           *[other] { $priceAmount } { $intervalCount } päivän välein
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } viikottain
+       *[other] { $priceAmount } { $intervalCount } viikon välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } viikottain
+           *[other] { $priceAmount } { $intervalCount } viikon välein
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } kuukausittain
+       *[other] { $priceAmount } { $intervalCount } kuukauden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kuukausittain
+           *[other] { $priceAmount } { $intervalCount } kuukauden välein
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } vuosittain
+       *[other] { $priceAmount } { $intervalCount } vuoden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } vuosittain
+           *[other] { $priceAmount } { $intervalCount } vuoden välein
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + vero { $taxAmount } päivittäin
+       *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } päivän välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + vero { $taxAmount } päivittäin
+           *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } päivän välein
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + vero { $taxAmount } viikottain
+       *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } viikon välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + vero { $taxAmount } viikottain
+           *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } viikon välein
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + vero { $taxAmount } kuukausittain
+       *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } kuukauden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + vero { $taxAmount } kuukausittain
+           *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } kuukauden välein
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + vero { $taxAmount } vuosittain
+       *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } vuoden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + vero { $taxAmount } vuosittain
+           *[other] { $priceAmount } + vero { $taxAmount } { $intervalCount } vuoden välein
+        }
 
 ## Component - SubscriptionTitle
 
@@ -231,6 +319,50 @@ coupon-promo-code = Tarjouskoodi
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } päivittäin
+       *[other] { $amount } { $intervalCount } päivän välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } päivittäin
+           *[other] { $amount } { $intervalCount } päivän välein
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } viikottain
+       *[other] { $amount } { $intervalCount } viikon välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } viikottain
+           *[other] { $amount } { $intervalCount } viikon välein
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } kuukausittain
+       *[other] { $amount } { $intervalCount } kuukauden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kuukausittain
+           *[other] { $amount } { $intervalCount } kuukauden välein
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } vuosittain
+       *[other] { $amount } { $intervalCount } vuoden välein
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } vuosittain
+           *[other] { $amount } { $intervalCount } vuoden välein
+        }
 
 ## Error messages
 
@@ -359,6 +491,8 @@ pay-update-manage-btn = Hallitse
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Seuraava laskutus { $date }
+sub-next-bill-no-tax = Seuraava laskusi <strong>{ $priceAmount }</strong> erääntyy <strong>{ $date }</strong>
+sub-next-bill-tax = Seuraava laskusi <strong>{ $priceAmount } + vero { $taxAmount }</strong> erääntyy <strong>{ $date }</strong>
 sub-expires-on = Vanhenee { $date }
 
 ## Routes - Subscription - PaymentUpdate
