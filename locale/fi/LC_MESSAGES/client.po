@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-22 08:09+0000\n"
+"PO-Revision-Date: 2023-01-18 20:51+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1856,7 +1856,7 @@ msgstr "Hanki tilin palautusavain"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Vahvista tilin %(escapedEmail)s salasana luodaksesi tilin palautusavaimen."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
