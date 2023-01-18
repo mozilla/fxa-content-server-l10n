@@ -221,6 +221,7 @@ fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota 
 codes-reminder-description-part-two = Luo uudet koodit nyt, jotta et menetä tietojasi myöhemmin.
 codes-reminder-description-two-left = Sinulla on vain kaksi koodia jäljellä.
 lowRecoveryCodes-action-2 = Luo koodeja
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
@@ -254,6 +255,9 @@ passwordResetAccountRecovery-title-2 = Salasanan nollaus onnistui
 passwordResetAccountRecovery-description-2 = Käytit tilisi palautusavaimen päivittääksesi salasanasi:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Luo uusi tilin palautusavain
+passwordResetAccountRecovery-regen-required-mjml-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle:
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
 # This is asking whether the person who took the action is the recipient of the email.
@@ -295,6 +299,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Et tarvitse enää kertakäytt�
 postVerify-sub-title-3 = Mukava nähdä sinua!
 postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
+postVerify-sub-description = (Psst… Se tarkoittaa myös, että saat kirjanmerkkisi, salasanasi ja muut { -brand-firefox }in tiedot kaikkialle, mihin olet kirjautunut sisään.)
 postVerify-subject-3 = Tervetuloa { -brand-firefox }iin!
 postVerify-setup-2 = Yhdistä toinen laite:
 postVerify-action-2 = Yhdistä toinen laite
@@ -306,6 +311,9 @@ postVerifySecondary-content-2 = Olet vahvistanut osoitteen { $secondaryEmail } t
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
 recovery-title-2 = Unohditko salasanasi?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Saimme { -product-firefox-account }n salasanan vaihtopyynnön lähteestä:
 recovery-new-password-button = Luo uusi salasana napsauttamalla alla olevaa painiketta. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-copy-paste = Luo uusi salasana kopioimalla ja liittämällä alla oleva URL-osoite selaimeesi. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-action = Luo uusi salasana
@@ -349,6 +357,8 @@ subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Olemme peruuttaneet { $productName } -tilauksesi. Viimeinen maksusi { $invoiceTotal } maksettiin { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Olemme peruuttaneet { $productName } -tilauksesi. Viimeinen maksusi { $invoiceTotal } maksetaan { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Palvelu jatkuu nykyisen laskutuskauden loppuun, joka on { $serviceLastActiveDateOnly }.
