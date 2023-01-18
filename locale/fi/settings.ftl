@@ -64,6 +64,8 @@ sign-in-complete-header = Kirjautuminen vahvistettu
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
 ## ResetPasswordLinkExpired component
 
@@ -617,17 +619,23 @@ account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavaint
 # Header for form to create new password
 create-new-password-header = Luo uusi salasana
 confirm-account-recovery-key-button = Nollaa salasana
+account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 
 ## CompleteResetPassword component
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Luo uusi salasana
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
 
 ## Confirm Reset Password Component
 
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Luo uusi salasana napsauttamalla osoitteeseen { $email } lähetetyssä viestissä olevaa linkkiä tunnin sisällä.
 
 ## ResetPassword page
 
