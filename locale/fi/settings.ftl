@@ -58,6 +58,7 @@ ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
 ready-account-ready = Tilisi on valmis!
 ready-continue = Jatka
 sign-in-complete-header = Kirjautuminen vahvistettu
+pulsing-hearts-description = Vaaleanpunainen kannettava tietokone ja violetti mobiililaite, joissa kummassakin sykkivä sydän
 
 ## ResetPasswordLinkDamaged component
 
@@ -663,6 +664,7 @@ account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin p
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Luo uusi salasana
+complete-reset-password-warning-message = <span>Muista:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta  { product-pocket }issa oleviin tietoihin.
 # This information message is followed by a form to create a new password.
 complete-reset-password-account-recovery-info = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 # A new password was successfully set for the user's account
@@ -690,6 +692,7 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
+reset-password-warning-message = <span>Huomaa:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta  { product-pocket }issa oleviin tietoihin.
 reset-password-button = Aloita nollaus
 reset-password-success-alert = Salasanan nollaus
 reset-password-error-general = Valitettavasti salasanaa nollatessa ilmeni ongelma
