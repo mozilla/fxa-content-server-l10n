@@ -627,6 +627,13 @@ auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin palautusavaimella <span>jatkaksesi tilin asetuksiin</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
 account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -680,6 +687,7 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
 reset-password-button = Aloita nollaus
 reset-password-success-alert = Salasanan nollaus
+reset-password-error-general = Valitettavasti salasanaa nollatessa ilmeni ongelma
 reset-password-error-unknown-account = Tuntematon tili
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
