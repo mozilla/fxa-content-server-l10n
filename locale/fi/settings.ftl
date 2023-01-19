@@ -601,6 +601,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
+tfa-row-disable-modal-explain-1 =
+    Et voi kumota tätä toimintoa. Sinulla on myös
+    mahdollisuus <linkExternal>uusia varatodennuskoodisi</linkExternal>.
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
 tfa-row-change-modal-heading-1 = Vaihdetaanko varatodennuskoodit?
 tfa-row-change-modal-confirm = Vaihda
@@ -636,6 +639,7 @@ account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin p
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
 account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
+account-recovery-confirm-key-warning-message = <span>Huomaa:</span> Jos nollaat salasanasi etkä ole tallentanut tilin palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja kirjanmerkit).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Anna tilin palautusavain

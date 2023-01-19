@@ -272,6 +272,8 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Sinun on kirjauduttava uude
 passwordResetAccountRecovery-regen-required-txt-1 = Sinun on kirjauduttava uudelleen sisään kaikille synkronoiduille laitteillesi. Muista luoda uusi tilin palautusavain käyttämäsi tilalle:
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Uusi avain luotiin käyttäen:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Etkö se ollut sinä?
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Poista uusi avain</a> ja <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>
@@ -285,6 +287,8 @@ postAddLinkedAccount-title = { $providerName }-tilisi on linkitetty { -product-f
 postAddLinkedAccount-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Otit sen käyttöön käyttäen:
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-code-required-2 = Todennussovelluksen turvallisuuskoodit vaaditaan tästä lähtien aina kirjauduttaessa.
 postChangePrimary-subject = Ensisijainen sähköpostiosoite päivitetty
@@ -294,6 +298,8 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 postChangePrimary-description = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-firefox-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
 postConsumeRecoveryCode-title-2 = Käytit varatodennuskoodin
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Se käytettiin käyttäen:
 postConsumeRecoveryCode-action = Hallinnoi tiliä
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
@@ -302,9 +308,13 @@ postConsumeRecoveryCode-subject-2 =
     }
 postNewRecoveryCodes-subject-2 = Uudet varatodennuskoodit luotu
 postNewRecoveryCodes-title-2 = Loit uudet varatodennuskoodit
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Ne luotiin käyttäen:
 postNewRecoveryCodes-action = Hallinnoi tiliä
 postRemoveAccountRecovery-subject-2 = Tilin palautusavain poistettu
 postRemoveAccountRecovery-title-2 = Poistit tilisi palautusavaimen.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Se poistettiin käyttäen:
 postRemoveAccountRecovery-action = Hallinnoi tiliä
 postRemoveAccountRecovery-invalid-2 = Tarvitset tilin palautusavaimen palauttaaksesi { -brand-firefox }-tietosi, jos unohdat salasanasi.
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
@@ -315,6 +325,8 @@ postRemoveSecondary-description = Olet poistanut toissijaisen sähköpostiosoitt
 postRemoveSecondary-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-subject-line-2 = Kaksivaiheinen todennus poistettu käytöstä
 postRemoveTwoStepAuthentication-title-2 = Poistit kaksivaiheisen todennuksen käytöstä
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Poistit sen käytöstä käyttäen:
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required-2 = Et tarvitse enää kertakäyttökoodeja todennussovelluksestasi kirjautuessasi sisään.
 postVerify-sub-title-3 = Mukava nähdä sinua!
