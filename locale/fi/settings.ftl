@@ -270,6 +270,10 @@ nav-email-comm = Sähköpostiviestintä
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Varatodennuskoodiesi korvaamisessa ilmeni ongelma
+tfa-replace-code-success-1 =
+    Uudet koodit on luotu. Talleta nämä kertakäyttöiset
+    varatodennuskoodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi,
+    jos mobiililaitteesi ei ole käytettävissäsi.
 tfa-replace-code-success-alert-3 = Tilin varatodennuskoodit päivitetty
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
