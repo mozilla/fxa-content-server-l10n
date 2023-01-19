@@ -664,6 +664,7 @@ account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñe
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
+complete-reset-password-warning-message = <span>Nemandu’ápa:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha, ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { product-pocket } mba’ekuaarã naiñambuemo’ãi.
 # This information message is followed by a form to create a new password.
 complete-reset-password-account-recovery-info = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 # A new password was successfully set for the user's account
