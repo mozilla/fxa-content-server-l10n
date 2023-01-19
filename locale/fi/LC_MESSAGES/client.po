@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-19 06:32+0000\n"
+"PO-Revision-Date: 2023-01-19 06:35+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1968,7 +1968,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "sijaintipiste"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -2054,7 +2054,7 @@ msgstr "Paritus onnistui."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Vahvista parin muodostaminen <span class=\"card-subheader\">tilille <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

@@ -214,6 +214,7 @@ flow-container-back = Takaisin
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-varatodennuskoodit
 get-data-trio-download =
     .title = Lataa
 get-data-trio-copy =
@@ -268,6 +269,7 @@ nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-success-alert-3 = Tilin varatodennuskoodit päivitetty
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
 
@@ -436,6 +438,8 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
+tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
+tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
     Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
