@@ -269,6 +269,7 @@ nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Varatodennuskoodiesi korvaamisessa ilmeni ongelma
 tfa-replace-code-success-alert-3 = Tilin varatodennuskoodit päivitetty
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
@@ -459,6 +460,9 @@ tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
 tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
 tfa-input-enter-totp =
     .label = Kirjoita turvallisuuskoodi
+tfa-save-these-codes-1 =
+    Tallenna nämä varatodennuskoodit turvalliseen paikkaan
+    sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
 
 ##
 
@@ -581,6 +585,7 @@ tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli on
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
+tfa-row-change-modal-heading-1 = Vaihdetaanko varatodennuskoodit?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
@@ -606,6 +611,7 @@ auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Anna tilin palautusavain
@@ -634,6 +640,9 @@ complete-reset-password-account-recovery-info = Olet palauttanut tilisi onnistun
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
 
 ## Confirm Reset Password Component
 
