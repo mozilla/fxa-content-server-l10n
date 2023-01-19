@@ -640,6 +640,7 @@ account-recovery-confirm-key-heading-w-default-service = Erujey ñe’ẽñemi m
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Erujey ñe’ẽñemi mba’eñemi jeguerujeyrã ndive <span>eku’ejey hag̃ua { $serviceName }</span>
 account-recovery-confirm-key-instructions = Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Jehaipy</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’eñemi jeguerujeyrã, oguekuaa mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva tambiasakue ha techaukaha).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
@@ -663,6 +664,8 @@ account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñe
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
