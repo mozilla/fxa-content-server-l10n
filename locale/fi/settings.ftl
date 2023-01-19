@@ -572,6 +572,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
 se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
+se-content-note-1 =
+    Huomio: toissijainen sähköposti ei palauta tietojasi — tarvitset
+    <a>tilin palautusavaimen</a> sitä varten.
 # Default value for the secondary email
 se-secondary-email-none = Ei mitään
 
@@ -659,12 +662,22 @@ complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Nollaussähköposti lähetetty
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Luo uusi salasana napsauttamalla osoitteeseen { $email } lähetetyssä viestissä olevaa linkkiä tunnin sisällä.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tilin asetuksiin</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
 reset-password-button = Aloita nollaus
 reset-password-success-alert = Salasanan nollaus
 reset-password-error-unknown-account = Tuntematon tili
