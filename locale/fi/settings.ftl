@@ -389,6 +389,7 @@ display-name-success-alert-2 = Näyttönimi päivitetty
 recovery-key-cancel-button = Peruuta
 recovery-key-close-button = Sulje
 recovery-key-continue-button = Jatka
+recovery-key-created-1 = Tilin palautusavain on luotu. Talleta avain turvalliseen paikkaan, jonka löydät vaivatta myöhemmin — tarvitset avaimen päästäksesi takaisin tietoihisi, jos unohdat salasanasi.
 recovery-key-enter-password =
     .label = Kirjoita salasana
 recovery-key-page-title-1 =
