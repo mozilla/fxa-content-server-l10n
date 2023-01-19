@@ -467,6 +467,12 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Tallenna nämä varatodennuskoodit turvalliseen paikkaan
     sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
+tfa-enter-code-to-confirm-1 =
+    Anna jokin varatodennuskoodeistasi nyt vahvistaaksesi,
+    että olet tallentanut sen. Tarvitset koodin kirjautumiseen, jos sinulla ei ole pääsyä
+    mobiililaitteellesi.
+tfa-enter-recovery-code-1 =
+    .label = Anna varatodennuskoodi
 
 ##
 
