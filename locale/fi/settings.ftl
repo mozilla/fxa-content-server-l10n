@@ -535,6 +535,9 @@ rk-refresh-key-1 = Päivitä tilin palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 rk-remove-modal-heading-1 = Poistetaanko tilin palautusavain?
+rk-remove-modal-content-1 =
+    Jos nollaat salasanasi, et voi käyttää tilin palautusavainta
+    saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
 rk-refresh-error-1 = Valitettavasti tilin palautusavaimen päivittämisessä oli ongelma.
 rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
 
