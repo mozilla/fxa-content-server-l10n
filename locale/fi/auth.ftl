@@ -220,10 +220,20 @@ fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a 
 fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Varatodennuskoodit ovat loppuneet!
+codes-reminder-title-one = Käytät viimeistä varatodennuskoodiasi
+codes-reminder-title-two = Aika luoda lisää varatodennuskoodeja
+codes-reminder-description-part-one = Varatodennuskoodien avulla voit palauttaa tietosi, kun unohdat salasanasi.
 codes-reminder-description-part-two = Luo uudet koodit nyt, jotta et menetä tietojasi myöhemmin.
 codes-reminder-description-two-left = Sinulla on vain kaksi koodia jäljellä.
+codes-reminder-description-create-codes = Luo uudet varatodennuskoodit, joiden avulla pääset takaisin tilillesi, jos se on lukittu tai salasana unohtunut.
 lowRecoveryCodes-action-2 = Luo koodeja
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Varatodennuskoodeja ei ole jäljellä
+        [one] Vain 1 varatodennuskoodi jäljellä
+       *[other] Vain { $numberRemaining } varatodennuskoodia jäljellä!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
@@ -276,13 +286,22 @@ postAddLinkedAccount-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
+postAddTwoStepAuthentication-code-required-2 = Todennussovelluksen turvallisuuskoodit vaaditaan tästä lähtien aina kirjauduttaessa.
 postChangePrimary-subject = Ensisijainen sähköpostiosoite päivitetty
 postChangePrimary-title = Uusi ensisijainen sähköposti
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-firefox-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
+postConsumeRecoveryCode-title-2 = Käytit varatodennuskoodin
 postConsumeRecoveryCode-action = Hallinnoi tiliä
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 varatodennuskoodi jäljellä
+       *[other] { $numberRemaining } varatodennuskoodia jäljellä
+    }
+postNewRecoveryCodes-subject-2 = Uudet varatodennuskoodit luotu
+postNewRecoveryCodes-title-2 = Loit uudet varatodennuskoodit
 postNewRecoveryCodes-action = Hallinnoi tiliä
 postRemoveAccountRecovery-subject-2 = Tilin palautusavain poistettu
 postRemoveAccountRecovery-title-2 = Poistit tilisi palautusavaimen.
