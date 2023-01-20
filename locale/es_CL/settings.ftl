@@ -623,7 +623,15 @@ auth-error-1008 = Tu nueva conraseña debe ser diferente
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Restablece la contraseña con la clave de recuperación de la cuenta <span>para continuar a los ajustes de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Restablece la contraseña con la clave de recuperación de la cuenta <span>para continuar con { $serviceName }</span>
 account-recovery-confirm-key-instructions = Por favor, ingresa la clave de recuperación de cuenta de un solo uso que guardaste en un lugar seguro para recuperar el acceso a tu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Si restableces tu contraseña y no tienes tu clave de recuperación de cuenta guardada, algunos de tus datos serán eliminados (incluyendo los datos sincronizados con el servidor como el historial y los marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Ingresar clave de recuperación de cuenta
@@ -647,6 +655,7 @@ account-restored-success-message = Has restaurado exitosamente tu cuenta usando 
 
 # User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Crear nueva contraseña
+complete-reset-password-warning-message = <span>Recuerda:</span> Cuando restableces tu contraseña, también lo hace tu cuenta. Puedes perder información personal (incluidos marcadores, y contraseñas). Esto ocurre porque nosotros encriptamos tus datos con tus contraseñas para proteger tu privacidad. Mantendrás cualquier suscripción que tengas y los datos de { product-pocket } no se verán afectados.
 # This information message is followed by a form to create a new password.
 complete-reset-password-account-recovery-info = Has restaurado exitosamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos, y guárdala en un lugar seguro.
 # A new password was successfully set for the user's account
