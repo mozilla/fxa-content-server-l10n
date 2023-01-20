@@ -19,6 +19,7 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Comptes del Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -27,6 +28,7 @@
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -178,6 +180,7 @@ header-help = Ajuda
 
 ## Linked Accounts section
 
+la-unlink-content-3 = Esteu segur que voleu desenllaçar el compte? Si el desenllaceu, no se us tancaran les sessions dels serveis actualment connectats. Per fer-ho, caldrà que tanqueu la sessió manualment en la secció de Serveis connectats.
 
 ## Modal
 
@@ -245,7 +248,11 @@ avatar-page-image-too-large-error-2 = La mida de la imatge és massa gran per pu
 pw-change-header =
     .title = Canvia la contrasenya
 pw-8-chars = 8 caràcters com a mínim
+pw-not-email = No pot ser la vostra adreça electrònica
 pw-change-must-match = La contrasenya nova coincideix amb la confirmació
+pw-commonly-used = No pot ser una contrasenya d'ús comú
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Protegiu-vos: no reutilitzeu les contrasenyes. Vegeu més consells per a la <linkExternal>creació de contrasenyes segures</linkExternal>.
 pw-change-cancel-button = Cancel·la
 pw-change-save-button = Desa
 pw-change-forgot-password-link = Heu oblidat la contrasenya?
@@ -255,12 +262,17 @@ pw-change-new-password =
     .label = Introduïu una contrasenya nova
 pw-change-confirm-password =
     .label = Confirmeu la contrasenya nova
+pw-change-success-alert-2 = S'ha actualitzat la contrasenya
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Creeu una contrasenya
+pw-create-success-alert-2 = S'ha definit la contrasenya
+pw-create-error-2 = S'ha produït un problema en definir la contrasenya
 
 ##
 
@@ -273,6 +285,8 @@ delete-account-step-1-2 = Pas 1 de 2
 delete-account-step-2-2 = Pas 2 de 2
 delete-account-confirm-title-2 = Heu connectat el vostre { -product-firefox-account } als productes de { -brand-mozilla } que us mantenen segur i productiu al web:
 delete-account-acknowledge = Tingueu en compte que, en suprimir el vostre compte:
+delete-account-chk-box-1-v2 =
+    .label = Es cancel·laran totes les subscripcions de pagament que tingueu (excepte el{ product-pocket })
 delete-account-chk-box-2 =
     .label = És possible que perdeu la informació desada i la funcionalitat dels productes de { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -296,6 +310,8 @@ display-name-input =
     .label = Introduïu el nom a mostrar
 submit-display-name = Desa
 cancel-display-name = Cancel·la
+display-name-update-error-2 = S'ha produït un problema en actualitzar el vostre nom a mostrar
+display-name-success-alert-2 = S'ha actualitzat el nom a mostrar
 
 ##
 
@@ -312,6 +328,7 @@ recovery-key-step-2 = Pas 2 de 2
 
 ## Add secondary email page
 
+add-secondary-email-error-2 = S'ha produït un problema en crear aquesta adreça electrònica
 add-secondary-email-page-title =
     .title = Adreça electrònica secundària
 add-secondary-email-enter-address =
@@ -321,9 +338,13 @@ add-secondary-email-save-button = Desa
 
 ## Verify secondary email page
 
+verify-secondary-email-error-3 = S'ha produït un problema en enviar el codi de confirmació
 verify-secondary-email-page-title =
     .title = Adreça electrònica secundària
+verify-secondary-email-verification-code-2 =
+    .label = Introduïu el codi de confirmació
 verify-secondary-email-cancel-button = Cancel·la
+verify-secondary-email-verify-button-2 = Confirma
 
 ##
 
@@ -374,6 +395,8 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Seguretat
+security-not-set = No s'ha definit
+security-action-create = Crea
 
 ## Switch component
 
