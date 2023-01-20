@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -32,7 +33,24 @@ product-firefox-monitor = Firefox Monitor
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Amaga la contrasenya
+input-password-show = Mostra la contrasenya
+input-password-hide-aria = Amaga la contrasenya de la pantalla.
+input-password-show-aria = Mostra la contrasenya com a text net. La contrasenya serà visible a la pantalla.
+
+## LinkRememberPassword component
+
+
 ## Ready component
+
+
+## ResetPasswordLinkDamaged component
+
+
+## ResetPasswordLinkExpired component
+
 
 ## Alert Bar
 
@@ -47,17 +65,16 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Menú Bento del { -brand-firefox }
 bento-menu-firefox-title = El { -brand-firefox } és una tecnologia que lluita per la vostra privadesa en línia.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } per a l'escriptori
 bento-menu-firefox-mobile = Navegador { -brand-firefox } per al mòbil
-
 bento-menu-made-by-mozilla = Creat per { -brand-mozilla }
 
 ## Connect another device promo
@@ -69,19 +86,22 @@ connect-another-find-fx-mobile =
 
 ##
 
+
 ## Connected services section
 
 cs-heading = Serveis connectats
 cs-description = Tots els serveis que utilitzeu i en els quals heu iniciat la sessió.
 cs-cannot-refresh = Hi ha hagut un problema en actualitzar la llista de serveis connectats.
 cs-cannot-disconnect = No s'ha trobat el client; no s'ha pogut desconnectar
-
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = S'ha tancat la sessió del { $service }
 cs-refresh-button =
     .title = Actualitza els serveis connectats
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Hi ha elements duplicats o que falten?
-
 cs-disconnect-sync-heading = Desconnecta del Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -89,6 +109,7 @@ cs-disconnect-sync-heading = Desconnecta del Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -107,10 +128,10 @@ cs-disconnect-lost-advice-heading = S'ha desconnectat el dispositiu perdut o rob
 cs-disconnect-lost-advice-content-2 = Com que el vostre dispositiu s'ha extraviat o robat, per tal de mantenir la vostra informació segura, hauríeu de canviar la contrasenya del { -product-firefox-account } des dels paràmetres del compte. Addicionalment, hauríeu de cercar informació del fabricant del dispositiu sobre com esborrar les dades remotament.
 cs-disconnect-suspicious-advice-heading = S'ha desconnectat el dispositiu sospitós
 cs-disconnect-suspicious-advice-content = Si el dispositiu desconnectat és en efecte sospitós, per mantenir la vostra informació segura, hauríeu de canviar la vostra contrasenya del { -product-firefox-account } des dels paràmetres del compte. També hauríeu de canviar qualsevol altra contrasenya desada en el { -brand-firefox } escrivint «about:logins» a la barra de cerca.
-
 cs-sign-out-button = Tanca la sessió
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -122,6 +143,7 @@ datablock-print =
     .message = S'ha imprès
 
 ## Data collection section
+
 
 # DropDownAvatarMenu component
 
@@ -154,15 +176,8 @@ header-back-to-top-link =
 header-title = { -product-firefox-accounts }
 header-help = Ajuda
 
-## Input Password
-
-input-password-hide = Amaga la contrasenya
-input-password-show = Mostra la contrasenya
-input-password-hide-aria = Amaga la contrasenya de la pantalla.
-input-password-show-aria = Mostra la contrasenya com a text net. La contrasenya serà visible a la pantalla.
-
-
 ## Linked Accounts section
+
 
 ## Modal
 
@@ -171,7 +186,14 @@ modal-cancel-button = Cancel·la
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Confirmeu l'adreça electrònica
+mvs-enter-verification-code-2 = Introduïu el codi de confirmació
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Introduïu el codi de confirmació que s'ha enviat a <email>{ $email }</email> en els pròxims 5 minuts.
 msv-cancel-button = Cancel·la
+msv-submit-button-2 = Confirma
 
 ## Settings Nav
 
@@ -183,6 +205,7 @@ nav-paid-subs = Subscripcions de pagament
 nav-email-comm = Comunicacions per correu electrònic
 
 ## Two Step Authentication - replace backup authentication code
+
 
 ## Avatar change page
 
@@ -210,19 +233,22 @@ avatar-page-rotate-button =
 avatar-page-camera-error = No s'ha pogut inicialitzar la càmera
 avatar-page-new-avatar =
     .alt = foto de perfil nova
+avatar-page-file-upload-error-3 = S'ha produït un problema en pujar la vostra foto de perfil
+avatar-page-delete-error-3 = S'ha produït un problema en suprimir la vostra foto de perfil
+avatar-page-image-too-large-error-2 = La mida de la imatge és massa gran per pujar-la
 
 ##
+
 
 ## Password change page
 
 pw-change-header =
     .title = Canvia la contrasenya
-
+pw-8-chars = 8 caràcters com a mínim
 pw-change-must-match = La contrasenya nova coincideix amb la confirmació
 pw-change-cancel-button = Cancel·la
 pw-change-save-button = Desa
 pw-change-forgot-password-link = Heu oblidat la contrasenya?
-
 pw-change-current-password =
     .label = Introduïu la contrasenya actual
 pw-change-new-password =
@@ -232,51 +258,47 @@ pw-change-confirm-password =
 
 ##
 
+
 ## Password create page
 
+
 ##
+
 
 ## Delete account page
 
 delete-account-header =
     .title = Suprimeix el compte
-
 delete-account-step-1-2 = Pas 1 de 2
 delete-account-step-2-2 = Pas 2 de 2
-
 delete-account-confirm-title-2 = Heu connectat el vostre { -product-firefox-account } als productes de { -brand-mozilla } que us mantenen segur i productiu al web:
-
 delete-account-acknowledge = Tingueu en compte que, en suprimir el vostre compte:
-
 delete-account-chk-box-2 =
     .label = És possible que perdeu la informació desada i la funcionalitat dels productes de { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Si reactiveu aquesta adreça electrònica, no recuperareu la vostra informació desada
 delete-account-chk-box-4 =
     .label = S'esborraran totes les extensions i temes que hàgiu publicat a addons.mozilla.org
-
-
 delete-account-continue-button = Continua
-
 delete-account-password-input =
     .label = Introduïu la contrasenya
-
 delete-account-cancel-button = Cancel·la
 delete-account-delete-button-2 = Suprimeix
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Nom a mostrar
-
 display-name-input =
     .label = Introduïu el nom a mostrar
 submit-display-name = Desa
 cancel-display-name = Cancel·la
 
 ##
+
 
 # Account recovery key setup page
 
@@ -311,35 +333,30 @@ delete-account-link = Suprimeix el compte
 ## Two Step Authentication
 
 tfa-title = Autenticació en dos passos
-
 tfa-step-1-3 = Pas 1 de 3
 tfa-step-2-3 = Pas 2 de 3
 tfa-step-3-3 = Pas 3 de 3
-
 tfa-button-continue = Continua
 tfa-button-cancel = Cancel·la
 tfa-button-finish = Finalitza
-
 tfa-incorrect-totp = El codi d'autenticació en dos passos és incorrecte
 tfa-cannot-retrieve-code = S'ha produït un problema en recuperar el vostre codi.
 tfa-enabled = S'ha activat l'autenticació en dos passos
-
 tfa-scan-this-code = Escanegeu aquest codi QR utilitzant una d'<linkExternal>aquestes aplicacions d'autenticació</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Utilitzeu el codi { $secret } per configurar l'autenticació en dos passos en aplicacions compatibles.
 tfa-button-cant-scan-qr = No podeu escanejar el codi?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduïu aquesta clau secreta a la vostra aplicació d'autenticació:
-
 tfa-enter-totp = Ara, introduïu el codi de seguretat de l'aplicació d'autenticació.
 tfa-input-enter-totp =
     .label = Introduïu el codi de seguretat
 
 ##
+
 
 ## Profile section
 
@@ -353,11 +370,13 @@ profile-primary-email =
 
 ##
 
+
 ## Security section of Setting
 
 security-heading = Seguretat
 
 ## Switch component
+
 
 ## Sub-section row Defaults
 
@@ -392,6 +411,7 @@ se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adre
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticació en dos passos
@@ -399,15 +419,12 @@ tfa-row-enabled = Activada
 tfa-row-not-set = No definida
 tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
-
 tfa-row-button-refresh =
     .title = Actualitza l'autenticació en dos passos
 tfa-row-cannot-refresh = S'ha produït un error en actualitzar la verificació en dos passos.
 tfa-row-content-explain = Impediu que altres persones iniciïn la sessió demanant un codi únic que no conegui ningú altre.
-
 tfa-row-disable-modal-heading = Voleu desactivar l'autenticació en dos passos?
 tfa-row-disable-modal-confirm = Desactiva
-
 tfa-row-change-modal-confirm = Canvia
 tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
 
@@ -418,3 +435,21 @@ auth-error-103 = Contrasenya incorrecta
 auth-error-110 = El testimoni no és vàlid
 auth-error-155 = No s'ha trobat el testimoni TOTP
 auth-error-1008 = La contrasenya nova ha de ser diferent
+
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+

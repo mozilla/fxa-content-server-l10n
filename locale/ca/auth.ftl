@@ -14,10 +14,41 @@ subplat-explainer-was-deleted = Heu rebut aquest missatge perquè s’ha utilitz
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gestioneu la configuració del vostre { -product-firefox-account } visitant aquesta pàgina: { $accountSettingsUrl }
 subplat-update-billing = Actualitza la informació de facturació
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Per a més informació, visiteu l’<a data-l10n-name="supportLink">Assistència de { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Aquest és un correu automàtic. Si l’heu rebut per error, no cal que feu fer res.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Aquest és un correu automàtic; si no heu autoritzat aquesta acció, canvieu la contrasenya:
 change-password-plaintext = Si sospiteu que algú està provant d’accedir al vostre compte, canvieu la contrasenya.
 manage-account = Gestiona el compte
+payment-details = Detalls de pagament:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Número de factura: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Cobrat: { $invoiceTotal } el { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Targeta { $cardType } acabada en { $lastFour }
+subscriptionSupport = Teniu dutes sobre la subscripció? L’<a data-l10n-name="subscriptionSupportUrl">equip d’assistència</a> és aquí per a ajudar-vos.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Teniu dubtes sobre la vostra subscripció? El nostre equip de suport és aquí per ajudar-vos:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Gràcies per subscriure-us al { $productName }. Si teniu qualsevol dubte o us cal més informació sobre el { $productName }, <a data-l10n-name="subscriptionSupportUrl">contacteu amb nosaltres</a>.
+downloadSubscription-link-action-2 = Primers passos
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Inici de sessió nou al { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = No recordeu haver-ho fet? Canvieu la contrasenya:
 newDeviceLogin-action = Gestiona el compte
 passwordChanged-title = La contrasenya s’ha canviat correctament
 passwordChangeRequired-title = Cal que canvieu la contrasenya
