@@ -516,6 +516,7 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } on päivitetty tuotteesee
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Seuraavasta laskustasi alkaen veloitus muuttuu nykyisestä hinnasta { $paymentAmountOld } per { $productPaymentCycleOld } hintaan { $paymentAmountNew } per { $productPaymentCycleNew }. Tuolloin sinulta veloitetaan kertaluonteinen kulu, suuruudeltaan { $paymentProrated }, mikä vastaa tämän { $productPaymentCycleOld } jakson loppuosan suurempaa veloitusta.
+subscriptionUpgrade-content-charge-info-different-cycle = Sinulta veloitetaan kertaluonteinen maksu { $paymentProrated }, joka vastaa tilauksesi korkeampaa hintaa tämän { $productPaymentCycleOld } loppuosan ajalta. Seuraavasta laskustasi alkaen veloitus muuttuu nykyisestä { $paymentAmountOld } / { $productPaymentCycleOld }, uusi veloitus on { $paymentAmountNew } / { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Jos tarjolla on asennettavaksi uusi ohjelma { $productName }:n käyttämiseksi, saat erillisen sähköpostiviestin, joka sisältää latausohjeet.
