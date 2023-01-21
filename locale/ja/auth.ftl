@@ -209,7 +209,7 @@ downloadSubscription-subject = { $productName } へようこそ。
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } へようこそ。
 downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
-downloadSubscription-link-action-2 = はじめに
+downloadSubscription-link-action-2 = はじめましょう
 fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } が削除されました
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
 fraudulentAccountDeletion-content = このメールアドレスを使って { -product-firefox-account } が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
