@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = Shitore Aplikacionesh
 
+## Input Password
+
+input-password-hide = Fshihe fjalëkalimin
+input-password-show = Shfaqe fjalëkalimin
+input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
+input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Llogaria juaj është gati!
 ready-continue = Vazhdo
 sign-in-complete-header = Hyrje e ripohuar
 pulsing-hearts-description = Një laptop rozë dhe një pajisje celulare e purpurt, secila me një zemër që rreh
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Lidhja e ricaktimit të fjalëkalimit është e dëmtuar
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Lidhja e ricaktimit të fjalëkalimit skadoi
+reset-pwd-link-expired-message = Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Merrni lidhje të re
 
 ## Alert Bar
 
@@ -206,13 +229,6 @@ header-back-to-top-link =
     .title = Mbrapsht te kreu
 header-title = { -product-firefox-accounts }
 header-help = Ndihmë
-
-## Input Password
-
-input-password-hide = Fshihe fjalëkalimin
-input-password-show = Shfaqe fjalëkalimin
-input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
-input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
 
 ## Linked Accounts section
 
@@ -610,26 +626,66 @@ auth-error-155 = S’u gjet token TOTP
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te rregullimet e llogarisë</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te { $serviceName }</span>
+account-recovery-confirm-key-instructions = Ju lutemi, që të rimerrni hyrjen te { -product-firefox-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
+account-recovery-confirm-key-warning-message = <spanSHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Jepni kyç rimarrjeje llogarie
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Ripohoni kyç rimarrjeje llogarie
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Kyç rimarrjeje llogarie i pavlefshëm
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Lypset kyç rimarrjeje llogarie
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = S’keni kyç rimarrjeje llogarie?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Lidhja e ricaktimit të fjalëkalimit skadoi
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Lidhja e ricaktimit të fjalëkalimit është e dëmtuar
 # Header for form to create new password
 create-new-password-header = Krijoni fjalëkalim të ri
-# Link that user can click to receive a new reset password link
-receive-new-link = Merrni lidhje të re
 confirm-account-recovery-key-button = Ricaktoni fjalëkalimin
 account-restored-success-message = E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes së llogarisë. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezik.
-password-link-damaged-message = Lidhjes që klikuat i mungonin shenja, dhe mund të jetë dëmtuar nga klienti juaj email. Kopjojeni adresën me kujdes, dhe riprovoni.
-password-link-expired-message = Lidhja që klikuat për ricaktimin e fjalëkalimit tuaj ka skaduar.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Krijoni fjalëkalim të ri
+complete-reset-password-warning-message = <span>Mbani mend:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { product-pocket } s’do të preken.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes së llogarisë. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezik.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Fjalëkalimi u caktua
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Email-i për ricaktim u dërgua
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Për të krijuar një fjalëkalim të ri, klikoni, brenda orës që vjen, mbi lidhjen që u dërgua me email te { $email }.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ricaktoni fjalëkalimin
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>Që të vazhdoni te { $serviceName }</span>, ricaktoni fjalëkalimin
 reset-password-warning-message = <span>Shënim:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { product-pocket } s’do të preken.
@@ -639,3 +695,7 @@ reset-password-error-general = Na ndjeni, pati një problem me ricaktimin e fjal
 reset-password-error-unknown-account = Llogari e panjohur
 reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
 reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Faleminderit për vigjilencën tuaj
