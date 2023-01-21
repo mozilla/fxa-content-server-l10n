@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-21 15:50+0000\n"
+"PO-Revision-Date: 2023-01-21 15:52+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1423,7 +1423,7 @@ msgstr "Калі гэта сапраўдны адрас электроннай �
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Больш не валодаеце гэтым адрасам эл.пошты? Стварыць новы ўліковы запіс"
+msgstr "Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс"
 
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
@@ -1501,7 +1501,7 @@ msgstr "Усталюйце пароль"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr "Змяніць эл.пошту"
+msgstr "Змяніць адрас электроннай пошты"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
