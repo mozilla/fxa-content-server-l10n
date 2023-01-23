@@ -308,6 +308,51 @@ plan-price-interval-day =
             [few] { $amount } kóžde { $intervalCount } dny
            *[other] { $amount } kóžde { $intervalCount } dnjow
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } kóždy tydźeń
+        [two] { $amount } kóždej { $intervalCount } njedźeli
+        [few] { $amount } kóžde { $intervalCount } njedźele
+       *[other] { $amount } kóžde { $intervalCount } njedźel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kóždy dźeń
+            [two] { $amount } kóždej { $intervalCount } njedźeli
+            [few] { $amount } kóžde { $intervalCount } njedźele
+           *[other] { $amount } kóžde { $intervalCount } njedźel
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } kóždy měsac
+        [two] { $amount } kóždej { $intervalCount } měsacaj
+        [few] { $amount } kóžde { $intervalCount } měsacy
+       *[other] { $amount } kóžde { $intervalCount } měsacow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kóždy měsac
+            [two] { $amount } kóždej { $intervalCount } měsacaj
+            [few] { $amount } kóžde { $intervalCount } měsacy
+           *[other] { $amount } kóžde { $intervalCount } měsacow
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } kóžde lěto
+        [two] { $amount } kóždej { $intervalCount } lěće
+        [few] { $amount } kóžde { $intervalCount } lěta
+       *[other] { $amount } kóžde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kóžde lěto
+            [two] { $amount } kóždej { $intervalCount } lěće
+            [few] { $amount } kóžde { $intervalCount } lěta
+           *[other] { $amount } kóžde { $intervalCount } lět
+        }
 
 ## Error messages
 
