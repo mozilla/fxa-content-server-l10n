@@ -636,7 +636,7 @@ account-recovery-confirm-key-heading-w-default-service = Ricaktoni fjalëkalimin
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ricaktoni fjalëkalimin përmes kyçi rimarrjeje llogarie, <span>që të vazhdoni te { $serviceName }</span>
 account-recovery-confirm-key-instructions = Ju lutemi, që të rimerrni hyrjen te { -product-firefox-account } juaj, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik.
-account-recovery-confirm-key-warning-message = <spanSHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
+account-recovery-confirm-key-warning-message = <span>SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga shërbyesi, f.v., historik dhe shfletues).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Jepni kyç rimarrjeje llogarie
