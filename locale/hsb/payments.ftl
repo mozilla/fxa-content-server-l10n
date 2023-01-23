@@ -232,6 +232,36 @@ price-details-no-tax-week =
             [few] { $priceAmount } kóžde { $intervalCount } njedźele
            *[other] { $priceAmount } kóžde { $intervalCount } njedźel
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } kóždy měsac
+        [two] { $priceAmount } kóždej { $intervalCount } měsacaj
+        [few] { $priceAmount } kóžde { $intervalCount } měsacy
+       *[other] { $priceAmount } kóžde { $intervalCount } měsacow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kóždy měsac
+            [two] { $priceAmount } kóždej { $intervalCount } měsacaj
+            [few] { $priceAmount } kóžde { $intervalCount } měsacy
+           *[other] { $priceAmount } kóžde { $intervalCount } měsacow
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } kóžde lěto
+        [two] { $priceAmount } kóždej { $intervalCount } lěće
+        [few] { $priceAmount } kóžde { $intervalCount } lěta
+       *[other] { $priceAmount } kóžde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kóžde lěto
+            [two] { $priceAmount } kóždej { $intervalCount } lěće
+            [few] { $priceAmount } kóžde { $intervalCount } lěta
+           *[other] { $priceAmount } kóžde { $intervalCount } lět
+        }
 
 ## Component - SubscriptionTitle
 
@@ -263,6 +293,21 @@ coupon-promo-code = Akciski kod
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } kóždy dźeń
+        [two] { $amount } kóždej { $intervalCount } dnjej
+        [few] { $amount } kóžde { $intervalCount } dny
+       *[other] { $amount } kóžde { $intervalCount } dnjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kóždy dźeń
+            [two] { $amount } kóždej { $intervalCount } dnjej
+            [few] { $amount } kóžde { $intervalCount } dny
+           *[other] { $amount } kóžde { $intervalCount } dnjow
+        }
 
 ## Error messages
 
