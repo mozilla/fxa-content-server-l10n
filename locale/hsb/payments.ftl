@@ -202,6 +202,36 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } dawk
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } kóždy dźeń
+        [two] { $priceAmount } kóždej { $intervalCount } dnjej
+        [few] { $priceAmount } kóžde { $intervalCount } dny
+       *[other] { $priceAmount } kóžde { $intervalCount } dnjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kóždy dźeń
+            [two] { $priceAmount } kóždej { $intervalCount } dnjej
+            [few] { $priceAmount } kóžde { $intervalCount } dny
+           *[other] { $priceAmount } kóžde { $intervalCount } dnjow
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } kóždy tydźeń
+        [two] { $priceAmount } kóždej { $intervalCount } njedźeli
+        [few] { $priceAmount } kóžde { $intervalCount } njedźele
+       *[other] { $priceAmount } kóžde { $intervalCount } njedźel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kóždy tydźeń
+            [two] { $priceAmount } kóždej { $intervalCount } njedźeli
+            [few] { $priceAmount } kóžde { $intervalCount } njedźele
+           *[other] { $priceAmount } kóžde { $intervalCount } njedźel
+        }
 
 ## Component - SubscriptionTitle
 
