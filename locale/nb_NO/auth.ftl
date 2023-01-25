@@ -288,7 +288,7 @@ postAddLinkedAccount-action = Behandle konto
 postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Du har slått det på det fra:
+postAddTwoStepAuthentication-from-device = Du har slått det på fra:
 postAddTwoStepAuthentication-action = Behandle konto
 postAddTwoStepAuthentication-code-required-2 = Sikkerhetskoder fra autentiseringsappen din kreves nå hver gang du logger inn.
 postChangePrimary-subject = Primær e-postadresse oppdatert
@@ -319,7 +319,14 @@ postRemoveAccountRecovery-action = Behandle konto
 postRemoveAccountRecovery-invalid-2 = Du trenger en kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataene dine hvis du glemmer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
 postRemoveSecondary-action = Behandle konto
+postRemoveTwoStepAuthentication-subject-line-2 = Totrinns-verifisering er slått av
+postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-verifisering
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Du har slått det av fra:
 postRemoveTwoStepAuthentication-action = Behandle konto
 postVerifySecondary-subject = Sekundær e-postadresse lagt til
 postVerifySecondary-title = Sekundær e-postadresse lagt til
