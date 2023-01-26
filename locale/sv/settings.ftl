@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Dölj lösenord
+input-password-show = Visa lösenord
+input-password-hide-aria = Dölj lösenord från skärmen.
+input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -52,6 +59,22 @@ ready-account-ready = Ditt konto är klart!
 ready-continue = Fortsätt
 sign-in-complete-header = Inloggning bekräftad
 pulsing-hearts-description = En rosa bärbar dator och en lila mobil enhet, var och en med ett bultande hjärta
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Länken för att återställa lösenordet fungerar inte
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Länken för återställning av lösenord har upphört
+reset-pwd-link-expired-message = Länken du klickade på för att återställa ditt lösenord har upphört att gälla.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Hämta ny länk
 
 ## Alert Bar
 
@@ -208,13 +231,6 @@ header-back-to-top-link =
     .title = Tillbaka till toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjälp
-
-## Input Password
-
-input-password-hide = Dölj lösenord
-input-password-show = Visa lösenord
-input-password-hide-aria = Dölj lösenord från skärmen.
-input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
 
 ## Linked Accounts section
 
@@ -612,26 +628,66 @@ auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till kontoinställningarna</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till { $serviceName }</span>
+account-recovery-confirm-key-instructions = Ange engångsnyckeln för kontoåterställning som du lagrade på ett säkert ställe för att återfå åtkomst till ditt { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Obs:</span> Om du återställer ditt lösenord och inte har din kontoåterställningsnyckel sparad kommer en del av dina data att raderas (inklusive synkroniserad serverdata som historik och bokmärken).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Ange nyckel för kontoåterställning
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Bekräfta nyckel för kontoåterställning
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Ogiltig nyckel för kontoåterställning
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Kontoåterställningsnyckel krävs
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Har du ingen kontoåterställningsnyckel?
+
 ## Account recovery reset password page
 
-#  Appears when a link to reset password has expired
-password-link-expired-header = Länken för återställning av lösenord har upphört
-# Appears when a link to reset password is damaged
-password-link-damaged-header = Länken för att återställa lösenordet fungerar inte
 # Header for form to create new password
 create-new-password-header = Skapa nytt lösenord
-# Link that user can click to receive a new reset password link
-receive-new-link = Hämta ny länk
 confirm-account-recovery-key-button = Återställ lösenordet
 account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
-password-link-damaged-message = Länken du klickade på saknade tecken och kan ha brutits av din e-postklient. Kopiera adressen noggrant och försök igen.
-password-link-expired-message = Länken du klickade på för att återställa ditt lösenord har upphört att gälla.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Skapa nytt lösenord
+complete-reset-password-warning-message = <span>Kom ihåg:</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { product-pocket }-data kommer inte att påverkas.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra den på en säker plats.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Lösenord satt
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Återställningsmejl skickat
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Klicka på länken som skickats till din { $email } inom den närmaste timmen för att skapa ett nytt lösenord.
 
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Återställ lösenordet <span>för att fortsätta till kontoinställningarna</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
 reset-password-warning-message = <span>Obs!</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { product-pocket }-data kommer inte att påverkas.
@@ -641,3 +697,8 @@ reset-password-error-general = Tyvärr, det uppstod ett problem med att återst�
 reset-password-error-unknown-account = Okänt konto
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Tack för din vaksamhet
+signin-reported-message = Vårt team har underrättats. Rapporter som denna hjälper oss att avvärja inkräktare.

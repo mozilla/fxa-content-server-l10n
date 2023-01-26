@@ -35,14 +35,46 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Ocultar contraseña
+input-password-show = Mostrar contraseña
+input-password-hide-aria = Ocultar la contraseña de la pantalla.
+input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
+
 ## Ready component
 
-ready-confirmation = Se ha restablecido tu contraseña
+reset-password-complete-header = Se ha restablecido tu contraseña
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ya tienes todo listo para usar { $serviceName }
+ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
+sign-in-complete-header = Inicio de sesión confirmado
+pulsing-hearts-description = Un portátil rosa y un móvil morado, cada uno con un corazón palpitante
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = El enlace para restablecer la contraseña está dañado
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = El enlace para restablecer la contraseña ha cadudado
+reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha caducado.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recibir nuevo enlace
 
 ## Alert Bar
 
@@ -199,13 +231,6 @@ header-back-to-top-link =
     .title = Volver arriba
 header-title = { -product-firefox-accounts }
 header-help = Ayuda
-
-## Input Password
-
-input-password-hide = Ocultar contraseña
-input-password-show = Mostrar contraseña
-input-password-hide-aria = Ocultar la contraseña de la pantalla.
-input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
 
 ## Linked Accounts section
 
@@ -599,3 +624,78 @@ auth-error-139 = El correo electrónico secundario debe ser diferente del correo
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-1008 = La nueva contraseña debe ser diferente
+
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Restablecer la contraseña con la clave de recuperación <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Restablecer la contraseña con la clave de recuperación de la cuenta <span>para continuar a { $serviceName }</span>
+account-recovery-confirm-key-instructions = Escribe la clave de un solo uso de recuperación de cuenta que guardaste en un lugar seguro para recuperar el acceso a tu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> si reinicias tu contraseña y no tienes guardada tu clave de recuperación de la cuenta, algunos de tus datos serán borrados (incluyendo datos sincronizados del servidor como historial y marcadores).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Introducir clave de recuperación de cuenta
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirmar clave de recuperación de cuenta
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Clave de recuperación de cuenta no válida
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Se requiere clave de recuperación de cuenta
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación de cuenta?
+
+## Account recovery reset password page
+
+# Header for form to create new password
+create-new-password-header = Crear nueva contraseña
+confirm-account-recovery-key-button = Restablecer contraseña
+account-restored-success-message = Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Crear nueva contraseña
+complete-reset-password-warning-message = <span>Recuerda:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { product-pocket } no se verán modificados.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Contraseña establecida
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Lo sentimos, ha surgido un problema al establecer tu contraseña
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Correo de restablecimiento enviado
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Para crear una nueva contraseña, haz clic en la próxima hora en el enlace que se envió a { $email }.
+
+## ResetPassword page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Restablecer contraseña <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+reset-password-warning-message = <span>Nota:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { product-pocket } no se verán modificados.
+reset-password-button = Iniciar restablecimiento
+reset-password-success-alert = Contraseña restablecida
+reset-password-error-general = Lo sentimos, ha surgido un problema al establecer tu contraseña
+reset-password-error-unknown-account = Cuenta desconocida
+reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Gracias por tu vigilancia
+signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste nos permiten mantener a raya a los intrusos.
