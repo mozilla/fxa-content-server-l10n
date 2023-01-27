@@ -24,15 +24,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+  .label = New password
+form-reset-password-with-balloon-confirm-password =
+  .label = Re-enter password
+form-reset-password-with-balloon-submit-button = Reset password
+form-reset-password-with-balloon-match-error = Passwords do not match
 
 ## Input Password
 
@@ -42,39 +53,70 @@ input-password-hide-aria = Hide password from screen.
 input-password-show-aria = Show password as plain text. Your password will be visible on screen.
 
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Reset password link damaged
+
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Confirmation link damaged
+
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Reset password link expired
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Confirmation link expired
+reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
+signin-link-expired-message = The link you clicked to confirm your email is expired.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Receive new link
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Remember your password? Sign in
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primary email already confirmed
+
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Sign-in already confirmed
+
+confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Password requirements
+password-strength-balloon-min-length = At least 8 characters
+password-strength-balloon-not-email = Not your email address
+password-strength-balloon-not-common = Not a commonly used password
+password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Your password has been reset
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = You’re now ready to use { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = You’re now ready to use account settings
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Your account is ready!
 ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
+sign-up-complete-header = Account confirmed
 pulsing-hearts-description = A pink laptop and a purple mobile device each with a pulsing heart
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Reset password link damaged
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Reset password link expired
-reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Receive new link
+primary-email-verified-header = Primary email confirmed
 
 ## Alert Bar
 
@@ -94,10 +136,10 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
 
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
 
@@ -174,6 +216,8 @@ cs-disconnect-suspicious-advice-content = If the disconnected device is indeed
   passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
 
 cs-sign-out-button = Sign out
+
+cs-recent-activity = Recent Account Activity
 
 ##
 
@@ -354,12 +398,22 @@ delete-account-header =
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 
-delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
+delete-account-confirm-title-3 = You may have connected your { -product-firefox-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
+
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Syncing { -brand-firefox } data
+delete-account-product-firefox-addons = { -brand-firefox } Add-ons
 
 delete-account-acknowledge = Please acknowledge that by deleting your account:
 
-delete-account-chk-box-1-v2 =
- .label = Any paid subscriptions you have will be canceled (Except { product-pocket })
+delete-account-chk-box-1-v3 =
+ .label = Any paid subscriptions you have will be canceled (Except { -product-pocket })
 delete-account-chk-box-2 =
  .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
@@ -393,6 +447,18 @@ display-name-update-error-2 = There was a problem updating your display name
 display-name-success-alert-2 = Display name updated
 
 ##
+
+## Recent Activity
+
+recent-activity-title = Recent Account Activity
+
+recent-activity-account-create = Account was created
+recent-activity-account-disable = Account was disabled
+recent-activity-account-enable = Account was enabled
+recent-activity-account-login = Account initiated login
+recent-activity-account-reset = Account initiated password reset
+recent-activity-emails-clearBounces = Account cleared email bounces
+
 
 # Account recovery key setup page
 
@@ -636,6 +702,19 @@ auth-error-155 = TOTP token not found
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-1008 = Your new password must be different
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validating sign-in…
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirm this sign-in
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Check your email for the sign-in confirmation link sent to { $email }
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -665,16 +744,15 @@ account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 
 # Header for form to create new password
 create-new-password-header = Create new password
-confirm-account-recovery-key-button = Reset password
 account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Password set
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Create new password
-complete-reset-password-warning-message = <span>Remember:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { product-pocket } data will not be affected.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+complete-reset-password-warning-message-2 = <span>Remember:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password set
@@ -702,7 +780,7 @@ reset-password-heading-w-default-service = Reset password <span>to continue to a
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
 
-reset-password-warning-message = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { product-pocket } data will not be affected.
+reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
 
 reset-password-button = Begin reset
 reset-password-success-alert = Password reset
@@ -712,7 +790,107 @@ reset-password-error-unknown-account = Unknown account
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Enter your password <span>for your { -product-firefox-account }</span>
+
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
+
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continue to { $serviceName }
+signin-subheader-without-logo-default = Continue to account settings
+signin-button = Sign in
+signin-header = Sign in
+# This message is followed by a bulleted list
+signin-tos-list-intro = By proceeding, you agree to:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { product-pocket }’s <linkExternal>Terms of Service</linkExternal> and <linkExternal>Privacy Notice</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox }’s <linkExternal>Terms of Service</linkExternal> and <linkExternal>Privacy Notice</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = By proceeding, you agree to the <linkExternal>Terms of Service</linkExternal> and <linkExternal>Privacy Notice</linkExternal>
+signin-use-a-different-account-link = Use a different account
+signin-forgot-password-link = Forgot password?
+
+signin-bounced-header = Sorry. We’ve locked your account.
+# $email (string) - The user's email.
+signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = If this is a valid email address, <linkExternal>let us know</linkExternal> and we can help unlock your account.
+signin-bounced-create-new-account = No longer own that email? Create a new account
+back = Back
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Enter backup authentication code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Enter backup authentication code <span>to continue to { $serviceName }</span>
+signin-recovery-code-image-description =
+  .aria-label = Document that contains hidden text.
+signin-recovery-code-instruction = Please enter a backup authentication code that was provided to you during two step authentication setup.
+signin-recovery-code-input =
+  .label = Enter 10-digit backup authentication code
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirm
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Back
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Are you locked out?
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Thank you for your vigilance
 signin-reported-message = Our team has been notified. Reports like this help us fend off intruders.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Enter confirmation code<span> for your { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
+signin-token-code-input-label =
+  .label = Enter 6-digit code
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirm
+signin-token-code-code-expired = Code expired?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Email new code.
+signin-token-code-required-error = Confirmation code required
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Enter security code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Enter security code <span>to continue to { $serviceName }</span>
+signin-totp-code-image-label =
+  .aria-label = A device with a hidden 6-digit code.
+signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
+signin-totp-code-input-label =
+  .label = Enter 6-digit code
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirm
+signin-totp-code-other-account-link = Use a different account
+signin-totp-code-recovery-code-link = Trouble entering code?
