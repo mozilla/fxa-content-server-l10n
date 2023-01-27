@@ -474,7 +474,7 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem med indlæsning af fakturaer
 sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
-sub-invoice-previews-error-title = Problem med indlæsning af fakturaeksempler
+sub-invoice-previews-error-title = Problem med indlæsning af eksempler på fakturaer
 sub-invoice-previews-error-text = Kunne ikke indlæse eksempler på fakturaer
 
 ## Routes - Subscription - ActionButton
