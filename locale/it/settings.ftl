@@ -388,8 +388,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
-delete-account-product-firefox-sync = Sincronizzazione dati { -brand-firefox }
-delete-account-product-firefox-addons = { -brand-firefox } Componenti aggiuntivi
+delete-account-product-firefox-sync = Sincronizzazione dati in { -brand-firefox }
+delete-account-product-firefox-addons = Componenti aggiuntivi in { -brand-firefox }
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
 delete-account-chk-box-1-v3 =
     .label = Tutti gli abbonamenti a pagamento in tuo possesso verranno annullati (tranne { -product-pocket })
@@ -424,12 +424,12 @@ display-name-success-alert-2 = Il nome visualizzato è stato aggiornato
 
 ## Recent Activity
 
-recent-activity-title = Attività recente dell'account
-recent-activity-account-create = L'account è stato creato
-recent-activity-account-disable = L'account è stato disattivato
-recent-activity-account-enable = Account abilitato
-recent-activity-account-login = Accesso avviato
-recent-activity-account-reset = Reimpostazione password avviata dall'account
+recent-activity-title = Attività recente dell”account
+recent-activity-account-create = L’account è stato creato
+recent-activity-account-disable = L’account è stato disattivato
+recent-activity-account-enable = L’account è stato attivato
+recent-activity-account-login = L’account ha iniziato la procedura di accesso
+recent-activity-account-reset = L’account ha iniziato la reimpostazione della password
 recent-activity-emails-clearBounces = L'email cancellata dall'account viene respinta
 
 # Account recovery key setup page
