@@ -136,7 +136,7 @@ password-strength-balloon-heading = Zahteve za geslo
 password-strength-balloon-min-length = vsaj 8 znakov
 password-strength-balloon-not-email = ni vaš e-poštni naslov
 password-strength-balloon-not-common = ni eno od pogostih gesel
-password-strength-balloon-stay-safe-tips = Ostanite varni — Ne uporabljajte znova gesel. Oglejte si več nasvetov za <LinkExternal>ustvarjanje močnih gesel</LinkExternal>.
+password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte gesel. Oglejte si več nasvetov za <LinkExternal>ustvarjanje močnih gesel</LinkExternal>.
 
 ## Ready component
 
@@ -432,7 +432,7 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
-delete-account-confirm-title-3 = Morda ste svoj { -product-firefox-account } povezali z enim ali več od naslednjih izdelkov ali storitev { -brand-mozilla }, ki vam zagotavljajo varnost in produktivnost na spletu:
+delete-account-confirm-title-3 = Morda ste svoj { -product-firefox-account(sklon: "tozilnik") } povezali z enim ali več izmed naslednjih izdelkov ali storitev { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
