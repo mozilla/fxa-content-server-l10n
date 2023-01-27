@@ -774,7 +774,7 @@ signin-bounced-header = Spiacenti, l’account è stato bloccato.
 # $email (string) - The user's email.
 signin-bounced-message = L’email di conferma che abbiamo inviato all’indirizzo { $email } è tornata indietro. L’account è stato bloccato per proteggere i dati in { -brand-firefox }.
 # linkExternal is a link to a mozilla support
-signin-bounced-help = Se questo è un indirizzo email valido, <linkExternal>comunicacelo</linkExternal> e ti aiuteremo a sbloccare il tuo account.
+signin-bounced-help = Se questo è un indirizzo email valido, <linkExternal>contattaci</linkExternal> e ti aiuteremo a sbloccare il tuo account.
 signin-bounced-create-new-account = Non controlli più questo indirizzo email? Crea un nuovo account
 back = Indietro
 
