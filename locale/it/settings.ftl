@@ -380,7 +380,7 @@ delete-account-header =
     .title = Elimina account
 delete-account-step-1-2 = Passaggio 1 di 2
 delete-account-step-2-2 = Passaggio 2 di 2
-delete-account-confirm-title-3 = Potresti aver collegato { -product-firefox-account } a uno o più dei seguenti prodotti o servizi { -brand-mozilla } che ti garantiscono sicurezza e produttività sul Web:
+delete-account-confirm-title-3 = Potresti aver connesso il tuo { -product-firefox-account } a uno o più dei seguenti prodotti o servizi { -brand-mozilla } che ti garantiscono un’esperienza sul Web sicura e produttiva:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -772,7 +772,7 @@ signin-use-a-different-account-link = Utilizza un altro account
 signin-forgot-password-link = Password dimenticata?
 signin-bounced-header = Spiacenti, l’account è stato bloccato.
 # $email (string) - The user's email.
-signin-bounced-message = L’email di conferma che abbiamo inviato a { $email } è stata restituita e abbiamo bloccato il tuo account per proteggere i tuoi dati { -brand-firefox }.
+signin-bounced-message = L’email di conferma che abbiamo inviato all’indirizzo { $email } è tornata indietro. L’account è stato bloccato per proteggere i dati in { -brand-firefox }.
 # linkExternal is a link to a mozilla support
 signin-bounced-help = Se questo è un indirizzo email valido, <linkExternal>comunicacelo</linkExternal> e ti aiuteremo a sbloccare il tuo account.
 signin-bounced-create-new-account = Non controlli più questo indirizzo email? Crea un nuovo account
@@ -789,7 +789,7 @@ signin-recovery-code-heading-w-default-service = Inserisci il codice di autentic
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = Inserisci il codice di autenticazione del backup <span>per continuare su { $serviceName }</span>
+signin-recovery-code-heading-w-custom-service = Inserisci il codice di autenticazione di backup <span>per continuare su { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Documento che contiene testo nascosto.
 signin-recovery-code-instruction = Inserisci uno dei codici di autenticazione di backup che ti sono stati forniti durante la configurazione dell’autenticazione in due passaggi.
@@ -817,7 +817,7 @@ signin-reported-message = Il nostro team ha ricevuto la segnalazione. La tua col
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Inserisci il codice di conferma<span> per il tuo { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Inserisci il codice inviato a { $email } entro 5 minuti.
+signin-token-code-instruction = Inserisci entro 5 minuti il codice che è stato inviato a { $email }.
 signin-token-code-input-label =
     .label = Inserisci il codice a 6 cifre
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -825,7 +825,7 @@ signin-token-code-confirm-button = Conferma
 signin-token-code-code-expired = Codice scaduto?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Invia email con nuovo codice.
-signin-token-code-required-error = Codice di conferma richiesto
+signin-token-code-required-error = Codice di conferma obbligatorio
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
