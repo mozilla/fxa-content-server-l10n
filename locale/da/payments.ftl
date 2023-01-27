@@ -411,6 +411,8 @@ sub-update-payment-title = Betalingsinformation
 
 pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
+product-invoice-preview-error-title = Problem med indlæsning af eksempel på faktura
+product-invoice-preview-error-text = Kunne ikke indlæse eksempel på faktura
 
 ## Routes - Product - IapRoadblock
 
@@ -473,7 +475,7 @@ sub-invoice-error =
     .title = Problem med indlæsning af fakturaer
 sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
 sub-invoice-previews-error-title = Problem med indlæsning af fakturaeksempler
-sub-invoice-previews-error-text = Kunne ikke indlæse fakturaeksempler
+sub-invoice-previews-error-text = Kunne ikke indlæse eksempler på fakturaer
 
 ## Routes - Subscription - ActionButton
 
@@ -507,8 +509,8 @@ sub-route-funding-source-payment-alert = Ugyldig betalingsinformation; der er en
 sub-item-no-such-plan = Der findes ingen sådan plan for dette abonnement.
 invoice-not-found = Efterfølgende faktura ikke fundet
 sub-item-no-such-subsequent-invoice = Efterfølgende faktura ikke fundet for dette abonnement.
-sub-invoice-preview-error-title = Fakturaeksempel ikke fundet
-sub-invoice-preview-error-text = Fakturaeksempel ikke fundet for dette abonnement
+sub-invoice-preview-error-title = Eksempel på faktura ikke fundet
+sub-invoice-preview-error-text = Eksempel på faktura ikke fundet for dette abonnement
 
 ## Routes - Subscriptions - Pocket Subscription
 

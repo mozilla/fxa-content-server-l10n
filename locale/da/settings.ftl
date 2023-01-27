@@ -73,6 +73,8 @@ reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan v
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
 reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Få et nyt link
 
 ## Alert Bar
 
@@ -699,4 +701,5 @@ reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Det er godt, at du er opmærksom!
 signin-reported-message = Vores team har fået besked. Rapporter som denne hjælper os med at afværge ubudne gæster.
