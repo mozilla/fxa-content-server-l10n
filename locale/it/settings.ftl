@@ -392,7 +392,7 @@ delete-account-product-firefox-sync = Sincronizzazione dati in { -brand-firefox 
 delete-account-product-firefox-addons = Componenti aggiuntivi in { -brand-firefox }
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
 delete-account-chk-box-1-v3 =
-    .label = Tutti gli abbonamenti a pagamento in tuo possesso verranno annullati (tranne { -product-pocket })
+    .label = Tutti i tuoi abbonamenti a pagamento verranno annullati (tranne { -product-pocket })
 delete-account-chk-box-2 =
     .label = Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -430,7 +430,7 @@ recent-activity-account-disable = L’account è stato disattivato
 recent-activity-account-enable = L’account è stato attivato
 recent-activity-account-login = L’account ha iniziato la procedura di accesso
 recent-activity-account-reset = L’account ha iniziato la reimpostazione della password
-recent-activity-emails-clearBounces = L'email cancellata dall'account viene respinta
+recent-activity-emails-clearBounces = L’account ha rimosso il mancato recapito delle email
 
 # Account recovery key setup page
 
@@ -676,7 +676,7 @@ validating-signin = Convalida accesso…
 
 confirm-signin-header = Conferma questo tentativo di accesso
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Controlla la tua email per il link di conferma accesso inviato a { $email }
+confirm-signin-message = Controlla la tua casella di posta, la conferma di accesso è stata inviata a { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -713,7 +713,7 @@ account-recovery-reset-password-success-alert = Password impostata
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Crea nuova password
-complete-reset-password-warning-message-2 = <span>Ricorda:</span> quando reimposti la password, reimposta il tuo account. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittografiamo i tuoi dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
+complete-reset-password-warning-message-2 = <span>Ricorda:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password impostata
@@ -739,7 +739,7 @@ reset-password-heading-w-default-service = Reimposta la password <span>per passa
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reimposta la password <span>per continuare su { $serviceName }</span>
-reset-password-warning-message-2 = <span>Nota:</span> quando reimposti la password, reimposta il tuo account. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittografiamo i tuoi dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
+reset-password-warning-message-2 = <span>Nota:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
 reset-password-button = Inizia il ripristino
 reset-password-success-alert = Password reimpostata
 reset-password-error-general = Si è verificato un problema durante la reimpostazione della password
@@ -757,11 +757,11 @@ signin-subheader-with-logo = Continua su <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continua su { $serviceName }
-signin-subheader-without-logo-default = Passa alle impostazioni dell'account
+signin-subheader-without-logo-default = Passa alle impostazioni dell’account
 signin-button = Accedi
 signin-header = Accedi
 # This message is followed by a bulleted list
-signin-tos-list-intro = Proseguendo accetti di:
+signin-tos-list-intro = Proseguendo accetti:
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
 signin-tos-list-pocket = <linkExternal>Termini di servizio</linkExternal> e <linkExternal>Informativa sulla privacy</linkExternal> di { -product-pocket }
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
@@ -770,7 +770,7 @@ signin-tos-list-firefox = <linkExternal>Termini di servizio</linkExternal> e <li
 signin-tos-and-privacy = Proseguendo accetti i <linkExternal>Termini di servizio</linkExternal> e l’<linkExternal>Informativa sulla privacy</linkExternal>
 signin-use-a-different-account-link = Utilizza un altro account
 signin-forgot-password-link = Password dimenticata?
-signin-bounced-header = Siamo spiacenti. Abbiamo bloccato il tuo account.
+signin-bounced-header = Spiacenti, l’account è stato bloccato.
 # $email (string) - The user's email.
 signin-bounced-message = L’email di conferma che abbiamo inviato a { $email } è stata restituita e abbiamo bloccato il tuo account per proteggere i tuoi dati { -brand-firefox }.
 # linkExternal is a link to a mozilla support
@@ -801,7 +801,7 @@ signin-recovery-code-confirm-button = Conferma
 signin-recovery-code-back-link = Indietro
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Sei tagliato fuori dal tuo account?
+signin-recovery-code-support-link = Sei rimasto chiuso fuori dal tuo account?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
