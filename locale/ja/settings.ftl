@@ -95,6 +95,7 @@ password-strength-balloon-heading = パスワードの条件
 password-strength-balloon-min-length = 最低 8 文字
 password-strength-balloon-not-email = メールアドレスと一致しないこと
 password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
+password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
 
 ## Ready component
 
@@ -107,7 +108,9 @@ ready-use-service = { $serviceName } が利用可能になりました
 ready-account-ready = アカウントの準備が整いました。
 ready-continue = 続ける
 sign-in-complete-header = ログインが確認されました
+sign-up-complete-header = アカウントを確認しました
 pulsing-hearts-description = 鼓動するハートが表示されたピンク色のノートパソコンと紫色のモバイル端末
+primary-email-verified-header = 主要メールアドレスを確認しました
 
 ## Alert Bar
 
@@ -127,6 +130,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -366,6 +373,15 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } データの同期
+delete-account-product-firefox-addons = { -brand-firefox } のアドオン
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 製品内に保存された情報と機能が失われる可能性があります
@@ -633,9 +649,14 @@ auth-error-1008 = 新しいパスワードは別のものにしてください
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = エラー:
 
 ## ConfirmSignin component
 
+confirm-signin-header = このログインを確認
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = ログイン確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
 
 ## AccountRecoveryConfirmKey page
 
@@ -665,11 +686,14 @@ account-recovery-lost-recovery-key-link = アカウント回復用キーを持�
 # Header for form to create new password
 create-new-password-header = 新しいパスワードを作成
 account-restored-success-message = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = パスワードを設定しました
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = 新しいパスワードを設定
+complete-reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = パスワードを設定しました
@@ -695,6 +719,7 @@ reset-password-heading-w-default-service = パスワードをリセットして 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
+reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
 reset-password-button = リセットを開始
 reset-password-success-alert = パスワードをリセット
 reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
@@ -704,6 +729,20 @@ reset-password-with-recovery-key-verified-continue-to-account = 自分のアカ�
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = { $serviceName } へ進む
+signin-button = ログイン
+signin-header = ログイン
+signin-use-a-different-account-link = 別のアカウントを使用する
+signin-forgot-password-link = パスワードをお忘れですか？
+signin-bounced-header = 申し訳ありません。あなたのアカウントはロックされています。
+# $email (string) - The user's email.
+signin-bounced-message = { $email } へ送られた確認メールが返送されてきたので、あなたの { -brand-firefox } データを守るためアカウントをロックしました。
+# linkExternal is a link to a mozilla support
+signin-bounced-help = このメールアドレスが正しい場合は、<linkExternal>ご連絡<</linkExternal> いただければロック解除をお手伝いします。
+signin-bounced-create-new-account = 既にこのアドレスをお持ちでないなら、新しいアカウントを作成してください
+back = 戻る
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
