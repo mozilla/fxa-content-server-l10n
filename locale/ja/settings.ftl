@@ -749,6 +749,16 @@ back = 戻る
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-instruction = 2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。
+signin-recovery-code-input =
+    .label = 10 桁のバックアップ認証コードを入力してください
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 確認
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = 戻る
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 締め出されていますか？
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -759,9 +769,25 @@ signin-reported-message = 担当者に通知が送られました。こうした
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = 5 分以内に { $email } に送信されたコードを入力してください。
+signin-token-code-input-label =
+    .label = 6 桁のコードを入力
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = 確認
+signin-token-code-code-expired = コードの有効期限が切れていますか？
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = 新しいコードをメールに送信する。
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = お使いの認証アプリを開いて、そこに表示されたセキュリティコードを入力してください。
+signin-totp-code-input-label =
+    .label = 6 桁のコードを入力
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = 確認
+signin-totp-code-other-account-link = 別のアカウントを使用する
+signin-totp-code-recovery-code-link = コードの入力時に問題が発生しましたか？
