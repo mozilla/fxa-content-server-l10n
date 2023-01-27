@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox アカウント
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = 新しいパスワード
+form-reset-password-with-balloon-confirm-password =
+    .label = パスワードを再入力
+form-reset-password-with-balloon-submit-button = パスワードをリセット
+form-reset-password-with-balloon-match-error = パスワードが一致しません
 
 ## Input Password
 
@@ -42,39 +53,61 @@ input-password-show = パスワードを開示
 input-password-hide-aria = 画面上のパスワードを隠す
 input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = パスワードをリセットするリンクが壊れています
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = 確認リンクが壊れています
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = 確認リンクの有効期限が切れています
+reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
+signin-link-expired-message = クリックされたメールアドレス確認リンクの有効期限が切れています。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 新しいリンクを受け取る
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = パスワードを覚えている場合はログインしてください
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = 主要メールアドレスは既に確認されています
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = ログインは既に確認されています
+confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = パスワードの条件
+password-strength-balloon-min-length = 最低 8 文字
+password-strength-balloon-not-email = メールアドレスと一致しないこと
+password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
+
 ## Ready component
 
 reset-password-complete-header = パスワードがリセットされました
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } が利用可能になりました
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = アカウントの準備が整いました。
 ready-continue = 続ける
 sign-in-complete-header = ログインが確認されました
 pulsing-hearts-description = 鼓動するハートが表示されたピンク色のノートパソコンと紫色のモバイル端末
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = パスワードをリセットするリンクが壊れています
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
-reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 新しいリンクを受け取る
 
 ## Alert Bar
 
@@ -94,10 +127,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -337,10 +366,7 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
-delete-account-confirm-title-2 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ { -brand-mozilla } 製品と接続されました:
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
-delete-account-chk-box-1-v2 =
-    .label = 有料サブスクリプションがあればキャンセルされます ({ product-pocket } を除く)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 製品内に保存された情報と機能が失われる可能性があります
 delete-account-chk-box-3 =
@@ -368,6 +394,9 @@ display-name-update-error-2 = 表示名のアップデートに問題があり�
 display-name-success-alert-2 = 表示名が更新されました
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -602,6 +631,12 @@ auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -629,16 +664,12 @@ account-recovery-lost-recovery-key-link = アカウント回復用キーを持�
 
 # Header for form to create new password
 create-new-password-header = 新しいパスワードを作成
-confirm-account-recovery-key-button = パスワードをリセット
 account-restored-success-message = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = 新しいパスワードを設定
-complete-reset-password-warning-message = <span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { product-pocket } のデータは影響を受けません。
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = パスワードを設定しました
@@ -664,7 +695,6 @@ reset-password-heading-w-default-service = パスワードをリセットして 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
-reset-password-warning-message = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { product-pocket } のデータは影響を受けません。
 reset-password-button = リセットを開始
 reset-password-success-alert = パスワードをリセット
 reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
@@ -672,7 +702,27 @@ reset-password-error-unknown-account = 不明なアカウントです
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = あなたの警戒心に感謝します
 signin-reported-message = 担当者に通知が送られました。こうした報告が侵入者を防ぐための助けとなります。
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
