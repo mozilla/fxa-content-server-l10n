@@ -35,6 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## Input Password
+
+input-password-hide = Skjul adgangskode
+input-password-show = Vis adgangskode
+input-password-hide-aria = Skjul adgangskode fra skærmen.
+input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
@@ -43,12 +50,29 @@ remember-pw-link = Kan du huske adgangskoden? Log ind
 
 ## Ready component
 
-ready-confirmation = Din adgangskode er blevet nulstillet
+reset-password-complete-header = Din adgangskode er blevet nulstillet
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Du er nu klar til at bruge { $serviceName }
+ready-account-ready = Din konto er klar!
 ready-continue = Fortsæt
+sign-in-complete-header = Login er bekræftet
+pulsing-hearts-description = En pink bærbar computer og en lilla mobil enhed hver med et pulserende hjerte
+
+## ResetPasswordLinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
+
+## ResetPasswordLinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
+reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
 
 ## Alert Bar
 
@@ -205,13 +229,6 @@ header-back-to-top-link =
     .title = Tilbage til toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjælp
-
-## Input Password
-
-input-password-hide = Skjul adgangskode
-input-password-show = Vis adgangskode
-input-password-hide-aria = Skjul adgangskode fra skærmen.
-input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
 
 ## Linked Accounts section
 
@@ -610,11 +627,66 @@ auth-error-155 = TOTP-token ikke fundet
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-1008 = Din nye adgangskode skal være anderledes
 
+## AccountRecoveryConfirmKey page
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til kontoindstillinger</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til { $serviceName }</span>
+account-recovery-confirm-key-instructions = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-firefox-account } igen.
+account-recovery-confirm-key-warning-message = <span>BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt din genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data som fx historik og bogmærker).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Indtast genoprettelsesnøgle til kontoen
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Bekræft genoprettelsesnøgle til kontoen
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Ugyldig genoprettelsesnøgle til kontoen
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Genoprettelsesnøgle til kontoen påkrævet
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Har du ikke en genoprettelsesnøgle til kontoen?
+
+## Account recovery reset password page
+
+# Header for form to create new password
+create-new-password-header = Opret ny adgangskode
+confirm-account-recovery-key-button = Nulstil adgangskode
+account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
+
+## CompleteResetPassword component
+
+# User followed a password reset link and is now prompted to create a new password
+complete-reset-pw-header = Opret ny adgangskode
+complete-reset-password-warning-message = <span>Husk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { product-pocket }-data berøres ikke.
+# This information message is followed by a form to create a new password.
+complete-reset-password-account-recovery-info = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Adgangskode oprettet
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
+
+## Confirm Reset Password Component
+
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Mail til nulstilling sendt
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Klik på linket, vi har sendt til { $email } indenfor den næste time for at oprette en ny adgangskode.
+
 ## ResetPassword page
 
-# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = Nulstil adgangskode <span>for at fortsætte til kontoindstillinger</span>
-# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
 reset-password-warning-message = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { product-pocket }-data berøres ikke.
@@ -624,3 +696,7 @@ reset-password-error-general = Der opstod desværre et problem med at nulstille 
 reset-password-error-unknown-account = Ukendt konto
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-message = Vores team har fået besked. Rapporter som denne hjælper os med at afværge ubudne gæster.
