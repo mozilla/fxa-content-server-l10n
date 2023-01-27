@@ -66,7 +66,7 @@ new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>In
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
+new-user-enter-email =
     .label = Escribe tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
@@ -188,6 +188,101 @@ plan-details-tax = Impuestos y tasas
 
 product-no-such-plan = No existe el plan para este producto.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } de impuestos
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } diariamente
+       *[other] { $priceAmount } cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } diariamente
+           *[other] { $priceAmount } cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } semanalmente
+       *[other] { $priceAmount } cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } semanalmente
+           *[other] { $priceAmount } cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mensualmente
+       *[other] { $priceAmount } cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mensualmente
+           *[other] { $priceAmount } cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } anualmente
+       *[other] { $priceAmount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } anualmente
+           *[other] { $priceAmount } cada { $intervalCount } años
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos diariamente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos diariamente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos semanalmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos semanalmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos mensualmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos mensualmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } por impuestos anualmente
+       *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } por impuestos anualmente
+           *[other] { $priceAmount } + { $taxAmount } por impuestos cada { $intervalCount } años
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Configura tu suscripción
@@ -211,8 +306,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Cerrar modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Cargando…
 settings-subscriptions-title = Suscripciones
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Código promocional
@@ -221,29 +314,49 @@ coupon-promo-code = Código promocional
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } al día
+        [one] { $amount } diariamente
        *[other] { $amount } cada { $intervalCount } días
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } diariamente
+           *[other] { $amount } cada { $intervalCount } días
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
-        [one] { $amount } semanales
+        [one] { $amount } semanalmente
        *[other] { $amount } cada { $intervalCount } semanas
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } semanalmente
+           *[other] { $amount } cada { $intervalCount } semanas
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
-        [one] { $amount } mensuales
+        [one] { $amount } mensualmente
        *[other] { $amount } cada { $intervalCount } meses
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensualmente
+           *[other] { $amount } cada { $intervalCount } meses
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
-        [one] { $amount } anuales
+        [one] { $amount } anualmente
        *[other] { $amount } cada { $intervalCount } años
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anualmente
+           *[other] { $amount } cada { $intervalCount } años
+        }
 
 ## Error messages
 
@@ -298,6 +411,8 @@ sub-update-payment-title = Información del pago
 
 pay-with-heading-card-or = O paga con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
+product-invoice-preview-error-title = Problema al cargar la vista previa de la factura
+product-invoice-preview-error-text = No se ha podido cargar la vista previa de la factura
 
 ## Routes - Product - IapRoadblock
 
@@ -338,34 +453,6 @@ sub-item-cancel-confirm =
     Cancelar mi acceso y mi información guardada en
     { $name } el { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } al día
-       *[other] { $amount } cada { $intervalCount } días
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } a la semana
-       *[other] { $amount } cada { $intervalCount } semanas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } al mes
-       *[other] { $amount } cada { $intervalCount } meses
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } al año
-       *[other] { $amount } cada { $intervalCount } años
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Ha fallado la reactivación de la suscripción
@@ -387,6 +474,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema al cargar facturas
 sub-billing-update-success = Tu información de facturación ha sido actualizada correctamente
+sub-invoice-previews-error-title = Problema al cargar la vista previa de las facturas
+sub-invoice-previews-error-text = No se ha podido cargar la vista previa de las facturas
 
 ## Routes - Subscription - ActionButton
 
@@ -394,9 +483,13 @@ pay-update-change-btn = Cambiar
 pay-update-manage-btn = Administrar
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
+sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> por impuestos vence el <strong>{ $date }</strong>
 sub-expires-on = Caduca el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -416,6 +509,8 @@ sub-route-funding-source-payment-alert = Información de pago no válida; hay un
 sub-item-no-such-plan = No existe ese plan para esta suscripción.
 invoice-not-found = Factura posterior no encontrada
 sub-item-no-such-subsequent-invoice = No se ha encontradola factura posterior para esta suscripción.
+sub-invoice-preview-error-title = Vista previa de la factura no encontrada
+sub-invoice-preview-error-text = Vista previa de la factura no encontrada para esta suscripción
 
 ## Routes - Subscriptions - Pocket Subscription
 
