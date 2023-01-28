@@ -828,9 +828,39 @@ signin-reported-message = Nuestro equipo fue notificado. Informes como este nos 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Ingresá el código de confirmación <span>para tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
+signin-token-code-input-label =
+    .label = Ingresá el código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = ¿Código expirado?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar código nuevo.
+signin-token-code-required-error = Código de confirmación requerido
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Ingresá el código de seguridad <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Ingresá el código de seguridad <span>para continuar a { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+signin-totp-code-instruction = Abrí tu aplicación de autenticación e ingresá el código de seguridad que proporciona.
+signin-totp-code-input-label =
+    .label = Ingresá el código de 6 dígitos
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Usar una cuenta diferente
+signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
