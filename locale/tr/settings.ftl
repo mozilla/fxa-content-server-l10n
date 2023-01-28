@@ -83,6 +83,8 @@ remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
@@ -201,6 +203,7 @@ cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-sign-out-button = Çıkış yap
+cs-recent-activity = Son hesap etkinlikleri
 
 ##
 
@@ -383,6 +386,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } verileri eşitleniyor
+delete-account-product-firefox-addons = { -brand-firefox } Eklentileri
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
@@ -415,6 +420,9 @@ display-name-success-alert-2 = Görünen ad güncellendi
 
 ## Recent Activity
 
+recent-activity-account-create = Hesap oluşturuldu
+recent-activity-account-disable = Hesap devre dışı bırakıldı
+recent-activity-account-enable = Hesap etkinleştirildi
 
 # Account recovery key setup page
 
@@ -689,6 +697,7 @@ account-recovery-reset-password-success-alert = Parola ayarlandı
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Yeni parola oluştur
+complete-reset-password-warning-message-2 = <span>Unutmayın:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Parola ayarlandı
@@ -701,12 +710,16 @@ complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Sıfırlama e-postası gönderildi
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın.
 
 ## ResetPassword page
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> parolayı sıfırlayın
+reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
 reset-password-button = Sıfırlamayı başlat
 reset-password-success-alert = Parola sıfırlama
 reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
@@ -716,12 +729,45 @@ reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam 
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = { $serviceName } hizmetine devam et
+signin-subheader-without-logo-default = Hesap ayarlarına devam et
+signin-use-a-different-account-link = Farklı bir hesap kullan
+signin-forgot-password-link = Parolanızı unuttunuz mu?
+signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
+# $email (string) - The user's email.
+signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası geri döndüğü için { -brand-firefox } verilerinizi korumak amacıyla hesabınızı kilitledik.
+signin-bounced-create-new-account = Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın
+back = Geri dön
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu girin
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu girin
+signin-recovery-code-image-description =
+    .aria-label = Gizli metin içeren belge.
+signin-recovery-code-instruction = Lütfen iki adımlı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
+signin-recovery-code-input =
+    .label = 10 basamaklı yedek kimlik doğrulama kodunu yazın
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Onayla
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Geri dön
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Hesabınız kilitlendi mi?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -732,9 +778,33 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label =
+    .label = 6 basamaklı kodu yazın
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Onayla
+signin-token-code-code-expired = Kodun süresi mi doldu?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = E-posta ile yeni kod gönder.
+signin-token-code-required-error = Onay kodu gerekiyor
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> güvenlik kodunu girin
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> güvenlik kodunu girin
+signin-totp-code-image-label =
+    .aria-label = 6 basamaklı gizli kodu olan bir cihaz.
+signin-totp-code-instruction = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği güvenlik kodunu yazın.
+signin-totp-code-input-label =
+    .label = 6 basamaklı kodu girin
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Onayla
+signin-totp-code-other-account-link = Farklı bir hesap kullan
+signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
