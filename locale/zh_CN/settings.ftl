@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 账户
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = 新密码
+form-reset-password-with-balloon-confirm-password =
+    .label = 重新输入密码
+form-reset-password-with-balloon-submit-button = 重置密码
+form-reset-password-with-balloon-match-error = 密码不匹配
 
 ## Input Password
 
@@ -42,39 +53,66 @@ input-password-show = 显示密码
 input-password-hide-aria = 在屏幕上隐藏密码。
 input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = 重置密码链接已损坏
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = 确认链接已损坏
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = 重置密码链接已过期
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = 确认链接已过期
+reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
+signin-link-expired-message = 您点击的验证邮箱链接已过期。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 接收新链接
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = 记起了密码？登录
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = 主邮箱地址已经确认
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = 登录已确认
+confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = 密码要求
+password-strength-balloon-min-length = 至少 8 个字符
+password-strength-balloon-not-email = 不可以与邮箱地址相同
+password-strength-balloon-not-common = 不可以是常见密码
+password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使用密码。请查看有关<LinkExternal>创建强密码</LinkExternal>的更多提示。
+
 ## Ready component
 
 reset-password-complete-header = 您的密码已重置
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = 您可以使用 { $serviceName } 了
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = 您现在可以使用帐户设置了
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = 您的账户准备好了！
 ready-continue = 继续
 sign-in-complete-header = 已确认登录
+sign-up-complete-header = 账户已确认
 pulsing-hearts-description = 粉色的笔记本电脑和紫色的移动设备，分别傍着颗跃动的心
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = 重置密码链接已损坏
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = 重置密码链接已过期
-reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 接收新链接
+primary-email-verified-header = 主邮箱已确认
 
 ## Alert Bar
 
@@ -94,10 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 产品菜单
 bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
 bento-menu-firefox-mobile = { -brand-firefox } 移动浏览器
 bento-menu-made-by-mozilla = { -brand-mozilla } 出品
@@ -160,6 +198,7 @@ cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
+cs-recent-activity = 最近的帐户活动
 
 ##
 
@@ -335,10 +374,18 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
-delete-account-confirm-title-2 = 您已将 { -product-firefox-account }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = 同步 { -brand-firefox } 数据
+delete-account-product-firefox-addons = { -brand-firefox } 附加组件
 delete-account-acknowledge = 请确认，若您真要删除账户：
-delete-account-chk-box-1-v2 =
-    .label = 将取消所有付费订阅项目（{ product-pocket } 除外）
+delete-account-chk-box-1-v3 =
+    .label = 您的付费订阅都将被取消（{ -product-pocket } 除外）
 delete-account-chk-box-2 =
     .label = 您可能丢失在 { -brand-mozilla } 产品中保存的信息以及功能
 delete-account-chk-box-3 =
@@ -367,6 +414,15 @@ display-name-success-alert-2 = 显示名称已更新
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = 最近的帐户活动
+recent-activity-account-create = 帐户已创建
+recent-activity-account-disable = 帐户已禁用
+recent-activity-account-enable = 帐户已启用
+recent-activity-account-login = 账户发起的登录
+recent-activity-account-reset = 帐户发起的密码重置
 
 # Account recovery key setup page
 
@@ -592,6 +648,17 @@ auth-error-155 = 找不到 TOTP 令牌
 auth-error-183-2 = 验证码无效或已过期
 auth-error-1008 = 新旧密码不能相同
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = 错误：
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = 正在验证登录…
+
+## ConfirmSignin component
+
+confirm-signin-header = 确认此登录
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -619,16 +686,15 @@ account-recovery-lost-recovery-key-link = 没有账户恢复密钥？
 
 # Header for form to create new password
 create-new-password-header = 创建新密码
-confirm-account-recovery-key-button = 重置密码
 account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = 密码已设置
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = 创建新密码
-complete-reset-password-warning-message = <span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，{ product-pocket } 服务的数据也不受影响。
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
+complete-reset-password-warning-message-2 = <span>记住：</span>当您重置密码时，您也重置了您的帐户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保有您的订阅，并且 { -product-pocket } 数据不会受到影响。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 密码已设置
@@ -654,7 +720,7 @@ reset-password-heading-w-default-service = 重置密码以<span>继续设置账�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
-reset-password-warning-message = <span>注意：</span>重置密码的同时也会重置账户，可能导致一些个人信息丢失（包括历史记录、书签和密码）。这是因为我们用您的密码对数据进行了加密以保护隐私。您的订阅项目将会保留，{ product-pocket } 的数据也不会受到影响。
+reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了帐户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
 reset-password-button = 开始重置
 reset-password-success-alert = 密码重置
 reset-password-error-general = 抱歉，重置密码时出现问题
@@ -662,7 +728,54 @@ reset-password-error-unknown-account = 未知账户
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续前往我的账户
 
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = 请为<span>{ -product-firefox-account }</span>输入您的密码
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = 继续<span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = 继续 { $serviceName }
+signin-subheader-without-logo-default = 继续帐户设置
+signin-button = 登录
+signin-header = 登录
+# This message is followed by a bulleted list
+signin-tos-list-intro = 继续操作即表示您同意：
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { -product-pocket } 的<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = 继续操作即表示您同意<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
+signin-use-a-different-account-link = 换个账户登录
+signin-forgot-password-link = 忘记密码？
+signin-bounced-header = 对不起。我们已锁定您的帐户。
+# $email (string) - The user's email.
+signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的帐户以保护您的 { -brand-firefox } 数据。
+# linkExternal is a link to a mozilla support
+signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的帐户。
+signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账户吧
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = 感谢您的反馈
 signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防范入侵者。
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
