@@ -61,6 +61,8 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña esta d
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Enlace de confirmación dañado
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo electrónico lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
 
 ## LinkExpired component
 
@@ -69,6 +71,7 @@ reset-pwd-link-expired-header = Enlace para restablecer la contraseña expirado
 # The user followed a password reset link, but that link is expired and no longer valid
 signin-link-expired-header = Enlace de confirmación expirado
 reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha expirado.
+signin-link-expired-message = El enlace en el que hiciste clic para confirmar tu correo electrónico ha expirado.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Recibir nuevo enlace
 
@@ -80,6 +83,10 @@ remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = El correo principal ya fue confirmado
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Inicio de sesión ya confirmado
 
 ## PasswordStrengthBalloon component
 
@@ -198,6 +205,7 @@ cs-disconnect-suspicious-advice-content =
     en la configuración de tu cuenta. También deberías cambiar cualquier otra
     contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
+cs-recent-activity = Actividad reciente de la cuenta
 
 ##
 
@@ -777,6 +785,8 @@ signin-token-code-required-error = Código de confirmación requerido
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-input-label =
     .label = Ingresa código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
