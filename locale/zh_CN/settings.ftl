@@ -25,7 +25,6 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 账户
--product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
 -product-pocket = Pocket
 -product-mdn-plus = MDN Plus
@@ -763,6 +762,23 @@ signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账�
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = 输入备用验证码<span>继续进行账户设置</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继续{ $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = 包含隐藏文本的文档。
+signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
+signin-recovery-code-input =
+    .label = 请输入 10 位备用验证码
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 确认
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 被锁定了吗？
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -773,9 +789,39 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = 为您的 { -product-firefox-account } </span> 输入确认码<span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
+signin-token-code-input-label =
+    .label = 请输入 6 位验证码
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = 确认
+signin-token-code-code-expired = 验证码已过期？
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = 重新发送验证码。
+signin-token-code-required-error = 需要验证码
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = 输入安全码<span>继续进行账户设置</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = 输入安全码<span>继续{ $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = 带有隐藏 6 位验证码的设备。
+signin-totp-code-instruction = 请打开您的身份验证应用，并输入其提供的安全码。
+signin-totp-code-input-label =
+    .label = 请输入 6 位验证码
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = 确认
+signin-totp-code-other-account-link = 换个账户登录
+signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
