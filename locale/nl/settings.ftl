@@ -441,6 +441,7 @@ recent-activity-account-disable = Account is uitgeschakeld
 recent-activity-account-enable = Account is ingeschakeld
 recent-activity-account-login = Door account geïnitieerde aanmelding
 recent-activity-account-reset = Door account geïnitieerde wachtwoordherinitialisatie
+recent-activity-emails-clearBounces = Door account opgeloste e-mailberichtretournering
 
 # Account recovery key setup page
 
@@ -782,6 +783,14 @@ signin-subheader-without-logo-with-servicename = Doorgaan naar { $serviceName }
 signin-subheader-without-logo-default = Doorgaan naar accountinstellingen
 signin-button = Aanmelden
 signin-header = Aanmelden
+# This message is followed by a bulleted list
+signin-tos-list-intro = Door verder te gaan, gaat u akkoord met:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Servicevoorwaarden</linkExternal> en <linkExternal>Privacyverklaring</linkExternal> van { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Servicevoorwaarden</linkExternal> en <linkExternal>Privacyverklaring</linkExternal> van { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Door verder te gaan, gaat u akkoord met de <linkExternal>Servicevoorwaarden</linkExternal> en het <linkExternal>Privacybeleid</linkExternal>
 signin-use-a-different-account-link = Een andere account gebruiken
 signin-forgot-password-link = Wachtwoord vergeten?
 signin-bounced-header = Sorry. We hebben uw account vergrendeld.
@@ -830,9 +839,35 @@ signin-reported-message = Ons team is op de hoogte gebracht. Dit soort meldingen
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Voer bevestigingscode in <span>voor uw { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Voer binnen 5 minuten de code in die naar { $email } is verzonden.
+signin-token-code-input-label =
+    .label = Voer 6-cijferige code in
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Bevestigen
+signin-token-code-code-expired = Code verlopen?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Nieuwe code versturen per e-mail.
+signin-token-code-required-error = Bevestigingscode vereist
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Voer beveiligingscode in <span>om door te gaan naar accountinstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Voer beveiligingscode in <span>om door te gaan naar { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Een apparaat met een verborgen 6-cijferige code.
+signin-totp-code-instruction = Open uw app voor authenticatie en voer de aangeboden beveiligingscode in.
+signin-totp-code-input-label =
+    .label = Voer 6-cijferige code in
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Bevestigen
+signin-totp-code-other-account-link = Een andere account gebruiken
+signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
