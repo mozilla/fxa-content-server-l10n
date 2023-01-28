@@ -730,6 +730,7 @@ account-recovery-reset-password-success-alert = Wachtwurd ynsteld
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Nij wachtwurd oanmeitsje
+complete-reset-password-warning-message-2 = <span>Unthâld:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwurd ynsteld
@@ -755,6 +756,7 @@ reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om t
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
+reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
 reset-password-button = Werinisjalisaasje begjinne
 reset-password-success-alert = Wachtwurd opnij ynstelle:
 reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstellen fan jo wachtwurd
@@ -764,12 +766,59 @@ reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei my
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Fier jo wachtwurd <span>foar jo { -product-firefox-account }</span> yn
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Trochgean nei <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Trochgean nei { $serviceName }
+signin-subheader-without-logo-default = Trochgean nei accountynstellingen
+signin-button = Oanmelde
+signin-header = Oanmelde
+# This message is followed by a bulleted list
+signin-tos-list-intro = Troch troch te gean geane jo akkoard mei:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal> fan { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal> fan { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Troch troch te gean geane jo akkoard mei de <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal>
+signin-use-a-different-account-link = In oar account brûke
+signin-forgot-password-link = Wachtwurd ferjitten?
+signin-bounced-header = Sorry. Wy hawwe jo account beskoattele.
+# $email (string) - The user's email.
+signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoerd hawwe, is retoernearre en om jo { -brand-firefox }-gegevens te beskermjen, is jo account beskoattele.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = As dit in jildich e-mailadres is, <linkExternal>lit dit dan witte</linkExternal> en wy helpe jo account te ûntskoatteljen.
+signin-bounced-create-new-account = Hawwe jo dat e-mailadres net mear? Meitsje in nije account
+back = Tebek
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Fier reservekopy-autentikaasjekoade yn <span>om troch te gean nei accountynstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Fier reservekopy-autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokumint dat ferburgen tekst befettet.
+signin-recovery-code-instruction = Fier in reserve-autentikaasjekoade yn dy’t oan jo levere is wylst it ynstellen fan autentikaasje yn twa stappen.
+signin-recovery-code-input =
+    .label = Fier in 10-siferich reserve-autentikaasjekoade yn
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Befêstigje
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Tebek
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Binne jo bûten sluten?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -780,9 +829,38 @@ signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze h
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
+signin-token-code-input-label =
+    .label = Fier 6-siferige koade yn
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Befêstigje
+signin-token-code-code-expired = Koade ferrûn?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Nije koade ferstjoere.
+signin-token-code-required-error = Befêstigingskoade nedich
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Fier befeiligingskoade yn <span>om troch te gean nei accountynstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Fier befeiligingskoade yn <span>om troch te gean nei { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = In apparaat mei in ferburgen 6-siferige koade.
+signin-totp-code-instruction = Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn.
+signin-totp-code-input-label =
+    .label = Fier 6-siferige koade yn
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Befêstigje
+signin-totp-code-other-account-link = In oar account brûke
