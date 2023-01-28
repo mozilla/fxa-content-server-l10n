@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox hesabı
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Yeni parola
+form-reset-password-with-balloon-confirm-password =
+    .label = Parolayı yeniden girin
+form-reset-password-with-balloon-submit-button = Parolayı sıfırla
+form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
 
 ## Input Password
 
@@ -42,39 +53,63 @@ input-password-show = Parolayı göster
 input-password-hide-aria = Parolayı ekrandan gizle.
 input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Onay bağlantısı zarar görmüş
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Onay bağlantısının süresi dolmuş
+reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
+signin-link-expired-message = E-postanızı onaylamak için tıkladığınız bağlantı zaman aşımına uğramış.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Yeni bağlantı iste
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
 
+## LinkUsed component
+
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Giriş zaten onaylanmış
+confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Parola gereksinimleri
+password-strength-balloon-min-length = En az 8 karakter
+password-strength-balloon-not-email = E-posta adresiniz olmamalı
+password-strength-balloon-not-common = Yaygın olarak kullanılan bir parola olmamalı
+
 ## Ready component
 
 reset-password-complete-header = Parolanız sıfırlandı
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } artık kullanıma hazır
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Artık hesap ayarlarını kullanmaya hazırsınız
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Hesabınız hazır!
 ready-continue = Devam et
 sign-in-complete-header = Giriş onaylandı
+sign-up-complete-header = Hesap onaylandı
 pulsing-hearts-description = Kalp atışları olan pembe bir dizüstü bilgisayar ve mor bir mobil cihaz
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
-reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Yeni bağlantı iste
+primary-email-verified-header = Ana e-posta onaylandı
 
 ## Alert Bar
 
@@ -94,10 +129,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } bento menüsü
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
 bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
 bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
@@ -341,10 +376,14 @@ delete-account-header =
     .title = Hesabı sil
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
-delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-delete-account-chk-box-1-v2 =
-    .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ product-pocket } hariç)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -372,6 +411,9 @@ display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluş
 display-name-success-alert-2 = Görünen ad güncellendi
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -603,6 +645,19 @@ auth-error-155 = TOTP jetonu bulunamadı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Hata:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Giriş doğrulanıyor…
+
+## ConfirmSignin component
+
+confirm-signin-header = Bu girişi onaylayın
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağlantısını kontrol edin
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -626,16 +681,14 @@ account-recovery-lost-recovery-key-link = Hesap kurtarma anahtarınız yok mu?
 
 # Header for form to create new password
 create-new-password-header = Yeni parola oluştur
-confirm-account-recovery-key-button = Parolayı sıfırla
 account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Parola ayarlandı
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Yeni parola oluştur
-complete-reset-password-warning-message = <span>Unutmayın:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { product-pocket } verileriniz etkilenmeyecektir.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Parola ayarlandı
@@ -661,7 +714,27 @@ reset-password-error-unknown-account = Bilinmeyen hesap
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Desteğiniz için teşekkür ederiz
 signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırganları dışarıda tutmamıza yardımcı oluyor.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
