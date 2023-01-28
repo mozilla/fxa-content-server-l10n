@@ -422,6 +422,8 @@ display-name-success-alert-2 = Nomine a monstrar actualisate
 
 recent-activity-title = Activitate de conto recente
 recent-activity-account-create = Conto create.
+recent-activity-account-disable = Le conto era disactivate.
+recent-activity-account-enable = Le conto era  activate.
 
 # Account recovery key setup page
 
