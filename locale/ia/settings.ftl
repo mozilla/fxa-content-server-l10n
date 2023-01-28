@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Nove contrasigno
+form-reset-password-with-balloon-confirm-password =
+    .label = Reinsere le contrasigno
+form-reset-password-with-balloon-submit-button = Reinitialisar le contrasigno
+form-reset-password-with-balloon-match-error = Le contrasignos non concorda
 
 ## Input Password
 
@@ -42,39 +53,63 @@ input-password-show = Monstrar contrasigno
 input-password-hide-aria = Celar le contrasigno ab le schermo.
 input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Ligamine de confirmation damnificate
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Ligamine de confirmation expirate
+reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
+signin-link-expired-message = Le ligamine que tu cliccava pro confirmar tu adresse email expirava.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recipe un nove ligamine
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Memora tu contrasigno? Accede.
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Email primari ja confirmate
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Session ja confirmate
+confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Requisitos del contrasigno
+password-strength-balloon-min-length = Al minus 8 characteres
+password-strength-balloon-not-email = Non tu adresse email
+password-strength-balloon-not-common = Non un contrasigno commun
+
 ## Ready component
 
 reset-password-complete-header = Tu contrasigno ha essite remontate
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Tu es preste a usar { $serviceName }
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Tu conto es preste!
 ready-continue = Continuar
 sign-in-complete-header = Apertura de session confirmate
+sign-up-complete-header = Conto confirmate
 pulsing-hearts-description = Un portabile rosate e un apparato mobile purpuree cata con un corde palpitante
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
-reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Recipe un nove ligamine
+primary-email-verified-header = Email primari confirmate
 
 ## Alert Bar
 
@@ -94,10 +129,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
 bento-menu-made-by-mozilla = Producite per{ -brand-mozilla }
@@ -343,10 +378,16 @@ delete-account-header =
     .title = Deler le conto
 delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
-delete-account-confirm-title-2 = Tu ha connectite tu { -product-firefox-account } al productos { -brand-mozilla } que te mantene secur e productive sur le web:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
-delete-account-chk-box-1-v2 =
-    .label = Tote tu abonamentos a pagamento sera annullate (salvo { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Tote tu abonamentos a pagamento sera annullate (salvo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -375,6 +416,11 @@ display-name-success-alert-2 = Nomine a monstrar actualisate
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Activitate de conto recente
+recent-activity-account-create = Conto create.
 
 # Account recovery key setup page
 
@@ -620,6 +666,15 @@ auth-error-155 = Token TOTP non trovate
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirmar iste session
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -647,16 +702,14 @@ account-recovery-lost-recovery-key-link = Non ha tu un clave de recuperation del
 
 # Header for form to create new password
 create-new-password-header = Crear nove contrasigno
-confirm-account-recovery-key-button = Reinitialisar le contrasigno
 account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Configuration del contrasigno
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Crear le nove contrasigno
-complete-reset-password-warning-message = <span>Memora:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Configuration del contrasigno
@@ -682,7 +735,6 @@ reset-password-heading-w-default-service = Remonta le contrasigno <span>pro cont
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
-reset-password-warning-message = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
 reset-password-button = Initiar reinitialisation
 reset-password-success-alert = Remontar contrasigno
 reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
@@ -690,7 +742,45 @@ reset-password-error-unknown-account = Conto incognite
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
 
+## Signin page
+
+signin-use-a-different-account-link = Usa un conto differente
+signin-forgot-password-link = Contrasigno oblidate?
+signin-bounced-create-new-account = Non possede tu plus iste adresse de e-mail? Crea un nove conto
+back = Retro
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+signin-recovery-code-instruction = Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos.
+signin-recovery-code-input =
+    .label = Insere le codice de authentication de salvamento a 10-cifras
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Retro
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Es tu blocate?
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Gratias pro tu vigilantia
 signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adjuta a luctar contra le intrusos.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+signin-token-code-input-label =
+    .label = Insere le codice de 6 digitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
