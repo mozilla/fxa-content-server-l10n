@@ -95,7 +95,7 @@ password-strength-balloon-heading = Wachtwurdeasken
 password-strength-balloon-min-length = Op syn minst 8 karakters
 password-strength-balloon-not-email = Net jo e-mailadres
 password-strength-balloon-not-common = Net in faaks brûkt wachtwurd
-password-strength-balloon-stay-safe-tips = Bliuw feilich — Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
+password-strength-balloon-stay-safe-tips = Bliuw feilich – Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
 
 ## Ready component
 
@@ -391,7 +391,7 @@ delete-account-header =
     .title = Account fuortsmite
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
-delete-account-confirm-title-3 = Jo hawwe miskien jo { -product-firefox-account } ferbûn oan ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it web:
+delete-account-confirm-title-3 = Jo hawwe miskien jo { -product-firefox-account } ferbûn mei ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it ynternet:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -440,8 +440,8 @@ recent-activity-account-create = Account is oanmakke
 recent-activity-account-disable = Account is útskeakele
 recent-activity-account-enable = Account is ynskeakele
 recent-activity-account-login = Troch account inisjearre oanmelding
-recent-activity-account-reset = Troch account inisjearre opnij ynstellen wachtwurd
-recent-activity-emails-clearBounces = Troch account wegere e-mailberjochten oplost
+recent-activity-account-reset = Troch account inisjearre wachtwurdwerinisjalisaasje
+recent-activity-emails-clearBounces = Troch account oploste e-mailberjochtenretoernearing
 
 # Account recovery key setup page
 
