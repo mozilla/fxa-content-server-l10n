@@ -29,15 +29,20 @@
        *[a] חשבון Firefox
         [the] חשבון ה־Firefox
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = ססמה חדשה
+form-reset-password-with-balloon-confirm-password =
+    .label = הזנת הססמה מחדש
+form-reset-password-with-balloon-submit-button = איפוס ססמה
+form-reset-password-with-balloon-match-error = הססמאות אינן תואמות
 
 ## Input Password
 
@@ -46,39 +51,66 @@ input-password-show = הצגת ססמה
 input-password-hide-aria = הסתרת הססמה מהמסך.
 input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = קישור האימות פגום
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = פג תוקף הקישור לאיפוס הססמה
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = פג תוקף קישור האימות
+reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
+signin-link-expired-message = פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = קבלת קישור חדש
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = נזכרת בססמה שלך? התחברות
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כבר עברה אימות
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = ההתחברות כבר אושרה
+confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = דרישות ססמה
+password-strength-balloon-min-length = לפחות 8 תווים
+password-strength-balloon-not-email = לא כתובת הדוא״ל שלך
+password-strength-balloon-not-common = לא ססמה נפוצה
+password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <LinkExternal>ליצירת ססמאות חזקות</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = הססמה שלך אופסה
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = כעת ניתן להשתמש ב־{ $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = כעת באפשרותך להשתמש בהגדרות החשבון
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = החשבון שלך מוכן!
 ready-continue = המשך
 sign-in-complete-header = ההתחברות אומתה
+sign-up-complete-header = החשבון מאומת
 pulsing-hearts-description = מחשב נייד ורוד ומכשיר סלולרי סגול, כל אחד עם לב פועם
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = פג תוקף הקישור לאיפוס הססמה
-reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = קבלת קישור חדש
+primary-email-verified-header = כתובת הדוא״ל הראשית עברה אימות
 
 ## Alert Bar
 
@@ -97,10 +129,10 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
 bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
 bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
@@ -165,6 +197,7 @@ cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד 
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
+cs-recent-activity = פעילות אחרונה בחשבון
 
 ##
 
@@ -332,10 +365,7 @@ delete-account-header =
     .title = מחיקת חשבון
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
-delete-account-confirm-title-2 = חיברת את { -product-firefox-account(case: "the") } שלך למוצרי { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
-delete-account-chk-box-1-v2 =
-    .label = כל המינויים בתשלום שיש לך יבוטלו (למעט { product-pocket })
 delete-account-chk-box-2 =
     .label = מידע ותכונות שנשמרו במוצרי { -brand-mozilla } עלולים להיאבד
 delete-account-chk-box-3 =
@@ -363,6 +393,9 @@ display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה
 display-name-success-alert-2 = שם התצוגה עודכן
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -580,6 +613,12 @@ auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -607,16 +646,12 @@ account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חש
 
 # Header for form to create new password
 create-new-password-header = יצירת ססמה חדשה
-confirm-account-recovery-key-button = איפוס ססמה
 account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = יצירת ססמה חדשה
-complete-reset-password-warning-message = <span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = הססמה הוגדרה
@@ -642,7 +677,6 @@ reset-password-heading-w-default-service = איפוס ססמה <span>כדי לה
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
-reset-password-warning-message = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ product-pocket } שלך לא יושפעו.
 reset-password-button = התחלת איפוס
 reset-password-success-alert = הססמא אופסה
 reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
@@ -650,7 +684,27 @@ reset-password-error-unknown-account = חשבון לא מוכר
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = תודה על הערנות שלך
 signin-reported-message = נשלחה הודעה לצוות שלנו. דיווחים כאלה מסייעים לנו להישמר מתוקפים.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
