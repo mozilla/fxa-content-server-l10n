@@ -95,6 +95,7 @@ password-strength-balloon-heading = Parola gereksinimleri
 password-strength-balloon-min-length = En az 8 karakter
 password-strength-balloon-not-email = E-posta adresiniz olmamalı
 password-strength-balloon-not-common = Yaygın olarak kullanılan bir parola olmamalı
+password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <LinkExternal>Güçlü parolalar oluşturmak</LinkExternal> için daha fazla ipucu görün.
 
 ## Ready component
 
@@ -389,6 +390,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } verileri eşitleniyor
 delete-account-product-firefox-addons = { -brand-firefox } Eklentileri
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
+delete-account-chk-box-1-v3 =
+    .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ -product-pocket } hariç)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -420,9 +423,12 @@ display-name-success-alert-2 = Görünen ad güncellendi
 
 ## Recent Activity
 
+recent-activity-title = Son hesap etkinlikleri
 recent-activity-account-create = Hesap oluşturuldu
 recent-activity-account-disable = Hesap devre dışı bırakıldı
 recent-activity-account-enable = Hesap etkinleştirildi
+recent-activity-account-login = Hesap, giriş işlemini başlattı
+recent-activity-account-reset = Hesap, parola sıfırlamayı başlattı
 
 # Account recovery key setup page
 
@@ -729,6 +735,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam 
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = <span>{ -product-firefox-account }</span> parolanızı yazın
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
@@ -736,11 +744,17 @@ signin-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } hizmetine devam et
 signin-subheader-without-logo-default = Hesap ayarlarına devam et
+signin-button = Giriş yap
+signin-header = Giriş yap
+# This message is followed by a bulleted list
+signin-tos-list-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
 signin-use-a-different-account-link = Farklı bir hesap kullan
 signin-forgot-password-link = Parolanızı unuttunuz mu?
 signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası geri döndüğü için { -brand-firefox } verilerinizi korumak amacıyla hesabınızı kilitledik.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Bu e-posta adresi geçerliyse <linkExternal>bize haber verirseniz</linkExternal> hesabınızı açmanıza yardımcı olabiliriz.
 signin-bounced-create-new-account = Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın
 back = Geri dön
 
@@ -778,6 +792,12 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu yazın
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = { $email } adresine gönderdiğimiz kodu 5 dakika içinde yazın.
 signin-token-code-input-label =
     .label = 6 basamaklı kodu yazın
 # Form button to confirm if the confirmation code entered by the user is valid
