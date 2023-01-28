@@ -746,6 +746,8 @@ signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服務條款</link
 signin-tos-and-privacy = 使用本服務，代表您同意<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
 signin-use-a-different-account-link = 使用另一個帳號
 signin-forgot-password-link = 忘記密碼？
+# linkExternal is a link to a mozilla support
+signin-bounced-help = 若這是有效的電子郵件地址，<linkExternal>請讓我們知道</linkExternal>，我們將協助您解鎖帳號。
 signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
 back = 返回
 
@@ -754,6 +756,13 @@ back = 返回
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = 輸入備用驗證碼<span>即可繼續前往帳號設定</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即可繼續前往 { $serviceName }</span>
 signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
 signin-recovery-code-input =
     .label = 請輸入十位數的備用驗證碼
@@ -787,6 +796,7 @@ signin-token-code-resend-code-link = 重寄新驗證碼。
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = 請開啟您的兩階段驗證程式，並輸入其提供的安全碼。
 signin-totp-code-input-label =
     .label = 請輸入六位數的安全碼
 # Form button to confirm if the security code entered by the user is valid
