@@ -93,6 +93,9 @@ confirmation-link-reused-message = Бұл растау сілтемесі қол
 
 password-strength-balloon-heading = Парольге қойылатын талаптар
 password-strength-balloon-min-length = Кемінде 8 таңба
+password-strength-balloon-not-email = Сіздің эл. пошта адресіңіз емес
+password-strength-balloon-not-common = Жиі қолданылатын пароль емес
+password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — парольдерді қайта қолданбаңыз. <LinkExternal>Мықты парольдерді жасау</LinkExternal> бойынша қосымша кеңестерді қараңыз.
 
 ## Ready component
 
@@ -101,11 +104,15 @@ reset-password-complete-header = Пароліңіз тасталды
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сіз енді { $serviceName } қолдануға дайынсыз
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Сіз енді тіркелгі параметрлерін пайдалануға дайынсыз
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Сіздің тіркелгіңіз дайын!
 ready-continue = Жалғастыру
 sign-in-complete-header = Кіру расталды
+sign-up-complete-header = Тіркелгі расталды
 pulsing-hearts-description = Қызғылт түсті ноутбук және жүрек соғуы бар күлгін мобильді құрылғы
+primary-email-verified-header = Біріншілік эл. пошта адресі расталды
 
 ## Alert Bar
 
@@ -125,6 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
 bento-menu-firefox-mobile = Мобильді { -brand-firefox } браузері
 bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
@@ -202,6 +213,7 @@ cs-disconnect-suspicious-advice-content =
     паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы
     { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
 cs-sign-out-button = Шығу
+cs-recent-activity = Тіркелгінің жуырдағы белсенділігі
 
 ##
 
@@ -380,7 +392,19 @@ delete-account-header =
     .title = Тіркелгіні өшіру
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
+delete-account-confirm-title-3 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді интернетте қауіпсіздік пен өнімділікті қамтамасыз ететін келесі { -brand-mozilla } өнімдерінің немесе қызметтерінің біріне немесе бірнешеуіне қосқан болуыңыз мүмкін:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } деректерін синхрондау
+delete-account-product-firefox-addons = { -brand-firefox } қосымшалары
 delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
+delete-account-chk-box-1-v3 =
+    .label = Сізде бар ақылы жазылулар өшіріледі ({ -product-pocket } басқа)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla }өнімдерінде сақталған ақпаратты және мүмкіндіктерді жоғалтуыңыз мүмкін
 delete-account-chk-box-3 =
@@ -412,6 +436,13 @@ display-name-success-alert-2 = Көрсетілетін атыңыз жаңар�
 
 ## Recent Activity
 
+recent-activity-title = Тіркелгінің жуырдағы белсенділігі
+recent-activity-account-create = Тіркелгі жасалды
+recent-activity-account-disable = Тіркелгі сөндірілді
+recent-activity-account-enable = Тіркелгі іске қосылды
+recent-activity-account-login = Тіркелгі кіруді бастады
+recent-activity-account-reset = Тіркелгі парольді тастауды бастады
+recent-activity-emails-clearBounces = Тіркелгі эл. пошта қайталауларын тазарты
 
 # Account recovery key setup page
 
@@ -658,9 +689,16 @@ auth-error-1008 = Жаңа пароль ескі парольден өзгеше
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Қате:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Жүйеге кіру расталуда…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Бұл кіруді растау
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Эл. поштаңызды { $email } адресіне жіберілген кіруді растау сілтемесіне тексеріңіз
 
 ## AccountRecoveryConfirmKey page
 
@@ -690,11 +728,14 @@ account-recovery-lost-recovery-key-link = Тіркелгіні қалпына к
 # Header for form to create new password
 create-new-password-header = Жаңа парольді жасау
 account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Пароль орнатылды
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Жаңа парольді жасау
+complete-reset-password-warning-message-2 = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
@@ -720,6 +761,7 @@ reset-password-heading-w-default-service = <span>Тіркелгі баптаул
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
+reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
 reset-password-button = Қалпына келтіруді бастау
 reset-password-success-alert = Парольді қалпына келтіру
 reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
@@ -729,12 +771,52 @@ reset-password-with-recovery-key-verified-continue-to-account = Менің ті�
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін парольді енгізіңіз
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = { $serviceName } ішіне жалғастыру
+signin-subheader-without-logo-default = Тіркелгі баптауларына жалғастыру
+signin-button = Кіру
+signin-header = Кіру
+# This message is followed by a bulleted list
+signin-tos-list-intro = Жалғастыру арқылы сіз келесіге келісесіз:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { -product-pocket } өнімінің <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox } өнімінің <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Жалғастыру арқылы сіз <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal> шарттарымен келісесіз
+signin-use-a-different-account-link = Басқа тіркелгіні қолдану
+signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+signin-bounced-header = Кешіріңіз. Біз сіздің тіркелгіңізді блоктадық.
+# $email (string) - The user's email.
+signin-bounced-message = { $email } адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің { -brand-firefox } деректерін қорғау мақсатында тіркелгіңізді құлыптадық.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Егер ол дұрыс эл. пошта адресі болса, <linkExternal>бізге хабарлаңыз</linkExternal>, тіркелгіңіздің блоктауын алып тастауға көмектесе аламыз.
+signin-bounced-create-new-account = Ол эл. пошта адресіне енді ие емессіз бе? Жаңа тіркелгіні жасаңыз
+back = Артқа
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-image-description =
+    .aria-label = Жасырын мәтіні бар құжат.
+signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
+signin-recovery-code-input =
+    .label = 10 сандық сақтық аутентификация кодын енгізіңіз
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Растау
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Артқа
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -745,9 +827,26 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label =
+    .label = 6-цифрлық кодты енгізіңіз
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Растау
+signin-token-code-code-expired = Кодтың мерзімі бітті ме?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+signin-token-code-required-error = Растау коды қажет
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-image-label =
+    .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
+signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
+signin-totp-code-input-label =
+    .label = 6-цифрлық кодты енгізіңіз
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Растау
+signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
+signin-totp-code-recovery-code-link = Кодты енгізуде мәселе бар ма?
