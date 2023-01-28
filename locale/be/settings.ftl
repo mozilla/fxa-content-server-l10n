@@ -692,6 +692,7 @@ account-recovery-reset-password-success-alert = Пароль усталяван�
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Стварыць новы пароль
+complete-reset-password-warning-message-2 = <span>Памятайце:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль усталяваны
@@ -717,6 +718,7 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
+reset-password-warning-message-2 = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
 reset-password-button = Пачаць скід
 reset-password-success-alert = Скід пароля
 reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
@@ -726,6 +728,30 @@ reset-password-with-recovery-key-verified-continue-to-account = Перайсці
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Увядзіце пароль <span>для свайго { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Працягнуць у <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Працягнуць у { $serviceName }
+signin-subheader-without-logo-default = Перайсці да налад уліковага запісу
+signin-button = Увайсці
+signin-header = Увайсці
+# This message is followed by a bulleted list
+signin-tos-list-intro = Працягваючы, вы згаджаецеся:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Умовы абслугоўвання</linkExternal> і <linkExternal>паведамленне аб прыватнасці</linkExternal> { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Умовы абслугоўвання</linkExternal> і <linkExternal>паведамленне аб прыватнасці</linkExternal> { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Працягваючы, вы згаджаецеся з <linkExternal>умовамі абслугоўвання</linkExternal> і <linkExternal>паведамленнем аб прыватнасці</linkExternal>
+signin-use-a-different-account-link = Выкарыстаць іншы уліковы запіс
+signin-forgot-password-link = Забылі пароль?
+signin-bounced-header = Прабачце. Мы заблакавалі ваш уліковы запіс.
+# $email (string) - The user's email.
+signin-bounced-message = Электронны ліст з пацвярджэннем, які мы адправілі на { $email }, быў вернуты, і мы заблакавалі ўліковы запіс, каб абараніць вашы звесткі { -brand-firefox }.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
