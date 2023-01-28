@@ -752,12 +752,35 @@ signin-forgot-password-link = Забылі пароль?
 signin-bounced-header = Прабачце. Мы заблакавалі ваш уліковы запіс.
 # $email (string) - The user's email.
 signin-bounced-message = Электронны ліст з пацвярджэннем, які мы адправілі на { $email }, быў вернуты, і мы заблакавалі ўліковы запіс, каб абараніць вашы звесткі { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Калі гэта сапраўдны адрас электроннай пошты, <linkExternal>паведаміце нам пра гэта</linkExternal>, і мы дапаможам разблакаваць ваш уліковы запіс.
+signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
+back = Назад
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Увядзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Увядзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Дакумент, які змяшчае схаваны тэкст.
+signin-recovery-code-instruction = Калі ласка, увядзіце рэзервовы код аўтарызацыі, які быў прадстаўлены вам у часе наладжвання двухэтапнай аўтарызацыі.
+signin-recovery-code-input =
+    .label = Увядзіце 10-значны рэзервовы код аўтарызацыі
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Сцвердзіць
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Назад
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Вы заблакаваны?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -768,9 +791,38 @@ signin-reported-message = Наша каманда апавешчана. Такі
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Увядзіце код пацверджання <span>для свайго { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Увядзіце код, які быў адпраўлены на адрас { $email } на працягу 5 хвілін.
+signin-token-code-input-label =
+    .label = Увядзіце 6-значны код
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Сцвердзіць
+signin-token-code-code-expired = Код пратэрмінаваны?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Адправіць новы код па электроннай пошце.
+signin-token-code-required-error = Патрэбен код пацвярджэння
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Увядзіце код бяспекі, <span>каб перайсці да налад уліковага запісу</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Увядзіце код бяспекі, <span>каб перайсці да { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Прылада са схаваным 6-значным кодам.
+signin-totp-code-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код бяспекі, які яна выдае.
+signin-totp-code-input-label =
+    .label = Увядзіце 6-значны код
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Сцвердзіць
+signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
