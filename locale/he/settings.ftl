@@ -703,6 +703,7 @@ reset-password-heading-w-default-service = איפוס ססמה <span>כדי לה
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
+reset-password-warning-message-2 = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
 reset-password-button = התחלת איפוס
 reset-password-success-alert = הססמא אופסה
 reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
@@ -712,12 +713,45 @@ reset-password-with-recovery-key-verified-continue-to-account = המשך לחש�
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = נא להכניס את הססמה שלך <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = המשך אל { $serviceName }
+signin-subheader-without-logo-default = המשך אל הגדרות החשבון
+signin-button = כניסה
+signin-header = כניסה
+# This message is followed by a bulleted list
+signin-tos-list-intro = המשך התהליך מהווה הסכמה ל:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal> של { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal> של { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = המשך התהליך מהווה הסכמה ל<linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal>
+signin-use-a-different-account-link = שימוש בחשבון אחר
+signin-forgot-password-link = שכחת את הססמה?
+signin-bounced-header = מצטערים. חסמנו את החשבון שלך.
+# $email (string) - The user's email.
+signin-bounced-message = הודעת האימות ששלחנו לכתובת { $email } חזרה וחסמנו את החשבון שלך כדי להגן על נתוני ה־{ -brand-firefox } שלך.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = אם זוהי כתובת דוא״ל תקנית, <linkExternal>נא ליצור איתנו קשר</linkExternal> ונעזור לשחרר את הנעילה מהחשבון שלך.
+signin-bounced-create-new-account = כתובת דוא״ל זו כבר לא בבעלותך? יצירת חשבון חדש
+back = חזרה
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-image-description =
+    .aria-label = מסמך המכיל טקסט מוסתר.
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ננעלת מחוץ לחשבון?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -728,9 +762,26 @@ signin-reported-message = נשלחה הודעה לצוות שלנו. דיווח�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
+signin-token-code-input-label =
+    .label = נא להזין קוד בן 6 ספרות
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = אישור
+signin-token-code-code-expired = פג תוקף הקוד?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = שליחת קוד חדש בדוא״ל.
+signin-token-code-required-error = נדרש קוד אימות
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = נא להכניס קוד אבטחה <span>כדי להמשיך להגדרות החשבון</span>
