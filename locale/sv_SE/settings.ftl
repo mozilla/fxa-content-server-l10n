@@ -733,6 +733,7 @@ account-recovery-reset-password-success-alert = Lösenord satt
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Skapa nytt lösenord
+complete-reset-password-warning-message-2 = <span>Kom ihåg:</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lösenord satt
@@ -758,6 +759,7 @@ reset-password-heading-w-default-service = Återställ lösenordet <span>för at
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
+reset-password-warning-message-2 = <span>Obs!</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
 reset-password-button = Påbörja återställning
 reset-password-success-alert = Lösenordsåterställning
 reset-password-error-general = Tyvärr, det uppstod ett problem med att återställa ditt lösenord
