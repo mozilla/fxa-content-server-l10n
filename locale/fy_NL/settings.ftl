@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-account
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Nij wachtwurd
+form-reset-password-with-balloon-confirm-password =
+    .label = Fier wachtwurd nochris yn
+form-reset-password-with-balloon-submit-button = Wachtwurd opnij ynstelle
+form-reset-password-with-balloon-match-error = Wachtwurden binne net lyk
 
 ## Input Password
 
@@ -42,39 +53,64 @@ input-password-show = Wachtwurd toane
 input-password-hide-aria = Wachtwurd op skerm ferstopje
 input-password-show-aria = Wachtwurd as platte tekst toane. Jo wachtwurd sil sichtber wêze op it skerm.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Keppeling foar opnij ynstellen skansearre
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Befêstigingskeppeling skansearre
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Befêstigingskeppeling ferrûn
+reset-pwd-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
+signin-link-expired-message = De keppeling wêrop jo klikt hawwe om jo e-mailadres te befêstigjen is ferrûn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Nije keppeling ûntfange
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Witte jo jo wachtwurd noch? Oanmelde
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Oanmelding is al befêstige
+confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Wachtwurdeasken
+password-strength-balloon-min-length = Op syn minst 8 karakters
+password-strength-balloon-not-email = Net jo e-mailadres
+password-strength-balloon-not-common = Net in faaks brûkt wachtwurd
+password-strength-balloon-stay-safe-tips = Bliuw feilich — Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Jo wachtwurd is opnij ynsteld
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Jo kinne { $serviceName } no brûke
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Jo account is ree!
 ready-continue = Trochgean
 sign-in-complete-header = Oanmelding befêstige
+sign-up-complete-header = Account befêstige
 pulsing-hearts-description = In rôze laptop en in pears mobyl apparaat elk mei in klopjend hert
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Keppeling foar opnij ynstellen skansearre
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Keppeling foar opnij ynstellen is ferrûn
-reset-pwd-link-expired-message = De keppeling wêrop jo klikt hawwe foar it opnij ynstellen fan jo wachtwurd is ferrûn.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Nije keppeling ûntfange
+primary-email-verified-header = Primêr e-mailadres befêstige
 
 ## Alert Bar
 
@@ -94,10 +130,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar jo online privacy.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser foar desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser foar mobyl
 bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
@@ -174,6 +210,7 @@ cs-disconnect-suspicious-advice-content =
     wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t
     jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
+cs-recent-activity = Resinte accountaktiveit
 
 ##
 
@@ -352,10 +389,18 @@ delete-account-header =
     .title = Account fuortsmite
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
-delete-account-confirm-title-2 = Jo hawwe jo { -product-firefox-account } ferbûn mei { -brand-mozilla }-produkten dy’t jo feilich en produktyf hâlde op ynternet:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox }-gegevens syngronisearje
+delete-account-product-firefox-addons = { -brand-firefox }-add-ons
 delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
-delete-account-chk-box-1-v2 =
-    .label = Al jo betelle abonneminten wurde opsein (útsein { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Al jo betelle abonneminten wurde opsein (útsein { -product-pocket })
 delete-account-chk-box-2 =
     .label = Jo bewarre ynformaasje en funksjes yn { -brand-mozilla }-produkten ferlieze kinne
 delete-account-chk-box-3 =
@@ -384,6 +429,13 @@ display-name-success-alert-2 = Skermnamme bywurke
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Resinte accountaktiveit
+recent-activity-account-create = Account is oanmakke
+recent-activity-account-disable = Account is útskeakele
+recent-activity-account-enable = Account is ynskeakele
 
 # Account recovery key setup page
 
@@ -630,6 +682,19 @@ auth-error-155 = TOTP-token net fûn
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Flater:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Oanmelding falidearje…
+
+## ConfirmSignin component
+
+confirm-signin-header = Dizze oanmelding befêstigje
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei { $email } is ferstjoerd
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -657,16 +722,14 @@ account-recovery-lost-recovery-key-link = Hawwe jo gjin accountwerstelkaai?
 
 # Header for form to create new password
 create-new-password-header = Nij wachtwurd oanmeitsje
-confirm-account-recovery-key-button = Wachtwurd opnij ynstelle
 account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Wachtwurd ynsteld
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Nij wachtwurd oanmeitsje
-complete-reset-password-warning-message = <span>Unthâld:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { product-pocket }-gegevens wurde net beynfloede.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwurd ynsteld
@@ -692,7 +755,6 @@ reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om t
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
-reset-password-warning-message = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { product-pocket }-gegevens wurde net beynfloede.
 reset-password-button = Werinisjalisaasje begjinne
 reset-password-success-alert = Wachtwurd opnij ynstelle:
 reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstellen fan jo wachtwurd
@@ -700,7 +762,27 @@ reset-password-error-unknown-account = Unbekende account
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Tank foar jo wachens
 signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringers tsjin te hâlden.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
