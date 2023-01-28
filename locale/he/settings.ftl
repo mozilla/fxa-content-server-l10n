@@ -785,3 +785,16 @@ signin-token-code-required-error = נדרש קוד אימות
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service = נא להכניס קוד אבטחה <span>כדי להמשיך להגדרות החשבון</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = נא להכניס קוד אבטחה <span>כדי להמשיך אל { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
+signin-totp-code-instruction = נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שהוא מספק.
+signin-totp-code-input-label =
+    .label = נא להכניס קוד בן 6 ספרות
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = אישור
+signin-totp-code-other-account-link = שימוש בחשבון אחר
+signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
