@@ -805,6 +805,13 @@ back = Артқа
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын енгізіңіз
 signin-recovery-code-image-description =
     .aria-label = Жасырын мәтіні бар құжат.
 signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
@@ -827,6 +834,12 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 signin-token-code-input-label =
     .label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -841,6 +854,13 @@ signin-token-code-required-error = Растау коды қажет
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> қауіпсіздік кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> қауіпсіздік кодын
 signin-totp-code-image-label =
     .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
