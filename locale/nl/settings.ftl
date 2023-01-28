@@ -399,7 +399,11 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox }-gegevens  synchroniseren
+delete-account-product-firefox-addons = { -brand-firefox }-add-ons
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
+delete-account-chk-box-1-v3 =
+    .label = Al uw betaalde abonnementen worden opgezegd (behalve { -product-pocket })
 delete-account-chk-box-2 =
     .label = U opgeslagen informatie en functies in { -brand-mozilla }-producten kunt verliezen
 delete-account-chk-box-3 =
@@ -431,6 +435,12 @@ display-name-success-alert-2 = Schermnaam bijgewerkt
 
 ## Recent Activity
 
+recent-activity-title = Recente accountactiviteit
+recent-activity-account-create = Account is aangemaakt
+recent-activity-account-disable = Account is uitgeschakeld
+recent-activity-account-enable = Account is ingeschakeld
+recent-activity-account-login = Door account geïnitieerde aanmelding
+recent-activity-account-reset = Door account geïnitieerde wachtwoordherinitialisatie
 
 # Account recovery key setup page
 
@@ -679,9 +689,16 @@ auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Fout:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Aanmelding valideren…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Deze aanmelding bevestigen
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Controleer uw e-mail op de bevestigingskoppeling voor aanmelding die naar { $email } is verzonden
 
 ## AccountRecoveryConfirmKey page
 
@@ -711,11 +728,14 @@ account-recovery-lost-recovery-key-link = Hebt u geen accountherstelsleutel?
 # Header for form to create new password
 create-new-password-header = Nieuw wachtwoord aanmaken
 account-restored-success-message = U hebt met succes uw account hersteld via uw accountherstelsleutel. Maak een nieuw wachtwoord aan om uw gegevens te beveiligen, en sla dit op een veilige locatie op.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Wachtwoord ingesteld
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Nieuw wachtwoord aanmaken
+complete-reset-password-warning-message-2 = <span>Onthoud:</span> wanneer u uw wachtwoord opnieuw instelt, stelt u uw account opnieuw in. Bepaalde persoonlijke gegevens (waaronder geschiedenis, bladwijzers en wachtwoorden) kunnen verloren gaan. Dit komt doordat we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen. U behoudt al uw eventuele abonnementen en { -product-pocket }-gegevens worden niet beïnvloed.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwoord ingesteld
@@ -741,6 +761,7 @@ reset-password-heading-w-default-service = Stel uw wachtwoord opnieuw in <span>o
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel uw wachtwoord opnieuw in <span>om door te gaan naar { $serviceName }</span>
+reset-password-warning-message-2 = <span>Noot:</span> wanneer u uw wachtwoord opnieuw instelt, stelt u uw account opnieuw in. Bepaalde persoonlijke gegevens (waaronder geschiedenis, bladwijzers en wachtwoorden) kunnen verloren gaan. Dit komt doordat we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen. U behoudt al uw eventuele abonnementen en { -product-pocket }-gegevens worden niet beïnvloed.
 reset-password-button = Herinitialisatie beginnen
 reset-password-success-alert = Wachtwoord opnieuw instellen
 reset-password-error-general = Sorry, er is een probleem opgetreden bij het opnieuw instellen van uw wachtwoord
@@ -750,12 +771,51 @@ reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mi
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Voer uw wachtwoord in <span>voor uw { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Doorgaan naar <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Doorgaan naar { $serviceName }
+signin-subheader-without-logo-default = Doorgaan naar accountinstellingen
+signin-button = Aanmelden
+signin-header = Aanmelden
+signin-use-a-different-account-link = Een andere account gebruiken
+signin-forgot-password-link = Wachtwoord vergeten?
+signin-bounced-header = Sorry. We hebben uw account vergrendeld.
+# $email (string) - The user's email.
+signin-bounced-message = De bevestigingsmail die we naar { $email } hebben verstuurd, is geretourneerd en om uw { -brand-firefox }-gegevens te beschermen, is uw account vergrendeld.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Als dit een geldig e-mailadres is, <linkExternal>laat dit dan weten</linkExternal> en we helpen uw account te ontgrendelen.
+signin-bounced-create-new-account = Hebt u dat e-mailadres niet meer? Maak een nieuwe account
+back = Terug
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Voer uw reserve-authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Voer uw reserve-authenticatiecode in <span>om door te gaan naar { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Document dat verborgen tekst bevat.
+signin-recovery-code-instruction = Voer een reserve-authenticatiecode in die aan u is verstrekt tijdens het instellen van authenticatie in twee stappen.
+signin-recovery-code-input =
+    .label = Voer een 10-cijferige reserve-authenticatiecode in
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bevestigen
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Terug
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Bent u buitengesloten?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -766,6 +826,10 @@ signin-reported-message = Ons team is op de hoogte gebracht. Dit soort meldingen
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Voer bevestigingscode in <span>voor uw { -product-firefox-account }</span>
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
