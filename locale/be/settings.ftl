@@ -25,15 +25,14 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Уліковы запіс Firefox
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
 
 ## Input Password
 
@@ -42,25 +41,7 @@ input-password-show = Паказаць пароль
 input-password-hide-aria = Схаваць пароль з экрана.
 input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Памятаеце свой пароль? Увайсці
-
-## Ready component
-
-reset-password-complete-header = Ваш пароль быў скінуты
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
-ready-account-ready = Ваш уліковы запіс гатовы!
-ready-continue = Працягнуць
-sign-in-complete-header = Уваход пацверджаны
-pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -68,13 +49,38 @@ reset-pwd-link-damaged-header = Спасылка для скіду пароля 
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
 reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Атрымаць новую спасылку
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Памятаеце свой пароль? Увайсці
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
+
+
+## Ready component
+
+reset-password-complete-header = Ваш пароль быў скінуты
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Ваш уліковы запіс гатовы!
+ready-continue = Працягнуць
+sign-in-complete-header = Уваход пацверджаны
+pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
 
 ## Alert Bar
 
@@ -94,10 +100,6 @@ avatar-default-avatar =
 
 bento-menu-title = Меню прадуктаў { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
 bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
 bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
@@ -173,6 +175,7 @@ cs-disconnect-suspicious-advice-content =
     Вам таксама варта змяніць любыя іншыя паролі,
     якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
 cs-sign-out-button = Выйсці
+cs-recent-activity = Апошнія дзеянні ўліковага запісу
 
 ##
 
@@ -351,10 +354,12 @@ delete-account-header =
     .title = Выдаліць уліковы запіс
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-delete-account-confirm-title-2 = Вы падключылі свой { -product-firefox-account } да прадуктаў { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
+delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
+delete-account-product-firefox-sync = Сінхранізуюцца звесткі { -brand-firefox }
+delete-account-product-firefox-addons = Дадаткі { -brand-firefox }
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
-delete-account-chk-box-1-v2 =
-    .label = Усе вашы платныя падпіскі будуць скасаваны (акрамя { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Усе вашы платныя падпіскі будуць скасаваны (акрамя { -product-pocket })
 delete-account-chk-box-2 =
     .label = Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -383,6 +388,16 @@ display-name-success-alert-2 = Бачнае імя абноўлена
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Апошнія дзеянні ўліковага запісу
+recent-activity-account-create = Уліковы запіс створаны
+recent-activity-account-disable = Уліковы запіс адключаны
+recent-activity-account-enable = Уліковы запіс уключаны
+recent-activity-account-login = Уваход ініцыяваны ўліковым запісам
+recent-activity-account-reset = Скід пароля ініцыяваны ўліковым запісам
+recent-activity-emails-clearBounces = Уліковы запіс ачысціў недастаўленую пошту
 
 # Account recovery key setup page
 
@@ -629,6 +644,19 @@ auth-error-155 = TOTP-токен не знойдзены
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Памылка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Праверка ўваходу…
+
+## ConfirmSignin component
+
+confirm-signin-header = Пацвердзіце гэты ўваход
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Пашукайце ў сваёй пошце спасылку для пацверджання ўваходу, дасланую на { $email }
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -656,16 +684,14 @@ account-recovery-lost-recovery-key-link = У вас няма ключа адна
 
 # Header for form to create new password
 create-new-password-header = Стварыць новы пароль
-confirm-account-recovery-key-button = Скінуць пароль
 account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Пароль усталяваны
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Стварыць новы пароль
-complete-reset-password-warning-message = <span>Памятайце:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { product-pocket } таксама не будуць закранутыя.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль усталяваны
@@ -691,7 +717,6 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
-reset-password-warning-message = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { product-pocket } таксама не будуць закранутыя.
 reset-password-button = Пачаць скід
 reset-password-success-alert = Скід пароля
 reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
@@ -699,7 +724,27 @@ reset-password-error-unknown-account = Невядомы ўліковы запі�
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Дзякуем за вашу пільнасць
 signin-reported-message = Наша каманда апавешчана. Такія паведамленні дапамагаюць нам стрымліваць зламыснікаў.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+

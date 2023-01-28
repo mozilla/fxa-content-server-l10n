@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-21 15:52+0000\n"
+"PO-Revision-Date: 2023-01-28 14:32+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1034,7 +1034,7 @@ msgstr "Пашукайце ў сваёй пошце спасылку для п�
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Пашукайце ў сваёй пошце спасылку для пацверждання ўваходу, дасланую на %(escapedEmail)s"
+msgstr "Пашукайце ў сваёй пошце спасылку для пацверджання ўваходу, дасланую на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
