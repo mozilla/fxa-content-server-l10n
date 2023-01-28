@@ -734,6 +734,11 @@ reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我�
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = 請輸入您的密碼 <span>{ -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = 繼續前往 { $serviceName }
@@ -750,6 +755,9 @@ signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服務條款</link
 signin-tos-and-privacy = 使用本服務，代表您同意<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
 signin-use-a-different-account-link = 使用另一個帳號
 signin-forgot-password-link = 忘記密碼？
+signin-bounced-header = 抱歉，我們鎖定了您的帳號。
+# $email (string) - The user's email.
+signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了保護您 { -brand-firefox } 的資料，已暫時鎖定您的帳號。
 # linkExternal is a link to a mozilla support
 signin-bounced-help = 若這是有效的電子郵件地址，<linkExternal>請讓我們知道</linkExternal>，我們將協助您解鎖帳號。
 signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
@@ -767,6 +775,8 @@ signin-recovery-code-heading-w-default-service = 輸入備用驗證碼<span>即�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即可繼續前往 { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = 包含隱藏文字的文件。
 signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
 signin-recovery-code-input =
     .label = 請輸入十位數的備用驗證碼
@@ -787,6 +797,12 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = 請輸入您的確認碼 <span>{ -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的確認碼
 signin-token-code-input-label =
     .label = 請輸入六位數的安全碼
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -794,6 +810,7 @@ signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 重寄新驗證碼。
+signin-token-code-required-error = 請輸入確認碼
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
