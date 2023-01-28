@@ -755,6 +755,7 @@ reset-password-heading-w-default-service = Restablecer la contraseña <span>para
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer la contraseña <span> para continuar con { $serviceName }</span>
+reset-password-warning-message-2 = <span>Nota:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Podés perder parte de tu información personal (incluyendo historial, marcadores y contraseñas). Eso es porque ciframos tus datos con tu contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y los datos de { -product-pocket } no se verán afectados.
 reset-password-button = Iniciar el restablecimiento
 reset-password-success-alert = Restablecer la contraseña
 reset-password-error-general = Disculpá, hubo un problema al restablecer tu contraseña
@@ -764,12 +765,47 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Ingresá la contraseña <span>para tu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-subheader-without-logo-default = Continuar a configuración de cuenta
+signin-button = Iniciar sesión
+signin-header = Iniciar sesión
+# This message is followed by a bulleted list
+signin-tos-list-intro = Al continuar, aceptás:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Términos del servicio</linkExternal> y <linkExternal>nota de privacidad</linkExternal> de { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Términos del servicio</linkExternal> y <linkExternal>nota de privacidad</linkExternal> de { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Al continuar, aceptás los <linkExternal>términos del servicio</linkExternal> y la <linkExternal>nota de privacidad</linkExternal>
+signin-use-a-different-account-link = Usar una cuenta diferente
+signin-forgot-password-link = ¿Olvidaste la contraseña?
+signin-bounced-header = Lo sentimos. Bloqueamos tu cuenta.
+# $email (string) - The user's email.
+signin-bounced-message = El correo electrónico de confirmación que enviamos a { $email } rebotó y bloqueamos tu cuenta para proteger tus datos de { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Si esta es una dirección de correo electronico válida, <linkExternal>avisanos</linkExternal> y podemos ayudarte a desbloquear tu cuenta.
+signin-bounced-create-new-account = ¿No tenés más ese correo electrónico? Creá una nueva cuenta
+back = Atrás
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Ingresá el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Ingresá el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
