@@ -104,6 +104,8 @@ reset-password-complete-header = 已重設您的密碼
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = 您可以使用 { $serviceName } 了
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = 已經準備好可以進入帳號設定
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = 您的帳號準備好了！
 ready-continue = 繼續
@@ -196,6 +198,7 @@ cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
+cs-recent-activity = 近期帳號活動
 
 ##
 
@@ -371,6 +374,7 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
+delete-account-confirm-title-3 = 您可能曾經將 { -product-firefox-account } 連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
