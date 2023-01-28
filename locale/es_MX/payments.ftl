@@ -302,6 +302,17 @@ plan-price-interval-day =
             [one] { $amount } diario
            *[other] { $amount } cada { $intervalCount } días
         }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensual
+           *[other] { $amount } cada { $intervalCount } meses
+        }
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
     { $intervalCount ->
