@@ -25,6 +25,12 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Уліковы запіс Firefox
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
@@ -33,6 +39,12 @@
 
 ## FormResetPasswordWithBalloon
 
+form-reset-password-with-balloon-new-password =
+    .label = Новы пароль
+form-reset-password-with-balloon-confirm-password =
+    .label = Увядзіце пароль ізноў
+form-reset-password-with-balloon-submit-button = Скінуць пароль
+form-reset-password-with-balloon-match-error = Паролі не супадаюць
 
 ## Input Password
 
@@ -46,6 +58,9 @@ input-password-show-aria = Паказаць пароль як звычайны �
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Спасылка для скіду пароля пашкоджана
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Спасылка для пацвярджэння пашкоджана
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
 
@@ -53,7 +68,10 @@ reset-pwd-link-damaged-message = У спасылцы, па якой вы пра�
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Тэрмін дзеяння спасылкі для пацвярджэння скончыўся
 reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
+signin-link-expired-message = Спасылка, па якой вы прайшлі для пацвярджэння электроннай пошты, пратэрмінаваная.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Атрымаць новую спасылку
 
@@ -65,9 +83,19 @@ remember-pw-link = Памятаеце свой пароль? Увайсці
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Асноўны адрас электроннай пошты ўжо пацверджаны
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
+confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Патрабаванні да пароля
+password-strength-balloon-min-length = Мінімум 8 знакаў
+password-strength-balloon-not-email = Не ваш адрас электроннай пошты
+password-strength-balloon-not-common = Не часта выкарыстаны пароль
+password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы — не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <LinkExternal>стварэнне надзейных пароляў</LinkExternal>.
 
 ## Ready component
 
@@ -76,11 +104,15 @@ reset-password-complete-header = Ваш пароль быў скінуты
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Цяпер вы можаце выкарыстоўваць { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Цяпер вы гатовыя выкарыстоўваць налады ўліковага запісу
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ваш уліковы запіс гатовы!
 ready-continue = Працягнуць
 sign-in-complete-header = Уваход пацверджаны
+sign-up-complete-header = Уліковы запіс пацверджаны
 pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
+primary-email-verified-header = Асноўны адрас электроннай пошты пацверджаны
 
 ## Alert Bar
 
@@ -100,6 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = Меню прадуктаў { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
 bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
 bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
@@ -355,6 +391,13 @@ delete-account-header =
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
 delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Сінхранізуюцца звесткі { -brand-firefox }
 delete-account-product-firefox-addons = Дадаткі { -brand-firefox }
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
@@ -826,3 +869,4 @@ signin-totp-code-input-label =
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
 signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
+signin-totp-code-recovery-code-link = Праблема з уводам кода?
