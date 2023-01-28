@@ -374,6 +374,7 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
+delete-account-confirm-title-3 = 该 { -product-firefox-account }可能已关联至以下一项或多项 { -brand-mozilla } 产品或服务，它们正助力您安全、高效地畅游网络：
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -658,6 +659,8 @@ validating-signin = 正在验证登录…
 ## ConfirmSignin component
 
 confirm-signin-header = 确认此登录
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认链接
 
 ## AccountRecoveryConfirmKey page
 
@@ -757,6 +760,7 @@ signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被�
 # linkExternal is a link to a mozilla support
 signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的帐户。
 signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账户吧
+back = 上一步
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -777,6 +781,8 @@ signin-recovery-code-input =
     .label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = 上一步
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 被锁定了吗？
