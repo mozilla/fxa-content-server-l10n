@@ -441,6 +441,7 @@ recent-activity-account-disable = Kontot inaktiverades
 recent-activity-account-enable = Kontot aktiverades
 recent-activity-account-login = Kontoinitierad inloggning
 recent-activity-account-reset = Kontoinitierad lösenordsåterställning
+recent-activity-emails-clearBounces = Kontot rensade returnerade e-postmeddelanden
 
 # Account recovery key setup page
 
