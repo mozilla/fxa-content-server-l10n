@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox тіркелгісі
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Жаңа пароль
+form-reset-password-with-balloon-confirm-password =
+    .label = Парольді қайта енгізіңіз
+form-reset-password-with-balloon-submit-button = Парольді тастау
+form-reset-password-with-balloon-match-error = Парольдер өзара сәйкес келмейді
 
 ## Input Password
 
@@ -42,39 +53,59 @@ input-password-show = Парольді көрсету
 input-password-hide-aria = Парольді экраннан жасыру.
 input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Парольді тастау сілтемесі зақымдалған
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Растау сілтемесі зақымдалған
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Растау сілтемесінің мерзімі аяқталған
+reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
+signin-link-expired-message = Эл. пошта адресін растау үшін сіз шерткен сілтеменің мерзімі біткен.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Жаңа сілтемені алу
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Пароліңіз есіңізде бар ма? Кіріңіз
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Біріншілік эл. пошта адресі расталған болып тұр
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Кіру расталған болып тұр
+confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Парольге қойылатын талаптар
+password-strength-balloon-min-length = Кемінде 8 таңба
+
 ## Ready component
 
 reset-password-complete-header = Пароліңіз тасталды
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сіз енді { $serviceName } қолдануға дайынсыз
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Сіздің тіркелгіңіз дайын!
 ready-continue = Жалғастыру
 sign-in-complete-header = Кіру расталды
 pulsing-hearts-description = Қызғылт түсті ноутбук және жүрек соғуы бар күлгін мобильді құрылғы
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Парольді тастау сілтемесі зақымдалған
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
-reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Жаңа сілтемені алу
 
 ## Alert Bar
 
@@ -94,10 +125,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
 bento-menu-firefox-mobile = Мобильді { -brand-firefox } браузері
 bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
@@ -353,10 +380,7 @@ delete-account-header =
     .title = Тіркелгіні өшіру
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
-delete-account-confirm-title-2 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді сізді интернетте қауіпсіз және өнімді қылатын { -brand-mozilla } өнімдеріне қостыңыз:
 delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
-delete-account-chk-box-1-v2 =
-    .label = Сізде бар ақылы жазылулар өшіріледі ({ product-pocket } басқа)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla }өнімдерінде сақталған ақпаратты және мүмкіндіктерді жоғалтуыңыз мүмкін
 delete-account-chk-box-3 =
@@ -384,6 +408,9 @@ display-name-update-error-2 = Көрсетілетін атыңызды жаңа
 display-name-success-alert-2 = Көрсетілетін атыңыз жаңартылды
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -629,6 +656,12 @@ auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -656,16 +689,12 @@ account-recovery-lost-recovery-key-link = Тіркелгіні қалпына к
 
 # Header for form to create new password
 create-new-password-header = Жаңа парольді жасау
-confirm-account-recovery-key-button = Парольді тастау
 account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Жаңа парольді жасау
-complete-reset-password-warning-message = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { product-pocket } деректеріне әсер етпейді.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
@@ -691,7 +720,6 @@ reset-password-heading-w-default-service = <span>Тіркелгі баптаул
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
-reset-password-warning-message = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { product-pocket } деректеріне әсер етпейді.
 reset-password-button = Қалпына келтіруді бастау
 reset-password-success-alert = Парольді қалпына келтіру
 reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
@@ -699,7 +727,27 @@ reset-password-error-unknown-account = Белгісіз тіркелгі
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Қырағылығыңыз үшін рахмет
 signin-reported-message = Біздің топ хабарды алды. Шағымдарыңыз алаяқтылармен күресуге көмектеседі.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
