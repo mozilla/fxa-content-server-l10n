@@ -41,6 +41,8 @@
 
 form-reset-password-with-balloon-new-password =
     .label = Nueva contraseña
+form-reset-password-with-balloon-confirm-password =
+    .label = Reingresar contraseña
 form-reset-password-with-balloon-submit-button = Restablecer contraseña
 form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
 
@@ -732,9 +734,13 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
 signin-subheader-without-logo-default = Continuar a los ajustes de la cuenta
 signin-button = Iniciar sesión
 signin-header = Iniciar sesión
+signin-use-a-different-account-link = Usa una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
 back = Atrás
 
@@ -757,6 +763,8 @@ signin-reported-message = Se ha informado a nuestro equipo. Reportes como este n
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Ingresa el código que fue enviado a { $email } en los últimos 5 minutos.
 signin-token-code-input-label =
     .label = Ingresa código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
