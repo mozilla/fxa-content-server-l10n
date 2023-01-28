@@ -789,12 +789,35 @@ signin-forgot-password-link = Passwort vergessen?
 signin-bounced-header = Leider ist Ihr Konto gesperrt.
 # $email (string) - The user's email.
 signin-bounced-message = Die an { $email } geschickte Bestätigungs-E-Mail wurde zurückgeschickt und wir haben Ihr Konto zum Schutz Ihrer { -brand-firefox }-Daten gesperrt.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Wenn dies eine gültige E-Mail-Adresse ist, <linkExternal>sagen Sie uns Bescheid</linkExternal>, damit wir beim Entsperren Ihres Kontos helfen können.
+signin-bounced-create-new-account = Ist das nicht mehr Ihre E-Mail-Adresse? Erstellen Sie ein neues Konto
+back = Zurück
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Geben Sie einen Sicherungs-Authentifizierungscode ein, <span>um mit den Kontoeinstellungen fortzufahren</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Geben Sie einen Sicherungs-Authentifizierungscode ein, <span>um mit { $serviceName } fortzufahren</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokument, das verborgenen Text enthält.
+signin-recovery-code-instruction = Bitte geben Sie einen Sicherungs-Authentifizierungscode ein, der Ihnen während der Einrichtung der zweistufigen Authentifizierung zur Verfügung gestellt wurde.
+signin-recovery-code-input =
+    .label = Geben Sie den zehnstelligen Sicherungs-Authentifizierungscode ein
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bestätigen
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Zurück
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Haben Sie sich ausgesperrt?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -805,9 +828,39 @@ signin-reported-message = Unser Team wurde benachrichtigt. Meldungen wie diese h
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Geben Sie den Bestätigungscode <span>für Ihr { -product-firefox-account }</span> ein
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Geben Sie innerhalb von fünf Minuten den Code ein, der an { $email } gesendet wurde.
+signin-token-code-input-label =
+    .label = 6-stelligen Code eingeben
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Bestätigen
+signin-token-code-code-expired = Code abgelaufen?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Neuen Code per E-Mail senden.
+signin-token-code-required-error = Bestätigungscode erforderlich
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Geben Sie den Sicherheitscode ein, <span>um mit den Kontoeinstellungen fortzufahren</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Geben Sie den Sicherheitscode ein, <span>um mit { $serviceName } fortzufahren</span>
+signin-totp-code-image-label =
+    .aria-label = Ein Gerät mit einem versteckten 6-stelligen Code.
+signin-totp-code-instruction = Öffnen Sie Ihre Authentifizierungs-App und geben Sie den bereitgestellten Sicherheitscode ein.
+signin-totp-code-input-label =
+    .label = 6-stelligen Code eingeben
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Bestätigen
+signin-totp-code-other-account-link = Ein anderes Konto verwenden
+signin-totp-code-recovery-code-link = Probleme bei der Codeeingabe?
