@@ -817,6 +817,15 @@ signin-token-code-required-error = 請輸入確認碼
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = 請輸入安全碼<span>即可繼續前往帳號設定</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = 請輸入安全碼<span>即可繼續前往 { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = 包含隱藏六位數安全碼的裝置。
 signin-totp-code-instruction = 請開啟您的兩階段驗證程式，並輸入其提供的安全碼。
 signin-totp-code-input-label =
     .label = 請輸入六位數的安全碼
