@@ -365,7 +365,19 @@ delete-account-header =
     .title = מחיקת חשבון
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
+delete-account-confirm-title-3 = ייתכן שחיברת את { -product-firefox-account(case: "the") } שלך לאחד או יותר מהמוצרים או השירותים הבאים של { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
+delete-account-product-firefox-account = { -product-firefox-account(case: "a") }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = בתהליך סנכרון נתוני { -brand-firefox }
+delete-account-product-firefox-addons = תוספות של { -brand-firefox }
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
+delete-account-chk-box-1-v3 =
+    .label = כל המינויים בתשלום שיש לך יבוטלו (למעט { -product-pocket })
 delete-account-chk-box-2 =
     .label = מידע ותכונות שנשמרו במוצרי { -brand-mozilla } עלולים להיאבד
 delete-account-chk-box-3 =
@@ -397,6 +409,10 @@ display-name-success-alert-2 = שם התצוגה עודכן
 
 ## Recent Activity
 
+recent-activity-title = פעילות אחרונה בחשבון
+recent-activity-account-create = החשבון נוצר
+recent-activity-account-disable = החשבון הושבת
+recent-activity-account-enable = החשבון הופעל
 
 # Account recovery key setup page
 
@@ -615,9 +631,16 @@ auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = שגיאה:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = בתהליך אימות התחברות…
 
 ## ConfirmSignin component
 
+confirm-signin-header = אישור התחברות זו
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -647,11 +670,14 @@ account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חש
 # Header for form to create new password
 create-new-password-header = יצירת ססמה חדשה
 account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = הססמה הוגדרה
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = יצירת ססמה חדשה
+complete-reset-password-warning-message-2 = <span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = הססמה הוגדרה
