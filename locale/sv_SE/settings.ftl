@@ -767,14 +767,59 @@ reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till m
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Ange ditt lösenord <span>för ditt { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Fortsätt till <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Fortsätt till { $serviceName }
+signin-subheader-without-logo-default = Fortsätt till kontoinställningar
 signin-button = Logga in
 signin-header = Logga in
+# This message is followed by a bulleted list
+signin-tos-list-intro = Genom att fortsätta godkänner du:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { -product-pocket }s <linkExternal>Användarvillkor</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox }s <linkExternal>Användarvillkor</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Genom att fortsätta godkänner du <linkExternal>Användarvillkoren</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
+signin-use-a-different-account-link = Använd ett annat konto
+signin-forgot-password-link = Glömt ditt lösenord?
+signin-bounced-header = Förlåt. Vi har låst ditt konto.
+# $email (string) - The user's email.
+signin-bounced-message = Bekräftelsemeddelandet som vi skickade till { $email } returnerades och vi har låst ditt konto för att skydda din { -brand-firefox }-data.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Om detta är en giltig e-postadress, <linkExternal>meddela oss</linkExternal> så kan vi hjälpa dig att låsa upp ditt konto.
+signin-bounced-create-new-account = Äger du inte längre den e-postadressen? Skapa ett nytt konto
+back = Tillbaka
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Ange reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Ange reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokument som innehåller dold text.
+signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering.
+signin-recovery-code-input =
+    .label = Ange en 10-siffrig reservautentiseringskod
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bekräfta
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Tillbaka
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Är du utelåst?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -785,6 +830,14 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Ange bekräftelsekod<span> för ditt { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
+signin-token-code-input-label =
+    .label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekräfta
 signin-token-code-code-expired = Har koden upphört?
