@@ -203,6 +203,7 @@ cs-disconnect-lost-advice-content-2 =
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-firefox-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
+cs-recent-activity = Activitate de conto recente
 
 ##
 
@@ -710,6 +711,7 @@ account-recovery-reset-password-success-alert = Configuration del contrasigno
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Crear le nove contrasigno
+complete-reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Configuration del contrasigno
@@ -735,6 +737,7 @@ reset-password-heading-w-default-service = Remonta le contrasigno <span>pro cont
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
+reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
 reset-password-button = Initiar reinitialisation
 reset-password-success-alert = Remontar contrasigno
 reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
@@ -744,8 +747,14 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-button = Aperir session
+signin-header = Aperir session
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
+signin-bounced-header = Regrettabilemente, tu conto ha essite blocate.
 signin-bounced-create-new-account = Non possede tu plus iste adresse de e-mail? Crea un nove conto
 back = Retro
 
@@ -778,9 +787,19 @@ signin-token-code-input-label =
     .label = Insere le codice de 6 digitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = Codice expirate?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Inviar per email nove codice.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Aperi tu application de authentication e insere le codice de securitate que illo forni.
+signin-totp-code-input-label =
+    .label = Insere le codice de 6 digitos
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Usa un conto differente
+signin-totp-code-recovery-code-link = Problemas a inserer le codice?
