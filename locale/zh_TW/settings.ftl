@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 帳號
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = 新密碼
+form-reset-password-with-balloon-confirm-password =
+    .label = 再次輸入密碼
+form-reset-password-with-balloon-submit-button = 重設密碼
+form-reset-password-with-balloon-match-error = 密碼不符合
 
 ## Input Password
 
@@ -42,39 +53,64 @@ input-password-show = 顯示密碼
 input-password-hide-aria = 在畫面上隱藏密碼。
 input-password-show-aria = 用明文顯示密碼在螢幕上。
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = 驗證鏈結無效
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = 重設密碼鏈結已失效
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = 驗證鏈結已失效
+reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
+signin-link-expired-message = 您點擊的密碼重設驗證鏈結已失效。
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = 取得新鏈結
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = 記得密碼嗎？請登入
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過了
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = 已確認過此次登入
+confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = 密碼要求
+password-strength-balloon-min-length = 至少八個字元長
+password-strength-balloon-not-email = 不可以與您的電子郵件地址相同
+password-strength-balloon-not-common = 不可以是常見的密碼
+password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高安全性密碼的秘訣，<LinkExternal>請見此處</LinkExternal>。
+
 ## Ready component
 
 reset-password-complete-header = 已重設您的密碼
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = 您可以使用 { $serviceName } 了
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = 您的帳號準備好了！
 ready-continue = 繼續
 sign-in-complete-header = 登入完成
+sign-up-complete-header = 帳號已確認
 pulsing-hearts-description = 粉紅色的筆記型電腦跟紫色的行動裝置，背後分別都有個跳動的心形圖案
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = 重設密碼鏈結已失效
-reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 取得新鏈結
+primary-email-verified-header = 已驗證主要電子郵件地址
 
 ## Alert Bar
 
@@ -94,10 +130,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } 產品選單
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
 bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
 bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
@@ -335,10 +371,18 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
-delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } 的同步資料
+delete-account-product-firefox-addons = { -brand-firefox } 附加元件
 delete-account-acknowledge = 請確認若刪除帳號：
-delete-account-chk-box-1-v2 =
-    .label = 將取消所有付費訂閱項目（{ product-pocket } 除外）
+delete-account-chk-box-1-v3 =
+    .label = 將取消所有付費訂閱項目（{ -product-pocket } 除外）
 delete-account-chk-box-2 =
     .label = 您可能會失去 { -brand-mozilla } 產品中儲存的資訊與部分功能
 delete-account-chk-box-3 =
@@ -367,6 +411,16 @@ display-name-success-alert-2 = 已更新顯示名稱
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = 近期帳號活動
+recent-activity-account-create = 已建立帳號
+recent-activity-account-disable = 已停用帳號
+recent-activity-account-enable = 已啟用帳號
+recent-activity-account-login = 帳號進行登入
+recent-activity-account-reset = 帳號進行密碼重設
+recent-activity-emails-clearBounces = 已處理帳號退信
 
 # Account recovery key setup page
 
@@ -592,6 +646,19 @@ auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = 錯誤：
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = 正在驗證登入…
+
+## ConfirmSignin component
+
+confirm-signin-header = 確認此次登入
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈結
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -619,16 +686,15 @@ account-recovery-lost-recovery-key-link = 沒有帳號救援金鑰嗎？
 
 # Header for form to create new password
 create-new-password-header = 設定新密碼
-confirm-account-recovery-key-button = 重設密碼
 account-restored-success-message = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = 已設定密碼
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = 建立新密碼
-complete-reset-password-warning-message = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ product-pocket } 服務當中的資料也不受影響。
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
+complete-reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 已設定密碼
@@ -654,7 +720,7 @@ reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
-reset-password-warning-message = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ product-pocket } 服務當中的資料也不受影響。
+reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
 reset-password-button = 開始重設
 reset-password-success-alert = 密碼重設
 reset-password-error-general = 很抱歉，重設您的密碼時發生問題
@@ -662,7 +728,68 @@ reset-password-error-unknown-account = 未知帳號
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
 
+## Signin page
+
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = 繼續前往 { $serviceName }
+signin-subheader-without-logo-default = 繼續前往帳號設定
+signin-button = 登入
+signin-header = 登入
+# This message is followed by a bulleted list
+signin-tos-list-intro = 使用本服務，代表您同意：
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { -product-pocket } 的<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = 使用本服務，代表您同意<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
+signin-use-a-different-account-link = 使用另一個帳號
+signin-forgot-password-link = 忘記密碼？
+signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
+back = 返回
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
+signin-recovery-code-input =
+    .label = 請輸入十位數的備用驗證碼
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 確認
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = 返回
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 被鎖住了嗎？
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = 感謝您提高警覺
 signin-reported-message = 已通知我們的營運團隊。像這樣的回報可以幫助我們阻擋入侵者。
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+signin-token-code-input-label =
+    .label = 請輸入六位數的安全碼
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = 確認
+signin-token-code-code-expired = 驗證碼失效？
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = 重寄新驗證碼。
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+signin-totp-code-input-label =
+    .label = 請輸入六位數的安全碼
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = 確認
+signin-totp-code-other-account-link = 使用另一個帳號
+signin-totp-code-recovery-code-link = 輸入代碼時遇到問題嗎？
