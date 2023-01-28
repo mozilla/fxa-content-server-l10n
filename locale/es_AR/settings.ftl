@@ -691,6 +691,8 @@ validating-signin = Validando inicio de sesión…
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmá tu inicio de sesión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Fijate en tu correo electrónico el enlace de confirmación de ingreso enviado a { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -720,11 +722,14 @@ account-recovery-lost-recovery-key-link = ¿No tenés una clave de recuperación
 # Header for form to create new password
 create-new-password-header = Crear una nueva contraseña
 account-restored-success-message = Restauraste tu cuenta sin problemas usando tu clave de recuperación de la cuenta. Creá una nueva contraseña para asegurar tus datos y guardala en un lugar seguro.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Contraseña establecida
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Crear una nueva contraseña
+complete-reset-password-warning-message-2 = <span>Recordá:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Podés perder parte de tu información personal (incluyendo el historial, marcadores y contraseñas). Eso es porque ciframos tus datos con tu contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y los datos de { -product-pocket } no se verán afectados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
