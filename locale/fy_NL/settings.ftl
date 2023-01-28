@@ -104,6 +104,8 @@ reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Jo kinne { $serviceName } no brûke
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Jo binne no ree om accountynstellingen te brûken
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Jo account is ree!
 ready-continue = Trochgean
@@ -389,6 +391,7 @@ delete-account-header =
     .title = Account fuortsmite
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
+delete-account-confirm-title-3 = Jo hawwe miskien jo { -product-firefox-account } ferbûn oan ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it web:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -436,6 +439,9 @@ recent-activity-title = Resinte accountaktiveit
 recent-activity-account-create = Account is oanmakke
 recent-activity-account-disable = Account is útskeakele
 recent-activity-account-enable = Account is ynskeakele
+recent-activity-account-login = Troch account inisjearre oanmelding
+recent-activity-account-reset = Troch account inisjearre opnij ynstellen wachtwurd
+recent-activity-emails-clearBounces = Troch account wegere e-mailberjochten oplost
 
 # Account recovery key setup page
 
@@ -864,3 +870,4 @@ signin-totp-code-input-label =
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke
+signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
