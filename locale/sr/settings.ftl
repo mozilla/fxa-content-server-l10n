@@ -767,12 +767,47 @@ reset-password-with-recovery-key-verified-continue-to-account = Настави �
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Унеси лозинку <span>за { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Настави на <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Настави на { $serviceName }
+signin-subheader-without-logo-default = Настави на подешавања налога
+signin-button = Пријави се
+signin-header = Пријави се
+# This message is followed by a bulleted list
+signin-tos-list-intro = Ако наставите, слажете се са:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = { -product-pocket } <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = { -brand-firefox } <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Ако наставите, слажете се са <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
+signin-use-a-different-account-link = Користи други налог
+signin-forgot-password-link = Заборавили сте лозинку?
+signin-bounced-header = Жао нам је. Закључали смо ваш налог.
+# $email (string) - The user's email.
+signin-bounced-message = Потврдна порука е-поште коју смо послали на { $email } је враћена, те смо закључали ваш налог да заштитимо ваше { -brand-firefox } податке.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Ако је ово исправна адреса е-поште, <linkExternal>јавите нам се</linkExternal> и помоћи ћемо вам око откључавања налога.
+signin-bounced-create-new-account = То више није ваша адреса е-поште? Направите нови налог
+back = Назад
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Унесите резервни приступни код <span>да наставите на подешавања налога</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Унесите резервни приступни код <span>да наставите на { $serviceName }</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
