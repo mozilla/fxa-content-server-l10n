@@ -426,6 +426,7 @@ recent-activity-account-disable = A conta foi desativada
 recent-activity-account-enable = A conta foi ativada
 recent-activity-account-login = Iniciado acesso na conta
 recent-activity-account-reset = Iniciada redefinição de senha da conta
+recent-activity-emails-clearBounces = A conta removeu a não entrega de emails
 
 # Account recovery key setup page
 
