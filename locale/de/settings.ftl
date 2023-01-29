@@ -686,7 +686,7 @@ auth-error-1008 = Ihr neues Passwort muss ein anderes sein
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Fehler:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Anmeldung wird bestätigt...
+validating-signin = Anmeldung wird bestätigt…
 
 ## ConfirmSignin component
 
