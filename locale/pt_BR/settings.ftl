@@ -752,9 +752,15 @@ signin-tos-list-intro = Ao prosseguir, você concorda com os:
 signin-tos-list-pocket = <linkExternal>Termos do serviço</linkExternal> e <linkExternal>Aviso de privacidade</linkExternal> do { -product-pocket }
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
 signin-tos-list-firefox = <linkExternal>Termos do serviço</linkExternal> e <linkExternal>Aviso de privacidade</linkExternal> do { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Ao prosseguir, você concorda com os <linkExternal>Termos do serviço</linkExternal> e <linkExternal>Aviso de privacidade</linkExternal>
 signin-use-a-different-account-link = Usar outra conta
 signin-forgot-password-link = Esqueceu a senha?
 signin-bounced-header = Desculpe. Bloqueamos a sua conta.
+# $email (string) - The user's email.
+signin-bounced-message = O email de confirmação que enviamos para { $email } retornou e bloqueamos sua conta para proteger seus dados do { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Se este for um endereço de email válido, <linkExternal>avise-nos</linkExternal> e poderemos ajudar a desbloquear sua conta.
 signin-bounced-create-new-account = Não tem mais este email? Crie outra conta
 back = Voltar
 
@@ -763,6 +769,13 @@ back = Voltar
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Digite o código de autenticação de backup <span>para continuar para as configurações da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Digite o código de autenticação de backup <span>para continuar para o { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Documento que contém texto oculto.
 signin-recovery-code-instruction = Digite o código de autenticação de backup fornecido durante a configuração da autenticação em duas etapas.
@@ -785,6 +798,12 @@ signin-reported-message = Nossa equipe foi notificada. Relatos como este nos aju
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Digite o código de confirmação<span> da sua { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Digite o código enviado para { $email } em até 5 minutos.
 signin-token-code-input-label =
     .label = Digite o código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -792,12 +811,23 @@ signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = O código expirou?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Enviar novo código por email.
+signin-token-code-required-error = Necessário código de confirmação
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Digite o código de segurança <span>para continuar para as configurações da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Digite o código de segurança <span>para continuar para o { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Um dispositivo com um código oculto de 6 dígitos.
+signin-totp-code-instruction = Abra seu aplicativo de autenticação e digite o código de segurança que ele fornece.
 signin-totp-code-input-label =
     .label = Digite o código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
