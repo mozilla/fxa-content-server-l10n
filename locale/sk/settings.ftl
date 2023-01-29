@@ -89,15 +89,30 @@
                 [lower] účtom Firefox
             }
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket =
+    { $case ->
+        [gen] Pocketu
+        [dat] Pocketu
+        [acc] Pocket
+        [loc] Pockete
+        [ins] Pocketom
+       *[nom] Pocket
+    }
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Nové heslo
 
 ## Input Password
 
@@ -106,25 +121,7 @@ input-password-show = Zobraziť heslo
 input-password-hide-aria = Skryť heslo z obrazovky.
 input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
-
-## Ready component
-
-reset-password-complete-header = Vaše heslo bolo obnovené
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Odteraz môžete využívať službu { $serviceName }
-ready-account-ready = Váš účet je pripravený.
-ready-continue = Pokračovať
-sign-in-complete-header = Prihlásenie potvrdené
-pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -132,13 +129,38 @@ reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
 reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Získať nový odkaz
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
+
+
+## Ready component
+
+reset-password-complete-header = Vaše heslo bolo obnovené
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Odteraz môžete využívať službu { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Váš účet je pripravený.
+ready-continue = Pokračovať
+sign-in-complete-header = Prihlásenie potvrdené
+pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
 
 ## Alert Bar
 
@@ -158,10 +180,6 @@ avatar-default-avatar =
 
 bento-menu-title = Ponuka { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
 bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
 bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
@@ -417,10 +435,7 @@ delete-account-header =
     .title = Odstrániť účet
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization: "lower") } ste pripojili k produktom { -brand-mozilla(case: "gen") }, ktoré vám pomôžu zaistiť vaše bezpečie a produktivitu na webe:
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
-delete-account-chk-box-1-v2 =
-    .label = Všetky predplatné, ktoré máte, budú zrušené (okrem služby { product-pocket })
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
@@ -448,6 +463,9 @@ display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa v
 display-name-success-alert-2 = Zobrazované meno aktualizované
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -691,6 +709,12 @@ auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -718,16 +742,12 @@ account-recovery-lost-recovery-key-link = Nemáte kľúč na obnovenie účtu?
 
 # Header for form to create new password
 create-new-password-header = Vytvoriť nové heslo
-confirm-account-recovery-key-button = Obnoviť heslo
 account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Vytvoriť nové heslo
-complete-reset-password-warning-message = <span>Nezabudnite:</span> ak obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { product-pocket }.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Heslo bolo nastavené
@@ -753,7 +773,6 @@ reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
-reset-password-warning-message = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { product-pocket }.
 reset-password-button = Spustiť obnovu
 reset-password-success-alert = Obnova hesla
 reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
@@ -761,7 +780,27 @@ reset-password-error-unknown-account = Neznámy účet
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Ďakujeme za vašu ostražitosť
 signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať narušiteľov.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
