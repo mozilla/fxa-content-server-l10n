@@ -439,6 +439,9 @@ recent-activity-title = Недавне активности налога
 recent-activity-account-create = Налог је направљен
 recent-activity-account-disable = Налог је онемогућен
 recent-activity-account-enable = Налог је омогућен
+recent-activity-account-login = Налог је започео пријаву
+recent-activity-account-reset = Налог је започео ресетовање лозинке
+recent-activity-emails-clearBounces = Налог је обрисао враћене е-поруке
 
 # Account recovery key setup page
 
@@ -733,6 +736,7 @@ account-recovery-reset-password-success-alert = Лозинка је постав
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Направи нову лозинку
+complete-reset-password-warning-message-2 = <span>Запамтите:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { -product-pocket } подаци неће бити погођени.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Лозинка је постављена
@@ -758,6 +762,7 @@ reset-password-heading-w-default-service = Ресетујте лозинку <sp
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ресетујте лозинку <span>да наставите на { $serviceName }</span>
+reset-password-warning-message-2 = <span>Напомена:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { -product-pocket } подаци неће бити погођени.
 reset-password-button = Започни ресетовање
 reset-password-success-alert = Ресетовање лозинке
 reset-password-error-general = Жао нам је, дошло је до грешке при ресетовању лозинке
@@ -808,6 +813,18 @@ signin-recovery-code-heading-w-default-service = Унесите резервни
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Унесите резервни приступни код <span>да наставите на { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Документ који садржи скривени текст.
+signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили верификацију у два корака.
+signin-recovery-code-input =
+    .label = Унесите 10-цифрени резервни приступни код
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Потврди
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Назад
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Не можете да се пријавите?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -818,9 +835,39 @@ signin-reported-message = Наш тим је обавештен. Овакви и
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Унесите потврдни код<span> за ваш { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
+signin-token-code-input-label =
+    .label = Унесите шестоцифрени код
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Потврди
+signin-token-code-code-expired = Код је истекао?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Пошаљи нови е-поштом.
+signin-token-code-required-error = Потребан је потврдни код
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Унесите безбедносни код <span>да наставите на подешавања налога</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Унесите безбедносни код <span>да наставите на { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Уређај са скривеним шестоцифреним кодом.
+signin-totp-code-instruction = Отворите вашу апликацију за аутентификацију и унесите понуђени безбедносни код.
+signin-totp-code-input-label =
+    .label = Унесите шестоцифрени код
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Потврди
+signin-totp-code-other-account-link = Користи други налог
+signin-totp-code-recovery-code-link = Проблеми с уносом кода?
