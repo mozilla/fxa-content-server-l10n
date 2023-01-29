@@ -431,6 +431,7 @@ recent-activity-account-create = Conto create.
 recent-activity-account-disable = Le conto era disactivate.
 recent-activity-account-enable = Le conto era  activate.
 recent-activity-account-login = Accesso al conto initiate
+recent-activity-account-reset = Le conto initiava le remontage del contrasigno
 
 # Account recovery key setup page
 
@@ -768,11 +769,20 @@ signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-subheader-without-logo-default = Passa a parametros de conto
 signin-button = Aperir session
 signin-header = Aperir session
+# This message is followed by a bulleted list
+signin-tos-list-intro = Si tu procede, tu concorda con:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Si tu procede, tu concorda con le <linkExternal>Terminos de servicio</linkExternal> e le <linkExternal>Aviso de confidentialitate</linkExternal>
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
 signin-bounced-header = Regrettabilemente, tu conto ha essite blocate.
+# $email (string) - The user's email.
+signin-bounced-message = Le message de confirmation que nos ha inviate a { $email } ha essite retornate e nos ha blocate tu conto a fin de proteger tu datos { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Si isto es un adresse email valide, <linkExternal>face lo nos saper</linkExternal> e nos pote adjutar te a disblocar tu conto.
 signin-bounced-create-new-account = Non possede tu plus iste adresse de e-mail? Crea un nove conto
 back = Retro
 
@@ -781,6 +791,11 @@ back = Retro
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Insere le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+signin-recovery-code-image-description =
+    .aria-label = Documento que contine texto occulte.
 signin-recovery-code-instruction = Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos.
 signin-recovery-code-input =
     .label = Insere le codice de authentication de salvamento a 10-cifras
@@ -801,6 +816,12 @@ signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adju
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 signin-token-code-input-label =
     .label = Insere le codice de 6 digitos
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -808,12 +829,20 @@ signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Inviar per email nove codice.
+signin-token-code-required-error = Il es necesse codice de confirmation
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Insere codice de securitate <span>pro continuar a configurar le conto</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Insere codice de securitate <span>pro continuar { $serviceName }</span>
 signin-totp-code-instruction = Aperi tu application de authentication e insere le codice de securitate que illo forni.
 signin-totp-code-input-label =
     .label = Insere le codice de 6 digitos
