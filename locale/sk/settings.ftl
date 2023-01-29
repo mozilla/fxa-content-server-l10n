@@ -113,6 +113,10 @@
 
 form-reset-password-with-balloon-new-password =
     .label = Nové heslo
+form-reset-password-with-balloon-confirm-password =
+    .label = Znova zadajte heslo
+form-reset-password-with-balloon-submit-button = Obnoviť heslo
+form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
 
 ## Input Password
 
@@ -126,6 +130,9 @@ input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Potvrdzovací odkaz je poškodený
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
@@ -133,7 +140,10 @@ reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Platnosť potvrdzovacieho odkazu vypršala
 reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
+signin-link-expired-message = Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e-mailu, vypršala.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Získať nový odkaz
 
@@ -145,9 +155,19 @@ remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Hlavná e-mailová adresa už bola overená
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Prihlásenie je už potvrdené
+confirmation-link-reused-message = Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz).
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Požiadavky na heslo
+password-strength-balloon-min-length = Minimálne 8 znakov
+password-strength-balloon-not-email = Nie je to vaša e-mailová adresa
+password-strength-balloon-not-common = Nie je to bežne používané heslo
+password-strength-balloon-stay-safe-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďalšie tipy na <LinkExternal>vytvorenie silných hesiel</LinkExternal>.
 
 ## Ready component
 
@@ -156,11 +176,15 @@ reset-password-complete-header = Vaše heslo bolo obnovené
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Odteraz môžete využívať službu { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Teraz ste pripravení použiť nastavenia účtu
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Váš účet je pripravený.
 ready-continue = Pokračovať
 sign-in-complete-header = Prihlásenie potvrdené
+sign-up-complete-header = Účet bol potvrdený
 pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
+primary-email-verified-header = Hlavná e-mailová adresa bola potvrdená
 
 ## Alert Bar
 
@@ -180,6 +204,10 @@ avatar-default-avatar =
 
 bento-menu-title = Ponuka { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
 bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
 bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
@@ -257,6 +285,7 @@ cs-disconnect-suspicious-advice-content =
     uložili na prehliadači { -brand-firefox }, a to zadaním výrazu
     about:logins do panela s adresou.
 cs-sign-out-button = Odhlásiť sa
+cs-recent-activity = Nedávna aktivita účtu
 
 ##
 
@@ -435,7 +464,19 @@ delete-account-header =
     .title = Odstrániť účet
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+delete-account-confirm-title-3 = Možno ste svoj { -product-firefox-account(case: "acc", capitalization: "lower") } pripojili k jednému alebo viacerým z nasledujúcich produktov alebo služieb od { -brand-mozilla(case: "gen") }, ktoré vám zabezpečujú bezpečnosť a produktivitu na webe:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synchronizujú sa údaje { -brand-firefox(case: "gen") }
+delete-account-product-firefox-addons = Doplnky pre { -brand-firefox }
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
+delete-account-chk-box-1-v3 =
+    .label = Všetky predplatné, ktoré máte, budú zrušené (okrem služby { -product-pocket })
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
@@ -467,6 +508,10 @@ display-name-success-alert-2 = Zobrazované meno aktualizované
 
 ## Recent Activity
 
+recent-activity-title = Nedávna aktivita účtu
+recent-activity-account-create = Účet bol vytvorený
+recent-activity-account-disable = Účet bol deaktivovaný
+recent-activity-account-enable = Účet bol povolený
 
 # Account recovery key setup page
 
@@ -711,9 +756,14 @@ auth-error-1008 = Staré a nové heslo sa musia líšiť
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Chyba:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Overuje sa prihlásenie…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Potvrdiť toto prihlásenie
 
 ## AccountRecoveryConfirmKey page
 
@@ -782,12 +832,29 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do 
 
 ## Signin page
 
+signin-button = Prihlásiť sa
+signin-header = Prihlásenie
+# This message is followed by a bulleted list
+signin-tos-list-intro = Pokračovaním súhlasíte s:
+signin-forgot-password-link = Zabudli ste heslo?
+signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
+signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
+back = Naspäť
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input =
+    .label = Zadajte 10-miestny záložný overovací kód
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Potvrdiť
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Naspäť
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Stratili ste prístup?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -798,6 +865,12 @@ signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám p
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Zadajte potvrdzovací kód<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
