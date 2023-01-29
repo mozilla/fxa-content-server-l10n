@@ -95,6 +95,7 @@ password-strength-balloon-heading = Requisitos del contrasigno
 password-strength-balloon-min-length = Al minus 8 characteres
 password-strength-balloon-not-email = Non tu adresse email
 password-strength-balloon-not-common = Non un contrasigno commun
+password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <LinkExternal>crear contrasignos forte</LinkExternal>
 
 ## Ready component
 
@@ -103,6 +104,8 @@ reset-password-complete-header = Tu contrasigno ha essite remontate
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Tu es preste a usar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Tu es ora preste a usar le parametros de conto
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Tu conto es preste!
 ready-continue = Continuar
@@ -379,6 +382,7 @@ delete-account-header =
     .title = Deler le conto
 delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
+delete-account-confirm-title-3 = Tu pote haber connectite tu { -product-firefox-account } a uno o plus del productos o servicios { -brand-mozilla } que te mantene secur e productive sur le web:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -386,6 +390,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synchronisation datos de { -brand-firefox }
 delete-account-product-firefox-addons = Additivos de { -brand-firefox }
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
 delete-account-chk-box-1-v3 =
@@ -675,10 +680,14 @@ auth-error-1008 = Tu nove contrasigno debe esser differente
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validation del accesso…
 
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmar iste session
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate per email a { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -751,6 +760,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Insere tu contrasigno <span>pro tu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
