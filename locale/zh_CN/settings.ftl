@@ -424,6 +424,7 @@ recent-activity-account-disable = 帐户已禁用
 recent-activity-account-enable = 帐户已启用
 recent-activity-account-login = 账户发起的登录
 recent-activity-account-reset = 帐户发起的密码重置
+recent-activity-emails-clearBounces = 帐户已清除电子邮件退回
 
 # Account recovery key setup page
 
