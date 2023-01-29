@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox налог
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Нова лозинка
+form-reset-password-with-balloon-confirm-password =
+    .label = Поново унеси лозинку
+form-reset-password-with-balloon-submit-button = Ресетуј лозинку
+form-reset-password-with-balloon-match-error = Лозинке се не подударају
 
 ## Input Password
 
@@ -42,39 +53,62 @@ input-password-show = Прикажи лозинку
 input-password-hide-aria = Сакриј лозинку са екрана.
 input-password-show-aria = Прикажи лозинку као обични текст. Ваша лозинка ће бити видљива на екрану.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Веза за ресетовање лозинке је оштећена
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Веза за потврду је оштећена
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Веза за ресетовање лозинке је истекла
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Веза за потврду је истекла
+reset-pwd-link-expired-message = Везу коју сте кликнули за обнављање лозинке је истекла.
+signin-link-expired-message = Веза коју сте кликнули за потврду е-поште је истекла.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Примите нову везу
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Сећате се лозинке? Пријавите се
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Примарна адреса е-поште је већ потврђена
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Пријава је већ потврђена
+confirmation-link-reused-message = Ова потврдна веза је већ искоришћена, може се искористити само једном.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Услови лозинке
+password-strength-balloon-min-length = Најмање 8 знакова
+password-strength-balloon-not-email = Није ваша адреса е-поште
+password-strength-balloon-not-common = Није често употребљавана лозинка
+password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Ваша лозинка је ресетована
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сада сте спремни да користите { $serviceName }
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ваш налог је спреман!
 ready-continue = Настави
 sign-in-complete-header = Пријава је потврђена
 pulsing-hearts-description = Ружичасти лаптоп и љубичасти мобилни уређај са пулсирајућим срцима
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Веза за ресетовање лозинке је оштећена
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Веза за ресетовање лозинке је истекла
-reset-pwd-link-expired-message = Везу коју сте кликнули за обнављање лозинке је истекла.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Примите нову везу
 
 ## Alert Bar
 
@@ -94,10 +128,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento мени
 bento-menu-firefox-title = { -brand-firefox } је технологија која се бори за вашу приватност.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } прегледач за десктоп
 bento-menu-firefox-mobile = { -brand-firefox } прегледач за мобилни
 bento-menu-made-by-mozilla = Створила { -brand-mozilla }
@@ -352,10 +382,7 @@ delete-account-header =
     .title = Обриши налог
 delete-account-step-1-2 = Корак 1 од 2
 delete-account-step-2-2 = Корак 2 од 2
-delete-account-confirm-title-2 = Ваш { -product-firefox-account } повезан је са { -brand-mozilla } производима који вам омогућавају сигурно прегледање и бољу продуктивност на мрежи:
 delete-account-acknowledge = Брисањем налога признајете да:
-delete-account-chk-box-1-v2 =
-    .label = Све плаћене претплате које имате биће отказане (осим { product-pocket }-а)
 delete-account-chk-box-2 =
     .label = Можете изгубити податке и функције сачуване на { -brand-mozilla } производима
 delete-account-chk-box-3 =
@@ -383,6 +410,9 @@ display-name-update-error-2 = Дошло је до грешке при ажур�
 display-name-success-alert-2 = Име за приказ је ажурирано
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -630,6 +660,12 @@ auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао верификациони код
 auth-error-1008 = Нова лозинка мора да буде другачија
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -657,16 +693,12 @@ account-recovery-lost-recovery-key-link = Немате кључ за опора�
 
 # Header for form to create new password
 create-new-password-header = Направи нову лозинку
-confirm-account-recovery-key-button = Ресетуј лозинку
 account-restored-success-message = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Направи нову лозинку
-complete-reset-password-warning-message = <span>Подсетник:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { product-pocket } подаци неће бити погођени.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Лозинка је постављена
@@ -692,7 +724,6 @@ reset-password-heading-w-default-service = Ресетујте лозинку <sp
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ресетујте лозинку <span>да наставите на { $serviceName }</span>
-reset-password-warning-message = <span>Напомена:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { product-pocket } подаци неће бити погођени.
 reset-password-button = Започни ресетовање
 reset-password-success-alert = Ресетовање лозинке
 reset-password-error-general = Жао нам је, дошло је до грешке при ресетовању лозинке
@@ -700,7 +731,27 @@ reset-password-error-unknown-account = Непознат налог
 reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
 reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Хвала вам на вашој опрезности
 signin-reported-message = Наш тим је обавештен. Овакви извешаји нам помажу да се одбранимо од нападача.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
