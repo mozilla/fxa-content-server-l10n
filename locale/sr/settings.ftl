@@ -391,7 +391,19 @@ delete-account-header =
     .title = Обриши налог
 delete-account-step-1-2 = Корак 1 од 2
 delete-account-step-2-2 = Корак 2 од 2
+delete-account-confirm-title-3 = Можда сте повезали ваш { -product-firefox-account } са једним или више од следећих { -brand-mozilla } производа или услуга који помажу да будете безбедни и ефикасни на интернету:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Синхронизовање { -brand-firefox } података
+delete-account-product-firefox-addons = { -brand-firefox } додаци
 delete-account-acknowledge = Брисањем налога признајете да:
+delete-account-chk-box-1-v3 =
+    .label = Све ваше плаћене претплате биће отказане (осим { -product-pocket }-а)
 delete-account-chk-box-2 =
     .label = Можете изгубити податке и функције сачуване на { -brand-mozilla } производима
 delete-account-chk-box-3 =
@@ -423,6 +435,7 @@ display-name-success-alert-2 = Име за приказ је ажурирано
 
 ## Recent Activity
 
+recent-activity-title = Недавне активности налога
 
 # Account recovery key setup page
 
