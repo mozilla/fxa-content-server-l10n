@@ -104,11 +104,15 @@ reset-password-complete-header = Ваша лозинка је ресетован
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Сада сте спремни да користите { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Спремни сте да користите подешавања налога
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ваш налог је спреман!
 ready-continue = Настави
 sign-in-complete-header = Пријава је потврђена
+sign-up-complete-header = Налог је потврђен
 pulsing-hearts-description = Ружичасти лаптоп и љубичасти мобилни уређај са пулсирајућим срцима
+primary-email-verified-header = Примарна е-пошта је потврђена
 
 ## Alert Bar
 
@@ -128,6 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento мени
 bento-menu-firefox-title = { -brand-firefox } је технологија која се бори за вашу приватност.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } прегледач за десктоп
 bento-menu-firefox-mobile = { -brand-firefox } прегледач за мобилни
 bento-menu-made-by-mozilla = Створила { -brand-mozilla }
@@ -204,6 +212,7 @@ cs-disconnect-suspicious-advice-content =
     Такође бисте требали променити све друге лозинке
     које сте сачували у { -brand-firefox }-у тако што ћете у траку за адресу откуцати about:logins.
 cs-sign-out-button = Одјави се
+cs-recent-activity = Недавне активности налога
 
 ##
 
