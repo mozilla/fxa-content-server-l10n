@@ -436,6 +436,9 @@ display-name-success-alert-2 = Име за приказ је ажурирано
 ## Recent Activity
 
 recent-activity-title = Недавне активности налога
+recent-activity-account-create = Налог је направљен
+recent-activity-account-disable = Налог је онемогућен
+recent-activity-account-enable = Налог је омогућен
 
 # Account recovery key setup page
 
@@ -684,9 +687,16 @@ auth-error-1008 = Нова лозинка мора да буде другачи�
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Грешка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Пријава се потрвђује…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Потврди ову пријаву
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Проверите вашу е-пошту ради потврдне везе за приступ послате на { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -716,6 +726,8 @@ account-recovery-lost-recovery-key-link = Немате кључ за опора�
 # Header for form to create new password
 create-new-password-header = Направи нову лозинку
 account-restored-success-message = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Лозинка је постављена
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
