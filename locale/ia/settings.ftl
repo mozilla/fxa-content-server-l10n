@@ -386,6 +386,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = Additivos de { -brand-firefox }
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
 delete-account-chk-box-1-v3 =
     .label = Tote tu abonamentos a pagamento sera annullate (salvo { -product-pocket })
@@ -424,6 +425,7 @@ recent-activity-title = Activitate de conto recente
 recent-activity-account-create = Conto create.
 recent-activity-account-disable = Le conto era disactivate.
 recent-activity-account-enable = Le conto era  activate.
+recent-activity-account-login = Accesso al conto initiate
 
 # Account recovery key setup page
 
