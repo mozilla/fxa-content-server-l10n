@@ -735,6 +735,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar para m
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Digite a senha <span>da sua { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuar para <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar para { $serviceName }
@@ -742,7 +747,11 @@ signin-subheader-without-logo-default = Continuar para as configurações da con
 signin-button = Entrar
 signin-header = Entrar
 # This message is followed by a bulleted list
-signin-tos-list-intro = Ao prosseguir, você concorda com:
+signin-tos-list-intro = Ao prosseguir, você concorda com os:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Termos do serviço</linkExternal> e <linkExternal>Aviso de privacidade</linkExternal> do { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Termos do serviço</linkExternal> e <linkExternal>Aviso de privacidade</linkExternal> do { -brand-firefox }
 signin-use-a-different-account-link = Usar outra conta
 signin-forgot-password-link = Esqueceu a senha?
 signin-bounced-header = Desculpe. Bloqueamos a sua conta.
