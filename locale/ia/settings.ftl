@@ -432,6 +432,7 @@ recent-activity-account-disable = Le conto era disactivate.
 recent-activity-account-enable = Le conto era  activate.
 recent-activity-account-login = Accesso al conto initiate
 recent-activity-account-reset = Le conto initiava le remontage del contrasigno
+recent-activity-emails-clearBounces = Le conto clarava emails refusate
 
 # Account recovery key setup page
 
@@ -775,7 +776,9 @@ signin-header = Aperir session
 # This message is followed by a bulleted list
 signin-tos-list-intro = Si tu procede, tu concorda con:
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Terminos de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -product-pocket }
+signin-tos-list-pocket = <linkExternal>Conditiones de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Conditiones de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -brand-firefox }
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
 signin-tos-and-privacy = Si tu procede, tu concorda con le <linkExternal>Terminos de servicio</linkExternal> e le <linkExternal>Aviso de confidentialitate</linkExternal>
 signin-use-a-different-account-link = Usa un conto differente
