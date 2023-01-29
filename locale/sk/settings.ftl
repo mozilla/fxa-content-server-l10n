@@ -512,6 +512,8 @@ recent-activity-title = Nedávna aktivita účtu
 recent-activity-account-create = Účet bol vytvorený
 recent-activity-account-disable = Účet bol deaktivovaný
 recent-activity-account-enable = Účet bol povolený
+recent-activity-account-login = Účet inicioval prihlásenie
+recent-activity-account-reset = Účet inicioval zmenu hesla
 
 # Account recovery key setup page
 
@@ -764,6 +766,8 @@ validating-signin = Overuje sa prihlásenie…
 ## ConfirmSignin component
 
 confirm-signin-header = Potvrdiť toto prihlásenie
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -793,11 +797,14 @@ account-recovery-lost-recovery-key-link = Nemáte kľúč na obnovenie účtu?
 # Header for form to create new password
 create-new-password-header = Vytvoriť nové heslo
 account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Heslo bolo nastavené
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Vytvoriť nové heslo
+complete-reset-password-warning-message-2 = <span>Nezabudnite:</span> ak obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Heslo bolo nastavené
@@ -823,6 +830,7 @@ reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
+reset-password-warning-message-2 = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
 reset-password-button = Spustiť obnovu
 reset-password-success-alert = Obnova hesla
 reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
@@ -832,12 +840,31 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do 
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Zadajte heslo<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = A pokračujte do služby <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = A pokračujte do služby { $serviceName }
 signin-button = Prihlásiť sa
 signin-header = Prihlásenie
 # This message is followed by a bulleted list
 signin-tos-list-intro = Pokračovaním súhlasíte s:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal> služby { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal> { -brand-firefox(case: "gen") }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Pokračovaním vyjadrujete súhlas s <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal>
+signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
+# $email (string) - The user's email.
+signin-bounced-message = Potvrdzovací e-mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Ak ide o platnú e-mailovú adresu, <linkExternal>dajte nám vedieť</linkExternal> a my vám pomôžeme odomknúť váš účet.
 signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
 back = Naspäť
 
@@ -846,6 +873,16 @@ back = Naspäť
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Zadajte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Zadajte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokument, ktorý obsahuje skrytý text.
+signin-recovery-code-instruction = Zadajte záložný overovací kód, ktorý ste dostali počas nastavovania dvojstupňového overenia.
 signin-recovery-code-input =
     .label = Zadajte 10-miestny záložný overovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -871,9 +908,33 @@ signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám p
 signin-token-code-heading = Zadajte potvrdzovací kód<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
+signin-token-code-input-label =
+    .label = Zadajte šesťmiestny kód
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Potvrdiť
+signin-token-code-code-expired = Platnosť kódu vypršala?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Odoslať e-mailom nový kód.
+signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Zadajte bezpečnostný kód <span>a pokračujte do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Zadajte bezpečnostný kód <span>a pokračujte do služby { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Zariadenie so skrytým šesťmiestnym kódom.
+signin-totp-code-instruction = Otvorte svoju overovaciu aplikáciu a opíšte z nej bezpečnostný kód.
+signin-totp-code-input-label =
+    .label = Zadajte šesťmiestny kód
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Potvrdiť
+signin-totp-code-other-account-link = Použiť iný účet
+signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
