@@ -514,6 +514,7 @@ recent-activity-account-disable = Účet bol deaktivovaný
 recent-activity-account-enable = Účet bol povolený
 recent-activity-account-login = Účet inicioval prihlásenie
 recent-activity-account-reset = Účet inicioval zmenu hesla
+recent-activity-emails-clearBounces = Účet vymazal nedoručené e-maily
 
 # Account recovery key setup page
 
@@ -848,6 +849,7 @@ signin-subheader-with-logo = A pokračujte do služby <span>{ $serviceLogo }</sp
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = A pokračujte do služby { $serviceName }
+signin-subheader-without-logo-default = A pokračujte do nastavení účtu
 signin-button = Prihlásiť sa
 signin-header = Prihlásenie
 # This message is followed by a bulleted list
