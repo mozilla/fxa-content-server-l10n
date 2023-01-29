@@ -775,6 +775,8 @@ signin-header = Aperir session
 # This message is followed by a bulleted list
 signin-tos-list-intro = Si tu procede, tu concorda con:
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Terminos de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
 signin-tos-and-privacy = Si tu procede, tu concorda con le <linkExternal>Terminos de servicio</linkExternal> e le <linkExternal>Aviso de confidentialitate</linkExternal>
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
@@ -794,6 +796,10 @@ back = Retro
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Insere le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Insere le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Documento que contine texto occulte.
 signin-recovery-code-instruction = Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos.
@@ -843,6 +849,8 @@ signin-totp-code-heading-w-default-service = Insere codice de securitate <span>p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Insere codice de securitate <span>pro continuar { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Un apparato con un codice occulte de 6 cifras.
 signin-totp-code-instruction = Aperi tu application de authentication e insere le codice de securitate que illo forni.
 signin-totp-code-input-label =
     .label = Insere le codice de 6 digitos
