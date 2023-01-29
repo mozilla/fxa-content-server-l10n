@@ -514,7 +514,7 @@ recent-activity-account-disable = Účet bol deaktivovaný
 recent-activity-account-enable = Účet bol povolený
 recent-activity-account-login = Účet inicioval prihlásenie
 recent-activity-account-reset = Účet inicioval zmenu hesla
-recent-activity-emails-clearBounces = Účet vymazal nedoručené e-maily
+recent-activity-emails-clearBounces = Účet vymazal nedoručiteľné e-maily
 
 # Account recovery key setup page
 
@@ -845,11 +845,11 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do 
 signin-password-needed-header = Zadajte heslo<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = A pokračujte do služby <span>{ $serviceLogo }</span>
+signin-subheader-with-logo = A pokračovať do služby <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
-signin-subheader-without-logo-with-servicename = A pokračujte do služby { $serviceName }
-signin-subheader-without-logo-default = A pokračujte do nastavení účtu
+signin-subheader-without-logo-with-servicename = A pokračovať do služby { $serviceName }
+signin-subheader-without-logo-default = A pokračovať do nastavení účtu
 signin-button = Prihlásiť sa
 signin-header = Prihlásenie
 # This message is followed by a bulleted list
