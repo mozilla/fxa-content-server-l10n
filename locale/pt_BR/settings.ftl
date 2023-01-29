@@ -376,6 +376,7 @@ delete-account-header =
     .title = Excluir conta
 delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
+delete-account-confirm-title-3 = Você pode ter conectado sua { -product-firefox-account } a um ou mais dos seguintes produtos ou serviços { -brand-mozilla } que mantêm você protegido e produtivo na web:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -386,6 +387,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando dados do { -brand-firefox }
 delete-account-product-firefox-addons = Extensões do { -brand-firefox }
 delete-account-acknowledge = Esteja ciente que ao excluir sua conta:
+delete-account-chk-box-1-v3 =
+    .label = Todas as assinaturas pagas que você tiver serão canceladas (exceto o { -product-pocket })
 delete-account-chk-box-2 =
     .label = Você pode perder informações e recursos salvos dentro de produtos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -421,6 +424,8 @@ recent-activity-title = Atividade recente da conta
 recent-activity-account-create = A conta foi criada
 recent-activity-account-disable = A conta foi desativada
 recent-activity-account-enable = A conta foi ativada
+recent-activity-account-login = Iniciado acesso na conta
+recent-activity-account-reset = Iniciada redefinição de senha da conta
 
 # Account recovery key setup page
 
@@ -655,6 +660,9 @@ validating-signin = Validando acesso…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confirmar este acesso
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Verifique se recebeu o email com o link de confirmação de cadastro, enviado para { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -684,11 +692,14 @@ account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação de
 # Header for form to create new password
 create-new-password-header = Criar nova senha
 account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Senha definida
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Criar nova senha
+complete-reset-password-warning-message-2 = <span>Lembre:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (inclusive histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { -product-pocket } não são afetados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Senha definida
@@ -714,6 +725,7 @@ reset-password-heading-w-default-service = Redefina a senha <span>para continuar
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Redefina a senha <span>para continuar para { $serviceName }</span>
+reset-password-warning-message-2 = <span>Nota:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (inclusive histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { -product-pocket } não são afetados.
 reset-password-button = Iniciar redefinição
 reset-password-success-alert = Redefinição de senha
 reset-password-error-general = Desculpe, houve um problema ao redefinir sua senha
@@ -723,12 +735,37 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar para m
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar para { $serviceName }
+signin-subheader-without-logo-default = Continuar para as configurações da conta
+signin-button = Entrar
+signin-header = Entrar
+# This message is followed by a bulleted list
+signin-tos-list-intro = Ao prosseguir, você concorda com:
+signin-use-a-different-account-link = Usar outra conta
+signin-forgot-password-link = Esqueceu a senha?
+signin-bounced-header = Desculpe. Bloqueamos a sua conta.
+signin-bounced-create-new-account = Não tem mais este email? Crie outra conta
+back = Voltar
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-image-description =
+    .aria-label = Documento que contém texto oculto.
+signin-recovery-code-instruction = Digite o código de autenticação de backup fornecido durante a configuração da autenticação em duas etapas.
+signin-recovery-code-input =
+    .label = Digite o código de autenticação de backup de 10 dígitos
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Voltar
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Sua conta está bloqueada?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -739,9 +776,22 @@ signin-reported-message = Nossa equipe foi notificada. Relatos como este nos aju
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label =
+    .label = Digite o código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = O código expirou?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar novo código por email.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-input-label =
+    .label = Digite o código de 6 dígitos
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Usar outra conta
+signin-totp-code-recovery-code-link = Problemas ao inserir o código?
