@@ -89,15 +89,26 @@
                 [lower] обліковому записі Firefox
             }
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Новий пароль
+form-reset-password-with-balloon-confirm-password =
+    .label = Введіть пароль ще раз
+form-reset-password-with-balloon-submit-button = Відновити пароль
+form-reset-password-with-balloon-match-error = Паролі відрізняються
 
 ## Input Password
 
@@ -106,39 +117,66 @@ input-password-show = Показати пароль
 input-password-hide-aria = Сховати пароль з екрана.
 input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Посилання для відновлення пароля пошкоджене
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Посилання для підтвердження пошкоджено
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Посилання, за яким ви перейшли, має пропущені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Уважно скопіюйте адресу та спробуйте знову.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Посилання для відновлення пароля протерміноване
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Термін дії посилання для підтвердження завершився
+reset-pwd-link-expired-message = Посилання для відновлення пароля, за яким ви перейшли, протерміноване.
+signin-link-expired-message = Термін дії посилання, за яким ви перейшли для підтвердження електронної пошти, завершився.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Отримати нове посилання
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Пам'ятаєте свій пароль? Увійдіть
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Основна адреса електронної пошти вже підтверджена
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Вхід вже підтверджений
+confirmation-link-reused-message = Це посилання для підтвердження вже було використане, і може використовуватись лише один раз.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Вимоги до пароля
+password-strength-balloon-min-length = Принаймні 8 символів
+password-strength-balloon-not-email = Не ваша електронна адреса
+password-strength-balloon-not-common = Не часто використовуваний пароль
+password-strength-balloon-stay-safe-tips = Убезпечте себе — не використовуйте паролі повторно. Перегляньте інші поради щодо <LinkExternal>створення надійних паролів</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Ваш пароль було відновлено
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } налаштовано для роботи
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Тепер ви готові налаштувати обліковий запис
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ваш обліковий запис готовий!
 ready-continue = Продовжити
 sign-in-complete-header = Вхід підтверджено
+sign-up-complete-header = Обліковий запис підтверджено
 pulsing-hearts-description = Рожевий ноутбук і пурпуровий мобільний пристрій із серцем, що пульсує
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Посилання для відновлення пароля пошкоджене
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Посилання, за яким ви перейшли, має пропущені символи та, можливо, було пошкоджене вашим поштовим клієнтом. Уважно скопіюйте адресу та спробуйте знову.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Посилання для відновлення пароля протерміноване
-reset-pwd-link-expired-message = Посилання для відновлення пароля, за яким ви перейшли, протерміноване.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Отримати нове посилання
+primary-email-verified-header = Основну адресу електронної пошти підтверджено
 
 ## Alert Bar
 
@@ -158,10 +196,10 @@ avatar-default-avatar =
 
 bento-menu-title = Меню продуктів { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } - це технологія, яка захищає вашу приватність у мережі.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Браузер для комп'ютера
 bento-menu-firefox-mobile = { -brand-firefox } Браузер для мобільного
 bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
@@ -239,6 +277,7 @@ cs-disconnect-suspicious-advice-content =
     Вам також треба змінити будь-які інші паролі,
     збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
+cs-recent-activity = Останні дії в обліковому записі
 
 ##
 
@@ -417,10 +456,19 @@ delete-account-header =
     .title = Видалити обліковий запис
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-delete-account-confirm-title-2 = Ви під'єднали свій { -product-firefox-account(case: "nom", capitalization: "lower") } до продуктів { -brand-mozilla }, які забезпечують для вас захист і продуктивність в інтернеті:
+delete-account-confirm-title-3 = Можливо, ви під'єднали свій { -product-firefox-account } до одного або більше зазначених продуктів або сервісів { -brand-mozilla }, які забезпечують ваш захист і продуктивність в інтернеті.
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Синхронізація даних { -brand-firefox }
+delete-account-product-firefox-addons = Додатки { -brand-firefox }
 delete-account-acknowledge = Будь ласка, підтвердьте, що при видаленні свого облікового запису:
-delete-account-chk-box-1-v2 =
-    .label = Усі ваші передплати буде скасовано (окрім { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Усі ваші передплати буде скасовано (окрім { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ви можете втратити збережену інформацію та функції продуктів { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -449,6 +497,15 @@ display-name-success-alert-2 = Показуване ім’я оновлено
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Останні дії в обліковому записі
+recent-activity-account-create = Обліковий запис створено
+recent-activity-account-disable = Обліковий запис вимкнено
+recent-activity-account-enable = Обліковий запис увімкнено
+recent-activity-account-login = Вхід з обліковим записом
+recent-activity-account-reset = Скидання пароля через обліковий запис
 
 # Account recovery key setup page
 
@@ -695,6 +752,19 @@ auth-error-155 = TOTP-код не знайдено
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Помилка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Перевірка входу…
+
+## ConfirmSignin component
+
+confirm-signin-header = Підтвердьте цей вхід
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Знайдіть лист із посиланням для підтвердження входу, надісланий на { $email }
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -722,16 +792,15 @@ account-recovery-lost-recovery-key-link = Не маєте ключа відно�
 
 # Header for form to create new password
 create-new-password-header = Створити новий пароль
-confirm-account-recovery-key-button = Відновити пароль
 account-restored-success-message = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Пароль встановлено
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Створити новий пароль
-complete-reset-password-warning-message = <span>Пам'ятайте:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші поточні передплати й дані, раніше збережені в { product-pocket }.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці.
+complete-reset-password-warning-message-2 = <span>Пам'ятайте:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші чинні передплати й дані, раніше збережені в { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль встановлено
@@ -757,7 +826,7 @@ reset-password-heading-w-default-service = Скиньте пароль, <span>щ
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скиньте пароль, <span>щоб перейти до { $serviceName }</span>
-reset-password-warning-message = <span>Примітка:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші чинні передплати й дані, раніше збережені в { product-pocket }.
+reset-password-warning-message-2 = <span>Примітка:</span> Скидання пароля призводить до скидання вашого облікового запису. Ви можете втратити особисту інформацію (включно з історією, закладками та паролями). Це тому, що ми шифруємо дані за допомогою пароля для захисту вашої приватності. Проте, ця дія не вплине на ваші чинні передплати й дані, раніше збережені в { -product-pocket }.
 reset-password-button = Почати скидання
 reset-password-success-alert = Скидання пароля
 reset-password-error-general = Перепрошуємо, але під час скидання пароля виникла проблема
@@ -765,7 +834,104 @@ reset-password-error-unknown-account = Невідомий обліковий з�
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
 
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Введіть пароль <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Продовжити в { $serviceName }
+signin-subheader-without-logo-default = Перейти до налаштувань облікового запису
+signin-button = Увійти
+signin-header = Увійти
+# This message is followed by a bulleted list
+signin-tos-list-intro = Продовжуючи, ви погоджуєтеся з:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal> { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal> { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Продовжуючи, ви погоджуєтеся з <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal>
+signin-use-a-different-account-link = Використати інший обліковий запис
+signin-forgot-password-link = Забули пароль?
+signin-bounced-header = Вибачте. Ми заблокували ваш обліковий запис.
+# $email (string) - The user's email.
+signin-bounced-message = Електронний лист із підтвердженням, який ми надіслали на адресу { $email }, повернувся, і ми заблокували ваш обліковий запис, щоб захистити ваші дані { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Якщо це дійсна адреса електронної пошти, <linkExternal>повідомте нас</linkExternal> і ми допоможемо розблокувати ваш обліковий запис.
+signin-bounced-create-new-account = Ця адреса електронної пошти вам більше не належить? Створіть новий обліковий запис
+back = Назад
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Введіть резервний код автентифікації, <span>щоб перейти до налаштувань облікового запису</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Введіть резервний код автентифікації, <span>щоб продовжити в { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Документ, який містить прихований текст.
+signin-recovery-code-instruction = Введіть резервний код автентифікації, наданий вам під час налаштування двоетапної перевірки.
+signin-recovery-code-input =
+    .label = Введіть 10-значний резервний код автентифікації
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Підтвердити
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Назад
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ви заблоковані?
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Дякуємо за вашу уважність
 signin-reported-message = Наша команда була сповіщена. Такі звіти допомагають нам захиститися від зловмисників.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Введіть код підтвердження<span> для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
+signin-token-code-input-label =
+    .label = Введіть 6-значний код
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Підтвердити
+signin-token-code-code-expired = Код застарів?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Надіслати новий код електронною поштою.
+signin-token-code-required-error = Потрібно ввести код підтвердження
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Введіть код безпеки, <span>щоб перейти до налаштувань облікового запису</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Введіть код безпеки, <span>щоб продовжити в { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Пристрій з прихованим 6-значним кодом.
+signin-totp-code-instruction = Відкрийте вашу програму автентифікації та введіть код безпеки, який вона пропонує.
+signin-totp-code-input-label =
+    .label = Введіть 6-значний код
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Підтвердити
+signin-totp-code-other-account-link = Використати інший обліковий запис
+signin-totp-code-recovery-code-link = Проблеми з введенням коду?
