@@ -95,6 +95,7 @@ password-strength-balloon-heading = Kröfur um lykilorð
 password-strength-balloon-min-length = Að minnsta kosti 8 stafir
 password-strength-balloon-not-email = Ekki tölvupóstfangið þitt
 password-strength-balloon-not-common = Ekki algengt lykilorð
+password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta lykilorð. Sjáðu fleiri aðferðir til að <LinkExternal>búa til sterk lykilorð</LinkExternal>.
 
 ## Ready component
 
@@ -103,11 +104,15 @@ reset-password-complete-header = Lykilorðið þitt var endurstillt
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Nú geturðu farið að nota { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Þú ert nú tilbúin/n til að nota stillingar reikningsins
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Aðgangurinn þinn er tilbúinn!
 ready-continue = Halda áfram
 sign-in-complete-header = Innskráning staðfest
+sign-up-complete-header = Reikningur staðfestur
 pulsing-hearts-description = Bleik fartölva og fjólublátt snjalltæki, hvort um sig með hjarta sem slær
+primary-email-verified-header = Aðalpóstfang staðfest
 
 ## Alert Bar
 
@@ -127,6 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
 bento-menu-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
 bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
@@ -203,6 +212,7 @@ cs-disconnect-suspicious-advice-content =
     lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
     lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
+cs-recent-activity = Nýleg virkni reiknings
 
 ##
 
@@ -378,7 +388,19 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+delete-account-confirm-title-3 = Þú gætir hafa tengt { -product-firefox-account } við eina eða fleiri { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Samstilli { -brand-firefox }-gögn
+delete-account-product-firefox-addons = { -brand-firefox }-viðbætur
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
+delete-account-chk-box-1-v3 =
+    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { -product-pocket })
 delete-account-chk-box-2 =
     .label = Þú gætir glatað vistuðum upplýsingum og eiginleikum í { -brand-mozilla } þjónustum
 delete-account-chk-box-3 =
@@ -410,6 +432,10 @@ display-name-success-alert-2 = Birtingarnafn uppfært
 
 ## Recent Activity
 
+recent-activity-title = Nýleg virkni reiknings
+recent-activity-account-create = Reikningur var búinn til
+recent-activity-account-disable = Reikningur var gerður óvirkur
+recent-activity-account-enable = Reikningur var virkjaður
 
 # Account recovery key setup page
 
@@ -655,9 +681,16 @@ auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Villa:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Sannvotta innskráningu...
 
 ## ConfirmSignin component
 
+confirm-signin-header = Staðfestu þessa innskráningu
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn hafi borist með staðfestingu innskráningar sem sendur var á { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -687,11 +720,14 @@ account-recovery-lost-recovery-key-link = Ertu ekki með endurheimtulykil reikni
 # Header for form to create new password
 create-new-password-header = Búa til nýtt lykilorð
 account-restored-success-message = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Lykilorð stillt
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Búðu til nýtt lykilorð
+complete-reset-password-warning-message-2 = <span>Mundu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lykilorð stillt
@@ -717,6 +753,7 @@ reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
+reset-password-warning-message-2 = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
 reset-password-button = Hefja endurstillingu
 reset-password-success-alert = Endurstilling lykilorðs
 reset-password-error-general = Því miður kom upp vandamál við að endurstilla lykilorðið þitt
@@ -726,6 +763,17 @@ reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á 
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Sláðu inn lykilorðið þitt <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Halda áfram í { $serviceName }
+signin-subheader-without-logo-default = Halda áfram í stillingar reiknings
+signin-button = Skrá inn
+signin-header = Skrá inn
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
