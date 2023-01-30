@@ -436,6 +436,8 @@ recent-activity-title = Nýleg virkni reiknings
 recent-activity-account-create = Reikningur var búinn til
 recent-activity-account-disable = Reikningur var gerður óvirkur
 recent-activity-account-enable = Reikningur var virkjaður
+recent-activity-account-login = Innskráning frá reikningi
+recent-activity-account-reset = Endurstilling lykilorðs frá reikningi
 
 # Account recovery key setup page
 
@@ -797,6 +799,13 @@ back = Til baka
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Skjal sem inniheldur falinn texta.
 signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
@@ -819,6 +828,12 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
 signin-token-code-input-label =
     .label = Settu inn 6-stafa kóða
 # Form button to confirm if the confirmation code entered by the user is valid
@@ -833,6 +848,9 @@ signin-token-code-required-error = Staðfestingarkóða krafist
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Settu inn öryggiskóða <span>til að halda áfram í stillingar reikningsins</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
