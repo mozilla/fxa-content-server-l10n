@@ -63,6 +63,9 @@ input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jel
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = A megerősítő hivatkozás sérült
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 
@@ -70,7 +73,10 @@ reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt a
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = A megerősítő hivatkozás lejárt
 reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+signin-link-expired-message = Az e-mail-cím megerősítéséhez használt hivatkozás lejárt.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Új hivatkozás kérése
 
@@ -82,9 +88,19 @@ remember-pw-link = Emlékszik a jelszavára? Jelentkezzen be
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett erősítve
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
+confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Jelszókövetelmények
+password-strength-balloon-min-length = Legalább 8 karakter
+password-strength-balloon-not-email = Nem az Ön e-mail-címe
+password-strength-balloon-not-common = Nem gyakran használt jelszó
+password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen meg további tippeket az <linkExternal>erős jelszavak létrehozásához</linkExternal>.
 
 ## Ready component
 
@@ -93,11 +109,15 @@ reset-password-complete-header = A jelszó vissza lett állítva
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Most már készen áll a { $serviceName } használatára
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Most már készen áll a fiókbeállítások használatára
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = A fiókja elkészült!
 ready-continue = Folytatás
 sign-in-complete-header = Bejelentkezés megerősítve
+sign-up-complete-header = Fiók megerősítve
 pulsing-hearts-description = Egy rózsaszín laptop és egy lila mobileszköz lüktető szívvel
+primary-email-verified-header = Elsődleges e-mail-cím megerősítve
 
 ## Alert Bar
 
@@ -117,6 +137,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } bentó menü
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
@@ -193,6 +217,7 @@ cs-disconnect-suspicious-advice-content =
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
     jelszavát is, az about:logins beírásával a címsávba.
 cs-sign-out-button = Kijelentkezés
+cs-recent-activity = Legutóbbi fióktevékenység
 
 ##
 
@@ -371,7 +396,18 @@ delete-account-header =
     .title = Fiók törlése
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = A { -brand-firefox } adatainak szinkronizálása
+delete-account-product-firefox-addons = { -brand-firefox } Kiegészítők
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
+delete-account-chk-box-1-v3 =
+    .label = Az összes előfizetése lemondásra kerül (kivéve a { -product-pocket }et)
 delete-account-chk-box-2 =
     .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
 delete-account-chk-box-3 =
@@ -403,6 +439,12 @@ display-name-success-alert-2 = A megjelenő név frissítve
 
 ## Recent Activity
 
+recent-activity-title = Legutóbbi fióktevékenység
+recent-activity-account-create = A fiók létrejött
+recent-activity-account-disable = A fiók le lett tiltva
+recent-activity-account-enable = A fiók engedélyezve lett
+recent-activity-account-login = A fiók bejelentkezést kezdeményezett
+recent-activity-account-reset = A fiók jelszó-visszaállítást kezdeményezett
 
 # Account recovery key setup page
 
@@ -649,9 +691,16 @@ auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Hiba:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Bejelentkezés ellenőrzése…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Erősítse meg ezt a bejelentkezést
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelentkezési megerősítő hivatkozás ide: { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -681,11 +730,14 @@ account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
 # Header for form to create new password
 create-new-password-header = Új jelszó létrehozása
 account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Jelszó megadva
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Új jelszó létrehozása
+complete-reset-password-warning-message-2 = <span>Ne feledje:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Jelszó megadva
@@ -711,6 +763,7 @@ reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a f
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+reset-password-warning-message-2 = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
 reset-password-button = Visszaállítás elkezdése
 reset-password-success-alert = Jelszó visszaállítása
 reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
@@ -720,6 +773,16 @@ reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saj
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Adja meg a jelszavát <span>a { -product-firefox-account }</span> számára
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
+signin-subheader-without-logo-default = Folytatás a fiókbeállításokhoz
+signin-button = Bejelentkezés
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
