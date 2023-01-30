@@ -840,9 +840,26 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Adja meg 5 percen belül a(z) { $email } címre küldött kódot.
+signin-token-code-input-label =
+    .label = Adja meg a 6 számjegyű kódot
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Megerősítés
+signin-token-code-code-expired = A kód lejárt?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Új kód elküldése e-mailben.
+signin-token-code-required-error = Megerősítési kód szükséges
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Adja meg a biztonsági kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Adja meg a biztonsági kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
