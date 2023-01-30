@@ -774,12 +774,41 @@ signin-subheader-without-logo-with-servicename = Halda áfram í { $serviceName 
 signin-subheader-without-logo-default = Halda áfram í stillingar reiknings
 signin-button = Skrá inn
 signin-header = Skrá inn
+# This message is followed by a bulleted list
+signin-tos-list-intro = Með því að halda áfram, samþykkir þú:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>þjónustuskilmála</linkExternal> og <linkExternal>persónuverndarstefnu</linkExternal> { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = Þjónustuskilmálar { -brand-firefox } og <linkExternal>persónuverndarstefna</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Með því að halda áfram samþykkir þú <linkExternal>þjónustuskilmála</linkExternal> og <linkExternal>persónuverndarstefnu</linkExternal>
+signin-use-a-different-account-link = Nota annan reikning
+signin-forgot-password-link = Gleymt lykilorð?
+signin-bounced-header = Því miður. Við höfum læst aðgangnum þínum.
+# $email (string) - The user's email.
+signin-bounced-message = Staðfestingartölvupóstur sem við sendum á { $email } var sendur til baka og við höfum því lokað á reikninginn þinn til að verja gögn þín í { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Ef þetta er gilt tölvupóstfang, skaltu <linkExternal>láta okkur vita</linkExternal> og við munum hjálpa þér við að aflæsa reikningnum þinum.
+signin-bounced-create-new-account = Ert þú ekki lengur með þetta tölvupóstfang? Búðu til nýjan aðgang
+back = Til baka
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-image-description =
+    .aria-label = Skjal sem inniheldur falinn texta.
+signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
+signin-recovery-code-input =
+    .label = Settu inn 10-stafa varaauðkenningarkóða
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Staðfesta
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Til baka
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ertu læst/ur úti?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -790,9 +819,30 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label =
+    .label = Settu inn 6-stafa kóða
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Staðfesta
+signin-token-code-code-expired = Útrunninn kóði?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Senda nýjan kóða í tölvupósti.
+signin-token-code-required-error = Staðfestingarkóða krafist
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Sláðu inn öryggiskóða <span>til að halda áfram í { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Tæki með falinn 6-stafa kóða.
+signin-totp-code-instruction = Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp.
+signin-totp-code-input-label =
+    .label = Settu inn 6-stafa kóða
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Staðfesta
+signin-totp-code-other-account-link = Nota annan reikning
+signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
