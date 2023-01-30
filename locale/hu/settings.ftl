@@ -784,6 +784,19 @@ signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
 signin-subheader-without-logo-default = Folytatás a fiókbeállításokhoz
 signin-button = Bejelentkezés
 signin-header = Bejelentkezés
+# This message is followed by a bulleted list
+signin-tos-list-intro = A továbblépéssel elfogadja a következőket:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = A { -product-pocket } <linkExternal>Szolgáltatási feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = A { -brand-firefox } <linkExternal>Szolgáltatási feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = A továbblépéssel elfogadja a <linkExternal>Szolgáltatás feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
+signin-use-a-different-account-link = Másik fiók használata
+signin-forgot-password-link = Elfelejtette a jelszót?
+signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
+# $email (string) - The user's email.
+signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox }ban tárolt adatait.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
