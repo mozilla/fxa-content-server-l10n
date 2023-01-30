@@ -783,6 +783,7 @@ signin-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
 signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
 signin-subheader-without-logo-default = Folytatás a fiókbeállításokhoz
 signin-button = Bejelentkezés
+signin-header = Bejelentkezés
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
