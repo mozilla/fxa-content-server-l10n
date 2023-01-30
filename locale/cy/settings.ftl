@@ -437,6 +437,7 @@ recent-activity-title = Gweithgaredd Cyfrif Diweddar
 recent-activity-account-create = Cyfrif wedi'i greu
 recent-activity-account-disable = Cyfrif wedi'i analluogi
 recent-activity-account-enable = Cyfrif wedi'i alluogi
+recent-activity-emails-clearBounces = Cyfrif wedi clirio adlamiad e-bost
 
 # Account recovery key setup page
 
@@ -681,9 +682,16 @@ auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Gwall:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Wrthi'n dilysu mewngofnod…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Yn cadarnhau'r mewngofnod hwn
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at %(email)s
 
 ## AccountRecoveryConfirmKey page
 
@@ -713,11 +721,14 @@ account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
 # Header for form to create new password
 create-new-password-header = Creu cyfrinair newydd
 account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Wedi gosod y cyfrinair
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Creu cyfrinair newydd
+complete-reset-password-warning-message-2 = <span>Cofiwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch manylion personol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { -product-pocket } yn cael ei effeithio.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wedi gosod y cyfrinair
@@ -743,6 +754,7 @@ reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
+reset-password-warning-message-2 = <span>Sylwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { -product-pocket } yn cael ei effeithio.
 reset-password-button = Cychwyn ailosod
 reset-password-success-alert = Ailosod cyfrinair
 reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
@@ -752,6 +764,30 @@ reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghy
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Rhowch eich cyfrinair <span>ar gyfer eich { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Parhau i <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Parhau i { $serviceName }
+signin-subheader-without-logo-default = Parhau i osodiadau cyfrif
+signin-button = Mewngofnodi
+signin-header = Mewngofnodi
+# This message is followed by a bulleted list
+signin-tos-list-intro = Drwy barhau, rydych yn cytuno i:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Telerau Gwasanaeth</linkExternal> a <linkExternal>Hysbysiad Preifatrwydd</linkExternal> { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Telerau Gwasanaeth</linkExternal> a <linkExternal>Hysbysiad Preifatrwydd</linkExternal> { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Drwy barhau, rydych yn cytuno i'r <linkExternal>Telerau Gwasanaeth</linkExternal> a'r <linkExternal>Hysbysiad Preifatrwydd</linkExternal>
+signin-use-a-different-account-link = Defnyddiwch e-bost gwahanol
+signin-forgot-password-link = Wedi anghofio'r cyfrinair?
+signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
+# $email (string) - The user's email.
+signin-bounced-message = Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i { $email } ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data { -brand-firefox }.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
