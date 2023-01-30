@@ -33,15 +33,26 @@
        *[lowercase] compte Firefox
         [uppercase] Compte Firefox
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Nouveau mot de passe
+form-reset-password-with-balloon-confirm-password =
+    .label = Saisissez-le à nouveau
+form-reset-password-with-balloon-submit-button = Réinitialiser le mot de passe
+form-reset-password-with-balloon-match-error = Les mots de passe ne correspondent pas
 
 ## Input Password
 
@@ -50,39 +61,64 @@ input-password-show = Afficher le mot de passe
 input-password-hide-aria = Masquer le mot de passe de l’écran.
 input-password-show-aria = Afficher le mot de passe sous forme de texte brut. Votre mot de passe sera visible à l’écran.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Le lien de réinitialisation du mot de passe est endommagé
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Lien de confirmation altéré
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Le lien de réinitialisation du mot de passe a expiré
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Lien de confirmation expiré
+reset-pwd-link-expired-message = Le lien de réinitialisation de votre mot de passe a expiré.
+signin-link-expired-message = Le lien de confirmation de l’adresse e-mail sur lequel vous venez de cliquer a expiré.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Recevoir un nouveau lien
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Vous vous souvenez de votre mot de passe ? Connectez-vous
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Adresse e-mail principale déjà confirmée
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Connexion déjà confirmée
+confirmation-link-reused-message = Ce lien de confirmation a déjà été utilisé et ne peut être utilisé qu’une seule fois.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Exigences relatives aux mots de passe
+password-strength-balloon-min-length = Au moins 8 caractères
+password-strength-balloon-not-email = Pas votre adresse e-mail
+password-strength-balloon-not-common = Pas un mot de passe trop commun
+password-strength-balloon-stay-safe-tips = Protégez-vous — ne réutilisez pas vos mots de passe. Voici plus de conseils pour <LinkExternal>créer des mots de passe robustes</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Votre mot de passe à été réinitialisé
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
 sign-in-complete-header = Connexion confirmée
+sign-up-complete-header = Compte confirmé
 pulsing-hearts-description = Un ordinateur portable rose et un appareil mobile violet, chacun avec un cœur qui bat
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Le lien de réinitialisation du mot de passe est endommagé
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Le lien de réinitialisation du mot de passe a expiré
-reset-pwd-link-expired-message = Le lien de réinitialisation de votre mot de passe a expiré.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Recevoir un nouveau lien
+primary-email-verified-header = Adresse e-mail principale confirmée
 
 ## Alert Bar
 
@@ -102,10 +138,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } est une technologie qui lutte pour votre vie privée.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navigateur { -brand-firefox } pour ordinateur
 bento-menu-firefox-mobile = Navigateur { -brand-firefox } pour mobile
 bento-menu-made-by-mozilla = Conçu par { -brand-mozilla }
@@ -348,10 +384,16 @@ delete-account-header =
     .title = Supprimer le compte
 delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
-delete-account-confirm-title-2 = Votre { -product-firefox-account } est connecté à des produits { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
+delete-account-product-firefox-account = { -product-firefox-account(capitalization: "uppercase") }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
-delete-account-chk-box-1-v2 =
-    .label = Tous les abonnements payants que vous détenez seront annulés (sauf { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Tous les abonnements payants que vous détenez seront annulés (sauf { -product-pocket })
 delete-account-chk-box-2 =
     .label = Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -379,6 +421,9 @@ display-name-update-error-2 = Un problème est survenu lors de la mise à jour d
 display-name-success-alert-2 = Nom d’affichage mis à jour
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -617,6 +662,17 @@ auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Erreur :
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validation de la connexion…
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirmer cette connexion
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -644,16 +700,12 @@ account-recovery-lost-recovery-key-link = Vous ne disposez pas d’une clé de r
 
 # Header for form to create new password
 create-new-password-header = Créer un nouveau mot de passe
-confirm-account-recovery-key-button = Réinitialiser le mot de passe
 account-restored-success-message = Vous avez correctement restauré votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Créer un nouveau mot de passe
-complete-reset-password-warning-message = <span>Remarque :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { product-pocket } ne seront pas affectées.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Vous avez restauré avec succès votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Mot de passe défini
@@ -679,7 +731,6 @@ reset-password-heading-w-default-service = Réinitialisez le mot de passe <span>
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Réinitialisez le mot de passe <span>pour continuer vers { $serviceName }</span>
-reset-password-warning-message = <span>Attention :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { product-pocket } ne seront pas affectées.
 reset-password-button = Lancer la réinitialisation
 reset-password-success-alert = Mot de passe réinitialisé
 reset-password-error-general = Un problème est survenu lors de la réinitialisation de votre mot de passe
@@ -687,7 +738,27 @@ reset-password-error-unknown-account = Compte inconnu
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Merci pour votre vigilance
 signin-reported-message = Notre équipe a été informée. Les signalements comme celui-ci nous aident à repousser les intrus.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
