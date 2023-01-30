@@ -788,12 +788,35 @@ signin-forgot-password-link = Wedi anghofio'r cyfrinair?
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
 # $email (string) - The user's email.
 signin-bounced-message = Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i { $email } ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Os yw hwn yn gyfrif e-bost dilys, <linkExternal>gadewch i ni wybod</linkExternal> a byddwn yn gallu helpu i ddatgloi eich cyfrif.
+signin-bounced-create-new-account = Ddim yn berchen ar yr e-bost hwn? Crëwch gyfrif newydd
+back = Nôl
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau i osodiadau cyfrif</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Rhowch god dilysu wrth gefn <span>i barhau i { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dogfen sy'n cynnwys testun cudd.
+signin-recovery-code-instruction = Rhowch god dilysu wrth gefn a ddarparwyd i chi yn ystod gosod dilysu dau gam.
+signin-recovery-code-input =
+    .label = Rhowch god dilysu 10 digid wrth gefn
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Cadarnhau
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Nôl
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ydych chi wedi'ch cloi allan?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -804,9 +827,33 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
+signin-token-code-input-label =
+    .label = Rhowch y cod 6 nod
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Cadarnhau
+signin-token-code-code-expired = Cod wedi dod i ben?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = E-bostiwch cod newydd.
+signin-token-code-required-error = Mae angen codi dilys
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Rhowch god diogelwch <span>i barhau i osodiadau cyfrif</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Rhowch god diogelwch <span>i barhau i { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Dyfais gyda chod 6 digid cudd.
+signin-totp-code-instruction = Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu.
