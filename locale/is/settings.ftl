@@ -438,6 +438,7 @@ recent-activity-account-disable = Reikningur var gerður óvirkur
 recent-activity-account-enable = Reikningur var virkjaður
 recent-activity-account-login = Innskráning frá reikningi
 recent-activity-account-reset = Endurstilling lykilorðs frá reikningi
+recent-activity-emails-clearBounces = Endursendingar pósts hreinsaðar af reikningi
 
 # Account recovery key setup page
 
