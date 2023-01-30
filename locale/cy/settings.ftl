@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Cyfrif Firefox
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Cyfrinair newydd
+form-reset-password-with-balloon-confirm-password =
+    .label = Ail gynnig eich cyfrinair
+form-reset-password-with-balloon-submit-button = Ailosod y cyfrinair
+form-reset-password-with-balloon-match-error = Nid yw'r cyfrineiriau'n cydweddu
 
 ## Input Password
 
@@ -42,39 +53,66 @@ input-password-show = Dangos cyfrinair
 input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
 input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Mae dolen ailosod y cyfrinair wedi ei difrodi
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Mae'r ddolen cadarnhad wedi'i difrodi
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
+reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+signin-link-expired-message = Mae'r ddolen rydych newydd ei chlicio i gadarnhau eich e-bost wedi dod i ben.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Derbyn dolen newydd
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Yn cofio eich cyfrinair? Mewngofnodwch
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoes
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
+confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Gofynion cyfrinair
+password-strength-balloon-min-length = O leiaf 8 nod
+password-strength-balloon-not-email = Nid eich cyfeiriad e-bost chi
+password-strength-balloon-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
+password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor o awgrymiadau i <linkExternal>greu cyfrineiriau cryf</linkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Rydych nawr yn barod i ddefnyddio { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Rydych chi nawr yn barod i ddefnyddio gosodiadau cyfrif
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Mae eich cyfrif yn barod!
 ready-continue = Parhau
 sign-in-complete-header = Mewngofnodi wedi ei gadarnhau
+sign-up-complete-header = Cyfrif wedi'i gadarnhau
 pulsing-hearts-description = Gliniadur pinc a dyfais symudol borffor, pob un â chalon yn curo
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Mae dolen ailosod y cyfrinair wedi ei difrodi
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
-reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Derbyn dolen newydd
+primary-email-verified-header = Prif e-bost wedi'i gadarnhau
 
 ## Alert Bar
 
@@ -94,10 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
 bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
 bento-menu-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
 bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
@@ -172,6 +210,7 @@ cs-disconnect-suspicious-advice-content =
     yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrinair arall
     a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins i'r bar cyfeiriad.
 cs-sign-out-button = Allgofnodi
+cs-recent-activity = Gweithgaredd Cyfrif Diweddar
 
 ##
 
@@ -350,10 +389,19 @@ delete-account-header =
     .title = Dileu Cyfrif
 delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
-delete-account-confirm-title-2 = Rydych wedi cysylltu'ch { -product-firefox-account } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
+delete-account-confirm-title-3 = Efallai eich bod wedi cysylltu eich { -product-firefox-account } ag un neu fwy o'r cynnyrch neu wasanaethau { -brand-mozilla } canlynol sy'n eich cadw'n ddiogel a chynhyrchiol ar y we:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Wrthi'n cydweddu data { -brand-firefox }
+delete-account-product-firefox-addons = Ychwanegion { -brand-firefox }
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
-delete-account-chk-box-1-v2 =
-    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu( Ac eithrio { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu (Ac eithrio { -product-pocket })
 delete-account-chk-box-2 =
     .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn cynnyrch { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -382,6 +430,13 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Gweithgaredd Cyfrif Diweddar
+recent-activity-account-create = Cyfrif wedi'i greu
+recent-activity-account-disable = Cyfrif wedi'i analluogi
+recent-activity-account-enable = Cyfrif wedi'i alluogi
 
 # Account recovery key setup page
 
@@ -624,6 +679,12 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -651,16 +712,12 @@ account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
 
 # Header for form to create new password
 create-new-password-header = Creu cyfrinair newydd
-confirm-account-recovery-key-button = Ailosod y cyfrinair
 account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Creu cyfrinair newydd
-complete-reset-password-warning-message = <span>Cofiwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch manylion personol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { product-pocket } yn cael ei effeithio.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wedi gosod y cyfrinair
@@ -686,7 +743,6 @@ reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
-reset-password-warning-message = <span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { product-pocket } yn cael ei effeithio.
 reset-password-button = Cychwyn ailosod
 reset-password-success-alert = Ailosod cyfrinair
 reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
@@ -694,7 +750,27 @@ reset-password-error-unknown-account = Cyfrif anhysbys
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Diolch am eich gwyliadwriaeth
 signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn y ein cynorthwyo i gadw ymyrraeth allanol draw.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
