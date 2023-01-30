@@ -797,12 +797,35 @@ signin-forgot-password-link = Elfelejtette a jelszót?
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
 # $email (string) - The user's email.
 signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox }ban tárolt adatait.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Ha ez egy érvényes e-mail-cím, <linkExternal>tudassa velünk</linkExternal>, és segítünk feloldani a fiókját.
+signin-bounced-create-new-account = Már nem az Öné az e-mail-cím? Hozzon létre új fiókot
+back = Vissza
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Adja meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Adja meg a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Rejtett szöveget tartalmazó dokumentum.
+signin-recovery-code-instruction = Adjon meg egy tartalék hitelesítési kódot, amelyet a kétlépcsős hitelesítés beállítása során kapott.
+signin-recovery-code-input =
+    .label = Adja meg a 10 számjegyű tartalék hitelesítési kódját
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Megerősítés
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Vissza
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Kizárta magát?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -813,6 +836,10 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
