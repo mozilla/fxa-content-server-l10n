@@ -91,7 +91,10 @@ confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y 
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Requisitos de contraseña
 password-strength-balloon-min-length = Al menos 8 carácteres
+password-strength-balloon-not-email = No es tu dirección de correo electrónico
+password-strength-balloon-not-common = No es una contraseña de uso común
 
 ## Ready component
 
@@ -425,6 +428,8 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 
 recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create = Se creó la cuenta
+recent-activity-account-disable = La cuenta fue deshabilitada
+recent-activity-account-enable = La cuenta fue habilitada
 
 # Account recovery key setup page
 
