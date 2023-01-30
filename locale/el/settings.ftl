@@ -59,15 +59,20 @@
                 [lower] λογαριασμό Firefox
             }
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
 
 ## Input Password
 
@@ -76,26 +81,33 @@ input-password-show = Εμφάνιση κωδικού πρόσβασης
 input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
 input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ως απλό κείμενο. Θα είναι ορατός στην οθόνη.
 
+## LinkDamaged component
+
+
+## LinkExpired component
+
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Λήψη νέου συνδέσμου
+
 ## LinkRememberPassword component
+
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
 
 
 ## Ready component
 
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Μπορείτε τώρα να χρησιμοποιήσετε το { $serviceName }
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ο λογαριασμός σας είναι έτοιμος!
 ready-continue = Συνέχεια
-
-## ResetPasswordLinkDamaged component
-
-
-## ResetPasswordLinkExpired component
-
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 ## Alert Bar
 
@@ -115,10 +127,6 @@ avatar-default-avatar =
 
 bento-menu-title = Μενού Bento του { -brand-firefox }
 bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
 bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
 bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
@@ -373,10 +381,7 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
-delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
-delete-account-chk-box-1-v2 =
-    .label = Θα ακυρωθούν τυχόν επί πληρωμή συνδρομές σας (εκτός του { product-pocket })
 delete-account-chk-box-2 =
     .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -404,6 +409,9 @@ display-name-update-error-2 = Προέκυψε πρόβλημα κατά την 
 display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημερώθηκε
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -651,6 +659,12 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
@@ -662,6 +676,7 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
 
 ## Confirm Reset Password Component
@@ -672,5 +687,33 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 reset-password-button = Έναρξη επαναφοράς
 reset-password-error-unknown-account = Άγνωστος λογαριασμός
 
+## Signin page
+
+signin-button = Σύνδεση
+signin-header = Σύνδεση
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Επιβεβαίωση
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Επιβεβαίωση
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Επιβεβαίωση
