@@ -445,6 +445,7 @@ recent-activity-account-disable = A fiók le lett tiltva
 recent-activity-account-enable = A fiók engedélyezve lett
 recent-activity-account-login = A fiók bejelentkezést kezdeményezett
 recent-activity-account-reset = A fiók jelszó-visszaállítást kezdeményezett
+recent-activity-emails-clearBounces = A fiók törölte a visszapattant leveleket
 
 # Account recovery key setup page
 
@@ -863,3 +864,12 @@ signin-totp-code-heading-w-default-service = Adja meg a biztonsági kódot <span
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Adja meg a biztonsági kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Egy eszköz egy rejtett 6 számjegyű kóddal.
+signin-totp-code-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott biztonsági kódot.
+signin-totp-code-input-label =
+    .label = Adja meg a 6 számjegyű kódot
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Megerősítés
+signin-totp-code-other-account-link = Másik fiók használata
+signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
