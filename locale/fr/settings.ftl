@@ -672,6 +672,8 @@ validating-signin = Validation de la connexion…
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmer cette connexion
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Consultez votre boîte de réception pour accéder au lien de connexion envoyé à { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -701,11 +703,14 @@ account-recovery-lost-recovery-key-link = Vous ne disposez pas d’une clé de r
 # Header for form to create new password
 create-new-password-header = Créer un nouveau mot de passe
 account-restored-success-message = Vous avez correctement restauré votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Mot de passe défini
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Créer un nouveau mot de passe
+complete-reset-password-warning-message-2 = <span>Remarque :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { -product-pocket } ne seront pas affectées.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Mot de passe défini
@@ -731,6 +736,7 @@ reset-password-heading-w-default-service = Réinitialisez le mot de passe <span>
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Réinitialisez le mot de passe <span>pour continuer vers { $serviceName }</span>
+reset-password-warning-message-2 = <span>Attention :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { -product-pocket } ne seront pas affectées.
 reset-password-button = Lancer la réinitialisation
 reset-password-success-alert = Mot de passe réinitialisé
 reset-password-error-general = Un problème est survenu lors de la réinitialisation de votre mot de passe
@@ -740,12 +746,38 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuer vers m
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuez vers <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuez vers { $serviceName }
+signin-subheader-without-logo-default = Continuer vers les paramètres du compte
+signin-button = Connexion
+signin-header = Connexion
+signin-use-a-different-account-link = Utiliser un autre compte { -brand-firefox }
+signin-forgot-password-link = Mot de passe oublié ?
+signin-bounced-header = Désolé, nous avons bloqué votre compte.
+# $email (string) - The user's email.
+signin-bounced-message = Le message de confirmation que nous avons envoyé à { $email } a été renvoyé et nous avons verrouillé votre compte pour protéger vos données { -brand-firefox }.
+signin-bounced-create-new-account = Vous n’avez plus le contrôle de cette adresse e-mail ? Créez un nouveau compte
+back = Retour
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
+signin-recovery-code-input =
+    .label = Saisissez un code d’authentification de secours de 10 chiffres
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmer
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Retour
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Vous ne parvenez pas à accéder à votre compte ?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -756,9 +788,30 @@ signin-reported-message = Notre équipe a été informée. Les signalements comm
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Saisissez le code de confirmation<span> pour votre { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Saisissez le code envoyé à { $email } dans les 5 prochaines minutes.
+signin-token-code-input-label =
+    .label = Saisissez le code à 6 chiffres
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmer
+signin-token-code-code-expired = Code expiré ?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Envoyer un nouveau code.
+signin-token-code-required-error = Code de confirmation requis
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Ouvrez l’application d’authentification et saisissez le code de sécurité fourni.
+signin-totp-code-input-label =
+    .label = Saisissez le code à 6 chiffres
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirmer
+signin-totp-code-other-account-link = Utiliser un autre compte { -brand-firefox }
+signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
