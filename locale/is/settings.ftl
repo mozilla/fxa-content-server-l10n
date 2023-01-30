@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-reikningur
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Nýtt lykilorð
+form-reset-password-with-balloon-confirm-password =
+    .label = Settu aftur inn lykilorðið
+form-reset-password-with-balloon-submit-button = Endurstilla lykilorð
+form-reset-password-with-balloon-match-error = Lykilorð passa ekki
 
 ## Input Password
 
@@ -42,39 +53,61 @@ input-password-show = Birta lykilorð
 input-password-hide-aria = Fela lykilorð af skjánum.
 input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdur
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Staðfestingartengill er skemmdur
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Staðfestingartengill er útrunninn
+reset-pwd-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
+signin-link-expired-message = Tengillinn sem þú smelltir á til að staðfesta tölvupóstfangið þitt er útrunninn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Fá nýjan tengil
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Manstu lykilorðið þitt? Skráðu þig inn
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið staðfest
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
+confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Kröfur um lykilorð
+password-strength-balloon-min-length = Að minnsta kosti 8 stafir
+password-strength-balloon-not-email = Ekki tölvupóstfangið þitt
+password-strength-balloon-not-common = Ekki algengt lykilorð
+
 ## Ready component
 
 reset-password-complete-header = Lykilorðið þitt var endurstillt
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Nú geturðu farið að nota { $serviceName }
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Aðgangurinn þinn er tilbúinn!
 ready-continue = Halda áfram
 sign-in-complete-header = Innskráning staðfest
 pulsing-hearts-description = Bleik fartölva og fjólublátt snjalltæki, hvort um sig með hjarta sem slær
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdur
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
-reset-pwd-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Fá nýjan tengil
 
 ## Alert Bar
 
@@ -94,10 +127,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
 bento-menu-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
 bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
@@ -349,10 +378,7 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
-delete-account-confirm-title-2 = Þú hefur tengt { -product-firefox-account } við { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
-delete-account-chk-box-1-v2 =
-    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
 delete-account-chk-box-2 =
     .label = Þú gætir glatað vistuðum upplýsingum og eiginleikum í { -brand-mozilla } þjónustum
 delete-account-chk-box-3 =
@@ -380,6 +406,9 @@ display-name-update-error-2 = Vandamál kom upp við að uppfæra birtingarnafni
 display-name-success-alert-2 = Birtingarnafn uppfært
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -624,6 +653,12 @@ auth-error-155 = TOTP-teikn fannst ekki
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -651,16 +686,12 @@ account-recovery-lost-recovery-key-link = Ertu ekki með endurheimtulykil reikni
 
 # Header for form to create new password
 create-new-password-header = Búa til nýtt lykilorð
-confirm-account-recovery-key-button = Endurstilla lykilorð
 account-restored-success-message = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Búðu til nýtt lykilorð
-complete-reset-password-warning-message = <span>Mundu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { product-pocket }.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lykilorð stillt
@@ -686,7 +717,6 @@ reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
-reset-password-warning-message = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { product-pocket }.
 reset-password-button = Hefja endurstillingu
 reset-password-success-alert = Endurstilling lykilorðs
 reset-password-error-general = Því miður kom upp vandamál við að endurstilla lykilorðið þitt
@@ -694,7 +724,27 @@ reset-password-error-unknown-account = Óþekktur reikningur
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Þakka þér fyrir að vera á verði
 signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tikynningar eins og þessi hjálpa okkur við að bægja frá óprúttnum aðilum.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
