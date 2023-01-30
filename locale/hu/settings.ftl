@@ -30,35 +30,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-fiók
-product-mozilla-vpn =
-    { $case ->
-       *[nominative] Mozilla VPN
-        [accusative] Mozilla VPN-t
-        [instrumental] Mozilla VPN-nel
-    }
-product-pocket =
-    { $case ->
-       *[nominative] Pocket
-        [accusative] Pocketet
-        [instrumental] Pockettel
-    }
-product-firefox-monitor =
-    { $case ->
-       *[nominative] Firefox Monitor
-        [accusative] Firefox Monitort
-        [instrumental] Firefox Monitorral
-    }
-product-firefox-relay =
-    { $case ->
-       *[nominative] Firefox Relay
-        [accusative] Firefox Relay
-        [instrumental] Firefox Relay-jel
-    }
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Új jelszó
+form-reset-password-with-balloon-confirm-password =
+    .label = Jelszó megerősítése
+form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
+form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
 
 ## Input Password
 
@@ -67,25 +58,7 @@ input-password-show = Jelszó megjelenítése
 input-password-hide-aria = Jelszó elrejtése a képernyőn.
 input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Emlékszik a jelszavára? Jelentkezzen be
-
-## Ready component
-
-reset-password-complete-header = A jelszó vissza lett állítva
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Most már készen áll a { $serviceName } használatára
-ready-account-ready = A fiókja elkészült!
-ready-continue = Folytatás
-sign-in-complete-header = Bejelentkezés megerősítve
-pulsing-hearts-description = Egy rózsaszín laptop és egy lila mobileszköz lüktető szívvel
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -93,13 +66,38 @@ reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
 reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Új hivatkozás kérése
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Emlékszik a jelszavára? Jelentkezzen be
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
+
+
+## Ready component
+
+reset-password-complete-header = A jelszó vissza lett állítva
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Most már készen áll a { $serviceName } használatára
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = A fiókja elkészült!
+ready-continue = Folytatás
+sign-in-complete-header = Bejelentkezés megerősítve
+pulsing-hearts-description = Egy rózsaszín laptop és egy lila mobileszköz lüktető szívvel
 
 ## Alert Bar
 
@@ -119,10 +117,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } bentó menü
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
@@ -377,10 +371,7 @@ delete-account-header =
     .title = Fiók törlése
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
-delete-account-confirm-title-2 = Összekapcsolta a { -product-firefox-account }ját a { -brand-mozilla } termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
-delete-account-chk-box-1-v2 =
-    .label = Minden fizetős előfizetését törölni fogjuk (kivéve a { product-pocket }et)
 delete-account-chk-box-2 =
     .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
 delete-account-chk-box-3 =
@@ -408,6 +399,9 @@ display-name-update-error-2 = Hiba történt a megjelenő név frissítésekor
 display-name-success-alert-2 = A megjelenő név frissítve
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -653,6 +647,12 @@ auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -680,16 +680,12 @@ account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
 
 # Header for form to create new password
 create-new-password-header = Új jelszó létrehozása
-confirm-account-recovery-key-button = Jelszó visszaállítása
 account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Új jelszó létrehozása
-complete-reset-password-warning-message = <span>Ne feledje:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { product-pocket }-adatait továbbra is meg fogja tartani.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Jelszó megadva
@@ -715,7 +711,6 @@ reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a f
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-reset-password-warning-message = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { product-pocket }-adatait továbbra is meg fogja tartani.
 reset-password-button = Visszaállítás elkezdése
 reset-password-success-alert = Jelszó visszaállítása
 reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
@@ -723,7 +718,27 @@ reset-password-error-unknown-account = Ismeretlen fiók
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Köszönjük az éberségét
 signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segítenek kivédeni a behatolókat.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
