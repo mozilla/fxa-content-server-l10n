@@ -691,7 +691,7 @@ validating-signin = Wrthi'n dilysu mewngofnod…
 
 confirm-signin-header = Yn cadarnhau'r mewngofnod hwn
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at %(email)s
+confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -783,7 +783,7 @@ signin-tos-list-pocket = <linkExternal>Telerau Gwasanaeth</linkExternal> a <link
 signin-tos-list-firefox = <linkExternal>Telerau Gwasanaeth</linkExternal> a <linkExternal>Hysbysiad Preifatrwydd</linkExternal> { -brand-firefox }
 # <linkExternal> links to the Terms of Service and also to the Privacy Notice
 signin-tos-and-privacy = Drwy barhau, rydych yn cytuno i'r <linkExternal>Telerau Gwasanaeth</linkExternal> a'r <linkExternal>Hysbysiad Preifatrwydd</linkExternal>
-signin-use-a-different-account-link = Defnyddiwch e-bost gwahanol
+signin-use-a-different-account-link = Defnyddiwch gyfrif gwahanol
 signin-forgot-password-link = Wedi anghofio'r cyfrinair?
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
 # $email (string) - The user's email.
@@ -857,3 +857,9 @@ signin-totp-code-heading-w-custom-service = Rhowch god diogelwch <span>i barhau 
 signin-totp-code-image-label =
     .aria-label = Dyfais gyda chod 6 digid cudd.
 signin-totp-code-instruction = Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu.
+signin-totp-code-input-label =
+    .label = Rhowch y cod 6 nod
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Cadarnhau
+signin-totp-code-other-account-link = Defnyddiwch gyfrif gwahanol
+signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
