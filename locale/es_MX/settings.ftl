@@ -87,6 +87,7 @@ remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
 primary-email-confirmation-link-reused = El correo principal ya fue confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
+confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y es de un solo uso.
 
 ## PasswordStrengthBalloon component
 
@@ -422,6 +423,8 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 
 ## Recent Activity
 
+recent-activity-title = Actividad reciente de la cuenta
+recent-activity-account-create = Se creó la cuenta
 
 # Account recovery key setup page
 
@@ -700,6 +703,8 @@ account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación
 
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Contraseña establecida
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -757,6 +762,8 @@ back = Atrás
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input =
+    .label = Ingresa el código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
