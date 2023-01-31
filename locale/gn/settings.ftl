@@ -25,15 +25,24 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox Account
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Ñe’ẽñemi pyahu
+form-reset-password-with-balloon-confirm-password =
+    .label = Emoingejey ñe’ẽñemi
 
 ## Input Password
 
@@ -42,25 +51,7 @@ input-password-show = Ehechauka ñe’ẽñemi
 input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
 input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
-
-## Ready component
-
-reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
-ready-account-ready = ¡Ne mba’ete oĩmbáma!
-ready-continue = Ku’ejey
-sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
-pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -68,13 +59,38 @@ reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñemby
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
 reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Ereko juajuha pyahu
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
+
+
+## Ready component
+
+reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = ¡Ne mba’ete oĩmbáma!
+ready-continue = Ku’ejey
+sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
+pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
 
 ## Alert Bar
 
@@ -94,10 +110,6 @@ avatar-default-avatar =
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
 bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
@@ -352,10 +364,7 @@ delete-account-header =
     .title = Embogue mba’ete
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
-delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-delete-account-chk-box-1-v2 =
-    .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ha’e’ỹva { product-pocket })
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -383,6 +392,9 @@ display-name-update-error-2 = Oĩ apañuãi embohekopyahúvo nde réra ehechauka
 display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -630,6 +642,12 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -657,16 +675,12 @@ account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jegueruj
 
 # Header for form to create new password
 create-new-password-header = Emoheñói ñe’ẽñemi pyahu
-confirm-account-recovery-key-button = Ñe’ẽñemi mbojevyjey
 account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
-complete-reset-password-warning-message = <span>Nemandu’ápa:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha, ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { product-pocket } mba’ekuaarã naiñambuemo’ãi.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
@@ -692,7 +706,6 @@ reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’eje
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
-reset-password-warning-message = <span>HAIPY:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { product-pocket } mba’ekuaarã noñemoambuemo’ãi.
 reset-password-button = Emoñepyrũ jeguerujey
 reset-password-success-alert = Eguerujey ñe’ẽñemi
 reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
@@ -700,7 +713,27 @@ reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Aguyje ne ñangareko rehe
 signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore pytyvõ roñemo’ã hag̃ua iñañávagui.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
