@@ -43,6 +43,8 @@ form-reset-password-with-balloon-new-password =
     .label = Ñe’ẽñemi pyahu
 form-reset-password-with-balloon-confirm-password =
     .label = Emoingejey ñe’ẽñemi
+form-reset-password-with-balloon-submit-button = Ñe’ẽñemi mbojevyjey
+form-reset-password-with-balloon-match-error = Ko’ã ñe’ẽñemi ndojojoguái
 
 ## Input Password
 
@@ -56,6 +58,9 @@ input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñembyai
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Juajuha hechajeyha oñembyai
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
@@ -63,7 +68,10 @@ reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
 reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
+signin-link-expired-message = Pe juajuha emoneĩhague ne ñanduti veve ndoikovéima.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Ereko juajuha pyahu
 
@@ -75,9 +83,18 @@ remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
+confirmation-link-reused-message = Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eipuru.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Ñe’ẽñemi oikotevẽva
+password-strength-balloon-min-length = Michĩvéramo 8 tai
+password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
+password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojepurumeméva
 
 ## Ready component
 
@@ -90,6 +107,7 @@ ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
 ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
+sign-up-complete-header = Mba’ete moneĩmbyre
 pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
 
 ## Alert Bar
