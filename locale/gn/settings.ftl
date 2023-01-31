@@ -103,6 +103,8 @@ reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Eipurukuaáma pe mba’ete ñemboheko
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
@@ -388,6 +390,7 @@ delete-account-header =
     .title = Embogue mba’ete
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
+delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’epuru { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
