@@ -109,6 +109,7 @@ ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
 sign-up-complete-header = Mba’ete moneĩmbyre
 pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
+primary-email-verified-header = Ñanduti veve tuichavéva moneĩmbyre
 
 ## Alert Bar
 
@@ -128,6 +129,10 @@ avatar-default-avatar =
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
 bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
@@ -204,6 +209,7 @@ cs-disconnect-suspicious-advice-content =
     ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
     ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
+cs-recent-activity = Mba’ete rembiapo ramoguavéva
 
 ##
 
@@ -382,6 +388,13 @@ delete-account-header =
     .title = Embogue mba’ete
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
@@ -733,12 +746,25 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 
 ## Signin page
 
+signin-button = Eñemboheraguapy
+signin-header = Eñemboheraguapy
+signin-use-a-different-account-link = Eipuru ambuéva mba’ete
+signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
+signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
+back = Tapykue
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Moneĩ
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Tapykue
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ¿Rejejokóma?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -749,6 +775,11 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Moneĩ
+signin-token-code-code-expired = ¿Ndoikovéima ayvu?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Emondo ayvu pyahu.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
