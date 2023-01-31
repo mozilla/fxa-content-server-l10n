@@ -780,9 +780,12 @@ signin-token-code-confirm-button = Moneĩ
 signin-token-code-code-expired = ¿Ndoikovéima ayvu?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Emondo ayvu pyahu.
+signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Moneĩ
