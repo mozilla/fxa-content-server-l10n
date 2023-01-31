@@ -394,6 +394,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
+delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Por favor, recuerda que si eliminas tu cuenta:
 delete-account-chk-box-2 =
     .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
@@ -749,6 +751,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Ingresa tu contraseña <span>para tu { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -758,6 +762,8 @@ signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
 signin-subheader-without-logo-default = Continuar a los ajustes de la cuenta
 signin-button = Iniciar sesión
 signin-header = Iniciar sesión
+# This message is followed by a bulleted list
+signin-tos-list-intro = Al continuar, aceptas:
 signin-use-a-different-account-link = Usa una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
 back = Atrás
