@@ -103,6 +103,8 @@ reset-password-complete-header = Tu contraseña ha sido restablecida
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ahora estas listo para usar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Ahora estas listo para utilizar los ajustes de la cuenta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
@@ -766,6 +768,7 @@ signin-header = Iniciar sesión
 signin-tos-list-intro = Al continuar, aceptas:
 signin-use-a-different-account-link = Usa una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-bounced-create-new-account = ¿Ya no te pertenece el correo electrónico? Crea una nueva cuenta
 back = Atrás
 
 ## SigninRecoveryCode page
