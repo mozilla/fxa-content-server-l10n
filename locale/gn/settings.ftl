@@ -398,7 +398,11 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
+delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
+delete-account-chk-box-1-v3 =
+    .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ndaha’éiva { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -430,6 +434,8 @@ display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 
 ## Recent Activity
 
+recent-activity-title = Mba’ete rembiapo ramoguavéva
+recent-activity-account-create = Oñemoheñóima mba’ete
 
 # Account recovery key setup page
 
