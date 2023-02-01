@@ -227,10 +227,34 @@ document =
 close-aria =
     .aria-label = Lat att modal
 settings-subscriptions-title = Abonnement
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kampanjekode
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } kvar dag
+       *[other] { $amount } kvar { $intervalCount } dag
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kvar dag
+           *[other] { $amount } kvar { $intervalCount } dag
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } kvar veke
+       *[other] { $amount } kvar { $intervalCount } veke
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } veke
+           *[other] { $amount } kvar { $intervalCount } veke
+        }
 # $intervalCount (Number) - The interval between payments, in months.
 plan-price-interval-month =
     { $intervalCount ->
