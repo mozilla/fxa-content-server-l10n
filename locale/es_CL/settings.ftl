@@ -39,6 +39,12 @@
 
 ## FormResetPasswordWithBalloon
 
+form-reset-password-with-balloon-new-password =
+    .label = Nueva contraseña
+form-reset-password-with-balloon-confirm-password =
+    .label = Reingresar contraseña
+form-reset-password-with-balloon-submit-button = Restablecer contraseña
+form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
 
 ## Input Password
 
@@ -52,6 +58,9 @@ input-password-show-aria = Mostrar contraseña como texto plano. Tu contraseña 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Enlace de reinicio de contraseña dañado
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Enlace de confirmación dañado
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Al enlace que cliqueaste le faltan caracteres, y puede que haya sido corrompido por tu cliente de correo. Copia la dirección cuidadosamente, y vuelve a intentarlo.
 
@@ -59,7 +68,10 @@ reset-pwd-link-damaged-message = Al enlace que cliqueaste le faltan caracteres, 
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Enlace de reinicio de contraseña expirado
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Enlace de confirmación expirado
 reset-pwd-link-expired-message = El enlace que cliqueaste para reiniciar tu contraseña está expirado.
+signin-link-expired-message = El enlace que apretaste para confirmar tu correo electrónico está expirado.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Recibir enlace nuevo
 
@@ -71,9 +83,19 @@ remember-pw-link = ¿Recuerdas tu contraseña? Conéctate
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Correo primario ya verificado
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Conexión ya confirmada
+confirmation-link-reused-message = Ese enlace de confirmación ya fue usado, y solo puede ser usado una vez.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Requisitos de contraseña
+password-strength-balloon-min-length = Al menos 8 carácteres
+password-strength-balloon-not-email = Que no sea tu dirección de correo
+password-strength-balloon-not-common = Que no sea una contraseña de uso común
+password-strength-balloon-stay-safe-tips = Mantén la seguridad — No reutilices las contraseñas. Revisa más consejos para <LinkExternal>crear contraseñas seguras</LinkExternal>.
 
 ## Ready component
 
@@ -82,11 +104,15 @@ reset-password-complete-header = Tu contraseña ha sido reiniciada
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Estás listo para usar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Ahora está todo listo para revisar los ajustes de la cuenta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Conexión confirmada
+sign-up-complete-header = Cuenta confirmada
 pulsing-hearts-description = Un notebook rosa y un dispositivo móvil morado, cada uno con un corazón palpitante
+primary-email-verified-header = Correo primario confirmado
 
 ## Alert Bar
 
@@ -106,6 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu privacidad en línea.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para móviles
 bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
@@ -180,6 +210,7 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account } en la configuración de tu cuenta. También debes cambiar cualquier otra
     contraseña que hayas guardado en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Salir
+cs-recent-activity = Actividad reciente de la cuenta
 
 ##
 
@@ -358,7 +389,19 @@ delete-account-header =
     .title = Eliminar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title-3 = Puede que hayas conectado tu { -product-firefox-account } a uno o más de los siguientes productos o servicios de { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
+delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Por favor, ten en cuenta que al eliminar tu cuenta:
+delete-account-chk-box-1-v3 =
+    .label = Cualquier suscripción de pago que tengas será cancelada (excepto { -product-pocket })
 delete-account-chk-box-2 =
     .label = Podrías perder tu información guardada y otras funcionalidades dentro de los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -390,6 +433,13 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 
 ## Recent Activity
 
+recent-activity-title = Actividad reciente de la cuenta
+recent-activity-account-create = La cuenta fue creada
+recent-activity-account-disable = La cuenta fue deshabilitada
+recent-activity-account-enable = La cuenta fue habilitada
+recent-activity-account-login = Se inició un intento de conexión a la cuenta
+recent-activity-account-reset = Se inició un restablecimiento de contraseña
+recent-activity-emails-clearBounces = Se solucionaron los rebotes de correo de la cuenta
 
 # Account recovery key setup page
 
@@ -631,9 +681,16 @@ auth-error-1008 = Tu nueva conraseña debe ser diferente
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validando conexión…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confirmar esta conexión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Revisa tu correo por el enlace de confirmación de conexión enviado a { $email }
 
 ## AccountRecoveryConfirmKey page
 
@@ -663,11 +720,14 @@ account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
 account-restored-success-message = Has restaurado exitosamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos, y guárdala en un lugar seguro.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Contraseña establecida
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Crear nueva contraseña
+complete-reset-password-warning-message-2 = <span>Recuerda:</span> Cuando restableces tu contraseña, también lo hace tu cuenta. Puedes perder información personal (incluidos marcadores, y contraseñas). Esto ocurre porque nosotros encriptamos tus datos con tus contraseñas para proteger tu privacidad. Mantendrás cualquier suscripción que tengas y los datos de { -product-pocket } no se verán afectados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
@@ -693,6 +753,7 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar con { $serviceName }</span>
+reset-password-warning-message-2 = <span>NOTA:</span> Cuando restableces tu contraseña, también lo hace tu cuenta. Puedes perder información personal (incluidos marcadores, y contraseñas). Esto ocurre porque nosotros encriptamos tus datos con tus contraseñas para proteger tu privacidad. Mantendrás cualquier suscripción que tengas y los datos de { -product-pocket } no se verán afectados.
 reset-password-button = Iniciar restablecimiento
 reset-password-success-alert = Restablecer contraseña
 reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu contraseña
@@ -702,12 +763,59 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi c
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Ingresa tu contraseña <span>para tu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar con %(serviceName)s
+signin-subheader-without-logo-default = Continuar a los ajustes de la cuenta
+signin-button = Conectarse
+signin-header = Conectarse
+# This message is followed by a bulleted list
+signin-tos-list-intro = Al continuar, aceptas:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Términos de servicio</linkExternal> y <linkExternal>Aviso de privacidad</linkExternal> de { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Términos de servicio</linkExternal> y <linkExternal>Aviso de privacidad</linkExternal> de { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Al continuar, acepta los <linkExternal>Términos de servicio</linkExternal> y el <linkExternal>Aviso de privacidad</linkExternal>
+signin-use-a-different-account-link = Usar una cuenta diferente
+signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
+# $email (string) - The user's email.
+signin-bounced-message = El correo de confirmación que enviamos a { $email } fue devuelto y hemos bloqueado tu cuenta para proteger tus datos de { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Si esta es una dirección de correo válida, <linkExternal>háznoslo saber</linkExternal> y podremos ayudarte a desbloquear tu cuenta.
+signin-bounced-create-new-account = ¿Ya no es eres dueño de ese correo? Crea una nueva cuenta
+back = Atrás
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Ingresa un código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Ingresa un código de autenticación de respaldo <span>para continuar con { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Documento que contiene texto oculto.
+signin-recovery-code-instruction = Por favor, ingresa un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos.
+signin-recovery-code-input =
+    .label = Ingresar el código de autenticación de respaldo de 10 dígitos
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Atrás
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ¿Quedaste sin poder entrar?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -718,9 +826,39 @@ signin-reported-message = Nuestro equipo ha sido notificado. Reportes como este 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Ingresa el código de confirmación <span>para tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Ingresa el código que fue enviado a { $email } dentro de los próximos 5 minutos.
+signin-token-code-input-label =
+    .label = Ingresa el código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = ¿Código expirado?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar código nuevo por correo.
+signin-token-code-required-error = Enlace de confirmación requerido
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Ingresa el código de seguridad <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Ingresa el código de seguridad <span>para continuar con { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+signin-totp-code-instruction = Abre tu aplicación de autenticación e introduce el código de seguridad que te entrega.
+signin-totp-code-input-label =
+    .label = Ingresa el código de 6 dígitos
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Usar una cuenta diferente
+signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
