@@ -228,7 +228,7 @@ datablock-print =
 
 ## Data collection section
 
-dc-heading = Gagnasöfnun og notkunarupplýsingar
+dc-heading = Gagnasöfnun og upplýsingar um notkun
 dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
 dc-subheader-content = Leyfa { -product-firefox-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
 dc-opt-out-success = Tókst að afþakka. { -product-firefox-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
@@ -303,7 +303,7 @@ nav-settings = Stillingar
 nav-profile = Notandasnið
 nav-security = Öryggi
 nav-connected-services = Tengdar þjónustur
-nav-data-collection = Gagnasöfnun og notkunarupplýsingar
+nav-data-collection = Gagnasöfnun og upplýsingar um notkun
 nav-paid-subs = Greiddar áskriftir
 nav-email-comm = Tölvupóstsamskipti
 
