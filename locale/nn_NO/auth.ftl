@@ -240,6 +240,9 @@ postChangePrimary-title = Ny primær e-postadresse
 postChangePrimary-action = Handsam kontoen
 postConsumeRecoveryCode-action = Handsam kontoen
 postNewRecoveryCodes-action = Handsam kontoen
+postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Han vart sletta frå:
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
