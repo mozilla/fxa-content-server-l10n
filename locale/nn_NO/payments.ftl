@@ -38,8 +38,11 @@ settings-home = Startside for kontoen
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Kampanjekode brukt
 coupon-submit = Bruk
 coupon-remove = Fjern
+coupon-error = Koden du skreiv inn er ugyldig eller utgått.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Skriv inn kode
@@ -169,6 +172,17 @@ price-details-no-tax-month =
             [one] { $priceAmount } kvar månad
            *[other] { $priceAmount } kvar { $intervalCount } månad
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } kvart år
+       *[other] { $priceAmount } kvart { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } år
+           *[other] { $priceAmount } kvart { $intervalCount } år
+        }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
@@ -179,6 +193,17 @@ price-details-tax-month =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } tskatt kvar månad
            *[other] { $priceAmount } + { $taxAmount } skatt kvar { $intervalCount } månad
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } skatt kvart år
+       *[other] { $priceAmount } + { $taxAmount } skatt kvart { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } skatt kvart år
+           *[other] { $priceAmount } + { $taxAmount } skatt kvart { $intervalCount } år
         }
 
 ## Component - SubscriptionTitle
@@ -216,6 +241,17 @@ plan-price-interval-month =
         { $intervalCount ->
             [one] { $amount } kvar månad
            *[other] { $amount } kvar { $intervalCount } månadar
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } kvart år
+       *[other] { $amount } kvart { $intervalCount } år
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kvart år
+           *[other] { $amount } kvart { $intervalCount } år
         }
 
 ## Error messages
