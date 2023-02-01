@@ -396,6 +396,7 @@ delete-account-header =
     .title = Fiók törlése
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
+delete-account-confirm-title-3 = Előfordulhat, hogy a { -product-firefox-account }ját a következő { -brand-mozilla } termékekhez vagy szolgáltatásokhoz kapcsolta, amelyekkel biztonságban lehet és hatékonyabb lehet a weben:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
