@@ -25,15 +25,26 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Tài khoản Firefox
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Mật khẩu mới
+form-reset-password-with-balloon-confirm-password =
+    .label = Nhập lại mật khẩu
+form-reset-password-with-balloon-submit-button = Đặt lại mật khẩu
+form-reset-password-with-balloon-match-error = Mật khẩu không khớp
 
 ## Input Password
 
@@ -42,39 +53,66 @@ input-password-show = Hiện mật khẩu
 input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
 input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Liên kết đặt lại mật khẩu đã bị hỏng
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Liên kết xác minh bị hỏng
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Liên kết xác minh đã hết hạn
+reset-pwd-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
+signin-link-expired-message = Liên kết bạn đã nhấp để xác minh email của bạn đã hết hạn.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Nhận liên kết mới
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Đã nhớ mật khẩu của bạn? Đăng nhập
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Email chính đã được xác minh trước đó
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
+confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Yêu cầu mật khẩu
+password-strength-balloon-min-length = Ít nhất 8 ký tự
+password-strength-balloon-not-email = Không phải địa chỉ email của bạn
+password-strength-balloon-not-common = Không phải mật khẩu thường được sử dụng
+password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng lại mật khẩu. Xem thêm các mẹo để <LinkExternal>tạo mật khẩu mạnh</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Bạn hiện đã sẵn sàng sử dụng { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Bạn hiện đã sẵn sàng để sử dụng cài đặt tài khoản
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Tài khoản của bạn đã sẵn sàng!
 ready-continue = Tiếp tục
 sign-in-complete-header = Đã xác nhận đăng nhập
+sign-up-complete-header = Tài khoản đã xác minh
 pulsing-hearts-description = Một chiếc máy tính xách tay màu hồng và một thiết bị di động màu tím đều có một trái tim đang đập
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Liên kết đặt lại mật khẩu đã bị hỏng
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
-reset-pwd-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Nhận liên kết mới
+primary-email-verified-header = Email chính đã xác minh
 
 ## Alert Bar
 
@@ -94,10 +132,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menu { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
 bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
 bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
@@ -174,6 +212,7 @@ cs-disconnect-suspicious-advice-content =
     trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác
     mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:login vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
+cs-recent-activity = Hoạt động tài khoản gần đây
 
 ##
 
@@ -352,10 +391,19 @@ delete-account-header =
     .title = Xóa tài khoản
 delete-account-step-1-2 = Bước 1/2
 delete-account-step-2-2 = Bước 2/2
-delete-account-confirm-title-2 = Bạn đã kết nối { -product-firefox-account } của mình với các sản phẩm { -brand-mozilla } giúp bạn bảo mật và làm việc hiệu quả trên web:
+delete-account-confirm-title-3 = Bạn có thể đã kết nối { -product-firefox-account } của mình với một hoặc nhiều sản phẩm hoặc dịch vụ { -brand-mozilla } sau đây giúp bạn an toàn và làm việc hiệu quả trên web:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Đang đồng bộ hóa dữ liệu { -brand-firefox }
+delete-account-product-firefox-addons = Tiện ích { -brand-firefox }
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
-delete-account-chk-box-1-v2 =
-    .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { -product-pocket })
 delete-account-chk-box-2 =
     .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -384,6 +432,15 @@ display-name-success-alert-2 = Đã cập nhật tên hiển thị
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Hoạt động tài khoản gần đây
+recent-activity-account-create = Đã tạo tài khoản
+recent-activity-account-disable = Đã vô hiệu hóa tài khoản
+recent-activity-account-enable = Đã kích hoạt tài khoản
+recent-activity-account-login = Tài khoản bắt đầu đăng nhập
+recent-activity-account-reset = Tài khoản đã đặt lại mật khẩu ban đầu
 
 # Account recovery key setup page
 
@@ -628,6 +685,19 @@ auth-error-155 = Không tìm thấy token TOTP
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Lỗi:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Đang xác thực đăng nhập…
+
+## ConfirmSignin component
+
+confirm-signin-header = Xác nhận lần đăng nhập này
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Kiểm tra email của bạn để biết liên kết xác nhận đăng nhập được gửi tới { $email }
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -655,16 +725,15 @@ account-recovery-lost-recovery-key-link = Không có khóa khôi phục tài kho
 
 # Header for form to create new password
 create-new-password-header = Tạo mật khẩu mới
-confirm-account-recovery-key-button = Đặt lại mật khẩu
 account-restored-success-message = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Đã đặt mật khẩu
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Tạo mật khẩu mới
-complete-reset-password-warning-message = <span>Hãy nhớ:</span> Khi bạn đặt lại mật khẩu, bạn sẽ đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { product-pocket } sẽ không bị ảnh hưởng.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Bạn đã khôi phục thành công tài khoản của mình bằng cách sử dụng khóa khôi phục tài khoản của mình. Tạo mật khẩu mới để bảo mật dữ liệu của bạn và lưu trữ ở một vị trí an toàn.
+complete-reset-password-warning-message-2 = <span>Hãy nhớ:</span> Khi bạn đặt lại mật khẩu, bạn sẽ đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { -product-pocket } sẽ không bị ảnh hưởng.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Đã đặt mật khẩu
@@ -690,7 +759,7 @@ reset-password-heading-w-default-service = Đặt lại mật khẩu <span>để
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Đặt lại mật khẩu <span>để tiếp tục đến với { $serviceName }</span>
-reset-password-warning-message = <span>Lưu ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { product-pocket } sẽ không bị ảnh hưởng.
+reset-password-warning-message-2 = <span>Lưu ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn. Bạn sẽ vẫn giữ bất kỳ thuê bao nào bạn có và dữ liệu { -product-pocket } sẽ không bị ảnh hưởng.
 reset-password-button = Bắt đầu đặt lại
 reset-password-success-alert = Đặt lại mật khẩu
 reset-password-error-general = Xin lỗi, đã xảy ra sự cố khi đặt lại mật khẩu của bạn
@@ -698,7 +767,104 @@ reset-password-error-unknown-account = Tài khoản không xác định
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
 
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Nhập mật khẩu <span>cho { -product-firefox-account }</span> của bạn
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Tiếp tục đến { $serviceName }
+signin-subheader-without-logo-default = Tiếp tục đến cài đặt tài khoản
+signin-button = Đăng nhập
+signin-header = Đăng nhập
+# This message is followed by a bulleted list
+signin-tos-list-intro = Bằng cách tiếp tục, bạn đồng ý:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Điều khoản dịch vụ</linkExternal> và <linkExternal>thông báo quyền riêng tư</linkExternal> của { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Điều khoản dịch vụ</linkExternal> và <linkExternal>thông báo quyền riêng tư</linkExternal> của { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Bằng cách tiếp tục, bạn đồng ý với <linkExternal>điều khoản dịch vụ</linkExternal> và <linkExternal>thông báo về quyền riêng tư</linkExternal>
+signin-use-a-different-account-link = Sử dụng một tài khoản khác
+signin-forgot-password-link = Đã quên mật khẩu?
+signin-bounced-header = Rất tiếc. Chúng tôi đã khóa tài khoản của bạn.
+# $email (string) - The user's email.
+signin-bounced-message = Email xác nhận chúng tôi gửi tới { $email } đã bị trả lại và chúng tôi đã khóa tài khoản của bạn để bảo vệ dữ liệu { -brand-firefox } của bạn.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Nếu đây là địa chỉ email hợp lệ, hãy <linkExternal>cho chúng tôi biết</linkExternal> và chúng tôi có thể giúp mở khóa tài khoản của bạn.
+signin-bounced-create-new-account = Không còn sở hữu email đó nữa? Tạo tài khoản mới
+back = Quay lại
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Nhập mã xác thực dự phòng <span>để tiếp tục đến cài đặt tài khoản</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Nhập mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Tài liệu chứa văn bản ẩn.
+signin-recovery-code-instruction = Vui lòng nhập mã xác thực dự phòng đã được cung cấp cho bạn trong quá trình thiết lập xác thực hai bước.
+signin-recovery-code-input =
+    .label = Nhập mã xác thực dự phòng 10 chữ số
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Xác nhận
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Quay lại
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Tài khoản của bạn đang bị khóa?
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Cảm ơn vì sự cảnh giác của bạn
 signin-reported-message = Nhóm của chúng tôi đã được thông báo. Các báo cáo như thế này giúp chúng tôi chống lại những kẻ xâm nhập.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Nhập mã xác nhận<span> cho { -product-firefox-account }</span> của bạn
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Nhập mã đã được gửi tới { $email } trong vòng 5 phút.
+signin-token-code-input-label =
+    .label = Nhập mã gồm 6 chữ số
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Xác nhận
+signin-token-code-code-expired = Mã đã hết hạn?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Gửi mã mới qua email.
+signin-token-code-required-error = Yêu cầu mã xác nhận
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Nhập mã bảo mật <span>để tiếp tục đến cài đặt tài khoản</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Nhập mã bảo mật <span>để tiếp tục đến { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Một thiết bị có mã gồm 6 chữ số.
+signin-totp-code-instruction = Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp.
+signin-totp-code-input-label =
+    .label = Nhập mã gồm 6 chữ số
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Xác nhận
+signin-totp-code-other-account-link = Sử dụng một tài khoản khác
+signin-totp-code-recovery-code-link = Sự cố khi nhập mã?
