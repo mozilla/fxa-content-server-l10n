@@ -571,8 +571,10 @@ rk-action-remove = Odebrat
 rk-cannot-refresh-1 = Omlouváme se, při aktualizaci obnovovacího klíče k účtu nastal problém.
 rk-key-removed-2 = Obnovovací klíč k účtu byl odstraněn
 rk-cannot-remove-key = Obnovovací klíč k vašemu účtu se nepodařilo odebrat.
+rk-refresh-key-1 = Aktualizovat obnovovací klíč k účtu
 rk-content-explain = Získejte přístup ke svým datům, pokud zapomenete své heslo.
 rk-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
+rk-remove-modal-heading-1 = Odebrat obnovovací klíč k účtu?
 rk-remove-error-2 = Obnovovací klíč k vašemu účtu se nepodařilo odebrat
 
 ## Secondary email sub-section on main Settings page
@@ -661,6 +663,7 @@ auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 
 ## ResetPassword page
 
+reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
 
 ## Signin page
 
