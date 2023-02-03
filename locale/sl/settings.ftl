@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Zapri
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktično znanje prihaja v vaš nabiralnik. Prijavite se za več:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Prejemajte najnovejše novice o { -brand-mozilli } in { -brand-firefoxu }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Ukrepajte in ohranite internet zdrav
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Bodite varnejši in pametnejši na spletu
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Izberite, kaj želite sinhronizirati:
+choose-what-to-sync-option-bookmarks =
+    .label = Zaznamki
+choose-what-to-sync-option-history =
+    .label = Zgodovina
+choose-what-to-sync-option-passwords =
+    .label = Gesla
+choose-what-to-sync-option-addons =
+    .label = Dodatki
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Odprte zavihke
+choose-what-to-sync-option-prefs =
+    .label = Nastavitve
+choose-what-to-sync-option-addresses =
+    .label = Naslovi
+choose-what-to-sync-option-creditcards =
+    .label = Kreditne kartice
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Odpri { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ni med prejeto ali vsiljeno pošto? Pošlji ponovno
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Nazaj
+confirm-signup-aria-label =
+    .aria-label = Ovojnica s povezavo
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Preneseno
+datablock-copy =
+    .message = Kopirano
+datablock-print =
+    .message = Natisnjeno
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -78,14 +148,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Geslo
+signup-confirm-password-label =
+    .label = Ponovite geslo
+signup-submit-button = Ustvari račun
 form-reset-password-with-balloon-new-password =
     .label = Novo geslo
 form-reset-password-with-balloon-confirm-password =
     .label = Ponovno vnesite geslo
 form-reset-password-with-balloon-submit-button = Ponastavi geslo
 form-reset-password-with-balloon-match-error = Gesli se ne ujemata
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ključ za obnovitev { -brand-firefox } Računa
+get-data-trio-title-firefox-backup-verification-codes = Rezervne overitvene kode za { -brand-firefox }
+get-data-trio-download =
+    .title = Prenesi
+get-data-trio-copy =
+    .title = Kopiraj
+get-data-trio-print =
+    .title = Natisni
 
 ## Input Password
 
@@ -129,6 +216,12 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = To geslo potrebujete za dostop do šifriranih podatkov, ki jih shranjujete pri nas.
+password-info-balloon-reset-risk-info = Ponastavitev lahko povzroči izgubo podatkov, kot so gesla in zaznamki.
 
 ## PasswordStrengthBalloon component
 
@@ -258,15 +351,6 @@ cs-recent-activity = Nedavna dejavnost v računu
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Preneseno
-datablock-copy =
-    .message = Kopirano
-datablock-print =
-    .message = Natisnjeno
-
 ## Data collection section
 
 dc-heading = Zbiranje in uporaba podatkov
@@ -290,18 +374,6 @@ drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljan
 ## Flow Container
 
 flow-container-back = Nazaj
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Ključ za obnovitev { -brand-firefox } Računa
-get-data-trio-title-firefox-backup-verification-codes = Rezervne overitvene kode za { -brand-firefox }
-get-data-trio-download =
-    .title = Prenesi
-get-data-trio-copy =
-    .title = Kopiraj
-get-data-trio-print =
-    .title = Natisni
 
 # HeaderLockup component
 
@@ -707,6 +779,18 @@ tfa-row-change-modal-heading-1 = Spremeni rezervne overitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Z nadaljevanjem se strinjate z:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> { -product-pocket }a
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>pogoji storitve</firefoxTos> in <firefoxPrivacy>obvestilom o zasebnosti</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznan račun
@@ -725,20 +809,91 @@ auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
+auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Napaka:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Potrjevanje prijave …
+cannot-create-account-header = Ni mogoče ustvariti računa
+cannot-create-account-requirements = Za ustvarjanje { -product-firefox-account } morate izpolniti določene starostne zahteve.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Več o tem
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Potrdite prijavo
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = V svoji e-pošti preverite, ali ste prejeli povezavo za potrditev prijave na { $email }
+cookies-disabled-header = Potrebni so lokalna shramba in piškotki
+cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts } v svojem brskalniku omogočite piškotke in krajevno shrambo. S tem boste omogočili funkcije, kot je zapomnitev vas med sejami.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Poskusi znova
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Več o tem
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Shranite rezervne overitvene kode <span>za nadaljevanje na { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Shranite te kode za enkratno uporabo na varno mesto za primere, ko nimate mobilne naprave.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Prekliči
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Nadaljuj
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Potrdi
+inline-recovery-back-link = Nazaj
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Rezervna overitvena koda
+inline-recovery-confirmation-description = Vnesite eno od shranjenih rezervnih overitvenih kod, da si zagotovite ponoven dostop do svojega računa v primeru izgube naprave.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Potrdite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Dokument, ki vsebuje skrito besedilo.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Ne nastavi
+inline-totp-setup-continue-button = Nadaljuj
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Dodajte plast varnosti svojemu računu z zahtevanjem overitvenih kod iz ene od <authenticationAppsLink>teh aplikacij za overitev</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Omogoči overitev v dveh korakih <enable2StepDefaultSpan>za nadaljevanje v nastavitvah računa</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Omogoči overitev v dveh korakih <enable2StepCustomServiceSpan>za nadaljevanje na { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = V stanju pripravljenosti.
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Preglejte overitveno kodo <scanAuthCodeHeaderSpan>za nadaljevanje v { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje na { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Preglejte overitveno kodo <scanAuthHeaderSpan>za nadaljevanje v nastavitvah računa</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje v nastavitvah računa</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Vnesite ta skrivni ključ v aplikacijo za preverjanje pristnosti. <toggleToQRButton>Ali želite raje skenirati kodo QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skenirajte kodo QR v svoji aplikaciji za preverjanje pristnosti in nato vnesite overitveno kodo, ki jo ponuja. <toggleToManualModeButton>Ne morete optično prebrati kode?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Ko bo končano, bo začelo ustvarjati overitvene kode, ki jih lahko vnesete.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Overitvena koda
 
 ## AccountRecoveryConfirmKey page
 
@@ -809,6 +964,19 @@ reset-password-error-unknown-account = Neznan račun
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Napaka:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Potrjevanje prijave …
+
+## ConfirmSignin component
+
+confirm-signin-header = Potrdite prijavo
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = V svoji e-pošti preverite, ali ste prejeli povezavo za potrditev prijave na { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -822,14 +990,6 @@ signin-subheader-without-logo-with-servicename = Nadaljuj na { $serviceName }
 signin-subheader-without-logo-default = Nadaljuj na nastavitve računa
 signin-button = Prijava
 signin-header = Prijava
-# This message is followed by a bulleted list
-signin-tos-list-intro = Z nadaljevanjem se strinjate z:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Pogoji storitve</linkExternal> in <linkExternal>Obvestilo o zasebnosti</linkExternal> { -product-pocket }a
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Pogoji storitve</linkExternal> in <linkExternal>Obvestilo o zasebnosti</linkExternal> { -brand-firefox }a
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Z nadaljevanjem se strinjate s <linkExternal>pogoji storitve</linkExternal> in <linkExternal>obvestilom o zasebnosti</linkExternal>
 signin-use-a-different-account-link = Uporabi drug račun
 signin-forgot-password-link = Pozabljeno geslo?
 signin-bounced-header = Oprostite. Zaklenili smo vaš račun.
@@ -855,8 +1015,7 @@ signin-recovery-code-heading-w-custom-service = Vnesite rezervno overitveno kodo
 signin-recovery-code-image-description =
     .aria-label = Dokument, ki vsebuje skrito besedilo.
 signin-recovery-code-instruction = Vnesite rezervno overitveno kodo, ki ste jo prejeli med nastavitvijo overjanja v dveh korakih.
-signin-recovery-code-input =
-    .label = Vnesite 10-mestno rezervno overitveno kodo
+signin-recovery-code-input-label = Vnesite 10-mestno rezervno overitveno kodo
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potrdi
 # Link to return to signin with two-step authentication code (security code)
@@ -880,8 +1039,7 @@ signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam
 signin-token-code-heading = Vnesite potrditveno kodo<span> za svoj { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Vnesite kodo, ki je bila v 5 minutah poslana na { $email }.
-signin-token-code-input-label =
-    .label = Vnesite 6-mestno kodo
+signin-token-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potrdi
 signin-token-code-code-expired = Je koda potekla?
@@ -904,9 +1062,54 @@ signin-totp-code-heading-w-custom-service = Vnesite varnostno kodo <span>za nada
 signin-totp-code-image-label =
     .aria-label = Naprava s skrito 6-mestno kodo.
 signin-totp-code-instruction = Odprite svojo aplikacijo za overitev in vnesite dobljeno varnostno kodo.
-signin-totp-code-input-label =
-    .label = Vnesite 6-mestno kodo
+signin-totp-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
 signin-totp-code-other-account-link = Uporabi drug račun
 signin-totp-code-recovery-code-link = Imate težave pri vnosu kode?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+confirm-signup-heading = Potrdite račun
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = V svoji e-pošti preverite, ali ste prejeli potrditveno povezavo na { $email }
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Vnesite potrditveno kodo <span>za svoj { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Vnesite kodo, ki je bila v 5 minutah poslana na { $email }.
+confirm-signup-code-input-label = Vnesite 6-mestno kodo
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Potrdi
+confirm-signup-code-code-expired = Je koda potekla?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Pošlji novo kodo.
+confirm-signup-code-required-error = Vnesite prosim potrditveno kodo
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+signup-heading = Nastavite geslo
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Zakaj moram ustvariti ta račun? <LinkExternal>Preberite tukaj</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Sprememba e-naslova
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Koliko ste stari?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Za registracijo morate vnesti svojo starost
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Zakaj sprašujemo?
