@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -127,26 +128,39 @@
                 [lower] účtem Firefoxu
             }
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor =
-    { $case ->
-       *[nom] Firefox Monitor
-        [gen] Firefox Monitoru
-        [dat] Firefox Monitoru
-        [acc] Firefox Monitor
-        [voc] Firefox Monitore
-        [loc] Firefox Monitoru
-        [ins] Firefox Monitorem
-    }
-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
 
+## FormResetPasswordWithBalloon
+
+
+## Input Password
+
+input-password-hide = Skrýt heslo
+input-password-show = Zobrazit heslo
+input-password-hide-aria = Skrýt heslo z obrazovky.
+input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude viditelné na obrazovce.
+
+## LinkDamaged component
+
+
+## LinkExpired component
+
+
+## LinkRememberPassword component
+
+
+## LinkUsed component
+
+
+## PasswordStrengthBalloon component
+
+
 ## Ready component
+
 
 ## Alert Bar
 
@@ -161,18 +175,13 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Nabídka { -brand-firefox(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za vaše soukromí na internetu.
-
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
 bento-menu-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
-
 bento-menu-made-by-mozilla = Od { -brand-mozilla(case: "gen") }
 
 ## Connect another device promo
@@ -181,7 +190,6 @@ connect-another-fx-mobile = Získejte { -brand-firefox(case: "acc") } na mobil n
 connect-another-find-fx-mobile =
     { -brand-firefox(case: "acc") } najdete na { -google-play(case: "loc") } a { -app-store(case: "loc") },
     <br />nebo si <linkExternal>nechte poslat odkaz do svého zařízení</linkExternal>.
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -190,6 +198,7 @@ connect-another-app-store-image-2 =
     .title = Stáhnout { -brand-firefox(case: "acc") } z { -app-store(case: "gen") }
 
 ##
+
 
 ## Connected services section
 
@@ -202,13 +211,10 @@ cs-cannot-disconnect = Klient nebyl nalezen, nelze se odpojit
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Byli jste odhlášeni ze služby { $service }
-
 cs-refresh-button =
     .title = Aktualizovat propojené služby
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chybějící nebo duplicitní položky?
-
 cs-disconnect-sync-heading = Odpojit od Syncu
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -243,10 +249,10 @@ cs-disconnect-suspicious-advice-content =
     Pokud je odpojované zařízení skutečně podezřejmé,
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
-
 cs-sign-out-button = Odhlásit se
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -275,7 +281,6 @@ drop-down-menu-title = Nabídka { -product-firefox-account(case: "gen", capitali
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Jste přihlášeni jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odhlásit se
-
 drop-down-menu-sign-out-error-2 = Omlouváme se, odhlášení se nezdařilo
 
 ## Flow Container
@@ -299,14 +304,6 @@ header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
 header-help = Nápověda
-
-## Input Password
-
-input-password-hide = Skrýt heslo
-input-password-show = Zobrazit heslo
-input-password-hide-aria = Skrýt heslo z obrazovky.
-input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude viditelné na obrazovce.
-
 
 ## Linked Accounts section
 
@@ -374,11 +371,11 @@ avatar-page-image-too-large-error-2 = Obrázek je pro nahrání příliš velký
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Změna hesla
-
 pw-8-chars = Alespoň 8 znaků
 pw-not-email = Není vaše e-mailová adresa
 pw-change-must-match = odpovídá potvrzení
@@ -388,75 +385,65 @@ pw-tips = Nepřepoužívejte stejné heslo a přečtěte si další tipy pro <li
 pw-change-cancel-button = Zrušit
 pw-change-save-button = Uložit
 pw-change-forgot-password-link = Zapomněli jste heslo?
-
 pw-change-current-password =
     .label = Zadejte stávající heslo
 pw-change-new-password =
     .label = Zadejte nové heslo
 pw-change-confirm-password =
     .label = Potvrďte nové heslo
-
 pw-change-success-alert-2 = Heslo změněno
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Vytvoření hesla
-
 pw-create-success-alert-2 = Heslo nastaveno
 pw-create-error-2 = Vaše heslo se nepodařilo nastavit
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Smazat účet
-
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
-
-delete-account-confirm-title-2 = Připojili jste svůj { -product-firefox-account(case: "acc", capitalization: "lower") } k produktům { -brand-mozilla(case: "gen") }, které vám na webu pomohou zajistit bezpečí a produktivitu:
-
 delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
-
-delete-account-chk-box-1-v2 =
-    .label = Všechna placená předplatná, která máte, budou zrušena (kromě služby { product-pocket })
 delete-account-chk-box-2 =
     .label = můžete ztratit uložené informace a funkce produktů { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
     .label = následná reaktivace pomocí tohoto e-mailu nemusí obnovit vaše uložené informace
 delete-account-chk-box-4 =
     .label = všechna rozšíření a vzhledy vámi zveřejněná na serveru addons.mozilla.org budou smazána
-
-
 delete-account-continue-button = Pokračovat
-
 delete-account-password-input =
     .label = Zadejte heslo
-
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Zobrazované jméno
-
 display-name-input =
     .label = Zadejte zobrazované jméno
 submit-display-name = Uložit
 cancel-display-name = Zrušit
-
 display-name-update-error-2 = Vaši zobrazované jméno se nepodařilo změnit
-
 display-name-success-alert-2 = Zobrazované jméno aktualizováno
 
 ##
+
+
+## Recent Activity
+
 
 # Account recovery key setup page
 
@@ -465,8 +452,11 @@ recovery-key-close-button = Zavřít
 recovery-key-continue-button = Pokračovat
 recovery-key-enter-password =
     .label = Zadejte heslo
+recovery-key-page-title-1 =
+    .title = Obnovovací klíč k účtu
 recovery-key-step-1 = Krok 1 ze 2
 recovery-key-step-2 = Krok 2 ze 2
+recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
 
 ## Add secondary email page
 
@@ -498,23 +488,18 @@ delete-account-link = Smazat účet
 ## Two Step Authentication
 
 tfa-title = Dvoufázové ověřování
-
 tfa-step-1-3 = Krok 1 ze 3
 tfa-step-2-3 = Krok 2 ze 3
 tfa-step-3-3 = Krok 3 ze 3
-
 tfa-button-continue = Pokračovat
 tfa-button-cancel = Zrušit
 tfa-button-finish = Dokončit
-
 tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
 tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
 tfa-enabled = Dvoufázové ověřování zapnuto
-
 tfa-scan-this-code =
     Naskenujte tento QR kód jednou z <linkExternal>těchto
     ověřovacích aplikací</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -523,15 +508,14 @@ tfa-qa-code-alt = Pro nastavení dvoufázového ověřování v podporovaných a
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nemůžete kód naskenovat?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací aplikace:
-
 tfa-enter-totp = Nyní zadejte bezpečnostní kód z ověřovací aplikace.
 tfa-input-enter-totp =
     .label = Zadejte bezpečnostní kód
 
 ##
+
 
 ## Profile section
 
@@ -544,6 +528,7 @@ profile-primary-email =
     .header = Hlavní e-mailová adresa
 
 ##
+
 
 ## Security section of Setting
 
@@ -578,13 +563,16 @@ row-defaults-status = Žádný
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Obnovovací klíč k účtu
 rk-enabled = Povoleno
 rk-not-set = Není nastaven
 rk-action-create = Vytvořit
 rk-action-remove = Odebrat
+rk-cannot-refresh-1 = Omlouváme se, při aktualizaci obnovovacího klíče k účtu nastal problém.
 rk-key-removed-2 = Obnovovací klíč k účtu byl odstraněn
 rk-cannot-remove-key = Obnovovací klíč k vašemu účtu se nepodařilo odebrat.
 rk-content-explain = Získejte přístup ke svým datům, pokud zapomenete své heslo.
+rk-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 rk-remove-error-2 = Obnovovací klíč k vašemu účtu se nepodařilo odebrat
 
 ## Secondary email sub-section on main Settings page
@@ -616,6 +604,7 @@ se-secondary-email-none = Žádný
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvoufázové ověřování
@@ -624,16 +613,13 @@ tfa-row-enabled = Povoleno
 tfa-row-not-set = Nenastaveno
 tfa-row-action-add = Přidat
 tfa-row-action-disable = Vypnout
-
 tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
 tfa-row-content-explain = Zabraňte cizím lidem v přístupu k vašemu účtu vyžadováním unikátního kódu, který můžete zadat jenom vy.
-
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
-
 tfa-row-change-modal-confirm = Změnit
 tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
@@ -653,3 +639,48 @@ auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $ret
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
 auth-error-155 = TOTP token nenalezen
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
+
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
