@@ -515,7 +515,7 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდ�
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის. იმავდროულად, ჩამოგეჭრებათ ერთჯერადად { $paymentProrated }, გაზრდილი გადასახადის ასასახად ნაშთისთვის { $productPaymentCycleOld } მონაკვეთში.
+subscriptionUpgrade-content-charge-info = მომდევნო საანგარიშიო პერიოდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } შუალედისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ { $paymentProrated } გაზრდილი გადასახადის ასახვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთში.
 subscriptionUpgrade-content-charge-info-different-cycle = თქვენ ჩამოგეჭრებათ ერთჯერადად { $paymentProrated } გაზრდილი გადასახადის ასასხვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთისთვის. მომდევნო საანგარიშიო პერიოდიდან დაწყებული ჩამოსაჭერილი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -556,6 +556,9 @@ verifyLogin-title-2 = თქვენ გამოიყენეთ ანგ�
 verifyLogin-description-2 = დაგვეხმარეთ თქვენი ანგარიშის უსაფრთხოებაში შესვლის დადასტურებით:
 verifyLogin-subject-2 = შესვლის დადასტურება
 verifyLogin-action = შესვლის დადასტურება
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = შესვლის დამოწმება მომსახურებისთვის { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = თქვენ გამოიყენეთ მომსახურება { $serviceName }?

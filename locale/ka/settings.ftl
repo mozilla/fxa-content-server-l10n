@@ -43,15 +43,26 @@
         [ins] Firefox-ანგარიშით
         [add] Firefox-ანგარიშთან
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = ახალი პაროლი
+form-reset-password-with-balloon-confirm-password =
+    .label = ხელმეორედ შეყვანა:
+form-reset-password-with-balloon-submit-button = პაროლის განულება
+form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
 
 ## Input Password
 
@@ -60,22 +71,64 @@ input-password-show = პაროლის ჩვენება
 input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
 input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = პაროლის აღსადგენი ბმული დაზიანებულია
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = პაროლის აღსადგენი ბმული ვადაგასულია
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
+reset-pwd-link-expired-message = პაროლის აღსადგენი ბმული, რომელზეც დააწკაპეთ, ვადაგასულია.
+signin-link-expired-message = ბმული, რომელზეც დაწკაპეთ ელფოსტის დასადასტურებლად, ვადაგასულია.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = ახალი ბმულის მიღება
+
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = გაგახსენდათ პაროლი? შესვლა
+
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = მთავარი ელფოსტა უკვე დამოწმებულია
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
+confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = პაროლის მოთხოვნები
+password-strength-balloon-min-length = არანაკლებ 8 სიმბოლო
+password-strength-balloon-not-email = თქვენი ელფოსტის გარდა
+password-strength-balloon-not-common = ხშირად გამოყენებულის გარდა
+password-strength-balloon-stay-safe-tips = დაიცავით უსაფრთხოება – ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <LinkExternal>ძლიერი პაროლის შესაქმნელად</LinkExternal>.
 
 ## Ready component
 
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+reset-password-complete-header = თქვენი პაროლი აღდგა.
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = ყველაფერი მზადაა, რომ გამოიყენოთ { $serviceName }
-ready-continue = გაგრძელება
-
-## ResetPasswordLinkDamaged component
-
-
-## ResetPasswordLinkExpired component
-
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = ყველაფერი მზადაა ანგარიშის პარამეტრების გასამართად
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = თქვენი ანგარიში მზადაა!
+ready-continue = განაგრძეთ
+sign-in-complete-header = შესვლა დადასტურებულია
+sign-up-complete-header = ანგარიში დადასტურებულია
 
 ## Alert Bar
 
@@ -95,10 +148,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
 bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
@@ -353,10 +402,7 @@ delete-account-header =
     .title = ანგარიშის წაშლა
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
-delete-account-confirm-title-2 = თქვენ დაუკავშირეთ თქვენი { -product-firefox-account } { -brand-mozilla }-ს პროდუქტებს, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
-delete-account-chk-box-1-v2 =
-    .label = ყველა ფასიანი გამოწერა გაუქმდება (გარდა { product-pocket }-ისა)
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -384,6 +430,9 @@ display-name-update-error-2 = ხარვეზი წარმოიშვა 
 display-name-success-alert-2 = გამოსაჩენი სახელი განახლებულია
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -596,6 +645,12 @@ auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
@@ -604,6 +659,7 @@ account-recovery-confirm-key-instructions = თქვენს { -product-firefo
 
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
 
 ## Confirm Reset Password Component
@@ -612,5 +668,25 @@ account-recovery-confirm-key-instructions = თქვენს { -product-firefo
 ## ResetPassword page
 
 
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
 
