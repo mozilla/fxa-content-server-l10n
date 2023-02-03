@@ -37,15 +37,26 @@
         [singular_dative] Аккаунту Firefox
         [singular_prepositional] Аккаунте Firefox
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Клубы Mozilla
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormResetPasswordWithBalloon
+
+form-reset-password-with-balloon-new-password =
+    .label = Новый пароль
+form-reset-password-with-balloon-confirm-password =
+    .label = Повторите ввод пароля
+form-reset-password-with-balloon-submit-button = Сбросить пароль
+form-reset-password-with-balloon-match-error = Пароли не совпадают
 
 ## Input Password
 
@@ -54,39 +65,66 @@ input-password-show = Показать пароль
 input-password-hide-aria = Скрыть пароль с экрана.
 input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Ссылка для сброса пароля повреждена
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Ссылка для подтверждения повреждена
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Срок жизни ссылки для сброса пароля истёк
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Срок действия ссылки для подтверждения истёк
+reset-pwd-link-expired-message = Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк.
+signin-link-expired-message = Срок действия ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Получить новую ссылку
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Помните свой пароль? Войти
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Основная электронная почта уже подтверждена
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Вход уже подтверждён
+confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Требования к паролю
+password-strength-balloon-min-length = Не менее 8 символов
+password-strength-balloon-not-email = Не ваш адрес электронной почты
+password-strength-balloon-not-common = Не часто используемый пароль
+password-strength-balloon-stay-safe-tips = Будьте в безопасности — не используйте пароли повторно. Ознакомьтесь с дополнительными советами по <LinkExternal>созданию надёжных паролей</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Ваш пароль был сброшен
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Теперь вы готовы к использованию { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Теперь вы готовы использовать настройки аккаунта
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ваш аккаунт готов!
 ready-continue = Продолжить
 sign-in-complete-header = Вход подтверждён
+sign-up-complete-header = Аккаунт подтверждён
 pulsing-hearts-description = Розовый ноутбук и фиолетовое носимое устройство с бьющимся сердцем
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Ссылка для сброса пароля повреждена
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Срок жизни ссылки для сброса пароля истёк
-reset-pwd-link-expired-message = Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Получить новую ссылку
+primary-email-verified-header = Основная электронная почта подтверждена
 
 ## Alert Bar
 
@@ -106,10 +144,10 @@ avatar-default-avatar =
 
 bento-menu-title = Меню продуктов { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — технологии, которые борются за вашу приватность в Интернете.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браузер { -brand-firefox } для компьютеров
 bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобильных
 bento-menu-made-by-mozilla = Создано { -brand-mozilla }
@@ -184,6 +222,7 @@ cs-disconnect-suspicious-advice-content =
     в настройках. Вам также следует сменить любые другие
     пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
+cs-recent-activity = Недавняя активность аккаунта
 
 ##
 
@@ -362,10 +401,19 @@ delete-account-header =
     .title = Удалить аккаунт
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
-delete-account-confirm-title-2 = Вы подключили свой { -product-firefox-account(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
+delete-account-confirm-title-3 = Возможно, вы подключили свой { -product-firefox-account(case: "singular_nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Синхронизация данных { -brand-firefox }
+delete-account-product-firefox-addons = Дополнения { -brand-firefox }
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
-delete-account-chk-box-1-v2 =
-    .label = Все имеющиеся у вас платные подписки будут отменены (кроме { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Все имеющиеся у вас платные подписки будут отменены (кроме { -product-pocket })
 delete-account-chk-box-2 =
     .label = Вы можете потерять сохранённую информацию и возможности продуктов { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -394,6 +442,16 @@ display-name-success-alert-2 = Отображаемое имя обновлен�
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Недавняя активность аккаунта
+recent-activity-account-create = Аккаунт создан
+recent-activity-account-disable = Аккаунт отключён
+recent-activity-account-enable = Аккаунт включён
+recent-activity-account-login = Вход, инициированный аккаунтом
+recent-activity-account-reset = Сброс пароля, инициированный аккаунтом
+recent-activity-emails-clearBounces = Аккаунт очистил отправку писем
 
 # Account recovery key setup page
 
@@ -638,6 +696,19 @@ auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
 auth-error-1008 = Ваш новый пароль должен быть другим
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Ошибка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Проверка входа…
+
+## ConfirmSignin component
+
+confirm-signin-header = Подтвердите этот вход
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Проверьте свой почтовый ящик на наличие ссылки для подтверждения входа, отправленной на { $email }
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -665,16 +736,15 @@ account-recovery-lost-recovery-key-link = У вас нет ключа восст
 
 # Header for form to create new password
 create-new-password-header = Создать новый пароль
-confirm-account-recovery-key-button = Сбросить пароль
 account-restored-success-message = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Пароль установлен
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Создать новый пароль
-complete-reset-password-warning-message = <span>Помните:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { product-pocket } затронуты не будут.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Вы успешно восстановили свой аккаунт с помощью ключа восстановления аккаунта. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте.
+complete-reset-password-warning-message-2 = <span>Помните:</span> Когда вы сбрасываете свой пароль, вы сбрасываете свой аккаунт. Вы можете потерять часть своей личной информации (включая историю, закладки и пароли). Это потому, что мы шифруем ваши данные с помощью вашего пароля, чтобы защитить вашу конфиденциальность. Вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { -product-pocket } не будут затронуты.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль установлен
@@ -700,7 +770,7 @@ reset-password-heading-w-default-service = Сбросьте пароль <span>�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Сбросьте пароль <span>для перехода к { $serviceName }</span>
-reset-password-warning-message = <span>Примечание:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { product-pocket } затронуты не будут.
+reset-password-warning-message-2 = <span>Примечание:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные { -product-pocket } затронуты не будут.
 reset-password-button = Начать сброс
 reset-password-success-alert = Сброс пароля
 reset-password-error-general = К сожалению, при сбросе вашего пароля возникла проблема
@@ -708,7 +778,40 @@ reset-password-error-unknown-account = Неизвестный аккаунт
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
 
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Введите пароль <span> для вашего { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Перейти к <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Перейти к { $serviceName }
+signin-subheader-without-logo-default = Перейти к настройкам аккаунта
+signin-button = Войти
+signin-header = Войти
+# This message is followed by a bulleted list
+signin-tos-list-intro = Продолжая, вы принимаете:
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Спасибо за вашу бдительность
 signin-reported-message = Наша команда оповещена. Ваши сообщения помогают нам бороться со злоумышленниками.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
