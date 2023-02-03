@@ -408,7 +408,7 @@ subscriptionDowngrade-content-switch = { $productNameOld } ჩანაცვლ
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის. იმავდროულად, ასევე ერთჯერადად დაგერიცხებათ { $paymentProrated }, შემცირებული გადასახადის ასასახად ნაშთისთვის { $productPaymentCycleOld } მონაკვეთში.
+subscriptionDowngrade-content-charge-info = მომდევნო საანგარიშო პერიოდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } შუალედისთვის. იმავდროულად, ერთჯერადად დაგერიცხებათ { $paymentProrated } შემცირებული გადასახადის ასახვისთვის ნაშთში { $productPaymentCycleOld } დროის მონაკვეთში.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productName }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
@@ -516,6 +516,7 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდ�
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის. იმავდროულად, ჩამოგეჭრებათ ერთჯერადად { $paymentProrated }, გაზრდილი გადასახადის ასასახად ნაშთისთვის { $productPaymentCycleOld } მონაკვეთში.
+subscriptionUpgrade-content-charge-info-different-cycle = თქვენ ჩამოგეჭრებათ ერთჯერადად { $paymentProrated } გაზრდილი გადასახადის ასასხვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთისთვის. მომდევნო საანგარიშიო პერიოდიდან დაწყებული ჩამოსაჭერილი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productName }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
