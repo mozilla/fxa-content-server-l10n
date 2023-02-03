@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Chiudi
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Ricevi suggerimenti pratici direttamente nella tua casella di posta. Registrati per saperne di più:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Ricevi le ultime notizie su { -brand-mozilla } e { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Come mantenere Internet in salute con le tue azioni
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Come essere più sicuri e consapevoli online
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Scegli che cosa sincronizzare:
+choose-what-to-sync-option-bookmarks =
+    .label = Segnalibri
+choose-what-to-sync-option-history =
+    .label = Cronologia
+choose-what-to-sync-option-passwords =
+    .label = Password
+choose-what-to-sync-option-addons =
+    .label = Componenti aggiuntivi
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Schede aperte
+choose-what-to-sync-option-prefs =
+    .label = Preferenze
+choose-what-to-sync-option-addresses =
+    .label = Indirizzi
+choose-what-to-sync-option-creditcards =
+    .label = Carte di credito
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Apri { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Indietro
+confirm-signup-aria-label =
+    .aria-label = Una busta contenente un link
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Scaricato
+datablock-copy =
+    .message = Copiato
+datablock-print =
+    .message = Stampato
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -41,14 +111,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Password
+signup-confirm-password-label =
+    .label = Ripeti password
+signup-submit-button = Crea un account
 form-reset-password-with-balloon-new-password =
     .label = Nuova password
 form-reset-password-with-balloon-confirm-password =
     .label = Conferma password
 form-reset-password-with-balloon-submit-button = Reimposta password
 form-reset-password-with-balloon-match-error = Le password non corrispondono
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Chiave di recupero dell’account { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codici di autenticazione di backup per { -brand-firefox }
+get-data-trio-download =
+    .title = Scarica
+get-data-trio-copy =
+    .title = Copia
+get-data-trio-print =
+    .title = Stampa
 
 ## Input Password
 
@@ -92,6 +179,12 @@ primary-email-confirmation-link-reused = L’indirizzo email primario è già st
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = L’accesso è già stato confermato
 confirmation-link-reused-message = Questo link di conferma è già stato utilizzato (e può essere utilizzato una sola volta).
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Questa password è necessaria per accedere ai dati crittati che archivi con noi.
+password-info-balloon-reset-risk-info = Un ripristino potrebbe comportare la perdita di dati come password e segnalibri.
 
 ## PasswordStrengthBalloon component
 
@@ -209,15 +302,6 @@ cs-recent-activity = Attività recente dell’account
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Scaricato
-datablock-copy =
-    .message = Copiato
-datablock-print =
-    .message = Stampato
-
 ## Data collection section
 
 dc-heading = Raccolta e utilizzo dati
@@ -241,18 +325,6 @@ drop-down-menu-sign-out-error-2 = Si è verificato un problema durante la discon
 ## Flow Container
 
 flow-container-back = Indietro
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Chiave di recupero dell’account { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codici di autenticazione di backup per { -brand-firefox }
-get-data-trio-download =
-    .title = Scarica
-get-data-trio-copy =
-    .title = Copia
-get-data-trio-print =
-    .title = Stampa
 
 # HeaderLockup component
 
@@ -645,6 +717,18 @@ tfa-row-change-modal-heading-1 = Modificare i codici di autenticazione di backup
 tfa-row-change-modal-confirm = Cambia
 tfa-row-change-modal-explain = Questa azione è irreversibile.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Proseguendo accetti:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Termini di servizio</pocketTos> e <pocketPrivacy>Informativa sulla privacy</pocketPrivacy> di { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Termini di servizio</firefoxTos> e <firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy> di { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Proseguendo accetti i <firefoxTos>Termini di servizio</firefoxTos> e l’<firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Account sconosciuto
@@ -663,20 +747,91 @@ auth-error-138-2 = Sessione non confermata
 auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
 auth-error-155 = Token TOTP non trovato
 auth-error-183-2 = Codice di conferma non valido o scaduto
+auth-error-1003 = La memoria locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Errore:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Convalida accesso…
+cannot-create-account-header = Impossibile creare un account
+cannot-create-account-requirements = Devi soddisfare determinati requisiti di età per creare un { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Ulteriori informazioni
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Conferma questo tentativo di accesso
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Controlla la tua casella di posta, la conferma di accesso è stata inviata a { $email }
+cookies-disabled-header = Memoria locale e cookie necessari
+cookies-disabled-enable-prompt = Attiva i cookie e la memoria locale nel browser per accedere a { -product-firefox-accounts }. In questo modo si attiveranno funzionalità come il ricordo dell’utente tra una sessione e l’altra.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Riprova
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Ulteriori informazioni
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Conferma il codice di autenticazione del backup <span>per continuare con le impostazioni dell’account</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Salva i codici di autenticazione di backup <span>per continuare su { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Conserva questi codici monouso in un luogo sicuro per quando non hai il tuo dispositivo mobile.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Annulla
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continua
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Conferma
+inline-recovery-back-link = Indietro
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Codice di autenticazione di backup
+inline-recovery-confirmation-description = Per ottenere nuovamente accesso al tuo account Firefox, nel caso in cui dovessi perdere il tuo dispositivo, inserisci uno dei codici di autenticazione di backup salvati.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Conferma il codice di autenticazione del backup <span>per continuare con le impostazioni dell’account</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Conferma il codice di autenticazione del backup <span>per continuare su { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Documento che contiene testo nascosto.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Annulla configurazione
+inline-totp-setup-continue-button = Continua
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Aggiungi un livello di sicurezza al tuo account richiedendo i codici di autenticazione da una di <authenticationAppsLink>queste app di autenticazione</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Attiva l’autenticazione in due passaggi <enable2StepDefaultSpan>per continuare con le impostazioni dell’account</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Attiva l'autenticazione in due passaggi <enable2StepCustomServiceSpan> per continuare su { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Pronto
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scansiona il codice di autenticazione <scanAuthCodeHeaderSpan> per continuare su { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Inserisci manualmente il codice <enterCodeManuallyHeaderSpan>per continuare su { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scansiona il codice di autenticazione <scanAuthHeaderSpan>per continuare con le impostazioni dell’account</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Inserisci il codice manualmente <enterCodeManuallyHeaderSpan>per continuare con le impostazioni dell’account</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Digitare questa chiave segreta nell'app di autenticazione. <toggleToQRButton>Invece scansionare il codice QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scansiona il codice QR nell'app di autenticazione e inserisci il codice fornito. <toggleToManualModeButton>Non è possibile eseguire la scansione del codice?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Una volta completato, inizierà a generare codici di autenticazione da inserire.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Codice di autenticazione
 
 ## AccountRecoveryConfirmKey page
 
@@ -747,6 +902,19 @@ reset-password-error-unknown-account = Account sconosciuto
 reset-password-with-recovery-key-verified-generate-new-key = Genera una nuova chiave di recupero dell’account
 reset-password-with-recovery-key-verified-continue-to-account = Vai al mio account
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Errore:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Convalida accesso…
+
+## ConfirmSignin component
+
+confirm-signin-header = Conferma questo tentativo di accesso
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Controlla la tua casella di posta, la conferma di accesso è stata inviata a { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -760,14 +928,6 @@ signin-subheader-without-logo-with-servicename = Continua su { $serviceName }
 signin-subheader-without-logo-default = Passa alle impostazioni dell’account
 signin-button = Accedi
 signin-header = Accedi
-# This message is followed by a bulleted list
-signin-tos-list-intro = Proseguendo accetti:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Termini di servizio</linkExternal> e <linkExternal>Informativa sulla privacy</linkExternal> di { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Termini di servizio</linkExternal> e <linkExternal>Informativa sulla privacy</linkExternal> di { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Proseguendo accetti i <linkExternal>Termini di servizio</linkExternal> e l’<linkExternal>Informativa sulla privacy</linkExternal>
 signin-use-a-different-account-link = Utilizza un altro account
 signin-forgot-password-link = Password dimenticata?
 signin-bounced-header = Spiacenti, l’account è stato bloccato.
@@ -793,8 +953,7 @@ signin-recovery-code-heading-w-custom-service = Inserisci il codice di autentica
 signin-recovery-code-image-description =
     .aria-label = Documento che contiene testo nascosto.
 signin-recovery-code-instruction = Inserisci uno dei codici di autenticazione di backup che ti sono stati forniti durante la configurazione dell’autenticazione in due passaggi.
-signin-recovery-code-input =
-    .label = Digita il codice di autenticazione di backup composto da 10 cifre
+signin-recovery-code-input-label = Digita il codice di autenticazione di backup composto da 10 cifre
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferma
 # Link to return to signin with two-step authentication code (security code)
@@ -818,8 +977,7 @@ signin-reported-message = Il nostro team ha ricevuto la segnalazione. La tua col
 signin-token-code-heading = Inserisci il codice di conferma<span> per il tuo { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Inserisci entro 5 minuti il codice che è stato inviato a { $email }.
-signin-token-code-input-label =
-    .label = Inserisci il codice a 6 cifre
+signin-token-code-input-label-v2 = Inserisci il codice a 6 cifre
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Conferma
 signin-token-code-code-expired = Codice scaduto?
@@ -842,9 +1000,54 @@ signin-totp-code-heading-w-custom-service = Inserisci il codice di sicurezza <sp
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un codice nascosto a 6 cifre.
 signin-totp-code-instruction = Apri l’app di autenticazione e inserisci il codice di verifica ottenuto.
-signin-totp-code-input-label =
-    .label = Inserisci il codice a 6 cifre
+signin-totp-code-input-label-v2 = Inserisci il codice a 6 cifre
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Conferma
 signin-totp-code-other-account-link = Utilizza un altro account
 signin-totp-code-recovery-code-link = Problemi a inserire il codice?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+confirm-signup-heading = Conferma l’account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Controlla la tua email per il link di conferma inviato a { $email }
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Inserisci il codice di conferma <span>per il tuo { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Inserisci entro 5 minuti il codice che è stato inviato a { $email }.
+confirm-signup-code-input-label = Inserisci il codice a 6 cifre
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Conferma
+confirm-signup-code-code-expired = Codice scaduto?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Invia email con nuovo codice.
+confirm-signup-code-required-error = Inserire il codice di conferma
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+signup-heading = Imposta la tua password
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Perché è necessario creare questo account? <LinkExternal>Scoprilo qui</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Modifica e-mail
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Quanti anni hai?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Per completare la registrazione devi inserire la tua età
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Per quale motivo chiediamo?
