@@ -366,7 +366,7 @@ subscriptionAccountFinishSetup-subject = მოგესალმებათ { 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = მოგესალმებათ { $productName }
 subscriptionAccountFinishSetup-content-processing = გადახდა მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე. თქვენი გამოწერა თავისით განახლდება თითოეულ სააგარიშო პერიოდში, სანამ არ გააუქმებთ.
-subscriptionAccountFinishSetup-content-create-2 = შემდეგ, შექმნით { -product-firefox-account(case: "gen") } პაროლს, გამოწერით სარგებლობის დასაწყებად.
+subscriptionAccountFinishSetup-content-create-2 = შემდეგ შექმნით { -product-firefox-account(case: "gen") } პაროლს, გამოწერით სარგებლობის დასაწყებად.
 subscriptionAccountFinishSetup-action-2 = დაიწყეთ
 subscriptionAccountReminderFirst-subject = შეხსენება: დაასრულეთ ანგარიშის შექმნა
 subscriptionAccountReminderFirst-title = თქვენ ჯერ არ გაქვთ წვდომა თქვენს გამოწერაზე
@@ -529,14 +529,58 @@ unblockCode-prompt-plaintext = თუ კი, მაშინ გესაჭი
 unblockCode-report = თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და <a data-l10n-name="reportSignInLink">გამოგზავნეთ მოხსენება.</a>
 unblockCode-report-plaintext = თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და გამოგზავნეთ მოხსენება.
 verificationReminderFinal-subject = საბოლოო შეხსენება ანგარიშის დასადასტურებლად
+verificationReminderFinal-description = რამდენიმე კვირის წინ შექმენით { -product-firefox-account }, მაგრამ ჯერ არ დაგიდასტურებიათ. თქვენი უსაფრთხოებისთვის ჩვენ წავშლით ანგარიშს, თუ მომდევნო 24 საათში არ დაამოწმებთ.
+confirm-account = ანგარიშის დადასტურება
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = არ დაგავიწყდეთ ანგარიშის დადასტურება
+verificationReminderFirst-title-2 = მოგესალმებათ { -brand-firefox }!
+verificationReminderFirst-description-2 = რამდენიმე დღის წინ შექმენით { -product-firefox-account }, მაგრამ ჯერ არ დაგიდასტურებიათ. გთხოვთ დაამოწმოთ მომდევნო 15 დღეში, თუ არადა ავტომატურად წაიშლება.
+verificationReminderFirst-sub-description-3 = არ გამოგრჩეთ ბრაუზერი, რომლისთვისაც უწინარესი თქვენი პირადულობაა.
+confirm-email-2 = ანგარიშის დადასტურება
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = ანგარიშის დადასტურება
+verificationReminderSecond-subject-2 = არ დაგავიწყდეთ ანგარიშის დადასტურება
+verificationReminderSecond-title-2 = არ გამოგრჩეთ { -brand-firefox }!
+verificationReminderSecond-description-3 = რამდენიმე დღის წინ შექმენით { -product-firefox-account }, მაგრამ ჯერ არ დაგიდასტურებიათ. გთხოვთ დაამოწმოთ მომდევნო 10 დღეში, თუ არადა ავტომატურად წაიშლება.
+verificationReminderSecond-second-description = თქვენი { -product-firefox-account } საშუალებას გაძლევთ, დაასინქრონოთ მონაცემები მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
+verificationReminderSecond-sub-description-2 = გახდით ჩვენი მიზნის მონაწილე, რომ ვაქციოთ ინტერნეტი საყოველთაოდ ღია და თავისუფალი.
+verificationReminderSecond-action-2 = ანგარიშის დადასტურება
+verify-title-2 = შეაღეთ ინტერნეტის კარი { -brand-firefox }-ით
 verify-description = დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ { -brand-firefox }-ის შესაძლებლობებით:
 verify-subject = დაასრულეთ ანგარიშის შექმნა
+verify-action-2 = ანგარიშის დადასტურება
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = თქვენ გამოიყენეთ ანგარიში { $clientName }?
+verifyLogin-description-2 = დაგვეხმარეთ თქვენი ანგარიშის უსაფრთხოებაში შესვლის დადასტურებით:
+verifyLogin-subject-2 = შესვლის დადასტურება
 verifyLogin-action = შესვლის დადასტურება
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = თქვენ გამოიყენეთ მომსახურება { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = დაგვეხმარეთ თქვენი ანგარიშის უსაფრთხოებაში შესვლის დამოწმებით:
+verifyLoginCode-prompt-3 = თუ კი, მაშინ აქაა თქვენი დასამოწმებელი კოდი:
 verifyLoginCode-expiry-notice = ვადა გაუვა 5 წუთში.
+verifyPrimary-title-2 = მთავარი ელფოსტის დადასტურება
 verifyPrimary-description = მოთხოვნა ანგარიშის შეცვლის თაობაზე, გამოგზავნილია შემდეგი მოწყობილობიდან:
 verifyPrimary-subject = მთავარი ელფოსტის დამოწმება
+verifyPrimary-action-2 = ელფოსტის დადასტურება
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = დამოწმების შემდეგ ანგარიშის ცვლილების შესაძლებლობები, როგორიცაა დამატებითი ელფოსტის მითითება, ამ მოწყობილობიდან იქნება ხელმისაწვდომი.
 verifySecondaryCode-subject = დამატებითი ელფოსტის დამოწმება
+verifySecondaryCode-title-2 = დამატებითი ელფოსტის დადასტურება
+verifySecondaryCode-action-2 = ელფოსტის დადასტურება
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = მოთხოვნის წყარო, რომ { $email } მიეთითოს დამატებით ელფოსტად, არის შემდეგი { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = გამოიყენეთ დამადასტურებელი კოდი:
+verifySecondaryCode-expiry-notice-2 = ვადა გაუვა 5 წუთში. დამოწმების შემდეგ ამ მისამართზე მიიღებთ უსაფრთხოებისა და დადასტურების შეტყობინებებს.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = დაადასტურეთ თქვენი ანგარიში
+verifyShortCode-title-2 = შეაღეთ ინტერნეტის კარი { -brand-firefox }-ით
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = დაადასტურეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ { -brand-firefox }-ის შესაძლებლობებით:
+verifyShortCode-prompt-3 = გამოიყენეთ დამადასტურებელი კოდი:
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.
