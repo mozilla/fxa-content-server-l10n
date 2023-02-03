@@ -129,6 +129,8 @@ ready-account-ready = თქვენი ანგარიში მზად�
 ready-continue = განაგრძეთ
 sign-in-complete-header = შესვლა დადასტურებულია
 sign-up-complete-header = ანგარიში დადასტურებულია
+pulsing-hearts-description = ვარდისფერი ლეპტოპი და იისფერი მობილური მოწყობილობა, თითოეულს ახლავს აძგერებული გული
+primary-email-verified-header = მთავარი ელფოსტა დამოწმებულია
 
 ## Alert Bar
 
@@ -148,6 +150,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
 bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
@@ -224,6 +230,7 @@ cs-disconnect-suspicious-advice-content =
     პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
     პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
 cs-sign-out-button = გამოსვლა
+cs-recent-activity = ანგარიშის ბოლო მოქმედებები
 
 ##
 
@@ -402,7 +409,18 @@ delete-account-header =
     .title = ანგარიშის წაშლა
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
+delete-account-product-firefox-addons = { -brand-firefox } დამატებები
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
+delete-account-chk-box-1-v3 =
+    .label = ყველა ფასიანი გამოწერა გაუქმდება (დარჩება მხოლოდ { -product-pocket })
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -434,6 +452,8 @@ display-name-success-alert-2 = გამოსაჩენი სახელი
 
 ## Recent Activity
 
+recent-activity-title = ანგარიშის ბოლო მოქმედებები
+recent-activity-account-create = ანგარიში შეიქმნა
 
 # Account recovery key setup page
 
