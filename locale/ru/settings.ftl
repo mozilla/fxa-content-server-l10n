@@ -793,12 +793,46 @@ signin-button = Войти
 signin-header = Войти
 # This message is followed by a bulleted list
 signin-tos-list-intro = Продолжая, вы принимаете:
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-pocket = <linkExternal>Условия использования</linkExternal> и </linkExternal>Уведомление о конфиденциальности</linkExternal> { -product-pocket }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-list-firefox = <linkExternal>Условия использования</linkExternal> и <linkExternal>Уведомление о конфиденциальности</linkExternal> { -brand-firefox }
+# <linkExternal> links to the Terms of Service and also to the Privacy Notice
+signin-tos-and-privacy = Продолжая, вы принимаете <linkExternal>Условия использования</linkExternal> и <linkExternal>Уведомление о конфиденциальности</linkExternal>.
+signin-use-a-different-account-link = Использовать другой аккаунт
+signin-forgot-password-link = Забыли пароль?
+signin-bounced-header = Извините. Мы заблокировали ваш аккаунт.
+# $email (string) - The user's email.
+signin-bounced-message = Письмо для подтверждения, которое мы отправили на { $email }, было возвращено, и мы заблокировали ваш аккаунт, чтобы защитить ваши данные { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Если это действительный адрес электронной почты, <linkExternal>сообщите нам об этом</linkExternal>, и мы поможем разблокировать ваш аккаунт.
+signin-bounced-create-new-account = Больше не владеете этой электронной почтой? Создайте новый аккаунт
+back = Назад
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Введите резервный код аутентификации, <span>для перехода к настройкам аккаунта</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Введите резервный код аутентификации <span>для перехода к { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Документ, содержащий скрытый текст.
+signin-recovery-code-instruction = Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации.
+signin-recovery-code-input =
+    .label = Введите 10-значный резервный код аутентификации
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Подтвердить
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Назад
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Аккаунт заблокирован?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -809,9 +843,39 @@ signin-reported-message = Наша команда оповещена. Ваши �
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Введите код подтверждения<span> для вашего { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
+signin-token-code-input-label =
+    .label = Введите код из 6 цифр
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Подтвердить
+signin-token-code-code-expired = Срок действия кода истёк?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Отправить новый код по электронной почте.
+signin-token-code-required-error = Требуется код подтверждения
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Введите код безопасности <span>для перехода к настройкам аккаунта</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Введите код безопасности <span>для перехода к { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Устройство со скрытым 6-значным кодом.
+signin-totp-code-instruction = Откройте своё приложение для аутентификации и введите предоставленный им защитный код.
+signin-totp-code-input-label =
+    .label = Введите код из 6 цифр
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Подтвердить
+signin-totp-code-other-account-link = Использовать другой аккаунт
+signin-totp-code-recovery-code-link = Проблемы с вводом кода?
