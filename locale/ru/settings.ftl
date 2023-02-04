@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Закрыть
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Практические знания уже отправлены на вашу почту. Подпишитесь, чтобы получать больше:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Получать последние новости о { -brand-mozilla } и { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Помогите здоровому Интернету оставаться таким
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Станьте безопаснее и умнее в Интернете
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Выберите, что синхронизировать:
+choose-what-to-sync-option-bookmarks =
+    .label = Закладки
+choose-what-to-sync-option-history =
+    .label = История
+choose-what-to-sync-option-passwords =
+    .label = Пароли
+choose-what-to-sync-option-addons =
+    .label = Дополнения
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Открытые вкладки
+choose-what-to-sync-option-prefs =
+    .label = Настройки
+choose-what-to-sync-option-addresses =
+    .label = Адреса
+choose-what-to-sync-option-creditcards =
+    .label = Банковские карты
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Открыть { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Нет в папке «Входящие» или «Спам»? Отправить снова
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Назад
+confirm-signup-aria-label =
+    .aria-label = Конверт со ссылкой
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Загружены
+datablock-copy =
+    .message = Скопированы
+datablock-print =
+    .message = Распечатаны
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -49,14 +119,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Пароль
+signup-confirm-password-label =
+    .label = Повторите пароль
+signup-submit-button = Создать аккаунт
 form-reset-password-with-balloon-new-password =
     .label = Новый пароль
 form-reset-password-with-balloon-confirm-password =
     .label = Повторите ввод пароля
 form-reset-password-with-balloon-submit-button = Сбросить пароль
 form-reset-password-with-balloon-match-error = Пароли не совпадают
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ключ восстановления аккаунта { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Резервные коды аутентификации { -brand-firefox }
+get-data-trio-download =
+    .title = Загрузить
+get-data-trio-copy =
+    .title = Скопировать
+get-data-trio-print =
+    .title = Распечатать
 
 ## Input Password
 
@@ -100,6 +187,10 @@ primary-email-confirmation-link-reused = Основная электронная
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вход уже подтверждён
 confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -227,15 +318,6 @@ cs-recent-activity = Недавняя активность аккаунта
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Загружены
-datablock-copy =
-    .message = Скопированы
-datablock-print =
-    .message = Распечатаны
-
 ## Data collection section
 
 dc-heading = Сбор и использование данных
@@ -259,18 +341,6 @@ drop-down-menu-sign-out-error-2 = К сожалению, при выходе в�
 ## Flow Container
 
 flow-container-back = Назад
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Ключ восстановления аккаунта { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Резервные коды аутентификации { -brand-firefox }
-get-data-trio-download =
-    .title = Загрузить
-get-data-trio-copy =
-    .title = Скопировать
-get-data-trio-print =
-    .title = Распечатать
 
 # HeaderLockup component
 
@@ -676,6 +746,12 @@ tfa-row-change-modal-heading-1 = Сменить резервные коды ау
 tfa-row-change-modal-confirm = Сменить
 tfa-row-change-modal-explain = Вы не сможете отменить это действие.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Продолжая, вы принимаете:
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Неизвестный аккаунт
@@ -696,18 +772,26 @@ auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
 auth-error-1008 = Ваш новый пароль должен быть другим
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Ошибка:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Проверка входа…
+cannot-create-account-header = Не удалось создать аккаунт
+cannot-create-account-requirements = Для создания { -product-firefox-account(case: "genitive") } вы должны удовлетворять определённым возрастным требованиям.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Подробнее
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Подтвердите этот вход
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Проверьте свой почтовый ящик на наличие ссылки для подтверждения входа, отправленной на { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -778,6 +862,19 @@ reset-password-error-unknown-account = Неизвестный аккаунт
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Ошибка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Проверка входа…
+
+## ConfirmSignin component
+
+confirm-signin-header = Подтвердите этот вход
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Проверьте свой почтовый ящик на наличие ссылки для подтверждения входа, отправленной на { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -791,14 +888,6 @@ signin-subheader-without-logo-with-servicename = Перейти к { $serviceNam
 signin-subheader-without-logo-default = Перейти к настройкам аккаунта
 signin-button = Войти
 signin-header = Войти
-# This message is followed by a bulleted list
-signin-tos-list-intro = Продолжая, вы принимаете:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Условия использования</linkExternal> и </linkExternal>Уведомление о конфиденциальности</linkExternal> { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Условия использования</linkExternal> и <linkExternal>Уведомление о конфиденциальности</linkExternal> { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Продолжая, вы принимаете <linkExternal>Условия использования</linkExternal> и <linkExternal>Уведомление о конфиденциальности</linkExternal>.
 signin-use-a-different-account-link = Использовать другой аккаунт
 signin-forgot-password-link = Забыли пароль?
 signin-bounced-header = Извините. Мы заблокировали ваш аккаунт.
@@ -824,8 +913,6 @@ signin-recovery-code-heading-w-custom-service = Введите резервны�
 signin-recovery-code-image-description =
     .aria-label = Документ, содержащий скрытый текст.
 signin-recovery-code-instruction = Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации.
-signin-recovery-code-input =
-    .label = Введите 10-значный резервный код аутентификации
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Подтвердить
 # Link to return to signin with two-step authentication code (security code)
@@ -849,8 +936,6 @@ signin-reported-message = Наша команда оповещена. Ваши �
 signin-token-code-heading = Введите код подтверждения<span> для вашего { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
-signin-token-code-input-label =
-    .label = Введите код из 6 цифр
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Подтвердить
 signin-token-code-code-expired = Срок действия кода истёк?
@@ -873,9 +958,23 @@ signin-totp-code-heading-w-custom-service = Введите код безопас
 signin-totp-code-image-label =
     .aria-label = Устройство со скрытым 6-значным кодом.
 signin-totp-code-instruction = Откройте своё приложение для аутентификации и введите предоставленный им защитный код.
-signin-totp-code-input-label =
-    .label = Введите код из 6 цифр
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
 signin-totp-code-recovery-code-link = Проблемы с вводом кода?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
