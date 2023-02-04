@@ -840,6 +840,14 @@ inline-totp-setup-no-qr-custom-service-header = Ingresá el código manualmente 
 inline-totp-setup-show-qr-default-service-header = Escaneá el código de autenticación <scanAuthHeaderSpan>para continuar con la configuración de la cuenta</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Ingresá el código manualmente <enterCodeManuallyHeaderSpan>para continuar con la configuración de la cuenta</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Ingresá esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear código QR en su lugar?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Escaneá el código QR en tu aplicación de autenticación y luego ingresá el código que proporciona. <toggleToManualModeButton>¿No se puede escanear el código?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Una vez completado, va a generar códigos de autenticación para que los ingresés.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Código de autenticación
 
 ## AccountRecoveryConfirmKey page
 
@@ -961,6 +969,7 @@ signin-recovery-code-heading-w-custom-service = Ingresá el código de autentica
 signin-recovery-code-image-description =
     .aria-label = Documento que contiene texto oculto.
 signin-recovery-code-instruction = Ingresá un código de autenticación de respaldo que se proporcionó durante la configuración de autenticación de dos pasos.
+signin-recovery-code-input-label = Ingresá un código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
@@ -984,6 +993,7 @@ signin-reported-message = Nuestro equipo fue notificado. Informes como este nos 
 signin-token-code-heading = Ingresá el código de confirmación <span>para tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
+signin-token-code-input-label-v2 = Ingresá el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = ¿Código expirado?
@@ -1006,6 +1016,7 @@ signin-totp-code-heading-w-custom-service = Ingresá el código de seguridad <sp
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abrí tu aplicación de autenticación e ingresá el código de seguridad que proporciona.
+signin-totp-code-input-label-v2 = Ingresá el código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
@@ -1015,6 +1026,9 @@ signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirmá tu cuenta
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Fijate en tu correo electrónico el enlace de confirmación enviado a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1022,7 +1036,34 @@ signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Ingresá el código de confirmación <span>para tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
+confirm-signup-code-input-label = Ingresá el código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-code-expired = ¿Código expirado?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Enviar código nuevo.
+confirm-signup-code-required-error = Ingresá el código de confirmación
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Establecer contraseña
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = ¿Por qué necesito crear esta cuenta? <LinkExternal>Enterate acá</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambiar correo electrónico
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Cuántos años tenés?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Tenés que ingresar tu edad para registrarte
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ¿Por qué preguntamos?
