@@ -702,6 +702,8 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = 继续操作即表示您同意：
 
 ## Auth-server based errors that originate from backend service
 
