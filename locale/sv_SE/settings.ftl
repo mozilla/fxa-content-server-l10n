@@ -747,6 +747,8 @@ terms-privacy-agreement-intro = Genom att fortsätta godkänner du:
 terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>användarvillkor</pocketTos> och <pocketPrivacy>sekretesspolicy</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }s <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Genom att fortsätta godkänner du <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -766,24 +768,91 @@ auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
+auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Kan inte skapa konto
+cannot-create-account-requirements = Du måste uppfylla vissa ålderskrav för att skapa ett { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Läs mer
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Lokal lagring och kakor krävs
+cookies-disabled-enable-prompt = Vänligen aktivera kakor och lokal lagring i din webbläsare för att komma åt { -product-firefox-accounts }. Om du gör det aktiveras funktioner som att komma ihåg dig mellan sessionerna.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Försök igen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Läs mer
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Bekräfta reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Spara reservautentiseringskoder <span>för att fortsätta till { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Förvara dessa engångskoder på en säker plats när du inte har tillgång till din mobila enhet.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Avbryt
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Fortsätt
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Bekräfta
+inline-recovery-back-link = Tillbaka
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reservautentiseringskod
+inline-recovery-confirmation-description = För att säkerställa att du kommer att kunna återfå åtkomst till ditt konto, i händelse av en borttappad enhet, vänligen ange en av dina sparade reservautentiseringskoder.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Dokument som innehåller dold text.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Avbryt konfiguration
+inline-totp-setup-continue-button = Fortsätt
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Lägg till ett lager av säkerhet till ditt konto genom att kräva autentiseringskoder från en av <authenticationAppsLink>dessa autentiseringsappar</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Aktivera tvåstegsautentisering <enable2StepDefaultSpan>för att fortsätta till kontoinställningar</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Aktivera tvåstegsautentisering <enable2StepCustomServiceSpan>för att fortsätta till { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Klar
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Skanna autentiseringskoden <scanAuthCodeHeaderSpan>för att fortsätta till { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ange koden manuellt <enterCodeManuallyHeaderSpan>för att fortsätta till { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Skanna autentiseringskoden <scanAuthHeaderSpan>för att fortsätta till kontoinställningarna</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Ange koden manuellt <enterCodeManuallyHeaderSpan>för att fortsätta till kontoinställningarna</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Skriv in den här hemliga nyckeln i din autentiseringsapp. <toggleToQRButton>Skanna QR-kod istället?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skanna QR-koden i din autentiseringsapp och ange sedan autentiseringskoden som den tillhandahåller. <toggleToManualModeButton>Kan du inte skanna koden?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = När den är klar kommer den att börja generera autentiseringskoder som du kan ange.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Autentiseringskod
 
 ## AccountRecoveryConfirmKey page
 
@@ -905,6 +974,7 @@ signin-recovery-code-heading-w-custom-service = Ange reservautentiseringskoden <
 signin-recovery-code-image-description =
     .aria-label = Dokument som innehåller dold text.
 signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering.
+signin-recovery-code-input-label = Ange en 10-siffrig reservautentiseringskod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekräfta
 # Link to return to signin with two-step authentication code (security code)
@@ -928,6 +998,7 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 signin-token-code-heading = Ange bekräftelsekod<span> för ditt { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
+signin-token-code-input-label-v2 = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekräfta
 signin-token-code-code-expired = Har koden upphört?
@@ -950,6 +1021,7 @@ signin-totp-code-heading-w-custom-service = Ange säkerhetskoden <span>för att 
 signin-totp-code-image-label =
     .aria-label = En enhet med en dold 6-siffrig kod.
 signin-totp-code-instruction = Öppna din autentiseringsapp och ange säkerhetskoden som den tillhandahåller.
+signin-totp-code-input-label-v2 = Ange 6-siffrig kod
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto
@@ -959,6 +1031,9 @@ signin-totp-code-recovery-code-link = Har du problem att ange koden?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Bekräfta ditt konto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Kontrollera din e-post för bekräftelselänken som skickats till { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -966,7 +1041,34 @@ signin-totp-code-recovery-code-link = Har du problem att ange koden?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Ange bekräftelsekoden <span>för ditt { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
+confirm-signup-code-input-label = Ange 6-siffrig kod
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Bekräfta
+confirm-signup-code-code-expired = Har koden upphört?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Mejla ny kod.
+confirm-signup-code-required-error = Ange bekräftelsekod
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Ställ in ditt lösenord
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Varför måste jag skapa det här kontot? <LinkExternal>Ta reda på det här</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Ändra e-post
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hur gammal är du?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Du måste ange din ålder för att registrera dig
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Varför frågar vi?
