@@ -11,7 +11,7 @@ app-footer-terms-of-service = Условия использования
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 
-app-default-title = { -product-firefox-accounts }
+app-default-title = { -product-firefox-accounts(case: "nominative_uppercase") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page

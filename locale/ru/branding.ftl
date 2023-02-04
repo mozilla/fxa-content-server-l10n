@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server.
 ##
 ## Brands cannot be:
@@ -16,11 +17,18 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-
 # "accounts" can be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
--product-firefox-accounts = Аккаунты Firefox
-
+-product-firefox-accounts =
+    { $case ->
+        [nominative_uppercase] Аккаунты Firefox
+        [genitive] аккаунтов Firefox
+        [dative] аккаунтам Firefox
+        [accusative] аккаунты Firefox
+        [instrumental] аккаунтами Firefox
+        [prepositional] аккаунтах Firefox
+       *[nominative] аккаунты Firefox
+    }
 # "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -33,10 +41,8 @@
         [instrumental] аккаунтом Firefox
         [prepositional] аккаунте Firefox
     }
-
 # This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-
 # Should should be treated as a brand.
 -brand-paypal = PayPal
 # Should should be treated as a brand.
