@@ -728,15 +728,23 @@ auth-error-1008 = 新旧密码不能相同
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-requirements = 您必须符合年龄要求才能创建 { -product-firefox-account }。
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = 详细了解
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = 请在您的浏览器中启用 Cookie 和本地存储功能以访问 { -product-firefox-accounts }。这样才能使会话间记住信息等功能正常运行。
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = 重试
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = 请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
