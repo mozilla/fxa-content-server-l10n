@@ -3,6 +3,62 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = סגירה
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+choose-what-to-sync-option-bookmarks =
+    .label = סימניות
+choose-what-to-sync-option-history =
+    .label = היסטוריה
+choose-what-to-sync-option-passwords =
+    .label = ססמאות
+choose-what-to-sync-option-addons =
+    .label = תוספות
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = לשוניות פתוחות
+choose-what-to-sync-option-prefs =
+    .label = העדפות
+choose-what-to-sync-option-addresses =
+    .label = כתובות
+choose-what-to-sync-option-creditcards =
+    .label = כרטיסי אשראי
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = פתיחת { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = חזרה
+confirm-signup-aria-label =
+    .aria-label = מעטפה המכילה קישור
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = הוּרד
+datablock-copy =
+    .message = הועתק
+datablock-print =
+    .message = הודפס
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -29,20 +85,42 @@
        *[a] חשבון Firefox
         [the] חשבון ה־Firefox
     }
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = ססמה
+signup-confirm-password-label =
+    .label = חזרה על הססמה
+signup-submit-button = יצירת חשבון
 form-reset-password-with-balloon-new-password =
     .label = ססמה חדשה
 form-reset-password-with-balloon-confirm-password =
     .label = הזנת הססמה מחדש
 form-reset-password-with-balloon-submit-button = איפוס ססמה
 form-reset-password-with-balloon-match-error = הססמאות אינן תואמות
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
+get-data-trio-download =
+    .title = הורדה
+get-data-trio-copy =
+    .title = העתקה
+get-data-trio-print =
+    .title = הדפסה
 
 ## Input Password
 
@@ -86,6 +164,12 @@ primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כ
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ההתחברות כבר אושרה
 confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = יש לך צורך בססמה זו כדי לגשת לכל מידע מוצפן שבחרת לאחסן אצלנו.
+password-info-balloon-reset-risk-info = איפוס פירושו פוטנציאל לאבד נתונים כמו ססמאות וסימניות.
 
 ## PasswordStrengthBalloon component
 
@@ -202,15 +286,6 @@ cs-recent-activity = פעילות אחרונה בחשבון
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = הוּרד
-datablock-copy =
-    .message = הועתק
-datablock-print =
-    .message = הודפס
-
 ## Data collection section
 
 dc-heading = איסוף ושימוש בנתונים
@@ -234,17 +309,6 @@ drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחש�
 ## Flow Container
 
 flow-container-back = חזרה
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
-get-data-trio-download =
-    .title = הורדה
-get-data-trio-copy =
-    .title = העתקה
-get-data-trio-print =
-    .title = הדפסה
 
 # HeaderLockup component
 
@@ -609,6 +673,18 @@ tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות �
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = המשך התהליך מהווה הסכמה ל:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy> של { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = המשך התהליך מהווה הסכמה ל<firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = חשבון לא ידוע
@@ -627,20 +703,29 @@ auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
+auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = שגיאה:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = בתהליך אימות התחברות…
+cannot-create-account-header = לא ניתן ליצור חשבון
+cannot-create-account-requirements = עליך לעמוד בדרישות הגיל כדי ליצור { -product-firefox-account(case: "a") }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = מידע נוסף
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = אישור התחברות זו
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -711,6 +796,19 @@ reset-password-error-unknown-account = חשבון לא מוכר
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = שגיאה:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = בתהליך אימות התחברות…
+
+## ConfirmSignin component
+
+confirm-signin-header = אישור התחברות זו
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -724,14 +822,6 @@ signin-subheader-without-logo-with-servicename = המשך אל { $serviceName }
 signin-subheader-without-logo-default = המשך אל הגדרות החשבון
 signin-button = כניסה
 signin-header = כניסה
-# This message is followed by a bulleted list
-signin-tos-list-intro = המשך התהליך מהווה הסכמה ל:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal> של { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal> של { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = המשך התהליך מהווה הסכמה ל<linkExternal>תנאי השירות</linkExternal> ו<linkExternal>הצהרת הפרטיות</linkExternal>
 signin-use-a-different-account-link = שימוש בחשבון אחר
 signin-forgot-password-link = שכחת את הססמה?
 signin-bounced-header = מצטערים. חסמנו את החשבון שלך.
@@ -768,8 +858,6 @@ signin-reported-message = נשלחה הודעה לצוות שלנו. דיווח�
 signin-token-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
-signin-token-code-input-label =
-    .label = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = אישור
 signin-token-code-code-expired = פג תוקף הקוד?
@@ -792,9 +880,23 @@ signin-totp-code-heading-w-custom-service = נא להכניס קוד אבטחה 
 signin-totp-code-image-label =
     .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
 signin-totp-code-instruction = נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שהוא מספק.
-signin-totp-code-input-label =
-    .label = נא להכניס קוד בן 6 ספרות
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
 signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
