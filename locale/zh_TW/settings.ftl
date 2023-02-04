@@ -3,6 +3,63 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = 關閉
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = 選擇要同步的內容：
+choose-what-to-sync-option-bookmarks =
+    .label = 書籤
+choose-what-to-sync-option-history =
+    .label = 瀏覽紀錄
+choose-what-to-sync-option-passwords =
+    .label = 密碼
+choose-what-to-sync-option-addons =
+    .label = 附加元件
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = 開啟分頁
+choose-what-to-sync-option-prefs =
+    .label = 偏好設定
+choose-what-to-sync-option-addresses =
+    .label = 地址
+choose-what-to-sync-option-creditcards =
+    .label = 信用卡資料
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = 開啟 { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = 返回
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = 已下載
+datablock-copy =
+    .message = 已複製
+datablock-print =
+    .message = 已列印
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +94,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = 密碼
+signup-confirm-password-label =
+    .label = 重複輸入密碼
+signup-submit-button = 註冊帳號
 form-reset-password-with-balloon-new-password =
     .label = 新密碼
 form-reset-password-with-balloon-confirm-password =
     .label = 再次輸入密碼
 form-reset-password-with-balloon-submit-button = 重設密碼
 form-reset-password-with-balloon-match-error = 密碼不符合
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
+get-data-trio-download =
+    .title = 下載
+get-data-trio-copy =
+    .title = 複製
+get-data-trio-print =
+    .title = 列印
 
 ## Input Password
 
@@ -88,6 +162,10 @@ primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 已確認過此次登入
 confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -203,15 +281,6 @@ cs-recent-activity = 近期帳號活動
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = 已下載
-datablock-copy =
-    .message = 已複製
-datablock-print =
-    .message = 已列印
-
 ## Data collection section
 
 dc-heading = 資料收集與使用
@@ -235,18 +304,6 @@ drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 ## Flow Container
 
 flow-container-back = 上一頁
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
-get-data-trio-download =
-    .title = 下載
-get-data-trio-copy =
-    .title = 複製
-get-data-trio-print =
-    .title = 列印
 
 # HeaderLockup component
 
@@ -630,6 +687,10 @@ tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 未知帳號
@@ -650,18 +711,30 @@ auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = 錯誤：
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = 正在驗證登入…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = 確認此次登入
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈結
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = 取消
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = 繼續
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = 確認
+inline-recovery-back-link = 返回
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -732,6 +805,19 @@ reset-password-error-unknown-account = 未知帳號
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = 錯誤：
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = 正在驗證登入…
+
+## ConfirmSignin component
+
+confirm-signin-header = 確認此次登入
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈結
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -745,14 +831,6 @@ signin-subheader-without-logo-with-servicename = 繼續前往 { $serviceName }
 signin-subheader-without-logo-default = 繼續前往帳號設定
 signin-button = 登入
 signin-header = 登入
-# This message is followed by a bulleted list
-signin-tos-list-intro = 使用本服務，代表您同意：
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = { -product-pocket } 的<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = 使用本服務，代表您同意<linkExternal>服務條款</linkExternal>與<linkExternal>隱私權公告</linkExternal>
 signin-use-a-different-account-link = 使用另一個帳號
 signin-forgot-password-link = 忘記密碼？
 signin-bounced-header = 抱歉，我們鎖定了您的帳號。
@@ -778,8 +856,6 @@ signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即�
 signin-recovery-code-image-description =
     .aria-label = 包含隱藏文字的文件。
 signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
-signin-recovery-code-input =
-    .label = 請輸入十位數的備用驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code (security code)
@@ -803,8 +879,6 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 signin-token-code-heading = 請輸入您的確認碼 <span>{ -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的確認碼
-signin-token-code-input-label =
-    .label = 請輸入六位數的安全碼
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = 驗證碼失效？
@@ -827,9 +901,23 @@ signin-totp-code-heading-w-custom-service = 請輸入安全碼<span>即可繼續
 signin-totp-code-image-label =
     .aria-label = 包含隱藏六位數安全碼的裝置。
 signin-totp-code-instruction = 請開啟您的兩階段驗證程式，並輸入其提供的安全碼。
-signin-totp-code-input-label =
-    .label = 請輸入六位數的安全碼
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 使用另一個帳號
 signin-totp-code-recovery-code-link = 輸入代碼時遇到問題嗎？
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
