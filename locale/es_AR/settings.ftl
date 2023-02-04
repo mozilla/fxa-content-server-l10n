@@ -29,11 +29,40 @@ choose-newsletters-option-knowledge-is-power =
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Elegí qué sincronizar:
+choose-what-to-sync-option-bookmarks =
+    .label = Marcadores
+choose-what-to-sync-option-history =
+    .label = Historial
+choose-what-to-sync-option-passwords =
+    .label = Contraseñas
+choose-what-to-sync-option-addons =
+    .label = Complementos
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Pestañas abiertas
+choose-what-to-sync-option-prefs =
+    .label = Preferencias
+choose-what-to-sync-option-addresses =
+    .label = Direcciones
+choose-what-to-sync-option-creditcards =
+    .label = Tarjetas de crédito
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Abrir { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o correo basura? Reenviar
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Atrás
+confirm-signup-aria-label =
+    .aria-label = Un sobre que contiene un enlace
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -80,6 +109,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Contraseña
+signup-confirm-password-label =
+    .label = Repetí la contraseña
+signup-submit-button = Crear cuenta
 form-reset-password-with-balloon-new-password =
     .label = Contraseña nueva
 form-reset-password-with-balloon-confirm-password =
@@ -145,6 +179,8 @@ confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Necesitás esta contraseña para acceder a cualquier dato cifrado que almacenés con nosotros.
+password-info-balloon-reset-risk-info = Un reinicio significa la posibilidad de perder datos como contraseñas y marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -700,6 +736,14 @@ tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Al continuar, aceptás:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Términos del servicio</pocketTos> y <pocketPrivacy>nota de privacidad</pocketPrivacy> de { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Términos del servicio</firefoxTos> y <firefoxPrivacy>nota de privacidad</firefoxPrivacy> de { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Al continuar, aceptás los <firefoxTos>términos del servicio</firefoxTos> y la <firefoxPrivacy>nota de privacidad</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -719,15 +763,26 @@ auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
 auth-error-183-2 = El código de confirmación no es válido o ya venció
+auth-error-1003 = El almacenamiento local o las cookies aún están deshabilitadas
 auth-error-1008 = La nueva contraseña debe ser diferente
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = No se puede crear la cuenta
+cannot-create-account-requirements = Tenés que cumplir ciertos requisitos mínimos de edad para crear una { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Conocer más
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Se requiere almacenamiento local y cookies
+cookies-disabled-enable-prompt = Por favor activá las cookies y el almacenamiento local en tu navegador para acceder a { -product-firefox-accounts }. Si lo hacés, se activarán funcionalidades como recordarte entre sesiones.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Intentar nuevamente
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Conocer más
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
