@@ -19,15 +19,50 @@ choose-newsletters-prompt = Praktisk kunskap kommer till din inkorg. Registrera 
 # Newsletter checklist item
 choose-newsletters-option-firefox-accounts-journey =
     .label = Få de senaste nyheterna om { -brand-mozilla } och { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Vidta åtgärder för att hålla internet hälsosamt
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Bli säkrare och smartare på nätet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Välj vad som ska synkroniseras:
+choose-what-to-sync-option-bookmarks =
+    .label = Bokmärken
+choose-what-to-sync-option-history =
+    .label = Historik
+choose-what-to-sync-option-passwords =
+    .label = Lösenord
+choose-what-to-sync-option-addons =
+    .label = Tillägg
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Öppna flikar
+choose-what-to-sync-option-prefs =
+    .label = Inställningar
+choose-what-to-sync-option-addresses =
+    .label = Adresser
+choose-what-to-sync-option-creditcards =
+    .label = Kreditkort
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Öppna { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Inte i inkorgen eller skräppostmappen? Skicka igen
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Tillbaka
+confirm-signup-aria-label =
+    .aria-label = Ett meddelande som innehåller en länk
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -74,6 +109,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Lösenord
+signup-confirm-password-label =
+    .label = Upprepa lösenord
+signup-submit-button = Skapa konto
 form-reset-password-with-balloon-new-password =
     .label = Nytt lösenord
 form-reset-password-with-balloon-confirm-password =
@@ -139,6 +179,8 @@ confirmation-link-reused-message = Den bekräftelselänken har redan använts oc
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Du behöver detta lösenord för att komma åt krypterad data som du lagrar hos oss.
+password-info-balloon-reset-risk-info = En återställning innebär att data som lösenord och bokmärken kan förloras.
 
 ## PasswordStrengthBalloon component
 
@@ -699,6 +741,12 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Genom att fortsätta godkänner du:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>användarvillkor</pocketTos> och <pocketPrivacy>sekretesspolicy</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox }s <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
