@@ -3,6 +3,53 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Κλείσιμο
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+choose-what-to-sync-option-bookmarks =
+    .label = Σελιδοδείκτες
+choose-what-to-sync-option-history =
+    .label = Ιστορικό
+choose-what-to-sync-option-passwords =
+    .label = Κωδικοί πρόσβασης
+choose-what-to-sync-option-addons =
+    .label = Πρόσθετα
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Ανοικτές καρτέλες
+choose-what-to-sync-option-prefs =
+    .label = Προτιμήσεις
+choose-what-to-sync-option-addresses =
+    .label = Διευθύνσεις
+choose-what-to-sync-option-creditcards =
+    .label = Πιστωτικές κάρτες
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Έγινε λήψη
+datablock-copy =
+    .message = Έγινε αντιγραφή
+datablock-print =
+    .message = Έγινε εκτύπωση
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -71,8 +118,20 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
+get-data-trio-download =
+    .title = Λήψη
+get-data-trio-copy =
+    .title = Αντιγραφή
+get-data-trio-print =
+    .title = Εκτύπωση
 
 ## Input Password
 
@@ -93,6 +152,10 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 
 ## LinkUsed component
+
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
 
 
 ## PasswordStrengthBalloon component
@@ -127,6 +190,10 @@ avatar-default-avatar =
 
 bento-menu-title = Μενού Bento του { -brand-firefox }
 bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
 bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
 bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
@@ -203,18 +270,10 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
     όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
 cs-sign-out-button = Αποσύνδεση
+cs-recent-activity = Πρόσφατη δραστηριότητα λογαριασμού
 
 ##
 
-
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Έγινε λήψη
-datablock-copy =
-    .message = Έγινε αντιγραφή
-datablock-print =
-    .message = Έγινε εκτύπωση
 
 ## Data collection section
 
@@ -239,18 +298,6 @@ drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλ�
 ## Flow Container
 
 flow-container-back = Πίσω
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
-get-data-trio-download =
-    .title = Λήψη
-get-data-trio-copy =
-    .title = Αντιγραφή
-get-data-trio-print =
-    .title = Εκτύπωση
 
 # HeaderLockup component
 
@@ -381,6 +428,13 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = Πρόσθετα { -brand-firefox }
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
 delete-account-chk-box-2 =
     .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
@@ -639,6 +693,10 @@ tfa-row-change-modal-heading-1 = Αλλαγή εφεδρικών κωδικών 
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Άγνωστος λογαριασμός
@@ -659,11 +717,38 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Μάθετε περισσότερα
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Ακύρωση
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Συνέχεια
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Επιβεβαίωση
+inline-recovery-back-link = Πίσω
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Εφεδρικός κωδικός ταυτοποίησης
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Ακύρωση ρύθμισης
+inline-totp-setup-continue-button = Συνέχεια
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
 ## AccountRecoveryConfirmKey page
 
@@ -687,10 +772,22 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 reset-password-button = Έναρξη επαναφοράς
 reset-password-error-unknown-account = Άγνωστος λογαριασμός
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Σφάλμα:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Επικύρωση σύνδεσης…
+
+## ConfirmSignin component
+
+confirm-signin-header = Επιβεβαίωση σύνδεσης
+
 ## Signin page
 
 signin-button = Σύνδεση
 signin-header = Σύνδεση
+back = Πίσω
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -699,6 +796,11 @@ signin-header = Σύνδεση
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Πίσω
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Έχετε κλειδωθεί;
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -717,3 +819,21 @@ signin-token-code-confirm-button = Επιβεβαίωση
 
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Αλλαγή email
