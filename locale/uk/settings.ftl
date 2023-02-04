@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Закрити
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Практичні знання у вашій поштовій скриньці. Підпишіться, щоб отримати більше:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Отримуйте останні новини про { -brand-mozilla } й { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Зробіть крок для збереження здорового Інтернету
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Будьте захищенішими й розумнішими в Інтернеті
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Оберіть що синхронізувати:
+choose-what-to-sync-option-bookmarks =
+    .label = Закладки
+choose-what-to-sync-option-history =
+    .label = Історія
+choose-what-to-sync-option-passwords =
+    .label = Паролі
+choose-what-to-sync-option-addons =
+    .label = Додатки
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Відкриті вкладки
+choose-what-to-sync-option-prefs =
+    .label = Налаштування
+choose-what-to-sync-option-addresses =
+    .label = Адреси
+choose-what-to-sync-option-creditcards =
+    .label = Кредитні картки
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Відкрити { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Немає у вхідних чи спамі? Надіслати ще раз
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Назад
+confirm-signup-aria-label =
+    .aria-label = Конверт із посиланням
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Завантажено
+datablock-copy =
+    .message = Скопійовано
+datablock-print =
+    .message = Надруковано
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -101,14 +171,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Пароль
+signup-confirm-password-label =
+    .label = Повторити пароль
+signup-submit-button = Створити обліковий запис
 form-reset-password-with-balloon-new-password =
     .label = Новий пароль
 form-reset-password-with-balloon-confirm-password =
     .label = Введіть пароль ще раз
 form-reset-password-with-balloon-submit-button = Відновити пароль
 form-reset-password-with-balloon-match-error = Паролі відрізняються
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
+get-data-trio-download =
+    .title = Завантажити
+get-data-trio-copy =
+    .title = Копіювати
+get-data-trio-print =
+    .title = Друкувати
 
 ## Input Password
 
@@ -152,6 +239,12 @@ primary-email-confirmation-link-reused = Основна адреса елект�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вхід вже підтверджений
 confirmation-link-reused-message = Це посилання для підтвердження вже було використане, і може використовуватись лише один раз.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Пароль потрібен для доступу до збережених зашифрованих даних.
+password-info-balloon-reset-risk-info = Скидання пароля може призвести до втрати даних, як-от паролів і закладок.
 
 ## PasswordStrengthBalloon component
 
@@ -282,15 +375,6 @@ cs-recent-activity = Останні дії в обліковому записі
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Завантажено
-datablock-copy =
-    .message = Скопійовано
-datablock-print =
-    .message = Надруковано
-
 ## Data collection section
 
 dc-heading = Збір та використання даних
@@ -314,18 +398,6 @@ drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час
 ## Flow Container
 
 flow-container-back = Назад
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
-get-data-trio-download =
-    .title = Завантажити
-get-data-trio-copy =
-    .title = Копіювати
-get-data-trio-print =
-    .title = Друкувати
 
 # HeaderLockup component
 
@@ -733,6 +805,18 @@ tfa-row-change-modal-heading-1 = Змінити резервні коди авт
 tfa-row-change-modal-confirm = Змінити
 tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Продовжуючи, ви погоджуєтеся з:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>умовами використання</pocketTos> та <pocketPrivacy>повідомленням про приватність</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>умовами використання</firefoxTos> та <firefoxPrivacy>повідомленням про приватність</firefoxPrivacy> { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>умовами використання</firefoxTos> та <firefoxPrivacy>повідомленням про приватність</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Невідомий обліковий запис
@@ -751,20 +835,68 @@ auth-error-138-2 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
 auth-error-183-2 = Недійсний або протермінований код підтвердження
+auth-error-1003 = Локальне сховище або куки все ще вимкнені
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Помилка:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Перевірка входу…
+cannot-create-account-header = Неможливо створити обліковий запис
+cannot-create-account-requirements = Щоб створити обліковий запис { -product-firefox-account }, ваш вік має відповідати вимогам.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Докладніше
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Підтвердьте цей вхід
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Знайдіть лист із посиланням для підтвердження входу, надісланий на { $email }
+cookies-disabled-header = Доступ до локального сховища та збереження кук обов'язковий
+cookies-disabled-enable-prompt = Щоб отримати доступ до { -product-firefox-accounts }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Спробувати знову
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Докладніше
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = <span>Щоб перейти до налаштувань облікового запису</span>, введіть резервний код автентифікації
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = <span>Щоб перейти до { $serviceName }</span>, збережіть резервний код автентифікації
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Збережіть ці одноразові коди в безпечному місці на випадок, коли у вас не буде мобільного пристрою.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Скасувати
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Продовжити
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Підтвердити
+inline-recovery-back-link = Назад
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Резервний код автентифікації
+inline-recovery-confirmation-description = Щоб переконатися, що у разі втрати пристрою ви зможете відновити доступ до свого облікового запису, введіть один зі збережених резервних кодів автентифікації.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>Щоб перейти до налаштувань облікового запису</span>, введіть резервний код автентифікації
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = <span>Щоб перейти до { $serviceName }</span>, введіть резервний код автентифікації
+inline-recovery-setup-image-description =
+    .aria-label = Документ, що містить прихований текст.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Скасувати налаштування
+inline-totp-setup-continue-button = Продовжити
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Додайте до свого облікового запису ще один рівень захисту, вимагаючи коди автентифікації з використанням <authenticationAppsLink>цих застосунків</authenticationAppsLink>.
 
 ## AccountRecoveryConfirmKey page
 
@@ -835,6 +967,19 @@ reset-password-error-unknown-account = Невідомий обліковий з�
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Помилка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Перевірка входу…
+
+## ConfirmSignin component
+
+confirm-signin-header = Підтвердьте цей вхід
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Знайдіть лист із посиланням для підтвердження входу, надісланий на { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -848,14 +993,6 @@ signin-subheader-without-logo-with-servicename = Продовжити в { $serv
 signin-subheader-without-logo-default = Перейти до налаштувань облікового запису
 signin-button = Увійти
 signin-header = Увійти
-# This message is followed by a bulleted list
-signin-tos-list-intro = Продовжуючи, ви погоджуєтеся з:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal> { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal> { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Продовжуючи, ви погоджуєтеся з <linkExternal>умовами користування</linkExternal> та <linkExternal>приміткою про приватність</linkExternal>
 signin-use-a-different-account-link = Використати інший обліковий запис
 signin-forgot-password-link = Забули пароль?
 signin-bounced-header = Вибачте. Ми заблокували ваш обліковий запис.
@@ -881,8 +1018,6 @@ signin-recovery-code-heading-w-custom-service = Введіть резервни�
 signin-recovery-code-image-description =
     .aria-label = Документ, який містить прихований текст.
 signin-recovery-code-instruction = Введіть резервний код автентифікації, наданий вам під час налаштування двоетапної перевірки.
-signin-recovery-code-input =
-    .label = Введіть 10-значний резервний код автентифікації
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
 # Link to return to signin with two-step authentication code (security code)
@@ -906,8 +1041,6 @@ signin-reported-message = Наша команда була сповіщена. �
 signin-token-code-heading = Введіть код підтвердження<span> для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
-signin-token-code-input-label =
-    .label = Введіть 6-значний код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Підтвердити
 signin-token-code-code-expired = Код застарів?
@@ -930,9 +1063,23 @@ signin-totp-code-heading-w-custom-service = Введіть код безпеки
 signin-totp-code-image-label =
     .aria-label = Пристрій з прихованим 6-значним кодом.
 signin-totp-code-instruction = Відкрийте вашу програму автентифікації та введіть код безпеки, який вона пропонує.
-signin-totp-code-input-label =
-    .label = Введіть 6-значний код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
 signin-totp-code-recovery-code-link = Проблеми з введенням коду?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
