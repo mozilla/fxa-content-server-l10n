@@ -14,10 +14,21 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Πρακτικές γνώσεις στα εισερχόμενά σας. Εγγραφείτε για περισσότερα:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Λάβετε δράση για ένα υγιές διαδίκτυο
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Περισσότερη ασφάλεια και γνώσεις στο διαδίκτυο
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Επιλέξτε τι θα συγχρονίζεται:
 choose-what-to-sync-option-bookmarks =
     .label = Σελιδοδείκτες
 choose-what-to-sync-option-history =
@@ -40,6 +51,11 @@ choose-what-to-sync-option-creditcards =
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Άνοιγμα { $emailProvider }
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Πίσω
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -120,6 +136,10 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Κωδικός πρόσβασης
+form-reset-password-with-balloon-new-password =
+    .label = Νέος κωδικός πρόσβασης
 
 # GetDataTrio component, part of Account Recovery Key flow
 
