@@ -788,10 +788,58 @@ cookies-disabled-learn-more = Conocer más
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirmá el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Guardá los códigos de autenticación de respaldo <span>para continuar a { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Guardá estos códigos de uso único en un lugar seguro para cuando no tengás tu dispositivo móvil.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Cancelar
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continuar
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirmar
+inline-recovery-back-link = Atrás
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Código de autenticación de respaldo
+inline-recovery-confirmation-description = Para asegurarte de poder recuperar el acceso a tu cuenta si perdés un dispositivo, ingresá uno de los códigos de autenticación de respaldo guardados.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirmá el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirmá el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Documento que contiene texto oculto.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Cancelar configuración
+inline-totp-setup-continue-button = Continuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Agregá una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Habilitá la autenticación en dos pasos <enable2StepDefaultSpan>para continuar con la configuración de la cuenta</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Habilitá la autenticación en dos pasos <enable2StepCustomServiceSpan>para continuar a { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Escaneá el código de autenticación <scanAuthCodeHeaderSpan>para continuar a { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ingresá el código manualmente <enterCodeManuallyHeaderSpan>para continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Escaneá el código de autenticación <scanAuthHeaderSpan>para continuar con la configuración de la cuenta</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Ingresá el código manualmente <enterCodeManuallyHeaderSpan>para continuar con la configuración de la cuenta</enterCodeManuallyHeaderSpan>
 
 ## AccountRecoveryConfirmKey page
 
