@@ -19,10 +19,30 @@ choose-newsletters-prompt = 将发送实用小知识给您。订阅其他新闻�
 # Newsletter checklist item
 choose-newsletters-option-firefox-accounts-journey =
     .label = 获取 { -brand-mozilla } 和 { -brand-firefox } 的最新消息
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = 采取行动保持互联网健康
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = 上网更智能、更安全
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = 选择要同步的项目：
+choose-what-to-sync-option-bookmarks =
+    .label = 书签
+choose-what-to-sync-option-history =
+    .label = 历史记录
+choose-what-to-sync-option-passwords =
+    .label = 密码
+choose-what-to-sync-option-addons =
+    .label = 附加组件
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = 打开的标签页
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
