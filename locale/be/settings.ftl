@@ -836,6 +836,24 @@ inline-totp-setup-enable-two-step-authentication-default-header = Уключыц
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header = Уключыце двухэтапную аўтарызацыю, <enable2StepCustomServiceSpan>каб перайсці да { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Гатова
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Скануйце код аўтэнтыфікацыі, <scanAuthCodeHeaderSpan>каб працягнуць у { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Увядзіце код уручную, <enterCodeManuallyHeaderSpan>каб працягнуць у { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Скануйце код аўтарызацыі, <scanAuthHeaderSpan>каб перайсці да налад уліковага запісу</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Увядзіце код уручную, <enterCodeManuallyHeaderSpan>каб перайсці да налад уліковага запісу</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Увядзіце гэты сакрэтны ключ у сваю праграму аўтэнтыфікацыі. <toggleToQRButton>Сканаваць QR-код замест?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Адскануйце QR-код у сваёй праграме аўтэнтыфікацыі, а затым увядзіце код аўтарызацыі, які яна выдае. <toggleToManualModeButton>Не можаце сканаваць код?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Пасля завяршэння яна пачне генераваць коды аўтарызацыі для ўвядзення.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Код аўтарызацыі
 
 ## AccountRecoveryConfirmKey page
 
@@ -957,6 +975,7 @@ signin-recovery-code-heading-w-custom-service = Увядзіце рэзерво�
 signin-recovery-code-image-description =
     .aria-label = Дакумент, які змяшчае схаваны тэкст.
 signin-recovery-code-instruction = Калі ласка, увядзіце рэзервовы код аўтарызацыі, які быў прадстаўлены вам у часе наладжвання двухэтапнай аўтарызацыі.
+signin-recovery-code-input-label = Увядзіце 10-значны рэзервовы код аўтарызацыі
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Сцвердзіць
 # Link to return to signin with two-step authentication code (security code)
@@ -980,6 +999,7 @@ signin-reported-message = Наша каманда апавешчана. Такі
 signin-token-code-heading = Увядзіце код пацверджання <span>для свайго { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Увядзіце код, які быў адпраўлены на адрас { $email } на працягу 5 хвілін.
+signin-token-code-input-label-v2 = Увядзіце 6-значны код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Сцвердзіць
 signin-token-code-code-expired = Код пратэрмінаваны?
@@ -1002,6 +1022,7 @@ signin-totp-code-heading-w-custom-service = Увядзіце код бяспек
 signin-totp-code-image-label =
     .aria-label = Прылада са схаваным 6-значным кодам.
 signin-totp-code-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код бяспекі, які яна выдае.
+signin-totp-code-input-label-v2 = Увядзіце 6-значны код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
 signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
@@ -1011,6 +1032,7 @@ signin-totp-code-recovery-code-link = Праблема з уводам кода?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Пацвердзіце свой уліковы запіс
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1022,3 +1044,6 @@ signin-totp-code-recovery-code-link = Праблема з уводам кода?
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Чаму мы пытаем?
