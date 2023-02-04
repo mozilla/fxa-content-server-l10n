@@ -735,6 +735,8 @@ inline-recovery-back-link = 返回
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = 取消設定
+inline-totp-setup-continue-button = 繼續
 
 ## AccountRecoveryConfirmKey page
 
