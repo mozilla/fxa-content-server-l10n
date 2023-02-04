@@ -179,6 +179,8 @@ confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = 需要使用此密碼才能存取所有您儲存在我們這的加密資料。
+password-info-balloon-reset-risk-info = 進行重設，可能會失去網頁密碼、書籤等資料。
 
 ## PasswordStrengthBalloon component
 
@@ -703,6 +705,14 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = 使用本服務，代表您同意：
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = 使用本服務，代表您同意<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -722,15 +732,26 @@ auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
+auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = 無法註冊帳號
+cannot-create-account-requirements = 您需要符合年齡需求才能註冊 { -product-firefox-account }。
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = 了解更多
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = 必須開啟本機儲存空間與 Cookie 功能
+cookies-disabled-enable-prompt = 請開啟 Cookie 與本機儲存空間以讓瀏覽器存取 { -product-firefox-accounts }。這麼做可讓帳號系統在每次使用時記住您的登入狀態。
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = 重試
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = 了解更多
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -744,12 +765,29 @@ inline-recovery-continue-button = 繼續
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = 確認
 inline-recovery-back-link = 返回
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = 備用驗證碼
+inline-recovery-confirmation-description = 為了確保在遺失裝置的情況下能夠正常登入帳號，請輸入任一組先前留存的備用救援碼。
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可繼續前往帳號設定</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = 包含隱藏文字的文件。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = 取消設定
 inline-totp-setup-continue-button = 繼續
+inline-totp-setup-ready-button = 準備就緒
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = 驗證碼
 
 ## AccountRecoveryConfirmKey page
 
@@ -871,6 +909,7 @@ signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即�
 signin-recovery-code-image-description =
     .aria-label = 包含隱藏文字的文件。
 signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
+signin-recovery-code-input-label = 請輸入十位數的備用驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code (security code)
@@ -894,6 +933,7 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 signin-token-code-heading = 請輸入您的確認碼 <span>{ -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的確認碼
+signin-token-code-input-label-v2 = 請輸入六位數的安全碼
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = 驗證碼失效？
@@ -916,6 +956,7 @@ signin-totp-code-heading-w-custom-service = 請輸入安全碼<span>即可繼續
 signin-totp-code-image-label =
     .aria-label = 包含隱藏六位數安全碼的裝置。
 signin-totp-code-instruction = 請開啟您的兩階段驗證程式，並輸入其提供的安全碼。
+signin-totp-code-input-label-v2 = 請輸入六位數的安全碼
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 使用另一個帳號
@@ -925,6 +966,9 @@ signin-totp-code-recovery-code-link = 輸入代碼時遇到問題嗎？
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = 確認您的帳號
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = 請到 { $email } 信箱收信，點擊登入確認鏈結
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -932,7 +976,31 @@ signin-totp-code-recovery-code-link = 輸入代碼時遇到問題嗎？
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = 請輸入您的驗證碼 <span>{ -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的驗證碼
+confirm-signup-code-input-label = 請輸入六位數的驗證碼
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = 確認
+confirm-signup-code-code-expired = 驗證碼失效？
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = 重寄新驗證碼。
+confirm-signup-code-required-error = 請輸入驗證碼
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = 請設定密碼
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = 更改電子郵件地址
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = 請問您目前幾歲？
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = 您必須輸入年齡才能註冊
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = 我們為什麼要問？
