@@ -747,22 +747,22 @@ auth-error-138-2 = Sessione non confermata
 auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
 auth-error-155 = Token TOTP non trovato
 auth-error-183-2 = Codice di conferma non valido o scaduto
-auth-error-1003 = La memoria locale o i cookie sono ancora disattivati
+auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Impossibile creare un account
-cannot-create-account-requirements = Devi soddisfare determinati requisiti di età per creare un { -product-firefox-account }.
+cannot-create-account-requirements = Per creare un { -product-firefox-account } è necessario soddisfare determinati requisiti d’età.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Ulteriori informazioni
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
-cookies-disabled-header = Memoria locale e cookie necessari
-cookies-disabled-enable-prompt = Attiva i cookie e la memoria locale nel browser per accedere a { -product-firefox-accounts }. In questo modo si attiveranno funzionalità come il ricordo dell’utente tra una sessione e l’altra.
+cookies-disabled-header = È necessario attivare archiviazione locale e cookie
+cookies-disabled-enable-prompt = Attiva i cookie e l’archiviazione locale nel browser per accedere a { -product-firefox-accounts }. In questo modo verranno attivate funzioni come la memorizzazione dell’utente tra una sessione e l’altra.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Riprova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -774,13 +774,13 @@ cookies-disabled-learn-more = Ulteriori informazioni
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Conferma il codice di autenticazione del backup <span>per continuare con le impostazioni dell’account</span>
+inline-recovery-setup-header-default = Conferma il codice di autenticazione di backup <span>per continuare con le impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-setup-header = Salva i codici di autenticazione di backup <span>per continuare su { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Conserva questi codici monouso in un luogo sicuro per quando non hai il tuo dispositivo mobile.
+inline-recovery-setup-message = Conserva questi codici monouso in un posto sicuro dove poterli consultare quando non hai accesso al tuo dispositivo mobile.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Annulla
@@ -791,10 +791,10 @@ inline-recovery-confirm-button = Conferma
 inline-recovery-back-link = Indietro
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Codice di autenticazione di backup
-inline-recovery-confirmation-description = Per ottenere nuovamente accesso al tuo account Firefox, nel caso in cui dovessi perdere il tuo dispositivo, inserisci uno dei codici di autenticazione di backup salvati.
+inline-recovery-confirmation-description = Per ottenere nuovamente accesso al tuo account, nel caso in cui dovessi perdere il tuo dispositivo, inserisci uno dei codici di autenticazione di backup salvati.
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Conferma il codice di autenticazione del backup <span>per continuare con le impostazioni dell’account</span>
+inline-recovery-confirmation-header-default = Conferma il codice di autenticazione di backup <span>per continuare con le impostazioni dell’account</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
@@ -1032,7 +1032,7 @@ confirm-signup-code-confirm-button = Conferma
 confirm-signup-code-code-expired = Codice scaduto?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Invia email con nuovo codice.
-confirm-signup-code-required-error = Inserire il codice di conferma
+confirm-signup-code-required-error = Inserisci il codice di conferma
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
@@ -1042,7 +1042,7 @@ signup-heading = Imposta la tua password
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Perché è necessario creare questo account? <LinkExternal>Scoprilo qui</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
-signup-change-email-link = Modifica e-mail
+signup-change-email-link = Cambia e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Quanti anni hai?
