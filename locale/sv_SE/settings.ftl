@@ -3,6 +3,41 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Stäng
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktisk kunskap kommer till din inkorg. Registrera dig för mer:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Få de senaste nyheterna om { -brand-mozilla } och { -brand-firefox }
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Nerladdad
+datablock-copy =
+    .message = Kopierad
+datablock-print =
+    .message = Utskriven
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +72,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = Nytt lösenord
@@ -45,6 +80,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = Bekräfta lösenordet
 form-reset-password-with-balloon-submit-button = Återställ lösenordet
 form-reset-password-with-balloon-match-error = Lösenorden matchar inte
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
+get-data-trio-download =
+    .title = Hämta
+get-data-trio-copy =
+    .title = Kopiera
+get-data-trio-print =
+    .title = Skriv ut
 
 ## Input Password
 
@@ -88,6 +135,10 @@ primary-email-confirmation-link-reused = Primär e-postadress redan bekräftad
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inloggning redan bekräftad
 confirmation-link-reused-message = Den bekräftelselänken har redan använts och kan bara användas en gång.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -217,15 +268,6 @@ cs-recent-activity = Senaste kontoaktivitet
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Nerladdad
-datablock-copy =
-    .message = Kopierad
-datablock-print =
-    .message = Utskriven
-
 ## Data collection section
 
 dc-heading = Datainsamling och användning
@@ -249,18 +291,6 @@ drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 ## Flow Container
 
 flow-container-back = Tillbaka
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
-get-data-trio-download =
-    .title = Hämta
-get-data-trio-copy =
-    .title = Kopiera
-get-data-trio-print =
-    .title = Skriv ut
 
 # HeaderLockup component
 
@@ -666,6 +696,10 @@ tfa-row-change-modal-heading-1 = Ändra autentiseringskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Okänt konto
@@ -686,18 +720,22 @@ auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Fel:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Validerar inloggning…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Bekräfta denna inloggning
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Kontrollera din e-post för inloggningsbekräftelselänken som skickats till { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -768,6 +806,19 @@ reset-password-error-unknown-account = Okänt konto
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Fel:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validerar inloggning…
+
+## ConfirmSignin component
+
+confirm-signin-header = Bekräfta denna inloggning
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Kontrollera din e-post för inloggningsbekräftelselänken som skickats till { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -781,14 +832,6 @@ signin-subheader-without-logo-with-servicename = Fortsätt till { $serviceName }
 signin-subheader-without-logo-default = Fortsätt till kontoinställningar
 signin-button = Logga in
 signin-header = Logga in
-# This message is followed by a bulleted list
-signin-tos-list-intro = Genom att fortsätta godkänner du:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = { -product-pocket }s <linkExternal>Användarvillkor</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = { -brand-firefox }s <linkExternal>Användarvillkor</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Genom att fortsätta godkänner du <linkExternal>Användarvillkoren</linkExternal> och <linkExternal>Sekretesspolicy</linkExternal>
 signin-use-a-different-account-link = Använd ett annat konto
 signin-forgot-password-link = Glömt ditt lösenord?
 signin-bounced-header = Förlåt. Vi har låst ditt konto.
@@ -814,8 +857,6 @@ signin-recovery-code-heading-w-custom-service = Ange reservautentiseringskoden <
 signin-recovery-code-image-description =
     .aria-label = Dokument som innehåller dold text.
 signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering.
-signin-recovery-code-input =
-    .label = Ange en 10-siffrig reservautentiseringskod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekräfta
 # Link to return to signin with two-step authentication code (security code)
@@ -839,8 +880,6 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 signin-token-code-heading = Ange bekräftelsekod<span> för ditt { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
-signin-token-code-input-label =
-    .label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekräfta
 signin-token-code-code-expired = Har koden upphört?
@@ -863,9 +902,23 @@ signin-totp-code-heading-w-custom-service = Ange säkerhetskoden <span>för att 
 signin-totp-code-image-label =
     .aria-label = En enhet med en dold 6-siffrig kod.
 signin-totp-code-instruction = Öppna din autentiseringsapp och ange säkerhetskoden som den tillhandahåller.
-signin-totp-code-input-label =
-    .label = Ange 6-siffrig kod
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto
 signin-totp-code-recovery-code-link = Har du problem att ange koden?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
