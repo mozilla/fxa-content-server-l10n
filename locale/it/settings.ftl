@@ -21,7 +21,7 @@ choose-newsletters-option-firefox-accounts-journey =
     .label = Ricevi le ultime notizie su { -brand-mozilla } e { -brand-firefox }
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
-    .label = Come mantenere Internet in salute con le tue azioni
+    .label = Come mantenere Internet in salute attraverso le tue azioni
 # Newsletter checklist item
 choose-newsletters-option-knowledge-is-power =
     .label = Come essere più sicuri e consapevoli online
@@ -183,7 +183,7 @@ confirmation-link-reused-message = Questo link di conferma è già stato utilizz
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
-password-info-balloon-why-password-info = Questa password è necessaria per accedere ai dati crittati che archivi con noi.
+password-info-balloon-why-password-info = Questa password è necessaria per accedere ai dati crittati che salviamo per te.
 password-info-balloon-reset-risk-info = Un ripristino potrebbe comportare la perdita di dati come password e segnalibri.
 
 ## PasswordStrengthBalloon component
