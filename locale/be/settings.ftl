@@ -797,10 +797,45 @@ cookies-disabled-learn-more = Падрабязней
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Захавайце рэзервовыя коды аўтарызацыі <span>для пераходу да { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Захоўвайце гэтыя аднаразовыя коды ў бяспечным месцы, на выпадак, калі ў вас не будзе мабільнай прылады.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Скасаваць
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Працягнуць
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Сцвердзіць
+inline-recovery-back-link = Назад
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Рэзервовы код аўтэнтыфікацыі
+inline-recovery-confirmation-description = Каб упэўніцца, што вы зможаце аднавіць доступ да свайго ўліковага запісу ў выпадку страты прылады, увядзіце адзін з захаваных рэзервовых кодаў аўтэнтыфікацыі.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Дакумент, які змяшчае схаваны тэкст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Скасаваць наладку
+inline-totp-setup-continue-button = Працягнуць
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Дадайце ўзровень бяспекі да свайго ўліковага запісу, патрабуючы коды аўтарызацыі з адной з <authenticationAppsLink>гэтых праграм аўтэнтыфікацыі</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Уключыце двухэтапную аўтарызацыю, <enable2StepDefaultSpan>каб перайсці да налад уліковага запісу</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Уключыце двухэтапную аўтарызацыю, <enable2StepCustomServiceSpan>каб перайсці да { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Гатова
 
 ## AccountRecoveryConfirmKey page
 
