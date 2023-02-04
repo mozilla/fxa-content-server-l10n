@@ -3,6 +3,38 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = 关闭
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = 将发送实用小知识给您。订阅其他新闻通讯：
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = 已下载
+datablock-copy =
+    .message = 已复制
+datablock-print =
+    .message = 已打印
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +69,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = 新密码
@@ -45,6 +77,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = 重新输入密码
 form-reset-password-with-balloon-submit-button = 重置密码
 form-reset-password-with-balloon-match-error = 密码不匹配
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
+get-data-trio-download =
+    .title = 下载
+get-data-trio-copy =
+    .title = 复制
+get-data-trio-print =
+    .title = 打印
 
 ## Input Password
 
@@ -88,6 +132,10 @@ primary-email-confirmation-link-reused = 主邮箱地址已经确认
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 登录已确认
 confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -203,15 +251,6 @@ cs-recent-activity = 最近的帐户活动
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = 已下载
-datablock-copy =
-    .message = 已复制
-datablock-print =
-    .message = 已打印
-
 ## Data collection section
 
 dc-heading = 数据收集与使用
@@ -235,18 +274,6 @@ drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 ## Flow Container
 
 flow-container-back = 返回
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
-get-data-trio-download =
-    .title = 下载
-get-data-trio-copy =
-    .title = 复制
-get-data-trio-print =
-    .title = 打印
 
 # HeaderLockup component
 
@@ -630,6 +657,10 @@ tfa-row-change-modal-heading-1 = 要更改备份验证码吗？
 tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 此操作无法撤销。
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 未知账户
@@ -650,18 +681,22 @@ auth-error-155 = 找不到 TOTP 令牌
 auth-error-183-2 = 验证码无效或已过期
 auth-error-1008 = 新旧密码不能相同
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = 错误：
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = 正在验证登录…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = 确认此登录
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认链接
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -732,6 +767,19 @@ reset-password-error-unknown-account = 未知账户
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续前往我的账户
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = 错误：
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = 正在验证登录…
+
+## ConfirmSignin component
+
+confirm-signin-header = 确认此登录
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认链接
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -745,14 +793,6 @@ signin-subheader-without-logo-with-servicename = 继续 { $serviceName }
 signin-subheader-without-logo-default = 继续帐户设置
 signin-button = 登录
 signin-header = 登录
-# This message is followed by a bulleted list
-signin-tos-list-intro = 继续操作即表示您同意：
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = { -product-pocket } 的<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = { -brand-firefox } 的<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = 继续操作即表示您同意<linkExternal>服务条款</linkExternal>和<linkExternal>隐私声明</linkExternal>
 signin-use-a-different-account-link = 换个账户登录
 signin-forgot-password-link = 忘记密码？
 signin-bounced-header = 对不起。我们已锁定您的帐户。
@@ -778,8 +818,6 @@ signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继�
 signin-recovery-code-image-description =
     .aria-label = 包含隐藏文本的文档。
 signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
-signin-recovery-code-input =
-    .label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
 # Link to return to signin with two-step authentication code (security code)
@@ -803,8 +841,6 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 signin-token-code-heading = 为您的 { -product-firefox-account } </span> 输入确认码<span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
-signin-token-code-input-label =
-    .label = 请输入 6 位验证码
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 确认
 signin-token-code-code-expired = 验证码已过期？
@@ -827,9 +863,23 @@ signin-totp-code-heading-w-custom-service = 输入安全码<span>继续{ $servic
 signin-totp-code-image-label =
     .aria-label = 带有隐藏 6 位验证码的设备。
 signin-totp-code-instruction = 请打开您的身份验证应用，并输入其提供的安全码。
-signin-totp-code-input-label =
-    .label = 请输入 6 位验证码
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
 signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
