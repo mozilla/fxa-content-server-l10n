@@ -3,6 +3,73 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Clauder
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Le cognoscentia practic veni a tu cassa de entrata. Inscribe te:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Age pro mantener Internet in bon sanitate
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Sia plus secur e plus intelligente in linea
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Elige que synchronisar:
+choose-what-to-sync-option-bookmarks =
+    .label = Marcapaginas
+choose-what-to-sync-option-history =
+    .label = Chronologia
+choose-what-to-sync-option-passwords =
+    .label = Contrasignos
+choose-what-to-sync-option-addons =
+    .label = Additivos
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Schedas aperte
+choose-what-to-sync-option-prefs =
+    .label = Preferentias
+choose-what-to-sync-option-addresses =
+    .label = Adresses
+choose-what-to-sync-option-creditcards =
+    .label = Cartas de credito
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Aperir { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Non in le cassa de entrata, ni in le dossier de spam? Reinviar
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Retro
+confirm-signup-aria-label =
+    .aria-label = Un inveloppe continente un ligamine
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Discargate
+datablock-copy =
+    .message = Copiate
+datablock-print =
+    .message = Imprimite
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +104,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Contrasigno
+signup-confirm-password-label =
+    .label = Repete le contrasigno
+signup-submit-button = Crear conto
 form-reset-password-with-balloon-new-password =
     .label = Nove contrasigno
 form-reset-password-with-balloon-confirm-password =
     .label = Reinsere le contrasigno
 form-reset-password-with-balloon-submit-button = Reinitialisar le contrasigno
 form-reset-password-with-balloon-match-error = Le contrasignos non concorda
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Clave de recuperation del conto { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codices de authentication de salvamento de { -brand-firefox }
+get-data-trio-download =
+    .title = Discargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimer
 
 ## Input Password
 
@@ -88,6 +172,10 @@ primary-email-confirmation-link-reused = Email primari ja confirmate
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Session ja confirmate
 confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -211,15 +299,6 @@ cs-recent-activity = Activitate de conto recente
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Discargate
-datablock-copy =
-    .message = Copiate
-datablock-print =
-    .message = Imprimite
-
 ## Data collection section
 
 dc-heading = Recolta e uso de datos
@@ -243,18 +322,6 @@ drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 ## Flow Container
 
 flow-container-back = Retro
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Clave de recuperation del conto { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codices de authentication de salvamento de { -brand-firefox }
-get-data-trio-download =
-    .title = Discargar
-get-data-trio-copy =
-    .title = Copiar
-get-data-trio-print =
-    .title = Imprimer
 
 # HeaderLockup component
 
@@ -658,6 +725,12 @@ tfa-row-change-modal-heading-1 = Cambiar codices de authentication de salvamento
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Si tu procede, tu concorda con:
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conto incognite
@@ -678,18 +751,45 @@ auth-error-155 = Token TOTP non trovate
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Error:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Validation del accesso…
+cannot-create-account-header = Impossibile crear le conto
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Pro saper plus
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Confirmar iste session
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate per email a { $email }
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Retenta
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Pro saper plus
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Cancellar
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continuar
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirmar
+inline-recovery-back-link = Retro
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Codice de authentication de salvamento
+inline-recovery-confirmation-description = Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de salvamento salvate.
+inline-recovery-setup-image-description =
+    .aria-label = Documento que contine texto occulte.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Cancellar configuration
+inline-totp-setup-continue-button = Continuar
+inline-totp-setup-ready-button = Preste
 
 ## AccountRecoveryConfirmKey page
 
@@ -760,6 +860,19 @@ reset-password-error-unknown-account = Conto incognite
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validation del accesso…
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirmar iste session
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate per email a { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -773,14 +886,6 @@ signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
 signin-subheader-without-logo-default = Passa a parametros de conto
 signin-button = Aperir session
 signin-header = Aperir session
-# This message is followed by a bulleted list
-signin-tos-list-intro = Si tu procede, tu concorda con:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Conditiones de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Conditiones de servicio</linkExternal> e <linkExternal>Aviso de confidentialitate</linkExternal> de { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Si tu procede, tu concorda con le <linkExternal>Terminos de servicio</linkExternal> e le <linkExternal>Aviso de confidentialitate</linkExternal>
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
 signin-bounced-header = Regrettabilemente, tu conto ha essite blocate.
@@ -806,8 +911,7 @@ signin-recovery-code-heading-w-custom-service = Insere le codice authentication 
 signin-recovery-code-image-description =
     .aria-label = Documento que contine texto occulte.
 signin-recovery-code-instruction = Insere un codice de authentication de salvamento que te ha essite fornite durante le implementation del authentication a duo passos.
-signin-recovery-code-input =
-    .label = Insere le codice de authentication de salvamento a 10-cifras
+signin-recovery-code-input-label = Insere le codice de authentication de salvamento a 10 cifras
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
@@ -831,8 +935,6 @@ signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adju
 signin-token-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
-signin-token-code-input-label =
-    .label = Insere le codice de 6 digitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = Codice expirate?
@@ -855,9 +957,42 @@ signin-totp-code-heading-w-custom-service = Insere codice de securitate <span>pr
 signin-totp-code-image-label =
     .aria-label = Un apparato con un codice occulte de 6 cifras.
 signin-totp-code-instruction = Aperi tu application de authentication e insere le codice de securitate que illo forni.
-signin-totp-code-input-label =
-    .label = Insere le codice de 6 digitos
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa un conto differente
 signin-totp-code-recovery-code-link = Problemas a inserer le codice?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+confirm-signup-heading = Confirma tu conto
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-code-expired = Codice expirate?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Inviar nove codice per email.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+signup-heading = Defini tu contrasigno
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambiar email
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Que etate ha tu?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Tu debe inserer tu etate pro inscriber te
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Pro que nos demanda?
