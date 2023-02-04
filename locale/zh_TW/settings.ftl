@@ -803,10 +803,16 @@ inline-totp-setup-ready-button = 準備就緒
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = 掃描驗證碼<scanAuthCodeHeaderSpan>即可繼續前往 { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = 手動輸入驗證碼<enterCodeManuallyHeaderSpan>即可繼續前往 { $serviceName }</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-custom-service-header = 手動輸入安全碼<enterCodeManuallyHeaderSpan>即可繼續前往 { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = 掃描驗證碼<scanAuthHeaderSpan>即可繼續前往帳號設定</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = 手動輸入安全碼<enterCodeManuallyHeaderSpan>即可繼續前往帳號設定</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = 請在您的驗證器應用程式輸入下列私鑰。<toggleToQRButton>要改成掃描 QR Code 嗎？</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = 請在您的驗證器應用程式掃描下列 QR Code，然後輸入驗證器產生的安全碼。<toggleToManualModeButton>無法掃描 QR Code 嗎？</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1017,6 +1023,9 @@ confirm-signup-code-required-error = 請輸入驗證碼
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = 請設定密碼
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = 為什麼要註冊這個帳號？<LinkExternal>在此了解</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改電子郵件地址
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
