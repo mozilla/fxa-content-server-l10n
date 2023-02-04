@@ -751,6 +751,12 @@ tfa-row-change-modal-explain = Вы не сможете отменить это 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Продолжая, вы принимаете:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Условия использования</pocketTos> и <pocketPrivacy>Уведомление о конфиденциальности</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Условия использования</firefoxTos> и <firefoxPrivacy>Уведомление о конфиденциальности</firefoxPrivacy> { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Продолжая, вы принимате <firefoxTos>Условия использования</firefoxTos> и <firefoxPrivacy>Уведомление о конфиденциальности</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -770,6 +776,7 @@ auth-error-138-2 = Неподтверждённая сессия
 auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
 auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
+auth-error-1003 = Локальное хранилище или куки по-прежнему отключены
 auth-error-1008 = Ваш новый пароль должен быть другим
 
 ## Cannot Create Account page
@@ -783,15 +790,61 @@ cannot-create-account-learn-more-link = Подробнее
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-firefox-accounts(case: "plural_dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Попробовать снова
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Подробнее
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Подтвердите резервный код аутентификации, <span>для перехода к настройкам аккаунта</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Сохраните резервный код аутентификации <span>для перехода к { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Храните эти одноразовые коды в безопасном месте, на случай, если у вас не будет доступа к мобильному устройству.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Отмена
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Продолжить
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Подтвердить
+inline-recovery-back-link = Назад
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Резервный код аутентификации
+inline-recovery-confirmation-description = Чтобы убедиться, что вы сможете восстановить доступ к своему аккаунту в случае утери устройства, введите один из сохранённых резервных кодов аутентификации.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Подтвердите резервный код аутентификации, <span>для перехода к настройкам аккаунта</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Подтвердите резервный код аутентификации <span>для перехода к { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Документ, содержащий скрытый текст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Отменить настройку
+inline-totp-setup-continue-button = Продолжить
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Добавьте в свой аккаунт ещё один уровень защиты, включив использование кодов аутентификации от одного из <authenticationAppsLink>этих приложений для авторизации</authenticationAppsLink>.
+inline-totp-setup-ready-button = Готово
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Отсканируйте код аутентификации, <scanAuthHeaderSpan>для перехода к настройкам аккаунта</scanAuthHeaderSpan>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = По завершении оно начнёт генерировать коды аутентификации, которые вы сможете ввести.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Код аутентификации
 
 ## AccountRecoveryConfirmKey page
 
@@ -913,6 +966,7 @@ signin-recovery-code-heading-w-custom-service = Введите резервны�
 signin-recovery-code-image-description =
     .aria-label = Документ, содержащий скрытый текст.
 signin-recovery-code-instruction = Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации.
+signin-recovery-code-input-label = Введите 10-значный резервный код аутентификации
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Подтвердить
 # Link to return to signin with two-step authentication code (security code)
@@ -933,9 +987,10 @@ signin-reported-message = Наша команда оповещена. Ваши �
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = Введите код подтверждения<span> для вашего { -product-firefox-account }</span>
+signin-token-code-heading = Введите код подтверждения<span> для вашего { -product-firefox-account(case: "genitive") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
+signin-token-code-input-label-v2 = Введите код из 6 цифр
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Подтвердить
 signin-token-code-code-expired = Срок действия кода истёк?
@@ -958,6 +1013,7 @@ signin-totp-code-heading-w-custom-service = Введите код безопас
 signin-totp-code-image-label =
     .aria-label = Устройство со скрытым 6-значным кодом.
 signin-totp-code-instruction = Откройте своё приложение для аутентификации и введите предоставленный им защитный код.
+signin-totp-code-input-label-v2 = Введите код из 6 цифр
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
@@ -967,6 +1023,9 @@ signin-totp-code-recovery-code-link = Проблемы с вводом кода?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Подтвердите ваш аккаунт
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Проверьте свой почтовый ящик на наличие ссылки для подтверждения, отправленной на { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -974,7 +1033,31 @@ signin-totp-code-recovery-code-link = Проблемы с вводом кода?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Введите код подтверждения <span>для вашего { -product-firefox-account(case: "genitive") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
+confirm-signup-code-input-label = Введите код из 6 цифр
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Подтвердить
+confirm-signup-code-code-expired = Срок действия кода истёк?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Отправить новый код по электронной почте.
+confirm-signup-code-required-error = Пожалуйста, введите код подтверждения
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Установите пароль
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Сменить адрес электронной почты
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Сколько вам лет?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Для регистрации вы должны указать свой возраст
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Почему мы спрашиваем?
