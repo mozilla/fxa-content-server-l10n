@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Жабу
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Практикалық білім сіздің кіріс жәшігіңізге келеді. Қосымша ақпарат алу үшін тіркеліңіз:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = { -brand-mozilla } және { -brand-firefox } туралы соңғы жаңалықтарды алыңыз
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Интернеттің денсаулығын сақтау үшін әрекет жасаңыз
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Интернетте қауіпсіздеу және ақылдырақ болыңыз
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Нені синхрондауды таңдаңыз:
+choose-what-to-sync-option-bookmarks =
+    .label = Бетбелгілер
+choose-what-to-sync-option-history =
+    .label = Тарихы
+choose-what-to-sync-option-passwords =
+    .label = Парольдер
+choose-what-to-sync-option-addons =
+    .label = Қосымшалар
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Ашық беттер
+choose-what-to-sync-option-prefs =
+    .label = Баптаулар
+choose-what-to-sync-option-addresses =
+    .label = Адрестер
+choose-what-to-sync-option-creditcards =
+    .label = Несиелік карталар
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = { $emailProvider } ашу
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Артқа
+confirm-signup-aria-label =
+    .aria-label = Сілтемесі бар конверт
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Жүктеп алынған
+datablock-copy =
+    .message = Көшірілді
+datablock-print =
+    .message = Басып шығарылды
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +107,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Пароль
+signup-confirm-password-label =
+    .label = Парольді қайталау
+signup-submit-button = Тіркелгіні жасау
 form-reset-password-with-balloon-new-password =
     .label = Жаңа пароль
 form-reset-password-with-balloon-confirm-password =
     .label = Парольді қайта енгізіңіз
 form-reset-password-with-balloon-submit-button = Парольді тастау
 form-reset-password-with-balloon-match-error = Парольдер өзара сәйкес келмейді
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } тіркелгіні қалпына келтіру кілті
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } аутентификация кодтарының сақтық көшірмесі
+get-data-trio-download =
+    .title = Жүктеп алу
+get-data-trio-copy =
+    .title = Көшіріп алу
+get-data-trio-print =
+    .title = Баспаға шығару
 
 ## Input Password
 
@@ -88,6 +175,10 @@ primary-email-confirmation-link-reused = Біріншілік эл. пошта �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -218,15 +309,6 @@ cs-recent-activity = Тіркелгінің жуырдағы белсенділ�
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Жүктеп алынған
-datablock-copy =
-    .message = Көшірілді
-datablock-print =
-    .message = Басып шығарылды
-
 ## Data collection section
 
 dc-heading = Деректерді жинау және қолдану
@@ -250,18 +332,6 @@ drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу к
 ## Flow Container
 
 flow-container-back = Артқа
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } тіркелгіні қалпына келтіру кілті
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } аутентификация кодтарының сақтық көшірмесі
-get-data-trio-download =
-    .title = Жүктеп алу
-get-data-trio-copy =
-    .title = Көшіріп алу
-get-data-trio-print =
-    .title = Баспаға шығару
 
 # HeaderLockup component
 
@@ -667,6 +737,10 @@ tfa-row-change-modal-heading-1 = Сақтық аутентификация ко�
 tfa-row-change-modal-confirm = Өзгерту
 tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Белгісіз тіркелгі
@@ -687,18 +761,35 @@ auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Қате:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Жүйеге кіру расталуда…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Бұл кіруді растау
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Эл. поштаңызды { $email } адресіне жіберілген кіруді растау сілтемесіне тексеріңіз
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Бас тарту
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Жалғастыру
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Растау
+inline-recovery-back-link = Артқа
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Сақтық аутентификация коды
+inline-recovery-confirmation-description = Құрылғы жоғалған жағдайда тіркелгіңізге қайта кіру мүмкіндігіне ие болу үшін сақталған сақтық аутентификация кодтарының бірін енгізіңіз.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
+inline-totp-setup-continue-button = Жалғастыру
 
 ## AccountRecoveryConfirmKey page
 
@@ -769,6 +860,19 @@ reset-password-error-unknown-account = Белгісіз тіркелгі
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Қате:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Жүйеге кіру расталуда…
+
+## ConfirmSignin component
+
+confirm-signin-header = Бұл кіруді растау
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Эл. поштаңызды { $email } адресіне жіберілген кіруді растау сілтемесіне тексеріңіз
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -782,14 +886,6 @@ signin-subheader-without-logo-with-servicename = { $serviceName } ішіне ж�
 signin-subheader-without-logo-default = Тіркелгі баптауларына жалғастыру
 signin-button = Кіру
 signin-header = Кіру
-# This message is followed by a bulleted list
-signin-tos-list-intro = Жалғастыру арқылы сіз келесіге келісесіз:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = { -product-pocket } өнімінің <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = { -brand-firefox } өнімінің <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Жалғастыру арқылы сіз <linkExternal>Қолдану шарттары</linkExternal> және <linkExternal>Жекелік ескертуі</linkExternal> шарттарымен келісесіз
 signin-use-a-different-account-link = Басқа тіркелгіні қолдану
 signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
 signin-bounced-header = Кешіріңіз. Біз сіздің тіркелгіңізді блоктадық.
@@ -815,8 +911,6 @@ signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ішін�
 signin-recovery-code-image-description =
     .aria-label = Жасырын мәтіні бар құжат.
 signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
-signin-recovery-code-input =
-    .label = 10 сандық сақтық аутентификация кодын енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
 # Link to return to signin with two-step authentication code (security code)
@@ -840,8 +934,6 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 signin-token-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
-signin-token-code-input-label =
-    .label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Растау
 signin-token-code-code-expired = Кодтың мерзімі бітті ме?
@@ -864,9 +956,23 @@ signin-totp-code-heading-w-custom-service = <span>{ $serviceName } қызмет�
 signin-totp-code-image-label =
     .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
-signin-totp-code-input-label =
-    .label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
 signin-totp-code-recovery-code-link = Кодты енгізуде мәселе бар ма?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
