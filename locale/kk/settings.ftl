@@ -179,6 +179,8 @@ confirmation-link-reused-message = Бұл растау сілтемесі қол
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін сізге бұл пароль керек.
+password-info-balloon-reset-risk-info = Қалпына келтіру әрекеті парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді.
 
 ## PasswordStrengthBalloon component
 
@@ -742,6 +744,10 @@ tfa-row-change-modal-explain = Бұл әрекетті кері қайтара �
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Жалғастыру арқылы сіз келесіге келісесіз:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } өнімінің <firefoxTos>Қолдану шарттары</firefoxTos> және <firefoxPrivacy>Қауіпсіздік ескертуі</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -823,6 +829,27 @@ inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
 inline-totp-setup-continue-button = Жалғастыру
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = <enable2StepDefaultSpan>Тіркелгі баптауларына өту үшін</enable2StepDefaultSpan> екі қадамдық аутентификацияны іске қосыңыз.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = <enable2StepCustomServiceSpan>{ $serviceName } қызметіне өту үшін</enable2StepCustomServiceSpan> екі қадамдық аутентификацияны іске қосыңыз.
+inline-totp-setup-ready-button = Дайын
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } қызметіне жалғастыру үшін</scanAuthCodeHeaderSpan> аутентификация кодын сканерлеңіз
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = <enterCodeManuallyHeaderSpan>{ $serviceName } қызметіне жалғастыру үшін</enterCodeManuallyHeaderSpan> кодты қолмен енгізіңіз
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = <scanAuthHeaderSpan>Тіркелгі баптауларына жалғастыру үшін</scanAuthHeaderSpan> аутентификация кодын сканерлеңіз
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = <enterCodeManuallyHeaderSpan>Тіркелгі баптауларына жалғастыру үшін</enterCodeManuallyHeaderSpan> кодты қолмен енгізіңіз
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Бұл құпия кілтті аутентификация қолданбасына теріңіз. <toggleToQRButton>Оның орнына QR кодын сканерлеу керек пе?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Аутентификация қолданбасында QR кодын сканерлеңіз, содан кейін ол беретін аутентификация кодын енгізіңіз. <toggleToManualModeButton>Кодты сканерлеу мүмкін емес пе?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Аяқтағаннан кейін ол сізге енгізу үшін аутентификация кодтарын жасай бастайды.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Аутентификация коды
 
@@ -1031,6 +1058,9 @@ confirm-signup-code-required-error = Растау кодын енгізіңіз
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Парольді орнату
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Бұл тіркелгіні маған неге жасау керек?<LinkExternal>Осы жерден біліңіз</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. поштаны өзгерту
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
