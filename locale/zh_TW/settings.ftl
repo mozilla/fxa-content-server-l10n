@@ -757,6 +757,15 @@ cookies-disabled-learn-more = 了解更多
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = 確認備用驗證碼<span>即可繼續前往帳號設定</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = 儲存備用驗證碼<span>即可繼續前往 { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = 請將這些單次使用的救援碼保存在安全的地方，以備行動裝置不在手邊時使用。
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = 取消
@@ -783,7 +792,21 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = 取消設定
 inline-totp-setup-continue-button = 繼續
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = 透過需要多輸入一組由<authenticationAppsLink>驗證程式</authenticationAppsLink>所產生的驗證碼，加強您的帳號安全性。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = 開啟兩階段驗證<enable2StepDefaultSpan>即可繼續前往帳號設定</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = 開啟兩階段驗證<enable2StepCustomServiceSpan>即可繼續前往 { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = 準備就緒
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = 掃描驗證碼<scanAuthCodeHeaderSpan>即可繼續前往 { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = 手動輸入驗證碼<enterCodeManuallyHeaderSpan>即可繼續前往 { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = 掃描驗證碼<scanAuthHeaderSpan>即可繼續前往帳號設定</scanAuthHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
 # The "authentication code" here refers to the code provided by an authentication app.
