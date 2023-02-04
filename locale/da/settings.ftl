@@ -3,6 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Hentet
+datablock-copy =
+    .message = Kopieret
+datablock-print =
+    .message = Udskrevet
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,15 +51,38 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormPasswordWithBalloons
+
+form-reset-password-with-balloon-new-password =
+    .label = Ny adgangskode
+form-reset-password-with-balloon-confirm-password =
+    .label = Indtast adgangskode igen
+form-reset-password-with-balloon-submit-button = Nulstil adgangskode
+form-reset-password-with-balloon-match-error = Adgangskoderne er ikke ens
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
+get-data-trio-download =
+    .title = Hent
+get-data-trio-copy =
+    .title = Kopier
+get-data-trio-print =
+    .title = Udskriv
 
 ## Input Password
 
@@ -42,39 +91,67 @@ input-password-show = Vis adgangskode
 input-password-hide-aria = Skjul adgangskode fra skærmen.
 input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
 
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Bekræftelseslink beskadiget
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Bekræftelseslinket er udløbet
+reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
+signin-link-expired-message = Linket, du klikkede på for at bekræfte din mailadresse, er udløbet.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Få et nyt link
+
 ## LinkRememberPassword component
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
 remember-pw-link = Kan du huske adgangskoden? Log ind
 
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Login er allerede bekræftet
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Krav til adgangskode
+password-strength-balloon-min-length = Mindst 8 tegn
+password-strength-balloon-not-email = Ikke din mailadresse
+password-strength-balloon-not-common = Ikke en almindeligt brugt adgangskode
+password-strength-balloon-stay-safe-tips = Beskyt dig selv — Genbrug ikke adgangskoder. Læs mere om, hvordan du <LinkExternal>opretter stærke adgangskoder</LinkExternal>.
+
 ## Ready component
 
 reset-password-complete-header = Din adgangskode er blevet nulstillet
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Du er nu klar til at bruge { $serviceName }
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Din konto er klar!
 ready-continue = Fortsæt
 sign-in-complete-header = Login er bekræftet
+sign-up-complete-header = Konto bekræftet
 pulsing-hearts-description = En pink bærbar computer og en lilla mobil enhed hver med et pulserende hjerte
-
-## ResetPasswordLinkDamaged component
-
-# The user followed a password reset link that was received by email
-# but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
-# The user followed a "reset password" link received by email.
-reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
-
-## ResetPasswordLinkExpired component
-
-# The user followed a password reset link, but that link is expired and no longer valid
-reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
-reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Få et nyt link
+primary-email-verified-header = Primær mailadresse bekræftet
 
 ## Alert Bar
 
@@ -94,10 +171,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
 bento-menu-firefox-mobile = { -brand-firefox } Browser til din telefon
 bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
@@ -174,18 +251,10 @@ cs-disconnect-suspicious-advice-content =
     i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
     adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-sign-out-button = Log ud
+cs-recent-activity = Seneste kontoaktivitet
 
 ##
 
-
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Hentet
-datablock-copy =
-    .message = Kopieret
-datablock-print =
-    .message = Udskrevet
 
 ## Data collection section
 
@@ -210,18 +279,6 @@ drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge d
 ## Flow Container
 
 flow-container-back = Tilbage
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
-get-data-trio-download =
-    .title = Hent
-get-data-trio-copy =
-    .title = Kopier
-get-data-trio-print =
-    .title = Udskriv
 
 # HeaderLockup component
 
@@ -351,10 +408,19 @@ delete-account-header =
     .title = Slet konto
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
-delete-account-confirm-title-2 = Du har knyttet din { -product-firefox-account } til { -brand-mozilla }-produkter, der sikrer dit privatliv og øger din produktivitet på nettet:
+delete-account-confirm-title-3 = Du har muligvis knyttet din { -product-firefox-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
+delete-account-product-firefox-addons = { -brand-firefox }-tilføjelser
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
-delete-account-chk-box-1-v2 =
-    .label = Alle dine betalte abonnementer vil blive annulleret (undtagen { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Alle dine betalte abonnementer vil blive annulleret (undtagen { -product-pocket })
 delete-account-chk-box-2 =
     .label = Kan du miste gemte oplysninger og funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
@@ -383,6 +449,13 @@ display-name-success-alert-2 = Vist navn opdateret
 
 ##
 
+
+## Recent Activity
+
+recent-activity-title = Seneste kontoaktivitet
+recent-activity-account-create = Kontoen blev oprettet
+recent-activity-account-disable = Kontoen blev deaktiveret
+recent-activity-account-enable = Kontoen blev aktiveret
 
 # Account recovery key setup page
 
@@ -609,6 +682,10 @@ tfa-row-change-modal-heading-1 = Skift reserve-godkendelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ukendt konto
@@ -628,6 +705,23 @@ auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen ti
 auth-error-155 = TOTP-token ikke fundet
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-1008 = Din nye adgangskode skal være anderledes
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -656,16 +750,15 @@ account-recovery-lost-recovery-key-link = Har du ikke en genoprettelsesnøgle ti
 
 # Header for form to create new password
 create-new-password-header = Opret ny adgangskode
-confirm-account-recovery-key-button = Nulstil adgangskode
 account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Adgangskode oprettet
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Opret ny adgangskode
-complete-reset-password-warning-message = <span>Husk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { product-pocket }-data berøres ikke.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
+complete-reset-password-warning-message-2 = <span>Husk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Adgangskode oprettet
@@ -691,7 +784,7 @@ reset-password-heading-w-default-service = Nulstil adgangskode <span>for at fort
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
-reset-password-warning-message = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { product-pocket }-data berøres ikke.
+reset-password-warning-message-2 = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
 reset-password-button = Start nulstilling
 reset-password-success-alert = Adgangskode nulstillet
 reset-password-error-general = Der opstod desværre et problem med at nulstille din adgangskode
@@ -699,7 +792,113 @@ reset-password-error-unknown-account = Ukendt konto
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Fejl:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validerer login…
+
+## ConfirmSignin component
+
+confirm-signin-header = Bekræft dette login
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Tjek din mail for det login-bekræfteleslink, der er sendt til { $email }
+
+## Signin page
+
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Indtast adgangskoden <span>til din { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Fortsæt til <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Fortsæt til { $serviceName }
+signin-subheader-without-logo-default = Fortsæt til kontoindstillinger
+signin-button = Log ind
+signin-header = Log ind
+signin-use-a-different-account-link = Brug en anden konto
+signin-forgot-password-link = Glemt adgangskode?
+signin-bounced-header = Vi har låst din konto.
+# $email (string) - The user's email.
+signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
+back = Tilbage
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Indtast reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokument, der indeholder skjult tekst.
+signin-recovery-code-instruction = Indtast en reserve-godkendelseskode, som du fik under opsætningen af totrinsgodkendelse.
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bekræft
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Tilbage
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Er du blevet låst ude?
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Det er godt, at du er opmærksom!
 signin-reported-message = Vores team har fået besked. Rapporter som denne hjælper os med at afværge ubudne gæster.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Indtast bekræftelseskode<span> til din { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Bekræft
+signin-token-code-code-expired = Er koden udløbet?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Send en ny kode.
+signin-token-code-required-error = Bekræftelseskode påkrævet
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Indtast sikkerhedskode <span>for at fortsætte til kontoindstillinger</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Indtast sikkerhedskode <span>for at fortsætte til { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = En enhed med en skjult 6-cifret kode.
+signin-totp-code-instruction = Åbn din godkendelsesapp og indtast den angivne sikkerhedskode.
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Bekræft
+signin-totp-code-other-account-link = Brug en anden konto
+signin-totp-code-recovery-code-link = Har du problemer med at indtaste koden?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
