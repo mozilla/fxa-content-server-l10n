@@ -717,15 +717,60 @@ cannot-create-account-learn-more-link = מידע נוסף
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = אחסון מקומי ועוגיות נדרשים
+cookies-disabled-enable-prompt = נא להפעיל עוגיות ואחסון מקומי בדפדפן שלך על מנת לגשת ל־{ -product-firefox-accounts }. הפעלתם תאפשר, לדוגמה, לזכור אותך בין הפעלות שונות.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = לנסות שוב
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = מידע נוסף
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = יש לאחסן את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח לזמנים שבהם לא תהיה לך גישה למכשיר הנייד שלך.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = ביטול
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = המשך
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = אישור
+inline-recovery-back-link = חזרה
+inline-recovery-setup-image-description =
+    .aria-label = מסמך המכיל טקסט מוסתר.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = ביטול ההגדרה
+inline-totp-setup-continue-button = המשך
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אימות מאחד <authenticationAppsLink>מיישומוני האימות האלו</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = יש לאפשר אימות דו־שלבי <enable2StepDefaultSpan>כדי להמשיך להגדרות החשבון</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = יש לאפשר אימות דו־שלבי <enable2StepCustomServiceSpan>כדי להמשיך אל { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = מוכן
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = יש לסרוק את קוד האימות <scanAuthCodeHeaderSpan>כדי להמשיך אל { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = יש להזין את הקוד באופן ידני <enterCodeManuallyHeaderSpan>כדי להמשיך אל { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = יש לסרוק את קוד האימות <scanAuthHeaderSpan>כדי להמשיך להגדרות החשבון</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = יש להזין את הקוד באופן ידני <enterCodeManuallyHeaderSpan>כדי להמשיך להגדרות החשבון</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = יש להקליד את המפתח הסודי הזה ביישומון האימות שלך. <toggleToQRButton>לסרוק במקום זאת קוד QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = יש לסרוק את קוד ה־QR ביישומון האימות שלך ולאחר מכן להכניס את קוד האימות שהוא מספק. <toggleToManualModeButton>אין באפשרותך לסרוק את הקוד?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי אימות שיהיו באפשרותך להזין.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = קוד אימות
 
 ## AccountRecoveryConfirmKey page
 
@@ -839,6 +884,8 @@ back = חזרה
 
 signin-recovery-code-image-description =
     .aria-label = מסמך המכיל טקסט מוסתר.
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = חזרה
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ננעלת מחוץ לחשבון?
@@ -858,6 +905,7 @@ signin-reported-message = נשלחה הודעה לצוות שלנו. דיווח�
 signin-token-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
+signin-token-code-input-label-v2 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = אישור
 signin-token-code-code-expired = פג תוקף הקוד?
@@ -880,6 +928,7 @@ signin-totp-code-heading-w-custom-service = נא להכניס קוד אבטחה 
 signin-totp-code-image-label =
     .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
 signin-totp-code-instruction = נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שהוא מספק.
+signin-totp-code-input-label-v2 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
@@ -889,6 +938,9 @@ signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = אימות החשבון שלך
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח אל { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -896,7 +948,34 @@ signin-totp-code-recovery-code-link = מתקשה בהזנת הקוד?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
+confirm-signup-code-input-label = נא להזין קוד בן 6 ספרות
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = אישור
+confirm-signup-code-code-expired = פג תוקף הקוד?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
+confirm-signup-code-required-error = נא להכניס את קוד האימות
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = הגדרת הססמה שלך
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = מדוע עליי ליצור חשבון זה? <LinkExternal>ההסבר כאן</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = שינוי כתובת דוא״ל
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = מהו גילך?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = עליך להכניס את גילך כדי להשלים את ההרשמה
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = למה אנחנו שואלים?
