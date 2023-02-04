@@ -14,6 +14,17 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = 將發送有用小知識給您。訂閱其他電子報：
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = 獲得 { -brand-mozilla } 與 { -brand-firefox } 的最新資訊
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = 採取行動，保護網際網路的健康
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = 更聰明、更安全上網
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -50,6 +61,8 @@ confirm-with-link-webmail-link = 開啟 { $emailProvider }
 confirm-with-link-resend-link-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = 返回
+confirm-signup-aria-label =
+    .aria-label = 包含鏈結的信封
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
