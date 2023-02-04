@@ -740,6 +740,8 @@ tfa-row-change-modal-explain = Бұл әрекетті кері қайтара �
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Жалғастыру арқылы сіз келесіге келісесіз:
 
 ## Auth-server based errors that originate from backend service
 
@@ -759,20 +761,40 @@ auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
 auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
+auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Тіркелгіні жасау мүмкін емес
+cannot-create-account-requirements = { -product-firefox-account } жасау үшін жасыңыз белгілі шамадан асуы тиіс.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Көбірек білу
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Жергілікті қойма және cookie файлдары қажет
+cookies-disabled-enable-prompt = { -product-firefox-accounts } қатынау үшін, браузеріңізде cookies және жергілікті қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау сияқты мүмкіндіктер іске қосылады.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Қайтадан көру
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Көбірек білу
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын растаңыз
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын сақтаңыз
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Бұл бір реттік пайдалану кодтарын ұялы телефоныңыз болмаған кезі үшін қауіпсіз жерде сақтаңыз.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Бас тарту
@@ -784,12 +806,25 @@ inline-recovery-back-link = Артқа
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Сақтық аутентификация коды
 inline-recovery-confirmation-description = Құрылғы жоғалған жағдайда тіркелгіңізге қайта кіру мүмкіндігіне ие болу үшін сақталған сақтық аутентификация кодтарының бірін енгізіңіз.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>Тіркелгі баптауларына өту үшін</span> сақтық аутентификация кодын растаңыз
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын растаңыз
+inline-recovery-setup-image-description =
+    .aria-label = Жасырын мәтіні бар құжат.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
 inline-totp-setup-continue-button = Жалғастыру
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Аутентификация коды
 
 ## AccountRecoveryConfirmKey page
 
@@ -911,6 +946,7 @@ signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ішін�
 signin-recovery-code-image-description =
     .aria-label = Жасырын мәтіні бар құжат.
 signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
+signin-recovery-code-input-label = 10 сандық сақтық аутентификация кодын енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
 # Link to return to signin with two-step authentication code (security code)
@@ -934,6 +970,7 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 signin-token-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
+signin-token-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Растау
 signin-token-code-code-expired = Кодтың мерзімі бітті ме?
@@ -956,6 +993,7 @@ signin-totp-code-heading-w-custom-service = <span>{ $serviceName } қызмет�
 signin-totp-code-image-label =
     .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
+signin-totp-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
@@ -965,6 +1003,9 @@ signin-totp-code-recovery-code-link = Кодты енгізуде мәселе �
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Тіркелгіңізді растаңыз
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Эл. поштаңызды { $email } адресіне жіберілген растау сілтемесіне тексеріңіз
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -972,7 +1013,31 @@ signin-totp-code-recovery-code-link = Кодты енгізуде мәселе �
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
+confirm-signup-code-input-label = 6-цифрлық кодты енгізіңіз
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Растау
+confirm-signup-code-code-expired = Кодтың мерзімі бітті ме?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+confirm-signup-code-required-error = Растау кодын енгізіңіз
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Парольді орнату
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Эл. поштаны өзгерту
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Жасыңыз нешеде?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Тіркелгіні жасау үшін өз жасыңызды көрсетуіңіз керек
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Оны неліктен сұраймыз?
