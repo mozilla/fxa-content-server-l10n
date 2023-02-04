@@ -16,6 +16,9 @@ banner-dismiss-button =
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = 将发送实用小知识给您。订阅其他新闻通讯：
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = 获取 { -brand-mozilla } 和 { -brand-firefox } 的最新消息
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
