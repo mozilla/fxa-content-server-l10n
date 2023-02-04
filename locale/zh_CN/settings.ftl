@@ -745,6 +745,7 @@ cookies-disabled-button-try-again = 重试
 
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = 请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。
+inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的备用验证码中的任意一个。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
