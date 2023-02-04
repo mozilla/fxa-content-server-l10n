@@ -443,7 +443,7 @@ sub-item-stay-sub = Resta abonate
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-cancel-msg = Tu non sera plus capace usar { $name } post { $period }, le ultime die de tu termino de facturation.
+sub-item-cancel-msg = Tu non plus potera usar { $name } post { $period }, le ultime die de tu termino de facturation.
 sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate intra { $name } le { $period }
 
 ## Routes - Subscription
