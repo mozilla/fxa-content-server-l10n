@@ -798,7 +798,7 @@ inline-recovery-confirmation-header-default = Conferma il codice di autenticazio
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
-inline-recovery-confirmation-header = Conferma il codice di autenticazione del backup <span>per continuare su { $serviceName }</span>
+inline-recovery-confirmation-header = Conferma il codice di autenticazione di backup <span>per continuare su { $serviceName }</span>
 inline-recovery-setup-image-description =
     .aria-label = Documento che contiene testo nascosto.
 
@@ -816,7 +816,7 @@ inline-totp-setup-enable-two-step-authentication-custom-header = Attiva l'autent
 inline-totp-setup-ready-button = Pronto
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Scansiona il codice di autenticazione <scanAuthCodeHeaderSpan> per continuare su { $serviceName }</scanAuthCodeHeaderSpan>
+inline-totp-setup-show-qr-custom-service-header = Scansiona il codice di autenticazione <scanAuthCodeHeaderSpan>per continuare su { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = Inserisci manualmente il codice <enterCodeManuallyHeaderSpan>per continuare su { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
@@ -825,9 +825,9 @@ inline-totp-setup-show-qr-default-service-header = Scansiona il codice di autent
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Inserisci il codice manualmente <enterCodeManuallyHeaderSpan>per continuare con le impostazioni dell’account</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Digitare questa chiave segreta nell'app di autenticazione. <toggleToQRButton>Invece scansionare il codice QR?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Digita questa chiave segreta nell’app di autenticazione. <toggleToQRButton>Oppure preferisci fare la scansione del codice QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Scansiona il codice QR nell'app di autenticazione e inserisci il codice fornito. <toggleToManualModeButton>Non è possibile eseguire la scansione del codice?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Scansiona il codice QR nell’app di autenticazione e inserisci il codice fornito. <toggleToManualModeButton>Non è possibile eseguire la scansione del codice?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Una volta completato, inizierà a generare codici di autenticazione da inserire.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1012,7 +1012,7 @@ signin-totp-code-recovery-code-link = Problemi a inserire il codice?
 
 confirm-signup-heading = Conferma l’account
 # { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = Controlla la tua email per il link di conferma inviato a { $email }
+confirm-signup-instruction = Controlla la tua casella di posta, il link di conferma è stato inviato a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
