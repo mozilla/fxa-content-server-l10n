@@ -191,6 +191,7 @@ confirmation-link-reused-message = Эта ссылка для подтвержд
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-reset-risk-info = Сброс означает потенциальную потерю данных, таких как пароли и закладки.
 
 ## PasswordStrengthBalloon component
 
@@ -790,6 +791,7 @@ cannot-create-account-learn-more-link = Подробнее
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Требуется локальное хранилище и куки
 cookies-disabled-enable-prompt = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-firefox-accounts(case: "plural_dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Попробовать снова
@@ -839,8 +841,15 @@ inline-totp-setup-continue-button = Продолжить
 inline-totp-setup-add-security-link = Добавьте в свой аккаунт ещё один уровень защиты, включив использование кодов аутентификации от одного из <authenticationAppsLink>этих приложений для авторизации</authenticationAppsLink>.
 inline-totp-setup-ready-button = Готово
 # The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Отсканируйте код аутентификации <scanAuthCodeHeaderSpan>для перехода к { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Введите код вручную <enterCodeManuallyHeaderSpan>для перехода к { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = Отсканируйте код аутентификации, <scanAuthHeaderSpan>для перехода к настройкам аккаунта</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Введите код вручную <enterCodeManuallyHeaderSpan>для перехода к настройкам аккаунта</enterCodeManuallyHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = По завершении оно начнёт генерировать коды аутентификации, которые вы сможете ввести.
 # The "authentication code" here refers to the code provided by an authentication app.
