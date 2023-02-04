@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Закрыць
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Практычныя веды ў вашай уваходнай пошце. Падпішыцеся на больш:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Атрымліваць апошнія навіны пра { -brand-mozilla } і { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Прыміце меры, каб захаваць інтэрнэт здаровым
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Будзьце больш разумнымі і бяспечнымі ў сеціве
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Выберыце, што сінхранізаваць:
+choose-what-to-sync-option-bookmarks =
+    .label = Закладкі
+choose-what-to-sync-option-history =
+    .label = Гісторыя
+choose-what-to-sync-option-passwords =
+    .label = Паролі
+choose-what-to-sync-option-addons =
+    .label = Дадаткі
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Адкрытыя карткі
+choose-what-to-sync-option-prefs =
+    .label = Налады
+choose-what-to-sync-option-addresses =
+    .label = Адрасы
+choose-what-to-sync-option-creditcards =
+    .label = Крэдытныя карты
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Адкрыць { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Няма ў уваходных ці ў спаме? Выслаць яшчэ раз
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Назад
+confirm-signup-aria-label =
+    .aria-label = Канверт са спасылкай
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Сцягнута
+datablock-copy =
+    .message = Скапіявана
+datablock-print =
+    .message = Надрукавана
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +107,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Пароль
+signup-confirm-password-label =
+    .label = Паўтарыце пароль
+signup-submit-button = Стварыць уліковы запіс
 form-reset-password-with-balloon-new-password =
     .label = Новы пароль
 form-reset-password-with-balloon-confirm-password =
     .label = Увядзіце пароль ізноў
 form-reset-password-with-balloon-submit-button = Скінуць пароль
 form-reset-password-with-balloon-match-error = Паролі не супадаюць
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
+get-data-trio-download =
+    .title = Сцягнуць
+get-data-trio-copy =
+    .title = Капіяваць
+get-data-trio-print =
+    .title = Друкаваць
 
 ## Input Password
 
@@ -88,6 +175,12 @@ primary-email-confirmation-link-reused = Асноўны адрас электр�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
 confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Вам патрэбны гэты пароль для доступу да любых зашыфраваных звестак, якія вы захоўваеце ў нас.
+password-info-balloon-reset-risk-info = Скід азначае патэнцыйную страту такіх звестак, як паролі ці закладкі.
 
 ## PasswordStrengthBalloon component
 
@@ -216,15 +309,6 @@ cs-recent-activity = Апошнія дзеянні ўліковага запіс
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Сцягнута
-datablock-copy =
-    .message = Скапіявана
-datablock-print =
-    .message = Надрукавана
-
 ## Data collection section
 
 dc-heading = Збор і выкарыстанне дадзеных
@@ -248,18 +332,6 @@ drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзні�
 ## Flow Container
 
 flow-container-back = Назад
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
-get-data-trio-download =
-    .title = Сцягнуць
-get-data-trio-copy =
-    .title = Капіяваць
-get-data-trio-print =
-    .title = Друкаваць
 
 # HeaderLockup component
 
@@ -667,6 +739,18 @@ tfa-row-change-modal-heading-1 = Змяніць рэзервовыя коды а
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Працягваючы, вы згаджаецеся:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Умовы выкарыстання</firefoxTos> і <firefoxPrivacy>Паведамленне аб прыватнасці</firefoxPrivacy> { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Працягваючы, вы згаджаецеся з <firefoxTos>умовамі абслугоўвання</firefoxTos> і <firefoxPrivacy>паведамленнем аб прыватнасці</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Невядомы ўліковы запіс
@@ -685,20 +769,38 @@ auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
+auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Памылка:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Праверка ўваходу…
+cannot-create-account-header = Не ўдаецца стварыць уліковы запіс
+cannot-create-account-requirements = Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Падрабязней
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Пацвердзіце гэты ўваход
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Пашукайце ў сваёй пошце спасылку для пацверджання ўваходу, дасланую на { $email }
+cookies-disabled-header = Лакальнае сховішча і кукі абавязковыя
+cookies-disabled-enable-prompt = Калі ласка, уключыце кукі і лакальнае сховішча ў вашым браўзеры для доступу да { -product-firefox-accounts }. Гэта дасць магчымасць помніць вас паміж сеансамі.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Паспрабаваць зноў
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Падрабязней
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -769,6 +871,19 @@ reset-password-error-unknown-account = Невядомы ўліковы запі�
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Памылка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Праверка ўваходу…
+
+## ConfirmSignin component
+
+confirm-signin-header = Пацвердзіце гэты ўваход
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Пашукайце ў сваёй пошце спасылку для пацверджання ўваходу, дасланую на { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -782,14 +897,6 @@ signin-subheader-without-logo-with-servicename = Працягнуць у { $serv
 signin-subheader-without-logo-default = Перайсці да налад уліковага запісу
 signin-button = Увайсці
 signin-header = Увайсці
-# This message is followed by a bulleted list
-signin-tos-list-intro = Працягваючы, вы згаджаецеся:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Умовы абслугоўвання</linkExternal> і <linkExternal>паведамленне аб прыватнасці</linkExternal> { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Умовы абслугоўвання</linkExternal> і <linkExternal>паведамленне аб прыватнасці</linkExternal> { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Працягваючы, вы згаджаецеся з <linkExternal>умовамі абслугоўвання</linkExternal> і <linkExternal>паведамленнем аб прыватнасці</linkExternal>
 signin-use-a-different-account-link = Выкарыстаць іншы уліковы запіс
 signin-forgot-password-link = Забылі пароль?
 signin-bounced-header = Прабачце. Мы заблакавалі ваш уліковы запіс.
@@ -815,8 +922,6 @@ signin-recovery-code-heading-w-custom-service = Увядзіце рэзерво�
 signin-recovery-code-image-description =
     .aria-label = Дакумент, які змяшчае схаваны тэкст.
 signin-recovery-code-instruction = Калі ласка, увядзіце рэзервовы код аўтарызацыі, які быў прадстаўлены вам у часе наладжвання двухэтапнай аўтарызацыі.
-signin-recovery-code-input =
-    .label = Увядзіце 10-значны рэзервовы код аўтарызацыі
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Сцвердзіць
 # Link to return to signin with two-step authentication code (security code)
@@ -840,8 +945,6 @@ signin-reported-message = Наша каманда апавешчана. Такі
 signin-token-code-heading = Увядзіце код пацверджання <span>для свайго { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Увядзіце код, які быў адпраўлены на адрас { $email } на працягу 5 хвілін.
-signin-token-code-input-label =
-    .label = Увядзіце 6-значны код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Сцвердзіць
 signin-token-code-code-expired = Код пратэрмінаваны?
@@ -864,9 +967,23 @@ signin-totp-code-heading-w-custom-service = Увядзіце код бяспек
 signin-totp-code-image-label =
     .aria-label = Прылада са схаваным 6-значным кодам.
 signin-totp-code-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код бяспекі, які яна выдае.
-signin-totp-code-input-label =
-    .label = Увядзіце 6-значны код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
 signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
 signin-totp-code-recovery-code-link = Праблема з уводам кода?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
