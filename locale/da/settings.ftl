@@ -125,6 +125,7 @@ remember-pw-link = Kan du huske adgangskoden? Log ind
 primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Login er allerede bekræftet
+confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brugt, og det kan kun bruges én gang.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -145,6 +146,8 @@ reset-password-complete-header = Din adgangskode er blevet nulstillet
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Du er nu klar til at bruge { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Du er nu klar til at bruge kontoindstillingerne
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Din konto er klar!
 ready-continue = Fortsæt
@@ -823,6 +826,9 @@ signin-forgot-password-link = Glemt adgangskode?
 signin-bounced-header = Vi har låst din konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Hvis det er en gyldig mailadresse, <linkExternal>så fortæl os det</linkExternal>. Så kan vi hjælpe med at låse din konto op.
+signin-bounced-create-new-account = Er du ikke længere ejer af mailadressen? Opret en ny konto
 back = Tilbage
 
 ## SigninRecoveryCode page
@@ -830,6 +836,9 @@ back = Tilbage
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Indtast reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
