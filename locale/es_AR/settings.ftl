@@ -3,6 +3,47 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Cerrar
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = El conocimiento práctico está llegando a tu bandeja de entrada. Registrate para más:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Recibí las últimas noticias sobre { -brand-mozilla } y { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Actuá para mantener a Internet saludable
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Permanecé más seguro en línea
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Descargadas
+datablock-copy =
+    .message = Copiadas
+datablock-print =
+    .message = Impresas
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +78,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = Contraseña nueva
@@ -45,6 +86,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = Reingresar contraseña
 form-reset-password-with-balloon-submit-button = Restablecer contraseña
 form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Clave de recuperación de cuenta de { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticación de respaldo de { -brand-firefox }
+get-data-trio-download =
+    .title = Descargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 ## Input Password
 
@@ -88,6 +141,10 @@ primary-email-confirmation-link-reused = Correo electrónico principal ya fue co
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado y se puede usar una sola vez.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -215,15 +272,6 @@ cs-recent-activity = Actividad reciente de la cuenta
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Descargadas
-datablock-copy =
-    .message = Copiadas
-datablock-print =
-    .message = Impresas
-
 ## Data collection section
 
 dc-heading = Recolección y uso de datos
@@ -247,18 +295,6 @@ drop-down-menu-sign-out-error-2 = Disculpá, hubo un problema al cerrar la sesi�
 ## Flow Container
 
 flow-container-back = Atrás
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Clave de recuperación de cuenta de { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticación de respaldo de { -brand-firefox }
-get-data-trio-download =
-    .title = Descargar
-get-data-trio-copy =
-    .title = Copiar
-get-data-trio-print =
-    .title = Imprimir
 
 # HeaderLockup component
 
@@ -661,6 +697,10 @@ tfa-row-change-modal-heading-1 = ¿Cambiar los códigos de autenticación de res
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cuenta desconocida
@@ -681,18 +721,22 @@ auth-error-155 = No se econtró el token TOTP.
 auth-error-183-2 = El código de confirmación no es válido o ya venció
 auth-error-1008 = La nueva contraseña debe ser diferente
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Error:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Validando inicio de sesión…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Confirmá tu inicio de sesión
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Fijate en tu correo electrónico el enlace de confirmación de ingreso enviado a { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -763,6 +807,19 @@ reset-password-error-unknown-account = Cuenta desconocida
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validando inicio de sesión…
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirmá tu inicio de sesión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Fijate en tu correo electrónico el enlace de confirmación de ingreso enviado a { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -776,14 +833,6 @@ signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
 signin-subheader-without-logo-default = Continuar a configuración de cuenta
 signin-button = Iniciar sesión
 signin-header = Iniciar sesión
-# This message is followed by a bulleted list
-signin-tos-list-intro = Al continuar, aceptás:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Términos del servicio</linkExternal> y <linkExternal>nota de privacidad</linkExternal> de { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Términos del servicio</linkExternal> y <linkExternal>nota de privacidad</linkExternal> de { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Al continuar, aceptás los <linkExternal>términos del servicio</linkExternal> y la <linkExternal>nota de privacidad</linkExternal>
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste la contraseña?
 signin-bounced-header = Lo sentimos. Bloqueamos tu cuenta.
@@ -809,8 +858,6 @@ signin-recovery-code-heading-w-custom-service = Ingresá el código de autentica
 signin-recovery-code-image-description =
     .aria-label = Documento que contiene texto oculto.
 signin-recovery-code-instruction = Ingresá un código de autenticación de respaldo que se proporcionó durante la configuración de autenticación de dos pasos.
-signin-recovery-code-input =
-    .label = Ingresá un código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
@@ -834,8 +881,6 @@ signin-reported-message = Nuestro equipo fue notificado. Informes como este nos 
 signin-token-code-heading = Ingresá el código de confirmación <span>para tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
-signin-token-code-input-label =
-    .label = Ingresá el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = ¿Código expirado?
@@ -858,9 +903,23 @@ signin-totp-code-heading-w-custom-service = Ingresá el código de seguridad <sp
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abrí tu aplicación de autenticación e ingresá el código de seguridad que proporciona.
-signin-totp-code-input-label =
-    .label = Ingresá el código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
