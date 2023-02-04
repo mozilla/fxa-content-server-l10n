@@ -43,11 +43,24 @@ choose-what-to-sync-option-addons =
 # Refers to 'tabs that are open', not the action
 choose-what-to-sync-option-tabs =
     .label = 打开的标签页
+choose-what-to-sync-option-prefs =
+    .label = 首选项
+choose-what-to-sync-option-addresses =
+    .label = 地址
+choose-what-to-sync-option-creditcards =
+    .label = 信用卡
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = 打开 { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = 不在收件箱和垃圾邮件箱？重新发送
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = 后退
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -94,6 +107,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = 密码
+signup-confirm-password-label =
+    .label = 再次输入密码
+signup-submit-button = 创建账户
 form-reset-password-with-balloon-new-password =
     .label = 新密码
 form-reset-password-with-balloon-confirm-password =
@@ -159,6 +177,7 @@ confirmation-link-reused-message = 此确认链接已被使用，并只能使用
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = 需要使用此密码才能访问您存储在我们服务器上的加密数据。
 
 ## PasswordStrengthBalloon component
 
