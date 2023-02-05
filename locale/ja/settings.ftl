@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = 閉じる
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = 実用的な知識が受信トレイに届きます。登録して詳細を見る:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = { -brand-mozilla } と { -brand-firefox } に関する最新情報を入手してください
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = インターネットを健全に保つために行動しましょう
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = オンラインをより安全でスマートに
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = 同期するデータを選択してください:
+choose-what-to-sync-option-bookmarks =
+    .label = ブックマーク
+choose-what-to-sync-option-history =
+    .label = 履歴
+choose-what-to-sync-option-passwords =
+    .label = パスワード
+choose-what-to-sync-option-addons =
+    .label = アドオン
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = 開いているタブ
+choose-what-to-sync-option-prefs =
+    .label = 設定
+choose-what-to-sync-option-addresses =
+    .label = 住所
+choose-what-to-sync-option-creditcards =
+    .label = クレジットカード情報
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = { $emailProvider } を開く
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = 受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = 戻る
+confirm-signup-aria-label =
+    .aria-label = リンクを含む封筒
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = ダウンロード済み
+datablock-copy =
+    .message = コピー済み
+datablock-print =
+    .message = 印刷済み
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +107,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = パスワード
+signup-confirm-password-label =
+    .label = パスワードを再入力してください
+signup-submit-button = アカウントを作成
 form-reset-password-with-balloon-new-password =
     .label = 新しいパスワード
 form-reset-password-with-balloon-confirm-password =
     .label = パスワードを再入力
 form-reset-password-with-balloon-submit-button = パスワードをリセット
 form-reset-password-with-balloon-match-error = パスワードが一致しません
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
+get-data-trio-download =
+    .title = ダウンロード
+get-data-trio-copy =
+    .title = コピー
+get-data-trio-print =
+    .title = 印刷
 
 ## Input Password
 
@@ -89,6 +176,12 @@ primary-email-confirmation-link-reused = 主要メールアドレスは既に確
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
 
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = このパスワードは、格納されたアカウント情報の暗号化されたデータにアクセスするために必要です。
+password-info-balloon-reset-risk-info = リセットすることにより、パスワードやブックマークなどのデータが失われる可能性があります。
+
 ## PasswordStrengthBalloon component
 
 password-strength-balloon-heading = パスワードの条件
@@ -104,6 +197,8 @@ reset-password-complete-header = パスワードがリセットされました
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } が利用可能になりました
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = アカウント設定を使用する準備ができました
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = アカウントの準備が整いました。
 ready-continue = 続ける
@@ -202,15 +297,6 @@ cs-sign-out-button = ログアウト
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = ダウンロード済み
-datablock-copy =
-    .message = コピー済み
-datablock-print =
-    .message = 印刷済み
-
 ## Data collection section
 
 dc-heading = データの収集と使用
@@ -234,18 +320,6 @@ drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト�
 ## Flow Container
 
 flow-container-back = 戻る
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
-get-data-trio-download =
-    .title = ダウンロード
-get-data-trio-copy =
-    .title = コピー
-get-data-trio-print =
-    .title = 印刷
 
 # HeaderLockup component
 
@@ -627,6 +701,10 @@ tfa-row-change-modal-heading-1 = バックアップ認証コードを変更し�
 tfa-row-change-modal-confirm = 変更
 tfa-row-change-modal-explain = この操作は元に戻せません。
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 不明なアカウント
@@ -647,16 +725,22 @@ auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または有効期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = エラー:
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = このログインを確認
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = ログイン確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -727,6 +811,17 @@ reset-password-error-unknown-account = 不明なアカウントです
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = エラー:
+
+## ConfirmSignin component
+
+confirm-signin-header = このログインを確認
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = ログイン確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
+
 ## Signin page
 
 # $serviceName - the name of the service which the user authenticating for
@@ -750,8 +845,6 @@ back = 戻る
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-instruction = 2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。
-signin-recovery-code-input =
-    .label = 10 桁のバックアップ認証コードを入力してください
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code (security code)
@@ -771,8 +864,6 @@ signin-reported-message = 担当者に通知が送られました。こうした
 
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 5 分以内に { $email } に送信されたコードを入力してください。
-signin-token-code-input-label =
-    .label = 6 桁のコードを入力
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = コードの有効期限が切れていますか？
@@ -785,9 +876,23 @@ signin-token-code-resend-code-link = 新しいコードをメールに送信す�
 ## The "security code" here refers to the code provided by an authentication app.
 
 signin-totp-code-instruction = お使いの認証アプリを開いて、そこに表示されたセキュリティコードを入力してください。
-signin-totp-code-input-label =
-    .label = 6 桁のコードを入力
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 別のアカウントを使用する
 signin-totp-code-recovery-code-link = コードの入力時に問題が発生しましたか？
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
