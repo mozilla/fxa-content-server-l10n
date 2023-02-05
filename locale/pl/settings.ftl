@@ -846,6 +846,8 @@ cookies-disabled-learn-more = Więcej informacji
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Przechowuj te kody jednorazowego użytku w bezpiecznym miejscu na wypadek sytuacji, w której nie masz swojego telefonu.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Anuluj
@@ -861,6 +863,7 @@ inline-recovery-confirmation-description = Aby upewnić się, że będzie można
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Anuluj konfigurację
 inline-totp-setup-continue-button = Kontynuuj
 
 ## AccountRecoveryConfirmKey page
@@ -940,13 +943,26 @@ error-label = Błąd:
 ## ConfirmSignin component
 
 confirm-signin-header = Potwierdź to logowanie
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Sprawdź, czy na koncie { $email } jest odnośnik potwierdzenia logowania
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Przejdź do usługi { $serviceName }
+signin-subheader-without-logo-default = Przejdź do ustawień konta
 signin-button = Zaloguj się
 signin-header = Zaloguj się
 signin-use-a-different-account-link = Użyj innego konta
 signin-forgot-password-link = Nie pamiętasz hasła?
+signin-bounced-header = Konto zostało zablokowane.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj nam znać</linkExternal>, a pomożemy w odblokowaniu konta.
+signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
 back = Wstecz
 
 ## SigninRecoveryCode page
@@ -954,6 +970,8 @@ back = Wstecz
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-instruction = Proszę wpisać zapasowy kod uwierzytelniania otrzymany podczas konfiguracji uwierzytelniania dwuetapowego.
+signin-recovery-code-input-label = Wpisz 10-cyfrowy zapasowy kod uwierzytelniania
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
 # Link to return to signin with two-step authentication code (security code)
@@ -971,6 +989,8 @@ signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomaga
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Wpisz kod potwierdzenia wysłany na adres { $email } w ciągu 5 minut.
 signin-token-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potwierdź
@@ -983,6 +1003,7 @@ signin-token-code-resend-code-link = Wyślij nowy.
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod zabezpieczeń.
 signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
@@ -994,6 +1015,8 @@ signin-totp-code-recovery-code-link = Masz problem z wpisywaniem kodu?
 ## when setting up a new account
 
 confirm-signup-heading = Potwierdź konto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Sprawdź, czy na koncie { $email } jest odnośnik potwierdzenia
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1001,6 +1024,8 @@ confirm-signup-heading = Potwierdź konto
 
 # and a confirmation code has been sent to their email address.
 
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Wpisz kod potwierdzenia wysłany na adres { $email } w ciągu 5 minut.
 confirm-signup-code-input-label = Wpisz sześciocyfrowy kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potwierdź
@@ -1011,6 +1036,9 @@ confirm-signup-code-resend-code-link = Wyślij nowy.
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Ustaw hasło
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Ile masz lat?
