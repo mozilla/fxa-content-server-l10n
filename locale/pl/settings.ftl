@@ -179,6 +179,8 @@ datablock-print =
 -product-mozilla-hubs = Mozilla Hubs
 -product-pocket = Pocket
 -product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
@@ -187,6 +189,17 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Hasło
+signup-confirm-password-label =
+    .label = Powtórz hasło
+signup-submit-button = Utwórz konto
+form-reset-password-with-balloon-new-password =
+    .label = Nowe hasło
+form-reset-password-with-balloon-confirm-password =
+    .label = Wpisz hasło ponownie
+form-reset-password-with-balloon-submit-button = Zmień hasło
+form-reset-password-with-balloon-match-error = Hasła są niezgodne
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -212,6 +225,9 @@ input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Odnośnik potwierdzenia jest uszkodzony
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
 
@@ -219,7 +235,10 @@ reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Móg
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Odnośnik potwierdzenia wygasł
 reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
+signin-link-expired-message = Kliknięty odnośnik do potwierdzenia adresu e-mail wygasł.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Wyślij nowy odnośnik
 
@@ -231,13 +250,25 @@ remember-pw-link = Pamiętasz hasło? Zaloguj się
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Główny adres e-mail został już potwierdzony
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Już potwierdzono logowanie
+confirmation-link-reused-message = Ten odnośnik potwierdzenia został już użyty, a może być używany tylko raz.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = To hasło jest potrzebne, aby uzyskać dostęp do wszystkich zaszyfrowanych danych przechowywanych u nas.
+password-info-balloon-reset-risk-info = Zmiana hasła oznacza, że możliwa jest utrata danych, takich jak hasła i zakładki.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Wymagania względem hasła
+password-strength-balloon-min-length = Musi mieć co najmniej 8 znaków
+password-strength-balloon-not-email = Nie może być Twoim adresem e-mail
+password-strength-balloon-not-common = Nie może być często używanym hasłem
+password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego hasła używaj tylko w jednym miejscu. Przeczytaj o <LinkExternal>tworzeniu silnych haseł</LinkExternal>.
 
 ## Ready component
 
@@ -250,7 +281,9 @@ ready-use-service = Można teraz używać usługi { $serviceName }
 ready-account-ready = Konto jest gotowe!
 ready-continue = Kontynuuj
 sign-in-complete-header = Potwierdzono logowanie
+sign-up-complete-header = Potwierdzono konto
 pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
+primary-email-verified-header = Potwierdzono główny adres e-mail
 
 ## Alert Bar
 
@@ -270,6 +303,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menu { -brand-firefox(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } to technologia walcząca o Twoją prywatność w Internecie.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
 bento-menu-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
 bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
@@ -503,6 +540,10 @@ delete-account-header =
     .title = Usuń konto
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
