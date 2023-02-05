@@ -293,6 +293,7 @@ cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあった
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
+cs-recent-activity = 最近のアカウント利用情報
 
 ##
 
@@ -457,6 +458,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } データの同期
 delete-account-product-firefox-addons = { -brand-firefox } のアドオン
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
+delete-account-chk-box-1-v3 =
+    .label = 有料サブスクリプションがあればキャンセルされます ({ -product-pocket } を除く)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 製品内に保存された情報と機能が失われる可能性があります
 delete-account-chk-box-3 =
@@ -488,6 +491,12 @@ display-name-success-alert-2 = 表示名が更新されました
 
 ## Recent Activity
 
+recent-activity-title = 最近のアカウント利用情報
+recent-activity-account-create = アカウントが作成されました
+recent-activity-account-disable = アカウントが無効化されました
+recent-activity-account-enable = アカウントが有効化されました
+recent-activity-account-login = アカウントへのログイン開始
+recent-activity-account-reset = アカウントのパスワードリセット
 
 # Account recovery key setup page
 
@@ -704,6 +713,14 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = 続けることにより、次のことに同意したものとみなされます:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } の <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } の <firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = 続けることにより、<firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy> に同意したものとみなされます。
 
 ## Auth-server based errors that originate from backend service
 
@@ -723,20 +740,44 @@ auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または有効期限切れです
+auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = アカウントを作成できません
+cannot-create-account-requirements = { -product-firefox-account }を作成するには、規定の年齢に達している必要があります。
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = 詳細情報
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = ローカルストレージと Cookie が必要です
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = 再試行
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = 詳細情報
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = キャンセル
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = 続ける
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = 確認
+inline-recovery-back-link = 戻る
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = バックアップ認証コード
+inline-recovery-confirmation-description = 端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかのバックアップ認証コードを入力してください。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

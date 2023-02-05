@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-08 05:55+0000\n"
+"PO-Revision-Date: 2023-02-05 08:48+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -937,7 +937,7 @@ msgstr "アカウントを作成できません"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Firefox アカウントを作成するには、規定の年齢に達成する必要があります。"
+msgstr "Firefox&nbsp;アカウントを作成するには、規定の年齢に達している必要があります。"
 
 # リンク先などは未確認だが多分 Cookie の説明？
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
