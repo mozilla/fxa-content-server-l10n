@@ -3,6 +3,71 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Kapat
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Pratik bilgiler gelen kutunuza geliyor. Daha fazlası için kaydolun:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = { -brand-mozilla } ve { -brand-firefox } ile ilgili güncel haberleri almak istiyorum
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = İnternetin sağlığını korumak için harekete geçin
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = İnterneti daha güvenli ve akıllıca kullanın
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Nelerin eşitleneceğini seçin:
+choose-what-to-sync-option-bookmarks =
+    .label = Yer imleri
+choose-what-to-sync-option-history =
+    .label = Geçmiş
+choose-what-to-sync-option-passwords =
+    .label = Parolalar
+choose-what-to-sync-option-addons =
+    .label = Eklentiler
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Açık sekmeler
+choose-what-to-sync-option-prefs =
+    .label = Tercihler
+choose-what-to-sync-option-addresses =
+    .label = Adresler
+choose-what-to-sync-option-creditcards =
+    .label = Kredi kartları
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Geri
+confirm-signup-aria-label =
+    .aria-label = Bağlantı içeren bir zarf
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = İndirildi
+datablock-copy =
+    .message = Kopyalandı
+datablock-print =
+    .message = Yazdırıldı
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +102,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Parola
+signup-confirm-password-label =
+    .label = Parola tekrarı
+signup-submit-button = Hesap oluştur
 form-reset-password-with-balloon-new-password =
     .label = Yeni parola
 form-reset-password-with-balloon-confirm-password =
     .label = Parolayı yeniden girin
 form-reset-password-with-balloon-submit-button = Parolayı sıfırla
 form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
+get-data-trio-download =
+    .title = İndir
+get-data-trio-copy =
+    .title = Kopyala
+get-data-trio-print =
+    .title = Yazdır
 
 ## Input Password
 
@@ -88,6 +170,10 @@ primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -209,15 +295,6 @@ cs-recent-activity = Son hesap etkinlikleri
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = İndirildi
-datablock-copy =
-    .message = Kopyalandı
-datablock-print =
-    .message = Yazdırıldı
-
 ## Data collection section
 
 dc-heading = Veri toplanması ve kullanımı
@@ -241,18 +318,6 @@ drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun o
 ## Flow Container
 
 flow-container-back = Geri dön
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
-get-data-trio-download =
-    .title = İndir
-get-data-trio-copy =
-    .title = Kopyala
-get-data-trio-print =
-    .title = Yazdır
 
 # HeaderLockup component
 
@@ -639,6 +704,12 @@ tfa-row-change-modal-heading-1 = Yedek kimlik doğrulama kodları değiştirilsi
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Bilinmeyen hesap
@@ -657,20 +728,74 @@ auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
+auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Hata:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Giriş doğrulanıyor…
+cannot-create-account-header = Hesap oluşturulamıyor
+cannot-create-account-requirements = { -product-firefox-account } açmak için yaş gereksinimlerini karşılamalısınız.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Daha fazla bilgi al
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Bu girişi onaylayın
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağlantısını kontrol edin
+cookies-disabled-header = Yerel depolama ve çerezler gereklidir
+cookies-disabled-enable-prompt = { -product-firefox-accounts }na erişmek için lütfen tarayıcınızda çerezleri ve yerel depolamayı etkinleştirin. Bu sayede oturumlar arasında sizi hatırlama gibi işlevleri kullanabileceğiz.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Tekrar dene
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Daha fazla bilgi al
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodlarını kaydedin
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık kodları güvenli bir yerde saklayın.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Vazgeç
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Devam
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Onayla
+inline-recovery-back-link = Geri
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Yedek kimlik doğrulama kodu
+inline-recovery-confirmation-description = Cihazınız kaybolursa hesabınıza tekrar erişebileceğinizden emin olmak için lütfen kaydettiğiniz yedek kimlik doğrulama kodlarınızdan birini girin.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>Hesap ayarlarına devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etmek için</span> yedek kimlik doğrulama kodunu onaylayın
+inline-recovery-setup-image-description =
+    .aria-label = Gizli metin içeren belge.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Kurulumu iptal et
+inline-totp-setup-continue-button = Devam et
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = <enable2StepDefaultSpan>Hesap ayarlarına devam etmek için</enable2StepDefaultSpan> iki aşamalı kimlik doğrulamayı etkinleştirin
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = <enable2StepCustomServiceSpan>{ $serviceName } hizmetine devam etmek için</enable2StepCustomServiceSpan> iki aşamalı kimlik doğrulamayı etkinleştirin
+inline-totp-setup-ready-button = Hazır
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } hizmetine devam etmek için</scanAuthCodeHeaderSpan> kimlik doğrulama kodunu tarayın
 
 ## AccountRecoveryConfirmKey page
 
@@ -733,6 +858,19 @@ reset-password-error-unknown-account = Bilinmeyen hesap
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Hata:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Giriş doğrulanıyor…
+
+## ConfirmSignin component
+
+confirm-signin-header = Bu girişi onaylayın
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağlantısını kontrol edin
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -746,8 +884,6 @@ signin-subheader-without-logo-with-servicename = { $serviceName } hizmetine deva
 signin-subheader-without-logo-default = Hesap ayarlarına devam et
 signin-button = Giriş yap
 signin-header = Giriş yap
-# This message is followed by a bulleted list
-signin-tos-list-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
 signin-use-a-different-account-link = Farklı bir hesap kullan
 signin-forgot-password-link = Parolanızı unuttunuz mu?
 signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
@@ -773,8 +909,6 @@ signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } hizmetine
 signin-recovery-code-image-description =
     .aria-label = Gizli metin içeren belge.
 signin-recovery-code-instruction = Lütfen iki adımlı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
-signin-recovery-code-input =
-    .label = 10 basamaklı yedek kimlik doğrulama kodunu yazın
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
 # Link to return to signin with two-step authentication code (security code)
@@ -798,8 +932,6 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 signin-token-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu yazın
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = { $email } adresine gönderdiğimiz kodu 5 dakika içinde yazın.
-signin-token-code-input-label =
-    .label = 6 basamaklı kodu yazın
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Onayla
 signin-token-code-code-expired = Kodun süresi mi doldu?
@@ -822,9 +954,31 @@ signin-totp-code-heading-w-custom-service = <span>{ $serviceName } hizmetine dev
 signin-totp-code-image-label =
     .aria-label = 6 basamaklı gizli kodu olan bir cihaz.
 signin-totp-code-instruction = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği güvenlik kodunu yazın.
-signin-totp-code-input-label =
-    .label = 6 basamaklı kodu girin
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
 signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kaç yaşındasınız?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Kaydolmak için yaşınızı belirtmelisiniz
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Neden soruyoruz?
