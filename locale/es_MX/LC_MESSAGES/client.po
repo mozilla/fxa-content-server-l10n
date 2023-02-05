@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-09 23:48+0000\n"
+"PO-Revision-Date: 2023-02-05 05:39+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1504,7 +1504,7 @@ msgstr "Cambiar correo electrónico"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
-msgstr "Repitir contraseña"
+msgstr "Repetir contraseña"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
