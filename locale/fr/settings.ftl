@@ -730,19 +730,44 @@ auth-error-1008 = Votre nouveau mot de passe doit être différent
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Création de compte impossible
+cannot-create-account-requirements = Vous devez avoir atteint l’âge requis pour pouvoir créer un { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = En savoir plus
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Veuillez activer les cookies et le stockage local de votre navigateur afin d’accéder aux { -product-firefox-accounts }. Cela permettra notamment de mémoriser vos informations entre deux sessions.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Réessayer
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = En savoir plus
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Conservez ces codes à usage unique en lieu sûr pour quand vous n’avez pas accès à votre appareil mobile.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Annuler
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continuer
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirmer
+inline-recovery-back-link = Retour
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Code d’authentification de secours
+inline-recovery-confirmation-description = Pour vous assurer d’être en mesure de retrouver l’accès à votre compte si jamais vous perdez un appareil, saisissez un de vos codes de récupération enregistrés.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Annuler la configuration
+inline-totp-setup-continue-button = Continuer
+inline-totp-setup-ready-button = Prêt·e
 
 ## AccountRecoveryConfirmKey page
 
@@ -851,6 +876,7 @@ back = Retour
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
+signin-recovery-code-input-label = Saisissez un code d’authentification de secours de 10 chiffres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmer
 # Link to return to signin with two-step authentication code (security code)
@@ -874,6 +900,7 @@ signin-reported-message = Notre équipe a été informée. Les signalements comm
 signin-token-code-heading = Saisissez le code de confirmation<span> pour votre { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Saisissez le code envoyé à { $email } dans les 5 prochaines minutes.
+signin-token-code-input-label-v2 = Saisissez le code à 6 chiffres
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmer
 signin-token-code-code-expired = Code expiré ?
@@ -887,6 +914,7 @@ signin-token-code-required-error = Code de confirmation requis
 ## The "security code" here refers to the code provided by an authentication app.
 
 signin-totp-code-instruction = Ouvrez l’application d’authentification et saisissez le code de sécurité fourni.
+signin-totp-code-input-label-v2 = Saisissez le code à 6 chiffres
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
 signin-totp-code-other-account-link = Utiliser un autre compte { -brand-firefox }
@@ -896,6 +924,9 @@ signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirmez votre compte
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Consultez votre boîte de réception pour accéder au lien de confirmation envoyé à { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -903,7 +934,30 @@ signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Saisissez le code de confirmation <span>pour votre { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Saisissez le code envoyé à { $email } dans les 5 prochaines minutes.
+confirm-signup-code-input-label = Saisissez le code à 6 chiffres
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmer
+confirm-signup-code-code-expired = Code expiré ?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Envoyer un nouveau code.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Définissez votre mot de passe
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Changer d’adresse e-mail
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Quel âge avez-vous ?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Vous devez renseigner votre âge pour créer un compte.
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Pourquoi demandons-nous ?
