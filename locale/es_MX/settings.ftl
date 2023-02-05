@@ -99,6 +99,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Contraseña
+signup-confirm-password-label =
+    .label = Repetir contraseña
+signup-submit-button = Crear cuenta
 form-reset-password-with-balloon-new-password =
     .label = Nueva contraseña
 form-reset-password-with-balloon-confirm-password =
@@ -738,19 +743,40 @@ auth-error-1008 = Tu nueva contraseña debe ser diferente
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Saber más
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Intentar de nuevo
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Saber más
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Cancelar
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continuar
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirmar
+inline-recovery-back-link = Atrás
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Código de autenticación de respaldo
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Cancelar configuración
+inline-totp-setup-continue-button = Continuar
+inline-totp-setup-ready-button = Listo
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Código de autenticación
 
 ## AccountRecoveryConfirmKey page
 
@@ -873,6 +899,8 @@ signin-token-code-instruction = Ingresa el código que fue enviado a { $email } 
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = ¿El código expiró?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar código nuevo por correo.
 signin-token-code-required-error = Código de confirmación requerido
 
 ## SigninTOTPCode page
@@ -882,6 +910,7 @@ signin-token-code-required-error = Código de confirmación requerido
 
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+signin-totp-code-instruction = Abre tu aplicación de autenticación e ingresa el código de seguridad que se te proporciona.
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa una cuenta diferente
@@ -891,6 +920,7 @@ signin-totp-code-recovery-code-link = ¿Tuviste problemas ingresando el código?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirma tu cuenta
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -898,7 +928,17 @@ signin-totp-code-recovery-code-link = ¿Tuviste problemas ingresando el código?
 
 # and a confirmation code has been sent to their email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-code-expired = ¿El código expiró?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Establece tu contraseña
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambiar correo electrónico
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Necesitas ingresar tu edad para registrarte
