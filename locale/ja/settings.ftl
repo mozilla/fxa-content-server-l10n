@@ -909,9 +909,15 @@ confirm-signin-message = ログイン確認リンクを { $email } 宛にお送�
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = <span>{ -product-firefox-account }</span> のパスワードを入力してください
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } へ進む
+signin-subheader-without-logo-default = アカウント設定に進む
 signin-button = ログイン
 signin-header = ログイン
 signin-use-a-different-account-link = 別のアカウントを使用する
@@ -929,7 +935,17 @@ back = 戻る
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = バックアップ認証コードを入力して <span>アカウント設定に進む</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = バックアップ認証コードを入力して <span>{ $serviceName } に進む</span>
+signin-recovery-code-image-description =
+    .aria-label = 非表示のテキストを含むドキュメント。
 signin-recovery-code-instruction = 2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。
+signin-recovery-code-input-label = 10 桁のバックアップ認証コードを入力してください
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to return to signin with two-step authentication code (security code)
@@ -947,20 +963,36 @@ signin-reported-message = 担当者に通知が送られました。こうした
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 5 分以内に { $email } に送信されたコードを入力してください。
+signin-token-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = コードの有効期限が切れていますか？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 新しいコードをメールに送信する。
+signin-token-code-required-error = 確認コードが必要です
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = セキュリティコードを入力して <span>アカウント設定に進む</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = セキュリティコードを入力して <span>{ $serviceName } に進む</span>
+signin-totp-code-image-label =
+    .aria-label = 6 桁のコードが隠されている端末。
 signin-totp-code-instruction = お使いの認証アプリを開いて、そこに表示されたセキュリティコードを入力してください。
+signin-totp-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 別のアカウントを使用する
@@ -970,6 +1002,9 @@ signin-totp-code-recovery-code-link = コードの入力時に問題が発生し
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = アカウントを確認してください
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = 確認リンクを { $email } 宛にお送りしましたので、メールをチェックしてください。
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -977,7 +1012,31 @@ signin-totp-code-recovery-code-link = コードの入力時に問題が発生し
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = <span>{ -product-firefox-account }</span> の確認コードを入力してください
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = 5 分以内に { $email } 宛に送信されたコードを入力してください。
+confirm-signup-code-input-label = 6 桁のコードを入力してください
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = 確認
+confirm-signup-code-code-expired = コードの有効期限が切れていますか？
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = 新しいコードをメール送信する。
+confirm-signup-code-required-error = 確認コードを入力してください
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = パスワードを設定
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = メールアドレスを変更
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = あなたの年齢は何歳ですか？
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = 登録するには年齢を入力してください
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = この質問の理由
