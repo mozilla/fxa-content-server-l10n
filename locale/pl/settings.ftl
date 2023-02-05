@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Zamknij
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktyczna wiedza w Twojej skrzynce. Zapisz się po więcej:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Najnowsze aktualności o { -brand-mozilla(case: "loc") } i { -brand-firefox(case: "loc") }.
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Podejmij działania, aby Internet pozostał zdrowy
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Bezpieczniej i mądrzej korzystaj z Internetu
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Wybierz, co synchronizować:
+choose-what-to-sync-option-bookmarks =
+    .label = Zakładki
+choose-what-to-sync-option-history =
+    .label = Historia
+choose-what-to-sync-option-passwords =
+    .label = Hasła
+choose-what-to-sync-option-addons =
+    .label = Dodatki
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Otwarte karty
+choose-what-to-sync-option-prefs =
+    .label = Preferencje
+choose-what-to-sync-option-addresses =
+    .label = Adresy
+choose-what-to-sync-option-creditcards =
+    .label = Karty płatnicze
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Otwórz pocztę { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Wstecz
+confirm-signup-aria-label =
+    .aria-label = Koperta zawierająca odnośnik
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Pobrano
+datablock-copy =
+    .message = Skopiowano
+datablock-print =
+    .message = Wydrukowano
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -105,15 +175,30 @@
                 [lower] koncie Firefoksa
             }
     }
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormPasswordWithBalloons
+
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Klucz odzyskiwania konta { -brand-firefox(case: "gen") }
+get-data-trio-title-firefox-backup-verification-codes = Zapasowe kody uwierzytelniania { -brand-firefox(case: "gen") }
+get-data-trio-download =
+    .title = Pobierz
+get-data-trio-copy =
+    .title = Kopiuj
+get-data-trio-print =
+    .title = Drukuj
 
 ## Input Password
 
@@ -122,25 +207,7 @@ input-password-show = Pokaż hasło
 input-password-hide-aria = Ukryj hasło z ekranu.
 input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Pamiętasz hasło? Zaloguj się
-
-## Ready component
-
-reset-password-complete-header = Zmieniono hasło
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Można teraz używać usługi { $serviceName }
-ready-account-ready = Konto jest gotowe!
-ready-continue = Kontynuuj
-sign-in-complete-header = Potwierdzono logowanie
-pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -148,13 +215,42 @@ reset-pwd-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
 reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Wyślij nowy odnośnik
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Pamiętasz hasło? Zaloguj się
+
+## LinkUsed component
+
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
+
+
+## Ready component
+
+reset-password-complete-header = Zmieniono hasło
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Można teraz używać usługi { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Konto jest gotowe!
+ready-continue = Kontynuuj
+sign-in-complete-header = Potwierdzono logowanie
+pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
 
 ## Alert Bar
 
@@ -174,10 +270,6 @@ avatar-default-avatar =
 
 bento-menu-title = Menu { -brand-firefox(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } to technologia walcząca o Twoją prywatność w Internecie.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
 bento-menu-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
 bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
@@ -258,15 +350,6 @@ cs-sign-out-button = Wyloguj się
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Pobrano
-datablock-copy =
-    .message = Skopiowano
-datablock-print =
-    .message = Wydrukowano
-
 ## Data collection section
 
 dc-heading = Zbieranie i wykorzystywanie danych
@@ -290,18 +373,6 @@ drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowani
 ## Flow Container
 
 flow-container-back = Wstecz
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Klucz odzyskiwania konta { -brand-firefox(case: "gen") }
-get-data-trio-title-firefox-backup-verification-codes = Zapasowe kody uwierzytelniania { -brand-firefox(case: "gen") }
-get-data-trio-download =
-    .title = Pobierz
-get-data-trio-copy =
-    .title = Kopiuj
-get-data-trio-print =
-    .title = Drukuj
 
 # HeaderLockup component
 
@@ -432,10 +503,7 @@ delete-account-header =
     .title = Usuń konto
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
-delete-account-confirm-title-2 = { -product-firefox-account } jest połączone z produktami { -brand-mozilla(case: "gen") }, które zapewniają bezpieczeństwo i produktywność w Internecie:
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
-delete-account-chk-box-1-v2 =
-    .label = Wszystkie posiadane płatne subskrypcje zostaną anulowane (z wyjątkiem { product-pocket })
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
 delete-account-chk-box-3 =
@@ -463,6 +531,9 @@ display-name-update-error-2 = Wystąpił problem podczas aktualizacji wyświetla
 display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -686,6 +757,10 @@ tfa-row-change-modal-heading-1 = Zmienić zapasowe kody uwierzytelniania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Nieznane konto
@@ -705,6 +780,23 @@ auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -733,16 +825,12 @@ account-recovery-lost-recovery-key-link = Nie masz klucza odzyskiwania konta?
 
 # Header for form to create new password
 create-new-password-header = Utwórz nowe hasło
-confirm-account-recovery-key-button = Zmień hasło
 account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Utwórz nowe hasło
-complete-reset-password-warning-message = <span>Pamiętaj:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { product-pocket }.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ustawiono hasło
@@ -768,7 +856,6 @@ reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
-reset-password-warning-message = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { product-pocket }.
 reset-password-button = Rozpocznij zmianę
 reset-password-success-alert = Zmieniono hasło
 reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem hasła
@@ -776,7 +863,49 @@ reset-password-error-unknown-account = Nieznane konto
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
 
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Dziękujemy za czujność
 signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomagają nam odpędzać intruzów.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
