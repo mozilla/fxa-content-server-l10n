@@ -544,6 +544,9 @@ delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
@@ -834,10 +837,22 @@ auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Anuluj
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Kontynuuj
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Potwierdź
+inline-recovery-back-link = Wstecz
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Zapasowy kod uwierzytelniania
+inline-recovery-confirmation-description = Aby upewnić się, że będzie można odzyskać dostęp do konta, to w przypadku zgubienia urządzenia podaj jeden z zachowanych zapasowych kodów uwierzytelniania.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-continue-button = Kontynuuj
 
 ## AccountRecoveryConfirmKey page
 
@@ -867,11 +882,14 @@ account-recovery-lost-recovery-key-link = Nie masz klucza odzyskiwania konta?
 # Header for form to create new password
 create-new-password-header = Utwórz nowe hasło
 account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Ustawiono hasło
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Utwórz nowe hasło
+complete-reset-password-warning-message-2 = <span>Pamiętaj:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { -product-pocket }.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ustawiono hasło
@@ -897,6 +915,7 @@ reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
+reset-password-warning-message-2 = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { -product-pocket }.
 reset-password-button = Rozpocznij zmianę
 reset-password-success-alert = Zmieniono hasło
 reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem hasła
@@ -906,18 +925,33 @@ reset-password-with-recovery-key-verified-continue-to-account = Przejdź do moje
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Błąd:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Potwierdź to logowanie
 
 ## Signin page
 
+signin-button = Zaloguj się
+signin-header = Zaloguj się
+signin-use-a-different-account-link = Użyj innego konta
+signin-forgot-password-link = Nie pamiętasz hasła?
+back = Wstecz
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Potwierdź
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Wstecz
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Nie możesz się zalogować?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -928,17 +962,29 @@ signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomaga
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Wpisz sześciocyfrowy kod
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Potwierdź
+signin-token-code-code-expired = Kod wygasł?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Wyślij nowy.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Potwierdź
+signin-totp-code-other-account-link = Użyj innego konta
+signin-totp-code-recovery-code-link = Masz problem z wpisywaniem kodu?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Potwierdź konto
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -946,7 +992,21 @@ signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomaga
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Wpisz sześciocyfrowy kod
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Potwierdź
+confirm-signup-code-code-expired = Kod wygasł?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Wyślij nowy.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Ile masz lat?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Należy podać swój wiek przed zarejestrowaniem
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Dlaczego pytamy?
