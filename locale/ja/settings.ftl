@@ -767,6 +767,12 @@ cookies-disabled-learn-more = 詳細情報
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = バックアップ認証コードを保存して <span>{ $serviceName } に進む</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = キャンセル
@@ -778,10 +784,33 @@ inline-recovery-back-link = 戻る
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = バックアップ認証コード
 inline-recovery-confirmation-description = 端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかのバックアップ認証コードを入力してください。
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
+inline-recovery-setup-image-description =
+    .aria-label = 非表示のテキストを含むドキュメント。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = セットアップをキャンセル
+inline-totp-setup-continue-button = 続ける
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = <authenticationAppsLink>これらの認証アプリ</authenticationAppsLink> のいずれかからの認証コードを必須とすることでアカウントのセキュリティレベルを高めます。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = 2 段階認証を有効にして <enable2StepDefaultSpan>アカウント設定に進む</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = 2 段階認証を有効にして <enable2StepCustomServiceSpan>{ $serviceName } に進む</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = 準備完了
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = 認証コードをスキャンして <scanAuthCodeHeaderSpan>{ $serviceName } に進む</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = コードを手動で入力して <enterCodeManuallyHeaderSpan>{ $serviceName } に進む</enterCodeManuallyHeaderSpan>
 
 ## AccountRecoveryConfirmKey page
 
