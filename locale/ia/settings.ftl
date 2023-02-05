@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Le cognoscentia practic veni a tu cassa de entrata. Inscribe te:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Recipe le ultime novas re { -brand-mozilla } e { -brand-firefox }.
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Age pro mantener Internet in bon sanitate
 # Newsletter checklist item
@@ -176,6 +179,7 @@ confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite us
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-reset-risk-info = Un remontage significa potentialmente perder datos como contrasignos e marcapaginas.
 
 ## PasswordStrengthBalloon component
 
