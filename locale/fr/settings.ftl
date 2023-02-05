@@ -3,6 +3,68 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Fermer
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Recevez des connaissances utiles directement dans votre boîte de réception. Abonnez-vous pour en savoir encore plus :
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Agir pour la bonne santé d’Internet
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Apprendre à naviguer intelligemment et en sécurité
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Choisir les éléments à synchroniser :
+choose-what-to-sync-option-bookmarks =
+    .label = Marque-pages
+choose-what-to-sync-option-history =
+    .label = Historique
+choose-what-to-sync-option-passwords =
+    .label = Mots de passe
+choose-what-to-sync-option-addons =
+    .label = Modules complémentaires
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Onglets ouverts
+choose-what-to-sync-option-prefs =
+    .label = Préférences
+choose-what-to-sync-option-addresses =
+    .label = Adresses
+choose-what-to-sync-option-creditcards =
+    .label = Cartes bancaires
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Vous ne voyez rien dans votre boîte de réception ni dans le dossier des indésirables ? Renvoyez le message
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Retour
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Téléchargé
+datablock-copy =
+    .message = Copié
+datablock-print =
+    .message = Imprimé
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -45,14 +107,30 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Mot de passe
+signup-confirm-password-label =
+    .label = Répéter le mot de passe
 form-reset-password-with-balloon-new-password =
     .label = Nouveau mot de passe
 form-reset-password-with-balloon-confirm-password =
     .label = Saisissez-le à nouveau
 form-reset-password-with-balloon-submit-button = Réinitialiser le mot de passe
 form-reset-password-with-balloon-match-error = Les mots de passe ne correspondent pas
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Clé de récupération du compte { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codes d’authentification de secours de { -brand-firefox }
+get-data-trio-download =
+    .title = Télécharger
+get-data-trio-copy =
+    .title = Copier
+get-data-trio-print =
+    .title = Imprimer
 
 ## Input Password
 
@@ -96,6 +174,10 @@ primary-email-confirmation-link-reused = Adresse e-mail principale déjà confir
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Connexion déjà confirmée
 confirmation-link-reused-message = Ce lien de confirmation a déjà été utilisé et ne peut être utilisé qu’une seule fois.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -210,15 +292,6 @@ cs-sign-out-button = Se déconnecter
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Téléchargé
-datablock-copy =
-    .message = Copié
-datablock-print =
-    .message = Imprimé
-
 ## Data collection section
 
 dc-heading = Collecte et utilisation de données
@@ -242,18 +315,6 @@ drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconn
 ## Flow Container
 
 flow-container-back = Retour
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Clé de récupération du compte { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codes d’authentification de secours de { -brand-firefox }
-get-data-trio-download =
-    .title = Télécharger
-get-data-trio-copy =
-    .title = Copier
-get-data-trio-print =
-    .title = Imprimer
 
 # HeaderLockup component
 
@@ -642,6 +703,10 @@ tfa-row-change-modal-heading-1 = Changer les code d’authentification de secour
 tfa-row-change-modal-confirm = Changer
 tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Compte inconnu
@@ -662,18 +727,22 @@ auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Erreur :
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Validation de la connexion…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Confirmer cette connexion
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Consultez votre boîte de réception pour accéder au lien de connexion envoyé à { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -744,6 +813,19 @@ reset-password-error-unknown-account = Compte inconnu
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Erreur :
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validation de la connexion…
+
+## ConfirmSignin component
+
+confirm-signin-header = Confirmer cette connexion
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Consultez votre boîte de réception pour accéder au lien de connexion envoyé à { $email }
+
 ## Signin page
 
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
@@ -769,8 +851,6 @@ back = Retour
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
-signin-recovery-code-input =
-    .label = Saisissez un code d’authentification de secours de 10 chiffres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmer
 # Link to return to signin with two-step authentication code (security code)
@@ -794,8 +874,6 @@ signin-reported-message = Notre équipe a été informée. Les signalements comm
 signin-token-code-heading = Saisissez le code de confirmation<span> pour votre { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Saisissez le code envoyé à { $email } dans les 5 prochaines minutes.
-signin-token-code-input-label =
-    .label = Saisissez le code à 6 chiffres
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmer
 signin-token-code-code-expired = Code expiré ?
@@ -809,9 +887,23 @@ signin-token-code-required-error = Code de confirmation requis
 ## The "security code" here refers to the code provided by an authentication app.
 
 signin-totp-code-instruction = Ouvrez l’application d’authentification et saisissez le code de sécurité fourni.
-signin-totp-code-input-label =
-    .label = Saisissez le code à 6 chiffres
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
 signin-totp-code-other-account-link = Utiliser un autre compte { -brand-firefox }
 signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
