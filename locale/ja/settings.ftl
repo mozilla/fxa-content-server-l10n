@@ -811,6 +811,19 @@ inline-totp-setup-ready-button = 準備完了
 inline-totp-setup-show-qr-custom-service-header = 認証コードをスキャンして <scanAuthCodeHeaderSpan>{ $serviceName } に進む</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = コードを手動で入力して <enterCodeManuallyHeaderSpan>{ $serviceName } に進む</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = 認証コードをスキャンして <scanAuthHeaderSpan>アカウント設定に進む</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = コードを手動で入力して <enterCodeManuallyHeaderSpan>アカウント設定に進む</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = この秘密鍵を認証アプリに入力してください。<toggleToQRButton>または QR コードをスキャンしてください。</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = 認証アプリで QR コードをスキャンし、提供された認証コードを入力してください。 <toggleToManualModeButton>コードをスキャンできませんか?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = 完了すると、入力する認証コードの生成が開始されます。
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = 認証コード
 
 ## AccountRecoveryConfirmKey page
 
@@ -885,6 +898,8 @@ reset-password-with-recovery-key-verified-continue-to-account = 自分のアカ�
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = エラー:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = ログインを検証しています…
 
 ## ConfirmSignin component
 
