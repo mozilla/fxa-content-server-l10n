@@ -779,20 +779,57 @@ auth-error-1008 = Нова лозинка мора да буде другачи�
 cannot-create-account-header = Налог се не може направити
 cannot-create-account-requirements = Морате да будете довољно стари да направите { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Сазнајте више
+cannot-create-account-learn-more-link = Сазнај више
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Потребни су локално складиште и колачићи
+cookies-disabled-enable-prompt = Омогућите колачиће и локалну складиште у вашем прегледачу да приступите { -product-firefox-accounts }. Ово ће омогућити функције као што је памћење између сесија.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Покушај поново
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Сазнај више
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Потврдите резервни приступни код <span>да наставите на подешавања налога</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Сачувајте резервне приступне кодове <span>да наставите на { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Држите кодове за једнократну употребу на сигурном месту, у случају да немате ваш мобилни уређај.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Откажи
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Настави
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Потврди
+inline-recovery-back-link = Назад
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Резервни приступни код
+inline-recovery-confirmation-description = Да будете сигурни да и даље можете да се пријавите на свој налог ако изгубите уређај, унесите било који од претходно сачуваних резервних приступних кодова.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Потврдите резервни приступни код <span>да наставите на подешавања налога</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Потврдите резервни приступни код <span>да наставите на { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Документ који садржи скривени текст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Откажи постављање
+inline-totp-setup-continue-button = Настави
 
 ## AccountRecoveryConfirmKey page
 
