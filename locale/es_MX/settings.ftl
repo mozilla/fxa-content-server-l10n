@@ -753,6 +753,7 @@ cannot-create-account-learn-more-link = Saber más
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Se requiere almacenamiento local y cookies
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Intentar de nuevo
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -772,6 +773,10 @@ inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Atrás
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de autenticación de respaldo
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirmar el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
 inline-recovery-setup-image-description =
     .aria-label = Documento que contiene texto oculto.
 
@@ -879,6 +884,7 @@ signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usa una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
 signin-bounced-create-new-account = ¿Ya no te pertenece el correo electrónico? Crea una nueva cuenta
 back = Atrás
 
@@ -887,6 +893,7 @@ back = Atrás
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Ingresa el código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
@@ -920,6 +927,10 @@ signin-token-code-required-error = Código de confirmación requerido
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Ingresa el código de seguridad <span>para continuar a { $serviceName }</span>
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abre tu aplicación de autenticación e ingresa el código de seguridad que se te proporciona.
@@ -941,6 +952,10 @@ confirm-signup-heading = Confirma tu cuenta
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Ingresa el código de confirmación <span>para tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Ingresa el código que fue enviado a { $email } en los últimos 5 minutos.
 confirm-signup-code-input-label = Ingresa el código de 6 dígitos
@@ -949,6 +964,7 @@ confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = ¿El código expiró?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
+confirm-signup-code-required-error = Ingresa el código de confirmación
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
