@@ -830,6 +830,16 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = Откажи постављање
 inline-totp-setup-continue-button = Настави
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Побољшајте безбедност вашег налога захтевањем приступних кодова од једне од <authenticationAppsLink>ових апликација за аутентификацију</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Омогућите аутентификацију у два корака <enable2StepDefaultSpan>да наставите на подешавања налога</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Омогућите аутентификацију у два корака <enable2StepCustomServiceSpan>да наставите на { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Готово
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Скенирајте приступни код <scanAuthCodeHeaderSpan>да наставите на { $serviceName }</scanAuthCodeHeaderSpan>
 
 ## AccountRecoveryConfirmKey page
 
