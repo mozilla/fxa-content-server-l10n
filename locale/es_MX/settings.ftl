@@ -51,6 +51,8 @@ choose-what-to-sync-option-creditcards =
 # { $emailProvider } could be Gmail, Outlook, etc.
 # This link will open the email provider is a new tab
 confirm-with-link-webmail-link = Abrir { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o en la carpeta de spam? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Atrás
 
@@ -738,11 +740,13 @@ auth-error-138-2 = Sesión sin confirmar
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
+auth-error-1003 = El almacenamiento local o las cookies aún están deshabilitadas
 auth-error-1008 = Tu nueva contraseña debe ser diferente
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = No se puede crear la cuenta
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saber más
 
@@ -768,6 +772,8 @@ inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Atrás
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de autenticación de respaldo
+inline-recovery-setup-image-description =
+    .aria-label = Documento que contiene texto oculto.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -775,6 +781,8 @@ inline-recovery-backup-authentication-code = Código de autenticación de respal
 inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
 inline-totp-setup-ready-button = Listo
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ingresa el código manualmente <enterCodeManuallyHeaderSpan>para continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
 
@@ -787,6 +795,8 @@ account-recovery-confirm-key-heading-w-default-service = Restablece la contrase�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Restablece la contraseña con la clave de recuperación de cuenta <span>para continuar con { $serviceName }</span>
+account-recovery-confirm-key-instructions = Ingresa la clave de recuperación de cuenta de un solo uso que almacenaste en un lugar seguro para recuperar el acceso a tu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Nota:</span> Si restableces tu contraseña y no tienes una clave de recuperación de cuenta guardada, algunos de tus datos se borrarán (incluidos los datos sincronizados con el servidor, como el historial y los marcadores).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Ingresa la clave de recuperación de cuenta
@@ -803,6 +813,7 @@ account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación
 
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
+account-restored-success-message = Has restaurado exitosamente tu cuenta utilizando tu clave de recuperación de cuenta. Crea una nueva contraseña para proteger tus datos y guárdala en un lugar seguro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Contraseña establecida
 
@@ -896,6 +907,7 @@ signin-reported-message = Se ha informado a nuestro equipo. Reportes como este n
 signin-token-code-heading = Ingresa el código de confirmación<span> para tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ingresa el código que fue enviado a { $email } en los últimos 5 minutos.
+signin-token-code-input-label-v2 = Ingresa el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = ¿El código expiró?
@@ -911,6 +923,7 @@ signin-token-code-required-error = Código de confirmación requerido
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abre tu aplicación de autenticación e ingresa el código de seguridad que se te proporciona.
+signin-totp-code-input-label-v2 = Ingresa el código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa una cuenta diferente
@@ -928,6 +941,9 @@ confirm-signup-heading = Confirma tu cuenta
 
 # and a confirmation code has been sent to their email address.
 
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Ingresa el código que fue enviado a { $email } en los últimos 5 minutos.
+confirm-signup-code-input-label = Ingresa el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = ¿El código expiró?
@@ -940,5 +956,11 @@ confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrón
 signup-heading = Establece tu contraseña
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo electrónico
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Cuántos años tienes?
 # Error displayed in a tooltip when the user attempts to submit the form without filling in their age
 signup-age-check-input-error = Necesitas ingresar tu edad para registrarte
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ¿Por qué preguntamos?

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-02-05 05:39+0000\n"
+"PO-Revision-Date: 2023-02-05 05:49+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1476,7 +1476,7 @@ msgstr "Ingresar código de seguridad"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Abrir tu aplicación de autenticación e ingresa el código de seguridad que se te entrega."
+msgstr "Abre tu aplicación de autenticación e ingresa el código de seguridad que se te proporciona."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
