@@ -14,6 +14,12 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Aktivoidu pitääksesi internetin terveenä
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Pysy turvassa ja fiksuna verkossa
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -46,6 +52,12 @@ choose-what-to-sync-option-creditcards =
 # { $emailProvider } could be Gmail, Outlook, etc.
 # This link will open the email provider is a new tab
 confirm-with-link-webmail-link = Avaa { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ei saapuneissa tai roskapostissa? Lähetä uudestaan
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Edellinen
+confirm-signup-aria-label =
+    .aria-label = Kirjekuori, joka sisältää linkin
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -164,6 +176,8 @@ reset-password-complete-header = Salasanasi on nollattu
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Olet nyt valmis käyttämään tilin asetuksia
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Tilisi on valmis!
 ready-continue = Jatka
@@ -434,6 +448,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
@@ -466,6 +481,9 @@ display-name-success-alert-2 = Näyttönimi päivitetty
 
 ## Recent Activity
 
+recent-activity-account-create = Tili luotiin
+recent-activity-account-disable = Tili poistettiin käytöstä
+recent-activity-account-enable = Tili otettiin käyttöön
 
 # Account recovery key setup page
 
@@ -695,6 +713,8 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Jatkamalla hyväksyt:
 
 ## Auth-server based errors that originate from backend service
 
@@ -719,10 +739,15 @@ auth-error-1008 = Uuden salasanan pitää erota vanhasta
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Tiliä ei voida luoda
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Lue lisää
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Yritä uudelleen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Lue lisää
 
@@ -741,6 +766,7 @@ inline-recovery-confirm-button = Vahvista
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-continue-button = Jatka
 inline-totp-setup-ready-button = Valmis
 
 ## AccountRecoveryConfirmKey page
@@ -771,6 +797,8 @@ account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavaint
 # Header for form to create new password
 create-new-password-header = Luo uusi salasana
 account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Salasana asetettu
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -821,11 +849,18 @@ confirm-signin-header = Vahvista tämä kirjautuminen
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Jatka palveluun { $serviceName }
 signin-subheader-without-logo-default = Jatka tilin asetuksiin
 signin-button = Kirjaudu sisään
 signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
+signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -854,11 +889,14 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-other-account-link = Käytä toista tiliä
+signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Vahvista tilisi
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -866,7 +904,19 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-code-expired = Vanheniko koodi?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Aseta salasana
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kuinka vanha olet?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Ikä täytyy antaa rekisteröitymistä varten
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Miksi kysymme?
