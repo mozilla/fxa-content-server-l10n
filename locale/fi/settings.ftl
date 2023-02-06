@@ -832,6 +832,8 @@ signin-forgot-password-link = Unohditko salasanan?
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Vahvista
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -842,6 +844,10 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-code-expired = Vanheniko koodi?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
+signin-token-code-required-error = Vahvistuskoodi vaaditaan
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
