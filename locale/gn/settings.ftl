@@ -778,10 +778,22 @@ inline-recovery-continue-button = Ku’ejey
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Moneĩ
 inline-recovery-back-link = Tapykue
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Ayvu ñemoneĩrã jeykekoha
+inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã jeykekogua ñongatupyre.
+inline-recovery-setup-image-description =
+    .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Eheja ñemboheko
+inline-totp-setup-continue-button = Ku’ejey
+inline-totp-setup-ready-button = Oĩma
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 
 ## AccountRecoveryConfirmKey page
 
@@ -854,9 +866,12 @@ reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mb
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Javy:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Amoneĩ tembiapo ñepyrũ…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Emoneĩ ne rembiapo ñepyrũ
 
 ## Signin page
 
