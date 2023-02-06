@@ -179,6 +179,8 @@ confirmation-link-reused-message = Ова потврдна веза је већ 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Потребна вам је ова лозинка да приступите вашим шифрованим подацима који се чувају код нас.
+password-info-balloon-reset-risk-info = Ресетовањем можете да изгубите податке као што су лозинке и обележивачи.
 
 ## PasswordStrengthBalloon component
 
@@ -741,6 +743,14 @@ tfa-row-change-modal-explain = Нећете моћи да опозовете о�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Ако наставите, слажете се са:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>условима коришћења</pocketTos> и <pocketPrivacy>политиком приватности</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>условима коришћења</firefoxTos> и <firefoxPrivacy>политиком приватности</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Ако наставите, слажете се са <firefoxTos>условима коришћења</firefoxTos> и <firefoxPrivacy>политиком приватности</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -760,11 +770,16 @@ auth-error-138-2 = Непотврђена сесија
 auth-error-139 = Секундарна адреса мора бити другачија од адресе вашег налога
 auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао верификациони код
+auth-error-1003 = Локално складиште или колачићи су и даље онемогућени
 auth-error-1008 = Нова лозинка мора да буде другачија
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Налог се не може направити
+cannot-create-account-requirements = Морате да будете довољно стари да направите { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Сазнајте више
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
