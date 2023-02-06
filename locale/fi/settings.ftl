@@ -3,6 +3,59 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Sulje
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Valitse, mitä synkronoidaan:
+choose-what-to-sync-option-bookmarks =
+    .label = Kirjanmerkit
+choose-what-to-sync-option-history =
+    .label = Sivuhistoria
+choose-what-to-sync-option-passwords =
+    .label = Salasanat
+choose-what-to-sync-option-addons =
+    .label = Lisäosat
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Avoimet välilehdet
+choose-what-to-sync-option-prefs =
+    .label = Asetukset
+choose-what-to-sync-option-addresses =
+    .label = Osoitteet
+choose-what-to-sync-option-creditcards =
+    .label = Luottokortit
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Avaa { $emailProvider }
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Ladattu
+datablock-copy =
+    .message = Kopioitu
+datablock-print =
+    .message = Tulostettu
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,15 +78,39 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-tili
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-pocket = Pocket
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
+
+## FormPasswordWithBalloons
+
+signup-new-password-label =
+    .label = Salasana
+signup-submit-button = Luo tili
+form-reset-password-with-balloon-new-password =
+    .label = Uusi salasana
+form-reset-password-with-balloon-confirm-password =
+    .label = Kirjoita salasana uudelleen
+form-reset-password-with-balloon-submit-button = Nollaa salasana
+form-reset-password-with-balloon-match-error = Salasanat eivät täsmää
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-varatodennuskoodit
+get-data-trio-download =
+    .title = Lataa
+get-data-trio-copy =
+    .title = Kopioi
+get-data-trio-print =
+    .title = Tulosta
 
 ## Input Password
 
@@ -42,25 +119,7 @@ input-password-show = Näytä salasana
 input-password-hide-aria = Piilota salasana näytöltä.
 input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
 
-## LinkRememberPassword component
-
-# Link that users can follow to sign in to their account
-# This link exits the Reset Password flow
-remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
-
-## Ready component
-
-reset-password-complete-header = Salasanasi on nollattu
-# This is a string that tells the user they can use whatever service prompted them to reset their password
-# Variables:
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
-ready-account-ready = Tilisi on valmis!
-ready-continue = Jatka
-sign-in-complete-header = Kirjautuminen vahvistettu
-pulsing-hearts-description = Vaaleanpunainen kannettava tietokone ja violetti mobiililaite, joissa kummassakin sykkivä sydän
-
-## ResetPasswordLinkDamaged component
+## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
@@ -68,13 +127,50 @@ reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
-## ResetPasswordLinkExpired component
+## LinkExpired component
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
 reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Vastaanota uusi linkki
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
+
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvistettu
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Salasanan vaatimukset
+password-strength-balloon-min-length = Vähintään 8 merkkiä
+password-strength-balloon-not-email = Ei sinun sähköpostiosoite
+password-strength-balloon-not-common = Ei yleisesti käytetty salasana
+
+## Ready component
+
+reset-password-complete-header = Salasanasi on nollattu
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Tilisi on valmis!
+ready-continue = Jatka
+sign-in-complete-header = Kirjautuminen vahvistettu
+sign-up-complete-header = Tili vahvistettu
+pulsing-hearts-description = Vaaleanpunainen kannettava tietokone ja violetti mobiililaite, joissa kummassakin sykkivä sydän
+primary-email-verified-header = Ensisijainen sähköposti vahvistettu
 
 ## Alert Bar
 
@@ -94,10 +190,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox }-valikko
 bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
 bento-menu-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
 bento-menu-made-by-mozilla = { -brand-mozilla }lta
@@ -178,15 +274,6 @@ cs-sign-out-button = Kirjaudu ulos
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Ladattu
-datablock-copy =
-    .message = Kopioitu
-datablock-print =
-    .message = Tulostettu
-
 ## Data collection section
 
 dc-heading = Tietojen keruu ja käyttö
@@ -210,18 +297,6 @@ drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni
 ## Flow Container
 
 flow-container-back = Takaisin
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-varatodennuskoodit
-get-data-trio-download =
-    .title = Lataa
-get-data-trio-copy =
-    .title = Kopioi
-get-data-trio-print =
-    .title = Tulosta
 
 # HeaderLockup component
 
@@ -352,10 +427,14 @@ delete-account-header =
     .title = Poista tili
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
-delete-account-confirm-title-2 = Olet yhdistänyt { -product-firefox-account }si { -brand-mozilla }n tuotteisiin, jotka pitävät sinut tuotteliaana ja turvassa verkossa:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
-delete-account-chk-box-1-v2 =
-    .label = Kaikki käytössäsi olevat maksulliset tilaukset perutaan (lukuun ottamatta { product-pocket })
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
@@ -383,6 +462,9 @@ display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
 display-name-success-alert-2 = Näyttönimi päivitetty
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -610,6 +692,10 @@ tfa-row-change-modal-heading-1 = Vaihdetaanko varatodennuskoodit?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tuntematon tili
@@ -629,6 +715,33 @@ auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi en
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Lue lisää
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Peruuta
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Jatka
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Vahvista
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-ready-button = Valmis
 
 ## AccountRecoveryConfirmKey page
 
@@ -657,16 +770,12 @@ account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavaint
 
 # Header for form to create new password
 create-new-password-header = Luo uusi salasana
-confirm-account-recovery-key-button = Nollaa salasana
 account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 
 ## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Luo uusi salasana
-complete-reset-password-warning-message = <span>Muista:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta  { product-pocket }issa oleviin tietoihin.
-# This information message is followed by a form to create a new password.
-complete-reset-password-account-recovery-info = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
@@ -692,7 +801,6 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
-reset-password-warning-message = <span>Huomaa:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta  { product-pocket }issa oleviin tietoihin.
 reset-password-button = Aloita nollaus
 reset-password-success-alert = Salasanan nollaus
 reset-password-error-general = Valitettavasti salasanaa nollatessa ilmeni ongelma
@@ -700,7 +808,59 @@ reset-password-error-unknown-account = Tuntematon tili
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Virhe:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Vahvistetaan kirjautumista…
+
+## ConfirmSignin component
+
+confirm-signin-header = Vahvista tämä kirjautuminen
+
+## Signin page
+
+signin-subheader-without-logo-default = Jatka tilin asetuksiin
+signin-button = Kirjaudu sisään
+signin-header = Kirjaudu sisään
+signin-use-a-different-account-link = Käytä toista tiliä
+signin-forgot-password-link = Unohditko salasanan?
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Kiitos valppaudestasi
 signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset auttavat meitä torjumaan tunkeutujia.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
