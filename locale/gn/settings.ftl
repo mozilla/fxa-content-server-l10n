@@ -505,6 +505,9 @@ recent-activity-title = Mba’ete rembiapo ramoguavéva
 recent-activity-account-create = Oñemoheñóima mba’ete
 recent-activity-account-disable = Oñemboykéma mba’ete
 recent-activity-account-enable = Oñembojurujáma mba’ete
+recent-activity-account-login = Mba’etépe jeike oñepyrũma
+recent-activity-account-reset = Mba’ete ñe’ẽñemi jeguerujey oñepyrũma
+recent-activity-emails-clearBounces = Mba’ete ñanduti veve ojevyjey
 
 # Account recovery key setup page
 
