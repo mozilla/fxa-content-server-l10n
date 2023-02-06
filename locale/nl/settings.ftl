@@ -785,15 +785,76 @@ cannot-create-account-learn-more-link = Meer info
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Lokale opslag en cookies zijn vereist
+cookies-disabled-enable-prompt = Schakel cookies en lokale opslag in uw browser in voor toegang tot { -product-firefox-accounts }. Hierdoor worden functionaliteiten zoals het onthouden van u tussen sessies ingeschakeld.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Opnieuw proberen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Meer info
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Bevestig uw reserve-authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Bewaar uw reserve-authenticatiecodes <span>om door te gaan naar { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Bewaar deze codes voor eenmalig gebruik op een veilige plaats voor als u uw mobiele apparaat niet hebt.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Annuleren
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Doorgaan
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Bevestigen
+inline-recovery-back-link = Terug
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reserve-authenticatiecode
+inline-recovery-confirmation-description = Voer in geval van een verloren apparaat een van uw opgeslagen reserve-authenticatiecodes in, om ervoor te zorgen dat u weer toegang kunt krijgen tot uw account.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar uw accountinstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Document dat verborgen tekst bevat.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Configuratie annuleren
+inline-totp-setup-continue-button = Doorgaan
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Voeg een beveiligingslaag toe aan uw account door beveiligingscodes van een van <authenticationAppsLink>deze apps voor authenticatie</a> te vereisen.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Schakel tweestapsauthenticatie in <enable2StepDefaultSpan>om door te gaan naar uw accountinstellingen</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Schakel tweestapsauthenticatie in <enable2StepCustomServiceSpan>om door te gaan naar { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Gereed
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scan uw authenticatiecode <scanAuthCodeHeaderSpan>om door te gaan naar { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scan uw authenticatiecode in <scanAuthHeaderSpan>om door te gaan naar uw accountinstellingen</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar uw accountinstellingen</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Typ deze geheime sleutel in uw authenticatie-app. <toggleToQRButton>QR-code scannen?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-code in uw authenticatie-app en voer vervolgens de authenticatiecode in die wordt verstrekt. <toggleToManualModeButton>Kunt u de code niet scannen?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Na voltooiing worden authenticatiecodes voor u gegenereerd die u kunt invoeren.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Authenticatiecode
 
 ## AccountRecoveryConfirmKey page
 
@@ -915,6 +976,7 @@ signin-recovery-code-heading-w-custom-service = Voer uw reserve-authenticatiecod
 signin-recovery-code-image-description =
     .aria-label = Document dat verborgen tekst bevat.
 signin-recovery-code-instruction = Voer een reserve-authenticatiecode in die aan u is verstrekt tijdens het instellen van authenticatie in twee stappen.
+signin-recovery-code-input-label = Voer een 10-cijferige reserve-authenticatiecode in
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bevestigen
 # Link to return to signin with two-step authentication code (security code)
@@ -938,6 +1000,7 @@ signin-reported-message = Ons team is op de hoogte gebracht. Dit soort meldingen
 signin-token-code-heading = Voer bevestigingscode in <span>voor uw { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Voer binnen 5 minuten de code in die naar { $email } is verzonden.
+signin-token-code-input-label-v2 = Voer 6-cijferige code in
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bevestigen
 signin-token-code-code-expired = Code verlopen?
@@ -960,6 +1023,7 @@ signin-totp-code-heading-w-custom-service = Voer beveiligingscode in <span>om do
 signin-totp-code-image-label =
     .aria-label = Een apparaat met een verborgen 6-cijferige code.
 signin-totp-code-instruction = Open uw app voor authenticatie en voer de aangeboden beveiligingscode in.
+signin-totp-code-input-label-v2 = Voer 6-cijferige code in
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Bevestigen
 signin-totp-code-other-account-link = Een andere account gebruiken
@@ -969,6 +1033,9 @@ signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Bevestig uw account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Controleer uw e-mail op de bevestigingskoppeling die naar { $email } is verzonden
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -976,7 +1043,34 @@ signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Voer bevestigingscode in <span>voor uw { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Voer binnen 5 minuten de code in die naar { $email } is verzonden.
+confirm-signup-code-input-label = Voer 6-cijferige code in
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Bevestigen
+confirm-signup-code-code-expired = Code verlopen?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Nieuwe code versturen per e-mail.
+confirm-signup-code-required-error = Voer bevestigingscode in
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Stel uw wachtwoord in
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Waarom moet ik deze account aanmaken? <LinkExternal>Lees het hier</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-mailadres wijzigen
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hoe oud bent u?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = U moet uw leeftijd invoeren om te registreren
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Waarom vragen we dit?
