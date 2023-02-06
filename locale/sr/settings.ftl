@@ -174,7 +174,7 @@ remember-pw-link = Сећате се лозинке? Пријавите се
 primary-email-confirmation-link-reused = Примарна адреса е-поште је већ потврђена
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Пријава је већ потврђена
-confirmation-link-reused-message = Ова потврдна веза је већ искоришћена, може се искористити само једном.
+confirmation-link-reused-message = Ова веза за потврду је већ искоришћена, може се искористити само једном.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -573,7 +573,7 @@ tfa-step-3-3 = Корак 3 од 3
 tfa-button-continue = Настави
 tfa-button-cancel = Откажи
 tfa-button-finish = Доврши
-tfa-incorrect-totp = Неисправан код за аутентификацију
+tfa-incorrect-totp = Неисправан код за аутентификацију у два корака
 tfa-cannot-retrieve-code = Дошло је до проблема приликом добављања вашег кода.
 tfa-cannot-verify-code-4 = Дошло је до грешке при потврђивању вашег резервног приступног кода
 tfa-incorrect-recovery-code-1 = Неисправан резервни приступни код
@@ -840,6 +840,21 @@ inline-totp-setup-ready-button = Готово
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = Скенирајте приступни код <scanAuthCodeHeaderSpan>да наставите на { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ручно унесите код <enterCodeManuallyHeaderSpan>да наставите на { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Скенирајте приступни код <scanAuthHeaderSpan>да наставите на подешавања налога</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Ручно унесите код <enterCodeManuallyHeaderSpan>да наставите на подешавања налога</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Унесите овај тајни кључ у вашу апликацију за аутентификацију. <toggleToQRButton>Скенирајте QR код?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Скенирајте QR код у вашој апликацији за аутентификацију и унесите приступни код из исте. <toggleToManualModeButton>Не можете да скенирате QR код?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = По завршетку, аутоматски ће почети да прави приступне кодове за ваше пријаве.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Приступни код
 
 ## AccountRecoveryConfirmKey page
 
@@ -921,7 +936,7 @@ validating-signin = Пријава се потрвђује…
 
 confirm-signin-header = Потврди ову пријаву
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Проверите вашу е-пошту ради потврдне везе за приступ послате на { $email }
+confirm-signin-message = Проверите вашу е-пошту ради везе за потврду послане на { $email }
 
 ## Signin page
 
@@ -961,6 +976,7 @@ signin-recovery-code-heading-w-custom-service = Унесите резервни 
 signin-recovery-code-image-description =
     .aria-label = Документ који садржи скривени текст.
 signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили аутентификацију у два корака.
+signin-recovery-code-input-label = Унесите 10-цифрени резервни приступни код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Потврди
 # Link to return to signin with two-step authentication code (security code)
@@ -984,6 +1000,7 @@ signin-reported-message = Наш тим је обавештен. Овакви и
 signin-token-code-heading = Унесите потврдни код<span> за ваш { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
+signin-token-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Потврди
 signin-token-code-code-expired = Код је истекао?
@@ -1006,6 +1023,7 @@ signin-totp-code-heading-w-custom-service = Унесите безбедносн�
 signin-totp-code-image-label =
     .aria-label = Уређај са скривеним шестоцифреним кодом.
 signin-totp-code-instruction = Отворите вашу апликацију за аутентификацију и унесите понуђени безбедносни код.
+signin-totp-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Потврди
 signin-totp-code-other-account-link = Користи други налог
@@ -1015,6 +1033,9 @@ signin-totp-code-recovery-code-link = Проблеми с уносом кода?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Потврди налог
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Проверите вашу е-пошту ради везе за потврду послане на { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
