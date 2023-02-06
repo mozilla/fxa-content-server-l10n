@@ -899,7 +899,31 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
 inline-totp-setup-continue-button = Pokračovať
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <a %(escapedTotpSupportAttributes)s>týchto overovacích aplikácií</a>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Povoľte dvojstupňové overenie <enable2StepDefaultSpan>a pokračujte do nastavení účtu</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Povoľte dvojstupňové overenie <enable2StepCustomServiceSpan>a pokračujte do služby { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Hotovo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Naskenujte overovací kód <scanAuthCodeHeaderSpan>a pokračujte do služby { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Zadajte kód manuálne <enterCodeManuallyHeaderSpan>a pokračujte do služby { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Naskenujte overovací kód <scanAuthHeaderSpan>a pokračujte do nastavení účtu</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Zadajte kód manuálne <enterCodeManuallyHeaderSpan>a pokračujte do nastavení účtu</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Zadajte tento tajný kľúč do overovacej aplikácie. <toggleToQRButton>Naskenovať radšej QR kód?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód vo svojej overovacej aplikácii a potom zadajte overovací kód, ktorý vám poskytne. <toggleToManualModeButton>Nemôžete naskenovať kód?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Po dokončení začne generovať overovacie kódy, ktoré môžete zadať.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Overovací kód
 
 ## AccountRecoveryConfirmKey page
 
