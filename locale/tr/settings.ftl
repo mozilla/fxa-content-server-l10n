@@ -54,6 +54,8 @@ choose-what-to-sync-option-creditcards =
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Gelen kutusunda da spam klasöründe de yok mu? Yeniden gönder
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Geri
 confirm-signup-aria-label =
@@ -174,6 +176,7 @@ confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmı
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Bizde depolanan şifrelenmiş verilerinize erişmek için bu parolaya ihtiyacınız olacak.
 
 ## PasswordStrengthBalloon component
 
@@ -796,12 +799,18 @@ inline-totp-setup-ready-button = Hazır
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } hizmetine devam etmek için</scanAuthCodeHeaderSpan> kimlik doğrulama kodunu tarayın
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 account-recovery-confirm-key-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
 account-recovery-confirm-key-instructions = { -product-firefox-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
 account-recovery-confirm-key-warning-message = <span>Not:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir.
 # Prompts the user to enter their account recovery code
@@ -850,6 +859,10 @@ confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adr
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> parolayı sıfırlayın
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> parolanızı sıfırlayın
 reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
 reset-password-button = Sıfırlamayı başlat
 reset-password-success-alert = Parola sıfırlama
@@ -909,6 +922,7 @@ signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } hizmetine
 signin-recovery-code-image-description =
     .aria-label = Gizli metin içeren belge.
 signin-recovery-code-instruction = Lütfen iki adımlı kimlik doğrulama kurulumu sırasında size verilen yedek kimlik doğrulama kodunu yazın.
+signin-recovery-code-input-label = 10 basamaklı yedek kimlik doğrulama kodunu girin
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
 # Link to return to signin with two-step authentication code (security code)
@@ -932,6 +946,7 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 signin-token-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu yazın
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = { $email } adresine gönderdiğimiz kodu 5 dakika içinde yazın.
+signin-token-code-input-label-v2 = 6 basamaklı kodu girin
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Onayla
 signin-token-code-code-expired = Kodun süresi mi doldu?
@@ -954,6 +969,7 @@ signin-totp-code-heading-w-custom-service = <span>{ $serviceName } hizmetine dev
 signin-totp-code-image-label =
     .aria-label = 6 basamaklı gizli kodu olan bir cihaz.
 signin-totp-code-instruction = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği güvenlik kodunu yazın.
+signin-totp-code-input-label-v2 = 6 basamaklı kodu girin
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
@@ -963,6 +979,9 @@ signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Hesabınızı onaylayın
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = { $email } adresine gönderdiğimiz onay bağlantısını kontrol edin
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -970,10 +989,29 @@ signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = <span>{ -product-firefox-account }</span> onay kodunuzu girin
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = { $email } adresine gönderdiğimiz kodu 5 dakika içinde girin.
+confirm-signup-code-input-label = 6 basamaklı kodu girin
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Onayla
+confirm-signup-code-code-expired = Kodun süresi mi doldu?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = E-posta ile yeni kod gönder.
+confirm-signup-code-required-error = Lütfen onay kodunu girin
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Parolanızı ayarlayın
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Neden bu hesabı oluşturmam gerekiyor? <LinkExternal>Nedenini öğrenin</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-postayı değiştir
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kaç yaşındasınız?
