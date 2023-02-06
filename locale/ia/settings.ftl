@@ -179,6 +179,7 @@ confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite us
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Te besonia iste contrasigno pro acceder ulle datos cryptate que tu immagazina con nos.
 password-info-balloon-reset-risk-info = Un remontage significa potentialmente perder datos como contrasignos e marcapaginas.
 
 ## PasswordStrengthBalloon component
@@ -734,6 +735,12 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Si tu procede, tu concorda con:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Terminos de servicio</firefoxTos> e <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy> de { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Si tu procede, tu accepta le <firefoxTos>Terminos de servicio</firefoxTos> e le <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -753,18 +760,21 @@ auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
 auth-error-183-2 = Codice de confirmation invalide o expirate
+auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Impossibile crear le conto
+cannot-create-account-requirements = Tu debe satisfacer certe requisitos de etate pro crear un { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Pro saper plus
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Il es necesse activar immagazinage local e cookies
 cookies-disabled-enable-prompt = Activa cookies e immagazinage local in tu navigator pro acceder a { -product-firefox-accounts }. Si faciente tu activara functionalitates tal como rememorar te inter sessiones.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Retenta
@@ -962,6 +972,7 @@ signin-totp-code-heading-w-custom-service = Insere codice de securitate <span>pr
 signin-totp-code-image-label =
     .aria-label = Un apparato con un codice occulte de 6 cifras.
 signin-totp-code-instruction = Aperi tu application de authentication e insere le codice de securitate que illo forni.
+signin-totp-code-input-label-v2 = Insere le codice de 6 digitos
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa un conto differente
@@ -986,6 +997,7 @@ confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Inviar nove codice per email.
+confirm-signup-code-required-error = Insere tu codice de confirmation
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
