@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Kuaapy ha’evéva ou ne ñe’ẽmondo g̃uahẽhápe. Eñemboheraguapy eikuaave hag̃ua:
 # Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Eñeha’ã ñanduti resãirã rehe
+# Newsletter checklist item
 choose-newsletters-option-knowledge-is-power =
     .label = Eime tekorosãme ñandutípe
 
@@ -948,6 +951,7 @@ confirm-signup-code-confirm-button = Moneĩ
 confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
+confirm-signup-code-required-error = Emoinge ayvu ñemoneĩrã
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
@@ -955,3 +959,11 @@ confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
 signup-heading = Emboaje ñe’ẽñemi
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Emoambue  ñanduti veve
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Mboy ary eguereko?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Emoinge nde ary eñemboheraguapykuévo
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ¿Mba’ére roporandu?
