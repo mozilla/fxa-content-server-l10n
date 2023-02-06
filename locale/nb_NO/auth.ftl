@@ -328,6 +328,9 @@ postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-verifisering
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Du har slått det av fra:
 postRemoveTwoStepAuthentication-action = Behandle konto
+postRemoveTwoStepAuthentication-not-required-2 = Du trenger ikke lenger sikkerhetskoder fra autentiseringsappen når du logger inn.
+postVerify-sub-title-3 = Vi er glade for å se deg!
+postVerify-title-2 = Vil du se den samme fanen på to enheter?
 postVerifySecondary-subject = Sekundær e-postadresse lagt til
 postVerifySecondary-title = Sekundær e-postadresse lagt til
 postVerifySecondary-action = Behandle konto
