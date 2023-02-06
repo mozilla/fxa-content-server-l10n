@@ -872,9 +872,13 @@ validating-signin = Amoneĩ tembiapo ñepyrũ…
 ## ConfirmSignin component
 
 confirm-signin-header = Emoneĩ ne rembiapo ñepyrũ
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email } ne ñanduti vevépe
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Ehai ñe’ẽñemi <span>ne { -product-firefox-account }</span> peg̃uarã
 signin-button = Eñemboheraguapy
 signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eipuru ambuéva mba’ete
@@ -904,6 +908,7 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Moneĩ
 signin-token-code-code-expired = ¿Ndoikovéima ayvu?
@@ -916,8 +921,14 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
+signin-totp-code-other-account-link = Eipuru ambuéva mba’ete
+signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
