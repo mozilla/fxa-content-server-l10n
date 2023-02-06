@@ -331,12 +331,37 @@ postRemoveTwoStepAuthentication-action = Behandle konto
 postRemoveTwoStepAuthentication-not-required-2 = Du trenger ikke lenger sikkerhetskoder fra autentiseringsappen når du logger inn.
 postVerify-sub-title-3 = Vi er glade for å se deg!
 postVerify-title-2 = Vil du se den samme fanen på to enheter?
+postVerify-description-2 = Det er lett! Installer bare { -brand-firefox } på en annen enhet og logg på for å synkronisere. Det er som magi!
+postVerify-sub-description = (Psst… Det betyr også at du kan få bokmerker, passord og andre { -brand-firefox }-data overalt hvor du er logget inn.)
+postVerify-subject-3 = Velkommen til { -brand-firefox }!
+postVerify-setup-2 = Koble til en annen enhet:
+postVerify-action-2 = Koble til en annen enhet
 postVerifySecondary-subject = Sekundær e-postadresse lagt til
 postVerifySecondary-title = Sekundær e-postadresse lagt til
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Du har bekreftet %(secondaryEmail)s som en sekundær e-postadresse for din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil nå bli leverte til begge e-postadressene.
 postVerifySecondary-action = Behandle konto
 recovery-subject = Tilbakestill passord
+recovery-title-2 = Glemt passord ditt?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Vi mottok en forespørsel om passordendring på din { -product-firefox-account } fra:
+recovery-new-password-button = Opprett et nytt passord ved å klikke på knappen nedenfor. Denne lenken vil utløpe innen den neste timen.
+recovery-copy-paste = Opprett et nytt passord ved å kopiere og lime inn nettadressen nedenfor i nettleseren din. Denne lenken vil utløpe innen den neste timen.
 recovery-action = Lag nytt passord
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Ditt abonnement på { $productName } har blit avsluttet
 subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et passord.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Velkommen til { $productName }
+subscriptionAccountFinishSetup-action-2 = Kom i gang
+subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
 subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
 
 ## Variables
