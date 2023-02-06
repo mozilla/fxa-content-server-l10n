@@ -889,6 +889,8 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
 signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
 
