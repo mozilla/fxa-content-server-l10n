@@ -838,9 +838,13 @@ inline-totp-setup-ready-button = Sẵn sàng
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = Quét mã xác thực <scanAuthCodeHeaderSpan>để tiếp tục đến { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Nhập mã theo cách thủ công <enterCodeManuallyHeaderSpan>để tiếp tục đến { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = Quét mã xác thực <scanAuthHeaderSpan>để tiếp tục đến cài đặt tài khoản</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Nhập mã theo cách thủ công <enterCodeManuallyHeaderSpan>để tiếp tục đến cài đặt tài khoản</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Nhập khóa bí mật này vào ứng dụng xác thực của bạn. <toggleToQRButton>Thay vào đó, hãy quét mã QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
