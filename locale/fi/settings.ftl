@@ -14,6 +14,11 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Hyödyllistä tietoa on tulossa sähköpostiisi. Tilaa lisää:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Vastaanota viimeisimmät uutiset { -brand-mozilla }sta ja { -brand-firefox }ista
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Aktivoidu pitääksesi internetin terveenä
@@ -136,6 +141,9 @@ input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy n�
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Vahvistuslinkki vaurioitunut
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
@@ -143,6 +151,8 @@ reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähk�
 
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Vahvistuslinkki on vanhentunut
 reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Vastaanota uusi linkki
@@ -869,6 +879,9 @@ signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Jäitkö ulos tililtäsi?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -879,6 +892,9 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Kirjoita 6-numeroinen koodi
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Vahvista
 signin-token-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
@@ -914,6 +930,8 @@ confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Aseta salasana
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Vaihda sähköpostiosoite
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Kuinka vanha olet?
