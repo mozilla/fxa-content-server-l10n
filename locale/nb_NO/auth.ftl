@@ -360,6 +360,7 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
+subscriptionAccountFinishSetup-content-create-2 = Deretter oppretter du et { -product-firefox-account }-passord for å begynne å bruke ditt nye abonnement.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikke tilgang til abonnementet ditt ennå
