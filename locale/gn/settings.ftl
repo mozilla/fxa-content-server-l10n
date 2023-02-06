@@ -934,6 +934,7 @@ signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Emoneĩjey ne mba’ete
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -941,7 +942,16 @@ signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Emoinge ayvu 6 taíva
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Moneĩ
+confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Emboaje ñe’ẽñemi
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Emoambue  ñanduti veve
