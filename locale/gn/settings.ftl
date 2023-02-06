@@ -3,6 +3,36 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Mboty
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Mboguejypyre
+datablock-copy =
+    .message = Monguatiapyre
+datablock-print =
+    .message = Monguatiapyre
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +67,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = Ñe’ẽñemi pyahu
@@ -45,6 +75,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = Emoingejey ñe’ẽñemi
 form-reset-password-with-balloon-submit-button = Ñe’ẽñemi mbojevyjey
 form-reset-password-with-balloon-match-error = Ko’ã ñe’ẽñemi ndojojoguái
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
+get-data-trio-download =
+    .title = Mboguejy
+get-data-trio-copy =
+    .title = Monguatia
+get-data-trio-print =
+    .title = Monguatia
 
 ## Input Password
 
@@ -88,6 +130,10 @@ primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
 confirmation-link-reused-message = Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eipuru.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -216,15 +262,6 @@ cs-recent-activity = Mba’ete rembiapo ramoguavéva
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Mboguejypyre
-datablock-copy =
-    .message = Monguatiapyre
-datablock-print =
-    .message = Monguatiapyre
-
 ## Data collection section
 
 dc-heading = Ñembyaty ha mba’ekuaarã jepuru
@@ -248,18 +285,6 @@ drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembi
 ## Flow Container
 
 flow-container-back = Tapykue
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
-get-data-trio-download =
-    .title = Mboguejy
-get-data-trio-copy =
-    .title = Monguatia
-get-data-trio-print =
-    .title = Monguatia
 
 # HeaderLockup component
 
@@ -664,6 +689,10 @@ tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Mba’ete ojeikuaa’ỹva
@@ -684,12 +713,21 @@ auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Javy:
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 
 ## AccountRecoveryConfirmKey page
@@ -759,6 +797,14 @@ reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Javy:
+
+## ConfirmSignin component
+
+
 ## Signin page
 
 signin-button = Eñemboheraguapy
@@ -804,3 +850,19 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
