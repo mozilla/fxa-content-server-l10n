@@ -3,6 +3,36 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Затвори
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Преузето
+datablock-copy =
+    .message = Копирано
+datablock-print =
+    .message = Одштампано
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +67,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = Нова лозинка
@@ -45,6 +75,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = Поново унеси лозинку
 form-reset-password-with-balloon-submit-button = Ресетуј лозинку
 form-reset-password-with-balloon-match-error = Лозинке се не подударају
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } кључ за опоравак налога
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } резервни приступни кодови
+get-data-trio-download =
+    .title = Преузми
+get-data-trio-copy =
+    .title = Копирај
+get-data-trio-print =
+    .title = Штампај
 
 ## Input Password
 
@@ -88,6 +130,10 @@ primary-email-confirmation-link-reused = Примарна адреса е-пош
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Пријава је већ потврђена
 confirmation-link-reused-message = Ова потврдна веза је већ искоришћена, може се искористити само једном.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -217,15 +263,6 @@ cs-recent-activity = Недавне активности налога
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Преузето
-datablock-copy =
-    .message = Копирано
-datablock-print =
-    .message = Одштампано
-
 ## Data collection section
 
 dc-heading = Сакупљање и коришћење података
@@ -249,18 +286,6 @@ drop-down-menu-sign-out-error-2 = Жао нам је, дошло је до гр�
 ## Flow Container
 
 flow-container-back = Назад
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } кључ за опоравак налога
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } резервни приступни кодови
-get-data-trio-download =
-    .title = Преузми
-get-data-trio-copy =
-    .title = Копирај
-get-data-trio-print =
-    .title = Штампај
 
 # HeaderLockup component
 
@@ -668,6 +693,10 @@ tfa-row-change-modal-heading-1 = Променити резервне прист�
 tfa-row-change-modal-confirm = Промени
 tfa-row-change-modal-explain = Нећете моћи да опозовете ову радњу.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Непознат налог
@@ -688,18 +717,22 @@ auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао верификациони код
 auth-error-1008 = Нова лозинка мора да буде другачија
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Грешка:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Пријава се потрвђује…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Потврди ову пријаву
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Проверите вашу е-пошту ради потврдне везе за приступ послате на { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -770,6 +803,19 @@ reset-password-error-unknown-account = Непознат налог
 reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
 reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Грешка:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Пријава се потрвђује…
+
+## ConfirmSignin component
+
+confirm-signin-header = Потврди ову пријаву
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Проверите вашу е-пошту ради потврдне везе за приступ послате на { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -783,14 +829,6 @@ signin-subheader-without-logo-with-servicename = Настави на { $serviceN
 signin-subheader-without-logo-default = Настави на подешавања налога
 signin-button = Пријави се
 signin-header = Пријави се
-# This message is followed by a bulleted list
-signin-tos-list-intro = Ако наставите, слажете се са:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = { -product-pocket } <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = { -brand-firefox } <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Ако наставите, слажете се са <linkExternal>условима коришћења</linkExternal> и <linkExternal>обавештењем о приватности</linkExternal>
 signin-use-a-different-account-link = Користи други налог
 signin-forgot-password-link = Заборавили сте лозинку?
 signin-bounced-header = Жао нам је. Закључали смо ваш налог.
@@ -816,8 +854,6 @@ signin-recovery-code-heading-w-custom-service = Унесите резервни 
 signin-recovery-code-image-description =
     .aria-label = Документ који садржи скривени текст.
 signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили верификацију у два корака.
-signin-recovery-code-input =
-    .label = Унесите 10-цифрени резервни приступни код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Потврди
 # Link to return to signin with two-step authentication code (security code)
@@ -841,8 +877,6 @@ signin-reported-message = Наш тим је обавештен. Овакви и
 signin-token-code-heading = Унесите потврдни код<span> за ваш { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
-signin-token-code-input-label =
-    .label = Унесите шестоцифрени код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Потврди
 signin-token-code-code-expired = Код је истекао?
@@ -865,9 +899,23 @@ signin-totp-code-heading-w-custom-service = Унесите безбедносн�
 signin-totp-code-image-label =
     .aria-label = Уређај са скривеним шестоцифреним кодом.
 signin-totp-code-instruction = Отворите вашу апликацију за аутентификацију и унесите понуђени безбедносни код.
-signin-totp-code-input-label =
-    .label = Унесите шестоцифрени код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Потврди
 signin-totp-code-other-account-link = Користи други налог
 signin-totp-code-recovery-code-link = Проблеми с уносом кода?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
