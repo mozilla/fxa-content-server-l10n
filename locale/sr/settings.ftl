@@ -16,10 +16,30 @@ banner-dismiss-button =
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Практично знање стиже директно у ваше пријемно сандуче. Пријавите се за више:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Сазнајте најновије вести о { -brand-mozilla }-и и { -brand-firefox }-у
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Предузмите кораке за одржавање здравог интернета
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Будите безбеднији и паметнији на мрежи
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Изаберите шта ћете синхронизовати:
+choose-what-to-sync-option-bookmarks =
+    .label = Забелешке
+choose-what-to-sync-option-history =
+    .label = Историју
+choose-what-to-sync-option-passwords =
+    .label = Лозинке
+choose-what-to-sync-option-addons =
+    .label = Додатке
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
