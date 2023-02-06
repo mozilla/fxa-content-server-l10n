@@ -765,6 +765,7 @@ cannot-create-account-learn-more-link = Pro saper plus
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Activa cookies e immagazinage local in tu navigator pro acceder a { -product-firefox-accounts }. Si faciente tu activara functionalitates tal como rememorar te inter sessiones.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Retenta
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
