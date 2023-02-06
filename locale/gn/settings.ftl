@@ -761,6 +761,7 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Ndaikatúi emoheñói mba’ete
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Kuaave
 
@@ -885,6 +886,13 @@ confirm-signin-message = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Ehai ñe’ẽñemi <span>ne { -product-firefox-account }</span> peg̃uarã
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Eku’ejey { $serviceName }
+signin-subheader-without-logo-default = Eku’ejey mba’ete mbohekopyahúpe
 signin-button = Eñemboheraguapy
 signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eipuru ambuéva mba’ete
