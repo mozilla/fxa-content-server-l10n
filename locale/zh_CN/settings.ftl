@@ -195,7 +195,7 @@ reset-password-complete-header = 您的密码已重置
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = 您可以使用 { $serviceName } 了
 # The user successfully accomplished a task (password reset, confirm email) that lets them use their account
-ready-use-service-default = 您现在可以使用帐户设置了
+ready-use-service-default = 您现在可以使用账户设置了
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = 您的账户准备好了！
 ready-continue = 继续
@@ -288,7 +288,7 @@ cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
-cs-recent-activity = 最近的帐户活动
+cs-recent-activity = 最近的账户活动
 
 ##
 
@@ -487,13 +487,13 @@ display-name-success-alert-2 = 显示名称已更新
 
 ## Recent Activity
 
-recent-activity-title = 最近的帐户活动
-recent-activity-account-create = 帐户已创建
-recent-activity-account-disable = 帐户已禁用
-recent-activity-account-enable = 帐户已启用
+recent-activity-title = 最近的账户活动
+recent-activity-account-create = 账户已创建
+recent-activity-account-disable = 账户已禁用
+recent-activity-account-enable = 账户已启用
 recent-activity-account-login = 账户发起的登录
-recent-activity-account-reset = 帐户发起的密码重置
-recent-activity-emails-clearBounces = 帐户已清除电子邮件退回
+recent-activity-account-reset = 账户发起的密码重置
+recent-activity-emails-clearBounces = 账户已清除电子邮件退回
 
 # Account recovery key setup page
 
@@ -848,7 +848,7 @@ signin-button = 登录
 signin-header = 登录
 signin-use-a-different-account-link = 换个账户登录
 signin-forgot-password-link = 忘记密码？
-signin-bounced-header = 对不起。我们已锁定您的帐户。
+signin-bounced-header = 对不起。我们已锁定您的账户。
 # $email (string) - The user's email.
 signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的帐户以保护您的 { -brand-firefox } 数据。
 # linkExternal is a link to a mozilla support
