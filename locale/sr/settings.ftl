@@ -40,11 +40,27 @@ choose-what-to-sync-option-passwords =
     .label = Лозинке
 choose-what-to-sync-option-addons =
     .label = Додатке
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Отворене картице
+choose-what-to-sync-option-prefs =
+    .label = Поставке
+choose-what-to-sync-option-addresses =
+    .label = Адресе
+choose-what-to-sync-option-creditcards =
+    .label = Кредитне картице
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Отвори { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Није у сандучету или у нежељеној пошти? Пошаљи поново
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Назад
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
