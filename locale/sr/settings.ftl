@@ -1043,7 +1043,34 @@ confirm-signup-instruction = Проверите вашу е-пошту ради 
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Унесите код за потврду <span>за ваш { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
+confirm-signup-code-input-label = Унесите шестоцифрени код
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Потврди
+confirm-signup-code-code-expired = Код је истекао?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Пошаљи нови е-поштом.
+confirm-signup-code-required-error = Унесите код за потврду
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Поставите лозинку
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Зашто морам да направим налог? <LinkExternal>Сазнајте овде</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Промени е-пошту
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Колико имате година?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Морате да унесете године да бисте се регистровали
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Зашто питамо?
