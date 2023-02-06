@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Zavrieť
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktické znalosti prichádzajú do vašej e-mailovej schránky. Prihláste sa na odber ďalších vecí:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Získajte najnovšie správy o { -brand-mozilla(case: "loc") } a { -brand-firefox(case: "loc") }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Podniknite kroky, aby sme udržali internet zdravý
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Buďte chytrejší na internete
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Vyberte si, čo chcete synchronizovať:
+choose-what-to-sync-option-bookmarks =
+    .label = Záložky
+choose-what-to-sync-option-history =
+    .label = História
+choose-what-to-sync-option-passwords =
+    .label = Heslá
+choose-what-to-sync-option-addons =
+    .label = Doplnky
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Otvorené karty
+choose-what-to-sync-option-prefs =
+    .label = Nastavenia
+choose-what-to-sync-option-addresses =
+    .label = Adresy
+choose-what-to-sync-option-creditcards =
+    .label = Platobné karty
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Otvoriť { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Nemáte nič v schránke ani v priečinku so spamom? Poslať znova
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Naspäť
+confirm-signup-aria-label =
+    .aria-label = Obálka s odkazom
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Stiahnuté
+datablock-copy =
+    .message = Skopírovaný
+datablock-print =
+    .message = Vytlačený
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -109,14 +179,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Heslo
+signup-confirm-password-label =
+    .label = Zopakujte heslo
+signup-submit-button = Vytvoriť účet
 form-reset-password-with-balloon-new-password =
     .label = Nové heslo
 form-reset-password-with-balloon-confirm-password =
     .label = Znova zadajte heslo
 form-reset-password-with-balloon-submit-button = Obnoviť heslo
 form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kľúč na obnovenie účtu { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Záložné overovacie kódy pre účet { -brand-firefox }
+get-data-trio-download =
+    .title = Stiahnuť
+get-data-trio-copy =
+    .title = Kopírovať
+get-data-trio-print =
+    .title = Tlačiť
 
 ## Input Password
 
@@ -160,6 +247,12 @@ primary-email-confirmation-link-reused = Hlavná e-mailová adresa už bola over
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prihlásenie je už potvrdené
 confirmation-link-reused-message = Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz).
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Toto heslo potrebujete na prístup ku všetkým zašifrovaným údajom, ktoré u nás ukladáte.
+password-info-balloon-reset-risk-info = Vynulovanie znamená možnú stratu údajov, ako sú heslá a záložky.
 
 ## PasswordStrengthBalloon component
 
@@ -290,15 +383,6 @@ cs-recent-activity = Nedávna aktivita účtu
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Stiahnuté
-datablock-copy =
-    .message = Skopírovaný
-datablock-print =
-    .message = Vytlačený
-
 ## Data collection section
 
 dc-heading = Zbieranie údajov a ich použitie
@@ -322,18 +406,6 @@ drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 ## Flow Container
 
 flow-container-back = Naspäť
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Kľúč na obnovenie účtu { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Záložné overovacie kódy pre účet { -brand-firefox }
-get-data-trio-download =
-    .title = Stiahnuť
-get-data-trio-copy =
-    .title = Kopírovať
-get-data-trio-print =
-    .title = Tlačiť
 
 # HeaderLockup component
 
@@ -737,6 +809,18 @@ tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Pokračovaním súhlasíte s:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Zmluvné podmienky</pocketTos> a <pocketPrivacy>Oznámenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Zmluvné podmienky</firefoxTos> a <firefoxPrivacy>Upozornenie o ochrane osobných údajov</firefoxPrivacy> aplikácie { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas so <firefoxTos>Zmluvnými podmienkami</firefoxTos> a <firefoxPrivacy>Oznámením o ochrane osobných údajov</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámy účet
@@ -755,20 +839,67 @@ auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
+auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Chyba:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Overuje sa prihlásenie…
+cannot-create-account-header = Účet nie je možné vytvoriť
+cannot-create-account-requirements = Ak si chcete vytvoriť { -product-firefox-account(case: "acc", capitalization: "lower") }, musíte spĺňať stanovené vekové požiadavky.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Ďalšie informácie
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Potvrdiť toto prihlásenie
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu { $email }
+cookies-disabled-header = Vyžaduje sa miestne úložisko a súbory cookie
+cookies-disabled-enable-prompt = Aby ste mohli používať { -product-firefox-accounts(case: "acc", capitalization: "lower") }, povoľte prosím cookies a lokálne úložisko. Vďaka tomu si vás budeme môcť zapamätať medzi jednotlivými reláciami.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Skúsiť znova
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Ďalšie informácie
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Ak chcete <span>pokračovať do služby { $serviceName }</span>, uložte si záložné overovacie kódy
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Tieto jednorazové kódy si uložte na bezpečné miesto, na ktoré sa dostanete aj bez svojho mobilného zariadenia.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Zrušiť
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Pokračovať
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Potvrdiť
+inline-recovery-back-link = Naspäť
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Záložný overovací kód
+inline-recovery-confirmation-description = Aby ste sa uistili, že budete môcť znova získať prístup k svojmu účtu, v prípade straty zariadenia zadajte jeden z uložených záložných overovacích kódov.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Dokument, ktorý obsahuje skrytý text.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
+inline-totp-setup-continue-button = Pokračovať
+inline-totp-setup-ready-button = Hotovo
 
 ## AccountRecoveryConfirmKey page
 
@@ -839,6 +970,19 @@ reset-password-error-unknown-account = Neznámy účet
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Chyba:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Overuje sa prihlásenie…
+
+## ConfirmSignin component
+
+confirm-signin-header = Potvrdiť toto prihlásenie
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -852,14 +996,6 @@ signin-subheader-without-logo-with-servicename = A pokračovať do služby { $se
 signin-subheader-without-logo-default = A pokračovať do nastavení účtu
 signin-button = Prihlásiť sa
 signin-header = Prihlásenie
-# This message is followed by a bulleted list
-signin-tos-list-intro = Pokračovaním súhlasíte s:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal> služby { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal> { -brand-firefox(case: "gen") }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Pokračovaním vyjadrujete súhlas s <linkExternal>Podmienkami používania služby</linkExternal> a <linkExternal>Zásadami ochrany súkromia</linkExternal>
 signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
@@ -885,8 +1021,7 @@ signin-recovery-code-heading-w-custom-service = Zadajte záložný overovací k�
 signin-recovery-code-image-description =
     .aria-label = Dokument, ktorý obsahuje skrytý text.
 signin-recovery-code-instruction = Zadajte záložný overovací kód, ktorý ste dostali počas nastavovania dvojstupňového overenia.
-signin-recovery-code-input =
-    .label = Zadajte 10-miestny záložný overovací kód
+signin-recovery-code-input-label = Zadajte 10-miestny záložný overovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdiť
 # Link to return to signin with two-step authentication code (security code)
@@ -910,8 +1045,7 @@ signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám p
 signin-token-code-heading = Zadajte potvrdzovací kód<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
-signin-token-code-input-label =
-    .label = Zadajte šesťmiestny kód
+signin-token-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdiť
 signin-token-code-code-expired = Platnosť kódu vypršala?
@@ -934,9 +1068,54 @@ signin-totp-code-heading-w-custom-service = Zadajte bezpečnostný kód <span>a 
 signin-totp-code-image-label =
     .aria-label = Zariadenie so skrytým šesťmiestnym kódom.
 signin-totp-code-instruction = Otvorte svoju overovaciu aplikáciu a opíšte z nej bezpečnostný kód.
-signin-totp-code-input-label =
-    .label = Zadajte šesťmiestny kód
+signin-totp-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdiť
 signin-totp-code-other-account-link = Použiť iný účet
 signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+confirm-signup-heading = Potvrďte svoj účet
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali na e-mailovú adresu { $email }
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Zadajte potvrdzovací kód <span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu { $email }.
+confirm-signup-code-input-label = Zadajte šesťmiestny kód
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Potvrdiť
+confirm-signup-code-code-expired = Platnosť kódu vypršala?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Odoslať e-mailom nový kód.
+confirm-signup-code-required-error = Zadajte potvrdzovací kód
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+signup-heading = Nastavte si heslo
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Prečo si musím vytvoriť tento účet? <LinkExternal>Zistíte to tu</LinkExternal>.
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Zmeniť e-mailovú adresu
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Koľko máte rokov?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Ak sa chcete prihlásiť, musíte zadať svoj vek
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Prečo sa pýtame?
