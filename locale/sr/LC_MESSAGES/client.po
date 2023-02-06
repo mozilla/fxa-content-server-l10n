@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-01-09 13:03+0000\n"
+"PO-Revision-Date: 2023-02-06 15:20+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1513,7 +1513,7 @@ msgstr "Ова лозинка вам је потребна за приступ �
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Примајте корисна знања директно у инбокс. Пријавите се да сазнате више:"
+msgstr "Практично знање стиже директно у ваше пријемно сандуче. Пријавите се за више:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1726,7 +1726,7 @@ msgstr "Претплатите се за више"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr "Практично знање долази у вашу пошту."
+msgstr "Практично знање стиже у ваше пријемно сандуче."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"

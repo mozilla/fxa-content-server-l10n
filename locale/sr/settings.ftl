@@ -14,6 +14,8 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Практично знање стиже директно у ваше пријемно сандуче. Пријавите се за више:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
