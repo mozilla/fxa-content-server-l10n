@@ -362,6 +362,7 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
+subscriptionAccountReminderFirst-title = Du har ikke tilgang til abonnementet ditt ennå
 subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
 
 ## Variables
