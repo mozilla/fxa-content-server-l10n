@@ -61,6 +61,8 @@ confirm-with-link-webmail-link = Отвори { $emailProvider }
 confirm-with-link-resend-link-button = Није у сандучету или у нежељеној пошти? Пошаљи поново
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Назад
+confirm-signup-aria-label =
+    .aria-label = Коверта која садржи везу
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -107,6 +109,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Лозинка
+signup-confirm-password-label =
+    .label = Понови лозинку
+signup-submit-button = Направи налог
 form-reset-password-with-balloon-new-password =
     .label = Нова лозинка
 form-reset-password-with-balloon-confirm-password =
