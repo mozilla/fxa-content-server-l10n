@@ -14,15 +14,49 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Kuaapy ha’evéva ou ne ñe’ẽmondo g̃uahẽhápe. Eñemboheraguapy eikuaave hag̃ua:
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Eime tekorosãme ñandutípe
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Eiporavo mba’épa embojuehéta:
+choose-what-to-sync-option-bookmarks =
+    .label = Techaukaha
+choose-what-to-sync-option-history =
+    .label = Tembiasakue
+choose-what-to-sync-option-passwords =
+    .label = Ñe’ẽñemi
+choose-what-to-sync-option-addons =
+    .label = Moĩmbaha
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Tendayke ijurujáva
+choose-what-to-sync-option-prefs =
+    .label = Jerohoryvéva
+choose-what-to-sync-option-addresses =
+    .label = Kundaharape
+choose-what-to-sync-option-creditcards =
+    .label = Kuatia’atã ñemurã
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Embojuruja { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ¿Ndaipóri ñe’ẽmondo g̃uahẽhápe térã ñandutiveve vai? Emondojey
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Tapykue
+confirm-signup-aria-label =
+    .aria-label = Mba’yru oguerekóva juajuha
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -69,6 +103,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Ñe’ẽñemi
+signup-confirm-password-label =
+    .label = Emoingejey ñe’ẽñemi
+signup-submit-button = Emoheñói mba’ete
 form-reset-password-with-balloon-new-password =
     .label = Ñe’ẽñemi pyahu
 form-reset-password-with-balloon-confirm-password =
@@ -716,15 +755,29 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Kuaave
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Eha’ãjey
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Kuaave
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Heja
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Ku’ejey
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Moneĩ
+inline-recovery-back-link = Tapykue
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
