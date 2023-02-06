@@ -361,11 +361,11 @@ modal-cancel-button = Откажи
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Потврди адресу е-поште
-mvs-enter-verification-code-2 = Унеси верификациони код
+mvs-enter-verification-code-2 = Унесите код за потврду
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc-2 = Унесите верификациони код који је послан на <email>{ $email }</email> у наредних 5 минута.
+mvs-enter-verification-code-desc-2 = Унесите код за потврду који је послан на <email>{ $email }</email> у року од 5 минута.
 msv-cancel-button = Откажи
 msv-submit-button-2 = Потврди
 
@@ -543,17 +543,17 @@ add-secondary-email-save-button = Сачувај
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Корак 2 од 2
-verify-secondary-email-error-3 = Дошло је до грешке при слању верификационог кода
+verify-secondary-email-error-3 = Дошло је до грешке при слању кода за потврду
 verify-secondary-email-page-title =
     .title = Секундарна е-пошта
 verify-secondary-email-verification-code-2 =
-    .label = Унеси верификациони код
+    .label = Унесите код за потврду
 verify-secondary-email-cancel-button = Откажи
 verify-secondary-email-verify-button-2 = Потврди
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code-2 = Унесите верификациони код који вам је послан на <strong>{ $email }</strong> у наредних 5 минута.
+verify-secondary-email-please-enter-code-2 = Унесите код за потврду који вам је послан на <strong>{ $email }</strong> у року од 5 минута.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -678,7 +678,7 @@ rk-remove-error-2 = Није могуће уклонити ваш кључ за 
 se-heading = Секундарна е-пошта
     .header = Секундарна е-пошта
 se-cannot-refresh-email = Жао нам је, дошло је до проблема приликом освежавања е-поште.
-se-cannot-resend-code-3 = Жао нам је, дошло је до грешке при поновном слању верификационог кода
+se-cannot-resend-code-3 = Жао нам је, дошло је до грешке при поновном слању кода за потврду
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -699,7 +699,7 @@ se-refresh-email =
     .title = Освежи е-пошту
 se-unverified-2 = непотврђено
 se-resend-code-2 =
-    Потребна је потврда. <button>Поново пошаљите верификациони код</button>
+    Потребна је потврда. <button>Поново пошаљите код за потврду</button>
     ако није у вашем пријемном сандучету или нежељеној пошти.
 # Button to make secondary email the primary
 se-make-primary = Подеси као примарно
@@ -756,7 +756,7 @@ terms-privacy-agreement-default = Ако наставите, слажете се
 
 auth-error-102 = Непознат налог
 auth-error-103 = Погрешна лозинка
-auth-error-105-2 = Неисправан верификациони код
+auth-error-105-2 = Неисправан код за потврду
 auth-error-110 = Неважећи токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -769,7 +769,7 @@ auth-error-114 = Покушали сте превише пута. Покушај
 auth-error-138-2 = Непотврђена сесија
 auth-error-139 = Секундарна адреса мора бити другачија од адресе вашег налога
 auth-error-155 = TOTP токен није пронађен
-auth-error-183-2 = Неисправан или истекао верификациони код
+auth-error-183-2 = Неисправан или истекао код за потврду
 auth-error-1003 = Локално складиште или колачићи су и даље онемогућени
 auth-error-1008 = Нова лозинка мора да буде другачија
 
@@ -960,7 +960,7 @@ signin-recovery-code-heading-w-default-service = Унесите резервни
 signin-recovery-code-heading-w-custom-service = Унесите резервни приступни код <span>да наставите на { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Документ који садржи скривени текст.
-signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили верификацију у два корака.
+signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили аутентификацију у два корака.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Потврди
 # Link to return to signin with two-step authentication code (security code)

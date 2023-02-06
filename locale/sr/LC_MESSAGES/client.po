@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-02-06 15:20+0000\n"
+"PO-Revision-Date: 2023-02-06 19:49+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -35,7 +35,7 @@ msgstr "Налог је успешно избрисан"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Искористите код %(code)s да поставите верификацију у два корака у подржаним апликацијама."
+msgstr "Искористите код %(code)s да поставите аутентификацију у два корака у подржаним апликацијама."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -348,7 +348,7 @@ msgstr "Непотврђен налог"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
-msgstr "Неважећи верификациони кôд"
+msgstr "Неважећи код за потврду"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
@@ -524,7 +524,7 @@ msgstr "Ажурирање је одбијено, покушајте понов�
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr "Неисправан или неважећи верификациони код"
+msgstr "Неисправан или неважећи код за потврду"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -601,7 +601,7 @@ msgstr "Потребна је исправна URL адреса"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr "Верификациона е-пошта је управо враћена. Погрешна адреса?"
+msgstr "Е-пошта за потврду је управо враћена. Погрешна адреса?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -693,7 +693,7 @@ msgstr "Потребан је кључ за опоравак налога"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
-msgstr "Унесите верификациони код"
+msgstr "Унесите код за потврду"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
@@ -1058,7 +1058,7 @@ msgstr "Кликните на везу послату на адресу %(email)
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr "Унеси верификациони код"
+msgstr "Унесите код за потврду"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1445,7 +1445,7 @@ msgstr "Унеси резервни приступни код"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Унесите резервни код који сте добили када сте подесили верификацију у два корака."
+msgstr "Унесите резервни приступни код који сте добили када сте подесили аутентификацију у два корака."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
@@ -1465,7 +1465,7 @@ msgstr "Наш тим је обавештен. Овакви извешаји н�
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "Унесите верификациони код за <span class=\"card-subheader\">ваш Firefox налог</span>"
+msgstr "Унесите код за потврду за <span class=\"card-subheader\">ваш Firefox налог</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1676,7 +1676,7 @@ msgstr "Можда касније"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Унесите верификациони код који је послан на %(escapedEmail)s у наредних 5 минута."
+msgstr "Унесите код за потврду који је послан на %(escapedEmail)s у року од 5 минута."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
