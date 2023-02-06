@@ -897,6 +897,29 @@ inline-totp-setup-cancel-setup-button = Скасувати налаштуван�
 inline-totp-setup-continue-button = Продовжити
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Додайте до свого облікового запису ще один рівень захисту, вимагаючи коди автентифікації з використанням <authenticationAppsLink>цих застосунків</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Увімкніть двоетапну перевірку, <enable2StepDefaultSpan>щоб перейти до налаштувань облікового запису</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Увімкніть двоетапну перевірку, <enable2StepCustomServiceSpan>щоб перейти до { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Готово
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Скануйте код автентифікації, <scanAuthCodeHeaderSpan>щоб перейти до { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Введіть код вручну, <enterCodeManuallyHeaderSpan>щоб перейти до { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Скануйте код автентифікації, <scanAuthHeaderSpan>щоб перейти до налаштувань облікового запису</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Введіть код вручну, <enterCodeManuallyHeaderSpan>щоб перейти до налаштувань облікового запису</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Введіть цей секретний ключ у своєму застосунку для автентифікації. <toggleToQRButton>Сканувати натомість QR-код?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Скануйте QR-код у своєму застосунку для автентифікації, а потім введіть запропонований код. <toggleToManualModeButton>Не можете сканувати код?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Після завершення налаштування він почне генерувати коди автентифікації для введення.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Код автентифікації
 
 ## AccountRecoveryConfirmKey page
 
@@ -1018,6 +1041,7 @@ signin-recovery-code-heading-w-custom-service = Введіть резервни�
 signin-recovery-code-image-description =
     .aria-label = Документ, який містить прихований текст.
 signin-recovery-code-instruction = Введіть резервний код автентифікації, наданий вам під час налаштування двоетапної перевірки.
+signin-recovery-code-input-label = Введіть 10-значний резервний код автентифікації
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
 # Link to return to signin with two-step authentication code (security code)
@@ -1041,6 +1065,7 @@ signin-reported-message = Наша команда була сповіщена. �
 signin-token-code-heading = Введіть код підтвердження<span> для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
+signin-token-code-input-label-v2 = Введіть 6-значний код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Підтвердити
 signin-token-code-code-expired = Код застарів?
@@ -1063,6 +1088,7 @@ signin-totp-code-heading-w-custom-service = Введіть код безпеки
 signin-totp-code-image-label =
     .aria-label = Пристрій з прихованим 6-значним кодом.
 signin-totp-code-instruction = Відкрийте вашу програму автентифікації та введіть код безпеки, який вона пропонує.
+signin-totp-code-input-label-v2 = Введіть 6-значний код
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Підтвердити
 signin-totp-code-other-account-link = Використати інший обліковий запис
@@ -1072,6 +1098,9 @@ signin-totp-code-recovery-code-link = Проблеми з введенням к�
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Підтвердьте свій обліковий запис
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Знайдіть лист із посиланням для підтвердження, надісланий на { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1079,7 +1108,34 @@ signin-totp-code-recovery-code-link = Проблеми з введенням к�
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Введіть код підтвердження <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
+confirm-signup-code-input-label = Введіть 6-значний код
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Підтвердити
+confirm-signup-code-code-expired = Код застарів?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Надіслати новий код електронною поштою.
+confirm-signup-code-required-error = Введіть код підтвердження
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Встановіть пароль
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Нащо потрібно створювати обліковий запис? <LinkExternal>Дізнайтеся тут</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Змінити адресу електронної пошти
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Скільки вам років?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Щоб зареєструватися, ви маєте вказати свій вік
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Чому ми запитуємо?
