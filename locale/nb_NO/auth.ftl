@@ -363,6 +363,12 @@ subscriptionAccountFinishSetup-title = Velkommen til { $productName }
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikke tilgang til abonnementet ditt ennå
+subscriptionAccountReminderFirst-action = Opprett passord
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Siste påminnelse: Konfigurer kontoen din
+subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Opprett passord
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
 
 ## Variables
