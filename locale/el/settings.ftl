@@ -783,6 +783,7 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσβασης
 
 ## Confirm Reset Password Component
 
@@ -805,8 +806,13 @@ confirm-signin-header = Επιβεβαίωση σύνδεσης
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Συνέχεια στο { $serviceName }
 signin-button = Σύνδεση
 signin-header = Σύνδεση
+signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
+signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 back = Πίσω
 
 ## SigninRecoveryCode page
@@ -831,6 +837,9 @@ signin-recovery-code-support-link = Έχετε κλειδωθεί;
 
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Επιβεβαίωση
+signin-token-code-code-expired = Έληξε ο κωδικός;
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -851,9 +860,17 @@ signin-totp-code-confirm-button = Επιβεβαίωση
 
 # and a confirmation code has been sent to their email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Επιβεβαίωση
+confirm-signup-code-code-expired = Έληξε ο κωδικός;
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Γιατί ρωτάμε;
