@@ -834,7 +834,25 @@ inline-totp-setup-continue-button = Trochgean
 inline-totp-setup-add-security-link = Foegje in befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan<authenticationAppsLink>dizze apps foar autentikaasje</authenticationAppsLink> te easkjen.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header = Skeakelje twastapsautentikaasje yn <enable2StepDefaultSpan>om troch te gean nei jo accountynstellingen</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Skeakelje twastapsautentikaasje yn <enable2StepCustomServiceSpan>om troch te gean nei { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Klear
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scan jo autentikaasjekoade <scanAuthCodeHeaderSpan>om troch te gean nei { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Fier de koade hânmjittich yn <enterCodeManuallyHeaderSpan>om troch te gean nei { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scan jo autentikaasjekoade <scanAuthHeaderSpan>om troch te gean nei jo accountynstellingen</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Fier de koade hânmjittich yn <enterCodeManuallyHeaderSpan>om troch te gean nei jo accountynstellingen</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Typ dizze geheime kaai yn jo autentikaasje-app. <toggleToQRButton>QR-koade scanne?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-koade yn jo autentikaasje-app en fier dênnei de autentikaasjekoade yn dy’t opjûn wurdt. <toggleToManualModeButton>Kinne jo de koade net scanne?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Nei foltôgjen wurde autentikaasjekoaden foar jo generearre dy’t jo ynfiere kinne.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentikaasjekoade
 
@@ -1016,6 +1034,8 @@ signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
 ## when setting up a new account
 
 confirm-signup-heading = Befêstigje jo account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Kontrolearje jo e-mail op de befêstigingskeppeling dy’t nei { $email } is ferstjoerd
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1023,6 +1043,12 @@ confirm-signup-heading = Befêstigje jo account
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 confirm-signup-code-input-label = Fier 6-siferige koade yn
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Befêstigje
@@ -1035,6 +1061,9 @@ confirm-signup-code-required-error = Fier befêstigingskoade yn
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Stel jo wachtwurd yn
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Wêrom moat ik dizze account oanmeitsje? <LinkExternal>Lês it hjir</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wizigje
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
