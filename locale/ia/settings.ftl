@@ -805,6 +805,10 @@ inline-recovery-setup-image-description =
 inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
 inline-totp-setup-ready-button = Preste
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Codices de authentication
 
 ## AccountRecoveryConfirmKey page
 
@@ -950,6 +954,7 @@ signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adju
 signin-token-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
+signin-token-code-input-label-v2 = Insere le codice de 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = Codice expirate?
@@ -992,6 +997,7 @@ confirm-signup-heading = Confirma tu conto
 
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
+confirm-signup-code-input-label = Insere le codice de 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = Codice expirate?
