@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Bezárás
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Gyakorlati ismeretek érkeznek a postafiókjába. Iratkozzon fel többért:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Kapja meg a legfrissebb híreket a { -brand-mozilla(ending: "accented") }ról és a { -brand-firefox }ról
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Tegyen lépéseket, hogy az internet egészséges maradjon
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Legyen nagyobb biztonságban és legyen okosabb online
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Válassza ki, mit szeretne szinkronizálni:
+choose-what-to-sync-option-bookmarks =
+    .label = Könyvjelzők
+choose-what-to-sync-option-history =
+    .label = Előzmények
+choose-what-to-sync-option-passwords =
+    .label = Jelszavak
+choose-what-to-sync-option-addons =
+    .label = Kiegészítők
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Nyitott lapok
+choose-what-to-sync-option-prefs =
+    .label = Beállítások
+choose-what-to-sync-option-addresses =
+    .label = Címek
+choose-what-to-sync-option-creditcards =
+    .label = Bankkártyák
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = { $emailProvider } megnyitása
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Nincs a beérkezett vagy a spam mappában? Újraküldés
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Vissza
+confirm-signup-aria-label =
+    .aria-label = Egy hivatkozást tartalmazó boríték
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Letöltve
+datablock-copy =
+    .message = Másolva
+datablock-print =
+    .message = Kinyomtatva
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -42,14 +112,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Jelszó
+signup-confirm-password-label =
+    .label = Jelszó megismétlése
+signup-submit-button = Fiók létrehozása
 form-reset-password-with-balloon-new-password =
     .label = Új jelszó
 form-reset-password-with-balloon-confirm-password =
     .label = Jelszó megerősítése
 form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
 form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } fiók-helyreállítási kulcs
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } tartalék hitelesítési kódok
+get-data-trio-download =
+    .title = Letöltés
+get-data-trio-copy =
+    .title = Másolás
+get-data-trio-print =
+    .title = Nyomtatás
 
 ## Input Password
 
@@ -93,6 +180,10 @@ primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett er�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -222,15 +313,6 @@ cs-recent-activity = Legutóbbi fióktevékenység
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Letöltve
-datablock-copy =
-    .message = Másolva
-datablock-print =
-    .message = Kinyomtatva
-
 ## Data collection section
 
 dc-heading = Adatgyűjtés és -felhasználás
@@ -254,18 +336,6 @@ drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezése
 ## Flow Container
 
 flow-container-back = Vissza
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } fiók-helyreállítási kulcs
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } tartalék hitelesítési kódok
-get-data-trio-download =
-    .title = Letöltés
-get-data-trio-copy =
-    .title = Másolás
-get-data-trio-print =
-    .title = Nyomtatás
 
 # HeaderLockup component
 
@@ -671,6 +741,10 @@ tfa-row-change-modal-heading-1 = Lecseréli a tartalék hitelesítési kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ismeretlen fiók
@@ -691,18 +765,22 @@ auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Hiba:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Bejelentkezés ellenőrzése…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Erősítse meg ezt a bejelentkezést
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelentkezési megerősítő hivatkozás ide: { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -773,6 +851,19 @@ reset-password-error-unknown-account = Ismeretlen fiók
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Hiba:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Bejelentkezés ellenőrzése…
+
+## ConfirmSignin component
+
+confirm-signin-header = Erősítse meg ezt a bejelentkezést
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelentkezési megerősítő hivatkozás ide: { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -786,14 +877,6 @@ signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
 signin-subheader-without-logo-default = Folytatás a fiókbeállításokhoz
 signin-button = Bejelentkezés
 signin-header = Bejelentkezés
-# This message is followed by a bulleted list
-signin-tos-list-intro = A továbblépéssel elfogadja a következőket:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = A { -product-pocket } <linkExternal>Szolgáltatási feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = A { -brand-firefox } <linkExternal>Szolgáltatási feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = A továbblépéssel elfogadja a <linkExternal>Szolgáltatás feltételeit</linkExternal> és az <linkExternal>Adatvédelmi nyilatkozatot</linkExternal>
 signin-use-a-different-account-link = Másik fiók használata
 signin-forgot-password-link = Elfelejtette a jelszót?
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
@@ -819,8 +902,6 @@ signin-recovery-code-heading-w-custom-service = Adja meg a tartalék hitelesít�
 signin-recovery-code-image-description =
     .aria-label = Rejtett szöveget tartalmazó dokumentum.
 signin-recovery-code-instruction = Adjon meg egy tartalék hitelesítési kódot, amelyet a kétlépcsős hitelesítés beállítása során kapott.
-signin-recovery-code-input =
-    .label = Adja meg a 10 számjegyű tartalék hitelesítési kódját
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
 # Link to return to signin with two-step authentication code (security code)
@@ -844,8 +925,6 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 signin-token-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Adja meg 5 percen belül a(z) { $email } címre küldött kódot.
-signin-token-code-input-label =
-    .label = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Megerősítés
 signin-token-code-code-expired = A kód lejárt?
@@ -868,9 +947,23 @@ signin-totp-code-heading-w-custom-service = Adja meg a biztonsági kódot <span>
 signin-totp-code-image-label =
     .aria-label = Egy eszköz egy rejtett 6 számjegyű kóddal.
 signin-totp-code-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott biztonsági kódot.
-signin-totp-code-input-label =
-    .label = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
 signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
