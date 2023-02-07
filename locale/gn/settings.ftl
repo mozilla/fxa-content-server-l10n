@@ -179,6 +179,8 @@ confirmation-link-reused-message = Ojepurúma pe joajuha ñemoneĩrãva ha pete�
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Eikotevẽ ñe’ẽñemi eike hag̃ua oimeraẽva mba’ekuaarã ipapapýva embyatýva orendive.
+password-info-balloon-reset-risk-info = Ñemoñepyrũjey he’ise okañykuaaha mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha.
 
 ## PasswordStrengthBalloon component
 
@@ -186,6 +188,7 @@ password-strength-balloon-heading = Ñe’ẽñemi oikotevẽva
 password-strength-balloon-min-length = Michĩvéramo 8 tai
 password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
 password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojepurumeméva
+password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eipurujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
 ## Ready component
 
@@ -740,6 +743,8 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
 
 ## Auth-server based errors that originate from backend service
 
