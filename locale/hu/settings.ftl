@@ -184,6 +184,8 @@ confirmation-link-reused-message = A megerősítési hivatkozás már volt haszn
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Erre a jelszóra van szüksége a nálunk tárolt titkosított adatok eléréséhez.
+password-info-balloon-reset-risk-info = Az alaphelyzetbe állítás azt jelenti, hogy elvesztheti az adatait, például a jelszavait és könyvjelzőit.
 
 ## PasswordStrengthBalloon component
 
@@ -744,6 +746,14 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = A továbblépéssel elfogadja a következőket:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = A { -product-pocket } <pocketTos> Szolgáltatási feltételeit</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozatot</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = A { -brand-firefox } <firefoxTos>Szolgáltatási feltételeit</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = A továbblépéssel elfogadja a <firefoxTos>Szolgáltatási feltételeket</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -763,24 +773,70 @@ auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
+auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Nem hozható létre fiók
+cannot-create-account-requirements = Bizonyos korkövetelményeknek meg kell felelni a { -product-firefox-account } létrehozásához.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = További tudnivalók
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Helyi tároló és sütik szükségesek
+cookies-disabled-enable-prompt = A { -product-firefox-accounts }ba történő belépéshez engedélyezze böngészőjében a sütiket és a helyi tárolót. Ezzel lehetővé teszi olyan funkciók működését, mint az adatok megjegyzése az egyes munkamenetei között.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Próbálja újra
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = További tudnivalók
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Erősítse meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Mentse el a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Tárolja ezeket az egyszer használatos kódokat biztonságos helyen, arra az esetre, ha nincs mobileszköze.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Mégse
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Folytatás
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Megerősítés
+inline-recovery-back-link = Vissza
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Tartalék hitelesítési kód
+inline-recovery-confirmation-description = Annak érdekében, hogy visszaszerezhesse a fiókját az eszköz elvesztése esetén, írja be az egyik elmentett tartalék hitelesítési kódot.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Erősítse meg a tartalék hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Erősítse meg a tartalék hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Rejtett szöveget tartalmazó dokumentum.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Beállítás megszakítása
+inline-totp-setup-continue-button = Folytatás
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Adjon egy biztonsági réteget a fiókjához az <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> egyikéből származó hitelesítési kódok megkövetelésével.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a fiókbeállításokhoz való továbblépéshez</enable2StepDefaultSpan>
 
 ## AccountRecoveryConfirmKey page
 
