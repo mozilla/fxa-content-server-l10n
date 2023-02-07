@@ -6,8 +6,8 @@ app-general-err-message = Щось пішло не так. Будь ласка, 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = Логотип { -brand-mozilla }
-app-footer-privacy-notice = Повідомлення про приватність вебсайту
-app-footer-terms-of-service = Умови надання послуги
+app-footer-privacy-notice = Положення про приватність вебсайту
+app-footer-terms-of-service = Умови користування
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 

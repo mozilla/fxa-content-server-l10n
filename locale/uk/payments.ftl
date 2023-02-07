@@ -127,7 +127,7 @@ payment-confirmation-download-button = Продовжити завантажен
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати плату з мого рахунку зазначену суму, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> і <privacyNoticeLink>Примітки щодо приватності</privacyNoticeLink>, доки я не скасую передплату.
+payment-confirm-with-legal-links-static = Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов користування</termsOfServiceLink> та <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
 
 ## Component - PaymentErrorView
 
@@ -315,8 +315,8 @@ sub-guarantee = Гарантоване повернення коштів упр�
 
 ## Component - TermsAndPrivacy
 
-terms = Умовами використання
-privacy = Повідомлення про приватність
+terms = Умови користування
+privacy = Положення про приватність
 terms-download = Завантажити умови
 
 ## App-level string(s) and messages shared by multiple components or routes

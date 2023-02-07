@@ -811,11 +811,11 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Продовжуючи, ви погоджуєтеся з:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>умовами використання</pocketTos> та <pocketPrivacy>повідомленням про приватність</pocketPrivacy> { -product-pocket }
+terms-privacy-agreement-pocket = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>умовами використання</firefoxTos> та <firefoxPrivacy>повідомленням про приватність</firefoxPrivacy> { -brand-firefox }
+terms-privacy-agreement-firefox = <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy> { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>умовами використання</firefoxTos> та <firefoxPrivacy>повідомленням про приватність</firefoxPrivacy>.
+terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
