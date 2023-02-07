@@ -3,6 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Sótt
+datablock-copy =
+    .message = Afritað
+datablock-print =
+    .message = Prentað
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,7 +63,7 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = Nýtt lykilorð
@@ -45,6 +71,18 @@ form-reset-password-with-balloon-confirm-password =
     .label = Settu aftur inn lykilorðið
 form-reset-password-with-balloon-submit-button = Endurstilla lykilorð
 form-reset-password-with-balloon-match-error = Lykilorð passa ekki
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
+get-data-trio-download =
+    .title = Sækja
+get-data-trio-copy =
+    .title = Afrita
+get-data-trio-print =
+    .title = Prenta
 
 ## Input Password
 
@@ -88,6 +126,10 @@ primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið sta�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -217,15 +259,6 @@ cs-recent-activity = Nýleg virkni reiknings
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Sótt
-datablock-copy =
-    .message = Afritað
-datablock-print =
-    .message = Prentað
-
 ## Data collection section
 
 dc-heading = Gagnasöfnun og upplýsingar um notkun
@@ -249,18 +282,6 @@ drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá
 ## Flow Container
 
 flow-container-back = Til baka
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
-get-data-trio-download =
-    .title = Sækja
-get-data-trio-copy =
-    .title = Afrita
-get-data-trio-print =
-    .title = Prenta
 
 # HeaderLockup component
 
@@ -662,6 +683,10 @@ tfa-row-change-modal-heading-1 = Skipta um varaauðkenningarkóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Óþekktur reikningur
@@ -682,18 +707,22 @@ auth-error-155 = TOTP-teikn fannst ekki
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Villa:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Sannvotta innskráningu...
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Staðfestu þessa innskráningu
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn hafi borist með staðfestingu innskráningar sem sendur var á { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -764,6 +793,19 @@ reset-password-error-unknown-account = Óþekktur reikningur
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Villa:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Sannvotta innskráningu…
+
+## ConfirmSignin component
+
+confirm-signin-header = Staðfestu þessa innskráningu
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn hafi borist með staðfestingu innskráningar sem sendur var á { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -777,14 +819,6 @@ signin-subheader-without-logo-with-servicename = Halda áfram í { $serviceName 
 signin-subheader-without-logo-default = Halda áfram í stillingar reiknings
 signin-button = Skrá inn
 signin-header = Skrá inn
-# This message is followed by a bulleted list
-signin-tos-list-intro = Með því að halda áfram, samþykkir þú:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>þjónustuskilmála</linkExternal> og <linkExternal>persónuverndarstefnu</linkExternal> { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = Þjónustuskilmálar { -brand-firefox } og <linkExternal>persónuverndarstefna</linkExternal>
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Með því að halda áfram samþykkir þú <linkExternal>þjónustuskilmála</linkExternal> og <linkExternal>persónuverndarstefnu</linkExternal>
 signin-use-a-different-account-link = Nota annan reikning
 signin-forgot-password-link = Gleymt lykilorð?
 signin-bounced-header = Því miður. Við höfum læst aðgangnum þínum.
@@ -810,8 +844,6 @@ signin-recovery-code-heading-w-custom-service = Settu inn öryggisauðkenningark
 signin-recovery-code-image-description =
     .aria-label = Skjal sem inniheldur falinn texta.
 signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
-signin-recovery-code-input =
-    .label = Settu inn 10-stafa varaauðkenningarkóða
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Staðfesta
 # Link to return to signin with two-step authentication code (security code)
@@ -835,8 +867,6 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 signin-token-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
-signin-token-code-input-label =
-    .label = Settu inn 6-stafa kóða
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Staðfesta
 signin-token-code-code-expired = Útrunninn kóði?
@@ -859,9 +889,23 @@ signin-totp-code-heading-w-custom-service = Sláðu inn öryggiskóða <span>til
 signin-totp-code-image-label =
     .aria-label = Tæki með falinn 6-stafa kóða.
 signin-totp-code-instruction = Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp.
-signin-totp-code-input-label =
-    .label = Settu inn 6-stafa kóða
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
 signin-totp-code-other-account-link = Nota annan reikning
 signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
