@@ -340,7 +340,7 @@ postVerifySecondary-subject = Sekundær e-postadresse lagt til
 postVerifySecondary-title = Sekundær e-postadresse lagt til
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Du har bekreftet %(secondaryEmail)s som en sekundær e-postadresse for din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil nå bli leverte til begge e-postadressene.
+postVerifySecondary-content-2 = Du har bekreftet { $secondaryEmail } som en sekundær e-postadresse for din { -product-firefox-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil nå bli leverte til begge e-postadressene.
 postVerifySecondary-action = Behandle konto
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Glemt passord ditt?
