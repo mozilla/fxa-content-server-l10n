@@ -770,18 +770,22 @@ auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
+auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Kin gjin account oanmeitsje
+cannot-create-account-requirements = Jo moatte oan bepaalde leeftiidskritearia foldwaan om in { -product-firefox-account } oan te meitsjen.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Mear ynfo
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Lokale opslach en cookies binne ferplicht
+cookies-disabled-enable-prompt = Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta { -product-firefox-accounts }. Hjirtroch wurde funksjonaliteiten lykas it ûnthâlden fan jo, tusken sesjes ynskeakele.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Opnij probearje
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -791,6 +795,15 @@ cookies-disabled-learn-more = Mear ynfo
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Bewarje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as jo jo mobile apparaat net hawwe.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Annulearje
@@ -802,6 +815,13 @@ inline-recovery-back-link = Tebek
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-autentikaasjekoade
 inline-recovery-confirmation-description = Fier yn gefal fan in ferlern apparaat ien fan jo bewarre reserve-autetikaasjekoaden yn, om derfoar te soargjen dat jo wer tagong krije kinne ta jo account.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
 inline-recovery-setup-image-description =
     .aria-label = Dokumint dat ferburgen tekst befettet.
 
@@ -810,6 +830,10 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = Konfiguraasje annulearje
 inline-totp-setup-continue-button = Trochgean
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Foegje in befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan<authenticationAppsLink>dizze apps foar autentikaasje</authenticationAppsLink> te easkjen.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Skeakelje twastapsautentikaasje yn <enable2StepDefaultSpan>om troch te gean nei jo accountynstellingen</enable2StepDefaultSpan>
 inline-totp-setup-ready-button = Klear
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentikaasjekoade
