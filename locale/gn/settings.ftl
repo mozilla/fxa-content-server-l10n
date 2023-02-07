@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Kuaapy ha’evéva ou ne ñe’ẽmondo g̃uahẽhápe. Eñemboheraguapy eikuaave hag̃ua:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Og̃uahẽ marandu pyahu { -brand-mozilla } ha { -brand-firefox } rehegua
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Eñeha’ã ñanduti resãirã rehe
 # Newsletter checklist item
@@ -993,6 +996,9 @@ confirm-signup-code-required-error = Emoinge ayvu ñemoneĩrã
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Emboaje ñe’ẽñemi
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = ¿Mba’ére amoheñoiva’erã ko mba’ete? <LinkExternal>Eikuaa ko’ápe</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Emoambue  ñanduti veve
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
