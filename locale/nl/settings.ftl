@@ -797,7 +797,7 @@ cookies-disabled-learn-more = Meer info
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Bevestig uw reserve-authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
+inline-recovery-setup-header-default = Bevestig uw reserve-authenticatiecode <span>om door te gaan naar uw accountinstellingen</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
