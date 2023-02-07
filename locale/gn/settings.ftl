@@ -905,6 +905,10 @@ back = Tapykue
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-image-description =
+    .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
+signin-recovery-code-instruction = Ikatúpa emoinge ayvu ñemoneĩrã jeykekoha oñeme’ẽva ndéve oñemboheko aja mokõi jekue’épe.
+signin-recovery-code-input-label = Emoinge ayvu ñemoneĩrã jeykekoha orekóva 10 tai
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Moneĩ
 # Link to return to signin with two-step authentication code (security code)
