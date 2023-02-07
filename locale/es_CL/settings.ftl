@@ -908,7 +908,7 @@ signin-password-needed-header = Ingresa tu contraseña <span>para tu { -product-
 signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
-signin-subheader-without-logo-with-servicename = Continuar con %(serviceName)s
+signin-subheader-without-logo-with-servicename = Continuar con { $serviceName }
 signin-subheader-without-logo-default = Continuar a los ajustes de la cuenta
 signin-button = Conectarse
 signin-header = Conectarse
