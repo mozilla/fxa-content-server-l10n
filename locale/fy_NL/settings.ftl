@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Praktyske kennis komt nei jo Postfek YN. Skriuw jo yn foar mear:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Untfang it lêste nijs oer { -brand-mozilla } en { -brand-firefox }.
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Set jo yn om it ynternet sûn te hâlden
 # Newsletter checklist item
@@ -177,6 +180,7 @@ confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Jo hawwe dit wachtwurd nedich om tagong te krijen ta alle fersifere gegevens dy’t jo by ús bewarje.
+password-info-balloon-reset-risk-info = In nije inisjalisaasje betsjut mooglik ferlies fan gegevens, lykas wachtwurden en blêdwizers.
 
 ## PasswordStrengthBalloon component
 
@@ -741,6 +745,12 @@ tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Troch troch te gean geane jo akkoard mei:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = De <firefoxTos>Tsjinstbetingsten</firefoxTos> en <firefoxPrivacy>Privacyferklearring</firefoxPrivacy> fan { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Troch fierder te gean, geane jo akkoard mei de <firefoxTos>Tsjinbetingsten</firefoxTos> en de <firefoxPrivacy>Privacyferklearring</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
