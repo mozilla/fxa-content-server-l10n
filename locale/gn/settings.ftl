@@ -926,6 +926,12 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 signin-token-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Moneĩ
@@ -942,6 +948,13 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Erujey tekorosã ayvu <span>eku’ejey hag̃ua { $serviceName }</span> ndive
+signin-totp-code-image-label =
+    .aria-label = Mba’e’oka ayvu kañymby 6 tai reheve.
+signin-totp-code-instruction = Embojuruja ne rembipuru’i ñemoneĩha ha emoinge tekorosã ayvu eipotáva.
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
@@ -953,6 +966,8 @@ signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 ## when setting up a new account
 
 confirm-signup-heading = Emoneĩjey ne mba’ete
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email } ne ñanduti vevépe
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -960,6 +975,12 @@ confirm-signup-heading = Emoneĩjey ne mba’ete
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 confirm-signup-code-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Moneĩ
