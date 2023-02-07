@@ -831,7 +831,7 @@ inline-recovery-setup-image-description =
 inline-totp-setup-cancel-setup-button = Configuratie annuleren
 inline-totp-setup-continue-button = Doorgaan
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Voeg een beveiligingslaag toe aan uw account door beveiligingscodes van een van <authenticationAppsLink>deze apps voor authenticatie</a> te vereisen.
+inline-totp-setup-add-security-link = Voeg een beveiligingslaag toe aan uw account door beveiligingscodes van een van <authenticationAppsLink>deze apps voor authenticatie</authenticationAppsLink> te vereisen.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header = Schakel tweestapsauthenticatie in <enable2StepDefaultSpan>om door te gaan naar uw accountinstellingen</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
