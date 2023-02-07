@@ -844,7 +844,7 @@ inline-totp-setup-show-qr-custom-service-header = Scan uw authenticatiecode <sca
 inline-totp-setup-no-qr-custom-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Scan uw authenticatiecode in <scanAuthHeaderSpan>om door te gaan naar uw accountinstellingen</scanAuthHeaderSpan>
+inline-totp-setup-show-qr-default-service-header = Scan uw authenticatiecode <scanAuthHeaderSpan>om door te gaan naar uw accountinstellingen</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar uw accountinstellingen</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
