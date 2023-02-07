@@ -900,7 +900,7 @@ inline-recovery-setup-image-description =
 inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
 inline-totp-setup-continue-button = Pokračovať
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <a %(escapedTotpSupportAttributes)s>týchto overovacích aplikácií</a>.
+inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <authenticationAppsLink>týchto overovacích aplikácií</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header = Povoľte dvojstupňové overenie <enable2StepDefaultSpan>a pokračujte do nastavení účtu</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
