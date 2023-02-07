@@ -837,6 +837,27 @@ inline-totp-setup-continue-button = Folytatás
 inline-totp-setup-add-security-link = Adjon egy biztonsági réteget a fiókjához az <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> egyikéből származó hitelesítési kódok megkövetelésével.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a fiókbeállításokhoz való továbblépéshez</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a következőhöz való továbblépéshez: { $serviceName }</enable2StepDefaultSpan>
+inline-totp-setup-ready-button = Kész
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Olvassa le a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Írja be kézileg a kódot <enterCodeManuallyHeaderSpan>, hogy továbblépjen a következőhöz: { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Olvassa le a hitelesítési kódot <scanAuthHeaderSpan>a fiókbeállításokhoz való továbblépéshez</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Írja be kézileg a kódot a <enterCodeManuallyHeaderSpan>fiókbeállításokhoz való továbblépéshez: { $serviceName }</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Írja be ezt a titkos kulcsot a hitelesítő alkalmazásba. <toggleToQRButton>Inkább beolvassa a QR-kódot?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Olvassa be a QR-kódot a hitelesítő alkalmazásában, és adja meg az általa biztosított hitelesítési kódot. <toggleToManualModeButton>Nem tudja leolvasni a kódot?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Ha kész, megkezdi az Ön hitelesítési kódjainak előállítását.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Hitelesítési kód
 
 ## AccountRecoveryConfirmKey page
 
@@ -958,6 +979,7 @@ signin-recovery-code-heading-w-custom-service = Adja meg a tartalék hitelesít�
 signin-recovery-code-image-description =
     .aria-label = Rejtett szöveget tartalmazó dokumentum.
 signin-recovery-code-instruction = Adjon meg egy tartalék hitelesítési kódot, amelyet a kétlépcsős hitelesítés beállítása során kapott.
+signin-recovery-code-input-label = Adja meg a 10 számjegyű tartalék hitelesítési kódot
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
 # Link to return to signin with two-step authentication code (security code)
@@ -981,6 +1003,7 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 signin-token-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Adja meg 5 percen belül a(z) { $email } címre küldött kódot.
+signin-token-code-input-label-v2 = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Megerősítés
 signin-token-code-code-expired = A kód lejárt?
@@ -1003,6 +1026,7 @@ signin-totp-code-heading-w-custom-service = Adja meg a biztonsági kódot <span>
 signin-totp-code-image-label =
     .aria-label = Egy eszköz egy rejtett 6 számjegyű kóddal.
 signin-totp-code-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott biztonsági kódot.
+signin-totp-code-input-label-v2 = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
@@ -1012,6 +1036,9 @@ signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Erősítse meg a fiókját
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Ellenőrizze a leveleit, hogy megérkezett-e a megerősítési hivatkozás ide: { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1019,7 +1046,34 @@ signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Adja meg a megerősítési kódját <span>a { -product-firefox-account }</span> számára
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Adja meg 5 percen belül a(z) { $email } címre küldött kódot.
+confirm-signup-code-input-label = Adja meg a 6 számjegyű kódot
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Megerősítés
+confirm-signup-code-code-expired = A kód lejárt?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
+confirm-signup-code-required-error = Adja meg a megerősítési kódot
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Állítsa be a jelszavát
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Miért kell létrehoznom ezt a fiókot? <LinkExternal>Itt tájékozódhat</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-mail-cím módosítása
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hány éves?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = A regisztrációhoz meg kell adnia az életkorát
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Miért kérdezzük?
