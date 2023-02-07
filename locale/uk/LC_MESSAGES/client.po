@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-30 12:01+0000\n"
+"PO-Revision-Date: 2023-02-07 11:14+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -565,7 +565,7 @@ msgstr "Обробка…"
 
 #: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
-msgstr "Не вдалося отримати повідомлення про приватність"
+msgstr "Не вдалося отримати положення про приватність"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
@@ -846,7 +846,7 @@ msgstr "Недійсний токен"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
+"Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами користування</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Положенням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
