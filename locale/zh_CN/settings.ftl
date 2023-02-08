@@ -807,6 +807,12 @@ inline-totp-setup-show-qr-default-service-header = 扫描验证码以<scanAuthHe
 inline-totp-setup-no-qr-default-service-header = 手动输入验证码以<enterCodeManuallyHeaderSpan>继续进行账户设置</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥。<toggleToQRButton>改为扫描二维码？</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证应用扫描二维码，并输入其提供的验证码。<toggleToManualModeButton>无法扫码？</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = 输入完成后，将自动生成供您输入的验证码。
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = 验证码
 
 ## AccountRecoveryConfirmKey page
 
@@ -928,6 +934,7 @@ signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继�
 signin-recovery-code-image-description =
     .aria-label = 包含隐藏文本的文档。
 signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
+signin-recovery-code-input-label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
 # Link to return to signin with two-step authentication code (security code)
@@ -951,6 +958,7 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 signin-token-code-heading = 为您的 { -product-firefox-account } </span> 输入确认码<span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
+signin-token-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 确认
 signin-token-code-code-expired = 验证码已过期？
@@ -973,6 +981,7 @@ signin-totp-code-heading-w-custom-service = 输入安全码<span>继续{ $servic
 signin-totp-code-image-label =
     .aria-label = 带有隐藏 6 位验证码的设备。
 signin-totp-code-instruction = 请打开您的身份验证应用，并输入其提供的安全码。
+signin-totp-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
@@ -982,6 +991,9 @@ signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = 确认您的账户
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = 请查收发送至您邮箱 { $email } 的账户确认链接
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -989,7 +1001,34 @@ signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = 输入您的<span>{ -product-firefox-account }验证码</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
+confirm-signup-code-input-label = 请输入 6 位验证码
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = 确认
+confirm-signup-code-code-expired = 验证码已过期？
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = 重新发送验证码。
+confirm-signup-code-required-error = 请输入验证码
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = 创建您的密码
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = 我为何需要创建此账户？<LinkExternal>点此了解</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = 更改邮箱
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = 请问您的年龄？
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = 您必须输入您的年龄才能注册
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = 为何询问？
