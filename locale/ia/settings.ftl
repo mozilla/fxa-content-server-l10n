@@ -820,9 +820,27 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Adde un strato de securitate a tu conto requirente le codices de authentication ab uno de <authenticationAppsLink>iste apps de authentication</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Activa le authentication a duo passos <enable2StepDefaultSpan>pro continuar a configurar le conto</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Activa le authentication a duo passos <enable2StepCustomServiceSpan>pro continuar a { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Preste
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scande le codice de authentication <scanAuthCodeHeaderSpan>pro continuar a { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = Insere le codice manualmente <enterCodeManuallyHeaderSpan>pro continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scande le codice de authentication <scanAuthHeaderSpan>pro continuar a configurar le conto</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Insere le codice manualmente <enterCodeManuallyHeaderSpan>pro continuar a configurar le conto</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu app de authentication e pois insere le codice de authentication que illo forni. <toggleToManualModeButton>Non pote tu scander le codice?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1006,6 +1024,8 @@ signin-totp-code-recovery-code-link = Problemas a inserer le codice?
 ## when setting up a new account
 
 confirm-signup-heading = Confirma tu conto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Controla tu email pro le ligamine de confirmation inviate a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1031,6 +1051,9 @@ confirm-signup-code-required-error = Insere tu codice de confirmation
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Defini tu contrasigno
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Perque debe io crear iste conto? <LinkExternal>Trova lo ci</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
