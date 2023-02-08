@@ -838,11 +838,11 @@ inline-totp-setup-add-security-link = Adjon egy biztonsági réteget a fiókjáh
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a fiókbeállításokhoz való továbblépéshez</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a következőhöz való továbblépéshez: { $serviceName }</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepCustomServiceSpan>a következőhöz való továbblépéshez: { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Kész
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Olvassa le a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+inline-totp-setup-show-qr-custom-service-header = Olvassa le a hitelesítési kódot <scanAuthCodeHeaderSpan>a következőhöz való továbblépéshez: { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = Írja be kézileg a kódot <enterCodeManuallyHeaderSpan>, hogy továbblépjen a következőhöz: { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
