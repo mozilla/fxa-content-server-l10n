@@ -998,6 +998,8 @@ signin-totp-code-recovery-code-link = Problemas ao inserir o código?
 ## when setting up a new account
 
 confirm-signup-heading = Confirme sua conta
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Verifique se recebeu o email com o link de confirmação, enviado para { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1005,16 +1007,27 @@ confirm-signup-heading = Confirme sua conta
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Digite o código de confirmação <span>da sua { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Digite o código enviado para { $email } em até 5 minutos.
 confirm-signup-code-input-label = Digite o código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = O código expirou?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar novo código por email.
+confirm-signup-code-required-error = Digite o código de confirmação
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Defina sua senha
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Por que preciso criar esta conta? <LinkExternal>Descubra aqui</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
