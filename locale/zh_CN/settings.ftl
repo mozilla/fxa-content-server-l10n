@@ -707,6 +707,10 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 terms-privacy-agreement-intro = 继续操作即表示您同意：
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = 继续操作即表示您同意我们的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>。
 
 ## Auth-server based errors that originate from backend service
 
@@ -726,11 +730,13 @@ auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
 auth-error-183-2 = 验证码无效或已过期
+auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = 无法创建账户
 cannot-create-account-requirements = 您必须符合年龄要求才能创建 { -product-firefox-account }。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 详细了解
@@ -738,21 +744,50 @@ cannot-create-account-learn-more-link = 详细了解
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = 需要本地存储和 Cookie
 cookies-disabled-enable-prompt = 请在您的浏览器中启用 Cookie 和本地存储功能以访问 { -product-firefox-accounts }。这样才能使会话间记住信息等功能正常运行。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 重试
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = 详细了解
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = 确认备用验证码以<span>继续进行账户设置</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = 保存备用验证码<span>以继续使用 { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = 请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = 取消
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = 继续
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = 确认
+inline-recovery-back-link = 上一步
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = 备用验证码
 inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的备用验证码中的任意一个。
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = 确认备用验证码以<span>继续进行账户设置</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = 取消设置
+inline-totp-setup-continue-button = 继续
 
 ## AccountRecoveryConfirmKey page
 
