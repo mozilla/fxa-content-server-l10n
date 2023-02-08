@@ -955,7 +955,7 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
-signin-token-code-heading = 为您的 { -product-firefox-account } </span> 输入确认码<span>
+signin-token-code-heading = 输入确认码以<span>登录 { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
 signin-token-code-input-label-v2 = 请输入 6 位验证码
@@ -973,7 +973,7 @@ signin-token-code-required-error = 需要验证码
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = 输入安全码<span>继续进行账户设置</span>
+signin-totp-code-heading-w-default-service = 输入安全码以<span>继续进行账户设置</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
