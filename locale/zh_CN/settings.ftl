@@ -902,7 +902,7 @@ confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认�
 signin-password-needed-header = 请为<span>{ -product-firefox-account }</span>输入您的密码
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = 继续<span>{ $serviceLogo }</span>
+signin-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = 继续 { $serviceName }
@@ -930,7 +930,7 @@ signin-recovery-code-heading-w-default-service = 输入备用验证码<span>继�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继续{ $serviceName }</span>
+signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继续使用 { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = 包含隐藏文本的文档。
 signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
