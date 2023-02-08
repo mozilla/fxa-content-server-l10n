@@ -262,6 +262,21 @@ price-details-no-tax-year =
             [few] { $priceAmount } kóžde { $intervalCount } lěta
            *[other] { $priceAmount } kóžde { $intervalCount } lět
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + dawk { $taxAmount } kóždy dźeń
+        [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } dnjej
+        [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dny
+       *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dnjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dawk { $taxAmount } kóžde dźeń
+            [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } dnjej
+            [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dny
+           *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dnjow
+        }
 
 ## Component - SubscriptionTitle
 
