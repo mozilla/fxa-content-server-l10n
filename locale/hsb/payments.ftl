@@ -277,6 +277,36 @@ price-details-tax-day =
             [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dny
            *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } dnjow
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + dawk { $taxAmount } kóždy tydźeń
+        [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } njedźeli
+        [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } njedźele
+       *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } njedźel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dawk { $taxAmount } kóždy tydźeń
+            [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } njedźeli
+            [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } njedźele
+           *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } njedźel
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + dawk { $taxAmount } kóždy měsac
+        [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } měsacaj
+        [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacy
+       *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dawk { $taxAmount } kóždy měsac
+            [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } měsacaj
+            [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacy
+           *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacow
+        }
 
 ## Component - SubscriptionTitle
 
