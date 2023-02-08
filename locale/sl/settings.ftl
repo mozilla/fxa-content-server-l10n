@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Praktično znanje prihaja v vaš nabiralnik. Prijavite se za več:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Prejemajte najnovejše novice o { -brand-mozilla(sklon: "mestnik") } in { -brand-firefox(sklon: "mestnik") }
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Ukrepajte in ohranite internet zdrav
 # Newsletter checklist item
