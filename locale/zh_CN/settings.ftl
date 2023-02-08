@@ -178,6 +178,7 @@ confirmation-link-reused-message = 此确认链接已被使用，并只能使用
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = 需要使用此密码才能访问您存储在我们服务器上的加密数据。
+password-info-balloon-reset-risk-info = 重置后可能会丢失密码、书签等数据。
 
 ## PasswordStrengthBalloon component
 
@@ -704,6 +705,8 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = 继续操作即表示您同意：
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
