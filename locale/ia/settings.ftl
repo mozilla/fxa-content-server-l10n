@@ -785,6 +785,15 @@ cookies-disabled-learn-more = Pro saper plus
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Salva le codices authentication del salvamento <span>pro continuar a { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Reserva iste codices a uso unic in un loco secur pro le caso que tu non ha accesso a tu apparato mobile.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancellar
@@ -799,6 +808,10 @@ inline-recovery-confirmation-description = Pro permitter que tu potera reganiar 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-confirmation-header-default = Confirma le codice authentication del salvamento <span>pro continuar a configurar le conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirma le codice authentication del salvamento <span>pro continuar a { $serviceName }</span>
 inline-recovery-setup-image-description =
     .aria-label = Documento que contine texto occulte.
 
@@ -998,6 +1011,10 @@ confirm-signup-heading = Confirma tu conto
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 confirm-signup-code-input-label = Insere le codice de 6 cifras
