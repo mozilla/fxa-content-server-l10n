@@ -779,6 +779,13 @@ inline-recovery-confirmation-description = Zo byšće zaso přistup k swojemu ko
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Instalaciju přetorhnyć
+inline-totp-setup-continue-button = Dale
+inline-totp-setup-ready-button = Hotowy
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Awtentifikaciski kod
 
 ## AccountRecoveryConfirmKey page
 
@@ -801,11 +808,14 @@ account-recovery-lost-recovery-key-link = Nimaće kontowy wobnowjenski kluč?
 # Header for form to create new password
 create-new-password-header = Nowe hesło wutworić
 account-restored-success-message = Sće wuspěšnje swoje konto z pomocu swojeho kontoweho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Hesło je so nastajiło
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Nowe hesło wutworić
+complete-reset-password-warning-message-2 = <span>Njezaywajśo:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Hesło je so nastajiło
@@ -824,6 +834,7 @@ confirm-pw-reset-instructions = Klikńće wob hodźinu na wotkaz, kotryž smy p�
 
 ## ResetPassword page
 
+reset-password-warning-message-2 = <span>Kedźbu:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
 reset-password-button = Wróćostajenje započeć
 reset-password-success-alert = Hesło wróćo stajene
 reset-password-error-general = Bohužel je při wrócostajenju wašeho hesła problem nastał
@@ -833,18 +844,49 @@ reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu ko
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Zmylk:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Tute přizjewjenje wobkrućić
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Přepytujće swoju e-mejl za přizjewjenskim wobkrućenskim wotkazom, kotryž je so na { $email } pósłał
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Dale k <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Dale k { $serviceName }
+signin-subheader-without-logo-default = Dale ke kontowym nastajenjam
+signin-button = Přizjewić
+signin-header = Přizjewić
+signin-use-a-different-account-link = Druhe konto wužiwać
+signin-forgot-password-link = Sće hesło zabył?
+signin-bounced-header = Bohužel je waše konto zawrjene.
+# $email (string) - The user's email.
+signin-bounced-message = Wobkrućenska e-mejlka, kotruž smy na { $email } pósłali, je so wróćiła a smy waše konto zawrěli, zo bychmy waše daty { -brand-firefox } škitali.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Jeli to je płaćiwa adresa, <linkExternal>informujće nas</linkExternal> a móžemy pomhać, waše konto wotewrěć.
+signin-bounced-create-new-account = Tuta e-mejlowa hižo wam njesłuša? Załožće konto
+back = Wróćo
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Zapodajće 10-městnowy kod za zawěsćensku awtentifikaciju
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Wobkrućić
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Wróćo
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Sće wuzamknjewny?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
