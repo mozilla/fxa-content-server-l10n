@@ -897,17 +897,35 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
+signin-token-code-input-label-v2 = 6-městnowy kod zapodać
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Wobkrućić
+signin-token-code-code-expired = Je kod spadnył?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Nowy kod přez e-mejl pósłać.
+signin-token-code-required-error = Wobkrućenski kod trěbny
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Wočińće swoje awtentifikowanske nałoženje a zapodajće k dispoziciji stajeny wěstotny kod.
+signin-totp-code-input-label-v2 = 6-městnowy kod zapodać
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Wobkrućić
+signin-totp-code-other-account-link = Wužiwajće druhe konto
+signin-totp-code-recovery-code-link = Maće problemy při zapodawanju koda?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Wobkrućće swoje konto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Přepytujće swoju e-mejl za wobkrućenskim wotkazom, kotryž je so na { $email } pósłał
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -915,7 +933,27 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 
 # and a confirmation code has been sent to their email address.
 
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
+confirm-signup-code-input-label = 6-městnowy kod zapodać
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Wobkrućić
+confirm-signup-code-code-expired = Je kod spadnył?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Nowy kod přez e-mejl pósłać.
+confirm-signup-code-required-error = Zapodajće prošu wobkrućenski kod
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Zapodajće swoje hesło
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-mejlowu adresu změnić
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kak stary sće?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Dyrbiće swoju starobu zapodać, zo byšće so registrował
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Čehodla so prašamy?

@@ -564,6 +564,7 @@ sub-item-no-such-plan = Žadyn plan za tutón abonement.
 invoice-not-found = Naslědna zličbowanka njeje so namakała
 sub-item-no-such-subsequent-invoice = Naslědna zličbowanka njeje so za tutón abonement namakała.
 sub-invoice-preview-error-title = Přehlad zličbowanki njeje so namakał
+sub-invoice-preview-error-text = Přehlad zličbowanki njeje so za tutón abonement namakał
 
 ## Routes - Subscriptions - Pocket Subscription
 
