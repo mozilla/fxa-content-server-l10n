@@ -788,6 +788,25 @@ inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用
 
 inline-totp-setup-cancel-setup-button = 取消设置
 inline-totp-setup-continue-button = 继续
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticationAppsLink>身份验证应用</authenticationAppsLink>所生成的验证码，让您的账户安全级别更上一层楼。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = 启用两步验证以<enable2StepDefaultSpan>继续进行账户设置</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = 启用两步验证以<enable2StepCustomServiceSpan>继续使用{ $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = 好了
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = 扫描验证码以<scanAuthCodeHeaderSpan>继续使用 { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = 手动输入代码以<enterCodeManuallyHeaderSpan>继续使用 { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = 扫描验证码以<scanAuthHeaderSpan>继续进行账户设置</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = 手动输入验证码以<enterCodeManuallyHeaderSpan>继续进行账户设置</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥。<toggleToQRButton>改为扫描二维码？</toggleToQRButton>
 
 ## AccountRecoveryConfirmKey page
 
