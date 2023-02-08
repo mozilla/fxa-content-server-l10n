@@ -109,6 +109,8 @@ datablock-print =
 
 signup-new-password-label =
     .label = Salasana
+signup-confirm-password-label =
+    .label = Toista salasana
 signup-submit-button = Luo tili
 form-reset-password-with-balloon-new-password =
     .label = Uusi salasana
@@ -154,6 +156,7 @@ reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
 # The user followed a password reset link, but that link is expired and no longer valid
 signin-link-expired-header = Vahvistuslinkki on vanhentunut
 reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
+signin-link-expired-message = Avaamasi vahvistuslinkki on vanhentunut.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Vastaanota uusi linkki
 
@@ -167,6 +170,9 @@ remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvistettu
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
+confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -294,6 +300,7 @@ cs-disconnect-suspicious-advice-content =
     tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
     salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
+cs-recent-activity = Viimeaikaiset tilitapahtumat
 
 ##
 
@@ -491,6 +498,7 @@ display-name-success-alert-2 = Näyttönimi päivitetty
 
 ## Recent Activity
 
+recent-activity-title = Viimeaikaiset tilitapahtumat
 recent-activity-account-create = Tili luotiin
 recent-activity-account-disable = Tili poistettiin käytöstä
 recent-activity-account-enable = Tili otettiin käyttöön
