@@ -821,6 +821,8 @@ inline-recovery-setup-image-description =
 inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
 inline-totp-setup-ready-button = Preste
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Insere le codice manualmente <enterCodeManuallyHeaderSpan>pro continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
 # The "authentication code" here refers to the code provided by an authentication app.
