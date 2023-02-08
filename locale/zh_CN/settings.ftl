@@ -61,6 +61,8 @@ confirm-with-link-webmail-link = 打开 { $emailProvider }
 confirm-with-link-resend-link-button = 不在收件箱和垃圾邮件箱？重新发送
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = 后退
+confirm-signup-aria-label =
+    .aria-label = 包含链接的信封
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -782,6 +784,8 @@ inline-recovery-confirmation-header-default = 确认备用验证码以<span>继�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = 包含隐藏文本的文档。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
