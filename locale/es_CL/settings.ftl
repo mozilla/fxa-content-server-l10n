@@ -179,6 +179,8 @@ confirmation-link-reused-message = Ese enlace de confirmación ya fue usado, y s
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
+password-info-balloon-reset-risk-info = Un reinicio significa la posibilidad de perder datos como contraseñas y marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -734,6 +736,12 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Al continuar, aceptas:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Términos de servicio</pocketTos> y <pocketPrivacy>Aviso de privacidad</pocketPrivacy> de { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy> de { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Al continuar, aceptas los <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -753,12 +761,14 @@ auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
+auth-error-1003 = El almacenamiento local o las cookies siguen deshabilitados
 auth-error-1008 = Tu nueva conraseña debe ser diferente
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = No se puede crear la cuenta
+cannot-create-account-requirements = Debes cumplir ciertos requisitos de edad para crear una { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Aprender más
 
