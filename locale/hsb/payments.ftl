@@ -307,6 +307,21 @@ price-details-tax-month =
             [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacy
            *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } měsacow
         }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + dawk { $taxAmount } kóžde lěto
+        [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } lěće
+        [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } lěta
+       *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dawk { $taxAmount } kóžde lěto
+            [two] { $priceAmount } + dawk { $taxAmount } kóždej { $intervalCount } lěće{ $priceAmount }
+            [few] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } lěta
+           *[other] { $priceAmount } + dawk { $taxAmount } kóžde { $intervalCount } lět
+        }
 
 ## Component - SubscriptionTitle
 
