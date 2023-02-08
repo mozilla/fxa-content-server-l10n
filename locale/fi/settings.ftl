@@ -733,6 +733,12 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Jatkamalla hyväksyt:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytäntö</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytäntö</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Jatkamalla hyväksyt <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytännön</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -780,6 +786,8 @@ inline-recovery-cancel-button = Peruuta
 inline-recovery-continue-button = Jatka
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Vahvista
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Varatodennuskoodi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -879,6 +887,8 @@ signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
 signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
+signin-bounced-create-new-account = Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili
+back = Edellinen
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -887,6 +897,8 @@ signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Edellinen
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Jäitkö ulos tililtäsi?
@@ -913,6 +925,8 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Avaa käyttämäsi todennussovellus ja kirjoita sen näyttämä turvallisuuskoodi.
+signin-totp-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
@@ -930,14 +944,21 @@ confirm-signup-heading = Vahvista tilisi
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Vahvista
 confirm-signup-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
+confirm-signup-code-required-error = Kirjoita vahvistuskoodi
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Aseta salasana
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Miksi minun pitää luoda tämä tili? <LinkExternal>Lisätietoja tästä</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
