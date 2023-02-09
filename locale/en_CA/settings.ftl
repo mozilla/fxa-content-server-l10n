@@ -780,6 +780,12 @@ cookies-disabled-learn-more = Learn more
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = Confirm backup authentication code <span>to continue to account settings</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Save backup authentication codes <span>to continue to { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Store these one-time use codes in a safe place for when you don’t have your mobile device.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancel
@@ -791,13 +797,42 @@ inline-recovery-back-link = Back
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Backup authentication code
 inline-recovery-confirmation-description = To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirm backup authentication code <span>to continue to account settings</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Document that contains hidden text.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Cancel setup
 inline-totp-setup-continue-button = Continue
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Add a layer of security to your account by requiring authentication codes from one of <authenticationAppsLink>these authentication apps</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Enable two-step authentication <enable2StepDefaultSpan>to continue to account settings</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Enable two-step authentication <enable2StepCustomServiceSpan>to continue to { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Ready
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scan authentication code <scanAuthCodeHeaderSpan>to continue to { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scan authentication code <scanAuthHeaderSpan>to continue to account settings</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to account settings</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Type this secret key into your authentication app. <toggleToQRButton>Scan QR code instead?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scan the QR code in your authentication app and then enter the authentication code it provides. <toggleToManualModeButton>Can’t scan code?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Once complete, it will begin generating authentication codes for you to enter.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -838,6 +873,7 @@ account-recovery-reset-password-success-alert = Password set
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Create new password
+complete-reset-password-warning-message-2 = <span>Remember:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password set
@@ -863,6 +899,7 @@ reset-password-heading-w-default-service = Reset password <span>to continue to a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
+reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
 reset-password-button = Begin reset
 reset-password-success-alert = Password reset
 reset-password-error-general = Sorry, there was a problem resetting your password
@@ -885,6 +922,8 @@ confirm-signin-message = Check your email for the sign-in confirmation link sent
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Enter your password <span>for your { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
@@ -899,6 +938,8 @@ signin-forgot-password-link = Forgot password?
 signin-bounced-header = Sorry. We’ve locked your account.
 # $email (string) - The user's email.
 signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = If this is a valid email address, <linkExternal>let us know</linkExternal> and we can help unlock your account.
 signin-bounced-create-new-account = No longer own that email? Create a new account
 back = Back
 
@@ -910,6 +951,10 @@ back = Back
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Enter backup authentication code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Enter backup authentication code <span>to continue to { $serviceName }</span>
 signin-recovery-code-image-description =
     .aria-label = Document that contains hidden text.
 signin-recovery-code-instruction = Please enter a backup authentication code that was provided to you during two step authentication setup.
@@ -953,6 +998,10 @@ signin-token-code-required-error = Confirmation code required
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service = Enter security code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Enter security code <span>to continue to { $serviceName }</span>
 signin-totp-code-image-label =
     .aria-label = A device with a hidden 6-digit code.
 signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
