@@ -277,6 +277,8 @@ reset-password-complete-header = Zmieniono hasło
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Można teraz używać usługi { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Można teraz używać ustawień konta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Konto jest gotowe!
 ready-continue = Kontynuuj
@@ -383,6 +385,7 @@ cs-disconnect-suspicious-advice-content =
     w ustawieniach konta. Należy także zmienić wszystkie inne hasła zachowane
     w { -brand-firefox(case: "loc") }, wpisując about:logins na pasku adresu.
 cs-sign-out-button = Wyloguj się
+cs-recent-activity = Ostatnia aktywność na koncie
 
 ##
 
