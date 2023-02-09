@@ -42,7 +42,7 @@ choose-what-to-sync-option-addons =
     .label = Dodatki
 # Refers to 'tabs that are open', not the action
 choose-what-to-sync-option-tabs =
-    .label = Odprte zavihke
+    .label = Odprti zavihki
 choose-what-to-sync-option-prefs =
     .label = Nastavitve
 choose-what-to-sync-option-addresses =
@@ -1087,14 +1087,14 @@ confirm-signup-instruction = V svoji e-pošti preverite, ali ste prejeli potrdit
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Vnesite potrditveno kodo <span>za svoj { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Vnesite kodo, ki je bila v 5 minutah poslana na { $email }.
+confirm-signup-code-instruction = Vnesite kodo, ki je bila v zadnjih 5 minutah poslana na { $email }.
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi
 confirm-signup-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Pošlji novo kodo.
-confirm-signup-code-required-error = Vnesite prosim potrditveno kodo
+confirm-signup-code-required-error = Vnesite potrditveno kodo
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
@@ -1104,7 +1104,7 @@ signup-heading = Nastavite geslo
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Zakaj moram ustvariti ta račun? <LinkExternal>Preberite tukaj</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
-signup-change-email-link = Sprememba e-naslova
+signup-change-email-link = Spremeni e-pošto
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Koliko ste stari?
