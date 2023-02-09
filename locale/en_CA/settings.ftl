@@ -6,10 +6,22 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Close
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Practical knowledge is coming to your inbox. Sign up for more:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Get the latest news about { -brand-mozilla } and { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Take action to keep the internet healthy
 # Newsletter checklist item
 choose-newsletters-option-knowledge-is-power =
     .label = Be safer and smarter online
@@ -167,9 +179,16 @@ confirmation-link-reused-message = That confirmation link was already used, and 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = You need this password to access any encrypted data you store with us.
+password-info-balloon-reset-risk-info = A reset means potentially losing data like passwords and bookmarks.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Password requirements
+password-strength-balloon-min-length = At least 8 characters
+password-strength-balloon-not-email = Not your email address
+password-strength-balloon-not-common = Not a commonly used password
+password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
 
 ## Ready component
 
@@ -178,11 +197,15 @@ reset-password-complete-header = Your password has been reset
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = You’re now ready to use { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = You’re now ready to use account settings
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Your account is ready!
 ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
+sign-up-complete-header = Account confirmed
 pulsing-hearts-description = A pink laptop and a purple mobile device each with a pulsing heart
+primary-email-verified-header = Primary email confirmed
 
 ## Alert Bar
 
@@ -202,6 +225,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -268,6 +295,7 @@ cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to k
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
 cs-disconnect-suspicious-advice-content = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-firefox-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
 cs-sign-out-button = Sign out
+cs-recent-activity = Recent Account Activity
 
 ##
 
@@ -425,7 +453,19 @@ delete-account-header =
     .title = Delete account
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
+delete-account-confirm-title-3 = You may have connected your { -product-firefox-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Syncing { -brand-firefox } data
+delete-account-product-firefox-addons = { -brand-firefox } Add-ons
 delete-account-acknowledge = Please acknowledge that by deleting your account:
+delete-account-chk-box-1-v3 =
+    .label = Any paid subscriptions you have will be cancelled (Except { -product-pocket })
 delete-account-chk-box-2 =
     .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
@@ -457,6 +497,13 @@ display-name-success-alert-2 = Display name updated
 
 ## Recent Activity
 
+recent-activity-title = Recent Account Activity
+recent-activity-account-create = Account was created
+recent-activity-account-disable = Account was disabled
+recent-activity-account-enable = Account was enabled
+recent-activity-account-login = Account initiated login
+recent-activity-account-reset = Account initiated password reset
+recent-activity-emails-clearBounces = Account cleared email bounces
 
 # Account recovery key setup page
 
@@ -678,6 +725,14 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = By proceeding, you agree to:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox }’s <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = By proceeding, you agree to the <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -697,24 +752,56 @@ auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
 auth-error-183-2 = Invalid or expired confirmation code
+auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Cannot create account
+cannot-create-account-requirements = You must meet certain age requirements to create a { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Learn more
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Local storage and cookies are required
+cookies-disabled-enable-prompt = Please enable cookies and local storage in your browser to access { -product-firefox-accounts }. Doing so will enable functionality such as remembering you between sessions.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Try again
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Learn more
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirm backup authentication code <span>to continue to account settings</span>
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Cancel
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continue
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirm
+inline-recovery-back-link = Back
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Backup authentication code
+inline-recovery-confirmation-description = To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Cancel setup
+inline-totp-setup-continue-button = Continue
+inline-totp-setup-ready-button = Ready
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Once complete, it will begin generating authentication codes for you to enter.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Authentication code
 
 ## AccountRecoveryConfirmKey page
 
@@ -744,6 +831,8 @@ account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 # Header for form to create new password
 create-new-password-header = Create new password
 account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Password set
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -783,18 +872,55 @@ reset-password-with-recovery-key-verified-continue-to-account = Continue to my a
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validating sign-in…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confirm this sign-in
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Check your email for the sign-in confirmation link sent to { $email }
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continue to { $serviceName }
+signin-subheader-without-logo-default = Continue to account settings
+signin-button = Sign in
+signin-header = Sign in
+signin-use-a-different-account-link = Use a different account
+signin-forgot-password-link = Forgot password?
+signin-bounced-header = Sorry. We’ve locked your account.
+# $email (string) - The user's email.
+signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
+signin-bounced-create-new-account = No longer own that email? Create a new account
+back = Back
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Enter backup authentication code <span>to continue to account settings</span>
+signin-recovery-code-image-description =
+    .aria-label = Document that contains hidden text.
+signin-recovery-code-instruction = Please enter a backup authentication code that was provided to you during two step authentication setup.
+signin-recovery-code-input-label = Enter 10-digit backup authentication code
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirm
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Back
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Are you locked out?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -805,17 +931,44 @@ signin-reported-message = Our team has been notified. Reports like this help us 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Enter confirmation code<span> for your { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
+signin-token-code-input-label-v2 = Enter 6-digit code
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirm
+signin-token-code-code-expired = Code expired?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Email new code.
+signin-token-code-required-error = Confirmation code required
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Enter security code <span>to continue to account settings</span>
+signin-totp-code-image-label =
+    .aria-label = A device with a hidden 6-digit code.
+signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
+signin-totp-code-input-label-v2 = Enter 6-digit code
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Confirm
+signin-totp-code-other-account-link = Use a different account
+signin-totp-code-recovery-code-link = Trouble entering code?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirm your account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Check your email for the confirmation link sent to { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -823,7 +976,34 @@ signin-reported-message = Our team has been notified. Reports like this help us 
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Enter confirmation code <span>for your { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
+confirm-signup-code-input-label = Enter 6-digit code
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirm
+confirm-signup-code-code-expired = Code expired?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Email new code.
+confirm-signup-code-required-error = Please enter confirmation code
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Set your password
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Why do I need to create this account? <LinkExternal>Find out here</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Change email
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = How old are you?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = You must enter your age to sign up
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Why do we ask?
