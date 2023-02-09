@@ -821,7 +821,27 @@ inline-recovery-setup-image-description =
 
 inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Añade una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Habilita la autenticación en dos pasos <enable2StepDefaultSpan>para continuar con la configuración de la cuenta</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Habilita la autenticación en dos pasos <enable2StepCustomServiceSpan>para continuar con { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Escanea el código de autenticación <scanAuthCodeHeaderSpan>para continuar con { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Ingresa manualmente el código <enterCodeManuallyHeaderSpan>para continuar con { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Escanea el código de autenticación <scanAuthHeaderSpan>para continuar con la configuración de la cuenta</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Ingresa manualmente el código <enterCodeManuallyHeaderSpan>para continuar con la configuración de la cuenta</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Escribe esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear el código QR en su lugar?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Escanea el código QR en tu aplicación de autenticación y luego ingresa el código de autenticación que proporciona. <toggleToManualModeButton>¿No puedes escanear el código?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Una vez completado, comenzará a generar códigos de autenticación para que ingreses.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1032,6 +1052,9 @@ confirm-signup-code-required-error = Por favor, ingresa el código de confirmaci
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = ¿Por qué necesito crear esta cuenta? <LinkExternal>Infórmate aquí</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
