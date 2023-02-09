@@ -180,6 +180,7 @@ confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmı
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Bizde depolanan şifrelenmiş verilerinize erişmek için bu parolaya ihtiyacınız olacak.
+password-info-balloon-reset-risk-info = Sıfırlama yaparsanız parolalar ve yer imleri gibi verileriniz kaybolabilir.
 
 ## PasswordStrengthBalloon component
 
@@ -802,6 +803,13 @@ inline-totp-setup-ready-button = Hazır
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } hizmetine devam etmek için</scanAuthCodeHeaderSpan> kimlik doğrulama kodunu tarayın
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = <enterCodeManuallyHeaderSpan>{ $serviceName } hizmetine devam etmek için</enterCodeManuallyHeaderSpan> kodu elle yazın
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = <scanAuthHeaderSpan>Hesap ayarlarına devam etmek için</scanAuthHeaderSpan> kimlik doğrulama kodunu tarayın
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 
