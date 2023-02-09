@@ -543,6 +543,7 @@ delete-account-header =
     .title = Usuń konto
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
+delete-account-confirm-title-3 = { -product-firefox-account } mogło zostać połączone z co najmniej jednym produktem lub usługą { -brand-mozilla(case: "gen") }, która zapewnia bezpieczeństwo i produktywność w Internecie:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -550,6 +551,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synchronizowanie danych { -brand-firefox(case: "gen") }
+delete-account-product-firefox-addons = Dodatki do { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
 delete-account-chk-box-1-v3 =
     .label = Wszystkie posiadane płatne subskrypcje zostaną anulowane (z wyjątkiem { -product-pocket })
@@ -584,6 +587,12 @@ display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
 ## Recent Activity
 
+recent-activity-title = Ostatnia aktywność na koncie
+recent-activity-account-create = Konto zostało utworzone
+recent-activity-account-disable = Konto zostało wyłączone
+recent-activity-account-enable = Konto zostało włączone
+recent-activity-account-login = Konto zainicjowało logowanie
+recent-activity-account-reset = Konto zainicjowało zmianę hasła
 
 # Account recovery key setup page
 
@@ -809,6 +818,10 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Kontynuując, wyrażasz zgodę na:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>regulamin usługi</pocketTos> oraz <pocketPrivacy>zasady ochrony prywatności</pocketPrivacy> serwisu { -product-pocket }
 
 ## Auth-server based errors that originate from backend service
 
