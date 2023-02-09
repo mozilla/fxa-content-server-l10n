@@ -821,7 +821,11 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Kontynuując, wyrażasz zgodę na:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>regulamin usługi</pocketTos> oraz <pocketPrivacy>zasady ochrony prywatności</pocketPrivacy> serwisu { -product-pocket }
+terms-privacy-agreement-pocket = <pocketTos>regulamin usługi</pocketTos> i <pocketPrivacy>zasady ochrony prywatności</pocketPrivacy> serwisu { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>regulamin usługi</firefoxTos> i <firefoxPrivacy>zasady ochrony prywatności</firefoxPrivacy> { -brand-firefox(case: "gen") }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Kontynuując, wyrażasz zgodę na <firefoxTos>regulamin usługi</firefoxTos> i <firefoxPrivacy>zasady ochrony prywatności</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -841,18 +845,22 @@ auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
+auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest nadal wyłączona
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Nie można utworzyć konta
+cannot-create-account-requirements = Należy spełnić wymagania dotyczące wieku, aby utworzyć { -product-firefox-account(case: "acc", capitalization: "lower") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Więcej informacji
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Obsługa lokalnego przechowywania danych i ciasteczek jest wymagana
+cookies-disabled-enable-prompt = Proszę włączyć obsługę ciasteczek i lokalnego przechowywania danych w przeglądarce, aby uzyskać dostęp do { -product-firefox-accounts(case: "gen", capitalization: "lower") }. Dzięki temu włączona zostanie funkcja zapamiętywania użytkownika między sesjami.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Spróbuj ponownie
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -862,6 +870,13 @@ cookies-disabled-learn-more = Więcej informacji
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Zapisz zapasowe kody uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Przechowuj te kody jednorazowego użytku w bezpiecznym miejscu na wypadek sytuacji, w której nie masz swojego telefonu.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -875,12 +890,27 @@ inline-recovery-back-link = Wstecz
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Zapasowy kod uwierzytelniania
 inline-recovery-confirmation-description = Aby upewnić się, że będzie można odzyskać dostęp do konta, to w przypadku zgubienia urządzenia podaj jeden z zachowanych zapasowych kodów uwierzytelniania.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Dokument zawierający ukryty tekst.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Anuluj konfigurację
 inline-totp-setup-continue-button = Kontynuuj
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Dodaj warstwę zabezpieczeń do swojego konta — kody uwierzytelniania z jednej z <authenticationAppsLink>tych aplikacji uwierzytelniania</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Włącz uwierzytelnianie dwuetapowe, <enable2StepDefaultSpan>aby przejść do ustawień konta</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Włącz uwierzytelnianie dwuetapowe, <enable2StepCustomServiceSpan>aby przejść do usługi { $serviceName }</enable2StepCustomServiceSpan>
 
 ## AccountRecoveryConfirmKey page
 
