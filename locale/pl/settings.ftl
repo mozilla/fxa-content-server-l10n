@@ -385,7 +385,7 @@ cs-disconnect-suspicious-advice-content =
     w ustawieniach konta. Należy także zmienić wszystkie inne hasła zachowane
     w { -brand-firefox(case: "loc") }, wpisując about:logins na pasku adresu.
 cs-sign-out-button = Wyloguj się
-cs-recent-activity = Ostatnia aktywność na koncie
+cs-recent-activity = Ostatnie działania na koncie
 
 ##
 
@@ -587,7 +587,7 @@ display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
 ## Recent Activity
 
-recent-activity-title = Ostatnia aktywność na koncie
+recent-activity-title = Ostatnie działania na koncie
 recent-activity-account-create = Konto zostało utworzone
 recent-activity-account-disable = Konto zostało wyłączone
 recent-activity-account-enable = Konto zostało włączone
