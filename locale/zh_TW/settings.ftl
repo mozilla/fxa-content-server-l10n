@@ -56,7 +56,7 @@ choose-what-to-sync-option-creditcards =
 
 # { $emailProvider } could be Gmail, Outlook, etc.
 # This link will open the email provider is a new tab
-confirm-with-link-webmail-link = 開啟 { $emailProvider }
+confirm-with-link-webmail-link = 開啟 { $emailProvider } 收信
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
 # The link target may vary depending on the user's entry point into the confirmation page
