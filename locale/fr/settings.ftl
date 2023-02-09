@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Recevez des connaissances utiles directement dans votre boîte de réception. Abonnez-vous pour en savoir encore plus :
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Recevoir les dernières nouvelles de { -brand-mozilla } et { -brand-firefox }
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Agir pour la bonne santé d’Internet
 # Newsletter checklist item
@@ -51,10 +54,15 @@ choose-what-to-sync-option-creditcards =
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Ouvrir { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Vous ne voyez rien dans votre boîte de réception ni dans le dossier des indésirables ? Renvoyez le message
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Retour
+confirm-signup-aria-label =
+    .aria-label = Une enveloppe contenant un lien
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -113,6 +121,7 @@ signup-new-password-label =
     .label = Mot de passe
 signup-confirm-password-label =
     .label = Répéter le mot de passe
+signup-submit-button = Créer un compte
 form-reset-password-with-balloon-new-password =
     .label = Nouveau mot de passe
 form-reset-password-with-balloon-confirm-password =
@@ -178,6 +187,7 @@ confirmation-link-reused-message = Ce lien de confirmation a déjà été utilis
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.
 
 ## PasswordStrengthBalloon component
 
@@ -288,6 +298,7 @@ cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou vo
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-disconnect-suspicious-advice-content = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-firefox-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
 cs-sign-out-button = Se déconnecter
+cs-recent-activity = Activité récente du compte
 
 ##
 
@@ -445,6 +456,7 @@ delete-account-header =
     .title = Supprimer le compte
 delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
+delete-account-confirm-title-3 = Votre { -product-firefox-account } a pu être connecté à un ou plusieurs produits ou services { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
 delete-account-product-firefox-account = { -product-firefox-account(capitalization: "uppercase") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
