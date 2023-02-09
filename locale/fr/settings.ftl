@@ -464,6 +464,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synchronisation des données { -brand-firefox }
+delete-account-product-firefox-addons = Modules complémentaires { -brand-firefox }
 delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
 delete-account-chk-box-1-v3 =
     .label = Tous les abonnements payants que vous détenez seront annulés (sauf { -product-pocket })
@@ -498,6 +500,10 @@ display-name-success-alert-2 = Nom d’affichage mis à jour
 
 ## Recent Activity
 
+recent-activity-title = Activité récente du compte
+recent-activity-account-create = Le compte a été créé
+recent-activity-account-disable = Le compte a été désactivé
+recent-activity-account-enable = Le compte a été activé
 
 # Account recovery key setup page
 
@@ -718,6 +724,14 @@ tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = En poursuivant, vous acceptez :
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = Les <pocketTos>Conditions d’utilisation</pocketTos> et la <pocketPrivacy>Politique de confidentialité</pocketPrivacy> de { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = Les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy> de { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = En poursuivant, vous acceptez les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -737,6 +751,7 @@ auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
+auth-error-1003 = Le stockage local ou les cookies sont toujours désactivés
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 
 ## Cannot Create Account page
@@ -750,6 +765,7 @@ cannot-create-account-learn-more-link = En savoir plus
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Le stockage local et les cookies sont nécessaires
 cookies-disabled-enable-prompt = Veuillez activer les cookies et le stockage local de votre navigateur afin d’accéder aux { -product-firefox-accounts }. Cela permettra notamment de mémoriser vos informations entre deux sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Réessayer
