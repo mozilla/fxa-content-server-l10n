@@ -3,6 +3,76 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Slute
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktyske kennis komt nei jo Postfek YN. Skriuw jo yn foar mear:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Untfang it lêste nijs oer { -brand-mozilla } en { -brand-firefox }.
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Set jo yn om it ynternet sûn te hâlden
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Wês feiliger en tûker online
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Kies wat jo syngronisearje wolle:
+choose-what-to-sync-option-bookmarks =
+    .label = Blêdwizers
+choose-what-to-sync-option-history =
+    .label = Skiednis
+choose-what-to-sync-option-passwords =
+    .label = Wachtwurden
+choose-what-to-sync-option-addons =
+    .label = Add-ons
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Iepen ljeplêden
+choose-what-to-sync-option-prefs =
+    .label = Foarkarren
+choose-what-to-sync-option-addresses =
+    .label = Adressen
+choose-what-to-sync-option-creditcards =
+    .label = Creditcards
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = { $emailProvider } iepenje
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Net yn Postfek YN of map mei net-winske? Opnij ferstjoere
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Tebek
+confirm-signup-aria-label =
+    .aria-label = In slúf mei in keppeling
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Download
+datablock-copy =
+    .message = Kopiearre
+datablock-print =
+    .message = Ofdrukt
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +107,31 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Wachtwurd
+signup-confirm-password-label =
+    .label = Nochris it wachtwurd
+signup-submit-button = Account oanmeitsje
 form-reset-password-with-balloon-new-password =
     .label = Nij wachtwurd
 form-reset-password-with-balloon-confirm-password =
     .label = Fier wachtwurd nochris yn
 form-reset-password-with-balloon-submit-button = Wachtwurd opnij ynstelle
 form-reset-password-with-balloon-match-error = Wachtwurden binne net lyk
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountwerstelkaai
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-autentikaasjekoaden
+get-data-trio-download =
+    .title = Downloade
+get-data-trio-copy =
+    .title = Kopiearje
+get-data-trio-print =
+    .title = Ofdrukke
 
 ## Input Password
 
@@ -88,6 +175,12 @@ primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Jo hawwe dit wachtwurd nedich om tagong te krijen ta alle fersifere gegevens dy’t jo by ús bewarje.
+password-info-balloon-reset-risk-info = In nije inisjalisaasje betsjut mooglik ferlies fan gegevens, lykas wachtwurden en blêdwizers.
 
 ## PasswordStrengthBalloon component
 
@@ -217,15 +310,6 @@ cs-recent-activity = Resinte accountaktiveit
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Download
-datablock-copy =
-    .message = Kopiearre
-datablock-print =
-    .message = Ofdrukt
-
 ## Data collection section
 
 dc-heading = Gegevenssamling en gebrûk
@@ -249,18 +333,6 @@ drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 ## Flow Container
 
 flow-container-back = Tebek
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountwerstelkaai
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-autentikaasjekoaden
-get-data-trio-download =
-    .title = Downloade
-get-data-trio-copy =
-    .title = Kopiearje
-get-data-trio-print =
-    .title = Ofdrukke
 
 # HeaderLockup component
 
@@ -668,6 +740,18 @@ tfa-row-change-modal-heading-1 = Reserve-autentikaasjekoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Troch troch te gean geane jo akkoard mei:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = De <firefoxTos>Tsjinstbetingsten</firefoxTos> en <firefoxPrivacy>Privacyferklearring</firefoxPrivacy> fan { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Troch fierder te gean, geane jo akkoard mei de <firefoxTos>Tsjinbetingsten</firefoxTos> en de <firefoxPrivacy>Privacyferklearring</firefoxPrivacy>.
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Unbekend account
@@ -686,20 +770,91 @@ auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
+auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Flater:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Oanmelding falidearje…
+cannot-create-account-header = Kin gjin account oanmeitsje
+cannot-create-account-requirements = Jo moatte oan bepaalde leeftiidskritearia foldwaan om in { -product-firefox-account } oan te meitsjen.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Mear ynfo
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Dizze oanmelding befêstigje
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei { $email } is ferstjoerd
+cookies-disabled-header = Lokale opslach en cookies binne ferplicht
+cookies-disabled-enable-prompt = Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta { -product-firefox-accounts }. Hjirtroch wurde funksjonaliteiten lykas it ûnthâlden fan jo, tusken sesjes ynskeakele.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Opnij probearje
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Mear ynfo
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Bewarje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as jo jo mobile apparaat net hawwe.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Annulearje
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Trochgean
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Befêstigje
+inline-recovery-back-link = Tebek
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reserve-autentikaasjekoade
+inline-recovery-confirmation-description = Fier yn gefal fan in ferlern apparaat ien fan jo bewarre reserve-autetikaasjekoaden yn, om derfoar te soargjen dat jo wer tagong krije kinne ta jo account.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Befêstigje jo reserve-autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
+inline-recovery-setup-image-description =
+    .aria-label = Dokumint dat ferburgen tekst befettet.
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Konfiguraasje annulearje
+inline-totp-setup-continue-button = Trochgean
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Foegje in befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan<authenticationAppsLink>dizze apps foar autentikaasje</authenticationAppsLink> te easkjen.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Skeakelje twastapsautentikaasje yn <enable2StepDefaultSpan>om troch te gean nei jo accountynstellingen</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Skeakelje twastapsautentikaasje yn <enable2StepCustomServiceSpan>om troch te gean nei { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Klear
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scan jo autentikaasjekoade <scanAuthCodeHeaderSpan>om troch te gean nei { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Fier de koade hânmjittich yn <enterCodeManuallyHeaderSpan>om troch te gean nei { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scan jo autentikaasjekoade <scanAuthHeaderSpan>om troch te gean nei jo accountynstellingen</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Fier de koade hânmjittich yn <enterCodeManuallyHeaderSpan>om troch te gean nei jo accountynstellingen</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Typ dizze geheime kaai yn jo autentikaasje-app. <toggleToQRButton>QR-koade scanne?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-koade yn jo autentikaasje-app en fier dênnei de autentikaasjekoade yn dy’t opjûn wurdt. <toggleToManualModeButton>Kinne jo de koade net scanne?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Nei foltôgjen wurde autentikaasjekoaden foar jo generearre dy’t jo ynfiere kinne.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Autentikaasjekoade
 
 ## AccountRecoveryConfirmKey page
 
@@ -770,6 +925,19 @@ reset-password-error-unknown-account = Unbekende account
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Flater:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Oanmelding falidearje…
+
+## ConfirmSignin component
+
+confirm-signin-header = Dizze oanmelding befêstigje
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei { $email } is ferstjoerd
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -783,14 +951,6 @@ signin-subheader-without-logo-with-servicename = Trochgean nei { $serviceName }
 signin-subheader-without-logo-default = Trochgean nei accountynstellingen
 signin-button = Oanmelde
 signin-header = Oanmelde
-# This message is followed by a bulleted list
-signin-tos-list-intro = Troch troch te gean geane jo akkoard mei:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal> fan { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal> fan { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Troch troch te gean geane jo akkoard mei de <linkExternal>Tsjinstbetingsten</linkExternal> en <linkExternal>Privacyferklearring</linkExternal>
 signin-use-a-different-account-link = In oar account brûke
 signin-forgot-password-link = Wachtwurd ferjitten?
 signin-bounced-header = Sorry. Wy hawwe jo account beskoattele.
@@ -816,8 +976,7 @@ signin-recovery-code-heading-w-custom-service = Fier reservekopy-autentikaasjeko
 signin-recovery-code-image-description =
     .aria-label = Dokumint dat ferburgen tekst befettet.
 signin-recovery-code-instruction = Fier in reserve-autentikaasjekoade yn dy’t oan jo levere is wylst it ynstellen fan autentikaasje yn twa stappen.
-signin-recovery-code-input =
-    .label = Fier in 10-siferich reserve-autentikaasjekoade yn
+signin-recovery-code-input-label = Fier in 10-siferich reserve-autentikaasjekoade yn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Befêstigje
 # Link to return to signin with two-step authentication code (security code)
@@ -841,8 +1000,7 @@ signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze h
 signin-token-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
-signin-token-code-input-label =
-    .label = Fier 6-siferige koade yn
+signin-token-code-input-label-v2 = Fier 6-siferige koade yn
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Befêstigje
 signin-token-code-code-expired = Koade ferrûn?
@@ -865,9 +1023,54 @@ signin-totp-code-heading-w-custom-service = Fier befeiligingskoade yn <span>om t
 signin-totp-code-image-label =
     .aria-label = In apparaat mei in ferburgen 6-siferige koade.
 signin-totp-code-instruction = Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn.
-signin-totp-code-input-label =
-    .label = Fier 6-siferige koade yn
+signin-totp-code-input-label-v2 = Fier 6-siferige koade yn
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke
 signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+confirm-signup-heading = Befêstigje jo account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Kontrolearje jo e-mail op de befêstigingskeppeling dy’t nei { $email } is ferstjoerd
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
+confirm-signup-code-input-label = Fier 6-siferige koade yn
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Befêstigje
+confirm-signup-code-code-expired = Koade ferrûn?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
+confirm-signup-code-required-error = Fier befêstigingskoade yn
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+signup-heading = Stel jo wachtwurd yn
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Wêrom moat ik dizze account oanmeitsje? <LinkExternal>Lês it hjir</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-mailadres wizigje
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hoe âld binne jo?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Jo moatte jo leeftiid ynfiere om te registrearjen
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Wêrom freegje wy dit?
