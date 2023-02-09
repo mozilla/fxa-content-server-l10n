@@ -1081,12 +1081,22 @@ signin-token-code-confirm-button = Potwierdź
 signin-token-code-code-expired = Kod wygasł?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Wyślij nowy.
+signin-token-code-required-error = Wymagany jest kod potwierdzenia
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Wpisz kod zabezpieczeń, <span>aby przejść do ustawień konta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Wpisz kod zabezpieczeń, <span>aby przejść do usługi { $serviceName }</span>
+signin-totp-code-image-label =
+    .aria-label = Urządzenie z ukrytym sześciocyfrowym kodem.
 signin-totp-code-instruction = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod zabezpieczeń.
 signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the security code entered by the user is valid
@@ -1108,6 +1118,10 @@ confirm-signup-instruction = Sprawdź, czy na koncie { $email } jest odnośnik p
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Wpisz kod potwierdzenia <span>do { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Wpisz kod potwierdzenia wysłany na adres { $email } w ciągu 5 minut.
 confirm-signup-code-input-label = Wpisz sześciocyfrowy kod
@@ -1116,11 +1130,15 @@ confirm-signup-code-confirm-button = Potwierdź
 confirm-signup-code-code-expired = Kod wygasł?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Wyślij nowy.
+confirm-signup-code-required-error = Proszę wpisać kod potwierdzenia
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ustaw hasło
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Dlaczego muszę utworzyć to konto? <LinkExternal>Dowiedz się tutaj</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmień adres e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
