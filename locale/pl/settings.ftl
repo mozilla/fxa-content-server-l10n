@@ -911,6 +911,25 @@ inline-totp-setup-add-security-link = Dodaj warstwę zabezpieczeń do swojego ko
 inline-totp-setup-enable-two-step-authentication-default-header = Włącz uwierzytelnianie dwuetapowe, <enable2StepDefaultSpan>aby przejść do ustawień konta</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header = Włącz uwierzytelnianie dwuetapowe, <enable2StepCustomServiceSpan>aby przejść do usługi { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-ready-button = Gotowe
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Zeskanuj kod uwierzytelniania, <scanAuthCodeHeaderSpan>aby przejść do usługi { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Wpisz kod ręcznie, <enterCodeManuallyHeaderSpan>aby przejść do usługi { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Zeskanuj kod uwierzytelniania, <scanAuthHeaderSpan>aby przejść do ustawień konta</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Wpisz kod ręcznie, <enterCodeManuallyHeaderSpan>aby przejść do ustawień konta</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Wpisz ten tajny klucz w aplikacji uwierzytelniania. <toggleToQRButton>Czy zamiast tego zeskanować kod QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacji uwierzytelniania, a następnie wpisz podany przez nią kod uwierzytelniania. <toggleToManualModeButton>Nie możesz zeskanować kodu?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Po ukończeniu zacznie tworzyć kody uwierzytelniania, które należy podać.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Kod uwierzytelniania
 
 ## AccountRecoveryConfirmKey page
 
@@ -985,6 +1004,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Przejdź do moje
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Błąd:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Weryfikowanie logowania…
 
 ## ConfirmSignin component
 
@@ -994,6 +1015,8 @@ confirm-signin-message = Sprawdź, czy na koncie { $email } jest odnośnik potwi
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Wpisz hasło <span>do { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
@@ -1006,6 +1029,8 @@ signin-header = Zaloguj się
 signin-use-a-different-account-link = Użyj innego konta
 signin-forgot-password-link = Nie pamiętasz hasła?
 signin-bounced-header = Konto zostało zablokowane.
+# $email (string) - The user's email.
+signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres %(email)s została zwrócona, więc konto zostało zablokowane, aby chronić dane użytkownika { -brand-firefox(case: "gen") }.
 # linkExternal is a link to a mozilla support
 signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj nam znać</linkExternal>, a pomożemy w odblokowaniu konta.
 signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
@@ -1016,6 +1041,15 @@ back = Wstecz
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Wpisz zapasowy kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Wpisz zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+signin-recovery-code-image-description =
+    .aria-label = Dokument zawierający ukryty tekst.
 signin-recovery-code-instruction = Proszę wpisać zapasowy kod uwierzytelniania otrzymany podczas konfiguracji uwierzytelniania dwuetapowego.
 signin-recovery-code-input-label = Wpisz 10-cyfrowy zapasowy kod uwierzytelniania
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1035,6 +1069,10 @@ signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomaga
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Wpisz kod potwierdzenia <span>do { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Wpisz kod potwierdzenia wysłany na adres { $email } w ciągu 5 minut.
 signin-token-code-input-label-v2 = Wpisz sześciocyfrowy kod
