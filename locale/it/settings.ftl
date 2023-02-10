@@ -163,7 +163,7 @@ get-data-trio-print =
 ## Images - these are all aria labels used for illustrations
 
 hearts-broken-image-aria-label =
-    .aria-label = Un computer, un telefono cellulare e l'immagine di un cuore spezzato su ciascuno
+    .aria-label = Un computer, un telefono cellulare e l’immagine di un cuore spezzato su ciascuno
 hearts-verified-image-aria-label =
     .aria-label = Un computer, un telefono cellulare e un tablet con un cuore pulsante su ciascuno
 signin-recovery-code-image-description =
