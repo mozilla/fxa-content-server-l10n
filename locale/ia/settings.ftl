@@ -158,6 +158,10 @@ get-data-trio-print =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Un computator e un telephono mobile e un imagine de un corde rupte sur cata uno
+hearts-verified-image-aria-label =
+    .aria-label = Un computator e un telephono mobile e un tabletta con un corde palpitante sur cata uno
 signin-recovery-code-image-description =
     .aria-label = Documento que contine texto occulte.
 signin-totp-code-image-label =
