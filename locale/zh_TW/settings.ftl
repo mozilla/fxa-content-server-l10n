@@ -160,6 +160,8 @@ get-data-trio-print =
 
 hearts-broken-image-aria-label =
     .aria-label = 一台電腦與一支手機，當中分別有破碎的心
+hearts-verified-image-aria-label =
+    .aria-label = 一台電腦與一支手機，當中分別有跳動中的心
 signin-recovery-code-image-description =
     .aria-label = 包含隱藏文字的文件。
 signin-totp-code-image-label =
