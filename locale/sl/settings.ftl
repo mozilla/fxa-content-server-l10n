@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Odpri { $emailProvider }
 confirm-with-link-resend-link-button = Ni med prejeto ali vsiljeno pošto? Pošlji ponovno
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Nazaj
-confirm-signup-aria-label =
-    .aria-label = Ovojnica s povezavo
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Kopirano
 datablock-print =
     .message = Natisnjeno
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (ocena)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (ocena)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (ocena)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (ocena)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Neznana lokacija
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } v { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Naslov IP: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -174,6 +197,19 @@ get-data-trio-copy =
 get-data-trio-print =
     .title = Natisni
 
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Računalnik in mobilni telefon ter na vsakem podoba zlomljenega srca
+hearts-verified-image-aria-label =
+    .aria-label = Računalnik in mobilni telefon ter tablica z utripajočim srčkom na vsakem
+signin-recovery-code-image-description =
+    .aria-label = Dokument, ki vsebuje skrito besedilo.
+signin-totp-code-image-label =
+    .aria-label = Naprava s skrito 6-mestno kodo.
+confirm-signup-aria-label =
+    .aria-label = Ovojnica s povezavo
+
 ## Input Password
 
 input-password-hide = Skrij geslo
@@ -245,7 +281,6 @@ ready-account-ready = Vaš račun je pripravljen!
 ready-continue = Nadaljuj
 sign-in-complete-header = Prijava potrjena
 sign-up-complete-header = Račun potrjen
-pulsing-hearts-description = Rožnat prenosni računalnik in vijolična mobilna naprava z utripajočim srcem
 primary-email-verified-header = Glavni e-poštni naslov potrjen
 
 ## Alert Bar
@@ -809,6 +844,7 @@ auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
+auth-error-999 = Nepričakovana napaka
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
 
@@ -861,8 +897,6 @@ inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Potrdite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Dokument, ki vsebuje skrito besedilo.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -894,6 +928,44 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skenirajte kodo QR v svoji 
 inline-totp-setup-on-completion-description = Ko bo končano, bo začelo ustvarjati overitvene kode, ki jih lahko vnesete.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overitvena koda
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Zdaj je potrebna odobritev <span>vaše druge naprave</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Seznanjanje ni uspelo
+pair-failure-message = Postopek nastavitve je bil prekinjen.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Naprava povezana
+pair-success-message =
+    .aria-label = Seznanjanje uspešno.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Potrdi seznanitev <span>za { $email }</span>
+pair-supp-allow-confirm-button = Potrdi seznanitev
+pair-supp-allow-cancel-link = Prekliči
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Zdaj je potrebna odobritev <span>vaše druge naprave</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -1012,8 +1084,6 @@ signin-recovery-code-heading-w-default-service = Vnesite rezervno overitveno kod
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Vnesite rezervno overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dokument, ki vsebuje skrito besedilo.
 signin-recovery-code-instruction = Vnesite rezervno overitveno kodo, ki ste jo prejeli med nastavitvijo overjanja v dveh korakih.
 signin-recovery-code-input-label = Vnesite 10-mestno rezervno overitveno kodo
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1059,8 +1129,6 @@ signin-totp-code-heading-w-default-service = Vnesite varnostno kodo <span>za nad
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Vnesite varnostno kodo <span>za nadaljevanje na { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Naprava s skrito 6-mestno kodo.
 signin-totp-code-instruction = Odprite svojo aplikacijo za overitev in vnesite dobljeno varnostno kodo.
 signin-totp-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the security code entered by the user is valid
