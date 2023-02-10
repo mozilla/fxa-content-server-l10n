@@ -868,27 +868,57 @@ inline-totp-setup-ready-button = Yn barod
 inline-totp-setup-show-qr-custom-service-header = Sganiwch y cod dilysu <scanAuthCodeHeaderSpan>i barhau i { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = Rhowch y cod â llaw <enterCodeManuallyHeaderSpan> i barhau i { $serviceName }</enterCodeManuallyHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Sganiwch y cod dilysu <scanAuthHeaderSpan>i barhau i osodiadau cyfrif</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Rhowch y cod â llaw <enterCodeManuallyHeaderSpan>i barhau i osodiadau'r cyfrif</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Teipiwch yr allwedd gyfrinachol hon yn eich ap dilysu. <toggleToQRButton>Sganio cod QR yn lle hynny?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Sganiwch y cod QR yn eich ap dilysu ac yna rhowch y cod dilysu y mae'n ei ddarparu. <toggleToManualModeButton>Methu sganio'r cod?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Unwaith y bydd wedi'i gwblhau, bydd yn dechrau cynhyrchu codau dilysu i chi eu rhoi.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Cod dilysu
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais arall</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Paru'n aflwyddiannus
+pair-failure-message = Cafodd y broses osod ei derfynu.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = Dyfais wedi'i gysylltu
+pair-success-message =
+    .aria-label = Paru'n llwyddiant.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Cadarnhau paru <small>{ $email }</small>
+pair-supp-allow-confirm-button = Cadarnhau paru
+pair-supp-allow-cancel-link = Diddymu
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais arall</span>
 
 ## AccountRecoveryConfirmKey page
 
