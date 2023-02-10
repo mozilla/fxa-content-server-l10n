@@ -895,7 +895,7 @@ inline-totp-setup-security-code-placeholder = Код аўтарызацыі
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = Цяпер патрабуецца пацвярджэнне <span>з іншай вашай прылады</span>
+pair-wait-for-supp-heading-text = Цяпер патрэбна пацвярджэнне <span>з іншай вашай прылады</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -925,7 +925,7 @@ pair-supp-allow-cancel-link = Скасаваць
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-auth-heading-text = Цяпер патрабуецца пацвярджэнне <span>з іншай вашай прылады</span>
+pair-wait-for-auth-heading-text = Цяпер патрэбна пацвярджэнне <span>з іншай вашай прылады</span>
 
 ## AccountRecoveryConfirmKey page
 
