@@ -81,6 +81,20 @@ device-info-block-location-city-region-country = { $city }, { $region }, { $coun
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
 device-info-block-location-region-country = { $region }, { $country } (шамамен)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (шамамен)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (шамамен)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Орналасқан жері белгісіз
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } жүйесінде { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP адресі: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -144,6 +158,10 @@ get-data-trio-print =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Компьютер мен ұялы телефон және әрқайсысында жаралы жүректің суреті
+hearts-verified-image-aria-label =
+    .aria-label = Компьютер, ұялы телефон және планшет және әрқайсысында жаралы жүректің суреті
 signin-recovery-code-image-description =
     .aria-label = Жасырын мәтіні бар құжат.
 signin-totp-code-image-label =
@@ -786,6 +804,7 @@ auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
 auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
+auth-error-999 = Күтпеген қате
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
@@ -874,22 +893,39 @@ inline-totp-setup-security-code-placeholder = Аутентификация ко�
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Енді сіздің <span>басқа құрылғыңыздан</span> растау керек болып тұр
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Жұптау сәтсіз аяқталды
+pair-failure-message = Баптау әрекеті үзілген.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = Құрылғы байланыстырылды
+pair-success-message =
+    .aria-label = Жұптау сәтті аяқталды.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = <span>{ $email }</span> үшін жұптауды растаңыз
+pair-supp-allow-confirm-button = Жұптастыруды растау
+pair-supp-allow-cancel-link = Бас тарту
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құрылғыңыздан</span> растау керек болып тұр
 
 ## AccountRecoveryConfirmKey page
 
