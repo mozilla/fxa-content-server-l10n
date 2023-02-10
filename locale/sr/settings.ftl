@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Отвори { $emailProvider }
 confirm-with-link-resend-link-button = Није у сандучету или у нежељеној пошти? Пошаљи поново
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Назад
-confirm-signup-aria-label =
-    .aria-label = Коверта која садржи везу
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Копирано
 datablock-print =
     .message = Одштампано
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (приближно)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (приближно)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (приближно)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (приближно)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Непозната локација
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } на { $genericOSName }-у
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP адреса: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +155,15 @@ get-data-trio-copy =
     .title = Копирај
 get-data-trio-print =
     .title = Штампај
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Документ који садржи скривени текст.
+signin-totp-code-image-label =
+    .aria-label = Уређај са скривеним шестоцифреним кодом.
+confirm-signup-aria-label =
+    .aria-label = Коверта која садржи везу
 
 ## Input Password
 
@@ -204,7 +236,6 @@ ready-account-ready = Ваш налог је спреман!
 ready-continue = Настави
 sign-in-complete-header = Пријава је потврђена
 sign-up-complete-header = Налог је потврђен
-pulsing-hearts-description = Ружичасти лаптоп и љубичасти мобилни уређај са пулсирајућим срцима
 primary-email-verified-header = Примарна е-пошта је потврђена
 
 ## Alert Bar
@@ -822,8 +853,6 @@ inline-recovery-confirmation-header-default = Потврдите резервн�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Потврдите резервни приступни код <span>да наставите на { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Документ који садржи скривени текст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -855,6 +884,27 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Скенирајте QR к�
 inline-totp-setup-on-completion-description = По завршетку, аутоматски ће почети да прави приступне кодове за ваше пријаве.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Приступни код
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -973,8 +1023,6 @@ signin-recovery-code-heading-w-default-service = Унесите резервни
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Унесите резервни приступни код <span>да наставите на { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Документ који садржи скривени текст.
 signin-recovery-code-instruction = Унесите резервни приступни код који сте добили када сте подесили аутентификацију у два корака.
 signin-recovery-code-input-label = Унесите 10-цифрени резервни приступни код
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1020,8 +1068,6 @@ signin-totp-code-heading-w-default-service = Унесите безбедносн
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Унесите безбедносни код <span>да наставите на { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Уређај са скривеним шестоцифреним кодом.
 signin-totp-code-instruction = Отворите вашу апликацију за аутентификацију и унесите понуђени безбедносни код.
 signin-totp-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the security code entered by the user is valid
