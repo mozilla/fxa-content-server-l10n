@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Адкрыць { $emailProvider }
 confirm-with-link-resend-link-button = Няма ў уваходных ці ў спаме? Выслаць яшчэ раз
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Назад
-confirm-signup-aria-label =
-    .aria-label = Канверт са спасылкай
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Скапіявана
 datablock-print =
     .message = Надрукавана
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (прыблізна)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (прыблізна)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (прыблізна)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (прыблізна)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Невядомае месцазнаходжанне
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } на { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-адрас: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +155,19 @@ get-data-trio-copy =
     .title = Капіяваць
 get-data-trio-print =
     .title = Друкаваць
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Камп'ютар і мабільны тэлефон з выявай разбітага сэрца на іх
+hearts-verified-image-aria-label =
+    .aria-label = Камп'ютар, мабільны тэлефон і планшэт з пульсуючым сэрцам на кожным з іх
+signin-recovery-code-image-description =
+    .aria-label = Дакумент, які змяшчае схаваны тэкст.
+signin-totp-code-image-label =
+    .aria-label = Прылада са схаваным 6-значным кодам.
+confirm-signup-aria-label =
+    .aria-label = Канверт са спасылкай
 
 ## Input Password
 
@@ -204,7 +240,6 @@ ready-account-ready = Ваш уліковы запіс гатовы!
 ready-continue = Працягнуць
 sign-in-complete-header = Уваход пацверджаны
 sign-up-complete-header = Уліковы запіс пацверджаны
-pulsing-hearts-description = Ружовы ноўтбук і пурпурная мабільная прылада з пульсуючым сэрцам
 primary-email-verified-header = Асноўны адрас электроннай пошты пацверджаны
 
 ## Alert Bar
@@ -769,6 +804,7 @@ auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
+auth-error-999 = Нечаканая памылка
 auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 
@@ -821,8 +857,6 @@ inline-recovery-confirmation-header-default = Пацвердзіце рэзер�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Пацвердзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Дакумент, які змяшчае схаваны тэкст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -854,6 +888,44 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Адскануйце QR-к�
 inline-totp-setup-on-completion-description = Пасля завяршэння яна пачне генераваць коды аўтарызацыі для ўвядзення.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аўтарызацыі
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Цяпер патрабуецца пацвярджэнне <span>з іншай вашай прылады</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Спарванне не ўдалося
+pair-failure-message = Працэс усталявання быў спынены.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Прылада злучана
+pair-success-message =
+    .aria-label = Спарванне прайшло паспяхова.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Пацвердзіце спарванне <span>для { $email }</span>
+pair-supp-allow-confirm-button = Пацвердзіце спарванне
+pair-supp-allow-cancel-link = Скасаваць
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Цяпер патрабуецца пацвярджэнне <span>з іншай вашай прылады</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -972,8 +1044,6 @@ signin-recovery-code-heading-w-default-service = Увядзіце рэзерво
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Увядзіце рэзервовы код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Дакумент, які змяшчае схаваны тэкст.
 signin-recovery-code-instruction = Калі ласка, увядзіце рэзервовы код аўтарызацыі, які быў прадстаўлены вам у часе наладжвання двухэтапнай аўтарызацыі.
 signin-recovery-code-input-label = Увядзіце 10-значны рэзервовы код аўтарызацыі
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1019,8 +1089,6 @@ signin-totp-code-heading-w-default-service = Увядзіце код бяспе�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Увядзіце код бяспекі, <span>каб перайсці да { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Прылада са схаваным 6-значным кодам.
 signin-totp-code-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код бяспекі, які яна выдае.
 signin-totp-code-input-label-v2 = Увядзіце 6-значны код
 # Form button to confirm if the security code entered by the user is valid
