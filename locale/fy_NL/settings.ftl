@@ -916,7 +916,7 @@ pair-success-message =
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Keppeling <span>foar %(email)s</span> befêstigje
+pair-supp-allow-heading-text = Keppeling <span>foar { $email }</span> befêstigje
 pair-supp-allow-confirm-button = Keppeling befêstigje
 pair-supp-allow-cancel-link = Annulearje
 
