@@ -3,6 +3,99 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Cau
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Mae gwybodaeth ymarferol yn dod i'ch blch derbyn. Cofrestrwch am ragor:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Derbyn y diweddaraf gan { -brand-mozilla } a { -brand-firefox }.
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Gweithredwch i gadw'r rhyngrwyd yn iach
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Byddwch yn fwy diogel ac yn fwy craff ar-lein
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Dewis beth i'w gydweddu:
+choose-what-to-sync-option-bookmarks =
+    .label = Nodau Tudalen
+choose-what-to-sync-option-history =
+    .label = Hanes
+choose-what-to-sync-option-passwords =
+    .label = Cyfrineiriau
+choose-what-to-sync-option-addons =
+    .label = Ychwanegion
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Agor Tabiau
+choose-what-to-sync-option-prefs =
+    .label = Dewisiadau
+choose-what-to-sync-option-addresses =
+    .label = Cyfeiriadau
+choose-what-to-sync-option-creditcards =
+    .label = Cardiau Credyd
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Agor { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ddim yn y blwch derbyn na'r sbam? Ailanfon
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Nôl
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Wedi eu llwytho i lawr
+datablock-copy =
+    .message = Copïwyd
+datablock-print =
+    .message = Argraffwyd
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $stateCode }, { $country } (amcan)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (amcan)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (amcan)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (amcan)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Lleoliad anhysbys
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } ar { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Cyfeiriad IP: { $ip-address }
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,14 +130,44 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Cyfrinair
+signup-confirm-password-label =
+    .label = Ailadrodd y cyfrinair
+signup-submit-button = Creu cyfrif
 form-reset-password-with-balloon-new-password =
     .label = Cyfrinair newydd
 form-reset-password-with-balloon-confirm-password =
     .label = Ail gynnig eich cyfrinair
 form-reset-password-with-balloon-submit-button = Ailosod y cyfrinair
 form-reset-password-with-balloon-match-error = Nid yw'r cyfrineiriau'n cydweddu
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Allwedd adfer cyfrif { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codau dilysu wrth gefn { -brand-firefox }
+get-data-trio-download =
+    .title = Llwytho i Lawr
+get-data-trio-copy =
+    .title = Copïo
+get-data-trio-print =
+    .title = Argraffu
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Cyfrifiadur a ffôn symudol a delwedd o galon wedi torri ar bob un
+hearts-verified-image-aria-label =
+    .aria-label = Cyfrifiadur a ffôn symudol a thabled gyda chalon yn curo ar bob un
+signin-recovery-code-image-description =
+    .aria-label = Dogfen sy'n cynnwys testun cudd.
+signin-totp-code-image-label =
+    .aria-label = Dyfais gyda chod 6 digid cudd.
+confirm-signup-aria-label =
+    .aria-label = Amlen yn cynnwys dolen
 
 ## Input Password
 
@@ -89,6 +212,12 @@ primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoe
 signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
 confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
 
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych yn ei storio gyda ni.
+password-info-balloon-reset-risk-info = Mae ailosod yn golygu o bosibl golli data fel cyfrineiriau a nodau tudalen.
+
 ## PasswordStrengthBalloon component
 
 password-strength-balloon-heading = Gofynion cyfrinair
@@ -111,7 +240,6 @@ ready-account-ready = Mae eich cyfrif yn barod!
 ready-continue = Parhau
 sign-in-complete-header = Mewngofnodi wedi ei gadarnhau
 sign-up-complete-header = Cyfrif wedi'i gadarnhau
-pulsing-hearts-description = Gliniadur pinc a dyfais symudol borffor, pob un â chalon yn curo
 primary-email-verified-header = Prif e-bost wedi'i gadarnhau
 
 ## Alert Bar
@@ -215,15 +343,6 @@ cs-recent-activity = Gweithgaredd Cyfrif Diweddar
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Wedi eu llwytho i lawr
-datablock-copy =
-    .message = Copïwyd
-datablock-print =
-    .message = Argraffwyd
-
 ## Data collection section
 
 dc-heading = Casglu a'r Defnydd o Ddata
@@ -247,18 +366,6 @@ drop-down-menu-sign-out-error-2 = Ymddiheuriadau, bu anhawster wrth i chi allgof
 ## Flow Container
 
 flow-container-back = Nôl
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Allwedd adfer cyfrif { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Codau dilysu wrth gefn { -brand-firefox }
-get-data-trio-download =
-    .title = Llwytho i Lawr
-get-data-trio-copy =
-    .title = Copïo
-get-data-trio-print =
-    .title = Argraffu
 
 # HeaderLockup component
 
@@ -660,6 +767,10 @@ tfa-row-change-modal-heading-1 = Newid codau dilysu wrth gefn?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cyfrif anhysbys
@@ -680,18 +791,43 @@ auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-# This is a label that precedes any error which could arise from trying to validate the user's signin
-error-label = Gwall:
-# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
-validating-signin = Wrthi'n dilysu mewngofnod…
 
-## ConfirmSignin component
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
 
-confirm-signin-header = Yn cadarnhau'r mewngofnod hwn
-# { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -762,6 +898,19 @@ reset-password-error-unknown-account = Cyfrif anhysbys
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
 
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Gwall:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Wrthi'n dilysu mewngofnod…
+
+## ConfirmSignin component
+
+confirm-signin-header = Yn cadarnhau'r mewngofnod hwn
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
+
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
@@ -775,14 +924,6 @@ signin-subheader-without-logo-with-servicename = Parhau i { $serviceName }
 signin-subheader-without-logo-default = Parhau i osodiadau cyfrif
 signin-button = Mewngofnodi
 signin-header = Mewngofnodi
-# This message is followed by a bulleted list
-signin-tos-list-intro = Drwy barhau, rydych yn cytuno i:
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-pocket = <linkExternal>Telerau Gwasanaeth</linkExternal> a <linkExternal>Hysbysiad Preifatrwydd</linkExternal> { -product-pocket }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-list-firefox = <linkExternal>Telerau Gwasanaeth</linkExternal> a <linkExternal>Hysbysiad Preifatrwydd</linkExternal> { -brand-firefox }
-# <linkExternal> links to the Terms of Service and also to the Privacy Notice
-signin-tos-and-privacy = Drwy barhau, rydych yn cytuno i'r <linkExternal>Telerau Gwasanaeth</linkExternal> a'r <linkExternal>Hysbysiad Preifatrwydd</linkExternal>
 signin-use-a-different-account-link = Defnyddiwch gyfrif gwahanol
 signin-forgot-password-link = Wedi anghofio'r cyfrinair?
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
@@ -805,11 +946,7 @@ signin-recovery-code-heading-w-default-service = Ailosodwch y cyfrinair <span>i 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Rhowch god dilysu wrth gefn <span>i barhau i { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dogfen sy'n cynnwys testun cudd.
 signin-recovery-code-instruction = Rhowch god dilysu wrth gefn a ddarparwyd i chi yn ystod gosod dilysu dau gam.
-signin-recovery-code-input =
-    .label = Rhowch god dilysu 10 digid wrth gefn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
 # Link to return to signin with two-step authentication code (security code)
@@ -833,8 +970,6 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 signin-token-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
-signin-token-code-input-label =
-    .label = Rhowch y cod 6 nod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Cadarnhau
 signin-token-code-code-expired = Cod wedi dod i ben?
@@ -854,12 +989,24 @@ signin-totp-code-heading-w-default-service = Rhowch god diogelwch <span>i barhau
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Rhowch god diogelwch <span>i barhau i { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Dyfais gyda chod 6 digid cudd.
 signin-totp-code-instruction = Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu.
-signin-totp-code-input-label =
-    .label = Rhowch y cod 6 nod
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Cadarnhau
 signin-totp-code-other-account-link = Defnyddiwch gyfrif gwahanol
 signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
