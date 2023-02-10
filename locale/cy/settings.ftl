@@ -15,7 +15,7 @@ banner-dismiss-button =
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Mae gwybodaeth ymarferol yn dod i'ch blch derbyn. Cofrestrwch am ragor:
+choose-newsletters-prompt = Mae gwybodaeth ymarferol yn dod i'ch blwch derbyn. Cofrestrwch am ragor:
 # Newsletter checklist item
 choose-newsletters-option-firefox-accounts-journey =
     .label = Derbyn y diweddaraf gan { -brand-mozilla } a { -brand-firefox }.
@@ -813,7 +813,7 @@ cannot-create-account-learn-more-link = Dysgu rhagor
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Mae angen storfa leol a chwcis
-cookies-disabled-enable-prompt = Galluogwch cwcis a storfa lleol yn eich porwr er mwy cael mynediad at { -product-firefox-accounts }. Bydd gwneud hynny'n galluogi swyddogaethau fel cofio rhwng sesiynau.
+cookies-disabled-enable-prompt = Galluogwch cwcis a storfa leol yn eich porwr er mwy cael mynediad at { -product-firefox-accounts }. Bydd gwneud hynny'n galluogi swyddogaethau fel cofio rhwng sesiynau.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Ceisiwch eto
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1038,6 +1038,7 @@ signin-recovery-code-heading-w-default-service = Ailosodwch y cyfrinair <span>i 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Rhowch god dilysu wrth gefn <span>i barhau i { $serviceName }</span>
 signin-recovery-code-instruction = Rhowch god dilysu wrth gefn a ddarparwyd i chi yn ystod gosod dilysu dau gam.
+signin-recovery-code-input-label = Rhowch god dilysu 10 digid wrth gefn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
 # Link to return to signin with two-step authentication code (security code)
@@ -1061,6 +1062,7 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 signin-token-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
+signin-token-code-input-label-v2 = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Cadarnhau
 signin-token-code-code-expired = Cod wedi dod i ben?
@@ -1081,6 +1083,7 @@ signin-totp-code-heading-w-default-service = Rhowch god diogelwch <span>i barhau
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Rhowch god diogelwch <span>i barhau i { $serviceName }</span>
 signin-totp-code-instruction = Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu.
+signin-totp-code-input-label-v2 = Rhowch y cod 6 digid
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Cadarnhau
 signin-totp-code-other-account-link = Defnyddiwch gyfrif gwahanol
@@ -1090,6 +1093,9 @@ signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Cadarnhewch eich cyfrif
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Edrychwch yn eich e-bost am y ddolen cadarnhau anfonwyd at { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1097,7 +1103,34 @@ signin-totp-code-recovery-code-link = Trafferth cyflwyno cod?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Rhowch y cod cadarnhau <span> ar gyfer eich { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
+confirm-signup-code-input-label = Rhowch y cod 6 digid
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Cadarnhau
+confirm-signup-code-code-expired = Cod wedi dod i ben?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = E-bostiwch god newydd.
+confirm-signup-code-required-error = Rhowch y cod cadarnhau
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Gosod eich cyfrinair
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Pam fod angen i mi greu'r cyfrif hwn? <LinkExternal>Darganfyddwch yma</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Newid e-bost
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Beth yw eich oed?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Mae'n rhaid i chi nodi eich oed er mwyn ymuno
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Pam rydyn ni'n gofyn?
