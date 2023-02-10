@@ -158,6 +158,10 @@ get-data-trio-print =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Рачунар и мобилни телефон, сваки са сликом сломљеног срца
+hearts-verified-image-aria-label =
+    .aria-label = Рачунар и мобилни телефон, сваки са сликом срца које куца
 signin-recovery-code-image-description =
     .aria-label = Документ који садржи скривени текст.
 signin-totp-code-image-label =
@@ -801,6 +805,7 @@ auth-error-138-2 = Непотврђена сесија
 auth-error-139 = Секундарна адреса мора бити другачија од адресе вашег налога
 auth-error-155 = TOTP токен није пронађен
 auth-error-183-2 = Неисправан или истекао код за потврду
+auth-error-999 = Неочекивана грешка
 auth-error-1003 = Локално складиште или колачићи су и даље онемогућени
 auth-error-1008 = Нова лозинка мора да буде другачија
 
@@ -889,22 +894,39 @@ inline-totp-setup-security-code-placeholder = Приступни код
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Сада је потребно одобрење <span>са вашег другог уређаја</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Упаривање није успело
+pair-failure-message = Процес подешавања је окончан.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = Уређај је повезан
+pair-success-message =
+    .aria-label = Упаривање је успело.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Потврдите упаривање <span>за { $email }</span>
+pair-supp-allow-confirm-button = Потврдите упаривање
+pair-supp-allow-cancel-link = Откажи
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Сада је потребно одобрење <span>са вашег другог уређаја</span>
 
 ## AccountRecoveryConfirmKey page
 
