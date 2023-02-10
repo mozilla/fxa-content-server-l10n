@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Otwórz pocztę { $emailProvider }
 confirm-with-link-resend-link-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Wstecz
-confirm-signup-aria-label =
-    .aria-label = Koperta zawierająca odnośnik
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,11 @@ datablock-copy =
     .message = Skopiowano
 datablock-print =
     .message = Wydrukowano
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
 
 ## Firefox and Mozilla Brand
 ##
@@ -213,6 +216,15 @@ get-data-trio-copy =
 get-data-trio-print =
     .title = Drukuj
 
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Dokument zawierający ukryty tekst.
+signin-totp-code-image-label =
+    .aria-label = Urządzenie z ukrytym sześciocyfrowym kodem.
+confirm-signup-aria-label =
+    .aria-label = Koperta zawierająca odnośnik
+
 ## Input Password
 
 input-password-hide = Ukryj hasło
@@ -284,7 +296,6 @@ ready-account-ready = Konto jest gotowe!
 ready-continue = Kontynuuj
 sign-in-complete-header = Potwierdzono logowanie
 sign-up-complete-header = Potwierdzono konto
-pulsing-hearts-description = Różowy laptop i fioletowy telefon, oba z bijącymi sercami
 primary-email-verified-header = Potwierdzono główny adres e-mail
 
 ## Alert Bar
@@ -897,8 +908,6 @@ inline-recovery-confirmation-header-default = Potwierdź zapasowy kod uwierzytel
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Dokument zawierający ukryty tekst.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -930,6 +939,27 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacj
 inline-totp-setup-on-completion-description = Po ukończeniu zacznie tworzyć kody uwierzytelniania, które należy podać.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kod uwierzytelniania
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -1030,7 +1060,7 @@ signin-use-a-different-account-link = Użyj innego konta
 signin-forgot-password-link = Nie pamiętasz hasła?
 signin-bounced-header = Konto zostało zablokowane.
 # $email (string) - The user's email.
-signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres %(email)s została zwrócona, więc konto zostało zablokowane, aby chronić dane użytkownika { -brand-firefox(case: "gen") }.
+signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres { $email } została zwrócona, więc konto zostało zablokowane, aby chronić dane użytkownika { -brand-firefox(case: "gen") }.
 # linkExternal is a link to a mozilla support
 signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj nam znać</linkExternal>, a pomożemy w odblokowaniu konta.
 signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
@@ -1048,8 +1078,6 @@ signin-recovery-code-heading-w-default-service = Wpisz zapasowy kod uwierzytelni
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Wpisz zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dokument zawierający ukryty tekst.
 signin-recovery-code-instruction = Proszę wpisać zapasowy kod uwierzytelniania otrzymany podczas konfiguracji uwierzytelniania dwuetapowego.
 signin-recovery-code-input-label = Wpisz 10-cyfrowy zapasowy kod uwierzytelniania
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1095,8 +1123,6 @@ signin-totp-code-heading-w-default-service = Wpisz kod zabezpieczeń, <span>aby 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Wpisz kod zabezpieczeń, <span>aby przejść do usługi { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Urządzenie z ukrytym sześciocyfrowym kodem.
 signin-totp-code-instruction = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod zabezpieczeń.
 signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the security code entered by the user is valid
