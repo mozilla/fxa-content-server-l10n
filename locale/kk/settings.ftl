@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = { $emailProvider } ашу
 confirm-with-link-resend-link-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Артқа
-confirm-signup-aria-label =
-    .aria-label = Сілтемесі бар конверт
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,17 @@ datablock-copy =
     .message = Көшірілді
 datablock-print =
     .message = Басып шығарылды
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (шамамен)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (шамамен)
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +141,15 @@ get-data-trio-copy =
     .title = Көшіріп алу
 get-data-trio-print =
     .title = Баспаға шығару
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Жасырын мәтіні бар құжат.
+signin-totp-code-image-label =
+    .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
+confirm-signup-aria-label =
+    .aria-label = Сілтемесі бар конверт
 
 ## Input Password
 
@@ -204,7 +222,6 @@ ready-account-ready = Сіздің тіркелгіңіз дайын!
 ready-continue = Жалғастыру
 sign-in-complete-header = Кіру расталды
 sign-up-complete-header = Тіркелгі расталды
-pulsing-hearts-description = Қызғылт түсті ноутбук және жүрек соғуы бар күлгін мобильді құрылғы
 primary-email-verified-header = Біріншілік эл. пошта адресі расталды
 
 ## Alert Bar
@@ -821,8 +838,6 @@ inline-recovery-confirmation-header-default = <span>Тіркелгі бапта�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын растаңыз
-inline-recovery-setup-image-description =
-    .aria-label = Жасырын мәтіні бар құжат.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -854,6 +869,27 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Аутентификаци�
 inline-totp-setup-on-completion-description = Аяқтағаннан кейін ол сізге енгізу үшін аутентификация кодтарын жасай бастайды.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Аутентификация коды
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -972,8 +1008,6 @@ signin-recovery-code-heading-w-default-service = <span>Тіркелгі бапт
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ішіне өту үшін</span> сақтық аутентификация кодын енгізіңіз
-signin-recovery-code-image-description =
-    .aria-label = Жасырын мәтіні бар құжат.
 signin-recovery-code-instruction = Екі қадамдық аутентификацияны баптау кезінде сізге берілген сақтық аутентификация кодын енгізіңіз.
 signin-recovery-code-input-label = 10 сандық сақтық аутентификация кодын енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1019,8 +1053,6 @@ signin-totp-code-heading-w-default-service = <span>Тіркелгі баптау
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> қауіпсіздік кодын
-signin-totp-code-image-label =
-    .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
 signin-totp-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the security code entered by the user is valid
