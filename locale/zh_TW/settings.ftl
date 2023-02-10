@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = 開啟 { $emailProvider } 收信
 confirm-with-link-resend-link-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = 返回
-confirm-signup-aria-label =
-    .aria-label = 包含鏈結的信封
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = 已複製
 datablock-print =
     .message = 已列印
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $country } { $region } { $city }（估計地點）
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $country } { $region }（估計地點）
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $country } { $city }（估計地點）
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country }（估計地點）
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = 未知地點
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } 上的 { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP 位置：{ $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +155,17 @@ get-data-trio-copy =
     .title = 複製
 get-data-trio-print =
     .title = 列印
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = 一台電腦與一支手機，當中分別有破碎的心
+signin-recovery-code-image-description =
+    .aria-label = 包含隱藏文字的文件。
+signin-totp-code-image-label =
+    .aria-label = 包含隱藏六位數安全碼的裝置。
+confirm-signup-aria-label =
+    .aria-label = 包含鏈結的信封
 
 ## Input Password
 
@@ -204,7 +238,6 @@ ready-account-ready = 您的帳號準備好了！
 ready-continue = 繼續
 sign-in-complete-header = 登入完成
 sign-up-complete-header = 帳號已確認
-pulsing-hearts-description = 粉紅色的筆記型電腦跟紫色的行動裝置，背後分別都有個跳動的心形圖案
 primary-email-verified-header = 已驗證主要電子郵件地址
 
 ## Alert Bar
@@ -732,6 +765,7 @@ auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
+auth-error-999 = 未預期的錯誤
 auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
@@ -784,8 +818,6 @@ inline-recovery-confirmation-header-default = 確認備用驗證碼<span>即可�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前往 { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = 包含隱藏文字的文件。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -817,6 +849,38 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 請在您的驗證器應用
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 驗證碼
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = 配對失敗
+pair-failure-message = 已中斷設定。
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = 裝置已連線
+pair-success-message =
+    .aria-label = 配對成功。
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = 確認配對 <span>{ $email }</span>
+pair-supp-allow-confirm-button = 確認配對
+pair-supp-allow-cancel-link = 取消
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -935,8 +999,6 @@ signin-recovery-code-heading-w-default-service = 輸入備用驗證碼<span>即�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = 輸入備用驗證碼<span>即可繼續前往 { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = 包含隱藏文字的文件。
 signin-recovery-code-instruction = 請輸入設定兩階段驗證時，提供給您的備用驗證碼。
 signin-recovery-code-input-label = 請輸入十位數的備用驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -982,8 +1044,6 @@ signin-totp-code-heading-w-default-service = 請輸入安全碼<span>即可繼�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = 請輸入安全碼<span>即可繼續前往 { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = 包含隱藏六位數安全碼的裝置。
 signin-totp-code-instruction = 請開啟您的兩階段驗證程式，並輸入其提供的安全碼。
 signin-totp-code-input-label-v2 = 請輸入六位數的安全碼
 # Form button to confirm if the security code entered by the user is valid
