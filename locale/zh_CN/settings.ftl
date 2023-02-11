@@ -75,6 +75,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $country } { $region } { $city }（估测位置）
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $country } { $region }（估测位置）
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $country }，{ $city }（估测位置）
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country }（估测位置）
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = 位置未知
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } 上的 { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP 地址：{ $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -743,6 +763,7 @@ auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
 auth-error-183-2 = 验证码无效或已过期
+auth-error-999 = 意外错误
 auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 
