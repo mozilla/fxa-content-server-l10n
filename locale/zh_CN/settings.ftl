@@ -80,13 +80,13 @@ datablock-print =
 device-info-block-location-city-region-country = { $country }, { $region }, { $city }（估计）
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
-device-info-block-location-region-country = { $country } { $region }（估测位置）
+device-info-block-location-region-country = { $country }, { $region }（估计）
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
-device-info-block-location-city-country = { $country }，{ $city }（估测位置）
+device-info-block-location-city-country = { $country }, { $city }（估计）
 # Variable { $country } represent the estimated location of the user's device
 # For example, 'Canada (estimated)'
-device-info-block-location-country = { $country }（估测位置）
+device-info-block-location-country = { $country }（估计）
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = 位置未知
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
