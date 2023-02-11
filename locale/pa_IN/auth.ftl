@@ -381,6 +381,8 @@ confirm-email-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verificationReminderSecond-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
+verificationReminderSecond-title-2 = { -brand-firefox } ਨੂੰ ਖੁੰਝ ਨਾ ਜਾਇਓ
+verificationReminderSecond-sub-description-2 = ਇੰਟਰਨੈੱਟ ਨੂੰ ਹਰ ਕਿਸੇ ਲਈ ਆਜ਼ਾਦ ਥਾਂ ਬਣਾਉਣ ਦੇ ਸਾਡੇ ਮਕਸਦ ਦਾ ਹਿੱਸਾ ਬਣੋ।
 verificationReminderSecond-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verify-title-2 = { -brand-firefox } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
 verify-subject = ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ
@@ -411,6 +413,7 @@ verifySecondaryCode-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤਸਦੀਕ
 verifySecondaryCode-title-2 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-action-2 = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-prompt-2 = ਇਹ ਤਸਦੀਕੀ ਕੋਡ ਵਰਤੋ:
+verifySecondaryCode-expiry-notice-2 = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ। ਇੱਕ ਵਾਰ ਤਸਦੀਕ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸ ਸਿਰਨਾਵੇਂ ਉੱਤੇ ਸੁਰੱਖਿਆ ਸੂਚਨਾਵਾਂ ਅਤੇ ਤਸਦੀਕੀ ਜਾਣਕਾਰੀ ਮਿਲਣੀ ਸ਼ੁਰੂ ਹੋ ਜਾਵੇਗੀ।
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ

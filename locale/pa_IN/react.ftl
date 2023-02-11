@@ -1,5 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = ਆਮ ਐਪਲੀਕੇਸ਼ਨ ਗਲਤੀ
+app-general-err-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

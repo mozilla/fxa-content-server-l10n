@@ -3,6 +3,99 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = ਬੰਦ ਕਰੋ
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ‘ਚ ਲਵੋ। ਹੋਰ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = { -brand-mozilla } ਅਤੇ { -brand-firefox } ਬਾਰੇ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਲਵੋ
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = ਇੰਟਰਨੈੱਟ ਨੂੰ ਮਜ਼ਬੂਤ ਬਣਾਈ ਰੱਖਣ ਲਈ ਕਾਰਵਾਈ ਕਰੋ
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = ਆਨਲਾਈਨ ਵੱਧ ਸੁਰੱਖਿਅਤ ਅਤੇ ਸਮਝਦਾਰ ਬਣੋ
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ:
+choose-what-to-sync-option-bookmarks =
+    .label = ਬੁੱਕਮਾਰਕ
+choose-what-to-sync-option-history =
+    .label = ਅਤੀਤ
+choose-what-to-sync-option-passwords =
+    .label = ਪਾਸਵਰਡ
+choose-what-to-sync-option-addons =
+    .label = ਐਡ-ਆਨ
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = ਟੈਬਾਂ ਖੋਲ੍ਹੋ
+choose-what-to-sync-option-prefs =
+    .label = ਮੇਰੀ ਪਸੰਦ
+choose-what-to-sync-option-addresses =
+    .label = ਸਿਰਨਾਵੇਂ
+choose-what-to-sync-option-creditcards =
+    .label = ਕਰੈਡਿਟ ਕਾਰਡ
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = { $emailProvider } ਖੋਲ੍ਹੋ
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = ਪਿੱਛੇ
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = ਡਾਊਨਲੋਡ ਕੀਤਾ
+datablock-copy =
+    .message = ਕਾਪੀ ਕੀਤਾ
+datablock-print =
+    .message = ਪਰਿੰਟ ਕੀਤਾ
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (ਅੰਦਾਜ਼ਨ)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (ਅੰਦਾਜ਼ਨ)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (ਅੰਦਾਜ਼ਾਨ)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (ਅੰਦਾਜ਼ਨ)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = ਅਣਪਛਾਤਾ ਟਿਕਾਣਾ
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } ਰਾਹੀਂ { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP ਸਿਰਨਾਵਾਂ: { $ipAddress }
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,22 +118,105 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox ਖਾਤਾ
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN ਪਲੱਸ
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
 -google-play = Google Play
 -app-store = App Store
 
+## FormPasswordWithBalloons
+
+signup-new-password-label =
+    .label = ਪਾਸਵਰਡ
+signup-confirm-password-label =
+    .label = ਪਾਸਵਰਡ ਦੁਹਰਾਉ
+signup-submit-button = ਖਾਤਾ ਬਣਾਓ
+form-reset-password-with-balloon-new-password =
+    .label = ਨਵਾਂ ਪਾਸਵਰਡ
+form-reset-password-with-balloon-confirm-password =
+    .label = ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ
+form-reset-password-with-balloon-submit-button = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ
+form-reset-password-with-balloon-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+get-data-trio-download =
+    .title = ਡਾਊਨਲੋਡ ਕਰੋ
+get-data-trio-copy =
+    .title = ਕਾਪੀ ਕਰੋ
+get-data-trio-print =
+    .title = ਪਰਿੰਟ ਕਰੋ
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = ਕੰਪਿਊਟਰ ਤੇ ਮੋਬਾਈਲ ਫ਼ੋਨ ਅਤੇ ਦੋਵਾਂ ਉੱਤੇ ਟੁੱਟੇ ਹੋਏ ਦਿਲ ਦੀ ਤਸਵੀਰ
+hearts-verified-image-aria-label =
+    .aria-label = ਧੜਕਦੇ ਹੋਏ ਦਿਲ ਨਾਲ ਕੰਪਿਊਟਰ, ਮੋਬਾਈਲ ਫ਼ੋਨ ਤੇ ਟੈਬਲੇਟ
+signin-totp-code-image-label =
+    .aria-label = ਲੁਕੋਏ 6-ਅੰਕ ਕੋਡ ਨਾਲ ਡਿਵਾਈਸ
+confirm-signup-aria-label =
+    .aria-label = ਲਿੰਕ ਰੱਖਣ ਵਾਲਾ ਲਿਫ਼ਾਫ਼ਾ
+
+## Input Password
+
+input-password-hide = ਪਾਸਵਰਡ ਲੁਕਾਓ
+input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
+input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
+input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
+
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਖ਼ਰਾਬ ਹੋ ਗਿਆ
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = ਤਸਦੀਕੀ ਲਿੰਕ ਖਰਾਬ ਸੀ
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+
+## LinkExpired component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
+reset-pwd-link-expired-message = ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ।
+signin-link-expired-message = ਤੁਹਾਡੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰਕ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਕਲਿੱਕ ਕੀਤਾ ਹੈ, ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ
+
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ
+
+## LinkUsed component
+
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
+
+
 ## Ready component
 
-ready-confirmation = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = ਤੁਸੀਂ ਹੁਣ { $serviceName } ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ
 ready-continue = ਜਾਰੀ ਰੱਖੋ
 
@@ -62,10 +238,6 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
 bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
@@ -128,15 +300,6 @@ cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = ਡਾਊਨਲੋਡ ਕੀਤਾ
-datablock-copy =
-    .message = ਕਾਪੀ ਕੀਤਾ
-datablock-print =
-    .message = ਪਰਿੰਟ ਕੀਤਾ
-
 ## Data collection section
 
 dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
@@ -157,18 +320,6 @@ drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾ�
 
 flow-container-back = ਪਿੱਛੇ
 
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
-get-data-trio-download =
-    .title = ਡਾਊਨਲੋਡ ਕਰੋ
-get-data-trio-copy =
-    .title = ਕਾਪੀ ਕਰੋ
-get-data-trio-print =
-    .title = ਪਰਿੰਟ ਕਰੋ
-
 # HeaderLockup component
 
 header-menu-open = ਮੇਨੂ ਬੰਦ ਕਰੋ
@@ -177,13 +328,6 @@ header-back-to-top-link =
     .title = ਸਿਖਰ ਉੱਤੇ ਜਾਓ
 header-title = { -product-firefox-accounts }
 header-help = ਮਦਦ
-
-## Input Password
-
-input-password-hide = ਪਾਸਵਰਡ ਲੁਕਾਓ
-input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
-input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
-input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
 
 ## Linked Accounts section
 
@@ -288,7 +432,6 @@ delete-account-header =
     .title = ਖਾਤਾ ਹਟਾਓ
 delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-delete-account-confirm-title-2 = ਤੁਸੀਂ ਆਪਣੇ { -product-firefox-account } ਨੂੰ { -brand-mozilla } ਉਤਪਾਦਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰ ਲਿਆ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਨੂੰ ਵੈੱਬ ਉੱਤੇ ਸੁਰੱਖਿਅਤ ਅਤੇ ਕੰਮ ਕਰਨ ਦੇ ਸਮਰੱਥ ਕਰਦੇ ਹਨ:
 delete-account-acknowledge = ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ:
 delete-account-continue-button = ਜਾਰੀ ਰੱਖੋ
 delete-account-password-input =
@@ -310,6 +453,9 @@ cancel-display-name = ਰੱਦ ਕਰੋ
 display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -461,6 +607,10 @@ tfa-row-button-refresh =
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-change-modal-confirm = ਬਦਲੋ
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
@@ -475,3 +625,102 @@ auth-error-110 = ਗਲਤ ਟੋਕਨ
 #                           (for example: "in 15 minutes")
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
 auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+

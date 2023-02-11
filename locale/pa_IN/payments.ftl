@@ -158,6 +158,7 @@ payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } �
 ## Component - PlanDetails
 
 plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
+plan-details-list-price = ਭਾਅ ਸੂਚੀ
 plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 plan-details-hide-button = ਵੇਰਵੇ ਲੁਕਾਓ
 plan-details-total-label = ਕੁੱਲ ਜੋੜ
@@ -171,6 +172,8 @@ product-no-such-plan = ਉਸ ਉਤਪਾਦ ਲਈ ਕੋਈ ਪਲਾਨ ਨ�
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } ਟੈਕਸ
 
 ## Component - SubscriptionTitle
 

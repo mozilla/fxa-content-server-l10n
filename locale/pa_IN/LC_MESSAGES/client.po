@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2023-02-11 14:30+0000\n"
+"PO-Revision-Date: 2023-02-11 14:36+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1003,11 +1003,11 @@ msgstr "ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "ਤੁਹਾਡੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰ,, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਕਲਿੱਕ ਕੀਤਾ ਹੈ, ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "ਨਵਾਂ ਤਸਦੀਕੀ ਲਿੰਕ ਲੈਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ।"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
@@ -1265,7 +1265,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "ਇਹ ਭੇਤ ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਵਿੱਚ ਲਿਖੋ।"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1343,7 +1343,7 @@ msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1599,7 +1599,7 @@ msgstr "2 ’ਚੋਂ 1 ਪੜਾਅ: ਪਾਸਵਰਡ ਮੁੜ-ਦਿਓ"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵੇਖਣ ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ।"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1611,7 +1611,7 @@ msgstr "ਕਾਮਯਾਬੀ ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "ਇਹ ਸਫ਼ੇ ਨੂੰ ਬੰਦ ਕਰਕੇ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਜਾਰੀ ਰੱਖੋ।"
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
