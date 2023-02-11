@@ -77,7 +77,7 @@ datablock-print =
 
 # Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, British Columbia, Canada (estimated)'
-device-info-block-location-city-region-country = { $country } { $region } { $city }（估测位置）
+device-info-block-location-city-region-country = { $country }, { $region }, { $city }（估计）
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
 device-info-block-location-region-country = { $country } { $region }（估测位置）
@@ -852,6 +852,11 @@ inline-totp-setup-security-code-placeholder = 验证码
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text =
+    <span>在您的另一台设备上</span>
+    批准登录
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -869,11 +874,23 @@ pair-success-message =
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text =
+    确认配对此邮箱
+    <span>{ $email }</span>
+pair-supp-allow-confirm-button = 确认配对
+pair-supp-allow-cancel-link = 取消
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text =
+    <span>在您的另一台设备上</span>
+    批准登录
 
 ## AccountRecoveryConfirmKey page
 

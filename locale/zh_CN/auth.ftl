@@ -171,11 +171,11 @@ user-ip = IP 地址：{ $ip }
 #  $city (String) - User's city
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
-location-all = { $country }，{ $stateCode }，{ $city }（估计）
+location-all = { $country }, { $stateCode }, { $city }（估计）
 # Variables:
 #  $city (String) - User's city
 #  $country (String) - User's country
-location-city-country = { $country }，{ $city }（估计）
+location-city-country = { $country }, { $city }（估计）
 # Variables:
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
