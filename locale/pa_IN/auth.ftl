@@ -175,7 +175,7 @@ cadReminderSecond-subject-2 = ਖੁੰਝੋ ਨਾ! ਆਓ ਤੁਹਾਡੇ 
 cadReminderSecond-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
 cadReminderSecond-title-2 = ਸਿੰਕ ਕਰਨਾ ਨਾ ਭੁੱਲੋ!
 cadReminderSecond-description-sync = ਆਪਣੇ ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ, ਖੋਲ੍ਹੀਆਂ ਟੈਬਾਂ ਅਤੇ ਹੋਰਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ — ਹਰ ਥਾਂ ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ { -brand-firefox } ਵਰਤਦੇ ਹੋ।
-cadReminderSecond-description-plus = ਇਸ ਦੇ ਨਾਲ ਹੀ, ਤੁਹਾਡਾ ਡਾਟਾ ਹਮੇਸ਼ਾਂ ਇੰਕ੍ਰਿਪਟ ਹੁੰਦਾ ਹੈ। ਸਿਰਫ਼ ਤੁਸੀਂ ਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਮਨਜ਼ੂਰ ਕੀਤੇ ਡਿਵਾਈਸ ਹੀ ਇਸ ਨੂੰ ਵੇਖ ਸਕਦੇ ਹਨ।
+cadReminderSecond-description-plus = ਇਸ ਦੇ ਨਾਲ ਹੀ, ਤੁਹਾਡਾ ਡਾਟਾ ਹਮੇਸ਼ਾਂ ਇਨਕ੍ਰਿਪਟ ਹੁੰਦਾ ਹੈ। ਸਿਰਫ਼ ਤੁਸੀਂ ਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਮਨਜ਼ੂਰ ਕੀਤੇ ਡਿਵਾਈਸ ਹੀ ਇਸ ਨੂੰ ਵੇਖ ਸਕਦੇ ਹਨ।
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ

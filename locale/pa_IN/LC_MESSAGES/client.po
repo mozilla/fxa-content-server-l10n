@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-30 22:53+0000\n"
+"PO-Revision-Date: 2023-02-11 14:30+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -284,11 +284,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਵਜੋਂ ਪੁਸ਼ਟੀ ਕਾਮਯਾਬੀ ਨਾਲ ਹੋ ਗਈ ਹੈ"
+msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਵਜੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਤਸਦੀਕ ਹੋ ਗਈ ਹੈ"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਜਾਂਚ"
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਵਜੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਤਸਦੀਕ ਹੋ ਗਈ ਹੈ"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -1178,7 +1178,7 @@ msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ Firefox ਵਰਤੋਂ, ਆਪ�
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
-msgstr "ਆਪਣਾ ਈਮੇਲ ਦਾਖਲ ਕਰੋ"
+msgstr "ਆਪਣਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
