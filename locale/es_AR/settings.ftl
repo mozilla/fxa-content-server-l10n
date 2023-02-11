@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Abrir { $emailProvider }
 confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o correo basura? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Atrás
-confirm-signup-aria-label =
-    .aria-label = Un sobre que contiene un enlace
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,11 @@ datablock-copy =
     .message = Copiadas
 datablock-print =
     .message = Impresas
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +135,15 @@ get-data-trio-copy =
     .title = Copiar
 get-data-trio-print =
     .title = Imprimir
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Documento que contiene texto oculto.
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+confirm-signup-aria-label =
+    .aria-label = Un sobre que contiene un enlace
 
 ## Input Password
 
@@ -204,7 +216,6 @@ ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
 sign-up-complete-header = Cuenta confirmada
-pulsing-hearts-description = Una computadora portátil rosa y un dispositivo móvil morado, cada uno con un corazón palpitante
 primary-email-verified-header = Se confirmó el correo electrónico principal
 
 ## Alert Bar
@@ -508,7 +519,7 @@ recent-activity-account-disable = La cuenta fue deshabilitada
 recent-activity-account-enable = La cuenta fue habilitada
 recent-activity-account-login = Ingreso a la cuenta iniciado
 recent-activity-account-reset = Restablecimiento de contraseña de la cuenta iniciado
-recent-activity-emails-clearBounces = Correos electrónicos de la cuenta rebotados
+recent-activity-emails-clearBounces = Limpieza de correos electrónicos de la cuenta rebotados
 
 # Account recovery key setup page
 
@@ -815,8 +826,6 @@ inline-recovery-confirmation-header-default = Confirmá el código de autenticac
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Confirmá el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Documento que contiene texto oculto.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -848,6 +857,27 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Escaneá el código QR en t
 inline-totp-setup-on-completion-description = Una vez completado, va a generar códigos de autenticación para que los ingresés.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -966,8 +996,6 @@ signin-recovery-code-heading-w-default-service = Ingresá el código de autentic
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Ingresá el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Documento que contiene texto oculto.
 signin-recovery-code-instruction = Ingresá un código de autenticación de respaldo que se proporcionó durante la configuración de autenticación de dos pasos.
 signin-recovery-code-input-label = Ingresá un código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1013,8 +1041,6 @@ signin-totp-code-heading-w-default-service = Ingresá el código de seguridad <s
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Ingresá el código de seguridad <span>para continuar a { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abrí tu aplicación de autenticación e ingresá el código de seguridad que proporciona.
 signin-totp-code-input-label-v2 = Ingresá el código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
