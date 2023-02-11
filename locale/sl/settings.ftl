@@ -33,22 +33,22 @@ choose-newsletters-option-knowledge-is-power =
 # That users can choose to sync
 choose-what-to-sync-prompt = Izberite, kaj želite sinhronizirati:
 choose-what-to-sync-option-bookmarks =
-    .label = Zaznamki
+    .label = zaznamke
 choose-what-to-sync-option-history =
-    .label = Zgodovina
+    .label = zgodovino
 choose-what-to-sync-option-passwords =
-    .label = Gesla
+    .label = gesla
 choose-what-to-sync-option-addons =
-    .label = Dodatki
+    .label = dodatke
 # Refers to 'tabs that are open', not the action
 choose-what-to-sync-option-tabs =
-    .label = Odprti zavihki
+    .label = odprte zavihke
 choose-what-to-sync-option-prefs =
-    .label = Nastavitve
+    .label = nastavitve
 choose-what-to-sync-option-addresses =
-    .label = Naslovi
+    .label = naslove
 choose-what-to-sync-option-creditcards =
-    .label = Kreditne kartice
+    .label = kreditne kartice
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1155,7 +1155,7 @@ confirm-signup-instruction = V svoji e-pošti preverite, ali ste prejeli potrdit
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Vnesite potrditveno kodo <span>za svoj { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Vnesite kodo, ki je bila v zadnjih 5 minutah poslana na { $email }.
+confirm-signup-code-instruction = V 5 minutah vnesite kodo, ki je bila poslana na { $email }.
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi
