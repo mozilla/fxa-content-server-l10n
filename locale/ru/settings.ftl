@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Открыть { $emailProvider }
 confirm-with-link-resend-link-button = Нет в папке «Входящие» или «Спам»? Отправить снова
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Назад
-confirm-signup-aria-label =
-    .aria-label = Конверт со ссылкой
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Скопированы
 datablock-print =
     .message = Распечатаны
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (приблизительно)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (приблизительно)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (приблизительно)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (приблизительно)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Местоположение неизвестно
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } в { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-адрес: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -145,6 +168,19 @@ get-data-trio-copy =
 get-data-trio-print =
     .title = Распечатать
 
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Компьютер, мобильный телефон и изображение разбитого сердца на каждом
+hearts-verified-image-aria-label =
+    .aria-label = Компьютер, мобильный телефон и планшет с пульсирующим сердцем на каждом
+signin-recovery-code-image-description =
+    .aria-label = Документ, содержащий скрытый текст.
+signin-totp-code-image-label =
+    .aria-label = Устройство со скрытым 6-значным кодом.
+confirm-signup-aria-label =
+    .aria-label = Конверт со ссылкой
+
 ## Input Password
 
 input-password-hide = Скрыть пароль
@@ -191,6 +227,7 @@ confirmation-link-reused-message = Эта ссылка для подтвержд
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Вам нужен этот пароль для доступа к любым зашифрованным данным, которые вы храните у нас.
 password-info-balloon-reset-risk-info = Сброс означает потенциальную потерю данных, таких как пароли и закладки.
 
 ## PasswordStrengthBalloon component
@@ -215,7 +252,6 @@ ready-account-ready = Ваш аккаунт готов!
 ready-continue = Продолжить
 sign-in-complete-header = Вход подтверждён
 sign-up-complete-header = Аккаунт подтверждён
-pulsing-hearts-description = Розовый ноутбук и фиолетовое носимое устройство с бьющимся сердцем
 primary-email-verified-header = Основная электронная почта подтверждена
 
 ## Alert Bar
@@ -777,6 +813,7 @@ auth-error-138-2 = Неподтверждённая сессия
 auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
 auth-error-155 = TOTP-токен не найден
 auth-error-183-2 = Неверный или истёкший код подтверждения
+auth-error-999 = Непредвиденная ошибка
 auth-error-1003 = Локальное хранилище или куки по-прежнему отключены
 auth-error-1008 = Ваш новый пароль должен быть другим
 
@@ -829,8 +866,6 @@ inline-recovery-confirmation-header-default = Подтвердите резер�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Подтвердите резервный код аутентификации <span>для перехода к { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Документ, содержащий скрытый текст.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -839,6 +874,10 @@ inline-totp-setup-cancel-setup-button = Отменить настройку
 inline-totp-setup-continue-button = Продолжить
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Добавьте в свой аккаунт ещё один уровень защиты, включив использование кодов аутентификации от одного из <authenticationAppsLink>этих приложений для авторизации</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Включите двухэтапную аутентификацию <enable2StepDefaultSpan>для перехода к настройкам аккаунта</enable2StepDefaultSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Включите двухэтапную аутентификацию, <enable2StepCustomServiceSpan>чтобы перейти к { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Готово
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -850,10 +889,52 @@ inline-totp-setup-no-qr-custom-service-header = Введите код вручн
 inline-totp-setup-show-qr-default-service-header = Отсканируйте код аутентификации, <scanAuthHeaderSpan>для перехода к настройкам аккаунта</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Введите код вручную <enterCodeManuallyHeaderSpan>для перехода к настройкам аккаунта</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Введите этот секретный ключ в приложение для аутентификации. <toggleToQRButton>Сканировать QR-код вместо этого?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Отсканируйте QR-код в приложении для аутентификации, а затем введите предоставленный им код аутентификации. <toggleToManualModeButton>Не удается отсканировать код?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = По завершении оно начнёт генерировать коды аутентификации, которые вы сможете ввести.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аутентификации
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Теперь требуется одобрение <span>на другом устройстве</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Сопряжение не удалось
+pair-failure-message = Процесс настройки был прерван.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Устройство подключено
+pair-success-message =
+    .aria-label = Сопряжение прошло успешно.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Подтвердите сопряжение <span>для { $email }</span>
+pair-supp-allow-confirm-button = Подтвердить сопряжение
+pair-supp-allow-cancel-link = Отмена
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Теперь требуется подтверждение <span>на другом устройстве</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -972,8 +1053,6 @@ signin-recovery-code-heading-w-default-service = Введите резервны
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Введите резервный код аутентификации <span>для перехода к { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Документ, содержащий скрытый текст.
 signin-recovery-code-instruction = Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации.
 signin-recovery-code-input-label = Введите 10-значный резервный код аутентификации
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1019,8 +1098,6 @@ signin-totp-code-heading-w-default-service = Введите код безопа�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Введите код безопасности <span>для перехода к { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Устройство со скрытым 6-значным кодом.
 signin-totp-code-instruction = Откройте своё приложение для аутентификации и введите предоставленный им защитный код.
 signin-totp-code-input-label-v2 = Введите код из 6 цифр
 # Form button to confirm if the security code entered by the user is valid
@@ -1060,6 +1137,9 @@ confirm-signup-code-required-error = Пожалуйста, введите код
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Установите пароль
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Зачем мне нужно создавать этот аккаунт? <LinkExternal>Узнайте здесь</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Сменить адрес электронной почты
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
