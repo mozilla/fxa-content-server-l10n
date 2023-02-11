@@ -1,15 +1,18 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-06-08 20:44+0000\n"
+"Last-Translator: SphericalMind <encetabuzo04@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 3) && (n%10 == 4 || n%10 == 6 || n%10 == 9);\n"
+"X-Generator: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -67,7 +70,7 @@ msgstr ""
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Handa ka nang gumawa ng pagbabago sa iyong Firefox account."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
@@ -75,7 +78,7 @@ msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Ang mga account notification ay ipapadala na rin ngayon sa %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
@@ -83,11 +86,11 @@ msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Na-confirm ang sign-in"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Handa ka nang gumamit ng %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
@@ -95,27 +98,27 @@ msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
-msgstr ""
+msgstr "Nakakonekta"
 
 #: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Hindi alam na account. <a href=\"/signup\">Mag-sign up</a>"
 
 #: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Ang account na ito ay natanggal na. Gumawa muli?"
 
 #: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr ""
+msgstr "Iba pa"
 
 #: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Salamat sa pakikipag-ugnayan sa Mozilla Support tungkol sa <b>%(escapedLowercaseTopic)s</b>. Makikipag-ugnayan kami sa email sa madaling panahon."
 
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Salamat sa pakikipag-ugnayan sa Mozilla Support tungkol sa <b>%(escapedLowercaseTopic)s</b> para sa <b>%(escapedSelectedProduct)s</b>. Makikipag-ugnayan kami sa email sa madaling panahon."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
@@ -124,23 +127,23 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Ang iyong sync data ay ligtas"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Kung nawalan ka ng access sa iyong account, maibabalik mo ang iyong sync data."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
-msgstr ""
+msgstr "Magsimula sa pagba-browse"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Ang mga account notification ay ipapadala na rin ngayon sa %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Tumuloy sa %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -148,19 +151,19 @@ msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "i-Reset ang Password"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "wala"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Huling na-check: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Buksan ang Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
@@ -176,15 +179,15 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Buksan ang Restmail"
 
 #: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
-msgstr ""
+msgstr "Itago ang password"
 
 #: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Ipakita ang password"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
@@ -200,23 +203,23 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Na-sent ang Email muli. Ilagay ang accounts@firefox.com sa iyong contacts para matiyak na maayos ang paghatid."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Nakopya"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Nabigong gayahin. Mangyaring manu-manong gayahin."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Na-download"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Na-print na"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
@@ -224,7 +227,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "pagbabayad & pagsingil"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
@@ -248,7 +251,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
-msgstr ""
+msgstr "Kasaysayan"
 
 #: .es5/models/sync-engines.js:66
 msgid "Passwords"
@@ -276,7 +279,7 @@ msgstr ""
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
@@ -452,7 +455,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
-msgstr ""
+msgstr "Nabigong magpadala ng sulatroniko"
 
 #: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
@@ -840,9 +843,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -911,8 +912,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1151,8 +1151,7 @@ msgid "Password"
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1418,8 +1417,7 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1512,8 +1510,7 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -2013,8 +2010,7 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
