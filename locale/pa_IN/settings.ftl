@@ -204,21 +204,41 @@ remember-pw-link = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣ�
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = ਮੁੱਢਲਾ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
+confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = ਸਾਡੇ ਕੋਲ ਸੰਭਾਲੇ ਹੋਏ ਤੁਹਾਡੇ ਕਿਸੇ ਵੀ ਇੰਕ੍ਰਿਪਟ ਹੋਏ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਹਾਨੂੰ ਇਹ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ।
+password-info-balloon-reset-risk-info = ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦਾ ਅਰਥ ਹੈ ਕਿ ਪਾਸਵਰਡ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਵਰਗੇ ਡੇਟੇ ਨੂੰ ਸੰਭਾਵਿਤ ਤੌਰ ਉੱਤੇ ਗੁਆ ਦੇਣਾ।
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = ਪਾਸਵਰਡ ਲਈ ਜ਼ਰੂਰਤਾਂ
+password-strength-balloon-min-length = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
+password-strength-balloon-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
+password-strength-balloon-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
+password-strength-balloon-stay-safe-tips = ਸੁਰੱਖਿਅਤ ਰਹੋ — ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਨਾ ਵਰਤੋਂ। <LinkExternal>ਮਜ਼ਬੂਤ ਪਾਸਵਰਡ ਬਣਾਓ</LinkExternal> ਨੂੰ ਹੋਰ ਸੁਝਾਆਵਾਂ ਵਾਸਤੇ ਵੇਖੋ।
 
 ## Ready component
 
+reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = ਤੁਸੀਂ ਹੁਣ { $serviceName } ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = ਹੁਣ ਤੁਸੀਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = ਤੁਹਾਡਾ ਖਾਤਾ ਤਿਆਰ ਹੈ!
 ready-continue = ਜਾਰੀ ਰੱਖੋ
+sign-in-complete-header = ਸਾਈਨ ਇਨ ਦੀ ਪੁਸ਼ਟੀ
+sign-up-complete-header = ਖਾਤਾ ਤਸਦੀਕ ਕੀਤਾ
+primary-email-verified-header = ਮੁੱਢਲੇ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕੀਤੀ
 
 ## Alert Bar
 
@@ -238,6 +258,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
 bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
@@ -279,6 +303,7 @@ cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ �
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ { $device } ਉੱਤੇ ਰਹੇਗਾ, ਪਰ ਹੁਣ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -432,6 +457,15 @@ delete-account-header =
     .title = ਖਾਤਾ ਹਟਾਓ
 delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } ਡਾਟਾ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
+delete-account-product-firefox-addons = { -brand-firefox } ਐਡ-ਆਨ
 delete-account-acknowledge = ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ:
 delete-account-continue-button = ਜਾਰੀ ਰੱਖੋ
 delete-account-password-input =
@@ -457,6 +491,12 @@ display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱ�
 
 ## Recent Activity
 
+recent-activity-title = ਸੱਜੀ ਖਾਤਾ ਸਰਗਰਮੀ
+recent-activity-account-create = ਖਾਤਾ ਬਣਾਇਆ ਗਿਆ ਸੀ
+recent-activity-account-disable = ਖਾਤਾ ਅਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਸੀ
+recent-activity-account-enable = ਖਾਤਾ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਸੀ
+recent-activity-account-login = ਖਾਤੇ ਲਈ ਲਾਗਇਨ ਸ਼ੁਰੂ ਕੀਤਾ
+recent-activity-account-reset = ਖਾਤੇ ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕੀਤਾ
 
 # Account recovery key setup page
 
@@ -606,6 +646,7 @@ tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-change-modal-confirm = ਬਦਲੋ
+tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲੈ ਸਕੋਗੇ।
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -624,24 +665,57 @@ auth-error-110 = ਗਲਤ ਟੋਕਨ
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
+auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
+auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
+auth-error-1003 = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਹਾਲੇ ਵੀ ਅਸਮਰੱਥ ਹਨ
 auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = ਹੋਰ ਜਾਣੋ
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਚਾਹੀਦੇ ਹਨ
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = ਹੋਰ ਜਾਣੋ
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = ਰੱਦ ਕਰੋ
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = ਜਾਰੀ ਰੱਖੋ
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = ਪੁਸ਼ਟੀ
+inline-recovery-back-link = ਪਿੱਛੇ
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ
+inline-totp-setup-continue-button = ਜਾਰੀ ਰੱਖੋ
+inline-totp-setup-ready-button = ਤਿਆਰ
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -650,35 +724,79 @@ auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖ�
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = ਪੇਅਰ ਕਰਨਾ ਕਾਮਯਾਬ ਨਹੀਂ ਹੈ
+pair-failure-message = ਸੈਟਅਪ ਕਾਰਵਾਈ ਨੂੰ ਸਮਾਪਤ ਕੀਤਾ ਗਿਆ।
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ
+pair-success-message =
+    .aria-label = ਪੇਅਰ ਕਰਨਾ ਕਾਮਯਾਬ ਹੈ।
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = ਪੇਅਰ ਕਰਨ ਦੀ ਤਸਦੀਕ ਕਰੋ
+pair-supp-allow-cancel-link = ਰੱਦ ਕਰੋ
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ ਡਿਵਾਈਸ</span> ਤੋਂ ਮਨਜ਼ੂਰ ਚਾਹੀਦੀ ਹੈ
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਰੋ
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਚਾਹੀਦੀ ਹੈ
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਹੈ?
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+account-restored-success-message = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵਰਤ ਕੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਹਾਲ ਕਰ ਲਿਆ ਹੈ। ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ ਉੱਤੇ ਸਟੋਰ ਕਰਨ ਲਈ ਇੱਕ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ।
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗਈ
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+reset-password-button = ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ
+reset-password-success-alert = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+reset-password-error-general = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+reset-password-error-unknown-account = ਅਣਜਾਣ ਖਾਤਾ
 
 ## CompleteSignin component
 
