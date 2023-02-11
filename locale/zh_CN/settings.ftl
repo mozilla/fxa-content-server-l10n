@@ -158,6 +158,10 @@ get-data-trio-print =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = 一台电脑和一部手机，上面分别有一颗破碎的心
+hearts-verified-image-aria-label =
+    .aria-label = 一台电脑、一部手机和一台平板，上面分别有一颗跳动的心
 signin-recovery-code-image-description =
     .aria-label = 包含隐藏文本的文档。
 signin-totp-code-image-label =
