@@ -75,6 +75,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimado)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (estimado)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimado)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (estimado)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Ubicación desconocida
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } en { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Dirección IP: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -138,6 +158,10 @@ get-data-trio-print =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Una computadora y un teléfono celular con la imagen de un corazón roto en cada uno
+hearts-verified-image-aria-label =
+    .aria-label = Una computadora, un teléfono celular y una tablet con la imagen de un corazón latiendo en cada uno
 signin-recovery-code-image-description =
     .aria-label = Documento que contiene texto oculto.
 signin-totp-code-image-label =
@@ -774,6 +798,7 @@ auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
 auth-error-183-2 = El código de confirmación no es válido o ya venció
+auth-error-999 = Error inesperado
 auth-error-1003 = El almacenamiento local o las cookies aún están deshabilitadas
 auth-error-1008 = La nueva contraseña debe ser diferente
 
@@ -862,22 +887,39 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Se requiere aprobación <span>desde el otro dispositivo</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Falló el emparejamiento
+pair-failure-message = Se terminó el proceso de configuración.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = Dispositivo conectado
+pair-success-message =
+    .aria-label = Emparejamiento exitoso.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirmá el emparejamiento <span>para { $email }</span>
+pair-supp-allow-confirm-button = Confirmar emparejamiento
+pair-supp-allow-cancel-link = Cancelar
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro dispositivo</span>
 
 ## AccountRecoveryConfirmKey page
 
