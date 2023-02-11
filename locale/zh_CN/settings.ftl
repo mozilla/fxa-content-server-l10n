@@ -855,9 +855,15 @@ inline-totp-setup-security-code-placeholder = 验证码
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = 配对不成功
+pair-failure-message = 设置过程已终止。
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = 设备已连接
+pair-success-message =
+    .aria-label = 配对成功。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
