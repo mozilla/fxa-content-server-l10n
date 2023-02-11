@@ -892,6 +892,9 @@ inline-totp-setup-security-code-placeholder = Autentiseringskod
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -909,6 +912,9 @@ pair-success-message =
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Bekräfta parkoppling <span>för %(email)</span>
 pair-supp-allow-confirm-button = Bekräfta parkoppling
 pair-supp-allow-cancel-link = Avbryt
 
@@ -916,6 +922,9 @@ pair-supp-allow-cancel-link = Avbryt
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
 
 ## AccountRecoveryConfirmKey page
 
