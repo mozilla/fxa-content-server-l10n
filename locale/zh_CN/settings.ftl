@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = 打开 { $emailProvider }
 confirm-with-link-resend-link-button = 不在收件箱和垃圾邮件箱？重新发送
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = 后退
-confirm-signup-aria-label =
-    .aria-label = 包含链接的信封
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,11 @@ datablock-copy =
     .message = 已复制
 datablock-print =
     .message = 已打印
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +135,15 @@ get-data-trio-copy =
     .title = 复制
 get-data-trio-print =
     .title = 打印
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = 包含隐藏文本的文档。
+signin-totp-code-image-label =
+    .aria-label = 带有隐藏 6 位验证码的设备。
+confirm-signup-aria-label =
+    .aria-label = 包含链接的信封
 
 ## Input Password
 
@@ -204,7 +216,6 @@ ready-account-ready = 您的账户准备好了！
 ready-continue = 继续
 sign-in-complete-header = 已确认登录
 sign-up-complete-header = 账户已确认
-pulsing-hearts-description = 粉色的笔记本电脑和紫色的移动设备，分别傍着颗跃动的心
 primary-email-verified-header = 主邮箱已确认
 
 ## Alert Bar
@@ -496,7 +507,7 @@ recent-activity-account-disable = 账户已禁用
 recent-activity-account-enable = 账户已启用
 recent-activity-account-login = 账户发起的登录
 recent-activity-account-reset = 账户发起的密码重置
-recent-activity-emails-clearBounces = 账户已清除电子邮件退回
+recent-activity-emails-clearBounces = 账户已清除退件
 
 # Account recovery key setup page
 
@@ -784,8 +795,6 @@ inline-recovery-confirmation-header-default = 确认备用验证码以<span>继�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = 包含隐藏文本的文档。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -817,6 +826,27 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证
 inline-totp-setup-on-completion-description = 输入完成后，将自动生成供您输入的验证码。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 验证码
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -935,8 +965,6 @@ signin-recovery-code-heading-w-default-service = 输入备用验证码<span>继�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = 输入备用验证码<span>继续使用 { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = 包含隐藏文本的文档。
 signin-recovery-code-instruction = 请输入在两步验证设置期间提供给您的备用验证码。
 signin-recovery-code-input-label = 请输入 10 位备用验证码
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -982,8 +1010,6 @@ signin-totp-code-heading-w-default-service = 输入安全码以<span>继续进�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = 输入安全码以<span>继续使用 { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = 带有隐藏 6 位验证码的设备。
 signin-totp-code-instruction = 请打开您的身份验证应用，并输入其提供的安全码。
 signin-totp-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the security code entered by the user is valid
