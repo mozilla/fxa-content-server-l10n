@@ -959,6 +959,9 @@ inline-totp-setup-security-code-placeholder = Код автентифікаці�
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Відтепер підтвердження з <span>вашого іншого пристрою</span> обов'язкове
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -986,6 +989,9 @@ pair-supp-allow-cancel-link = Скасувати
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Відтепер підтвердження з <span>вашого іншого пристрою</span> обов'язкове
 
 ## AccountRecoveryConfirmKey page
 
