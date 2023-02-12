@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Otvoriť { $emailProvider }
 confirm-with-link-resend-link-button = Nemáte nič v schránke ani v priečinku so spamom? Poslať znova
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Naspäť
-confirm-signup-aria-label =
-    .aria-label = Obálka s odkazom
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Skopírovaný
 datablock-print =
     .message = Vytlačený
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (odhadnuté)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (odhadnuté)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (odhadnuté)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (odhadnuté)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Neznáma poloha
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } na { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP adresa: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -205,6 +228,19 @@ get-data-trio-copy =
 get-data-trio-print =
     .title = Tlačiť
 
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Počítač a mobilný telefón a na každom obrázok zlomeného srdca
+hearts-verified-image-aria-label =
+    .aria-label = Počítač, mobilný telefón a tablet a na každom pulzujúce srdiečko
+signin-recovery-code-image-description =
+    .aria-label = Dokument, ktorý obsahuje skrytý text.
+signin-totp-code-image-label =
+    .aria-label = Zariadenie so skrytým šesťmiestnym kódom.
+confirm-signup-aria-label =
+    .aria-label = Obálka s odkazom
+
 ## Input Password
 
 input-password-hide = Skryť heslo
@@ -276,7 +312,6 @@ ready-account-ready = Váš účet je pripravený.
 ready-continue = Pokračovať
 sign-in-complete-header = Prihlásenie potvrdené
 sign-up-complete-header = Účet bol potvrdený
-pulsing-hearts-description = Ružový notebook a fialové mobilné zariadenie s pulzujúcim srdcom
 primary-email-verified-header = Hlavná e-mailová adresa bola potvrdená
 
 ## Alert Bar
@@ -839,6 +874,7 @@ auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
+auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 
@@ -891,8 +927,6 @@ inline-recovery-confirmation-header-default = Potvrďte záložný overovací k�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Dokument, ktorý obsahuje skrytý text.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -924,6 +958,44 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód vo svoje
 inline-totp-setup-on-completion-description = Po dokončení začne generovať overovacie kódy, ktoré môžete zadať.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overovací kód
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Vyžaduje sa schválenie <span>z vášho ďalšieho zariadenia</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Párovanie nebolo úspešné
+pair-failure-message = Proces nastavenia bol ukončený.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Zariadenie bolo pripojené
+pair-success-message =
+    .aria-label = Párovanie bolo úspešné.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Potvrďte párovanie <span>pre { $email }</span>
+pair-supp-allow-confirm-button = Potvrdiť párovanie
+pair-supp-allow-cancel-link = Zrušiť
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Vyžaduje sa schválenie <span>z vášho ďalšieho zariadenia</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -1042,8 +1114,6 @@ signin-recovery-code-heading-w-default-service = Zadajte záložný overovací k
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Zadajte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dokument, ktorý obsahuje skrytý text.
 signin-recovery-code-instruction = Zadajte záložný overovací kód, ktorý ste dostali počas nastavovania dvojstupňového overenia.
 signin-recovery-code-input-label = Zadajte 10-miestny záložný overovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1089,8 +1159,6 @@ signin-totp-code-heading-w-default-service = Zadajte bezpečnostný kód <span>a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Zadajte bezpečnostný kód <span>a pokračujte do služby { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Zariadenie so skrytým šesťmiestnym kódom.
 signin-totp-code-instruction = Otvorte svoju overovaciu aplikáciu a opíšte z nej bezpečnostný kód.
 signin-totp-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the security code entered by the user is valid
