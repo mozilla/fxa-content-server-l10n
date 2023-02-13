@@ -776,6 +776,10 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’epururã ñemboguata<pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -809,6 +813,7 @@ cannot-create-account-learn-more-link = Kuaave
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Eikotevẽ ñembyaty pepeguáva ha kookie
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Eha’ãjey
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -862,6 +867,9 @@ pair-success-message =
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Emoneĩ moñondive <span> { $email }</span> peg̃uarã
 pair-supp-allow-confirm-button = Emoneĩ ñemoñondive
 pair-supp-allow-cancel-link = Heja
 
@@ -869,6 +877,9 @@ pair-supp-allow-cancel-link = Heja
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’oka guive</span>
 
 ## AccountRecoveryConfirmKey page
 
