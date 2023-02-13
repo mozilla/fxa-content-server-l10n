@@ -168,6 +168,12 @@ newDeviceLogin-subject = { $clientName }에 대한 새 로그인
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = 귀하의 { -product-firefox-account }이(가) 로그인에 사용되었습니다.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = 본인이 아니세요? <a data-l10n-name="passwordChangeLink">비밀번호를 바꾸세요</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = 본인이 아니세요? 비밀번호를 바꾸세요:
 newDeviceLogin-action = 계정 관리
 passwordChanged-subject = 비밀번호 수정 완료
 passwordChanged-title = 비밀번호 변경 성공
@@ -187,7 +193,7 @@ passwordReset-description = 동기화를 다시 시작하려면 다른 기기에
 passwordResetAccountRecovery-action-2 = 새 계정 복구 키 생성
 postAddAccountRecovery-subject-2 = 계정 복구 키 생성됨
 # This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = 다른 분이십니까?
+postAddAccountRecovery-not-you = 본인이 아니세요?
 postAddAccountRecovery-action = 계정 관리
 postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
 #  Variables:
