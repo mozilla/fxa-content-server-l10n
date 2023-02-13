@@ -848,9 +848,13 @@ inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Ñemoñondive oiko’ỹva
+pair-failure-message = Opáma pe ñemboheko rape.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header =
+    .aria-label = Mba’e’oka oikepyréva
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -959,6 +963,9 @@ signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eipuru ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Kóva ha’erõ ñanduti veve oikóva, <linkExternal>emombe’u oréve</linkExternal> ha roipytyvõta erekojey hag̃ua ne mba’ete.
+signin-bounced-create-new-account = ¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva
 back = Tapykue
 
 ## SigninRecoveryCode page
