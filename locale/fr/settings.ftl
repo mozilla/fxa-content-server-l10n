@@ -170,6 +170,8 @@ hearts-broken-image-aria-label =
     .aria-label = Un ordinateur, un téléphone portable et une image d’un cœur brisé sur chacun d’eux
 hearts-verified-image-aria-label =
     .aria-label = Un ordinateur, un téléphone portable et une tablette avec un cœur qui bat sur chacun
+signin-recovery-code-image-description =
+    .aria-label = Document contenant du texte masqué.
 signin-totp-code-image-label =
     .aria-label = Un appareil avec un code caché à 6 chiffres.
 confirm-signup-aria-label =
@@ -238,6 +240,8 @@ reset-password-complete-header = Votre mot de passe à été réinitialisé
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Vous pouvez maintenant utiliser les paramètres du compte
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
@@ -846,6 +850,16 @@ inline-totp-setup-continue-button = Continuer
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Ajoutez une couche de sécurité supplémentaire en exigeant un code d’authentification depuis <authenticationAppsLink>l’une de ces applications d’authentification</authenticationAppsLink>.
 inline-totp-setup-ready-button = Prêt·e
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header = Scannez le code d’authentification <scanAuthCodeHeaderSpan>pour continuer vers { $serviceName }</scanAuthCodeHeaderSpan>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>pour continuer { $serviceName }</enterCodeManuellementHeaderSpan>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header = Scannez le code d’authentification <scanAuthHeaderSpan>pour accéder aux paramètres du compte</scanAuthHeaderSpan>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>pour accéder aux paramètres du compte</enterCodeManuallyHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Code d’authentification
 
@@ -998,6 +1012,10 @@ back = Retour
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Saisissez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Saisissez le code d’authentification de secours <span>pour continuer { $serviceName }</span>
 signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
 signin-recovery-code-input-label = Saisissez un code d’authentification de secours de 10 chiffres
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1036,6 +1054,13 @@ signin-token-code-required-error = Code de confirmation requis
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = Saisissez le code de sécurité <span>pour accéder aux paramètres du compte</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = Saisissez le code de sécurité <span>pour continuer vers { $serviceName }</span>
 signin-totp-code-instruction = Ouvrez l’application d’authentification et saisissez le code de sécurité fourni.
 signin-totp-code-input-label-v2 = Saisissez le code à 6 chiffres
 # Form button to confirm if the security code entered by the user is valid
@@ -1069,6 +1094,7 @@ confirm-signup-code-confirm-button = Confirmer
 confirm-signup-code-code-expired = Code expiré ?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Envoyer un nouveau code.
+confirm-signup-code-required-error = Veuillez saisir le code de confirmation
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
