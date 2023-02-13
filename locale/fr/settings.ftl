@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Ouvrir { $emailProvider }
 confirm-with-link-resend-link-button = Vous ne voyez rien dans votre boîte de réception ni dans le dossier des indésirables ? Renvoyez le message
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Retour
-confirm-signup-aria-label =
-    .aria-label = Une enveloppe contenant un lien
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Copié
 datablock-print =
     .message = Imprimé
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (approximatif)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (approximatif)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (approximatif)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (approximatif)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Lieu inconnu
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } sur { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Adresse IP : { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -141,6 +164,17 @@ get-data-trio-copy =
 get-data-trio-print =
     .title = Imprimer
 
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Un ordinateur, un téléphone portable et une image d’un cœur brisé sur chacun d’eux
+hearts-verified-image-aria-label =
+    .aria-label = Un ordinateur, un téléphone portable et une tablette avec un cœur qui bat sur chacun
+signin-totp-code-image-label =
+    .aria-label = Un appareil avec un code caché à 6 chiffres.
+confirm-signup-aria-label =
+    .aria-label = Une enveloppe contenant un lien
+
 ## Input Password
 
 input-password-hide = Masquer le mot de passe
@@ -209,7 +243,6 @@ ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
 sign-in-complete-header = Connexion confirmée
 sign-up-complete-header = Compte confirmé
-pulsing-hearts-description = Un ordinateur portable rose et un appareil mobile violet, chacun avec un cœur qui bat
 primary-email-verified-header = Adresse e-mail principale confirmée
 
 ## Alert Bar
@@ -751,6 +784,7 @@ auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable
 auth-error-183-2 = Code de confirmation invalide ou expiré
+auth-error-999 = Erreur inattendue
 auth-error-1003 = Le stockage local ou les cookies sont toujours désactivés
 auth-error-1008 = Votre nouveau mot de passe doit être différent
 
@@ -776,6 +810,13 @@ cookies-disabled-learn-more = En savoir plus
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirmez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Enregistrez les codes d’authentification de secours <span>pour continuer vers { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Conservez ces codes à usage unique en lieu sûr pour quand vous n’avez pas accès à votre appareil mobile.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -789,13 +830,62 @@ inline-recovery-back-link = Retour
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Code d’authentification de secours
 inline-recovery-confirmation-description = Pour vous assurer d’être en mesure de retrouver l’accès à votre compte si jamais vous perdez un appareil, saisissez un de vos codes de récupération enregistrés.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirmez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirmez le code d’authentification de secours <span>pour continuer vers { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Annuler la configuration
 inline-totp-setup-continue-button = Continuer
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Ajoutez une couche de sécurité supplémentaire en exigeant un code d’authentification depuis <authenticationAppsLink>l’une de ces applications d’authentification</authenticationAppsLink>.
 inline-totp-setup-ready-button = Prêt·e
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Code d’authentification
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = L’approbation est maintenant nécessaire <span>sur votre autre appareil</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Échec de l’association
+pair-failure-message = Processus d’installation interrompu.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Appareil connecté
+pair-success-message =
+    .aria-label = Association réussie.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirmer l’association <span>pour { $email }</span>
+pair-supp-allow-confirm-button = Confirmer l’association
+pair-supp-allow-cancel-link = Annuler
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = L’approbation est maintenant nécessaire <span>sur votre autre appareil</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -895,6 +985,8 @@ signin-forgot-password-link = Mot de passe oublié ?
 signin-bounced-header = Désolé, nous avons bloqué votre compte.
 # $email (string) - The user's email.
 signin-bounced-message = Le message de confirmation que nous avons envoyé à { $email } a été renvoyé et nous avons verrouillé votre compte pour protéger vos données { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Si cette adresse e-mail est valide, <linkExternal>dites-le-nous</linkExternal> et nous pourrons vous aider à débloquer votre compte.
 signin-bounced-create-new-account = Vous n’avez plus le contrôle de cette adresse e-mail ? Créez un nouveau compte
 back = Retour
 
@@ -903,6 +995,9 @@ back = Retour
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Saisissez le code d’authentification de secours <span>pour accéder aux paramètres du compte</span>
 signin-recovery-code-instruction = Veuillez saisir un code d’authentification de secours fourni lors de la configuration de l’authentification en deux étapes.
 signin-recovery-code-input-label = Saisissez un code d’authentification de secours de 10 chiffres
 # Form button to confirm if the backup authentication code entered by the user is valid
