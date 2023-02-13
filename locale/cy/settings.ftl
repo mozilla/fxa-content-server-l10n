@@ -544,6 +544,8 @@ recent-activity-title = Gweithgaredd Cyfrif Diweddar
 recent-activity-account-create = Cyfrif wedi'i greu
 recent-activity-account-disable = Cyfrif wedi'i analluogi
 recent-activity-account-enable = Cyfrif wedi'i alluogi
+recent-activity-account-login = Mewngofnod ar sail cyfrif
+recent-activity-account-reset = Ailosod cyfrifnair ar sail cyfrif
 recent-activity-emails-clearBounces = Cyfrif wedi clirio adlamiad e-bost
 
 # Account recovery key setup page
