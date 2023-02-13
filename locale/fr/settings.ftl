@@ -860,6 +860,12 @@ inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <
 inline-totp-setup-show-qr-default-service-header = Scannez le code d’authentification <scanAuthHeaderSpan>pour accéder aux paramètres du compte</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>pour accéder aux paramètres du compte</enterCodeManuallyHeaderSpan>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Saisissez cette clé secrète dans votre application d’authentification. <toggleToQRButton>Scanner le code QR à la place ?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scannez le code QR dans votre application d’authentification, puis saisissez le code d’authentification fourni. <toggleToManualModeButton>Impossible de scanner le code ?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Ensuite, des codes d’authentification à saisir commenceront à être générés.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Code d’authentification
 
@@ -985,6 +991,8 @@ confirm-signin-message = Consultez votre boîte de réception pour accéder au l
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Saisissez le mot de passe <span>de votre { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continuez vers <span>{ $serviceLogo }</span>
