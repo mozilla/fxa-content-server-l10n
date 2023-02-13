@@ -111,7 +111,7 @@ bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-firefox-title = Ang { -brand-firefox } ay tech na nakikipaglaban para sa iyong pribasiya online.
 bento-menu-firefox-desktop = { -brand-firefox } Browser para sa Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser para sa Mobile
-bento-menu-made-by-mozilla = Ginawa ng { -brand-Mozilla }
+bento-menu-made-by-mozilla = Ginawa ng { -brand-mozilla }
 
 ## Connect another device promo
 
