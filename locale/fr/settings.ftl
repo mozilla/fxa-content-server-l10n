@@ -851,6 +851,8 @@ inline-totp-setup-cancel-setup-button = Annuler la configuration
 inline-totp-setup-continue-button = Continuer
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Ajoutez une couche de sécurité supplémentaire en exigeant un code d’authentification depuis <authenticationAppsLink>l’une de ces applications d’authentification</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header = Activez l’authentification en deux étapes <enable2StepDefaultSpan>pour continuer vers les paramètres du compte</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header = Activez l’authentification en deux étapes <enable2StepCustomServiceSpan>pour continuer vers { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Prêt·e
