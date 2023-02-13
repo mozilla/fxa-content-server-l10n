@@ -541,6 +541,8 @@ recent-activity-title = Activité récente du compte
 recent-activity-account-create = Le compte a été créé
 recent-activity-account-disable = Le compte a été désactivé
 recent-activity-account-enable = Le compte a été activé
+recent-activity-account-login = Connexion initiée par le compte
+recent-activity-account-reset = Réinitialisation du mot de passe initiée par le compte
 
 # Account recovery key setup page
 
@@ -849,6 +851,8 @@ inline-totp-setup-cancel-setup-button = Annuler la configuration
 inline-totp-setup-continue-button = Continuer
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Ajoutez une couche de sécurité supplémentaire en exigeant un code d’authentification depuis <authenticationAppsLink>l’une de ces applications d’authentification</authenticationAppsLink>.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header = Activez l’authentification en deux étapes <enable2StepCustomServiceSpan>pour continuer vers { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Prêt·e
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1108,6 +1112,9 @@ confirm-signup-code-required-error = Veuillez saisir le code de confirmation
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Définissez votre mot de passe
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Pourquoi dois-je créer ce compte ? <LinkExternal>Découvrez ici pourquoi</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Changer d’adresse e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
