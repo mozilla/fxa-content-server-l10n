@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Embojuruja { $emailProvider }
 confirm-with-link-resend-link-button = ¿Ndaipóri ñe’ẽmondo g̃uahẽhápe térã ñandutiveve vai? Emondojey
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Tapykue
-confirm-signup-aria-label =
-    .aria-label = Mba’yru oguerekóva juajuha
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,20 @@ datablock-copy =
     .message = Monguatiapyre
 datablock-print =
     .message = Monguatiapyre
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (ojekuaaporã’ỹva)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (ojekuaaporã’ỹva)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (ojekuaaporã’ỹva)
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +144,15 @@ get-data-trio-copy =
     .title = Monguatia
 get-data-trio-print =
     .title = Monguatia
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
+signin-totp-code-image-label =
+    .aria-label = Mba’e’oka ayvu kañymby 6 tai reheve.
+confirm-signup-aria-label =
+    .aria-label = Mba’yru oguerekóva juajuha
 
 ## Input Password
 
@@ -204,7 +225,6 @@ ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
 sign-in-complete-header = Tembiapo ñepyrũ moneĩmbyre
 sign-up-complete-header = Mba’ete moneĩmbyre
-pulsing-hearts-description = Peteĩ mohendaha’i pytãngy ha pumbyry pytãũva, mokõivéva korasõ oku’éva reheve
 primary-email-verified-header = Ñanduti veve tuichavéva moneĩmbyre
 
 ## Alert Bar
@@ -796,8 +816,6 @@ inline-recovery-back-link = Tapykue
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Ayvu ñemoneĩrã jeykekoha
 inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã jeykekogua ñongatupyre.
-inline-recovery-setup-image-description =
-    .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -809,6 +827,27 @@ inline-totp-setup-ready-button = Oĩma
 inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -913,8 +952,6 @@ back = Tapykue
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-signin-recovery-code-image-description =
-    .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
 signin-recovery-code-instruction = Ikatúpa emoinge ayvu ñemoneĩrã jeykekoha oñeme’ẽva ndéve oñemboheko aja mokõi jekue’épe.
 signin-recovery-code-input-label = Emoinge ayvu ñemoneĩrã jeykekoha orekóva 10 tai
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -960,8 +997,6 @@ signin-totp-code-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’e
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Erujey tekorosã ayvu <span>eku’ejey hag̃ua { $serviceName }</span> ndive
-signin-totp-code-image-label =
-    .aria-label = Mba’e’oka ayvu kañymby 6 tai reheve.
 signin-totp-code-instruction = Embojuruja ne rembipuru’i ñemoneĩha ha emoinge tekorosã ayvu eipotáva.
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the security code entered by the user is valid
