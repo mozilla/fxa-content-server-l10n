@@ -855,11 +855,14 @@ pair-failure-message = Opáma pe ñemboheko rape.
 
 pair-success-header =
     .aria-label = Mba’e’oka oikepyréva
+pair-success-message =
+    .aria-label = Ñemoñondive oikoitéva.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Emoneĩ ñemoñondive
 pair-supp-allow-cancel-link = Heja
 
 ## WaitForAuth page - Part of the devide pairing flow
