@@ -84,6 +84,17 @@ device-info-block-location-region-country = { $region }, { $country } (ojekuaapo
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
 device-info-block-location-city-country = { $city }, { $country } (ojekuaaporã’ỹva)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (ojekuaaporã’ỹva)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Tendatee ojekuaa’ỹva
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = Tendatee ojekuaa’ỹva
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP kundaharape: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -784,6 +795,8 @@ auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
+auth-error-999 = Jejavy eha’arõ’ỹva
+auth-error-1003 = Ñeñongatu pypegua terã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 
 ## Cannot Create Account page
@@ -843,6 +856,7 @@ inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = Heja
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
