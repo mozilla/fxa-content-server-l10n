@@ -140,6 +140,8 @@ get-data-trio-print =
 
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+confirm-signup-aria-label =
+    .aria-label = Un sobre que contiene un enlace
 
 ## Input Password
 
@@ -187,6 +189,7 @@ confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
 
 ## PasswordStrengthBalloon component
 
@@ -736,6 +739,8 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Al continuar, aceptas:
 
 ## Auth-server based errors that originate from backend service
 
@@ -811,6 +816,7 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-message = El proceso de configuración ha terminado.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -935,6 +941,9 @@ signin-recovery-code-input-label = Ingresa el código de autenticación de respa
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code (security code)
 signin-recovery-code-back-link = Atrás
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ¿Estás bloqueado?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
