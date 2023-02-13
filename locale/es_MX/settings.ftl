@@ -65,6 +65,17 @@ datablock-copy =
 datablock-print =
     .message = Imprimido
 
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } en { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Dirección IP: { $ipAddress }
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -124,6 +135,11 @@ get-data-trio-copy =
     .title = Copiar
 get-data-trio-print =
     .title = Imprimir
+
+## Images - these are all aria labels used for illustrations
+
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 
 ## Input Password
 
@@ -193,7 +209,6 @@ ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
 sign-in-complete-header = Inicio de sesión confirmado
 sign-up-complete-header = Cuenta confirmada
-pulsing-hearts-description = Una computadora portátil rosa y un dispositivo móvil morado, cada uno con un corazón palpitante
 primary-email-verified-header = Correo principal confirmado
 
 ## Alert Bar
@@ -777,8 +792,6 @@ inline-recovery-backup-authentication-code = Código de autenticación de respal
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Confirmar el código de autenticación de respaldo <span>para continuar a { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Documento que contiene texto oculto.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -790,6 +803,30 @@ inline-totp-setup-ready-button = Listo
 inline-totp-setup-no-qr-custom-service-header = Ingresa el código manualmente <enterCodeManuallyHeaderSpan>para continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Dispositivo conectado
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+pair-supp-allow-cancel-link = Cancelar
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -931,8 +968,6 @@ signin-token-code-required-error = Código de confirmación requerido
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Ingresa el código de seguridad <span>para continuar a { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 signin-totp-code-instruction = Abre tu aplicación de autenticación e ingresa el código de seguridad que se te proporciona.
 signin-totp-code-input-label-v2 = Ingresa el código de 6 dígitos
 # Form button to confirm if the security code entered by the user is valid
