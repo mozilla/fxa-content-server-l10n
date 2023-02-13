@@ -914,7 +914,7 @@ pair-success-message =
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Bekräfta parkoppling <span>för %(email)</span>
+pair-supp-allow-heading-text = Bekräfta parkoppling <span>för { $email }</span>
 pair-supp-allow-confirm-button = Bekräfta parkoppling
 pair-supp-allow-cancel-link = Avbryt
 
