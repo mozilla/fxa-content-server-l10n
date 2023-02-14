@@ -66,6 +66,11 @@ datablock-copy =
 datablock-print =
     .message = Έγινε εκτύπωση
 
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -152,6 +157,9 @@ get-data-trio-copy =
     .title = Αντιγραφή
 get-data-trio-print =
     .title = Εκτύπωση
+
+## Images - these are all aria labels used for illustrations
+
 
 ## Input Password
 
@@ -770,6 +778,27 @@ inline-totp-setup-continue-button = Συνέχεια
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
 ## AccountRecoveryConfirmKey page
 
 # Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
@@ -806,9 +835,13 @@ confirm-signin-header = Επιβεβαίωση σύνδεσης
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Συνέχεια στο { $serviceName }
+signin-subheader-without-logo-default = Συνέχεια στις ρυθμίσεις λογαριασμού
 signin-button = Σύνδεση
 signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
