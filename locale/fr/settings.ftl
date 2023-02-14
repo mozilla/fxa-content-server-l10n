@@ -224,6 +224,7 @@ confirmation-link-reused-message = Ce lien de confirmation a déjà été utilis
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.
+password-info-balloon-reset-risk-info = Une réinitialisation implique potentiellement la perte de données telles que les mots de passe et les marque-pages.
 
 ## PasswordStrengthBalloon component
 
