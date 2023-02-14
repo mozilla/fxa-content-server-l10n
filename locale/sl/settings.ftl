@@ -852,14 +852,14 @@ auth-error-1008 = Novo geslo mora biti drugačno
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ni mogoče ustvariti računa
-cannot-create-account-requirements = Za ustvarjanje { -product-firefox-account } morate izpolniti določene starostne zahteve.
+cannot-create-account-requirements = Za ustvarjanje računa { -product-firefox-account } morate izpolnjevati starostne pogoje.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Več o tem
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
-cookies-disabled-header = Potrebni so lokalna shramba in piškotki
+cookies-disabled-header = Lokalna shramba in piškotki so zahtevani
 cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts } v svojem brskalniku omogočite piškotke in krajevno shrambo. S tem boste omogočili funkcije, kot je zapomnitev vas med sejami.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Poskusi znova
