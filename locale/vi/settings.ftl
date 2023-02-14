@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Mở { $emailProvider }
 confirm-with-link-resend-link-button = Không có trong hộp thư đến hoặc thư mục spam? Gửi lại
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Quay lại
-confirm-signup-aria-label =
-    .aria-label = Một phong bì chứa một liên kết
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Đã sao chép
 datablock-print =
     .message = Đã in
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (ước tính)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (ước tính)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (ước tính)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (ước tính)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Vị trí không xác định
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } trên { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Địa chỉ IP: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +155,19 @@ get-data-trio-copy =
     .title = Sao chép
 get-data-trio-print =
     .title = In
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = Một máy tính và một điện thoại di động và hình ảnh một trái tim tan vỡ trên mỗi nó
+hearts-verified-image-aria-label =
+    .aria-label = Một chiếc máy tính, một chiếc điện thoại di động và một chiếc máy tính bảng có hình trái tim đang đập trên mỗi nó
+signin-recovery-code-image-description =
+    .aria-label = Tài liệu chứa văn bản ẩn.
+signin-totp-code-image-label =
+    .aria-label = Một thiết bị có mã gồm 6 chữ số.
+confirm-signup-aria-label =
+    .aria-label = Một phong bì chứa một liên kết
 
 ## Input Password
 
@@ -204,7 +240,6 @@ ready-account-ready = Tài khoản của bạn đã sẵn sàng!
 ready-continue = Tiếp tục
 sign-in-complete-header = Đã xác nhận đăng nhập
 sign-up-complete-header = Tài khoản đã xác minh
-pulsing-hearts-description = Một chiếc máy tính xách tay màu hồng và một thiết bị di động màu tím đều có một trái tim đang đập
 primary-email-verified-header = Email chính đã xác minh
 
 ## Alert Bar
@@ -768,6 +803,7 @@ auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
+auth-error-999 = Lỗi không xác định
 auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 
@@ -820,8 +856,6 @@ inline-recovery-confirmation-header-default = Xác nhận mã xác thực dự p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Xác nhận mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Tài liệu chứa văn bản ẩn.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -853,6 +887,44 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Quét mã QR trong ứng d�
 inline-totp-setup-on-completion-description = Sau khi hoàn tất, nó sẽ bắt đầu tạo mã xác thực để bạn nhập.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Mã xác thực
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Hiện yêu cầu phê duyệt <span>từ thiết bị khác của bạn</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Ghép nối không thành công
+pair-failure-message = Quá trình thiết lập đã hủy bỏ.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Thiết bị đã kết nối
+pair-success-message =
+    .aria-label = Ghép nối thành công.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Xác nhận ghép nối <span>cho { $email }</span>
+pair-supp-allow-confirm-button = Xác nhận ghép nối
+pair-supp-allow-cancel-link = Hủy bỏ
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ thiết bị khác của bạn</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -971,8 +1043,6 @@ signin-recovery-code-heading-w-default-service = Nhập mã xác thực dự ph�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Nhập mã xác thực dự phòng <span>để tiếp tục đến { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Tài liệu chứa văn bản ẩn.
 signin-recovery-code-instruction = Vui lòng nhập mã xác thực dự phòng đã được cung cấp cho bạn trong quá trình thiết lập xác thực hai bước.
 signin-recovery-code-input-label = Nhập mã xác thực dự phòng 10 chữ số
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1018,8 +1088,6 @@ signin-totp-code-heading-w-default-service = Nhập mã bảo mật <span>để 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Nhập mã bảo mật <span>để tiếp tục đến { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Một thiết bị có mã gồm 6 chữ số.
 signin-totp-code-instruction = Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp.
 signin-totp-code-input-label-v2 = Nhập mã gồm 6 chữ số
 # Form button to confirm if the security code entered by the user is valid
