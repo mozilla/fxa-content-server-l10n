@@ -543,6 +543,7 @@ recent-activity-account-disable = Le compte a été désactivé
 recent-activity-account-enable = Le compte a été activé
 recent-activity-account-login = Connexion initiée par le compte
 recent-activity-account-reset = Réinitialisation du mot de passe initiée par le compte
+recent-activity-emails-clearBounces = Le compte a été débarrassé de la non-distribution des e-mails
 
 # Account recovery key setup page
 
@@ -860,7 +861,7 @@ inline-totp-setup-ready-button = Prêt·e
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = Scannez le code d’authentification <scanAuthCodeHeaderSpan>pour continuer vers { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>{ $serviceName }{ $serviceName }
+inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>pour continuer vers { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = Scannez le code d’authentification <scanAuthHeaderSpan>pour accéder aux paramètres du compte</scanAuthHeaderSpan>
