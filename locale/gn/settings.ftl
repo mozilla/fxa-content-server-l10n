@@ -89,9 +89,6 @@ device-info-block-location-city-country = { $city }, { $country } (ojekuaaporã�
 device-info-block-location-country = { $country } (ojekuaaporã’ỹva)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Tendatee ojekuaa’ỹva
-# Variable { $browserName } is the browser that created the request (e.g., Firefox)
-# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
-device-info-browser-os = Tendatee ojekuaa’ỹva
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP kundaharape: { $ipAddress }
@@ -777,7 +774,7 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’epururã ñemboguata<pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
+terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’epururã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 
