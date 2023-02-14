@@ -919,11 +919,11 @@ inline-totp-setup-no-qr-custom-service-header = Ročno vnesite kodo <enterCodeMa
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = Skenirajte overitveno kodo <scanAuthHeaderSpan>za nadaljevanje v nastavitve računa</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje v nastavitvah računa</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-default-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje v nastavitve računa</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Vnesite ta skrivni ključ v aplikacijo za preverjanje pristnosti. <toggleToQRButton>Ali želite raje skenirati kodo QR?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Vnesite ta skrivni ključ v aplikacijo za overjanje. <toggleToQRButton>Ali želite raje skenirati kodo QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Skenirajte kodo QR v svoji aplikaciji za preverjanje pristnosti in nato vnesite overitveno kodo, ki jo ponuja. <toggleToManualModeButton>Ne morete optično prebrati kode?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Skenirajte kodo QR v svoji aplikaciji za overjanje in nato vnesite overitveno kodo, ki jo ponuja. <toggleToManualModeButton>Ne morete skenirati kode?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Ko bo končano, bo začelo ustvarjati overitvene kode, ki jih lahko vnesete.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -935,7 +935,7 @@ inline-totp-setup-security-code-placeholder = Overitvena koda
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = Zdaj je potrebna odobritev <span>vaše druge naprave</span>
+pair-wait-for-supp-heading-text = Zdaj je zahtevana odobritev <span>z vaše druge naprave</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -965,7 +965,7 @@ pair-supp-allow-cancel-link = Prekliči
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-auth-heading-text = Zdaj je potrebna odobritev <span>vaše druge naprave</span>
+pair-wait-for-auth-heading-text = Zdaj je zahtevana odobritev <span>z vaše druge naprave</span>
 
 ## AccountRecoveryConfirmKey page
 
