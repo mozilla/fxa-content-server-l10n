@@ -860,7 +860,7 @@ inline-totp-setup-ready-button = Prêt·e
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header = Scannez le code d’authentification <scanAuthCodeHeaderSpan>pour continuer vers { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>pour continuer { $serviceName }</enterCodeManuellementHeaderSpan>
+inline-totp-setup-no-qr-custom-service-header = Saisissez le code manuellement <enterCodeManuallyHeaderSpan>{ $serviceName }{ $serviceName }
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header = Scannez le code d’authentification <scanAuthHeaderSpan>pour accéder aux paramètres du compte</scanAuthHeaderSpan>
