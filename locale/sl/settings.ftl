@@ -912,12 +912,12 @@ inline-totp-setup-enable-two-step-authentication-custom-header = Omogoči overit
 inline-totp-setup-ready-button = V stanju pripravljenosti.
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Preglejte overitveno kodo <scanAuthCodeHeaderSpan>za nadaljevanje v { $serviceName }</scanAuthCodeHeaderSpan>
+inline-totp-setup-show-qr-custom-service-header = Skenirajte overitveno kodo <scanAuthCodeHeaderSpan>za nadaljevanje na { $serviceName }</scanAuthCodeHeaderSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje na { $serviceName }</enterCodeManuallyHeaderSpan>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Preglejte overitveno kodo <scanAuthHeaderSpan>za nadaljevanje v nastavitvah računa</scanAuthHeaderSpan>
+inline-totp-setup-show-qr-default-service-header = Skenirajte overitveno kodo <scanAuthHeaderSpan>za nadaljevanje v nastavitve računa</scanAuthHeaderSpan>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header = Ročno vnesite kodo <enterCodeManuallyHeaderSpan>za nadaljevanje v nastavitvah računa</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
