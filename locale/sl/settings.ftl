@@ -872,7 +872,7 @@ cookies-disabled-learn-more = Več o tem
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+inline-recovery-setup-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
@@ -892,7 +892,7 @@ inline-recovery-backup-authentication-code = Rezervna overitvena koda
 inline-recovery-confirmation-description = Vnesite eno od shranjenih rezervnih overitvenih kod, da si zagotovite ponoven dostop do svojega računa v primeru izgube naprave.
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+inline-recovery-confirmation-header-default = Potrdite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
