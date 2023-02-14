@@ -589,7 +589,7 @@ recent-activity-account-disable = Račun je bil onemogočen
 recent-activity-account-enable = Račun je bil omogočen
 recent-activity-account-login = Račun je začel postopek prijave
 recent-activity-account-reset = Račun je začel ponastavitev gesla
-recent-activity-emails-clearBounces = Račun zavrnjen
+recent-activity-emails-clearBounces = Račun je odstranil zavrnjeno pošto
 
 # Account recovery key setup page
 
@@ -1108,7 +1108,7 @@ signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Vnesite potrditveno kodo<span> za svoj { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Vnesite kodo, ki je bila v 5 minutah poslana na { $email }.
+signin-token-code-instruction = V 5 minutah vnesite kodo, ki je bila poslana na { $email }.
 signin-token-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potrdi
@@ -1124,7 +1124,7 @@ signin-token-code-required-error = Zahtevana je potrditvena koda
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Vnesite varnostno kodo <span>za nadaljevanje v nastavitvah računa</span>
+signin-totp-code-heading-w-default-service = Vnesite varnostno kodo <span>za nadaljevanje v nastavitve računa</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -1142,7 +1142,7 @@ signin-totp-code-recovery-code-link = Imate težave pri vnosu kode?
 
 confirm-signup-heading = Potrdite račun
 # { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = V svoji e-pošti preverite, ali ste prejeli potrditveno povezavo na { $email }
+confirm-signup-instruction = Med svojo e-pošto poiščite potrditveno povezavo, poslano na { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
