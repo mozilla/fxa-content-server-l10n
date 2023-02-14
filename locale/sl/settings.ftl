@@ -904,9 +904,9 @@ inline-recovery-confirmation-header = Potrdite rezervno overitveno kodo <span>za
 inline-totp-setup-cancel-setup-button = Ne nastavi
 inline-totp-setup-continue-button = Nadaljuj
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Dodajte plast varnosti svojemu računu z zahtevanjem overitvenih kod iz ene od <authenticationAppsLink>teh aplikacij za overitev</authenticationAppsLink>.
+inline-totp-setup-add-security-link = Okrepite varnost svojega računa z zahtevanjem overitvenih kod iz ene od <authenticationAppsLink>naslednjih aplikacij za overitev</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Omogoči overitev v dveh korakih <enable2StepDefaultSpan>za nadaljevanje v nastavitvah računa</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header = Omogoči overitev v dveh korakih <enable2StepDefaultSpan>za nadaljevanje v nastavitve računa</enable2StepDefaultSpan>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header = Omogoči overitev v dveh korakih <enable2StepCustomServiceSpan>za nadaljevanje na { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = V stanju pripravljenosti.
