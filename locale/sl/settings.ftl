@@ -860,7 +860,7 @@ cannot-create-account-learn-more-link = Več o tem
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Lokalna shramba in piškotki so zahtevani
-cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts } v svojem brskalniku omogočite piškotke in krajevno shrambo. S tem boste omogočili funkcije, kot je zapomnitev vas med sejami.
+cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts(sklon: "rodilnik") } v svojem brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Poskusi znova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
