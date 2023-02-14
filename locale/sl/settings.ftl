@@ -202,7 +202,7 @@ get-data-trio-print =
 hearts-broken-image-aria-label =
     .aria-label = Računalnik in mobilni telefon ter na vsakem podoba zlomljenega srca
 hearts-verified-image-aria-label =
-    .aria-label = Računalnik in mobilni telefon ter tablica z utripajočim srčkom na vsakem
+    .aria-label = Računalnik, mobilni telefon in tablica ter na vsakem podoba utripajočega srca
 signin-recovery-code-image-description =
     .aria-label = Dokument, ki vsebuje skrito besedilo.
 signin-totp-code-image-label =
@@ -587,8 +587,8 @@ recent-activity-title = Nedavna dejavnost v računu
 recent-activity-account-create = Račun je bil ustvarjen
 recent-activity-account-disable = Račun je bil onemogočen
 recent-activity-account-enable = Račun je bil omogočen
-recent-activity-account-login = Prijava z računom
-recent-activity-account-reset = Ponastavitev gesla na račun računa
+recent-activity-account-login = Račun je začel postopek prijave
+recent-activity-account-reset = Račun je začel ponastavitev gesla
 recent-activity-emails-clearBounces = Račun zavrnjen
 
 # Account recovery key setup page
