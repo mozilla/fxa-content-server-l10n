@@ -1052,7 +1052,7 @@ confirm-signin-message = Med svojo e-pošto poiščite povezavo za potrditev pri
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header = Vnesite geslo <span>za { -product-firefox-account }</span>
+signin-password-needed-header = Vnesite svoje geslo <span>za { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
@@ -1066,7 +1066,7 @@ signin-use-a-different-account-link = Uporabi drug račun
 signin-forgot-password-link = Pozabljeno geslo?
 signin-bounced-header = Oprostite. Zaklenili smo vaš račun.
 # $email (string) - The user's email.
-signin-bounced-message = Potrditveno sporočilo, ki smo ga poslali na { $email }, je bilo vrnjeno, vaš račun pa smo zaradi zaščite vaših podatkov v { -brand-firefox }u zaklenili.
+signin-bounced-message = Potrditveno sporočilo, ki smo ga poslali na { $email }, je bilo vrnjeno, vaš račun pa smo zaradi zaščite vaših podatkov v { -brand-firefox(sklon: "mestnik") } zaklenili.
 # linkExternal is a link to a mozilla support
 signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam sporočite</linkExternal> in pomagali vam bomo odkleniti vaš račun.
 signin-bounced-create-new-account = Ne uporabljate več tega naslova? Ustvarite nov račun
