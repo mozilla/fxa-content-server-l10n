@@ -1028,7 +1028,7 @@ reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevan
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje v { $serviceName }</span>
-reset-password-warning-message-2 = <span>Opomba:</span> Ko ponastavite geslo, ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke { -product-pocket }.
+reset-password-warning-message-2 = <span>Opomba:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke { -product-pocket }.
 reset-password-button = Začni ponastavitev
 reset-password-success-alert = Geslo ponastavljeno
 reset-password-error-general = Pri ponastavljanju gesla je žal prišlo do težave
@@ -1047,7 +1047,7 @@ validating-signin = Potrjevanje prijave …
 
 confirm-signin-header = Potrdite prijavo
 # { $email } is the email entered by the user and where the signin confirmation link was sent
-confirm-signin-message = V svoji e-pošti preverite, ali ste prejeli povezavo za potrditev prijave na { $email }
+confirm-signin-message = Med svojo e-pošto poiščite povezavo za potrditev prijave, poslano na { $email }
 
 ## Signin page
 
