@@ -193,6 +193,7 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα γ�
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + φόρος { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -341,6 +342,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Πρόβλημα φόρτωσης τιμολογίων
 sub-billing-update-success = Τα στοιχεία χρέωσής σας ενημερώθηκαν με επιτυχία
+sub-invoice-previews-error-title = Πρόβλημα φόρτωσης προεπισκοπήσεων τιμολογίου
+sub-invoice-previews-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκοπήσεων τιμολογίου
 
 ## Routes - Subscription - ActionButton
 

@@ -70,6 +70,14 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (εκτίμηση)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Άγνωστη τοποθεσία
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Διεύθυνση IP: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -143,6 +151,7 @@ datablock-print =
 
 signup-new-password-label =
     .label = Κωδικός πρόσβασης
+signup-submit-button = Δημιουργία λογαριασμού
 form-reset-password-with-balloon-new-password =
     .label = Νέος κωδικός πρόσβασης
 
