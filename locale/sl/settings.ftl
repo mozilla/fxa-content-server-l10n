@@ -824,7 +824,7 @@ terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pock
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>pogoji storitve</firefoxTos> in <firefoxPrivacy>obvestilom o zasebnosti</firefoxPrivacy>.
+terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilom o zasebnosti</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
