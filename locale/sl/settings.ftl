@@ -1068,7 +1068,7 @@ signin-bounced-header = Oprostite. Zaklenili smo vaš račun.
 # $email (string) - The user's email.
 signin-bounced-message = Potrditveno sporočilo, ki smo ga poslali na { $email }, je bilo vrnjeno, vaš račun pa smo zaradi zaščite vaših podatkov v { -brand-firefox(sklon: "mestnik") } zaklenili.
 # linkExternal is a link to a mozilla support
-signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam sporočite</linkExternal> in pomagali vam bomo odkleniti vaš račun.
+signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam to sporočite</linkExternal> in pomagali vam bomo odkleniti vaš račun.
 signin-bounced-create-new-account = Ne uporabljate več tega naslova? Ustvarite nov račun
 back = Nazaj
 
@@ -1079,7 +1079,7 @@ back = Nazaj
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-recovery-code-heading-w-default-service = Vnesite rezervno overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+signin-recovery-code-heading-w-default-service = Vnesite rezervno overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
