@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Avaa { $emailProvider }
 confirm-with-link-resend-link-button = Ei saapuneissa tai roskapostissa? Lähetä uudestaan
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Edellinen
-confirm-signup-aria-label =
-    .aria-label = Kirjekuori, joka sisältää linkin
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Kopioitu
 datablock-print =
     .message = Tulostettu
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (arvio)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (arvio)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (arvio)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (arvio)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Tuntematon sijainti
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } alustalla { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-osoite: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -130,6 +153,11 @@ get-data-trio-copy =
     .title = Kopioi
 get-data-trio-print =
     .title = Tulosta
+
+## Images - these are all aria labels used for illustrations
+
+confirm-signup-aria-label =
+    .aria-label = Kirjekuori, joka sisältää linkin
 
 ## Input Password
 
@@ -199,7 +227,6 @@ ready-account-ready = Tilisi on valmis!
 ready-continue = Jatka
 sign-in-complete-header = Kirjautuminen vahvistettu
 sign-up-complete-header = Tili vahvistettu
-pulsing-hearts-description = Vaaleanpunainen kannettava tietokone ja violetti mobiililaite, joissa kummassakin sykkivä sydän
 primary-email-verified-header = Ensisijainen sähköposti vahvistettu
 
 ## Alert Bar
@@ -794,6 +821,30 @@ inline-recovery-backup-authentication-code = Varatodennuskoodi
 
 inline-totp-setup-continue-button = Jatka
 inline-totp-setup-ready-button = Valmis
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Laite yhdistetty
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+pair-supp-allow-cancel-link = Peruuta
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
 
 ## AccountRecoveryConfirmKey page
 
