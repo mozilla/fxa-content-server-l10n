@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2023-01-16 14:04+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -379,7 +379,7 @@ msgstr "Napšašowański korpus jo pśedłujki"
 msgid "The request was blocked for security reasons"
 msgstr "Napšašowanje jo se z pśicynow wěstoty zablokěrowało"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Njepłaśiwy awtorizěrowański kod"
 
@@ -527,7 +527,7 @@ msgstr "Aktualizacija jo se wótpokazała, pšosym wopytajśo hyšći raz"
 msgid "Invalid or expired confirmation code"
 msgstr "Njepłaśiwy abo spadnjony wobkšuśeński kod"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 
@@ -535,7 +535,7 @@ msgstr "Serwer jo póśěźony, wopytajśo za krotki cas hyšći raz"
 msgid "Feature not enabled"
 msgstr "Funkcija njejo zmóžnjona"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
@@ -544,167 +544,171 @@ msgstr "System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz"
 msgid "This endpoint is no longer supported"
 msgstr "Toś ten kóńcny dypk se wěcej njepódpěra"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Pśizjawjeński wopyt pśetergnjony"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Cookieje su hyšći znjemóžnjone"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Gronidle njejstej jadnakej"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Jo hyšći w źěle…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Wuzjawjenje priwatnosći njejo se namakało"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Wužywańske wuměnjenja njejsu se namakali"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Wašo nowe gronidło musy druge byś"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Musy nanejmjenjej 8 znamuškow dłujke byś"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Płaśiwe gronidło trěbne"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Płaśiwa e-mailowa adresa trěbna"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Wužywajobny wobraz njejo se namakał"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Kamera njedajo se inicializěrowaś"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Płaśiwy URL trěbny"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-mailowa adresa wopak?"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Zapódajśo płaśiwu e-mailowu adresu. firefox.com njepóbitujo e-mailowe adrese."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts dajo se jano na pśizwólonych sedłach do IFRAME stajiś"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Wobkšuśeński wótkaz wobškóźony"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wótměra wobraza musytej nanejmjenjej 100x100px byś"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Skóro registrěrowanje za Firefox za iOS pśiźo."
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Musyśo swójo starstwo zapódaś, aby se registrěrował"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Musyśo płaśiwe starstwo zapódaś, aby se registrěrował"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Konto wěcej njeeksistěrujo."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Njepłaśiwa kakosć w pókšacowańskem tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Felujuca kakosć w pókšacowańskem tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Njepłaśiwy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Felujucy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "To jo trěbne pólo"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Awtorizěrowański kod trěbny"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Wótkaz jo wobškóźony"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Telefonowy numer trěbny"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Kod dwójokšacoweje awtentifikacije trěbny"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Njepłaśiwy kod za dwójokšacowu awtentifikaciju"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "Awtentifikaciski kod za zawěsćenje trjebny"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "Njepłaśiwy kod za zawěsćeńsku awtentifikaciju"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "Kontowy wótnowjeński kluc trjebny"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Pšosym zapódajśo wobkšuśeński kod"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Njepłaśiwe dalepósrědnjenje"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Pisańska zmólka w e-mailowej adresy? %(domain)s e-mailowu słužbu njepóbitujo."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "Wobrazowa dataja jo pśewjelika za nagraśe."
 
@@ -845,7 +849,9 @@ msgid "Invalid Token"
 msgstr "Njepłaśiwy token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pśez to, až pókšaocujośo, zwólijośo do <a id=\"service-tos\" href=\"%(termsUri)s\">wužywańskich wuměnjenjow</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">pšawidłow priwatnosći</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -916,7 +922,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju Firefox měł."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane "
 "serwerowe daty ako historiju a cytańske znamjenja)."
@@ -1162,8 +1169,11 @@ msgid "Password"
 msgstr "Gronidło"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pókšacujśo, aby zwólił do <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosć</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Pókšacujśo, aby zwólił do <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosć</"
+"a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1430,14 +1440,17 @@ msgstr "Toś ta e-mailowa wěcej wam njesłuša? Załožćo konto"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Gaž pokšacujośo, zwolijośo do:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">wužywańskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">wuzjawjenja priwatnosći</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći</a> Firefox\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">wužywańskich wuměnjenjow</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">wuzjawjenja priwatnosći</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći</a> "
+"Firefox\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1528,14 +1541,17 @@ msgstr "Konto załožyś"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Gaž pokšacujośo, zwolijośo do:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">wuzjawjenja priwatnosći</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći</a> Firefox\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">wuzjawjenja priwatnosći</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">wužywańskich wuměnjenjow</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">wuzjawjenja priwatnosći</a> "
+"Firefox\n"
 "            "
 
 #: .es5/templates/support.mustache:1
@@ -2037,7 +2053,8 @@ msgid "Sync your device"
 msgstr "Synchronizěrujśo swój rěd"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Scannujśo, aby Firefox za mobilne rědy ześěgnuł, abo sćelśo sebje <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ześěgnjeński "
 "wótkaz.</a>"

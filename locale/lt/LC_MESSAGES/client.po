@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2021-07-30 09:19+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -378,7 +378,7 @@ msgstr "Užklausos apimtis yra per didelė"
 msgid "The request was blocked for security reasons"
 msgstr "Užklausa užblokuota saugumo sumetimais"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Netinkamas patvirtinimo kodas"
 
@@ -526,7 +526,7 @@ msgstr "Naujinimas atmestas, bandykite dar karą"
 msgid "Invalid or expired confirmation code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Serveris užimtas, bandykite vėliau"
 
@@ -534,7 +534,7 @@ msgstr "Serveris užimtas, bandykite vėliau"
 msgid "Feature not enabled"
 msgstr "Ši funkcija neįgalinta"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Sistema nepasiekiama, bandykite vėliau"
@@ -545,167 +545,171 @@ msgstr "Sistema nepasiekiama, bandykite vėliau"
 msgid "This endpoint is no longer supported"
 msgstr "Šis galinis tašas (endpoint) nebepalaikomas"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Prisijungimo bandymas atšauktas"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Jūsų seansas baigėsi. Norėdami tęsti, prisijunkite."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Sausainiukai vis dar išjungti"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Slaptažodžiai nesutampa"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Dirbama..."
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Nepavyko gauti Privatumo pranešimo"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Neįmanoma pasiekti paslaugos teikimo sąlygų"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Senas ir naujas slaptažodžiai turi skirtis"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Turi būti bent 8 simbolių ilgio"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Reikalingas galiojantis slaptažodis"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Reikalingas galiojantis el. pašto adresas"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Naudotinas paveiksliukas nerastas"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Nepavyko inicijuoti kameros"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Reikalingas galiojantis URL"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Nurodykite veikiantį el. pašto adresą. firefox.com neteikia el. pašto paslaugos."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "„Firefox“ paskyros gali būti talpinamos į „IFRAME“ rėmelį tik patvirtintose svetainėse"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Patvirtinimo saitas sugadintas"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Paveikslėlis turi būti bent 100x100 taškų dydžio"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Netrukus galėsite registruotis ir naudodamiesi „Firefox“ naršykle „iOS“ įrenginiuose"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Jei norite užsiregistruoti, turite įvesti savo amžių"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Norėdami prisijungti, turite įvesti teisingą amžių"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Paskyra nebeegzistuoja."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Neleistina savybė pratęsimo prieigos rakte: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Trūksta savybės pratęsimo prieigos rakte: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Neleistinas duomenų atributas: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Trūksta duomenų atributo: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Šis vienkartinis patvirtinimo saitas jau buvo panaudotas."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Šis laukas privalomas"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Būtinas patvirtinimo kodas"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Saitas sugadintas"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Būtina įvesti telefono numerį"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Būtinas dvipakopio atpažinimo kodas"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Netinkamas dvipakopio atpažinimo kodas"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Įveskite patvirtinimo kodą"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 

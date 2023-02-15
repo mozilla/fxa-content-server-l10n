@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2019-12-18 15:57+0000\n"
 "Last-Translator: Pranav Deshpande <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,7 +377,7 @@ msgstr ""
 msgid "The request was blocked for security reasons"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr ""
 
@@ -525,7 +525,7 @@ msgstr ""
 msgid "Invalid or expired confirmation code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr ""
 
@@ -533,7 +533,7 @@ msgstr ""
 msgid "Feature not enabled"
 msgstr "वैशिष्ट्य सक्षम नाही"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr ""
@@ -542,167 +542,171 @@ msgstr ""
 msgid "This endpoint is no longer supported"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:316
-msgid "Login attempt cancelled"
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
 msgstr ""
 
 #: .es5/lib/auth-errors.js:320
-msgid "Session expired. Sign in to continue."
+msgid "Login attempt cancelled"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:324
-msgid "Cookies are still disabled"
+msgid "Session expired. Sign in to continue."
 msgstr ""
 
 #: .es5/lib/auth-errors.js:328
-msgid "Passwords do not match"
+msgid "Cookies are still disabled"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:332
+msgid "Passwords do not match"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "कार्यरत आहे…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "सेवा अटी मिळवू शकत नाही"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "वैध पासवर्ड गरजेचे आहे"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "वैध ईमेल गरजेचे आहे"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "वैध URL आवश्यक"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "साईन अप करण्यासाठी वैध वय प्रविष्ट करणे आवश्यक आहे"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "खाते अस्तित्वात नाही."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "हे क्षेत्र आवश्यक आहे"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "कृपया सत्यापन कोड प्रविष्ट करा"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2022-12-19 09:22+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -379,7 +379,7 @@ msgstr "A kérés törzse túl nagy"
 msgid "The request was blocked for security reasons"
 msgstr "A kérés biztonsági okokból blokkolva lett"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Érvénytelen engedélyezési kód"
 
@@ -527,7 +527,7 @@ msgstr "A módosítás elutasításra került, próbálkozzon újra"
 msgid "Invalid or expired confirmation code"
 msgstr "Érvénytelen vagy lejárt megerősítő kód"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "A kiszolgáló elfoglalt, próbálja újra később"
 
@@ -535,7 +535,7 @@ msgstr "A kiszolgáló elfoglalt, próbálja újra később"
 msgid "Feature not enabled"
 msgstr "A funkció nem engedélyezett"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "A rendszer nem érhető el, próbálja újra később"
@@ -544,167 +544,171 @@ msgstr "A rendszer nem érhető el, próbálja újra később"
 msgid "This endpoint is no longer supported"
 msgstr "Ez a végpont már nem támogatott"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Bejelentkezési kísérlet megszakítva"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "A munkamenet lejárt. Jelentkezzen be a folytatáshoz."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "A sütik még mindig le vannak tiltva"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "A jelszavak nem egyeznek"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Dolgozunk…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Az Adatvédelmi nyilatkozat nem kérhető le"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "A Felhasználási feltételek nem kérhetők le"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Az új jelszónak különbözőnek kell lennie"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Legalább 8 karakter hosszú kell legyen"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Érvényes jelszó szükséges"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Érvényes e-mail szükséges"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Nem található használható kép"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Nem készíthető elő a kamera"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Érvényes URL szükséges"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "A megerősítő e-mail visszapattant. Talán elgépelte az e-mail-címét?"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Írjon be egy érvényes e-mail címet. A firefox.com nem nyújt e-mail szolgáltatást."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "A Firefox fiókok csak egy IFRAME-be helyezhető el a jóváhagyott oldalakon"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Az ellenőrzési hivatkozás sérült"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "A kép méreteinek legalább 100x100 képpontnak kell lenniük."
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "A regisztráció hamarosan érkezik a Firefox for iOS-re"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "A feliratkozáshoz meg kell adnia életkorát"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "A feliratkozáshoz érvényes életkort kell megadnia"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "A fiók már nem létezik."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Érvénytelen tulajdonság a folytatási tokenben: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Hiányzó tulajdonság a folytatási tokenben: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Érvénytelen adatattribútum: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Hiányzó adatattribútum: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "A megerősítési hivatkozás már volt használva, és csak egyszer használható."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Ez egy kötelező mező"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Engedélyezési kód szükséges"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Sérült hivatkozás"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Telefonszám szükséges"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Kétlépcsős hitelesítő kód szükséges"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Érvénytelen kétlépcsős hitelesítési kód"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "Tartalék hitelesítési kód szükséges"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "Érvénytelen tartalék hitelesítési kód"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "Fiók helyreállítási kulcs szükséges"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Adja meg az ellenőrzőkódot"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Érvénytelen átirányítás"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Elírta az e-mail címet? A(z) %(domain)s nem nyújt e-mail szolgáltatást."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "A képfájl mérete túl nagy a feltöltéshez."
 
@@ -845,7 +849,9 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -916,10 +922,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a Firefox fiókjához."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint"
-" az előzmények és a könyvjelzők)."
+"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, "
+"mint az előzmények és a könyvjelzők)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1163,8 +1170,11 @@ msgid "Password"
 msgstr "Jelszó"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatot</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
+"nyilatkozatot</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1431,14 +1441,17 @@ msgstr "Már nem az Öné az e-mail cím? Hozzon létre új fiókot"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              A folytatással beleegyezik a továbbiakba:<br />\n"
-"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Szolgáltatási feltételeibe</a> és az <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>.\n"
+"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Szolgáltatási feltételeibe</a> és az <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/en/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
+"nyilatkozatába</a>.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1529,14 +1542,17 @@ msgstr "Fiók létrehozása"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              A folytatással beleegyezik a továbbiakba:<br />\n"
-"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>.\n"
+"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://"
+"getpocket.com/en/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
+"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
+"nyilatkozatába</a>.\n"
 "            "
 
 #: .es5/templates/support.mustache:1
@@ -2039,7 +2055,8 @@ msgid "Sync your device"
 msgstr "Szinkronizálja az eszközét"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Olvassa le, hogy letöltse a Firefoxot mobilra, vagy küldjön magának egy <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">letöltési hivatkozást.</a>"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2022-10-23 15:28+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -378,7 +378,7 @@ msgstr "Eskaeraren gorputza handiegia da"
 msgid "The request was blocked for security reasons"
 msgstr "Eskaera blokeatu egin da segurtasun-arrazoiak tarteko"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Baimen-kode baliogabea"
 
@@ -526,7 +526,7 @@ msgstr "Eguneraketa ukatu egin da, saiatu berriro mesedez"
 msgid "Invalid or expired confirmation code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 
@@ -534,7 +534,7 @@ msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
 msgid "Feature not enabled"
 msgstr "Ezaugarri ez gaitua"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
@@ -543,167 +543,171 @@ msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
 msgid "This endpoint is no longer supported"
 msgstr "Mutur hau ez da onartzen"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Saio-hasiera saiakera utzita"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Saioa iraungita. Jarraitzeko, hasi saioa."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Cookieak desgaituta daude oraindik"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Lanean…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Ezin da pribatutasun-abisua eskuratu"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Pasahitz berriak desberdina izan behar du"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Gutxienez 8 karaktere izan behar ditu"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Baliozko pasahitza behar da"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Baliozko helbide elektronikoa behar da"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Ez da irudi erabilgarririk aurkitu"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Ezin da kamera hasieratu"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta elektronikorik eskaintzen."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Egiaztapen-lotura hondatuta"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Irudiaren tamainak gutxienez 100x100 px izan behar du"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Izena emateko aukera laster dator iOSerako Firefoxentzat"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Zure izena sartu behar duzu erregistratzeko"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Adin egoki bat sartu behar duzu erregistratzeko"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Kontua ez da existitzen jada."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Propietate baliogabea berrekiteko tokenean: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Propietatea falta da berrekiteko tokenean: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Datu-atributu baliogabea: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Datu-atributua falta da: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Eremu hau beharrezkoa da"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Baimen-kodea behar da"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Lotura kaltetuta dago"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Telefono-zenbakia beharrezkoa da"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Bi urratseko autentifikazio kodea behar da"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Bi urratseko autentifikazio kode baliogabea"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Mesedez sartu egiaztatze kodea"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Birbideraketa baliogabea"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Helbidea gaizki idatzi duzu? %(domain)s domeinuak ez du posta elektroniko zerbitzurik."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "Irudi-fitxategiaren tamaina handiegia da igotzeko."
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2022-12-11 14:06+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,7 +377,7 @@ msgstr "Corpore de requesta troppo grande"
 msgid "The request was blocked for security reasons"
 msgstr "Le requesta ha essite blocate pro rationes de securitate"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Codice de autorisation invalide"
 
@@ -525,7 +525,7 @@ msgstr "Actualisation rejectate, retenta"
 msgid "Invalid or expired confirmation code"
 msgstr "Codice de confirmation non valide o expirate"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Servitor occupate, retenta plus tarde"
 
@@ -533,7 +533,7 @@ msgstr "Servitor occupate, retenta plus tarde"
 msgid "Feature not enabled"
 msgstr "Functionalitate non activate"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Systema indisponibile, retenta plus tarde"
@@ -542,167 +542,171 @@ msgstr "Systema indisponibile, retenta plus tarde"
 msgid "This endpoint is no longer supported"
 msgstr "Iste puncto terminal non es plus supportate"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Tentativa de apertura de session cancellate"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Session expirate. Reaperi session pro continuar."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Le cookies es ancora inactive"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Le contrasignos non corresponde"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "In curso…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Il non esseva possibile trovar le aviso de confidentialitate"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Il non esseva possibile trovar le terminos del servicio"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Tu nove contrasigno debe esser differente"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Debe continer al minus 8 characteres"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Un contrasigno valide es necessari"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Es necessari un adresse de e-mail valide"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Nulle imagine usabile ha essite trovate"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Impossibile initialisar le camera"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Es requirite un URL valide"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "Tu email de confirmation ha essite justo restituite. Adresse email mal-scripte?"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Scribe un adresse de e-mail valide. firefox.com non forni un servicio de e-mail."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Le contos Firefox pote solmente esser placiate in un IFRAME sur sitos approbate"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Ligamine de verification damnificate"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Le dimensiones del imagine debe esser al minus 100x100px"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Il essera tosto possibile aperir session in Firefox pro iOS"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Tu debe inserer tu etate pro inscriber te"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Tu debe inserer un etate valide pro inscriber te"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Iste conto non existe plus."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Proprietate invalide in le token de reprisa: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Proprietate mancante in le token de reprisa: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Attributo de datos invalide: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Attributo de datos mancante: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Iste campo es necessari"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Es necessari un codice de autorisation"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Ligamine damnificate"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Es necessari un numero de telephono"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Authentication a duo passos necessari"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Codice de authentication a duo passos non valide"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "Codice de authentication de salvamento necessari"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "Codice de authentication de salvamento non valide"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "Clave de recuperation del conto necessari"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Per favor insere codice de verification"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Redirection non valide"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Adresse mal scribite? %(domain)s non offere servicio e-mail."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "Le file de imagine es troppo grande pro esser incargate."
 
@@ -843,7 +847,9 @@ msgid "Invalid Token"
 msgstr "Token non valide"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -914,7 +920,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu Firefox Account."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como "
 "chronologia e marcapaginas)."
@@ -1160,8 +1167,11 @@ msgid "Password"
 msgstr "Contrasigno"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1428,14 +1438,17 @@ msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Si tu procede, tu concorda con le:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
-"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
+"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a> de Firefox.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1528,13 +1541,16 @@ msgstr "Crear un conto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "            Si tu procede, tu concorda con le:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
-"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
+"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</"
+"a> de Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -2037,10 +2053,11 @@ msgid "Sync your device"
 msgstr "Synchronisa tu apparato"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
-"Scande pro discargar Firefox pro apparato mobile o invia a te mesme un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ligamine"
-" de discargamento.</a>"
+"Scande pro discargar Firefox pro apparato mobile o invia a te mesme un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">ligamine de discargamento.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"

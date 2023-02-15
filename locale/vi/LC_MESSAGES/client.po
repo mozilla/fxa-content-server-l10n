@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2022-12-11 10:03+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,7 +377,7 @@ msgstr "Nội dung yêu cầu quá lớn"
 msgid "The request was blocked for security reasons"
 msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Mã ủy quyền không hợp lệ"
 
@@ -503,9 +503,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
@@ -527,7 +525,7 @@ msgstr "Cập nhật đã bị từ chối, vui lòng thử lại"
 msgid "Invalid or expired confirmation code"
 msgstr "Mã xác minh không hợp lệ hoặc đã hết hạn"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Máy chủ bận, hãy thử lại sau"
 
@@ -535,7 +533,7 @@ msgstr "Máy chủ bận, hãy thử lại sau"
 msgid "Feature not enabled"
 msgstr "Tính năng không được bật"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Hệ thống không khả dụng, hãy thử lại sau"
@@ -544,167 +542,171 @@ msgstr "Hệ thống không khả dụng, hãy thử lại sau"
 msgid "This endpoint is no longer supported"
 msgstr "Điểm cuối này không còn được hỗ trợ"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Đã hủy đăng nhập"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Phiên đã hết hạn. Đăng nhập để tiếp tục."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Cookie vẫn bị tắt"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Mật khẩu không khớp"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Đang làm việc…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Không thể nhận Thông báo bảo mật"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Không thể nhận Điều khoản dịch vụ"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Mật khẩu mới của bạn phải khác"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Phải có ít nhất 8 ký tự"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Yêu cầu mật khẩu hợp lệ"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Yêu cầu email hợp lệ"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Không tìm thấy hình ảnh có thể sử dụng"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Không thể khởi tạo máy ảnh"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Yêu cầu URL hợp lệ"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "Email xác minh của bạn vừa được trả lại. Bạn đã nhập sai địa chỉ email?"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Nhập địa chỉ email hợp lệ. firefox.com không cung cấp email."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Tài khoản Firefox chỉ có thể được đặt trong IFRAME của trang web được phê duyệt"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Liên kết xác nhận bị hỏng"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Kích thước hình ảnh phải có kích thước tối thiểu là 100x100px"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Đăng ký sắp có trên Firefox dành cho iOS"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Bạn phải nhập tuổi của bạn để đăng ký"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Bạn phải nhập tuổi hợp lệ để đăng ký"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Tài khoản không còn tồn tại."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Thuộc tính không hợp lệ trong token sơ yếu lý lịch: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Thiếu thuộc tính trong token tiếp tục: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Thuộc tính dữ liệu không hợp lệ: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Thiếu thuộc tính dữ liệu: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Đây là một trường bắt buộc"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Yêu cầu mã ủy quyền"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Liên kết bị hỏng"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Yêu cầu số điện thoại"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Yêu cầu mã xác thực hai bước"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Mã xác thực hai bước không hợp lệ"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "Cần có mã xác thực dự phòng"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "Mã xác thực dự phòng không hợp lệ"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "Cần có khóa khôi phục tài khoản"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Vui lòng nhập mã xác minh"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Chuyển hướng không hợp lệ"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Thư điện tử sai? %(domain)s không cung cấp thư điện tử."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "Không thể tải lên ảnh có kích thước tập tin quá lớn."
 
@@ -845,7 +847,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -916,7 +920,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -1162,8 +1167,11 @@ msgid "Password"
 msgstr "Mật khẩu"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">chính sách riêng tư</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">chính sách "
+"riêng tư</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1430,13 +1438,15 @@ msgstr "Không còn sở hữu email đó nữa? Tạo tài khoản mới"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đồng ý với:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">thông báo bảo mật</a> của Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">thông báo bảo mật</a> của Pocket<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a> của Firefox.\n"
 "            "
 
@@ -1528,13 +1538,15 @@ msgstr "Tạo tài khoản"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Bằng cách tiếp tục, bạn đã đồng ý với:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">thông báo bảo mật</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">thông báo bảo mật</a> của Pocket<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a> của Firefox\n"
 "          "
 
@@ -2038,7 +2050,8 @@ msgid "Sync your device"
 msgstr "Đồng bộ hóa thiết bị của bạn"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Quét để tải xuống Firefox dành cho di động hoặc gửi chính bạn một <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">liên kết tải "
 "xuống.</a>"

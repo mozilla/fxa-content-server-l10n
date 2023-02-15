@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2023-01-06 03:11+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -378,7 +378,7 @@ msgstr "請求內容太大"
 msgid "The request was blocked for security reasons"
 msgstr "因為安全性因素，已封鎖請求"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "授權碼無效"
 
@@ -526,7 +526,7 @@ msgstr "更新被拒，請再試一次"
 msgid "Invalid or expired confirmation code"
 msgstr "驗證碼無效或失效"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "伺服器忙碌中，請稍後再試一次"
 
@@ -534,7 +534,7 @@ msgstr "伺服器忙碌中，請稍後再試一次"
 msgid "Feature not enabled"
 msgstr "功能未啟用"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "系統暫時無法使用，請稍後再試一次"
@@ -543,167 +543,171 @@ msgstr "系統暫時無法使用，請稍後再試一次"
 msgid "This endpoint is no longer supported"
 msgstr "不再支援此端點"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "已取消登入嘗試"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "登入階段已失效，請登入以繼續。"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Cookie 仍然被停用"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "密碼不符合"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "處理中…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "無法取得隱私權保護政策"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "無法取得服務條款"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "您的新密碼必須與舊密碼不同"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "至少要 8 個字元長"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "必須輸入有效的密碼"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "必須輸入有效的電子郵件地址"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "找不到可用的圖片"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "無法初始化攝影機"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "必須輸入有效的網址"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "您的確認信被退了，是不是輸錯電子郵件地址了？"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "請輸入有效的電子郵件地址，firefox.com 不提供郵件服務。"
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 帳號僅能被嵌入至經審查的網站的 IFRAME 當中"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "驗證鏈結已毀損"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "圖片尺寸需大於 100x100 像素"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "即將可在 Firefox for iOS 上註冊"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "您必須輸入年齡才能註冊"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "必須輸入有效年齡才能註冊"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "帳號已不存在。"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "resume token 中有無效屬性：%(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "resume token 中缺少屬性：%(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "無效 data 屬性：%(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "缺少 data 屬性：%(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "該確認鏈結只能使用一次，已經被使用過了。"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "這是必填欄位"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "需要輸入授權碼"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "鏈結毀損"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "需要輸入電話號碼"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "需要輸入兩階段驗證碼"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "無效的兩階段驗證碼"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "需要使用備用驗證碼"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "備用驗證碼無效"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "需要使用帳號救援金鑰"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "請輸入驗證碼"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "重導無效"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "輸錯信箱帳號了？%(domain)s 不提供郵件服務。"
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "圖檔太大，無法上傳。"
 
@@ -844,7 +848,9 @@ msgid "Invalid Token"
 msgstr "Token 無效"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: .es5/lib/strings.js:31
@@ -913,7 +919,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "請輸入您先前產生的單次使用帳號救援金鑰，以取回 Firefox 帳號的使用權限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -969,7 +976,9 @@ msgstr "建立新密碼"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，Pocket 服務當中的資料也不受影響。"
+msgstr ""
+"<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，"
+"Pocket 服務當中的資料也不受影響。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1152,7 +1161,8 @@ msgid "Password"
 msgstr "密碼"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "若繼續，代表您同意<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1360,7 +1370,9 @@ msgstr "為什麼會發生？"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，Pocket 服務當中的資料也不受影響。"
+msgstr ""
+"<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，"
+"Pocket 服務當中的資料也不受影響。"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1418,12 +1430,14 @@ msgstr "那個信箱已經停用了嗎？請註冊新帳號"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</a><br />\n"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</"
+"a><br />\n"
 "Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1514,12 +1528,14 @@ msgstr "建立帳號"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</a><br />\n"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</"
+"a><br />\n"
 "Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
 #: .es5/templates/support.mustache:1
@@ -2017,7 +2033,8 @@ msgid "Sync your device"
 msgstr "同步您的裝置"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr "掃描即可下載 Firefox 行動版，或者是將<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">下載鏈結</a>寄給自己。"
 
 #: .es5/templates/pair/index.mustache:7

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-09 18:10+0000\n"
+"POT-Creation-Date: 2023-02-15 20:49+0000\n"
 "PO-Revision-Date: 2022-12-27 09:06+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,7 +381,7 @@ msgstr "Lëndë shumë e madhe për kërkesa"
 msgid "The request was blocked for security reasons"
 msgstr "Kërkesa u bllokua për arsye sigurie"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
 msgstr "Kod i pavlefshëm autorizimi"
 
@@ -529,7 +529,7 @@ msgstr "Përditësimi u hodh poshtë, ju lutemi, riprovoni"
 msgid "Invalid or expired confirmation code"
 msgstr "Kod ripohim i pavlefshëm ose i skaduar"
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
 msgstr "Shërbyesi është i zënë, riprovoni së shpejti"
 
@@ -539,14 +539,14 @@ msgstr "Veçori e paaktivizuar"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
 # Nga ana e domethënies "përpiquni sërish" e zgjeron fokusin e veprimeve të
 # mundshme pas dështimit. Kurse "riprovoni" do të thotë të bësh edhe një provë
 # tjetër, të po atij veprimi që kishe bërë më parë.
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Sistemi s’është në punë, riprovoni së shpejti"
@@ -555,167 +555,171 @@ msgstr "Sistemi s’është në punë, riprovoni së shpejti"
 msgid "This endpoint is no longer supported"
 msgstr "Kjo pikë mbarimi s’mbulohet më"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:312
+msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
 msgstr "Përpjekja për hyrje u anulua"
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
 msgstr "Sesioni skadoi. Që të vazhdohet, bëni hyrjen."
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Cookies are still disabled"
 msgstr "Cookie-t janë ende të çaktivizuara"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Passwords do not match"
 msgstr "Fjalëkalimet nuk përputhen"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Working…"
 msgstr "Po punohet…"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
 msgstr "Nuk u mor dot Shënim mbi Privatësinë"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
 msgstr "Nuk u morën dot Kushtet e Shërbimit"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
 msgstr "Fjalëkalimi juaj i ri duhet të jetë i ndryshëm"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Must be at least 8 characters"
 msgstr "Duhet të jetë të paktën 8 shenja"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
 msgstr "Lyp fjalëkalim të vlefshëm"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
 msgstr "Lypset email i vlefshëm"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
 msgstr "Nuk u gjet një figurë e përdorshme"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
 msgstr "Nuk u gatit dot kamera"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
-#: .es5/lib/auth-errors.js:392
+#: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr "Email-i juaj i ripohimit sapo u kthye mbrapsht. E shkruat keq email-in?"
 
-#: .es5/lib/auth-errors.js:400
+#: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 
-#: .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Llogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
-#: .es5/lib/auth-errors.js:428
+#: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Përmasat e figurës duhet të jenë e pakta 100x100px"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Regjistrimi po vjen së shpejti edhe te Firefox-i për iOS"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
 msgstr "Duhet të jepni moshën tuaj që të regjistroheni"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
 msgstr "Që të regjistroheni, duhet të jepni një moshë të vlefshme"
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
 msgstr "Llogaria s’ekziston më."
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Veti e pavlefshme te token-i i rimarrjes: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
 msgstr "Token-it të rimarrjes i mungon një veti: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
 msgstr "Atribut i pavlefshëm të dhënash: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
 msgstr "Atribut të dhënash që mungon: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ajo lidhje ripohimi qe përdorur tashmë, dhe mund të përdoret vetëm një herë."
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
 msgstr "Kjo është fushë e domosdoshme"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
 msgstr "Lyp kod autorizimi"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Lidhje e dëmtuar"
 
-#: .es5/lib/auth-errors.js:540
+#: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
 msgstr "Lypset numër telefoni"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
 msgstr "Lypset kod mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
 msgstr "Kod i pavlefshëm mirëfilltësimi dyhapësh"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
 msgstr "Lypset kod mirëfilltësimi kopjeruajtjeje"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
 msgstr "Kod i pavlefshëm mirëfilltësimi kopjeruajtjeje"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
 msgstr "Lypset kyç rimarrjeje llogarie"
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
 msgstr "Ju lutemi, jepni kod verifikimi"
 
-#: .es5/lib/auth-errors.js:601
+#: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
 msgstr "Ridrejtim i pavlefshëm"
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "E shkruat keq email-in? %(domain)s nuk ofron email-e."
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
 msgstr "Madhësi e kartelës së figurës është shumë e madhe për ngarkim."
 
@@ -856,10 +860,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -929,7 +935,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Ju lutemi, që të rimerrni hyrjen te Llogaria juaj Firefox, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga "
 "shërbyesi, të tilla si historik dhe shfletues)."
@@ -983,7 +990,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -1002,10 +1009,10 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1208,8 +1215,11 @@ msgid "Password"
 msgstr "Fjalëkalimi"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi Privatësinë</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi "
+"Privatësinë</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1476,14 +1486,17 @@ msgstr "S’e keni më në zotërim atë email? Krijoni një llogari të re"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Duke vazhduar, pajtoheni me:<br />\n"
-"                          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Shënim Privatësie</a> të Pocket-it<br />\n"
-"                          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Firefox-it.\n"
+"                          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Shënim Privatësie</a> të Pocket-it<br />\n"
+"                          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të "
+"Firefox-it.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1576,13 +1589,15 @@ msgstr "Krijoni llogari"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Shënim Privatësie</a> të Pocket-it<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">Shënim Privatësie</a> të Pocket-it<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Firefox-it\n"
 "          "
 
@@ -2086,10 +2101,11 @@ msgid "Sync your device"
 msgstr "Njëkohësoni pajisjen tuaj"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
-"Skanojeni, që të shkarkoni Firefox-in për celular, ose dërgoni vetes një <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">lidhje"
-" shkarkimi.</a>"
+"Skanojeni, që të shkarkoni Firefox-in për celular, ose dërgoni vetes një <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">lidhje shkarkimi.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
