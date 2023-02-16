@@ -89,6 +89,9 @@ device-info-block-location-city-country = { $city }, { $country } (ojekuaaporã�
 device-info-block-location-country = { $country } (ojekuaaporã’ỹva)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Tendatee ojekuaa’ỹva
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } { $genericOSName }-pe
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP kundaharape: { $ipAddress }
@@ -146,12 +149,15 @@ form-reset-password-with-balloon-match-error = Ko’ã ñe’ẽñemi ndojojogu�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Mboguejy
-get-data-trio-copy =
+    .aria-label = Mboguejy
+get-data-trio-copy-2 =
     .title = Monguatia
-get-data-trio-print =
-    .title = Monguatia
+    .aria-label = Monguatia
+get-data-trio-print-2 =
+    .title = Ñemonguatia
+    .aria-label = Ñemonguatia
 
 ## Images - these are all aria labels used for illustrations
 
@@ -168,6 +174,8 @@ input-password-hide = Emokañy ñe’ẽñemi
 input-password-show = Ehechauka ñe’ẽñemi
 input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
 input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Tapykue
 
 ## LinkDamaged component
 
@@ -222,6 +230,7 @@ password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eipurujey �
 ## Ready component
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
+ready-start-browsing-button = Eikundaha ñepyrũ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -302,10 +311,10 @@ cs-disconnect-sync-heading = Sync-gui ñesẽ
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Ne kundahára mba’ekuaarã opytáta { $device }-pe,
+cs-disconnect-sync-content-3 =
+    Ne kundahára mba’ekuaarã opytáta <span>{ $device }</span>-pe,
     hákatu ndojuehemo’ãvéima nemba’ete ndive.
-cs-disconnect-sync-reason-2 = Mba’érepa remboykese añetehápe { $device }
+cs-disconnect-sync-reason-3 = ¿Mba’érepa remboykese añetehápe <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -807,6 +816,9 @@ cannot-create-account-header = Ndaikatúi emoheñói mba’ete
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Kuaave
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -843,6 +855,22 @@ inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñ
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -853,12 +881,11 @@ inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 pair-failure-header = Ñemoñondive oiko’ỹva
 pair-failure-message = Opáma pe ñemboheko rape.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Mba’e’oka oikepyréva
-pair-success-message =
-    .aria-label = Ñemoñondive oikoitéva.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -877,6 +904,9 @@ pair-supp-allow-cancel-link = Heja
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’oka guive</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
