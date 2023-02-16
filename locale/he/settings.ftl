@@ -18,6 +18,9 @@ banner-dismiss-button =
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = נא לבחור את הפריטים שיסונכרנו:
 choose-what-to-sync-option-bookmarks =
     .label = סימניות
 choose-what-to-sync-option-history =
@@ -47,8 +50,6 @@ confirm-with-link-webmail-link = פתיחת { $emailProvider }
 confirm-with-link-resend-link-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = חזרה
-confirm-signup-aria-label =
-    .aria-label = מעטפה המכילה קישור
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -58,6 +59,28 @@ datablock-copy =
     .message = הועתק
 datablock-print =
     .message = הודפס
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (משוער)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = ‏{ $region }, { $country } (משוער)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = ‏{ $city }, { $country } (משוער)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (משוער)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = מיקום לא ידוע
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = ‏{ $browserName } ב־{ $genericOSName }
 
 ## Firefox and Mozilla Brand
 ##
@@ -115,12 +138,15 @@ form-reset-password-with-balloon-match-error = הססמאות אינן תואמ�
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
-get-data-trio-download =
-    .title = הורדה
-get-data-trio-copy =
-    .title = העתקה
-get-data-trio-print =
-    .title = הדפסה
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = מסמך המכיל טקסט מוסתר.
+signin-totp-code-image-label =
+    .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
+confirm-signup-aria-label =
+    .aria-label = מעטפה המכילה קישור
 
 ## Input Password
 
@@ -193,7 +219,6 @@ ready-account-ready = החשבון שלך מוכן!
 ready-continue = המשך
 sign-in-complete-header = ההתחברות אומתה
 sign-up-complete-header = החשבון מאומת
-pulsing-hearts-description = מחשב נייד ורוד ומכשיר סלולרי סגול, כל אחד עם לב פועם
 primary-email-verified-header = כתובת הדוא״ל הראשית עברה אימות
 
 ## Alert Bar
@@ -260,8 +285,6 @@ cs-disconnect-sync-heading = ניתוק מ־Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = נתוני הגלישה שלך יישארו ב־{ $device }, אך לא יסתנכרנו עוד עם החשבון שלך.
-cs-disconnect-sync-reason-2 = מהי הסיבה העיקרית לניתוק { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -714,6 +737,9 @@ cannot-create-account-requirements = עליך לעמוד בדרישות הגיל
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = מידע נוסף
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -738,8 +764,6 @@ inline-recovery-continue-button = המשך
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = אישור
 inline-recovery-back-link = חזרה
-inline-recovery-setup-image-description =
-    .aria-label = מסמך המכיל טקסט מוסתר.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -748,21 +772,7 @@ inline-totp-setup-cancel-setup-button = ביטול ההגדרה
 inline-totp-setup-continue-button = המשך
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אימות מאחד <authenticationAppsLink>מיישומוני האימות האלו</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = יש לאפשר אימות דו־שלבי <enable2StepDefaultSpan>כדי להמשיך להגדרות החשבון</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = יש לאפשר אימות דו־שלבי <enable2StepCustomServiceSpan>כדי להמשיך אל { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = מוכן
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = יש לסרוק את קוד האימות <scanAuthCodeHeaderSpan>כדי להמשיך אל { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = יש להזין את הקוד באופן ידני <enterCodeManuallyHeaderSpan>כדי להמשיך אל { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = יש לסרוק את קוד האימות <scanAuthHeaderSpan>כדי להמשיך להגדרות החשבון</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = יש להזין את הקוד באופן ידני <enterCodeManuallyHeaderSpan>כדי להמשיך להגדרות החשבון</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = יש להקליד את המפתח הסודי הזה ביישומון האימות שלך. <toggleToQRButton>לסרוק במקום זאת קוד QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -771,6 +781,49 @@ inline-totp-setup-use-qr-or-enter-key-instructions = יש לסרוק את קוד
 inline-totp-setup-on-completion-description = לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי אימות שיהיו באפשרותך להזין.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = קוד אימות
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -882,8 +935,6 @@ back = חזרה
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-signin-recovery-code-image-description =
-    .aria-label = מסמך המכיל טקסט מוסתר.
 # Link to return to signin with two-step authentication code (security code)
 signin-recovery-code-back-link = חזרה
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -925,8 +976,6 @@ signin-totp-code-heading-w-default-service = נא להכניס קוד אבטחה
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = נא להכניס קוד אבטחה <span>כדי להמשיך אל { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
 signin-totp-code-instruction = נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שהוא מספק.
 signin-totp-code-input-label-v2 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the security code entered by the user is valid
