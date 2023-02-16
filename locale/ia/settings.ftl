@@ -234,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasign
 ## Ready component
 
 reset-password-complete-header = Tu contrasigno ha essite remontate
+ready-complete-set-up-instruction = Completa le configuration inserente tu nove contrasigno in tu altere apparatos { -brand-firefox }.
+ready-start-browsing-button = Initia a navigar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -814,6 +816,12 @@ cannot-create-account-learn-more-link = Pro saper plus
 connect-another-device-email-confirmed-banner = Email confirmate
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Apertura de session confirmate
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Accede in iste { -brand-firefox } pro completar le configuration
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Aperir session
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Adder ancora apparatos? Accede a { -brand-firefox } sur un altere apparato pro completar le configuration
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = Accede a { -brand-firefox } sur un altere apparato pro completar le configuration
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
@@ -876,6 +884,10 @@ inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adde un strato de securitate a tu conto requirente le codices de authentication ab uno de <authenticationAppsLink>iste apps de authentication</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Activa le authentication a duo passos <span> pro continuar le configuration del conto</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activa le authentication a duo passos <span>pro continuar a { $serviceName }</span>
 inline-totp-setup-ready-button = Preste
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
@@ -914,6 +926,8 @@ pair-auth-allow-confirm-button = Si, approbar apparato
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Apparato connexe
+pair-auth-complete-see-tabs-button = Vider schedas del apparatos synchronisate
+pair-auth-complete-manage-devices-link = Gerer apparatos
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -930,9 +944,19 @@ pair-failure-message = Le procedura de installation terminava.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronisa tu apparato
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Non ora
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Comenciar
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Codice QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Apparato connexe
+pair-success-message-2 = Accopulamento con successo.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -954,6 +978,7 @@ pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere a
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Accopulamento per un application
 
 ## AccountRecoveryConfirmKey page
 
@@ -1021,6 +1046,7 @@ reset-password-button = Initiar reinitialisation
 reset-password-success-alert = Remontar contrasigno
 reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
 reset-password-error-unknown-account = Conto incognite
+reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
 
