@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = Lösenorden matchar inte
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Hämta
-get-data-trio-copy =
+    .aria-label = Hämta
+get-data-trio-copy-2 =
     .title = Kopiera
-get-data-trio-print =
+    .aria-label = Kopiera
+get-data-trio-print-2 =
     .title = Skriv ut
+    .aria-label = Skriv ut
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = Dölj lösenord
 input-password-show = Visa lösenord
 input-password-hide-aria = Dölj lösenord från skärmen.
 input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Tillbaka
 
 ## LinkDamaged component
 
@@ -229,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Var säker — Återanvänd inte lös
 ## Ready component
 
 reset-password-complete-header = Ditt lösenord har återställts
+ready-complete-set-up-instruction = Slutför konfigurationen genom att ange ditt nya lösenord på dina andra { -brand-firefox }-enheter.
+ready-start-browsing-button = Börja surfa
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +316,10 @@ cs-disconnect-sync-heading = Koppla från Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Din webbinformation kommer att finnas kvar på { $device },
-    men det kommer inte längre att synkroniseras med ditt konto.
-cs-disconnect-sync-reason-2 = Vad är huvudorsaken till att koppla ifrån { $device }?
+cs-disconnect-sync-content-3 =
+    Din webbinformation kommer att finnas kvar på <span>{ $device }</span>,
+    men den kommer inte längre att synkroniseras med ditt konto.
+cs-disconnect-sync-reason-3 = Vad är huvudorsaken till att koppla bort <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -815,6 +822,33 @@ cannot-create-account-requirements = Du måste uppfylla vissa ålderskrav för a
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Läs mer
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Du är inloggad på { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-postadress bekräftad
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Inloggning bekräftad
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Logga in på denna { -brand-firefox } för att slutföra konfigurationen
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Logga in
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Lägger du fortfarande till enheter? Logga in på { -brand-firefox } på en annan enhet för att slutföra konfigurationen
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Logga in på { -brand-firefox } på en annan enhet för att slutföra konfigurationen
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vill du ha dina flikar, bokmärken och lösenord på en annan enhet?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Anslut en annan enhet
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Inte nu
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Logga in på { -brand-firefox } för Android för att slutföra konfigurationen
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Logga in på { -brand-firefox } för iOS för att slutföra konfigurationen
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -865,20 +899,20 @@ inline-totp-setup-continue-button = Fortsätt
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Lägg till ett lager av säkerhet till ditt konto genom att kräva autentiseringskoder från en av <authenticationAppsLink>dessa autentiseringsappar</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Aktivera tvåstegsautentisering <enable2StepDefaultSpan>för att fortsätta till kontoinställningar</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktivera tvåstegsautentisering <span>för att fortsätta till kontoinställningarna</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Aktivera tvåstegsautentisering <enable2StepCustomServiceSpan>för att fortsätta till { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktivera tvåstegsautentisering <span>för att fortsätta till { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Skanna autentiseringskoden <scanAuthCodeHeaderSpan>för att fortsätta till { $serviceName }</scanAuthCodeHeaderSpan>
+inline-totp-setup-show-qr-custom-service-header-2 = Skanna autentiseringskoden <span>för att fortsätta till { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Ange koden manuellt <enterCodeManuallyHeaderSpan>för att fortsätta till { $serviceName }</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-custom-service-header-2 = Ange koden manuellt <span>för att fortsätta till { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Skanna autentiseringskoden <scanAuthHeaderSpan>för att fortsätta till kontoinställningarna</scanAuthHeaderSpan>
+inline-totp-setup-show-qr-default-service-header-2 = Skanna autentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Ange koden manuellt <enterCodeManuallyHeaderSpan>för att fortsätta till kontoinställningarna</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-default-service-header-2 = Ange koden manuellt <span>för att fortsätta till kontoinställningarna</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Skriv in den här hemliga nyckeln i din autentiseringsapp. <toggleToQRButton>Skanna QR-kod istället?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -887,6 +921,33 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skanna QR-koden i din auten
 inline-totp-setup-on-completion-description = När den är klar kommer den att börja generera autentiseringskoder som du kan ange.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskod
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Juridisk information
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Användarvillkor
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Sekretesspolicy
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Sekretesspolicy
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Användarvillkor
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Loggade du precis in på { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ja, godkänn enhet
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -901,12 +962,17 @@ pair-wait-for-supp-heading-text = Godkännande krävs nu <span>från din andra e
 pair-failure-header = Parkoppling misslyckades
 pair-failure-message = Installationsprocessen avslutades.
 
+## Pair index page
+
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Kom igång
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kod
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Enhet ansluten
-pair-success-message =
-    .aria-label = Parkoppling lyckades.
+pair-success-header-2 = Enhet ansluten
+pair-success-message-2 = Parkoppling lyckades.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -925,6 +991,11 @@ pair-supp-allow-cancel-link = Avbryt
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Parkoppling via en app
+pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från en { -brand-firefox }-app.
 
 ## AccountRecoveryConfirmKey page
 
@@ -977,6 +1048,8 @@ confirm-pw-reset-header = Återställningsmejl skickat
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klicka på länken som skickats till din { $email } inom den närmaste timmen för att skapa ett nytt lösenord.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-post skickat igen. Lägg till { $accountsEmail } till dina kontakter för att säkerställa en smidig leverans.
 
 ## ResetPassword page
 
@@ -992,6 +1065,7 @@ reset-password-button = Påbörja återställning
 reset-password-success-alert = Lösenordsåterställning
 reset-password-error-general = Tyvärr, det uppstod ett problem med att återställa ditt lösenord
 reset-password-error-unknown-account = Okänt konto
+reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
 
