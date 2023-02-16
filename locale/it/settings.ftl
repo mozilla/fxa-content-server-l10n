@@ -238,7 +238,7 @@ password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le
 ## Ready component
 
 reset-password-complete-header = La password è stata reimpostata
-ready-complete-set-up-instruction = Completa la configurazione inserendo la nuova password sugli altri dispositivi { -brand-firefox }.
+ready-complete-set-up-instruction = Per completare la configurazione inserisci la nuova password sugli altri dispositivi { -brand-firefox }.
 ready-start-browsing-button = Inizia a navigare
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -318,10 +318,8 @@ cs-disconnect-sync-heading = Disconnetti da Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-3 =
-    I tuoi dati di navigazione rimarranno su <span>{ $device }</span>,
-    ma non si sincronizzerà più con il tuo account.
-cs-disconnect-sync-reason-3 = Qual è il motivo principale della disconnessione di <span>{ $device }</span>?
+cs-disconnect-sync-content-3 = I dati relativi alla navigazione rimarranno nel dispositivo <span>{ $device }</span>, ma non verranno più sincronizzati con il tuo account.
+cs-disconnect-sync-reason-3 = Per quale motivo stai disconnettendo <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -816,7 +814,7 @@ connect-another-device-signin-to-complete-message = Accedi a questo { -brand-fir
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Accedi
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
-connect-another-device-still-adding-devices-message = Aggiungere ancora dispositivi? Accedi a { -brand-firefox } da un altro dispositivo per completare la configurazione
+connect-another-device-still-adding-devices-message = Vuoi aggiungere altri dispositivi? Per completare la configurazione accedi a { -brand-firefox } su un altro dispositivo
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = Accedi a { -brand-firefox } su un altro dispositivo per completare la configurazione
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
@@ -826,9 +824,9 @@ connect-another-device-cad-link = Connetti un altro dispositivo
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Non adesso
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
-connect-another-device-android-complete-setup-message = Accedi a { -brand-firefox } per Android per completare la configurazione
+connect-another-device-android-complete-setup-message = Per completare la configurazione accedi a { -brand-firefox } per Android
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
-connect-another-device-ios-complete-setup-message = Accedi a { -brand-firefox } per iOS per completare la configurazione
+connect-another-device-ios-complete-setup-message = Per completare la configurazione accedi a { -brand-firefox } per iOS
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -922,13 +920,13 @@ legal-terms-heading = Condizioni di utilizzo del servizio
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Hai appena effettuato l'accesso a { -product-firefox }?
+pair-auth-allow-heading-text = Hai appena effettuato l’accesso a { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sì, approva il dispositivo
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Se non eri tu, <link>cambia la password</link>
+pair-auth-allow-refuse-device-link = Se non sei stato tu, <link>cambia la password</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -937,7 +935,7 @@ pair-auth-allow-refuse-device-link = Se non eri tu, <link>cambia la password</li
 pair-auth-complete-heading = Dispositivo connesso
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
-pair-auth-complete-now-syncing-device-text = Ti stai sincronizzando con: { $deviceFamily } su { $deviceOS }
+pair-auth-complete-now-syncing-device-text = Ora stai sincronizzando con: { $deviceFamily } su { $deviceOS }
 pair-auth-complete-sync-benefits-text = Ora puoi accedere alle schede aperte, alle password e ai segnalibri su tutti i tuoi dispositivi.
 pair-auth-complete-see-tabs-button = Visualizza schede da altri dispositivi sincronizzati
 pair-auth-complete-manage-devices-link = Gestisci dispositivi
@@ -959,16 +957,16 @@ pair-failure-message = Processo di installazione interrotto.
 
 pair-sync-header = Sincronizza { -brand-firefox } sul tuo telefono o tablet
 pair-cad-header = Connetti { -brand-firefox } su un altro dispositivo
-pair-already-have-firefox-paragraph = Possiedi già { -brand-firefox } su un telefono o tablet?
+pair-already-have-firefox-paragraph = Utilizzi già { -brand-firefox } su un telefono o tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincronizza il tuo dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
-pair-or-download-subheader = Oppure scarica
+pair-or-download-subheader = Oppure scaricalo
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = Scansiona per scaricare { -brand-firefox } per dispositivi mobili oppure invia un <linkExternal>link per il download</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Non adesso
-pair-take-your-data-message = Porta schede, segnalibri e password ovunque utilizzi { -brand-firefox }.
+pair-take-your-data-message = Porta con te schede, segnalibri e password ovunque utilizzi { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Inizia
 # This is the aria label on the QR code image
@@ -1000,7 +998,7 @@ pair-wait-for-auth-heading-text = È ora richiesta l’approvazione <span>dall�
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Associa utilizzando un’app
-pair-unsupported-message = Hai utilizzato la telecamera di sistema? È necessario eseguire l’associazione da un’app { -brand-firefox }.
+pair-unsupported-message = Hai utilizzato la fotocamera di sistema? Bisogna effettuare l’associazione da un’app { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1070,7 +1068,7 @@ reset-password-button = Inizia il ripristino
 reset-password-success-alert = Password reimpostata
 reset-password-error-general = Si è verificato un problema durante la reimpostazione della password
 reset-password-error-unknown-account = Account sconosciuto
-reset-password-with-recovery-key-verified-page-title = Reimpostazione password riuscita
+reset-password-with-recovery-key-verified-page-title = Password reimpostata correttamente
 reset-password-with-recovery-key-verified-generate-new-key = Genera una nuova chiave di recupero dell’account
 reset-password-with-recovery-key-verified-continue-to-account = Vai al mio account
 
