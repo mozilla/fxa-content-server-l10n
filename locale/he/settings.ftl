@@ -859,20 +859,48 @@ legal-terms-heading = תנאי השירות
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = האם זה עתה התחברת ל־{ -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = כן, לאשר את המכשיר
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = אם לא ביצעת פעולה זו, <link>יש לשנות את הססמה שלך</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = המכשיר מחובר
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = כעת בסנכרון עם { $deviceFamily } ב־{ $deviceOS }
+pair-auth-complete-sync-benefits-text = כעת באפשרותך לגשת ללשוניות הפתוחות, הססמאות והסימניות שלך בכל המכשירים שלך.
+pair-auth-complete-see-tabs-button = הצגת לשוניות ממכשירים מסונכרנים
+pair-auth-complete-manage-devices-link = ניהול מכשירים
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = נדרש אישור <span>מהמכשיר האחר שלך</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = הצימוד לא בוצע בהצלחה
+pair-failure-message = תהליך ההגדרה הופסק.
 
 ## Pair index page
 
+pair-sync-header = סנכרון { -brand-firefox } עם הטלפון או מחשב הלוח שלך
+pair-cad-header = חיבור { -brand-firefox } במכשיר נוסף
+pair-already-have-firefox-paragraph = ‏{ -brand-firefox } כבר מותקן בטלפון או במחשב הלוח שלך?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = סנכרון המכשיר שלך
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = או הורדה
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
