@@ -54,6 +54,10 @@ choose-what-to-sync-option-creditcards =
 # { $emailProvider } could be Gmail, Outlook, etc.
 # This link will open the email provider is a new tab
 confirm-with-link-webmail-link = Opne { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Tilbake
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -68,6 +72,14 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimert)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Ukjend plassering
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adresse: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -85,11 +97,16 @@ datablock-print =
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-kontoar
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-pocket = Pocket
+-product-mdn-plus = MDN Plus
 
 ##
 
