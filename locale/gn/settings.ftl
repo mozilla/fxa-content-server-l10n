@@ -888,14 +888,26 @@ legal-terms-heading = Mba’epytyvõrã ñemboguata
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ¿Eikeramoite { -product-firefox } ndive?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Hẽe, emboaje mba’e’oka
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Mba’e’oka oikepyréva
+pair-auth-complete-see-tabs-button = Ehecha mba’e’oka mbojuehepyréva rendayke
+pair-auth-complete-manage-devices-link = Eñangareko mba’e’okáre
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’oka guive</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -904,9 +916,21 @@ pair-failure-message = Opáma pe ñemboheko rape.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Embojuehe ne mba’e’oka
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Térã emboguejy
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ani ko’ág̃a
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Eñepyrũ
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR ayvu
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Mba’e’oka oikepyréva
+pair-success-message-2 = Embojuehe hekoitépe.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -928,6 +952,7 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Eike eipurúvo tembipuru’i
 
 ## AccountRecoveryConfirmKey page
 
