@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clave de recuperación de cuenta de { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticación de respaldo de { -brand-firefox }
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Descargar
-get-data-trio-copy =
+    .aria-label = Descargar
+get-data-trio-copy-2 =
     .title = Copiar
-get-data-trio-print =
+    .aria-label = Copiar
+get-data-trio-print-2 =
     .title = Imprimir
+    .aria-label = Imprimir
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = Ocultar contraseña
 input-password-show = Mostrar contraseña
 input-password-hide-aria = Ocultar contraseña de pantalla
 input-password-show-aria = Mostrar contraseña como texto plano. La contraseña será visible en pantalla.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Atrás
 
 ## LinkDamaged component
 
@@ -229,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Mantenete seguro — no reutilicés l
 ## Ready component
 
 reset-password-complete-header = Tu contraseña fue restablecida
+ready-complete-set-up-instruction = Completá la configuración ingresando la nueva contraseña en tus otros dispositivos con { -brand-firefox }.
+ready-start-browsing-button = Empezar a navegar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,8 +316,8 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Los datos de navegación permanecerán en { $device }, pero no se sincronizarán más con su cuenta.
-cs-disconnect-sync-reason-2 = ¿Cuál es la razón principal para desconectar { $device }?
+cs-disconnect-sync-content-3 = Los datos de navegación permanecerán en <span>{ $device }</span>, pero no se sincronizarán más con su cuenta.
+cs-disconnect-sync-reason-3 = ¿Cuál es la principal razón para desconectar <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -810,6 +817,21 @@ cannot-create-account-requirements = Tenés que cumplir ciertos requisitos míni
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Conocer más
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Iniciaste sesión en { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Correo electrónico confirmado
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Registro confirmado
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Inicia sesión en este { -brand-firefox } para completar la configuración
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Iniciar sesión
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ¿Seguís sumando dispositivos? Iniciá sesión en { -brand-firefox } en otro dispositivo para completar la instalación
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -859,21 +881,7 @@ inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Agregá una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Habilitá la autenticación en dos pasos <enable2StepDefaultSpan>para continuar con la configuración de la cuenta</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Habilitá la autenticación en dos pasos <enable2StepCustomServiceSpan>para continuar a { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Listo
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Escaneá el código de autenticación <scanAuthCodeHeaderSpan>para continuar a { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Ingresá el código manualmente <enterCodeManuallyHeaderSpan>para continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Escaneá el código de autenticación <scanAuthHeaderSpan>para continuar con la configuración de la cuenta</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Ingresá el código manualmente <enterCodeManuallyHeaderSpan>para continuar con la configuración de la cuenta</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Ingresá esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear código QR en su lugar?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -882,6 +890,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Escaneá el código QR en t
 inline-totp-setup-on-completion-description = Una vez completado, va a generar códigos de autenticación para que los ingresés.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -896,12 +920,11 @@ pair-wait-for-supp-heading-text = Se requiere aprobación <span>desde el otro di
 pair-failure-header = Falló el emparejamiento
 pair-failure-message = Se terminó el proceso de configuración.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Dispositivo conectado
-pair-success-message =
-    .aria-label = Emparejamiento exitoso.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -920,6 +943,9 @@ pair-supp-allow-cancel-link = Cancelar
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro dispositivo</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
