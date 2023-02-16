@@ -59,9 +59,29 @@ datablock-download =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Password
+signup-confirm-password-label =
+    .label = Ulitin ang password
+signup-submit-button = Gumawa ng account
+form-reset-password-with-balloon-new-password =
+    .label = Bagong password
+form-reset-password-with-balloon-submit-button = i-Reset ang Password
+form-reset-password-with-balloon-match-error = Hindi tugma ang passwords
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } recovery key ng account
+get-data-trio-download-2 =
+    .title = i-Download
+    .aria-label = i-Download
+get-data-trio-copy-2 =
+    .title = Kopyahin
+    .aria-label = Kopyahin
+get-data-trio-print-2 =
+    .title = i-Print
+    .aria-label = i-Print
 
 ## Images - these are all aria labels used for illustrations
 
@@ -289,6 +309,9 @@ cs-sign-out-button = Mag-sign out
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -302,12 +325,31 @@ cs-sign-out-button = Mag-sign out
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
 
 ## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
 
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
@@ -321,6 +363,9 @@ cs-sign-out-button = Mag-sign out
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
