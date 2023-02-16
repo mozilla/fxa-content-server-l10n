@@ -955,25 +955,55 @@ pair-wait-for-supp-heading-text = Approval now required <span>from your other de
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Pairing not successful
+pair-failure-message = The setup process was terminated.
 
 ## Pair index page
 
+pair-sync-header = Sync { -brand-firefox } on your phone or tablet
+pair-cad-header = Connect { -brand-firefox } on another device
+pair-already-have-firefox-paragraph = Already have { -brand-firefox } on a phone or tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sync your device
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Or download
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scan to download { -brand-firefox } for mobile, or send yourself a <linkExternal>download link</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Not now
+pair-take-your-data-message = Take your tabs, bookmarks, and passwords anywhere you use { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Get started
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR code
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Device connected
+pair-success-message-2 = Pairing was successful.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirm pairing <span>for { $email }</span>
+pair-supp-allow-confirm-button = Confirm pairing
+pair-supp-allow-cancel-link = Cancel
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Approval now required <span>from your other device</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Pair using an app
+pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1026,6 +1056,8 @@ confirm-pw-reset-header = Reset email sent
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 
 ## ResetPassword page
 
@@ -1041,6 +1073,7 @@ reset-password-button = Begin reset
 reset-password-success-alert = Password reset
 reset-password-error-general = Sorry, there was a problem resetting your password
 reset-password-error-unknown-account = Unknown account
+reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
