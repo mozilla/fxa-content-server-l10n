@@ -943,6 +943,9 @@ pair-auth-allow-refuse-device-link = S’il ne s’agissait pas de vous, <link>c
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Appareil connecté
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = La synchronisation est désormais effective avec : { $deviceFamily } sur { $deviceOS }
 pair-auth-complete-sync-benefits-text = Vous pouvez désormais accéder à vos onglets ouverts, vos mots de passe et vos marque-pages sur tous vos appareils.
 pair-auth-complete-see-tabs-button = Afficher les onglets des appareils synchronisés
 pair-auth-complete-manage-devices-link = Gérer les appareils
@@ -969,14 +972,20 @@ pair-already-have-firefox-paragraph = Vous avez déjà { -brand-firefox } instal
 pair-sync-your-device-button = Synchronisez vos appareils
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = ou téléchargez Firefox
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scannez pour télécharger { -brand-firefox } pour mobile, ou envoyez-vous un <linkExternal>lien de téléchargement</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Plus tard
 pair-take-your-data-message = Emportez onglets, marque-pages et mots de passe partout où vous utilisez { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Commencer
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR code
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Appareil connecté
+pair-success-message-2 = Association réussie.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -998,6 +1007,8 @@ pair-wait-for-auth-heading-text = L’approbation est maintenant nécessaire <sp
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Associer en utilisant une application
+pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’association doit être effectuée depuis une application { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1050,6 +1061,8 @@ confirm-pw-reset-header = E-mail de réinitialisation envoyé
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Cliquez sur le lien envoyé à l’adresse { $email } d’ici moins d’une heure afin de créer un nouveau mot de passe.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-mail renvoyé. Ajoutez { $accountsEmail } à vos contacts pour assurer la bonne réception des messages.
 
 ## ResetPassword page
 
@@ -1065,6 +1078,7 @@ reset-password-button = Lancer la réinitialisation
 reset-password-success-alert = Mot de passe réinitialisé
 reset-password-error-general = Un problème est survenu lors de la réinitialisation de votre mot de passe
 reset-password-error-unknown-account = Compte inconnu
+reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
 
