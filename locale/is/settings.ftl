@@ -861,53 +861,122 @@ inline-recovery-continue-button = Halda áfram
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Staðfesta
 inline-recovery-back-link = Til baka
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Varaauðkenningarkóði
+inline-recovery-confirmation-description = Til að tryggja að þú getir endurheimt aðgang að reikningnum þínum, til dæmis ef tæki týnist eða skemmist, skaltu setja inn einn af vistuðu varaauðkenningarkóðunum þínum.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Hætta við uppsetningu
+inline-totp-setup-continue-button = Halda áfram
+inline-totp-setup-ready-button = Tilbúið
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Auðkenningarkóði
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Lagalegur fyrirvari
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Þjónustuskilmálar
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Meðferð persónuupplýsinga
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Meðferð persónuupplýsinga
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Þjónustuskilmálar
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Varstu að skrá þig inn á { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Já, samþykkja tæki
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Ef þetta varst ekki þú, <link>skaltu breyta lykilorðinu þínu</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Tæki tengt
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Þú ert núna að samstilla við: { $deviceFamily } á { $deviceOS }
+pair-auth-complete-sync-benefits-text = Nú hefur þú aðgang að opnum flipum, lykilorðum og bókamerkjum á öllum tækjunum þínum.
+pair-auth-complete-see-tabs-button = Sjá flipa frá samstilltum tækjum
+pair-auth-complete-manage-devices-link = Sýsla með tæki
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Núna er krafist er samþykktar <span>frá hinu tækinu þínu</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Pörun tókst ekki
+pair-failure-message = Uppsetningarferlinu var hætt.
 
 ## Pair index page
 
+pair-sync-header = Samstilltu { -brand-firefox } við símann eða spjaldtölvuna
+pair-cad-header = Tengdu { -brand-firefox } á öðru tæki
+pair-already-have-firefox-paragraph = Ertu nú þegar með { -brand-firefox } á síma eða spjaldtölvu?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Samstilltu tækið þitt
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = eða sæktu
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ekki núna
+pair-take-your-data-message = Taktu flipana þína, bókamerki og lykilorð með þér hvert sem þú notar { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Hefjast handa
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kóði
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Tæki tengt
+pair-success-message-2 = Pörun tókst.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Staðfestu pörun <span>fyrir { $email }</span>
+pair-supp-allow-confirm-button = Staðfestu pörun
+pair-supp-allow-cancel-link = Hætta við
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Núna er krafist er samþykktar <span>frá hinu tækinu þínu</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Para með forriti
+pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr { -brand-firefox }-forritinu.
 
 ## AccountRecoveryConfirmKey page
 
@@ -960,6 +1029,8 @@ confirm-pw-reset-header = Endurstillingarpóstur sendur
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á { $email } til að útbúa nýtt lykilorð.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
 
 ## ResetPassword page
 
@@ -975,6 +1046,7 @@ reset-password-button = Hefja endurstillingu
 reset-password-success-alert = Endurstilling lykilorðs
 reset-password-error-general = Því miður kom upp vandamál við að endurstilla lykilorðið þitt
 reset-password-error-unknown-account = Óþekktur reikningur
+reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
 
@@ -1027,6 +1099,7 @@ signin-recovery-code-heading-w-default-service = Settu inn öryggisauðkenningar
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
 signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
+signin-recovery-code-input-label = Settu inn 10-stafa varaauðkenningarkóða
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Staðfesta
 # Link to return to signin with two-step authentication code (security code)
