@@ -275,7 +275,7 @@ password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte ge
 ## Ready component
 
 reset-password-complete-header = Vaše geslo je bilo ponastavljeno
-ready-complete-set-up-instruction = Dokončajte nastavitev z vnosom novega gesla v drugih napravah { -brand-firefox }.
+ready-complete-set-up-instruction = Dokončajte namestitev z vnosom novega gesla v drugih napravah { -brand-firefox }.
 ready-start-browsing-button = Začnite z brskanjem
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -1030,7 +1030,7 @@ pair-scan-to-download-message = Skenirajte in prenesite { -brand-firefox } za mo
 pair-not-now-button = Ne zdaj
 pair-take-your-data-message = S seboj imejte zavihke, zaznamke in gesla kamorkoli uporabljate { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
-pair-get-started-button = Začnite
+pair-get-started-button = Začni
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Koda QR
 
