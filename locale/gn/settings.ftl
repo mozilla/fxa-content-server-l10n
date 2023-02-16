@@ -786,6 +786,8 @@ terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’epururã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -818,6 +820,18 @@ cannot-create-account-learn-more-link = Kuaave
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Ñanduti veve moneĩmbyre
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Tembiapo ñepyrũ moneĩmbyre
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Eñepyrũ tembiapo { -brand-firefox }-pe embohekopa hag̃ua
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Eñepyrũ tembiapo
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Embojuaju ambue mba’e’oka
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ani ko’ág̃a
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -858,12 +872,19 @@ inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Añetegua
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Mba’epytyvõrã ñemboguata
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Marandu’i ñemiguáva
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Marandu’i ñemiguáva
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Mba’epytyvõrã ñemboguata
 
 ## AuthAllow page - Part of the device pairing flow
 
