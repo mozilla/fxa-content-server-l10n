@@ -862,7 +862,21 @@ inline-totp-setup-cancel-setup-button = 取消設定
 inline-totp-setup-continue-button = 繼續
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = 透過需要多輸入一組由<authenticationAppsLink>驗證程式</authenticationAppsLink>所產生的驗證碼，加強您的帳號安全性。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = 開啟兩階段驗證<span>即可繼續前往帳號設定</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = 開啟兩階段驗證<span>即可繼續前往 { $serviceName }</span>
 inline-totp-setup-ready-button = 準備就緒
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = 掃描驗證碼<span>即可繼續前往 { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = 輸入驗證碼<span>即可繼續前往 { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = 掃描驗證碼<span>即可繼續前往帳號設定</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = 輸入驗證碼<span>即可繼續前往帳號設定</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 請在您的驗證器應用程式輸入下列私鑰。<toggleToQRButton>要改成掃描 QR Code 嗎？</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -898,6 +912,9 @@ pair-auth-allow-confirm-button = 是我，確認此裝置
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = 裝置已連線
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
