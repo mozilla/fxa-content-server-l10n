@@ -3,6 +3,72 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Lat att
+
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktisk info i innboksen din. Registrer deg for meir:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Gjer noko for å halde nettet friskt og raskt
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Ver sikrare og smartare på nettet
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Vel kva som skal synkroniserast:
+choose-what-to-sync-option-bookmarks =
+    .label = Bokmerke
+choose-what-to-sync-option-history =
+    .label = Historikk
+choose-what-to-sync-option-passwords =
+    .label = Passord
+choose-what-to-sync-option-addons =
+    .label = Tillegg
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Opne faner
+choose-what-to-sync-option-prefs =
+    .label = Innstillingar
+choose-what-to-sync-option-addresses =
+    .label = Adresser
+choose-what-to-sync-option-creditcards =
+    .label = Betalingskort
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Opne { $emailProvider }
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Nedlasta
+datablock-copy =
+    .message = Kopiert
+datablock-print =
+    .message = Skrive ut
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -30,7 +96,13 @@
 -google-play = Google Play
 -app-store = App Store
 
-## FormResetPasswordWithBalloon
+## FormPasswordWithBalloons
+
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+
+## Images - these are all aria labels used for illustrations
 
 
 ## Input Password
@@ -50,6 +122,10 @@ input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast
 
 
 ## LinkUsed component
+
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
 
 
 ## PasswordStrengthBalloon component
@@ -132,15 +208,6 @@ cs-sign-out-button = Logg ut
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Nedlasta
-datablock-copy =
-    .message = Kopiert
-datablock-print =
-    .message = Skrive ut
-
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
@@ -159,15 +226,6 @@ drop-down-menu-sign-out = Logg ut
 ## Flow Container
 
 flow-container-back = Tilbake
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-download =
-    .title = Last ned
-get-data-trio-copy =
-    .title = Kopier
-get-data-trio-print =
-    .title = Skriv ut
 
 # HeaderLockup component
 
@@ -421,16 +479,77 @@ tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-change-modal-confirm = Endre
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
 auth-error-110 = Ugyldig token
 
-## CompleteSignin component
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 
-## ConfirmSignin component
+## Connect Another Device page
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
@@ -449,6 +568,12 @@ auth-error-110 = Ugyldig token
 ## ResetPassword page
 
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
+
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
 
 ## Signin page
 
@@ -471,4 +596,20 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
 
