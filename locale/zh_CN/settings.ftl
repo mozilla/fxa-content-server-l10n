@@ -155,6 +155,9 @@ get-data-trio-download-2 =
 get-data-trio-copy-2 =
     .title = 复制
     .aria-label = 复制
+get-data-trio-print-2 =
+    .title = 打印
+    .aria-label = 打印
 
 ## Images - these are all aria labels used for illustrations
 
@@ -948,9 +951,20 @@ pair-already-have-firefox-paragraph = 手机或平板电脑上已安装 { -brand
 pair-sync-your-device-button = 同步您的设备
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = 还未安装？现在下载
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = 扫码下载移动版 { -brand-firefox }，或向自己发送<linkExternal>下载链接</linkExternal>。
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = 现在不要
+pair-take-your-data-message = 将您的 { -brand-firefox } 标签页、书签、密码随身携带。
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = 开始使用
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = 二维码
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = 设备已连接
+pair-success-message-2 = 配对成功。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -976,6 +990,8 @@ pair-wait-for-auth-heading-text =
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = 请使用应用程序配对
+pair-unsupported-message = 您用的是系统相机？配对必须通过 { -brand-firefox } 应用程序扫码完成。
 
 ## AccountRecoveryConfirmKey page
 
@@ -1028,6 +1044,8 @@ confirm-pw-reset-header = 已发送重置邮件
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 请在一小时内点击发送到 { $email } 的链接以创建新密码。
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
 
 ## ResetPassword page
 
@@ -1043,6 +1061,7 @@ reset-password-button = 开始重置
 reset-password-success-alert = 密码重置
 reset-password-error-general = 抱歉，重置密码时出现问题
 reset-password-error-unknown-account = 未知账户
+reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续前往我的账户
 
