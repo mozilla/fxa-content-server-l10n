@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Open { $emailProvider }
 confirm-with-link-resend-link-button = Not in inbox or spam folder? Resend
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Back
-confirm-signup-aria-label =
-    .aria-label = An envelope containing a link
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,25 @@ datablock-copy =
     .message = Copied
 datablock-print =
     .message = Printed
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimated)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (estimated)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimated)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (estimated)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Location unknown
 
 ## Firefox and Mozilla Brand
 ##
@@ -126,12 +143,15 @@ form-reset-password-with-balloon-match-error = Passwords do not match
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } account recovery key
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } backup authentication codes
-get-data-trio-download =
-    .title = Download
-get-data-trio-copy =
-    .title = Copy
-get-data-trio-print =
-    .title = Print
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Document that contains hidden text.
+signin-totp-code-image-label =
+    .aria-label = A device with a hidden 6-digit code.
+confirm-signup-aria-label =
+    .aria-label = An envelope containing a link
 
 ## Input Password
 
@@ -204,7 +224,6 @@ ready-account-ready = Your account is ready!
 ready-continue = Continue
 sign-in-complete-header = Sign-in confirmed
 sign-up-complete-header = Account confirmed
-pulsing-hearts-description = A pink laptop and a purple mobile device each with a pulsing heart
 primary-email-verified-header = Primary email confirmed
 
 ## Alert Bar
@@ -272,10 +291,6 @@ cs-disconnect-sync-heading = Disconnect from Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Your browsing data will remain on { $device },
-    but it will no longer sync with your account.
-cs-disconnect-sync-reason-2 = What’s the main reason for disconnecting { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -763,6 +778,9 @@ cannot-create-account-requirements = You must meet certain age requirements to c
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Learn more
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -804,8 +822,6 @@ inline-recovery-confirmation-header-default = Confirm backup authentication code
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Confirm backup authentication code <span>to continue to { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Document that contains hidden text.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -814,21 +830,7 @@ inline-totp-setup-cancel-setup-button = Cancel setup
 inline-totp-setup-continue-button = Continue
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Add a layer of security to your account by requiring authentication codes from one of <authenticationAppsLink>these authentication apps</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Enable two-step authentication <enable2StepDefaultSpan>to continue to account settings</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Enable two-step authentication <enable2StepCustomServiceSpan>to continue to { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Ready
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Scan authentication code <scanAuthCodeHeaderSpan>to continue to { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Scan authentication code <scanAuthHeaderSpan>to continue to account settings</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to account settings</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Type this secret key into your authentication app. <toggleToQRButton>Scan QR code instead?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -837,6 +839,49 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scan the QR code in your au
 inline-totp-setup-on-completion-description = Once complete, it will begin generating authentication codes for you to enter.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authentication code
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -955,8 +1000,6 @@ signin-recovery-code-heading-w-default-service = Enter backup authentication cod
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Enter backup authentication code <span>to continue to { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Document that contains hidden text.
 signin-recovery-code-instruction = Please enter a backup authentication code that was provided to you during two step authentication setup.
 signin-recovery-code-input-label = Enter 10-digit backup authentication code
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1002,8 +1045,6 @@ signin-totp-code-heading-w-default-service = Enter security code <span>to contin
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Enter security code <span>to continue to { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = A device with a hidden 6-digit code.
 signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
 signin-totp-code-input-label-v2 = Enter 6-digit code
 # Form button to confirm if the security code entered by the user is valid
