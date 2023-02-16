@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = 密碼不符合
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = 下載
-get-data-trio-copy =
+    .aria-label = 下載
+get-data-trio-copy-2 =
     .title = 複製
-get-data-trio-print =
+    .aria-label = 複製
+get-data-trio-print-2 =
     .title = 列印
+    .aria-label = 列印
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = 隱藏密碼
 input-password-show = 顯示密碼
 input-password-hide-aria = 在畫面上隱藏密碼。
 input-password-show-aria = 用明文顯示密碼在螢幕上。
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = 上一頁
 
 ## LinkDamaged component
 
@@ -229,6 +234,7 @@ password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用�
 ## Ready component
 
 reset-password-complete-header = 已重設您的密碼
+ready-start-browsing-button = 開始上網
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,8 +311,6 @@ cs-disconnect-sync-heading = 中斷與 Sync 的連結
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = 您的瀏覽資料將保留在 { $device } 上，但不再與您的帳號同步。
-cs-disconnect-sync-reason-2 = 要取消連結 { $device } 這台裝置的主要原因是什麼？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -779,6 +783,11 @@ cannot-create-account-requirements = 您需要符合年齡需求才能註冊 { -
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 了解更多
 
+## Connect Another Device page
+
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = 登入
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -828,21 +837,7 @@ inline-totp-setup-cancel-setup-button = 取消設定
 inline-totp-setup-continue-button = 繼續
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = 透過需要多輸入一組由<authenticationAppsLink>驗證程式</authenticationAppsLink>所產生的驗證碼，加強您的帳號安全性。
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = 開啟兩階段驗證<enable2StepDefaultSpan>即可繼續前往帳號設定</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = 開啟兩階段驗證<enable2StepCustomServiceSpan>即可繼續前往 { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = 準備就緒
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = 掃描驗證碼<scanAuthCodeHeaderSpan>即可繼續前往 { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = 手動輸入安全碼<enterCodeManuallyHeaderSpan>即可繼續前往 { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = 掃描驗證碼<scanAuthHeaderSpan>即可繼續前往帳號設定</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = 手動輸入安全碼<enterCodeManuallyHeaderSpan>即可繼續前往帳號設定</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 請在您的驗證器應用程式輸入下列私鑰。<toggleToQRButton>要改成掃描 QR Code 嗎？</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -851,6 +846,33 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 請在您的驗證器應用
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 驗證碼
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = 法律資訊
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = 服務條款
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = 隱私權公告
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = 隱私權保護政策隱私權公告
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = 服務條款
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = 您剛登入 { -product-firefox } 嗎？
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = 是我，確認此裝置
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -865,12 +887,11 @@ pair-wait-for-supp-heading-text = 請到另一台裝置進行確認
 pair-failure-header = 配對失敗
 pair-failure-message = 已中斷設定。
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = 裝置已連線
-pair-success-message =
-    .aria-label = 配對成功。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -889,6 +910,9 @@ pair-supp-allow-cancel-link = 取消
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
