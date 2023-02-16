@@ -149,12 +149,12 @@ form-reset-password-with-balloon-match-error = 密码不匹配
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = 下载
-get-data-trio-copy =
+    .aria-label = 下载
+get-data-trio-copy-2 =
     .title = 复制
-get-data-trio-print =
-    .title = 打印
+    .aria-label = 复制
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +175,8 @@ input-password-hide = 隐藏密码
 input-password-show = 显示密码
 input-password-hide-aria = 在屏幕上隐藏密码。
 input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = 后退
 
 ## LinkDamaged component
 
@@ -229,6 +231,8 @@ password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使�
 ## Ready component
 
 reset-password-complete-header = 您的密码已重置
+ready-complete-set-up-instruction = 在您的其他 { -brand-firefox } 设备上输入新的密码以完成设置。
+ready-start-browsing-button = 开始浏览
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,8 +309,9 @@ cs-disconnect-sync-heading = 断开同步
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = 您的浏览数据将继续留在 { $device } 上，但不会再与您的账户同步。
-cs-disconnect-sync-reason-2 = 断开 { $device } 的主要原因是什么？
+cs-disconnect-sync-content-3 =
+    您的浏览数据将继续留在 <span>{ $device }</span> 上，
+    但不会再与您的账户同步。
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -779,6 +784,9 @@ cannot-create-account-requirements = 您必须符合年龄要求才能创建 { -
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 详细了解
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -828,21 +836,7 @@ inline-totp-setup-cancel-setup-button = 取消设置
 inline-totp-setup-continue-button = 继续
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticationAppsLink>身份验证应用</authenticationAppsLink>所生成的验证码，让您的账户安全级别更上一层楼。
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = 启用两步验证以<enable2StepDefaultSpan>继续进行账户设置</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = 启用两步验证以<enable2StepCustomServiceSpan>继续使用{ $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = 好了
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = 扫描验证码以<scanAuthCodeHeaderSpan>继续使用 { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = 手动输入代码以<enterCodeManuallyHeaderSpan>继续使用 { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = 扫描验证码以<scanAuthHeaderSpan>继续进行账户设置</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = 手动输入验证码以<enterCodeManuallyHeaderSpan>继续进行账户设置</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥。<toggleToQRButton>改为扫描二维码？</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -851,6 +845,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 请使用您的身份验证
 inline-totp-setup-on-completion-description = 输入完成后，将自动生成供您输入的验证码。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 验证码
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -867,12 +877,11 @@ pair-wait-for-supp-heading-text =
 pair-failure-header = 配对不成功
 pair-failure-message = 设置过程已终止。
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = 设备已连接
-pair-success-message =
-    .aria-label = 配对成功。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -895,6 +904,9 @@ pair-supp-allow-cancel-link = 取消
 pair-wait-for-auth-heading-text =
     <span>在您的另一台设备上</span>
     批准登录
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
