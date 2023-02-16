@@ -901,22 +901,43 @@ pair-already-have-firefox-paragraph = ‏{ -brand-firefox } כבר מותקן ב
 pair-sync-your-device-button = סנכרון המכשיר שלך
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = או הורדה
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = ניתן לסרוק כדי להוריד את { -brand-firefox } לנייד, או לשלוח לעצמך <linkExternal>קישור להורדה</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = לא כעת
+pair-take-your-data-message = קחו את הלשוניות, הסימניות והססמאות לכל מקום שבו תשתמשו ב־{ -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = תחילת עבודה
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = קוד QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = המכשיר מחובר
+pair-success-message-2 = הצימוד בוצע בהצלחה.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = אישור צימוד <small>עבור { $email }</small>
+pair-supp-allow-confirm-button = אישור צימוד
+pair-supp-allow-cancel-link = ביטול
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = נדרש אישור <span>מהמכשיר האחר שלך</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = ביצוע צימוד באמצעות יישומון
+pair-unsupported-message = האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישומון של { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -969,6 +990,8 @@ confirm-pw-reset-header = הודעת דוא״ל לאיפוס נשלחה
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = נא ללחוץ על הקישור שנשלח בדוא״ל אל { $email } בשעה הקרובה כדי ליצור ססמה חדשה.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
 
 ## ResetPassword page
 
@@ -984,6 +1007,7 @@ reset-password-button = התחלת איפוס
 reset-password-success-alert = הססמא אופסה
 reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
 reset-password-error-unknown-account = חשבון לא מוכר
+reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
 
