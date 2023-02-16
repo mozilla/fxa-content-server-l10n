@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = Öppna { $emailProvider }
 confirm-with-link-resend-link-button = Inte i inkorgen eller skräppostmappen? Skicka igen
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Tillbaka
-confirm-signup-aria-label =
-    .aria-label = Ett meddelande som innehåller en länk
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -72,6 +70,31 @@ datablock-copy =
     .message = Kopierad
 datablock-print =
     .message = Utskriven
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (uppskattad)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (uppskattad)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (uppskattad)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (uppskattad)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Plats okänd
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } på { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adress: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -132,6 +155,19 @@ get-data-trio-copy =
     .title = Kopiera
 get-data-trio-print =
     .title = Skriv ut
+
+## Images - these are all aria labels used for illustrations
+
+hearts-broken-image-aria-label =
+    .aria-label = En dator och en mobiltelefon och en bild av ett brustet hjärta på varje
+hearts-verified-image-aria-label =
+    .aria-label = En dator och en mobiltelefon och en surfplatta med ett pulserande hjärta på varje
+signin-recovery-code-image-description =
+    .aria-label = Dokument som innehåller dold text.
+signin-totp-code-image-label =
+    .aria-label = En enhet med en dold 6-siffrig kod.
+confirm-signup-aria-label =
+    .aria-label = Ett meddelande som innehåller en länk
 
 ## Input Password
 
@@ -204,7 +240,6 @@ ready-account-ready = Ditt konto är klart!
 ready-continue = Fortsätt
 sign-in-complete-header = Inloggning bekräftad
 sign-up-complete-header = Kontot bekräftat
-pulsing-hearts-description = En rosa bärbar dator och en lila mobil enhet, var och en med ett bultande hjärta
 primary-email-verified-header = Primär e-postadress bekräftad
 
 ## Alert Bar
@@ -768,6 +803,7 @@ auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
+auth-error-999 = Oväntat fel
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 
@@ -820,8 +856,6 @@ inline-recovery-confirmation-header-default = Bekräfta reservautentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-inline-recovery-setup-image-description =
-    .aria-label = Dokument som innehåller dold text.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -853,6 +887,44 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skanna QR-koden i din auten
 inline-totp-setup-on-completion-description = När den är klar kommer den att börja generera autentiseringskoder som du kan ange.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskod
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Parkoppling misslyckades
+pair-failure-message = Installationsprocessen avslutades.
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header =
+    .aria-label = Enhet ansluten
+pair-success-message =
+    .aria-label = Parkoppling lyckades.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Bekräfta parkoppling <span>för { $email }</span>
+pair-supp-allow-confirm-button = Bekräfta parkoppling
+pair-supp-allow-cancel-link = Avbryt
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
 
 ## AccountRecoveryConfirmKey page
 
@@ -971,8 +1043,6 @@ signin-recovery-code-heading-w-default-service = Ange reservautentiseringskoden 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Ange reservautentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dokument som innehåller dold text.
 signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering.
 signin-recovery-code-input-label = Ange en 10-siffrig reservautentiseringskod
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1018,8 +1088,6 @@ signin-totp-code-heading-w-default-service = Ange säkerhetskoden <span>för att
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Ange säkerhetskoden <span>för att fortsätta till { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = En enhet med en dold 6-siffrig kod.
 signin-totp-code-instruction = Öppna din autentiseringsapp och ange säkerhetskoden som den tillhandahåller.
 signin-totp-code-input-label-v2 = Ange 6-siffrig kod
 # Form button to confirm if the security code entered by the user is valid
