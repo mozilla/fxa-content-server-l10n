@@ -149,12 +149,6 @@ form-reset-password-with-balloon-match-error = Le contrasignos non concorda
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clave de recuperation del conto { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Codices de authentication de salvamento de { -brand-firefox }
-get-data-trio-download =
-    .title = Discargar
-get-data-trio-copy =
-    .title = Copiar
-get-data-trio-print =
-    .title = Imprimer
 
 ## Images - these are all aria labels used for illustrations
 
@@ -307,10 +301,6 @@ cs-disconnect-sync-heading = Disconnecter se de Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Tu datos de navigation remanera sur { $device },
-    ma non se synchronisara plus con tu conto.
-cs-disconnect-sync-reason-2 = Qual es le ration principal pro disconnecter { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -807,6 +797,11 @@ cannot-create-account-requirements = Tu debe satisfacer certe requisitos de etat
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Pro saper plus
 
+## Connect Another Device page
+
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Accede a { -brand-firefox } pro Android pro completar le configuration
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -856,21 +851,7 @@ inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adde un strato de securitate a tu conto requirente le codices de authentication ab uno de <authenticationAppsLink>iste apps de authentication</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Activa le authentication a duo passos <enable2StepDefaultSpan>pro continuar a configurar le conto</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Activa le authentication a duo passos <enable2StepCustomServiceSpan>pro continuar a { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Preste
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Scande le codice de authentication <scanAuthCodeHeaderSpan>pro continuar a { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Insere le codice manualmente <enterCodeManuallyHeaderSpan>pro continuar a { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Scande le codice de authentication <scanAuthHeaderSpan>pro continuar a configurar le conto</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Insere le codice manualmente <enterCodeManuallyHeaderSpan>pro continuar a configurar le conto</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -879,6 +860,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu a
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Codices de authentication
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -893,12 +890,11 @@ pair-wait-for-supp-heading-text = Approbation necessari ora <span>ab tu altere a
 pair-failure-header = Accopulamento sin successo
 pair-failure-message = Le procedura de installation terminava.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Apparato connexe
-pair-success-message =
-    .aria-label = Accopulamento successose.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -917,6 +913,9 @@ pair-supp-allow-cancel-link = Cancellar
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere apparato</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
