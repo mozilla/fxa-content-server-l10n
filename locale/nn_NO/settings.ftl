@@ -107,6 +107,8 @@ device-info-ip-address = IP-adresse: { $ipAddress }
 -product-mozilla-hubs = Mozilla Hubs
 -product-pocket = Pocket
 -product-mdn-plus = MDN Plus
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
 
 ##
 
@@ -115,9 +117,21 @@ device-info-ip-address = IP-adresse: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Passord
+signup-confirm-password-label =
+    .label = Gjenta passord
+signup-submit-button = Opprett konto
+form-reset-password-with-balloon-new-password =
+    .label = Nytt passord
+form-reset-password-with-balloon-confirm-password =
+    .label = Gjenta passord
+form-reset-password-with-balloon-submit-button = Tilbakestill passordet
+form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 
 ## Images - these are all aria labels used for illustrations
 
@@ -372,8 +386,11 @@ recovery-key-close-button = Lat att
 recovery-key-continue-button = Fortset
 recovery-key-enter-password =
     .label = Skriv inn passord
+recovery-key-page-title-1 =
+    .title = Kontogjenopprettingsnøkkel
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
+recovery-key-success-alert-3 = Kontogjenopprettingsnøkkel oppretta
 
 ## Add secondary email page
 
@@ -459,10 +476,12 @@ row-defaults-status = Ingen
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kontogjenopprettingsnøkkel
 rk-enabled = Aktivert
 rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
+rk-key-removed-2 = Gjenopprettingsnøkkel for konto fjerna
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
 
 ## Secondary email sub-section on main Settings page
@@ -571,6 +590,17 @@ auth-error-110 = Ugyldig token
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Skriv inn kontogjenopprettingsnøkkel
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Stadfest kontogjenopprettingsnøkkel
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Ugyldig kontogjenopprettingsnøkkel
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Kontogjenopprettingsnøkkel påkravd
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsnøkkel?
 
 ## Account recovery reset password page
 
@@ -584,6 +614,7 @@ auth-error-110 = Ugyldig token
 
 ## ResetPassword page
 
+reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
 ## CompleteSignin component
