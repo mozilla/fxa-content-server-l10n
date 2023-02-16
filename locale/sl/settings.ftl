@@ -1018,17 +1018,17 @@ pair-failure-message = Postopek nastavitve je bil prekinjen.
 ## Pair index page
 
 pair-sync-header = Sinhronizirajte { -brand-firefox } na telefonu ali tablici
-pair-cad-header = Poveži { -brand-firefox } na drugi napravi
+pair-cad-header = Povežite { -brand-firefox } na drugi napravi
 pair-already-have-firefox-paragraph = Že imate { -brand-firefox } na telefonu ali tablici?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinhronizirajte svojo napravo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
-pair-or-download-subheader = Ali prenesite
+pair-or-download-subheader = ali prenesite Firefox
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = Skenirajte in prenesite { -brand-firefox } za mobilne naprave ali si pošljite <linkExternal>povezavo za prenos</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ne zdaj
-pair-take-your-data-message = S seboj imejte zavihke, zaznamke in gesla kamorkoli uporabljate { -brand-firefox }.
+pair-take-your-data-message = Vzemite zavihke, zaznamke in gesla kamorkoli greste s { -brand-firefox(sklon: "orodnik") }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Začni
 # This is the aria label on the QR code image
