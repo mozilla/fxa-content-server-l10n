@@ -314,6 +314,10 @@ cs-disconnect-sync-heading = Disconnecter se de Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Tu datos de navigation stara sur <span>{ $device }</span>,
+    ma non se synchronisara plus con tu conto.
+cs-disconnect-sync-reason-3 = Qual es le ration principal pro disconnecter <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -812,6 +816,8 @@ cannot-create-account-learn-more-link = Pro saper plus
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Es tu connexe a { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Email confirmate
 # A "success" message visible to users who verified via sign-in
@@ -889,6 +895,14 @@ inline-totp-setup-enable-two-step-authentication-default-header-2 = Activa le au
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activa le authentication a duo passos <span>pro continuar a { $serviceName }</span>
 inline-totp-setup-ready-button = Preste
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scande le codices de authentication <span>pro continuar a { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Insere codice manualmente <span>pro continuar { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scande le codices de authentication <span>pro continuar a configurar le conto</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -948,6 +962,7 @@ pair-failure-message = Le procedura de installation terminava.
 pair-sync-your-device-button = Synchronisa tu apparato
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Non ora
+pair-take-your-data-message = Porta tu schedas, marcapaginas e contrasignos ubique tu usa { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Comenciar
 # This is the aria label on the QR code image
@@ -979,6 +994,7 @@ pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere a
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Accopulamento per un application
+pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular ab intra un application de { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
