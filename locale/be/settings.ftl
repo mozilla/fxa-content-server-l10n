@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = Паролі не супадаю�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
-get-data-trio-download =
-    .title = Сцягнуць
-get-data-trio-copy =
+get-data-trio-download-2 =
+    .title = Сцягванне
+    .aria-label = Сцягванне
+get-data-trio-copy-2 =
     .title = Капіяваць
-get-data-trio-print =
+    .aria-label = Капіяваць
+get-data-trio-print-2 =
     .title = Друкаваць
+    .aria-label = Друкаваць
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = Схаваць пароль
 input-password-show = Паказаць пароль
 input-password-hide-aria = Схаваць пароль з экрана.
 input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Назад
 
 ## LinkDamaged component
 
@@ -229,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы —
 ## Ready component
 
 reset-password-complete-header = Ваш пароль быў скінуты
+ready-complete-set-up-instruction = Закончыце наладку, увёўшы новы пароль на іншых вашых прыладах { -brand-firefox }.
+ready-start-browsing-button = Пачаць агляданне
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,8 +316,10 @@ cs-disconnect-sync-heading = Адлучыцца ад Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Дадзеныя прагляду застануцца на { $device }, але не будуць сінхранізавацца з вашым уліковым запісам.
-cs-disconnect-sync-reason-2 = Якая галоўная прычына адлучэння { $device }?
+cs-disconnect-sync-content-3 =
+    Вашы звесткі пра агляданне застануцца на <span>{ $device }</span>,
+    але больш не будуць сінхранізавацца з уліковым запісам.
+cs-disconnect-sync-reason-3 = Якая галоўная прычына адлучэння <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -816,6 +825,33 @@ cannot-create-account-requirements = Вы мусіце адпавядаць пэ
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Падрабязней
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Вы ўвайшлі ў { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Электронная пошта пацверджана
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Уваход пацверджаны
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Увайдзіце ў гэты { -brand-firefox }, каб закончыць наладу
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Увайсці
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Яшчэ дадаяце прылады? Увайдзіце ў { -brand-firefox } на іншай прыладзе, каб закончыць наладу
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Увайдзіце ў { -brand-firefox } на іншай прыладзе, каб закончыць наладу
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Хочаце атрымаць свае карткі, закладкі і паролі на іншай прыладзе?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Падключыць іншую прыладу
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Не зараз
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Увайдзіце ў { -brand-firefox } для Android, каб закончыць наладу
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Увайдзіце ў { -brand-firefox } для iOS, каб закончыць наладу
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -866,20 +902,10 @@ inline-totp-setup-continue-button = Працягнуць
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Дадайце ўзровень бяспекі да свайго ўліковага запісу, патрабуючы коды аўтарызацыі з адной з <authenticationAppsLink>гэтых праграм аўтэнтыфікацыі</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Уключыце двухэтапную аўтарызацыю, <enable2StepDefaultSpan>каб перайсці да налад уліковага запісу</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Уключыце двухэтапную аўтарызацыю, <span>каб перайсці да налад уліковага запісу</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Уключыце двухэтапную аўтарызацыю, <enable2StepCustomServiceSpan>каб перайсці да { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Уключыце двухэтапную аўтарызацыю, <span>каб перайсці да { $serviceName }</span>
 inline-totp-setup-ready-button = Гатова
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Скануйце код аўтэнтыфікацыі, <scanAuthCodeHeaderSpan>каб працягнуць у { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Увядзіце код уручную, <enterCodeManuallyHeaderSpan>каб працягнуць у { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Скануйце код аўтарызацыі, <scanAuthHeaderSpan>каб перайсці да налад уліковага запісу</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Увядзіце код уручную, <enterCodeManuallyHeaderSpan>каб перайсці да налад уліковага запісу</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Увядзіце гэты сакрэтны ключ у сваю праграму аўтэнтыфікацыі. <toggleToQRButton>Сканаваць QR-код замест?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -888,6 +914,37 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Адскануйце QR-к�
 inline-totp-setup-on-completion-description = Пасля завяршэння яна пачне генераваць коды аўтарызацыі для ўвядзення.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аўтарызацыі
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Прававыя звесткі
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Умовы абслугоўвання
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Паведамленне аб прыватнасці
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Паведамленне аб прыватнасці
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Умовы абслугоўвання
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Вы толькі што ўвайшлі ў { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Так, пацвердзіць прыладу
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Прылада падключана
+pair-auth-complete-manage-devices-link = Кіраваць прыладамі
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -902,12 +959,26 @@ pair-wait-for-supp-heading-text = Цяпер патрэбна пацвярджэ
 pair-failure-header = Спарванне не ўдалося
 pair-failure-message = Працэс усталявання быў спынены.
 
+## Pair index page
+
+pair-sync-header = Сінхранізуйце { -brand-firefox } на тэлефоне або планшэце
+pair-cad-header = Падключыць { -brand-firefox } на іншай прыладзе
+pair-already-have-firefox-paragraph = Ужо маеце { -brand-firefox } на тэлефоне або планшэце?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Сінхранізуйце вашу прыладу
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = або сцягніце
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Не зараз
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Пачаць
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-код
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Прылада злучана
-pair-success-message =
-    .aria-label = Спарванне прайшло паспяхова.
+pair-success-header-2 = Прылада злучана
+pair-success-message-2 = Спарванне прайшло паспяхова.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -926,6 +997,11 @@ pair-supp-allow-cancel-link = Скасаваць
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Цяпер патрэбна пацвярджэнне <span>з іншай вашай прылады</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Спарванне з дапамогай праграмы
+pair-unsupported-message = Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -978,6 +1054,8 @@ confirm-pw-reset-header = Ліст для скіду пароля дасланы
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Прайдзіце па спасылцы, дасланай на { $email }, на працягу наступнай гадзіны, каб стварыць новы пароль.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
 
 ## ResetPassword page
 
@@ -993,6 +1071,7 @@ reset-password-button = Пачаць скід
 reset-password-success-alert = Скід пароля
 reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
 reset-password-error-unknown-account = Невядомы ўліковы запіс
+reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
 
