@@ -983,6 +983,7 @@ pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = 使用應用程式配對
+pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-firefox } 程式中的相機配對。
 
 ## AccountRecoveryConfirmKey page
 
@@ -1035,6 +1036,8 @@ confirm-pw-reset-header = 已寄出重設郵件
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 請在一小時內點擊我們發送到 { $email } 的鏈結，以設定新密碼。
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
 
 ## ResetPassword page
 
