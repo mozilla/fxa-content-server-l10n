@@ -909,12 +909,21 @@ pair-auth-allow-heading-text = 您剛登入 { -product-firefox } 嗎？
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = 是我，確認此裝置
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = 若不是您登入的，<link>請立即更改密碼</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = 裝置已連線
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = 開始與下列裝置同步：{ $deviceOS } 上的 { $deviceFamily }
+pair-auth-complete-sync-benefits-text = 您現在可以在所有裝置使用您開啟的分頁、密碼、書籤資料了。
+pair-auth-complete-see-tabs-button = 顯示來自已同步裝置的分頁
+pair-auth-complete-manage-devices-link = 管理裝置
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -931,10 +940,15 @@ pair-failure-message = 已中斷設定。
 
 ## Pair index page
 
+pair-sync-header = 與手機或平板電腦上的 { -brand-firefox } 同步
+pair-cad-header = 連結另一台裝置上的 { -brand-firefox }
+pair-already-have-firefox-paragraph = 手機或平板電腦上也有 { -brand-firefox } 嗎？
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 同步您的裝置
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = 或下載
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = 掃描即可下載 { -brand-firefox } 行動版，或者將<linkExternal>下載鏈結</linkExternal>寄給自己。
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = 現在不要
 pair-take-your-data-message = 將您的 { -brand-firefox } 分頁、書籤、網站密碼隨身帶著走。
