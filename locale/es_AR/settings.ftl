@@ -954,6 +954,7 @@ pair-auth-complete-heading = Dispositivo conectado
 pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
 pair-auth-complete-sync-benefits-text = Ahora podés acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
 pair-auth-complete-see-tabs-button = Ver pestañas de dispositivos sincronizados
+pair-auth-complete-manage-devices-link = Administrar dispositivos
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -970,9 +971,27 @@ pair-failure-message = Se terminó el proceso de configuración.
 
 ## Pair index page
 
+pair-sync-header = Sincronizar { -brand-firefox } en tu teléfono o tablet
+pair-cad-header = Conectar { -brand-firefox } en otro dispositivo
+pair-already-have-firefox-paragraph = ¿Ya tenés { -brand-firefox } en un teléfono o tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronizá tu dispositivo
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = O descargar
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Escaneá para descargar { -brand-firefox } para dispositivos móviles o enviate un <linkExternal>enlace de descarga</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = No ahora
+pair-take-your-data-message = Llevate tus pestañas, marcadores y contraseñas a cualquier lugar donde usés { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Comenzar
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Código QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dispositivo conectado
+pair-success-message-2 = Emparejamiento exitoso.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -994,6 +1013,8 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro di
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Conectar usando una aplicación
+pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejarla desde una aplicación de { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1046,6 +1067,8 @@ confirm-pw-reset-header = Se envió el correo para restablecerla
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Hacé clic en el enlace que te enviamos a { $email } dentro de la próxima hora para crear una nueva contraseña.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Correo electrónico reenviado. Añadí { $accountsEmail } a tus contactos para asegurar una recepción sin problemas.
 
 ## ResetPassword page
 
@@ -1061,6 +1084,7 @@ reset-password-button = Iniciar el restablecimiento
 reset-password-success-alert = Restablecer la contraseña
 reset-password-error-general = Disculpá, hubo un problema al restablecer tu contraseña
 reset-password-error-unknown-account = Cuenta desconocida
+reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
 
