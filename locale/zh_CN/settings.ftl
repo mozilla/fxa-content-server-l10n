@@ -312,6 +312,7 @@ cs-disconnect-sync-heading = 断开同步
 cs-disconnect-sync-content-3 =
     您的浏览数据将继续留在 <span>{ $device }</span> 上，
     但不会再与您的账户同步。
+cs-disconnect-sync-reason-3 = 请问为何要断开连接 <span>{ $device }</span>？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -786,6 +787,30 @@ cannot-create-account-learn-more-link = 详细了解
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = 您已登录 { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = 已验证电子邮件
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = 已确认登录
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = 登录此 { -brand-firefox } 以完成设置
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = 登录
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = 还想添加其他设备吗？请在新设备上登录 { -brand-firefox } 以完成配置
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = 在另一台设备上登录 { -brand-firefox } 以完成设置
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = 想在其他设备上也能获得标签页、书签和密码等数据吗？
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = 连接其他设备
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = 现在不要
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = 登录 Android 版 { -brand-firefox } 以完成设置
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = 登录 iOS 版 { -brand-firefox } 以完成设置
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -836,7 +861,21 @@ inline-totp-setup-cancel-setup-button = 取消设置
 inline-totp-setup-continue-button = 继续
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticationAppsLink>身份验证应用</authenticationAppsLink>所生成的验证码，让您的账户安全级别更上一层楼。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = 启用两步验证以<span>继续进行账户设置</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = 启用两步验证以<span>继续使用 { $serviceName }</span>
 inline-totp-setup-ready-button = 好了
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = 扫描验证码以<span>继续使用 { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = 手动输入验证码以<span>继续使用 { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = 扫描验证码以<span>继续进行账户设置</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = 手动输入验证码以<span>继续进行账户设置</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 请输入身份验证密钥。<toggleToQRButton>改为扫描二维码？</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -849,18 +888,41 @@ inline-totp-setup-security-code-placeholder = 验证码
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = 法律
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = 服务条款
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = 隐私声明
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = 隐私声明
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = 服务条款
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = 您刚刚登录了 { -product-firefox } 吗？
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = 是的，确认此设备
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = 如非本人操作，请<link>更改密码</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = 设备已连接
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = 已开始与 { $deviceOS } 上的 { $deviceFamily } 同步
+pair-auth-complete-sync-benefits-text = 现在，您可以在所有设备上访问您打开的标签页、密码和书签。
+pair-auth-complete-see-tabs-button = 显示来自已同步设备的标签页
+pair-auth-complete-manage-devices-link = 管理设备
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -879,6 +941,13 @@ pair-failure-message = 设置过程已终止。
 
 ## Pair index page
 
+pair-sync-header = 与手机或平板电脑上的 { -brand-firefox } 同步
+pair-cad-header = 连接其他设备上的 { -brand-firefox }
+pair-already-have-firefox-paragraph = 手机或平板电脑上已安装 { -brand-firefox }？
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = 同步您的设备
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = 还未安装？现在下载
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
