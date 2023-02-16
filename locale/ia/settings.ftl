@@ -903,6 +903,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Insere codice manualmente <spa
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Scande le codices de authentication <span>pro continuar a configurar le conto</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Insere codice manualmente <span>pro continuar a configurar le conto</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -931,6 +933,7 @@ legal-terms-heading = Terminos de servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Ha tu justo accedite a { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Si, approbar apparato
@@ -940,6 +943,7 @@ pair-auth-allow-confirm-button = Si, approbar apparato
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Apparato connexe
+pair-auth-complete-sync-benefits-text = Ora tu pote acceder a tu schedas aperte, contrasignos, e marcapaginas sur tote tu apparatos.
 pair-auth-complete-see-tabs-button = Vider schedas del apparatos synchronisate
 pair-auth-complete-manage-devices-link = Gerer apparatos
 
@@ -958,8 +962,13 @@ pair-failure-message = Le procedura de installation terminava.
 
 ## Pair index page
 
+pair-sync-header = Synchronisa { -brand-firefox } sur tu telephono o tabletta
+pair-cad-header = Connecter { -brand-firefox } sur un altere apparato
+pair-already-have-firefox-paragraph = Ha tu jam { -brand-firefox } sur un telephono o tabletta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronisa tu apparato
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = O discarga
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Non ora
 pair-take-your-data-message = Porta tu schedas, marcapaginas e contrasignos ubique tu usa { -brand-firefox }.
@@ -1047,6 +1056,8 @@ confirm-pw-reset-header = Message de reinitialisation inviate
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Clicca sur le ligamine inviate a { $email } intra le proxime hora pro crear un nove contrasigno.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
 ## ResetPassword page
 
