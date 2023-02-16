@@ -81,6 +81,9 @@ device-info-block-location-unknown = מיקום לא ידוע
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = ‏{ $browserName } ב־{ $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = כתובת IP:‏ { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -138,9 +141,22 @@ form-reset-password-with-balloon-match-error = הססמאות אינן תואמ�
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
+get-data-trio-download-2 =
+    .title = הורדה
+    .aria-label = הורדה
+get-data-trio-copy-2 =
+    .title = העתקה
+    .aria-label = העתקה
+get-data-trio-print-2 =
+    .title = הדפסה
+    .aria-label = הדפסה
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = מחשב וטלפון נייד עם תמונה של לב שבור על כל אחד
+hearts-verified-image-aria-label =
+    .aria-label = מחשב, טלפון נייד ומחשב לוח עם תמונה של לב פועם על כל אחד
 signin-recovery-code-image-description =
     .aria-label = מסמך המכיל טקסט מוסתר.
 signin-totp-code-image-label =
@@ -154,6 +170,8 @@ input-password-hide = הסתרת ססמה
 input-password-show = הצגת ססמה
 input-password-hide-aria = הסתרת הססמה מהמסך.
 input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = חזרה
 
 ## LinkDamaged component
 
@@ -208,6 +226,7 @@ password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל ת�
 ## Ready component
 
 reset-password-complete-header = הססמה שלך אופסה
+ready-start-browsing-button = התחלת גלישה
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -285,6 +304,8 @@ cs-disconnect-sync-heading = ניתוק מ־Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = נתוני הגלישה שלך יישארו ב־<span>{ $device }</span>, אך לא יסתנכרנו עוד עם החשבון שלך.
+cs-disconnect-sync-reason-3 = מהי הסיבה העיקרית לניתוק <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -726,6 +747,7 @@ auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
+auth-error-999 = שגיאה בלתי צפויה
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
@@ -739,6 +761,28 @@ cannot-create-account-learn-more-link = מידע נוסף
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = כתובת הדוא״ל אומתה
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = ההתחברות אומתה
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = יש להיכנס ל־{ -brand-firefox } זה כדי להשלים את ההתקנה
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = כניסה
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = עוד לא הוספת את כל המכשירים שלך? יש להיכנס ל־{ -brand-firefox } במכשיר נוסף כדי להשלים את ההתקנה
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = יש להיכנס ל־{ -brand-firefox } במכשיר נוסף כדי להשלים את ההתקנה
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = רוצה לקבל את הלשוניות, הסימניות והססמאות שלך במכשיר נוסף?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = חיבור מכשיר נוסף
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = לא כעת
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = יש להיכנס ל־{ -brand-firefox } עבור Android כדי להשלים את ההתקנה
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = יש להיכנס ל־{ -brand-firefox } עבור iOS כדי להשלים את ההתקנה
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -772,7 +816,21 @@ inline-totp-setup-cancel-setup-button = ביטול ההגדרה
 inline-totp-setup-continue-button = המשך
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אימות מאחד <authenticationAppsLink>מיישומוני האימות האלו</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך להגדרות החשבון</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך אל { $serviceName }</span>
 inline-totp-setup-ready-button = מוכן
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = נא לסרוק קוד אימות <span>כדי להמשיך אל { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = נא להכניס את הקוד באופן ידני <span>כדי להמשיך אל { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = נא לסרוק קוד אימות <span>כדי להמשיך להגדרות החשבון</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = נא לסרוק את הקוד באופן ידני <span>כדי להמשיך להגדרות החשבון</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = יש להקליד את המפתח הסודי הזה ביישומון האימות שלך. <toggleToQRButton>לסרוק במקום זאת קוד QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -785,12 +843,19 @@ inline-totp-setup-security-code-placeholder = קוד אימות
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = מידע משפטי
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = תנאי השירות
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = הצהרת פרטיות
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = הצהרת פרטיות
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = תנאי השירות
 
 ## AuthAllow page - Part of the device pairing flow
 
