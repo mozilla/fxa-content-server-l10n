@@ -149,6 +149,15 @@ form-reset-password-with-balloon-match-error = Le contrasignos non concorda
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clave de recuperation del conto { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Codices de authentication de salvamento de { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Discargar
+    .aria-label = Discargar
+get-data-trio-copy-2 =
+    .title = Copiar
+    .aria-label = Copiar
+get-data-trio-print-2 =
+    .title = Imprimer
+    .aria-label = Imprimer
 
 ## Images - these are all aria labels used for illustrations
 
@@ -169,6 +178,8 @@ input-password-hide = Celar contrasigno
 input-password-show = Monstrar contrasigno
 input-password-hide-aria = Celar le contrasigno ab le schermo.
 input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Retro
 
 ## LinkDamaged component
 
@@ -799,8 +810,22 @@ cannot-create-account-learn-more-link = Pro saper plus
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Email confirmate
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Apertura de session confirmate
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Accede a { -brand-firefox } sur un altere apparato pro completar le configuration
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vole tu haber tu schedas, marcapaginas e contrasignos sur un altere apparato?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Connecter un altere apparato
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Non ora
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
 connect-another-device-android-complete-setup-message = Accede a { -brand-firefox } pro Android pro completar le configuration
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Accede a { -brand-firefox } pro iOS pro completar le configuration
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -864,18 +889,31 @@ inline-totp-setup-security-code-placeholder = Codices de authentication
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legal
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Terminos de servicio
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Aviso de confidentialitate
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Aviso de confidentialitate
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Terminos de servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Si, approbar apparato
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Apparato connexe
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
