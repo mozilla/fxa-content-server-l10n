@@ -6,19 +6,61 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Loka
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Nytsamleg þekking mun koma í pósthólfið þitt. Skráðu þig til að fá meira:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Fáðu nýjustu fréttir um { -brand-mozilla } og { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Vertu með í að halda internetinu heilbrigðu
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Vertu öruggari og snjallari á netinu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Veldu hvað á að samstilla:
+choose-what-to-sync-option-bookmarks =
+    .label = Bókamerki
+choose-what-to-sync-option-history =
+    .label = Feril
+choose-what-to-sync-option-passwords =
+    .label = Lykilorð
+choose-what-to-sync-option-addons =
+    .label = Viðbætur
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Opna flipa
+choose-what-to-sync-option-prefs =
+    .label = Kjörstillingar
+choose-what-to-sync-option-addresses =
+    .label = Tölvupóstföng
+choose-what-to-sync-option-creditcards =
+    .label = Greiðslukort
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Opna { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Til baka
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -28,6 +70,31 @@ datablock-copy =
     .message = Afritað
 datablock-print =
     .message = Prentað
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region } { $country } (áætlað)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (áætlað)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (áætlað)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (áætlað)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Óþekkt staðsetning
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } á { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-vistfang: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -65,6 +132,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Lykilorð
+signup-confirm-password-label =
+    .label = Endurtaka lykilorð
+signup-submit-button = Búa til reikning
 form-reset-password-with-balloon-new-password =
     .label = Nýtt lykilorð
 form-reset-password-with-balloon-confirm-password =
@@ -77,12 +149,24 @@ form-reset-password-with-balloon-match-error = Lykilorð passa ekki
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Sækja
-get-data-trio-copy =
+    .aria-label = Sækja
+get-data-trio-copy-2 =
     .title = Afrita
-get-data-trio-print =
+    .aria-label = Afrita
+get-data-trio-print-2 =
     .title = Prenta
+    .aria-label = Prenta
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Skjal sem inniheldur falinn texta.
+signin-totp-code-image-label =
+    .aria-label = Tæki með falinn 6-stafa kóða.
+confirm-signup-aria-label =
+    .aria-label = Umslag sem inniheldur tengil
 
 ## Input Password
 
@@ -90,6 +174,8 @@ input-password-hide = Fela lykilorð
 input-password-show = Birta lykilorð
 input-password-hide-aria = Fela lykilorð af skjánum.
 input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Til baka
 
 ## LinkDamaged component
 
@@ -142,6 +228,7 @@ password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta 
 ## Ready component
 
 reset-password-complete-header = Lykilorðið þitt var endurstillt
+ready-start-browsing-button = Byrjaðu að vafra
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -153,7 +240,6 @@ ready-account-ready = Aðgangurinn þinn er tilbúinn!
 ready-continue = Halda áfram
 sign-in-complete-header = Innskráning staðfest
 sign-up-complete-header = Reikningur staðfestur
-pulsing-hearts-description = Bleik fartölva og fjólublátt snjalltæki, hvort um sig með hjarta sem slær
 primary-email-verified-header = Aðalpóstfang staðfest
 
 ## Alert Bar
@@ -223,10 +309,10 @@ cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Vafragögn verða áfram á { $device },
+cs-disconnect-sync-content-3 =
+    Vafragögn verða áfram á <span>{ $device }</span>,
     en munu ekki lengur verða samstillt við reikninginn þinn.
-cs-disconnect-sync-reason-2 = Hver er aðalástæðan fyrir því að aftengja { $device }?
+cs-disconnect-sync-reason-3 = Hver er aðalástæðan fyrir því að aftengja <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -686,6 +772,8 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Með því að halda áfram, samþykkir þú:
 
 ## Auth-server based errors that originate from backend service
 
@@ -705,23 +793,120 @@ auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
+auth-error-999 = Óvænt villa
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Get ekki stofnað notandareikning
+cannot-create-account-requirements = Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað { -product-firefox-account }-reikning.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Frekari upplýsingar
+
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Þú hefur skráð inn á { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Tölvupóstur staðfestur
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Innskráning staðfest
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Skráðu þig inn í þetta tilvik { -brand-firefox } til að ljúka uppsetningunni
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Skrá inn
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Enn að bæta við tækjum? Skráðu þig inn í { -brand-firefox } á öðru tæki til að ljúka uppsetningunni
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Skráðu þig inn í { -brand-firefox } á öðru tæki til að ljúka uppsetningunni
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Viltu fá flipana þína, bókamerki og lykilorð yfir í annað tæki?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Tengja annað tæki
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ekki núna
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Skráðu þig inn í { -brand-firefox } fyrir Android til að ljúka uppsetningunni
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Skráðu þig inn í { -brand-firefox } fyrir iOS til að ljúka uppsetningunni
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-firefox-accounts }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Reyna aftur
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Frekari upplýsingar
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í stillingar reikningsins</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Vistaðu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Geymdu þessa einnota kóða á öruggum stað til að geta notað þá þegar þú ert ekki með snjalltækið þitt við hendina.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Hætta við
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Halda áfram
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Staðfesta
+inline-recovery-back-link = Til baka
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
@@ -841,8 +1026,6 @@ signin-recovery-code-heading-w-default-service = Settu inn öryggisauðkenningar
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Settu inn öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Skjal sem inniheldur falinn texta.
 signin-recovery-code-instruction = Settu inn varaauðkenningarkóða sem þú fékkst við uppsetningu tveggja-þrepa auðkenningar.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Staðfesta
@@ -886,8 +1069,6 @@ signin-totp-code-heading-w-default-service = Settu inn öryggiskóða <span>til 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Sláðu inn öryggiskóða <span>til að halda áfram í { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = Tæki með falinn 6-stafa kóða.
 signin-totp-code-instruction = Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp.
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
