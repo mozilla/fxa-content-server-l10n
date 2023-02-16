@@ -1123,6 +1123,7 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 signin-token-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
+signin-token-code-input-label-v2 = Settu inn 6-stafa kóða
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Staðfesta
 signin-token-code-code-expired = Útrunninn kóði?
@@ -1143,6 +1144,7 @@ signin-totp-code-heading-w-default-service = Settu inn öryggiskóða <span>til 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Sláðu inn öryggiskóða <span>til að halda áfram í { $serviceName }</span>
 signin-totp-code-instruction = Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp.
+signin-totp-code-input-label-v2 = Settu inn 6-stafa kóða
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Staðfesta
 signin-totp-code-other-account-link = Nota annan reikning
@@ -1152,6 +1154,7 @@ signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Staðfestu reikninginn þinn
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1159,7 +1162,34 @@ signin-totp-code-recovery-code-link = Vandamál við að setja inn kóða?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
+confirm-signup-code-input-label = Settu inn 6-stafa kóða
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Staðfesta
+confirm-signup-code-code-expired = Útrunninn kóði?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Senda nýjan kóða í tölvupósti.
+confirm-signup-code-required-error = Settu inn staðfestingarkóða
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Stilltu lykilorðið þitt
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Af hverju þarf ég að búa til þennan reikning? <LinkExternal>Kynntu þér það hér</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Breyta tölvupóstfangi
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hvaða aldri ertu á?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Þú verður að setja inn aldur þinn til að geta nýskráð þig
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Hvers vegna spyrjum við?
