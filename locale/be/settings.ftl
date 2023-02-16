@@ -906,6 +906,16 @@ inline-totp-setup-enable-two-step-authentication-default-header-2 = Уключы
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Уключыце двухэтапную аўтарызацыю, <span>каб перайсці да { $serviceName }</span>
 inline-totp-setup-ready-button = Гатова
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Скануйце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Увядзіце код уручную, <span>каб перайсці да { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Скануйце код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Увядзіце код уручную, <span>каб перайсці да налад уліковага запісу</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Увядзіце гэты сакрэтны ключ у сваю праграму аўтэнтыфікацыі. <toggleToQRButton>Сканаваць QR-код замест?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -938,12 +948,20 @@ pair-auth-allow-heading-text = Вы толькі што ўвайшлі ў { -pro
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Так, пацвердзіць прыладу
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Калі гэта былі не вы, <link>змяніце пароль</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Прылада падключана
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Зараз вы сінхранізуецеся з: { $deviceFamily } на { $deviceOS }
+pair-auth-complete-sync-benefits-text = Цяпер вы можаце атрымаць доступ да адкрытых картак, пароляў і закладак на ўсіх сваіх прыладах.
+pair-auth-complete-see-tabs-button = Праглядайце карткі на сінхранізаваных прыладах
 pair-auth-complete-manage-devices-link = Кіраваць прыладамі
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -968,8 +986,11 @@ pair-already-have-firefox-paragraph = Ужо маеце { -brand-firefox } на 
 pair-sync-your-device-button = Сінхранізуйце вашу прыладу
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = або сцягніце
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Скануйце, каб сцягнуць { -brand-firefox } для мабільнага, або адпраўце сабе <linkExternal>спасылку для сцягвання</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Не зараз
+pair-take-your-data-message = Бярыце з сабой карткі, закладкі і паролі ўсюды, дзе вы карыстаецеся { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Пачаць
 # This is the aria label on the QR code image
