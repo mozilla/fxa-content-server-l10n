@@ -831,6 +831,18 @@ connect-another-device-signin-to-complete-message = Inicia sesión en este { -br
 connect-another-device-signin-link = Iniciar sesión
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-still-adding-devices-message = ¿Seguís sumando dispositivos? Iniciá sesión en { -brand-firefox } en otro dispositivo para completar la instalación
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Iniciá sesión en { -brand-firefox } en otro dispositivo para completar la configuración
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ¿Querés tener tus pestañas, marcadores y contraseñas en otro dispositivo?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Conectar otro dispositivo
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = No ahora
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Iniciá sesión en { -brand-firefox } para Android para completar la configuración
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Iniciá sesión en { -brand-firefox } para iOS para completar la configuración
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -881,7 +893,21 @@ inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Agregá una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Habilitá la autenticación de dos pasos <span>para continuar la configuración de la cuenta</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Habilitá la autenticación de dos pasos <span>para continuar a { $serviceName }</span>
 inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Escaneá el código de autenticación <span>para continuar a { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Ingresá el código manualmente <span>para continuar a { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Escaneá el código de autenticación <span>para continuar la configuración de la cuenta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ingresá el código manualmente <span>para continuar la configuración de la cuenta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Ingresá esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear código QR en su lugar?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -894,18 +920,40 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legales
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Términos del servicio
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Nota de privacidad
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Nota de privacidad
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Términos del servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ¿Recién iniciaste sesión en { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Sí, aprobar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si no fuiste vos, <link>cambiá tu contraseña</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispositivo conectado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
+pair-auth-complete-sync-benefits-text = Ahora podés acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
+pair-auth-complete-see-tabs-button = Ver pestañas de dispositivos sincronizados
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
