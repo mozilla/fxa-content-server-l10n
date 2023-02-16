@@ -234,6 +234,7 @@ password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用�
 ## Ready component
 
 reset-password-complete-header = 已重設您的密碼
+ready-complete-set-up-instruction = 請到您另一台 { -brand-firefox } 裝置中輸入新密碼完成設定。
 ready-start-browsing-button = 開始上網
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -311,6 +312,8 @@ cs-disconnect-sync-heading = 中斷與 Sync 的連結
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = 您的瀏覽資料將保留在 <span>{ $device }</span> 上，但不再與您的帳號同步。
+cs-disconnect-sync-reason-3 = 要取消連結 <span>{ $device }</span> 這台裝置的主要原因是什麼？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -785,8 +788,30 @@ cannot-create-account-learn-more-link = 了解更多
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = 您已登入 { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = 已確認電子郵件地址
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = 登入完成
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = 登入此 { -brand-firefox } 即可完成設定
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = 登入
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = 還要新增其他裝置嗎？請到其他裝置登入 { -brand-firefox } 完成設定
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = 在其他裝置登入 { -brand-firefox } 完成設定
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = 想要在其他台裝置上，也能獲得相同的分頁、書籤、網站密碼等資料嗎？
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = 連結其他裝置
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = 現在不要
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = 登入 { -brand-firefox } for Android 完成設定
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = 登入 { -brand-firefox } for iOS 完成設定
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -889,9 +914,22 @@ pair-failure-message = 已中斷設定。
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = 同步您的裝置
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = 或下載
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = 現在不要
+pair-take-your-data-message = 將您的 { -brand-firefox } 分頁、書籤、網站密碼隨身帶著走。
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = 開始使用
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR code
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = 裝置已連線
+pair-success-message-2 = 配對成功。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -913,6 +951,7 @@ pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = 使用應用程式配對
 
 ## AccountRecoveryConfirmKey page
 
@@ -980,6 +1019,7 @@ reset-password-button = 開始重設
 reset-password-success-alert = 密碼重設
 reset-password-error-general = 很抱歉，重設您的密碼時發生問題
 reset-password-error-unknown-account = 未知帳號
+reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
 
