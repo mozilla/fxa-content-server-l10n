@@ -945,9 +945,21 @@ pair-auth-allow-heading-text = Loggade du precis in på { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ja, godkänn enhet
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Om det inte var du, <link>ändra du ditt lösenord</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Enhet ansluten
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Du synkroniserar nu med: { $deviceFamily } på { $deviceOS }
+pair-auth-complete-sync-benefits-text = Nu kan du komma åt dina öppna flikar, lösenord och bokmärken på alla dina enheter.
+pair-auth-complete-see-tabs-button = Se flikar från synkroniserade enheter
+pair-auth-complete-manage-devices-link = Hantera enheter
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -964,6 +976,18 @@ pair-failure-message = Installationsprocessen avslutades.
 
 ## Pair index page
 
+pair-sync-header = Synkronisera { -brand-firefox } på din telefon eller surfplatta
+pair-cad-header = Anslut { -brand-firefox } till en annan enhet
+pair-already-have-firefox-paragraph = Har du redan { -brand-firefox } på en telefon eller surfplatta?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synkronisera din enhet
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Eller ladda ner
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skanna för att ladda ner { -brand-firefox } för mobil, eller skicka dig själv en <linkExternal>nedladdningslänk</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Inte nu
+pair-take-your-data-message = Ta med dina flikar, bokmärken och lösenord vart du än använder { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Kom igång
 # This is the aria label on the QR code image
