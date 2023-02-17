@@ -834,6 +834,22 @@ connect-another-device-email-confirmed-banner = Email confirmed
 connect-another-device-signin-confirmed-banner = Sign-in confirmed
 # A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
 connect-another-device-signin-to-complete-message = Sign in to this { -brand-firefox } to complete setup
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Sign in
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Still adding devices? Sign in to { -brand-firefox } on another device to complete setup
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Sign in to { -brand-firefox } on another device to complete setup
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Want to get your tabs, bookmarks, and passwords on another device?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Connect another device
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Not now
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Sign in to { -brand-firefox } for Android to complete setup
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Sign in to { -brand-firefox } for iOS to complete setup
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -884,7 +900,21 @@ inline-totp-setup-cancel-setup-button = Cancel setup
 inline-totp-setup-continue-button = Continue
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Add a layer of security to your account by requiring authentication codes from one of <authenticationAppsLink>these authentication apps</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Enable two-step authentication <span>to continue to account settings</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Enable two-step authentication <span>to continue to { $serviceName }</span>
 inline-totp-setup-ready-button = Ready
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scan authentication code <span>to continue to { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Enter code manually <span>to continue to { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scan authentication code <span>to continue to account settings</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Enter code manually <span>to continue to account settings</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Type this secret key into your authentication app. <toggleToQRButton>Scan QR code instead?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -897,18 +927,41 @@ inline-totp-setup-security-code-placeholder = Authentication code
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legal
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Terms of Service
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Privacy Notice
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Privacy Notice
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Terms of Service
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Did you just sign in to { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Yes, approve device
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = If this wasn’t you, <link>change your password</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Device connected
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = You are now synchronising with: { $deviceFamily } on { $deviceOS }
+pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passwords, and bookmarks on all your devices.
+pair-auth-complete-see-tabs-button = See tabs from synchronised devices
+pair-auth-complete-manage-devices-link = Manage devices
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -925,9 +978,27 @@ pair-failure-message = The setup process was terminated.
 
 ## Pair index page
 
+pair-sync-header = Synchronise { -brand-firefox } on your phone or tablet
+pair-cad-header = Connect { -brand-firefox } on another device
+pair-already-have-firefox-paragraph = Already have { -brand-firefox } on a phone or tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronise your device
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Or download
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scan to download { -brand-firefox } for mobile, or send yourself a <linkExternal>download link</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Not now
+pair-take-your-data-message = Take your tabs, bookmarks, and passwords anywhere you use { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Get started
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR code
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Device connected
+pair-success-message-2 = Pairing was successful.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -949,6 +1020,8 @@ pair-wait-for-auth-heading-text = Approval now required <span>from your other de
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Pair using an app
+pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1001,6 +1074,8 @@ confirm-pw-reset-header = Reset email sent
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 
 ## ResetPassword page
 
@@ -1016,6 +1091,7 @@ reset-password-button = Begin reset
 reset-password-success-alert = Password reset
 reset-password-error-general = Sorry, there was a problem resetting your password
 reset-password-error-unknown-account = Unknown account
+reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
 
