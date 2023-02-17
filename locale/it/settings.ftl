@@ -96,44 +96,6 @@ device-info-browser-os = { $browserName } su { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Indirizzo IP: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $capitalization ->
-       *[lowercase] account Firefox
-        [uppercase] Account Firefox
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -347,10 +309,10 @@ cs-recent-activity = Attività recente dell’account
 ## Data collection section
 
 dc-heading = Raccolta e utilizzo dati
-dc-subheader = Aiutaci a migliorare { -product-firefox-accounts }
-dc-subheader-content = Consenti a { -product-firefox-accounts } di inviare a { -brand-mozilla } dati tecnici e di interazione.
-dc-opt-out-success = Disattivazione riuscita. { -product-firefox-accounts } non invierà a { -brand-mozilla } dati tecnici o di interazione.
-dc-opt-in-success = Grazie! La condivisione di questi dati ci aiuta a migliorare { -product-firefox-accounts }.
+dc-subheader = Aiutaci a migliorare gli { -product-firefox-accounts }
+dc-subheader-content = Consenti al servizio di { -product-firefox-accounts } di inviare a { -brand-mozilla } dati tecnici e di interazione.
+dc-opt-out-success = Disattivazione riuscita. Il servizio di { -product-firefox-accounts } non invierà a { -brand-mozilla } dati tecnici o di interazione.
+dc-opt-in-success = Grazie! La condivisione di questi dati ci aiuta a migliorare gli { -product-firefox-accounts }.
 dc-opt-in-out-error-2 = Siamo spiacenti, si è verificato un problema durante la modifica delle preferenze relative alla raccolta dati
 dc-learn-more = Ulteriori informazioni
 
@@ -374,7 +336,7 @@ header-menu-open = Chiudi menu
 header-menu-closed = Menu di navigazione del sito
 header-back-to-top-link =
     .title = Torna su
-header-title = { -product-firefox-accounts }
+header-title = Account Firefox
 header-help = Aiuto
 
 ## Linked Accounts section
@@ -832,7 +794,7 @@ connect-another-device-ios-complete-setup-message = Per completare la configuraz
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = È necessario attivare archiviazione locale e cookie
-cookies-disabled-enable-prompt = Attiva i cookie e l’archiviazione locale nel browser per accedere a { -product-firefox-accounts }. In questo modo verranno attivate funzioni come la memorizzazione dell’utente tra una sessione e l’altra.
+cookies-disabled-enable-prompt = Attiva i cookie e l’archiviazione locale nel browser per accedere agli { -product-firefox-accounts }. In questo modo verranno attivate funzioni come la memorizzazione dell’utente tra una sessione e l’altra.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Riprova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
