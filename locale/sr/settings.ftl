@@ -871,6 +871,16 @@ inline-totp-setup-enable-two-step-authentication-default-header-2 = Омогућ
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Омогућите аутентификацију у два корака <span>да наставите на { $serviceName }</span>
 inline-totp-setup-ready-button = Готово
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Скенирајте приступни код <span>да наставите на { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Ручно унесите код <span>да наставите на { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Скенирајте приступни код <span>да наставите на подешавања налога</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ручно унесите код <span>да наставите на подешавања налога</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Унесите овај тајни кључ у вашу апликацију за аутентификацију. <toggleToQRButton>Скенирајте QR код?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -883,18 +893,41 @@ inline-totp-setup-security-code-placeholder = Приступни код
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Правно
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Услови коришћења
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Обавештење о приватности
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Обавештење о приватности
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Услови коришћења
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Јесте ли се управо пријавили у { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Да, одобри уређај
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Ако то нисте били ви, <link>промените лозинку</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Уређај је повезан
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Сада се синхронизујете са: { $deviceFamily } ({ $deviceOS })
+pair-auth-complete-sync-benefits-text = Сада можете да приступите отвореним картицама, лозинкама и обележивачима на свим уређајима.
+pair-auth-complete-see-tabs-button = Прикажи картице са синхронизованих уређаја
+pair-auth-complete-manage-devices-link = Управљајте уређајима
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -911,9 +944,27 @@ pair-failure-message = Процес подешавања је окончан.
 
 ## Pair index page
 
+pair-sync-header = Синхронизујте { -brand-firefox } на вашем телефону или таблету
+pair-cad-header = Повежите { -brand-firefox } на другом уређају
+pair-already-have-firefox-paragraph = Већ имате { -brand-firefox } на телефону или таблету?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Синхронизуј уређај
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Или преузми
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Скенирајте да преузмете { -brand-firefox } за мобилне или пошаљите себи <linkExternal>везу за преузимање</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Не сада
+pair-take-your-data-message = Понесите ваше картице, обележиваче и лозинке свуда где користите { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Започните
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR код
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Уређај је повезан
+pair-success-message-2 = Упаривање је успело.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -935,6 +986,8 @@ pair-wait-for-auth-heading-text = Сада је потребно одобрењ�
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Упаривање помоћу апликације
+pair-unsupported-message = Да ли сте користили системску камеру? Морате да се упарите у оквиру { -brand-firefox } апликације.
 
 ## AccountRecoveryConfirmKey page
 
@@ -987,6 +1040,8 @@ confirm-pw-reset-header = Е-пошта за ресетовање је посл�
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Кликните на везу послату на { $email } у наредних сат времена да направите нову лозинку.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
 
 ## ResetPassword page
 
@@ -1002,6 +1057,7 @@ reset-password-button = Започни ресетовање
 reset-password-success-alert = Ресетовање лозинке
 reset-password-error-general = Жао нам је, дошло је до грешке при ресетовању лозинке
 reset-password-error-unknown-account = Непознат налог
+reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
 reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
 reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
 
