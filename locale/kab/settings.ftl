@@ -3,44 +3,100 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## Banner component
+## Used to show success, error or info messages
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Imiḍanen Firefox
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Amiḍan Firefox
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Mdel
 
-##
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
 
--google-play = Google Play
--app-store = App Store
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Timussniwin i ilaqen wwḍent-d ɣer tbewwaḍt-ik n urmas. Multeɣ akken ad tissineḍ ugar:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Awi isallen ineggura ɣef { -brand-mozilla } d { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Xdem kra i tezmert yelhan n internet
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Issin ad tinigeḍ s teḥerci akked tɣellist.
+
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
+
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Fren ayen ara temtawiḍ:
+choose-what-to-sync-option-bookmarks =
+    .label = Ticraḍ n isebtar
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Yettusader
+datablock-copy =
+    .message = Yettwanɣel
+datablock-print =
+    .message = Ittwasiggez
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+
+## FormPasswordWithBalloons
+
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Tingalin n usesteb n uḥraz n { -brand-firefox }
+
+## Images - these are all aria labels used for illustrations
+
+
+## Input Password
+
+input-password-hide = Ffer awal uffir
+input-password-show = Sken awal uffir
+input-password-hide-aria = Ffer awal uffir deg ugdil.
+input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
+
+## LinkDamaged component
+
+
+## LinkExpired component
+
+
+## LinkRememberPassword component
+
+
+## LinkUsed component
+
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+
+## PasswordStrengthBalloon component
+
 
 ## Ready component
 
-ready-confirmation = Awla inek uffir yettuwennez
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
-# $serviceName (String) - the service which caused the user to reset their password
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Aqla-k tura twejdeḍ i useqdec n { $serviceName }
 ready-continue = Kemmel
 
@@ -62,10 +118,6 @@ avatar-default-avatar =
 
 bento-menu-title = Umuɣ Bento n { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
 bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
@@ -111,8 +163,6 @@ cs-disconnect-sync-heading = Ffeɣ seg Syn
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Isefka-ik n tunigin ad qqimen ɣef { $device }, acu kan ur ttemtawin ara akked umiḍan-ik.
-cs-disconnect-sync-reason-2 = D acu-tt tmentilt tagejdant n tuffɣa seg { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -144,15 +194,6 @@ cs-sign-out-button = Ffeɣ
 ##
 
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Yettusader
-datablock-copy =
-    .message = Yettwanɣel
-datablock-print =
-    .message = Ittwasiggez
-
 ## Data collection section
 
 dc-heading = Alqaḍ d useqdec n yisefka
@@ -177,18 +218,6 @@ drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg 
 
 flow-container-back = Uɣal ɣer deffir
 
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
-get-data-trio-title-firefox-backup-verification-codes = Tingalin n usesteb n uḥraz n { -brand-firefox }
-get-data-trio-download =
-    .title = Sader
-get-data-trio-copy =
-    .title = Nɣel
-get-data-trio-print =
-    .title = Siggez
-
 # HeaderLockup component
 
 header-menu-open = Mdel umuɣ
@@ -197,13 +226,6 @@ header-back-to-top-link =
     .title = Uɣal d asawen
 header-title = { -product-firefox-accounts }
 header-help = Tallalt
-
-## Input Password
-
-input-password-hide = Ffer awal uffir
-input-password-show = Sken awal uffir
-input-password-hide-aria = Ffer awal uffir deg ugdil.
-input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
 
 ## Linked Accounts section
 
@@ -315,10 +337,7 @@ delete-account-header =
     .title = Kkes amiḍan
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
-delete-account-confirm-title-2 = Teqqneḍ { -product-firefox-account }-inek•inem ɣer { -brand-mozilla } yifarisen ara k•kem-iḥerzen daɣen ara k•kem-yeǧǧen ad tesnerniḍ tiffursa-k•m deg web:
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
-delete-account-chk-box-1-v2 =
-    .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { product-pocket }{ product-pocket })
 delete-account-chk-box-2 =
     .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -346,6 +365,9 @@ display-name-update-error-2 = Yella-d wugur deg uleqqem n yisem-ik·im yettwaska
 display-name-success-alert-2 = Isem n uskan yettusnifel
 
 ##
+
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -567,6 +589,10 @@ tfa-row-change-modal-heading-1 = Senfel tangalt n usesteb n uḥraz?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Amiḍan arussin
@@ -586,3 +612,127 @@ auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
 auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+
+## Connect Another Device page
+
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## AccountRecoveryConfirmKey page
+
+
+## Account recovery reset password page
+
+
+## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
+
+
+## Confirm Reset Password Component
+
+
+## ResetPassword page
+
+
+## CompleteSignin component
+
+
+## ConfirmSignin component
+
+
+## Signin page
+
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
