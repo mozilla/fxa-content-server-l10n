@@ -141,6 +141,12 @@ get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reser
 get-data-trio-download-2 =
     .title = Hent
     .aria-label = Hent
+get-data-trio-copy-2 =
+    .title = Kopier
+    .aria-label = Kopier
+get-data-trio-print-2 =
+    .title = Udskriv
+    .aria-label = Udskriv
 
 ## Images - these are all aria labels used for illustrations
 
@@ -148,6 +154,8 @@ signin-recovery-code-image-description =
     .aria-label = Dokument, der indeholder skjult tekst.
 signin-totp-code-image-label =
     .aria-label = En enhed med en skjult 6-cifret kode.
+confirm-signup-aria-label =
+    .aria-label = En konvolut med et link
 
 ## Input Password
 
@@ -155,6 +163,8 @@ input-password-hide = Skjul adgangskode
 input-password-show = Vis adgangskode
 input-password-hide-aria = Skjul adgangskode fra skærmen.
 input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Tilbage
 
 ## LinkDamaged component
 
@@ -195,6 +205,8 @@ confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brug
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Du skal bruge denne adgangskode for at få adgang til de krypterede data, du gemmer hos os.
+password-info-balloon-reset-risk-info = En nulstilling kan medføre tab af data som fx adgangskoder og bogmærker.
 
 ## PasswordStrengthBalloon component
 
@@ -207,6 +219,8 @@ password-strength-balloon-stay-safe-tips = Beskyt dig selv — Genbrug ikke adga
 ## Ready component
 
 reset-password-complete-header = Din adgangskode er blevet nulstillet
+ready-complete-set-up-instruction = Indtast din nye adgangskode på dine andre { -brand-firefox }-enheder for at færdiggøre opsætningen.
+ready-start-browsing-button = Gå i gang med at bruge nettet
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -287,6 +301,10 @@ cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Dine browsing-data vil stadig blive gemt på <span>{ $device }</span>,
+    men vil ikke længere blive synkroniseret med din konto.
+cs-disconnect-sync-reason-3 = Hvad er hovedårsagen til, at du afbryder forbindelsen til <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -519,6 +537,9 @@ recent-activity-title = Seneste kontoaktivitet
 recent-activity-account-create = Kontoen blev oprettet
 recent-activity-account-disable = Kontoen blev deaktiveret
 recent-activity-account-enable = Kontoen blev aktiveret
+recent-activity-account-login = Kontoen påbegyndte login
+recent-activity-account-reset = Kontoen påbegyndte nulstilling af adgangskode
+recent-activity-emails-clearBounces = Kontoen ryddede mail-afvisninger
 
 # Account recovery key setup page
 
@@ -748,6 +769,10 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivspolitik</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivspolitik</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -767,70 +792,211 @@ auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
+auth-error-999 = Uventet fejl
 auth-error-1008 = Din nye adgangskode skal være anderledes
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Kan ikke oprette en konto
+cannot-create-account-requirements = Du skal opfylde visse alderskriterier for at oprette en { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Læs mere
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Du er logget ind på { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Mailadresse bekræftet
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Login er bekræftet
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Log ind på denne { -brand-firefox } for at færdiggøre opsætningen
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Log ind
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Tilføjer du flere enheder? Log ind på { -brand-firefox } på en anden enhed for at færdiggøre opsætningen
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Log ind på { -brand-firefox } på en anden enhed for at færdiggøre opsætningen
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vil du have dine faneblade, bogmærker og adgangskoder på en anden enhed?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Opret forbindelse til en ny enhed
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ikke nu
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Log ind på { -brand-firefox } til Android for at færdiggøre opsætningen
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Log ind på { -brand-firefox } til iOS for at færdiggøre opsætningen
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Lokalt lager og cookies er påkrævet
+cookies-disabled-enable-prompt = Du skal aktivere cookies og lokalt lager i din browser for at tilgå { -product-firefox-accounts }. Dette vil aktivere funktioner som fx at huske dig mellem sessioner.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Prøv igen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Læs mere
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Bekræft reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Gem reserve-godkendelseskoder <span>for at fortsætte til { $serviceName }</span>
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Annuller
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Fortsæt
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Bekræft
+inline-recovery-back-link = Tilbage
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reserve-godkendelseskode
+inline-recovery-confirmation-description = Indtast en af dine gemte reserve-godkendelseskoder for at sikre, at du kan få adgang til din konto igen, hvis du mister en enhed.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Bekræft reserve-godkendelseskode <span>for at fortsætte til kontoindstillingerne</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Annuller opsætning
+inline-totp-setup-continue-button = Fortsæt
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinsgodkendelse <span>for at fortsætte til kontoindstillingerne</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver totrinsgodkendelse <span>for at fortsætte til { $serviceName }</span>
+inline-totp-setup-ready-button = Klar
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skan godkendelseskoden <span>for at fortsætte til { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Indtast koden manuelt <span>for at fortsætte til { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skan godkendelseskoden <span>for at fortsætte til kontoindstillingerne</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Indtast koden manuelt <span>for at fortsætte til kontoindstillingerne</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Skriv denne hemmelige nøgle i din godkendelsesapp. <toggleToQRButton>Skan QR-kode i stedet?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skan QR-koden i din godkendelsesapp, og indtast den angivne godkendelseskode. <toggleToManualModeButton>Kan du ikke skanne koden?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Når processen er afsluttet, oprettes godkendelseskoder, som du kan indtaste.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Godkendelseskode
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Juridisk
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Tjenestevilkår
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Privatlivspolitik
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Privatlivspolitik
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Tjenestevilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Har du lige logget ind på { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ja, godkend enhed
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Hvis det ikke var dig, så <link>skift din adgangskode</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Enhed forbundet
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Du synkroniserer nu med: { $deviceFamily } på { $deviceOS }
+pair-auth-complete-sync-benefits-text = Nu har du adgang til dine åbne faneblade, adgangskoder og bogmærker på alle dine enheder.
+pair-auth-complete-see-tabs-button = Se faneblade fra synkroniserede enheder
+pair-auth-complete-manage-devices-link = Håndter enheder
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Godkendelse er nu påkrævet <span>fra din anden enhed</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Parring mislykkedes
+pair-failure-message = Opsætningen blev afbrudt.
 
 ## Pair index page
 
+pair-sync-header = Synkroniser { -brand-firefox } på din telefon eller tablet
+pair-cad-header = Forbind { -brand-firefox } på en anden enhed
+pair-already-have-firefox-paragraph = Har du allerede { -brand-firefox } på en telefon eller tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synkroniser din enhed
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = eller hent
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skan for at hente { -brand-firefox } til mobilen, eller send dig selv et <linkExternal>link til at hente appen</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ikke nu
+pair-take-your-data-message = Tag dine faneblade, bogmærker og adgangskoder med dig overalt, hvor du bruger { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Kom i gang
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kode
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Enhed forbundet
+pair-success-message-2 = Parring lykkedes.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Bekræft parring <span>for { $email }</span>
+pair-supp-allow-confirm-button = Bekræft parring
+pair-supp-allow-cancel-link = Annuller
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Godkendelse er nu påkrævet <span>fra din anden enhed</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Parring ved hjælp af en app
+pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp af en { -brand-firefox }-app.
 
 ## AccountRecoveryConfirmKey page
 
@@ -883,6 +1049,8 @@ confirm-pw-reset-header = Mail til nulstilling sendt
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik på linket, vi har sendt til { $email } indenfor den næste time for at oprette en ny adgangskode.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
 
 ## ResetPassword page
 
@@ -898,6 +1066,7 @@ reset-password-button = Start nulstilling
 reset-password-success-alert = Adgangskode nulstillet
 reset-password-error-general = Der opstod desværre et problem med at nulstille din adgangskode
 reset-password-error-unknown-account = Ukendt konto
+reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
 
@@ -950,6 +1119,7 @@ signin-recovery-code-heading-w-default-service = Indtast reserve-godkendelseskod
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Indtast reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
 signin-recovery-code-instruction = Indtast en reserve-godkendelseskode, som du fik under opsætningen af totrinsgodkendelse.
+signin-recovery-code-input-label = Indtast 10-cifret reserve-godkendelseskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
 # Link to return to signin with two-step authentication code (security code)
@@ -973,6 +1143,7 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 signin-token-code-heading = Indtast bekræftelseskode<span> til din { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
+signin-token-code-input-label-v2 = Indtast 6-cifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekræft
 signin-token-code-code-expired = Er koden udløbet?
@@ -993,6 +1164,7 @@ signin-totp-code-heading-w-default-service = Indtast sikkerhedskode <span>for at
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Indtast sikkerhedskode <span>for at fortsætte til { $serviceName }</span>
 signin-totp-code-instruction = Åbn din godkendelsesapp og indtast den angivne sikkerhedskode.
+signin-totp-code-input-label-v2 = Indtast 6-cifret kode
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto
@@ -1002,6 +1174,9 @@ signin-totp-code-recovery-code-link = Har du problemer med at indtaste koden?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Bekræft din konto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Tjek din mail for det bekræfteleslink, der er sendt til { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1009,7 +1184,31 @@ signin-totp-code-recovery-code-link = Har du problemer med at indtaste koden?
 
 # and a confirmation code has been sent to their email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Indtast bekræftelseskode <span>til din { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
+confirm-signup-code-input-label = Indtast 6-cifret kode
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Bekræft
+confirm-signup-code-code-expired = Er koden udløbet?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Send en ny kode.
+confirm-signup-code-required-error = Indtast bekræftelseskode
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Angiv din adgangskode
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Hvorfor skal jeg oprette denne konto? <LinkExternal>Find ud af det her</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Skift mailadresse
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Hvor gammel er du?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Du skal indtaste din alder for at tilmelde dig
