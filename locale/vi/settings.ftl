@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = Mật khẩu không khớp
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Khóa khôi phục tài khoản { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Mã xác thực dự phòng { -brand-firefox }
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Tải xuống
-get-data-trio-copy =
+    .aria-label = Tải xuống
+get-data-trio-copy-2 =
     .title = Sao chép
-get-data-trio-print =
+    .aria-label = Sao chép
+get-data-trio-print-2 =
     .title = In
+    .aria-label = In
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = Ẩn mật khẩu
 input-password-show = Hiện mật khẩu
 input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
 input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Quay lại
 
 ## LinkDamaged component
 
@@ -229,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng
 ## Ready component
 
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
+ready-complete-set-up-instruction = Hoàn tất thiết lập bằng cách nhập mật khẩu mới của bạn trên các thiết bị { -brand-firefox } khác của bạn.
+ready-start-browsing-button = Bắt đầu duyệt web
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +316,10 @@ cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Dữ liệu duyệt web của bạn sẽ vẫn còn trên { $device },
-    nhưng nó sẽ không còn đồng bộ với tài khoản của bạn nữa.
-cs-disconnect-sync-reason-2 = Lý do chính để ngắt kết nối khỏi { $device } là gì?
+cs-disconnect-sync-content-3 =
+    Dữ liệu duyệt web của bạn sẽ vẫn còn trên <span>{ $device }</span>,
+    nhưng sẽ không còn đồng bộ hóa với tài khoản của bạn.
+cs-disconnect-sync-reason-3 = Lý do chính để ngắt kết nối <span>{ $device }</span> là gì?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -815,6 +822,33 @@ cannot-create-account-requirements = Bạn phải đáp ứng các yêu cầu nh
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Tìm hiểu thêm
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Bạn đã đăng nhập vào { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Đã xác minh email
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Đã xác nhận đăng nhập
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Đăng nhập vào { -brand-firefox } này để hoàn tất thiết lập
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Đăng nhập
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Vẫn đang thêm thiết bị? Đăng nhập vào { -brand-firefox } trên một thiết bị khác để hoàn tất thiết lập
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Đăng nhập vào { -brand-firefox } trên một thiết bị khác để hoàn tất thiết lập
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Bạn muốn nhận các thẻ, dấu trang và mật khẩu của mình trên một thiết bị khác?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Kết nối thiết bị khác
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Không phải bây giờ
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Đăng nhập vào { -brand-firefox } dành cho Android để hoàn tất thiết lập
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Đăng nhập vào { -brand-firefox } dành cho iOS để hoàn tất thiết lập
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -865,20 +899,20 @@ inline-totp-setup-continue-button = Tiếp tục
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Thêm một lớp bảo mật vào tài khoản của bạn bằng cách yêu cầu mã xác thực từ một trong <authenticationAppsLink>các ứng dụng xác thực này</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Bật xác thực hai bước <enable2StepDefaultSpan>để tiếp tục đến cài đặt tài khoản</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Bật xác thực hai bước <span>để tiếp tục đến cài đặt tài khoản</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Bật xác thực hai bước <enable2StepCustomServiceSpan>để tiếp tục đến { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Bật xác thực hai bước <span>để tiếp tục đến { $serviceName }</span>
 inline-totp-setup-ready-button = Sẵn sàng
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Quét mã xác thực <scanAuthCodeHeaderSpan>để tiếp tục đến { $serviceName }</scanAuthCodeHeaderSpan>
+inline-totp-setup-show-qr-custom-service-header-2 = Quét mã xác thực <span>để tiếp tục đến { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Nhập mã theo cách thủ công <enterCodeManuallyHeaderSpan>để tiếp tục đến { $serviceName }</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-custom-service-header-2 = Nhập mã theo cách thủ công <span>để tiếp tục đến { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Quét mã xác thực <scanAuthHeaderSpan>để tiếp tục đến cài đặt tài khoản</scanAuthHeaderSpan>
+inline-totp-setup-show-qr-default-service-header-2 = Quét mã xác thực <span>để tiếp tục đến cài đặt tài khoản</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Nhập mã theo cách thủ công <enterCodeManuallyHeaderSpan>để tiếp tục đến cài đặt tài khoản</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-default-service-header-2 = Nhập mã theo cách thủ công <span>để tiếp tục đến cài đặt tài khoản</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Nhập khóa bí mật này vào ứng dụng xác thực của bạn. <toggleToQRButton>Thay vào đó, hãy quét mã QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -887,6 +921,45 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Quét mã QR trong ứng d�
 inline-totp-setup-on-completion-description = Sau khi hoàn tất, nó sẽ bắt đầu tạo mã xác thực để bạn nhập.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Mã xác thực
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Pháp lý
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Điều khoản dịch vụ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Thông báo bảo mật
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Thông báo bảo mật
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Điều khoản dịch vụ
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Bạn vừa đăng nhập vào { -product-firefox } phải không?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Có, phê duyệt thiết bị
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Nếu đây không phải là bạn, hãy <link>thay đổi mật khẩu của bạn</link>
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Đã kết nối thiết bị
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Bạn hiện đang đồng bộ hóa với: { $deviceFamily } trên { $deviceOS }
+pair-auth-complete-sync-benefits-text = Giờ đây, bạn có thể truy cập các thẻ đang mở, mật khẩu và dấu trang trên tất cả các thiết bị của mình.
+pair-auth-complete-see-tabs-button = Xem các thẻ từ các thiết bị được đồng bộ hóa
+pair-auth-complete-manage-devices-link = Quản lý thiết bị
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -901,12 +974,29 @@ pair-wait-for-supp-heading-text = Hiện yêu cầu phê duyệt <span>từ thi�
 pair-failure-header = Ghép nối không thành công
 pair-failure-message = Quá trình thiết lập đã hủy bỏ.
 
+## Pair index page
+
+pair-sync-header = Đồng bộ hóa { -brand-firefox } trên điện thoại hoặc máy tính bảng của bạn
+pair-cad-header = Kết nối { -brand-firefox } trên thiết bị khác
+pair-already-have-firefox-paragraph = Đã có { -brand-firefox } trên điện thoại hoặc máy tính bảng?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Đồng bộ hóa thiết bị của bạn
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Hoặc tải xuống
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Quét để tải xuống { -brand-firefox } cho điện thoại di động hoặc gửi cho bạn <linkExternal>liên kết tải xuống</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Không phải bây giờ
+pair-take-your-data-message = Mang các thẻ, dấu trang và mật khẩu của bạn đến bất cứ nơi nào bạn sử dụng { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Bắt đầu
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Mã QR
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Thiết bị đã kết nối
-pair-success-message =
-    .aria-label = Ghép nối thành công.
+pair-success-header-2 = Đã kết nối thiết bị
+pair-success-message-2 = Ghép nối thành công.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -925,6 +1015,11 @@ pair-supp-allow-cancel-link = Hủy bỏ
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ thiết bị khác của bạn</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Ghép nối bằng ứng dụng
+pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ bên trong ứng dụng { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -977,6 +1072,8 @@ confirm-pw-reset-header = Đã gửi email đặt lại
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Nhấp vào liên kết được gửi qua email tới { $email } trong vòng một giờ tới để tạo mật khẩu mới.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
 
 ## ResetPassword page
 
@@ -992,6 +1089,7 @@ reset-password-button = Bắt đầu đặt lại
 reset-password-success-alert = Đặt lại mật khẩu
 reset-password-error-general = Xin lỗi, đã xảy ra sự cố khi đặt lại mật khẩu của bạn
 reset-password-error-unknown-account = Tài khoản không xác định
+reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi
 
