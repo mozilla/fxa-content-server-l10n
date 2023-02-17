@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Brands used in fxa-auth-server.
+## Brands used in fxa-auth-server and fxa-settings.
 ##
-## Brands cannot be:
+## Unless otherwise indicated, brands cannot be:
 ## - Transliterated.
 ## - Translated.
 ##
@@ -29,12 +29,19 @@
         [uppercase] Account Firefox
     }
 
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-mdn-plus = MDN Plus
 # This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
+-product-pocket = Pocket
 
 # Should should be treated as a brand.
 -brand-paypal = PayPal
 # Should should be treated as a brand.
 -app-store = App Store
+-brand-google = Google
 # Should should be treated as a brand.
 -google-play = Google Play

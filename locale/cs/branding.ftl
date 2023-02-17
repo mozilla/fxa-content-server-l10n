@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Brands used in fxa-auth-server.
+## Brands used in fxa-auth-server and fxa-settings.
 ##
-## Brands cannot be:
+## Unless otherwise indicated, brands cannot be:
 ## - Transliterated.
 ## - Translated.
 ##
@@ -154,6 +154,17 @@
         [voc] App Store
         [loc] App Storu
         [ins] App Storem
+    }
+    .gender = masculine
+-brand-google =
+    { $case ->
+       *[nom] Google
+        [gen] Googlu
+        [dat] Googlu
+        [acc] Google
+        [voc] Google
+        [loc] Googlu
+        [ins] Googlem
     }
     .gender = masculine
 # Should should be treated as a brand.
