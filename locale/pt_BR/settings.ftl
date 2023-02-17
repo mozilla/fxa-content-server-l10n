@@ -862,7 +862,21 @@ inline-totp-setup-cancel-setup-button = Cancelar configuração
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adicione uma camada de segurança à sua conta, exigindo códigos de autenticação de um <authenticationAppsLink>desses aplicativos de autenticação</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative a autenticação em duas etapas <span>para continuar para as configurações da conta</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative a autenticação em duas etapas <span>para continuar para o { $serviceName }</span>
 inline-totp-setup-ready-button = Pronto
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Capture o código de autenticação <span>para continuar para o { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Digite o código manualmente <span>para continuar para o { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Capture o código de autenticação <span>para continuar para as configurações da conta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Digite o código manualmente <span>para continuar para as configurações da conta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Digite esta chave secreta em seu aplicativo de autenticação. <toggleToQRButton>Prefere capturar o código QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -875,6 +889,7 @@ inline-totp-setup-security-code-placeholder = Código de autenticação
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Jurídico
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Termos do serviço
 # Links to our internal "Firefox Cloud" /legal/terms page
@@ -890,12 +905,23 @@ legal-terms-heading = Termos do serviço
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Você acabou de entrar na sua conta no { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sim, aprovar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Se não foi você, <link>mude sua senha</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispositivo conectado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Agora você está sincronizando com: { $deviceFamily } em { $deviceOS }
+pair-auth-complete-sync-benefits-text = Agora você pode acessar suas abas abertas, senhas e favoritos em todos os seus dispositivos.
 pair-auth-complete-see-tabs-button = Veja abas de dispositivos sincronizados
 pair-auth-complete-manage-devices-link = Gerenciar dispositivos
 
@@ -914,12 +940,18 @@ pair-failure-message = O processo de configuração foi interrompido.
 
 ## Pair index page
 
+pair-sync-header = Sincronize o { -brand-firefox } em seu celular ou tablet
+pair-cad-header = Conecte o { -brand-firefox } em outro dispositivo
+pair-already-have-firefox-paragraph = Já tem o { -brand-firefox } em um celular ou tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincronize seu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Ou baixe
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Capture o código para baixar o { -brand-firefox } para dispositivos móveis ou envie para si mesmo um <linkExternal>link de download</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Agora não
+pair-take-your-data-message = Tenha suas abas, favoritos e senhas onde quer que use o { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Introdução
 # This is the aria label on the QR code image
