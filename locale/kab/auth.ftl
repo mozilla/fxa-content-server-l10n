@@ -28,6 +28,9 @@ subplat-explainer-reminder-form = Tremdeḍ-d imayl-a acku { $email } ɣur-s { -
 subplat-explainer-multiple = Teṭṭfeḍ imayl-a acku { $email } ɣur-s { -product-firefox-account } yerna tmuletɣed ɣer waṭas n yifarisen.
 subplat-explainer-was-deleted = Tremdeḍ-d imayl-a acku { $email } yettwasekles i { -product-firefox-account }.
 subplat-manage-account = Sefrek iɣewwarengik•im { -product-firefox-account } s tirza ɣer <a data-l10n-name="subplat-account-page">usebter n umiḍan-ik•im</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Sefrek { -product-firefox-account } iɣewwaṛen-ik s tirza ɣer usebter n umiḍan-ik: { $accountSettingsUrl }
 subplat-terms-policy = Tiwtilin akked tsertit n usefsex
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Sefsex ajerred
@@ -49,6 +52,15 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Sader { $produ
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sader { $productName } seg { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Sebded { $productName } deg <a data-l10n-name="anotherDeviceLink"> yibenk-nniḍen n tnarit </a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Sebded { $productName } deg <a data-l10n-name="anotherDeviceLink"> yibenk-nniḍen </a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Awi { $productName } deg Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Sader-d { $productName } seg the App Store:

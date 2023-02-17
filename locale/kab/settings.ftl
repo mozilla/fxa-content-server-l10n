@@ -24,7 +24,7 @@ choose-newsletters-option-take-action-for-the-internet =
     .label = Xdem kra i tezmert yelhan n internet
 # Newsletter checklist item
 choose-newsletters-option-knowledge-is-power =
-    .label = Issin ad tinigeḍ s teḥerci akked tɣellist.
+    .label = Issin ad tinigeḍ s teḥerci akked tɣellist
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -34,11 +34,33 @@ choose-newsletters-option-knowledge-is-power =
 choose-what-to-sync-prompt = Fren ayen ara temtawiḍ:
 choose-what-to-sync-option-bookmarks =
     .label = Ticraḍ n isebtar
+choose-what-to-sync-option-history =
+    .label = Amazray
+choose-what-to-sync-option-passwords =
+    .label = Awalen uffiren
+choose-what-to-sync-option-addons =
+    .label = Izegrar
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Ldi iccaren
+choose-what-to-sync-option-prefs =
+    .label = Ismenyifen
+choose-what-to-sync-option-addresses =
+    .label = Tansiwin
+choose-what-to-sync-option-creditcards =
+    .label = Takarḍa n usmad
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Ldin { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Mačči deg tebwaṭ n unekcum neɣ afaylu n yispamen? Ales tuzna
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Ɣer deffir
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
