@@ -51,6 +51,8 @@ choose-what-to-sync-option-creditcards =
 # { $emailProvider } could be Gmail, Outlook, etc.
 # This link will open the email provider is a new tab
 confirm-with-link-webmail-link = Åbn { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Var mailen hverken i din indbakke eller spam-mappen? Send igen
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Tilbage
 
@@ -769,10 +771,14 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Ved at fortsætte accepterer du:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivspolitik</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivspolitik</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Ved at fortsætte accepterer du <firefoxTos>tjenestevilkårene</firefoxTos> og <firefoxPrivacy>privatlivspolitikken</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -793,6 +799,7 @@ auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen ti
 auth-error-155 = TOTP-token ikke fundet
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-999 = Uventet fejl
+auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
 
 ## Cannot Create Account page
@@ -875,6 +882,8 @@ inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>fo
 
 inline-totp-setup-cancel-setup-button = Annuller opsætning
 inline-totp-setup-continue-button = Fortsæt
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Tilføj et ekstra lag af sikkerhed til din konto ved at kræve godkendelseskoder fra én af <authenticationAppsLink>disse godkendelsesapps</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinsgodkendelse <span>for at fortsætte til kontoindstillingerne</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
