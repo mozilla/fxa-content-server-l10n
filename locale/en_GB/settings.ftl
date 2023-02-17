@@ -149,12 +149,15 @@ form-reset-password-with-balloon-match-error = Passwords do not match
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } account recovery key
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } backup authentication codes
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Download
-get-data-trio-copy =
+    .aria-label = Download
+get-data-trio-copy-2 =
     .title = Copy
-get-data-trio-print =
+    .aria-label = Copy
+get-data-trio-print-2 =
     .title = Print
+    .aria-label = Print
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +178,8 @@ input-password-hide = Hide password
 input-password-show = Show password
 input-password-hide-aria = Hide password from screen.
 input-password-show-aria = Show password as plain text. Your password will be visible on screen.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Back
 
 ## LinkDamaged component
 
@@ -229,6 +234,8 @@ password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords
 ## Ready component
 
 reset-password-complete-header = Your password has been reset
+ready-complete-set-up-instruction = Complete setup by entering your new password on your other { -brand-firefox } devices.
+ready-start-browsing-button = Start browsing
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +316,10 @@ cs-disconnect-sync-heading = Disconnect from Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Your browsing data will remain on { $device },
+cs-disconnect-sync-content-3 =
+    Your browsing data will remain on <span>{ $device }</span>,
     but it will no longer synchronise with your account.
-cs-disconnect-sync-reason-2 = What’s the main reason for disconnecting { $device }?
+cs-disconnect-sync-reason-3 = What’s the main reason for disconnecting <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -817,6 +824,17 @@ cannot-create-account-requirements = You must meet certain age requirements to c
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Learn more
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = You’re signed into { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Email confirmed
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Sign-in confirmed
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Sign in to this { -brand-firefox } to complete setup
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -866,21 +884,7 @@ inline-totp-setup-cancel-setup-button = Cancel setup
 inline-totp-setup-continue-button = Continue
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Add a layer of security to your account by requiring authentication codes from one of <authenticationAppsLink>these authentication apps</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Enable two-step authentication <enable2StepDefaultSpan>to continue to account settings</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Enable two-step authentication <enable2StepCustomServiceSpan>to continue to { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Ready
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Scan authentication code <scanAuthCodeHeaderSpan>to continue to { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Scan authentication code <scanAuthHeaderSpan>to continue to account settings</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Enter code manually <enterCodeManuallyHeaderSpan>to continue to account settings</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Type this secret key into your authentication app. <toggleToQRButton>Scan QR code instead?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -889,6 +893,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scan the QR code in your au
 inline-totp-setup-on-completion-description = Once complete, it will begin generating authentication codes for you to enter.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authentication code
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -903,12 +923,11 @@ pair-wait-for-supp-heading-text = Approval now required <span>from your other de
 pair-failure-header = Pairing not successful
 pair-failure-message = The setup process was terminated.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Device connected
-pair-success-message =
-    .aria-label = Pairing was successful.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -927,6 +946,9 @@ pair-supp-allow-cancel-link = Cancel
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Approval now required <span>from your other device</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
