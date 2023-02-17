@@ -922,7 +922,7 @@ pair-success-message-2 = הצימוד בוצע בהצלחה.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = אישור צימוד <small>עבור { $email }</small>
+pair-supp-allow-heading-text = אישור צימוד<span>עבור { $email }</span>
 pair-supp-allow-confirm-button = אישור צימוד
 pair-supp-allow-cancel-link = ביטול
 
