@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -14,19 +15,49 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox accounts
-
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-account = Firefox account
-
-# "Firefox Cloud" should be treated as a brand.
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
+-product-firefox-accounts =
+    { $case ->
+        [definite-article]
+            { $capitalization ->
+                [upper] Conturile Firefox
+               *[lower] conturile Firefox
+            }
+        [genitive-or-dative]
+            { $capitalization ->
+                [upper] Conturilor Firefox
+               *[lower] conturilor Firefox
+            }
+       *[indefinite-article]
+            { $capitalization ->
+                [upper] Conturi Firefox
+               *[lower] conturi Firefox
+            }
+    }
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account =
+    { $case ->
+        [definite-article]
+            { $capitalization ->
+                [upper] Contul Firefox
+               *[lower] contul Firefox
+            }
+        [genitive-or-dative]
+            { $capitalization ->
+                [upper] Contului Firefox
+               *[lower] contului Firefox
+            }
+       *[indefinite-article]
+            { $capitalization ->
+                [upper] Cont Firefox
+               *[lower] cont Firefox
+            }
+    }
 -product-firefox-cloud = Firefox Cloud
-
 -app-store = App Store
 -brand-google = Google
 -google-play = Google Play
