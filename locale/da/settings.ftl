@@ -1212,3 +1212,6 @@ signup-age-check-label =
     .label = Hvor gammel er du?
 # Error displayed in a tooltip when the user attempts to submit the form without filling in their age
 signup-age-check-input-error = Du skal indtaste din alder for at tilmelde dig
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Hvorfor spørger vi om det?
