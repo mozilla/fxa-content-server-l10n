@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Brands used in fxa-auth-server.
+## Brands used in fxa-auth-server and fxa-settings.
 ##
-## Brands cannot be:
+## Unless otherwise indicated, brands cannot be:
 ## - Transliterated.
 ## - Translated.
 ##
@@ -32,5 +32,6 @@
 -brand-paypal = PayPal
 # Should should be treated as a brand.
 -app-store = App Store
+-brand-google = Google
 # Should should be treated as a brand.
 -google-play = Google Play
