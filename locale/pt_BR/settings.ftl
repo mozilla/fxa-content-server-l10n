@@ -983,6 +983,7 @@ pair-wait-for-auth-heading-text = Agora precisa aprovar <span>em seu outro dispo
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Parear usando um aplicativo
+pair-unsupported-message = Você usou a câmera do sistema? Você deve parear usando um aplicativo { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1035,6 +1036,8 @@ confirm-pw-reset-header = Email de redefinição enviado
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Clique no link enviado por email para { $email } em até uma hora para criar uma nova senha.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
 
 ## ResetPassword page
 
@@ -1050,6 +1053,7 @@ reset-password-button = Iniciar redefinição
 reset-password-success-alert = Redefinição de senha
 reset-password-error-general = Desculpe, houve um problema ao redefinir sua senha
 reset-password-error-unknown-account = Conta desconhecida
+reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
 
