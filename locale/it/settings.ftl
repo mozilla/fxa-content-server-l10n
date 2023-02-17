@@ -880,7 +880,7 @@ inline-totp-setup-add-security-link = Aggiungi un livello di sicurezza al tuo ac
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Attiva l’autenticazione in due passaggi <span>per continuare con le impostazioni dell’account</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = Attiva l'autenticazione in due passaggi <span>per continuare su { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Attiva l’autenticazione in due passaggi <span>per continuare su { $serviceName }</span>
 inline-totp-setup-ready-button = Pronto
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
