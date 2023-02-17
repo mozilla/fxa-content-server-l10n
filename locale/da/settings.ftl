@@ -6,19 +6,53 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Luk
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Tilmeld dig for at få nyttig viden i din indbakke:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Få seneste nyt om { -brand-mozilla } og { -brand-firefox }
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Vælg, hvad der skal synkroniseres:
+choose-what-to-sync-option-bookmarks =
+    .label = Bogmærker
+choose-what-to-sync-option-history =
+    .label = Historik
+choose-what-to-sync-option-passwords =
+    .label = Adgangskoder
+choose-what-to-sync-option-addons =
+    .label = Tilføjelser
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Åbne faneblade
+choose-what-to-sync-option-prefs =
+    .label = Indstillinger
+choose-what-to-sync-option-addresses =
+    .label = Adresser
+choose-what-to-sync-option-creditcards =
+    .label = Betalingskort
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Åbn { $emailProvider }
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Tilbage
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -28,6 +62,28 @@ datablock-copy =
     .message = Kopieret
 datablock-print =
     .message = Udskrevet
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (anslået)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (anslået)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (anslået)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (anslået)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Position ukendt
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adresse: { $ipAddress }
 
 ## Firefox and Mozilla Brand
 ##
@@ -65,6 +121,11 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Adgangskode
+signup-confirm-password-label =
+    .label = Gentag adgangskode
+signup-submit-button = Opret en konto
 form-reset-password-with-balloon-new-password =
     .label = Ny adgangskode
 form-reset-password-with-balloon-confirm-password =
@@ -77,12 +138,16 @@ form-reset-password-with-balloon-match-error = Adgangskoderne er ikke ens
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Hent
-get-data-trio-copy =
-    .title = Kopier
-get-data-trio-print =
-    .title = Udskriv
+    .aria-label = Hent
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = Dokument, der indeholder skjult tekst.
+signin-totp-code-image-label =
+    .aria-label = En enhed med en skjult 6-cifret kode.
 
 ## Input Password
 
@@ -153,7 +218,6 @@ ready-account-ready = Din konto er klar!
 ready-continue = Fortsæt
 sign-in-complete-header = Login er bekræftet
 sign-up-complete-header = Konto bekræftet
-pulsing-hearts-description = En pink bærbar computer og en lilla mobil enhed hver med et pulserende hjerte
 primary-email-verified-header = Primær mailadresse bekræftet
 
 ## Alert Bar
@@ -223,10 +287,6 @@ cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Dine browsing-data vil stadig blive gemt på { $device },
-    men vil ikke længere blive synkroniseret med din konto.
-cs-disconnect-sync-reason-2 = Hvad er hovedårsagen til, at du afbryder forbindelsen til { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -713,6 +773,9 @@ auth-error-1008 = Din nye adgangskode skal være anderledes
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -724,6 +787,49 @@ auth-error-1008 = Din nye adgangskode skal være anderledes
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
@@ -843,8 +949,6 @@ signin-recovery-code-heading-w-default-service = Indtast reserve-godkendelseskod
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Indtast reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
-signin-recovery-code-image-description =
-    .aria-label = Dokument, der indeholder skjult tekst.
 signin-recovery-code-instruction = Indtast en reserve-godkendelseskode, som du fik under opsætningen af totrinsgodkendelse.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
@@ -888,8 +992,6 @@ signin-totp-code-heading-w-default-service = Indtast sikkerhedskode <span>for at
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = Indtast sikkerhedskode <span>for at fortsætte til { $serviceName }</span>
-signin-totp-code-image-label =
-    .aria-label = En enhed med en skjult 6-cifret kode.
 signin-totp-code-instruction = Åbn din godkendelsesapp og indtast den angivne sikkerhedskode.
 # Form button to confirm if the security code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
