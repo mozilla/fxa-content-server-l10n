@@ -67,8 +67,14 @@ ios-download-plaintext = Sader-d { $productName } seg the App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Sebded { $productName } ɣef yibenk-nniḍen:
+automated-email-change-2 = Mayella ur texdimeḍ ara aya, <a data-l10n-name="passwordChangeLink"> beddel awal-ik uffir </a> tura yakan.
+automated-email-support = I wugar n yisallen, rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt </a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Mayella ur texdimeḍ ara aya, beddel awal-ik uffir tura yakan.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = I wugar n telɣut, ddu ɣer tallalt n { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Wugar n yisallen, rzu ɣer<a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
 # Variables:
