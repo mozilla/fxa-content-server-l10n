@@ -96,52 +96,6 @@ device-info-browser-os = { $browserName } в { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адрес: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts =
-    { $case ->
-       *[plural] Аккаунты Firefox
-        [plural_dative] Аккаунтам Firefox
-        [singular_nominative] Аккаунт Firefox
-        [singular_genitive] Аккаунта Firefox
-    }
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[singular_nominative] Аккаунт Firefox
-        [singular_genitive] Аккаунта Firefox
-        [singular_dative] Аккаунту Firefox
-        [singular_prepositional] Аккаунте Firefox
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Клубы Mozilla
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -161,12 +115,6 @@ form-reset-password-with-balloon-match-error = Пароли не совпада�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ восстановления аккаунта { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Резервные коды аутентификации { -brand-firefox }
-get-data-trio-download =
-    .title = Загрузить
-get-data-trio-copy =
-    .title = Скопировать
-get-data-trio-print =
-    .title = Распечатать
 
 ## Images - these are all aria labels used for illustrations
 
@@ -321,8 +269,6 @@ cs-disconnect-sync-heading = Отсоединиться от Синхрониз�
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Ваши данные веб-сёрфинга останутся на { $device }, но оно больше не будет синхронизироваться с вашим аккаунтом.
-cs-disconnect-sync-reason-2 = Какова главная причина отсоединения { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -340,13 +286,13 @@ cs-disconnect-advice-confirm = Ок, понятно
 cs-disconnect-lost-advice-heading = Утерянное или украденное устройство отсоединено
 cs-disconnect-lost-advice-content-2 =
     Поскольку ваше устройство было утеряно или украдено,
-    для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "singular_genitive") }
+    для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "genitive") }
     в настройках. Вам также следует изучить информацию производителя 
     своего устройства об удалённом стирании своих данных.
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
 cs-disconnect-suspicious-advice-content =
     Если отсоединённое устройство действительно
-    подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "singular_genitive") }
+    подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "genitive") }
     в настройках. Вам также следует сменить любые другие
     пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
@@ -367,7 +313,7 @@ dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account(case: "singular_genitive") }
+drop-down-menu-title = Меню { -product-firefox-account(case: "genitive") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -508,7 +454,7 @@ delete-account-header =
     .title = Удалить аккаунт
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
-delete-account-confirm-title-3 = Возможно, вы подключили свой { -product-firefox-account(case: "singular_nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
+delete-account-confirm-title-3 = Возможно, вы подключили свой { -product-firefox-account(case: "nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -825,6 +771,9 @@ cannot-create-account-requirements = Для создания { -product-firefox-
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Подробнее
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -874,21 +823,7 @@ inline-totp-setup-cancel-setup-button = Отменить настройку
 inline-totp-setup-continue-button = Продолжить
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Добавьте в свой аккаунт ещё один уровень защиты, включив использование кодов аутентификации от одного из <authenticationAppsLink>этих приложений для авторизации</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Включите двухэтапную аутентификацию <enable2StepDefaultSpan>для перехода к настройкам аккаунта</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Включите двухэтапную аутентификацию, <enable2StepCustomServiceSpan>чтобы перейти к { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Готово
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Отсканируйте код аутентификации <scanAuthCodeHeaderSpan>для перехода к { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Введите код вручную <enterCodeManuallyHeaderSpan>для перехода к { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Отсканируйте код аутентификации, <scanAuthHeaderSpan>для перехода к настройкам аккаунта</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Введите код вручную <enterCodeManuallyHeaderSpan>для перехода к настройкам аккаунта</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Введите этот секретный ключ в приложение для аутентификации. <toggleToQRButton>Сканировать QR-код вместо этого?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -897,6 +832,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Отсканируйте QR
 inline-totp-setup-on-completion-description = По завершении оно начнёт генерировать коды аутентификации, которые вы сможете ввести.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аутентификации
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -911,12 +862,11 @@ pair-wait-for-supp-heading-text = Теперь требуется одобрен
 pair-failure-header = Сопряжение не удалось
 pair-failure-message = Процесс настройки был прерван.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Устройство подключено
-pair-success-message =
-    .aria-label = Сопряжение прошло успешно.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -936,6 +886,9 @@ pair-supp-allow-cancel-link = Отмена
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Теперь требуется подтверждение <span>на другом устройстве</span>
 
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -945,7 +898,7 @@ account-recovery-confirm-key-heading-w-default-service = Сбросьте пар
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к { $serviceName }</span>
-account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему { -product-firefox-account(case: "singular_dative") }
+account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему { -product-firefox-account(case: "dative") }
 account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
