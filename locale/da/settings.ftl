@@ -19,6 +19,12 @@ choose-newsletters-prompt = Tilmeld dig for at få nyttig viden i din indbakke:
 # Newsletter checklist item
 choose-newsletters-option-firefox-accounts-journey =
     .label = Få seneste nyt om { -brand-mozilla } og { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Vær med til til at holde internettet sundt
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Brug nettet bedre og mere sikkert
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -83,6 +89,9 @@ device-info-block-location-city-country = { $city }, { $country } (anslået)
 device-info-block-location-country = { $country } (anslået)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Position ukendt
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } på { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresse: { $ipAddress }
@@ -152,6 +161,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = En computer og en mobiltelefon med et billede af et knust hjerte på hver
+hearts-verified-image-aria-label =
+    .aria-label = En computer, en mobiltelefon og en tablet med et pulserende hjerte på hver
 signin-recovery-code-image-description =
     .aria-label = Dokument, der indeholder skjult tekst.
 signin-totp-code-image-label =
@@ -858,6 +871,8 @@ inline-recovery-setup-header-default = Bekræft reserve-godkendelseskode <span>f
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-setup-header = Gem reserve-godkendelseskoder <span>for at fortsætte til { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Opbevar disse engangskoder et sikkert sted i tilfælde af, at du mister adgangen til din mobile enhed.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Annuller
