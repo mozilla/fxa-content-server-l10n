@@ -96,40 +96,6 @@ device-info-browser-os = { $browserName } на { $genericOSName }-у
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP адреса: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox налози
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox налог
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -149,12 +115,15 @@ form-reset-password-with-balloon-match-error = Лозинке се не поду
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } кључ за опоравак налога
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } резервни приступни кодови
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Преузми
-get-data-trio-copy =
+    .aria-label = Преузми
+get-data-trio-copy-2 =
     .title = Копирај
-get-data-trio-print =
+    .aria-label = Копирај
+get-data-trio-print-2 =
     .title = Штампај
+    .aria-label = Штампај
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +144,8 @@ input-password-hide = Сакриј лозинку
 input-password-show = Прикажи лозинку
 input-password-hide-aria = Сакриј лозинку са екрана.
 input-password-show-aria = Прикажи лозинку као обични текст. Ваша лозинка ће бити видљива на екрану.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Назад
 
 ## LinkDamaged component
 
@@ -229,6 +200,8 @@ password-strength-balloon-stay-safe-tips = Будите безбедни — н�
 ## Ready component
 
 reset-password-complete-header = Ваша лозинка је ресетована
+ready-complete-set-up-instruction = Завршите подешавање тако што ћете унети нову лозинку на вашим осталим { -brand-firefox } уређајима.
+ready-start-browsing-button = Започните прегледање
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +282,10 @@ cs-disconnect-sync-heading = Прекини везу са Sync-ом
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Ваши подаци прегледања ће остати на { $device },
+cs-disconnect-sync-content-3 =
+    Ваши подаци прегледања ће остати на <span>{ $device }</span>,
     али више неће бити синхронизовани на ваш налог.
-cs-disconnect-sync-reason-2 = Који је главни разлог прекида везе са { $device }?
+cs-disconnect-sync-reason-3 = Који је главни разлог прекида везе са <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -817,6 +790,33 @@ cannot-create-account-requirements = Морате да будете довољн
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Сазнај више
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Пријављени сте на { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Е-пошта је потврђена
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Пријава потврђена
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Пријавите се на овај { -brand-firefox } да завршите подешавање
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Пријави се
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Још додајете уређаје? Пријавите се у { -brand-firefox } на другом уређају да довршите подешавање
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Пријавите се на { -brand-firefox } на другом уређају да завршите подешавање
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Желите да имате картице, обележиваче и лозинке на другом уређају?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Повежи други уређај
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Не сада
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Пријавите се на { -brand-firefox } за Android да завршите подешавање
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Пријавите се на { -brand-firefox } за iOS да завршите подешавање
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -867,20 +867,10 @@ inline-totp-setup-continue-button = Настави
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Побољшајте безбедност вашег налога захтевањем приступних кодова од једне од <authenticationAppsLink>ових апликација за аутентификацију</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Омогућите аутентификацију у два корака <enable2StepDefaultSpan>да наставите на подешавања налога</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Омогућите аутентификацију у два корака <span>да наставите на подешавања налога</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Омогућите аутентификацију у два корака <enable2StepCustomServiceSpan>да наставите на { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Омогућите аутентификацију у два корака <span>да наставите на { $serviceName }</span>
 inline-totp-setup-ready-button = Готово
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Скенирајте приступни код <scanAuthCodeHeaderSpan>да наставите на { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Ручно унесите код <enterCodeManuallyHeaderSpan>да наставите на { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Скенирајте приступни код <scanAuthHeaderSpan>да наставите на подешавања налога</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Ручно унесите код <enterCodeManuallyHeaderSpan>да наставите на подешавања налога</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Унесите овај тајни кључ у вашу апликацију за аутентификацију. <toggleToQRButton>Скенирајте QR код?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -889,6 +879,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Скенирајте QR к�
 inline-totp-setup-on-completion-description = По завршетку, аутоматски ће почети да прави приступне кодове за ваше пријаве.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Приступни код
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -903,12 +909,11 @@ pair-wait-for-supp-heading-text = Сада је потребно одобрењ�
 pair-failure-header = Упаривање није успело
 pair-failure-message = Процес подешавања је окончан.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Уређај је повезан
-pair-success-message =
-    .aria-label = Упаривање је успело.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -927,6 +932,9 @@ pair-supp-allow-cancel-link = Откажи
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Сада је потребно одобрење <span>са вашег другог уређаја</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
