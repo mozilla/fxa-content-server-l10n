@@ -96,40 +96,6 @@ device-info-browser-os = { $browserName } - { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresi: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Hesapları
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox hesabı
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -149,15 +115,11 @@ form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
-get-data-trio-download =
-    .title = İndir
-get-data-trio-copy =
-    .title = Kopyala
-get-data-trio-print =
-    .title = Yazdır
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-verified-image-aria-label =
+    .aria-label = Her birinde kalp atışları olan bir bilgisayar, cep telefonu ve tablet
 signin-recovery-code-image-description =
     .aria-label = Gizli metin içeren belge.
 signin-totp-code-image-label =
@@ -171,6 +133,8 @@ input-password-hide = Parolayı gizle
 input-password-show = Parolayı göster
 input-password-hide-aria = Parolayı ekrandan gizle.
 input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Geri
 
 ## LinkDamaged component
 
@@ -225,6 +189,7 @@ password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları fa
 ## Ready component
 
 reset-password-complete-header = Parolanız sıfırlandı
+ready-complete-set-up-instruction = Yeni parolanızı diğer { -brand-firefox } cihazlarınıza girerek kurulumu tamamlayın.
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -305,10 +270,10 @@ cs-disconnect-sync-heading = Sync bağlantısını kes
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Gezinti verileriniz { $device } cihazında kalacak,
-    ancak artık hesabınızla senkronize olmayacak.
-cs-disconnect-sync-reason-2 = { $device } cihazının bağlantısını kesme nedeniniz nedir?
+cs-disconnect-sync-content-3 =
+    Gezinti verileriniz <span>{ $device }</span> cihazında kalacak,
+    ancak artık hesabınızla eşitlenmeyecek.
+cs-disconnect-sync-reason-3 = <span>{ $device }</span> cihazının bağlantısını kesme nedeniniz nedir?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -778,6 +743,21 @@ cannot-create-account-requirements = { -product-firefox-account } açmak için y
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Daha fazla bilgi al
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = { -brand-firefox }’a giriş yaptınız
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-posta onaylandı
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Giriş onaylandı
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Kurulumu tamamlamak için bu { -brand-firefox }’a giriş yapın
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Giriş yap
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Başka bir cihaz bağla
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -825,23 +805,39 @@ inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etm
 
 inline-totp-setup-cancel-setup-button = Kurulumu iptal et
 inline-totp-setup-continue-button = Devam et
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = <enable2StepDefaultSpan>Hesap ayarlarına devam etmek için</enable2StepDefaultSpan> iki aşamalı kimlik doğrulamayı etkinleştirin
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = <enable2StepCustomServiceSpan>{ $serviceName } hizmetine devam etmek için</enable2StepCustomServiceSpan> iki aşamalı kimlik doğrulamayı etkinleştirin
 inline-totp-setup-ready-button = Hazır
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } hizmetine devam etmek için</scanAuthCodeHeaderSpan> kimlik doğrulama kodunu tarayın
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = <enterCodeManuallyHeaderSpan>{ $serviceName } hizmetine devam etmek için</enterCodeManuallyHeaderSpan> kodu elle yazın
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = <scanAuthHeaderSpan>Hesap ayarlarına devam etmek için</scanAuthHeaderSpan> kimlik doğrulama kodunu tarayın
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Az önce { -product-firefox }’a giriş yaptınız mı?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Evet, cihazı onayla
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Giriş yapan siz değilseniz <link>parolanızı değiştirin</link>
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Cihaz bağlandı
+pair-auth-complete-sync-benefits-text = Artık açık sekmelerinize, parolalarınıza ve yer imlerinize tüm cihazlarınızdan erişebilirsiniz.
+pair-auth-complete-manage-devices-link = Cihazları yönet
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -856,12 +852,21 @@ pair-wait-for-supp-heading-text = Şimdi <span>diğer cihazınızdan</span> onay
 pair-failure-header = Eşleştirme başarısız oldu
 pair-failure-message = Kurulum işlemi sonlandırıldı.
 
+## Pair index page
+
+pair-sync-header = { -brand-firefox }’u telefonunuz veya tabletinizle eşitleyin
+pair-cad-header = Başka bir cihazdaki { -brand-firefox }’u bağlayın
+pair-already-have-firefox-paragraph = Telefonunuzda veya tabletinizde zaten { -brand-firefox } var mı?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Cihazınızı eşitleyin
+pair-take-your-data-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı { -brand-firefox }’u kullandığınız her yere götürün.
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR Kodu
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Cihaz bağlandı
-pair-success-message =
-    .aria-label = Eşleştirme başarılı.
+pair-success-header-2 = Cihaz bağlandı
+pair-success-message-2 = Eşleştirme başarılı.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -880,6 +885,10 @@ pair-supp-allow-cancel-link = Vazgeç
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Şimdi <span>diğer cihazınızdan</span> onay vermeniz gerekiyor
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Uygulama kullanarak eşleştir
 
 ## AccountRecoveryConfirmKey page
 
@@ -947,6 +956,7 @@ reset-password-button = Sıfırlamayı başlat
 reset-password-success-alert = Parola sıfırlama
 reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
 reset-password-error-unknown-account = Bilinmeyen hesap
+reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
 
