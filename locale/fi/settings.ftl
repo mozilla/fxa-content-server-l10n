@@ -147,12 +147,15 @@ form-reset-password-with-balloon-match-error = Salasanat eivät täsmää
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-varatodennuskoodit
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Lataa
-get-data-trio-copy =
+    .aria-label = Lataa
+get-data-trio-copy-2 =
     .title = Kopioi
-get-data-trio-print =
+    .aria-label = Kopioi
+get-data-trio-print-2 =
     .title = Tulosta
+    .aria-label = Tulosta
 
 ## Images - these are all aria labels used for illustrations
 
@@ -216,6 +219,7 @@ password-strength-balloon-not-common = Ei yleisesti käytetty salasana
 ## Ready component
 
 reset-password-complete-header = Salasanasi on nollattu
+ready-start-browsing-button = Aloita selaaminen
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -296,10 +300,6 @@ cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Selaustietosi säilyvät laitteella { $device },
-    mutta niitä ei enää synkronoida tilisi kanssa.
-cs-disconnect-sync-reason-2 = Mikä on pääasiallinen syy, jonka vuoksi katkaiset yhteyden laitteeseen { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -785,6 +785,7 @@ auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
+auth-error-999 = Odottamaton virhe
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
 ## Cannot Create Account page
@@ -793,6 +794,13 @@ auth-error-1008 = Uuden salasanan pitää erota vanhasta
 cannot-create-account-header = Tiliä ei voida luoda
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Lue lisää
+
+## Connect Another Device page
+
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Yhdistä toinen laite
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ei nyt
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -822,6 +830,35 @@ inline-recovery-backup-authentication-code = Varatodennuskoodi
 inline-totp-setup-continue-button = Jatka
 inline-totp-setup-ready-button = Valmis
 
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Käyttöehdot
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Tietosuojakäytäntö
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Tietosuojakäytäntö
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Käyttöehdot
+
+## AuthAllow page - Part of the device pairing flow
+
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Kyllä, hyväksy laite
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Laite yhdistetty
+pair-auth-complete-manage-devices-link = Hallinnoi laitteita
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -830,10 +867,18 @@ inline-totp-setup-ready-button = Valmis
 ## PairFailure - a view which displays on failure of the device pairing process
 
 
+## Pair index page
+
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synkronoi laitteesi
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ei nyt
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-koodi
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Laite yhdistetty
+pair-success-header-2 = Laite yhdistetty
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -844,6 +889,9 @@ pair-supp-allow-cancel-link = Peruuta
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
