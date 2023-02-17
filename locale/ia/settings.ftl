@@ -937,12 +937,18 @@ pair-auth-allow-heading-text = Ha tu justo accedite a { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Si, approbar apparato
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si non era tu, <link>cambia la contrasigno</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Apparato connexe
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Tu ora te synchronisa con: { $deviceFamily } sur { $deviceOS }
 pair-auth-complete-sync-benefits-text = Ora tu pote acceder a tu schedas aperte, contrasignos, e marcapaginas sur tote tu apparatos.
 pair-auth-complete-see-tabs-button = Vider schedas del apparatos synchronisate
 pair-auth-complete-manage-devices-link = Gerer apparatos
@@ -969,6 +975,8 @@ pair-already-have-firefox-paragraph = Ha tu jam { -brand-firefox } sur un teleph
 pair-sync-your-device-button = Synchronisa tu apparato
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = O discarga
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scande pro discargar { -brand-firefox } pro mobile, o invia te un <linkExternal>ligamine de discargamento</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Non ora
 pair-take-your-data-message = Porta tu schedas, marcapaginas e contrasignos ubique tu usa { -brand-firefox }.
