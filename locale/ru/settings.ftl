@@ -304,10 +304,10 @@ cs-recent-activity = Недавняя активность аккаунта
 ## Data collection section
 
 dc-heading = Сбор и использование данных
-dc-subheader = Помогите улучшить { -product-firefox-accounts(case: "plural") }
-dc-subheader-content = Разрешить { -product-firefox-accounts(case: "plural_dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
-dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "plural") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
-dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "plural") }.
+dc-subheader = Помогите улучшить { -product-firefox-accounts(case: "nominative") }
+dc-subheader-content = Разрешить { -product-firefox-accounts(case: "dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "nominative") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "nominative") }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
@@ -778,7 +778,7 @@ cannot-create-account-learn-more-link = Подробнее
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Требуется локальное хранилище и куки
-cookies-disabled-enable-prompt = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-firefox-accounts(case: "plural_dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
+cookies-disabled-enable-prompt = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-firefox-accounts(case: "dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Попробовать снова
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
