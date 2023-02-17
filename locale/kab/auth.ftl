@@ -166,6 +166,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
 view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+cadReminderFirst-description-2 = Yuḥwaǧ tasint kan ad yemtawi.
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title-2 = Ur tettu ara amtawi!
 cadReminderSecond-description-sync = Mtawi ticraḍ n yisebtar-inek·inem, awalen-ik·im uffiren, accaren yeldin d wugar — s kra n wanda i tseqdaceḍ { -brand-firefox }.
