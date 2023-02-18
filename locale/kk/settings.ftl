@@ -811,6 +811,10 @@ connect-another-device-get-data-on-another-device-message = Басқа құры�
 connect-another-device-cad-link = Басқа құрылғыны байланыстыру
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Қазір емес
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Баптауды аяқтау үшін Android үшін { -brand-firefox } ішіне кіріңіз
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Баптауды аяқтау үшін iOS үшін { -brand-firefox } ішіне кіріңіз
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -893,9 +897,18 @@ legal-terms-heading = Қолдану шарттары
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Иә, құрылғыны растау
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Бұл сіз болмасаңыз, <link>пароліңізді өзгертіңіз</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Құрылғы байланыстырылды
+pair-auth-complete-sync-benefits-text = Енді сіз барлық құрылғыларда өзіңіздің ашық беттер, парольдер және бетбелгілерге қол жеткізе аласыз.
+pair-auth-complete-see-tabs-button = Синхрондалған құрылғылардан беттерді қарау
+pair-auth-complete-manage-devices-link = Құрылғыларды басқару
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -912,12 +925,16 @@ pair-failure-message = Баптау әрекеті үзілген.
 
 ## Pair index page
 
+pair-sync-header = Телефонда немесе планшетте { -brand-firefox } синхрондаңыз
+pair-cad-header = Басқа құрылғыдағы { -brand-firefox } байланыстыру
+pair-already-have-firefox-paragraph = Телефонда немесе планшетте { -brand-firefox } бар ма?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Құрылғыңызды синхрондаңыз
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Немесе жүктеп алу
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Қазір емес
+pair-take-your-data-message = { -brand-firefox } қолданбасын пайдаланатын барлық жерде беттер, бетбелгілер және парольдерді алыңыз.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Бастау
 # This is the aria label on the QR code image
