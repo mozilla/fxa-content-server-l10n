@@ -61,8 +61,6 @@ confirm-with-link-webmail-link = { $emailProvider } を開く
 confirm-with-link-resend-link-button = 受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = 戻る
-confirm-signup-aria-label =
-    .aria-label = リンクを含む封筒
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -73,39 +71,15 @@ datablock-copy =
 datablock-print =
     .message = 印刷済み
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox アカウント
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox アカウント
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = 場所不明
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName } の { $browserName }
 
 ## FormPasswordWithBalloons
 
@@ -126,12 +100,24 @@ form-reset-password-with-balloon-match-error = パスワードが一致しませ
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = ダウンロード
-get-data-trio-copy =
+    .aria-label = { "" }
+get-data-trio-copy-2 =
     .title = コピー
-get-data-trio-print =
+    .aria-label = { "" }
+get-data-trio-print-2 =
     .title = 印刷
+    .aria-label = { "" }
+
+## Images - these are all aria labels used for illustrations
+
+signin-recovery-code-image-description =
+    .aria-label = 非表示のテキストを含むドキュメント。
+signin-totp-code-image-label =
+    .aria-label = 6 桁のコードが隠されている端末。
+confirm-signup-aria-label =
+    .aria-label = リンクを含む封筒
 
 ## Input Password
 
@@ -139,6 +125,8 @@ input-password-hide = パスワードを隠す
 input-password-show = パスワードを開示
 input-password-hide-aria = 画面上のパスワードを隠す
 input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = 戻る
 
 ## LinkDamaged component
 
@@ -193,6 +181,8 @@ password-strength-balloon-stay-safe-tips = 安全のため、パスワードを�
 ## Ready component
 
 reset-password-complete-header = パスワードがリセットされました
+ready-complete-set-up-instruction = 他の端末上の { -brand-firefox } でも新しいパスワードを入力して、設定を完了してください。
+ready-start-browsing-button = ブラウジングを開始
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -204,7 +194,6 @@ ready-account-ready = アカウントの準備が整いました。
 ready-continue = 続ける
 sign-in-complete-header = ログインが確認されました
 sign-up-complete-header = アカウントを確認しました
-pulsing-hearts-description = 鼓動するハートが表示されたピンク色のノートパソコンと紫色のモバイル端末
 primary-email-verified-header = 主要メールアドレスを確認しました
 
 ## Alert Bar
@@ -272,8 +261,8 @@ cs-disconnect-sync-heading = Sync から切断
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = ブラウジングデータは { $device } に残りますが、アカウントと同期されなくなります。
-cs-disconnect-sync-reason-2 = { $device } の接続を解除する主な理由は何ですか？
+cs-disconnect-sync-content-3 = ブラウジングデータは <span>{ $device }</span> に残りますが、アカウントと同期されなくなります。
+cs-disconnect-sync-reason-3 = <span>{ $device }</span> の接続を解除する主な理由は何ですか？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -740,6 +729,7 @@ auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または有効期限切れです
+auth-error-999 = 予期しないエラー
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
@@ -750,6 +740,19 @@ cannot-create-account-header = アカウントを作成できません
 cannot-create-account-requirements = { -product-firefox-account }を作成するには、規定の年齢に達している必要があります。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 詳細情報
+
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = { -brand-firefox } にログインしました
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = メールアドレスを確認しました
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = ログインが確認されました
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = この { -brand-firefox } にログインして設定を完了してください
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = ログイン
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -791,8 +794,6 @@ inline-recovery-confirmation-header-default = バックアップ認証コード�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
-inline-recovery-setup-image-description =
-    .aria-label = 非表示のテキストを含むドキュメント。
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -801,21 +802,7 @@ inline-totp-setup-cancel-setup-button = セットアップをキャンセル
 inline-totp-setup-continue-button = 続ける
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>これらの認証アプリ</authenticationAppsLink> のいずれかからの認証コードを必須とすることでアカウントのセキュリティレベルを高めます。
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = 2 段階認証を有効にして <enable2StepDefaultSpan>アカウント設定に進む</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = 2 段階認証を有効にして <enable2StepCustomServiceSpan>{ $serviceName } に進む</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = 準備完了
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = 認証コードをスキャンして <scanAuthCodeHeaderSpan>{ $serviceName } に進む</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = コードを手動で入力して <enterCodeManuallyHeaderSpan>{ $serviceName } に進む</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = 認証コードをスキャンして <scanAuthHeaderSpan>アカウント設定に進む</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = コードを手動で入力して <enterCodeManuallyHeaderSpan>アカウント設定に進む</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = この秘密鍵を認証アプリに入力してください。<toggleToQRButton>または QR コードをスキャンしてください。</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -824,6 +811,49 @@ inline-totp-setup-use-qr-or-enter-key-instructions = 認証アプリで QR コ�
 inline-totp-setup-on-completion-description = 完了すると、入力する認証コードの生成が開始されます。
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 認証コード
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -942,8 +972,6 @@ signin-recovery-code-heading-w-default-service = バックアップ認証コー�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = バックアップ認証コードを入力して <span>{ $serviceName } に進む</span>
-signin-recovery-code-image-description =
-    .aria-label = 非表示のテキストを含むドキュメント。
 signin-recovery-code-instruction = 2 段階認証のセットアップ中に用意されたバックアップ認証コードを入力してください。
 signin-recovery-code-input-label = 10 桁のバックアップ認証コードを入力してください
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -989,8 +1017,6 @@ signin-totp-code-heading-w-default-service = セキュリティコードを入�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service = セキュリティコードを入力して <span>{ $serviceName } に進む</span>
-signin-totp-code-image-label =
-    .aria-label = 6 桁のコードが隠されている端末。
 signin-totp-code-instruction = お使いの認証アプリを開いて、そこに表示されたセキュリティコードを入力してください。
 signin-totp-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the security code entered by the user is valid
