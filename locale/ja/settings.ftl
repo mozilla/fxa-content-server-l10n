@@ -867,11 +867,11 @@ legal-header = 法的通知
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = サービス利用規約
 # Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = 個人情報保護方針
+legal-privacy-link = プライバシー通知
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
-legal-privacy-heading = 個人情報保護方針
+legal-privacy-heading = プライバシー通知
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
