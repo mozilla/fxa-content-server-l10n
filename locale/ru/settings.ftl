@@ -135,6 +135,8 @@ input-password-hide = Скрыть пароль
 input-password-show = Показать пароль
 input-password-hide-aria = Скрыть пароль с экрана.
 input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Назад
 
 ## LinkDamaged component
 
@@ -292,7 +294,7 @@ cs-disconnect-lost-advice-content-2 =
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
 cs-disconnect-suspicious-advice-content =
     Если отсоединённое устройство действительно
-    подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "genitive") }
+    подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-firefox-account(case: "genitive") }
     в настройках. Вам также следует сменить любые другие
     пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
@@ -306,7 +308,7 @@ cs-recent-activity = Недавняя активность аккаунта
 dc-heading = Сбор и использование данных
 dc-subheader = Помогите улучшить { -product-firefox-accounts(case: "nominative") }
 dc-subheader-content = Разрешить { -product-firefox-accounts(case: "dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
-dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "nominative") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "nominative") } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "nominative") }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
@@ -454,7 +456,7 @@ delete-account-header =
     .title = Удалить аккаунт
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
-delete-account-confirm-title-3 = Возможно, вы подключили свой { -product-firefox-account(case: "nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
+delete-account-confirm-title-3 = Возможно, вы подключили свои { -product-firefox-account(case: "nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -898,7 +900,7 @@ account-recovery-confirm-key-heading-w-default-service = Сбросьте пар
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к { $serviceName }</span>
-account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему { -product-firefox-account(case: "dative") }
+account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своим { -product-firefox-account(case: "dative") }
 account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
