@@ -96,104 +96,6 @@ device-info-browser-os = { $browserName } на { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адреса: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Облікові записи Firefox
-                [lower] облікові записи Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Облікових записів Firefox
-                [lower] облікових записів Firefox
-            }
-        [dat]
-            { $capitalization ->
-               *[upper] Обліковим записам Firefox
-                [lower] обліковим записам Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Облікові записи Firefox
-                [lower] облікові записи Firefox
-            }
-        [abl]
-            { $capitalization ->
-               *[upper] Обліковими записами Firefox
-                [lower] обліковими записами Firefox
-            }
-        [loc]
-            { $capitalization ->
-               *[upper] Облікових записах Firefox
-                [lower] облікових записах Firefox
-            }
-    }
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Обліковий запис Firefox
-                [lower] обліковий запис Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Облікового запису Firefox
-                [lower] облікового запису Firefox
-            }
-        [dat]
-            { $capitalization ->
-               *[upper] Обліковому запису Firefox
-                [lower] обліковому запису Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Обліковий запис Firefox
-                [lower] обліковий запис Firefox
-            }
-        [abl]
-            { $capitalization ->
-               *[upper] Обліковим записом Firefox
-                [lower] обліковим записом Firefox
-            }
-        [loc]
-            { $capitalization ->
-               *[upper] Обліковому записі Firefox
-                [lower] обліковому записі Firefox
-            }
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -213,12 +115,15 @@ form-reset-password-with-balloon-match-error = Паролі відрізняют
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Завантажити
-get-data-trio-copy =
+    .aria-label = Завантажити
+get-data-trio-copy-2 =
     .title = Копіювати
-get-data-trio-print =
-    .title = Друкувати
+    .aria-label = Копіювати
+get-data-trio-print-2 =
+    .title = Друк
+    .aria-label = Друк
 
 ## Images - these are all aria labels used for illustrations
 
@@ -239,6 +144,8 @@ input-password-hide = Сховати пароль
 input-password-show = Показати пароль
 input-password-hide-aria = Сховати пароль з екрана.
 input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Назад
 
 ## LinkDamaged component
 
@@ -293,6 +200,7 @@ password-strength-balloon-stay-safe-tips = Убезпечте себе — не 
 ## Ready component
 
 reset-password-complete-header = Ваш пароль було відновлено
+ready-start-browsing-button = Почати перегляд
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -373,10 +281,6 @@ cs-disconnect-sync-heading = Від'єднатись від синхроніза
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Дані перегляду залишаться на { $device }, але більше
-    не будуть синхронізуватися з вашим обліковим записом.
-cs-disconnect-sync-reason-2 = Яка основна причина від'єднання { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -882,6 +786,19 @@ cannot-create-account-requirements = Щоб створити обліковий 
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Докладніше
 
+## Connect Another Device page
+
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Електронну адресу підтверджено
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Вхід підтверджено
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Увійти
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Під'єднати інший пристрій
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Не зараз
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -931,21 +848,7 @@ inline-totp-setup-cancel-setup-button = Скасувати налаштуван�
 inline-totp-setup-continue-button = Продовжити
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Додайте до свого облікового запису ще один рівень захисту, вимагаючи коди автентифікації з використанням <authenticationAppsLink>цих застосунків</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Увімкніть двоетапну перевірку, <enable2StepDefaultSpan>щоб перейти до налаштувань облікового запису</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Увімкніть двоетапну перевірку, <enable2StepCustomServiceSpan>щоб перейти до { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Готово
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Скануйте код автентифікації, <scanAuthCodeHeaderSpan>щоб перейти до { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Введіть код вручну, <enterCodeManuallyHeaderSpan>щоб перейти до { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Скануйте код автентифікації, <scanAuthHeaderSpan>щоб перейти до налаштувань облікового запису</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Введіть код вручну, <enterCodeManuallyHeaderSpan>щоб перейти до налаштувань облікового запису</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Введіть цей секретний ключ у своєму застосунку для автентифікації. <toggleToQRButton>Сканувати натомість QR-код?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -954,6 +857,36 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Скануйте QR-код 
 inline-totp-setup-on-completion-description = Після завершення налаштування він почне генерувати коди автентифікації для введення.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код автентифікації
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Правові положення
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Умови користування
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Положення про приватність
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Положення про приватність
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Умови користування
+
+## AuthAllow page - Part of the device pairing flow
+
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Так, схвалити пристрій
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Пристрій під'єднано
+pair-auth-complete-manage-devices-link = Керувати пристроями
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -968,12 +901,23 @@ pair-wait-for-supp-heading-text = Відтепер підтвердження з
 pair-failure-header = Не вдалося створити пару
 pair-failure-message = Процес налаштування було перервано.
 
+## Pair index page
+
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Синхронізуйте свій пристрій
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Або завантажте
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Не зараз
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Розпочати
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-код
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Пристрій під'єднано
-pair-success-message =
-    .aria-label = Створення пари пройшло успішно.
+pair-success-header-2 = Пристрій під'єднано
+pair-success-message-2 = Пару успішно створено.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -992,6 +936,10 @@ pair-supp-allow-cancel-link = Скасувати
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Відтепер підтвердження з <span>вашого іншого пристрою</span> обов'язкове
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Створення пари за допомогою програми
 
 ## AccountRecoveryConfirmKey page
 
@@ -1059,6 +1007,7 @@ reset-password-button = Почати скидання
 reset-password-success-alert = Скидання пароля
 reset-password-error-general = Перепрошуємо, але під час скидання пароля виникла проблема
 reset-password-error-unknown-account = Невідомий обліковий запис
+reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
 
