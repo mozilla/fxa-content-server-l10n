@@ -96,40 +96,6 @@ device-info-browser-os = { $genericOSName } жүйесінде { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP адресі: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox тіркелгілері
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox тіркелгісі
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -149,12 +115,15 @@ form-reset-password-with-balloon-match-error = Парольдер өзара с�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } тіркелгіні қалпына келтіру кілті
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } аутентификация кодтарының сақтық көшірмесі
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Жүктеп алу
-get-data-trio-copy =
+    .aria-label = Жүктеп алу
+get-data-trio-copy-2 =
     .title = Көшіріп алу
-get-data-trio-print =
+    .aria-label = Көшіріп алу
+get-data-trio-print-2 =
     .title = Баспаға шығару
+    .aria-label = Баспаға шығару
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +144,8 @@ input-password-hide = Парольді жасыру
 input-password-show = Парольді көрсету
 input-password-hide-aria = Парольді экраннан жасыру.
 input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Артқа
 
 ## LinkDamaged component
 
@@ -229,6 +200,8 @@ password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — �
 ## Ready component
 
 reset-password-complete-header = Пароліңіз тасталды
+ready-complete-set-up-instruction = Баптауды аяқтау үшін басқа { -brand-firefox } құрылғыларыңызда жаңа парольді енгізіңіз.
+ready-start-browsing-button = Шолуды бастау
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +282,10 @@ cs-disconnect-sync-heading = Синхрондаумен байланысты ү�
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Сіздің шолу деректеріңіз { $device } ішінде қала береді,
+cs-disconnect-sync-content-3 =
+    Сіздің шолу деректеріңіз <span>{ $device }</span> ішінде қала береді,
     бірақ, енді тіркелгіңізбен синхрондалмайтын болады.
-cs-disconnect-sync-reason-2 = { $device } құрылғысын ажыратудың негізгі себебі неде?
+cs-disconnect-sync-reason-3 = <span>{ $device }</span> құрылғысын ажыратудың негізгі себебі неде?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -816,6 +789,29 @@ cannot-create-account-requirements = { -product-firefox-account } жасау ү�
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Көбірек білу
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Сіз { -brand-firefox } ішіне кірдіңіз
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Эл. пошта расталды
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Кіру расталды
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Баптауды аяқтау үшін бұл { -brand-firefox } ішіне кіріңіз
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Кіру
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Құрылғыларды әлі қосудасыз ба? Баптауды аяқтау үшін басқа құрылғыдағы { -brand-firefox } ішіне кіріңіз
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Баптауды аяқтау үшін басқа құрылғыдағы { -brand-firefox } ішіне кіріңіз
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Басқа құрылғыда беттер, бетбелгілер және парольдеріңізді алғыңыз келе ме?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Басқа құрылғыны байланыстыру
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Қазір емес
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -865,21 +861,7 @@ inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
 inline-totp-setup-continue-button = Жалғастыру
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = <enable2StepDefaultSpan>Тіркелгі баптауларына өту үшін</enable2StepDefaultSpan> екі қадамдық аутентификацияны іске қосыңыз.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = <enable2StepCustomServiceSpan>{ $serviceName } қызметіне өту үшін</enable2StepCustomServiceSpan> екі қадамдық аутентификацияны іске қосыңыз.
 inline-totp-setup-ready-button = Дайын
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = <scanAuthCodeHeaderSpan>{ $serviceName } қызметіне жалғастыру үшін</scanAuthCodeHeaderSpan> аутентификация кодын сканерлеңіз
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = <enterCodeManuallyHeaderSpan>{ $serviceName } қызметіне жалғастыру үшін</enterCodeManuallyHeaderSpan> кодты қолмен енгізіңіз
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = <scanAuthHeaderSpan>Тіркелгі баптауларына жалғастыру үшін</scanAuthHeaderSpan> аутентификация кодын сканерлеңіз
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = <enterCodeManuallyHeaderSpan>Тіркелгі баптауларына жалғастыру үшін</enterCodeManuallyHeaderSpan> кодты қолмен енгізіңіз
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Бұл құпия кілтті аутентификация қолданбасына теріңіз. <toggleToQRButton>Оның орнына QR кодын сканерлеу керек пе?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -888,6 +870,32 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Аутентификаци�
 inline-totp-setup-on-completion-description = Аяқтағаннан кейін ол сізге енгізу үшін аутентификация кодтарын жасай бастайды.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Аутентификация коды
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Құқықтық ақпарат
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Қолдану шарттары
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Жекелік ескертуі
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Жекелік ескертуі
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Қолдану шарттары
+
+## AuthAllow page - Part of the device pairing flow
+
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Иә, құрылғыны растау
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -902,12 +910,23 @@ pair-wait-for-supp-heading-text = Енді сіздің <span>басқа құр�
 pair-failure-header = Жұптау сәтсіз аяқталды
 pair-failure-message = Баптау әрекеті үзілген.
 
+## Pair index page
+
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Құрылғыңызды синхрондаңыз
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Немесе жүктеп алу
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Қазір емес
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Бастау
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR коды
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Құрылғы байланыстырылды
-pair-success-message =
-    .aria-label = Жұптау сәтті аяқталды.
+pair-success-header-2 = Құрылғы байланыстырылды
+pair-success-message-2 = Жұптау сәтті аяқталды.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -926,6 +945,11 @@ pair-supp-allow-cancel-link = Бас тарту
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құрылғыңыздан</span> растау керек болып тұр
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Қолданба арқылы жұптастыру
+pair-unsupported-message = Жүйелік камераны пайдаландыңыз ба? { -brand-firefox } қолданбасынан жұптастыру керек.
 
 ## AccountRecoveryConfirmKey page
 
@@ -978,6 +1002,8 @@ confirm-pw-reset-header = Тастау эл. пошта хаты жіберіл�
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Жаңа парольді жасау үшін келесі сағат ішінде { $email } электрондық поштасына жіберілген сілтемені басыңыз.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
 ## ResetPassword page
 
@@ -993,6 +1019,7 @@ reset-password-button = Қалпына келтіруді бастау
 reset-password-success-alert = Парольді қалпына келтіру
 reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
 reset-password-error-unknown-account = Белгісіз тіркелгі
+reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
 
