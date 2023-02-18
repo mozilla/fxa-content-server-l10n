@@ -75,11 +75,26 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $country }、{ $region }、{ $city } (おおよその位置)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $country }、{ $region } (おおよその位置)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $country }、{ $city } (おおよその位置)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (おおよその位置)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = 場所不明
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $genericOSName } の { $browserName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP アドレス: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -112,6 +127,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = コンピューターとスマートフォン、それぞれに失恋ハートの画像
+hearts-verified-image-aria-label =
+    .aria-label = コンピューターとスマートフォン、それぞれにドキドキハートの画像
 signin-recovery-code-image-description =
     .aria-label = 非表示のテキストを含むドキュメント。
 signin-totp-code-image-label =
@@ -902,22 +921,43 @@ pair-already-have-firefox-paragraph = スマートフォンやタブレットで
 pair-sync-your-device-button = 端末を同期する
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = またはダウンロード
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = スキャンしてモバイル版 { -brand-firefox } をダウンロードするか、<linkExternal>ダウンロード リンク</linkExternal> を自分宛に送信してください。
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = 後で
+pair-take-your-data-message = { -brand-firefox } を使用しているすべての場所でパスワード、タブ、ブックマークを持ち運びましょう。
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = はじめに
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR コード
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = 端末が接続されました
+pair-success-message-2 = ペアリングに成功しました。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = <span>{ $email }</span> のペアリングを確認
+pair-supp-allow-confirm-button = ペアリングを確認
+pair-supp-allow-cancel-link = キャンセル
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = <span>他の端末から</span> の承認が必要です
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = アプリを使用してペアリング
+pair-unsupported-message = システムカメラを使用しましたか？ { -brand-firefox } アプリ内からペアリングする必要があります。
 
 ## AccountRecoveryConfirmKey page
 
@@ -970,6 +1010,8 @@ confirm-pw-reset-header = リセット用のメールが送信されました
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
 
 ## ResetPassword page
 
@@ -985,6 +1027,7 @@ reset-password-button = リセットを開始
 reset-password-success-alert = パスワードをリセット
 reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
 reset-password-error-unknown-account = 不明なアカウントです
+reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
 
