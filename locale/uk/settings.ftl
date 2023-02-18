@@ -200,6 +200,7 @@ password-strength-balloon-stay-safe-tips = Убезпечте себе — не 
 ## Ready component
 
 reset-password-complete-header = Ваш пароль було відновлено
+ready-complete-set-up-instruction = Завершіть налаштування, ввівши новий пароль на інших пристроях { -brand-firefox }.
 ready-start-browsing-button = Почати перегляд
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -281,6 +282,10 @@ cs-disconnect-sync-heading = Від'єднатись від синхроніза
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Дані перегляду залишаться на <span>{ $device }</span>, але
+    надалі не синхронізуватимуться з вашим обліковим записом.
+cs-disconnect-sync-reason-3 = Яка основна причина від'єднання <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -788,16 +793,30 @@ cannot-create-account-learn-more-link = Докладніше
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Ви ввійшли до { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Електронну адресу підтверджено
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Вхід підтверджено
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Увійдіть у { -brand-firefox }, щоб завершити налаштування
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Увійти
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Додаєте інші пристрої? Увійдіть у { -brand-firefox } на іншому пристрої, щоб завершити налаштування
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Увійдіть у { -brand-firefox } на іншому пристрої, щоб завершити налаштування
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Хочете отримати свої вкладки, закладки та паролі на іншому пристрої?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Під'єднати інший пристрій
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Не зараз
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Увійдіть у { -brand-firefox } для Android, щоб завершити налаштування
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Увійдіть у { -brand-firefox } для iOS, щоб завершити налаштування
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -848,7 +867,21 @@ inline-totp-setup-cancel-setup-button = Скасувати налаштуван�
 inline-totp-setup-continue-button = Продовжити
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Додайте до свого облікового запису ще один рівень захисту, вимагаючи коди автентифікації з використанням <authenticationAppsLink>цих застосунків</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Увімкніть двоетапну перевірку, <span>щоб перейти до налаштувань облікового запису</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Увімкніть двоетапну перевірку, <span>щоб продовжити на { $serviceName }</span>
 inline-totp-setup-ready-button = Готово
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Скануйте код автентифікації, <span>щоб продовжити в { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Введіть код вручну, <span>щоб продовжити в { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Скануйте код автентифікації, <span>щоб перейти до налаштувань облікового запису</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Введіть код вручну, <span>щоб перейти до налаштувань облікового запису</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Введіть цей секретний ключ у своєму застосунку для автентифікації. <toggleToQRButton>Сканувати натомість QR-код?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -877,15 +910,21 @@ legal-terms-heading = Умови користування
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Ви щойно ввійшли до { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Так, схвалити пристрій
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Якщо це були не ви, <link>змініть пароль</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Пристрій під'єднано
+pair-auth-complete-sync-benefits-text = Тепер ви можете отримати доступ до відкритих вкладок, паролів і закладок на всіх своїх пристроях.
+pair-auth-complete-see-tabs-button = Переглянути вкладки з синхронізованих пристроїв
 pair-auth-complete-manage-devices-link = Керувати пристроями
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -903,12 +942,18 @@ pair-failure-message = Процес налаштування було перер
 
 ## Pair index page
 
+pair-sync-header = Синхронізуйте { -brand-firefox } на телефоні чи планшеті
+pair-cad-header = Під'єднати { -brand-firefox } на іншому пристрої
+pair-already-have-firefox-paragraph = Уже маєте { -brand-firefox } на телефоні чи планшеті?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Синхронізуйте свій пристрій
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Або завантажте
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Скануйте, щоб завантажити { -brand-firefox } для мобільних пристроїв, або надішліть собі <linkExternal>посилання для завантаження</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Не зараз
+pair-take-your-data-message = Беріть із собою вкладки, закладки та паролі, де б ви не користувалися { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Розпочати
 # This is the aria label on the QR code image
@@ -940,6 +985,7 @@ pair-wait-for-auth-heading-text = Відтепер підтвердження з
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Створення пари за допомогою програми
+pair-unsupported-message = Ви використали системну камеру? Ви повинні створити пару через програму { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -992,6 +1038,8 @@ confirm-pw-reset-header = Повідомлення для скидання на�
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Перейдіть за посиланням, надісланим на { $email } протягом наступної години, щоб створити новий пароль.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Повідомлення повторно надіслано. Додайте { $accountsEmail } до своїх контактів, для правильного доставлення.
 
 ## ResetPassword page
 
