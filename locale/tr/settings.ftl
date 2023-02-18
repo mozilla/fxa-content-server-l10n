@@ -201,6 +201,7 @@ password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları fa
 
 reset-password-complete-header = Parolanız sıfırlandı
 ready-complete-set-up-instruction = Yeni parolanızı diğer { -brand-firefox } cihazlarınıza girerek kurulumu tamamlayın.
+ready-start-browsing-button = Gezinmeye başla
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -777,6 +778,12 @@ connect-another-device-signin-another-device-to-complete-message = Kurulumu tama
 connect-another-device-get-data-on-another-device-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı başka cihazlarda da kullanmak ister misiniz?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Başka bir cihaz bağla
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Daha sonra
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Kurulumu tamamlamak için Android için { -brand-firefox }’a giriş yapın
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Kurulumu tamamlamak için iOS için { -brand-firefox }’a giriş yapın
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -825,7 +832,14 @@ inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etm
 
 inline-totp-setup-cancel-setup-button = Kurulumu iptal et
 inline-totp-setup-continue-button = Devam et
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = <span>Hesap ayarlarına devam etmek için</span> iki aşamalı kimlik doğrulamayı etkinleştirin
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> iki aşamalı kimlik doğrulamayı etkinleştirin
 inline-totp-setup-ready-button = Hazır
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu tarayın
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -857,6 +871,7 @@ pair-auth-allow-refuse-device-link = Giriş yapan siz değilseniz <link>parolan�
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Cihaz bağlandı
 pair-auth-complete-sync-benefits-text = Artık açık sekmelerinize, parolalarınıza ve yer imlerinize tüm cihazlarınızdan erişebilirsiniz.
+pair-auth-complete-see-tabs-button = Eşitlenmiş cihazlardan sekmeleri gör
 pair-auth-complete-manage-devices-link = Cihazları yönet
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -879,7 +894,15 @@ pair-cad-header = Başka bir cihazdaki { -brand-firefox }’u bağlayın
 pair-already-have-firefox-paragraph = Telefonunuzda veya tabletinizde zaten { -brand-firefox } var mı?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cihazınızı eşitleyin
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = veya indirin
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Mobil cihazlar için { -brand-firefox }’u indirmek için kodu tarayın veya kendinize bir <linkExternal>indirme bağlantısı</linkExternal> gönderin.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Daha sonra
 pair-take-your-data-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı { -brand-firefox }’u kullandığınız her yere götürün.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Başlayın
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR Kodu
 
@@ -909,6 +932,7 @@ pair-wait-for-auth-heading-text = Şimdi <span>diğer cihazınızdan</span> onay
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Uygulama kullanarak eşleştir
+pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-firefox } uygulaması içinden eşleştirme yapmalısınız.
 
 ## AccountRecoveryConfirmKey page
 
@@ -961,6 +985,8 @@ confirm-pw-reset-header = Sıfırlama e-postası gönderildi
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 
 ## ResetPassword page
 
