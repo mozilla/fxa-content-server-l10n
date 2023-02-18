@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-11 09:40+0000\n"
+"PO-Revision-Date: 2023-02-16 16:18+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -546,7 +546,7 @@ msgstr "不再支持这个端点"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "账户设置完成，请<a href=\"/reset_password\">重置密码</a>以继续。"
 
 #: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
