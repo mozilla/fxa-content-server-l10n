@@ -15,7 +15,7 @@ fxa-service-url = { -product-firefox-cloud } 利用規約
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } ロゴ">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
-subplat-privacy-notice = 個人情報保護方針
+subplat-privacy-notice = プライバシー通知
 subplat-privacy-plaintext = プライバシー通知:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:

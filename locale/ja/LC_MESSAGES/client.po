@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-18 06:34+0000\n"
+"PO-Revision-Date: 2023-02-18 06:51+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -570,7 +570,7 @@ msgstr "処理中です…"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
-msgstr "プライバシー規約を取得できません"
+msgstr "プライバシー通知を取得できませんでした"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
