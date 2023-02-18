@@ -115,9 +115,20 @@ form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
+get-data-trio-download-2 =
+    .title = İndir
+    .aria-label = İndir
+get-data-trio-copy-2 =
+    .title = Kopyala
+    .aria-label = Kopyala
+get-data-trio-print-2 =
+    .title = Yazdır
+    .aria-label = Yazdır
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Her birinde kırık bir kalp olan bir bilgisayar ve bir cep telefonu
 hearts-verified-image-aria-label =
     .aria-label = Her birinde kalp atışları olan bir bilgisayar, cep telefonu ve tablet
 signin-recovery-code-image-description =
@@ -448,6 +459,7 @@ delete-account-header =
     .title = Hesabı sil
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
+delete-account-confirm-title-3 = { -product-firefox-account }nızı, internette güvenliğinizi ve verimliliğinizi artıran aşağıdaki { -brand-mozilla } ürün ve hizmetlerine bağlamış olabilirsiniz:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -712,6 +724,10 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşulları</firefoxTos> ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>
 
 ## Auth-server based errors that originate from backend service
 
@@ -755,6 +771,10 @@ connect-another-device-signin-confirmed-banner = Giriş onaylandı
 connect-another-device-signin-to-complete-message = Kurulumu tamamlamak için bu { -brand-firefox }’a giriş yapın
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Giriş yap
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Kurulumu tamamlamak için başka bir cihazdan { -brand-firefox }’a giriş yapın
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı başka cihazlarda da kullanmak ister misiniz?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Başka bir cihaz bağla
 
