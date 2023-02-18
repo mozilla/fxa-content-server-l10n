@@ -753,11 +753,26 @@ connect-another-device-signin-confirmed-banner = ログインが確認されま�
 connect-another-device-signin-to-complete-message = この { -brand-firefox } にログインして設定を完了してください
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = ログイン
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = まだ追加の端末がありますか？ 他の端末上で { -brand-firefox } にログインして設定を完了しましょう
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = 他の端末上の { -brand-firefox } にログインして設定を完了してください
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = 他の端末で開いているタブやブックマーク、パスワードを読み込みますか？
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = 他の端末を接続
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = 後で
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Android 版 { -brand-firefox } にログインして設定を完了してください
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = iOS 版 { -brand-firefox } にログインして設定を完了してください
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = ローカルストレージと Cookie が必要です
+cookies-disabled-enable-prompt = { -product-firefox-accounts }へアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 再試行
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -802,7 +817,21 @@ inline-totp-setup-cancel-setup-button = セットアップをキャンセル
 inline-totp-setup-continue-button = 続ける
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>これらの認証アプリ</authenticationAppsLink> のいずれかからの認証コードを必須とすることでアカウントのセキュリティレベルを高めます。
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = 2 段階認証を有効にして <span>アカウント設定へ進む</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = 2 段階認証を有効にして <span>{ $serviceName } へ進む</span>
 inline-totp-setup-ready-button = 準備完了
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = 認証コードをスキャンして <span>{ $serviceName } へ進む</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = コードを手入力して <span>{ $serviceName } へ進む</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = 認証コードをスキャンして <span>アカウント設定へ進む</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = コードを手入力して <span>アカウント設定へ進む</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = この秘密鍵を認証アプリに入力してください。<toggleToQRButton>または QR コードをスキャンしてください。</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -815,29 +844,64 @@ inline-totp-setup-security-code-placeholder = 認証コード
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = 法的通知
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = サービス利用規約
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = 個人情報保護方針
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = 個人情報保護方針
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = サービス利用規約
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = 今 { -product-firefox } にログインしましたか？
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = はい。端末を承認します。
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = 心当たりがない場合は、<link>パスワードを変更してください</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = 端末が接続されました
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = 現在同期中です: { $deviceOS } 上の { $deviceFamily }
+pair-auth-complete-sync-benefits-text = お使いのすべての端末でブックマークやタブ、パスワードにアクセスできるようになりました。
+pair-auth-complete-see-tabs-button = 同期された端末のタブを表示します
+pair-auth-complete-manage-devices-link = 端末を管理
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = <span>他の端末から</span> の承認が必要です
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = ペアリングに失敗しました
+pair-failure-message = セットアップ処理が中断されました。
 
 ## Pair index page
 
+pair-sync-header = スマートフォンやタブレットで { -brand-firefox } を同期する
+pair-cad-header = 別の端末の { -brand-firefox } を接続する
+pair-already-have-firefox-paragraph = スマートフォンやタブレットでお使いの { -brand-firefox } がありますか？
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = 端末を同期する
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = またはダウンロード
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
