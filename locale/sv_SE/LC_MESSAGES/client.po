@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-16 04:27+0000\n"
+"PO-Revision-Date: 2023-02-19 09:26+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -569,7 +569,7 @@ msgstr "Arbetar…"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
-msgstr "Kunde inte hämta sekretesspolicy"
+msgstr "Kunde inte hämta sekretessmeddelande"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
