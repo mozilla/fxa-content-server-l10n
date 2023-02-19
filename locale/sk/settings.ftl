@@ -96,112 +96,6 @@ device-info-browser-os = { $browserName } na { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresa: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
-            }
-        [dat]
-            { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
-        [loc]
-            { $capitalization ->
-               *[upper] Účte Firefox
-                [lower] účte Firefox
-            }
-        [ins]
-            { $capitalization ->
-               *[upper] Účtom Firefox
-                [lower] účtom Firefox
-            }
-    }
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
-            }
-        [dat]
-            { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
-        [loc]
-            { $capitalization ->
-               *[upper] Účte Firefox
-                [lower] účte Firefox
-            }
-        [ins]
-            { $capitalization ->
-               *[upper] Účtom Firefox
-                [lower] účtom Firefox
-            }
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket =
-    { $case ->
-        [gen] Pocketu
-        [dat] Pocketu
-        [acc] Pocket
-        [loc] Pockete
-        [ins] Pocketom
-       *[nom] Pocket
-    }
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -221,12 +115,6 @@ form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kľúč na obnovenie účtu { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Záložné overovacie kódy pre účet { -brand-firefox }
-get-data-trio-download =
-    .title = Stiahnuť
-get-data-trio-copy =
-    .title = Kopírovať
-get-data-trio-print =
-    .title = Tlačiť
 
 ## Images - these are all aria labels used for illustrations
 
@@ -381,8 +269,6 @@ cs-disconnect-sync-heading = Odpojiť zo služby Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Údaje vášho prehliadania zostanú aj naďalej na zariadení { $device }, ale nebudú sa synchronizovať s vaším účtom.
-cs-disconnect-sync-reason-2 = Aký je hlavný dôvod odpojenia zariadenia { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -850,11 +736,11 @@ tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračovaním súhlasíte s:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Zmluvné podmienky</pocketTos> a <pocketPrivacy>Oznámenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
+terms-privacy-agreement-pocket = <pocketTos>Podmienky používania služby</pocketTos> a <pocketPrivacy>Vyhlásenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Zmluvné podmienky</firefoxTos> a <firefoxPrivacy>Upozornenie o ochrane osobných údajov</firefoxPrivacy> aplikácie { -brand-firefox }
+terms-privacy-agreement-firefox = <firefoxTos>Podmienky používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásenie o ochrane osobných údajov</firefoxPrivacy> prehliadača { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas so <firefoxTos>Zmluvnými podmienkami</firefoxTos> a <firefoxPrivacy>Oznámením o ochrane osobných údajov</firefoxPrivacy>.
+terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas so <firefoxTos>Podmienkami používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásením o ochrane osobných údajov</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -885,6 +771,9 @@ cannot-create-account-header = Účet nie je možné vytvoriť
 cannot-create-account-requirements = Ak si chcete vytvoriť { -product-firefox-account(case: "acc", capitalization: "lower") }, musíte spĺňať stanovené vekové požiadavky.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Ďalšie informácie
+
+## Connect Another Device page
+
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -935,21 +824,7 @@ inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
 inline-totp-setup-continue-button = Pokračovať
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <authenticationAppsLink>týchto overovacích aplikácií</authenticationAppsLink>.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Povoľte dvojstupňové overenie <enable2StepDefaultSpan>a pokračujte do nastavení účtu</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Povoľte dvojstupňové overenie <enable2StepCustomServiceSpan>a pokračujte do služby { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Hotovo
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Naskenujte overovací kód <scanAuthCodeHeaderSpan>a pokračujte do služby { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Zadajte kód manuálne <enterCodeManuallyHeaderSpan>a pokračujte do služby { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Naskenujte overovací kód <scanAuthHeaderSpan>a pokračujte do nastavení účtu</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Zadajte kód manuálne <enterCodeManuallyHeaderSpan>a pokračujte do nastavení účtu</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Zadajte tento tajný kľúč do overovacej aplikácie. <toggleToQRButton>Naskenovať radšej QR kód?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -958,6 +833,25 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód vo svoje
 inline-totp-setup-on-completion-description = Po dokončení začne generovať overovacie kódy, ktoré môžete zadať.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overovací kód
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Vyhlásenie o ochrane osobných údajov
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Vyhlásenie o ochrane osobných údajov
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -972,12 +866,11 @@ pair-wait-for-supp-heading-text = Vyžaduje sa schválenie <span>z vášho ďal�
 pair-failure-header = Párovanie nebolo úspešné
 pair-failure-message = Proces nastavenia bol ukončený.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Zariadenie bolo pripojené
-pair-success-message =
-    .aria-label = Párovanie bolo úspešné.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -996,6 +889,9 @@ pair-supp-allow-cancel-link = Zrušiť
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Vyžaduje sa schválenie <span>z vášho ďalšieho zariadenia</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 

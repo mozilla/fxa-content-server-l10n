@@ -15,8 +15,8 @@ fxa-service-url = Podmienky poskytovania služby { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
-subplat-privacy-notice = Zásady ochrany súkromia
-subplat-privacy-plaintext = Zásady ochrany súkromia:
+subplat-privacy-notice = Vyhlásenie o ochrane osobných údajov
+subplat-privacy-plaintext = Vyhlásenie o ochrane osobných údajov:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address

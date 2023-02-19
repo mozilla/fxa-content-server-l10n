@@ -6,7 +6,7 @@ app-general-err-message = Niečo sa pokazilo. Skúste to znova neskôr.
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = Logo { -brand-mozilla(case: "gen") }
-app-footer-privacy-notice = Zásady ochrany súkromia webovej stránky
+app-footer-privacy-notice = Vyhlásenie o ochrane osobných údajov webovej stránky
 app-footer-terms-of-service = Podmienky používania služby
 
 ## FxA React - Strings shared between multiple FxA products for application page title

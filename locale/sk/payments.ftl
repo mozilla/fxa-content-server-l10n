@@ -137,7 +137,7 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
+payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
 
 ## Component - PaymentErrorView
 
@@ -326,7 +326,7 @@ sub-guarantee = 30-dňová záruka vrátenia peňazí
 ## Component - TermsAndPrivacy
 
 terms = Podmienky používania služby
-privacy = Zásady ochrany súkromia
+privacy = Vyhlásenie o ochrane osobných údajov
 terms-download = Stiahnuť podmienky
 
 ## App-level string(s) and messages shared by multiple components or routes
