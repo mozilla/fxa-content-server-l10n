@@ -19,7 +19,7 @@
 -brand-firefox = Firefox
 # "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
--product-firefox-accounts = Cuenta de Firefox
+-product-firefox-accounts = cuentas de Firefox
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = cuenta de Firefox
