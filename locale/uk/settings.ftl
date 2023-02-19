@@ -923,6 +923,9 @@ pair-auth-allow-refuse-device-link = Якщо це були не ви, <link>з�
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Пристрій під'єднано
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Зараз синхронізація виконується з: { $deviceFamily } на { $deviceOS }
 pair-auth-complete-sync-benefits-text = Тепер ви можете отримати доступ до відкритих вкладок, паролів і закладок на всіх своїх пристроях.
 pair-auth-complete-see-tabs-button = Переглянути вкладки з синхронізованих пристроїв
 pair-auth-complete-manage-devices-link = Керувати пристроями
