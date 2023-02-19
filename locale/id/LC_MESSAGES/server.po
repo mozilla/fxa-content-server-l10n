@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2021-10-16 01:36+0000\n"
+"PO-Revision-Date: 2023-02-19 08:34+0000\n"
 "Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -29,6 +29,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Laman yang Anda minta tidak ditemukan. Kami telah diberitahu dan\n"
+"          akan memperbaiki tautan yang mungkin rusak."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -43,6 +45,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Oh sayang, ada masalah di sana. Kami telah diberitahu dan\n"
+"          akan segera memperbaikinya."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -57,6 +61,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Kami sedang mendapatkan beban berat dan bekerja keras \n"
+"          untuk mengembalikan sistem agar kembali normal secepatnya."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
