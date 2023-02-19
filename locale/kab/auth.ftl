@@ -131,12 +131,20 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Asenqes yiwet n tik
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Asenqes n { $discountDuration }- wayyur: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Tabzert d usesfer: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Tanemmirt imi tjerrdeḍ ɣer { $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar telɣut ɣef { $productName }, ttxil <a data-l10n-name="subscriptionSupportUrl">nermes-aɣ-d</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Tanemmirt imi tjerrdeḍ ɣer{ $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar n telɣut ɣef{ $productName }, ttxil nermes-aɣ-d:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tzemreḍ ad tḍemneḍ tarrayt-ik·im n uxelleḍ d telɣut n umiḍan-ik·im ttwaleqqamen da:
 subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a data-l10n-name="updateBillingUrl"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan.
