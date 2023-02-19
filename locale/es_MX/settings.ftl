@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Conocimiento práctico está llegando a tu bandeja de entrada. Regístrate para saber más:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Obtén las últimas noticias sobre { -brand-mozilla } y { -brand-firefox }
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Actúa para mantener el internet saludable
 
@@ -69,6 +72,15 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimado)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (estimado)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimado)
 # Variable { $country } represent the estimated location of the user's device
 # For example, 'Canada (estimated)'
 device-info-block-location-country = { $country } (estimado)
@@ -733,6 +745,7 @@ auth-error-138-2 = Sesión sin confirmar
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación inválido o expirado
+auth-error-999 = Error inesperado
 auth-error-1003 = El almacenamiento local o las cookies aún están deshabilitadas
 auth-error-1008 = Tu nueva contraseña debe ser diferente
 
@@ -821,6 +834,7 @@ pair-auth-allow-confirm-button = Sí, aprobar dispositivo
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Dispositivo conectado
+pair-auth-complete-see-tabs-button = Mira las pestañas de tus dispositivos sincronizados
 pair-auth-complete-manage-devices-link = Administrar dispositivos
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -834,6 +848,8 @@ pair-failure-message = El proceso de configuración ha terminado.
 
 ## Pair index page
 
+pair-sync-header = Sincroniza { -brand-firefox } en tu teléfono o tablet
+pair-cad-header = Conecta { -brand-firefox } en otro dispositivo
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincroniza tu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
