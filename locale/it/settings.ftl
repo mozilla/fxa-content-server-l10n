@@ -727,11 +727,11 @@ tfa-row-change-modal-explain = Questa azione è irreversibile.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Proseguendo accetti:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = <pocketTos>Termini di servizio</pocketTos> e <pocketPrivacy>Informativa sulla privacy</pocketPrivacy> di { -product-pocket }
+terms-privacy-agreement-pocket = <pocketTos>Condizioni di utilizzo del servizio</pocketTos> e <pocketPrivacy>Informativa sulla privacy</pocketPrivacy> di { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = <firefoxTos>Termini di servizio</firefoxTos> e <firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy> di { -brand-firefox }
+terms-privacy-agreement-firefox = <firefoxTos>Condizioni di utilizzo del servizio</firefoxTos> e <firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy> di { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Proseguendo accetti i <firefoxTos>Termini di servizio</firefoxTos> e l’<firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy>.
+terms-privacy-agreement-default = Proseguendo accetti le <firefoxTos>Condizioni di utilizzo del servizio</firefoxTos> e l’<firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 

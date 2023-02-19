@@ -123,7 +123,7 @@ payment-confirmation-download-button = Prosegui con il download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
 
 ## Component - PaymentErrorView
 
@@ -295,7 +295,7 @@ sub-guarantee = Garanzia di rimborso di 30 giorni
 
 ## Component - TermsAndPrivacy
 
-terms = Termini di servizio
+terms = Condizioni di utilizzo del servizio
 privacy = Informativa sulla privacy
 terms-download = Scarica i termini
 
