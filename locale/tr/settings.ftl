@@ -848,12 +848,18 @@ inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Hizmet Koşulları
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Gizlilik Bildirimi
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Gizlilik Bildirimi
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Hizmet Koşulları
 
 ## AuthAllow page - Part of the device pairing flow
 
