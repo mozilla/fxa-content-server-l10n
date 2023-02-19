@@ -115,6 +115,15 @@ form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kľúč na obnovenie účtu { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Záložné overovacie kódy pre účet { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Stiahnuť
+    .aria-label = Stiahnuť
+get-data-trio-copy-2 =
+    .title = Kopírovať
+    .aria-label = Kopírovať
+get-data-trio-print-2 =
+    .title = Tlačiť
+    .aria-label = Tlačiť
 
 ## Images - these are all aria labels used for illustrations
 
@@ -135,6 +144,8 @@ input-password-hide = Skryť heslo
 input-password-show = Zobraziť heslo
 input-password-hide-aria = Skryť heslo z obrazovky.
 input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Naspäť
 
 ## LinkDamaged component
 
@@ -189,6 +200,8 @@ password-strength-balloon-stay-safe-tips = Zostaňte v bezpečí – nepoužíva
 ## Ready component
 
 reset-password-complete-header = Vaše heslo bolo obnovené
+ready-complete-set-up-instruction = Dokončite nastavenie zadaním nového hesla na ostatných zariadeniach s { -brand-firefox(case: "ins") }.
+ready-start-browsing-button = Poďme prehliadať
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -269,6 +282,8 @@ cs-disconnect-sync-heading = Odpojiť zo služby Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = Údaje vášho prehliadania zostanú aj naďalej na zariadení <span>{ $device }</span>, ale nebudú sa synchronizovať s vaším účtom.
+cs-disconnect-sync-reason-3 = Aký je hlavný dôvod odpojenia zariadenia <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -308,8 +323,8 @@ cs-recent-activity = Nedávna aktivita účtu
 
 dc-heading = Zbieranie údajov a ich použitie
 dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalization: "lower", case: "acc") }
-dc-subheader-content = Povoliť { -product-firefox-accounts(capitalizaion: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
-dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebude posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-subheader-content = Povoliť { -product-firefox-accounts(capitalization: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebudú posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
 dc-opt-in-out-error-2 = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém
 dc-learn-more = Ďalšie informácie
@@ -334,7 +349,7 @@ header-menu-open = Zavrieť ponuku
 header-menu-closed = Navigačná ponuka stránok
 header-back-to-top-link =
     .title = Návrat hore
-header-title = { -product-firefox-accounts }
+header-title = Účet Firefox
 header-help = Pomocník
 
 ## Linked Accounts section
@@ -774,6 +789,30 @@ cannot-create-account-learn-more-link = Ďalšie informácie
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Ste prihlásený/-á do { -brand-firefox(case: "gen") }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail potvrdený
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Prihlásenie potvrdené
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Pre dokončenie nastavení sa prihláste do { -brand-firefox(case: "gen") }
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Prihlásiť sa
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Stále pridávate ďalšie zariadenia? Prihláste sa do { -brand-firefox(case: "gen") } na inom zariadení a dokončite nastavenie
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Prihláste sa do { -brand-firefox(case: "gen") } na inom zariadení a dokončite nastavenie
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Chcete získať svoje karty, záložky a heslá na inom zariadení?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Pripojiť ďalšie zariadenie
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Teraz nie
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Prihláste sa do { -brand-firefox(case: "gen") } pre Android a dokončite nastavenie
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Prihláste sa do { -brand-firefox(case: "gen") } pre iOS a dokončite nastavenie
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -824,7 +863,21 @@ inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
 inline-totp-setup-continue-button = Pokračovať
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <authenticationAppsLink>týchto overovacích aplikácií</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Povoľte dvojstupňové overenie <span>a pokračujte na nastavenia účtu</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Povoľte dvojstupňové overenie <span>a pokračujte do služby { $serviceName }</span>
 inline-totp-setup-ready-button = Hotovo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Naskenujte overovací kód <span>a pokračujte do služby { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Zadajte kód manuálne <span>a pokračujte do služby { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Naskenujte overovací kód <span>a pokračujte do nastavení účtu</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Zadajte kód manuálne <span>a pokračujte do nastavení účtu</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Zadajte tento tajný kľúč do overovacej aplikácie. <toggleToQRButton>Naskenovať radšej QR kód?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -837,6 +890,7 @@ inline-totp-setup-security-code-placeholder = Overovací kód
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Právne informácie
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Podmienky používania služby
 # Links to our internal "Firefox Cloud" /legal/terms page
@@ -852,9 +906,25 @@ legal-terms-heading = Podmienky používania služby
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Prihlásili ste sa do { -product-firefox(case: "gen") }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Áno, schváliť zariadenie
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Ak ste to neboli vy, <link>zmeňte si heslo</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Zariadenie bolo pripojené
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Teraz synchronizujete: { $deviceFamily } ({ $deviceOS })
+pair-auth-complete-sync-benefits-text = Teraz máte prístup k otvoreným kartám, heslám a záložkám na všetkých svojich zariadeniach.
+pair-auth-complete-see-tabs-button = Pozrite si karty zo synchronizovaných zariadení
+pair-auth-complete-manage-devices-link = Spravovať zariadenia
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -871,9 +941,27 @@ pair-failure-message = Proces nastavenia bol ukončený.
 
 ## Pair index page
 
+pair-sync-header = Synchronizujte { -brand-firefox } na svojom telefóne alebo tablete
+pair-cad-header = Pripojte { -brand-firefox } na inom zariadení
+pair-already-have-firefox-paragraph = Máte už { -brand-firefox } na telefóne alebo tablete?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronizujte svoje zariadenie
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Alebo si stiahnite
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Naskenujte QA kód a stiahnite si { -brand-firefox } pre mobilné zariadenia alebo si pošlite <linkExternal>odkaz na stiahnutie</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Teraz nie
+pair-take-your-data-message = Vezmite si svoje karty, záložky a heslá všade, kde používate { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Začíname
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR kód
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Zariadenie bolo pripojené
+pair-success-message-2 = Párovanie bolo úspešné.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -895,6 +983,8 @@ pair-wait-for-auth-heading-text = Vyžaduje sa schválenie <span>z vášho ďal�
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Spárovať pomocou aplikácie
+pair-unsupported-message = Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z prehliadača { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -947,6 +1037,8 @@ confirm-pw-reset-header = E-mailová správa na obnovu hesla bola odoslaná
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e-mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 
 ## ResetPassword page
 
@@ -962,6 +1054,7 @@ reset-password-button = Spustiť obnovu
 reset-password-success-alert = Obnova hesla
 reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
 reset-password-error-unknown-account = Neznámy účet
+reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
 

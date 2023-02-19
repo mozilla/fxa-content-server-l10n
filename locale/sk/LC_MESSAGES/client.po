@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-19 14:47+0000\n"
+"PO-Revision-Date: 2023-02-19 15:56+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -545,7 +545,7 @@ msgstr "Tento koncový bod už nie je podporovaný"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Dokončite nastavenie účtu. Ak chcete pokračovať, <a href=\"/reset_password\">obnovte heslo</a>."
 
 #: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"

@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -34,44 +35,42 @@
         [ins] Firefoxom
     }
     .gender = masculine
-
-# "accounts" can be localized, "Firefox" must be treated as a brand.
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
+                [lower] účtov Firefox
+               *[upper] Účtov Firefox
             }
         [dat]
             { $capitalization ->
-               *[upper] Účtu Firefox
-                [lower] účtu Firefox
+                [lower] účtom Firefox
+               *[upper] Účtom Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
+                [lower] účty Firefox
+               *[upper] Účty Firefox
             }
         [loc]
             { $capitalization ->
-               *[upper] Účte Firefox
-                [lower] účte Firefox
+                [lower] účtoch Firefox
+               *[upper] Účtoch Firefox
             }
         [ins]
             { $capitalization ->
-               *[upper] Účtom Firefox
-                [lower] účtom Firefox
+                [lower] účtami Firefox
+               *[upper] Účtami Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účty Firefox
+               *[upper] Účty Firefox
             }
     }
-
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
@@ -106,11 +105,9 @@
                 [lower] účtom Firefox
             }
     }
-
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
 -product-mdn-plus = MDN Plus
-# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 -product-firefox-monitor = Firefox Monitor
 -product-firefox-relay = Firefox Relay
@@ -123,11 +120,7 @@
         [ins] Pocketom
        *[nom] Pocket
     }
-
-# Should should be treated as a brand.
 -brand-paypal = PayPal
-# Should should be treated as a brand.
 -app-store = App Store
 -brand-google = Google
-# Should should be treated as a brand.
 -google-play = Google Play
