@@ -182,6 +182,8 @@ confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar ver
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Þú þarft þetta lykilorð til að fá aðgang að dulrituðu gögnum sem þú geymir hjá okkur.
+password-info-balloon-reset-risk-info = Endurstilling þýðir að mögulega tapast gögn eins og lykilorð og bókamerki.
 
 ## PasswordStrengthBalloon component
 
@@ -194,6 +196,7 @@ password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta 
 ## Ready component
 
 reset-password-complete-header = Lykilorðið þitt var endurstillt
+ready-complete-set-up-instruction = Ljúktu uppsetningunni með því að setja inn nýja lykilorðið á hinum { -brand-firefox }-tækjunum þínum.
 ready-start-browsing-button = Byrjaðu að vafra
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -740,6 +743,12 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Með því að halda áfram, samþykkir þú:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Þjónustuskilmálar</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefna</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Þjónustuskilmálar</firefoxTos> { -brand-firefox } og <firefoxPrivacy>persónuverndarstefna</firefoxPrivacy>.
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Með því að halda áfram samþykkir þú <firefoxTos>þjónustuskilmála</firefoxTos> og <firefoxPrivacy>persónuverndarstefnuna</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -843,7 +852,21 @@ inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <sp
 
 inline-totp-setup-cancel-setup-button = Hætta við uppsetningu
 inline-totp-setup-continue-button = Halda áfram
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Bættu við öryggislagi fyrir reikninginn þinn með því að krefjast auðkenningarkóða frá einu af <authenticationAppsLink>þessum auðkenningarforritum</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Virkjaðu tveggja-þrepa auðkenningu <span>til að halda áfram í stillingar reikningsins</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Virkjaðu tveggja-þrepa auðkenningu <span>til að halda áfram í { $serviceName }</span>
 inline-totp-setup-ready-button = Tilbúið
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skannaðu auðkenningarkóðann <span>til að halda áfram í { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Settu kóðann inn handvirkt <span>til að halda áfram í { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skannaðu auðkenningarkóðann <span>til að halda áfram í stillingar reikningsins</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Settu kóðann inn handvirkt <span>til að halda áfram í stillingar reikningsins</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
