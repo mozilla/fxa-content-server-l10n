@@ -75,8 +75,12 @@ automated-email-change-plaintext-2 = Mayella ur texdimeḍ ara aya, beddel awal-
 automated-email-support-plaintext = I wugar n telɣut, ddu ɣer tallalt n { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Wugar n yisallen, rzu ɣer<a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt</a>.
+automated-email-no-action-plaintext = Wa d imayl awurman. Ma tenremseḍ-t s leɣlaḍ, ur tesriḍ ad txedmeḍ kra.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
+automated-email-reset =
+    Wa d imayl awurman;ma ur tessirgeḍ ara tigawt-a, ihi <a data-l10n-name="resetLink">Ttxil wennez awal-ik•im uffir</a>.
+    I wugar n telɣut, ttxil rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ma ur tbeddleḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura deg { $resetLink }
@@ -116,6 +120,16 @@ subscriptionSubsequentInvoice-content-plan-change = Abeddel n uɣawas: { $paymen
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Asenqes: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Asenqes yiwet n tikkelt: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Asenqes n { $discountDuration }- wayyur: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
