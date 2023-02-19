@@ -78,6 +78,20 @@ device-info-block-location-city-region-country = { $city }, { $region }, { $coun
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
 device-info-block-location-region-country = { $region }, { $country } (trochowany)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (trochowany)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (trochowany)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Njeznate městno
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } na { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adresa: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -98,9 +112,22 @@ form-reset-password-with-balloon-match-error = Hesle jenakej njejstej
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontowy wobnowjenski kluč { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Zawěsćenske awtentifikaciske kody { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Sćahnyć
+    .aria-label = Sćahnyć
+get-data-trio-copy-2 =
+    .title = Kopěrować
+    .aria-label = Kopěrować
+get-data-trio-print-2 =
+    .title = Ćišćeć
+    .aria-label = Ćišćeć
 
 ## Images - these are all aria labels used for illustrations
 
+signin-recovery-code-image-description =
+    .aria-label = Dokument, kotryž schowany tekst wobsahuje.
+signin-totp-code-image-label =
+    .aria-label = Grat ze schowanym 6-městnowym kodom.
 confirm-signup-aria-label =
     .aria-label = Wobalka, kotraž wotkaz wobsahuje
 
@@ -110,6 +137,8 @@ input-password-hide = Hesło schować
 input-password-show = Hesło pokazać
 input-password-hide-aria = Hesło na wobrazowce schować.
 input-password-show-aria = Hesło jako luty tekst pokazać. Waše hesło budźe widźomne na wobrazowce.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Wróćo
 
 ## LinkDamaged component
 
@@ -162,10 +191,14 @@ password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće 
 ## Ready component
 
 reset-password-complete-header = Waše hesło je so wróćo stajiło
+ready-complete-set-up-instruction = Zapodajće swoje nowe hesło na swojich druhich gratach { -brand-firefox }, zo byšće zarjadowanje dokónčił.
+ready-start-browsing-button = Přehladowanje započeć
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Móžeće nětko { $serviceName } wužiwać
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Móžeće nětko kontowe nastajenja wužiwać
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Waše konto je hotowe!
 ready-continue = Dale
@@ -240,6 +273,10 @@ cs-disconnect-sync-heading = Ze Sync dźělić
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Waše přehladowanske daty na <span>{ $device }</span> wostanu,
+    ale njebudźe hižo z wašim kontom synchronizować.
+cs-disconnect-sync-reason-3 = Što je hłowna přičina za dźělenje wot <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -267,6 +304,7 @@ cs-disconnect-suspicious-advice-content =
     změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
     adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
+cs-recent-activity = Najnowša kontowa aktiwita
 
 ##
 
@@ -431,6 +469,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Daty { -brand-firefox } so synchronizuja
 delete-account-product-firefox-addons = Přidatki { -brand-firefox }
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
 delete-account-chk-box-1-v3 =
@@ -466,9 +505,11 @@ display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 
 ## Recent Activity
 
+recent-activity-title = Najnowša kontowa aktiwita
 recent-activity-account-create = Konto je so załožiło
 recent-activity-account-disable = Konto je so znjemóžniło
 recent-activity-account-enable = Konto je so zmóžniło
+recent-activity-account-login = Přez konto iniciěrowane přizjewjenje
 
 # Account recovery key setup page
 
@@ -709,6 +750,7 @@ auth-error-138-2 = Njewobkrućene posedźenje
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
+auth-error-999 = Njewočakowany zmylk
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
 
 ## Cannot Create Account page
@@ -721,6 +763,30 @@ cannot-create-account-learn-more-link = Dalše informacije
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Sće pola { -brand-firefox } přizjewjeny
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mejlowa adresa je so wobkrućiła
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Přizjewjenje je so wobkrućiło
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Přizjewće so pola tutoho { -brand-firefox }, zo byšće zarjadowanje dokónčił
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Přizjewić
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Chceće dalše graty přidać? Přizjewće so pola { -brand-firefox }x, na druhim graće zo byšće zarjadowanje dokónčił
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Přizjewće so pola { -brand-firefox }, na druhim graće zo byšće zarjadowanje dokónčił
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Chceće swoje rajtarki, zapołožki a hesła na druhim graće dóstać?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Z druhim gratom zwjazać
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Nic nětko
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Přizjewće so pola { -brand-firefox } za Android, zo byšće zarjadowanje dokónčił
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Přizjewće so pola { -brand-firefox } za iOS, zo byšće zarjadowanje dokónčił
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
