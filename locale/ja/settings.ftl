@@ -117,13 +117,13 @@ get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
 get-data-trio-download-2 =
     .title = ダウンロード
-    .aria-label = { "" }
+    .aria-label = ダウンロード
 get-data-trio-copy-2 =
     .title = コピー
-    .aria-label = { "" }
+    .aria-label = コピー
 get-data-trio-print-2 =
     .title = 印刷
-    .aria-label = { "" }
+    .aria-label = 印刷
 
 ## Images - these are all aria labels used for illustrations
 
