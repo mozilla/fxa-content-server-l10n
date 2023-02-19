@@ -820,6 +820,8 @@ inline-recovery-confirmation-description = Zo byšće zaso přistup k swojemu ko
 
 inline-totp-setup-cancel-setup-button = Instalaciju přetorhnyć
 inline-totp-setup-continue-button = Dale
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Požadajće awtentifikaciske kody z jednoho z <authenticationAppsLink>tutych awtentifikaciskich nałoženjow</authenticationAppsLink>, zo byšće swojemu kontu wěstotnu runinu přidał.
 inline-totp-setup-ready-button = Hotowy
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
@@ -829,45 +831,92 @@ inline-totp-setup-security-code-placeholder = Awtentifikaciski kod
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Prawniske
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Wužiwanske wuměnjenja
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Zdźělenka priwatnosće
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Zdźělenka priwatnosće
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Wužiwanske wuměnjenja
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Sće so runje pola { -product-firefox } přizjewił?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Haj, grat schwalić
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Grat je zwjazany
+pair-auth-complete-sync-benefits-text = Nětko maće přistup k swojim wočinjenym rajtarkam, hesłam a zapołožkam na wšěch swojich gratach.
+pair-auth-complete-see-tabs-button = Rajtarki ze synchronizowanych gratow pokazać
+pair-auth-complete-manage-devices-link = Graty rjadować
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Schwalenje je nětko <span>wot wašeho druheho grata</span> trěbne
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Koplowanje je so nimokuliło
+pair-failure-message = Instalowanski proces je so skónčił.
 
 ## Pair index page
 
+pair-sync-header = { -brand-firefox } na swójim šmóratce abo tableće synchronizować
+pair-cad-header = { -brand-firefox } na druhim graće zwjazać
+pair-already-have-firefox-paragraph = Maće hižo { -brand-firefox } na šmóratce abo tableće?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronizujće swój grat
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Abo sćehńće
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Nic nětko
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Prěnje kroki
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kod
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Grat je zwjazany
+pair-success-message-2 = Koplowanje je so poradźiło.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Wobkrućće koplowanje <span>za { $email }</span>
+pair-supp-allow-confirm-button = Koplowanje wobkrućić
+pair-supp-allow-cancel-link = Přetorhnyć
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Schwalenje je nětko <span>wot wašeho druheho grata</span> trěbne
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Z nałoženjom koplować
+pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju { -brand-firefox } koplować.
 
 ## AccountRecoveryConfirmKey page
 
@@ -913,6 +962,8 @@ confirm-pw-reset-header = E-mejlka za wróćostajenje je so pósłała
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klikńće wob hodźinu na wotkaz, kotryž smy přez e-mejl na { $email } pósłali, zo byšće nowe hesło wutworił.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-mejlka je so znowa pósłała. Přidajće swojim kontaktam { $accountsEmail }, zo byšće dodaće bjez problemow zawěsćił.
 
 ## ResetPassword page
 
@@ -921,6 +972,7 @@ reset-password-button = Wróćostajenje započeć
 reset-password-success-alert = Hesło wróćo stajene
 reset-password-error-general = Bohužel je při wrócostajenju wašeho hesła problem nastał
 reset-password-error-unknown-account = Njeznate konto
+reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
 reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
 
