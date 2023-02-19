@@ -22,6 +22,9 @@ choose-newsletters-option-firefox-accounts-journey =
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Actúa para mantener el internet saludable
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Navega de forma más segura e inteligente en línea
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -124,6 +127,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-verified-image-aria-label =
+    .aria-label = Una computadora y un teléfono móvil y una tableta con un corazón palpitante en cada uno
+signin-recovery-code-image-description =
+    .aria-label = Documento que contiene texto oculto.
 signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 confirm-signup-aria-label =
