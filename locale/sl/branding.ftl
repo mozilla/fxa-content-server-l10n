@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -32,43 +33,36 @@
         [mestnik] Firefoxu
         [orodnik] Firefoxom
     }
-
-# "accounts" can be localized, "Firefox" must be treated as a brand.
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $sklon ->
-       *[imenovalnik] Firefox Računi
-        [rodilnik] Firefox Računov
-        [dajalnik] Firefox Računom
-        [tozilnik] Firefox Račune
-        [mestnik] Firefox Računih
-        [orodnik] Firefox Računi
+        [rodilnik] Firefox računov
+        [dajalnik] Firefox računom
+        [tozilnik] Firefox račune
+        [mestnik] Firefox računih
+        [orodnik] Firefox računi
+       *[imenovalnik] Firefox računi
     }
-
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $sklon ->
-       *[imenovalnik] Firefox Račun
-        [rodilnik] Firefox Računa
-        [dajalnik] Firefox Računu
-        [tozilnik] Firefox Račun
-        [mestnik] Firefox Računu
-        [orodnik] Firefox Računom
+        [rodilnik] Firefox računa
+        [dajalnik] Firefox računu
+        [tozilnik] Firefox račun
+        [mestnik] Firefox računu
+        [orodnik] Firefox računom
+       *[imenovalnik] Firefox račun
     }
-
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
 -product-mdn-plus = MDN Plus
-# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 -product-firefox-monitor = Firefox Monitor
 -product-firefox-relay = Firefox Relay
 -product-pocket = Pocket
-
-# Should should be treated as a brand.
 -brand-paypal = PayPal
-# Should should be treated as a brand.
 -app-store = App Store
 -brand-google =
     =
@@ -80,5 +74,4 @@
         [mestnik] Googlu
         [orodnik] Googlom
     }
-# Should should be treated as a brand.
 -google-play = Google Play
