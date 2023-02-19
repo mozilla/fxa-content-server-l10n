@@ -127,6 +127,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Tölva og farsími með brostin hjörtu
+hearts-verified-image-aria-label =
+    .aria-label = Tölva, farsími og spjaldtölva með hjörtu sem slá
 signin-recovery-code-image-description =
     .aria-label = Skjal sem inniheldur falinn texta.
 signin-totp-code-image-label =
@@ -769,6 +773,7 @@ auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstf
 auth-error-155 = TOTP-teikn fannst ekki
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-999 = Óvænt villa
+auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
 ## Cannot Create Account page
@@ -809,6 +814,7 @@ connect-another-device-ios-complete-setup-message = Skráðu þig inn í { -bran
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Heimild fyrir staðvært geymslurými og vefkökur eru nauðsynleg
 cookies-disabled-enable-prompt = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-firefox-accounts }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reyna aftur
@@ -871,6 +877,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Skannaðu auðkenningarkó�
 inline-totp-setup-no-qr-default-service-header-2 = Settu kóðann inn handvirkt <span>til að halda áfram í stillingar reikningsins</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Settu þennan leynilykil inn í auðkenningarforritið þitt. <toggleToQRButton>Skanna frekar QR-kóða?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skannaðu QR-kóðann í auðkenningarforritinu þínu og settu síðan inn auðkenningarkóðann sem það gefur upp. <toggleToManualModeButton>Geturðu ekki skannað kóða?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Eftir að því er lokið, mun það byrja að útbúa auðkenningarkóða sem þú getur sett inn.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -937,6 +945,8 @@ pair-already-have-firefox-paragraph = Ertu nú þegar með { -brand-firefox } á
 pair-sync-your-device-button = Samstilltu tækið þitt
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = eða sæktu
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skannaðu til að sækja { -brand-firefox } fyrir farsíma, eða sendu þér <linkExternal>niðurhalstengil</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ekki núna
 pair-take-your-data-message = Taktu flipana þína, bókamerki og lykilorð með þér hvert sem þú notar { -brand-firefox }.
