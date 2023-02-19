@@ -58,8 +58,6 @@ confirm-with-link-webmail-link = { $emailProvider } wočinić
 confirm-with-link-resend-link-button = Ani w postowym dochadźe ani w spamowym rjadowaku? Znowa pósłać
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Wróćo
-confirm-signup-aria-label =
-    .aria-label = Wobalka, kotraž wotkaz wobsahuje
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -70,39 +68,16 @@ datablock-copy =
 datablock-print =
     .message = Ćišćane
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Konta Firefox
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Konto Firefox
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (trochowany)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (trochowany)
 
 ## FormPasswordWithBalloons
 
@@ -123,12 +98,11 @@ form-reset-password-with-balloon-match-error = Hesle jenakej njejstej
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontowy wobnowjenski kluč { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Zawěsćenske awtentifikaciske kody { -brand-firefox }
-get-data-trio-download =
-    .title = Sćahnyć
-get-data-trio-copy =
-    .title = Kopěrować
-get-data-trio-print =
-    .title = Ćišćeć
+
+## Images - these are all aria labels used for illustrations
+
+confirm-signup-aria-label =
+    .aria-label = Wobalka, kotraž wotkaz wobsahuje
 
 ## Input Password
 
@@ -266,10 +240,6 @@ cs-disconnect-sync-heading = Ze Sync dźělić
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Waše přehladowanske daty na { $device } wostanu,
-    ale njebudźe hižo z wašim kontom synchronizować.
-cs-disconnect-sync-reason-2 = Što je hłowna přičina za dźělenje wot { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -749,6 +719,9 @@ cannot-create-account-requirements = Dyrbiće wěste starobne žadanja spjelnić
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Dalše informacije
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -786,6 +759,49 @@ inline-totp-setup-ready-button = Hotowy
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Awtentifikaciski kod
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
+
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
