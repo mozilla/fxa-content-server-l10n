@@ -22,7 +22,7 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
-project-brand = ਫਾਇਰਫਾਕਸ ਖਾਤੇ
+project-brand = Firefox ਖਾਤੇ
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 

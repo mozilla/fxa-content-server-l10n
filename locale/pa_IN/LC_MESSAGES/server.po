@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2022-06-19 14:16+0000\n"
+"PO-Revision-Date: 2023-02-19 21:47+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
+msgstr "Firefox ਖਾਤੇ"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -70,7 +70,7 @@ msgstr "ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
+msgstr "Firefox ਖਾਤੇ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਹੈ।"
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
