@@ -740,7 +740,7 @@ terms-privacy-agreement-pocket = <pocketTos>Podmienky používania služby</pock
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmienky používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásenie o ochrane osobných údajov</firefoxPrivacy> prehliadača { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas so <firefoxTos>Podmienkami používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásením o ochrane osobných údajov</firefoxPrivacy>.
+terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas s <firefoxTos>Podmienkami používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásením o ochrane osobných údajov</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -838,6 +838,8 @@ inline-totp-setup-security-code-placeholder = Overovací kód
 ## content from https://github.com/mozilla/legal-docs
 
 # Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Podmienky používania služby
+# Links to our internal "Firefox Cloud" /legal/terms page
 legal-privacy-link = Vyhlásenie o ochrane osobných údajov
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
@@ -846,6 +848,7 @@ legal-privacy-heading = Vyhlásenie o ochrane osobných údajov
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Podmienky používania služby
 
 ## AuthAllow page - Part of the device pairing flow
 
