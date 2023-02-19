@@ -30,7 +30,7 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
-project-brand = Firefox Računi
+project-brand = Firefox računi
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -358,7 +358,7 @@ terms-download = Pogoji prenosa
 ## App-level string(s) and messages shared by multiple components or routes
 
 document =
-    .title = Firefox Računi
+    .title = Firefox računi
 # General aria-label for closing modals
 close-aria =
     .aria-label = Zapri modalno okno

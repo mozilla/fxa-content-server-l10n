@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-16 01:26+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-02-19 19:30+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "Dokončajte namestitev z vnosom novega gesla na drugih napravah s Firefo
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Sedaj ste pripravljeni za spreminjanje svojega Firefox Računa."
+msgstr "Sedaj ste pripravljeni za spreminjanje svojega Firefox računa."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
@@ -200,7 +200,7 @@ msgstr "Overitev v dveh korakih je omogočena"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr "Obnovitveni ključ za Firefox Račun"
+msgstr "Obnovitveni ključ za Firefox račun"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -613,7 +613,7 @@ msgstr "Vnesite veljaven elektronski naslov. firefox.com ne ponuja e-pošte."
 
 #: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Firefox Račune lahko umestite samo v okvir IFRAME odobrenih strani"
+msgstr "Firefox račune lahko umestite samo v okvir IFRAME odobrenih strani"
 
 #: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
@@ -914,7 +914,7 @@ msgstr "Nadaljujte v %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Da si povrnete dostop do Firefox Računa, vnesite obnovitveni ključ za enkratno uporabo, ki ste ga bili shranili na varnem mestu."
+msgstr "Da si povrnete dostop do Firefox računa, vnesite obnovitveni ključ za enkratno uporabo, ki ste ga bili shranili na varnem mestu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1064,7 +1064,7 @@ msgstr "Vnesite potrditveno kodo"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr "za Firefox Račun"
+msgstr "za Firefox račun"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1142,7 +1142,7 @@ msgstr "Piškotki in lokalna shramba so obvezni"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Za dostop do Firefox Računov v brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami."
+msgstr "Za dostop do Firefox računov v brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1155,7 +1155,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          Vnesite geslo <span class=\"card-subheader\" id=\"subheader\">svojega Firefox Računa</span>\n"
+"          Vnesite geslo <span class=\"card-subheader\" id=\"subheader\">svojega Firefox računa</span>\n"
 "        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
@@ -1176,7 +1176,7 @@ msgstr "Ste pozabili geslo?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr "Nadaljuj v Firefox Račune"
+msgstr "Nadaljuj v Firefox račune"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1196,7 +1196,7 @@ msgstr "Registracija ali prijava"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Firefox Račun omogoča tudi dostop do Mozillinih izdelkov, ki varujejo zasebnost."
+msgstr "Firefox račun omogoča tudi dostop do Mozillinih izdelkov, ki varujejo zasebnost."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1467,7 +1467,7 @@ msgstr "Naša ekipa je bila obveščena. Takšna poročila nam pomagajo odgnati 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "Vnesite potrditveno kodo <span class=\"card-subheader\">svojega Firefox Računa</span>"
+msgstr "Vnesite potrditveno kodo <span class=\"card-subheader\">svojega Firefox računa</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1541,7 +1541,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
-msgstr "Firefox Računi"
+msgstr "Firefox računi"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1699,7 +1699,7 @@ msgstr "za nadaljevanje v %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "V vašem Firefox Računu smo zaznali sumljivo dejavnost. Za zaščito računa nastavite novo geslo. S tem geslom se boste znova prijavili v vse storitve svojega Firefox Računa."
+msgstr "V vašem Firefox računu smo zaznali sumljivo dejavnost. Za zaščito računa nastavite novo geslo. S tem geslom se boste znova prijavili v vse storitve svojega Firefox računa."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1743,7 +1743,7 @@ msgstr "Povezavi, ki ste jo kliknili, manjka nekaj znakov. Morda jo je pokvaril 
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
-msgstr "Ustvarite Firefox Račun"
+msgstr "Ustvarite Firefox račun"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
