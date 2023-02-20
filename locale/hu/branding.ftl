@@ -21,7 +21,11 @@
         [instrumental] Mozillával
        *[nominative] Mozilla
     }
--brand-firefox = Firefox
+-brand-firefox =
+    { $case ->
+        [lower] firefox
+       *[upper] Firefox
+    }
 # "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox-fiókok

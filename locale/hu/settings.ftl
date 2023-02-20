@@ -96,45 +96,6 @@ device-info-browser-os = { $browserName } ezen: { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-cím: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla =
-    { $case ->
-       *[nominative] Mozilla
-        [accusative] Mozillát
-        [instrumental] Mozillával
-    }
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox-fiókok
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox-fiók
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -154,12 +115,15 @@ form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } fiók-helyreállítási kulcs
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } tartalék hitelesítési kódok
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Letöltés
-get-data-trio-copy =
+    .aria-label = Letöltés
+get-data-trio-copy-2 =
     .title = Másolás
-get-data-trio-print =
+    .aria-label = Másolás
+get-data-trio-print-2 =
     .title = Nyomtatás
+    .aria-label = Nyomtatás
 
 ## Images - these are all aria labels used for illustrations
 
@@ -180,6 +144,8 @@ input-password-hide = Jelszó elrejtése
 input-password-show = Jelszó megjelenítése
 input-password-hide-aria = Jelszó elrejtése a képernyőn.
 input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Vissza
 
 ## LinkDamaged component
 
@@ -234,6 +200,8 @@ password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne haszná
 ## Ready component
 
 reset-password-complete-header = A jelszó vissza lett állítva
+ready-complete-set-up-instruction = Fejezze be a beállítást az új jelszó megadásával a többi { -brand-firefox(case: "lower") }os eszközén.
+ready-start-browsing-button = Böngészés megkezdése
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -314,10 +282,10 @@ cs-disconnect-sync-heading = Leválás a Syncről
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Böngészési adatai megmaradnak a(z) { $device } eszközön,
+cs-disconnect-sync-content-3 =
+    Böngészési adatai megmaradnak a(z) <span>{ $device }</span> eszközön,
     de nem szinkronizálódnak a fiókjával.
-cs-disconnect-sync-reason-2 = Mi a fő oka a(z) { $device } eszköz leválasztásának?
+cs-disconnect-sync-reason-3 = Mi a fő oka a(z) <span>{ $device }</span> eszköz leválasztásának?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -380,7 +348,7 @@ header-menu-open = Menü bezárása
 header-menu-closed = Webhely navigációs menü
 header-back-to-top-link =
     .title = Vissza a tetejére
-header-title = { -product-firefox-accounts }
+header-title = Firefox-fiók
 header-help = Súgó
 
 ## Linked Accounts section
@@ -820,6 +788,33 @@ cannot-create-account-requirements = Bizonyos korkövetelményeknek meg kell fel
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = További tudnivalók
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Bejelentkezett a { -brand-firefox }ba
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail-cím megerősítve
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Bejelentkezés megerősítve
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Jelentkezzen be ebbe a { -brand-firefox }ba a beállítás befejezéséhez
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Bejelentkezés
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Még ad hozzá eszközöket? Jelentkezzen be a { -brand-firefox }ba egy másik eszközről a beállítás befejezéséhez
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Jelentkezzen be a { -brand-firefox }ba egy másik eszközről a beállítás befejezéséhez
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Szeretné átvinni lapjait, könyvjelzőit és jelszavait egy másik eszközre?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Másik eszköz csatlakoztatása
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Most nem
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Jelentkezzen be a { -brand-firefox } for Androidba a beállítás befejezéséhez
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Jelentkezzen be a { -brand-firefox } for iOS-be a beállítás befejezéséhez
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -869,21 +864,7 @@ inline-totp-setup-cancel-setup-button = Beállítás megszakítása
 inline-totp-setup-continue-button = Folytatás
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adjon egy biztonsági réteget a fiókjához az <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> egyikéből származó hitelesítési kódok megkövetelésével.
-#  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepDefaultSpan>a fiókbeállításokhoz való továbblépéshez</enable2StepDefaultSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Engedélyezze a kétlépcsős hitelesítést <enable2StepCustomServiceSpan>a következőhöz való továbblépéshez: { $serviceName }</enable2StepCustomServiceSpan>
 inline-totp-setup-ready-button = Kész
-# The authentication code a user is scanning is a QR code.
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Olvassa le a hitelesítési kódot <scanAuthCodeHeaderSpan>a következőhöz való továbblépéshez: { $serviceName }</scanAuthCodeHeaderSpan>
-# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Írja be kézileg a kódot <enterCodeManuallyHeaderSpan>, hogy továbblépjen a következőhöz: { $serviceName }</enterCodeManuallyHeaderSpan>
-# The authentication code a user is scanning is a QR code.
-# The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Olvassa le a hitelesítési kódot <scanAuthHeaderSpan>a fiókbeállításokhoz való továbblépéshez</scanAuthHeaderSpan>
-# The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Írja be kézileg a kódot a <enterCodeManuallyHeaderSpan>fiókbeállításokhoz való továbblépéshez: { $serviceName }</enterCodeManuallyHeaderSpan>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Írja be ezt a titkos kulcsot a hitelesítő alkalmazásba. <toggleToQRButton>Inkább beolvassa a QR-kódot?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -892,6 +873,22 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Olvassa be a QR-kódot a hi
 inline-totp-setup-on-completion-description = Ha kész, megkezdi az Ön hitelesítési kódjainak előállítását.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Hitelesítési kód
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+
+## AuthAllow page - Part of the device pairing flow
+
+
+## PairAuthComplete page - part of the device pairing flow
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -906,12 +903,11 @@ pair-wait-for-supp-heading-text = Most jóváhagyás szükséges <span>a másik 
 pair-failure-header = A párosítás sikertelen
 pair-failure-message = A beállítási folyamat megszakításra került.
 
+## Pair index page
+
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Eszköz csatlakoztatva
-pair-success-message =
-    .aria-label = A párosítás sikeres volt.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -930,6 +926,9 @@ pair-supp-allow-cancel-link = Mégse
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik eszközéről</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
