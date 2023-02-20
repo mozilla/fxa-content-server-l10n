@@ -805,6 +805,8 @@ connect-another-device-cad-link = Conectar otro dispositivo
 connect-another-device-not-now-link = Ahora no
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
 connect-another-device-android-complete-setup-message = Conectarse a { -brand-firefox } para Android para completar la configuración
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Conectarse a { -brand-firefox } para iOS para completar la configuración
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -855,7 +857,21 @@ inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Añade una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Habilita la autenticación en dos pasos <span>para continuar con la configuración de la cuenta</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Habilita la autenticación en dos pasos <span>para continuar con { $serviceName }</span>
 inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Escanea el código de autenticación<span>para continuar con { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Ingresa manualmente el código <span>para continuar con { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Escanea el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ingresa manualmente el código <span>para continuar con la configuración de la cuenta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Escribe esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear el código QR en su lugar?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -868,18 +884,40 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legal
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Términos del servicio
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Política de privacidad
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Política de privacidad
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Términos del servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ¿Acabas de conectarte en { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Sí, aprobar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si no has sido tú, <link>cambia tu contraseña</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispositivo conectado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
+pair-auth-complete-sync-benefits-text = Ahora puedes acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
+pair-auth-complete-see-tabs-button = Mira las pestañas de otros dispositivos
 pair-auth-complete-manage-devices-link = Administrar dispositivos
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -899,6 +937,18 @@ pair-failure-message = Proceso de configuración terminado.
 
 pair-sync-header = Sincronizar { -brand-firefox } en tu teléfono o tablet
 pair-cad-header = Conectar { -brand-firefox } en otro dispositivo
+pair-already-have-firefox-paragraph = ¿Ya tienes { -brand-firefox } en un teléfono o tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronizar tu dispositivo
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = O descargar
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Escanea para descargar { -brand-firefox } para dispositivos móviles o envíate un <linkExternal>enlace de descarga</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ahora no
+pair-take-your-data-message = Lleva tus pestañas, marcadores y contraseñas a cualquier parte donde uses { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Empezar
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Código QR
 
@@ -981,6 +1031,8 @@ confirm-pw-reset-header = Correo de reinicio enviado
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Haz clic en el enlace enviado a { $email } dentro de la próxima hora para crear una nueva contraseña.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Correo reenviado. Añade { $accountsEmail } a tus contactos para asegurar la recepción.
 
 ## ResetPassword page
 
