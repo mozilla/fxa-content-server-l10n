@@ -773,6 +773,8 @@ connect-another-device-signin-to-complete-message = Kurulumu tamamlamak için bu
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Giriş yap
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Hâlâ cihaz mı ekliyorsunuz? Kurulumu tamamlamak için başka bir cihazdan { -brand-firefox }’a giriş yapın
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = Kurulumu tamamlamak için başka bir cihazdan { -brand-firefox }’a giriş yapın
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
 connect-another-device-get-data-on-another-device-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı başka cihazlarda da kullanmak ister misiniz?
