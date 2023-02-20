@@ -200,7 +200,7 @@ password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag aildd
 ## Ready component
 
 reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
-ready-complete-set-up-instruction = Cwblhewch y gosod drwy gynnig eich cyfrinair ar eich dyfeisiau { -brand-firefox } eraill.
+ready-complete-set-up-instruction = Cwblhewch y gosod drwy roi eich cyfrinair ar eich dyfeisiau { -brand-firefox } eraill.
 ready-start-browsing-button = Cychwyn pori
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -861,20 +861,20 @@ inline-totp-setup-continue-button = Parhau
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau dilysu o un o'r <authenticationAppsLink>apiau dilysu hyn</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = Galluogwch ddilysu dau gam <span>i barhau i osodiadau'r cyfrif</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Galluogwch ddilysu dau gam <span>i fynd i osodiadau'r cyfrif</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = Galluogwch ddilysu dau-gam <span>i barhau i { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Galluogwch ddilysu dau-gam <span>i fynd i { $serviceName }</span>
 inline-totp-setup-ready-button = Yn barod
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header-2 = Sganiwch y cod dilysu <span>i barhau i { $serviceName }</span>
+inline-totp-setup-show-qr-custom-service-header-2 = Sganiwch y cod dilysu <span>i fynd i { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header-2 = Rhowch y cod â llaw <span>i barhau i { $serviceName }</span>
+inline-totp-setup-no-qr-custom-service-header-2 = Rhowch y cod â llaw <span>i fynd i { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header-2 = Sganiwch y cod dilysu <span>i barhau i osodiadau'r cyfrif</span>
+inline-totp-setup-show-qr-default-service-header-2 = Sganiwch y cod dilysu <span>i fynd i osodiadau'r cyfrif</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header-2 = Rhowch y cod â llaw <span>i barhau i osodiadau'r cyfrif</span>
+inline-totp-setup-no-qr-default-service-header-2 = Rhowch y cod â llaw <span>i fynd i osodiadau'r cyfrif</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Teipiwch yr allwedd gyfrinachol hon yn eich ap dilysu. <toggleToQRButton>Sganio cod QR yn lle hynny?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
