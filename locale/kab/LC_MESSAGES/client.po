@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-20 09:11+0000\n"
+"PO-Revision-Date: 2023-02-20 09:19+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -544,7 +544,7 @@ msgstr "Asebdad-agi ur ittisefrak ara"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Fakk asesteb n umiḍan, ttxil-k·m <a href=\"/reset_password\">wennez awal uffir</a> i wakken a tkemmleḍ."
 
 #: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
@@ -684,15 +684,15 @@ msgstr "Yir tangalt n usesteb s snat n tarrayin"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Tangalt n usesteb n uḥraz tettwasra"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Tangalt n usesteb n uḥraz d tarameɣtut"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Tasarutt n tririt n umiḍan tettwasra"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
@@ -900,7 +900,7 @@ msgstr "Awi aseγwen amaynut"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Wennez awal uffir s tsarutt n tririt n umiḍan"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -913,7 +913,7 @@ msgstr "Kemmel di %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Sekcem tasarutt n tririt n umiḍan ara tesqedceḍ tikkelt kan, i teskelseḍ deg umḍiq aɣelsan akken ad tkecmeḍ ɣer umiḍan-ik/im Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -980,7 +980,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Terriḍ-d akken iwata amiḍan-ik·im s tsarutt n tririt n umiḍan. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1016,7 +1016,7 @@ msgstr "Sit akken ad d-remseḍ aseɣwen n usentem amaynut"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Aseɣwen n usentem yerreẓ"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1067,7 +1067,7 @@ msgstr "i umiḍan-ik:im Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Sekcem tangalt i ak·am-n-yettwaznen ɣer %(escapedEmail)s eg 5 n tesdatin i d-iteddun."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1093,7 +1093,7 @@ msgstr "Qqen ibenk nniḍen"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Teqqneḍ ɣer Firefox"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
@@ -1121,7 +1121,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Mačči tura"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1172,7 +1172,7 @@ msgstr "Tettuḍ awal uffir?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Kemmel ɣer yimiḍanen n Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1196,7 +1196,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Sekles tingalin n usesteb n uḥraz"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1227,7 +1227,7 @@ msgstr "Sefsex asebeddi"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Sentem tangalt n usesteb n uḥraz"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
