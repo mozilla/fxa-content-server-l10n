@@ -543,7 +543,7 @@ verificationReminderSecond-second-description = 您的 { -product-firefox-accoun
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
 verify-title-2 = 使用 { -brand-firefox } 打开互联网
-verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
+verify-description = 确认您的账户，即可在任何登录的设备中，解锁 { -brand-firefox } 高阶体验：
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
 # Variables:
@@ -581,6 +581,6 @@ verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证
 verifyShortCode-subject-3 = 验证您的账户
 verifyShortCode-title-2 = 使用 { -brand-firefox } 打开互联网
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = 验证您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
+verifyShortCode-title-subtext = 验证您的账户，即可在任何登录的设备中，解锁 { -brand-firefox } 高阶体验：
 verifyShortCode-prompt-3 = 请使用此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
