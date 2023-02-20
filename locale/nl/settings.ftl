@@ -96,40 +96,6 @@ device-info-browser-os = { $browserName } op { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adres: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox-accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox-account
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -149,12 +115,15 @@ form-reset-password-with-balloon-match-error = Wachtwoorden komen niet overeen
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountherstelsleutel
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-authenticatiecodes
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Downloaden
-get-data-trio-copy =
+    .aria-label = Downloaden
+get-data-trio-copy-2 =
     .title = Kopiëren
-get-data-trio-print =
+    .aria-label = Kopiëren
+get-data-trio-print-2 =
     .title = Afdrukken
+    .aria-label = Afdrukken
 
 ## Images - these are all aria labels used for illustrations
 
@@ -175,6 +144,8 @@ input-password-hide = Wachtwoord verbergen
 input-password-show = Wachtwoord tonen
 input-password-hide-aria = Wachtwoord op scherm verbergen
 input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal zichtbaar zijn op het scherm.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Terug
 
 ## LinkDamaged component
 
@@ -229,6 +200,8 @@ password-strength-balloon-stay-safe-tips = Blijf veilig – Gebruik wachtwoorden
 ## Ready component
 
 reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
+ready-complete-set-up-instruction = Voltooi de installatie door uw nieuwe wachtwoord op uw andere { -brand-firefox }-apparaten in te vullen.
+ready-start-browsing-button = Beginnen met browsen
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -309,10 +282,10 @@ cs-disconnect-sync-heading = Verbinding met Sync verbreken
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Uw navigatiegegevens blijven op { $device } bestaan,
+cs-disconnect-sync-content-3 =
+    Uw navigatiegegevens blijven op <span>{ $device }</span> bestaan,
     maar er wordt niet meer met uw account gesynchroniseerd.
-cs-disconnect-sync-reason-2 = Wat is de belangrijkste reden om { $device } te ontkoppelen?
+cs-disconnect-sync-reason-3 = Wat is de belangrijkste reden om <span>{ $device }</span> te ontkoppelen?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -817,6 +790,33 @@ cannot-create-account-requirements = U moet aan bepaalde leeftijdscriteria voldo
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Meer info
 
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = U bent aangemeld bij { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mailadres bevestigd
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Aanmelding bevestigd
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Meld u aan bij deze { -brand-firefox } om de installatie te voltooien
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Aanmelden
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Wilt u meer apparaten toevoegen? Meld u aan bij { -brand-firefox } op een ander apparaat om de installatie te voltooien
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Meld u aan bij { -brand-firefox } op een ander apparaat om de installatie te voltooien
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Wilt u toegang tot uw tabbladen, bladwijzers en wachtwoorden op een ander apparaat?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Een ander apparaat verbinden
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Niet nu
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Meld u aan bij { -brand-firefox } voor Android om de installatie te voltooien
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Meld u aan bij { -brand-firefox } voor iOS om de installatie te voltooien
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -867,20 +867,20 @@ inline-totp-setup-continue-button = Doorgaan
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Voeg een beveiligingslaag toe aan uw account door beveiligingscodes van een van <authenticationAppsLink>deze apps voor authenticatie</authenticationAppsLink> te vereisen.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header = Schakel tweestapsauthenticatie in <enable2StepDefaultSpan>om door te gaan naar uw accountinstellingen</enable2StepDefaultSpan>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Schakel tweestapsauthenticatie in <span>om door te gaan naar uw accountinstellingen</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header = Schakel tweestapsauthenticatie in <enable2StepCustomServiceSpan>om door te gaan naar { $serviceName }</enable2StepCustomServiceSpan>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Schakel tweestapsauthenticatie in <span>om door te gaan naar { $serviceName }</span>
 inline-totp-setup-ready-button = Gereed
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header = Scan uw authenticatiecode <scanAuthCodeHeaderSpan>om door te gaan naar { $serviceName }</scanAuthCodeHeaderSpan>
+inline-totp-setup-show-qr-custom-service-header-2 = Scan uw authenticatiecode <span>om door te gaan naar { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-custom-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar { $serviceName }</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-custom-service-header-2 = Voer handmatig uw code in <span>om door te gaan naar { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header = Scan uw authenticatiecode <scanAuthHeaderSpan>om door te gaan naar uw accountinstellingen</scanAuthHeaderSpan>
+inline-totp-setup-show-qr-default-service-header-2 = Scan uw authenticatiecode <span>om door te gaan naar uw accountinstellingen</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
-inline-totp-setup-no-qr-default-service-header = Voer de code handmatig in <enterCodeManuallyHeaderSpan>om door te gaan naar uw accountinstellingen</enterCodeManuallyHeaderSpan>
+inline-totp-setup-no-qr-default-service-header-2 = Voer handmatig uw code in <span>om door te gaan naar accountinstellingen</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Typ deze geheime sleutel in uw authenticatie-app. <toggleToQRButton>QR-code scannen?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -889,6 +889,45 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-code in uw authe
 inline-totp-setup-on-completion-description = Na voltooiing worden authenticatiecodes voor u gegenereerd die u kunt invoeren.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authenticatiecode
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Juridisch
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Servicevoorwaarden
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Privacyverklaring
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Privacyverklaring
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Servicevoorwaarden
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Hebt u zich zojuist aangemeld bij { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ja, apparaat goedkeuren
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Als u dit niet was, <link>wijzig dan uw wachtwoord</link>
+
+## PairAuthComplete page - part of the device pairing flow
+
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Apparaat verbonden
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = U synchroniseert nu met: { $deviceFamily } op { $deviceOS }
+pair-auth-complete-sync-benefits-text = U hebt nu op al uw apparaten toegang tot uw geopende tabbladen, wachtwoorden en bladwijzers.
+pair-auth-complete-see-tabs-button = Tabbladen van gesynchroniseerde apparaten bekijken
+pair-auth-complete-manage-devices-link = Apparaten beheren
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -903,12 +942,29 @@ pair-wait-for-supp-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 pair-failure-header = Koppelen mislukt
 pair-failure-message = Het installatieproces is beëindigd.
 
+## Pair index page
+
+pair-sync-header = { -brand-firefox } synchroniseren op uw telefoon of tablet
+pair-cad-header = { -brand-firefox } verbinden op een ander apparaat
+pair-already-have-firefox-paragraph = Hebt u al { -brand-firefox } op een telefoon of tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Uw apparaat synchroniseren
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Of downloaden
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scan om { -brand-firefox } voor mobiel te downloaden, of stuur uzelf een <linkExternal>downloadkoppeling</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Niet nu
+pair-take-your-data-message = Neem uw tabbladen, bladwijzers en wachtwoorden overal mee waar u { -brand-firefox } gebruikt.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Beginnen
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-code
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
-pair-success-header =
-    .aria-label = Apparaat verbonden
-pair-success-message =
-    .aria-label = Koppelen gelukt.
+pair-success-header-2 = Apparaat verbonden
+pair-success-message-2 = Koppelen gelukt.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -927,6 +983,11 @@ pair-supp-allow-cancel-link = Annuleren
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Goedkeuring <span>vanaf uw andere apparaat</span> nu vereist
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Koppelen via een app
+pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een { -brand-firefox }-app.
 
 ## AccountRecoveryConfirmKey page
 
@@ -979,6 +1040,8 @@ confirm-pw-reset-header = E-mailbericht voor herinitialisatie verzonden
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik binnen een uur op de koppeling die naar { $email } is verzonden om een nieuw wachtwoord aan te maken.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
 
 ## ResetPassword page
 
@@ -994,6 +1057,7 @@ reset-password-button = Herinitialisatie beginnen
 reset-password-success-alert = Wachtwoord opnieuw instellen
 reset-password-error-general = Sorry, er is een probleem opgetreden bij het opnieuw instellen van uw wachtwoord
 reset-password-error-unknown-account = Onbekende account
+reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
 reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account
 
