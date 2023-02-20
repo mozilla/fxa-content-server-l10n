@@ -92,9 +92,23 @@ device-info-block-location-unknown = Adig d arussin
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } ɣef { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Tansa IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Awal uffir
+signup-confirm-password-label =
+    .label = Sekcem tikelt nniḍen awal uffir
+signup-submit-button = Rnu amiḍan
+form-reset-password-with-balloon-new-password =
+    .label = Awal uffir amaynut
+form-reset-password-with-balloon-confirm-password =
+    .label = Sekcem tikkelt-nniḍen awal uffir
+form-reset-password-with-balloon-submit-button = Wennez awal uffir
+form-reset-password-with-balloon-match-error = Awalen uffiren ur mṣadan ara
 
 # GetDataTrio component, part of Account Recovery Key flow
 
