@@ -154,7 +154,7 @@ subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-nam
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = 获取更多信息，请访问 { -brand-mozilla } 用户支持：{ $supportUrl }。
+support-message-2 = 如需了解更多信息，请访问 { -brand-mozilla } 用户支持：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -236,7 +236,7 @@ lowRecoveryCodes-subject-2 =
 newDeviceLogin-subject = { $clientName } 有新的登录活动
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用于登录
+newDeviceLogin-title-2 = 您的 { -product-firefox-account }有登录活动
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="passwordChangeLink">请更改您的密码</a>。
