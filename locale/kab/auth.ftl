@@ -188,6 +188,8 @@ view-invoice = <a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
 view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Laqen sin i umtawi
 cadReminderFirst-description-2 = Yuḥwaǧ tasint kan ad yemtawi.
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title-2 = Ur tettu ara amtawi!
