@@ -280,6 +280,10 @@ cs-disconnect-sync-heading = Datgysylltu o Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Bydd eich data pori yn aros ar <span>{ $device }</span>,
+    ond ni fydd yn cydweddu â'ch cyfrif bellach.
+cs-disconnect-sync-reason-3 = Beth yw'r prif reswm dros ddatgysylltu <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -782,6 +786,30 @@ cannot-create-account-learn-more-link = Dysgu rhagor
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Rydych wedi mewngofnodi i { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-bost wedi'i gadarnhau
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Mewngofnodi wedi ei gadarnhau
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Mewngofnodwch i'r { -brand-firefox } hwn i gwblhau'r gosod
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Mewngofnodi
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Yn dal i ychwanegu dyfeisiau? Mewngofnodwch i { -brand-firefox } ar ddyfais arall i orffen y gosod
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Mewngofnodwch i { -brand-firefox } ar ddyfais arall i orffen y gosod
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Eisiau cael eich tabiau, nodau tudalen, a chyfrineiriau ar ddyfais arall?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Cysylltu dyfais arall
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Nid nawr
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Mewngofnodwch i { -brand-firefox } Android i orffen y gosod
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Mewngofnodwch i { -brand-firefox } iOS i orffen y gosod
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -832,7 +860,21 @@ inline-totp-setup-cancel-setup-button = Diddymu'r gosodiad
 inline-totp-setup-continue-button = Parhau
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau dilysu o un o'r <authenticationAppsLink>apiau dilysu hyn</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Galluogwch ddilysu dau gam <span>i barhau i osodiadau'r cyfrif</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Galluogwch ddilysu dau-gam <span>i barhau i { $serviceName }</span>
 inline-totp-setup-ready-button = Yn barod
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Sganiwch y cod dilysu <span>i barhau i { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Rhowch y cod â llaw <span>i barhau i { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Sganiwch y cod dilysu <span>i barhau i osodiadau'r cyfrif</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Rhowch y cod â llaw <span>i barhau i osodiadau'r cyfrif</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Teipiwch yr allwedd gyfrinachol hon yn eich ap dilysu. <toggleToQRButton>Sganio cod QR yn lle hynny?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -845,18 +887,41 @@ inline-totp-setup-security-code-placeholder = Cod dilysu
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Cyfreithiol
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Amodau Gwasanaeth
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Hysbysiad Preifatrwydd
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Hysbysiad Preifatrwydd
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Amodau Gwasanaeth
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = A ydych chi newydd fewngofnodi i { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Iawn, yn cymeradwyo'r ddyfais
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Os nad chi oedd hwn, <link>newidiwch eich cyfrinair</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dyfais wedi'i gysylltu
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Rydych nawr yn cydweddu â: { $deviceFamily } ar { $deviceOS }
+pair-auth-complete-sync-benefits-text = Nawr gallwch chi gael mynediad i'ch tabiau agored, cyfrineiriau a nodau tudalen ar eich holl ddyfeisiau.
+pair-auth-complete-see-tabs-button = Gweld tabiau o ddyfeisiau wedi'u cydweddu
+pair-auth-complete-manage-devices-link = Rheoli dyfeisiau
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -873,9 +938,27 @@ pair-failure-message = Cafodd y broses osod ei derfynu.
 
 ## Pair index page
 
+pair-sync-header = Cydweddwch { -brand-firefox } ar eich ffôn neu dabled
+pair-cad-header = Cysylltwch { -brand-firefox } ar ddyfais arall
+pair-already-have-firefox-paragraph = Oes gennych chi { -brand-firefox } ar ffôn neu dabled yn barod?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Cydweddwch eich dyfais
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Neu lwytho i lawr
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Sganiwch i lwytho i lawr { -brand-firefox } ar gyfer ffôn symudol, neu anfonwch <linkExternal>dolen llwytho i lawr</linkExternal> i chi'ch hun.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Nid nawr
+pair-take-your-data-message = Ewch â'ch tabiau, nodau tudalen, a chyfrineiriau i le bynnag rydych chi'n defnyddio { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Cychwyn arni
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Cod QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dyfais wedi'i gysylltu
+pair-success-message-2 = Roedd y paru'n llwyddiant.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -897,6 +980,8 @@ pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Paru gan ddefnyddio ap
+pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -949,6 +1034,8 @@ confirm-pw-reset-header = Wedi anfon yr e-bost ailosod
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at { $email } o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
 
 ## ResetPassword page
 
@@ -964,6 +1051,7 @@ reset-password-button = Cychwyn ailosod
 reset-password-success-alert = Ailosod cyfrinair
 reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
 reset-password-error-unknown-account = Cyfrif anhysbys
+reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
 
