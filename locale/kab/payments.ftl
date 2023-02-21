@@ -64,8 +64,8 @@ new-user-sign-in-link = Tesεiḍ yakan amiḍan { -brand-name-firefox }? <a>Qqe
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .label = Sekcem imayl-ik·im
+new-user-enter-email =
+    .label = Sekcem imayl inek
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
 new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg { -brand-name-firefox }
@@ -180,6 +180,12 @@ plan-details-total-label = Asemday
 
 product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Sbadu amulteɣ-ik·im
@@ -204,34 +210,12 @@ document =
 close-aria =
     .aria-label = Mdel
 settings-subscriptions-title = Ajerred
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Tangalt promo
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } n wass
-       *[other] { $amount } yal { $intervalCount } ass
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } n dduṛt
-       *[other] { $amount } yal { $intervalCount } dduṛt
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } n wayyur
-       *[other] { $amount } yal { $intervalCount } ayyur
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } n useqqas
-       *[other] { $amount } yal { $intervalCount } aseggas
-    }
 
 ## Error messages
 
@@ -324,34 +308,6 @@ sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } yal ass
-       *[other] { $amount } yal { $intervalCount } n wussan
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } yal imalas
-       *[other] { $amount }{ $amount } yal { $intervalCount } n yimalasen
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } yal ayyur
-       *[other] { $amount } yal { $intervalCount } n wayyuren
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } yal aseggas
-       *[other] { $amount } yal { $intervalCount } n yiseggasen
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Allus n urmad n ujerred ur yeddi ara
@@ -373,6 +329,7 @@ sub-customer-error =
 sub-invoice-error =
     .title = Ugur deg usali n tfaṭurin
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
+sub-invoice-previews-error-title = Ugur deg usali n teskanin n tfaṭurin
 
 ## Routes - Subscription - ActionButton
 
@@ -380,6 +337,8 @@ pay-update-change-btn = Snifel
 pay-update-manage-btn = Sefrek
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Afetter i d-itteddun deg { $date }

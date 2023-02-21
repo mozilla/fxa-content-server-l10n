@@ -915,31 +915,58 @@ signin-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Kemmel ɣer { $serviceName }
 signin-button = Kcem
+signin-header = Kcem
+signin-use-a-different-account-link = Seqdec amiḍan nniḍen
+signin-forgot-password-link = Tettuḍ awal uffir?
+signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
+back = Ɣer deffir
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Sentem
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Ɣer deffir
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ur tezmireḍ ara ad tkecmeḍ?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Tanemmirt imi tettɛassaḍ
+signin-reported-message = Tarbaɛt-nneɣ teẓra. Ayen iɣ-d-yettwammalen am wagi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Sekcem tangalt s 6-izwilen
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Sentem
+signin-token-code-code-expired = Tangalt temmut?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Azen tangalt tamaynut.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Ldi asnas n usesteb sakin sekcem tangalt n tɣellist i d-imudd.
+signin-totp-code-input-label-v2 = Sekcem tangalt s 6-izwilen
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Sentem
+signin-totp-code-other-account-link = Seqdec amiḍan nniḍen
+signin-totp-code-recovery-code-link = Ugur deg usekcem n tengalt?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Sentem amiḍan inek
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -947,7 +974,24 @@ signin-button = Kcem
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Sekcem tangalt s 6-izwilen
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Sentem
+confirm-signup-code-code-expired = Tangalt temmut?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Azen tangalt tamaynut.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Sbadu awal uffir-ik
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Snifel imayl
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Acḥal awtay inek?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Yessefk ad tmuddeḍ awtay inek akken ad ternud amiḍan
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Ayɣer i nessutur?
