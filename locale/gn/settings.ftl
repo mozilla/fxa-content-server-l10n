@@ -96,40 +96,6 @@ device-info-browser-os = { $browserName } { $genericOSName }-pe
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP kundaharape: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox Account
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -820,6 +786,8 @@ cannot-create-account-learn-more-link = Kuaave
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Emoñepyrũ tembiapo { -brand-firefox }-pe
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Ñanduti veve moneĩmbyre
 # A "success" message visible to users who verified via sign-in
@@ -828,6 +796,8 @@ connect-another-device-signin-confirmed-banner = Tembiapo ñepyrũ moneĩmbyre
 connect-another-device-signin-to-complete-message = Eñepyrũ tembiapo { -brand-firefox }-pe embohekopa hag̃ua
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Eñepyrũ tembiapo
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ¿Embohetave mba’e’oka? Emoñepyrũ tembiapo { -brand-firefox }-pe ambue mba’e’okápe emohendapa hag̃ua
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Embojuaju ambue mba’e’oka
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
