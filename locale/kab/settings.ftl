@@ -772,22 +772,43 @@ inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Sefsex asebeddi
+inline-totp-setup-continue-button = Kemmel
+inline-totp-setup-ready-button = Yewjed
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Tangalt n usesteb
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Usḍif
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Tiwtilin n useqdec
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Tasertit n tbaḍnit
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Tasertit n tbaḍnit
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Tiwtilin n useqdec
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Teqqneḍ tura kan akka ɣer { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ih, qbel ibenk
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Ibenk yeqqen
+pair-auth-complete-see-tabs-button = Wali accaren seg yibenkan yemtawan
+pair-auth-complete-manage-devices-link = Sefrek ibenkan
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -796,17 +817,33 @@ inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Acuddu ur yeddi ara akken iwata
+pair-failure-message = Akala n usbeddi yeḥbes.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Mtawi abenkan-inek
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Neɣ sader
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Mačči tura
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Bdu
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Tangalt QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Ibenk yeqqen
+pair-success-message-2 = Acuddu yedda akken iwata.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Sentem acuddu
+pair-supp-allow-cancel-link = Sefsex
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -815,31 +852,69 @@ inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Cudd s usnas
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Sekcem tasarut n tririt n umiḍan
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Sentem tasarut n tririt n umiḍan
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Yir tasarut n tririt n umiḍan
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Tasarutt n tririt n umiḍan tettwasra
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Sekcem awal uffir amaynut
+account-restored-success-message = Terriḍ-d akken iwata amiḍan-ik·im s tsarutt n tririt n umiḍan. Rnu awal uffir amaynut akken ad ilin isefka-inek/inem d iɣelsanen, sekles-it deg umḍiq iwatan.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Awal uffir yettusbadu
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Sekcem awal uffir amaynut
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Awal uffir yettusbadu
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Wennez imayl yettwaznen
 
 ## ResetPassword page
 
+reset-password-button = Bdu awennez
+reset-password-success-alert = Awal uffir yettuwennez
+reset-password-error-unknown-account = Amiḍan arussin
+reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
+reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
+reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Tuccḍa:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Sentem tuqqna-agi
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Kemmel ɣer { $serviceName }
+signin-button = Kcem
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
