@@ -115,6 +115,15 @@ form-reset-password-with-balloon-match-error = Awalen uffiren ur mṣadan ara
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Tingalin n usesteb n uḥraz n { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Sader
+    .aria-label = Sader
+get-data-trio-copy-2 =
+    .title = Nɣel
+    .aria-label = Nɣel
+get-data-trio-print-2 =
+    .title = Siggez
+    .aria-label = Siggez
 
 ## Images - these are all aria labels used for illustrations
 
@@ -125,18 +134,41 @@ input-password-hide = Ffer awal uffir
 input-password-show = Sken awal uffir
 input-password-hide-aria = Ffer awal uffir deg ugdil.
 input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Ɣer deffir
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Wennez aseɣwen n wawal uffir ixeṣṛen
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Aseɣwen n usentem yerreẓ
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen.
 
 ## LinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Wennez aseɣwen n wawal uffir aqbuṛ
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Aseɣwen n usentem yezri
+reset-pwd-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad twennzeḍ awal inek uffir yezri.
+signin-link-expired-message = Aseɣwen ɣef i tsiteḍ akken ad tesnetmeḍ imayl inek yezri.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Awi aseγwen amaynut
 
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Tuqqna tettwasentem yakan
+confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -144,14 +176,23 @@ input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uff
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-min-length = Ma drus 8 yisekkilen
+password-strength-balloon-not-email = Mačči d tansa-k·m n yimayl
 
 ## Ready component
 
+reset-password-complete-header = Awla inek uffir yettuwennez
+ready-start-browsing-button = Bdu tunigin
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Aqla-k tura twejdeḍ i useqdec n { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Amiḍan inek ihegga!
 ready-continue = Kemmel
+sign-in-complete-header = Tuqqna tentem
+sign-up-complete-header = Amiḍan ittwasentem
+primary-email-verified-header = Imayl agejdan yettwasentem
 
 ## Alert Bar
 
@@ -171,6 +212,10 @@ avatar-default-avatar =
 
 bento-menu-title = Umuɣ Bento n { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
 bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
@@ -390,7 +435,16 @@ delete-account-header =
     .title = Kkes amiḍan
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
+delete-account-chk-box-1-v3 =
+    .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { -product-pocket })
 delete-account-chk-box-2 =
     .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -422,6 +476,9 @@ display-name-success-alert-2 = Isem n uskan yettusnifel
 
 ## Recent Activity
 
+recent-activity-account-create = Yettwarna umiḍan
+recent-activity-account-disable = Yensa umiḍan
+recent-activity-account-enable = Yermed umiḍan
 
 # Account recovery key setup page
 
