@@ -798,10 +798,18 @@ connect-another-device-signin-to-complete-message = Eñepyrũ tembiapo { -brand-
 connect-another-device-signin-link = Eñepyrũ tembiapo
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-still-adding-devices-message = ¿Embohetave mba’e’oka? Emoñepyrũ tembiapo { -brand-firefox }-pe ambue mba’e’okápe emohendapa hag̃ua
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Emoñepyrũ tembiapo { -brand-firefox }-pe ambue mba’e’okápe embohekopa hag̃ua
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ¿Erekose tendayke, techaukaha ha ñe’ẽñemi ambue mba’e’okápe?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Embojuaju ambue mba’e’oka
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ani ko’ág̃a
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Emoñepyrũ tembiapo { -brand-firefox }-pe Android peg̃uarã embohekopa hag̃ua
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Emoñepyrũ tembiapo { -brand-firefox }-pe iOS peg̃uarã embohekopa hag̃ua
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -816,6 +824,9 @@ cookies-disabled-learn-more = Kuaave
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Heja
@@ -862,6 +873,9 @@ pair-auth-allow-heading-text = ¿Eikeramoite { -product-firefox } ndive?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Hẽe, emboaje mba’e’oka
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Nandéiramo, <link>emoambue ne ñe’ẽñemi</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -988,6 +1002,7 @@ reset-password-button = Emoñepyrũ jeguerujey
 reset-password-success-alert = Eguerujey ñe’ẽñemi
 reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
 reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
+reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
 
