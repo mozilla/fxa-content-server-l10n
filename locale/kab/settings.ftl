@@ -721,23 +721,53 @@ auth-error-138-2 = Tiɣimit ur nettwasentem ara
 auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
 auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
+auth-error-999 = Tuccḍa ur nettwaṛǧi ara
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Ur yezmir ara ad yernu amiḍan
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Issin ugar
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Yettwasentem yimayl
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Tuqqna tentem
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Kcem
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Qqen ibenk-nniḍen
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Mačči tura
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Ɛreḍ tikelt nniḍen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Issin ugar
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Ḥrez tingalin n useqdec asuf deg umḍiq aɣelsan i wass ma yili ulac yibenk-ik aziraz.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Sefsex
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Kemmel
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Sentem
+inline-recovery-back-link = Ɣer deffir
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
