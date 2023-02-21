@@ -342,7 +342,7 @@ postVerifySecondary-subject = Альтернативну електронну п
 postVerifySecondary-title = Альтернативну електронну пошту додано
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Сповіщення безпеки та підтвердження входу тепер надсилатимуться на обидві адреси.
+postVerifySecondary-content-2 = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Відтепер сповіщення безпеки та підтвердження входу надсилатимуться на обидві адреси.
 postVerifySecondary-action = Керування обліковим записом
 recovery-subject = Відновити свій пароль
 recovery-title-2 = Забули свій пароль?
