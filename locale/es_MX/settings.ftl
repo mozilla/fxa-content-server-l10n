@@ -127,6 +127,8 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Una computadora y un número de teléfono y una imágen de un corazón roto en cada uno
 hearts-verified-image-aria-label =
     .aria-label = Una computadora y un teléfono móvil y una tableta con un corazón palpitante en cada uno
 signin-recovery-code-image-description =
@@ -765,16 +767,24 @@ cannot-create-account-learn-more-link = Saber más
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Has iniciado sesión en { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Correo electrónico confirmado
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Inicio de sesión confirmado
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Inicia sesión en este { -brand-firefox } para completar la configuración
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Iniciar sesión
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Conectar otro dispositivo
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ahora no
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Inicia sesión en { -brand-firefox } para Android para completar la configuración
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Inicia sesión en { -brand-firefox } para iOS para completar la configuración
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -936,6 +946,8 @@ confirm-pw-reset-header = Correo de restablecimiento enviado
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Haz clic en el enlace enviado por correo electrónico a { $email } dentro de la próxima hora para crear una nueva contraseña.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Correo reenviado. Agrega { $accountsEmail } a tus contactos para asegurar la entrega sin problemas.
 
 ## ResetPassword page
 
@@ -950,6 +962,7 @@ reset-password-button = Comenzar restablecimiento
 reset-password-success-alert = Restablecer contraseña
 reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu contraseña
 reset-password-error-unknown-account = Cuenta desconocida
+reset-password-with-recovery-key-verified-page-title = La contraseña se restableció exitosamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de la cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
 
@@ -963,6 +976,8 @@ validating-signin = Validando inicio de sesión…
 ## ConfirmSignin component
 
 confirm-signin-header = Confirma este inicio de sesión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Verifica tu correo electrónico para ver el enlace de confirmación de inicio de sesión enviado a { $email }
 
 ## Signin page
 
