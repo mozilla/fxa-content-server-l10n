@@ -934,10 +934,14 @@ pair-failure-message = Opáma pe ñemboheko rape.
 ## Pair index page
 
 pair-sync-header = Embojuehe { -brand-firefox } pumbyry térã tablétape
+pair-cad-header = Eipuru { -brand-firefox } ambue mba’e’okápe
+pair-already-have-firefox-paragraph = Erekóma { -brand-firefox } ne pumbyry térã tablétape
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Embojuehe ne mba’e’oka
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Térã emboguejy
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Emoha’ãnga emboguejy hag̃ua { -brand-firefox } pumbyrýpe g̃uarã térã emondo <linkExternal>mboguejy juajuha</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ani ko’ág̃a
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
