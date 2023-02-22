@@ -1073,6 +1073,8 @@ signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eipuru ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
+# $email (string) - The user's email.
+signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe nog̃uahẽi ha rojokóma mba’ete romo’ã hag̃ua mba’ekuaarã { -brand-firefox } pegua.
 # linkExternal is a link to a mozilla support
 signin-bounced-help = Kóva ha’erõ ñanduti veve oikóva, <linkExternal>emombe’u oréve</linkExternal> ha roipytyvõta erekojey hag̃ua ne mba’ete.
 signin-bounced-create-new-account = ¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva
@@ -1083,6 +1085,13 @@ back = Tapykue
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Ehai ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko ndive</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Ehai ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
 signin-recovery-code-instruction = Ikatúpa emoinge ayvu ñemoneĩrã jeykekoha oñeme’ẽva ndéve oñemboheko aja mokõi jekue’épe.
 signin-recovery-code-input-label = Emoinge ayvu ñemoneĩrã jeykekoha orekóva 10 tai
 # Form button to confirm if the backup authentication code entered by the user is valid
