@@ -864,6 +864,8 @@ inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>e
 
 inline-totp-setup-cancel-setup-button = Eheja ñemboheko
 inline-totp-setup-continue-button = Ku’ejey
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Embojuaju tekorosãve ne mba’etépe ejerurevévo ayvu ñemoneĩrã peteĩva <authenticationAppsLink>ko’ã tembipuru’i ñemoneĩrãvape</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Embojuruja ñemoneĩrã mokõi jeku’épe <span>eku’e hag̃ua mba’ete ñembohekópe</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
@@ -874,6 +876,11 @@ inline-totp-setup-ready-button = Oĩma
 inline-totp-setup-show-qr-custom-service-header-2 = Emoha’ãnga ayvu ñemoneĩrã <span>eku’e hag̃ua { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Ehai ayvu nde pópe <span>eku’ejey hag̃ua { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Emoha’ãnga ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ehai ayvu nde pópe <span>eku’e hag̃ua mba’ete ñembohekópe</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -944,6 +951,7 @@ pair-or-download-subheader = Térã emboguejy
 pair-scan-to-download-message = Emoha’ãnga emboguejy hag̃ua { -brand-firefox } pumbyrýpe g̃uarã térã emondo <linkExternal>mboguejy juajuha</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ani ko’ág̃a
+pair-take-your-data-message = Egueraha ne rendayke, techaukaha ha ñe’ẽñemi eipuruhápe { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Eñepyrũ
 # This is the aria label on the QR code image
@@ -975,6 +983,7 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Eike eipurúvo tembipuru’i
+pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembipuru’i rupive.
 
 ## AccountRecoveryConfirmKey page
 
