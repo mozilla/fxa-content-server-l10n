@@ -187,6 +187,7 @@ confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y 
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
+password-info-balloon-reset-risk-info = Un reinicio significa la posibilidad de perder datos como contraseñas y marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -508,6 +509,7 @@ recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create = Se creó la cuenta
 recent-activity-account-disable = La cuenta fue deshabilitada
 recent-activity-account-enable = La cuenta fue habilitada
+recent-activity-account-reset = Restablecimiento de contraseña iniciado en la cuenta
 
 # Account recovery key setup page
 
