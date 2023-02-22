@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-16 20:08+0000\n"
+"PO-Revision-Date: 2023-02-22 21:46+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -71,7 +71,7 @@ msgstr "Complete a configuração digitando a nova senha em seus outros disposit
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Agora você está pronto para fazer alterações em sua Conta Firefox."
+msgstr "Agora está tudo pronto para você fazer alterações na sua conta Firefox."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
@@ -200,7 +200,7 @@ msgstr "Autenticação em duas etapas ativada"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr "Chave de recuperação de conta Firefox"
+msgstr "Chave de recuperação da conta Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -916,7 +916,7 @@ msgstr "Continuar para %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua Conta Firefox."
+msgstr "Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua conta Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1702,7 +1702,7 @@ msgstr "para continuar para %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Detectamos comportamento suspeito na sua Conta Firefox. Para proteger sua conta, crie outra senha. Você usará essa senha para voltar a acessar todos os serviços da sua Conta Firefox."
+msgstr "Detectamos comportamento suspeito na sua conta Firefox. Para proteger sua conta, crie outra senha. Você usará essa senha para voltar a acessar todos os serviços da sua conta Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1746,7 +1746,7 @@ msgstr "O link que você clicou tinha caracteres faltando, ele pode ter aparecid
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
-msgstr "Criar uma Conta Firefox"
+msgstr "Criar uma conta Firefox"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
