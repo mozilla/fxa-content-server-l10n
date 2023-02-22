@@ -786,6 +786,7 @@ auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ndaikatúi emoheñói mba’ete
+cannot-create-account-requirements = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Kuaave
 
@@ -820,6 +821,7 @@ connect-another-device-ios-complete-setup-message = Emoñepyrũ tembiapo { -bran
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Eikotevẽ ñembyaty pepeguáva ha kookie
+cookies-disabled-enable-prompt = Emyandy umi kookie ha mbyatyha pypegua kundahárape eikekuaa hag̃ua { -product-firefox-accounts }-pe. Ejapóramo péicha hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Eha’ãjey
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -832,6 +834,12 @@ cookies-disabled-learn-more = Kuaave
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Erujey ayvu jeguerujeyrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Heja
@@ -843,6 +851,13 @@ inline-recovery-back-link = Tapykue
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Ayvu ñemoneĩrã jeykekoha
 inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã jeykekogua ñongatupyre.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko ndive</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Erujey ayvu jeguerujeyrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
