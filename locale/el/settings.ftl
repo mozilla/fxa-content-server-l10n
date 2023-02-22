@@ -70,87 +70,33 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (εκτίμηση)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (εκτίμηση)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (εκτίμηση)
 # Variable { $country } represent the estimated location of the user's device
 # For example, 'Canada (estimated)'
 device-info-block-location-country = { $country } (εκτίμηση)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Άγνωστη τοποθεσία
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } σε { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Διεύθυνση IP: { $ipAddress }
-
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Λογαριασμοί Firefox
-                [lower] λογαριασμοί Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Λογαριασμών Firefox
-                [lower] λογαριασμών Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Λογαριασμούς Firefox
-                [lower] λογαριασμούς Firefox
-            }
-    }
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Λογαριασμός Firefox
-                [lower] λογαριασμός Firefox
-            }
-        [gen]
-            { $capitalization ->
-               *[upper] Λογαριασμού Firefox
-                [lower] λογαριασμού Firefox
-            }
-        [acc]
-            { $capitalization ->
-               *[upper] Λογαριασμό Firefox
-                [lower] λογαριασμό Firefox
-            }
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
 
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
     .label = Κωδικός πρόσβασης
+signup-confirm-password-label =
+    .label = Επανάληψη κωδικού πρόσβασης
 signup-submit-button = Δημιουργία λογαριασμού
 form-reset-password-with-balloon-new-password =
     .label = Νέος κωδικός πρόσβασης
@@ -160,12 +106,15 @@ form-reset-password-with-balloon-new-password =
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
-get-data-trio-download =
+get-data-trio-download-2 =
     .title = Λήψη
-get-data-trio-copy =
+    .aria-label = Λήψη
+get-data-trio-copy-2 =
     .title = Αντιγραφή
-get-data-trio-print =
+    .aria-label = Αντιγραφή
+get-data-trio-print-2 =
     .title = Εκτύπωση
+    .aria-label = Εκτύπωση
 
 ## Images - these are all aria labels used for illustrations
 
@@ -176,6 +125,8 @@ input-password-hide = Απόκρυψη κωδικού πρόσβασης
 input-password-show = Εμφάνιση κωδικού πρόσβασης
 input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
 input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ως απλό κείμενο. Θα είναι ορατός στην οθόνη.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Πίσω
 
 ## LinkDamaged component
 
@@ -276,10 +227,6 @@ cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 =
-    Τα δεδομένα περιήγησής σας θα παραμείνουν στο { $device },
-    αλλά δεν θα συγχρονίζονται πλέον με τον λογαριασμό σας.
-cs-disconnect-sync-reason-2 = Ποιος είναι ο κύριος λόγος για την αποσύνδεση του { $device };
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -758,6 +705,9 @@ auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπ�
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 
+## Connect Another Device page
+
+
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
@@ -787,12 +737,42 @@ inline-totp-setup-continue-button = Συνέχεια
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+legal-header = Νομικά
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Όροι υπηρεσίας
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Σημείωση απορρήτου
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Σημείωση απορρήτου
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-terms-heading = Όροι υπηρεσίας
+
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Συνδεθείτε μόλις στο { -product-firefox };
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ναι, έγκριση συσκευής
+
+## PairAuthComplete page - part of the device pairing flow
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
 
 ## PairFailure - a view which displays on failure of the device pairing process
+
+
+## Pair index page
 
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
@@ -806,6 +786,9 @@ inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίη�
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
+
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
 ## AccountRecoveryConfirmKey page
@@ -829,7 +812,10 @@ complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσ
 ## ResetPassword page
 
 reset-password-button = Έναρξη επαναφοράς
+reset-password-success-alert = Έγινε επαναφορά του κωδικού πρόσβασης
+reset-password-error-general = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναφορά του κωδικού πρόσβασής σας
 reset-password-error-unknown-account = Άγνωστος λογαριασμός
+reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 
 ## CompleteSignin component
 
