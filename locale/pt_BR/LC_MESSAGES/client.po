@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-22 21:46+0000\n"
+"PO-Revision-Date: 2023-02-22 22:13+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1144,7 +1144,7 @@ msgstr "Cookies e armazenamento local são necessários"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Habilite cookies e armazenamento local em seu navegador para acessar Contas Firefox. Fazendo isso, são ativadas funcionalidades como lembrar de você entre sessões."
+msgstr "Habilite cookies e armazenamento local em seu navegador para acessar contas Firefox. Fazendo isso, são ativadas funcionalidades como lembrar de você entre sessões."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
