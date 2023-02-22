@@ -868,7 +868,19 @@ inline-totp-setup-continue-button = Trochgean
 inline-totp-setup-add-security-link = Foegje in befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan<authenticationAppsLink>dizze apps foar autentikaasje</authenticationAppsLink> te easkjen.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Skeakelje twastapsautentikaasje yn <span>om troch te gean nei jo accountynstellingen</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Skeakelje twastapsautentikaasje yn <span>om troch te gean nei { $serviceName }</span>
 inline-totp-setup-ready-button = Klear
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scan jo autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Fier hânmjittich jo koade yn <span>om troch te gean nei { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scan jo autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Fier hânmjittich jo koade yn <span>om troch te gean nei accountynstellingen</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Typ dizze geheime kaai yn jo autentikaasje-app. <toggleToQRButton>QR-koade scanne?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -939,6 +951,8 @@ pair-already-have-firefox-paragraph = Hawwe jo al { -brand-firefox } op in telef
 pair-sync-your-device-button = Jo apparaat syngronisearje
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Of downloade
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scan om { -brand-firefox } foar mobyl te downloaden, of stjoer josels in <linkExternal>downloadkeppeling</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = No net
 pair-take-your-data-message = Nim jo ljepblêden, blêdwizers en wachtwurden oeral mei hinne wêr’t jo { -brand-firefox } brûke.
