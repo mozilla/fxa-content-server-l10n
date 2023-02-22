@@ -412,12 +412,14 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
+delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Συγχρονισμός δεδομένων { -brand-firefox }
 delete-account-product-firefox-addons = Πρόσθετα { -brand-firefox }
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
 delete-account-chk-box-2 =
@@ -451,6 +453,10 @@ display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημ
 
 ## Recent Activity
 
+recent-activity-title = Πρόσφατη δραστηριότητα λογαριασμού
+recent-activity-account-create = Ο λογαριασμός δημιουργήθηκε
+recent-activity-account-disable = Ο λογαριασμός απενεργοποιήθηκε
+recent-activity-account-enable = Ο λογαριασμός ενεργοποιήθηκε
 
 # Account recovery key setup page
 
@@ -774,14 +780,21 @@ pair-auth-allow-confirm-button = Ναι, έγκριση συσκευής
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Όχι τώρα
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Κωδικός QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Η συσκευή συνδέθηκε
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Επιβεβαίωση σύζευξης
+pair-supp-allow-cancel-link = Ακύρωση
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -816,6 +829,8 @@ reset-password-success-alert = Έγινε επαναφορά του κωδικο
 reset-password-error-general = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναφορά του κωδικού πρόσβασής σας
 reset-password-error-unknown-account = Άγνωστος λογαριασμός
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
+reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
+reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
 
 ## CompleteSignin component
 
