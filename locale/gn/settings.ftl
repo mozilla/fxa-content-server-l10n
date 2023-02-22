@@ -127,6 +127,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Mohendaha ha pumbyry popegua korasõ jeka ra’ãnga reheve peteĩteĩvape
+hearts-verified-image-aria-label =
+    .aria-label = Mohendaha, pumbyry popegua ha tabléta korasõ otytýiva ra’ãnga reheve peteĩteĩvape
 signin-recovery-code-image-description =
     .aria-label = Kuatiaite orekóva moñe’ẽrã kañymby.
 signin-totp-code-image-label =
@@ -196,6 +200,7 @@ password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eipurujey �
 ## Ready component
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
+ready-complete-set-up-instruction = Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka { -brand-firefox } ndive.
 ready-start-browsing-button = Eikundaha ñepyrũ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
