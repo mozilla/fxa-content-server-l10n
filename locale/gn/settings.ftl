@@ -911,6 +911,10 @@ pair-auth-allow-refuse-device-link = Nandéiramo, <link>emoambue ne ñe’ẽñe
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Mba’e’oka oikepyréva
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Embojuehehína: { $deviceFamily } ndive { $deviceOS } rupi
+pair-auth-complete-sync-benefits-text = Eikekuaáma ne rendayke ijurujáva, ñe’ẽñemi ha techaukaha opavave ne mba’e’okápe.
 pair-auth-complete-see-tabs-button = Ehecha mba’e’oka mbojuehepyréva rendayke
 pair-auth-complete-manage-devices-link = Eñangareko mba’e’okáre
 
@@ -929,6 +933,7 @@ pair-failure-message = Opáma pe ñemboheko rape.
 
 ## Pair index page
 
+pair-sync-header = Embojuehe { -brand-firefox } pumbyry térã tablétape
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Embojuehe ne mba’e’oka
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
