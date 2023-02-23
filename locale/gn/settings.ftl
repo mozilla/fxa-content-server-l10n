@@ -1020,6 +1020,7 @@ account-recovery-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Emoheñói ñe’ẽñemi pyahu
+complete-reset-password-warning-message-2 = <span>Nemandu’ápa:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha, ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { -product-pocket } mba’ekuaarã naiñambuemo’ãi.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
@@ -1047,6 +1048,7 @@ reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’eje
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
+reset-password-warning-message-2 = <span>Haipy:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { -product-pocket } mba’ekuaarã noñemoambuemo’ãi.
 reset-password-button = Emoñepyrũ jeguerujey
 reset-password-success-alert = Eguerujey ñe’ẽñemi
 reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
