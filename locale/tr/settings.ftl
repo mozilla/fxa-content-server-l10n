@@ -849,6 +849,12 @@ inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } hizmeti
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu okutun
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = <span>Hesap ayarlarına devam etmek için</span> kodu girin
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Bu anahtarı kimlik doğrulama uygulamanıza yazın. <toggleToQRButton>Bunun yerine QR kodunu da okutabilirsiniz.</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Kimlik doğrulama uygulamanıza QR kodunu okutun ve karşısına gelen kimlik doğrulama kodunu buraya girin. <toggleToManualModeButton>Kodu okutamıyor musunuz?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-20 11:09+0000\n"
+"PO-Revision-Date: 2023-02-24 14:10+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1287,7 +1287,7 @@ msgstr "Hazır"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr "Yasal uyarılar"
+msgstr "Hukuki Bilgiler"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
