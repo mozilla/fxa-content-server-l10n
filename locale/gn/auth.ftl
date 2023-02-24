@@ -516,6 +516,7 @@ subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guiv
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua tuichaveháicha pe hembýva ko { $productPaymentCycleOld } guive.
+subscriptionUpgrade-content-charge-info-different-cycle = Rehepyme’ẽta peteĩ jeýnte { $paymentProrated }-pe ojehecha hag̃ua hepyvéva ne ñemboheraguapy hembýva ko { $productPaymentCycleOld } reheguágui. Ehepyme’ẽjeýtavo oútavape, pe tepykue ypyguáva iñambuéta { $paymentAmountOld } rupi { $productPaymentCycleOld } { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
