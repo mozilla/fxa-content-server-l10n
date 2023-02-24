@@ -881,6 +881,10 @@ inline-totp-setup-no-qr-custom-service-header-2 = Ehai ayvu nde pópe <span>eku�
 inline-totp-setup-show-qr-default-service-header-2 = Emoha’ãnga ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Ehai ayvu nde pópe <span>eku’e hag̃ua mba’ete ñembohekópe</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Emoinge mba’e ñemi ñemoneĩrã rembipuru’ípe. <toggleToQRButton>¿ Emoha’ãnga QR ayvu hekovia?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Emoha’ãnga QR ayvu ñemoneĩrã rembipuru’ípe ha upéi emoinge pe ayvu me’ẽmbyre. <toggleToManualModeButton>¿Ndaikatúi oñemoha’ãnga pe ayvu?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
 # The "authentication code" here refers to the code provided by an authentication app.
