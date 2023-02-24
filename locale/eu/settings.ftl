@@ -2,36 +2,58 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## Banner component
+## Used to show success, error or info messages
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefoxeko kontuak
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox kontua
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
 
-##
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
 
--google-play = Google Play
--app-store = App Store
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Deskargatuta
+datablock-copy =
+    .message = Kopiatuta
+datablock-print =
+    .message = Inprimatuta
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+## FormPasswordWithBalloons
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+## Images - these are all aria labels used for illustrations
+
+## Input Password
+
+input-password-hide = Ezkutatu pasahitza
+input-password-show = Erakutsi pasahitza
+input-password-hide-aria = Ezkutatu pasahitza pantailatik.
+input-password-show-aria = Erakutsi pasahitza testu arrunt modura. Zure pasahitza pantailan ikusi ahalko da.
+
+
+## LinkDamaged component
+
+## LinkExpired component
+
+## LinkRememberPassword component
+
+## LinkUsed component
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+## PasswordStrengthBalloon component
 
 ## Ready component
 
@@ -53,10 +75,6 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } Bento menua
 bento-menu-firefox-title = Zure lineako pribatutasunaren alde borrokatzen duen teknologia da { -brand-firefox }.
 
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
 bento-menu-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
 
@@ -122,15 +140,6 @@ cs-sign-out-button = Amaitu saioa
 
 ##
 
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = Deskargatuta
-datablock-copy =
-    .message = Kopiatuta
-datablock-print =
-    .message = Inprimatuta
-
 ## Data collection section
 
 # DropDownAvatarMenu component
@@ -146,15 +155,6 @@ drop-down-menu-sign-out = Amaitu saioa
 
 flow-container-back = Atzera
 
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-download =
-    .title = Deskargatu
-get-data-trio-copy =
-    .title = Kopiatu
-get-data-trio-print =
-    .title = Inprimatu
-
 # HeaderLockup component
 
 header-menu-open = Itxi menua
@@ -163,14 +163,6 @@ header-back-to-top-link =
     .title = Itzuli gora
 header-title = { -product-firefox-accounts }
 header-help = Laguntza
-
-## Input Password
-
-input-password-hide = Ezkutatu pasahitza
-input-password-show = Erakutsi pasahitza
-input-password-hide-aria = Ezkutatu pasahitza pantailatik.
-input-password-show-aria = Erakutsi pasahitza testu arrunt modura. Zure pasahitza pantailan ikusi ahalko da.
-
 
 ## Linked Accounts section
 
@@ -258,8 +250,6 @@ delete-account-header =
 delete-account-step-1-2 = 2tik 1. urratsa
 delete-account-step-2-2 = 2tik 2. urratsa
 
-delete-account-confirm-title-2 = Webean seguru eta produktibo mantentzen zaituzten { -brand-mozilla } produktuetara konektatu duzu zure { -product-firefox-account }:
-
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
 
 delete-account-chk-box-2 =
@@ -291,6 +281,9 @@ submit-display-name = Gorde
 cancel-display-name = Utzi
 
 ##
+
+## Recent Activity
+
 
 # Account recovery key setup page
 
@@ -436,6 +429,9 @@ tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 tfa-row-change-modal-confirm = Aldatu
 tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Kontu ezezaguna
@@ -443,3 +439,95 @@ auth-error-103 = Pasahitz okerra
 auth-error-110 = Token baliogabea
 auth-error-155 = Ez da TOTP tokena aurkitu
 auth-error-1008 = Pasahitz berriak desberdina izan behar du
+
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+## Connect Another Device page
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+## AuthAllow page - Part of the device pairing flow
+
+## PairAuthComplete page - part of the device pairing flow
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+## Pair index page
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+## AccountRecoveryConfirmKey page
+
+## Account recovery reset password page
+
+## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
+
+## Confirm Reset Password Component
+
+## ResetPassword page
+
+## CompleteSignin component
+
+## ConfirmSignin component
+
+## Signin page
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+# and a confirmation code has been sent to their email address.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+

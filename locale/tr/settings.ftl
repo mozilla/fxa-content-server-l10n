@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Parola tekrarı
 signup-submit-button = Hesap oluştur
+
 form-reset-password-with-balloon-new-password =
     .label = Yeni parola
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = Parolayı gizle
 input-password-show = Parolayı göster
 input-password-hide-aria = Parolayı ekrandan gizle.
 input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Geri
 
@@ -152,9 +154,11 @@ legal-back-button = Geri
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Onay bağlantısı zarar görmüş
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
 
@@ -179,8 +183,10 @@ remember-pw-link = Parolanızı hatırladınız mı? Giriş yapın
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
+
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
 
 ## PasswordInfoBalloon
@@ -228,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bento menüsü
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
 bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
+
 bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 
 ## Connect another device promo
@@ -247,6 +254,7 @@ connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya table
 connect-another-find-fx-mobile =
     { -google-play }’de ve { -app-store }’da { -brand-firefox }’u arayabilir veya
     <br /><linkExternal>cihazınıza indirme bağlantısı gönderebilirsiniz.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -255,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = { -brand-firefox }’u { -app-store }’dan indir
 
 ##
-
 
 ## Connected services section
 
@@ -270,10 +277,13 @@ cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } oturumu kapatıldı
+
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eksik veya çift kayıtlar mı var?
+
 cs-disconnect-sync-heading = Sync bağlantısını kes
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -304,11 +314,12 @@ cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı
 cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
+
 cs-sign-out-button = Çıkış yap
+
 cs-recent-activity = Son hesap etkinlikleri
 
 ##
-
 
 ## Data collection section
 
@@ -328,6 +339,7 @@ drop-down-menu-title = { -product-firefox-account } menüsü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
 drop-down-menu-sign-out = Çıkış yap
+
 drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun oluştu
 
 ## Flow Container
@@ -419,11 +431,11 @@ avatar-page-image-too-large-error-2 = Resim dosyası boyutu yüklenemeyecek kada
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Parolayı değiştir
+
 pw-8-chars = En az 8 karakter olmalı
 pw-not-email = E-posta adresiniz olmamalı
 pw-change-must-match = Yeni parola eşleşme onayı
@@ -433,34 +445,38 @@ pw-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <lin
 pw-change-cancel-button = İptal
 pw-change-save-button = Kaydet
 pw-change-forgot-password-link = Parolanızı unuttunuz mu?
+
 pw-change-current-password =
     .label = Mevcut parolanızı yazın
 pw-change-new-password =
     .label = Yeni parolanızı yazın
 pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
+
 pw-change-success-alert-2 = Parola güncellendi
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Parola oluştur
+
 pw-create-success-alert-2 = Parola ayarlandı
 pw-create-error-2 = Üzgünüz, parolanız ayarlanırken bir sorun oluştu
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Hesabı sil
+
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
+
 delete-account-confirm-title-3 = { -product-firefox-account }nızı, internette güvenliğinizi ve verimliliğinizi artıran aşağıdaki { -brand-mozilla } ürün ve hizmetlerine bağlamış olabilirsiniz:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -470,7 +486,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } verileri eşitleniyor
 delete-account-product-firefox-addons = { -brand-firefox } Eklentileri
+
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
+
 delete-account-chk-box-1-v3 =
     .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ -product-pocket } hariç)
 delete-account-chk-box-2 =
@@ -479,37 +497,44 @@ delete-account-chk-box-3 =
     .label = Bu e-postayı yeniden etkinleştirseniz bile kayıtlı bilgileriniz geri gelmeyecektir
 delete-account-chk-box-4 =
     .label = addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecektir
+
+
 delete-account-continue-button = Devam
+
 delete-account-password-input =
     .label = Parolanızı yazın
+
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Görünen ad
+
 display-name-input =
     .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
+
 display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluştu
+
 display-name-success-alert-2 = Görünen ad güncellendi
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Son hesap etkinlikleri
+
 recent-activity-account-create = Hesap oluşturuldu
 recent-activity-account-disable = Hesap devre dışı bırakıldı
 recent-activity-account-enable = Hesap etkinleştirildi
 recent-activity-account-login = Hesap, giriş işlemini başlattı
 recent-activity-account-reset = Hesap, parola sıfırlamayı başlattı
+
 
 # Account recovery key setup page
 
@@ -563,18 +588,23 @@ delete-account-link = Hesabı sil
 ## Two Step Authentication
 
 tfa-title = İki aşamalı doğrulama
+
 tfa-step-1-3 = Adım 1/3
 tfa-step-2-3 = Adım 2/3
 tfa-step-3-3 = Adım 3/3
+
 tfa-button-continue = Devam et
 tfa-button-cancel = İptal
 tfa-button-finish = Bitir
+
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
 tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
+
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -583,12 +613,15 @@ tfa-qa-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak i
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
+
 tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
+
 tfa-enter-code-to-confirm-1 =
     Lütfen kaydettiğinizi onaylamak için yedek kimlik doğrulama kodlarınızdan
     birini girin. Mobil cihazınıza erişemediğinizde giriş yapmak için bir koda
@@ -597,7 +630,6 @@ tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
 ##
-
 
 ## Profile section
 
@@ -610,7 +642,6 @@ profile-primary-email =
     .header = Birinci e-posta
 
 ##
-
 
 ## Security section of Setting
 
@@ -696,7 +727,6 @@ se-secondary-email-none = Yok
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = İki aşamalı doğrulama
@@ -705,6 +735,7 @@ tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
+
 tfa-row-button-refresh =
     .title = İki aşamalı doğrulamayı yenile
 tfa-row-cannot-refresh =
@@ -712,10 +743,12 @@ tfa-row-cannot-refresh =
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
+
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>yedek kimlik doğrulama kodlarınızı değiştirebilirisiniz</linkExternal>.
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
+
 tfa-row-change-modal-heading-1 = Yedek kimlik doğrulama kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
@@ -754,6 +787,7 @@ auth-error-999 = Beklenmeyen hata
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -763,7 +797,6 @@ cannot-create-account-requirements = { -product-firefox-account } açmak için y
 cannot-create-account-learn-more-link = Daha fazla bilgi al
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = { -brand-firefox }’a giriş yaptınız
 # A "success" message visible to users who verified via email
@@ -836,27 +869,38 @@ inline-recovery-confirmation-header = <span>{ $serviceName } hizmetine devam etm
 
 inline-totp-setup-cancel-setup-button = Kurulumu iptal et
 inline-totp-setup-continue-button = Devam et
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = <span>Hesap ayarlarına devam etmek için</span> iki aşamalı kimlik doğrulamayı etkinleştirin
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> iki aşamalı kimlik doğrulamayı etkinleştirin
+
 inline-totp-setup-ready-button = Hazır
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu tarayın
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> kodu girin
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu okutun
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = <span>Hesap ayarlarına devam etmek için</span> kodu girin
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Bu anahtarı kimlik doğrulama uygulamanıza yazın. <toggleToQRButton>Bunun yerine QR kodunu da okutabilirsiniz.</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Kimlik doğrulama uygulamanıza QR kodunu okutun ve karşısına gelen kimlik doğrulama kodunu buraya girin. <toggleToManualModeButton>Kodu okutamıyor musunuz?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 
@@ -968,7 +1012,9 @@ account-recovery-confirm-key-heading-w-default-service = <span>Hesap ayarlarına
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> hesap kurtarma anahtarıyla parolanızı sıfırlayın
+
 account-recovery-confirm-key-instructions = { -product-firefox-account }nıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın.
+
 account-recovery-confirm-key-warning-message = <span>Not:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir.
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1007,9 +1053,11 @@ complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Sıfırlama e-postası gönderildi
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 
@@ -1022,11 +1070,14 @@ reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek i
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> parolanızı sıfırlayın
+
 reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
+
 reset-password-button = Sıfırlamayı başlat
 reset-password-success-alert = Parola sıfırlama
 reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
 reset-password-error-unknown-account = Bilinmeyen hesap
+
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
@@ -1048,9 +1099,11 @@ confirm-signin-message = { $email } adresine gönderdiğimiz giriş onayı bağl
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = <span>{ -product-firefox-account }</span> parolanızı yazın
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } hizmetine devam et
@@ -1059,6 +1112,7 @@ signin-button = Giriş yap
 signin-header = Giriş yap
 signin-use-a-different-account-link = Farklı bir hesap kullan
 signin-forgot-password-link = Parolanızı unuttunuz mu?
+
 signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası geri döndüğü için { -brand-firefox } verilerinizi korumak amacıyla hesabınızı kilitledik.
@@ -1141,8 +1195,6 @@ confirm-signup-instruction = { $email } adresine gönderdiğimiz onay bağlantı
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

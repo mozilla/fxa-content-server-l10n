@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -96,40 +95,6 @@ device-info-browser-os = { $browserName } sur { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresse IP: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox account
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -137,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repete le contrasigno
 signup-submit-button = Crear conto
+
 form-reset-password-with-balloon-new-password =
     .label = Nove contrasigno
 form-reset-password-with-balloon-confirm-password =
@@ -178,6 +144,8 @@ input-password-hide = Celar contrasigno
 input-password-show = Monstrar contrasigno
 input-password-hide-aria = Celar le contrasigno ab le schermo.
 input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retro
 
@@ -186,9 +154,11 @@ legal-back-button = Retro
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnificate
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Ligamine de confirmation damnificate
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
 
@@ -213,8 +183,10 @@ remember-pw-link = Memora tu contrasigno? Accede.
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Email primari ja confirmate
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Session ja confirmate
+
 confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
 
 ## PasswordInfoBalloon
@@ -262,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
+
 bento-menu-made-by-mozilla = Producite per{ -brand-mozilla }
 
 ## Connect another device promo
@@ -281,6 +254,7 @@ connect-another-fx-mobile = Installa { -brand-firefox } sur mobile o tabletta
 connect-another-find-fx-mobile =
     Trova { -brand-firefox } in { -google-play } e { -app-store } o
     <br /><linkExternal>invia un ligamine de discargamento a tu apparato.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -289,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = Discargar { -brand-firefox } de { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -302,10 +275,13 @@ cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Session { $service } claudite.
+
 cs-refresh-button =
     .title = Actualisar le servicios connectite
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos mancante o duplicate?
+
 cs-disconnect-sync-heading = Disconnecter se de Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -340,11 +316,12 @@ cs-disconnect-lost-advice-content-2 =
     fabricante de tu dispositivo re cancellar tu datos a distantia.
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-firefox-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
+
 cs-sign-out-button = Clauder session
+
 cs-recent-activity = Activitate de conto recente
 
 ##
-
 
 ## Data collection section
 
@@ -364,6 +341,7 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>In session como</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Clauder session
+
 drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
 ## Flow Container
@@ -455,11 +433,11 @@ avatar-page-image-too-large-error-2 = Le file de imagine es troppo grande pro es
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Cambiar le contrasigno
+
 pw-8-chars = Al minus 8 characteres
 pw-not-email = Non tu adresse email
 pw-change-must-match = Le nove contrasigno concorda con confirmation
@@ -469,34 +447,38 @@ pw-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <
 pw-change-cancel-button = Cancellar
 pw-change-save-button = Salvar
 pw-change-forgot-password-link = Contrasigno oblidate?
+
 pw-change-current-password =
     .label = Insere contrasigno actual
 pw-change-new-password =
     .label = Insere le nove contrasigno
 pw-change-confirm-password =
     .label = Confirmar nove contrasigno
+
 pw-change-success-alert-2 = Contrasigno actualisate
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Crear contrasigno
+
 pw-create-success-alert-2 = Definition del contrasigno
 pw-create-error-2 = Desolate, problema durante le definition de tu contrasigno
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Deler le conto
+
 delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
+
 delete-account-confirm-title-3 = Tu pote haber connectite tu { -product-firefox-account } a uno o plus del productos o servicios { -brand-mozilla } que te mantene secur e productive sur le web:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -506,7 +488,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronisation datos de { -brand-firefox }
 delete-account-product-firefox-addons = Additivos de { -brand-firefox }
+
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
+
 delete-account-chk-box-1-v3 =
     .label = Tote tu abonamentos a pagamento sera annullate (salvo { -product-pocket })
 delete-account-chk-box-2 =
@@ -515,38 +499,45 @@ delete-account-chk-box-3 =
     .label = Reactivar con iste adresse de e-mail pote non restaurar tu informationes salvate
 delete-account-chk-box-4 =
     .label = Tote le extensiones e themas que tu ha publicate in addons.mozilla.org essera delite
+
+
 delete-account-continue-button = Continuar
+
 delete-account-password-input =
     .label = Insere le contrasigno
+
 delete-account-cancel-button = Cancellar
 delete-account-delete-button-2 = Deler
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Nomine a monstrar
+
 display-name-input =
     .label = Scribe le nomine a monstrar
 submit-display-name = Salvar
 cancel-display-name = Cancellar
+
 display-name-update-error-2 = Problema durante le actualisation de tu nomine a monstrar
+
 display-name-success-alert-2 = Nomine a monstrar actualisate
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Activitate de conto recente
+
 recent-activity-account-create = Conto create.
 recent-activity-account-disable = Le conto era disactivate.
 recent-activity-account-enable = Le conto era  activate.
 recent-activity-account-login = Accesso al conto initiate
 recent-activity-account-reset = Le conto initiava le remontage del contrasigno
 recent-activity-emails-clearBounces = Le conto clarava emails refusate
+
 
 # Account recovery key setup page
 
@@ -600,20 +591,25 @@ delete-account-link = Deler le conto
 ## Two Step Authentication
 
 tfa-title = Authentication a duo passos
+
 tfa-step-1-3 = Passo 1 de 3
 tfa-step-2-3 = Passo 2 de 3
 tfa-step-3-3 = Passo 3 de 3
+
 tfa-button-continue = Continuar
 tfa-button-cancel = Cancellar
 tfa-button-finish = Finir
+
 tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
 tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de salvamento
 tfa-incorrect-recovery-code-1 = Codice de authentication de salvamento non correcte
 tfa-enabled = Authentication a duo-grados activate
+
 tfa-scan-this-code =
     Scanna iste codice QR usante un de <linkExternal>iste
     applicationes de authentication</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -624,14 +620,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Non pote tu scannar le codice?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
+
 tfa-enter-totp = Ora insere le codice de securitate del application de authentication.
 tfa-input-enter-totp =
     .label = Insere le codice de securitate
 tfa-save-these-codes-1 =
     Salva iste codices de authentication de salvamento provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
+
 tfa-enter-code-to-confirm-1 =
     Insere ora un de tu codices de authentication de salvamento pro
      confirmar que tu lo ha salvate.Tu besoniara de un codice pro acceder si tu non ha accesso a tu 
@@ -640,7 +639,6 @@ tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de salvamento
 
 ##
-
 
 ## Profile section
 
@@ -653,7 +651,6 @@ profile-primary-email =
     .header = Adresse de e-mail primari
 
 ##
-
 
 ## Security section of Setting
 
@@ -745,7 +742,6 @@ se-secondary-email-none = Nihil
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authentication a duo passos
@@ -754,6 +750,7 @@ tfa-row-enabled = Activate
 tfa-row-not-set = Non definite
 tfa-row-action-add = Adder
 tfa-row-action-disable = Disactivar
+
 tfa-row-button-refresh =
     .title = Actualisar authentication a duo passos
 tfa-row-cannot-refresh =
@@ -761,6 +758,7 @@ tfa-row-cannot-refresh =
     a duo passos.
 tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente un codice unic al qual solo tu ha accesso.
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
+
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
 tfa-row-disable-modal-explain-1 =
@@ -768,6 +766,7 @@ tfa-row-disable-modal-explain-1 =
     ha le option de <linkExternal> reimplaciar tu codices de authentication de
     salvamento</linkExternal>.
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
+
 tfa-row-change-modal-heading-1 = Cambiar codices de authentication de salvamento?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
@@ -806,6 +805,7 @@ auth-error-999 = Error inexpectate
 auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -815,7 +815,6 @@ cannot-create-account-requirements = Tu debe satisfacer certe requisitos de etat
 cannot-create-account-learn-more-link = Pro saper plus
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Es tu connexe a { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -888,29 +887,41 @@ inline-recovery-confirmation-header = Confirma le codice authentication del salv
 
 inline-totp-setup-cancel-setup-button = Cancellar configuration
 inline-totp-setup-continue-button = Continuar
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adde un strato de securitate a tu conto requirente le codices de authentication ab uno de <authenticationAppsLink>iste apps de authentication</authenticationAppsLink>.
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Activa le authentication a duo passos <span> pro continuar le configuration del conto</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activa le authentication a duo passos <span>pro continuar a { $serviceName }</span>
+
 inline-totp-setup-ready-button = Preste
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Scande le codices de authentication <span>pro continuar a { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Insere codice manualmente <span>pro continuar { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Scande le codices de authentication <span>pro continuar a configurar le conto</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Insere codice manualmente <span>pro continuar a configurar le conto</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Scribe iste clave secrete in tu app de authentication. <toggleToQRButton>Scander le codice QR in vice?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu app de authentication e pois insere le codice de authentication que illo forni. <toggleToManualModeButton>Non pote tu scander le codice?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Codices de authentication
 
@@ -1022,7 +1033,9 @@ account-recovery-confirm-key-heading-w-default-service = Remonta le contrasigno 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Remonta le contrasigno con le clave de recuperation del conto <span>pro continuar a configurar le { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu { -product-firefox-account }.
+
 account-recovery-confirm-key-warning-message = <span>Nota:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como chronologia e marcapaginas).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1061,9 +1074,11 @@ complete-reset-password-error-alert = Desolate, problema durante le definition d
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Message de reinitialisation inviate
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Clicca sur le ligamine inviate a { $email } intra le proxime hora pro crear un nove contrasigno.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
@@ -1076,11 +1091,14 @@ reset-password-heading-w-default-service = Remonta le contrasigno <span>pro cont
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
+
 reset-password-button = Initiar reinitialisation
 reset-password-success-alert = Remontar contrasigno
 reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
 reset-password-error-unknown-account = Conto incognite
+
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
@@ -1102,9 +1120,11 @@ confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Insere tu contrasigno <span>pro tu { -product-firefox-account }</span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
@@ -1113,6 +1133,7 @@ signin-button = Aperir session
 signin-header = Aperir session
 signin-use-a-different-account-link = Usa un conto differente
 signin-forgot-password-link = Contrasigno oblidate?
+
 signin-bounced-header = Regrettabilemente, tu conto ha essite blocate.
 # $email (string) - The user's email.
 signin-bounced-message = Le message de confirmation que nos ha inviate a { $email } ha essite retornate e nos ha blocate tu conto a fin de proteger tu datos { -brand-firefox }.
@@ -1195,8 +1216,6 @@ confirm-signup-instruction = Controla tu email pro le ligamine de confirmation i
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -13,7 +12,6 @@ banner-dismiss-button =
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
-
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -85,44 +83,6 @@ device-info-browser-os = ‏{ $browserName } ב־{ $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = כתובת IP:‏ { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[a] חשבון Firefox
-        [the] חשבון ה־Firefox
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -130,6 +90,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = חזרה על הססמה
 signup-submit-button = יצירת חשבון
+
 form-reset-password-with-balloon-new-password =
     .label = ססמה חדשה
 form-reset-password-with-balloon-confirm-password =
@@ -170,6 +131,8 @@ input-password-hide = הסתרת ססמה
 input-password-show = הצגת ססמה
 input-password-hide-aria = הסתרת הססמה מהמסך.
 input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = חזרה
 
@@ -178,9 +141,11 @@ legal-back-button = חזרה
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = קישור האימות פגום
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
 
@@ -205,8 +170,10 @@ remember-pw-link = נזכרת בססמה שלך? התחברות
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כבר עברה אימות
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ההתחברות כבר אושרה
+
 confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
 
 ## PasswordInfoBalloon
@@ -253,16 +220,17 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
 bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
+
 bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 
 ## Connect another device promo
@@ -271,6 +239,7 @@ connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחש
 connect-another-find-fx-mobile =
     ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store } או
     <br /><linkExternal>לשלוח קישור להורדה למכשיר שלך.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -279,7 +248,6 @@ connect-another-app-store-image-2 =
     .title = הורדת { -brand-firefox } מ־{ -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -292,10 +260,13 @@ cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = נותקת מ־{ $service }
+
 cs-refresh-button =
     .title = רענון שירותים מחוברים
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = פריטים חסרים או כפולים?
+
 cs-disconnect-sync-heading = ניתוק מ־Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -324,11 +295,12 @@ cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נו
 cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
+
 cs-sign-out-button = התנתקות
+
 cs-recent-activity = פעילות אחרונה בחשבון
 
 ##
-
 
 ## Data collection section
 
@@ -348,6 +320,7 @@ drop-down-menu-title = תפריט { -product-firefox-account(case: "a") }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>נכנסת בתור</signin><user>{ $user }</user>
 drop-down-menu-sign-out = התנתקות
+
 drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה
 
 ## Flow Container
@@ -432,11 +405,11 @@ avatar-page-image-too-large-error-2 = גודל קובץ התמונה גדול מ
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = שינוי ססמה
+
 pw-8-chars = לפחות 8 תווים
 pw-not-email = לא כתובת הדוא״ל שלך
 pw-change-must-match = הססמה החדשה צריכה להיות תואמת לשדה אימות הססמה
@@ -446,34 +419,38 @@ pw-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה �
 pw-change-cancel-button = ביטול
 pw-change-save-button = שמירה
 pw-change-forgot-password-link = שכחת את הססמה?
+
 pw-change-current-password =
     .label = נא להכניס את הססמה הנוכחית
 pw-change-new-password =
     .label = נא להכניס ססמה חדשה
 pw-change-confirm-password =
     .label = נא לאמת את הססמה החדשה
+
 pw-change-success-alert-2 = הססמה עודכנה
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = יצירת ססמה
+
 pw-create-success-alert-2 = הססמה הוגדרה
 pw-create-error-2 = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = מחיקת חשבון
+
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
+
 delete-account-confirm-title-3 = ייתכן שחיברת את { -product-firefox-account(case: "the") } שלך לאחד או יותר מהמוצרים או השירותים הבאים של { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
+
 delete-account-product-firefox-account = { -product-firefox-account(case: "a") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -483,7 +460,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = בתהליך סנכרון נתוני { -brand-firefox }
 delete-account-product-firefox-addons = תוספות של { -brand-firefox }
+
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
+
 delete-account-chk-box-1-v3 =
     .label = כל המינויים בתשלום שיש לך יבוטלו (למעט { -product-pocket })
 delete-account-chk-box-2 =
@@ -492,35 +471,42 @@ delete-account-chk-box-3 =
     .label = הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר את המידע השמור שלך
 delete-account-chk-box-4 =
     .label = כל ההרחבות וערכות הנושא שפרסמת ב־addons.mozilla.org יימחקו
+
+
 delete-account-continue-button = המשך
+
 delete-account-password-input =
     .label = נא להכניס ססמה
+
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = שם תצוגה
+
 display-name-input =
     .label = נא להכניס שם תצוגה
 submit-display-name = שמירה
 cancel-display-name = ביטול
+
 display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה שלך
+
 display-name-success-alert-2 = שם התצוגה עודכן
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = פעילות אחרונה בחשבון
+
 recent-activity-account-create = החשבון נוצר
 recent-activity-account-disable = החשבון הושבת
 recent-activity-account-enable = החשבון הופעל
+
 
 # Account recovery key setup page
 
@@ -574,16 +560,21 @@ delete-account-link = מחיקת חשבון
 ## Two Step Authentication
 
 tfa-title = אימות דו־שלבי
+
 tfa-step-1-3 = שלב 1 מתוך 3
 tfa-step-2-3 = שלב 2 מתוך 3
 tfa-step-3-3 = שלב 3 מתוך 3
+
 tfa-button-continue = המשך
 tfa-button-cancel = ביטול
 tfa-button-finish = סיום
+
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
 tfa-enabled = אימות דו־שלבי הופעל
+
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -592,14 +583,15 @@ tfa-qa-code-alt = ניתן להשתמש בקוד { $secret } כדי להגדיר
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = אין לך אפשרות לסרוק קוד?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:
+
 tfa-enter-totp = כעת יש להכניס את קוד האבטחה מיישומון האימות.
 tfa-input-enter-totp =
     .label = נא להכניס קוד אבטחה
 
 ##
-
 
 ## Profile section
 
@@ -612,7 +604,6 @@ profile-primary-email =
     .header = כתובת דוא״ל ראשית
 
 ##
-
 
 ## Security section of Setting
 
@@ -697,7 +688,6 @@ se-secondary-email-none = ללא
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = אימות דו־שלבי
@@ -706,14 +696,17 @@ tfa-row-enabled = מופעל
 tfa-row-not-set = לא מוגדר
 tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
+
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
+
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
+
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
@@ -751,6 +744,7 @@ auth-error-999 = שגיאה בלתי צפויה
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -760,7 +754,6 @@ cannot-create-account-requirements = עליך לעמוד בדרישות הגיל
 cannot-create-account-learn-more-link = מידע נוסף
 
 ## Connect Another Device page
-
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = כתובת הדוא״ל אומתה
 # A "success" message visible to users who verified via sign-in
@@ -814,29 +807,41 @@ inline-recovery-back-link = חזרה
 
 inline-totp-setup-cancel-setup-button = ביטול ההגדרה
 inline-totp-setup-continue-button = המשך
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אימות מאחד <authenticationAppsLink>מיישומוני האימות האלו</authenticationAppsLink>.
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך להגדרות החשבון</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = נא להפעיל אימות דו שלבי <span>כדי להמשיך אל { $serviceName }</span>
+
 inline-totp-setup-ready-button = מוכן
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = נא לסרוק קוד אימות <span>כדי להמשיך אל { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = נא להכניס את הקוד באופן ידני <span>כדי להמשיך אל { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = נא לסרוק קוד אימות <span>כדי להמשיך להגדרות החשבון</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = נא לסרוק את הקוד באופן ידני <span>כדי להמשיך להגדרות החשבון</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = יש להקליד את המפתח הסודי הזה ביישומון האימות שלך. <toggleToQRButton>לסרוק במקום זאת קוד QR?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = יש לסרוק את קוד ה־QR ביישומון האימות שלך ולאחר מכן להכניס את קוד האימות שהוא מספק. <toggleToManualModeButton>אין באפשרותך לסרוק את הקוד?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי אימות שיהיו באפשרותך להזין.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = קוד אימות
 
@@ -948,7 +953,9 @@ account-recovery-confirm-key-heading-w-default-service = איפוס ססמה ב�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך אל { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה ל{ -product-firefox-account(case: "the") } שלך.
+
 account-recovery-confirm-key-warning-message = <span>לתשומת לבך:</span> אם יבוצע איפוס הססמה ולא שמרת את מפתח שחזור החשבון שלך, חלק מהנתונים שלך יימחקו (כולל נתוני שרת מסונכרנים כמו היסטוריה וסימניות).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -987,9 +994,11 @@ complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמ�
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = הודעת דוא״ל לאיפוס נשלחה
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = נא ללחוץ על הקישור שנשלח בדוא״ל אל { $email } בשעה הקרובה כדי ליצור ססמה חדשה.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
 
@@ -1002,11 +1011,14 @@ reset-password-heading-w-default-service = איפוס ססמה <span>כדי לה
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
+
 reset-password-button = התחלת איפוס
 reset-password-success-alert = הססמא אופסה
 reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
 reset-password-error-unknown-account = חשבון לא מוכר
+
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
@@ -1028,9 +1040,11 @@ confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור �
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = נא להכניס את הססמה שלך <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = המשך אל { $serviceName }
@@ -1039,6 +1053,7 @@ signin-button = כניסה
 signin-header = כניסה
 signin-use-a-different-account-link = שימוש בחשבון אחר
 signin-forgot-password-link = שכחת את הססמה?
+
 signin-bounced-header = מצטערים. חסמנו את החשבון שלך.
 # $email (string) - The user's email.
 signin-bounced-message = הודעת האימות ששלחנו לכתובת { $email } חזרה וחסמנו את החשבון שלך כדי להגן על נתוני ה־{ -brand-firefox } שלך.
@@ -1110,8 +1125,6 @@ confirm-signup-instruction = נא לבדוק את הדוא״ל שלך לאישו
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

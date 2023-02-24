@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Парольді қайталау
 signup-submit-button = Тіркелгіні жасау
+
 form-reset-password-with-balloon-new-password =
     .label = Жаңа пароль
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = Парольді жасыру
 input-password-show = Парольді көрсету
 input-password-hide-aria = Парольді экраннан жасыру.
 input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Артқа
 
@@ -152,9 +154,11 @@ legal-back-button = Артқа
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Парольді тастау сілтемесі зақымдалған
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Растау сілтемесі зақымдалған
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
 
@@ -179,8 +183,10 @@ remember-pw-link = Пароліңіз есіңізде бар ма? Кіріңі
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Біріншілік эл. пошта адресі расталған болып тұр
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
+
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
 
 ## PasswordInfoBalloon
@@ -228,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
 bento-menu-firefox-mobile = Мобильді { -brand-firefox } браузері
+
 bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
 
 ## Connect another device promo
@@ -247,6 +254,7 @@ connect-another-fx-mobile = { -brand-firefox } өнімін телефон не�
 connect-another-find-fx-mobile =
     { -brand-firefox } өнімін { -google-play } және { -app-store } ішінен табыңыз немесе 
     <br /><linkExternal>құрылғыңызга жүктеп алу сілтемесін жіберіңіз.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -255,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = { -brand-firefox } қолданбасын { -app-store } ішінен жүктеп алыңыз
 
 ##
-
 
 ## Connected services section
 
@@ -270,10 +277,13 @@ cs-cannot-disconnect = Клиент табылмады, ажырату мүмк�
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } жүйесінен шықтыңыз
+
 cs-refresh-button =
     .title = Байланыстырылған қызметтерді жаңарту
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Жоқ немесе қайталанған элемент?
+
 cs-disconnect-sync-heading = Синхрондаумен байланысты үзу
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -313,11 +323,12 @@ cs-disconnect-suspicious-advice-content =
     ақпаратыңызды қауіпсіз сақтау үшін тіркелгі параметрлерінде { -product-firefox-account }
     паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы
     { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
+
 cs-sign-out-button = Шығу
+
 cs-recent-activity = Тіркелгінің жуырдағы белсенділігі
 
 ##
-
 
 ## Data collection section
 
@@ -337,6 +348,7 @@ drop-down-menu-title = { -product-firefox-account } мәзірі
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Жүйеге</signin><user>{ $user }</user> ретінде кірдіңіз
 drop-down-menu-sign-out = Шығу
+
 drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 
 ## Flow Container
@@ -431,11 +443,11 @@ avatar-page-image-too-large-error-2 = Сурет файлының өлшемі �
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Парольді өзгерту
+
 pw-8-chars = Кемінде 8 таңба
 pw-not-email = Сіздің эл. пошта адресіңіз емес
 pw-change-must-match = Жаңа пароль растауға сәйкес келеді
@@ -445,34 +457,38 @@ pw-tips = Қауіпсіз болыңыз — парольдерді қайта 
 pw-change-cancel-button = Бас тарту
 pw-change-save-button = Сақтау
 pw-change-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+
 pw-change-current-password =
     .label = Ағымдағы парольді енгізіңіз
 pw-change-new-password =
     .label = Жаңа парольді енгізіңіз
 pw-change-confirm-password =
     .label = Жаңа парольді растау
+
 pw-change-success-alert-2 = Пароль жаңартылды
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Парольді жасау
+
 pw-create-success-alert-2 = Пароль орнатылды
 pw-create-error-2 = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Тіркелгіні өшіру
+
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
+
 delete-account-confirm-title-3 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді интернетте қауіпсіздік пен өнімділікті қамтамасыз ететін келесі { -brand-mozilla } өнімдерінің немесе қызметтерінің біріне немесе бірнешеуіне қосқан болуыңыз мүмкін:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -482,7 +498,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } деректерін синхрондау
 delete-account-product-firefox-addons = { -brand-firefox } қосымшалары
+
 delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
+
 delete-account-chk-box-1-v3 =
     .label = Сізде бар ақылы жазылулар өшіріледі ({ -product-pocket } басқа)
 delete-account-chk-box-2 =
@@ -491,38 +509,45 @@ delete-account-chk-box-3 =
     .label = Осы электрондық пошта арқылы қайта белсендіру сақталған ақпаратты қалпына келтірмеуі мүмкін
 delete-account-chk-box-4 =
     .label = Сіз addons.mozilla.org сайтына жарияланған кез келген кеңейтулер мен темалар өшіріледі
+
+
 delete-account-continue-button = Жалғастыру
+
 delete-account-password-input =
     .label = Парольді енгізіңіз
+
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Көрсетілетін аты
+
 display-name-input =
     .label = Көрсетілетін атыңызды енгізіңіз
 submit-display-name = Сақтау
 cancel-display-name = Бас тарту
+
 display-name-update-error-2 = Көрсетілетін атыңызды жаңарту кезінде мәселе туындады
+
 display-name-success-alert-2 = Көрсетілетін атыңыз жаңартылды
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Тіркелгінің жуырдағы белсенділігі
+
 recent-activity-account-create = Тіркелгі жасалды
 recent-activity-account-disable = Тіркелгі сөндірілді
 recent-activity-account-enable = Тіркелгі іске қосылды
 recent-activity-account-login = Тіркелгі кіруді бастады
 recent-activity-account-reset = Тіркелгі парольді тастауды бастады
 recent-activity-emails-clearBounces = Тіркелгі эл. пошта қайталауларын тазарты
+
 
 # Account recovery key setup page
 
@@ -576,20 +601,25 @@ delete-account-link = Тіркелгіні өшіру
 ## Two Step Authentication
 
 tfa-title = Екі қадамды аутентификация
+
 tfa-step-1-3 = Қадам 1, барлығы 3
 tfa-step-2-3 = Қадам 2, барлығы 3
 tfa-step-3-3 = Қадам 3, барлығы 3
+
 tfa-button-continue = Жалғастыру
 tfa-button-cancel = Бас тарту
 tfa-button-finish = Дайын
+
 tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
 tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәселе орын алды.
 tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
 tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
 tfa-enabled = Екі қадамды аутентификация іске қосылды
+
 tfa-scan-this-code =
     <linkExternal>осы аутентификация қолданбаларының</linkExternal>
     біреуін пайдаланып, осы QR кодын сканерлеңіз.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -598,14 +628,17 @@ tfa-qa-code-alt = Қолдауы бар қолданбаларда екі қад
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Осы құпия кілтті аутентификация қолданбасына енгізіңіз:
+
 tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
 tfa-input-enter-totp =
     .label = Қауіпсіздік кодын енгізіңіз
 tfa-save-these-codes-1 =
     Мобильді құрылғыңыз болмаған кездері үшін осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз.
+
 tfa-enter-code-to-confirm-1 =
     Сақтағаныңызды растау үшін қазір сақтық көшірме аутентификация
     кодтарының бірін енгізіңіз. Мобильді құрылғыға кіру мүмкіндігіңіз болмаса,
@@ -614,7 +647,6 @@ tfa-enter-recovery-code-1 =
     .label = Сақтық көшірме аутентификация кодын енгізіңіз
 
 ##
-
 
 ## Profile section
 
@@ -627,7 +659,6 @@ profile-primary-email =
     .header = Біріншілік эл. пошта адресі
 
 ##
-
 
 ## Security section of Setting
 
@@ -719,7 +750,6 @@ se-secondary-email-none = Ешнәрсе
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Екі қадамды аутентификация
@@ -728,6 +758,7 @@ tfa-row-enabled = Іске қосулы
 tfa-row-not-set = Орнатылмаған
 tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
+
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
 tfa-row-cannot-refresh =
@@ -737,12 +768,14 @@ tfa-row-content-explain =
     Сіз ғана қол жеткізе алатын бірегей кодты талап ету арқылы
     басқа біреудің жүйеге кіруіне жол бермеңіз.
 tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
+
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
 tfa-row-disable-modal-explain-1 =
     Бұл әрекетті кері қайтара алмайсыз. Сондай-ақ, <linkExternal>сақтық көшірме
     аутентификация кодтарын ауыстыру</linkExternal> опциясы бар.
 tfa-row-cannot-disable-2 = Екі қадамды аутентификацияны сөндіру мүмкін емес
+
 tfa-row-change-modal-heading-1 = Сақтық аутентификация кодтарын ауыстыру керек пе?
 tfa-row-change-modal-confirm = Өзгерту
 tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
@@ -781,6 +814,7 @@ auth-error-999 = Күтпеген қате
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -790,7 +824,6 @@ cannot-create-account-requirements = { -product-firefox-account } жасау ү�
 cannot-create-account-learn-more-link = Көбірек білу
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Сіз { -brand-firefox } ішіне кірдіңіз
 # A "success" message visible to users who verified via email
@@ -863,15 +896,21 @@ inline-recovery-confirmation-header = <span>{ $serviceName } ішіне өту �
 
 inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
 inline-totp-setup-continue-button = Жалғастыру
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
+
 inline-totp-setup-ready-button = Дайын
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Бұл құпия кілтті аутентификация қолданбасына теріңіз. <toggleToQRButton>Оның орнына QR кодын сканерлеу керек пе?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Аутентификация қолданбасында QR кодын сканерлеңіз, содан кейін ол беретін аутентификация кодын енгізіңіз. <toggleToManualModeButton>Кодты сканерлеу мүмкін емес пе?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Аяқтағаннан кейін ол сізге енгізу үшін аутентификация кодтарын жасай бастайды.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Аутентификация коды
 
@@ -977,7 +1016,9 @@ account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
+
 account-recovery-confirm-key-instructions = { -product-firefox-account } ішіне қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз.
+
 account-recovery-confirm-key-warning-message = <span>ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз өшіріледі (соның ішінде тарих және бетбелгілер сияқты синхрондалған сервер деректері).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1016,9 +1057,11 @@ complete-reset-password-error-alert = Кешіріңіз, пароліңізді
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Тастау эл. пошта хаты жіберілді
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Жаңа парольді жасау үшін келесі сағат ішінде { $email } электрондық поштасына жіберілген сілтемені басыңыз.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
@@ -1031,11 +1074,14 @@ reset-password-heading-w-default-service = <span>Тіркелгі баптаул
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
+
 reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
+
 reset-password-button = Қалпына келтіруді бастау
 reset-password-success-alert = Парольді қалпына келтіру
 reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
 reset-password-error-unknown-account = Белгісіз тіркелгі
+
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
@@ -1057,9 +1103,11 @@ confirm-signin-message = Эл. поштаңызды { $email } адресіне 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін парольді енгізіңіз
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } ішіне жалғастыру
@@ -1068,6 +1116,7 @@ signin-button = Кіру
 signin-header = Кіру
 signin-use-a-different-account-link = Басқа тіркелгіні қолдану
 signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+
 signin-bounced-header = Кешіріңіз. Біз сіздің тіркелгіңізді блоктадық.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің { -brand-firefox } деректерін қорғау мақсатында тіркелгіңізді құлыптадық.
@@ -1150,8 +1199,6 @@ confirm-signup-instruction = Эл. поштаңызды { $email } адресі�
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

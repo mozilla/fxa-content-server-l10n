@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = 重複輸入密碼
 signup-submit-button = 註冊帳號
+
 form-reset-password-with-balloon-new-password =
     .label = 新密碼
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = 隱藏密碼
 input-password-show = 顯示密碼
 input-password-hide-aria = 在畫面上隱藏密碼。
 input-password-show-aria = 用明文顯示密碼在螢幕上。
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 上一頁
 
@@ -152,9 +154,11 @@ legal-back-button = 上一頁
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 驗證鏈結無效
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
 
@@ -179,8 +183,10 @@ remember-pw-link = 記得密碼嗎？請登入
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過了
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 已確認過此次登入
+
 confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
 
 ## PasswordInfoBalloon
@@ -228,23 +234,25 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 產品選單
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
 bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
+
 bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 
 ## Connect another device promo
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
 connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }，或是<br /><linkExternal>傳送下載鏈結到您的行動裝置上。</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -253,7 +261,6 @@ connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下載 { -brand-firefox }
 
 ##
-
 
 ## Connected services section
 
@@ -266,10 +273,13 @@ cs-cannot-disconnect = 找不到客戶端，無法取消連線
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = 已登出 { $service }
+
 cs-refresh-button =
     .title = 重新整理已連結的服務
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
+
 cs-disconnect-sync-heading = 中斷與 Sync 的連結
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -298,11 +308,12 @@ cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
 cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
+
 cs-sign-out-button = 登出
+
 cs-recent-activity = 近期帳號活動
 
 ##
-
 
 ## Data collection section
 
@@ -322,6 +333,7 @@ drop-down-menu-title = { -product-firefox-account } 選單
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
 drop-down-menu-sign-out = 登出
+
 drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
 ## Flow Container
@@ -413,11 +425,11 @@ avatar-page-image-too-large-error-2 = 圖片檔案太大，無法上傳
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = 更改密碼
+
 pw-8-chars = 至少八個字元長
 pw-not-email = 不可以與您的電子郵件地址相同
 pw-change-must-match = 「新密碼」與「確認新密碼」輸入內容相符
@@ -427,34 +439,38 @@ pw-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高�
 pw-change-cancel-button = 取消
 pw-change-save-button = 儲存
 pw-change-forgot-password-link = 忘記密碼？
+
 pw-change-current-password =
     .label = 請輸入您目前的密碼
 pw-change-new-password =
     .label = 輸入新密碼
 pw-change-confirm-password =
     .label = 確認新密碼
+
 pw-change-success-alert-2 = 已更新密碼
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = 設定密碼
+
 pw-create-success-alert-2 = 已設定密碼
 pw-create-error-2 = 很抱歉，設定您的密碼時發生問題
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = 刪除帳號
+
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
+
 delete-account-confirm-title-3 = 您可能曾經將 { -product-firefox-account } 連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -464,7 +480,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 的同步資料
 delete-account-product-firefox-addons = { -brand-firefox } 附加元件
+
 delete-account-acknowledge = 請確認若刪除帳號：
+
 delete-account-chk-box-1-v3 =
     .label = 將取消所有付費訂閱項目（{ -product-pocket } 除外）
 delete-account-chk-box-2 =
@@ -473,38 +491,45 @@ delete-account-chk-box-3 =
     .label = 就算重新啟用此信箱，也不會恢復原存的資訊
 delete-account-chk-box-4 =
     .label = 將刪除您所有發佈到 addons.mozilla.org 的擴充套件與佈景主題
+
+
 delete-account-continue-button = 繼續
+
 delete-account-password-input =
     .label = 輸入密碼
+
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = 顯示名稱
+
 display-name-input =
     .label = 輸入顯示名稱
 submit-display-name = 儲存
 cancel-display-name = 取消
+
 display-name-update-error-2 = 更新您的顯示名稱時發生錯誤
+
 display-name-success-alert-2 = 已更新顯示名稱
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = 近期帳號活動
+
 recent-activity-account-create = 已建立帳號
 recent-activity-account-disable = 已停用帳號
 recent-activity-account-enable = 已啟用帳號
 recent-activity-account-login = 帳號進行登入
 recent-activity-account-reset = 帳號進行密碼重設
 recent-activity-emails-clearBounces = 已處理帳號退信
+
 
 # Account recovery key setup page
 
@@ -558,18 +583,23 @@ delete-account-link = 刪除帳號
 ## Two Step Authentication
 
 tfa-title = 兩階段驗證
+
 tfa-step-1-3 = 第 1 步，共 3 步
 tfa-step-2-3 = 第 2 步，共 3 步
 tfa-step-3-3 = 第 3 步，共 3 步
+
 tfa-button-continue = 繼續
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
+
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
 tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 tfa-enabled = 已開啟兩階段驗證
+
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -578,18 +608,20 @@ tfa-qa-code-alt = 使用代碼 { $secret } 在支援的應用程式中設定兩�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 無法掃描條碼？
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰：
+
 tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
+
 tfa-enter-code-to-confirm-1 = 請立刻輸入您的任一組備用驗證碼，以確認您已儲存該驗證碼。當您無法再使用目前的行動裝置時，需要輸入該驗證碼才能登入。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
 ##
-
 
 ## Profile section
 
@@ -602,7 +634,6 @@ profile-primary-email =
     .header = 主要電子郵件地址
 
 ##
-
 
 ## Security section of Setting
 
@@ -688,7 +719,6 @@ se-secondary-email-none = 無
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 兩階段驗證
@@ -697,15 +727,18 @@ tfa-row-enabled = 啟用
 tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
+
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
+
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkExternal>換新備用救援碼</linkExternal>。
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
+
 tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
@@ -744,6 +777,7 @@ auth-error-999 = 未預期的錯誤
 auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -753,7 +787,6 @@ cannot-create-account-requirements = 您需要符合年齡需求才能註冊 { -
 cannot-create-account-learn-more-link = 了解更多
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = 您已登入 { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -826,29 +859,41 @@ inline-recovery-confirmation-header = 確認備用驗證碼<span>即可繼續前
 
 inline-totp-setup-cancel-setup-button = 取消設定
 inline-totp-setup-continue-button = 繼續
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = 透過需要多輸入一組由<authenticationAppsLink>驗證程式</authenticationAppsLink>所產生的驗證碼，加強您的帳號安全性。
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = 開啟兩階段驗證<span>即可繼續前往帳號設定</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = 開啟兩階段驗證<span>即可繼續前往 { $serviceName }</span>
+
 inline-totp-setup-ready-button = 準備就緒
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = 掃描驗證碼<span>即可繼續前往 { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = 輸入驗證碼<span>即可繼續前往 { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = 掃描驗證碼<span>即可繼續前往帳號設定</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = 輸入驗證碼<span>即可繼續前往帳號設定</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = 請在您的驗證器應用程式輸入下列私鑰。<toggleToQRButton>要改成掃描 QR Code 嗎？</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = 請在您的驗證器應用程式掃描下列 QR Code，然後輸入驗證器產生的安全碼。<toggleToManualModeButton>無法掃描 QR Code 嗎？</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = 完成後，就會自動開始產生驗證碼讓您登入。
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 驗證碼
 
@@ -960,7 +1005,9 @@ account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-firefox-account }的使用權限。
+
 account-recovery-confirm-key-warning-message = <span>註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -999,9 +1046,11 @@ complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = 已寄出重設郵件
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 請在一小時內點擊我們發送到 { $email } 的鏈結，以設定新密碼。
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
 
@@ -1014,11 +1063,14 @@ reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
+
 reset-password-button = 開始重設
 reset-password-success-alert = 密碼重設
 reset-password-error-general = 很抱歉，重設您的密碼時發生問題
 reset-password-error-unknown-account = 未知帳號
+
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
@@ -1040,9 +1092,11 @@ confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = 請輸入您的密碼 <span>{ -product-firefox-account }</span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = 繼續前往 { $serviceName }
@@ -1051,6 +1105,7 @@ signin-button = 登入
 signin-header = 登入
 signin-use-a-different-account-link = 使用另一個帳號
 signin-forgot-password-link = 忘記密碼？
+
 signin-bounced-header = 抱歉，我們鎖定了您的帳號。
 # $email (string) - The user's email.
 signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了保護您 { -brand-firefox } 的資料，已暫時鎖定您的帳號。
@@ -1133,8 +1188,6 @@ confirm-signup-instruction = 請到 { $email } 信箱收信，點擊登入確認
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

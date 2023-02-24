@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Endurtaka lykilorð
 signup-submit-button = Búa til reikning
+
 form-reset-password-with-balloon-new-password =
     .label = Nýtt lykilorð
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = Fela lykilorð
 input-password-show = Birta lykilorð
 input-password-hide-aria = Fela lykilorð af skjánum.
 input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Til baka
 
@@ -152,9 +154,11 @@ legal-back-button = Til baka
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdur
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Staðfestingartengill er skemmdur
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
 
@@ -179,8 +183,10 @@ remember-pw-link = Manstu lykilorðið þitt? Skráðu þig inn
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið staðfest
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
+
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
 
 ## PasswordInfoBalloon
@@ -228,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
 bento-menu-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
+
 bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
 
 ## Connect another device promo
@@ -247,6 +254,7 @@ connect-another-fx-mobile = Fáðu þér { -brand-firefox } í farsíma eða spj
 connect-another-find-fx-mobile =
     Finndu { -brand-firefox } í { -google-play } og { -app-store } eða
     <br /><linkExternal>sendu niðurhalstengil í tækið þitt.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -255,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = Sæktu { -brand-firefox } í { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -270,10 +277,13 @@ cs-cannot-disconnect = Biðlaraforrit fannst ekki, get ekki aftengst
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Skráð út af { $service }
+
 cs-refresh-button =
     .title = Endurnýja tengdar þjónustur
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Atriði sem vantar eða eru tvítekin?
+
 cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -312,11 +322,12 @@ cs-disconnect-suspicious-advice-content =
     grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-firefox-account }
     lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
     lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
+
 cs-sign-out-button = Útskráning
+
 cs-recent-activity = Nýleg virkni reiknings
 
 ##
-
 
 ## Data collection section
 
@@ -336,6 +347,7 @@ drop-down-menu-title = { -product-firefox-account } valmynd
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Skráð inn sem</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Skrá út
+
 drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá þig út
 
 ## Flow Container
@@ -427,11 +439,11 @@ avatar-page-image-too-large-error-2 = Stærð myndarinnar er of mikil til að h�
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Breyta lykilorði
+
 pw-8-chars = Að minnsta kosti 8 stafir
 pw-not-email = Ekki tölvupóstfangið þitt
 pw-change-must-match = Nýtt lykilorð passar við staðfestingu
@@ -441,34 +453,38 @@ pw-tips = Vertu öruggur - ekki endurnýta lykilorð. Sjáðu fleiri ráð til a
 pw-change-cancel-button = Hætta við
 pw-change-save-button = Vista
 pw-change-forgot-password-link = Gleymt lykilorð?
+
 pw-change-current-password =
     .label = Sláðu inn núverandi lykilorð
 pw-change-new-password =
     .label = Settu inn nýja lykilorðið
 pw-change-confirm-password =
     .label = Staðfestu nýja lykilorðið
+
 pw-change-success-alert-2 = Lykilorð uppfært
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Búa til lykilorð
+
 pw-create-success-alert-2 = Lykilorð stillt
 pw-create-error-2 = Því miður kom upp vandamál við að stilla lykilorðið þitt
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Eyða reikningi
+
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+
 delete-account-confirm-title-3 = Þú gætir hafa tengt { -product-firefox-account } við eina eða fleiri { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -478,7 +494,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Samstilli { -brand-firefox }-gögn
 delete-account-product-firefox-addons = { -brand-firefox }-viðbætur
+
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
+
 delete-account-chk-box-1-v3 =
     .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { -product-pocket })
 delete-account-chk-box-2 =
@@ -487,38 +505,45 @@ delete-account-chk-box-3 =
     .label = Endurvirkjun með þessum tölvupósti gæti ekki endurheimt upplýsingar sem þú hefur vistað
 delete-account-chk-box-4 =
     .label = Öllum forritsaukum og þemum sem þú gefur út á addons.mozilla.org verður eytt
+
+
 delete-account-continue-button = Halda áfram
+
 delete-account-password-input =
     .label = Settu inn lykilorð
+
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Birtingarnafn
+
 display-name-input =
     .label = Settu inn birtingarnafn
 submit-display-name = Vista
 cancel-display-name = Hætta við
+
 display-name-update-error-2 = Vandamál kom upp við að uppfæra birtingarnafnið þitt
+
 display-name-success-alert-2 = Birtingarnafn uppfært
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Nýleg virkni reiknings
+
 recent-activity-account-create = Reikningur var búinn til
 recent-activity-account-disable = Reikningur var gerður óvirkur
 recent-activity-account-enable = Reikningur var virkjaður
 recent-activity-account-login = Innskráning frá reikningi
 recent-activity-account-reset = Endurstilling lykilorðs frá reikningi
 recent-activity-emails-clearBounces = Endursendingar pósts hreinsaðar af reikningi
+
 
 # Account recovery key setup page
 
@@ -572,20 +597,25 @@ delete-account-link = Eyða reikningi
 ## Two Step Authentication
 
 tfa-title = Tveggja-þrepa auðkenning
+
 tfa-step-1-3 = Skref 1 af 3
 tfa-step-2-3 = Skref 2 af 3
 tfa-step-3-3 = Skref 3 af 3
+
 tfa-button-continue = Halda áfram
 tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
+
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
 tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
+
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
     <linkExternal>þessum auðkenningarforritum</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -594,14 +624,17 @@ tfa-qa-code-alt = Notaðu kóðann { $secret } til að setja upp tveggja-þrepa 
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Geturðu ekki skannað kóða?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið þitt:
+
 tfa-enter-totp = Settu nú inn öryggiskóðann úr auðkenningarforritinu.
 tfa-input-enter-totp =
     .label = Settu inn öryggiskóða
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
+
 tfa-enter-code-to-confirm-1 =
     Settu núna inn einn af varaauðkenningarkóðunum þínum til að
     staðfesta að þú hafir vistað hann. Þú þarft kóða til að skrá þig inn ef þú hefur ekki aðgang að snjalltækinu þínu.
@@ -609,7 +642,6 @@ tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
 ##
-
 
 ## Profile section
 
@@ -622,7 +654,6 @@ profile-primary-email =
     .header = Aðaltölvupóstfang
 
 ##
-
 
 ## Security section of Setting
 
@@ -714,7 +745,6 @@ se-secondary-email-none = Ekkert
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tveggja-þrepa auðkenning
@@ -723,6 +753,7 @@ tfa-row-enabled = Virkjað
 tfa-row-not-set = Ekki stillt
 tfa-row-action-add = Bæta við
 tfa-row-action-disable = Gera óvirkt
+
 tfa-row-button-refresh =
     .title = Endurnýja tveggja-þrepa auðkenningu
 tfa-row-cannot-refresh =
@@ -732,12 +763,14 @@ tfa-row-content-explain =
     Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
     einstaks kóða sem aðeins þú hefur aðgang að.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
+
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
 tfa-row-disable-modal-explain-1 =
     Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
     einnig möguleika á að <linkExternal>skipta um varaauðkenningarkóðana þína</linkExternal>.
 tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
+
 tfa-row-change-modal-heading-1 = Skipta um varaauðkenningarkóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
@@ -776,6 +809,7 @@ auth-error-999 = Óvænt villa
 auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -785,7 +819,6 @@ cannot-create-account-requirements = Þú þarft að uppfylla tilteknar aldurskr
 cannot-create-account-learn-more-link = Frekari upplýsingar
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Þú hefur skráð inn á { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -858,29 +891,41 @@ inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <sp
 
 inline-totp-setup-cancel-setup-button = Hætta við uppsetningu
 inline-totp-setup-continue-button = Halda áfram
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Bættu við öryggislagi fyrir reikninginn þinn með því að krefjast auðkenningarkóða frá einu af <authenticationAppsLink>þessum auðkenningarforritum</authenticationAppsLink>.
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Virkjaðu tveggja-þrepa auðkenningu <span>til að halda áfram í stillingar reikningsins</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Virkjaðu tveggja-þrepa auðkenningu <span>til að halda áfram í { $serviceName }</span>
+
 inline-totp-setup-ready-button = Tilbúið
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Skannaðu auðkenningarkóðann <span>til að halda áfram í { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Settu kóðann inn handvirkt <span>til að halda áfram í { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Skannaðu auðkenningarkóðann <span>til að halda áfram í stillingar reikningsins</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Settu kóðann inn handvirkt <span>til að halda áfram í stillingar reikningsins</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Settu þennan leynilykil inn í auðkenningarforritið þitt. <toggleToQRButton>Skanna frekar QR-kóða?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skannaðu QR-kóðann í auðkenningarforritinu þínu og settu síðan inn auðkenningarkóðann sem það gefur upp. <toggleToManualModeButton>Geturðu ekki skannað kóða?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Eftir að því er lokið, mun það byrja að útbúa auðkenningarkóða sem þú getur sett inn.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Auðkenningarkóði
 
@@ -992,7 +1037,9 @@ account-recovery-confirm-key-heading-w-default-service = Endurstilltu aðgangsor
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-firefox-account }.
+
 account-recovery-confirm-key-warning-message = <span>Athugaðu:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á netþjóni á borð við vafurferil og bókamerki).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1031,9 +1078,11 @@ complete-reset-password-error-alert = Því miður kom upp vandamál við að st
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Endurstillingarpóstur sendur
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á { $email } til að útbúa nýtt lykilorð.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
 
@@ -1046,11 +1095,14 @@ reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
+
 reset-password-button = Hefja endurstillingu
 reset-password-success-alert = Endurstilling lykilorðs
 reset-password-error-general = Því miður kom upp vandamál við að endurstilla lykilorðið þitt
 reset-password-error-unknown-account = Óþekktur reikningur
+
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
@@ -1072,9 +1124,11 @@ confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn h
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Sláðu inn lykilorðið þitt <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Halda áfram í { $serviceName }
@@ -1083,6 +1137,7 @@ signin-button = Skrá inn
 signin-header = Skrá inn
 signin-use-a-different-account-link = Nota annan reikning
 signin-forgot-password-link = Gleymt lykilorð?
+
 signin-bounced-header = Því miður. Við höfum læst aðgangnum þínum.
 # $email (string) - The user's email.
 signin-bounced-message = Staðfestingartölvupóstur sem við sendum á { $email } var sendur til baka og við höfum því lokað á reikninginn þinn til að verja gögn þín í { -brand-firefox }.
@@ -1165,8 +1220,6 @@ confirm-signup-instruction = Skoðaðu tölvupóstinn þinn og finndu staðfesti
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

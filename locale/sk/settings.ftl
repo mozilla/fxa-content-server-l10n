@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Zopakujte heslo
 signup-submit-button = Vytvoriť účet
+
 form-reset-password-with-balloon-new-password =
     .label = Nové heslo
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = Skryť heslo
 input-password-show = Zobraziť heslo
 input-password-hide-aria = Skryť heslo z obrazovky.
 input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Naspäť
 
@@ -152,9 +154,11 @@ legal-back-button = Naspäť
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potvrdzovací odkaz je poškodený
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
@@ -179,8 +183,10 @@ remember-pw-link = Pamätáte si svoje heslo? Prihláste sa
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Hlavná e-mailová adresa už bola overená
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prihlásenie je už potvrdené
+
 confirmation-link-reused-message = Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz).
 
 ## PasswordInfoBalloon
@@ -228,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Ponuka { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
 bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
+
 bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 
 ## Connect another device promo
@@ -247,6 +254,7 @@ connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile =
     Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
     <br />prípadne si nechajte <linkExternal>poslať odkaz na svoje zariadenie</linkExternal>.
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -255,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = Stiahnite si { -brand-firefox } z { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -270,10 +277,13 @@ cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Odhlásené zo služby { $service }
+
 cs-refresh-button =
     .title = Obnoviť pripojené služby
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
+
 cs-disconnect-sync-heading = Odpojiť zo služby Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -313,11 +323,12 @@ cs-disconnect-suspicious-advice-content =
     Mali by ste tiež zmeniť akékoľvek iné heslá, ktoré ste si
     uložili na prehliadači { -brand-firefox }, a to zadaním výrazu
     about:logins do panela s adresou.
+
 cs-sign-out-button = Odhlásiť sa
+
 cs-recent-activity = Nedávna aktivita účtu
 
 ##
-
 
 ## Data collection section
 
@@ -337,6 +348,7 @@ drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitaliza
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prihlásený ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odhlásiť sa
+
 drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
 ## Flow Container
@@ -431,11 +443,11 @@ avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože 
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Zmena hesla
+
 pw-8-chars = Minimálne 8 znakov
 pw-not-email = Nepoužívajte vašu e-mailovú adresu
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
@@ -445,34 +457,38 @@ pw-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďal
 pw-change-cancel-button = Zrušiť
 pw-change-save-button = Uložiť
 pw-change-forgot-password-link = Zabudli ste heslo?
+
 pw-change-current-password =
     .label = Zadajte súčasné heslo
 pw-change-new-password =
     .label = Zadajte nové heslo
 pw-change-confirm-password =
     .label = Potvrďte nové heslo
+
 pw-change-success-alert-2 = Heslo bolo aktualizované
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Vytvorenie hesla
+
 pw-create-success-alert-2 = Heslo bolo nastavené
 pw-create-error-2 = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Odstrániť účet
+
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+
 delete-account-confirm-title-3 = Možno ste svoj { -product-firefox-account(case: "acc", capitalization: "lower") } pripojili k jednému alebo viacerým z nasledujúcich produktov alebo služieb od { -brand-mozilla(case: "gen") }, ktoré vám zabezpečujú bezpečnosť a produktivitu na webe:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -482,7 +498,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizujú sa údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplnky pre { -brand-firefox }
+
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
+
 delete-account-chk-box-1-v3 =
     .label = Všetky predplatné, ktoré máte, budú zrušené (okrem služby { -product-pocket })
 delete-account-chk-box-2 =
@@ -491,38 +509,45 @@ delete-account-chk-box-3 =
     .label = opätovná aktivácia pomocou tejto e-mailovej adresy nemusí obnoviť vaše uložené informácie
 delete-account-chk-box-4 =
     .label = všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
+
+
 delete-account-continue-button = Pokračovať
+
 delete-account-password-input =
     .label = Zadajte heslo
+
 delete-account-cancel-button = Zrušiť
 delete-account-delete-button-2 = Odstrániť
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Zobrazované meno
+
 display-name-input =
     .label = Zadajte zobrazované meno
 submit-display-name = Uložiť
 cancel-display-name = Zrušiť
+
 display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém
+
 display-name-success-alert-2 = Zobrazované meno aktualizované
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Nedávna aktivita účtu
+
 recent-activity-account-create = Účet bol vytvorený
 recent-activity-account-disable = Účet bol deaktivovaný
 recent-activity-account-enable = Účet bol povolený
 recent-activity-account-login = Účet inicioval prihlásenie
 recent-activity-account-reset = Účet inicioval zmenu hesla
 recent-activity-emails-clearBounces = Účet vymazal nedoručiteľné e-maily
+
 
 # Account recovery key setup page
 
@@ -576,20 +601,25 @@ delete-account-link = Odstrániť účet
 ## Two Step Authentication
 
 tfa-title = Dvojstupňové overenie
+
 tfa-step-1-3 = Krok 1 z 3
 tfa-step-2-3 = Krok 2 z 3
 tfa-step-3-3 = Krok 3 z 3
+
 tfa-button-continue = Pokračovať
 tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
+
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
 tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
+
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
     aplikácií</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -600,14 +630,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
+
 tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
 tfa-input-enter-totp =
     .label = Zadajte bezpečnostný kód
 tfa-save-these-codes-1 =
     Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
     keď nebudete mať svoje mobilné zariadenie.
+
 tfa-enter-code-to-confirm-1 =
     Zadajte jeden zo svojich záložných overovacích kódov a potvrďte, že ste ho uložili.
     Ak nebudete mať prístup k svojmu mobilnému zariadeniu, na prihlásenie budete potrebovať tento kód.
@@ -615,7 +648,6 @@ tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
 ##
-
 
 ## Profile section
 
@@ -628,7 +660,6 @@ profile-primary-email =
     .header = Hlavná e-mailová adresa
 
 ##
-
 
 ## Security section of Setting
 
@@ -719,7 +750,6 @@ se-secondary-email-none = žiadna
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvojstupňové overenie
@@ -728,6 +758,7 @@ tfa-row-enabled = Povolené
 tfa-row-not-set = Nie je nastavené
 tfa-row-action-add = Pridať
 tfa-row-action-disable = Zakázať
+
 tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
@@ -735,12 +766,14 @@ tfa-row-content-explain =
     Zabráňte niekomu inému v prihlásení vyžadovaním
     jedinečného kódu, ku ktorému máte prístup iba vy.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
+
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain-1 =
     Túto akciu nebudete môcť vrátiť späť. Máte tiež
     možnosť <linkExternal>nahradiť svoje záložné overovacie kódy</linkExternal>.
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
+
 tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
@@ -779,6 +812,7 @@ auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -788,7 +822,6 @@ cannot-create-account-requirements = Ak si chcete vytvoriť { -product-firefox-a
 cannot-create-account-learn-more-link = Ďalšie informácie
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Ste prihlásený/-á do { -brand-firefox(case: "gen") }
 # A "success" message visible to users who verified via email
@@ -861,29 +894,41 @@ inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span
 
 inline-totp-setup-cancel-setup-button = Zrušiť nastavenie
 inline-totp-setup-continue-button = Pokračovať
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania overovacích kódov vygenerovaných jednou z <authenticationAppsLink>týchto overovacích aplikácií</authenticationAppsLink>.
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Povoľte dvojstupňové overenie <span>a pokračujte na nastavenia účtu</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Povoľte dvojstupňové overenie <span>a pokračujte do služby { $serviceName }</span>
+
 inline-totp-setup-ready-button = Hotovo
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Naskenujte overovací kód <span>a pokračujte do služby { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Zadajte kód manuálne <span>a pokračujte do služby { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Naskenujte overovací kód <span>a pokračujte do nastavení účtu</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Zadajte kód manuálne <span>a pokračujte do nastavení účtu</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Zadajte tento tajný kľúč do overovacej aplikácie. <toggleToQRButton>Naskenovať radšej QR kód?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód vo svojej overovacej aplikácii a potom zadajte overovací kód, ktorý vám poskytne. <toggleToManualModeButton>Nemôžete naskenovať kód?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Po dokončení začne generovať overovacie kódy, ktoré môžete zadať.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Overovací kód
 
@@ -995,7 +1040,9 @@ account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocou k
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocou kľúča na obnovenie účtu <span>a pokračujte do služby { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = Zadajte jednorazový kľúč na obnovenie účtu, ktorý ste uložili na bezpečnom mieste, aby ste znova získali prístup k svojmu účtu { -product-firefox-account }.
+
 account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Ak obnovíte svoje heslo a nemáte uložený kľúč na obnovenie účtu, niektoré z vašich údajov budú vymazané (vrátane synchronizovaných údajov na serveri, ako je história a záložky).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1034,9 +1081,11 @@ complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vysky
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = E-mailová správa na obnovu hesla bola odoslaná
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e-mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 
@@ -1049,11 +1098,14 @@ reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
+
 reset-password-button = Spustiť obnovu
 reset-password-success-alert = Obnova hesla
 reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
 reset-password-error-unknown-account = Neznámy účet
+
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
@@ -1075,9 +1127,11 @@ confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu {
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Zadajte heslo<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = A pokračovať do služby <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = A pokračovať do služby { $serviceName }
@@ -1086,6 +1140,7 @@ signin-button = Prihlásiť sa
 signin-header = Prihlásenie
 signin-use-a-different-account-link = Použiť iný účet
 signin-forgot-password-link = Zabudli ste heslo?
+
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdzovací e-mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
@@ -1168,8 +1223,6 @@ confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali n
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line
