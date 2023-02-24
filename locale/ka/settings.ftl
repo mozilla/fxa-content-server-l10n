@@ -2,60 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Banner component
+## Used to show success, error or info messages
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts =
-    { $case ->
-       *[nom] Firefox-ანგარიშები
-        [dat] Firefox-ანგარიშებს
-        [gen] Firefox-ანგარიშების
-        [ben] Firefox-ანგარიშებისთვის
-        [loc] Firefox-ანგარიშებზე
-        [ins] Firefox-ანგარიშებით
-        [add] Firefox-ანგარიშებთან
-    }
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $case ->
-       *[nom] Firefox-ანგარიში
-        [dat] Firefox-ანგარიშს
-        [gen] Firefox-ანგარიშის
-        [ben] Firefox-ანგარიშისთვის
-        [loc] Firefox-ანგარიშზე
-        [ins] Firefox-ანგარიშით
-        [add] Firefox-ანგარიშთან
-    }
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
 
-##
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
 
--google-play = Google Play
--app-store = App Store
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
-## FormResetPasswordWithBalloon
+datablock-download =
+    .message = ჩამოიტვირთა
+datablock-copy =
+    .message = ასლი აღებულია
+datablock-print =
+    .message = ამოიბეჭდა
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+## FormPasswordWithBalloons
 
 form-reset-password-with-balloon-new-password =
     .label = ახალი პაროლი
@@ -64,6 +37,14 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = პაროლის განულება
 form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
 
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-ანგარიშის აღდგენის გასაღები
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-ის დამოწმების სამარქაფო კოდები
+
+## Images - these are all aria labels used for illustrations
+
 ## Input Password
 
 input-password-hide = პაროლის დამალვა
@@ -71,14 +52,17 @@ input-password-show = პაროლის ჩვენება
 input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
 input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
 
+
 ## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = პაროლის აღსადგენი ბმული დაზიანებულია
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
 
@@ -103,9 +87,14 @@ remember-pw-link = გაგახსენდათ პაროლი? შე�
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = მთავარი ელფოსტა უკვე დამოწმებულია
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
+
 confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
 
 ## PasswordStrengthBalloon component
 
@@ -129,7 +118,6 @@ ready-account-ready = თქვენი ანგარიში მზად�
 ready-continue = განაგრძეთ
 sign-in-complete-header = შესვლა დადასტურებულია
 sign-up-complete-header = ანგარიში დადასტურებულია
-pulsing-hearts-description = ვარდისფერი ლეპტოპი და იისფერი მობილური მოწყობილობა, თითოეულს ახლავს აძგერებული გული
 primary-email-verified-header = მთავარი ელფოსტა დამოწმებულია
 
 ## Alert Bar
@@ -145,17 +133,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
+
 bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 
 ## Connect another device promo
@@ -164,6 +153,7 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 connect-another-find-fx-mobile =
     მონახეთ { -brand-firefox } მაღაზიებში { -google-play } და { -app-store } ან
     <br /><linkExternal>გაგზავნეთ ჩამოსატვირთი ბმული თქვენს მოწყობილობაზე.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -172,7 +162,6 @@ connect-another-app-store-image-2 =
     .title = ჩამოტვირთეთ { -brand-firefox } { -app-store }-იდან
 
 ##
-
 
 ## Connected services section
 
@@ -187,10 +176,13 @@ cs-cannot-disconnect = კლიენტი ვერ მოიძებნა,
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = გამოთიშულია { $service }
+
 cs-refresh-button =
     .title = დაკავშირებული მომსახურებების განახლება
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = აკლია რამე ან გამეორებულია?
+
 cs-disconnect-sync-heading = გამოთიშვა სინქრონიზაციიდან
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -198,11 +190,6 @@ cs-disconnect-sync-heading = გამოთიშვა სინქრონ�
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
-cs-disconnect-sync-content-2 =
-    მონახულებული გვერდების მონაცემებს შეინარჩუნებს { $device },
-    მაგრამ აღარ დასინქრონდება თქვენს ანგარიშთან.
-cs-disconnect-sync-reason-2 = რა არის ძირითადი მიზეზი, რომ გამოითიშოს { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -229,20 +216,12 @@ cs-disconnect-suspicious-advice-content =
     საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის, უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") }
     პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
     პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
+
 cs-sign-out-button = გამოსვლა
+
 cs-recent-activity = ანგარიშის ბოლო მოქმედებები
 
 ##
-
-
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = ჩამოიტვირთა
-datablock-copy =
-    .message = ასლი აღებულია
-datablock-print =
-    .message = ამოიბეჭდა
 
 ## Data collection section
 
@@ -262,23 +241,12 @@ drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>შემოსული, როგორც</signin><user>{ $user }</user>
 drop-down-menu-sign-out = გამოსვლა
+
 drop-down-menu-sign-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
 ## Flow Container
 
 flow-container-back = უკან
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox }-ანგარიშის აღდგენის გასაღები
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-ის დამოწმების სამარქაფო კოდები
-get-data-trio-download =
-    .title = ჩამოტვირთვა
-get-data-trio-copy =
-    .title = ასლი
-get-data-trio-print =
-    .title = ამობეჭდვა
 
 # HeaderLockup component
 
@@ -368,11 +336,11 @@ avatar-page-image-too-large-error-2 = სურათის ფაილის �
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = პაროლის შეცვლა
+
 pw-8-chars = სულ მცირე 8 სიმბოლო
 pw-not-email = თქვენი ელფოსტის გარდა
 pw-change-must-match = ახალი პაროლი ემთხვევა დასადასტურებელს
@@ -382,33 +350,36 @@ pw-tips = დაიცავით უსაფრთხოება – ნუ 
 pw-change-cancel-button = გაუქმება
 pw-change-save-button = შენახვა
 pw-change-forgot-password-link = დაგავიწყდათ პაროლი?
+
 pw-change-current-password =
     .label = მიუთითეთ არსებული პაროლი
 pw-change-new-password =
     .label = მიუთითეთ ახალი პაროლი
 pw-change-confirm-password =
     .label = დაადასტურეთ პაროლი
+
 pw-change-success-alert-2 = პაროლი განახლდა
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = პაროლის შექმნა
+
 pw-create-success-alert-2 = პაროლი დაყენებულია
 pw-create-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = ანგარიშის წაშლა
+
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -418,7 +389,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
+
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
+
 delete-account-chk-box-1-v3 =
     .label = ყველა ფასიანი გამოწერა გაუქმდება (დარჩება მხოლოდ { -product-pocket })
 delete-account-chk-box-2 =
@@ -427,33 +400,40 @@ delete-account-chk-box-3 =
     .label = ამ ელფოსტის ხელახლა ამოქმედებით, თქვენი შენახული ინფორმაცია შეიძლება არ აღდგეს
 delete-account-chk-box-4 =
     .label = ყველა გაფართოება და თემა, რომელიც addons.mozilla.org-ზე გამოგიქვეყნებიათ, წაიშლება
+
+
 delete-account-continue-button = გაგრძელება
+
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
+
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = გამოსაჩენი სახელი
+
 display-name-input =
     .label = შეიყვანეთ გამოსაჩენი სახელი
 submit-display-name = შენახვა
 cancel-display-name = გაუქმება
+
 display-name-update-error-2 = ხარვეზი წარმოიშვა თქვენი გამოსაჩენი სახელის განახლებისას
+
 display-name-success-alert-2 = გამოსაჩენი სახელი განახლებულია
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = ანგარიშის ბოლო მოქმედებები
+
 recent-activity-account-create = ანგარიში შეიქმნა
+
 
 # Account recovery key setup page
 
@@ -507,20 +487,25 @@ delete-account-link = ანგარიშის წაშლა
 ## Two Step Authentication
 
 tfa-title = ორბიჯიანი დამოწმება
+
 tfa-step-1-3 = 1-ელი ნაბიჯი 3-დან
 tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
 tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
+
 tfa-button-continue = გაგრძელება
 tfa-button-cancel = გაუქმება
 tfa-button-finish = დასრულება
+
 tfa-incorrect-totp = ორბიჯიანი დამოწმების კოდი არასწორია
 tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
 tfa-cannot-verify-code-4 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების დამოწმებისას
 tfa-incorrect-recovery-code-1 = არასწორი სამარქაფო კოდი
 tfa-enabled = ორბიჯიანი დამოწმება შესვლისას ჩართულია
+
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
     რომელიმე ამ პროგრამას</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -531,14 +516,15 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
+
 tfa-enter-totp = ახლა კი შეიყვანეთ უსაფრთხოების კოდი დამოწმების პროგრამიდან.
 tfa-input-enter-totp =
     .label = შეიყვანეთ უსაფრთხოების კოდი
 
 ##
-
 
 ## Profile section
 
@@ -551,7 +537,6 @@ profile-primary-email =
     .header = მთავარი ელფოსტა
 
 ##
-
 
 ## Security section of Setting
 
@@ -625,7 +610,6 @@ se-secondary-email-none = ცარიელი
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ორბიჯიანი დამოწმება
@@ -634,17 +618,23 @@ tfa-row-enabled = ჩართულია
 tfa-row-not-set = არაა დაყენებული
 tfa-row-action-add = დამატება
 tfa-row-action-disable = ამორთვა
+
 tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-content-explain =
     დაიცავით ანგარიში უცხო პირთა შესვლისგან
     თქვენს ხელთ არსებული უნიკალური კოდის მოთხოვნით.
+
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
+
 tfa-row-change-modal-confirm = შეცვლა
 tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
+
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
 
 ## Auth-server based errors that originate from backend service
 
@@ -665,11 +655,52 @@ auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 
-## CompleteSignin component
 
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-## ConfirmSignin component
+## Connect Another Device page
 
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+## AuthAllow page - Part of the device pairing flow
+
+## PairAuthComplete page - part of the device pairing flow
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+## Pair index page
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 ## AccountRecoveryConfirmKey page
 
@@ -677,36 +708,43 @@ account-recovery-confirm-key-instructions = თქვენს { -product-firefo
 
 ## Account recovery reset password page
 
-
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-
 ## Confirm Reset Password Component
-
 
 ## ResetPassword page
 
+## CompleteSignin component
+
+## ConfirmSignin component
 
 ## Signin page
-
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
-
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
-
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+# and a confirmation code has been sent to their email address.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
 

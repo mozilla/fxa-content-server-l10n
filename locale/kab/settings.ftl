@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Sekcem tikelt nniḍen awal uffir
 signup-submit-button = Rnu amiḍan
+
 form-reset-password-with-balloon-new-password =
     .label = Awal uffir amaynut
 form-reset-password-with-balloon-confirm-password =
@@ -127,13 +127,14 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
-
 ## Input Password
 
 input-password-hide = Ffer awal uffir
 input-password-show = Sken awal uffir
 input-password-hide-aria = Ffer awal uffir deg ugdil.
 input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ɣer deffir
 
@@ -142,9 +143,11 @@ legal-back-button = Ɣer deffir
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Wennez aseɣwen n wawal uffir ixeṣṛen
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Aseɣwen n usentem yerreẓ
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d amsaɣ inek n tirawt. Ma ulac aɣilif, nɣel aseɣwen akken iwata sakin ɛreḍ tikelt nniḍen.
 
@@ -161,18 +164,18 @@ reset-pwd-resend-link = Awi aseγwen amaynut
 
 ## LinkRememberPassword component
 
-
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tuqqna tettwasentem yakan
+
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
-
 
 ## PasswordStrengthBalloon component
 
@@ -207,17 +210,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Umuɣ Bento n { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
+
 bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
 
 ## Connect another device promo
@@ -226,6 +230,7 @@ connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselki
 connect-another-find-fx-mobile =
     Af-d { -brand-firefox } deg { -google-play } akked { -app-store } neɣ
     <br /><linkExternal>azen aseɣwen n usadar ɣer yibenk-ik·im.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -234,7 +239,6 @@ connect-another-app-store-image-2 =
     .title = Sader-d { -brand-firefox } seg { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -249,10 +253,13 @@ cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Tuffɣa n { $service }
+
 cs-refresh-button =
     .title = Smiren ibenan yeqqnen
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
+
 cs-disconnect-sync-heading = Ffeɣ seg Syn
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -260,7 +267,6 @@ cs-disconnect-sync-heading = Ffeɣ seg Syn
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -287,10 +293,10 @@ cs-disconnect-suspicious-advice-content =
     deg-s ccekk, akken ad tḥerzeḍ tilɣa-k•m, ilaq ad tbeddleḍ { -product-firefox-account }
     awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
     wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
+
 cs-sign-out-button = Ffeɣ
 
 ##
-
 
 ## Data collection section
 
@@ -310,6 +316,7 @@ drop-down-menu-title = Umuɣ { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ffeɣ
+
 drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna
 
 ## Flow Container
@@ -398,43 +405,46 @@ avatar-page-image-too-large-error-2 = Teɣzi n ufaylu n tugniwin meqqer nezzeh i
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Beddel awal uffir
+
 pw-8-chars = Ma drus 8 yisekkilen
 pw-not-email = Mačči d tansa-k·m n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
 pw-change-cancel-button = Sefsex
 pw-change-save-button = Sekles
 pw-change-forgot-password-link = Tettuḍ awal uffir?
+
 pw-change-current-password =
     .label = Sekcem awal uffir amiran
 pw-change-new-password =
     .label = Sekcem awal uffir amaynut
 pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
+
 pw-change-success-alert-2 = Awal uffir yettuleqqem
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Rnu awal uffir
+
 pw-create-success-alert-2 = Awal uffir yettusbadu
 
 ##
-
 
 ## Delete account page
 
 delete-account-header =
     .title = Kkes amiḍan
+
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -442,7 +452,9 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
+
 delete-account-chk-box-1-v3 =
     .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { -product-pocket })
 delete-account-chk-box-2 =
@@ -451,34 +463,40 @@ delete-account-chk-box-3 =
     .label = Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen
 delete-account-chk-box-4 =
     .label = Akk isiɣzaf d yisental i d-tessufɣeḍ deg addons.mozilla.org ad ttwakksen
+
+
 delete-account-continue-button = Kemmel
+
 delete-account-password-input =
     .label = Sekcem awal uffir
+
 delete-account-cancel-button = Sefsex
 delete-account-delete-button-2 = Kkes
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Isem yettwaskanen
+
 display-name-input =
     .label = Sekcem isem yettwaskanen
 submit-display-name = Sekles
 cancel-display-name = Sefsex
+
 display-name-update-error-2 = Yella-d wugur deg uleqqem n yisem-ik·im yettwaskanen
+
 display-name-success-alert-2 = Isem n uskan yettusnifel
 
 ##
-
 
 ## Recent Activity
 
 recent-activity-account-create = Yettwarna umiḍan
 recent-activity-account-disable = Yensa umiḍan
 recent-activity-account-enable = Yermed umiḍan
+
 
 # Account recovery key setup page
 
@@ -532,19 +550,24 @@ delete-account-link = Kkes amiḍan
 ## Two Step Authentication
 
 tfa-title = Asesteb s snat n tarrayin
+
 tfa-step-1-3 = Asurif 1 seg 3
 tfa-step-2-3 = Asurif 2 seg 3
 tfa-step-3-3 = Asurif 3 seg 3
+
 tfa-button-continue = Kemmel
 tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
+
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
 tfa-incorrect-recovery-code-1 = Tangalt n usesteb n uḥraz d tarameɣtut
 tfa-enabled = Asesteb s snat n tarrayin yermed
+
 tfa-scan-this-code =
     Smiḍen tangalt-a QR s useqdec n yiwen seg <linkExternal>
     yisnasen-a n usesteb</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -555,19 +578,21 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
+
 tfa-enter-totp = Tura sekcem tangalt n tɣellist seg usnas n usesteb.
 tfa-input-enter-totp =
     .label = Sekcem tangalt n tɣellist
 tfa-save-these-codes-1 =
     Sekles tingalin n usesteb n uḥraz n useqdec asuf deg umḍiq aɣelsan i wass ma yili
     ur teḥwaǧeḍara ibenk-ik·im aziraz.
+
 tfa-enter-recovery-code-1 =
     .label = Sekcem tangalt n usesteb n uḥraz
 
 ##
-
 
 ## Profile section
 
@@ -580,7 +605,6 @@ profile-primary-email =
     .header = Imayl amezwaru
 
 ##
-
 
 ## Security section of Setting
 
@@ -671,7 +695,6 @@ se-secondary-email-none = Ula yiwen
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Asesteb s snat n tarrayin
@@ -680,6 +703,7 @@ tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
 tfa-row-action-disable = Sens
+
 tfa-row-button-refresh =
     .title = Smiren asesteb s snat n tarrayin
 tfa-row-cannot-refresh =
@@ -689,19 +713,20 @@ tfa-row-content-explain =
     Ur ttaǧǧa yiwen ad yeqqen, ssuter 
     tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
 tfa-row-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
+
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
 tfa-row-disable-modal-explain-1 =
     Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
     tesɛiḍ taxtirt n <linkExternal> usenkez n tengalin-ik•im n usesteb n uḥraz </linkExternal>.
 tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
+
 tfa-row-change-modal-heading-1 = Senfel tangalt n usesteb n uḥraz?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
-
 
 ## Auth-server based errors that originate from backend service
 
@@ -724,6 +749,7 @@ auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
 auth-error-999 = Tuccḍa ur nettwaṛǧi ara
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -732,7 +758,6 @@ cannot-create-account-header = Ur yezmir ara ad yernu amiḍan
 cannot-create-account-learn-more-link = Issin ugar
 
 ## Connect Another Device page
-
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Yettwasentem yimayl
 # A "success" message visible to users who verified via sign-in
@@ -774,7 +799,9 @@ inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 
 inline-totp-setup-cancel-setup-button = Sefsex asebeddi
 inline-totp-setup-continue-button = Kemmel
+
 inline-totp-setup-ready-button = Yewjed
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Tangalt n usesteb
 
@@ -814,7 +841,6 @@ pair-auth-complete-manage-devices-link = Sefrek ibenkan
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
-
 ## PairFailure - a view which displays on failure of the device pairing process
 
 pair-failure-header = Acuddu ur yeddi ara akken iwata
@@ -848,7 +874,6 @@ pair-supp-allow-cancel-link = Sefsex
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
-
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -893,6 +918,7 @@ confirm-pw-reset-header = Wennez imayl yettwaznen
 reset-password-button = Bdu awennez
 reset-password-success-alert = Awal uffir yettuwennez
 reset-password-error-unknown-account = Amiḍan arussin
+
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
 reset-password-with-recovery-key-verified-generate-new-key = Sirew tasarut n tririt n umiḍan tamaynut
 reset-password-with-recovery-key-verified-continue-to-account = Kemmel ɣer umiḍan-iw
@@ -911,6 +937,7 @@ confirm-signin-header = Sentem tuqqna-agi
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Kemmel ɣer { $serviceName }
@@ -918,6 +945,7 @@ signin-button = Kcem
 signin-header = Kcem
 signin-use-a-different-account-link = Seqdec amiḍan nniḍen
 signin-forgot-password-link = Tettuḍ awal uffir?
+
 signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
 back = Ɣer deffir
 
@@ -970,8 +998,6 @@ confirm-signup-heading = Sentem amiḍan inek
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 confirm-signup-code-input-label = Sekcem tangalt s 6-izwilen

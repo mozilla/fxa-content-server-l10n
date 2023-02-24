@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -103,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = パスワードを再入力してください
 signup-submit-button = アカウントを作成
+
 form-reset-password-with-balloon-new-password =
     .label = 新しいパスワード
 form-reset-password-with-balloon-confirm-password =
@@ -144,6 +144,8 @@ input-password-hide = パスワードを隠す
 input-password-show = パスワードを開示
 input-password-hide-aria = 画面上のパスワードを隠す
 input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 戻る
 
@@ -152,9 +154,11 @@ legal-back-button = 戻る
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = パスワードをリセットするリンクが壊れています
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 確認リンクが壊れています
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
 
@@ -179,8 +183,10 @@ remember-pw-link = パスワードを覚えている場合はログインして�
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = 主要メールアドレスは既に確認されています
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
+
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
 
 ## PasswordInfoBalloon
@@ -228,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
+
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 ## Connect another device promo
@@ -247,6 +254,7 @@ connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-
 connect-another-find-fx-mobile =
     { -google-play } や { -app-store } で { -brand-firefox } を見つけるか
     <br /><linkExternal>ダウンロードリンクを端末に送信してください。</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -255,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = { -app-store } で { -brand-firefox } をダウンロード
 
 ##
-
 
 ## Connected services section
 
@@ -268,10 +275,13 @@ cs-cannot-disconnect = クライアントが見つからないため、切断で
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } からログアウトしました
+
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 項目が不足または重複していますか？
+
 cs-disconnect-sync-heading = Sync から切断
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -300,11 +310,12 @@ cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を�
 cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
+
 cs-sign-out-button = ログアウト
+
 cs-recent-activity = 最近のアカウント利用情報
 
 ##
-
 
 ## Data collection section
 
@@ -324,6 +335,7 @@ drop-down-menu-title = { -product-firefox-account } メニュー
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ログアウト
+
 drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
 ## Flow Container
@@ -415,11 +427,11 @@ avatar-page-image-too-large-error-2 = 画像ファイルのサイズが大きす
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = パスワードを変更
+
 pw-8-chars = 最低 8 文字
 pw-not-email = あなたのメールアドレスではありません
 pw-change-must-match = 新しいパスワードを再入力して一致させる必要があります
@@ -429,33 +441,36 @@ pw-tips = 安全のため、パスワードを再利用してはいけません�
 pw-change-cancel-button = キャンセル
 pw-change-save-button = 保存
 pw-change-forgot-password-link = パスワードを忘れましたか？
+
 pw-change-current-password =
     .label = 現在のパスワードを入力してください
 pw-change-new-password =
     .label = 新しいパスワードを入力してください
 pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
+
 pw-change-success-alert-2 = パスワードを更新しました
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = パスワードを作成
+
 pw-create-success-alert-2 = パスワードを設定しました
 pw-create-error-2 = 申し訳ありませんが、パスワードの設定中に問題が発生しました
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = アカウントを削除
+
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -465,7 +480,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } データの同期
 delete-account-product-firefox-addons = { -brand-firefox } のアドオン
+
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
+
 delete-account-chk-box-1-v3 =
     .label = 有料サブスクリプションがあればキャンセルされます ({ -product-pocket } を除く)
 delete-account-chk-box-2 =
@@ -474,37 +491,44 @@ delete-account-chk-box-3 =
     .label = このメールアドレスで再び有効化しても、保存された情報が復元できない場合があります
 delete-account-chk-box-4 =
     .label = addons.mozilla.org に公開されたすべての拡張機能とテーマは削除されます
+
+
 delete-account-continue-button = 続ける
+
 delete-account-password-input =
     .label = パスワードを入力してください
+
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = 表示名
+
 display-name-input =
     .label = 表示名を入力してください
 submit-display-name = 保存
 cancel-display-name = キャンセル
+
 display-name-update-error-2 = 表示名のアップデートに問題がありました
+
 display-name-success-alert-2 = 表示名が更新されました
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = 最近のアカウント利用情報
+
 recent-activity-account-create = アカウントが作成されました
 recent-activity-account-disable = アカウントが無効化されました
 recent-activity-account-enable = アカウントが有効化されました
 recent-activity-account-login = アカウントへのログイン開始
 recent-activity-account-reset = アカウントのパスワードリセット
+
 
 # Account recovery key setup page
 
@@ -558,20 +582,25 @@ delete-account-link = アカウントを削除
 ## Two Step Authentication
 
 tfa-title = 2 段階認証
+
 tfa-step-1-3 = ステップ 1/3
 tfa-step-2-3 = ステップ 2/3
 tfa-step-3-3 = ステップ 3/3
+
 tfa-button-continue = 続ける
 tfa-button-cancel = キャンセル
 tfa-button-finish = 完了
+
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
 tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
 tfa-enabled = 2 段階認証が有効化されました
+
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -580,18 +609,20 @@ tfa-qa-code-alt = コード { $secret } を使って対応アプリケーショ�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = コードをスキャンできませんか？
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = この秘密キーを認証アプリに入力してください:
+
 tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
 tfa-input-enter-totp =
     .label = セキュリティコードを入力
 tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
+
 tfa-enter-code-to-confirm-1 = 保存できたことを確認するためにバックアップ認証コードを 1 個入力してください。こららのコードは、モバイル端末を持っていない場合に必要になります。
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
 ##
-
 
 ## Profile section
 
@@ -604,7 +635,6 @@ profile-primary-email =
     .header = 主要アドレス
 
 ##
-
 
 ## Security section of Setting
 
@@ -694,7 +724,6 @@ se-secondary-email-none = なし
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2 段階認証
@@ -703,17 +732,20 @@ tfa-row-enabled = 有効
 tfa-row-not-set = 未設定
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
+
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
 tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
+
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-disable-modal-explain-1 =
     この操作は元に戻せません。
     <linkExternal>バックアップ認証コードを差し替える</linkExternal> オプションもあります。
 tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
+
 tfa-row-change-modal-heading-1 = バックアップ認証コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
 tfa-row-change-modal-explain = この操作は元に戻せません。
@@ -752,6 +784,7 @@ auth-error-999 = 予期しないエラー
 auth-error-1003 = ローカルストレージまたは Cookie が無効になっています
 auth-error-1008 = 新しいパスワードは別のものにしてください
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -761,7 +794,6 @@ cannot-create-account-requirements = { -product-firefox-account }を作成する
 cannot-create-account-learn-more-link = 詳細情報
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = { -brand-firefox } にログインしました
 # A "success" message visible to users who verified via email
@@ -834,29 +866,41 @@ inline-recovery-confirmation-header = バックアップ認証コードを確認
 
 inline-totp-setup-cancel-setup-button = セットアップをキャンセル
 inline-totp-setup-continue-button = 続ける
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>これらの認証アプリ</authenticationAppsLink> のいずれかからの認証コードを必須とすることでアカウントのセキュリティレベルを高めます。
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = 2 段階認証を有効にして <span>アカウント設定へ進む</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = 2 段階認証を有効にして <span>{ $serviceName } へ進む</span>
+
 inline-totp-setup-ready-button = 準備完了
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = 認証コードをスキャンして <span>{ $serviceName } へ進む</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = コードを手入力して <span>{ $serviceName } へ進む</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = 認証コードをスキャンして <span>アカウント設定へ進む</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = コードを手入力して <span>アカウント設定へ進む</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = この秘密鍵を認証アプリに入力してください。<toggleToQRButton>または QR コードをスキャンしてください。</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = 認証アプリで QR コードをスキャンし、提供された認証コードを入力してください。 <toggleToManualModeButton>コードをスキャンできませんか?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = 完了すると、入力する認証コードの生成が開始されます。
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = 認証コード
 
@@ -968,7 +1012,9 @@ account-recovery-confirm-key-heading-w-default-service = アカウント回復�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = アカウント回復用キーでパスワードをリセットして <span>{ $serviceName } に進む</span>
+
 account-recovery-confirm-key-instructions = あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、{ -product-firefox-account } へのアクセスを取り戻しましょう。
+
 account-recovery-confirm-key-warning-message = <span>注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1007,9 +1053,11 @@ complete-reset-password-error-alert = 申し訳ありませんが、パスワー
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = リセット用のメールが送信されました
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
 
@@ -1022,11 +1070,14 @@ reset-password-heading-w-default-service = パスワードをリセットして 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
+
 reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
+
 reset-password-button = リセットを開始
 reset-password-success-alert = パスワードをリセット
 reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
 reset-password-error-unknown-account = 不明なアカウントです
+
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
@@ -1048,9 +1099,11 @@ confirm-signin-message = ログイン確認リンクを { $email } 宛にお送�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = <span>{ -product-firefox-account }</span> のパスワードを入力してください
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } へ進む
@@ -1059,6 +1112,7 @@ signin-button = ログイン
 signin-header = ログイン
 signin-use-a-different-account-link = 別のアカウントを使用する
 signin-forgot-password-link = パスワードをお忘れですか？
+
 signin-bounced-header = 申し訳ありません。あなたのアカウントはロックされています。
 # $email (string) - The user's email.
 signin-bounced-message = { $email } へ送られた確認メールが返送されてきたので、あなたの { -brand-firefox } データを守るためアカウントをロックしました。
@@ -1141,8 +1195,6 @@ confirm-signup-instruction = 確認リンクを { $email } 宛にお送りしま
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

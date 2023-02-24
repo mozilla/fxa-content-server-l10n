@@ -2,38 +2,37 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Banner component
+## Used to show success, error or info messages
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Comptes del Firefox
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Compte del Firefox
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
 
-##
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
 
--google-play = Google Play
--app-store = App Store
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = S'ha baixat
+datablock-copy =
+    .message = S'ha copiat
+datablock-print =
+    .message = S'ha imprès
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+## FormPasswordWithBalloons
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+## Images - these are all aria labels used for illustrations
 
 ## Input Password
 
@@ -42,17 +41,21 @@ input-password-show = Mostra la contrasenya
 input-password-hide-aria = Amaga la contrasenya de la pantalla.
 input-password-show-aria = Mostra la contrasenya com a text net. La contrasenya serà visible a la pantalla.
 
+
+## LinkDamaged component
+
+## LinkExpired component
+
 ## LinkRememberPassword component
 
+## LinkUsed component
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+## PasswordStrengthBalloon component
 
 ## Ready component
-
-
-## ResetPasswordLinkDamaged component
-
-
-## ResetPasswordLinkExpired component
-
 
 ## Alert Bar
 
@@ -67,16 +70,14 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Menú Bento del { -brand-firefox }
 bento-menu-firefox-title = El { -brand-firefox } és una tecnologia que lluita per la vostra privadesa en línia.
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
+
 bento-menu-firefox-desktop = Navegador { -brand-firefox } per a l'escriptori
 bento-menu-firefox-mobile = Navegador { -brand-firefox } per al mòbil
+
 bento-menu-made-by-mozilla = Creat per { -brand-mozilla }
 
 ## Connect another device promo
@@ -87,7 +88,6 @@ connect-another-find-fx-mobile =
     <br /><linkExternal>envieu un enllaç per baixar-lo en el vostre dispositiu</linkExternal>
 
 ##
-
 
 ## Connected services section
 
@@ -100,10 +100,13 @@ cs-cannot-disconnect = No s'ha trobat el client; no s'ha pogut desconnectar
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = S'ha tancat la sessió del { $service }
+
 cs-refresh-button =
     .title = Actualitza els serveis connectats
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Hi ha elements duplicats o que falten?
+
 cs-disconnect-sync-heading = Desconnecta del Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -111,7 +114,6 @@ cs-disconnect-sync-heading = Desconnecta del Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -130,22 +132,12 @@ cs-disconnect-lost-advice-heading = S'ha desconnectat el dispositiu perdut o rob
 cs-disconnect-lost-advice-content-2 = Com que el vostre dispositiu s'ha extraviat o robat, per tal de mantenir la vostra informació segura, hauríeu de canviar la contrasenya del { -product-firefox-account } des dels paràmetres del compte. Addicionalment, hauríeu de cercar informació del fabricant del dispositiu sobre com esborrar les dades remotament.
 cs-disconnect-suspicious-advice-heading = S'ha desconnectat el dispositiu sospitós
 cs-disconnect-suspicious-advice-content = Si el dispositiu desconnectat és en efecte sospitós, per mantenir la vostra informació segura, hauríeu de canviar la vostra contrasenya del { -product-firefox-account } des dels paràmetres del compte. També hauríeu de canviar qualsevol altra contrasenya desada en el { -brand-firefox } escrivint «about:logins» a la barra de cerca.
+
 cs-sign-out-button = Tanca la sessió
 
 ##
 
-
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = S'ha baixat
-datablock-copy =
-    .message = S'ha copiat
-datablock-print =
-    .message = S'ha imprès
-
 ## Data collection section
-
 
 # DropDownAvatarMenu component
 
@@ -159,15 +151,6 @@ drop-down-menu-sign-out = Tanca la sessió
 ## Flow Container
 
 flow-container-back = Enrere
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-download =
-    .title = Baixa
-get-data-trio-copy =
-    .title = Copia
-get-data-trio-print =
-    .title = Imprimeix
 
 # HeaderLockup component
 
@@ -209,7 +192,6 @@ nav-email-comm = Comunicacions per correu electrònic
 
 ## Two Step Authentication - replace backup authentication code
 
-
 ## Avatar change page
 
 avatar-page-title =
@@ -242,11 +224,11 @@ avatar-page-image-too-large-error-2 = La mida de la imatge és massa gran per pu
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Canvia la contrasenya
+
 pw-8-chars = 8 caràcters com a mínim
 pw-not-email = No pot ser la vostra adreça electrònica
 pw-change-must-match = La contrasenya nova coincideix amb la confirmació
@@ -256,64 +238,73 @@ pw-tips = Protegiu-vos: no reutilitzeu les contrasenyes. Vegeu més consells per
 pw-change-cancel-button = Cancel·la
 pw-change-save-button = Desa
 pw-change-forgot-password-link = Heu oblidat la contrasenya?
+
 pw-change-current-password =
     .label = Introduïu la contrasenya actual
 pw-change-new-password =
     .label = Introduïu una contrasenya nova
 pw-change-confirm-password =
     .label = Confirmeu la contrasenya nova
+
 pw-change-success-alert-2 = S'ha actualitzat la contrasenya
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Creeu una contrasenya
+
 pw-create-success-alert-2 = S'ha definit la contrasenya
 pw-create-error-2 = S'ha produït un problema en definir la contrasenya
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Suprimeix el compte
+
 delete-account-step-1-2 = Pas 1 de 2
 delete-account-step-2-2 = Pas 2 de 2
-delete-account-confirm-title-2 = Heu connectat el vostre { -product-firefox-account } als productes de { -brand-mozilla } que us mantenen segur i productiu al web:
+
 delete-account-acknowledge = Tingueu en compte que, en suprimir el vostre compte:
-delete-account-chk-box-1-v2 =
-    .label = Es cancel·laran totes les subscripcions de pagament que tingueu (excepte el{ product-pocket })
+
 delete-account-chk-box-2 =
     .label = És possible que perdeu la informació desada i la funcionalitat dels productes de { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Si reactiveu aquesta adreça electrònica, no recuperareu la vostra informació desada
 delete-account-chk-box-4 =
     .label = S'esborraran totes les extensions i temes que hàgiu publicat a addons.mozilla.org
+
+
 delete-account-continue-button = Continua
+
 delete-account-password-input =
     .label = Introduïu la contrasenya
+
 delete-account-cancel-button = Cancel·la
 delete-account-delete-button-2 = Suprimeix
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Nom a mostrar
+
 display-name-input =
     .label = Introduïu el nom a mostrar
 submit-display-name = Desa
 cancel-display-name = Cancel·la
+
 display-name-update-error-2 = S'ha produït un problema en actualitzar el vostre nom a mostrar
+
 display-name-success-alert-2 = S'ha actualitzat el nom a mostrar
 
 ##
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -354,30 +345,36 @@ delete-account-link = Suprimeix el compte
 ## Two Step Authentication
 
 tfa-title = Autenticació en dos passos
+
 tfa-step-1-3 = Pas 1 de 3
 tfa-step-2-3 = Pas 2 de 3
 tfa-step-3-3 = Pas 3 de 3
+
 tfa-button-continue = Continua
 tfa-button-cancel = Cancel·la
 tfa-button-finish = Finalitza
+
 tfa-incorrect-totp = El codi d'autenticació en dos passos és incorrecte
 tfa-cannot-retrieve-code = S'ha produït un problema en recuperar el vostre codi.
 tfa-enabled = S'ha activat l'autenticació en dos passos
+
 tfa-scan-this-code = Escanegeu aquest codi QR utilitzant una d'<linkExternal>aquestes aplicacions d'autenticació</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Utilitzeu el codi { $secret } per configurar l'autenticació en dos passos en aplicacions compatibles.
 tfa-button-cant-scan-qr = No podeu escanejar el codi?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduïu aquesta clau secreta a la vostra aplicació d'autenticació:
+
 tfa-enter-totp = Ara, introduïu el codi de seguretat de l'aplicació d'autenticació.
 tfa-input-enter-totp =
     .label = Introduïu el codi de seguretat
 
 ##
-
 
 ## Profile section
 
@@ -391,7 +388,6 @@ profile-primary-email =
 
 ##
 
-
 ## Security section of Setting
 
 security-heading = Seguretat
@@ -399,7 +395,6 @@ security-not-set = No s'ha definit
 security-action-create = Crea
 
 ## Switch component
-
 
 ## Sub-section row Defaults
 
@@ -434,7 +429,6 @@ se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adre
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticació en dos passos
@@ -442,14 +436,20 @@ tfa-row-enabled = Activada
 tfa-row-not-set = No definida
 tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
+
 tfa-row-button-refresh =
     .title = Actualitza l'autenticació en dos passos
 tfa-row-cannot-refresh = S'ha produït un error en actualitzar la verificació en dos passos.
 tfa-row-content-explain = Impediu que altres persones iniciïn la sessió demanant un codi únic que no conegui ningú altre.
+
 tfa-row-disable-modal-heading = Voleu desactivar l'autenticació en dos passos?
 tfa-row-disable-modal-confirm = Desactiva
+
 tfa-row-change-modal-confirm = Canvia
 tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
+
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
 
 ## Auth-server based errors that originate from backend service
 
@@ -459,20 +459,94 @@ auth-error-110 = El testimoni no és vàlid
 auth-error-155 = No s'ha trobat el testimoni TOTP
 auth-error-1008 = La contrasenya nova ha de ser diferent
 
-## AccountRecoveryConfirmKey page
 
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+## Connect Another Device page
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+## AuthAllow page - Part of the device pairing flow
+
+## PairAuthComplete page - part of the device pairing flow
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+## Pair index page
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+## AccountRecoveryConfirmKey page
 
 ## Account recovery reset password page
 
-
 ## CompleteResetPassword component
-
+## User followed a password reset link and is now prompted to create a new password
 
 ## Confirm Reset Password Component
 
-
 ## ResetPassword page
 
+## CompleteSignin component
+
+## ConfirmSignin component
+
+## Signin page
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+# and a confirmation code has been sent to their email address.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
 

@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -96,40 +95,6 @@ device-info-browser-os = { $browserName } på { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresse: { $ipAddress }
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox-konti
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox-konto
--product-mozilla-vpn = Mozilla VPN
--product-mozilla-hubs = Mozilla Hubs
--product-pocket = Pocket
--product-mdn-plus = MDN Plus
--product-firefox-monitor = Firefox Monitor
--product-firefox-relay = Firefox Relay
-
-##
-
--google-play = Google Play
--app-store = App Store
-
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
@@ -137,6 +102,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gentag adgangskode
 signup-submit-button = Opret en konto
+
 form-reset-password-with-balloon-new-password =
     .label = Ny adgangskode
 form-reset-password-with-balloon-confirm-password =
@@ -178,6 +144,8 @@ input-password-hide = Skjul adgangskode
 input-password-show = Vis adgangskode
 input-password-hide-aria = Skjul adgangskode fra skærmen.
 input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
+
+
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbage
 
@@ -186,9 +154,11 @@ legal-back-button = Tilbage
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
+
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bekræftelseslink beskadiget
+
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
 
@@ -213,8 +183,10 @@ remember-pw-link = Kan du huske adgangskoden? Log ind
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
+
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Login er allerede bekræftet
+
 confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brugt, og det kan kun bruges én gang.
 
 ## PasswordInfoBalloon
@@ -262,17 +234,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
+
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
 bento-menu-firefox-mobile = { -brand-firefox } Browser til din telefon
+
 bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
 
 ## Connect another device promo
@@ -281,6 +254,7 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } i { -google-play } og { -app-store } eller
     <br /><linkExternal>send et link til at hente appen på din enhed.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -289,7 +263,6 @@ connect-another-app-store-image-2 =
     .title = Hent { -brand-firefox } på { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -304,10 +277,13 @@ cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelse
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logget ud af { $service }
+
 cs-refresh-button =
     .title = Opdater forbundne tjenester
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller gentagne elementer?
+
 cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -346,11 +322,12 @@ cs-disconnect-suspicious-advice-content =
     skal du ændre adgangskoden til din { -product-firefox-account }
     i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
     adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
+
 cs-sign-out-button = Log ud
+
 cs-recent-activity = Seneste kontoaktivitet
 
 ##
-
 
 ## Data collection section
 
@@ -370,6 +347,7 @@ drop-down-menu-title = { -product-firefox-account }-menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Log ud
+
 drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge dig ud
 
 ## Flow Container
@@ -463,11 +441,11 @@ avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploa
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Skift adgangskode
+
 pw-8-chars = Mindst 8 tegn
 pw-not-email = Ikke din mailadresse
 pw-change-must-match = Ny adgangskode matcher bekræftelsen
@@ -477,34 +455,38 @@ pw-tips = Beskyt dig selv — genbrug ikke adgangskoder. Læs mere om, hvordan d
 pw-change-cancel-button = Annuller
 pw-change-save-button = Gem
 pw-change-forgot-password-link = Glemt adgangskode?
+
 pw-change-current-password =
     .label = Indtast nuværende adgangskode
 pw-change-new-password =
     .label = Indtast ny adgangskode
 pw-change-confirm-password =
     .label = Bekræft ny adgangskode
+
 pw-change-success-alert-2 = Adgangskode opdateret
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Opret adgangskode
+
 pw-create-success-alert-2 = Adgangskode oprettet
 pw-create-error-2 = Der opstod desværre et problem med at oprette din adgangskode
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Slet konto
+
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
+
 delete-account-confirm-title-3 = Du har muligvis knyttet din { -product-firefox-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
+
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -514,7 +496,9 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tilføjelser
+
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
+
 delete-account-chk-box-1-v3 =
     .label = Alle dine betalte abonnementer vil blive annulleret (undtagen { -product-pocket })
 delete-account-chk-box-2 =
@@ -523,38 +507,45 @@ delete-account-chk-box-3 =
     .label = Vil genaktivering med denne mailadresse muligvis ikke gendanne dine gemte oplysninger
 delete-account-chk-box-4 =
     .label = Bliver alle udvidelser og temaer, du har udgivet via addons.mozilla.org, slettet
+
+
 delete-account-continue-button = Fortsæt
+
 delete-account-password-input =
     .label = Indtast adgangskode
+
 delete-account-cancel-button = Annuller
 delete-account-delete-button-2 = Slet
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Vist navn
+
 display-name-input =
     .label = Indtast vist navn
 submit-display-name = Gem
 cancel-display-name = Annuller
+
 display-name-update-error-2 = Der opstod et problem med at opdatere dit vist navn
+
 display-name-success-alert-2 = Vist navn opdateret
 
 ##
 
-
 ## Recent Activity
 
 recent-activity-title = Seneste kontoaktivitet
+
 recent-activity-account-create = Kontoen blev oprettet
 recent-activity-account-disable = Kontoen blev deaktiveret
 recent-activity-account-enable = Kontoen blev aktiveret
 recent-activity-account-login = Kontoen påbegyndte login
 recent-activity-account-reset = Kontoen påbegyndte nulstilling af adgangskode
 recent-activity-emails-clearBounces = Kontoen ryddede mail-afvisninger
+
 
 # Account recovery key setup page
 
@@ -608,20 +599,25 @@ delete-account-link = Slet konto
 ## Two Step Authentication
 
 tfa-title = Totrinsgodkendelse
+
 tfa-step-1-3 = Trin 1 af 3
 tfa-step-2-3 = Trin 2 af 3
 tfa-step-3-3 = Trin 3 af 3
+
 tfa-button-continue = Fortsæt
 tfa-button-cancel = Annuller
 tfa-button-finish = Afslut
+
 tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
 tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
 tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
 tfa-enabled = Totrinsgodkendelse aktiveret
+
 tfa-scan-this-code =
     Skan denne QR-kode ved hjælp af en af <linkExternal>disse
     godkendelsesapps</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -632,14 +628,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
+
 tfa-enter-totp = Indtast nu sikkerhedskoden fra godkendelsesappen.
 tfa-input-enter-totp =
     .label = Indtast sikkerhedskode
 tfa-save-these-codes-1 =
     Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
     til hvis du mister adgangen til din mobile enhed.
+
 tfa-enter-code-to-confirm-1 =
     Indtast en af dine reserve-godkendelseskoder nu for at bekræfte,
     at du gemte den. Du skal bruge en kode til at logge ind, hvis du mister adgangen til
@@ -648,7 +647,6 @@ tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
 ##
-
 
 ## Profile section
 
@@ -661,7 +659,6 @@ profile-primary-email =
     .header = Primær mailadresse
 
 ##
-
 
 ## Security section of Setting
 
@@ -753,7 +750,6 @@ se-secondary-email-none = Ingen
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Totrinsgodkendelse
@@ -762,6 +758,7 @@ tfa-row-enabled = Aktiveret
 tfa-row-not-set = Ikke indstillet
 tfa-row-action-add = Tilføj
 tfa-row-action-disable = Deaktiver
+
 tfa-row-button-refresh =
     .title = Opdater totrinsgodkendelse
 tfa-row-cannot-refresh =
@@ -771,12 +768,14 @@ tfa-row-content-explain =
     Undgå at en anden logger ind ved at kræve en
     unik kode, kun du har adgang til.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
+
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
 tfa-row-disable-modal-explain-1 =
     Du kan ikke fortryde denne handling. Du har også
     mulighed for at <linkExternal>erstatte dine reserve-godkendelseskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
+
 tfa-row-change-modal-heading-1 = Skift reserve-godkendelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
@@ -815,6 +814,7 @@ auth-error-999 = Uventet fejl
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
 
+
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -824,7 +824,6 @@ cannot-create-account-requirements = Du skal opfylde visse alderskriterier for a
 cannot-create-account-learn-more-link = Læs mere
 
 ## Connect Another Device page
-
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Du er logget ind på { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -897,29 +896,41 @@ inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>fo
 
 inline-totp-setup-cancel-setup-button = Annuller opsætning
 inline-totp-setup-continue-button = Fortsæt
+
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Tilføj et ekstra lag af sikkerhed til din konto ved at kræve godkendelseskoder fra én af <authenticationAppsLink>disse godkendelsesapps</authenticationAppsLink>.
+
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinsgodkendelse <span>for at fortsætte til kontoindstillingerne</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver totrinsgodkendelse <span>for at fortsætte til { $serviceName }</span>
+
 inline-totp-setup-ready-button = Klar
+
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Skan godkendelseskoden <span>for at fortsætte til { $serviceName }</span>
+
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Indtast koden manuelt <span>for at fortsætte til { $serviceName }</span>
+
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Skan godkendelseskoden <span>for at fortsætte til kontoindstillingerne</span>
+
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Indtast koden manuelt <span>for at fortsætte til kontoindstillingerne</span>
+
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Skriv denne hemmelige nøgle i din godkendelsesapp. <toggleToQRButton>Skan QR-kode i stedet?</toggleToQRButton>
+
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skan QR-koden i din godkendelsesapp, og indtast den angivne godkendelseskode. <toggleToManualModeButton>Kan du ikke skanne koden?</toggleToManualModeButton>
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Når processen er afsluttet, oprettes godkendelseskoder, som du kan indtaste.
+
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Godkendelseskode
 
@@ -1031,7 +1042,9 @@ account-recovery-confirm-key-heading-w-default-service = Nulstil adgangskode med
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til { $serviceName }</span>
+
 account-recovery-confirm-key-instructions = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-firefox-account } igen.
+
 account-recovery-confirm-key-warning-message = <span>BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt din genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data som fx historik og bogmærker).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1070,9 +1083,11 @@ complete-reset-password-error-alert = Der opstod desværre et problem med at opr
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Mail til nulstilling sendt
+
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik på linket, vi har sendt til { $email } indenfor den næste time for at oprette en ny adgangskode.
+
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
 
@@ -1085,11 +1100,14 @@ reset-password-heading-w-default-service = Nulstil adgangskode <span>for at fort
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
+
 reset-password-warning-message-2 = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
+
 reset-password-button = Start nulstilling
 reset-password-success-alert = Adgangskode nulstillet
 reset-password-error-general = Der opstod desværre et problem med at nulstille din adgangskode
 reset-password-error-unknown-account = Ukendt konto
+
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
@@ -1111,9 +1129,11 @@ confirm-signin-message = Tjek din mail for det login-bekræfteleslink, der er se
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Indtast adgangskoden <span>til din { -product-firefox-account }</span>
+
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Fortsæt til <span>{ $serviceLogo }</span>
+
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Fortsæt til { $serviceName }
@@ -1122,6 +1142,7 @@ signin-button = Log ind
 signin-header = Log ind
 signin-use-a-different-account-link = Brug en anden konto
 signin-forgot-password-link = Glemt adgangskode?
+
 signin-bounced-header = Vi har låst din konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
@@ -1204,8 +1225,6 @@ confirm-signup-instruction = Tjek din mail for det bekræfteleslink, der er send
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line

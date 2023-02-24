@@ -2,38 +2,37 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Banner component
+## Used to show success, error or info messages
 
-## Firefox and Mozilla Brand
-##
-## Firefox and Mozilla must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
 
--brand-mozilla = Mozilla
--brand-firefox = Firefox
--brand-google = Google
-# “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
-# “Account” can be localized, “Firefox” must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox account
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+## ChooseWhatToSync component
+## Checklist of services/information that can be synced across signed in devices
 
-##
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
 
--google-play = Google Play
--app-store = App Store
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = ดาวน์โหลดแล้ว
+datablock-copy =
+    .message = คัดลอกแล้ว
+datablock-print =
+    .message = พิมพ์แล้ว
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+## FormPasswordWithBalloons
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+## Images - these are all aria labels used for illustrations
 
 ## Input Password
 
@@ -42,17 +41,21 @@ input-password-show = แสดงรหัสผ่าน
 input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 input-password-show-aria = แสดงรหัสผ่านในรูปข้อความธรรมดา รหัสผ่านของคุณจะปรากฏให้เห็นบนหน้าจอ
 
+
+## LinkDamaged component
+
+## LinkExpired component
+
 ## LinkRememberPassword component
 
+## LinkUsed component
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+## PasswordStrengthBalloon component
 
 ## Ready component
-
-
-## ResetPasswordLinkDamaged component
-
-
-## ResetPasswordLinkExpired component
-
 
 ## Alert Bar
 
@@ -67,23 +70,21 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = เมนู Bento ของ { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } เป็นเทคโนโลยีที่ต่อสู้เพื่อความเป็นส่วนตัวออนไลน์ของคุณ
-bento-menu-vpn = { product-mozilla-vpn }
-bento-menu-monitor = { product-firefox-monitor }
-bento-menu-pocket = { product-pocket }
-bento-menu-firefox-relay = { product-firefox-relay }
+
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
+
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 ## Connect another device promo
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
 connect-another-find-fx-mobile = ค้นหา { -brand-firefox } ใน { -google-play } และ { -app-store } หรือ<br /><linkExternal>ส่งลิงก์ดาวน์โหลดไปยังอุปกรณ์ของคุณ</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -93,17 +94,19 @@ connect-another-app-store-image-2 =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = บริการที่เชื่อมต่อ
 cs-description = ทุกสิ่งที่คุณใช้และลงชื่อเข้า
 cs-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชรายการบริการที่เชื่อมต่อ
 cs-cannot-disconnect = ไม่พบไคลเอ็นต์ ไม่สามารถยกเลิกการเชื่อมต่อได้
+
 cs-refresh-button =
     .title = รีเฟรชบริการที่เชื่อมต่อ
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = รายการขาดหายหรือซ้ำ?
+
 cs-disconnect-sync-heading = ตัดการเชื่อมต่อจาก Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -111,11 +114,6 @@ cs-disconnect-sync-heading = ตัดการเชื่อมต่อจา
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
-cs-disconnect-sync-content-2 =
-    ข้อมูลการท่องเว็บของคุณจะยังคงอยู่บน { $device }
-    แต่จะไม่ซิงค์กับบัญชีของคุณอีกต่อไป
-cs-disconnect-sync-reason-2 = เหตุผลหลักที่ตัดการเชื่อมต่อ { $device } มีอะไรบ้าง?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -137,19 +135,10 @@ cs-disconnect-suspicious-advice-content =
     เพื่อรักษาข้อมูลของคุณให้ปลอดภัย คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account }
     ของคุณในการตั้งค่าบัญชี นอกจากนี้คุณควรเปลี่ยนรหัสผ่านอื่น ๆ
     ที่คุณบันทึกไว้ใน { -brand-firefox } โดยพิมพ์ about:logins ลงในแถบที่อยู่
+
 cs-sign-out-button = ลงชื่อออก
 
 ##
-
-
-## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
-datablock-download =
-    .message = ดาวน์โหลดแล้ว
-datablock-copy =
-    .message = คัดลอกแล้ว
-datablock-print =
-    .message = พิมพ์แล้ว
 
 ## Data collection section
 
@@ -173,15 +162,6 @@ drop-down-menu-sign-out = ลงชื่อออก
 ## Flow Container
 
 flow-container-back = กลับ
-
-# GetDataTrio component, part of Account Recovery Key flow
-
-get-data-trio-download =
-    .title = ดาวน์โหลด
-get-data-trio-copy =
-    .title = คัดลอก
-get-data-trio-print =
-    .title = พิมพ์
 
 # HeaderLockup component
 
@@ -263,11 +243,11 @@ avatar-page-image-too-large-error-2 = ไฟล์ภาพมีขนาดใ
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = เปลี่ยนรหัสผ่าน
+
 pw-8-chars = อย่างน้อย 8 ตัวอักษร
 pw-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
@@ -275,62 +255,73 @@ pw-commonly-used = ไม่ใช่รหัสผ่านที่พบบ�
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
+
 pw-change-current-password =
     .label = ป้อนรหัสผ่านปัจจุบัน
 pw-change-new-password =
     .label = ป้อนรหัสผ่านใหม่
 pw-change-confirm-password =
     .label = ยืนยันรหัสผ่านใหม่
+
 pw-change-success-alert-2 = ปรับปรุงรหัสผ่านแล้ว
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = สร้างรหัสผ่าน
+
 pw-create-success-alert-2 = ตั้งรหัสผ่านแล้ว
 pw-create-error-2 = ขออภัย เกิดปัญหาในการตั้งรหัสผ่านของคุณ
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = ลบบัญชี
+
 delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
-delete-account-confirm-title-2 = คุณได้เชื่อมต่อ{ -product-firefox-account } ของคุณกับผลิตภัณฑ์ { -brand-mozilla } ที่ช่วยให้คุณปลอดภัยและทำงานได้อย่างมีประสิทธิภาพบนเว็บแล้ว:
+
 delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
+
 delete-account-chk-box-2 =
     .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = การเปิดใช้งานอีเมลนี้ใหม่อาจไม่คืนค่าข้อมูลที่บันทึกไว้ของคุณ
 delete-account-chk-box-4 =
     .label = ส่วนขยายและชุดตกแต่งใด ๆ ที่คุณเผยแพร่ไปยัง addons.mozilla.org จะถูกลบ
+
+
 delete-account-continue-button = ดำเนินการต่อ
+
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
+
 delete-account-cancel-button = ยกเลิก
 delete-account-delete-button-2 = ลบ
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = ชื่อที่ใช้แสดง
+
 display-name-input =
     .label = ป้อนชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
+
 display-name-update-error-2 = เกิดปัญหาในการปรับปรุงชื่อที่ใช้แสดงของคุณ
+
 display-name-success-alert-2 = ปรับปรุงชื่อที่ใช้แสดงแล้ว
 
 ##
+
+## Recent Activity
 
 
 # Account recovery key setup page
@@ -384,21 +375,25 @@ delete-account-link = ลบบัญชี
 ## Two Step Authentication
 
 tfa-title = การยืนยันตัวบุคคลแบบสองขั้นตอน
+
 tfa-step-1-3 = ขั้นตอนที่ 1 จาก 3
 tfa-step-2-3 = ขั้นตอนที่ 2 จาก 3
 tfa-step-3-3 = ขั้นตอนที่ 3 จาก 3
+
 tfa-button-continue = ดำเนินการต่อ
 tfa-button-cancel = ยกเลิก
 tfa-button-finish = เสร็จสิ้น
+
 tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
+
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
+
 tfa-input-enter-totp =
     .label = ป้อนรหัสความปลอดภัย
 
 ##
-
 
 ## Profile section
 
@@ -412,13 +407,11 @@ profile-primary-email =
 
 ##
 
-
 ## Security section of Setting
 
 security-heading = ความปลอดภัย
 
 ## Switch component
-
 
 ## Sub-section row Defaults
 
@@ -444,15 +437,19 @@ se-remove-email =
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-enabled = เปิดใช้งานอยู่
 tfa-row-not-set = ไม่ได้ตั้งค่า
 tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
+
 tfa-row-disable-modal-confirm = ปิดใช้งาน
+
 tfa-row-change-modal-confirm = เปลี่ยน
+
+## TermsPrivacyAgreement
+## These terms are used in signin and signup for Firefox account
 
 ## Auth-server based errors that originate from backend service
 
@@ -460,20 +457,94 @@ auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
 
-## AccountRecoveryConfirmKey page
 
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+## Connect Another Device page
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+## InlineRecoverySetup page
+## When users are creating an account, they may get pushed to setup 2FA
+## in this case, they will encounter this page in the signup process (hence calling it "Inline)
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+## Legal page. This page contains simply a header and links to pages that display
+## content from https://github.com/mozilla/legal-docs
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
+
+## AuthAllow page - Part of the device pairing flow
+
+## PairAuthComplete page - part of the device pairing flow
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+## Pair index page
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+## AccountRecoveryConfirmKey page
 
 ## Account recovery reset password page
 
-
 ## CompleteResetPassword component
-
+## User followed a password reset link and is now prompted to create a new password
 
 ## Confirm Reset Password Component
 
-
 ## ResetPassword page
 
+## CompleteSignin component
+
+## ConfirmSignin component
+
+## Signin page
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+## The "security code" here refers to the code provided by an authentication app.
+
+## Confirm page
+## Users will see this page if a verification link was sent to their email address
+## when setting up a new account
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+# and a confirmation code has been sent to their email address.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
 
