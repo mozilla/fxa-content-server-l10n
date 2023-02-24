@@ -213,6 +213,7 @@ downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
 fraudulentAccountDeletion-content = Oñemoheñoiramoite { -product-firefox-account } ha orekóta ñemboheraguapy ñanduti veve kundaharape ndive. Rojapoháicha mba’ete pyahu ndive, rojerure ndéve emoneĩ hag̃ua mba’ete emboajévo ñepyrũrã ñanduti veve kundaharape.
+fraudulentAccountDeletion-content-2 = Ko’ag̃aite, rohecha pe mba’e noñemboajeihague. Kóva ndojejapói haguére, ndoroikuaaporãi ha’épa ñemboheraguapy moneĩmbyrépa. Ha upéicha rupi, { -product-firefox-account } oñemboheraguapýva ko ñanduti veve kundaharapépe oñemboguéma ha ne ñemboheraguapy ojejokóma opaite mba’e heseguáva reheve.
 fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n-name="mozillaSupportUrl">aty pytyvõha ndive</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
