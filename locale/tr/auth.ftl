@@ -389,6 +389,11 @@ subscriptionCancellation-title = Ayrılık sevdaya dahil
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = { $productName } aboneliğinizi iptal ettik. { $invoiceTotal } tutarındaki son ödemeniz { $invoiceDateOnly } tarihinde alındı.
+subscriptionCancellation-outstanding-content-2 = { $productName } aboneliğinizi iptal ettik. { $invoiceTotal } tutarındaki son ödemeniz { $invoiceDateOnly } tarihinde alınacaktır.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Hizmetiniz, mevcut fatura döneminizin sonuna kadar ({ $serviceLastActiveDateOnly }) devam edecektir.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productName } aboneliğine geçtiniz

@@ -729,6 +729,8 @@ terms-privacy-agreement-intro = Devam ettiğinizde şunları kabul etmiş olursu
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşulları</firefoxTos> ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Devam ederek <firefoxTos>Hizmet Koşulları</firefoxTos>’nı ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>’ni kabul etmiş olursunuz.
 
 ## Auth-server based errors that originate from backend service
 
@@ -842,6 +844,11 @@ inline-totp-setup-ready-button = Hazır
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu tarayın
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } hizmetine devam etmek için</span> kodu girin
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu okutun
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = İşlem tamamlandığında kimlik doğrulama kodları oluşturulmaya başlanacaktır.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -850,6 +857,7 @@ inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Hukuki Bilgiler
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Hizmet Koşulları
 # Links to our internal "Firefox Cloud" /legal/terms page
@@ -878,6 +886,9 @@ pair-auth-allow-refuse-device-link = Giriş yapan siz değilseniz <link>parolan�
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Cihaz bağlandı
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Artık { $deviceOS } üzerindeki { $deviceFamily } ile eşitleme yapıyorsunuz
 pair-auth-complete-sync-benefits-text = Artık açık sekmelerinize, parolalarınıza ve yer imlerinize tüm cihazlarınızdan erişebilirsiniz.
 pair-auth-complete-see-tabs-button = Eşitlenmiş cihazlardan sekmeleri gör
 pair-auth-complete-manage-devices-link = Cihazları yönet
