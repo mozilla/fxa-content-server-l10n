@@ -197,6 +197,12 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-firefox-title = { -brand-firefox } jun na'ob'äl nuto' ri awichinanem pa k'amab'ey.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -204,6 +210,12 @@ connect-another-fx-mobile = Tak'ulu' { -brand-firefox } pan oyonib'äl o kematz'
 connect-another-find-fx-mobile =
     Takanoj { -brand-firefox } pa { -google-play } chuqa' pa { -app-store } o
     <br /><linkExternal>tataqa' jun ruximonel qasanïk pan awoyonib'al.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Tiqasäx { -brand-firefox } pa { -google-play }
+connect-another-app-store-image-2 =
+    .title = Tiqasäx { -brand-firefox } pa ri { -app-store }
 
 ##
 
@@ -216,6 +228,11 @@ cs-cannot-refresh =
     Kojakuyu', xk'oje' jun k'ayewal kik'in ri kicholajem taq samaj
     xe'okisäx.
 cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Chupun pa { $service }
 cs-refresh-button =
     .title = Titzolïx okisan taq samaj
 # Link text to a support page on missing or duplicate devices
@@ -261,9 +278,12 @@ cs-sign-out-button = Titz'apïx molojri'ïl
 
 ## Data collection section
 
+dc-heading = Kimolik Tzij chuqa' Okisaxïk
+dc-learn-more = Tetamäx ch'aqa' chik
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } k'utsamaj
 drop-down-menu-sign-out = Titz'apïx molojri'ïl
 
 ## Flow Container
@@ -281,6 +301,7 @@ header-help = Tob'äl
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -289,7 +310,9 @@ modal-cancel-button = Tiq'at
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Tajikib'a' ataqoya'l
 msv-cancel-button = Tiq'at
+msv-submit-button-2 = Tijikib'äx
 
 ## Settings Nav
 
@@ -297,11 +320,14 @@ nav-settings = Taq nuk'ulem
 nav-profile = Ruwäch b'i'aj
 nav-security = Jikomal
 nav-connected-services = Taq Samaj Ye'okisäx
+nav-data-collection = Kimolik Tzij chuqa' Okisaxïk
 nav-paid-subs = Rutz'ib'axik rub'i' Paid
 nav-email-comm = Tzijonem pa taqoya'l
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = 1 xak richin 2
+tfa-replace-code-2-2 = 2 xak richin 2
 
 ## Avatar change page
 
@@ -329,6 +355,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
 avatar-page-new-avatar =
     .alt = k'ak'a' ruwachib'al ruwäch b'i'aj
+avatar-page-file-upload-error-3 = Xk'ulwachitäj jun k'ayewal toq nijotob'äx ri ruwachib'al ruwäch b'i'aj
+avatar-page-delete-error-3 = Xk'ulwachitäj jun k'ayewal toq niyuj ri ruwachib'al ruwäch b'i'aj
+avatar-page-image-too-large-error-2 = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx
 
 ##
 
@@ -347,12 +376,16 @@ pw-change-new-password =
     .label = Titz'ib'äx ri k'ak'a' ewan atzij
 pw-change-confirm-password =
     .label = Tijikib'äx ri k'ak'a' ewan tzij
+pw-change-success-alert-2 = Xk'extäj ri ewan tzij
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Titz'uk ewan tzij
+pw-create-success-alert-2 = Xjikib'äx ewan tzij
 
 ##
 
@@ -363,6 +396,14 @@ delete-account-header =
     .title = Tiyuj rub'i' taqoya'l
 delete-account-step-1-2 = 1 xak richin 2
 delete-account-step-2-2 = 2 xak richin 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = { -brand-firefox } Taq tz'aqat
 delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:
 delete-account-chk-box-2 =
     .label = Yatikïr ye'asäch taq etamab'äl chuqa' taq samaj e'ayakon pa rutikojil ri { -brand-mozilla }
