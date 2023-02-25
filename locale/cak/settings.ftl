@@ -499,6 +499,8 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Tawokisaj ri bitz'ib' { $secret } richin nab'än runuk'ulem ri jikib'anem rik'in ka'i' xak pa ri taq chokoy ya'on q'ij.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
@@ -525,6 +527,14 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Jikomal
+security-password =
+    .header = Ewan tzij
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Xtz'uk: { $date }
+security-not-set = Majun Runuk'ulem
+security-action-create = Titz'uk
 
 ## Switch component
 
