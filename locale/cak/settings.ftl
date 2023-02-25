@@ -538,6 +538,12 @@ security-action-create = Titz'uk
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Titzij
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Submitting…
+switch-is-on = titzij
+switch-is-off = tichup
 
 ## Sub-section row Defaults
 
@@ -552,14 +558,26 @@ rk-enabled = Xtzij
 rk-not-set = Majun runuk'ulem
 rk-action-create = Titz'uk
 rk-action-remove = Tiyuj
+rk-key-removed-2 = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l
 rk-cannot-remove-key = Man tikirel ta niyuj ri kolonel ruk'u'x rutzij rub'i' taqoya'l.
 rk-content-explain = Tatzolij ri awetamab'al toq namestaj ri ewan atzij.
+rk-remove-error-2 = Man tikirel ta niyuj ri kolonel ruk'u'x rutzij rub'i' taqoya'l.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ruka'n taqoya'l
     .header = Ruka'n taqoya'l
 se-cannot-refresh-email = Takuyu', xk'oje' jun k'ayewal toq nik'ex ri taqoya'l.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } ja ri nab'ey ataqoya'l wakami.
+se-set-primary-error-2 = Kojakuyu', xk'ulwachitäj jun k'ayewal toq nijal ri nab'ey ataqoya'l
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } ütz xyuj
+se-delete-email-error-2 = Takuyu', xk'oje' jun k'ayewal toq niyuj re taqoya'l
 # Button to remove the secondary email
 se-remove-email =
     .title = Tiyuj taqoya'l
@@ -569,6 +587,8 @@ se-refresh-email =
 # Button to make secondary email the primary
 se-make-primary = Tichap achi'el nab'ey
 se-default-content = Katok pan ataqoya'l we man yatikïr ta yatok pa ri nab'ey ataqoya'l.
+# Default value for the secondary email
+se-secondary-email-none = Majun
 
 ##
 
@@ -576,6 +596,7 @@ se-default-content = Katok pan ataqoya'l we man yatikïr ta yatok pa ri nab'ey a
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Jikib'anem rik'in ka'i'-xak
+tfa-row-disabled-2 = Xchup ri jikib'anem rik'in ka'i'-xaq
 tfa-row-enabled = Tzijon
 tfa-row-not-set = Majun runuk'ulem
 tfa-row-action-add = Titz'aqatisäx
@@ -591,6 +612,7 @@ tfa-row-content-explain =
     ruyonil b'itz'ib' ri xa xe rat yatikïr nawokisaj.
 tfa-row-disable-modal-heading = ¿La nichup ri jikib'anem rik'in ka'i'-xak?
 tfa-row-disable-modal-confirm = Tichup
+tfa-row-cannot-disable-2 = Man tikirel ta nichup ri rujikib'axik pa ka'i'-xaq
 tfa-row-change-modal-confirm = Tijalwachïx
 tfa-row-change-modal-explain = Man tikirel ta nitzolïx re samaj re'.
 
@@ -603,15 +625,23 @@ tfa-row-change-modal-explain = Man tikirel ta nitzolïx re samaj re'.
 auth-error-102 = Man etaman ta ruwäch rub'i' taqoya'l
 auth-error-103 = Man qitzij ta re ewan tzij
 auth-error-110 = Man okel ta wachib'äl
+auth-error-139 = Ri ruka'n taqoya'l k'o chi jun wi chuwäch ri rub'i'a' ataqoya'l
 auth-error-155 = Man xilitäj ta ri TOTP token
+auth-error-183-2 = Man okel ta o xk'is ruq'ijl ri rub'itz'ib' jikib'anem
+auth-error-999 = Man oyob'en ta re sachoj
 auth-error-1008 = K'o chi junwi ri k'ak'a' ewan atzij
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Man nitikïr ta nutz'ük ri rub'i' taqoya'l
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Tetamäx ch'aqa' chik
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Xjikib'äx taqoya'l
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
