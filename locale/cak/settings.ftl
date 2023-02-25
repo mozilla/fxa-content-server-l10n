@@ -428,6 +428,8 @@ display-name-input =
     .label = Titz'ib'äx ri b'i'aj richin nik'ut
 submit-display-name = Tiyak
 cancel-display-name = Tiq'at
+display-name-update-error-2 = K'o k'ayewal toq xk'ex ri b'i'aj richin nik'ut.
+display-name-success-alert-2 = Tik'ut pe ri b'i'aj xk'ex
 
 ##
 
@@ -447,6 +449,8 @@ recovery-key-step-2 = 2 xak richin 2
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 1 xak richin 2
+add-secondary-email-error-2 = K'o k'ayewal toq nitz'uk re taqoya'l re'.
 add-secondary-email-page-title =
     .title = Ruka'n taqoya'l
 add-secondary-email-enter-address =
@@ -456,9 +460,19 @@ add-secondary-email-save-button = Tiyak
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 2 xak richin 2
 verify-secondary-email-page-title =
     .title = Ruka'n taqoya'l
 verify-secondary-email-cancel-button = Tiq'at
+verify-secondary-email-verify-button-2 = Tijikib'äx
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Tatz'ib'aj ri rub'itz'ib' jikib'anïk xtaq <strong>{ $email }</strong> pa 5 ch'utiramaj.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } ütz xtz'aqatisäx
 
 ##
 
