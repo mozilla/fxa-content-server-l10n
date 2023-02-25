@@ -220,10 +220,30 @@ subscriptionFirstInvoice-subject = Xjikib'äx rutojik { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Matyox xatz'ib'aj ab'i' pa { $productName }
 subscriptionFirstInvoice-content-processing = Nisamajïx ri atojik, ri xtuk'waj jun kaji' samaj q'ij richin xtitz'aqatisäx.
-subscriptionFirstInvoice-content-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
+subscriptionFirstInvoice-content-auto-renew = Xtijalatäj ri rutz'ib'axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Xsach rik'in rutojik { $productName }
+subscriptionPaymentFailed-title = Takuyu', k'o qak'ayewal rik'in ri atojik
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Xk'oje' qak'ayewal rik'in ri ruk'isib'äl atojik richin { $productName }.
+subscriptionPaymentFailed-content-outdated = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
+subscriptionPaymentProviderCancelled-content-reason = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Xtzij chik { $productName }s rutz'ib'axik ab'i'
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = ¡Matyox xatzïj chik rutz'ib'axik ab'i' pa { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ri retal apaktura' chuqa' atojik junam nub'än. Ri jun chik atojik ja ri pa { $invoiceTotal } pa { $nextInvoiceDateOnly }. Xtijalatäj ri rutgz'ib'axik ab'i' toq natöj ri apaktura', man keta ri' we naq'ät.
+subscriptionsPaymentProviderCancelled-content-payment = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
 subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
