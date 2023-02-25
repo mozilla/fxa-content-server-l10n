@@ -276,11 +276,24 @@ verificationReminderFirst-title-2 = ¡Ütz apetik pa { -brand-firefox }!
 confirm-email-2 = Tijikib'äx rub'i' taqoya'l
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Tijikib'äx rub'i' taqoya'l
+verificationReminderSecond-action-2 = Tijikib'äx rub'i' taqoya'l
 verify-description = Tajikib’a‘ ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri { -brand-firefox } rik'in natikirisaj molojri'ïl xab'akuchi':
 verify-subject = Tak’isa‘ runuk'ik ri rub'i' ataqoya'l
+verify-action-2 = Tijikib'äx rub'i' taqoya'l
+verifyLogin-subject-2 = Tijikib'äx rutikirisaxik molojri'ïl
 verifyLogin-action = Tijikib’äx rutikirisaxik molojri‘ïl
 verifyLoginCode-expiry-notice = Xtik’is ruq‘ijul pa 5 ch'utiramaj.
+verifyPrimary-title-2 = Tijikib'äx ri nab'ey taqoya'l
 verifyPrimary-description = Xk’utüx chi tib‘an jun rujalik ri rub'i' taqoya'l pa re okisaxel:
 verifyPrimary-subject = Tijikib’äx ri nab‘ey taqoya'l
+verifyPrimary-action-2 = Tijikib'äx taqoya'l
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Tijikib’äx ruka‘n taqoya'l
+verifySecondaryCode-title-2 = Tijikib'äx ruka'n taqoya'l
+verifySecondaryCode-action-2 = Tijikib'äx taqoya'l
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Tajikib'a' rub'i' ataqoya'l
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Tajikib'a' ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri { -brand-firefox } rik'in natikirisaj molojri'ïl xab'akuchi':
 verifyShortCode-expiry-notice = Xtik’is ruq‘ijul pa 5 ch'utiramaj.
