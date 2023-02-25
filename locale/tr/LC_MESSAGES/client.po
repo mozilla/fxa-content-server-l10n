@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-24 14:10+0000\n"
+"PO-Revision-Date: 2023-02-25 18:29+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -2062,7 +2062,7 @@ msgstr "Eşleştirme başarılı."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span> için</span> eşitlemeyi onaylayın"
+msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span> için</span> eşleştirmeyi onaylayın"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
