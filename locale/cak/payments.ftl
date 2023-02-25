@@ -62,6 +62,8 @@ new-user-enter-email =
     .label = Tatz'ib'aj ri ataqoya'l
 new-user-confirm-email =
     .label = Tajikib'a' ataqoya'l
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = ¿La itzel rutz'ib'axik ri taqoya'l? { $domain } man yerusüj ta taq taqoya'l.
 
 ## Component - PaymentConfirmation
 
@@ -71,6 +73,7 @@ payment-confirmation-thanks-heading = ¡Matyox!
 payment-confirmation-thanks-subheading = Xtaq jun rutaqoya' jikib'anïk pa { $email } richin rub'eyal natikirisaj rik'in { $product_name }.
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
+payment-confirmation-details-heading-2 = Retamab'al tojïk
 payment-confirmation-amount = { $amount } chi { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -112,6 +115,7 @@ payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = Tak'ulu' ato'ik
 
 ## Component - PaymentForm
 
@@ -133,6 +137,9 @@ payment-legal-copy-stripe-2 = { -brand-name-mozilla } nrokisaj { -brand-name-str
 
 ## Component - PaymentMethodHeader
 
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Ajowan
 
 ## Component - PaymentProcessing
 
@@ -157,6 +164,7 @@ product-no-such-plan = Majun ajil richin re tikojil.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 
 ## Component - SubscriptionTitle
 
@@ -215,6 +223,7 @@ product-plan-not-found = Man xilitäj ta ajil
 
 ## Routes - Checkout - New user
 
+new-user-submit = Tatz'ib'aj ab'i' wakami
 
 ## Routes - Product and Subscriptions
 
@@ -231,6 +240,9 @@ pay-with-heading-card-only = Titoj rik'in tarjeta'
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
@@ -332,3 +344,4 @@ reactivate-success-button = Titz'apïx
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-manage-button = Tinuk'samajïx
