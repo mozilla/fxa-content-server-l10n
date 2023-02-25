@@ -642,35 +642,80 @@ cannot-create-account-learn-more-link = Tetamäx ch'aqa' chik
 
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Xjikib'äx taqoya'l
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Xjikib'äx rutikirisaxik molojri'ïl
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Titikirisäx molojri'ïl
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ¿La ye'atz'aqatisaj chik ch'aqa' taq okisaxel? Titikirisäx molojri'ïl pa { -brand-firefox } pa jun chik okisaxel richin nitz'aqatisäx runuk'ulem
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Titikirisäx molojri'ïl pa { -brand-firefox } pa jun chik okisaxel richin nitz'aqatisäx runuk'ulem
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Tokisäx jun chik okisaxel
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Wakami mani
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Titikirisäx molojri'ïl pa { -brand-firefox } richin Android richin nitz'aqatisäx runuk'ulem
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Titikirisäx molojri'ïl pa { -brand-firefox } richin iOS richin nitz'aqatisäx runuk'ulem
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Titojtob'ëx chik
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Tetamäx ch'aqa' chik
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Ke'ayaka' re jun rokisaxik taq b'itz'ib' pa jun jikïl k'ojlib'äl richin toq man k'o ta awik'in ri awoyonib'al.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Tiq'at
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Titikïr chik el
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Tijikib'äx
+inline-recovery-back-link = Chi rij
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Tiq'at runuk'ulem
+inline-totp-setup-continue-button = Titikïr chik el
+inline-totp-setup-ready-button = Ütz chik
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Rujikib'axik b'itz'ib'
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Taqanel rutzijol
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Taq Rojqanem Samaj
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Ichinan na'oj
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Ichinan na'oj
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Taq Rojqanem Samaj
 
 ## AuthAllow page - Part of the device pairing flow
 
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Okisan okisaxel
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -679,9 +724,16 @@ connect-another-device-email-confirmed-banner = Xjikib'äx taqoya'l
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-message = Xk'is ri runuk'ulem.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Taxima' awokisaxel
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = O tiqasäx
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Wakami mani
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
