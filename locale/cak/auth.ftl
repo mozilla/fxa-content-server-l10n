@@ -22,16 +22,56 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account }.
 subplat-explainer-multiple = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account } chuqa' xatz'ib'aj ab'i' pa jalajöj taq tikojil.
+subplat-explainer-was-deleted = Nak'ül re taqoya'l re' ruma chi ri { $email } xtz'ib'äx pa jun { -product-firefox-account }.
 subplat-terms-policy = Rojqanem chuqa’ ruq‘atik na'ojil
+subplat-terms-policy-plaintext = { subplat-terms-policy } :
 subplat-cancel = Ruq’atik tz‘ib'anïk b'i'aj
+subplat-cancel-plaintext = { subplat-cancel } :
 subplat-reactivate = Tatzija’ chik ri rutz‘ib'axïk b'i'aj
+subplat-reactivate-plaintext = { subplat-reactivate } :
 subplat-update-billing = Tik’ex ri wetamab‘al richin wujil
+subplat-privacy-policy = Ichinan Runa'oj { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } Rojqanem Samaj
+subplat-cloud-terms-plaintext = { subplat-cloud-terms } :
 subplat-legal = Taqanel rutzijol
+subplat-legal-plaintext = { subplat-legal } :
 subplat-privacy = Ichinanem
+subplat-privacy-website-plaintext = { subplat-privacy } :
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Qasanïk { $productName } pa { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Qasanïk { $productName } pa { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Tiyak { $productName } pa <a data-l10n-name="anotherDeviceLink">jun chik rokisaxel kematz'ib'</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Tiyak { $productName } pa <a data-l10n-name="anotherDeviceLink">jun chik rokisaxel</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Tak'ulu' { $productName } pa Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Taqasaj { $productName } pa App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Tayaka' { $productName } pa jun chik okisaxel:
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = We man ja ta rat xajalo, tatzolij ri ewan atzij wakami pa { $resetLink }
+cancellationSurvey = Kojato' richin niqutzilaj ri qasamaj rik'in runojiaxik re <a data-l10n-name="cancellationSurveyUrl">ko'öl cholwuj</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Kojato’ richin niqutzilaj ri qasamaj rik‘in runojiaxik re ko'öl cholwuj:
 change-password-plaintext = We nana’ojij chi k‘o najowan nok pa ataqoya'l, tajala' ri ewan atzij.
 manage-account = Tinuk’samajïx rub‘i' taqoya'l
+manage-account-plaintext = { manage-account }:
+payment-details = Rub'anikil tojïk:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Rajilab'al Paktura': { $invoiceNumber }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿La nak’utuj chi rij ri rutz‘ib'axik ab'i'? Ri to'onel qamolaj e k'o wawe' richin yatkito'.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
