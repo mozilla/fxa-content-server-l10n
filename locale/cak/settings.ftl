@@ -734,14 +734,22 @@ pair-sync-your-device-button = Taxima' awokisaxel
 pair-or-download-subheader = O tiqasäx
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Wakami mani
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Titikirisäx
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR b'itz'ib'
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Okisan okisaxel
+pair-success-message-2 = Ütz xok.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Tijikib'äx okem
+pair-supp-allow-cancel-link = Tiq'at
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -750,19 +758,34 @@ pair-not-now-button = Wakami mani
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-message = ¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Titz'uk' k'ak'a' ewan tzij
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Xjikib'äx ewan tzij
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Titz'uk' k'ak'a' ewan tzij
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Xjikib'äx ewan tzij
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Xtaq ri taqoya'l richin nitzolïx
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Tipitz' pa ruwi' ri ximonel xtaq pa { $email } ri ramaj wakami richin natz'ük jun k'ak'a' ewan tzij.
 
 ## ResetPassword page
 
