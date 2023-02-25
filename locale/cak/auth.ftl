@@ -182,8 +182,23 @@ postVerifySecondary-subject = Xtz’aqatisäx ri ruka‘n taqoya'l
 postVerifySecondary-title = Xtz’aqatisäx ri ruka‘n taqoya'l
 postVerifySecondary-action = Tinuk’samajïx rub‘i' taqoya'l
 recovery-subject = Tatzolij ri ewan atzij
+recovery-title-2 = ¿La xamestäx ri ewan atzij?
 recovery-action = Titz’uk‘ k'ak'a' ewan tzij
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Xqa't ri { $productName } rutz'ib'axik ab'i'
 subscriptionAccountDeletion-title = Yojb’ison ruma yab‘e
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Ütz apetik pa { $productName }
+subscriptionAccountFinishSetup-action-2 = Titikirisäx
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title = ¡Ütz apetik pa { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Titz'uk ewan tzij
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Xqa't ri { $productName } rutz'ib'axik ab'i'
 subscriptionCancellation-title = Yojb’ison ruma yab‘e
 
 ## Variables
@@ -191,7 +206,24 @@ subscriptionCancellation-title = Yojb’ison ruma yab‘e
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = K'o chi nayäk jun k'ak'a' cholkema' richin nawokisaj { $productName }, xtak'ül jun taqoya'l akuchi' niya' rutzijol rub'eyal xtaqasaj.
 subscriptionDowngrade-content-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Xqa't ri { $productName } rutz'ib'axik ab'i'
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Xjikib'äx rutojik { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Matyox xatz'ib'aj ab'i' pa { $productName }
+subscriptionFirstInvoice-content-processing = Nisamajïx ri atojik, ri xtuk'waj jun kaji' samaj q'ij richin xtitz'aqatisäx.
+subscriptionFirstInvoice-content-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
