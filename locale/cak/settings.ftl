@@ -37,11 +37,27 @@ choose-what-to-sync-option-passwords =
     .label = Ewan taq tzij
 choose-what-to-sync-option-addons =
     .label = Taq tz'aqat
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Kejaq taq ruwi'
+choose-what-to-sync-option-prefs =
+    .label = Taq ajowab'äl
+choose-what-to-sync-option-addresses =
+    .label = Taq ochochib'äl
+choose-what-to-sync-option-creditcards =
+    .label = Taq Ch'utit'im Pwäq
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $emailProvider } could be Gmail, Outlook, etc.
+# This link will open the email provider is a new tab
+confirm-with-link-webmail-link = Tijaq { $emailProvider }
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ¿La man k'o ta pan taqob'äl o pa ruyakwuj seq'tzijol? Titaq chik
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Chi rij
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -56,12 +72,53 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }(q'ijun), { $region }, { $country }
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (q'ijun)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country }, (q'ijun)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (q'ijun)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Man etaman ta ruk'ojlib'al
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } pa { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP ochochib'äl: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Ewan tzij
+signup-confirm-password-label =
+    .label = Tikamulüx ewan tzij
+signup-submit-button = Titz'uk rub'i' taqoya'l
+form-reset-password-with-balloon-new-password =
+    .label = K'ak'a' ewan tzij
+form-reset-password-with-balloon-confirm-password =
+    .label = Titz'ib'äx chik ewan tzij
+form-reset-password-with-balloon-submit-button = Titzolïx ewan tzij
+form-reset-password-with-balloon-match-error = Man nikik'äm ta ki' ri taq ewan tzij
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Tiqasäx
+    .aria-label = Tiqasäx
+get-data-trio-copy-2 =
+    .title = Tiwachib'ëx
+    .aria-label = Tiwachib'ëx
+get-data-trio-print-2 =
+    .title = Titz'ajb'äx
+    .aria-label = Titz'ajb'äx
 
 ## Images - these are all aria labels used for illustrations
 
@@ -70,18 +127,38 @@ datablock-print =
 
 input-password-hide = Tewäx ewan tzij
 input-password-show = Tik'ut ewan tzij
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Chi rij
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Titzolïx ruwäch ri man ütz ta ruximonel ewan tzij
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = K'a k'o na taq tz'ib' nrajo' ri ximonel xapïtz' ruma ri' toq rik'in jub'a' xq'at ruma ri ataqoya'l richin winäq. Tachajij ruwachib'enik ri ochochib'äl richin natojtob'ej chik.
 
 ## LinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Titzolïx ruwäch ri ruximonel ewan tzij xk'is yan ruq'ijul
+reset-pwd-link-expired-message = Ri ximonel xapïtz richin natzolij ruwäch ri ewan atzij xk'is yan ruq'ijul.
+# Button to request a new link to reset password if the previous link was expired
+reset-pwd-resend-link = Tik'ul k'ak'a' ximonel
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = ¿La nanataj ri ewan atzij? Titikirisäx molojri'ïl
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Xjikib'äx yan ri nab'ey taqoya'l
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Xjikib'äx yan rutikirisaxik molojri'ïl
+confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -92,6 +169,17 @@ input-password-show = Tik'ut ewan tzij
 
 ## Ready component
 
+reset-password-complete-header = Xtzolïx ri ewan atzij
+ready-start-browsing-button = Tichap okem pa k'amaya'l
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Wakami yatikïr chik nawokisaj { $serviceName }
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = ¡Ütz chik ri rub'i' ataqoya'l!
+ready-continue = Titikïr chik el
+sign-in-complete-header = Xjikib'äx rutikirisaxik molojri'ïl
+sign-up-complete-header = Xjikib'äx rub'i' taqoya'l
 
 ## Alert Bar
 
