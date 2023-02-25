@@ -244,12 +244,38 @@ subscriptionReactivation-title = ¡Matyox xatzïj chik rutz'ib'axik ab'i' pa { $
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Ri retal apaktura' chuqa' atojik junam nub'än. Ri jun chik atojik ja ri pa { $invoiceTotal } pa { $nextInvoiceDateOnly }. Xtijalatäj ri rutgz'ib'axik ab'i' toq natöj ri apaktura', man keta ri' we naq'ät.
 subscriptionsPaymentProviderCancelled-content-payment = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
+subscriptionSubsequentInvoice-title = ¡Matyox xatz'ib'aj ab'i'!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Xqak'ül ri ruk'isib'äl atojik richin { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Xak'ëx pa { $productName }
 subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Ütz xak'ëx ri { $productNameOld } rik'in { $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = K'o chi nayäk jun k'ak'a' cholkema' richin nawokisaj { $productName }, xtak'ül jun taqoya'l akuchi' niya' rutzijol rub'eyal xtaqasaj.
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
 unblockCode-title = ¿La ja rat yatajowan natikirisaj molojri’ïl?
 unblockCode-prompt = We ke ri’, ja re‘ ri rub'itz'ib' ya'oj q'ij nik'atzin chawe:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = We ke ri', ja re' ri rub'itz'ib' ya'oj q'ij nik'atzin chawe: { $unblockCode }
 unblockCode-report-plaintext = We man ke ta ri’, kojato‘ richin niqato' qi' chi kiwa ri nachanela' chuqa' ke'asujuj pe.
+confirm-account = Tijikib'äx rub'i' taqoya'l
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = ¡Ütz apetik pa { -brand-firefox }!
+confirm-email-2 = Tijikib'äx rub'i' taqoya'l
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Tijikib'äx rub'i' taqoya'l
 verify-description = Tajikib’a‘ ri rub'i' ataqoy'al richin jeb'ël nawokisaj ri { -brand-firefox } rik'in natikirisaj molojri'ïl xab'akuchi':
 verify-subject = Tak’isa‘ runuk'ik ri rub'i' ataqoya'l
 verifyLogin-action = Tijikib’äx rutikirisaxik molojri‘ïl
