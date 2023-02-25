@@ -72,15 +72,82 @@ payment-details = Rub'anikil tojïk:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Rajilab'al Paktura': { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Xk'ul rajil { $invoiceTotal } pa { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Rub'eyal tojïk:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } tarjeta' k'isib'en pa { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Rajilab'al Paktura': <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Rajilab'al Paktura': { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Xk'ul rajil { $invoiceTotal } pa { $invoiceDateOnly }
+subscriptionSupport = ¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a data-l10n-name="subscriptionSupportUrl">to'onel qamolaj</a> e k'o wawe' richin yatkito'.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿La nak’utuj chi rij ri rutz‘ib'axik ab'i'? Ri to'onel qamolaj e k'o wawe' richin yatkito'.
+subscriptionUpdatePayment = Richin majun k'ayewal rik'in asamaj, <a data-l10n-name="updateBillingUrl">tak'exa' ri retamab'al atojik</a> pan aninäq.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Richin majun k’ayewal rik‘in asamaj, tak'exa' ri retamab'al atojik pan aninäq:
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } pa { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } pa { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP ochochib'äl: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country }, (q'ijun)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country }, (q'ijun)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (q'ijun)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (q'ijun)
 cadReminderFirst-action = Tixim jun chik okisab’äl
+cadReminderFirst-action-plaintext = { cadReminderFirst-action } :
 cadReminderSecond-action = Tixim jun chik okisab’äl
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Ütz apetik pa { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Ütz apetik pa { $productName }
+downloadSubscription-link-action-2 = Titikirisäx
+codes-create-plaintext = { lowRecoveryCodes-action-2 } :
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = K'ak'a' rutikirisaxik molojri'ïl { $clientName }
 newDeviceLogin-action = Tinuk’samajïx rub‘i' taqoya'l
 passwordChanged-subject = Xk’extäj ri ewan tzij
 passwordChanged-title = Xjal ütz ri ewan tzij
+passwordChanged-description = Ütz xjal ri ewan rutzij { -product-firefox-account } pa re jun okisaxel re':
 passwordChangeRequired-subject = Xilitäj q’eleb‘el samaj
 passwordChangeRequired-title = Nrajo’ chi Nijal Ewan Tzij
 passwordChangeRequired-sign-in = Tatikirisaj moloj pa xab'achike okisab'äl o samaj akuchi' nawokisaj ri rub'i' ataqoya'l richin { -product-firefox-account } chuqa' tawojqaj ri ya'on rutzijol.
