@@ -786,43 +786,85 @@ confirm-pw-reset-header = Xtaq ri taqoya'l richin nitzolïx
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Tipitz' pa ruwi' ri ximonel xtaq pa { $email } ri ramaj wakami richin natz'ük jun k'ak'a' ewan tzij.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Xtaq chik taqoya'l. Titz'aqatisäx { $accountsEmail } chi ke ri awachib'il richin nijikib'äx jun k'ulujri'ïl akuchi' majun k'ayewal.
 
 ## ResetPassword page
 
+reset-password-button = Titikirisäx nitzolïx
+reset-password-success-alert = Titzolïx ewan tzij
+reset-password-error-unknown-account = Man etaman ta ruwäch rub'i' taqoya'l
+reset-password-with-recovery-key-verified-page-title = Xtzolïx ütz ri ewan tzij
+reset-password-with-recovery-key-verified-continue-to-account = Kib'e pa rub'i' nutaqoya'l
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Sachoj:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Tijikib'äx re rutikirisaxik molojri'ïl re'
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Tab'enik'oj pan ataqoya'l ri ruximonel rujikib'anik rutikirisaxik molojri'ïl taqon chi re { $email }
 
 ## Signin page
 
+signin-button = Titikirisäx molojri'ïl
+signin-header = Titikirisäx molojri'ïl
+signin-use-a-different-account-link = Tokisäx jun chik rub'i' taqoya'l
+signin-forgot-password-link = ¿La xmestäx ri ewan tzij?
+signin-bounced-header = Takuyu'. Xqaq'ät ri rub'i' ataqoya'l.
+# $email (string) - The user's email.
+signin-bounced-message = Xtzolïx ri rutaqoya'l jikib'anïk xtaq pa { $email } chuqa' xqaq'ät ri rub'i' ataqoya'l richin yeqachajij ri taq atzij richin { -brand-firefox }.
+signin-bounced-create-new-account = ¿La man awichin ta chik re taqoya'l re'? Tatz'uku' jun k'ak'a' rub'i' taqoya'l
+back = Chi rij
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Tijikib'äx
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = Chi rij
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ¿La atq'aton?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Matyox ruma yachajin
+signin-reported-message = Xapon yan rutzijol chi ke ri qamolaj. Rutzijol achi'el re' yojruto' richin niqato' qi' chi kiwäch ri nachanel.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Titz'ib'äx 6-rutz'ib' b'itz'ib'
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Tijikib'äx
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+signin-totp-code-instruction = Tajaqa' ri ruchokoy jikib'anem chuqa' tatz'ib'aj ri rub'itz'ib' jikomal nuk'üt pe.
+signin-totp-code-input-label-v2 = Titz'ib'äx 6-rutz'ib' b'itz'ib'
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = Tijikib'äx
+signin-totp-code-other-account-link = Tokisäx jun chik rub'i' taqoya'l
+signin-totp-code-recovery-code-link = ¿La k'ayew xatz'ib'aj ri b'itz'ib'?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Tajikib'a' rub'i' ataqoya'l
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Tab'enik'oj pan ataqoya'l ri ruximonel jikib'anïk xtaq pa { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -830,7 +872,17 @@ confirm-pw-reset-instructions = Tipitz' pa ruwi' ri ximonel xtaq pa { $email } r
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Titz'ib'äx 6-rutz'ib' b'itz'ib'
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Tijikib'äx
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Tijal taqoya'l
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Janipe' ajuna'?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = K'o chi natz'ib'aj ajuna' richin natz'ib'aj awi'
