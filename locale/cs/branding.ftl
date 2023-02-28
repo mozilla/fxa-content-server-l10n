@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -36,8 +37,7 @@
         [ins] Firefoxem
     }
     .gender = masculine
-
-# "accounts" can be localized, "Firefox" must be treated as a brand.
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
@@ -77,8 +77,7 @@
                 [lower] účtem Firefoxu
             }
     }
-
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
@@ -118,8 +117,19 @@
                 [lower] účtem Firefoxu
             }
     }
-
-# This product should be treated as a brand.
+-product-mozilla-vpn =
+    { $case ->
+        [gen] Mozilly VPN
+        [dat] Mozille VPN
+        [acc] Mozillu VPN
+        [voc] Mozillo VPN
+        [loc] Mozille VPN
+        [ins] Mozillou VPN
+       *[nom] Mozilla VPN
+    }
+    .gender = feminine
+-product-mozilla-hubs = Mozilla Hubs
+-product-mdn-plus = MDN Plus
 -product-firefox-cloud =
     { $case ->
        *[nom] Firefox Cloud
@@ -131,8 +141,39 @@
         [ins] Firefox Cloudem
     }
     .gender = masculine
-
-# Should should be treated as a brand.
+-product-firefox-monitor =
+    { $case ->
+        [gen] Firefox Monitoru
+        [dat] Firefox Monitoru
+        [acc] Firefox Monitor
+        [voc] Firefox Monitore
+        [loc] Firefox Monitoru
+        [ins] Firefox Monitorem
+       *[nom] Firefox Monitor
+    }
+    .gender = masculine
+-product-firefox-relay =
+    { $case ->
+        [gen] Firefoxu Relay
+        [dat] Firefoxu Relay
+        [acc] Firefox Relay
+        [voc] Firefoxe Relay
+        [loc] Firefoxu Relay
+        [ins] Firefoxem Relay
+       *[nom] Firefox Relay
+    }
+    .gender = masculine
+-product-pocket =
+    { $case ->
+        [gen] Pocketu
+        [dat] Pocketu
+        [acc] Pocket
+        [voc] Pocket
+        [loc] Pocketu
+        [ins] Pocketem
+       *[nom] Pocket
+    }
+    .gender = masculine
 -brand-paypal =
     { $case ->
        *[nom] PayPal
@@ -144,7 +185,6 @@
         [ins] PayPalem
     }
     .gender = masculine
-# Should should be treated as a brand.
 -app-store =
     { $case ->
        *[nom] App Store
@@ -167,5 +207,4 @@
         [ins] Googlem
     }
     .gender = masculine
-# Should should be treated as a brand.
 -google-play = Google Play
