@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = გამოსადეგი მასალები ცოდნის ასამაღლებლად პირდაპირ თქვენს საფოსტო ყუთში. გამოიწერეთ:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = იხილეთ, რა სიახლეებითაა { -brand-mozilla } და { -brand-firefox }
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = შეიტანეთ წვლილი ინტერნეტის სიჯანსაღისთვის
 # Newsletter checklist item
@@ -953,7 +956,7 @@ reset-password-heading-w-default-service = გაანულეთ პარო
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხოლოთ { $serviceName }</span>
+reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხილოთ { $serviceName }</span>
 reset-password-button = აღდგენის დაწყება
 reset-password-success-alert = პაროლის განულება
 reset-password-error-general = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის განულებისას
@@ -1003,7 +1006,8 @@ signin-recovery-code-support-link = ვერ ახერხებთ შეს
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
-signin-reported-header = გმადლობთ, ყურადღებით ყოფნისთვის
+signin-reported-header = გმადლობთ ყურადღებისთვის
+signin-reported-message = ჩვენი გუნდი უკვე გაფრთხილებულია. ამგვარი მოხსენებები გვეხმარება დამრღვევების გამოვლენასა და თავდაცვაში.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1013,17 +1017,38 @@ signin-reported-header = გმადლობთ, ყურადღები�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-firefox-account(case: "ben") }</span>
+signin-token-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = დასტური
+signin-token-code-code-expired = კოდი ვადაგასულია?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = ახალი კოდის გაგზავნა.
+signin-token-code-required-error = საჭიროა დასტურის კოდი
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 ## The "security code" here refers to the code provided by an authentication app.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service = შეიყვანეთ უსაფრთხოების კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service = შეიყვანეთ უსაფრთხოების კოდი, <span>რომ იხილოთ { $serviceName }</span>
+signin-totp-code-instruction = გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ მოცემული უსაფრთხოების კოდი.
+signin-totp-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
+# Form button to confirm if the security code entered by the user is valid
+signin-totp-code-confirm-button = დასტური
+signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
+signin-totp-code-recovery-code-link = ვერ შეგყავთ კოდი?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = დაადასტურეთ თქვენი ანგარიში
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1035,7 +1060,28 @@ signin-token-code-heading = შეიყვანეთ დასტურის
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = დასტური
+confirm-signup-code-code-expired = კოდი ვადაგასულია?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = ახალი კოდის გაგზავნა.
+confirm-signup-code-required-error = გთხოვთ შეიყვანოთ დასტურის კოდი
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = მიუთითეთ თქვენი პაროლი
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = რატომაა საჭირო ანგარიშის შექმნა? <LinkExternal>გაეცანით აქ</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = ელფოსტის შეცვლა
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = რა ასაკის ხართ?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = ანგარიშის შესაქმნელად უნდა მიუთითოთ ასაკი
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = რატომ გეკითხებით?
