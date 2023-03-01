@@ -66,8 +66,7 @@ new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ა
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = შეიყვანეთ თქვენი ელფოსტა
 new-user-confirm-email =
     .label = ელფოსტის დადასტურება
@@ -189,6 +188,101 @@ plan-details-tax = გადასახადები და მოსაკ�
 
 product-no-such-plan = ამ პროდუქტისთვის ასეთი გეგმა არ არსებობს.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } გადასახადი
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } დღეში
+       *[other] { $priceAmount } ყოველ { $intervalCount } დღეში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } დღეში
+           *[other] { $priceAmount } ყოველ { $intervalCount } დღეში
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } კვირაში
+       *[other] { $priceAmount } ყოველ { $intervalCount } კვირაში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } კვირაში
+           *[other] { $priceAmount } ყოველ { $intervalCount } კვირაში
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } თვეში
+       *[other] { $priceAmount } ყოველ { $intervalCount } თვეში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } თვეში
+           *[other] { $priceAmount } ყოველ { $intervalCount } თვეში
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } წელიწადში
+       *[other] { $priceAmount } ყოველ { $intervalCount } წელიწადში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } წელიწადში
+           *[other] { $priceAmount } ყოველ { $intervalCount } წელიწადში
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } გადასახადი დღეში
+       *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } დღეში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } გადასახადი დღეში
+           *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } დღეში
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } გადასახადი კვირაში
+       *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } კვირაში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } გადასახადი კვირაში
+           *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } კვირაში
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } გადასახადი თვეში
+       *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } თვეში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } გადასახადი თვეში
+           *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } თვეში
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } გადასახადი წელიწადში
+       *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } წელიწადში
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } გადასახადი წელიწადში
+           *[other] { $priceAmount } + { $taxAmount } გადასახადი ყოველ { $intervalCount } წელიწადში
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = გამოწერის გამართვა
@@ -220,29 +314,49 @@ coupon-promo-code = ფასდაკლების კოდი
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } ყოველდღიურად
+        [one] { $amount } დღეში
        *[other] { $amount } ყოველ { $intervalCount } დღეში
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } დღეში
+           *[other] { $amount } ყოველ { $intervalCount } დღეში
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
-        [one] { $amount } ყოველკვირეულად
+        [one] { $amount } კვირაში
        *[other] { $amount } ყოველ { $intervalCount } კვირაში
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } კვირაში
+           *[other] { $amount } ყოველ { $intervalCount } კვირაში
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
-        [one] { $amount } ყოველთვიურად
+        [one] { $amount } თვეში
        *[other] { $amount } ყოველ { $intervalCount } თვეში
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } თვეში
+           *[other] { $amount } ყოველ { $intervalCount } თვეში
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
-        [one] { $amount } წლიურად
+        [one] { $amount } წელიწადში
        *[other] { $amount } ყოველ { $intervalCount } წელიწადში
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } წელიწადში
+           *[other] { $amount } ყოველ { $intervalCount } წელიწადში
+        }
 
 ## Error messages
 
@@ -297,6 +411,8 @@ sub-update-payment-title = გადახდის მონაცემებ�
 
 pay-with-heading-card-or = ან გადაიხადეთ ბარათით
 pay-with-heading-card-only = ბარათით გადახდა
+product-invoice-preview-error-title = ხარვეზი ზედნადებების შეთვალიერებისას
+product-invoice-preview-error-text = ვერ ჩაიტვირთა ზედნადები შესათვალიერებლად
 
 ## Routes - Product - IapRoadblock
 
@@ -337,34 +453,6 @@ sub-item-cancel-confirm =
     გაუქმდეს წვდომა და მონაცემები, მომსახურებასთან
     { $name } თარიღზე { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } ყოველდღიურად
-       *[other] { $amount } ყოველ { $intervalCount } დღეში
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } ყოველკვირეულად
-       *[other] { $amount } ყოველ { $intervalCount } კვირაში
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } ყოველთვიურად
-       *[other] { $amount } ყოველ { $intervalCount } თვეში
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } ყოველწლიურად
-       *[other] { $amount } ყოველ { $intervalCount } წელიწადში
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = გამოწერის კვლავ ამოქმედება ვერ მოხერხდა
@@ -386,6 +474,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = ხარვეზი, ზედნადებების ჩატვირთვისას
 sub-billing-update-success = თქვენი ანგარიშსწორების მონაცემები წარმატებით განახლდა
+sub-invoice-previews-error-title = ხარვეზი ზედნადებების შეთვალიერებისას
+sub-invoice-previews-error-text = ვერ ჩაიტვირთა ზედნადებები შესათვალიერებლად
 
 ## Routes - Subscription - ActionButton
 
@@ -393,6 +483,8 @@ pay-update-change-btn = შეცვლა
 pay-update-manage-btn = მართვა
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = მომდევნო ანგარიშსწორება { $date }
@@ -415,6 +507,8 @@ sub-route-funding-source-payment-alert = გადახდის არამ�
 sub-item-no-such-plan = ამ გამოწერისთვის ასეთი გეგმა არ არსებობს.
 invoice-not-found = შემდგომი ზედნადები ვერ მოიძებნა
 sub-item-no-such-subsequent-invoice = შემდგომი ზედნადები ვერ მოიძებნა ამ გამოწერისთვის.
+sub-invoice-preview-error-title = ზედნადების შესათვალიერებელი ვერ მოიძებნა
+sub-invoice-preview-error-text = ზედნადების შესათვალიერებელი ვერ მოიძებნა ამ გამოწერისთვის
 
 ## Routes - Subscriptions - Pocket Subscription
 
