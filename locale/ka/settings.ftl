@@ -841,22 +841,41 @@ inline-recovery-confirmation-header = დაადასტურეთ შე�
 
 inline-totp-setup-cancel-setup-button = გამართვის გაუქმება
 inline-totp-setup-continue-button = გაგრძელება
+inline-totp-setup-ready-button = მზადაა
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = სამართლებრივი
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = მომსახურების პირობები
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = პირადულობის დაცვის განაცხადი
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = პირადულობის დაცვის განაცხადი
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = მომსახურების პირობები
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ახლახან თქვენ შეხვედით { -product-firefox }-ში?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = დიახ, დადასტურდეს მოწყობილობა
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = თუ თქვენ არ ყოფილხართ, <link>შეცვალეთ პაროლი</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = მოწყობილობა დაკავშირებულია
+pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -865,17 +884,29 @@ inline-totp-setup-continue-button = გაგრძელება
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = მიერთება ვერ მოხერხდა
+pair-failure-message = გამართვის მიმდინარეობა შეწყვეტილია.
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = ახლა არა
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = დაიწყეთ
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-კოდი
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = მოწყობილობა დაკავშირებულია
+pair-success-message-2 = მიერთებულია წარმატებით.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = მიერთების დადასტურება
+pair-supp-allow-cancel-link = გაუქმება
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -884,6 +915,7 @@ inline-totp-setup-continue-button = გაგრძელება
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = მიერთება აპლიკაციის გამოყენებით
 
 ## AccountRecoveryConfirmKey page
 
@@ -891,36 +923,87 @@ account-recovery-confirm-key-instructions = თქვენს { -product-firefo
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = შექმენით ახალი პაროლი
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = პაროლი დაყენებულია
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = შექმენით ახალი პაროლი
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = პაროლი დაყენებულია
+# An error occured while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = აღსადგენი შეტყობინება გამოგზავნილია
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = გაანულეთ პაროლი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხოლოთ { $serviceName }</span>
+reset-password-button = აღდგენის დაწყება
+reset-password-success-alert = პაროლის განულება
+reset-password-error-general = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის განულებისას
+reset-password-error-unknown-account = უცნობი ანგარიში
+reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
+reset-password-with-recovery-key-verified-generate-new-key = ანგარიშის აღდგენის ახალი გასაღების შედგენა
+reset-password-with-recovery-key-verified-continue-to-account = ანგარიშზე გადასვლა
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = შეცდომა:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = მიმდინარეობს შესვლის დამოწმება…
 
 ## ConfirmSignin component
 
+confirm-signin-header = დაადასტურეთ ეს შესვლა
 
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = შეიყვანეთ პაროლი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+signin-subheader-without-logo-default = გადასვლა ანგარიშის პარამეტრებზე
+signin-button = შესვლა
+signin-header = შესვლა
+signin-use-a-different-account-link = სხვა ანგარიშის გამოყენება
+signin-forgot-password-link = დაგავიწყდათ პაროლი?
+signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
+# $email (string) - The user's email.
+signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
+signin-bounced-create-new-account = აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში
+back = უკან
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = თანხმობა
+# Link to return to signin with two-step authentication code (security code)
+signin-recovery-code-back-link = უკან
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ვერ ახერხებთ შესვლას?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = გმადლობთ, ყურადღებით ყოფნისთვის
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is

@@ -349,7 +349,7 @@ recovery-title-2 = დაგავიწყდათ პაროლი?
 recovery-request-origin = პაროლის შეცვლის მოთხოვნა მივიღეთ თქვენი { -product-firefox-account(case: "gen") } აქედან:
 recovery-new-password-button = შექმენით ახალი პაროლი ქვემოთ მოცემულ ღილაკზე დაჭერით. ბმულს ვადა ამოეწურება მომდევნო საათში.
 recovery-copy-paste = შექმენით ახალი პაროლი ქვემოთ მოცემული ბმულის ასლის ბრაუზერში ჩასმით. ბმულს ვადა ამოეწურება მომდევნო საათში.
-recovery-action = შეიყვანეთ ახალი პაროლი
+recovery-action = შექმენით ახალი პაროლი
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია

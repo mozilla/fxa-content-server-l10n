@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-01 14:40+0000\n"
+"PO-Revision-Date: 2023-03-01 15:50+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -970,7 +970,7 @@ msgstr "ბმულს, რომელზეც გადახვედით
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr "შეიყვანეთ ახალი პაროლი"
+msgstr "შექმენით ახალი პაროლი"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
