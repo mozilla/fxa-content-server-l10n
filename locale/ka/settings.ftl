@@ -765,20 +765,48 @@ auth-error-139 = ელფოსტის დამატებითი მი�
 auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-999 = მოულოდნელი შეცდომა
-auth-error-1003 = ადგილობრივი მეხსიერება ან ფუნთუშები კვლავ გათიშულია
+auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ანგარიშის შექმნა ვერ მოხერხდა
+cannot-create-account-requirements = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნილებებს, რომ შექმნათ { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = ვრცლად
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = მოგესალმებათ { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = ელფოსტა დადასტურებულია
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = შესვლა დადასტურებულია
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = შედით ამ { -brand-firefox }-ში გამართვის დასასრულებლად
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = შესვლა
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = გსურთ კიდევ დაამატოთ მოწყობილობები? შედით { -brand-firefox }-ში სხვა მოწყობილობიდან გამართვის დასასრულებლად
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = შედით { -brand-firefox }-ში მეორე მოწყობილობიდანაც გამართვის დასასრულებლად
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = გსურთ წვდომა თქვენს ჩანართებთან, სანიშნებთან და პაროლებთან სხვა მოწყობილობიდან?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = სხვა მოწყობილობის დაკავშირება
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = ახლა არა
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = შედით { -brand-firefox }-ში Android-ზე გამართვის დასასრულებლად
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = შედით { -brand-firefox }-ში iOS-ზე გამართვის დასასრულებლად
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = საჭიროა ადგილობრივი საცავისა და ფუნთუშების გამოყენება
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
