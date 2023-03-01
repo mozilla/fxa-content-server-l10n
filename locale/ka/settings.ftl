@@ -604,6 +604,8 @@ tfa-enter-secret-key = შეიყვანეთ საიდუმლო გ�
 tfa-enter-totp = ახლა კი შეიყვანეთ უსაფრთხოების კოდი დამოწმების პროგრამიდან.
 tfa-input-enter-totp =
     .label = შეიყვანეთ უსაფრთხოების კოდი
+tfa-enter-recovery-code-1 =
+    .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
 ##
 
@@ -845,6 +847,8 @@ inline-recovery-confirmation-header = დაადასტურეთ შე�
 inline-totp-setup-cancel-setup-button = გამართვის გაუქმება
 inline-totp-setup-continue-button = გაგრძელება
 inline-totp-setup-ready-button = მზადაა
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = შესვლის დამოწმების კოდი
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -878,6 +882,8 @@ pair-auth-allow-refuse-device-link = თუ თქვენ არ ყოფი�
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = მოწყობილობა დაკავშირებულია
+pair-auth-complete-sync-benefits-text = ახლა უკვე შეგიძლიათ წვდომა თქვენს გახსნილ ჩანართებთან, პაროლებსა და სანიშნეებთან ყველა მოწყობილობიდან.
+pair-auth-complete-see-tabs-button = იხილეთ ჩანართები დასინქრონებული მოწყობილობებიდან
 pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
 
 ## WaitForSupp page - Part of the devide pairing flow
