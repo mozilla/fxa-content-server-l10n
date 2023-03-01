@@ -126,6 +126,14 @@ get-data-trio-print-2 =
 
 hearts-broken-image-aria-label =
     .aria-label = კომპიუტერი, მობილური ტელეფონი და თითოეულ მათგანზე გამოსახული გატეხილი გული
+hearts-verified-image-aria-label =
+    .aria-label = კომპიუტერი, მობილური ტელეფონი, პლანშეტი და თითოეულ მათგანზე გამოსახული მფეთქავი გული
+signin-recovery-code-image-description =
+    .aria-label = დოკუმენტი დაფარული ტექსტით
+signin-totp-code-image-label =
+    .aria-label = მოწყობილობა დაფარული 6-ციფრიანი კოდით.
+confirm-signup-aria-label =
+    .aria-label = წერილის კონვერტი ბმულით
 
 ## Input Password
 
@@ -133,6 +141,8 @@ input-password-hide = პაროლის დამალვა
 input-password-show = პაროლის ჩვენება
 input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
 input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = უკან
 
 ## LinkDamaged component
 
@@ -173,6 +183,8 @@ confirmation-link-reused-message = დადასტურების ბმ�
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = პაროლი გესაჭიროებათ იმ დაშიფრულ მონაცემებთან წვდომისთვის, რომელთაც ჩვენთან ინახავთ.
+password-info-balloon-reset-risk-info = განულების შედეგად, სავარაუდოდ, დაკარგავთ შენახულ მონაცემებს, მათ შორის პაროლებსა და სანიშნებს.
 
 ## PasswordStrengthBalloon component
 
@@ -185,6 +197,8 @@ password-strength-balloon-stay-safe-tips = დაიცავით უსაფ
 ## Ready component
 
 reset-password-complete-header = თქვენი პაროლი აღდგა.
+ready-complete-set-up-instruction = დაასრულეთ გამართვა ახალი პაროლის სხვა { -brand-firefox }-იან მოწყობილობებზე შეყვანით.
+ready-start-browsing-button = დაიწყეთ მოგზაურობა ინტერნეტში
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -265,6 +279,10 @@ cs-disconnect-sync-heading = გამოთიშვა სინქრონ�
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    მონახულებული გვერდების მონაცემებს შეინარჩუნებს <span>{ $device }</span>,
+    მაგრამ აღარ დასინქრონდება თქვენს ანგარიშთან.
+cs-disconnect-sync-reason-3 = რის გამო გსურთ გამოთიშოთ <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
