@@ -468,6 +468,7 @@ delete-account-header =
     .title = ანგარიშის წაშლა
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
+delete-account-confirm-title-3 = შესაძლოა, თქვენი { -product-firefox-account } დაკავშირებული იყოს რომელიმე { -brand-mozilla }-პროდუქტთან ან მომსახურებასთან, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -513,6 +514,11 @@ display-name-success-alert-2 = გამოსაჩენი სახელი
 
 recent-activity-title = ანგარიშის ბოლო მოქმედებები
 recent-activity-account-create = ანგარიში შეიქმნა
+recent-activity-account-disable = ანგარიში გაითიშა
+recent-activity-account-enable = ანგარიში ამოქმედდა
+recent-activity-account-login = ანგარიშზე დაიწყო შესვლა
+recent-activity-account-reset = ანგარიშზე დაიწყო პაროლის განულება
+recent-activity-emails-clearBounces = ანგარიშზე გასუფთავდა ელფოსტის უარყოფილი წერილები
 
 # Account recovery key setup page
 
@@ -650,8 +656,10 @@ rk-enabled = ჩართულია
 rk-not-set = არაა დაყენებული
 rk-action-create = შექმნა
 rk-action-remove = მოცილება
+rk-cannot-refresh-1 = სამწუხაროდ, ხარვეზი წარმოიშვა ანგარიშის აღდგენის გასაღების განახლებისას.
 rk-key-removed-2 = ანგარიშის აღდგენის გასაღები მოცილებულია
 rk-cannot-remove-key = თქვენი ანგარიშის აღდგენის გასაღების წაშლა ვერ მოხერხდა.
+rk-refresh-key-1 = ანგარიშის აღდგენის გასაღების განახლება
 rk-content-explain = აღადგინეთ მონაცემები, როცა პაროლი დაგავიწყდებათ.
 rk-remove-error-2 = თქვენი ანგარიშის აღდგენის გასაღების წაშლა ვერ მოხერხდა
 
