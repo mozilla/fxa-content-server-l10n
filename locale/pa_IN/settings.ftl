@@ -714,6 +714,20 @@ connect-another-device-signin-confirmed-banner = ਸਾਈਨ ਇਨ ਦੀ ਪ�
 connect-another-device-signin-to-complete-message = ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਇਸ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = ਸਾਈਨ ਇਨ
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ਹਾਲੇ ਵੀ ਡਿਵਾਈਸ ਜੋੜ ਰਹੇ ਹੋ? ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਅਤੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਵੀ ਚਾਹੁੰਦੇ ਹੋ?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = ਹੁਣੇ ਨਹੀਂ
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਐਂਡਰਾਇਡ ਲਈ { -brand-firefox } ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ iOS ਲਈ { -brand-firefox } ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਰੋ
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -758,23 +772,49 @@ inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋ
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = ਕਨੂੰਨੀ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਹੀ { -product-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = ਹਾਂ, ਡਿਵਾਈਸ ਮਨਜ਼ੂਰ ਹੈ
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ <link>ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = ਤੁਸੀਂ ਹੁਣ ਸਿੰਕ ਕਰ ਰਹੇ ਹੋ: { $deviceOS } ਉੱਤੇ { $deviceFamily }
+pair-auth-complete-sync-benefits-text = ਤੁਸੀਂ ਆਪਣੀਆਂ ਖੋਲ੍ਹੀਆਂ ਤੈਬਾਂ, ਪਾਸਵਰਡ ਅਤੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਵਰਤ ਸਕਦੇ ਹੋ।
+pair-auth-complete-see-tabs-button = ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਵੇਖੋ
+pair-auth-complete-manage-devices-link = ਡਿਵਾਈਸਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ ਡਿਵਾਈਸ</span> ਤੋਂ ਮਨਜ਼ੂਰ ਚਾਹੀਦੀ ਹੈ
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -783,14 +823,33 @@ pair-failure-message = ਸੈਟਅਪ ਕਾਰਵਾਈ ਨੂੰ ਸਮਾਪ
 
 ## Pair index page
 
+pair-sync-header = ਆਪਣੇ ਫ਼ੋ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ { -brand-firefox } ਸਿੰਕ ਕਰੋ
+pair-cad-header = ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਕਨੈਕਟ ਕਰੋ
+pair-already-have-firefox-paragraph = ਫ਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ { -brand-firefox } ਪਹਿਲਾਂ ਹੀ ਹੈ?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = ਆਪਣੇ ਡਿਵਾਈਸਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = ਜਾਂ ਡਾਊਨਲੋਡ ਕਰੋ
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = ਹੁਣੇ ਨਹੀਂ
+pair-take-your-data-message = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ { -brand-firefox } ਵਰਤੋਂ, ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕ ਤੇ ਪਾਸਵਰਡ ਆਪਣੇ ਨਾਲ ਰੱਖੋ।
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = ਸ਼ੁਰੂ ਕਰੀਏ
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR ਕੋਡ
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ
+pair-success-message-2 = ਪੇਅਰ ਕਰਨਾ ਕਾਮਯਾਬ ਹੈ।
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = <span>{ $email } ਲਈ</span> ਪੇਅਰ ਕਰਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 pair-supp-allow-confirm-button = ਪੇਅਰ ਕਰਨ ਦੀ ਤਸਦੀਕ ਕਰੋ
 pair-supp-allow-cancel-link = ਰੱਦ ਕਰੋ
 
@@ -804,6 +863,8 @@ pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ �
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ
+pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰਾ ਵਰਤਿਆ ਸੀ? ਤੁਹਾਨੂੰ { -brand-firefox } ਐਪ ਤੋਂ ਪੇਅਰ ਕਰਨਾ ਪਵੇਗਾ।
 
 ## AccountRecoveryConfirmKey page
 
@@ -853,6 +914,7 @@ reset-password-button = ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ
 reset-password-success-alert = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 reset-password-error-general = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 reset-password-error-unknown-account = ਅਣਜਾਣ ਖਾਤਾ
+reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-with-recovery-key-verified-generate-new-key = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
 reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
@@ -869,6 +931,9 @@ confirm-signin-header = ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰ
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
