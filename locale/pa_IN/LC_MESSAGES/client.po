@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-19 21:48+0000\n"
+"PO-Revision-Date: 2023-03-02 14:07+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1442,7 +1442,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "10-ਅੰਕਾਂ ਦਾ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1458,11 +1458,11 @@ msgstr "ਸਾਡੀ ਟੀਮ ਨੂੰ ਜਾਣਕਾਰੀ ਦਿੱਤੀ �
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">ਆਪਣੇ Firefox ਖਾਤੇ</span> ਲਈ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "5 ਮਿੰਟ ਵਿੱਚ %(email)s ਉੱਤੇ ਭੇਜਿਆ ਕੋਡ ਭਰੋ।"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2032,7 +2032,7 @@ msgstr "QR ਕੋਡ"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ Firefox ਵਰਤੋਂ, ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕ ਤੇ ਪਾਸਵਰਡ ਆਪਣੇ ਨਾਲ ਰੱਖੋ।"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
