@@ -110,6 +110,11 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Reset password
 form-reset-password-with-balloon-match-error = Passwords do not match
 
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = This field is required
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -368,10 +373,11 @@ la-unlink-heading = Unlink from third party account
 la-unlink-content-3 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of your Connected Services. To do that, you will need to manually sign out from the Connected Services section.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Close
 modal-cancel-button = Cancel
+modal-default-confirm-button = Confirm
 
 ## Modal Verify Session
 
@@ -624,9 +630,9 @@ tfa-button-cant-scan-qr = Can’t scan code?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Enter this secret key into your authenticator app:
 
-tfa-enter-totp = Now enter the security code from the authentication app.
-tfa-input-enter-totp =
- .label = Enter security code
+tfa-enter-totp-v2 = Now enter the authentication code from the authentication app.
+tfa-input-enter-totp-v2 =
+ .label = Enter authentication code
 tfa-save-these-codes-1 = Save these one-time use backup authentication codes in a safe place for when
   you don’t have your mobile device.
 
@@ -957,6 +963,24 @@ pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passw
 pair-auth-complete-see-tabs-button = See tabs from synced devices
 pair-auth-complete-manage-devices-link = Manage devices
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Enter authentication code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Enter authentication code <span>to continue to { $serviceName }</span>
+auth-totp-instruction = Open your authentication app and enter the authentication code it provides.
+auth-totp-input-label = Enter 6-digit code
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirm
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Authentication code required
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -1058,9 +1082,10 @@ complete-reset-password-warning-message-2 = <span>Remember:</span> When you rese
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password set
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
+complete-reset-password-recovery-key-error = Sorry, there was a problem checking if you have an account recovery key. <hasRecoveryKeyErrorLink>Reset your password with your account recovery key.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1151,11 +1176,13 @@ signin-recovery-code-instruction = Please enter a backup authentication code tha
 signin-recovery-code-input-label = Enter 10-digit backup authentication code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Back
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Are you locked out?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Backup authentication code required
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1178,26 +1205,28 @@ signin-token-code-confirm-button = Confirm
 signin-token-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Email new code.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Confirmation code required
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Enter security code <span>to continue to account settings</span>
+signin-totp-code-heading-w-default-service-v2 = Enter authentication code <span>to continue to account settings</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Enter security code <span>to continue to { $serviceName }</span>
-signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
+signin-totp-code-heading-w-custom-service-v2 = Enter authentication code <span>to continue to { $serviceName }</span>
+signin-totp-code-instruction-v2 = Open your authentication app and enter the authentication code it provides.
 signin-totp-code-input-label-v2 = Enter 6-digit code
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Authentication code required
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1211,6 +1240,9 @@ confirm-signup-instruction = Check your email for the confirmation link sent to 
 ## Users see this page after they have initiated account sign up,
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Enter confirmation code
+
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1223,7 +1255,14 @@ confirm-signup-code-confirm-button = Confirm
 confirm-signup-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Email new code.
-confirm-signup-code-required-error = Please enter confirmation code
+confirm-signup-code-success-alert = Account confirmed successfully
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Something went wrong. A new code could not be sent.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Confirmation code is required
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
