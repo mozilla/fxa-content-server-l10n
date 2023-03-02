@@ -549,9 +549,12 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 # When the user cannot use a QR code.
-tfa-enter-secret-key = ਇਹ ਭੇਤ ਕੁੰਜੀ ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਵਿੱਚ ਭਰੋ:
+tfa-enter-secret-key = ਇਹ ਭੇਤ ਕੁੰਜੀ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਭਰੋ:
+tfa-enter-totp = ਹੁਣ ਪਰਮਾਣੀਕਰਨ ਐਪ ਤੋਂ ਸੁਰੱਖਿਆ ਕੋਡ ਭਰੋ:
 tfa-input-enter-totp =
     .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
+tfa-enter-recovery-code-1 =
+    .label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 
 ##
 
@@ -580,6 +583,7 @@ security-password =
 security-password-created-date = { $date } ਨੂੰ ਬਣਾਇਆ
 security-not-set = ਸੈੱਟ ਨਹੀਂ
 security-action-create = ਬਣਾਓ
+security-set-password = ਸਿੰਕ ਕਰਨ ਤੇ ਕੁਝ ਖਾਤਾ ਸੁਰੱਖਿਆ ਫ਼ੀਚਰ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ।
 
 ## Switch component
 
@@ -606,6 +610,12 @@ rk-enabled = ਸਮਰੱਥ ਹੈ
 rk-not-set = ਸੈੱਟ ਨਹੀਂ
 rk-action-create = ਬਣਾਓ
 rk-action-remove = ਹਟਾਓ
+rk-key-removed-2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਈ ਗਈ
+rk-cannot-remove-key = ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ।
+rk-refresh-key-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਾਜ਼ਾ ਕਰੋ
+rk-content-explain = ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਵੋ ਤਾਂ ਆਪਣੀ ਜਾਣਕਾਰੀ ਬਹਾਲ ਕਰੋ।
+rk-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+rk-remove-modal-heading-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹਟਾਉਣੀ ਹੈ?
 
 ## Secondary email sub-section on main Settings page
 
@@ -614,7 +624,13 @@ se-heading = ਸੈਕੰਡਰੀ ਈਮੇਲ
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } ਹੁਣ ਤੁਹਾਡਾ ਮੁੱਢਲੀ ਈਮੇਲ ਹੈ
+se-set-primary-error-2 = ਅਫ਼਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੀ ਮੁੱਢਲੀ ਈਮੇਲ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ
+se-delete-email-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਇਹ ਈਮੇਲ ਹਟਾਉਣ ਦੌਰਾਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Button to remove the secondary email
 se-remove-email =
     .title = ਈਮੇਲ ਹਟਾਓ
@@ -647,11 +663,20 @@ tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂ�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = { -product-pocket } ਦੀਆਂ <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</pocketPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = { -brand-firefox } ਦੀਆਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy>
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੋ
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
 auth-error-103 = ਗਲਤ ਪਾਸਵਰਡ
+auth-error-105-2 = ਗਲਤ ਤਸਦੀਕੀ ਕੋਡ
 auth-error-110 = ਗਲਤ ਟੋਕਨ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -661,6 +686,9 @@ auth-error-110 = ਗਲਤ ਟੋਕਨ
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
+auth-error-138-2 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
+auth-error-139 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
+auth-error-155 = TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ
 auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
 auth-error-1003 = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਹਾਲੇ ਵੀ ਅਸਮਰੱਥ ਹਨ
@@ -670,11 +698,22 @@ auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖ�
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+cannot-create-account-requirements = ਤੁਹਾਨੂੰ { -product-firefox-account } ਬਣਾਉਣ ਲਈ ਕੁਝ ਖਾਸ ਉਮਰ ਦੀ ਲੋੜ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = ਹੋਰ ਜਾਣੋ
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = ਤੁਸੀਂ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = ਈਮੇਲ ਤਸਦੀਕ ਕੀਤੀ
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = ਸਾਈਨ ਇਨ ਦੀ ਪੁਸ਼ਟੀ
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = ਸੈਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਇਸ { -brand-firefox } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = ਸਾਈਨ ਇਨ
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
