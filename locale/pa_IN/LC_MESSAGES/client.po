@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-02 14:07+0000\n"
+"PO-Revision-Date: 2023-03-03 13:21+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1651,7 +1651,7 @@ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਪਤਾ ਜੋੜੋ"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "ਜੇ ਤੁਸੀਂ ਲਾਕ ਹੋ ਜਾਓ ਅਤੇ %(escapedEmail)s ਲਈ ਪਹੁੰਚ ਨਹੀਂ ਕਰ ਸਕਦੇ ਤਾਂ ਜੋੜਿਆ ਹੋਇਆ ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਨੂੰ ਤੁਹਾਡਾ ਖਾਤਾ ਵਾਪਸ ਹਾਸਲ ਕਰਨ ਲਈ ਮਦਦਗਾਰ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"

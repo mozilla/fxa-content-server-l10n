@@ -110,6 +110,9 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ
 form-reset-password-with-balloon-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
 
+## FormVerifyCode
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -342,7 +345,7 @@ la-unlink-account-button = ਅਣ-ਲਿੰਕ ਕਰੋ
 la-unlink-heading = ਤੀਜੀ ਧਿਰ ਦੇ ਖਾਤੇ ਤੋਂ ਅਣ-ਲਿੰਕ ਕਰੋ
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = ਬੰਦ ਕਰੋ
 modal-cancel-button = ਰੱਦ ਕਰੋ
@@ -550,9 +553,6 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = ਇਹ ਭੇਤ ਕੁੰਜੀ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਭਰੋ:
-tfa-enter-totp = ਹੁਣ ਪਰਮਾਣੀਕਰਨ ਐਪ ਤੋਂ ਸੁਰੱਖਿਆ ਕੋਡ ਭਰੋ:
-tfa-input-enter-totp =
-    .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
 tfa-enter-recovery-code-1 =
     .label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 
@@ -640,6 +640,7 @@ se-refresh-email =
 se-unverified-2 = ਤਸਦੀਕ ਨਹੀਂ
 # Button to make secondary email the primary
 se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
+se-default-content = ਤੁਹਾਡੇ ਖਾਤੇ ਲਈ ਪਹੁੰਚ, ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੁੱਢਲੇ ਈਮੇਲ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ।
 # Default value for the secondary email
 se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 
@@ -808,6 +809,11 @@ pair-auth-complete-sync-benefits-text = ਤੁਸੀਂ ਆਪਣੀਆਂ ਖ�
 pair-auth-complete-see-tabs-button = ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਵੇਖੋ
 pair-auth-complete-manage-devices-link = ਡਿਵਾਈਸਾਂ ਦਾ ਬੰਦੋਬਸਤ ਕਰੋ
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -895,7 +901,7 @@ complete-reset-pw-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
@@ -965,7 +971,7 @@ signin-recovery-code-heading-w-custom-service = <span>{ $serviceName } ਨਾਲ
 signin-recovery-code-input-label = 10-ਅੰਕਾਂ ਦਾ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = ਤਸਦੀਕ
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = ਪਿੱਛੇ
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -992,16 +998,15 @@ signin-token-code-confirm-button = ਤਸਦੀਕ
 signin-token-code-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-signin-totp-code-instruction = ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤਾ ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ।
 signin-totp-code-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 signin-totp-code-recovery-code-link = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
@@ -1026,7 +1031,6 @@ confirm-signup-code-confirm-button = ਤਸਦੀਕ
 confirm-signup-code-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
-confirm-signup-code-required-error = ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
