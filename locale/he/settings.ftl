@@ -961,6 +961,7 @@ complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
+complete-reset-password-recovery-key-error = מצטערים, הייתה בעיה בבדיקה האם יש לך מפתח לשחזור חשבון. <hasRecoveryKeyErrorLink>באפשרותך לאפס את הססמה שלך עם המפתח לשחזור החשבון שלך.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
