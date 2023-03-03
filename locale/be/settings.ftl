@@ -937,8 +937,11 @@ pair-auth-complete-manage-devices-link = Кіраваць прыладамі
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Увядзіце 6-значны код
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Пацвердзіць
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Патрабуецца код аўтэнтыфікацыі
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1129,6 +1132,8 @@ signin-recovery-code-back-link = Назад
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Вы заблакаваны?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Патрабуецца рэзервовы код аўтарызацыі
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
