@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-19 09:26+0000\n"
+"PO-Revision-Date: 2023-03-03 02:40+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -192,7 +192,7 @@ msgstr "Visa lösenord"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr "Firefox autentiseringskoder"
+msgstr "Firefox reservautentiseringskoder"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -476,7 +476,7 @@ msgstr "TOTP-token hittades inte"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr "Autentiseringskoden hittades inte"
+msgstr "Reservautentiseringskoden hittades inte"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -685,11 +685,11 @@ msgstr "Ogiltig tvåstegsautentiseringskod"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr "Autentiseringskod krävs"
+msgstr "Reservautentiseringskod krävs"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr "Ogiltig autentiseringskod"
+msgstr "Ogiltig reservautentiseringskod"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
@@ -1200,7 +1200,7 @@ msgstr "Ett Firefox-konto låser också upp åtkomst till mer integritetsskyddan
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr "Spara autentiseringskoder"
+msgstr "Spara reservautentiseringskoder"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1231,15 +1231,15 @@ msgstr "Avbryt konfiguration"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr "Bekräfta autentiseringskoden"
+msgstr "Bekräfta reservautentiseringskoden"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "För att säkerställa att du kommer att kunna återfå åtkomst till ditt konto, i händelse av en borttappad enhet, vänligen ange en av dina sparade autentiseringskoder."
+msgstr "För att säkerställa att du kommer att kunna återfå åtkomst till ditt konto, i händelse av en borttappad enhet, vänligen ange en av dina sparade reservautentiseringskoder."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr "Autentiseringskod"
+msgstr "Reservautentiseringskod"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1443,15 +1443,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr "Ange autentiseringskod"
+msgstr "Ange reservautentiseringskod"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Vänligen ange en autentiseringskod som du fick under installationen av tvåstegsautentisering."
+msgstr "Vänligen ange en reservautentiseringskod som du fick under installationen av tvåstegsautentisering."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "Ange en 10-siffrig säkerhetskod för autentisering"
+msgstr "Ange en 10-siffrig reservautentiseringskod"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"

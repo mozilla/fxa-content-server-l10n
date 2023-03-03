@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,7 +103,6 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Upprepa lösenord
 signup-submit-button = Skapa konto
-
 form-reset-password-with-balloon-new-password =
     .label = Nytt lösenord
 form-reset-password-with-balloon-confirm-password =
@@ -110,11 +110,16 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Återställ lösenordet
 form-reset-password-with-balloon-match-error = Lösenorden matchar inte
 
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Detta fält är obligatoriskt
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
-get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reservautentiseringskoder
 get-data-trio-download-2 =
     .title = Hämta
     .aria-label = Hämta
@@ -144,8 +149,6 @@ input-password-hide = Dölj lösenord
 input-password-show = Visa lösenord
 input-password-hide-aria = Dölj lösenord från skärmen.
 input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
-
-
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tillbaka
 
@@ -154,11 +157,9 @@ legal-back-button = Tillbaka
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Länken för att återställa lösenordet fungerar inte
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bekräftelselänken är trasig
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen.
 
@@ -183,10 +184,8 @@ remember-pw-link = Kommer du ihåg ditt lösenord? Logga in
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Primär e-postadress redan bekräftad
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inloggning redan bekräftad
-
 confirmation-link-reused-message = Den bekräftelselänken har redan använts och kan bara användas en gång.
 
 ## PasswordInfoBalloon
@@ -234,18 +233,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din integritet online.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser för datorer
 bento-menu-firefox-mobile = { -brand-firefox } Browser för mobiler
-
 bento-menu-made-by-mozilla = Skapad av { -brand-mozilla }
 
 ## Connect another device promo
@@ -254,7 +252,6 @@ connect-another-fx-mobile = Hämta { -brand-firefox } till mobil eller surfplatt
 connect-another-find-fx-mobile =
     Hitta { -brand-firefox } i { -google-play } och { -app-store } eller
     <br /><linkExternal>skicka en nedladdningslänk till din enhet.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -263,6 +260,7 @@ connect-another-app-store-image-2 =
     .title = Ladda ner { -brand-firefox } från { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -277,13 +275,10 @@ cs-cannot-disconnect = Klienten hittades inte, kunde inte koppla ifrån
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Loggade ut från { $service }
-
 cs-refresh-button =
     .title = Uppdatera anslutna tjänster
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Saknas något eller finns dubbletter?
-
 cs-disconnect-sync-heading = Koppla från Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -322,12 +317,11 @@ cs-disconnect-suspicious-advice-content =
     misstänkt bör du ändra lösenordet för { -product-firefox-account } i dina kontoinställningar
     för att skydda din information. Du bör också ändra alla andra lösenord som du har
     sparat i { -brand-firefox } genom att skriva about:logins in i adressfältet.
-
 cs-sign-out-button = Logga ut
-
 cs-recent-activity = Senaste kontoaktivitet
 
 ##
+
 
 ## Data collection section
 
@@ -347,7 +341,6 @@ drop-down-menu-title = { -product-firefox-account }-meny
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logga ut
-
 drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
 ## Flow Container
@@ -373,10 +366,11 @@ la-unlink-heading = Ta bort länken från tredje parts konto
 la-unlink-content-3 = Är du säker på att du vill ta bort länken till ditt konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dina anslutna tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Stäng
 modal-cancel-button = Avbryt
+modal-default-confirm-button = Bekräfta
 
 ## Modal Verify Session
 
@@ -401,12 +395,12 @@ nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina autentiseringskoder
+tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina reservautentiseringskoder
 tfa-replace-code-success-1 =
-    Nya koder har skapats. Spara dessa autentiseringskoder
+    Nya koder har skapats. Spara dessa reservautentiseringskoder
     för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
     ditt konto om du inte har din mobila enhet.
-tfa-replace-code-success-alert-3 = Autentiseringskoder för konto har uppdaterats
+tfa-replace-code-success-alert-3 = Reservautentiseringskoder för konto har uppdaterats
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -442,11 +436,11 @@ avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att 
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Ändra lösenord
-
 pw-8-chars = Minst 8 tecken
 pw-not-email = Inte din e-postadress
 pw-change-must-match = Nytt lösenord matchar
@@ -456,38 +450,34 @@ pw-tips = Var säker — återanvänd inte lösenord. Se fler tips för att <lin
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Spara
 pw-change-forgot-password-link = Glömt lösenordet?
-
 pw-change-current-password =
     .label = Ange nuvarande lösenord
 pw-change-new-password =
     .label = Ange nytt lösenord
 pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
-
 pw-change-success-alert-2 = Lösenord uppdaterat
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Skapa lösenord
-
 pw-create-success-alert-2 = Lösenord inställt
 pw-create-error-2 = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Ta bort konto
-
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-
 delete-account-confirm-title-3 = Du kan ha kopplat ditt { -product-firefox-account } till en eller flera av följande { -brand-mozilla }-produkter eller tjänster som håller dig säker och produktiv på webben:
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -497,9 +487,7 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserar { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox } Tillägg
-
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
-
 delete-account-chk-box-1-v3 =
     .label = Alla betalda prenumerationer du har kommer att avbrytas (förutom { -product-pocket })
 delete-account-chk-box-2 =
@@ -508,45 +496,38 @@ delete-account-chk-box-3 =
     .label = Återaktivering med det här e-postadressen kanske inte återställer din sparade information
 delete-account-chk-box-4 =
     .label = Alla tillägg och teman som du publicerade på addons.mozilla.org raderas
-
-
 delete-account-continue-button = Fortsätt
-
 delete-account-password-input =
     .label = Ange lösenord
-
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Visningsnamn
-
 display-name-input =
     .label = Ange visningsnamn
 submit-display-name = Spara
 cancel-display-name = Avbryt
-
 display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
-
 display-name-success-alert-2 = Visningsnamn uppdaterat
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Senaste kontoaktivitet
-
 recent-activity-account-create = Kontot skapades
 recent-activity-account-disable = Kontot inaktiverades
 recent-activity-account-enable = Kontot aktiverades
 recent-activity-account-login = Kontoinitierad inloggning
 recent-activity-account-reset = Kontoinitierad lösenordsåterställning
 recent-activity-emails-clearBounces = Kontot rensade returnerade e-postmeddelanden
-
 
 # Account recovery key setup page
 
@@ -600,25 +581,20 @@ delete-account-link = Ta bort konto
 ## Two Step Authentication
 
 tfa-title = Tvåstegsautentisering
-
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
-
 tfa-button-continue = Fortsätt
 tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
-
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
-tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din autentiseringskod
-tfa-incorrect-recovery-code-1 = Felaktig autentiseringskod
+tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din reservautentiseringskod
+tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
 tfa-enabled = Tvåstegsautentisering aktiverad
-
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
     <linkExternal>autentiseringsappar</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -629,25 +605,23 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du inte skanna koden?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
-
-tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
-tfa-input-enter-totp =
-    .label = Ange säkerhetskod
+tfa-enter-totp-v2 = Ange autentiseringskoden från autentiseringsappen.
+tfa-input-enter-totp-v2 =
+    .label = Ange autentiseringskod
 tfa-save-these-codes-1 =
-    Spara dessa autentiseringskoder för engångsbruk på en säker plats
+    Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
-
 tfa-enter-code-to-confirm-1 =
-    Ange en av dina autentiseringskoder nu för att bekräfta
+    Ange en av dina reservautentiseringskoder nu för att bekräfta
     att du har sparat den. Du behöver en kod för att logga in om
     du inte har tillgång till din mobila enhet.
 tfa-enter-recovery-code-1 =
-    .label = Ange en autentiseringskod
+    .label = Ange en reservautentiseringskod
 
 ##
+
 
 ## Profile section
 
@@ -660,6 +634,7 @@ profile-primary-email =
     .header = Primär e-post
 
 ##
+
 
 ## Security section of Setting
 
@@ -751,6 +726,7 @@ se-secondary-email-none = Ingen
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tvåstegsautentisering
@@ -759,7 +735,6 @@ tfa-row-enabled = Aktiverad
 tfa-row-not-set = Inte inställd
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
-
 tfa-row-button-refresh =
     .title = Uppdatera tvåstegsautentisering
 tfa-row-cannot-refresh =
@@ -769,13 +744,13 @@ tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
-
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
-tfa-row-disable-modal-explain-1 = Du kommer inte att kunna ångra den här åtgärden. Du har också möjlighet att <linkExternal>byta ut dina autentiseringskoder</linkExternal>.
+tfa-row-disable-modal-explain-1 =
+    Du kommer inte att kunna ångra den här åtgärden.
+    Du har också möjlighet att <linkExternal>byta ut dina reservautentiseringskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
-
-tfa-row-change-modal-heading-1 = Ändra autentiseringskoder?
+tfa-row-change-modal-heading-1 = Ändra reservautentiseringskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
@@ -813,7 +788,6 @@ auth-error-999 = Oväntat fel
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -823,6 +797,7 @@ cannot-create-account-requirements = Du måste uppfylla vissa ålderskrav för a
 cannot-create-account-learn-more-link = Läs mer
 
 ## Connect Another Device page
+
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Du är inloggad på { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -895,41 +870,29 @@ inline-recovery-confirmation-header = Bekräfta reservautentiseringskoden <span>
 
 inline-totp-setup-cancel-setup-button = Avbryt konfiguration
 inline-totp-setup-continue-button = Fortsätt
-
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Lägg till ett lager av säkerhet till ditt konto genom att kräva autentiseringskoder från en av <authenticationAppsLink>dessa autentiseringsappar</authenticationAppsLink>.
-
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktivera tvåstegsautentisering <span>för att fortsätta till kontoinställningarna</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktivera tvåstegsautentisering <span>för att fortsätta till { $serviceName }</span>
-
 inline-totp-setup-ready-button = Klar
-
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Skanna autentiseringskoden <span>för att fortsätta till { $serviceName }</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Ange koden manuellt <span>för att fortsätta till { $serviceName }</span>
-
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Skanna autentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
-
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Ange koden manuellt <span>för att fortsätta till kontoinställningarna</span>
-
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Skriv in den här hemliga nyckeln i din autentiseringsapp. <toggleToQRButton>Skanna QR-kod istället?</toggleToQRButton>
-
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skanna QR-koden i din autentiseringsapp och ange sedan autentiseringskoden som den tillhandahåller. <toggleToManualModeButton>Kan du inte skanna koden?</toggleToManualModeButton>
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = När den är klar kommer den att börja generera autentiseringskoder som du kan ange.
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskod
 
@@ -971,6 +934,24 @@ pair-auth-complete-now-syncing-device-text = Du synkroniserar nu med: { $deviceF
 pair-auth-complete-sync-benefits-text = Nu kan du komma åt dina öppna flikar, lösenord och bokmärken på alla dina enheter.
 pair-auth-complete-see-tabs-button = Se flikar från synkroniserade enheter
 pair-auth-complete-manage-devices-link = Hantera enheter
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Ange autentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Ange autentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+auth-totp-instruction = Öppna din autentiseringsapp och ange autentiseringskoden den tillhandahåller.
+auth-totp-input-label = Ange 6-siffrig kod
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Bekräfta
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Autentiseringskod krävs
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1041,9 +1022,7 @@ account-recovery-confirm-key-heading-w-default-service = Återställ lösenordet
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till { $serviceName }</span>
-
 account-recovery-confirm-key-instructions = Ange engångsnyckeln för kontoåterställning som du lagrade på ett säkert ställe för att återfå åtkomst till ditt { -product-firefox-account }.
-
 account-recovery-confirm-key-warning-message = <span>Obs:</span> Om du återställer ditt lösenord och inte har din kontoåterställningsnyckel sparad kommer en del av dina data att raderas (inklusive synkroniserad serverdata som historik och bokmärken).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1073,20 +1052,19 @@ complete-reset-password-warning-message-2 = <span>Kom ihåg:</span> När du åte
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Lösenord satt
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
+complete-reset-password-recovery-key-error = Det gick tyvärr inte att kontrollera om du har en kontoåterställningsnyckel. <hasRecoveryKeyErrorLink>Återställ ditt lösenord med din kontoåterställningsnyckel.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Återställningsmejl skickat
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klicka på länken som skickats till din { $email } inom den närmaste timmen för att skapa ett nytt lösenord.
-
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = E-post skickat igen. Lägg till { $accountsEmail } till dina kontakter för att säkerställa en smidig leverans.
 
@@ -1099,14 +1077,11 @@ reset-password-heading-w-default-service = Återställ lösenordet <span>för at
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Obs!</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
-
 reset-password-button = Påbörja återställning
 reset-password-success-alert = Lösenordsåterställning
 reset-password-error-general = Tyvärr, det uppstod ett problem med att återställa ditt lösenord
 reset-password-error-unknown-account = Okänt konto
-
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
@@ -1128,11 +1103,9 @@ confirm-signin-message = Kontrollera din e-post för inloggningsbekräftelselän
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Ange ditt lösenord <span>för ditt { -product-firefox-account }</span>
-
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Fortsätt till <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Fortsätt till { $serviceName }
@@ -1141,7 +1114,6 @@ signin-button = Logga in
 signin-header = Logga in
 signin-use-a-different-account-link = Använd ett annat konto
 signin-forgot-password-link = Glömt ditt lösenord?
-
 signin-bounced-header = Förlåt. Vi har låst ditt konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekräftelsemeddelandet som vi skickade till { $email } returnerades och vi har låst ditt konto för att skydda din { -brand-firefox }-data.
@@ -1166,11 +1138,13 @@ signin-recovery-code-instruction = Vänligen ange en reservautentiseringskod som
 signin-recovery-code-input-label = Ange en 10-siffrig reservautentiseringskod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekräfta
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Tillbaka
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Är du utelåst?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reservautentiseringskod krävs
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1193,26 +1167,28 @@ signin-token-code-confirm-button = Bekräfta
 signin-token-code-code-expired = Har koden upphört?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Mejla ny kod.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bekräftelsekod krävs
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Ange säkerhetskoden <span>för att fortsätta till kontoinställningarna</span>
+signin-totp-code-heading-w-default-service-v2 = Ange autentiseringskoden <span>för att fortsätta till kontoinställningarna</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Ange säkerhetskoden <span>för att fortsätta till { $serviceName }</span>
-signin-totp-code-instruction = Öppna din autentiseringsapp och ange säkerhetskoden som den tillhandahåller.
+signin-totp-code-heading-w-custom-service-v2 = Ange autentiseringskoden <span>för att fortsätta till { $serviceName }</span>
+signin-totp-code-instruction-v2 = Öppna din autentiseringsapp och ange autentiseringskoden den tillhandahåller.
 signin-totp-code-input-label-v2 = Ange 6-siffrig kod
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto
 signin-totp-code-recovery-code-link = Har du problem att ange koden?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Autentiseringskod krävs
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1224,8 +1200,12 @@ confirm-signup-instruction = Kontrollera din e-post för bekräftelselänken som
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Ange bekräftelsekod
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1238,7 +1218,14 @@ confirm-signup-code-confirm-button = Bekräfta
 confirm-signup-code-code-expired = Har koden upphört?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Mejla ny kod.
-confirm-signup-code-required-error = Ange bekräftelsekod
+confirm-signup-code-success-alert = Kontot har bekräftats
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-post skickat igen. Lägg till { $accountsEmail } till dina kontakter för att säkerställa en smidig leverans.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Något gick fel. En ny kod kunde inte skickas.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Bekräftelsekod krävs
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
