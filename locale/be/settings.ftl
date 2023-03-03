@@ -947,6 +947,7 @@ auth-totp-heading-w-default-service = Увядзіце код аўтарызац
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Увядзіце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
+auth-totp-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код, які яна выдае.
 auth-totp-input-label = Увядзіце 6-значны код
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Пацвердзіць
@@ -1055,6 +1056,7 @@ complete-reset-password-success-alert = Пароль усталяваны
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
+complete-reset-password-recovery-key-error = На жаль, узнікла праблема пры праверцы, ці ёсць у вас ключ аднаўлення ўліковага запісу. <hasRecoveryKeyErrorLink>Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1173,6 +1175,14 @@ signin-token-code-required-error = Патрэбен код пацвярджэн�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Увядзіце код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Увядзіце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
+signin-totp-code-instruction-v2 = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код, які яна выдае.
 signin-totp-code-input-label-v2 = Увядзіце 6-значны код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
@@ -1213,6 +1223,8 @@ confirm-signup-code-success-alert = Уліковы запіс паспяхова
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Нешта пайшло не так. Не ўдалося адправіць новы код.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Патрабуецца код пацвярджэння
 
