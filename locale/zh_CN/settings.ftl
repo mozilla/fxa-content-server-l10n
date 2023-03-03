@@ -903,6 +903,19 @@ pair-auth-complete-manage-devices-link = 管理设备
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = 输入验证码以<span>继续进行账户设置</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = 输入验证码以<span>继续使用 { $serviceName }</span>
+auth-totp-instruction = 请打开您的身份验证应用，并输入其提供的验证码。
+auth-totp-input-label = 请输入 6 位验证码
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = 确认
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = 请输入验证码
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1099,6 +1112,8 @@ signin-recovery-code-back-link = 上一步
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 被锁定了吗？
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = 需要使用备用验证码
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1122,17 +1137,27 @@ signin-token-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 重新发送验证码。
 # Error displayed in a tooltip when the form is submitted without a code
-signin-token-code-required-error = 需要验证码
+signin-token-code-required-error = 请输入验证码
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = 输入验证码以<span>继续进行账户设置</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = 输入验证码以<span>继续使用 { $serviceName }</span>
+signin-totp-code-instruction-v2 = 请打开您的身份验证应用，并输入其提供的验证码。
 signin-totp-code-input-label-v2 = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
 signin-totp-code-recovery-code-link = 输入验证码时遇到问题？
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = 请输入验证码
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1148,6 +1173,8 @@ confirm-signup-instruction = 请查收发送至您邮箱 { $email } 的账户确
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = 输入验证码
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1160,6 +1187,14 @@ confirm-signup-code-confirm-button = 确认
 confirm-signup-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重新发送验证码。
+confirm-signup-code-success-alert = 账户已成功确认
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = 出了点问题，无法发送新验证码。
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = 请输入验证码
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

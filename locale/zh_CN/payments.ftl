@@ -67,7 +67,7 @@ new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录<
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-enter-email =
-    .label = 请输入您的电子邮箱
+    .label = 请输入邮箱
 new-user-confirm-email =
     .label = 确认邮箱地址
 new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产品更新信息。
