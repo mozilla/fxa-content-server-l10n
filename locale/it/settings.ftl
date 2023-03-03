@@ -919,7 +919,7 @@ auth-totp-heading-w-default-service = Inserisci il codice di autenticazione <spa
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Inserisci il codice di autenticazione <span>per continuare su { $serviceName }</span>
-auth-totp-instruction = Apri l'app di autenticazione e inserisci il codice di autenticazione fornito.
+auth-totp-instruction = Apri l’app di autenticazione e inserisci il codice di autenticazione ottenuto.
 auth-totp-input-label = Inserisci il codice a 6 cifre
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Conferma
@@ -1028,7 +1028,7 @@ complete-reset-password-success-alert = Password impostata
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
-complete-reset-password-recovery-key-error = Si è verificato un problema durante il controllo se si dispone di una chiave di recupero dell'account. <hasRecoveryKeyErrorLink>Reimposta la password con la chiave di recupero dell’account.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error = Si è verificato un problema durante il controllo della disponibilità di una chiave di recupero dell’account. <hasRecoveryKeyErrorLink>Reimposta la password con la chiave di recupero dell’account.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1154,7 +1154,7 @@ signin-totp-code-heading-w-default-service-v2 = Inserisci il codice di autentica
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Inserisci il codice di autenticazione <span>per continuare su { $serviceName }</span>
-signin-totp-code-instruction-v2 = Apri l'app di autenticazione e inserisci il codice di autenticazione fornito.
+signin-totp-code-instruction-v2 = Apri l’app di autenticazione e inserisci il codice di autenticazione ottenuto.
 signin-totp-code-input-label-v2 = Inserisci il codice a 6 cifre
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferma
@@ -1198,7 +1198,7 @@ confirm-signup-code-resend-code-success-message = Email inviata nuovamente. Aggi
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 confirm-signup-code-error-message = Si è verificato un problema. Impossibile inviare un nuovo codice.
 # Error displayed in tooltip.
-confirm-signup-code-is-required-error = È richiesto il codice di conferma
+confirm-signup-code-is-required-error = Codice di conferma obbligatorio
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
