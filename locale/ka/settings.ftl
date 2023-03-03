@@ -607,6 +607,8 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
+tfa-input-enter-totp-v2 =
+    .label = შეიყვანეთ შესვლის დამოწმების კოდი
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -1026,6 +1028,7 @@ back = უკან
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = შეიყვანეთ შესვლის 10-ციფრიანი სამარქაფო კოდი
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
 # Link to return to signin with two-step authentication code
@@ -1033,6 +1036,8 @@ signin-recovery-code-back-link = უკან
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ვერ ახერხებთ შესვლას?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = შესვლი დამოწმების სამარქაფო კოდი აუცილებელია
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1088,6 +1093,9 @@ confirm-signup-code-confirm-button = დასტური
 confirm-signup-code-code-expired = კოდი ვადაგასულია?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ახალი კოდის გაგზავნა.
+confirm-signup-code-success-alert = ანგარიში წარმატებით დამოწმდა
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = დადასტურების კოდის აუცილებელია
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
