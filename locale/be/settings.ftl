@@ -608,6 +608,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
+tfa-enter-totp-v2 = Цяпер увядзіце код аўтарызацыі з праграмы для аўтэнтыфікацыі.
+tfa-input-enter-totp-v2 =
+    .label = Увядзіце код аўтарызацыі
 tfa-save-these-codes-1 =
     Захоўвайце гэтыя аднаразовыя рэзервовыя коды аўтэнтыфікацыі ў бяспечным месцы,
     на выпадак, калі ў вас не будзе мабільнай прылады.
@@ -937,6 +940,13 @@ pair-auth-complete-manage-devices-link = Кіраваць прыладамі
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Увядзіце код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Увядзіце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
 auth-totp-input-label = Увядзіце 6-значны код
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Пацвердзіць
