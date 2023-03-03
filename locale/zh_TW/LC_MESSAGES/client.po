@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-16 03:31+0000\n"
+"PO-Revision-Date: 2023-03-03 13:09+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -224,7 +224,7 @@ msgstr "已列印"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr "成功驗證帳號"
+msgstr "成功確認帳號"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
