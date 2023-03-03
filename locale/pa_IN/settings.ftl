@@ -641,6 +641,7 @@ se-unverified-2 = ਤਸਦੀਕ ਨਹੀਂ
 # Button to make secondary email the primary
 se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
 se-default-content = ਤੁਹਾਡੇ ਖਾਤੇ ਲਈ ਪਹੁੰਚ, ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੁੱਢਲੇ ਈਮੇਲ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ।
+se-content-note-1 = ਯਾਦ ਰੱਖੋ: ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਬਹਾਲ ਨਹੀਂ ਕਰੇਗੀ — ਉਸ ਵਾਸਤੇ ਤੁਹਾਨੂੰ <a>ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ</a> ਚਾਹੀਦੀ ਹੈ।
 # Default value for the secondary email
 se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 
@@ -657,6 +658,7 @@ tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
+tfa-row-content-explain = ਹਰ ਵਾਰ ਵਿਲੱਖਣ ਕੋਡ, ਜੋ ਸਿਰਫ਼਼ ਤੁਹਾਡੇ ਕੋਲ ਹੋਵੋ, ਚਾਹੀਦਾ ਬਣਾ ਕੇ ਕਿਸੇ ਹੋਰ ਨੂੰ ਲਾਗ ਇਨ ਹੋਣ ਤੋਂ ਰੋਕੋ।
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-change-modal-confirm = ਬਦਲੋ
 tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲੈ ਸਕੋਗੇ।

@@ -307,6 +307,7 @@ subscriptionAccountReminderFirst-action = ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = ਆਖਰੀ ਰਿਮਾਈਂਡਰ: ਆਪਣਾ ਖਾਤਾ ਸੈਟਅੱਪ  ਕਰੋ
 subscriptionAccountReminderSecond-title = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
+subscriptionAccountReminderSecond-content-select-2 = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਵਾਸਤੇ “ਪਾਸਵਰਡ ਬਣਾਓ” ਨੂੰ ਚੁਣੋ ਅਤੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਪੂਰਾ ਕਰੋ।
 subscriptionAccountReminderSecond-action = ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
