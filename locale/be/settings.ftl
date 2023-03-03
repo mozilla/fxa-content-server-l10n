@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,13 +103,17 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Паўтарыце пароль
 signup-submit-button = Стварыць уліковы запіс
-
 form-reset-password-with-balloon-new-password =
     .label = Новы пароль
 form-reset-password-with-balloon-confirm-password =
     .label = Увядзіце пароль ізноў
 form-reset-password-with-balloon-submit-button = Скінуць пароль
 form-reset-password-with-balloon-match-error = Паролі не супадаюць
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Гэта поле абавязковае
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -144,8 +149,6 @@ input-password-hide = Схаваць пароль
 input-password-show = Паказаць пароль
 input-password-hide-aria = Схаваць пароль з экрана.
 input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
-
-
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -154,11 +157,9 @@ legal-back-button = Назад
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Спасылка для скіду пароля пашкоджана
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Спасылка для пацвярджэння пашкоджана
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
 
@@ -183,10 +184,8 @@ remember-pw-link = Памятаеце свой пароль? Увайсці
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Асноўны адрас электроннай пошты ўжо пацверджаны
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
-
 confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
 
 ## PasswordInfoBalloon
@@ -234,18 +233,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Меню прадуктаў { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
 bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
-
 bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
 
 ## Connect another device promo
@@ -254,7 +252,6 @@ connect-another-fx-mobile = Усталюйце { -brand-firefox } на мабі�
 connect-another-find-fx-mobile =
     Знайдзіце { -brand-firefox } у { -google-play } ці { -app-store } або
     <br /><linkExternal>адпраўце спасылку для сцягвання на сваю прыладу.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -263,6 +260,7 @@ connect-another-app-store-image-2 =
     .title = Сцягніце { -brand-firefox } з { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -277,13 +275,10 @@ cs-cannot-disconnect = Кліент не знойдзены, не ўдалося
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Вы выйшлі з { $service }
-
 cs-refresh-button =
     .title = Абнавіць падключаныя паслугі
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Адсутнічаюць або дублююцца элементы?
-
 cs-disconnect-sync-heading = Адлучыцца ад Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -323,12 +318,11 @@ cs-disconnect-suspicious-advice-content =
     у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы.
     Вам таксама варта змяніць любыя іншыя паролі,
     якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
-
 cs-sign-out-button = Выйсці
-
 cs-recent-activity = Апошнія дзеянні ўліковага запісу
 
 ##
+
 
 ## Data collection section
 
@@ -348,7 +342,6 @@ drop-down-menu-title = Меню { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Увайшлі як: </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Выйсці
-
 drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзнікла праблема
 
 ## Flow Container
@@ -374,10 +367,11 @@ la-unlink-heading = Адвязаць ад старонняга ўліковаг�
 la-unlink-content-3 = Вы ўпэўнены, што хочаце адвязаць свой акаўнт? Адвязванне ўліковага запісу не прывядзе да аўтаматычнага выхаду з падключаных паслуг. Для гэтага вам трэба будзе ўручную выйсці ў раздзела «Падключаныя паслугі».
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Закрыць
 modal-cancel-button = Скасаваць
+modal-default-confirm-button = Пацвердзіць
 
 ## Modal Verify Session
 
@@ -443,11 +437,11 @@ avatar-page-image-too-large-error-2 = Памер файла выявы зана�
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Змяніць пароль
-
 pw-8-chars = Мінімум 8 знакаў
 pw-not-email = Не ваш адрас электроннай пошты
 pw-change-must-match = Новы пароль адпавядае пацверджанню
@@ -457,38 +451,34 @@ pw-tips = Будзьце ў бяспецы - не выкарыстоўвайце
 pw-change-cancel-button = Скасаваць
 pw-change-save-button = Захаваць
 pw-change-forgot-password-link = Забыліся на пароль?
-
 pw-change-current-password =
     .label = Увядзіце цяперашні пароль
 pw-change-new-password =
     .label = Увядзіце новы пароль
 pw-change-confirm-password =
     .label = Пацвердзіце новы пароль
-
 pw-change-success-alert-2 = Пароль абноўлены
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Стварыць пароль
-
 pw-create-success-alert-2 = Пароль усталяваны
 pw-create-error-2 = На жаль, падчас усталявання вашага пароля узнікла праблема
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Выдаліць уліковы запіс
-
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-
 delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -498,9 +488,7 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Сінхранізуюцца звесткі { -brand-firefox }
 delete-account-product-firefox-addons = Дадаткі { -brand-firefox }
-
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
-
 delete-account-chk-box-1-v3 =
     .label = Усе вашы платныя падпіскі будуць скасаваны (акрамя { -product-pocket })
 delete-account-chk-box-2 =
@@ -509,45 +497,38 @@ delete-account-chk-box-3 =
     .label = Паўторнае падключэнне на гэту электронную пошту можа не аднавіць захаваную інфармацыю
 delete-account-chk-box-4 =
     .label = Любыя пашырэнні і тэмы, якія вы апублікавалі на addons.mozilla.org, будуць выдалены
-
-
 delete-account-continue-button = Працягнуць
-
 delete-account-password-input =
     .label = Увядзіце пароль
-
 delete-account-cancel-button = Скасаваць
 delete-account-delete-button-2 = Выдаліць
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Бачнае імя
-
 display-name-input =
     .label = Увядзіце бачнае імя
 submit-display-name = Захаваць
 cancel-display-name = Скасаваць
-
 display-name-update-error-2 = Узнікла праблема з абнаўленнем бачнага імені
-
 display-name-success-alert-2 = Бачнае імя абноўлена
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Апошнія дзеянні ўліковага запісу
-
 recent-activity-account-create = Уліковы запіс створаны
 recent-activity-account-disable = Уліковы запіс адключаны
 recent-activity-account-enable = Уліковы запіс уключаны
 recent-activity-account-login = Уваход ініцыяваны ўліковым запісам
 recent-activity-account-reset = Скід пароля ініцыяваны ўліковым запісам
 recent-activity-emails-clearBounces = Уліковы запіс ачысціў недастаўленую пошту
-
 
 # Account recovery key setup page
 
@@ -601,25 +582,20 @@ delete-account-link = Выдаліць уліковы запіс
 ## Two Step Authentication
 
 tfa-title = Двухэтапная аўтарызацыя
-
 tfa-step-1-3 = Крок 1 з 3
 tfa-step-2-3 = Крок 2 з 3
 tfa-step-3-3 = Крок 3 з 3
-
 tfa-button-continue = Працягнуць
 tfa-button-cancel = Скасаваць
 tfa-button-finish = Гатова
-
 tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
 tfa-cannot-verify-code-4 = Узнікла праблема пры пацверджанні вашага рэзервовага кода аўтэнтыфікацыі
 tfa-incorrect-recovery-code-1 = Няправільны рэзервовы код аўтэнтыфікацыі
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
-
 tfa-scan-this-code =
     Адсканіруйце гэты QR-код, выкарыстоўваючы адзну з <linkExternal>гэтых
     праграм для аўтэнтыфікацыі</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -630,17 +606,11 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
-
-tfa-enter-totp = Цяпер увядзіце код бяспекі з праграмы для аўтэнтыфікацыі.
-tfa-input-enter-totp =
-    .label = Увядзіце код бяспекі
 tfa-save-these-codes-1 =
     Захоўвайце гэтыя аднаразовыя рэзервовыя коды аўтэнтыфікацыі ў бяспечным месцы,
     на выпадак, калі ў вас не будзе мабільнай прылады.
-
 tfa-enter-code-to-confirm-1 =
     Увядзіце адзін з вашых рэзервовых кодаў аўтэнтыфікацыі зараз, каб
     пацвердзіць, што вы яго захавалі. Код вам спатрэбіцца каб увайсці, калі ў вас няма доступу да вашай
@@ -649,6 +619,7 @@ tfa-enter-recovery-code-1 =
     .label = Увядзіце рэзервовы код аўтарызацыі
 
 ##
+
 
 ## Profile section
 
@@ -661,6 +632,7 @@ profile-primary-email =
     .header = Асноўны адрас пошты
 
 ##
+
 
 ## Security section of Setting
 
@@ -752,6 +724,7 @@ se-secondary-email-none = Няма
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аўтарызацыя
@@ -760,7 +733,6 @@ tfa-row-enabled = Уключана
 tfa-row-not-set = Не ўстаноўлена
 tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
-
 tfa-row-button-refresh =
     .title = Абнавіць двухэтапную аўтарызацыю
 tfa-row-cannot-refresh =
@@ -770,14 +742,12 @@ tfa-row-content-explain =
     Забараніце ўваход іншым, запатрабаваўшы 
     унікальны код, які ёсць толькі ў вас.
 tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
-
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
 tfa-row-disable-modal-explain-1 =
     Вы не зможаце скасаваць гэта дзеянне. У вас таксама
     ёсць магчымасць <linkExternal>замяніць рэзервовыя коды аўтэнтыфікацыі</linkExternal>.
 tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
-
 tfa-row-change-modal-heading-1 = Змяніць рэзервовыя коды аўтэнтыфікацыі?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
@@ -816,7 +786,6 @@ auth-error-999 = Нечаканая памылка
 auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -826,6 +795,7 @@ cannot-create-account-requirements = Вы мусіце адпавядаць пэ
 cannot-create-account-learn-more-link = Падрабязней
 
 ## Connect Another Device page
+
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Вы ўвайшлі ў { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -898,41 +868,29 @@ inline-recovery-confirmation-header = Пацвердзіце рэзервовы 
 
 inline-totp-setup-cancel-setup-button = Скасаваць наладку
 inline-totp-setup-continue-button = Працягнуць
-
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Дадайце ўзровень бяспекі да свайго ўліковага запісу, патрабуючы коды аўтарызацыі з адной з <authenticationAppsLink>гэтых праграм аўтэнтыфікацыі</authenticationAppsLink>.
-
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Уключыце двухэтапную аўтарызацыю, <span>каб перайсці да налад уліковага запісу</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Уключыце двухэтапную аўтарызацыю, <span>каб перайсці да { $serviceName }</span>
-
 inline-totp-setup-ready-button = Гатова
-
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Скануйце код аўтарызацыі, <span>каб перайсці да { $serviceName }</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Увядзіце код уручную, <span>каб перайсці да { $serviceName }</span>
-
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Скануйце код аўтарызацыі, <span>каб перайсці да налад уліковага запісу</span>
-
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Увядзіце код уручную, <span>каб перайсці да налад уліковага запісу</span>
-
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Увядзіце гэты сакрэтны ключ у сваю праграму аўтэнтыфікацыі. <toggleToQRButton>Сканаваць QR-код замест?</toggleToQRButton>
-
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Адскануйце QR-код у сваёй праграме аўтэнтыфікацыі, а затым увядзіце код аўтарызацыі, які яна выдае. <toggleToManualModeButton>Не можаце сканаваць код?</toggleToManualModeButton>
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Пасля завяршэння яна пачне генераваць коды аўтарызацыі для ўвядзення.
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Код аўтарызацыі
 
@@ -974,6 +932,13 @@ pair-auth-complete-now-syncing-device-text = Зараз вы сінхраніз�
 pair-auth-complete-sync-benefits-text = Цяпер вы можаце атрымаць доступ да адкрытых картак, пароляў і закладак на ўсіх сваіх прыладах.
 pair-auth-complete-see-tabs-button = Праглядайце карткі на сінхранізаваных прыладах
 pair-auth-complete-manage-devices-link = Кіраваць прыладамі
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Пацвердзіць
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1044,9 +1009,7 @@ account-recovery-confirm-key-heading-w-default-service = Скіньце паро
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу, <span>каб перайсці да { $serviceName }</span>
-
 account-recovery-confirm-key-instructions = Калі ласка, увядзіце аднаразовы ключ аднаўлення ўліковага запісу, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да свайго { -product-firefox-account }.
-
 account-recovery-confirm-key-warning-message = <span>Заўвага:</span> Калі вы скінеце пароль, але не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер звесткі, такія як гісторыя і закладкі).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1076,7 +1039,7 @@ complete-reset-password-warning-message-2 = <span>Памятайце:</span> П�
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль усталяваны
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
 
@@ -1085,11 +1048,9 @@ complete-reset-password-error-alert = На жаль, падчас усталяв
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Ліст для скіду пароля дасланы
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Прайдзіце па спасылцы, дасланай на { $email }, на працягу наступнай гадзіны, каб стварыць новы пароль.
-
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
 
@@ -1102,14 +1063,11 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
-
 reset-password-button = Пачаць скід
 reset-password-success-alert = Скід пароля
 reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
 reset-password-error-unknown-account = Невядомы ўліковы запіс
-
 reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
@@ -1131,11 +1089,9 @@ confirm-signin-message = Пашукайце ў сваёй пошце спасы
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Увядзіце пароль <span>для свайго { -product-firefox-account }</span>
-
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Працягнуць у <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Працягнуць у { $serviceName }
@@ -1144,7 +1100,6 @@ signin-button = Увайсці
 signin-header = Увайсці
 signin-use-a-different-account-link = Выкарыстаць іншы уліковы запіс
 signin-forgot-password-link = Забылі пароль?
-
 signin-bounced-header = Прабачце. Мы заблакавалі ваш уліковы запіс.
 # $email (string) - The user's email.
 signin-bounced-message = Электронны ліст з пацвярджэннем, які мы адправілі на { $email }, быў вернуты, і мы заблакавалі ўліковы запіс, каб абараніць вашы звесткі { -brand-firefox }.
@@ -1169,7 +1124,7 @@ signin-recovery-code-instruction = Калі ласка, увядзіце рэз�
 signin-recovery-code-input-label = Увядзіце 10-значны рэзервовы код аўтарызацыі
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Сцвердзіць
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Назад
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1196,26 +1151,20 @@ signin-token-code-confirm-button = Сцвердзіць
 signin-token-code-code-expired = Код пратэрмінаваны?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Адправіць новы код па электроннай пошце.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Патрэбен код пацвярджэння
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Увядзіце код бяспекі, <span>каб перайсці да налад уліковага запісу</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Увядзіце код бяспекі, <span>каб перайсці да { $serviceName }</span>
-signin-totp-code-instruction = Адкрыйце праграму аўтэнтыфікацыі і ўвядзіце код бяспекі, які яна выдае.
 signin-totp-code-input-label-v2 = Увядзіце 6-значны код
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Сцвердзіць
 signin-totp-code-other-account-link = Выкарыстаць іншы уліковы запіс
 signin-totp-code-recovery-code-link = Праблема з уводам кода?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Патрабуецца код аўтэнтыфікацыі
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1227,8 +1176,12 @@ confirm-signup-instruction = Пашукайце ў сваёй пошце спа
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Увядзіце код пацвярджэння
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1241,7 +1194,12 @@ confirm-signup-code-confirm-button = Сцвердзіць
 confirm-signup-code-code-expired = Код пратэрмінаваны?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Адправіць новы код па электроннай пошце.
-confirm-signup-code-required-error = Калі ласка, увядзіце код пацвярджэння
+confirm-signup-code-success-alert = Уліковы запіс паспяхова пацверджаны
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Патрабуецца код пацвярджэння
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
