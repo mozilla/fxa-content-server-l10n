@@ -608,6 +608,8 @@ tfa-button-cant-scan-qr = Kunt u de code niet scannen?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Voer deze geheime sleutel in in uw app voor authenticatie:
 tfa-enter-totp-v2 = Voer nu de authenticatiecode van de authenticatie-app in.
+tfa-input-enter-totp-v2 =
+    .label = Voer authenticatiecode in
 tfa-save-these-codes-1 =
     Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
@@ -937,6 +939,19 @@ pair-auth-complete-manage-devices-link = Apparaten beheren
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Voer uw authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Voer uw authenticatiecode in <span>om door te gaan naar { $serviceName }</span>
+auth-totp-instruction = Open uw app voor authenticatie en voer de aangeboden authenticatiecode in.
+auth-totp-input-label = Voer 6-cijferige code in
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Bevestigen
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Authenticatiecode vereist
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1127,6 +1142,8 @@ signin-recovery-code-back-link = Terug
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Bent u buitengesloten?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-authenticatiecode vereist
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1156,11 +1173,21 @@ signin-token-code-required-error = Bevestigingscode vereist
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Voer uw authenticatiecode in <span>om door te gaan naar uw accountinstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Voer uw authenticatiecode in <span>om door te gaan naar { $serviceName }</span>
+signin-totp-code-instruction-v2 = Open uw app voor authenticatie en voer de aangeboden authenticatiecode in.
 signin-totp-code-input-label-v2 = Voer 6-cijferige code in
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bevestigen
 signin-totp-code-other-account-link = Een andere account gebruiken
 signin-totp-code-recovery-code-link = Problemen bij het invoeren van de code?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Authenticatiecode vereist
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1176,6 +1203,8 @@ confirm-signup-instruction = Controleer uw e-mail op de bevestigingskoppeling di
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Voer bevestigingscode in
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1188,6 +1217,12 @@ confirm-signup-code-confirm-button = Bevestigen
 confirm-signup-code-code-expired = Code verlopen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nieuwe code versturen per e-mail.
+confirm-signup-code-success-alert = Account met succes bevestigd
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Bevestigingscode is vereist
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
