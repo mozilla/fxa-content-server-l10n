@@ -110,6 +110,11 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = პაროლის განულება
 form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
 
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = ველის შევსება აუცილებელია
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -361,10 +366,11 @@ la-unlink-heading = გამოთიშვა გარეშე ანგა�
 la-unlink-content-3 = ნამდვილად გსურთ გამოთიშოთ თქვენი ანგარიში? შედეგად, მაინც დარჩებით შესული დაკავშირებულ მომსახურებებზე. საჭირო იქნება თითოეულიდან ცალ-ცალკე გამოსვლა აღნიშნული მომსახურებების განყოფილებაში.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = დახურვა
 modal-cancel-button = გაუქმება
+modal-default-confirm-button = თანხმობა
 
 ## Modal Verify Session
 
@@ -601,9 +607,6 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
-tfa-enter-totp = ახლა კი შეიყვანეთ უსაფრთხოების კოდი დამოწმების პროგრამიდან.
-tfa-input-enter-totp =
-    .label = შეიყვანეთ უსაფრთხოების კოდი
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -822,6 +825,9 @@ cookies-disabled-learn-more = ვრცლად
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = გაუქმება
@@ -886,6 +892,16 @@ pair-auth-complete-sync-benefits-text = ახლა უკვე შეგი�
 pair-auth-complete-see-tabs-button = იხილეთ ჩანართები დასინქრონებული მოწყობილობებიდან
 pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+auth-totp-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = თანხმობა
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = შესვლის დამოწმების კოდი აუცილებელია
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -898,6 +914,11 @@ pair-failure-message = გამართვის მიმდინარე�
 
 ## Pair index page
 
+pair-already-have-firefox-paragraph = უკვე გაქვთ { -brand-firefox } ტელეფონზე ან პლანშეტზე?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = დაასინქრონეთ მოწყობილობა
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = ან ჩამოტვირთეთ
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = ახლა არა
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -944,7 +965,7 @@ complete-reset-pw-header = შექმენით ახალი პარო
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = პაროლი დაყენებულია
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
 
@@ -986,6 +1007,9 @@ confirm-signin-header = დაადასტურეთ ეს შესვლ
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = შეიყვანეთ პაროლი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = გამოიყენეთ { $serviceName }
 signin-subheader-without-logo-default = გადასვლა ანგარიშის პარამეტრებზე
 signin-button = შესვლა
 signin-header = შესვლა
@@ -1004,7 +1028,7 @@ back = უკან
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = უკან
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1029,23 +1053,15 @@ signin-token-code-confirm-button = დასტური
 signin-token-code-code-expired = კოდი ვადაგასულია?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = ახალი კოდის გაგზავნა.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = საჭიროა დასტურის კოდი
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = შეიყვანეთ უსაფრთხოების კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = შეიყვანეთ უსაფრთხოების კოდი, <span>რომ იხილოთ { $serviceName }</span>
-signin-totp-code-instruction = გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ მოცემული უსაფრთხოების კოდი.
 signin-totp-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = დასტური
 signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
 signin-totp-code-recovery-code-link = ვერ შეგყავთ კოდი?
@@ -1072,7 +1088,6 @@ confirm-signup-code-confirm-button = დასტური
 confirm-signup-code-code-expired = კოდი ვადაგასულია?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ახალი კოდის გაგზავნა.
-confirm-signup-code-required-error = გთხოვთ შეიყვანოთ დასტურის კოდი
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
