@@ -904,6 +904,16 @@ pair-auth-complete-manage-devices-link = Gerenciar dispositivos
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 auth-totp-heading-w-default-service = Digite o código de autenticação <span>para continuar para as configurações da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Digite o código de autenticação <span>para continuar para o { $serviceName }</span>
+auth-totp-instruction = Abra seu aplicativo de autenticação e digite o código de autenticação que ele fornecer.
+auth-totp-input-label = Digite o código de 6 dígitos
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirmar
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Necessário código de autenticação
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1007,6 +1017,7 @@ complete-reset-password-success-alert = Senha definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
+complete-reset-password-recovery-key-error = Desculpe, houve um problema ao verificar se você tem uma chave de recuperação de conta. <hasRecoveryKeyErrorLink>Redefina sua senha com sua chave de recuperação de conta.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1094,6 +1105,8 @@ signin-recovery-code-back-link = Voltar
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sua conta está bloqueada?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Necessário código de autenticação de backup
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1123,11 +1136,21 @@ signin-token-code-required-error = Necessário código de confirmação
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Digite o código de autenticação <span>para continuar para as configurações da conta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Digite o código de autenticação <span>para continuar para o { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abra seu aplicativo de autenticação e digite o código de autenticação que ele fornecer.
 signin-totp-code-input-label-v2 = Digite o código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar outra conta
 signin-totp-code-recovery-code-link = Problemas ao inserir o código?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Necessário código de autenticação
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1143,6 +1166,8 @@ confirm-signup-instruction = Verifique se recebeu o email com o link de confirma
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Digite o código de confirmação
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1155,6 +1180,14 @@ confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = O código expirou?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar novo código por email.
+confirm-signup-code-success-alert = Conta confirmada com sucesso
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = O código de confirmação é obrigatório
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
