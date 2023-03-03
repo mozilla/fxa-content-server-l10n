@@ -1045,6 +1045,7 @@ complete-reset-password-success-alert = Configuration del contrasigno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
+complete-reset-password-recovery-key-error = Desolate, il habeva un problema verificante si tu ha un clave de recuperation del conto. <hasRecoveryKeyErrorLink>Reinitialisa tu contrasigno con tu clave de recuperation del conto.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1211,6 +1212,8 @@ confirm-signup-code-success-alert = Conto confirmate con successo
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Codice de confirmation requirite
 
