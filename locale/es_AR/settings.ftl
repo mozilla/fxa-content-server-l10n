@@ -603,6 +603,8 @@ tfa-button-cant-scan-qr = ¿No se puede escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Ingresá esta clave secreta en tu aplicación de autenticación:
 tfa-enter-totp-v2 = Ahora ingresá el código de autenticación de la aplicación de autenticación.
+tfa-input-enter-totp-v2 =
+    .label = Ingresá el código de autenticación
 tfa-save-these-codes-1 = Guardá estos códigos de autenticación de respaldo en un lugar seguro para cuando no tengás tu dispositivo móvil.
 tfa-enter-code-to-confirm-1 =
     Ingresá uno de tus códigos de autenticación de respaldo ahora para
@@ -930,6 +932,19 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Ingresá el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Ingresá el código de autenticación <span>para continuar a { $serviceName }</span>
+auth-totp-instruction = Abrí tu aplicación de autenticación e ingresá el código de autenticación que proporciona.
+auth-totp-input-label = Ingresá el código de 6 dígitos
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirmar
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Código de autenticación requerido
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1033,6 +1048,7 @@ complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Disculpá, hubo un problema al establecer tu contraseña
+complete-reset-password-recovery-key-error = Lo sentimos, hubo un problema al verificar si tenés una clave de recuperación de cuenta. <hasRecoveryKeyErrorLink>Restablecé tu contraseña con tu clave de recuperación de cuenta.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1120,6 +1136,8 @@ signin-recovery-code-back-link = Atrás
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Estás bloqueado?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Código de autenticación de respaldo requerido
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1149,11 +1167,21 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Ingresá el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Ingresá el código de autenticación <span>para continuar a { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abrí tu aplicación de autenticación e ingresá el código de autenticación que proporciona.
 signin-totp-code-input-label-v2 = Ingresá el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Problemas para ingresar el código?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Código de autenticación requerido
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1169,6 +1197,8 @@ confirm-signup-instruction = Fijate en tu correo electrónico el enlace de confi
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Ingresá el código de confirmación
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1181,6 +1211,14 @@ confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = ¿Código expirado?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo.
+confirm-signup-code-success-alert = Cuenta confirmada sin problemas
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Correo electrónico reenviado. Añadí { $accountsEmail } a tus contactos para asegurar una recepción sin problemas.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Algo salió mal. No se pudo enviar un nuevo código.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Código de confirmación requerido
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
