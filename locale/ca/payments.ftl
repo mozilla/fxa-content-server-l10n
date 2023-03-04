@@ -173,6 +173,8 @@ brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
+sub-update-current-plan-label = Pla actual
+sub-update-new-plan-label = Pla nou
 
 ## Routes - Subscriptions - Cancel
 
