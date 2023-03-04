@@ -145,6 +145,13 @@ subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportt
 subscriptionSupportContact = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du <a data-l10n-name="subscriptionSupportUrl">kontakte oss</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du kontakte oss:
+subscriptionUpdateBillingEnsure = Du kan sørge for at betalingsmåten og kontoinformasjonen din er oppdatert <a data-l10n-name="updateBillingUrl">her</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Du kan sørge for at betalingsmåten og kontoinformasjonen din er oppdatert her:
+subscriptionUpdateBillingTry = Vi prøver å gjennomføre betalinga di igjen i løpet av dei neste dagane, men du må kanskje hjelpe oss med å fikse det ved å <a data-l10n-name="updateBillingUrl">oppdatere betalingsinformasjonen din</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Vi prøver å gjennomføre betalinga di igjen i løpet av dei neste dagane, men du må kanskje hjelpe oss med å fikse det ved å oppdatere betalingsinformasjonen din:
+subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Oppdater betalingsinformasjonen din</a> så snart som muleg for å unngå avbrot i tenestene dine.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
 # Variables:
