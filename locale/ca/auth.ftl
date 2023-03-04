@@ -9,7 +9,18 @@ session-verify-send-push-body-2 = Feu clic aquí per confirmar la vostra identit
 fxa-privacy-url = Política de privadesa de { -brand-mozilla }
 fxa-service-url = Condicions del servei del { -product-firefox-cloud }
 subplat-automated-email = Aquest és un missatge automàtic; si l’heu rebut per error, no cal que feu res.
+subplat-privacy-plaintext = Avís de privadesa:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account } i us heu inscrit al { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account }.
+subplat-explainer-multiple = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-firefox-account } i us heu subscrit a diversos productes.
 subplat-explainer-was-deleted = Heu rebut aquest missatge perquè s’ha utilitzat l’adreça { $email } per registrar un { -product-firefox-account }.
+subplat-manage-account = Gestioneu els paràmetres del { -product-firefox-account } visitant la <a data-l10n-name="subplat-account-page">pàgina del compte</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gestioneu la configuració del vostre { -product-firefox-account } visitant aquesta pàgina: { $accountSettingsUrl }
