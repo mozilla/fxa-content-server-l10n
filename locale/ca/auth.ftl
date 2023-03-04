@@ -6,9 +6,15 @@ session-verify-send-push-body-2 = Feu clic aquí per confirmar la vostra identit
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logotip del { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronitza dispositius">
+body-devices-image = <img data-l10n-name="devices-image" alt="Dispositius">
 fxa-privacy-url = Política de privadesa de { -brand-mozilla }
 fxa-service-url = Condicions del servei del { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip del { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip de { -brand-mozilla }">
 subplat-automated-email = Aquest és un missatge automàtic; si l’heu rebut per error, no cal que feu res.
+subplat-privacy-notice = Avís de privadesa
 subplat-privacy-plaintext = Avís de privadesa:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -24,14 +30,44 @@ subplat-manage-account = Gestioneu els paràmetres del { -product-firefox-accoun
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gestioneu la configuració del vostre { -product-firefox-account } visitant aquesta pàgina: { $accountSettingsUrl }
+subplat-terms-policy = Condicions d'ús i política de cancel·lació
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Cancel·la la subscripció
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Reactiva la subscripció
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualitza la informació de facturació
+subplat-privacy-policy = Política de privadesa de { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Condicions del servei del { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal = Avisos legals
+subplat-legal-plaintext = { subplat-legal }:
+subplat-privacy = Privadesa
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Baixeu el { $productName } del { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Baixeu el { $productName } de l\'{ -app-store }">
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per a més informació, visiteu l’<a data-l10n-name="supportLink">Assistència de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Aquest és un correu automàtic. Si l’heu rebut per error, no cal que feu fer res.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Aquest és un correu automàtic; si no heu autoritzat aquesta acció, canvieu la contrasenya:
+automated-email-reset =
+    Aquest és un missatge automàtic. Si no heu autoritzat aquesta acció, <a data-l10n-name="resetLink">reinicieu la contrasenya</a>.
+    Per a més informació, vegeu l'<a data-l10n-name="supportLink">assistència de { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Si no l'heu canviat, reinicieu ara mateix la contrasenya des de { $resetLink }
+cancellationSurvey = Ajudeu-nos a millorar els nostres serveis fent aquesta <a data-l10n-name="cancellationSurveyUrl")s>breu enquesta</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ajudeu-nos a millorar els nostres serveis fent aquesta breu enquesta:
 change-password-plaintext = Si sospiteu que algú està provant d’accedir al vostre compte, canvieu la contrasenya.
 manage-account = Gestiona el compte
+manage-account-plaintext = { manage-account }:
 payment-details = Detalls de pagament:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -43,6 +79,9 @@ payment-plan-charged = Cobrat: { $invoiceTotal } el { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Mètode de pagament:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
@@ -53,6 +92,10 @@ subscriptionSupport-plaintext = Teniu dubtes sobre la vostra subscripció? El no
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Gràcies per subscriure-us al { $productName }. Si teniu qualsevol dubte o us cal més informació sobre el { $productName }, <a data-l10n-name="subscriptionSupportUrl">contacteu amb nosaltres</a>.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adreça IP: { $ip }
+cadReminderFirst-action = Sincronitza un altre dispositiu
 downloadSubscription-link-action-2 = Primers passos
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -61,6 +104,7 @@ newDeviceLogin-subject = Inici de sessió nou al { $clientName }
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = No recordeu haver-ho fet? Canvieu la contrasenya:
 newDeviceLogin-action = Gestiona el compte
+passwordChanged-subject = S'ha actualitzat la contrasenya
 passwordChanged-title = La contrasenya s’ha canviat correctament
 passwordChangeRequired-title = Cal que canvieu la contrasenya
 passwordChangeRequired-different-password = <b>Important:</b> Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic.

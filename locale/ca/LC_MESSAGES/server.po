@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2021-05-30 17:07+0000\n"
-"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
+"PO-Revision-Date: 2022-04-08 11:44+0000\n"
+"Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Error 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "Ha fallat alguna cosa. Se'ns ha notificat i ens posarem a treballar per solucionar-ho."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -56,7 +56,7 @@ msgstr "El servidor està ocupat, torneu-ho a provar"
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
-msgstr ""
+msgstr "Estem treballant perquè el sistema torni a funcionar amb normalitat tan aviat com sigui possible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

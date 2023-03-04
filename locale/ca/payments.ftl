@@ -3,21 +3,140 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Comptes del Firefox
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Comptes del Firefox
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+
+## Component - AppLayout
+
+settings-home = Pàgina principal del compte
+
+## Component - CouponForm
+
+
+## Component - Fields
+
+default-input-error = Camp obligatori
+input-error-is-required = «{ $label }» és obligatori
+
+## Component - Header
+
+
+## Component - NewUserEmailForm
+
+new-user-confirm-email =
+    .label = Confirmeu l'adreça electrònica
+new-user-email-validate = L'adreça electrònica no és vàlida
+new-user-email-validate-confirm = Les adreces electròniques no coincideixen
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Gràcies!
+payment-confirmation-invoice-number = Factura núm. { $invoiceNumber }
+payment-confirmation-details-heading-2 = Informació de pagament
+payment-confirmation-download-button = Continua amb la baixada
+
+## Component - PaymentConsentCheckbox
+
+
+## Component - PaymentErrorView
+
+payment-error-retry-button = Torna-ho a provar
+payment-error-manage-subscription-button = Gestiona la meva subscripció
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+
+## Component - PaymentForm
+
+payment-name =
+    .placeholder = Nom complet
+    .label = El nom tal com apareix en la vostra targeta
+payment-cc =
+    .label = La vostra targeta
+payment-cancel-btn = Cancel·la
+payment-update-btn = Actualitza
+payment-pay-btn = Paga ara
+payment-validate-name-error = Introduïu el vostre nom
+
+## Component - PaymentLegalBlurb
+
+
+## Component - PaymentMethodHeader
+
+
+## Component - PaymentProcessing
+
+
+## Component - PaymentProviderDetails
+
+
+## Component - PlanDetails
+
+plan-details-header = Detalls del producte
+plan-details-show-button = Mostra els detalls
+plan-details-hide-button = Amaga els detalls
+plan-details-total-label = Total
+
+## Component - PlanErrorDialog
+
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
+## Component - SubscriptionTitle
+
+subscription-create-title = Configureu la vostra subscripció
+subscription-iapsubscribed-title = Ja hi esteu subscrit
+
+## Component - TermsAndPrivacy
+
+terms = Condicions del servei
+privacy = Avís de privadesa
+
+## App-level string(s) and messages shared by multiple components or routes
+
 document =
     .title = Comptes del Firefox
-
-## general-aria
-
+# General aria-label for closing modals
 close-aria =
     .aria-label = Tanca la finestra modal
+settings-subscriptions-title = Subscripcions
 
-## app error dialog
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## Error messages
+
+# App error dialog
 general-error-heading = Error general de l'aplicació
 basic-error-message = Alguna cosa ha anat malament. Torneu-ho a provar més tard.
 expired-card-error = Sembla que la vostra targeta de crèdit ha caducat. Proveu-ho amb una altra targeta.
@@ -29,194 +148,74 @@ duplicate-transaction = Mmm. Sembla que s'acaba d'enviar una transacció idènti
 coupon-expired = Sembla que el codi de promoció ha caducat.
 card-error = La vostra transacció no s'ha pogut processar. Verifiqueu la informació de la targeta de crèdit i torneu-ho a provar.
 
-## settings
-
-settings-home = Pàgina principal del compte
-settings-subscriptions-title = Subscripcions
-
-## legal footer
-
-terms = Condicions del servei
-privacy = Avís de privadesa
-
-## Subscription titles
+## Hooks - coupons
 
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } - un pagament de { $amount } al dia
-       *[other] { $productName } - un pagament de { $amount } cada { $intervalCount } dies
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } - un pagament de { $amount } a la setmana
-       *[other] { $productName }- un pagament de { $amount } cada { $intervalCount } setmanes
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } - un pagament de { $amount } al mes
-       *[other] { $productName } - un pagament de { $amount } cada { $intervalCount } mesos
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } - un pagament de { $amount } a l'any
-       *[other] { $productName } - un pagament de { $amount } cada { $intervalCount } anys
-    }
-
-## Product route
+## Routes - Checkout - New user
 
 
-## payment legal blurb
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Informació de pagament
+
+## Routes - Checkout and Product/Subscription create
 
 
-## payment form
-
-payment-name =
-    .placeholder = Nom complet
-    .label = El nom tal com apareix en la vostra targeta
-payment-cc =
-    .label = La vostra targeta
-payment-ccn =
-    .label = Número de targeta
-payment-exp =
-    .label = Caducitat
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Codi postal
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Product - IapRoadblock
 
 
-##
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
 
-payment-cancel-btn = Cancel·la
-payment-update-btn = Actualitza
-payment-pay-btn = Paga ara
-payment-validate-name-error = Introduïu el vostre nom
-payment-validate-zip-required = Cal un codi postal
-payment-validate-zip-short = El codi postal és massa curt
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 
-## subscription redirect
-
-sub-redirect-ready = La vostra subscripció ja està a punt
-sub-redirect-copy = Dediqueu un moment a explicar-nos la vostra experiència.
-sub-redirect-skip-survey = No gràcies, porta'm al producte.
-
-## fields
-
-default-input-error = Camp obligatori
-input-error-is-required = «{ $label }» és obligatori
-
-## subscription upgrade
-
-sub-update-card-exp = Caduca: { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Product - Subscription upgrade
 
 
-##
+## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Cancel·la la subscripció
 
-## subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } al dia
-       *[other] { $amount } cada { $intervalCount } dies
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } a la setmana
-       *[other] { $amount } cada { $intervalCount } setmanes
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } al mes
-       *[other] { $amount } cada { $intervalCount } mesos
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } a l'any
-       *[other] { $amount } cada { $intervalCount } anys
-    }
-
-## subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } al dia
-       *[other] { $amount } cada { $intervalCount } dies
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } a la setmana
-       *[other] { $amount } cada { $intervalCount } setmanes
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } al mes
-       *[other] { $amount } cada { $intervalCount } mesos
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } a l'any
-       *[other] { $amount } cada { $intervalCount } anys
-    }
-
-## $date (Date) - The date for the next time a charge will occur.
-
-
-##
-
-
-## reactivate
-## $name (String) - The name of the subscribed product.
-
-
-##  $date (Date) - Last day of product access
-
-reactivate-success-button = Tanca
-
-## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-missing-msg = Torneu-ho a provar més tard.
-sub-item-cancel-sub = Cancel·la la subscripció
 
-## subscription route index
+## Routes - Subscription
 
 
-## subscription create
+## Routes - Subscriptions - Errors
 
 
-## plan-details
-
-plan-details-total-label = Total
-
-## payment-processing
+## Routes - Subscription - ActionButton
 
 
-## payment confirmation
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $date (Date) - The date for the next time a charge will occur.
 
 
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
+
+
+## Routes - Subscription - SubscriptionItem
+
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
+## $name (String) - The name of the subscribed product.
+
+
+## $date (Date) - Last day of product access
+
+reactivate-success-button = Tanca
+
+## Routes - Subscriptions - Subscription iap item
 
