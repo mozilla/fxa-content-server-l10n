@@ -527,6 +527,7 @@ recent-activity-account-disable = Konto zostało wyłączone
 recent-activity-account-enable = Konto zostało włączone
 recent-activity-account-login = Konto zainicjowało logowanie
 recent-activity-account-reset = Konto zainicjowało zmianę hasła
+recent-activity-emails-clearBounces = Konto wyczyściło odrzucone wiadomości
 
 # Account recovery key setup page
 
@@ -1060,6 +1061,8 @@ confirm-pw-reset-header = Wysłano e-mail do zmiany hasła
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kliknij odnośnik wysłany na adres { $email } w ciągu godziny, aby utworzyć nowe hasło.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
 
 ## ResetPassword page
 
@@ -1075,6 +1078,7 @@ reset-password-button = Rozpocznij zmianę
 reset-password-success-alert = Zmieniono hasło
 reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem hasła
 reset-password-error-unknown-account = Nieznane konto
+reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
 
@@ -1135,6 +1139,8 @@ signin-recovery-code-back-link = Wstecz
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Nie możesz się zalogować?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Wymagany jest zapasowy kod uwierzytelniania
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1164,11 +1170,21 @@ signin-token-code-required-error = Wymagany jest kod potwierdzenia
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Wpisz kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Wpisz kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+signin-totp-code-instruction-v2 = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod uwierzytelniania.
 signin-totp-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
 signin-totp-code-other-account-link = Użyj innego konta
 signin-totp-code-recovery-code-link = Masz problem z wpisywaniem kodu?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Wymagany jest kod uwierzytelniania
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1184,6 +1200,8 @@ confirm-signup-instruction = Sprawdź, czy na koncie { $email } jest odnośnik p
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Wpisz kod potwierdzenia
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1196,6 +1214,14 @@ confirm-signup-code-confirm-button = Potwierdź
 confirm-signup-code-code-expired = Kod wygasł?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Wyślij nowy.
+confirm-signup-code-success-alert = Pomyślnie potwierdzono konto
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Wymagany jest kod potwierdzenia
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
