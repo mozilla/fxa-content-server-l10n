@@ -130,6 +130,11 @@ input-error-is-required = Pole „{ $label }“ je povinné
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Zadejte svou e-mailovou adresu
 new-user-confirm-email =
     .label = Potvrďte svou e-mailovou adresu
 new-user-subscribe-product-updates = Chci dostávat produktové novinky o { -brand-name-firefox(case: "loc") }
@@ -197,6 +202,7 @@ payment-error-manage-subscription-button = Správa předplatného
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = Získat pomoc
 
 ## Component - PaymentForm
 
@@ -242,6 +248,7 @@ plan-details-list-price = Ceník
 plan-details-show-button = Zobrazit podrobnosti
 plan-details-hide-button = Skrýt podrobnosti
 plan-details-total-label = Celkem
+plan-details-tax = Daně a poplatky
 
 ## Component - PlanErrorDialog
 
@@ -251,6 +258,8 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + daň { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -276,6 +285,8 @@ document =
 close-aria =
     .aria-label = Zavřít
 settings-subscriptions-title = Předplatné
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promo kód
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -1,5 +1,8 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = Obecná chyba aplikace
+app-general-err-message = Něco se pokazilo. Zkuste to prosím znovu později.
+
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = logo { -brand-mozilla(case: "gen") }
@@ -17,7 +20,15 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+# Message for screen readers, to announce that external link will open in new window
+link-sr-new-window = Otevře se v novém okně
+
 ## FxA React - Strings shared between multiple FxA products for loading spinner
+
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Načítání…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt =
+    .alt = Logo { -brand-firefox(case: "gen") }
