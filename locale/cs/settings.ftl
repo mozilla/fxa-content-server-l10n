@@ -14,6 +14,11 @@ banner-dismiss-button =
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více informací:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Bojujte za zdravý internet
 # Newsletter checklist item
 choose-newsletters-option-knowledge-is-power =
     .label = Zjistěte vše potřebné online
@@ -46,6 +51,8 @@ choose-what-to-sync-option-creditcards =
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Žádný email jste neobdrželi? Znovu odeslat
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Zpět
 
@@ -62,6 +69,23 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (odhad)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (odhad)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (odhad)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (odhad)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Neznámá poloha
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP adresa: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -79,10 +103,21 @@ form-reset-password-with-balloon-match-error = Hesla se neshodují
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Toto pole je povinné
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Stáhnout
+    .aria-label = Stáhnout
+get-data-trio-copy-2 =
+    .title = Kopírovat
+    .aria-label = Kopírovat
+get-data-trio-print-2 =
+    .title = Vytisknout
+    .aria-label = Vytisknout
 
 ## Images - these are all aria labels used for illustrations
 
@@ -93,20 +128,36 @@ input-password-hide = Skrýt heslo
 input-password-show = Zobrazit heslo
 input-password-hide-aria = Skrýt heslo z obrazovky.
 input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude viditelné na obrazovce.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Zpět
 
 ## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Odkaz pro obnovení je poškozen
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Odkaz pro potvrzení je poškozen
+# The user followed a "reset password" link received by email.
+reset-pwd-link-damaged-message = Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a zkuste to znovu.
 
 ## LinkExpired component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Platnost odkazu pro obnovení hesla vypršela
+# The user followed a password reset link, but that link is expired and no longer valid
+signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
+reset-pwd-link-expired-message = Platnost odkazu pro obnovení hesla už vypršela.
+signin-link-expired-message = Platnost odkazu pro potvrzení už vypršela.
 # Button to request a new link to reset password if the previous link was expired
 reset-pwd-resend-link = Získat nový odkaz
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Pamatujete si své heslo? Přihlaste se
 
 ## LinkUsed component
 
@@ -114,6 +165,7 @@ reset-pwd-resend-link = Získat nový odkaz
 primary-email-confirmation-link-reused = Hlavní adresa už byla ověřena
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
+confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -121,12 +173,16 @@ signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Požadavky na heslo
 password-strength-balloon-min-length = Alespoň 8 znaků
 password-strength-balloon-not-email = Není vaše e-mailová adresa
 password-strength-balloon-not-common = Není běžně používané heslo
+password-strength-balloon-stay-safe-tips = Nepřepoužívejte stejné heslo a přečtěte si další tipy pro <LinkExternal>vytváření silných hesel</LinkExternal>.
 
 ## Ready component
 
+reset-password-complete-header = Vaše heslo bylo obnoveno
+ready-start-browsing-button = Začít prohlížet
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Váš účet je dokončen!
 ready-continue = Pokračovat
@@ -274,9 +330,11 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Zavřít
 modal-cancel-button = Zrušit
+modal-default-confirm-button = Potvrdit
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Potvrďte svou e-mailovou adresu
 msv-cancel-button = Zrušit
 msv-submit-button-2 = Potvrdit
 
@@ -368,7 +426,17 @@ delete-account-header =
     .title = Smazat účet
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
+delete-account-chk-box-1-v3 =
+    .label = Všechna placená předplatná, která máte, budou zrušena (kromě služby { -product-pocket })
 delete-account-chk-box-2 =
     .label = můžete ztratit uložené informace a funkce produktů { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
@@ -400,12 +468,14 @@ display-name-success-alert-2 = Zobrazované jméno aktualizováno
 
 ## Recent Activity
 
+recent-activity-account-enable = Účet byl povolen
 
 # Account recovery key setup page
 
 recovery-key-cancel-button = Zrušit
 recovery-key-close-button = Zavřít
 recovery-key-continue-button = Pokračovat
+recovery-key-created-1 = Váš obnovovací klíč k účtu byl vytvořen. Uložte si ho na bezpečném místě, kde ho v případě potřeby snadno najdete. V případě zapomenutí hesla ho budete potřebovat pro získání přístupu ke svým datům.
 recovery-key-enter-password =
     .label = Zadejte heslo
 recovery-key-page-title-1 =
@@ -428,9 +498,17 @@ add-secondary-email-save-button = Uložit
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 ze 2
+verify-secondary-email-error-3 = Nepodařilo se odeslat potvrzovací kód
 verify-secondary-email-page-title =
     .title = Záložní e-mailová adresa
+verify-secondary-email-verification-code-2 =
+    .label = Zadejte potvrzovací kód
 verify-secondary-email-cancel-button = Zrušit
+verify-secondary-email-verify-button-2 = Potvrdit
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Zadejte prosím potvrzovací kód, který bude během 5 minut doručen na adresu <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -466,6 +544,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Nemůžete kód naskenovat?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací aplikace:
+tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
+tfa-input-enter-totp-v2 =
+    .label = Zadejte ověřovací kód
 
 ##
 
@@ -528,6 +609,8 @@ rk-refresh-key-1 = Aktualizovat obnovovací klíč k účtu
 rk-content-explain = Získejte přístup ke svým datům, pokud zapomenete své heslo.
 rk-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 rk-remove-modal-heading-1 = Odebrat obnovovací klíč k účtu?
+rk-remove-modal-content-1 = Pokud obnovíte své heslo, nebudete už moci pro přístup ke svým datům použít svůj obnovovací klíč k účtu. Tuto akci nelze vzít zpět.
+rk-refresh-error-1 = Omlouváme se, při aktualizaci obnovovacího klíče k účtu nastal problém.
 rk-remove-error-2 = Obnovovací klíč k vašemu účtu se nepodařilo odebrat
 
 ## Secondary email sub-section on main Settings page
@@ -535,6 +618,7 @@ rk-remove-error-2 = Obnovovací klíč k vašemu účtu se nepodařilo odebrat
 se-heading = Záložní e-mailová adresa
     .header = Záložní e-mailová adresa
 se-cannot-refresh-email = Obnovení tohoto e-mailu se nezdařilo.
+se-cannot-resend-code-3 = Potvrzovací kód se nepodařilo znovu odeslat
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -545,15 +629,22 @@ se-set-primary-error-2 = Nepodařilo se změnit vaši hlavní e-mailovou adresu
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Adresa { $email } byla odebrána
 se-delete-email-error-2 = Tuto e-mailovou adresu se nepodařilo odebrat
+se-verify-session-3 = Pro provedení této akce je potřeba potvrdit vaši stávající relaci
+se-verify-session-error-3 = Omlouváme se, nastal problém s potvrzením vaší relace
 # Button to remove the secondary email
 se-remove-email =
     .title = Odebrat e-mail
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Obnovit e-mail
+se-unverified-2 = nepotvrzeno
+se-resend-code-2 =
+    Je nutné potvrzení. Pokud jste potvrzovací kód nenašli v doručené ani nevyžádané
+    poště, můžete ho nechat <button>znovu odeslat</button>.
 # Button to make secondary email the primary
 se-make-primary = Nastavit jako hlavní
 se-default-content = Získejte přístup ke svému účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
+se-content-note-1 = Poznámka: záložní e-mailová adresa neumožní obnovit vaše informace — na to budete potřebovat <a>obnovovací klíč k účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = Žádný
 
@@ -572,6 +663,7 @@ tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
 tfa-row-content-explain = Zabraňte cizím lidem v přístupu k vašemu účtu vyžadováním unikátního kódu, který můžete zadat jenom vy.
+tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
@@ -581,11 +673,14 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Pokračováním souhlasíte s:
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámý účet
 auth-error-103 = Nesprávné heslo
+auth-error-105-2 = Špatný potvrzovací kód
 auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -595,29 +690,56 @@ auth-error-110 = Neplatný token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $retryAfter }.
+auth-error-138-2 = Nepotvrzená relace
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
 auth-error-155 = TOTP token nenalezen
+auth-error-183-2 = Neplatný nebo starý potvrzovací kód
+auth-error-999 = Neočekávaná chyba
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Účet nelze vytvořit
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Zjistit více
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail potvrzen
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Přihlášení potvrzeno
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Přihlásit se
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Zkusit znovu
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Zjistit více
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Zrušit
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Pokračovat
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Potvrdit
+inline-recovery-back-link = Zpět
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Zrušit nastavení
+inline-totp-setup-continue-button = Pokračovat
+inline-totp-setup-ready-button = Připraveno
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -676,46 +798,81 @@ auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Vytvořit nové heslo
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Heslo nastaveno
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-mail pro obnovu odeslán
 
 ## ResetPassword page
 
+reset-password-button = Začít obnovu
+reset-password-success-alert = Obnova hesla
+reset-password-error-unknown-account = Neznámý účet
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Chyba:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Potvrdit toto přihlášení
 
 ## Signin page
 
+signin-button = Přihlásit se
+signin-header = Přihlásit se
+signin-use-a-different-account-link = Použít jiný účet
+signin-forgot-password-link = Zapomněli jste heslo?
+back = Zpět
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Potvrdit
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Zpět
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ztratili jste přístup?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Děkujeme za vaši ostražitost
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Zadejte šestimístný kód
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Potvrdit
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v2 = Zadejte šestimístný kód
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Potvrdit
+signin-totp-code-other-account-link = Použít jiný účet
+signin-totp-code-recovery-code-link = Problém se zadáváním kódu?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Potvrzení účtu
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -723,7 +880,17 @@ reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do m
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Zadejte šestimístný kód
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Potvrdit
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Změna e-mailu
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kolik vám je let?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Pro registraci musíte zadat svůj věk
