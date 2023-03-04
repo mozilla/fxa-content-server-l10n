@@ -926,38 +926,87 @@ pair-auth-complete-heading = Połączono urządzenie
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = Urządzenie { $deviceFamily } z systemem { $deviceOS } będzie teraz synchronizowane
+pair-auth-complete-sync-benefits-text = Masz teraz dostęp do otwartych kart, haseł i zakładek na wszystkich urządzeniach.
+pair-auth-complete-see-tabs-button = Wyświetl karty z synchronizowanych urządzeń
+pair-auth-complete-manage-devices-link = Zarządzaj urządzeniami
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Wpisz kod uwierzytelniania, <span>aby przejść do ustawień konta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Wpisz kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+auth-totp-instruction = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod uwierzytelniania.
+auth-totp-input-label = Wpisz sześciocyfrowy kod
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Potwierdź
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Wymagany jest kod uwierzytelniania
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Teraz wymagane jest zatwierdzenie <span>z innego używanego urządzenia</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Powiązanie się nie powiodło
+pair-failure-message = Proces konfiguracji został przerwany.
 
 ## Pair index page
 
+pair-sync-header = Synchronizuj { -brand-firefox(case: "acc") } na telefonie lub tablecie
+pair-cad-header = Połącz { -brand-firefox(case: "acc") } na innym urządzeniu
+pair-already-have-firefox-paragraph = Masz już { -brand-firefox(case: "acc") } na telefonie lub tablecie?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronizuj swoje urządzenie
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Lub pobierz
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Zeskanuj, aby pobrać { -brand-firefox(case: "acc") } na telefon, albo wyślij sobie <linkExternal>odnośnik do pobrania</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Nie teraz
+pair-take-your-data-message = Korzystaj ze swoich kart, zakładek i haseł wszędzie, gdzie używasz { -brand-firefox(case: "acc") }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Zacznij teraz
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Kod QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Połączono urządzenie
+pair-success-message-2 = Pomyślnie powiązano.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Potwierdź powiązanie <span>dla adresu { $email }</span>
+pair-supp-allow-confirm-button = Potwierdź powiązanie
+pair-supp-allow-cancel-link = Anuluj
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z innego używanego urządzenia</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Powiąż za pomocą aplikacji
+pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1001,6 +1050,7 @@ complete-reset-password-success-alert = Ustawiono hasło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Przepraszamy, wystąpił problem z ustawieniem hasła
+complete-reset-password-recovery-key-error = Wystąpił problem podczas sprawdzania, czy klucz odzyskiwania konta już istnieje. <hasRecoveryKeyErrorLink>Zmień hasło za pomocą klucza odzyskiwania konta.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
