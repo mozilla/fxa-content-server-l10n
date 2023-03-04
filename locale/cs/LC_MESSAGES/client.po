@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-01-25 11:32+0000\n"
-"Last-Translator: soucet <soucet@centrum.cz>\n"
+"PO-Revision-Date: 2023-03-04 10:30+0000\n"
+"Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně probl�
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -200,7 +200,7 @@ msgstr "Dvoufázové ověřování zapnuto"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Obnovovací klíč účtu Firefoxu"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -488,7 +488,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Neplatný obnovovací klíč k účtu"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -693,7 +693,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Je vyžadován obnovovací klíč k účtu"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
@@ -848,9 +848,7 @@ msgid "Invalid Token"
 msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">podmínkami poskytování služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">zásadami ochrany osobních údajů</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -921,15 +919,14 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou "
 "smazána."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Zadejte obnovovací klíč k účtu"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
@@ -981,8 +978,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-"ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze změny."
+"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu"
+" soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze změny."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1026,7 +1023,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Chyba při potvrzení"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1069,7 +1066,7 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "pro váš účet Firefoxu"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1087,7 +1084,7 @@ msgstr "Potvrzení"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Platnost kódu vypršela?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
@@ -1103,7 +1100,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-mail potvrzen"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1165,11 +1162,8 @@ msgid "Password"
 msgstr "Heslo"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Pokračováním souhlasíte s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních "
-"údajů</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Pokračováním souhlasíte s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních údajů</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1402,7 +1396,7 @@ msgstr "Název události"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Potvrzeno"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1436,8 +1430,7 @@ msgstr "Už tento e-mail nevlastníte? Vytvořte si nový účet"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1500,7 +1493,7 @@ msgstr "Zadejte autorizační kód"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Nastavte si heslo"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1530,8 +1523,7 @@ msgstr "Vytvořit účet"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1865,7 +1857,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Uložit obnovovací klíč k účtu"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1885,7 +1877,7 @@ msgstr "Kolik vám je let?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Proč se ptáme?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1913,19 +1905,19 @@ msgstr "IP adresa: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Požadavky na heslo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Alespoň 8 znaků"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Není vaše e-mailová adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Nejedná se o běžně používané heslo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
@@ -1965,7 +1957,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -2031,11 +2023,8 @@ msgid "Sync your device"
 msgstr "Synchronizovat zařízení"
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
-"Naskenujte a stáhněte si Firefox pro mobily nebo si pošlete <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">odkaz ke stažení</"
-"a>."
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "Naskenujte a stáhněte si Firefox pro mobily nebo si pošlete <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">odkaz ke stažení</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"

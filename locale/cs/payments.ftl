@@ -108,6 +108,8 @@ settings-home = Domovská stránka účtu
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promo kód byl použit
 coupon-submit = Použít
 coupon-remove = Odebrat
 coupon-error = Zadaný kód je neplatný nebo jeho platnost vypršela.
@@ -126,6 +128,7 @@ input-error-is-required = Pole „{ $label }“ je povinné
 
 ## Component - Header
 
+brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
 
 ## Component - NewUserEmailForm
 
@@ -194,6 +197,7 @@ payment-confirmation-download-button = Pokračovat ke stažení
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala zobrazenou částku skrze mou preferovanou platební metodu v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 
 ## Component - PaymentErrorView
 
@@ -260,6 +264,126 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + daň { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } denně
+        [few] { $priceAmount } každé { $intervalCount } dny
+        [many] { $priceAmount } každých { $intervalCount } dní
+       *[other] { $priceAmount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } denně
+            [few] { $priceAmount } každé { $intervalCount } dny
+            [many] { $priceAmount } každých { $intervalCount } dní
+           *[other] { $priceAmount } každých { $intervalCount } dní
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } týdně
+        [few] { $priceAmount } každé { $intervalCount } týdny
+        [many] { $priceAmount } každých { $intervalCount } týdnů
+       *[other] { $priceAmount } každých { $intervalCount } týdnů
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } týdně
+            [few] { $priceAmount } každé { $intervalCount } týdny
+            [many] { $priceAmount } každých { $intervalCount } týdnů
+           *[other] { $priceAmount } každých { $intervalCount } týdnů
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } měsíčně
+        [few] { $priceAmount } každé { $intervalCount } měsíce
+        [many] { $priceAmount } každých { $intervalCount } měsíců
+       *[other] { $priceAmount } každých { $intervalCount } měsíců
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } měsíčně
+            [few] { $priceAmount } každé { $intervalCount } měsíce
+            [many] { $priceAmount } každých { $intervalCount } měsíců
+           *[other] { $priceAmount } každých { $intervalCount } měsíců
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ročně
+        [few] { $priceAmount } každé { $intervalCount } roky
+        [many] { $priceAmount } každých { $intervalCount } let
+       *[other] { $priceAmount } každých { $intervalCount } let
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ročně
+            [few] { $priceAmount } každé { $intervalCount } roky
+            [many] { $priceAmount } každých { $intervalCount } let
+           *[other] { $priceAmount } každých { $intervalCount } let
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } denně
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } dny
+        [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } denně
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } dny
+            [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } dní
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } týdně
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } týdny
+        [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týdnů
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týdnů
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } týdně
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } týdny
+            [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týdnů
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } týdnů
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } měsíčně
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } měsíce
+        [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } měsíců
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } měsíců
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } měsíčně
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } měsíce
+            [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } měsíců
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } měsíců
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + daň { $taxAmount } ročně
+        [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } roky
+        [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } let
+       *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } let
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + daň { $taxAmount } ročně
+            [few] { $priceAmount } + daň { $taxAmount } každé { $intervalCount } roky
+            [many] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } let
+           *[other] { $priceAmount } + daň { $taxAmount } každých { $intervalCount } let
+        }
 
 ## Component - SubscriptionTitle
 
@@ -291,6 +415,66 @@ coupon-promo-code = Promo kód
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } denně
+        [few] { $amount } každé { $intervalCount } dny
+        [many] { $amount } každých { $intervalCount } dní
+       *[other] { $amount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } denně
+            [few] { $amount } každé { $intervalCount } dny
+            [many] { $amount } každých { $intervalCount } dní
+           *[other] { $amount } každých { $intervalCount } dní
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } týdně
+        [few] { $amount } každé { $intervalCount } týdny
+        [many] { $amount } každých { $intervalCount } týdnů
+       *[other] { $amount } každých { $intervalCount } týdnů
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } týdně
+            [few] { $amount } každé { $intervalCount } týdny
+            [many] { $amount } každých { $intervalCount } týdnů
+           *[other] { $amount } každých { $intervalCount } týdnů
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } měsíčně
+        [few] { $amount } každé { $intervalCount } měsíce
+        [many] { $amount } každých { $intervalCount } měsíců
+       *[other] { $amount } každých { $intervalCount } měsíců
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } měsíčně
+            [few] { $amount } každé { $intervalCount } měsíce
+            [many] { $amount } každých { $intervalCount } měsíců
+           *[other] { $amount } každých { $intervalCount } měsíců
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } ročně
+        [few] { $amount } každé { $intervalCount } roky
+        [many] { $amount } každých { $intervalCount } let
+       *[other] { $amount } každých { $intervalCount } let
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ročně
+            [few] { $amount } každé { $intervalCount } roky
+            [many] { $amount } každých { $intervalCount } let
+           *[other] { $amount } každých { $intervalCount } let
+        }
 
 ## Error messages
 
@@ -345,6 +529,8 @@ sub-update-payment-title = Platební informace
 
 pay-with-heading-card-or = Nebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatit kartou
+product-invoice-preview-error-title = Náhled faktury se nepodařilo načíst
+product-invoice-preview-error-text = Náhled faktury nelze načíst
 
 ## Routes - Product - IapRoadblock
 
@@ -400,6 +586,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Fakturu se nepodařilo načíst
 sub-billing-update-success = Vaše platební údaje byly úspěšně aktualizovány
+sub-invoice-previews-error-title = Náhledy faktur se nepodařilo načíst
+sub-invoice-previews-error-text = Náhledy faktur nelze načíst
 
 ## Routes - Subscription - ActionButton
 
@@ -431,6 +619,8 @@ sub-route-funding-source-payment-alert = Neplatné platební údaje. U vašeho �
 sub-item-no-such-plan = Takové předplatné pro neexistuje.
 invoice-not-found = Následná faktura nebyla nalezena
 sub-item-no-such-subsequent-invoice = Následná faktura pro toto předplatné nebyla nalezena.
+sub-invoice-preview-error-title = Náhled faktury nenalezen
+sub-invoice-preview-error-text = Náhled faktury pro toto předplatné nebyl nalezen
 
 ## Routes - Subscriptions - Pocket Subscription
 

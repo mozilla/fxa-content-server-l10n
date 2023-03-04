@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Přihlašujete se k { -product-firefox-accounts(case: "dat", capitalization: "lower") }?
+session-verify-send-push-body-2 = Klepnutím zde potvrďte, že jste to vy
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -56,6 +57,7 @@ ios-download-plaintext = Stáhnout { $productName } z App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Nainstalovat { $productName } na jiné zařízení:
+automated-email-support = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }:
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
@@ -90,6 +92,27 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $cardType } karta končící na { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Číslo faktury: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Číslo faktury: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Změna plánu: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Mezisoučet: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Sleva: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednorázová sleva: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Daně a poplatky: { $invoiceTaxAmount }
 subscriptionSupport = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a data-l10n-name="subscriptionSupportUrl">tým podpory</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:
@@ -141,6 +164,10 @@ view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobrazit fakturu: { $invoiceLink }
 cadReminderFirst-action = Synchronizovat další zařízení
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = K synchronizaci jsou potřeba dva
+cadReminderFirst-description-2 = Synchronizace trvá jen chvíli.
 cadReminderSecond-action = Synchronizovat další zařízení
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -150,6 +177,8 @@ downloadSubscription-subject = Vítá vás { $productName }
 downloadSubscription-title = Vítá vás { $productName }
 downloadSubscription-link-action-2 = Začít
 fraudulentAccountDeletion-title = Váš účet byl smazán
+codes-reminder-description-two-left = Zbývají vám jen dva kódy.
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
@@ -167,9 +196,16 @@ passwordChangeRequired-different-password-plaintext = Důležité: Jako nové he
 passwordReset-subject = Heslo změněno
 passwordReset-title = Heslo k vašemu účtu bylo změněno
 passwordReset-description = Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo.
+passwordResetAccountRecovery-subject-2 = Vaše heslo bylo obnoveno
+passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k účtu
+postAddAccountRecovery-subject-2 = Obnovovací klíč k účtu byl vytvořen
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Nejste to vy?
 postAddAccountRecovery-action = Správa účtu
+postAddAccountRecovery-delete-key = Smazat nový klíč:
+postAddAccountRecovery-changd-password = Změňte si své heslo:
 postAddLinkedAccount-action = Správa účtu
 postAddTwoStepAuthentication-action = Správa účtu
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
@@ -177,17 +213,27 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-action = Správa účtu
 postConsumeRecoveryCode-action = Správa účtu
 postNewRecoveryCodes-action = Správa účtu
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Byl smazán z:
 postRemoveAccountRecovery-action = Správa účtu
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-action = Správa účtu
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Zakázali jste ho z:
 postRemoveTwoStepAuthentication-action = Správa účtu
+postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
+postVerify-setup-2 = Připojit další zařízení:
+postVerify-action-2 = Připojte další zařízení
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
 postVerifySecondary-title = Záložní e-mailová adresa byla přidána
 postVerifySecondary-action = Správa účtu
 recovery-subject = Obnovit heslo
 recovery-title-2 = Zapomněli jste heslo?
 recovery-action = Vytvořit nové heslo
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionAccountDeletion-title = Je nám líto, že odcházíte
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -195,6 +241,10 @@ subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Vítá vás { $productName }
+subscriptionAccountFinishSetup-action-2 = Začít
+subscriptionAccountReminderFirst-action = Vytvoření hesla
+subscriptionAccountReminderSecond-title = Vítá vás { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Vytvoření hesla
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -207,13 +257,31 @@ subscriptionCancellation-title = Je nám líto, že odcházíte
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
+subscriptionFailedPaymentsCancellation-title = Vaše předplatné bylo zrušeno
 subscriptionFirstInvoice-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Platba za produkt { $productName } se nezdařila
+subscriptionRenewalReminder-content-closing = S pozdravem,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Tým produktu { $productName }
+subscriptionSubsequentInvoice-title = Děkujeme, že využíváte naše předplatné.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Další platba: { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
+confirm-account-plaintext = { confirm-account }:
+confirm-email-2 = Potvrdit účet
+confirm-email-plaintext-2 = { confirm-email-2 }:
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
 verifyLogin-action = Potvrdit přihlášení
@@ -221,4 +289,5 @@ verifyLoginCode-expiry-notice = Platnost vyprší za 5 minut.
 verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
+verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.
