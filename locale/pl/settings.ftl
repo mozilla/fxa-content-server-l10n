@@ -926,7 +926,7 @@ pair-auth-allow-refuse-device-link = Jeśli to nie Ty, <link>zmień hasło</link
 pair-auth-complete-heading = Połączono urządzenie
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
-pair-auth-complete-now-syncing-device-text = Urządzenie { $deviceFamily } z systemem { $deviceOS } będzie teraz synchronizowane
+pair-auth-complete-now-syncing-device-text = { $deviceFamily } w systemie { $deviceOS } będzie teraz synchronizowany
 pair-auth-complete-sync-benefits-text = Masz teraz dostęp do otwartych kart, haseł i zakładek na wszystkich urządzeniach.
 pair-auth-complete-see-tabs-button = Wyświetl karty z synchronizowanych urządzeń
 pair-auth-complete-manage-devices-link = Zarządzaj urządzeniami
