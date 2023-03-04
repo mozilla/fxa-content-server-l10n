@@ -1051,6 +1051,7 @@ complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
+complete-reset-password-recovery-key-error = Извините, возникла проблема при проверке наличия у вас ключа восстановления аккаунта. <hasRecoveryKeyErrorLink>Сбросьте пароль с помощью ключа восстановления аккаунта.</hasRecoveryKeyErrorLink>.
 
 ## Confirm Reset Password Component
 
@@ -1138,6 +1139,8 @@ signin-recovery-code-back-link = Назад
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Аккаунт заблокирован?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Требуется резервный код аутентификации
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1167,11 +1170,21 @@ signin-token-code-required-error = Требуется код подтвержд�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Введите код аутентификации, <span>для перехода к настройкам аккаунта</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Введите код аутентификации <span>для перехода к { $serviceName }</span>
+signin-totp-code-instruction-v2 = Откройте своё приложение для аутентификации и введите предоставленный им код аутентификации.
 signin-totp-code-input-label-v2 = Введите код из 6 цифр
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
 signin-totp-code-recovery-code-link = Проблемы с вводом кода?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Требуется код аутентификации
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1187,6 +1200,8 @@ confirm-signup-instruction = Проверьте свой почтовый ящи
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Введите код подтверждения
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1199,6 +1214,14 @@ confirm-signup-code-confirm-button = Подтвердить
 confirm-signup-code-code-expired = Срок действия кода истёк?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Отправить новый код по электронной почте.
+confirm-signup-code-success-alert = Аккаунт успешно подтверждён
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Письмо отправлено повторно. Добавьте { $accountsEmail } в свои контакты, чтобы обеспечить его корректную доставку.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Что-то пошло не так. Не удалось отправить новый код.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Требуется код подтверждения
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
