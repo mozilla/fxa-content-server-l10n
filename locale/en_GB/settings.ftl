@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,13 +103,17 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repeat password
 signup-submit-button = Create account
-
 form-reset-password-with-balloon-new-password =
     .label = New password
 form-reset-password-with-balloon-confirm-password =
     .label = Re-enter password
 form-reset-password-with-balloon-submit-button = Reset password
 form-reset-password-with-balloon-match-error = Passwords do not match
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = This field is required
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -144,8 +149,6 @@ input-password-hide = Hide password
 input-password-show = Show password
 input-password-hide-aria = Hide password from screen.
 input-password-show-aria = Show password as plain text. Your password will be visible on screen.
-
-
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Back
 
@@ -154,11 +157,9 @@ legal-back-button = Back
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Reset password link damaged
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Confirmation link damaged
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
 
@@ -183,10 +184,8 @@ remember-pw-link = Remember your password? Sign in
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Primary email already confirmed
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Sign-in already confirmed
-
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
 
 ## PasswordInfoBalloon
@@ -234,18 +233,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
-
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 ## Connect another device promo
@@ -254,7 +252,6 @@ connect-another-fx-mobile = Get { -brand-firefox } on mobile or tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } in the { -google-play } and { -app-store } or
     <br /><linkExternal>send a download link to your device.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -263,6 +260,7 @@ connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } on the { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -277,13 +275,10 @@ cs-cannot-disconnect = Client not found, unable to disconnect
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logged out of { $service }
-
 cs-refresh-button =
     .title = Refresh connected services
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Missing or duplicate items?
-
 cs-disconnect-sync-heading = Disconnect from Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -322,12 +317,11 @@ cs-disconnect-suspicious-advice-content =
     suspicious, to keep your information safe, you should change your { -product-firefox-account }
     password in your account settings. You should also change any other
     passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
-
 cs-sign-out-button = Sign out
-
 cs-recent-activity = Recent Account Activity
 
 ##
+
 
 ## Data collection section
 
@@ -347,7 +341,6 @@ drop-down-menu-title = { -product-firefox-account } menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Signed in as</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sign out
-
 drop-down-menu-sign-out-error-2 = Sorry, there was a problem signing you out
 
 ## Flow Container
@@ -373,10 +366,11 @@ la-unlink-heading = Unlink from third party account
 la-unlink-content-3 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of your Connected Services. To do that, you will need to manually sign out from the Connected Services section.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Close
 modal-cancel-button = Cancel
+modal-default-confirm-button = Confirm
 
 ## Modal Verify Session
 
@@ -442,11 +436,11 @@ avatar-page-image-too-large-error-2 = The image file size is too large to be upl
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Change Password
-
 pw-8-chars = At least 8 characters
 pw-not-email = Not your email address
 pw-change-must-match = New password matches confirmation
@@ -456,38 +450,34 @@ pw-tips = Stay safe — don’t reuse passwords. See more tips to <linkExternal>
 pw-change-cancel-button = Cancel
 pw-change-save-button = Save
 pw-change-forgot-password-link = Forgot password?
-
 pw-change-current-password =
     .label = Enter current password
 pw-change-new-password =
     .label = Enter new password
 pw-change-confirm-password =
     .label = Confirm new password
-
 pw-change-success-alert-2 = Password updated
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Create password
-
 pw-create-success-alert-2 = Password set
 pw-create-error-2 = Sorry, there was a problem setting your password
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Delete Account
-
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
-
 delete-account-confirm-title-3 = You may have connected your { -product-firefox-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -497,9 +487,7 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronising { -brand-firefox } data
 delete-account-product-firefox-addons = { -brand-firefox } Add-ons
-
 delete-account-acknowledge = Please acknowledge that by deleting your account:
-
 delete-account-chk-box-1-v3 =
     .label = Any paid subscriptions you have will be cancelled (Except { -product-pocket })
 delete-account-chk-box-2 =
@@ -508,45 +496,38 @@ delete-account-chk-box-3 =
     .label = Reactivating with this email may not restore your saved information
 delete-account-chk-box-4 =
     .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
-
-
 delete-account-continue-button = Continue
-
 delete-account-password-input =
     .label = Enter password
-
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Display name
-
 display-name-input =
     .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
-
 display-name-update-error-2 = There was a problem updating your display name
-
 display-name-success-alert-2 = Display name updated
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Recent Account Activity
-
 recent-activity-account-create = Account was created
 recent-activity-account-disable = Account was disabled
 recent-activity-account-enable = Account was enabled
 recent-activity-account-login = Account initiated login
 recent-activity-account-reset = Account initiated password reset
 recent-activity-emails-clearBounces = Account cleared email bounces
-
 
 # Account recovery key setup page
 
@@ -600,25 +581,20 @@ delete-account-link = Delete Account
 ## Two Step Authentication
 
 tfa-title = Two-Step Authentication
-
 tfa-step-1-3 = Step 1 of 3
 tfa-step-2-3 = Step 2 of 3
 tfa-step-3-3 = Step 3 of 3
-
 tfa-button-continue = Continue
 tfa-button-cancel = Cancel
 tfa-button-finish = Finish
-
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
 tfa-cannot-verify-code-4 = There was a problem confirming your backup authentication code
 tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
 tfa-enabled = Two-step authentication enabled
-
 tfa-scan-this-code =
     Scan this QR code using one of <linkExternal>these
     authentication apps</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -629,17 +605,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Can’t scan code?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Enter this secret key into your authenticator app:
-
-tfa-enter-totp = Now enter the security code from the authentication app.
-tfa-input-enter-totp =
-    .label = Enter security code
+tfa-enter-totp-v2 = Now enter the authentication code from the authentication app.
+tfa-input-enter-totp-v2 =
+    .label = Enter authentication code
 tfa-save-these-codes-1 =
     Save these one-time use backup authentication codes in a safe place for when
     you don’t have your mobile device.
-
 tfa-enter-code-to-confirm-1 =
     Please enter one of your backup authentication codes now to
     confirm you’ve saved it. You’ll need a code to login if you don’t have access to your
@@ -648,6 +621,7 @@ tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
 ##
+
 
 ## Profile section
 
@@ -660,6 +634,7 @@ profile-primary-email =
     .header = Primary email
 
 ##
+
 
 ## Security section of Setting
 
@@ -751,6 +726,7 @@ se-secondary-email-none = None
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
@@ -759,7 +735,6 @@ tfa-row-enabled = Enabled
 tfa-row-not-set = Not Set
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
-
 tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh =
@@ -769,14 +744,12 @@ tfa-row-content-explain =
     Prevent someone else from logging in by requiring a
     unique code only you have access to.
 tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
-
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain-1 =
     You won’t be able to undo this action. You also
     have the option of <linkExternal>replacing your backup authentication codes</linkExternal>.
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
-
 tfa-row-change-modal-heading-1 = Change backup authentication codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
@@ -815,7 +788,6 @@ auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -825,6 +797,7 @@ cannot-create-account-requirements = You must meet certain age requirements to c
 cannot-create-account-learn-more-link = Learn more
 
 ## Connect Another Device page
+
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = You’re signed into { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -897,41 +870,29 @@ inline-recovery-confirmation-header = Confirm backup authentication code <span>t
 
 inline-totp-setup-cancel-setup-button = Cancel setup
 inline-totp-setup-continue-button = Continue
-
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Add a layer of security to your account by requiring authentication codes from one of <authenticationAppsLink>these authentication apps</authenticationAppsLink>.
-
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Enable two-step authentication <span>to continue to account settings</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Enable two-step authentication <span>to continue to { $serviceName }</span>
-
 inline-totp-setup-ready-button = Ready
-
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Scan authentication code <span>to continue to { $serviceName }</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Enter code manually <span>to continue to { $serviceName }</span>
-
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Scan authentication code <span>to continue to account settings</span>
-
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Enter code manually <span>to continue to account settings</span>
-
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Type this secret key into your authentication app. <toggleToQRButton>Scan QR code instead?</toggleToQRButton>
-
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Scan the QR code in your authentication app and then enter the authentication code it provides. <toggleToManualModeButton>Can’t scan code?</toggleToManualModeButton>
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Once complete, it will begin generating authentication codes for you to enter.
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Authentication code
 
@@ -973,6 +934,24 @@ pair-auth-complete-now-syncing-device-text = You are now synchronising with: { $
 pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passwords, and bookmarks on all your devices.
 pair-auth-complete-see-tabs-button = See tabs from synchronised devices
 pair-auth-complete-manage-devices-link = Manage devices
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Enter authentication code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Enter authentication code <span>to continue to { $serviceName }</span>
+auth-totp-instruction = Open your authentication app and enter the authentication code it provides.
+auth-totp-input-label = Enter 6-digit code
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirm
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Authentication code required
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1043,9 +1022,7 @@ account-recovery-confirm-key-heading-w-default-service = Reset password with acc
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Reset password with account recovery key <span>to continue to { $serviceName }</span>
-
 account-recovery-confirm-key-instructions = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-firefox-account }.
-
 account-recovery-confirm-key-warning-message = <span>Note:</span> If you reset your password and don’t have your account recovery key saved, some of your data will be erased (including synchronised server data like history and bookmarks).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1075,20 +1052,19 @@ complete-reset-password-warning-message-2 = <span>Remember:</span> When you rese
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password set
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
+complete-reset-password-recovery-key-error = Sorry, there was a problem checking if you have an account recovery key. <hasRecoveryKeyErrorLink>Reset your password with your account recovery key.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Reset email sent
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
-
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 
@@ -1101,14 +1077,11 @@ reset-password-heading-w-default-service = Reset password <span>to continue to a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
-
 reset-password-button = Begin reset
 reset-password-success-alert = Password reset
 reset-password-error-general = Sorry, there was a problem resetting your password
 reset-password-error-unknown-account = Unknown account
-
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
@@ -1130,11 +1103,9 @@ confirm-signin-message = Check your email for the sign-in confirmation link sent
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Enter your password <span>for your { -product-firefox-account }</span>
-
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continue to { $serviceName }
@@ -1143,7 +1114,6 @@ signin-button = Sign in
 signin-header = Sign in
 signin-use-a-different-account-link = Use a different account
 signin-forgot-password-link = Forgot password?
-
 signin-bounced-header = Sorry. We’ve locked your account.
 # $email (string) - The user's email.
 signin-bounced-message = The confirmation email we sent to { $email } was returned and we’ve locked your account to protect your { -brand-firefox } data.
@@ -1168,11 +1138,13 @@ signin-recovery-code-instruction = Please enter a backup authentication code tha
 signin-recovery-code-input-label = Enter 10-digit backup authentication code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Back
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Are you locked out?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Backup authentication code required
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1195,26 +1167,28 @@ signin-token-code-confirm-button = Confirm
 signin-token-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Email new code.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Confirmation code required
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Enter security code <span>to continue to account settings</span>
+signin-totp-code-heading-w-default-service-v2 = Enter authentication code <span>to continue to account settings</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Enter security code <span>to continue to { $serviceName }</span>
-signin-totp-code-instruction = Open your authentication app and enter the security code it provides.
+signin-totp-code-heading-w-custom-service-v2 = Enter authentication code <span>to continue to { $serviceName }</span>
+signin-totp-code-instruction-v2 = Open your authentication app and enter the authentication code it provides.
 signin-totp-code-input-label-v2 = Enter 6-digit code
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Authentication code required
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1226,8 +1200,12 @@ confirm-signup-instruction = Check your email for the confirmation link sent to 
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Enter confirmation code
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1240,7 +1218,14 @@ confirm-signup-code-confirm-button = Confirm
 confirm-signup-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Email new code.
-confirm-signup-code-required-error = Please enter confirmation code
+confirm-signup-code-success-alert = Account confirmed successfully
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Something went wrong. A new code could not be sent.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Confirmation code is required
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
