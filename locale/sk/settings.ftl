@@ -608,6 +608,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
+tfa-enter-totp-v2 = Teraz zadajte overovací kód z overovacej aplikácie.
+tfa-input-enter-totp-v2 =
+    .label = Zadajte overovací kód
 tfa-save-these-codes-1 =
     Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
     keď nebudete mať svoje mobilné zariadenie.
@@ -933,6 +936,19 @@ pair-auth-complete-manage-devices-link = Spravovať zariadenia
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Zadajte overovací kód <span>a pokračujte do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Zadajte overovací kód <span>a pokračujte do služby { $serviceName }</span>
+auth-totp-instruction = Otvorte svoju overovaciu aplikáciu a opíšte z nej overovací kód.
+auth-totp-input-label = Zadajte šesťmiestny kód
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Potvrdiť
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Vyžaduje sa overovací kód
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1036,6 +1052,7 @@ complete-reset-password-success-alert = Heslo bolo nastavené
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
+complete-reset-password-recovery-key-error = Ľutujeme, pri kontrole, či máte kľúč na obnovenie účtu, sa vyskytol problém. <hasRecoveryKeyErrorLink>Obnovte svoje heslo pomocou kľúča na obnovenie účtu.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1123,6 +1140,8 @@ signin-recovery-code-back-link = Naspäť
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Stratili ste prístup?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Vyžaduje sa záložný overovací kód
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1152,11 +1171,21 @@ signin-token-code-required-error = Vyžaduje sa potvrdzovací kód
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Zadajte overovací kód <span>a pokračujte do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Zadajte overovací kód <span>a pokračujte do služby { $serviceName }</span>
+signin-totp-code-instruction-v2 = Otvorte svoju overovaciu aplikáciu a opíšte z nej overovací kód.
 signin-totp-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdiť
 signin-totp-code-other-account-link = Použiť iný účet
 signin-totp-code-recovery-code-link = Máte problémy so zadaním kódu?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Vyžaduje sa overovací kód
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1172,6 +1201,8 @@ confirm-signup-instruction = Potvrdzovací odkaz pre prihlásenie sme odoslali n
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Zadajte potvrdzovací kód
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1184,6 +1215,14 @@ confirm-signup-code-confirm-button = Potvrdiť
 confirm-signup-code-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Odoslať e-mailom nový kód.
+confirm-signup-code-success-alert = Účet bol úspešne potvrdený
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Niečo sa pokazilo. Nepodarilo sa odoslať nový kód.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
