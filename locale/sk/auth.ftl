@@ -75,9 +75,9 @@ automated-email-change-plaintext-2 = Ak ste túto akciu neurobili, okamžite si 
 automated-email-support-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") }.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
-automated-email-no-action-plaintext = Toto je automatický e-mail. Ak ste ho dostali omylom, nemusíte robiť nič.
+automated-email-no-action-plaintext = Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nemusíte robiť nič.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Toto je automatický e-mail; ak ste túto akciu nevykonali, zmeňte si svoje heslo:
+automated-email-not-authorized-plaintext = Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, zmeňte si svoje heslo:
 automated-email-reset =
     Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="resetLink">zmeňte si svoje heslo</a>.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
