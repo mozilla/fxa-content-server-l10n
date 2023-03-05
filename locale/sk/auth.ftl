@@ -237,7 +237,7 @@ lowRecoveryCodes-subject-2 =
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-subject = Nové prihlásenie - produkt { $clientName }
+newDeviceLogin-subject = Nové prihlásenie - { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Na prihlásenie bol použitý váš { -product-firefox-account(capitalization: "lower") }
