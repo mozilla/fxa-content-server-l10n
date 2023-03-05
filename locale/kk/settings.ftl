@@ -110,6 +110,11 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Парольді тастау
 form-reset-password-with-balloon-match-error = Парольдер өзара сәйкес келмейді
 
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Бұл өріс міндетті түрде керек
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -362,10 +367,11 @@ la-unlink-heading = Үшінші жақ тіркелгісімен байлан�
 la-unlink-content-3 = Тіркелгі байланысын шынымен үзгіңіз келе ме? Тіркелгіні өшіру сізді қосылған қызметтерден автоматты түрде шығармайды. Ол үшін "Байланыстырылған қызметтер" бөлімінен қолмен шығу керек.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Жабу
 modal-cancel-button = Бас тарту
+modal-default-confirm-button = Растау
 
 ## Modal Verify Session
 
@@ -600,9 +606,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Осы құпия кілтті аутентификация қолданбасына енгізіңіз:
-tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
-tfa-input-enter-totp =
-    .label = Қауіпсіздік кодын енгізіңіз
+tfa-enter-totp-v2 = Енді аутентификация қолданбасынан аутентификация кодын енгізіңіз.
+tfa-input-enter-totp-v2 =
+    .label = Аутентификация кодын енгізіңіз
 tfa-save-these-codes-1 =
     Мобильді құрылғыңыз болмаған кездері үшін осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз.
@@ -911,6 +917,16 @@ pair-auth-complete-sync-benefits-text = Енді сіз барлық құрыл�
 pair-auth-complete-see-tabs-button = Синхрондалған құрылғылардан беттерді қарау
 pair-auth-complete-manage-devices-link = Құрылғыларды басқару
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+auth-totp-input-label = 6-цифрлық кодты енгізіңіз
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Растау
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Аутентификация коды керек
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -1008,7 +1024,7 @@ complete-reset-password-warning-message-2 = <span>Есіңізде болсын:
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 
@@ -1093,7 +1109,7 @@ signin-recovery-code-instruction = Екі қадамдық аутентифик�
 signin-recovery-code-input-label = 10 сандық сақтық аутентификация кодын енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Артқа
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1120,26 +1136,20 @@ signin-token-code-confirm-button = Растау
 signin-token-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Растау коды қажет
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> қауіпсіздік кодын енгізіңіз
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> қауіпсіздік кодын
-signin-totp-code-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған қауіпсіздік кодын енгізіңіз.
 signin-totp-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану
 signin-totp-code-recovery-code-link = Кодты енгізуде мәселе бар ма?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Аутентификация коды керек
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1155,6 +1165,8 @@ confirm-signup-instruction = Эл. поштаңызды { $email } адресі�
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Растау кодын енгізіңіз
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1167,7 +1179,12 @@ confirm-signup-code-confirm-button = Растау
 confirm-signup-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
-confirm-signup-code-required-error = Растау кодын енгізіңіз
+confirm-signup-code-success-alert = Тіркелгі сәтті расталды
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Растау коды қажет
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
