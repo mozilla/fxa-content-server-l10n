@@ -462,6 +462,7 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
+delete-account-confirm-title-3 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ次のいずれかの { -brand-mozilla } 製品と接続されている可能性があります:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -1192,11 +1193,18 @@ confirm-signup-code-success-alert = アカウントの確認が完了しまし�
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = 確認コードが必要です
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = パスワードを設定
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = なぜアカウントを作成する必要があるのか、<LinkExternal>ここで調べてください</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
