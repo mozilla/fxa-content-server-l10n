@@ -607,7 +607,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Не можете скенирати код?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Унесите овај тајни кључ у вашу апликацију за аутентификацију:
-tfa-enter-totp-v2 = Сада унесите кôд за аутентификацију из одговарајуће апликације.
+tfa-enter-totp-v2 = Сада унесите приступни кôд из апликације за аутентификацију.
+tfa-input-enter-totp-v2 =
+    .label = Унесите приступни кôд
 tfa-save-these-codes-1 =
     Чувајте ове једнократне кодове на сигурном месту,
     у случају да изгубите приступ мобилном уређају.
@@ -937,6 +939,19 @@ pair-auth-complete-manage-devices-link = Управљајте уређајима
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Унесите приступни кôд <span>да наставите на подешавања налога</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Унесите приступни кôд <span>да наставите на { $serviceName }</span>
+auth-totp-instruction = Отворите вашу апликацију за аутентификацију и унесите приступни кôд који нуди.
+auth-totp-input-label = Унесите шестоцифрени код
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Потврди
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Потребан је приступни кôд
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1040,6 +1055,7 @@ complete-reset-password-success-alert = Лозинка је постављена
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Жао нам је, дошло је до грешке при постављању лозинке
+complete-reset-password-recovery-key-error = Жао нам је, дошло је до проблема при провери да ли имате кључ за опоравак налога. <hasRecoveryKeyErrorLink>Ресетујте лозинку помоћу кључа за опоравак налога.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1127,6 +1143,8 @@ signin-recovery-code-back-link = Назад
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Не можете да се пријавите?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Потребан је резервни приступни код
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1156,11 +1174,21 @@ signin-token-code-required-error = Потребан је потврдни код
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Унесите приступни кôд <span>да наставите на подешавања налога</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Унесите приступни кôд <span>да наставите на { $serviceName }</span>
+signin-totp-code-instruction-v2 = Отворите вашу апликацију за аутентификацију и унесите приступни кôд који нуди.
 signin-totp-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Потврди
 signin-totp-code-other-account-link = Користи други налог
 signin-totp-code-recovery-code-link = Проблеми с уносом кода?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Потребан је приступни кôд
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1176,6 +1204,8 @@ confirm-signup-instruction = Проверите вашу е-пошту ради 
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Унесите код за потврду
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1188,6 +1218,14 @@ confirm-signup-code-confirm-button = Потврди
 confirm-signup-code-code-expired = Код је истекао?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Пошаљи нови е-поштом.
+confirm-signup-code-success-alert = Налог је успешно потврђен
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Потребан је код за потврду
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
