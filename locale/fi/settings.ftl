@@ -465,6 +465,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synkronoidaan { -brand-firefox }-tietoja
 delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
 delete-account-chk-box-2 =
@@ -756,6 +757,7 @@ auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi en
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
+auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
 ## Cannot Create Account page
@@ -767,6 +769,8 @@ cannot-create-account-learn-more-link = Lue lisää
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Olet kirjautunut { -brand-firefox }iin
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Sähköposti vahvistettu
 # A "success" message visible to users who verified via sign-in
@@ -825,9 +829,13 @@ legal-terms-heading = Käyttöehdot
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Kirjauduitko juuri { -product-firefox }iin?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Kyllä, hyväksy laite
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Jos se et ollut sinä, <link>vaihda salasanasi</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
