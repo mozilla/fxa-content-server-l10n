@@ -110,6 +110,11 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Parolayı sıfırla
 form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
 
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Bu alanı doldurmalısınız
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
@@ -353,10 +358,11 @@ la-unlink-heading = Üçüncü taraf hesabıyla bağlantıyı kes
 la-unlink-content-3 = Hesabınızın bağlantısını kesmek istediğinizden emin misiniz? Hesabınızın bağlantısını kesmeniz bağlı hizmetlerden otomatik olarak çıkış yapmanızı sağlamaz. Bunu yapmak için "Bağlı hizmetler" bölümünden manuel olarak çıkış yapmanız gerekecektir.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Kapat
 modal-cancel-button = İptal
+modal-default-confirm-button = Onayla
 
 ## Modal Verify Session
 
@@ -585,9 +591,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
-tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
-tfa-input-enter-totp =
-    .label = Güvenlik kodunu yazın
+tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik doğrulama kodunu yazın.
+tfa-input-enter-totp-v2 =
+    .label = Kimlik doğrulama kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
 tfa-enter-code-to-confirm-1 =
     Lütfen kaydettiğinizi onaylamak için yedek kimlik doğrulama kodlarınızdan
@@ -901,6 +907,24 @@ pair-auth-complete-sync-benefits-text = Artık açık sekmelerinize, parolaları
 pair-auth-complete-see-tabs-button = Eşitlenmiş cihazlardan sekmeleri gör
 pair-auth-complete-manage-devices-link = Cihazları yönet
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu yazın
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu yazın
+auth-totp-instruction = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği kimlik doğrulama kodunu yazın.
+auth-totp-input-label = 6 basamaklı kodu yazın
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Onayla
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Kimlik doğrulama kodu gerekli
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
@@ -1000,7 +1024,7 @@ complete-reset-password-warning-message-2 = <span>Unutmayın:</span> Parolanız�
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Parola ayarlandı
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
 
@@ -1085,11 +1109,13 @@ signin-recovery-code-instruction = Lütfen iki adımlı kimlik doğrulama kurulu
 signin-recovery-code-input-label = 10 basamaklı yedek kimlik doğrulama kodunu girin
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Geri dön
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Hesabınız kilitlendi mi?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Yedek kimlik doğrulama kodu gerekli
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1112,26 +1138,28 @@ signin-token-code-confirm-button = Onayla
 signin-token-code-code-expired = Kodun süresi mi doldu?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = E-posta ile yeni kod gönder.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Onay kodu gerekiyor
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> güvenlik kodunu girin
+signin-totp-code-heading-w-default-service-v2 = <span>Hesap ayarlarına devam etmek için</span> kimlik doğrulama kodunu yazın
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> güvenlik kodunu girin
-signin-totp-code-instruction = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği güvenlik kodunu yazın.
+signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } hizmetine devam etmek için</span> kimlik doğrulama kodunu yazın
+signin-totp-code-instruction-v2 = Kimlik doğrulama uygulamanızı açın ve uygulamanın verdiği kimlik doğrulama kodunu yazın.
 signin-totp-code-input-label-v2 = 6 basamaklı kodu girin
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Onayla
 signin-totp-code-other-account-link = Farklı bir hesap kullan
 signin-totp-code-recovery-code-link = Kod girerken sorun mu yaşıyorsunuz?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Kimlik doğrulama kodu gerekli
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1147,6 +1175,8 @@ confirm-signup-instruction = { $email } adresine gönderdiğimiz onay bağlantı
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Onay kodunu girin
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1159,7 +1189,14 @@ confirm-signup-code-confirm-button = Onayla
 confirm-signup-code-code-expired = Kodun süresi mi doldu?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-posta ile yeni kod gönder.
-confirm-signup-code-required-error = Lütfen onay kodunu girin
+confirm-signup-code-success-alert = Hesap başarıyla onaylandı
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Onay kodu gerekli
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
