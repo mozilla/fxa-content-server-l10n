@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,13 +103,17 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Toista salasana
 signup-submit-button = Luo tili
-
 form-reset-password-with-balloon-new-password =
     .label = Uusi salasana
 form-reset-password-with-balloon-confirm-password =
     .label = Kirjoita salasana uudelleen
 form-reset-password-with-balloon-submit-button = Nollaa salasana
 form-reset-password-with-balloon-match-error = Salasanat eivät täsmää
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Tämä kenttä on pakollinen
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -137,17 +142,14 @@ input-password-show = Näytä salasana
 input-password-hide-aria = Piilota salasana näytöltä.
 input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
 
-
 ## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Vahvistuslinkki vaurioitunut
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
@@ -172,14 +174,13 @@ remember-pw-link = Muistatko salasanasi? Kirjaudu sisään
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvistettu
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
-
 confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
+
 
 ## PasswordStrengthBalloon component
 
@@ -218,18 +219,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox }-valikko
 bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
 bento-menu-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
-
 bento-menu-made-by-mozilla = { -brand-mozilla }lta
 
 ## Connect another device promo
@@ -238,7 +238,6 @@ connect-another-fx-mobile = Hanki { -brand-firefox } puhelimeen tai tablettiin
 connect-another-find-fx-mobile =
     Löydä { -brand-firefox } { -google-play }sta ja { -app-store }sta tai
     <br /><linkExternal>lähetä latauslinkki laitteellesi.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -247,6 +246,7 @@ connect-another-app-store-image-2 =
     .title = Lataa { -brand-firefox } { -app-store }sta
 
 ##
+
 
 ## Connected services section
 
@@ -261,13 +261,10 @@ cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kirjautunut ulos palvelusta { $service }
-
 cs-refresh-button =
     .title = Päivitä yhdistetyt palvelut
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
-
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -275,6 +272,7 @@ cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -301,12 +299,11 @@ cs-disconnect-suspicious-advice-content =
     sinun tulisi vaihtaa { -product-firefox-account }n salasana
     tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
     salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
-
 cs-sign-out-button = Kirjaudu ulos
-
 cs-recent-activity = Viimeaikaiset tilitapahtumat
 
 ##
+
 
 ## Data collection section
 
@@ -326,7 +323,6 @@ drop-down-menu-title = { -product-firefox-account } -valikko
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Kirjaudu ulos
-
 drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 
 ## Flow Container
@@ -352,7 +348,7 @@ la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
 la-unlink-content-3 = Haluatko varmasti poistaa tilisi linkityksen? Tilin linkityksen poistaminen ei kirjaa sinua automaattisesti ulos yhdistetyistä palveluista. Tätä varten sinun on kirjauduttava manuaalisesti ulos Yhdistetyt palvelut -osion kautta.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Sulje
 modal-cancel-button = Peruuta
@@ -421,11 +417,11 @@ avatar-page-image-too-large-error-2 = Kuvatiedoston koko on liian suuri lähetet
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Vaihda salasana
-
 pw-8-chars = Vähintään 8 merkkiä
 pw-not-email = Ei sinun sähköpostiosoite
 pw-change-must-match = Uusi salasana vastaa vahvistusta
@@ -435,36 +431,33 @@ pw-tips = Pysy turvassa — älä käytä samoja salasanoja uudelleen. Katso lis
 pw-change-cancel-button = Peruuta
 pw-change-save-button = Tallenna
 pw-change-forgot-password-link = Unohditko salasanan?
-
 pw-change-current-password =
     .label = Kirjoita nykyinen salasana
 pw-change-new-password =
     .label = Kirjoita uusi salasana
 pw-change-confirm-password =
     .label = Vahvista uusi salasana
-
 pw-change-success-alert-2 = Salasana päivitetty
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Luo salasana
-
 pw-create-success-alert-2 = Salasana asetettu
 pw-create-error-2 = Valitettavasti salasanaa asettaessa ilmeni ongelma
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Poista tili
-
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -473,51 +466,42 @@ delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
-
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
-
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
     .label = Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja
 delete-account-chk-box-4 =
     .label = Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan
-
-
 delete-account-continue-button = Jatka
-
 delete-account-password-input =
     .label = Kirjoita salasana
-
 delete-account-cancel-button = Peruuta
 delete-account-delete-button-2 = Poista
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Näyttönimi
-
 display-name-input =
     .label = Kirjoita näyttönimi
 submit-display-name = Tallenna
 cancel-display-name = Peruuta
-
 display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
-
 display-name-success-alert-2 = Näyttönimi päivitetty
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Viimeaikaiset tilitapahtumat
-
 recent-activity-account-create = Tili luotiin
 recent-activity-account-disable = Tili poistettiin käytöstä
 recent-activity-account-enable = Tili otettiin käyttöön
-
 
 # Account recovery key setup page
 
@@ -571,25 +555,20 @@ delete-account-link = Poista tili
 ## Two Step Authentication
 
 tfa-title = Kaksivaiheinen todennus
-
 tfa-step-1-3 = Vaihe 1/3
 tfa-step-2-3 = Vaihe 2/3
 tfa-step-3-3 = Vaihe 3/3
-
 tfa-button-continue = Jatka
 tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
-
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
 tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
-
 tfa-scan-this-code =
     Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -600,17 +579,11 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
-
-tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
-tfa-input-enter-totp =
-    .label = Kirjoita turvallisuuskoodi
 tfa-save-these-codes-1 =
     Tallenna nämä varatodennuskoodit turvalliseen paikkaan
     sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
-
 tfa-enter-code-to-confirm-1 =
     Anna jokin varatodennuskoodeistasi nyt vahvistaaksesi,
     että olet tallentanut sen. Tarvitset koodin kirjautumiseen, jos sinulla ei ole pääsyä
@@ -619,6 +592,7 @@ tfa-enter-recovery-code-1 =
     .label = Anna varatodennuskoodi
 
 ##
+
 
 ## Profile section
 
@@ -631,6 +605,7 @@ profile-primary-email =
     .header = Ensisijainen sähköposti
 
 ##
+
 
 ## Security section of Setting
 
@@ -722,6 +697,7 @@ se-secondary-email-none = Ei mitään
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaksivaiheinen todennus
@@ -730,7 +706,6 @@ tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
-
 tfa-row-button-refresh =
     .title = Päivitä kaksivaiheinen todennus
 tfa-row-cannot-refresh =
@@ -740,14 +715,12 @@ tfa-row-content-explain =
     Estä muita kirjautumasta vaatimalla
     yksilöllinen koodi, jonka vain sinä saat tietää.
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
-
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-disable-modal-explain-1 =
     Et voi kumota tätä toimintoa. Sinulla on myös
     mahdollisuus <linkExternal>uusia varatodennuskoodisi</linkExternal>.
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
-
 tfa-row-change-modal-heading-1 = Vaihdetaanko varatodennuskoodit?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
@@ -785,7 +758,6 @@ auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -794,6 +766,13 @@ cannot-create-account-header = Tiliä ei voida luoda
 cannot-create-account-learn-more-link = Lue lisää
 
 ## Connect Another Device page
+
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Sähköposti vahvistettu
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Kirjautuminen vahvistettu
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Kirjaudu sisään
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Yhdistä toinen laite
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -802,6 +781,7 @@ connect-another-device-not-now-link = Ei nyt
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Paikallinen tallennustila ja evästeet vaaditaan
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Yritä uudelleen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -825,7 +805,6 @@ inline-recovery-backup-authentication-code = Varatodennuskoodi
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-continue-button = Jatka
-
 inline-totp-setup-ready-button = Valmis
 
 ## Legal page. This page contains simply a header and links to pages that display
@@ -857,11 +836,18 @@ pair-auth-allow-confirm-button = Kyllä, hyväksy laite
 pair-auth-complete-heading = Laite yhdistetty
 pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairFailure - a view which displays on failure of the device pairing process
+
 
 ## Pair index page
 
@@ -886,7 +872,9 @@ pair-supp-allow-cancel-link = Peruuta
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -897,9 +885,7 @@ account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin p
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
-
 account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
-
 account-recovery-confirm-key-warning-message = <span>Huomaa:</span> Jos nollaat salasanasi etkä ole tallentanut tilin palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja kirjanmerkit).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -928,7 +914,7 @@ complete-reset-pw-header = Luo uusi salasana
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
 
@@ -937,7 +923,6 @@ complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Nollaussähköposti lähetetty
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Luo uusi salasana napsauttamalla osoitteeseen { $email } lähetetyssä viestissä olevaa linkkiä tunnin sisällä.
@@ -951,12 +936,10 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
-
 reset-password-button = Aloita nollaus
 reset-password-success-alert = Salasanan nollaus
 reset-password-error-general = Valitettavasti salasanaa nollatessa ilmeni ongelma
 reset-password-error-unknown-account = Tuntematon tili
-
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
 
@@ -976,7 +959,6 @@ confirm-signin-header = Vahvista tämä kirjautuminen
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Jatka palveluun { $serviceName }
@@ -985,7 +967,6 @@ signin-button = Kirjaudu sisään
 signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
-
 signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
 signin-bounced-create-new-account = Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili
 back = Edellinen
@@ -997,7 +978,7 @@ back = Edellinen
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Edellinen
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1018,16 +999,15 @@ signin-token-code-confirm-button = Vahvista
 signin-token-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Vahvistuskoodi vaaditaan
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-signin-totp-code-instruction = Avaa käyttämäsi todennussovellus ja kirjoita sen näyttämä turvallisuuskoodi.
 signin-totp-code-input-label-v2 = Kirjoita 6-numeroinen koodi
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
 signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
@@ -1040,6 +1020,8 @@ confirm-signup-heading = Vahvista tilisi
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
@@ -1048,7 +1030,9 @@ confirm-signup-code-confirm-button = Vahvista
 confirm-signup-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
-confirm-signup-code-required-error = Kirjoita vahvistuskoodi
+confirm-signup-code-success-alert = Tilin vahvistaminen onnistui
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
