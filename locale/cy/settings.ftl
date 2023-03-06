@@ -1216,6 +1216,10 @@ confirm-signup-code-success-alert = Cyfrif wedi'i gadarnhau'n llwyddiannus
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Mae angen cod cadarnhad
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
