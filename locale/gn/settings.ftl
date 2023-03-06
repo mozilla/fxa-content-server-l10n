@@ -942,8 +942,11 @@ pair-auth-complete-manage-devices-link = Eñangareko mba’e’okáre
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 auth-totp-heading-w-default-service = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
+auth-totp-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Moneĩ
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1134,6 +1137,8 @@ signin-recovery-code-back-link = Tapykue
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Rejejokóma?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1163,6 +1168,9 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
@@ -1185,6 +1193,8 @@ confirm-signup-instruction = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $e
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Emoinge ayvu jehechajeyrã
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1197,6 +1207,12 @@ confirm-signup-code-confirm-button = Moneĩ
 confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
+confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuãi’ỹre
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
