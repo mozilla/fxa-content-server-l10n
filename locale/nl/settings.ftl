@@ -1055,6 +1055,7 @@ complete-reset-password-success-alert = Wachtwoord ingesteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
+complete-reset-password-recovery-key-error = Sorry, er is een probleem opgetreden bij het controleren of u een accountherstelsleutel hebt. <hasRecoveryKeyErrorLink>Stel uw wachtwoord opnieuw in met uw accountherstelsleutel.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1221,6 +1222,8 @@ confirm-signup-code-success-alert = Account met succes bevestigd
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bevestigingscode is vereist
 
