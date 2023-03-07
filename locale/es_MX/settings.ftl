@@ -889,6 +889,8 @@ pair-cad-header = Conecta { -brand-firefox } en otro dispositivo
 pair-sync-your-device-button = Sincroniza tu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = O descargar
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Escanea para descargar { -brand-firefox } para dispositivos móviles, o envíate un <linkExternal>enlace de descarga.</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ahora no
 pair-take-your-data-message = Lleva tus pestañas, marcadores y contraseñas a cualquier lugar donde uses { -brand-firefox }.
@@ -1030,6 +1032,8 @@ signin-recovery-code-back-link = Atrás
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Estás bloqueado?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Se requiere un código de autenticación de respaldo
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1059,17 +1063,26 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Ingresa el código de autenticación <span>para continuar a { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abre tu aplicación de autenticación e ingresa el código de autenticación que proporciona.
 signin-totp-code-input-label-v2 = Ingresa el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usa una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Tuviste problemas ingresando el código?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Se requiere un código de autenticación
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
 confirm-signup-heading = Confirma tu cuenta
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Revisa tu correo electrónico para ver el enlace de confirmación enviado a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1077,6 +1090,8 @@ confirm-signup-heading = Confirma tu cuenta
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Ingresar código de confirmación
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1089,6 +1104,12 @@ confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = ¿El código expiró?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
+confirm-signup-code-success-alert = Cuenta confirmada exitosamente
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Correo reenviado. Agrega { $accountsEmail } a tus contactos para asegurar la entrega sin problemas.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Se requiere código de confirmación
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
