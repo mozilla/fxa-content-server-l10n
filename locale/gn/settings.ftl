@@ -942,6 +942,11 @@ pair-auth-complete-manage-devices-link = Eñangareko mba’e’okáre
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 auth-totp-heading-w-default-service = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Ehai ayvu ñemoneĩgua jeykekoha <span>eku’e hag̃ua ndive { $serviceName }</span>
+auth-totp-instruction = Embojuruja ne rembipuru’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
 auth-totp-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Moneĩ
@@ -1171,6 +1176,7 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service-v2 = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
+signin-totp-code-instruction-v2 = Embojuruja ne rembipuru’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
