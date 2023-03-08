@@ -1055,6 +1055,7 @@ complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
+complete-reset-password-recovery-key-error = Rombyasy, oiko apañuãi ehechakuévo erekoha mba’ete mba’eñemi guerujeyrã. <hasRecoveryKeyErrorLink>Erujey ñe’ẽñemi mba’ete mba’eñemi guerujeyrã ndive.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1176,6 +1177,10 @@ signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-totp-code-heading-w-default-service-v2 = Emoinge ayvu guerujeyrã <span>eku’e hag̃ua mba’ete ñembohekópe</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Ehai ayvu ñemoneĩgua <span>eku’e hag̃ua { $serviceName }</span> peve
 signin-totp-code-instruction-v2 = Embojuruja ne rembipuru’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
@@ -1217,6 +1222,8 @@ confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuãi’ỹre
 # Message displayed in a banner after the user requested to receive a new confirmation code.
 # Variable $accountsEmail is the email addressed used to send accounts related emails to users.
 confirm-signup-code-resend-code-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 
