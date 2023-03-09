@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,13 +103,17 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Nochris it wachtwurd
 signup-submit-button = Account oanmeitsje
-
 form-reset-password-with-balloon-new-password =
     .label = Nij wachtwurd
 form-reset-password-with-balloon-confirm-password =
     .label = Fier wachtwurd nochris yn
 form-reset-password-with-balloon-submit-button = Wachtwurd opnij ynstelle
 form-reset-password-with-balloon-match-error = Wachtwurden binne net lyk
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Dit fjild is ferplichte
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -144,8 +149,6 @@ input-password-hide = Wachtwurd ferstopje
 input-password-show = Wachtwurd toane
 input-password-hide-aria = Wachtwurd op skerm ferstopje
 input-password-show-aria = Wachtwurd as platte tekst toane. Jo wachtwurd sil sichtber wêze op it skerm.
-
-
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tebek
 
@@ -154,11 +157,9 @@ legal-back-button = Tebek
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Keppeling foar opnij ynstellen skansearre
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Befêstigingskeppeling skansearre
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
 
@@ -183,10 +184,8 @@ remember-pw-link = Witte jo jo wachtwurd noch? Oanmelde
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
-
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
 
 ## PasswordInfoBalloon
@@ -234,18 +233,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar jo online privacy.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser foar desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser foar mobyl
-
 bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
 
 ## Connect another device promo
@@ -254,7 +252,6 @@ connect-another-fx-mobile = Download { -brand-firefox } op mobyl of tablet
 connect-another-find-fx-mobile =
     { -brand-firefox } yn { -google-play } en de { -app-store } sykje of
     <br /><linkExternal>in downloadkeppeling nei jo apparaat stjoere.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -263,6 +260,7 @@ connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } op { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -277,13 +275,10 @@ cs-cannot-disconnect = Client net fûn, ferbining kin net ferbrutsen wurde
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Ofmeld by { $service }
-
 cs-refresh-button =
     .title = Ferbûne tsjinsten fernije
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Untbrekkende of dûbele items?
-
 cs-disconnect-sync-heading = Ferbining mei Sync ferbrekke
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -322,12 +317,11 @@ cs-disconnect-suspicious-advice-content =
     fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-firefox-account }
     wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t
     jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
-
 cs-sign-out-button = Ofmelde
-
 cs-recent-activity = Resinte accountaktiveit
 
 ##
+
 
 ## Data collection section
 
@@ -347,7 +341,6 @@ drop-down-menu-title = { -product-firefox-account }menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oanmeld as </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ofmelde
-
 drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 
 ## Flow Container
@@ -373,10 +366,11 @@ la-unlink-heading = Untkeppelje fan eksterne account
 la-unlink-content-3 = Binne jo wis dat jo jo account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by jo ferbûne tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Slute
 modal-cancel-button = Annulearje
+modal-default-confirm-button = Befêstigje
 
 ## Modal Verify Session
 
@@ -442,11 +436,11 @@ avatar-page-image-too-large-error-2 = De ôfbyldingbestângrutte is te grut om o
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Wachtwurd wizigje
-
 pw-8-chars = Op syn minst 8 karakters
 pw-not-email = Net jo e-mailadres
 pw-change-must-match = Nij wachtwurd komt oerien mei befêstiging
@@ -456,38 +450,34 @@ pw-tips = Bliuw feilich — brûk wachtwurden net opnij. Besjoch mear tips om <l
 pw-change-cancel-button = Annulearje
 pw-change-save-button = Bewarje
 pw-change-forgot-password-link = Wachtwurd ferjitten?
-
 pw-change-current-password =
     .label = Fier aktuele wachtwurd yn
 pw-change-new-password =
     .label = Fier nij wachtwurd yn
 pw-change-confirm-password =
     .label = Befêstigje nij wachtwurd
-
 pw-change-success-alert-2 = Wachtwurd bywurke
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Wachtwurd oanmeitsje
-
 pw-create-success-alert-2 = Wachtwurd ynsteld
 pw-create-error-2 = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Account fuortsmite
-
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
-
 delete-account-confirm-title-3 = Jo hawwe miskien jo { -product-firefox-account } ferbûn mei ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it ynternet:
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -497,9 +487,7 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox }-gegevens syngronisearje
 delete-account-product-firefox-addons = { -brand-firefox }-add-ons
-
 delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
-
 delete-account-chk-box-1-v3 =
     .label = Al jo betelle abonneminten wurde opsein (útsein { -product-pocket })
 delete-account-chk-box-2 =
@@ -508,45 +496,38 @@ delete-account-chk-box-3 =
     .label = Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje
 delete-account-chk-box-4 =
     .label = Alle útwreidingen en tema’s dy’t jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
-
-
 delete-account-continue-button = Trochgean
-
 delete-account-password-input =
     .label = Fier wachtwurd yn
-
 delete-account-cancel-button = Annulearje
 delete-account-delete-button-2 = Fuortsmite
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Werjeftenamme
-
 display-name-input =
     .label = Fier skermnamme yn
 submit-display-name = Bewarje
 cancel-display-name = Annulearje
-
 display-name-update-error-2 = Der is in probleem bard by it bywurkjen fan jo skermnamme
-
 display-name-success-alert-2 = Skermnamme bywurke
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Resinte accountaktiveit
-
 recent-activity-account-create = Account is oanmakke
 recent-activity-account-disable = Account is útskeakele
 recent-activity-account-enable = Account is ynskeakele
 recent-activity-account-login = Troch account inisjearre oanmelding
 recent-activity-account-reset = Troch account inisjearre wachtwurdwerinisjalisaasje
 recent-activity-emails-clearBounces = Troch account oploste e-mailberjochtenretoernearing
-
 
 # Account recovery key setup page
 
@@ -600,25 +581,20 @@ delete-account-link = Account fuortsmite
 ## Two Step Authentication
 
 tfa-title = Autentikaasje yn twa stappen
-
 tfa-step-1-3 = Stap 1 fan 3
 tfa-step-2-3 = Stap 2 fan 3
 tfa-step-3-3 = Stap 3 fan 3
-
 tfa-button-continue = Trochgean
 tfa-button-cancel = Annulearje
 tfa-button-finish = Foltôgje
-
 tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
 tfa-cannot-verify-code-4 = Der is in probleem bard by it befêstigjen fan jo reserve-autentikaasjekoade
 tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
 tfa-enabled = Autentikaasje yn twa stappen ynskeakele
-
 tfa-scan-this-code =
     Scan dizze QR-koade mei ien fan <linkExternal>dizze 
     autentikaasje-apps</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -629,17 +605,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kinne jo de koade net scanne?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Fier dizze geheime kaai yn yn jo app foar autentikaasje:
-
-tfa-enter-totp = Fier no de befeiligingskoade fan de ferifikaasje-app yn.
-tfa-input-enter-totp =
-    .label = Fier befeiligingskoade yn
+tfa-enter-totp-v2 = Fier no de autentikaasjekoade fan de autentikaasje-app yn.
+tfa-input-enter-totp-v2 =
+    .label = Fier autentikaasjekoade yn
 tfa-save-these-codes-1 =
     Bewarje dizze reserve-autentikaasjekoaden foar ienmalich gebrûk op in feilich plak foar as
     jo jo mobile apparaat net hawwe.
-
 tfa-enter-code-to-confirm-1 =
     Fier no ien fan jo reserve-autentikaasjekoaden yn om te befêstigjen dat jo dizze bewarre
     hawwe. Jo hawwe in koade nedich om oan te melden as jo gjin tagong
@@ -648,6 +621,7 @@ tfa-enter-recovery-code-1 =
     .label = Fier in reserve-autentikaasjekoade yn
 
 ##
+
 
 ## Profile section
 
@@ -660,6 +634,7 @@ profile-primary-email =
     .header = Primêr e-mailadres
 
 ##
+
 
 ## Security section of Setting
 
@@ -751,6 +726,7 @@ se-secondary-email-none = Gjin
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentikaasje yn twa stappen
@@ -759,7 +735,6 @@ tfa-row-enabled = Ynskeakele
 tfa-row-not-set = Net ynsteld
 tfa-row-action-add = Tafoegje
 tfa-row-action-disable = Utskeakelje
-
 tfa-row-button-refresh =
     .title = Autentikaasje yn twa stappen fernije
 tfa-row-cannot-refresh =
@@ -769,14 +744,12 @@ tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
     unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
 tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
-
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain-1 =
     Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
     de opsje <linkExternal>jo reserve-accountwerstelkoaden te ferfangen</linkExternal>.
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
-
 tfa-row-change-modal-heading-1 = Reserve-autentikaasjekoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
@@ -815,7 +788,6 @@ auth-error-999 = Unferwachte flater
 auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -825,6 +797,7 @@ cannot-create-account-requirements = Jo moatte oan bepaalde leeftiidskritearia f
 cannot-create-account-learn-more-link = Mear ynfo
 
 ## Connect Another Device page
+
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Jo binne oanmeld by { -brand-firefox }
 # A "success" message visible to users who verified via email
@@ -897,41 +870,29 @@ inline-recovery-confirmation-header = Befêstigje jo reserve-autentikaasjekoade 
 
 inline-totp-setup-cancel-setup-button = Konfiguraasje annulearje
 inline-totp-setup-continue-button = Trochgean
-
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Foegje in befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan<authenticationAppsLink>dizze apps foar autentikaasje</authenticationAppsLink> te easkjen.
-
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Skeakelje twastapsautentikaasje yn <span>om troch te gean nei jo accountynstellingen</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
 inline-totp-setup-enable-two-step-authentication-custom-header-2 = Skeakelje twastapsautentikaasje yn <span>om troch te gean nei { $serviceName }</span>
-
 inline-totp-setup-ready-button = Klear
-
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Scan jo autentikaasjekoade <span>om troch te gean nei { $serviceName }</span>
-
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Fier hânmjittich jo koade yn <span>om troch te gean nei { $serviceName }</span>
-
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Scan jo autentikaasjekoade <span>om troch te gean nei jo accountynstellingen</span>
-
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Fier hânmjittich jo koade yn <span>om troch te gean nei accountynstellingen</span>
-
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Typ dizze geheime kaai yn jo autentikaasje-app. <toggleToQRButton>QR-koade scanne?</toggleToQRButton>
-
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Scan de QR-koade yn jo autentikaasje-app en fier dênnei de autentikaasjekoade yn dy’t opjûn wurdt. <toggleToManualModeButton>Kinne jo de koade net scanne?</toggleToManualModeButton>
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Nei foltôgjen wurde autentikaasjekoaden foar jo generearre dy’t jo ynfiere kinne.
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentikaasjekoade
 
@@ -973,6 +934,24 @@ pair-auth-complete-now-syncing-device-text = Jo syngronisearje no mei: { $device
 pair-auth-complete-sync-benefits-text = Jo kinne no op al jo apparaten tagong krije ta jo iepen ljepblêden, wachtwurden en blêdwizers.
 pair-auth-complete-see-tabs-button = Besjoch ljepblêden fan syngronisearre apparaten
 pair-auth-complete-manage-devices-link = Apparaten beheare
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Fier jo autentikaasjekoade yn <span>om troch te gean nei jo accountynstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Fier jo autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
+auth-totp-instruction = Iepenje jo app foar autentikaasje en fier de oanbeane autentikaasjekoade yn.
+auth-totp-input-label = Fier 6-siferige koade yn
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Befêstigje
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Autentikaasjekoade fereaske
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1043,9 +1022,7 @@ account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
-
 account-recovery-confirm-key-instructions = Fier de accountwerstelkaai foar ienmalich gebrûk, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-firefox-account } te krijen.
-
 account-recovery-confirm-key-warning-message = <span>Noat:</span> as jo jo wachtwurd opnij ynstelle en jo kaai foar accountwerstel bewarre hawwe, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens lykas skiednis en blêdwizers).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1075,20 +1052,19 @@ complete-reset-password-warning-message-2 = <span>Unthâld:</span> wannear’t j
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Wachtwurd ynsteld
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
+complete-reset-password-recovery-key-error = Sorry, der is in probleem bard by it kontrolearjen oft jo in accountwerstelkaai hawwe. <hasRecoveryKeyErrorLink>Stel jo wachtwurd opnij yn mei jo accountwerstelkaai.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = E-mailberjocht foar opnij ynstellen ferstjoerd
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik binnen in oere op de keppeling dy’t nei { $email } ferstjoerd is om in nij wachtwurd oan te meitsjen.
-
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 resend-pw-reset-banner = E-mail opnij ferstjoerd. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
 
@@ -1101,14 +1077,11 @@ reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om t
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
-
 reset-password-button = Werinisjalisaasje begjinne
 reset-password-success-alert = Wachtwurd opnij ynstelle:
 reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstellen fan jo wachtwurd
 reset-password-error-unknown-account = Unbekende account
-
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
@@ -1130,11 +1103,9 @@ confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foa
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Fier jo wachtwurd <span>foar jo { -product-firefox-account }</span> yn
-
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Trochgean nei <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Trochgean nei { $serviceName }
@@ -1143,7 +1114,6 @@ signin-button = Oanmelde
 signin-header = Oanmelde
 signin-use-a-different-account-link = In oar account brûke
 signin-forgot-password-link = Wachtwurd ferjitten?
-
 signin-bounced-header = Sorry. Wy hawwe jo account beskoattele.
 # $email (string) - The user's email.
 signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoerd hawwe, is retoernearre en om jo { -brand-firefox }-gegevens te beskermjen, is jo account beskoattele.
@@ -1168,11 +1138,13 @@ signin-recovery-code-instruction = Fier in reserve-autentikaasjekoade yn dy’t 
 signin-recovery-code-input-label = Fier in 10-siferich reserve-autentikaasjekoade yn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Befêstigje
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Tebek
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Binne jo bûten sluten?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-autentikaasjekoade fereaske
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1195,26 +1167,28 @@ signin-token-code-confirm-button = Befêstigje
 signin-token-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Nije koade ferstjoere.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Befêstigingskoade nedich
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Fier befeiligingskoade yn <span>om troch te gean nei accountynstellingen</span>
+signin-totp-code-heading-w-default-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei jo accountynstellingen</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Fier befeiligingskoade yn <span>om troch te gean nei { $serviceName }</span>
-signin-totp-code-instruction = Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn.
+signin-totp-code-heading-w-custom-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
+signin-totp-code-instruction-v2 = Iepenje jo app foar autentikaasje en fier de oanbeane autentikaasjekoade yn.
 signin-totp-code-input-label-v2 = Fier 6-siferige koade yn
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke
 signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Autentikaasjekoade fereaske
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1226,8 +1200,12 @@ confirm-signup-instruction = Kontrolearje jo e-mail op de befêstigingskeppeling
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Fier befêstigingskoade yn
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1240,7 +1218,14 @@ confirm-signup-code-confirm-button = Befêstigje
 confirm-signup-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
-confirm-signup-code-required-error = Fier befêstigingskoade yn
+confirm-signup-code-success-alert = Account mei sukses befêstige
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-mailberjocht opnij ferstjoerd. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
