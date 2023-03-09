@@ -1055,6 +1055,7 @@ complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
+complete-reset-password-recovery-key-error = Sorry, der is in probleem bard by it kontrolearjen oft jo in accountwerstelkaai hawwe. <hasRecoveryKeyErrorLink>Stel jo wachtwurd opnij yn mei jo accountwerstelkaai.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1142,6 +1143,8 @@ signin-recovery-code-back-link = Tebek
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Binne jo bûten sluten?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-autentikaasjekoade fereaske
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1171,11 +1174,21 @@ signin-token-code-required-error = Befêstigingskoade nedich
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei jo accountynstellingen</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Fier jo autentikaasjekoade yn <span>om troch te gean nei { $serviceName }</span>
+signin-totp-code-instruction-v2 = Iepenje jo app foar autentikaasje en fier de oanbeane autentikaasjekoade yn.
 signin-totp-code-input-label-v2 = Fier 6-siferige koade yn
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Befêstigje
 signin-totp-code-other-account-link = In oar account brûke
 signin-totp-code-recovery-code-link = Problemen by it ynfieren fan de koade?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Autentikaasjekoade fereaske
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1191,6 +1204,8 @@ confirm-signup-instruction = Kontrolearje jo e-mail op de befêstigingskeppeling
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Fier befêstigingskoade yn
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1203,6 +1218,14 @@ confirm-signup-code-confirm-button = Befêstigje
 confirm-signup-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
+confirm-signup-code-success-alert = Account mei sukses befêstige
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-mailberjocht opnij ferstjoerd. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
