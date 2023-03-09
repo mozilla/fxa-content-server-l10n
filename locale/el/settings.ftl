@@ -180,6 +180,7 @@ ready-use-service = Μπορείτε τώρα να χρησιμοποιήσετ�
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ο λογαριασμός σας είναι έτοιμος!
 ready-continue = Συνέχεια
+sign-in-complete-header = Η σύνδεση επιβεβαιώθηκε
 sign-up-complete-header = Ο λογαριασμός επιβεβαιώθηκε
 primary-email-verified-header = Το κύριο email επιβεβαιώθηκε
 
@@ -753,6 +754,8 @@ connect-another-device-not-now-link = Όχι τώρα
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Μάθετε περισσότερα
 
@@ -805,12 +808,20 @@ pair-auth-allow-confirm-button = Ναι, έγκριση συσκευής
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Η συσκευή συνδέθηκε
+pair-auth-complete-see-tabs-button = Εμφάνιση καρτελών από συγχρονισμένες συσκευές
 pair-auth-complete-manage-devices-link = Διαχείριση συσκευών
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Επιβεβαίωση
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -851,6 +862,8 @@ pair-supp-allow-cancel-link = Ακύρωση
 
 ## AccountRecoveryConfirmKey page
 
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 # Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
 account-recovery-confirm-key-empty-input-error = Απαιτείται κλειδί ανάκτησης λογαριασμού
 # Link that leads to the password reset page (without recovery code)
@@ -858,6 +871,8 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Δημιουργία νέου κωδικού πρόσβασης
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
