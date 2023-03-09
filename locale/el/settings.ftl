@@ -17,6 +17,9 @@ banner-dismiss-button =
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Πρακτικές γνώσεις στα εισερχόμενά σας. Εγγραφείτε για περισσότερα:
 # Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Λάβετε τα τελευταία νέα σχετικά με τη { -brand-mozilla } και το { -brand-firefox }
+# Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Λάβετε δράση για ένα υγιές διαδίκτυο
 # Newsletter checklist item
@@ -100,6 +103,8 @@ signup-confirm-password-label =
 signup-submit-button = Δημιουργία λογαριασμού
 form-reset-password-with-balloon-new-password =
     .label = Νέος κωδικός πρόσβασης
+form-reset-password-with-balloon-submit-button = Επαναφορά κωδικού πρόσβασης
+form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
 
 ## FormVerifyCode
 
@@ -121,6 +126,12 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+signin-recovery-code-image-description =
+    .aria-label = Έγγραφο που περιέχει κρυφό κείμενο.
+signin-totp-code-image-label =
+    .aria-label = Μια συσκευή με κρυφό 6ψήφιο κωδικό.
+confirm-signup-aria-label =
+    .aria-label = Ένας φάκελος που περιέχει έναν σύνδεσμο
 
 ## Input Password
 
@@ -721,9 +732,17 @@ auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπ�
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Μάθετε περισσότερα
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Συνδεθήκατε στο { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Το email επιβεβαιώθηκε
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Η είσοδος επιβεβαιώθηκε
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Σύνδεση
 # This link leads the user back to the `/pair` page so as to connect another device
@@ -800,6 +819,7 @@ pair-auth-complete-manage-devices-link = Διαχείριση συσκευών
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-message = Η διαδικασία ρύθμισης τερματίστηκε.
 
 ## Pair index page
 
@@ -932,12 +952,18 @@ confirm-signup-code-confirm-button = Επιβεβαίωση
 confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
+confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Ποια είναι η ηλικία σας;
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
 # This link appears just below signup-age-check-input-label
 signup-coppa-check-explanation-link = Γιατί ρωτάμε;
