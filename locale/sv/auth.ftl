@@ -219,20 +219,20 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title-zero = Du har slut på autentiseringskoder!
-codes-reminder-title-one = Du är på din sista autentiseringskod
-codes-reminder-title-two = Dags att skapa fler autentiseringskoder
-codes-reminder-description-part-one = Autentiseringskoder hjälper dig att återställa din information när du glömmer ditt lösenord.
+codes-reminder-title-zero = Du har slut på reservautentiseringskoder!
+codes-reminder-title-one = Du är på din sista reservautentiseringskod
+codes-reminder-title-two = Dags att skapa fler reservautentiseringskoder
+codes-reminder-description-part-one = Reservautentiseringskoder hjälper dig att återställa din information när du glömmer ditt lösenord.
 codes-reminder-description-part-two = Skapa nya koder nu så att du inte förlorar din data senare.
 codes-reminder-description-two-left = Du har endast två koder kvar.
-codes-reminder-description-create-codes = Skapa nya autentiseringskoder för att hjälpa dig komma tillbaka till ditt konto om du är utelåst.
+codes-reminder-description-create-codes = Skapa nya reservautentiseringskoder för att hjälpa dig komma tillbaka till ditt konto om du är utelåst.
 lowRecoveryCodes-action-2 = Skapa koder
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [0] Inga autentiseringskoder kvar
-        [one] Endast 1 autentiseringskod kvar
-       *[other] Endast { $numberRemaining } autentiseringskoder kvar!
+        [0] Inga reservautentiseringskoder kvar
+        [one] Endast 1 reservautentiseringskod kvar
+       *[other] Endast { $numberRemaining } reservautentiseringskoder kvar!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -297,17 +297,17 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
-postConsumeRecoveryCode-title-2 = Du använde en autentiseringskod
+postConsumeRecoveryCode-title-2 = Du använde en reservautentiseringskod
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Den användes på:
 postConsumeRecoveryCode-action = Hantera konto
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
-        [one] 1 autentiseringskod kvar
-       *[other] { $numberRemaining } autentiseringskoder kvar
+        [one] 1 reservautentiseringskod kvar
+       *[other] { $numberRemaining } reservautentiseringskoder kvar
     }
-postNewRecoveryCodes-subject-2 = Nya autentiseringskoder har skapats
-postNewRecoveryCodes-title-2 = Du skapade nya autentiseringskoder
+postNewRecoveryCodes-subject-2 = Nya reservautentiseringskoder har skapats
+postNewRecoveryCodes-title-2 = Du skapade nya reservautentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = De skapades på:
 postNewRecoveryCodes-action = Hantera konto
