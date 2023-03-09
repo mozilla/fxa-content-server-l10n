@@ -1025,6 +1025,7 @@ complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
+complete-reset-password-recovery-key-error = 抱歉，确认您是否已有账户恢复密钥时发生错误。<hasRecoveryKeyErrorLink>点此使用您的账户恢复密钥重置密码。</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
