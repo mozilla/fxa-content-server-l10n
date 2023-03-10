@@ -194,6 +194,50 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα γ�
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + φόρος { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } ημερησίως
+       *[other] { $priceAmount } κάθε { $intervalCount } ημέρες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ημερησίως
+           *[other] { $priceAmount } κάθε { $intervalCount } ημέρες
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } εβδομαδιαία
+       *[other] { $priceAmount } κάθε { $intervalCount } εβδομάδες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } εβδομαδιαία
+           *[other] { $priceAmount } κάθε { $intervalCount } εβδομάδες
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } μηνιαία
+       *[other] { $priceAmount } κάθε { $intervalCount } μήνες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } μηνιαία
+           *[other] { $priceAmount } κάθε { $intervalCount } μήνες
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ετησίως
+       *[other] { $priceAmount } κάθε { $intervalCount } έτη
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ετησίως
+           *[other] { $priceAmount } κάθε { $intervalCount } έτη
+        }
 
 ## Component - SubscriptionTitle
 
@@ -376,6 +420,7 @@ sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για α�
 invoice-not-found = Δεν βρέθηκε επόμενο τιμολόγιο
 sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο τιμολόγιο για αυτήν τη συνδρομή.
 sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση τιμολογίου
+sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπηση απόδειξης για αυτήν τη συνδρομή
 
 ## Routes - Subscriptions - Pocket Subscription
 
