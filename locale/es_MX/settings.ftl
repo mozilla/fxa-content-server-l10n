@@ -885,6 +885,7 @@ pair-failure-message = El proceso de configuración ha terminado.
 
 pair-sync-header = Sincroniza { -brand-firefox } en tu teléfono o tablet
 pair-cad-header = Conecta { -brand-firefox } en otro dispositivo
+pair-already-have-firefox-paragraph = ¿Ya tienes { -brand-firefox } en tu teléfono o tableta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincroniza tu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
