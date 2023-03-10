@@ -939,7 +939,7 @@ pair-auth-complete-manage-devices-link = Upravljanje naprav …
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = Vnesite overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+auth-totp-heading-w-default-service = Vnesite overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
