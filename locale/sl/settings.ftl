@@ -944,7 +944,7 @@ auth-totp-heading-w-default-service = Vnesite overitveno kodo <span>za nadaljeva
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Vnesite overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-auth-totp-instruction = Odprite aplikacijo za preverjanje pristnosti in vnesite kodo za preverjanje pristnosti.
+auth-totp-instruction = Odprite aplikacijo za overjanje in vnesite kodo, ki jo predlaga.
 auth-totp-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Potrdi
@@ -1174,12 +1174,12 @@ signin-token-code-required-error = Zahtevana je potrditvena koda
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service-v2 = Vnesite overitveno kodo <span>za nadaljevanje v nastavitvah računa</span>
+signin-totp-code-heading-w-default-service-v2 = Vnesite overitveno kodo <span>za nadaljevanje v nastavitve računa</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Vnesite overitveno kodo <span>za nadaljevanje na { $serviceName }</span>
-signin-totp-code-instruction-v2 = Odprite aplikacijo za preverjanje pristnosti in vnesite kodo za preverjanje pristnosti.
+signin-totp-code-instruction-v2 = Odprite aplikacijo za overjanje in vnesite kodo, ki jo predlaga.
 signin-totp-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
