@@ -784,6 +784,10 @@ connect-another-device-signin-confirmed-banner = Inicio de sesión confirmado
 connect-another-device-signin-to-complete-message = Inicia sesión en este { -brand-firefox } para completar la configuración
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Iniciar sesión
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Inicia sesión en { -brand-firefox } en otro dispositivo para completar la configuración
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ¿Quieres llevar tus pestañas, marcadores y contraseñas en otro dispositivo?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Conectar otro dispositivo
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -806,6 +810,10 @@ cookies-disabled-learn-more = Saber más
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Guarda los códigos de autenticación de respaldo <span>para continuar a { $serviceName }</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancelar
@@ -859,6 +867,9 @@ pair-auth-allow-confirm-button = Sí, aprobar dispositivo
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Dispositivo conectado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
 pair-auth-complete-see-tabs-button = Mira las pestañas de tus dispositivos sincronizados
 pair-auth-complete-manage-devices-link = Administrar dispositivos
 
@@ -866,6 +877,10 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Ingresa el código de autenticación <span>para continuar a { $serviceName }</span>
 auth-totp-input-label = Ingresa código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
