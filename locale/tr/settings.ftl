@@ -516,6 +516,7 @@ recent-activity-account-disable = Hesap devre dışı bırakıldı
 recent-activity-account-enable = Hesap etkinleştirildi
 recent-activity-account-login = Hesap, giriş işlemini başlattı
 recent-activity-account-reset = Hesap, parola sıfırlamayı başlattı
+recent-activity-emails-clearBounces = Hesap, geri dönen e-postaları temizledi
 
 # Account recovery key setup page
 
