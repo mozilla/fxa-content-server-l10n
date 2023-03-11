@@ -162,6 +162,15 @@ fraudulentAccountDeletion-content = 최근에 이 이메일을 사용하여 { -p
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 궁금하신 점이 있다면, 지원 팀에 문의하세요: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = 백업 인증 코드가 부족합니다!
+codes-reminder-title-one = 마지막 백업 인증 코드를 사용 중입니다.
+codes-reminder-title-two = 백업 인증 코드를 더 많이 생성하세요.
+codes-reminder-description-part-one = 백업 인증 코드는 비밀번호를 잊어버렸을 때 정보를 복원하는 데 도움이 됩니다.
+codes-reminder-description-part-two = 지금 새 코드를 생성하여 나중에 데이터를 잃어버리지 않도록 하세요.
+codes-reminder-description-two-left = 코드가 두 개만 남았습니다.
+codes-reminder-description-create-codes = 계정이 잠긴 경우 다시 로그인할 수 있도록 새 백업 인증 코드를 만드세요.
+lowRecoveryCodes-action-2 = 코드 생성
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
@@ -189,18 +198,36 @@ passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용�
 passwordReset-subject = 비밀번호 수정 완료
 passwordReset-title = 계정 비밀번호가 변경됨
 passwordReset-description = 동기화를 다시 시작하려면 다른 기기에서 새 비밀번호를 입력해야 합니다.
+passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니다.
+passwordResetAccountRecovery-title-2 = 비밀번호 재설정 성공
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = 계정 복구 키를 사용하여 비밀번호를 업데이트 했습니다:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 새 계정 복구 키 생성
+passwordResetAccountRecovery-regen-required-mjml-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = 동기화된 모든 기기에서 다시 로그인해야 합니다. 사용한 계정 복구 키를 대체할 새 계정 복구 키를 생성하는 것을 잊지 마세요.
 postAddAccountRecovery-subject-2 = 계정 복구 키 생성됨
+postAddAccountRecovery-title2 = 새 계정 복구 키를 생성했습니다
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = 다음에서 새 키가 생성되었습니다:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = 본인이 아니세요?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">새 키 삭제</a> 와 <a data-l10n-name="passwordChangeLink">비밀번호 변경</a>
 postAddAccountRecovery-action = 계정 관리
+postAddAccountRecovery-delete-key = 새 키를 삭제합니다:
+postAddAccountRecovery-changd-password = 비밀번호 변경:
 postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } 계정이 { -product-firefox-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
+postAddTwoStepAuthentication-subject-2 = 2단계 인증이 켜져 있습니다
+postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = 다음에서 활성화했습니다:
 postAddTwoStepAuthentication-action = 계정 관리
+postAddTwoStepAuthentication-code-required-2 = 이제 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
 postChangePrimary-subject = 기본 이메일 수정 완료
 postChangePrimary-title = 새 기본 이메일
 # Variables:
