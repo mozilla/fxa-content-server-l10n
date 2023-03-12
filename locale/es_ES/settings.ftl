@@ -775,15 +775,26 @@ legal-privacy-link = Aviso de privacidad
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Aviso de privacidad
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Términos del servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Sí, aprobar dispositivo
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispositivo conectado
+pair-auth-complete-sync-benefits-text = Ahora puedes acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
+pair-auth-complete-see-tabs-button = Ver pestañas de dispositivos sincronizados
+pair-auth-complete-manage-devices-link = Administrar dispositivos
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -800,14 +811,27 @@ legal-privacy-link = Aviso de privacidad
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ahora no
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Comenzar
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Código QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dispositivo conectado
+pair-success-message-2 = Emparejamiento correcto.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirmar emparejamiento <span>para { $email }</span>
+pair-supp-allow-confirm-button = Confirmar emparejamiento
+pair-supp-allow-cancel-link = Cancelar
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -845,6 +869,8 @@ account-recovery-lost-recovery-key-link = ¿No tienes una clave de recuperación
 # Header for form to create new password
 create-new-password-header = Crear nueva contraseña
 account-restored-success-message = Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Contraseña establecida
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -884,18 +910,37 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar el acc
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Error:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confirmar este inicio de sesión
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-button = Iniciar sesión
+signin-header = Iniciar sesión
+signin-use-a-different-account-link = Usar una cuenta diferente
+signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
+back = Atrás
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Atrás
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ¿Estás bloqueado?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -906,11 +951,23 @@ signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Introduce el código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = ¿Código caducado?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar código nuevo por correo electrónico.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Código de confirmación requerido
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Usar una cuenta diferente
+signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -923,6 +980,12 @@ signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Introduce el código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-code-expired = ¿Código caducado?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
