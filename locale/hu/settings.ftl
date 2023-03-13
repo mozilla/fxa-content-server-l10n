@@ -944,6 +944,8 @@ auth-totp-heading-w-default-service = Adja meg a hitelesítési kódot <span>a f
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Adja meg a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+auth-totp-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott hitelesítési kódot.
+auth-totp-input-label = Adja meg a 6 számjegyű kódot
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
