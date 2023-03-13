@@ -1053,6 +1053,7 @@ complete-reset-password-success-alert = Jelszó megadva
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
+complete-reset-password-recovery-key-error = Sajnáljuk, probléma lépett fel annak ellenőrzésekor, hogy rendelkezik-e fiók-helyreállítási kulccsal. <hasRecoveryKeyErrorLink>Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1062,6 +1063,8 @@ confirm-pw-reset-header = Visszaállítási e-mail elküldve
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kattintson a(z) { $email } címre elküldött hivatkozásra a következő órán belül, hogy létrehozza az új jelszavát.
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
 
 ## ResetPassword page
 
@@ -1077,6 +1080,7 @@ reset-password-button = Visszaállítás elkezdése
 reset-password-success-alert = Jelszó visszaállítása
 reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
 reset-password-error-unknown-account = Ismeretlen fiók
+reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
 
@@ -1137,6 +1141,8 @@ signin-recovery-code-back-link = Vissza
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Kizárta magát?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Tartalék hitelesítési kód szükséges
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1166,11 +1172,21 @@ signin-token-code-required-error = Megerősítési kód szükséges
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Adja meg a hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Adja meg a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+signin-totp-code-instruction-v2 = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott hitelesítési kódot.
 signin-totp-code-input-label-v2 = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
 signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Hitelesítési kód szükséges
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1186,6 +1202,8 @@ confirm-signup-instruction = Ellenőrizze a leveleit, hogy megérkezett-e a mege
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Adja meg a megerősítő kódot
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1198,6 +1216,14 @@ confirm-signup-code-confirm-button = Megerősítés
 confirm-signup-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
+confirm-signup-code-success-alert = A fiók sikeresen megerősítve
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Megerősítési kód szükséges
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
