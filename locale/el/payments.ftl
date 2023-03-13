@@ -400,6 +400,8 @@ pay-update-manage-btn = Διαχείριση
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Επόμενη χρέωση στις { $date }
+sub-next-bill-no-tax = Ο επόμενός σας λογαριασμός των <strong>{ $priceAmount }</strong> λήγει στις <strong>{ $date }</strong>
+sub-next-bill-tax = Ο επόμενός σας λογαριασμός των <strong>{ $priceAmount } + φόρος { $taxAmount }</strong> λήγει στις <strong>{ $date }</strong>
 sub-expires-on = Λήγει στις { $date }
 
 ## Routes - Subscription - PaymentUpdate

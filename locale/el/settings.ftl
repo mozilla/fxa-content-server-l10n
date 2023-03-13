@@ -144,6 +144,12 @@ legal-back-button = Πίσω
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης είναι κατεστραμμένος
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Ο σύνδεσμος επιβεβαίωσης είναι κατεστραμμένος
 
 ## LinkExpired component
 
@@ -925,6 +931,7 @@ signin-button = Σύνδεση
 signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
+signin-bounced-header = Συγγνώμη. Έχουμε κλειδώσει τον λογαριασμό σας.
 back = Πίσω
 
 ## SigninRecoveryCode page
