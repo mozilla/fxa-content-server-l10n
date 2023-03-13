@@ -883,6 +883,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Adja meg kézileg a kódot <sp
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Olvassa le a hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Adja meg kézileg a kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Írja be ezt a titkos kulcsot a hitelesítő alkalmazásba. <toggleToQRButton>Inkább beolvassa a QR-kódot?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -895,23 +897,53 @@ inline-totp-setup-security-code-placeholder = Hitelesítési kód
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Jogi információk
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Szolgáltatási feltételek
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Adatvédelmi nyilatkozat
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Adatvédelmi nyilatkozat
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Szolgáltatási feltételek
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Most jelentkezett be a { -product-firefox }ba?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Igen, jóváhagyom az eszközt
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Ha nem Ön volt az, <link>változtassa meg jelszavát</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Eszköz csatlakoztatva
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Most már szinkronizál a következővel: { $deviceFamily } a következőn: { $deviceOS }
+pair-auth-complete-sync-benefits-text = Mostantól az összes eszközén elérheti nyitott lapjait, jelszavait és könyvjelzőit.
+pair-auth-complete-see-tabs-button = Lapok megtekintése más szinkronizált eszközökről
+pair-auth-complete-manage-devices-link = Eszközök kezelése
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Adja meg a hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Adja meg a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
