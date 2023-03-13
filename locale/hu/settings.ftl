@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -102,13 +103,17 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Jelszó megismétlése
 signup-submit-button = Fiók létrehozása
-
 form-reset-password-with-balloon-new-password =
     .label = Új jelszó
 form-reset-password-with-balloon-confirm-password =
     .label = Jelszó megerősítése
 form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
 form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Ez a mező kötelező
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -144,8 +149,6 @@ input-password-hide = Jelszó elrejtése
 input-password-show = Jelszó megjelenítése
 input-password-hide-aria = Jelszó elrejtése a képernyőn.
 input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
-
-
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Vissza
 
@@ -154,11 +157,9 @@ legal-back-button = Vissza
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
-
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = A megerősítő hivatkozás sérült
-
 # The user followed a "reset password" link received by email.
 reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 
@@ -183,10 +184,8 @@ remember-pw-link = Emlékszik a jelszavára? Jelentkezzen be
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett erősítve
-
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
-
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
 
 ## PasswordInfoBalloon
@@ -234,18 +233,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bentó menü
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
-
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
-
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 
 ## Connect another device promo
@@ -254,7 +252,6 @@ connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy tábl
 connect-another-find-fx-mobile =
     Keresse meg a { -brand-firefox }ot a { -google-play }en és az { -app-store }-on, vagy
     <br /><linkExternal>küldjön letöltési hivatkozást az eszközére.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -263,6 +260,7 @@ connect-another-app-store-image-2 =
     .title = A { -brand-firefox } letöltése az { -app-store }-ból
 
 ##
+
 
 ## Connected services section
 
@@ -277,13 +275,10 @@ cs-cannot-disconnect = A kliens nem található, a leválasztás sikertelen
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kijelentkezett innen: { $service }
-
 cs-refresh-button =
     .title = Kapcsolódó szolgáltatások frissítése
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Hiányzó vagy ismétlődő elemek?
-
 cs-disconnect-sync-heading = Leválás a Syncről
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -322,12 +317,11 @@ cs-disconnect-suspicious-advice-content =
     akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-firefox-account }ja
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
     jelszavát is, az about:logins beírásával a címsávba.
-
 cs-sign-out-button = Kijelentkezés
-
 cs-recent-activity = Legutóbbi fióktevékenység
 
 ##
+
 
 ## Data collection section
 
@@ -347,7 +341,6 @@ drop-down-menu-title = { -product-firefox-account } menü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Kijelentkezés
-
 drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezésekor
 
 ## Flow Container
@@ -373,10 +366,11 @@ la-unlink-heading = Leválasztás egy harmadik féltől származó fiókról
 la-unlink-content-3 = Biztos, hogy leválasztja a fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan a kapcsolódó szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Kapcsolódó szolgáltatások szakaszban.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Bezárás
 modal-cancel-button = Mégse
+modal-default-confirm-button = Megerősítés
 
 ## Modal Verify Session
 
@@ -442,11 +436,11 @@ avatar-page-image-too-large-error-2 = A képfájl mérete túl nagy a feltölté
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Jelszó módosítása
-
 pw-8-chars = Legalább 8 karakter
 pw-not-email = Nem az Ön e-mail-címe
 pw-change-must-match = Az új jelszó megegyezik a megerősítő szöveggel
@@ -456,38 +450,34 @@ pw-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen 
 pw-change-cancel-button = Mégse
 pw-change-save-button = Mentés
 pw-change-forgot-password-link = Elfelejtette a jelszót?
-
 pw-change-current-password =
     .label = Írja be a jelenlegi jelszavát
 pw-change-new-password =
     .label = Írja be az új jelszót
 pw-change-confirm-password =
     .label = Erősítse meg az új jelszót
-
 pw-change-success-alert-2 = Jelszó frissítve
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Jelszó létrehozása
-
 pw-create-success-alert-2 = Jelszó megadva
 pw-create-error-2 = Sajnos probléma merült fel a jelszó megadásakor
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Fiók törlése
-
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
-
 delete-account-confirm-title-3 = Előfordulhat, hogy a { -product-firefox-account }ját a következő { -brand-mozilla } termékekhez vagy szolgáltatásokhoz kapcsolta, amelyekkel biztonságban lehet és hatékonyabb lehet a weben:
-
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -497,9 +487,7 @@ delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = A { -brand-firefox } adatainak szinkronizálása
 delete-account-product-firefox-addons = { -brand-firefox } Kiegészítők
-
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
-
 delete-account-chk-box-1-v3 =
     .label = Az összes előfizetése lemondásra kerül (kivéve a { -product-pocket }et)
 delete-account-chk-box-2 =
@@ -508,45 +496,38 @@ delete-account-chk-box-3 =
     .label = Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit
 delete-account-chk-box-4 =
     .label = Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek
-
-
 delete-account-continue-button = Folytatás
-
 delete-account-password-input =
     .label = Adja meg a jelszót
-
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Megjelenő név
-
 display-name-input =
     .label = Írja be a megjelenő nevet
 submit-display-name = Mentés
 cancel-display-name = Mégse
-
 display-name-update-error-2 = Hiba történt a megjelenő név frissítésekor
-
 display-name-success-alert-2 = A megjelenő név frissítve
 
 ##
 
+
 ## Recent Activity
 
 recent-activity-title = Legutóbbi fióktevékenység
-
 recent-activity-account-create = A fiók létrejött
 recent-activity-account-disable = A fiók le lett tiltva
 recent-activity-account-enable = A fiók engedélyezve lett
 recent-activity-account-login = A fiók bejelentkezést kezdeményezett
 recent-activity-account-reset = A fiók jelszó-visszaállítást kezdeményezett
 recent-activity-emails-clearBounces = A fiók törölte a visszapattant leveleket
-
 
 # Account recovery key setup page
 
@@ -600,25 +581,20 @@ delete-account-link = Fiók törlése
 ## Two Step Authentication
 
 tfa-title = Kétlépcsős hitelesítés
-
 tfa-step-1-3 = 1. / 3. lépés
 tfa-step-2-3 = 2. / 3. lépés
 tfa-step-3-3 = 3. / 3. lépés
-
 tfa-button-continue = Folytatás
 tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
-
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
 tfa-cannot-verify-code-4 = Hiba történt a tartalék hitelesítési kódok megerősítése során
 tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
-
 tfa-scan-this-code =
     Olvassa be ezt a QR-kódot <linkExternal>ezen
     hitelesítő alkalmazások egyikével</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -627,17 +603,14 @@ tfa-qa-code-alt = Használja a(z) { $secret } kódot a kétlépcsős hitelesít�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nem tudja leolvasni a kódot?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:
-
-tfa-enter-totp = Most írja be a biztonsági kódot a hitelesítési alkalmazásból.
-tfa-input-enter-totp =
-    .label = Adja meg a biztonsági kódot
+tfa-enter-totp-v2 = Most írja be a hitelesítési kódot a hitelesítési alkalmazásból.
+tfa-input-enter-totp-v2 =
+    .label = Adja meg a hitelesítési kódot
 tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
-
 tfa-enter-code-to-confirm-1 =
     Adja meg az egyik tartalék hitelesítési kódot most,
     hogy megerősítse, hogy elmentette. Szüksége lesz egy kódra a bejelentkezéshez,
@@ -646,6 +619,7 @@ tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
 ##
+
 
 ## Profile section
 
@@ -658,6 +632,7 @@ profile-primary-email =
     .header = Elsődleges e-mail
 
 ##
+
 
 ## Security section of Setting
 
@@ -749,6 +724,7 @@ se-secondary-email-none = Nincs
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kétlépcsős hitelesítés
@@ -757,7 +733,6 @@ tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
 tfa-row-action-add = Hozzáadás
 tfa-row-action-disable = Letiltás
-
 tfa-row-button-refresh =
     .title = Kétlépcsős hitelesítés frissítése
 tfa-row-cannot-refresh =
@@ -767,14 +742,12 @@ tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
-
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain-1 =
     Ezt a műveletet nem fogja tudni visszavonni. Arra is van
     lehetősége, hogy <linkExternal>lecserélje a tartalék hitelesítési kódjait</linkExternal>.
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
-
 tfa-row-change-modal-heading-1 = Lecseréli a tartalék hitelesítési kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
@@ -813,7 +786,6 @@ auth-error-999 = Nem várt hiba
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
@@ -823,6 +795,7 @@ cannot-create-account-requirements = Bizonyos korkövetelményeknek meg kell fel
 cannot-create-account-learn-more-link = További tudnivalók
 
 ## Connect Another Device page
+
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Bejelentkezett a { -brand-firefox }ba
 # A "success" message visible to users who verified via email
@@ -895,34 +868,50 @@ inline-recovery-confirmation-header = Erősítse meg a tartalék hitelesítési 
 
 inline-totp-setup-cancel-setup-button = Beállítás megszakítása
 inline-totp-setup-continue-button = Folytatás
-
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Adjon egy biztonsági réteget a fiókjához az <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> egyikéből származó hitelesítési kódok megkövetelésével.
-
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Engedélyezze a kétlépcsős hitelesítést, <span>a fiókbeállításokhoz való továbblépéshez</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Engedélyezze a kétlépcsős hitelesítést <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 inline-totp-setup-ready-button = Kész
-
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Olvassa le a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Adja meg kézileg a kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Olvassa le a hitelesítési kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Írja be ezt a titkos kulcsot a hitelesítő alkalmazásba. <toggleToQRButton>Inkább beolvassa a QR-kódot?</toggleToQRButton>
-
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Olvassa be a QR-kódot a hitelesítő alkalmazásában, és adja meg az általa biztosított hitelesítési kódot. <toggleToManualModeButton>Nem tudja leolvasni a kódot?</toggleToManualModeButton>
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Ha kész, megkezdi az Ön hitelesítési kódjainak előállítását.
-
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Hitelesítési kód
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+
 ## AuthAllow page - Part of the device pairing flow
 
+
 ## PairAuthComplete page - part of the device pairing flow
+
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -939,7 +928,9 @@ pair-failure-message = A beállítási folyamat megszakításra került.
 
 ## Pair index page
 
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
+
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -961,6 +952,7 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -970,9 +962,7 @@ account-recovery-confirm-key-heading-w-default-service = Állítsa vissza a jels
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Állítsa vissza a jelszót a fiók-helyreállítási kulccsal <span>a { $serviceName } szolgáltatáshoz való továbblépéshez</span>
-
 account-recovery-confirm-key-instructions = Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a { -product-firefox-account }jához.
-
 account-recovery-confirm-key-warning-message = <span>Megjegyzés</span> Ha a jelszót visszaállítja, és nincs mentett fiókhelyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint az előzmények és a könyvjelzők).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1002,7 +992,7 @@ complete-reset-password-warning-message-2 = <span>Ne feledje:</span> Ha visszaá
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Jelszó megadva
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
 
@@ -1011,7 +1001,6 @@ complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó meg
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Visszaállítási e-mail elküldve
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kattintson a(z) { $email } címre elküldött hivatkozásra a következő órán belül, hogy létrehozza az új jelszavát.
@@ -1025,14 +1014,11 @@ reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a f
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
-
 reset-password-button = Visszaállítás elkezdése
 reset-password-success-alert = Jelszó visszaállítása
 reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
 reset-password-error-unknown-account = Ismeretlen fiók
-
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
 
@@ -1053,11 +1039,9 @@ confirm-signin-message = Ellenőrizze a leveleit, hogy megérkezett-e a bejelent
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Adja meg a jelszavát <span>a { -product-firefox-account }</span> számára
-
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
-
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
@@ -1066,7 +1050,6 @@ signin-button = Bejelentkezés
 signin-header = Bejelentkezés
 signin-use-a-different-account-link = Másik fiók használata
 signin-forgot-password-link = Elfelejtette a jelszót?
-
 signin-bounced-header = Sajnáljuk. A fiókját zároltuk.
 # $email (string) - The user's email.
 signin-bounced-message = A megerősítő e-mail elküldésre került ide: { $email }, de az visszatért, így zároltuk a fiókját, hogy megvédjük a { -brand-firefox }ban tárolt adatait.
@@ -1091,7 +1074,7 @@ signin-recovery-code-instruction = Adjon meg egy tartalék hitelesítési kódot
 signin-recovery-code-input-label = Adja meg a 10 számjegyű tartalék hitelesítési kódot
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
-# Link to return to signin with two-step authentication code (security code)
+# Link to return to signin with two-step authentication code
 signin-recovery-code-back-link = Vissza
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1118,23 +1101,15 @@ signin-token-code-confirm-button = Megerősítés
 signin-token-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Új kód elküldése e-mailben.
+# Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Megerősítési kód szükséges
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-signin-totp-code-heading-w-default-service = Adja meg a biztonsági kódot <span>a fiókbeállításokhoz való továbblépéshez</span>
-# String within the <span> element appears on a separate line
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-signin-totp-code-heading-w-custom-service = Adja meg a biztonsági kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
-signin-totp-code-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott biztonsági kódot.
 signin-totp-code-input-label-v2 = Adja meg a 6 számjegyű kódot
-# Form button to confirm if the security code entered by the user is valid
+# Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata
 signin-totp-code-recovery-code-link = Nem tudja beírni a kódot?
@@ -1149,6 +1124,8 @@ confirm-signup-instruction = Ellenőrizze a leveleit, hogy megérkezett-e a mege
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
 
 # String within the <span> element appears on a separate line
@@ -1163,7 +1140,6 @@ confirm-signup-code-confirm-button = Megerősítés
 confirm-signup-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
-confirm-signup-code-required-error = Adja meg a megerősítési kódot
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
