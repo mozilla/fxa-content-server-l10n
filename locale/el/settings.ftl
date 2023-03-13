@@ -744,16 +744,25 @@ connect-another-device-signed-in-header = Συνδεθήκατε στο { -brand
 connect-another-device-email-confirmed-banner = Το email επιβεβαιώθηκε
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Η είσοδος επιβεβαιώθηκε
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Συνδεθείτε σε αυτό το { -brand-firefox } για να ολοκληρώσετε τη ρύθμιση
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Σύνδεση
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Συνδεθείτε στο { -brand-firefox } σε κάποια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Σύνδεση άλλης συσκευής
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Όχι τώρα
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Συνδεθείτε στο { -brand-firefox } για Android για να ολοκληρώσετε τη ρύθμιση
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Συνδεθείτε στο { -brand-firefox } για iOS για να ολοκληρώσετε τη ρύθμιση
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Απαιτούνται cookies και τοπική αποθήκευση
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -950,6 +959,10 @@ signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
 
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
+signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού
+signin-totp-code-recovery-code-link = Πρόβλημα με την εισαγωγή του κωδικού;
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -968,6 +981,10 @@ confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
 confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+confirm-signup-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Απαιτείται κωδικός επιβεβαίωσης
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
