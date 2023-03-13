@@ -946,6 +946,10 @@ auth-totp-heading-w-default-service = Adja meg a hitelesítési kódot <span>a f
 auth-totp-heading-w-custom-service = Adja meg a hitelesítési kódot <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 auth-totp-instruction = Nyissa meg a hitelesítő alkalmazását, és adja meg az általa adott hitelesítési kódot.
 auth-totp-input-label = Adja meg a 6 számjegyű kódot
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Megerősítés
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Hitelesítési kód szükséges
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -962,9 +966,27 @@ pair-failure-message = A beállítási folyamat megszakításra került.
 
 ## Pair index page
 
+pair-sync-header = Szinkronizálja a { -brand-firefox }ot a telefonján vagy táblagépén
+pair-cad-header = Csatlakoztassa a { -brand-firefox }ot egy másik eszközön
+pair-already-have-firefox-paragraph = Már van { -brand-firefox } a telefonján vagy a táblagépén?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Szinkronizálja az eszközét
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Vagy töltse le
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Olvassa be a { -brand-firefox } mobilra történő letöltéséhez, vagy küldjön magának egy <linkExternal>letöltési hivatkozást</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Most nem
+pair-take-your-data-message = Vigye el lapjait, könyvjelzőit és jelszavait bárhová, ahol { -brand-firefox }ot használ.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Kezdő lépések
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kód
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Eszköz csatlakoztatva
+pair-success-message-2 = A párosítás sikeres volt.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -986,6 +1008,8 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Párosítás egy alkalmazás segítségével
+pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy { -brand-firefox } alkalmazásból.
 
 ## AccountRecoveryConfirmKey page
 
