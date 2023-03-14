@@ -750,7 +750,7 @@ auth-error-110 = トークンが正しくありません
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
+auth-error-114 = 何回も試したため中断されました。{ $retryAfter }に再度試してください。
 auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
