@@ -780,7 +780,7 @@ auth-error-110 = Нядзейсны токен
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў праз { $retryAfter }.
+auth-error-114 = Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў { $retryAfter }.
 auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
