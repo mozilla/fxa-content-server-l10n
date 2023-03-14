@@ -778,7 +778,7 @@ auth-error-110 = Ugyldigt token
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Du har prøvet for mange gange. Prøv igen om { $retryAfter }.
+auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
