@@ -770,7 +770,7 @@ auth-error-110 = Llave inválida
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo en { $retryAfter }.
+auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo { $retryAfter }.
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado
