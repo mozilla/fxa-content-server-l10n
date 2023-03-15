@@ -28,3 +28,9 @@ CO01:
             - product-firefox-monitor
             - product-firefox-relay
             - header-title
+# Variable comments
+VC:
+    disabled: true
+# Placeables style
+PS01:
+    disabled: false
