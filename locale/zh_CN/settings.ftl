@@ -743,7 +743,7 @@ auth-error-110 = 无效令牌
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = 您已尝试太多次，请 { $retryAfter } 后再试。
+auth-error-114 = 您已尝试太多次，请 { $retryAfter } 再试。
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
