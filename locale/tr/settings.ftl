@@ -752,7 +752,7 @@ auth-error-110 = Geçersiz jeton
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
+auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } yeniden deneyin.
 auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
