@@ -779,7 +779,7 @@ auth-error-110 = Ongeldige token
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = U hebt het te vaak geprobeerd. Probeer het over { $retryAfter } opnieuw.
+auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opnieuw.
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
