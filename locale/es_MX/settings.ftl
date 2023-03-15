@@ -756,7 +756,7 @@ auth-error-110 = Token inválido
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo en { $retryAfter }.
+auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo { $retryAfter }.
 auth-error-138-2 = Sesión sin confirmar
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
