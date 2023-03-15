@@ -777,7 +777,7 @@ auth-error-110 = Érvénytelen token
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
+auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
