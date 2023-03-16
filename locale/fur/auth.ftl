@@ -290,6 +290,22 @@ postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi pa
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Tu le âs ativade di:
 postAddTwoStepAuthentication-action = Gjestìs account
+postAddTwoStepAuthentication-code-required-2 = Di ca indenant ogni volte che tu jentris ti vignaran domandâts i codiçs gjenerâts de aplicazion di autenticazion.
+postChangePrimary-subject = E-mail primarie inzornade
+postChangePrimary-title = Gnove e-mail primarie
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-firefox-account } e par ricevi notifichis di sigurece e di conferme.
+postChangePrimary-action = Gjestìs account
+postConsumeRecoveryCode-title-2 = Tu âs doprât un codiç di autenticazion di backup
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Al è stât doprât su:
+postConsumeRecoveryCode-action = Gjestìs account
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Al reste 1 codiç di autenticazion di backup
+       *[other] A restin { $numberRemaining } codiçs di autenticazion di backup
+    }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
