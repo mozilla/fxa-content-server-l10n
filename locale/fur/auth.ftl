@@ -151,6 +151,50 @@ subscriptionUpdateBillingEnsure-plaintext = Tu puedis verificâ che il metodi di
 subscriptionUpdateBillingTry = O cirarìn di fâ di gnûf il paiament in chescj prossims dîs, ma al è probabil che tu vedis di judânus a risolvi il probleme <a data-l10n-name="updateBillingUrl">inzornant lis informazions di paiament</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = O cirarìn di fâ di gnûf il paiament in chescj prossims dîs, ma al è probabil che tu vedis di judânus a risolvi il probleme inzornant lis informazions di paiament:
+subscriptionUpdatePayment = Par evitâ cualsisei interuzion dal servizi, <a data-l10n-name="updateBillingUrl">inzornâ lis informazions di paiament</a> a pene pussibil.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Par evitâ cualsisei interuzion dal servizi, inzorne lis informazions di paiament a pene pussibil:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Par vê plui informazions, visite il supuart di { -brand-mozilla }: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } su { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } su { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Direzion IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (stimât)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (stimât)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (stimât)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (stimât)
+view-invoice = <a data-l10n-name="invoiceLink">Visualize la tô fature</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Visualize la fature: { $invoiceLink }
+cadReminderFirst-subject-1 = Pro memoria: e je ore di sincronizâ { -brand-firefox }
+cadReminderFirst-action = Sincronize un altri dispositîf
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = A coventin doi par sincronizâ
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
