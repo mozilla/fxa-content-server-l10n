@@ -162,9 +162,20 @@ downloadSubscription-link-action-2 = เริ่มต้น
 fraudulentAccountDeletion-subject = ลบ{ -product-firefox-account } ของคุณแล้ว
 fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
 fraudulentAccountDeletion-content = เมื่อเร็วๆ นี้ { -product-firefox-account } ได้ถูกสร้างขึ้นและได้มีการเรียกเก็บเงินค่าสมัครสมาชิกโดยใช้ที่อยู่อีเมลนี้ เช่นเดียวกับที่เราดำเนินการกับบัญชีใหม่ทั้งหมด เราขอให้คุณยืนยันบัญชีของคุณโดยตรวจสอบความถูกต้องของที่อยู่อีเมลนี้ก่อน
+lowRecoveryCodes-action-2 = สร้างรหัส
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = { -product-firefox-account } ของคุณถูกใช้เพื่อลงชื่อเข้า
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = ไม่ใช่คุณหรือ? <a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = ไม่ใช่คุณหรือ? เปลี่ยนรหัสผ่านของคุณ:
 newDeviceLogin-action = จัดการบัญชี
 passwordChanged-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordChanged-title = ได้เปลี่ยนรหัสผ่านสำเร็จแล้ว
@@ -180,15 +191,23 @@ passwordChangeRequired-different-password-plaintext = สำคัญ: เลื
 passwordReset-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordReset-title = รหัสผ่านบัญชีคุณถูกเปลี่ยนแล้ว
 passwordReset-description = คุณจะต้องป้อนรหัสผ่านใหม่ของคุณบนอุปกรณ์อื่น ๆ เพื่อดำเนินการซิงค์ต่อ
+passwordResetAccountRecovery-subject-2 = ตั้งรหัสผ่านของคุณใหม่แล้ว
+passwordResetAccountRecovery-title-2 = ได้ตั้งรหัสผ่านใหม่เรียบร้อยแล้ว
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = สร้างคีย์การกู้คืนบัญชีใหม่
 postAddAccountRecovery-subject-2 = สร้างคีย์กู้คืนบัญชีแล้ว
+postAddAccountRecovery-title2 = คุณสร้างคีย์การกู้คืนบัญชีใหม่แล้ว
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = ไม่ใช่คุณใช่หรือไม่?
 postAddAccountRecovery-action = จัดการบัญชี
+postAddAccountRecovery-delete-key = ลบคีย์ใหม่:
+postAddAccountRecovery-changd-password = เปลี่ยนรหัสผ่านของคุณ:
 postAddLinkedAccount-subject = เชื่อมโยงบัญชีใหม่กับ { -brand-firefox } แล้ว
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = ได้เชื่อมโยงบัญชี { $providerName } ของคุณกับ{ -product-firefox-account } ของคุณแล้ว
 postAddLinkedAccount-action = จัดการบัญชี
+postAddTwoStepAuthentication-subject-2 = เปิดการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
 postAddTwoStepAuthentication-action = จัดการบัญชี
 postChangePrimary-subject = อีเมลหลักได้รับการปรับปรุงแล้ว
 postChangePrimary-title = อีเมลหลักใหม่
