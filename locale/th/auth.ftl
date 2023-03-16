@@ -309,17 +309,65 @@ subscriptionFirstInvoice-subject = ยืนยันการชำระเง
 subscriptionFirstInvoice-title = ขอบคุณที่สมัครสมาชิก { $productName }
 subscriptionFirstInvoice-content-processing = การชำระเงินของคุณกำลังดำเนินการอยู่และอาจใช้เวลาถึงสี่วันทำการ
 subscriptionFirstInvoice-content-auto-renew = การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = ต่ออายุการสมัครสมาชิก { $productName } ใหม่แล้ว
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = ขอบคุณที่ต่ออายุการสมัครสมาชิก { $productName } ใหม่ของคุณ!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = ใบแจ้งหนี้ถัดไป: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = คุณได้อัปเกรดเป็น { $productName }
 subscriptionUpgrade-title = ขอบคุณสำหรับการอัปเกรด!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = คุณได้อัปเกรดจาก { $productNameOld } เป็น { $productName } สำเร็จแล้ว
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = ตั้งแต่การเรียกเก็บเงินครั้งถัดไป ค่าบริการของคุณจะเปลี่ยนจาก { $paymentAmountOld } ต่อ { $productPaymentCycleOld } เป็น { $paymentAmountNew } ต่อ { $productPaymentCycleNew } เมื่อถึงเวลานั้น คุณจะถูกเรียกเก็บค่าธรรมเนียมแบบจ่ายครั้งเดียวจำนวน { $paymentProrated } เพื่อให้สอดคล้องกับค่าใช้จ่ายที่สูงขึ้นสำหรับส่วนที่เหลือของ { $productPaymentCycleOld } นี้
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 unblockCode-subject = รหัสอนุญาตของบัญชี
 unblockCode-title = ใช่คุณที่ลงชื่อเข้าหรือไม่?
 unblockCode-prompt = ถ้าใช่ นี่คือรหัสอนุญาตที่คุณต้องการ:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = ถ้าใช่ นี่คือรหัสอนุญาตที่คุณต้องการ: { $unblockCode }
+unblockCode-report = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและ<a data-l10n-name="reportSignInLink">รายงานมายังเรา</a>
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
+confirm-account = ยืนยันบัญชี
+confirm-account-plaintext = { confirm-account }:
+confirm-email-2 = ยืนยันบัญชี
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = ยืนยันบัญชี
+verificationReminderSecond-action-2 = ยืนยันบัญชี
 verify-description = ยืนยันบัญชีของคุณและรับประโยชน์สูงสุดจาก { -brand-firefox } ทุกที่ที่คุณลงชื่อเข้าใช้ไม่ว่าจะเป็น:
 verify-subject = สร้างบัญชีของคุณให้เสร็จ
+verify-action-2 = ยืนยันบัญชี
+verifyLogin-subject-2 = ยืนยันการลงชื่อเข้า
 verifyLogin-action = ยืนยันการลงชื่อเข้า
 verifyLoginCode-expiry-notice = จะหมดอายุใน 5 นาที
+verifyPrimary-title-2 = ยืนยันอีเมลหลัก
 verifyPrimary-description = คำขอเพื่อทำการเปลี่ยนแปลงบัญชีได้ถูกสร้างขึ้นจากอุปกรณ์เหล่านี้:
 verifyPrimary-subject = ยืนยันอีเมลหลัก
+verifyPrimary-action-2 = ยืนยันอีเมล
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = ยืนยันอีเมลสำรอง
+verifySecondaryCode-title-2 = ยืนยันอีเมลสำรอง
+verifySecondaryCode-action-2 = ยืนยันอีเมล
+verifySecondaryCode-prompt-2 = ใช้รหัสยืนยันนี้:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = ยืนยันบัญชีของคุณ
+verifyShortCode-prompt-3 = ใช้รหัสยืนยันนี้:
 verifyShortCode-expiry-notice = จะหมดอายุใน 5 นาที
