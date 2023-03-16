@@ -213,6 +213,8 @@ downloadSubscription-link-action-2 = Scomence
 fraudulentAccountDeletion-subject = Il to { -product-firefox-account } al è stât eliminât
 fraudulentAccountDeletion-title = Il to account al è stât eliminât
 fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
+fraudulentAccountDeletion-content-2 = Pal moment nus risulte che l'account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-firefox-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cul rimbors di ducj i adebits.
+fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a data-l10n-name="mozillaSupportUrl">grup di supuart</a>.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
