@@ -212,6 +212,7 @@ downloadSubscription-content-2 = Scomence a doprâ dutis lis funzionalitâts inc
 downloadSubscription-link-action-2 = Scomence
 fraudulentAccountDeletion-subject = Il to { -product-firefox-account } al è stât eliminât
 fraudulentAccountDeletion-title = Il to account al è stât eliminât
+fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
