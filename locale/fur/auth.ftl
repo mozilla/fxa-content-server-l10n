@@ -52,6 +52,30 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Discjame { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Discjame { $productName } sul { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instale { $productName } su di <a data-l10n-name="anotherDeviceLink">un altri dispositîf di scritori</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instale { $productName } su di <a data-l10n-name="anotherDeviceLink">un altri dispositîf</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Oten { $productName } su Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Discjame { $productName } dal App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instale { $productName } su di un altri dispositîf:
+automated-email-change-2 = Se no tu âs fat tu cheste operazion, <a data-l10n-name="passwordChangeLink">cambie la tô password</a> daurman.
+automated-email-support = Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Se no tu âs fat tu cheste operazion, cambie la tô password daurman.
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Par vê plui informazions, visite il supuart di { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Cheste e je une e-mail mandade di un servizi automatic. Se tu âs ricevût cheste e-mail par erôr, nol covente fâ nuie.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
