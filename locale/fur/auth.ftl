@@ -237,6 +237,20 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Gnûf acès a { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Al è stât doprât il to { -product-firefox-account } par jentrâ
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = No jeristu tu? <a data-l10n-name="passwordChangeLink">Cambie la tô password</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = No jeristu tu? Cambie la tô password:
+newDeviceLogin-action = Gjestìs account
+passwordChanged-subject = Password inzornade
+passwordChanged-title = Password modificade cun sucès
+passwordChanged-description = La password dal { -product-firefox-account } e je stade cambiade cun sucès doprant chest dispositîf:
+passwordChangeRequired-subject = Rilevade ativitât suspiete
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
