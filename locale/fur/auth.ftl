@@ -208,6 +208,10 @@ downloadSubscription-subject = Benvignûts in { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Benvignûts in { $productName }
+downloadSubscription-content-2 = Scomence a doprâ dutis lis funzionalitâts includudis tal to abonament:
+downloadSubscription-link-action-2 = Scomence
+fraudulentAccountDeletion-subject = Il to { -product-firefox-account } al è stât eliminât
+fraudulentAccountDeletion-title = Il to account al è stât eliminât
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
