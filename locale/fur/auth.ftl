@@ -26,6 +26,15 @@ subplat-explainer-specific = Tu ricevis cheste e-mail parcè che la direzion di 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tu ricevis cheste e-mail parcè che la direzion e-mail { $email } e je associade a un { -product-firefox-account }.
 subplat-explainer-multiple = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade a plui prodots.
+subplat-explainer-was-deleted = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e jere regjistrade par un { -product-firefox-account }.
+subplat-manage-account = Gjestìs lis impostazions dal to { -product-firefox-account } visitant la <a data-l10n-name="subplat-account-page">pagjine dal account</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gjestìs lis impostazions dal to { -product-firefox-account } visitant cheste pagjine: { $accountSettingsUrl }
+subplat-terms-policy = Tiermins e condizions di cancelazion
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Anule sotscrizion
+subplat-cancel-plaintext = { subplat-cancel }:
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
