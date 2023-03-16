@@ -365,9 +365,33 @@ subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: config
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Benvignûts in { $productName }
+subscriptionAccountFinishSetup-content-processing = Il paiament al è in fase di elaborazion, la operazion e podarès domandâ fin a cuatri dîs lavoratîfs. Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
+subscriptionAccountFinishSetup-content-create-2 = Dopo, tu varâs di creâ une password par { -product-firefox-account } cussì di scomençâ a doprâ il to gnûf abonament.
+subscriptionAccountFinishSetup-action-2 = Scomence
+subscriptionAccountReminderFirst-subject = Pro memoria: complete la configurazion dal to account
+subscriptionAccountReminderFirst-title = No tu puedis ancjemò jentrâ tal to abonament
+subscriptionAccountReminderFirst-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
+subscriptionAccountReminderFirst-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
+subscriptionAccountReminderFirst-action = Cree password
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Pro memoria finâl: configure il to account
+subscriptionAccountReminderSecond-title = Benvignûts in { -brand-firefox }
+subscriptionAccountReminderSecond-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
+subscriptionAccountReminderSecond-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
+subscriptionAccountReminderSecond-action = Cree password
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Il to abonament a { $productName } al è stât cancelât
+subscriptionCancellation-title = Tu nus mancjarâs
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = O vin anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = O vin anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al vignarà paiât ai { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Il servizi al continuarà fin ae fin dal periodi di faturazion, che al è ai { $serviceLastActiveDateOnly }.
