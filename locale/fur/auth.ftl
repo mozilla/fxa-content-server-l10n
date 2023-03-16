@@ -140,6 +140,17 @@ subscriptionFirstInvoice-content-charge = Contizât { $invoiceTotal } ai { $invo
 subscriptionSupport = Domandis sul abonament? Il nestri <a data-l10n-name="subscriptionSupportUrl">grup di supuart</a> al è achì par judâti.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Domandis sul abonament? Il nestri grup di supuart al è achì par judâti:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Graciis pal to abonament a { $productName }. Se tu âs domandis in merit o tu âs bisugne di vê plui informazions su { $productName }, <a data-l10n-name="subscriptionSupportUrl">contatinus</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Graciis pal abonament a { $productName }. Se tu âs domandis sul abonament o tu âs bisugne di vê plui informazions su { $productName }, contatinus:
+subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Achì</a> tu puedis verificâ che il metodi di paiament e lis informazions sul account a sedin inzornâts.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Tu puedis verificâ che il metodi di paiament e lis informazions sul account a sedin inzornâts achì:
+subscriptionUpdateBillingTry = O cirarìn di fâ di gnûf il paiament in chescj prossims dîs, ma al è probabil che tu vedis di judânus a risolvi il probleme <a data-l10n-name="updateBillingUrl">inzornant lis informazions di paiament</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = O cirarìn di fâ di gnûf il paiament in chescj prossims dîs, ma al è probabil che tu vedis di judânus a risolvi il probleme inzornant lis informazions di paiament:
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
