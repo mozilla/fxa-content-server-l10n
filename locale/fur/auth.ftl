@@ -252,6 +252,9 @@ passwordChanged-title = Password modificade cun sucès
 passwordChanged-description = La password dal { -product-firefox-account } e je stade cambiade cun sucès doprant chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
 passwordChangeRequired-title = Cambi di password necessari
+passwordChangeRequired-suspicious-activity = O vin rilevât ativitâts suspietis sul to { -product-firefox-account }. Par impedî acès no autorizâts al to { -product-firefox-account }, o vin disconetût ducj i dispositîfs associâts sul to account e, par precauzion, al è obligatori cambiâ la password.
+passwordChangeRequired-sign-in = Torne jentre su cualsisei dispositîf o servizi dulà che tu dopris il to { -product-firefox-account } e va daûr dai passaçs che ti vegnin presentâts.
+passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
