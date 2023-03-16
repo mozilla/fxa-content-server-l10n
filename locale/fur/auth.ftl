@@ -215,6 +215,16 @@ fraudulentAccountDeletion-title = Il to account al è stât eliminât
 fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
 fraudulentAccountDeletion-content-2 = Pal moment nus risulte che l'account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-firefox-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cul rimbors di ducj i adebits.
 fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a data-l10n-name="mozillaSupportUrl">grup di supuart</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Par cualsisei domande contate il nestri grup di supuart: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Tu âs esaurît i codiçs di autenticazion di backup!
+codes-reminder-title-one = Al reste l'ultin codiç di autenticazion di backup
+codes-reminder-title-two = E je ore di creâ altris codiçs di autenticazion di backup
+codes-reminder-description-part-one = I codiçs di autenticazion di backup ti permetin di ripristinâ i tiei dâts tal câs che tu dismenteis la password.
+codes-reminder-description-part-two = Cree cumò gnûfs codiçs par no pierdi i tiei dâts un doman.
+codes-reminder-description-two-left = A restin dome doi codiçs.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
