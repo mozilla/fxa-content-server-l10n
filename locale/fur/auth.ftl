@@ -251,6 +251,7 @@ passwordChanged-subject = Password inzornade
 passwordChanged-title = Password modificade cun sucès
 passwordChanged-description = La password dal { -product-firefox-account } e je stade cambiade cun sucès doprant chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
+passwordChangeRequired-title = Cambi di password necessari
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
