@@ -33,8 +33,25 @@ subplat-manage-account = Gjestìs lis impostazions dal to { -product-firefox-acc
 subplat-manage-account-plaintext = Gjestìs lis impostazions dal to { -product-firefox-account } visitant cheste pagjine: { $accountSettingsUrl }
 subplat-terms-policy = Tiermins e condizions di cancelazion
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
-subplat-cancel = Anule sotscrizion
+subplat-cancel = Anule l'abonament
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Torne ative l'abonament
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Inzorne lis informazions pe fature
+subplat-privacy-policy = Informative su la riservatece di { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Condizions di ûs dal servizi di { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal = Notis legâls
+subplat-legal-plaintext = { subplat-legal }:
+subplat-privacy = Riservatece
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Discjame { $productName } su { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Discjame { $productName } sul { -app-store }">
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
