@@ -304,7 +304,7 @@ cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已断开连接
 cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
-cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
+cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改保存在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
 cs-recent-activity = 最近的账户活动
 
