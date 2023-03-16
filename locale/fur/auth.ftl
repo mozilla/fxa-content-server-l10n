@@ -306,6 +306,28 @@ postConsumeRecoveryCode-subject-2 =
         [one] Al reste 1 codiç di autenticazion di backup
        *[other] A restin { $numberRemaining } codiçs di autenticazion di backup
     }
+postNewRecoveryCodes-subject-2 = A son stâts creâts gnûfs codiçs di autenticazion di backup
+postNewRecoveryCodes-title-2 = Tu âs creât gnûfs codiçs di autenticazion di backup
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = A son stâts creâts su:
+postNewRecoveryCodes-action = Gjestìs account
+postRemoveAccountRecovery-subject-2 = Clâf di recupar dal account eliminade
+postRemoveAccountRecovery-title-2 = Tu âs eliminât la tô clâf di recupar dal account.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = E je stade eliminade di:
+postRemoveAccountRecovery-action = Gjestìs account
+postRemoveAccountRecovery-invalid-2 = Se tu dismenteis la tô password, tu scugnis doprâ une clâf di recupar dal account par recuperâ i tiei dâts di { -brand-firefox }.
+postRemoveSecondary-subject = E-mail secondarie gjavade
+postRemoveSecondary-title = E-mail secondarie gjavade
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Tu âs gjavât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Lis notifichis di sigurece e lis verifichis di acès no vignaran plui mandadis a cheste direzion.
+postRemoveSecondary-action = Gjestìs account
+postRemoveTwoStepAuthentication-subject-line-2 = Autenticazion in doi passaçs disativade
+postRemoveTwoStepAuthentication-title-2 = Tu âs disativât la autenticazion in doi passaçs
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Tu le âs disativade di:
+postRemoveTwoStepAuthentication-action = Gjestìs account
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
