@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-16 17:53+0000\n"
+"PO-Revision-Date: 2023-03-16 17:58+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1432,6 +1432,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              การดำเนินการต่อถือว่าคุณยอมรับ:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">เงื่อนไขการให้บริการ</a>และ<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">ประกาศความเป็นส่วนตัว</a>ของ Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>ของ Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
@@ -1463,7 +1468,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "ใส่รหัสที่ส่งไปยัง %(email)s ภายใน 5 นาที"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1491,7 +1496,7 @@ msgstr "ใส่รหัสอนุญา"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "ตั้งรหัสผ่านของคุณ"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1503,7 +1508,7 @@ msgstr "ทวนรหัสผ่าน"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลใด ๆ ที่เข้ารหัสที่คุณเก็บไว้กับเรา<br class=\"mb-3\">การตั้งค่าใหม่อาจทำให้ข้อมูลต่าง ๆ เช่น รหัสผ่าน และที่คั่นหน้า สูญหาย"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1665,7 +1670,7 @@ msgstr "ไว้ภายหลัง"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "โปรดใส่รหัสยืนยันที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1855,7 +1860,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "บันทึกคีย์การกู้คืนบัญชี"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1863,7 +1868,7 @@ msgstr "เสร็จสิ้น"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "ทำไมฉันต้องสร้างบัญชีนี้? <a %(escapedSuggestionAttrs)s>ค้นพบได้ที่นี่</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -1903,19 +1908,19 @@ msgstr "ที่อยู่ IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "ข้อกำหนดรหัสผ่าน"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "อย่างน้อย 8 ตัวอักษร"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "ไม่ใช่ที่อยู่อีเมลของคุณ"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "ไม่ใช่รหัสผ่านที่พบบ่อย"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
@@ -1939,23 +1944,23 @@ msgstr "กำลังมองหา Firefox Sync? <a %(escapedSyncSuggestionA
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "หรือ"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "ดำเนินการต่อด้วย Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "ดำเนินการต่อด้วย Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "คุณเพิ่งลงชื่อเข้าใช้ Firefox หรือไม่?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -1963,7 +1968,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "ใช่ อนุมัติอุปกรณ์"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
@@ -1986,7 +1991,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "ดูแท็บจากอุปกรณ์ที่ซิงค์"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2026,7 +2031,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
-msgstr ""
+msgstr "คิวอาร์โค้ด"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
