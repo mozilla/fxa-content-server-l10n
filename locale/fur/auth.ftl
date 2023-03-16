@@ -255,6 +255,32 @@ passwordChangeRequired-title = Cambi di password necessari
 passwordChangeRequired-suspicious-activity = O vin rilevât ativitâts suspietis sul to { -product-firefox-account }. Par impedî acès no autorizâts al to { -product-firefox-account }, o vin disconetût ducj i dispositîfs associâts sul to account e, par precauzion, al è obligatori cambiâ la password.
 passwordChangeRequired-sign-in = Torne jentre su cualsisei dispositîf o servizi dulà che tu dopris il to { -product-firefox-account } e va daûr dai passaçs che ti vegnin presentâts.
 passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
+passwordChangeRequired-signoff = Cun cordialitât,
+passwordChangeRequired-signoff-name = Il grup pai { -product-firefox-accounts }
+passwordChangeRequired-different-password-plaintext = Impuartant: sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
+passwordReset-subject = Password inzornade
+passwordReset-title = La password dal to account e je stade modificade
+passwordReset-description = Tu varâs di inserì la tô gnove password sui altris dispositîfs colegâts par podê ripiâ la sincronizazion.
+passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
+passwordResetAccountRecovery-title-2 = Password ristabilide cun sucès
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Tu âs doprât la clâf di recupar dal account par inzornâ la password di:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Cree une gnove clâf di recupar dal account
+passwordResetAccountRecovery-regen-required-mjml-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî chê che tu âs doprât.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî che che tu âs doprât:
+postAddAccountRecovery-subject-2 = Creade clâf di recupar dal account
+postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = E je stade creade une gnove clâf di:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = No jeristu tu?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimine la gnove clâf</a> e <a data-l10n-name="passwordChangeLink">cambie la tô password</a>
+postAddAccountRecovery-action = Gjestìs account
+postAddAccountRecovery-delete-key = Elimine la gnove clâf:
+postAddAccountRecovery-changd-password = Cambie la tô password:
+postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
