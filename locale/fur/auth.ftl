@@ -328,6 +328,16 @@ postRemoveTwoStepAuthentication-title-2 = Tu âs disativât la autenticazion in 
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Tu le âs disativade di:
 postRemoveTwoStepAuthentication-action = Gjestìs account
+postRemoveTwoStepAuthentication-not-required-2 = No ti coventaran plui codiçs di sigurece de tô aplicazion di autenticazion par jentrâ.
+postVerify-sub-title-3 = O sin contents di vêti chi!
+postVerify-title-2 = Vûstu visualizâ la stesse schede su doi dispositîfs?
+postVerify-description-2 = Al è facil! Ti baste instalâ { -brand-firefox } suntun altri dispositîf e jentrâ par ativâ la sincronizazion. E somee magjie!
+postVerify-sub-description = (Psst… Chest al significhe che tu puedis doprâ i tiei segnelibris, lis passwords e i altris dâts di { -brand-firefox } dapardut là che tu sês jentrât cu lis tôs credenziâls.)
+postVerify-subject-3 = Benvignûts in { -brand-firefox }
+postVerify-setup-2 = Conet un altri dispositîf:
+postVerify-action-2 = Conet un altri dispositîf
+postVerifySecondary-subject = E-mail secondarie zontade
+postVerifySecondary-title = E-mail secondarie zontade
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
