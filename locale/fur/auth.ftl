@@ -225,6 +225,18 @@ codes-reminder-title-two = E je ore di creâ altris codiçs di autenticazion di 
 codes-reminder-description-part-one = I codiçs di autenticazion di backup ti permetin di ripristinâ i tiei dâts tal câs che tu dismenteis la password.
 codes-reminder-description-part-two = Cree cumò gnûfs codiçs par no pierdi i tiei dâts un doman.
 codes-reminder-description-two-left = A restin dome doi codiçs.
+codes-reminder-description-create-codes = Cree gnûfs codiçs di autenticazion di backup par podê jentrâ tal to account, tal câs che tu restis blocât fûr.
+lowRecoveryCodes-action-2 = Cree codiçs
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nol reste nissun codiç di autenticazion di backup
+        [one] Al reste dome 1 codiç di autenticazion di backup
+       *[other] A restin dome { $numberRemaining } codiçs di autenticazion di backup!
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Gnûf acès a { $clientName }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
