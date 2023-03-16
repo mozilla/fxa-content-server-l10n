@@ -338,6 +338,33 @@ postVerify-setup-2 = Conet un altri dispositîf:
 postVerify-action-2 = Conet un altri dispositîf
 postVerifySecondary-subject = E-mail secondarie zontade
 postVerifySecondary-title = E-mail secondarie zontade
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Tu âs confermât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Di ca indenant lis notifichis di sigurece e lis verifichis di acès a vignaran mandadis a dutis dôs lis direzions di pueste.
+postVerifySecondary-action = Gjestìs account
+recovery-subject = Ristabilìs la tô password
+recovery-title-2 = Password dismenteade?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = O vin ricevût une richieste di modifiche de tô password pal to { -product-firefox-account } di:
+recovery-new-password-button = Fâs clic sul boton chi sot par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
+recovery-copy-paste = Cope e tache chest URL tal to navigadôr par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
+recovery-action = Cree gnove password
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Il to abonament a { $productName } al è stât cancelât
+subscriptionAccountDeletion-title = Tu nus mancjarâs
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Di resint tu âs eliminât il to { -product-firefox-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: configure la tô password.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Benvignûts in { $productName }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
