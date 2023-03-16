@@ -195,6 +195,19 @@ cadReminderFirst-action = Sincronize un altri dispositîf
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A coventin doi par sincronizâ
+cadReminderFirst-description-1 = Puartiti daûr lis tôs schedis su ducj i dispositîfs. Dopre i tiei segnelibris, lis passwords e altris dâts dapardut là che tu dopris { -brand-firefox }. Al è come vê la magjie tal to account { -brand-firefox }!
+cadReminderFirst-description-2 = Al puarte vie dome un secont par sincronizâ.
+cadReminderSecond-subject-2 = No sta pierdi nuie! Complete la configurazion par scomençâ a sincronizâ
+cadReminderSecond-action = Sincronize un altri dispositîf
+cadReminderSecond-title-2 = No sta dismenteâti di sincronizâ!
+cadReminderSecond-description-sync = Sincronize i tiei segnelibris, lis passwords, lis schedis viertis e tant altri — dapardut là che tu dopris { -brand-firefox }.
+cadReminderSecond-description-plus = In plui, i tiei dâts a son simpri cifrâts. Dome tu e i dispositîfs che tu decidis o podês doprâju.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Benvignûts in { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Benvignûts in { $productName }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
