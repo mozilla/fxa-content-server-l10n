@@ -894,7 +894,7 @@ pair-auth-allow-heading-text = Hai appena effettuato l’accesso a { -product-fi
 pair-auth-allow-confirm-button = Sì, approva il dispositivo
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Se non sei stato tu, <link>cambia la password</link>
+pair-auth-allow-refuse-device-link = Se questa operazione non è stata eseguita da te, <link>cambia la password</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 

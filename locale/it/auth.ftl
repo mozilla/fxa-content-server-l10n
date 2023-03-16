@@ -67,23 +67,23 @@ ios-download-plaintext = Scarica { $productName } dall’App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installa { $productName } su un altro dispositivo:
-automated-email-change-2 = Se non hai richiesto questa operazione, <a data-l10n-name="passwordChangeLink">cambia la tua password</a> immediatamente.
+automated-email-change-2 = Se questa operazione non è stata eseguita da te, <a data-l10n-name="passwordChangeLink">cambia la tua password</a> immediatamente.
 automated-email-support = Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext-2 = Se non hai richiesto questa operazione, cambia la tua password immediatamente.
+automated-email-change-plaintext-2 = Se questa operazione non è stata eseguita da te, cambia la tua password immediatamente.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Per ulteriori informazioni, visita il supporto { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non hai autorizzato questa operazione, cambia la password per proteggere il tuo account.
+automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se questa operazione non è stata autorizzata da te, cambia la password per proteggere il tuo account.
 automated-email-reset =
     Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="resetLink">ripristina la tua password</a>.
     Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Se non sei stato tu a effettuare questa modifica, reimposta la password al link { $resetLink }
+automated-email-reset-plaintext = Se questa modifica non è stata eseguita da te, reimposta la password al link { $resetLink }
 cancellationSurvey = Aiutaci a migliorare i nostri servizi partecipando a questo <a data-l10n-name="cancellationSurveyUrl">breve sondaggio</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Aiutaci a migliorare i nostri servizi partecipando a questo breve sondaggio:
