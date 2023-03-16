@@ -18,6 +18,14 @@ subplat-automated-email = Cheste e je une e-mail inviade di un servizi automatic
 subplat-privacy-notice = Informative su la riservatece
 subplat-privacy-plaintext = Informative su la riservatece:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade par { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Tu ricevis cheste e-mail parcè che la direzion e-mail { $email } e je associade a un { -product-firefox-account }.
+subplat-explainer-multiple = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade a plui prodots.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
