@@ -81,6 +81,19 @@ automated-email-not-authorized-plaintext = Chest messaç al è stât mandât di 
 automated-email-reset =
     Cheste e-mail e je stade inviade di un servizi automatic. Se no tu âs autorizât tu cheste azion, <a data-l10n-name="resetLink">ristabilìs la tô password</a>.
     Par vê plui informazions, visite la pagjine dal <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Se cheste modifiche no tu le âs fate tu, torne a configurâ la tô password cumò su { $resetLink }
+cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Judinus a miorâ i nestris servizis partecipant a chest curt sondaç:
+change-password-plaintext = Se tu pensis che cualchidun al stedi cirint di acedi in maniere ilegjitime al to account, cambie daurman la tô password.
+manage-account = Gjestìs account
+manage-account-plaintext = { manage-account }:
+payment-details = Detais dal paiament:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Numar fature: { $invoiceNumber }
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
