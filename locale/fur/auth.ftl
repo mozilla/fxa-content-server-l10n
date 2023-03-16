@@ -281,6 +281,15 @@ postAddAccountRecovery-action = Gjestìs account
 postAddAccountRecovery-delete-key = Elimine la gnove clâf:
 postAddAccountRecovery-changd-password = Cambie la tô password:
 postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Il to account { $providerName } al è stât colegât al to { -product-firefox-account }
+postAddLinkedAccount-action = Gjestìs account
+postAddTwoStepAuthentication-subject-2 = Autenticazion in doi passaçs ativade
+postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi passaçs
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Tu le âs ativade di:
+postAddTwoStepAuthentication-action = Gjestìs account
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
