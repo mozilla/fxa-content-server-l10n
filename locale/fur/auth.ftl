@@ -395,3 +395,10 @@ subscriptionCancellation-outstanding-content-2 = O vin anulât il to abonament a
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Il servizi al continuarà fin ae fin dal periodi di faturazion, che al è ai { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Tu âs fat il passaç a { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Passaç di { $productNameOld } a { $productName } completât cun sucès.
