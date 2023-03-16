@@ -76,6 +76,11 @@ automated-email-support-plaintext = Par vê plui informazions, visite il supuart
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Cheste e je une e-mail mandade di un servizi automatic. Se tu âs ricevût cheste e-mail par erôr, nol covente fâ nuie.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Chest messaç al è stât mandât di un servizi automatic. Se no tu âs autorizât tu cheste operazion, cambie la tô password:
+automated-email-reset =
+    Cheste e-mail e je stade inviade di un servizi automatic. Se no tu âs autorizât tu cheste azion, <a data-l10n-name="resetLink">ristabilìs la tô password</a>.
+    Par vê plui informazions, visite la pagjine dal <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
