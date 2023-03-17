@@ -37,6 +37,9 @@ datablock-print =
 ## FormPasswordWithBalloons
 
 
+## FormVerifyCode
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 
@@ -192,7 +195,7 @@ la-unlink-button = เลิกเชื่อมโยง
 la-unlink-account-button = เลิกเชื่อมโยง
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = ปิด
 modal-cancel-button = ยกเลิก
@@ -388,8 +391,6 @@ tfa-incorrect-totp = รหัสการยืนยันตัวบุค�
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
-tfa-input-enter-totp =
-    .label = ป้อนรหัสความปลอดภัย
 
 ##
 
@@ -457,6 +458,14 @@ tfa-row-change-modal-confirm = เปลี่ยน
 auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = คุณได้พยายามหลายครั้งเกินไป โปรดลองอีกครั้ง{ $retryAfter }
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -496,6 +505,11 @@ cannot-create-account-learn-more-link = เรียนรู้เพิ่ม�
 
 
 ## PairAuthComplete page - part of the device pairing flow
+
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
 
 
 ## WaitForSupp page - Part of the devide pairing flow
@@ -567,7 +581,6 @@ cannot-create-account-learn-more-link = เรียนรู้เพิ่ม�
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
 
 
 ## Confirm page
