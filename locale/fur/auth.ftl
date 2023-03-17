@@ -562,3 +562,5 @@ verifyLoginCode-subject-line-2 = Aprove l'acès a { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Jeristu tu a jentrâ vie { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Judinus a mantignî sigûr il to account aprovant che tu jeris tu a jentrâ cun:
