@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-17 12:51+0000\n"
+"PO-Revision-Date: 2023-03-17 14:02+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -38,7 +38,7 @@ msgstr "Dopre il codiç %(code)s per configurâ la autenticazion a doi passaçs 
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (obligatori)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
