@@ -571,3 +571,15 @@ verifyPrimary-description = Une richieste di autorizazion par modificâ l'accoun
 verifyPrimary-subject = Conferme la e-mail primarie
 verifyPrimary-action-2 = Conferme la direzion e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Une volte confermade la richieste, al sarà pussibil modificâ, di chest dispositîf, lis impostazions dal account, come chê di zontâ une e-mail secondarie.
+verifySecondaryCode-subject = Conferme la e-mail secondarie
+verifySecondaryCode-title-2 = Conferme la e-mail secondarie
+verifySecondaryCode-action-2 = Conferme la direzion e-mail
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Chest { -product-firefox-account } al domande di doprâ { $email } tant che direzion e-mail secondarie:
+verifySecondaryCode-prompt-2 = Dopre chest codiç di conferme:
+verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte confermade, cheste direzion e-mail e ricevarà notifichis di sigurece e messaçs di conferme.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Conferme il to account
