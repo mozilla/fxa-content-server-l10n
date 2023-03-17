@@ -547,3 +547,18 @@ verificationReminderSecond-second-description = Il to { -product-firefox-account
 verificationReminderSecond-sub-description-2 = Partecipe ae nestre mission par trasformâ internet intun puest viert a ducj.
 verificationReminderSecond-action-2 = Conferme account
 verify-title-2 = Esplore internet cun { -brand-firefox }
+verify-description = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
+verify-subject = Complete la creazion dal to account
+verify-action-2 = Conferme account
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Jeristu tu a jentrâ vie { $clientName }?
+verifyLogin-description-2 = Judinus a mantignî sigûr il to account confermant che tu jeris tu a jentrâ vie:
+verifyLogin-subject-2 = Conferme acès
+verifyLogin-action = Conferme acès
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Aprove l'acès a { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Jeristu tu a jentrâ vie { $serviceName }?
