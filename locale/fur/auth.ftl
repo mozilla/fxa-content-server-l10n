@@ -553,7 +553,7 @@ verify-action-2 = Conferme account
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Jeristu tu a jentrâ vie { $clientName }?
-verifyLogin-description-2 = Judinus a mantignî sigûr il to account confermant che tu jeris tu a jentrâ vie:
+verifyLogin-description-2 = Judinus a mantignî sigûr il to account confermant che tu jeris tu a jentrâ cun:
 verifyLogin-subject-2 = Conferme acès
 verifyLogin-action = Conferme acès
 # Variables:
@@ -564,3 +564,10 @@ verifyLoginCode-subject-line-2 = Aprove l'acès a { $serviceName }
 verifyLoginCode-title-2 = Jeristu tu a jentrâ vie { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Judinus a mantignî sigûr il to account aprovant che tu jeris tu a jentrâ cun:
+verifyLoginCode-prompt-3 = Se sì, chest al è il to codiç di autorizazion:
+verifyLoginCode-expiry-notice = Al scjât chi di 5 minûts.
+verifyPrimary-title-2 = Conferme e-mail primarie
+verifyPrimary-description = Une richieste di autorizazion par modificâ l'account e je stade inviade a chest dispositîf:
+verifyPrimary-subject = Conferme la e-mail primarie
+verifyPrimary-action-2 = Conferme la direzion e-mail
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
