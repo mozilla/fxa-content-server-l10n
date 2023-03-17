@@ -583,3 +583,8 @@ verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte conf
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferme il to account
+verifyShortCode-title-2 = Esplore internet cun { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
+verifyShortCode-prompt-3 = Dopre chest codiç di conferme:
+verifyShortCode-expiry-notice = Al scjât chi di 5 minûts.
