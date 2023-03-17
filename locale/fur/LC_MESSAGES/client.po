@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-17 14:02+0000\n"
+"PO-Revision-Date: 2023-03-17 16:44+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -42,15 +42,15 @@ msgstr "%(permissionName)s (obligatori)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Direzion e-mail"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
-msgstr ""
+msgstr "Non visualizât"
 
 #: .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr ""
+msgstr "Imagjin pal account"
 
 #: .es5/views/ready.js:58
 msgid "Welcome back"
