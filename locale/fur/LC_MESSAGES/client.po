@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-17 16:44+0000\n"
+"PO-Revision-Date: 2023-03-17 18:43+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -54,15 +54,15 @@ msgstr "Imagjin pal account"
 
 #: .es5/views/ready.js:58
 msgid "Welcome back"
-msgstr ""
+msgstr "Bentornât"
 
 #: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Chi di pôc Firefox Sync si ripiarà"
 
 #: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
-msgstr ""
+msgstr "La tô password e je date ristabilide"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
