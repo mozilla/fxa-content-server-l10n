@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 04:17+0000\n"
+"PO-Revision-Date: 2023-03-18 04:26+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr ""
+msgstr "Gjeton no valit"
 
 #: .es5/lib/auth-errors.js:44
 msgid "Invalid timestamp in request signature"
