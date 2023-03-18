@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-17 18:45+0000\n"
+"PO-Revision-Date: 2023-03-18 04:04+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -78,56 +78,56 @@ msgstr "E-mail primarie confermade"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Di ca indenant iis notifichis dal to account a vignaran mandadis ancje a%(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "E-mail secondarie confermade"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Acès confermât"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Cumò tu puedis doprâ %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Account confermât"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
-msgstr ""
+msgstr "Conetût"
 
 #: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Account no cognossût. <a href=\"/signup\">Regjistriti</a>"
 
 #: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Chest account nol esist plui. Tornâ a creâlu?"
 
 #: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr ""
+msgstr "Altri"
 
 #: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Graciis di vê contatât il supuart di Mozilla in merit a <b>%(escapedLowercaseTopic)s</b>. Tu ricevarâs une rispueste vie e-mail a pene pussibil."
 
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Graciis di vê contatât il supuart Mozilla in merit a <b>%(escapedLowercaseTopic)s</b> par <b>%(escapedSelectedProduct)s</b>. Tu ricevarâs une rispueste vie e-mail a pene pussibil."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Siere"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "I tiei dâts di sincronizazion a son protets"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
