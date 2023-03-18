@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 04:04+0000\n"
+"PO-Revision-Date: 2023-03-18 04:15+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -34,7 +34,7 @@ msgstr "Account eliminât cun sucès"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Dopre il codiç %(code)s per configurâ la autenticazion a doi passaçs tes aplicazions supuartadis."
+msgstr "Dopre il codiç %(code)s per configurâ la autenticazion in doi passaçs tes aplicazions supuartadis."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -131,135 +131,135 @@ msgstr "I tiei dâts di sincronizazion a son protets"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Se tu vessis di pierdi l'acès al to account, tu podarâs ripristinâ i tiei dâts di sincronizazion."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
-msgstr ""
+msgstr "Scomence a navigâ"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Di ca indenant lis notifichis dal to account a vignaran mandadis ancje a %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Continue su %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "L'account al è stât blocât par resons di sigurece"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Ristabilìs la password"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "nissun"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Ultin control: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Vierç Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Vierç Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Vierç Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Vierç Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Vierç Restmail"
 
 #: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
-msgstr ""
+msgstr "Plate password"
 
 #: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Mostre password"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Codiçs di autenticazion di backup par Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Autenticazion in doi passaçs ativade"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Clâf di recupar dal account Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "E-mail tornade a mandâ. Zonte accounts@firefox.com ai tiei contats par garantî une consegne cence problemis."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Copiât"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Nol è stât pussibil copiâ. Prove a copiâ a man."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Discjamât"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Stampât"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Account confermât cun sucès"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "paiament e faturazion"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "problemis cul account"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "problemis tecnics"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "indiche opinions / richiestis di funzionalitâts"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "no te liste"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr ""
+msgstr "Segnelibris"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
-msgstr ""
+msgstr "Cronologjie"
 
 #: .es5/models/sync-engines.js:66
 msgid "Passwords"
-msgstr ""
+msgstr "Passwords"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
-msgstr ""
+msgstr "Components adizionâi"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
