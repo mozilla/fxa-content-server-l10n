@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 07:43+0000\n"
+"PO-Revision-Date: 2023-03-18 07:50+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -604,39 +604,39 @@ msgstr "Al covente un URL valit"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "La e-mail di conferme e je a pene stade ricusade al mitent. Direzion e-mail scrite mâl?"
 
 #: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Inserìs une direzion e-mail valide. firefox.com nol ufrìs servizis di pueste eletroniche."
 
 #: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Al è pussibil plaçâ Account Firefox dome tai IFRAME sui sîts autorizâts"
 
 #: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Il colegament di verifiche al è danezât"
 
 #: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "La imagjin e scugne vê une dimension di almancul 100×100 pixels"
 
 #: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "La regjistrazion cun Firefox par iOS e rivarà chi di pôc"
 
 #: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Par completâ la regjistrazion tu scugnis inserî la tô etât"
 
 #: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Par completâ la regjistrazion tu cugnis inserî une etât valide"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Chest account nol esist plui."
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
