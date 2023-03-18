@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-24 13:08+0000\n"
+"PO-Revision-Date: 2023-03-18 16:15+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1879,7 +1879,7 @@ msgstr "为何询问？"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr "%(family)s 运行于 %(OS)s"
+msgstr "%(OS)s 上的 %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -1978,7 +1978,7 @@ msgid ""
 "\n"
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
-msgstr "已开始与：<span>%(deviceOS)s 上的 %(deviceFamily)s</span> 同步"
+msgstr "已开始与 <span>%(deviceOS)s 上的 %(deviceFamily)s</span> 同步"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
