@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 08:15+0000\n"
+"PO-Revision-Date: 2023-03-18 08:22+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -756,87 +756,87 @@ msgstr "Client no cognossût"
 
 #: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "redirect_uri no valit"
 
 #: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Afermazion no valide"
 
 #: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
-msgstr ""
+msgstr "Codiç no cognossût"
 
 #: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
-msgstr ""
+msgstr "Codiç sbaliât"
 
 #: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
-msgstr ""
+msgstr "Codiç scjadût"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Parametri OAuth no valit: %(param)s"
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
-msgstr ""
+msgstr "No autorizât"
 
 #: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
-msgstr ""
+msgstr "Improibît"
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Gjeton scjadût"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Alc al è lât strucj. Siere cheste schede e torne prove."
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
-msgstr ""
+msgstr "nissun messaç"
 
 #: .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "Parametri OAuth no specificât: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "L'utent nol è jentrât"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Un altri utent al è za jentrât"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Utent o session no verificâts"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint no valit"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Messaç no valit dal dispositîf lontan"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Erôr di associazion al dispositîf lontan"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Conession sierade al dispositîf lontan, torne prove"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
-msgstr ""
+msgstr "Parametri no valit tal cuarp de richieste: %(param)s"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Furnidôr di imagjins no supuartât"
 
 #: .es5/lib/profile-errors.js:37
 msgid "Image processing error"
