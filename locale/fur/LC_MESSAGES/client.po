@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 07:50+0000\n"
+"PO-Revision-Date: 2023-03-18 08:04+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -648,87 +648,87 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Atribût dâts no valit: %(property)s"
 
 #: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Al mancje l'atribût dai dâts: %(property)s"
 
 #: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte."
 
 #: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
-msgstr ""
+msgstr "Chest cjamp al è obligatori"
 
 #: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
-msgstr ""
+msgstr "Al covente inserî il codiç di autorizazion"
 
 #: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Il colegament al è danezât"
 
 #: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
-msgstr ""
+msgstr "Il numar di telefon al è obligatori"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Al covente il codiç di autenticazion in doi passaçs"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Il codiç di autenticazion in doi passaçs nol è valit"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Al covente il codiç di autenticazion di backup"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Il codiç di autenticazion di backup nol è valit"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "E covente la clâf di recupar dal account"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Inserìs il codiç di verifiche"
 
 #: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Indreçament no valit"
 
 #: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Erôrs di batidure te e-mail? %(domain)s nol ufrìs servizis di pueste."
 
 #: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "La dimension dal file imagjin e je masse grande par podêle cjariâ in rêt."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
-msgstr ""
+msgstr "E mancje la configurazion"
 
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
-msgstr ""
+msgstr "La configurazion no je valide"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Erôrs di batidure te e-mail?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Prove i gnûfs prodots Firefox"
 
 #: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Ricêf lis ultimis gnovis su Mozilla e Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
