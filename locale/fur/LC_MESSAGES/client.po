@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 04:26+0000\n"
+"PO-Revision-Date: 2023-03-18 07:15+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -319,63 +319,63 @@ msgstr "Gjeton no valit"
 
 #: .es5/lib/auth-errors.js:44
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Marche temporâl no valide te firme de richieste"
 
 #: .es5/lib/auth-errors.js:48
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Valôr di “nonce“ no valit te firme de richieste"
 
 #: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
-msgstr ""
+msgstr "Chest account al esist za"
 
 #: .es5/lib/auth-errors.js:56
 msgid "Unknown account"
-msgstr ""
+msgstr "Account no cognossût"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Direzion e-mail sbaliade (maiusculis/minusculis)"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
-msgstr ""
+msgstr "Password sbaliade"
 
 #: .es5/lib/auth-errors.js:68
 msgid "Unverified account"
-msgstr ""
+msgstr "Chest account nol è stât verificât"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
-msgstr ""
+msgstr "Codiç di verifiche no valit"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
-msgstr ""
+msgstr "Ogjet JSON no valit tal cuarp de rispueste"
 
 #: .es5/lib/auth-errors.js:80
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parametri no valit: %(param)s"
 
 #: .es5/lib/auth-errors.js:84
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Al mancje il parametri: %(param)s"
 
 #: .es5/lib/auth-errors.js:88
 msgid "Invalid request signature"
-msgstr ""
+msgstr "Firme de richieste no valide"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr ""
+msgstr "E mancje la intestazion “content-length”"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
-msgstr ""
+msgstr "Cuarp de rispueste masse grant"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "La richieste e je stade blocade par motîfs di sigurece"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
