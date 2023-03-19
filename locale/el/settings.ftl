@@ -739,6 +739,7 @@ auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπ�
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Αδυναμία δημιουργίας λογαριασμού
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Μάθετε περισσότερα
 
@@ -801,6 +802,7 @@ inline-recovery-backup-authentication-code = Εφεδρικός κωδικός �
 
 inline-totp-setup-cancel-setup-button = Ακύρωση ρύθμισης
 inline-totp-setup-continue-button = Συνέχεια
+inline-totp-setup-ready-button = Έτοιμο
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
@@ -881,9 +883,12 @@ pair-supp-allow-cancel-link = Ακύρωση
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Σύζευξη με εφαρμογή
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Επιβεβαίωση κλειδιού ανάκτησης λογαριασμού
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
 account-recovery-confirm-key-error-general = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 # Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
@@ -895,11 +900,16 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 
 # Header for form to create new password
 create-new-password-header = Δημιουργία νέου κωδικού πρόσβασης
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσβασης
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
 
 ## Confirm Reset Password Component
 
@@ -941,6 +951,7 @@ signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 signin-bounced-header = Συγγνώμη. Έχουμε κλειδώσει τον λογαριασμό σας.
+signin-bounced-create-new-account = Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό
 back = Πίσω
 
 ## SigninRecoveryCode page
@@ -955,9 +966,12 @@ signin-recovery-code-back-link = Πίσω
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Έχετε κλειδωθεί;
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Απαιτείται εφεδρικός κωδικός ταυτοποίησης
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Σας ευχαριστούμε για την εγρήγορσή σας
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -991,6 +1005,8 @@ signin-totp-code-required-error = Απαιτείται κωδικός ταυτο
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
 confirm-signup-code-code-expired = Έληξε ο κωδικός;
