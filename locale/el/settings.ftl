@@ -896,6 +896,8 @@ complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσ
 
 ## Confirm Reset Password Component
 
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+resend-pw-reset-banner = Το email απεστάλη. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 
 ## ResetPassword page
 
@@ -988,6 +990,9 @@ confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
 confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
+# Message displayed in a banner after the user requested to receive a new confirmation code.
+# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
+confirm-signup-code-resend-code-success-message = Το email απεστάλη. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 confirm-signup-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 # Error displayed in tooltip.
@@ -996,6 +1001,9 @@ confirm-signup-code-is-required-error = Απαιτείται κωδικός επ
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό; <LinkExternal>Μάθετε εδώ</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
