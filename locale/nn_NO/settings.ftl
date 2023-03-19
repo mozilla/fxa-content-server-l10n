@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
 
@@ -87,7 +88,6 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gjenta passord
 signup-submit-button = Opprett konto
-
 form-reset-password-with-balloon-new-password =
     .label = Nytt passord
 form-reset-password-with-balloon-confirm-password =
@@ -95,11 +95,15 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Tilbakestill passordet
 form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 
+## FormVerifyCode
+
+
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 
 ## Images - these are all aria labels used for illustrations
+
 
 ## Input Password
 
@@ -108,21 +112,27 @@ input-password-show = Vis passord
 input-password-hide-aria = Gøym passord frå skjermen.
 input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
 
-
 ## LinkDamaged component
+
 
 ## LinkExpired component
 
+
 ## LinkRememberPassword component
 
+
 ## LinkUsed component
+
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+
 ## PasswordStrengthBalloon component
 
+
 ## Ready component
+
 
 ## Alert Bar
 
@@ -137,11 +147,11 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din rett til privatliv på nettet.
-
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
@@ -150,7 +160,6 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile =
     Finn { -brand-firefox } på { -google-play } og { -app-store } eller
     <br /><linkExternal>send ei nedlastingslenke til eininga.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -160,18 +169,16 @@ connect-another-app-store-image-2 =
 
 ##
 
+
 ## Connected services section
 
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
-
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglande- eller duplikatelement?
-
 cs-disconnect-sync-heading = Kople frå Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -179,6 +186,7 @@ cs-disconnect-sync-heading = Kople frå Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -195,10 +203,10 @@ cs-disconnect-sync-opt-not-say = Vil helst ikkje fortelje det
 cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
-
 cs-sign-out-button = Logg ut
 
 ##
+
 
 ## Data collection section
 
@@ -230,7 +238,8 @@ header-help = Hjelp
 
 ## Linked Accounts section
 
-## Modal
+
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Lat att
 modal-cancel-button = Avbryt
@@ -282,16 +291,15 @@ avatar-page-new-avatar =
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Endra passord
-
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
-
 pw-change-current-password =
     .label = Skriv inn gjeldande passord
 pw-change-new-password =
@@ -301,6 +309,7 @@ pw-change-confirm-password =
 
 ##
 
+
 ## Password create page
 
 pw-create-header =
@@ -308,36 +317,33 @@ pw-create-header =
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Slett kontoen
-
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-
-
 delete-account-continue-button = Fortset
-
 delete-account-password-input =
     .label = Skriv inn passord
-
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Visingsnamn
-
 display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
 
 ##
+
 
 ## Recent Activity
 
@@ -378,18 +384,14 @@ delete-account-link = Slett kontoen
 ## Two Step Authentication
 
 tfa-title = Tostegs-godkjenning
-
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
-
 tfa-button-continue = Fortset
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
-
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
 tfa-enabled = Tostegs-godkjenning aktivert
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -399,10 +401,8 @@ tfa-qa-code-alt =
     støtta appar.
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
 
-tfa-input-enter-totp =
-    .label = Skriv inn sikkerheitskode
-
 ##
+
 
 ## Profile section
 
@@ -416,11 +416,16 @@ profile-primary-email =
 
 ##
 
+
 ## Security section of Setting
 
 security-heading = Sikkerheit
 security-password =
     .header = Passord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Oppretta: { $date }
 
 ## Switch component
 
@@ -467,6 +472,7 @@ se-secondary-email-none = Ingen
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tostegs-godkjenning
@@ -474,17 +480,15 @@ tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
-
 tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
-
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
-
 tfa-row-change-modal-confirm = Endre
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -492,52 +496,73 @@ auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
 auth-error-110 = Ugyldig token
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+
 ## Connect Another Device page
+
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+
 ## AuthAllow page - Part of the device pairing flow
 
+
 ## PairAuthComplete page - part of the device pairing flow
+
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairFailure - a view which displays on failure of the device pairing process
+
 
 ## Pair index page
 
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
+
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
 
 ## AccountRecoveryConfirmKey page
 
@@ -555,10 +580,13 @@ account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsn
 
 ## Account recovery reset password page
 
+
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+
 ## Confirm Reset Password Component
+
 
 ## ResetPassword page
 
@@ -567,33 +595,43 @@ reset-password-with-recovery-key-verified-continue-to-account = Hald fram til ko
 
 ## CompleteSignin component
 
+
 ## ConfirmSignin component
 
+
 ## Signin page
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
+
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
+
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
