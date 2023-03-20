@@ -848,6 +848,10 @@ pair-auth-allow-confirm-button = Ναι, έγκριση συσκευής
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Η συσκευή συνδέθηκε
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Κάνετε τώρα συγχρονισμό με το: { $deviceFamily } με { $deviceOS }
+pair-auth-complete-sync-benefits-text = Τώρα μπορείτε να έχετε πρόσβαση στις ανοικτές καρτέλες, τους κωδικούς πρόσβασης και τους σελιδοδείκτες σας σε όλες τις συσκευές σας.
 pair-auth-complete-see-tabs-button = Εμφάνιση καρτελών από συγχρονισμένες συσκευές
 pair-auth-complete-manage-devices-link = Διαχείριση συσκευών
 
@@ -855,6 +859,14 @@ pair-auth-complete-manage-devices-link = Διαχείριση συσκευών
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+auth-totp-instruction = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Επιβεβαίωση
 # Error displayed in a tooltip when the form is submitted without a code
