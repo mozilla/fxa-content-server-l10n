@@ -779,7 +779,7 @@ auth-error-110 = Unjildich token
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Jo hawwe it te faak probearre. Probearje it oer { $retryAfter } opnij.
+auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opnij.
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
