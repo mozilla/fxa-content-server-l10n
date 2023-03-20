@@ -57,6 +57,11 @@ input-error-is-required = { $label } er påkravd
 
 ## Component - NewUserEmailForm
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Skriv inn e-postadressa di
 new-user-confirm-email =
     .label = Stadfest e-postadressa di
 new-user-email-validate = E-postadressa er ikkje gyldig

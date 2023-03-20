@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-20 11:37+0000\n"
+"PO-Revision-Date: 2023-03-20 12:04+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1389,7 +1389,7 @@ msgstr "Hendingsnamn"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Stadfesta"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1838,7 +1838,7 @@ msgstr "Sidan denne informasjonen er avgjerande for sikkerheita di, slettar Fire
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Få ein kontogjenopprettingsnøkkel"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
@@ -1870,7 +1870,7 @@ msgstr "Kor gammal er du?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Kvifor spør vi?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1898,11 +1898,11 @@ msgstr "IP-adresse: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Passordkrav"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Minst 8 teikn"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
@@ -1934,23 +1934,23 @@ msgstr "Leitar du etter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Kom i ga
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "Hald fram med Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Hald fram med Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Logga du nettopp inn på Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -1958,7 +1958,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Ja, godkjenn eininga"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
@@ -2013,7 +2013,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Synkroniser eininga di"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
@@ -2021,7 +2021,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
-msgstr ""
+msgstr "QR-kode"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
