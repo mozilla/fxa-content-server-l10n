@@ -747,11 +747,9 @@ auth-error-105-2 = Codice di conferma non valido
 auth-error-110 = Token non valido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Hai effettuato troppi tentativi errati. Riprova { $retryAfter }.
 auth-error-138-2 = Sessione non confermata
 auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
@@ -1016,6 +1014,12 @@ create-new-password-header = Creazione nuova password
 account-restored-success-message = L’account è stato correttamente recuperato utilizzando la chiave di recupero dell’account. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Password impostata
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Si è verificato un errore imprevisto
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
+account-recovery-reset-password-email-resend-error = Si è verificato un problema durante l'invio di un link per reimpostare la password al tuo indirizzo email.
+account-recovery-reset-password-redirecting = Reindirizzamento
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1051,10 +1055,10 @@ reset-password-heading-w-default-service = Reimposta la password <span>per passa
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reimposta la password <span>per continuare su { $serviceName }</span>
 reset-password-warning-message-2 = <span>Nota:</span> quando reimposti la password, l’account viene reimpostato. Potresti perdere alcune delle tue informazioni personali (tra cui cronologia, segnalibri e password). Questo perché crittiamo i dati con la tua password per proteggere la tua privacy. Manterrai gli abbonamenti in tuo possesso e i dati di { -product-pocket } non subiranno modifiche.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Inizia il ripristino
-reset-password-success-alert = Password reimpostata
-reset-password-error-general = Si è verificato un problema durante la reimpostazione della password
-reset-password-error-unknown-account = Account sconosciuto
 reset-password-with-recovery-key-verified-page-title = Password reimpostata correttamente
 reset-password-with-recovery-key-verified-generate-new-key = Genera una nuova chiave di recupero dell’account
 reset-password-with-recovery-key-verified-continue-to-account = Vai al mio account
