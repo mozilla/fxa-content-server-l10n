@@ -126,6 +126,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Ένας υπολογιστής, ένα κινητό τηλέφωνο και μια εικόνα ραγισμένης καρδιάς στο καθένα
+hearts-verified-image-aria-label =
+    .aria-label = Ένας υπολογιστής, ένα κινητό τηλέφωνο και ένα tablet με μια καρδιά που πάλλεται στο καθένα
 signin-recovery-code-image-description =
     .aria-label = Έγγραφο που περιέχει κρυφό κείμενο.
 signin-totp-code-image-label =
@@ -165,6 +169,8 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 ## LinkUsed component
 
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -174,6 +180,8 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 password-strength-balloon-heading = Απαιτήσεις κωδικού πρόσβασης
 password-strength-balloon-min-length = Τουλάχιστον 8 χαρακτήρες
+password-strength-balloon-not-email = Όχι τη διεύθυνση email σας
+password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
 
 ## Ready component
 
@@ -257,6 +265,7 @@ cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-3 = Ποιος είναι ο κύριος λόγος για την αποσύνδεση του <span>{ $device }</span>;
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -453,6 +462,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Συγχρονισμός δεδομένων { -brand-firefox }
 delete-account-product-firefox-addons = Πρόσθετα { -brand-firefox }
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
+delete-account-chk-box-1-v3 =
+    .label = Θα ακυρωθούν τυχόν επί πληρωμή συνδρομές σας (εκτός του { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -714,6 +725,8 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 
 ## Auth-server based errors that originate from backend service
 
@@ -854,6 +867,7 @@ auth-totp-code-required-error = Απαιτείται κωδικός ταυτοπ
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Ανεπιτυχής σύζευξη
 pair-failure-message = Η διαδικασία ρύθμισης τερματίστηκε.
 
 ## Pair index page
@@ -880,6 +894,9 @@ pair-supp-allow-cancel-link = Ακύρωση
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>από την άλλη συσκευή σας</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
