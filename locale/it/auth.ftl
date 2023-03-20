@@ -77,7 +77,7 @@ automated-email-support-plaintext = Per ulteriori informazioni, visita il suppor
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se questa operazione non è stata autorizzata da te, cambia la password per proteggere il tuo account.
+automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se questa operazione non è stata autorizzata da te, cambia la password per proteggere il tuo account:
 automated-email-reset =
     Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="resetLink">ripristina la tua password</a>.
     Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
@@ -318,7 +318,7 @@ postNewRecoveryCodes-action = Gestisci account
 postRemoveAccountRecovery-subject-2 = La chiave di recupero dell’account è stata eliminata
 postRemoveAccountRecovery-title-2 = Hai eliminato la chiave di recupero dell’account.
 # After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = È stato eliminata da:
+postRemoveAccountRecovery-description-2 = È stata eliminata da:
 postRemoveAccountRecovery-action = Gestisci account
 postRemoveAccountRecovery-invalid-2 = Devi utilizzare una chiave di recupero dell’account per recuperare i tuoi dati di { -brand-firefox } se dimentichi la password.
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
@@ -368,7 +368,7 @@ subscriptionAccountDeletion-content-cancelled = Di recente hai eliminato il tuo 
 subscriptionAccountFinishSetup-subject = Ti diamo il benvenuto in { $productName }: imposta la tua password.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Benvenuto in { $productName }.
+subscriptionAccountFinishSetup-title = Benvenuto in { $productName }
 subscriptionAccountFinishSetup-content-processing = Il pagamento è in fase di elaborazione, l’operazione potrebbe richiedere fino a quattro giorni lavorativi. Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 subscriptionAccountFinishSetup-content-create-2 = Successivamente, dovrai creare una password per l’{ -product-firefox-account } per iniziare a utilizzare il tuo nuovo abbonamento.
 subscriptionAccountFinishSetup-action-2 = Inizia
