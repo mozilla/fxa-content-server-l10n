@@ -1018,7 +1018,7 @@ account-recovery-reset-password-success-alert = Password impostata
 account-recovery-reset-password-unexpected-error = Si è verificato un errore imprevisto
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 account-recovery-reset-password-email-resent = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
-account-recovery-reset-password-email-resend-error = Si è verificato un problema durante l'invio di un link per reimpostare la password al tuo indirizzo email.
+account-recovery-reset-password-email-resend-error = Si è verificato un problema durante l’invio del link per reimpostare la password al tuo indirizzo email.
 account-recovery-reset-password-redirecting = Reindirizzamento
 
 ## CompleteResetPassword component
