@@ -101,6 +101,8 @@ form-reset-password-with-balloon-match-error = הססמאות אינן תואמ�
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = שדה זה נדרש
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -699,11 +701,9 @@ auth-error-105-2 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנסות שוב { $retryAfter }.
 auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
@@ -949,6 +949,12 @@ create-new-password-header = יצירת ססמה חדשה
 account-restored-success-message = שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור חשבון. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במקום בטוח.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = הססמה הוגדרה
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = אירעה שגיאה בלתי צפויה
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
+account-recovery-reset-password-email-resend-error = מצטערים, הייתה בעיה בשליחה חוזרת של קישור לאיפוס הססמה לדוא״ל שלך.
+account-recovery-reset-password-redirecting = מתבצעת הפניה
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -984,10 +990,10 @@ reset-password-heading-w-default-service = איפוס ססמה <span>כדי לה
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = איפוס ססמה <span>כדי להמשיך אל { $serviceName }</span>
 reset-password-warning-message-2 = <span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־{ -product-pocket } שלך לא יושפעו.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = דוא״ל
 reset-password-button = התחלת איפוס
-reset-password-success-alert = הססמא אופסה
-reset-password-error-general = הייתה בעיה באיפוס הססמה שלך, עמך הסליחה
-reset-password-error-unknown-account = חשבון לא מוכר
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
