@@ -238,15 +238,22 @@ header-help = Hjelp
 
 ## Linked Accounts section
 
+la-unlink-button = Fjern tilknyting
+la-unlink-account-button = Fjern tilknyting
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Lat att
 modal-cancel-button = Avbryt
+modal-default-confirm-button = Stadfest
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Stadfest e-postadressa di
+mvs-enter-verification-code-2 = Skriv inn stadfestingskoden din
 msv-cancel-button = Avbryt
+msv-submit-button-2 = Stadfest
 
 ## Settings Nav
 
@@ -254,6 +261,7 @@ nav-settings = Innstillingar
 nav-profile = Profil
 nav-security = Sikkerheit
 nav-connected-services = Tilkopla tenester
+nav-data-collection = Datainnsamling og bruk
 nav-paid-subs = Betalte abonnement
 nav-email-comm = E-postkommunikasjon
 
@@ -306,6 +314,7 @@ pw-change-new-password =
     .label = Skriv inn nytt passord
 pw-change-confirm-password =
     .label = Stadfest nytt passord
+pw-change-success-alert-2 = Passord oppdatert
 
 ##
 

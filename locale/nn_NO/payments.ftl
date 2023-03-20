@@ -54,6 +54,7 @@ input-error-is-required = { $label } er påkravd
 
 ## Component - Header
 
+brand-name-firefox-logo = { -brand-name-firefox }-logo
 
 ## Component - NewUserEmailForm
 
@@ -118,6 +119,7 @@ payment-error-manage-subscription-button = Handsame abonnementet mitt
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = Få hjelp
 
 ## Component - PaymentForm
 
@@ -166,6 +168,7 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
