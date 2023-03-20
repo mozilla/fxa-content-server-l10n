@@ -790,11 +790,9 @@ auth-error-105-2 = Invalid confirmation code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = You’ve tried too many times. Please try again { $retryAfter }.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
@@ -803,7 +801,6 @@ auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
-
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1073,6 +1070,12 @@ create-new-password-header = Create new password
 account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Password set
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Unexpected error encountered
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
+account-recovery-reset-password-email-resend-error = Sorry, there was a problem resending a reset password link to your email.
+account-recovery-reset-password-redirecting = Redirecting
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1109,13 +1112,11 @@ reset-password-heading-w-default-service = Reset password <span>to continue to a
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
-
 reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
-
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+  .label = Email
 reset-password-button = Begin reset
-reset-password-success-alert = Password reset
-reset-password-error-general = Sorry, there was a problem resetting your password
-reset-password-error-unknown-account = Unknown account
 
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key

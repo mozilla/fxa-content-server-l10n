@@ -150,7 +150,7 @@ payment-cc =
 payment-cancel-btn = Cancel
 payment-update-btn = Update
 payment-pay-btn = Pay now
-payment-pay-with-paypal-btn = Pay with {-brand-name-paypal}
+payment-pay-with-paypal-btn = Pay with { -brand-name-paypal }
 
 payment-validate-name-error = Please enter your name
 
