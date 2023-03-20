@@ -767,11 +767,9 @@ auth-error-105-2 = Ungültiger Bestätigungscode
 auth-error-110 = Ungültiger Schlüssel
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es { $retryAfter } erneut.
 auth-error-138-2 = Unbestätigte Sitzung
 auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
@@ -1036,6 +1034,12 @@ create-new-password-header = Neues Passwort erstellen
 account-restored-success-message = Sie haben Ihr Konto mit Ihrem Kontowiederherstellungsschlüssel erfolgreich wiederhergestellt. Erstellen Sie ein neues Passwort zum Schutz Ihrer Daten und speichern Sie es an einem sicheren Ort.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Passwort gesetzt
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Unerwarteter Fehler aufgetreten
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
+account-recovery-reset-password-email-resend-error = Entschuldigung, beim erneuten Senden eines Links zum Zurücksetzen des Passworts an Ihre E-Mail-Adresse ist ein Problem aufgetreten.
+account-recovery-reset-password-redirecting = Sie werden weitergeleitet
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1071,10 +1075,10 @@ reset-password-heading-w-default-service = Setzen Sie Ihr Passwort zurück, <spa
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Setzen Sie Ihr Passwort zurück, <span>um mit { $serviceName } fortzufahren</span>
 reset-password-warning-message-2 = <span>Hinweis:</span> Wenn Sie Ihr Passwort zurücksetzen, wird Ihr Konto zurückgesetzt. Einige Ihrer persönlichen Daten (einschließlich Chronik, Lesezeichen und Passwörter) können verloren gehen. Dies liegt daran, dass wir aus Datenschutzgründen Ihre Daten mit Ihrem Passwort verschlüsseln. Sie behalten weiterhin alle Abonnements, die Sie haben könnten. Daten von { -product-pocket } sind davon nicht betroffen.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-Mail-Adresse
 reset-password-button = Zurücksetzen beginnen
-reset-password-success-alert = Passwort zurückgesetzt
-reset-password-error-general = Entschuldigung, beim Zurücksetzen Ihres Passworts ist ein Problem aufgetreten
-reset-password-error-unknown-account = Unbekanntes Konto
 reset-password-with-recovery-key-verified-page-title = Passwort erfolgreich zurückgesetzt
 reset-password-with-recovery-key-verified-generate-new-key = Einen neuen Kontowiederherstellungsschlüssel erzeugen
 reset-password-with-recovery-key-verified-continue-to-account = Weiter zu meinem Konto
