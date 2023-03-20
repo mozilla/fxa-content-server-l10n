@@ -35,6 +35,7 @@ jobs:
       - name: Extract strings
         run: |
           cd fxa-code
+          _scripts/l10n/clone.sh
           yarn workspaces focus fxa-content-server fxa-auth-server fxa-payments-server fxa-settings
           yarn workspace fxa-payments-server grunt merge-ftl
           yarn workspace fxa-settings grunt merge-ftl
