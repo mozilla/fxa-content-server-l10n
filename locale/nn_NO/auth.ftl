@@ -208,14 +208,26 @@ downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonan
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+codes-reminder-description-two-left = Du har berre to kodar att.
+codes-reminder-description-create-codes = Opprett nye reserve-autentiseringskodar for å hjelpe deg med å få tilgang til kontoen din dersom du vert låst ute.
 lowRecoveryCodes-action-2 = Lag kodar
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = { -product-firefox-account } vart brukt til å logge på
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Ikkje deg? <a data-l10n-name="passwordChangeLink">Endre passordet ditt</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Ikkje deg? Endre passordet ditt:
 newDeviceLogin-action = Handsam kontoen
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
+passwordChanged-description = Passordet for { -product-firefox-account } vart endra frå følgejande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
 passwordChangeRequired-title = Passordendring påkravd
 passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -product-firefox-account }en din, og følg stega som vil bli presenterte for deg.
