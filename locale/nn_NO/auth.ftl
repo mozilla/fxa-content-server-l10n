@@ -196,6 +196,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det må to til for å synkronisere
 cadReminderFirst-description-2 = Det tar berre eit sekund å synkronisere.
+cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
 #  Variables:
@@ -208,6 +209,8 @@ downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonan
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+codes-reminder-title-two = På tide å lage fleire reserve-autentiseringskodar
+codes-reminder-description-part-one = Reserve-autentiseringskodar hjelper deg med å gjenopprette informasjonen din når du gløymer passordet ditt.
 codes-reminder-description-two-left = Du har berre to kodar att.
 codes-reminder-description-create-codes = Opprett nye reserve-autentiseringskodar for å hjelpe deg med å få tilgang til kontoen din dersom du vert låst ute.
 lowRecoveryCodes-action-2 = Lag kodar
@@ -230,6 +233,7 @@ passwordChanged-title = Passordet er endra
 passwordChanged-description = Passordet for { -product-firefox-account } vart endra frå følgejande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
 passwordChangeRequired-title = Passordendring påkravd
+passwordChangeRequired-suspicious-activity = Vi oppdaga mistenkjeleg oppførsel på { -product-firefox-account }. For å hindre uautorisert tilgang til { -product-firefox-account }, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som ein førehandsregel.
 passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -product-firefox-account }en din, og følg stega som vil bli presenterte for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordChangeRequired-signoff = Venleg helsing
@@ -257,6 +261,8 @@ postAddTwoStepAuthentication-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
 postChangePrimary-action = Handsam kontoen
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Han vart brukt på:
 postConsumeRecoveryCode-action = Handsam kontoen
 postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
@@ -315,10 +321,17 @@ confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
+verificationReminderSecond-action-2 = Stadfest kontoen
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
+verify-action-2 = Stadfest kontoen
+verifyLogin-subject-2 = Stadfest innlogging
 verifyLogin-action = Stadfest innlogging
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Logga du inn på { $serviceName }
 verifyLoginCode-expiry-notice = Den går ut om 5 minutt.
+verifyPrimary-title-2 = Stadfest primær e-postadresse
 verifyPrimary-description = Ein førespurnad om å utføre ei kontoendring er gjort frå følgjande eining:
 verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action-2 = Stadfest e-postadressa
@@ -326,4 +339,11 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title-2 = Stadfest sekundær e-postadresse
 verifySecondaryCode-action-2 = Stadfest e-postadressa
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Stadfest kontoen din
+verifyShortCode-title-2 = Opne internett med { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
+verifyShortCode-prompt-3 = Bruk denne stadfestingskoden
 verifyShortCode-expiry-notice = Den går ut om 5 minutt.
