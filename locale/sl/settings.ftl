@@ -772,11 +772,9 @@ auth-error-105-2 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
@@ -1041,6 +1039,12 @@ create-new-password-header = Ustvari novo geslo
 account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo ključa za obnovitev računa. Ustvarite novo geslo, da zavarujete svoje podatke in ga shranite na varnem mestu.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Geslo je nastavljeno
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Prišlo je do nepričakovane napake
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
+account-recovery-reset-password-email-resend-error = Pri ponovnem pošiljanju povezave za ponastavitev gesla na vaš e-poštni naslov je prišlo do težave.
+account-recovery-reset-password-redirecting = Preusmerjanje
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1076,10 +1080,10 @@ reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevan
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje v { $serviceName }</span>
 reset-password-warning-message-2 = <span>Opomba:</span> s ponastavitvijo gesla ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke { -product-pocket }.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-pošta
 reset-password-button = Začni ponastavitev
-reset-password-success-alert = Geslo ponastavljeno
-reset-password-error-general = Pri ponastavljanju gesla je žal prišlo do težave
-reset-password-error-unknown-account = Neznan račun
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun
