@@ -1031,8 +1031,11 @@ create-new-password-header = Crear nove contrasigno
 account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Configuration del contrasigno
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Error inexpectate incontrate
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 account-recovery-reset-password-email-resent = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
+account-recovery-reset-password-email-resend-error = Desolate, il habeva un problema reinviante un ligamine de remontage a tu email.
 account-recovery-reset-password-redirecting = Re-direction
 
 ## CompleteResetPassword component
