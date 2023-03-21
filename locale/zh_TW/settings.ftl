@@ -1005,6 +1005,10 @@ account-restored-success-message = 已成功使用帳號救援金鑰恢復您的
 account-recovery-reset-password-success-alert = 已設定密碼
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = 遇到未知錯誤
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
+account-recovery-reset-password-email-resend-error = 抱歉，重寄密碼重設信給您時遇到問題。
+account-recovery-reset-password-redirecting = 重導中
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1040,6 +1044,9 @@ reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
 reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = 電子郵件地址
 reset-password-button = 開始重設
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
