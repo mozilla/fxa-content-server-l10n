@@ -775,11 +775,9 @@ auth-error-105-2 = Нядзейсны код пацверджання
 auth-error-110 = Нядзейсны токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў { $retryAfter }.
 auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
@@ -1044,6 +1042,12 @@ create-new-password-header = Стварыць новы пароль
 account-restored-success-message = Вы паспяхова аднавілі свой уліковы запіс з дапамогай ключа аднаўлення. Стварыце новы пароль для абароны сваіх звестак, і захоўвайце яго ў надзейным месцы.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Пароль усталяваны
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Узнікла нечаканая памылка
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
+account-recovery-reset-password-email-resend-error = На жаль, узнікла праблема паўторнай адпраўкі спасылкі для скіду пароля на вашу электронную пошту.
+account-recovery-reset-password-redirecting = Перанакіраванне
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1079,10 +1083,10 @@ reset-password-heading-w-default-service = Скіньце пароль, <span>к
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Скіньце пароль <span>, каб перайсці да { $serviceName }</span>
 reset-password-warning-message-2 = <span>Заўвага:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем дадзеныя вашым паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя { -product-pocket } таксама не будуць закранутыя.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Электронная пошта
 reset-password-button = Пачаць скід
-reset-password-success-alert = Скід пароля
-reset-password-error-general = На жаль, падчас скіду вашага пароля ўзнікла праблема
-reset-password-error-unknown-account = Невядомы ўліковы запіс
 reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
