@@ -764,11 +764,9 @@ auth-error-105-2 = Codice de confirmation invalide
 auth-error-110 = Token invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
@@ -1033,6 +1031,9 @@ create-new-password-header = Crear nove contrasigno
 account-restored-success-message = Tu ha restaurate con successo tu conto per tu clave de recuperation del conto. Crea un nove contrasigno pro render secur tu datos, e immagazina lo in un loco secur.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Configuration del contrasigno
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
+account-recovery-reset-password-redirecting = Re-direction
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1068,10 +1069,10 @@ reset-password-heading-w-default-service = Remonta le contrasigno <span>pro cont
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Remonta le contrasigno <span>pro continuar a { $serviceName }</span>
 reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { -product-pocket } non sera afficite.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Initiar reinitialisation
-reset-password-success-alert = Remontar contrasigno
-reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
-reset-password-error-unknown-account = Conto incognite
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
