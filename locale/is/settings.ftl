@@ -768,11 +768,9 @@ auth-error-105-2 = Ógildur staðfestingarkóði
 auth-error-110 = Ógilt teikn
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
 auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
@@ -1037,6 +1035,12 @@ create-new-password-header = Búa til nýtt lykilorð
 account-restored-success-message = Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Lykilorð stillt
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Óvænt villa kom upp
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
+account-recovery-reset-password-email-resend-error = Því miður kom upp vandamál við að endursenda tengil til að endurstilla lykilorð á netfangið þitt.
+account-recovery-reset-password-redirecting = Endurbeini
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1072,10 +1076,10 @@ reset-password-heading-w-default-service = Endurstilltu lykilorðið <span>til a
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Endurstilltu lykilorðið <span>til að halda áfram í { $serviceName }</span>
 reset-password-warning-message-2 = <span>Athugaðu:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í  { -product-pocket }.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Tölvupóstfang
 reset-password-button = Hefja endurstillingu
-reset-password-success-alert = Endurstilling lykilorðs
-reset-password-error-general = Því miður kom upp vandamál við að endurstilla lykilorðið þitt
-reset-password-error-unknown-account = Óþekktur reikningur
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
