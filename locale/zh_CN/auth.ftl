@@ -239,10 +239,10 @@ newDeviceLogin-subject = { $clientName } 有新的登录活动
 newDeviceLogin-title-2 = 您的 { -product-firefox-account }有登录活动
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="passwordChangeLink">请更改您的密码</a>。
+newDeviceLogin-change-password = 不是您本人操作？请<a data-l10n-name="passwordChangeLink">更改密码</a>。
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password-plain = 不是您本人操作？请更改您的密码：
+newDeviceLogin-change-password-plain = 不是您本人操作？请更改密码：
 newDeviceLogin-action = 管理账户
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
