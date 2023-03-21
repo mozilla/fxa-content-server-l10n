@@ -162,6 +162,11 @@ downloadSubscription-link-action-2 = เริ่มต้น
 fraudulentAccountDeletion-subject = ลบ{ -product-firefox-account } ของคุณแล้ว
 fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
 fraudulentAccountDeletion-content = เมื่อเร็วๆ นี้ { -product-firefox-account } ได้ถูกสร้างขึ้นและได้มีการเรียกเก็บเงินค่าสมัครสมาชิกโดยใช้ที่อยู่อีเมลนี้ เช่นเดียวกับที่เราดำเนินการกับบัญชีใหม่ทั้งหมด เราขอให้คุณยืนยันบัญชีของคุณโดยตรวจสอบความถูกต้องของที่อยู่อีเมลนี้ก่อน
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = คุณไม่มีรหัสยืนยันตัวตนสำรองเหลืออีกแล้ว!
 lowRecoveryCodes-action-2 = สร้างรหัส
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
