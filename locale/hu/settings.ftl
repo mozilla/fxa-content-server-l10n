@@ -772,11 +772,9 @@ auth-error-105-2 = Érvénytelen megerősítő kód!
 auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
@@ -1041,6 +1039,12 @@ create-new-password-header = Új jelszó létrehozása
 account-restored-success-message = Sikeresen helyreállította a fiókját a fiók-helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Jelszó megadva
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Váratlan hiba történt
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
+account-recovery-reset-password-email-resend-error = Sajnos hiba történt a jelszó-visszaállítási hivatkozást tartalmazó levél újraküldésekor.
+account-recovery-reset-password-redirecting = Átirányítás
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1076,10 +1080,10 @@ reset-password-heading-w-default-service = Állítsa vissza a jelszót <span>a f
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Állítsa vissza a jelszót <span>a következőhöz való továbblépéshez: { $serviceName }</span>
 reset-password-warning-message-2 = <span>Megjegyzés:</span> Ha visszaállítja a jelszavát, akkor visszaállítja a fiókját is. Emiatt elveszítheti a személyes információit (köztük az előzményeit, könyvjelzőit és jelszavait). Ez azért van, mert az adatait a jelszavával titkosítjuk az adatvédelme érdekében. Az esetleges előfizetéseit és { -product-pocket }-adatait továbbra is meg fogja tartani.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail
 reset-password-button = Visszaállítás elkezdése
-reset-password-success-alert = Jelszó visszaállítása
-reset-password-error-general = Sajnos probléma merült fel a jelszó visszaállításakor
-reset-password-error-unknown-account = Ismeretlen fiók
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-with-recovery-key-verified-generate-new-key = Új fiók-helyreállítási kulcs előállítása
 reset-password-with-recovery-key-verified-continue-to-account = Folytatás a saját fiókjához
