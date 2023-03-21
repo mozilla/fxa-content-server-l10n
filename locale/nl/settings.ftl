@@ -774,11 +774,9 @@ auth-error-105-2 = Ongeldige bevestigingscode
 auth-error-110 = Ongeldige token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opnieuw.
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
@@ -1043,6 +1041,12 @@ create-new-password-header = Nieuw wachtwoord aanmaken
 account-restored-success-message = U hebt met succes uw account hersteld via uw accountherstelsleutel. Maak een nieuw wachtwoord aan om uw gegevens te beveiligen, en sla dit op een veilige locatie op.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Wachtwoord ingesteld
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Er is een onverwachte fout opgetreden
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
+account-recovery-reset-password-email-resend-error = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van een koppeling voor wachtwoordherinitialisatie naar uw e-mailadres.
+account-recovery-reset-password-redirecting = Omleiden
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1078,10 +1082,10 @@ reset-password-heading-w-default-service = Stel uw wachtwoord opnieuw in <span>o
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel uw wachtwoord opnieuw in <span>om door te gaan naar { $serviceName }</span>
 reset-password-warning-message-2 = <span>Noot:</span> wanneer u uw wachtwoord opnieuw instelt, stelt u uw account opnieuw in. Bepaalde persoonlijke gegevens (waaronder geschiedenis, bladwijzers en wachtwoorden) kunnen verloren gaan. Dit komt doordat we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen. U behoudt al uw eventuele abonnementen en { -product-pocket }-gegevens worden niet beïnvloed.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mailadres
 reset-password-button = Herinitialisatie beginnen
-reset-password-success-alert = Wachtwoord opnieuw instellen
-reset-password-error-general = Sorry, er is een probleem opgetreden bij het opnieuw instellen van uw wachtwoord
-reset-password-error-unknown-account = Onbekende account
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
 reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account
