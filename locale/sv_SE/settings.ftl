@@ -774,11 +774,9 @@ auth-error-105-2 = Ogiltig bekräftelsekod
 auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
@@ -1043,6 +1041,12 @@ create-new-password-header = Skapa nytt lösenord
 account-restored-success-message = Du har lyckats återställa ditt konto med din kontoåterställningsnyckel. Skapa ett nytt lösenord för att skydda dina data och lagra dem på en säker plats.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Lösenord satt
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Ett oväntat fel uppstod
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-post skickat igen. Lägg till { $accountsEmail } till dina kontakter för att säkerställa en smidig leverans.
+account-recovery-reset-password-email-resend-error = Det uppstod ett problem med att skicka om en länk för återställning av lösenord till din e-post.
+account-recovery-reset-password-redirecting = Omdirigerar
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1078,10 +1082,10 @@ reset-password-heading-w-default-service = Återställ lösenordet <span>för at
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Återställ lösenordet <span>för att fortsätta till { $serviceName }</span>
 reset-password-warning-message-2 = <span>Obs!</span> När du återställer ditt lösenord återställer du ditt konto. Du kan förlora en del av din personliga information (inklusive historik, bokmärken och lösenord). Det beror på att vi krypterar din data med ditt lösenord för att skydda din integritet. Du kommer fortfarande att behålla alla prenumerationer du kan ha och { -product-pocket }-data kommer inte att påverkas.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-post
 reset-password-button = Påbörja återställning
-reset-password-success-alert = Lösenordsåterställning
-reset-password-error-general = Tyvärr, det uppstod ett problem med att återställa ditt lösenord
-reset-password-error-unknown-account = Okänt konto
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto
