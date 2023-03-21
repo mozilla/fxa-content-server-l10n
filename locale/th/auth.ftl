@@ -167,6 +167,10 @@ fraudulentAccountDeletion-content = เมื่อเร็วๆ นี้ { -
 fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = คุณไม่มีรหัสยืนยันตัวตนสำรองเหลืออีกแล้ว!
+codes-reminder-title-one = คุณเหลือรหัสยืนยันตัวตนสำรองเพียงรหัสเดียวเท่านั้น
+codes-reminder-title-two = ได้เวลาสร้างรหัสยืนยันตัวตนเพิ่มแล้ว
+codes-reminder-description-part-one = รหัสยืนยันตัวตนสำรองช่วยคุณเรียกคืนข้อมูลของคุณเมื่อคุณลืมรหัสผ่านได้
+codes-reminder-description-part-two = สร้างรหัสใหม่ตอนนี้เลยเพื่อไม่ให้ข้อมูลสูญหายในภายหลัง
 lowRecoveryCodes-action-2 = สร้างรหัส
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
