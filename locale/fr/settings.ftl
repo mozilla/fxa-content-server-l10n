@@ -753,11 +753,9 @@ auth-error-105-2 = Code de confirmation invalide
 auth-error-110 = Jeton invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
 auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
@@ -1022,6 +1020,11 @@ create-new-password-header = Créer un nouveau mot de passe
 account-restored-success-message = Vous avez correctement restauré votre compte en utilisant votre clé de récupération du compte. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Mot de passe défini
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Erreur inattendue
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-mail renvoyé. Ajoutez { $accountsEmail } à vos contacts pour assurer la bonne réception des messages.
+account-recovery-reset-password-redirecting = Redirection
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1057,10 +1060,10 @@ reset-password-heading-w-default-service = Réinitialisez le mot de passe <span>
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Réinitialisez le mot de passe <span>pour continuer vers { $serviceName }</span>
 reset-password-warning-message-2 = <span>Attention :</span> Lorsque vous réinitialisez votre mot de passe, vous réinitialisez votre compte. Il se peut que vous perdiez certaines informations personnelles (comme votre historique, vos marque-pages et vos mots de passe), car nous chiffrons vos données à l’aide de votre mot de passe afin de protéger votre vie privée. Vos éventuels abonnements seront cependant conservés et vos données { -product-pocket } ne seront pas affectées.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Adresse e-mail
 reset-password-button = Lancer la réinitialisation
-reset-password-success-alert = Mot de passe réinitialisé
-reset-password-error-general = Un problème est survenu lors de la réinitialisation de votre mot de passe
-reset-password-error-unknown-account = Compte inconnu
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
