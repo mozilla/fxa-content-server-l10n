@@ -738,11 +738,9 @@ auth-error-105-2 = 无效的验证码
 auth-error-110 = 无效令牌
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已尝试太多次，请 { $retryAfter } 再试。
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
@@ -1013,6 +1011,9 @@ create-new-password-header = 创建新密码
 account-restored-success-message = 已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = 密码已设置
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = 发生意外错误。
+account-recovery-reset-password-redirecting = 正在重定向
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1048,10 +1049,10 @@ reset-password-heading-w-default-service = 重置密码以<span>继续设置账�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
 reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了帐户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = 邮箱地址
 reset-password-button = 开始重置
-reset-password-success-alert = 密码重置
-reset-password-error-general = 抱歉，重置密码时出现问题
-reset-password-error-unknown-account = 未知账户
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
