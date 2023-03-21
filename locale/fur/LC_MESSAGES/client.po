@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 10:19+0000\n"
+"PO-Revision-Date: 2023-03-21 05:01+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -311,7 +311,7 @@ msgstr "Tu âs provât masse voltis. Torne prove plui indenant."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Tu âs provât masse voltis. Torne prove %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
