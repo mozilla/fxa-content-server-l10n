@@ -1045,6 +1045,8 @@ account-recovery-reset-password-success-alert = Wachtwurd ynsteld
 account-recovery-reset-password-unexpected-error = Der is in ûnferwachte flater bard
 # $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
 account-recovery-reset-password-email-resent = E-mailberjocht opnij ferstjoere. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
+account-recovery-reset-password-email-resend-error = Sorry, der is in probleem bard by it opnij ferstjoeren fan in keppeling foar wachtwurdherinisjalisaasje nei jo e-mailadres.
+account-recovery-reset-password-redirecting = Omliede
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1080,6 +1082,9 @@ reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om t
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
 reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mailadres
 reset-password-button = Werinisjalisaasje begjinne
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
