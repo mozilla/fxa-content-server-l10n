@@ -736,11 +736,9 @@ auth-error-105-2 = 確認碼無效
 auth-error-110 = token 無效
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
@@ -1005,6 +1003,8 @@ create-new-password-header = 設定新密碼
 account-restored-success-message = 已成功使用帳號救援金鑰恢復您的帳號。請設定新的密碼來加密您的資料，並將密碼保存在安全的地方。
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = 已設定密碼
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = 遇到未知錯誤
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1041,9 +1041,6 @@ reset-password-heading-w-default-service = 重設密碼<span>即可繼續前往�
 reset-password-heading-w-custom-service = 重設密碼<span>即可繼續前往 { $serviceName }</span>
 reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，{ -product-pocket } 服務當中的資料也不受影響。
 reset-password-button = 開始重設
-reset-password-success-alert = 密碼重設
-reset-password-error-general = 很抱歉，重設您的密碼時發生問題
-reset-password-error-unknown-account = 未知帳號
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
