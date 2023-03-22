@@ -771,11 +771,9 @@ auth-error-105-2 = Neplatný potvrdzovací kód
 auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
@@ -1040,6 +1038,12 @@ create-new-password-header = Vytvoriť nové heslo
 account-restored-success-message = Úspešne ste obnovili svoj účet pomocou kľúča na obnovenie účtu. Vytvorte si nové heslo na zabezpečenie svojich údajov a uložte ho na bezpečné miesto.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Heslo bolo nastavené
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Vyskytla sa neočakávaná chyba
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
+account-recovery-reset-password-email-resend-error = Ľutujeme, vyskytol sa problém s opätovným odoslaním odkazu na obnovenie hesla na váš e-mail.
+account-recovery-reset-password-redirecting = Prebieha presmerovanie
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1075,10 +1079,10 @@ reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
 reset-password-warning-message-2 = <span>Poznámka:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby { -product-pocket }.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mailová adresa
 reset-password-button = Spustiť obnovu
-reset-password-success-alert = Obnova hesla
-reset-password-error-general = Ľutujeme, pri obnovení hesla sa vyskytol problém
-reset-password-error-unknown-account = Neznámy účet
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
