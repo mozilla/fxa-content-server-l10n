@@ -736,11 +736,9 @@ auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
@@ -1005,6 +1003,12 @@ create-new-password-header = Criar nova senha
 account-restored-success-message = Você restaurou sua conta com sucesso usando sua chave de recuperação de conta. Mude a senha para proteger seus dados e a armazene em um local seguro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Senha definida
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Encontrado erro não esperado
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
+account-recovery-reset-password-email-resend-error = Houve um problema ao reenviar email com link de redefinição de senha.
+account-recovery-reset-password-redirecting = Redirecionando
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1040,10 +1044,10 @@ reset-password-heading-w-default-service = Redefina a senha <span>para continuar
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Redefina a senha <span>para continuar para { $serviceName }</span>
 reset-password-warning-message-2 = <span>Nota:</span> Ao redefinir sua senha, você redefine sua conta. Você pode perder algumas informações pessoais (inclusive histórico, favoritos e senhas). Isso porque criptografamos seus dados com sua senha para proteger sua privacidade. São mantidas as assinaturas que você tiver. Dados do { -product-pocket } não são afetados.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Iniciar redefinição
-reset-password-success-alert = Redefinição de senha
-reset-password-error-general = Desculpe, houve um problema ao redefinir sua senha
-reset-password-error-unknown-account = Conta desconhecida
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-with-recovery-key-verified-generate-new-key = Gerar nova chave de recuperação de conta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar para minha conta
