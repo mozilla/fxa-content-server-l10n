@@ -746,11 +746,9 @@ auth-error-105-2 = Virheellinen vahvistuskoodi
 auth-error-110 = Virheellinen poletti
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
@@ -945,9 +943,6 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
 reset-password-button = Aloita nollaus
-reset-password-success-alert = Salasanan nollaus
-reset-password-error-general = Valitettavasti salasanaa nollatessa ilmeni ongelma
-reset-password-error-unknown-account = Tuntematon tili
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
 
@@ -991,6 +986,8 @@ signin-recovery-code-back-link = Edellinen
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Jäitkö ulos tililtäsi?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Varatodennuskoodi vaaditaan
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1019,6 +1016,8 @@ signin-totp-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
 signin-totp-code-recovery-code-link = Ongelmia koodin kirjoittamisen kanssa?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Todennuskoodi vaaditaan
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1032,6 +1031,8 @@ confirm-signup-heading = Vahvista tilisi
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Kirjoita vahvistuskoodi
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Vahvista
