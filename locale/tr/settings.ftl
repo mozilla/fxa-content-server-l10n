@@ -747,11 +747,9 @@ auth-error-105-2 = Geçersiz onay kodu
 auth-error-110 = Geçersiz jeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } yeniden deneyin.
 auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
@@ -1016,6 +1014,12 @@ create-new-password-header = Yeni parola oluştur
 account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Parola ayarlandı
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Beklenmeyen bir hatayla karşılaşıldı
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
+account-recovery-reset-password-email-resend-error = E-postanıza parola sıfırlama bağlantısı gönderilirken bir sorun oluştu.
+account-recovery-reset-password-redirecting = Yönlendiriliyor
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1028,6 +1032,7 @@ complete-reset-password-success-alert = Parola ayarlandı
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
+complete-reset-password-recovery-key-error = Hesap kurtarma anahtarınız olup olmadığı kontrol edilirken bir sorun oluştu. <hasRecoveryKeyErrorLink>Hesap kurtarma anahtarınızı kullanarak parolanızı sıfırlayın.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1050,10 +1055,10 @@ reset-password-heading-w-default-service = <span>Hesap ayarlarına devam etmek i
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> parolanızı sıfırlayın
 reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsanız hesabınız da sıfırlanır. Bu durumda bazı kişisel bilgileriniz (örn. geçmişiniz, yer imleriniz ve parolalarınız) silinir. Gizliliğinizi korumak adına verilerinizi parolanızı kullanarak şifrelediğimiz için bu verileri geri getiremeyiz. Abonelikleriniz varsa onlar korunacak ve { -product-pocket } verileriniz etkilenmeyecektir.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-posta
 reset-password-button = Sıfırlamayı başlat
-reset-password-success-alert = Parola sıfırlama
-reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
-reset-password-error-unknown-account = Bilinmeyen hesap
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
