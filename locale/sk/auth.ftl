@@ -560,7 +560,7 @@ verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Schváliť prihlásenie do { $serviceName }
+verifyLoginCode-subject-line-2 = Schválenie prihlásenia do { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Prihlásili ste sa do produktu { $serviceName }?
