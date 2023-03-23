@@ -764,11 +764,9 @@ auth-error-105-2 = არასწორი დამადასტურებ
 auth-error-110 = უმართებულო სიტყვა-ნიშანი
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
@@ -987,9 +985,6 @@ reset-password-heading-w-default-service = გაანულეთ პარო
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხილოთ { $serviceName }</span>
 reset-password-button = აღდგენის დაწყება
-reset-password-success-alert = პაროლის განულება
-reset-password-error-general = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის განულებისას
-reset-password-error-unknown-account = უცნობი ანგარიში
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-with-recovery-key-verified-generate-new-key = ანგარიშის აღდგენის ახალი გასაღების შედგენა
 reset-password-with-recovery-key-verified-continue-to-account = ანგარიშზე გადასვლა
@@ -1037,7 +1032,7 @@ signin-recovery-code-back-link = უკან
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ვერ ახერხებთ შესვლას?
 # Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = შესვლი დამოწმების სამარქაფო კოდი აუცილებელია
+signin-recovery-code-required-error = შესვლის დამოწმების სამარქაფო კოდი აუცილებელია
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
