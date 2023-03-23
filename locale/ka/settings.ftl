@@ -607,8 +607,12 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
+tfa-enter-totp-v2 = ახლა კი შეიყვანეთ უსაფრთხოების კოდი შესვლის დასამოწმებელი პროგრამიდან.
 tfa-input-enter-totp-v2 =
     .label = შეიყვანეთ შესვლის დამოწმების კოდი
+tfa-save-these-codes-1 =
+    გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
+    როცა თან არ გექნებათ მობილური მოწყობილობა.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -828,6 +832,12 @@ cookies-disabled-learn-more = ვრცლად
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = შეინახეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = გადაინახეთ ეს ერთჯერადი კოდები უსაფრთხო ადგილას იმ შემთხვევისთვის, თუ არ გექნებათ მობილური მოწყობილობა.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = გაუქმება
@@ -852,7 +862,29 @@ inline-recovery-confirmation-header = დაადასტურეთ შე�
 
 inline-totp-setup-cancel-setup-button = გამართვის გაუქმება
 inline-totp-setup-continue-button = გაგრძელება
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = დაამატეთ დაცვის დამატებითი შრე თქვენი ანგარიშისთვის, შესვლის კოდების მოთხოვნის სახით, <authenticationAppsLink>შესვლის დასამოწმებელი რომელიმე ამ პროგრამიდან</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = ჩართეთ შესვლის ორბიჯიანი დამოწმება, რომ იხილოთ <span>ანგარიშის პარამეტრები</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = ჩართეთ შესვლის ორბიჯიანი დამოწმება, რომ იხილოთ <span>{ $serviceName }</span>
 inline-totp-setup-ready-button = მზადაა
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = წააკითხეთ შესვლის კოდი, <span>რომ იხილოთ { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = ხელით შეიყვანეთ კოდი, <span>რომ იხილოთ { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = წააკითხეთ შესვლის კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = ხელით შეიყვანეთ კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = აკრიფეთ ეს საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში. <toggleToQRButton>სანაცვლოდ გსურთ წააკითხოთ QR-კოდი?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = წააკითხეთ QR-კოდი შესვლის დასამოწმებელ პროგრამას და შემდეგ შეიყვანეთ მის მიერ მოწოდებული პაროლი. <toggleToManualModeButton>ვერ ხერხდება კოდის წაკითხვა?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = დასრულების შემდეგ დაიწყება უსაფრთხოების კოდების შედგენა გამოსაყენებლად.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = შესვლის დამოწმების კოდი
 
@@ -888,6 +920,9 @@ pair-auth-allow-refuse-device-link = თუ თქვენ არ ყოფი�
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = მოწყობილობა დაკავშირებულია
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = ახლა დასინქრონებულია: { $deviceFamily } მოწყობილობაზე { $deviceOS }
 pair-auth-complete-sync-benefits-text = ახლა უკვე შეგიძლიათ წვდომა თქვენს გახსნილ ჩანართებთან, პაროლებსა და სანიშნეებთან ყველა მოწყობილობიდან.
 pair-auth-complete-see-tabs-button = იხილეთ ჩანართები დასინქრონებული მოწყობილობებიდან
 pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
@@ -896,6 +931,14 @@ pair-auth-complete-manage-devices-link = მოწყობილობები
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ { $serviceName }</span>
+auth-totp-instruction = გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ შესვლის მოცემული კოდი.
 auth-totp-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = თანხმობა
@@ -906,6 +949,9 @@ auth-totp-code-required-error = შესვლის დამოწმებ�
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = ახლა საჭიროა დამოწმება <small>თქვენი მეორე მოწყობილობიდან</small>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -914,6 +960,8 @@ pair-failure-message = გამართვის მიმდინარე�
 
 ## Pair index page
 
+pair-sync-header = დაასინქრონეთ { -brand-firefox } მობილურზე ან პლანშეტზე
+pair-cad-header = დაუკავშირეთ { -brand-firefox } სხვა მოწყობილობას
 pair-already-have-firefox-paragraph = უკვე გაქვთ { -brand-firefox } ტელეფონზე ან პლანშეტზე?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = დაასინქრონეთ მოწყობილობა

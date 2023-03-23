@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-23 19:34+0000\n"
+"PO-Revision-Date: 2023-03-23 19:35+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -688,11 +688,11 @@ msgstr "შესვლის დამოწმების სამარქ�
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "შესვლის დამოწმების უმართებულო სამარქაფო კოდი"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "ანგარიშის აღდგენის გასაღები აუცილებელია"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
