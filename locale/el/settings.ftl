@@ -108,6 +108,8 @@ form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβα�
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Αυτό το πεδίο απαιτείται
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -166,9 +168,14 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Θυμάστε τον κωδικό πρόσβασης σας; Συνδεθείτε
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Το κύριο email έχει ήδη επαληθευτεί
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 
@@ -182,6 +189,7 @@ password-strength-balloon-heading = Απαιτήσεις κωδικού πρόσ
 password-strength-balloon-min-length = Τουλάχιστον 8 χαρακτήρες
 password-strength-balloon-not-email = Όχι τη διεύθυνση email σας
 password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
+password-strength-balloon-stay-safe-tips = Μείνετε ασφαλείς — μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
 
 ## Ready component
 
@@ -736,11 +744,9 @@ auth-error-105-2 = Μη έγκυρος κωδικός επιβεβαίωσης
 auth-error-110 = Μη έγκυρο διακριτικό
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
@@ -948,9 +954,6 @@ resend-pw-reset-banner = Το email απεστάλη. Προσθέστε το { 
 ## ResetPassword page
 
 reset-password-button = Έναρξη επαναφοράς
-reset-password-success-alert = Έγινε επαναφορά του κωδικού πρόσβασης
-reset-password-error-general = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναφορά του κωδικού πρόσβασής σας
-reset-password-error-unknown-account = Άγνωστος λογαριασμός
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
@@ -980,6 +983,8 @@ signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 signin-bounced-header = Συγγνώμη. Έχουμε κλειδώσει τον λογαριασμό σας.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Αν αυτή είναι μια έγκυρη διεύθυνση email, <linkExternal>ενημερώστε μας</linkExternal> και θα σας βοηθήσουμε να ξεκλειδώσετε τον λογαριασμό σας.
 signin-bounced-create-new-account = Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό
 back = Πίσω
 
@@ -1011,11 +1016,21 @@ signin-token-code-confirm-button = Επιβεβαίωση
 signin-token-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+signin-totp-code-instruction-v2 = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
 signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού

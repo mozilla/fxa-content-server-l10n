@@ -269,6 +269,39 @@ coupon-promo-code = Κωδικός προσφοράς
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } ημερησίως
+       *[other] { $amount } κάθε { $intervalCount } ημέρες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ημερησίως
+           *[other] { $amount } κάθε { $intervalCount } ημέρες
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } εβδομαδιαία
+       *[other] { $amount } κάθε { $intervalCount } εβδομάδες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } εβδομαδιαία
+           *[other] { $amount } κάθε { $intervalCount } εβδομάδες
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } ετησίως
+       *[other] { $amount } κάθε { $intervalCount } έτη
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ετησίως
+           *[other] { $amount } κάθε { $intervalCount } έτη
+        }
 
 ## Error messages
 
