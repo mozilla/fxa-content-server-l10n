@@ -199,6 +199,8 @@ ready-start-browsing-button = Έναρξη περιήγησης
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Μπορείτε τώρα να χρησιμοποιήσετε το { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Μπορείτε πλέον χρησιμοποιήσετε τις ρυθμίσεις λογαριασμού
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Ο λογαριασμός σας είναι έτοιμος!
 ready-continue = Συνέχεια
@@ -733,8 +735,12 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Συνεχίζοντας, συμφωνείτε με:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
 
 ## Auth-server based errors that originate from backend service
 
