@@ -768,11 +768,9 @@ auth-error-105-2 = Cod cadarnhau annilys
 auth-error-110 = Tocyn annilys
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
 auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
@@ -1037,6 +1035,12 @@ create-new-password-header = Creu cyfrinair newydd
 account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio allwedd adfer eich cyfrif. Crëwch gyfrinair newydd i ddiogelu'ch data, a'i gadw mewn man diogel.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Wedi gosod y cyfrinair
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Cafwyd gwall annisgwyl
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
+account-recovery-reset-password-email-resend-error = Ymddiheuriadau, bu anhawster wrth ail anfon dolen ailosod cyfrinair i'ch e-bost.
+account-recovery-reset-password-redirecting = Yn ailgyfeirio
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1072,10 +1076,10 @@ reset-password-heading-w-default-service = Ailosodwch y cyfrinair <span>i barhau
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ailosodwch y cyfrinair <span>i barhau i { $serviceName }</span>
 reset-password-warning-message-2 = <span>Sylwch:</span> Pan fyddwch yn ailosod eich cyfrinair, byddwch yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data { -product-pocket } yn cael ei effeithio.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-bost
 reset-password-button = Cychwyn ailosod
-reset-password-success-alert = Ailosod cyfrinair
-reset-password-error-general = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-reset-password-error-unknown-account = Cyfrif anhysbys
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
