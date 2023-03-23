@@ -967,8 +967,11 @@ pair-already-have-firefox-paragraph = უკვე გაქვთ { -brand-fire
 pair-sync-your-device-button = დაასინქრონეთ მოწყობილობა
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = ან ჩამოტვირთეთ
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = წააკითხეთ, რომ ჩამოტვირთოთ { -brand-firefox } მობილურზე ან გაუგზავნეთ საკუთარ თავს <linkExternal>ჩამოსატვირთი ბმული</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = ახლა არა
+pair-take-your-data-message = წაიყოლეთ თქვენი სანიშნები და პაროლები ყველგან, სადაც გიყენიათ { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = დაიწყეთ
 # This is the aria label on the QR code image
@@ -994,6 +997,7 @@ pair-supp-allow-cancel-link = გაუქმება
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = მიერთება აპლიკაციის გამოყენებით
+pair-unsupported-message = სისტემის კამერას იყენებდით? მიერთებაა საჭირო { -brand-firefox }-პროგრამიდან.
 
 ## AccountRecoveryConfirmKey page
 
