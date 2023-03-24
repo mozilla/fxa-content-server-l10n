@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Закрыць
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Нешта пайшло не так. Не ўдалося адправіць новую спасылку.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Нешта пайшло не так. Не ўдалося адправіць новы код.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Крэдытныя карты
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Адкрыць { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Няма ў уваходных ці ў спаме? Выслаць яшчэ раз
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Спасылка для скіду пароля 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Спасылка для пацвярджэння пашкоджана
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = У спасылцы, па якой вы прайшлі, прапушчаны сімвалы, магчыма, яна была пашкоджана вашым паштовым кліентам. Акуратна скапіруйце адрас і паспрабуйце ізноў.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Атрымаць новую спасылку
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Спасылка для скіду пароля пратэрмінаваная
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Тэрмін дзеяння спасылкі для пацвярджэння скончыўся
 reset-pwd-link-expired-message = Спасылка, па якой вы прайшлі для скіду пароля, пратэрмінаваная.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Тэрмін дзеяння спасылкі для пацвярджэння скончыўся
 signin-link-expired-message = Спасылка, па якой вы прайшлі для пацвярджэння электроннай пошты, пратэрмінаваная.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Атрымаць новую спасылку
 
 ## LinkRememberPassword component
 
@@ -1044,9 +1054,6 @@ account-restored-success-message = Вы паспяхова аднавілі св
 account-recovery-reset-password-success-alert = Пароль усталяваны
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Узнікла нечаканая памылка
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
-account-recovery-reset-password-email-resend-error = На жаль, узнікла праблема паўторнай адпраўкі спасылкі для скіду пароля на вашу электронную пошту.
 account-recovery-reset-password-redirecting = Перанакіраванне
 
 ## CompleteResetPassword component
@@ -1070,8 +1077,6 @@ confirm-pw-reset-header = Ліст для скіду пароля дасланы
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Прайдзіце па спасылцы, дасланай на { $email }, на працягу наступнай гадзіны, каб стварыць новы пароль.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
 
 ## ResetPassword page
 
@@ -1224,11 +1229,6 @@ confirm-signup-code-code-expired = Код пратэрмінаваны?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Адправіць новы код па электроннай пошце.
 confirm-signup-code-success-alert = Уліковы запіс паспяхова пацверджаны
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Нешта пайшло не так. Не ўдалося адправіць новы код.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Патрабуецца код пацвярджэння
 
