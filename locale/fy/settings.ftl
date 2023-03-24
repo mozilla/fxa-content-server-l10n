@@ -774,11 +774,9 @@ auth-error-105-2 = Ferkearde befêstigingskoade
 auth-error-110 = Unjildich token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opnij.
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
@@ -1043,6 +1041,12 @@ create-new-password-header = Nij wachtwurd oanmeitsje
 account-restored-success-message = Jo hawwe mei sukses jo account wersteld fia jo accountwerstelkaai. Meitsje in nij wachtwurd oan om jo gegevens te befeiligjen, en bewarje dit op in feilige lokaasje.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Wachtwurd ynsteld
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Der is in ûnferwachte flater bard
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = E-mailberjocht opnij ferstjoere. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
+account-recovery-reset-password-email-resend-error = Sorry, der is in probleem bard by it opnij ferstjoeren fan in keppeling foar wachtwurdherinisjalisaasje nei jo e-mailadres.
+account-recovery-reset-password-redirecting = Omliede
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1078,10 +1082,10 @@ reset-password-heading-w-default-service = Stel jo wachtwurd opnij yn <span>om t
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel jo wachtwurd opnij yn <span>om troch te gean nei { $serviceName }</span>
 reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten en { -product-pocket }-gegevens wurde net beynfloede.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mailadres
 reset-password-button = Werinisjalisaasje begjinne
-reset-password-success-alert = Wachtwurd opnij ynstelle:
-reset-password-error-general = Sorry, der is in probleem bard by it opnij ynstellen fan jo wachtwurd
-reset-password-error-unknown-account = Unbekende account
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
