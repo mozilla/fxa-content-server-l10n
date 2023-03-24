@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Schließen
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Link gesendet werden.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Kreditkarten
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } öffnen
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Weder in Ihrem Posteingang noch im Spam-Ordner? Erneut senden
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Link zum Zurücksetzen des Passworts beschädigt
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bestätigungslink beschädigt
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Der Link, den Sie angeklickt haben, war unvollständig und könnte durch Ihr E-Mail-Programm beschädigt worden sein. Achten Sie darauf, dass die Adresse korrekt kopiert wird und versuchen Sie es erneut.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Neuen Link erhalten
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Link zum Zurücksetzen des Passworts abgelaufen
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Bestätigungslink abgelaufen
 reset-pwd-link-expired-message = Der Link, den Sie zum Zurücksetzen Ihres Passworts angeklickt haben, ist abgelaufen.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bestätigungslink abgelaufen
 signin-link-expired-message = Der Link, auf den Sie geklickt haben, um Ihre E-Mail zu bestätigen, ist abgelaufen.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Neuen Link erhalten
 
 ## LinkRememberPassword component
 
@@ -1036,9 +1046,6 @@ account-restored-success-message = Sie haben Ihr Konto mit Ihrem Kontowiederhers
 account-recovery-reset-password-success-alert = Passwort gesetzt
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Unerwarteter Fehler aufgetreten
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
-account-recovery-reset-password-email-resend-error = Entschuldigung, beim erneuten Senden eines Links zum Zurücksetzen des Passworts an Ihre E-Mail-Adresse ist ein Problem aufgetreten.
 account-recovery-reset-password-redirecting = Sie werden weitergeleitet
 
 ## CompleteResetPassword component
@@ -1062,8 +1069,6 @@ confirm-pw-reset-header = E-Mail zum Zurücksetzen gesendet
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klicken Sie innerhalb einer Stunde auf den Link, den wir per E-Mail an { $email } geschickt haben, um ein neues Passwort zu erstellen.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
 
 ## ResetPassword page
 
@@ -1216,11 +1221,6 @@ confirm-signup-code-code-expired = Code abgelaufen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Neuen Code per E-Mail senden.
 confirm-signup-code-success-alert = Konto erfolgreich bestätigt
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bestätigungscode ist erforderlich
 
