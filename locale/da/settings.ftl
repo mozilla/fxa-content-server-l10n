@@ -773,11 +773,9 @@ auth-error-105-2 = Ugyldig bekræftelseskode
 auth-error-110 = Ugyldigt token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
@@ -1042,6 +1040,12 @@ create-new-password-header = Opret ny adgangskode
 account-restored-success-message = Du har genoprettet din konto ved hjælp af din genoprettelsesnøgle til kontoen. Opret en ny adgangskode for at sikre dine data, og gem den et sikkert sted.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Adgangskode oprettet
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Der opstod en uventet fejl
+# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
+account-recovery-reset-password-email-resent = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
+account-recovery-reset-password-email-resend-error = Der opstod desværre et problem med at sende et link til nulstilling af adgangskode til din mailadresse igen.
+account-recovery-reset-password-redirecting = Omdirigerer
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1077,10 +1081,10 @@ reset-password-heading-w-default-service = Nulstil adgangskode <span>for at fort
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nulstil adgangskode <span>for at fortsætte til { $serviceName }</span>
 reset-password-warning-message-2 = <span>Bemærk:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi krypterer dine data med din adgangskode for at beskytte dit privatliv. Du beholder stadig de abonnementer, du måtte have, og dine { -product-pocket }-data berøres ikke.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Mailadresse
 reset-password-button = Start nulstilling
-reset-password-success-alert = Adgangskode nulstillet
-reset-password-error-general = Der opstod desværre et problem med at nulstille din adgangskode
-reset-password-error-unknown-account = Ukendt konto
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto
