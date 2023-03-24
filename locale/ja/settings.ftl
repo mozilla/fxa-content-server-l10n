@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = 閉じる
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = エラーが発生しました。新しいリンクを送信できませんでした。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = クレジットカード情報
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } を開く
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = 受信トレイや迷惑メールフォルダーに見当たりませんか？ 再送信
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = パスワードをリセットするリンクが
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 確認リンクが壊れています
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = 新しいリンクを受け取る
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = パスワードをリセットするリンクの有効期限が切れました
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = 確認リンクの有効期限が切れています
 reset-pwd-link-expired-message = パスワードをリセットするリンクの有効期限が過ぎています。
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 確認リンクの有効期限が切れています
 signin-link-expired-message = クリックされたメールアドレス確認リンクの有効期限が切れています。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 新しいリンクを受け取る
 
 ## LinkRememberPassword component
 
@@ -745,11 +755,9 @@ auth-error-105-2 = 不正な確認コード
 auth-error-110 = トークンが正しくありません
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 何回も試したため中断されました。{ $retryAfter }に再度試してください。
 auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
@@ -1014,6 +1022,9 @@ create-new-password-header = 新しいパスワードを作成
 account-restored-success-message = 回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = パスワードを設定しました
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = 予期しないエラーが発生しました
+account-recovery-reset-password-redirecting = リダイレクトします
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1036,8 +1047,6 @@ confirm-pw-reset-header = リセット用のメールが送信されました
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 1 時間以内に { $email } 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
 
 ## ResetPassword page
 
@@ -1049,10 +1058,10 @@ reset-password-heading-w-default-service = パスワードをリセットして 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = パスワードをリセットして <span>{ $serviceName } に進む</span>
 reset-password-warning-message-2 = <span>注意:</span> パスワードをリセットするとアカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと { -product-pocket } のデータは影響を受けません。
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = メールアドレス
 reset-password-button = リセットを開始
-reset-password-success-alert = パスワードをリセット
-reset-password-error-general = 申し訳ありませんが、パスワードのリセット中に問題が発生しました
-reset-password-error-unknown-account = 不明なアカウントです
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む
@@ -1190,11 +1199,6 @@ confirm-signup-code-code-expired = コードの有効期限が切れています
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 新しいコードをメール送信する。
 confirm-signup-code-success-alert = アカウントの確認が完了しました
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 確認コードが必要です
 
