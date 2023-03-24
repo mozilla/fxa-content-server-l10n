@@ -951,7 +951,7 @@ auth-totp-code-required-error = შესვლის დამოწმებ�
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = ახლა საჭიროა დამოწმება <small>თქვენი მეორე მოწყობილობიდან</small>
+pair-wait-for-supp-heading-text = ახლა საჭიროა დამოწმება <span>თქვენი მეორე მოწყობილობიდან</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
