@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Zapri
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Prišlo je do napake. Nove povezave ni bilo mogoče poslati.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = kreditne kartice
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Odpri { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Ni med prejeto ali vsiljeno pošto? Pošlji ponovno
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Povezava za ponastavitev gesla je poškodovana
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potrditvena povezava je poškodovana
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Povezavi, ki ste jo kliknili, so manjkali nekateri znaki. Morda jo je pokvaril vaš poštni odjemalec. Bodite previdni pri kopiranju in poskusite znova.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Prejmi novo povezavo
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Povezava za ponastavitev gesla je potekla
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Potrditvena povezava je potekla
 reset-pwd-link-expired-message = Povezava, ki ste jo kliknili za ponastavitev gesla, je potekla.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Potrditvena povezava je potekla
 signin-link-expired-message = Povezava za potrditev e-poštnega naslova je potekla.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Prejmi novo povezavo
 
 ## LinkRememberPassword component
 
@@ -1041,9 +1051,6 @@ account-restored-success-message = Uspešno ste obnovili svoj račun z uporabo k
 account-recovery-reset-password-success-alert = Geslo je nastavljeno
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Prišlo je do nepričakovane napake
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
-account-recovery-reset-password-email-resend-error = Pri ponovnem pošiljanju povezave za ponastavitev gesla na vaš e-poštni naslov je prišlo do težave.
 account-recovery-reset-password-redirecting = Preusmerjanje
 
 ## CompleteResetPassword component
@@ -1067,8 +1074,6 @@ confirm-pw-reset-header = Ponastavitvena e-pošta poslana
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = V naslednji uri kliknite na povezavo, poslano na { $email }, da ustvarite novo geslo.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
 
 ## ResetPassword page
 
@@ -1221,11 +1226,6 @@ confirm-signup-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Pošlji novo kodo.
 confirm-signup-code-success-alert = Račun uspešno potrjen
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Zahtevana je potrditvena koda
 
