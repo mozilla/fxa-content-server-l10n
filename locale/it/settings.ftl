@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Chiudi
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Si è verificato un problema. Impossibile inviare un nuovo link.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Si è verificato un problema. Impossibile inviare un nuovo codice.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Carte di credito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Apri { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Link per la reimpostazione della password danneg
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Il link di conferma è danneggiato
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Ricevi un nuovo link
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Link per la reimpostazione della password scaduto
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Il link di conferma è scaduto
 reset-pwd-link-expired-message = Il link su cui hai fatto clic per reimpostare la password è scaduto.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Il link di conferma è scaduto
 signin-link-expired-message = Il link su cui hai fatto clic per confermare il tuo indirizzo di posta elettronica è scaduto.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Ricevi un nuovo link
 
 ## LinkRememberPassword component
 
@@ -1016,9 +1026,6 @@ account-restored-success-message = L’account è stato correttamente recuperato
 account-recovery-reset-password-success-alert = Password impostata
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Si è verificato un errore imprevisto
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
-account-recovery-reset-password-email-resend-error = Si è verificato un problema durante l’invio del link per reimpostare la password al tuo indirizzo email.
 account-recovery-reset-password-redirecting = Reindirizzamento
 
 ## CompleteResetPassword component
@@ -1042,8 +1049,6 @@ confirm-pw-reset-header = Email per la reimpostazione della password inviata
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Per impostare una nuova password fai clic sul link inviato a { $email } entro un’ora.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
 
 ## ResetPassword page
 
@@ -1196,11 +1201,6 @@ confirm-signup-code-code-expired = Codice scaduto?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Invia email con nuovo codice.
 confirm-signup-code-success-alert = L’account è stato confermato correttamente
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Si è verificato un problema. Impossibile inviare un nuovo codice.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Codice di conferma obbligatorio
 
