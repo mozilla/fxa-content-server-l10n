@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Zavrieť
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Niečo sa pokazilo. Nový odkaz sa nepodarilo odoslať.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Platobné karty
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Otvoriť { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Nemáte nič v schránke ani v priečinku so spamom? Poslať znova
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potvrdzovací odkaz je poškodený
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e-mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Získať nový odkaz
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Platnosť odkazu na obnovenie hesla vypršala
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Platnosť potvrdzovacieho odkazu vypršala
 reset-pwd-link-expired-message = Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Platnosť potvrdzovacieho odkazu vypršala
 signin-link-expired-message = Platnosť odkazu, na ktorý ste klikli na potvrdenie vášho e-mailu, vypršala.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Získať nový odkaz
 
 ## LinkRememberPassword component
 
@@ -1040,9 +1050,6 @@ account-restored-success-message = Úspešne ste obnovili svoj účet pomocou k�
 account-recovery-reset-password-success-alert = Heslo bolo nastavené
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Vyskytla sa neočakávaná chyba
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
-account-recovery-reset-password-email-resend-error = Ľutujeme, vyskytol sa problém s opätovným odoslaním odkazu na obnovenie hesla na váš e-mail.
 account-recovery-reset-password-redirecting = Prebieha presmerovanie
 
 ## CompleteResetPassword component
@@ -1066,8 +1073,6 @@ confirm-pw-reset-header = E-mailová správa na obnovu hesla bola odoslaná
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kliknutím na odkaz odoslaný e-mailom na adresu { $email } v priebehu nasledujúcej hodiny si vytvoríte nové heslo.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 
 ## ResetPassword page
 
@@ -1220,11 +1225,6 @@ confirm-signup-code-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Odoslať e-mailom nový kód.
 confirm-signup-code-success-alert = Účet bol úspešne potvrdený
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Niečo sa pokazilo. Nepodarilo sa odoslať nový kód.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Vyžaduje sa potvrdzovací kód
 
