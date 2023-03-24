@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Clauder
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Alco errate eveniva. Un nove ligamine non pote esser inviate.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Cartas de credito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Aperir { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Non in le cassa de entrata, ni in le dossier de spam? Reinviar
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Ligamine pro reinitialisar contrasigno damnifica
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Ligamine de confirmation damnificate
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Recipe un nove ligamine
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Le ligamine pro reinitialisar le contrasigno ha expirate
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Ligamine de confirmation expirate
 reset-pwd-link-expired-message = Le ligamine sur le qual tu ha cliccate pro reinitialisar tu contrasigno ha expirate.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Ligamine de confirmation expirate
 signin-link-expired-message = Le ligamine que tu cliccava pro confirmar tu adresse email expirava.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Recipe un nove ligamine
 
 ## LinkRememberPassword component
 
@@ -1033,9 +1043,6 @@ account-restored-success-message = Tu ha restaurate con successo tu conto per tu
 account-recovery-reset-password-success-alert = Configuration del contrasigno
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Error inexpectate incontrate
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
-account-recovery-reset-password-email-resend-error = Desolate, il habeva un problema reinviante un ligamine de remontage a tu email.
 account-recovery-reset-password-redirecting = Re-direction
 
 ## CompleteResetPassword component
@@ -1059,8 +1066,6 @@ confirm-pw-reset-header = Message de reinitialisation inviate
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Clicca sur le ligamine inviate a { $email } intra le proxime hora pro crear un nove contrasigno.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
 ## ResetPassword page
 
@@ -1213,11 +1218,6 @@ confirm-signup-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Inviar nove codice per email.
 confirm-signup-code-success-alert = Conto confirmate con successo
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Codice de confirmation requirite
 
