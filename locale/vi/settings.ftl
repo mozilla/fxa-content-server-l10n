@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Đóng
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Đã xảy ra sự cố. Không thể gửi liên kết mới.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể gửi mã mới.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Thẻ tín dụng
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Mở { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Không có trong hộp thư đến hoặc thư mục spam? Gửi lại
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Liên kết đặt lại mật khẩu đã bị 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Liên kết xác minh bị hỏng
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Nhận liên kết mới
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Liên kết đặt lại mật khẩu đã hết hạn
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Liên kết xác minh đã hết hạn
 reset-pwd-link-expired-message = Liên kết bạn đã nhấp để đặt lại mật khẩu của bạn đã hết hạn.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Liên kết xác minh đã hết hạn
 signin-link-expired-message = Liên kết bạn đã nhấp để xác minh email của bạn đã hết hạn.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Nhận liên kết mới
 
 ## LinkRememberPassword component
 
@@ -1041,9 +1051,6 @@ account-restored-success-message = Bạn đã khôi phục thành công tài kho
 account-recovery-reset-password-success-alert = Đã đặt mật khẩu
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Đã xảy ra lỗi không mong muốn
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
-account-recovery-reset-password-email-resend-error = Rất tiếc, đã xảy ra sự cố khi gửi lại liên kết đặt lại mật khẩu tới email của bạn.
 account-recovery-reset-password-redirecting = Đang chuyển hướng
 
 ## CompleteResetPassword component
@@ -1067,8 +1074,6 @@ confirm-pw-reset-header = Đã gửi email đặt lại
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Nhấp vào liên kết được gửi qua email tới { $email } trong vòng một giờ tới để tạo mật khẩu mới.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
 
 ## ResetPassword page
 
@@ -1221,11 +1226,6 @@ confirm-signup-code-code-expired = Mã đã hết hạn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Gửi mã mới qua email.
 confirm-signup-code-success-alert = Đã xác minh tài khoản thành công
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Đã xảy ra sự cố. Không thể gửi mã mới.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Yêu cầu mã xác nhận
 
