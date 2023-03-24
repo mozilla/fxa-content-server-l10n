@@ -1,8 +1,7 @@
 name: Extract Strings
 on:
   schedule:
-    - cron: '0 20 * * 1' # At 13:00 PDT on Mondays
-    - cron: '0 20 * * 4' # At 13:00 PDT on Thursdays
+    - cron: '0 20 * * 1,4' # At 13:00 PDT on Mondays, Thursdays
   workflow_dispatch:
 jobs:
   extract:
