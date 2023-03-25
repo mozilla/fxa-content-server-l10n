@@ -10,6 +10,10 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = סגירה
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = משהו השתבש. לא ניתן היה לשלוח קישור חדש.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -39,13 +43,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = כרטיסי אשראי
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = פתיחת { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -148,19 +148,26 @@ reset-pwd-link-damaged-header = קישור לאיפוס ססמה פגום
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = קישור האימות פגום
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = לקישור שלחצת חסרים תווים, ויתכן שנפגם על־ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולנסות שוב.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = קבלת קישור חדש
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = פג תוקף הקישור לאיפוס הססמה
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = פג תוקף קישור האימות
 reset-pwd-link-expired-message = פג תוקף הקישור לאיפוס הססמה עליו לחצת.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = פג תוקף קישור האימות
 signin-link-expired-message = פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = קבלת קישור חדש
 
 ## LinkRememberPassword component
 
@@ -951,9 +958,6 @@ account-restored-success-message = שחזרת בהצלחה את החשבון ש�
 account-recovery-reset-password-success-alert = הססמה הוגדרה
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = אירעה שגיאה בלתי צפויה
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
-account-recovery-reset-password-email-resend-error = מצטערים, הייתה בעיה בשליחה חוזרת של קישור לאיפוס הססמה לדוא״ל שלך.
 account-recovery-reset-password-redirecting = מתבצעת הפניה
 
 ## CompleteResetPassword component
@@ -977,8 +981,6 @@ confirm-pw-reset-header = הודעת דוא״ל לאיפוס נשלחה
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = נא ללחוץ על הקישור שנשלח בדוא״ל אל { $email } בשעה הקרובה כדי ליצור ססמה חדשה.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
 
 ## ResetPassword page
 
@@ -1118,11 +1120,6 @@ confirm-signup-code-code-expired = פג תוקף הקוד?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 confirm-signup-code-success-alert = החשבון אומת בהצלחה
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = משהו השתבש. לא ניתן לשלוח קוד חדש.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = נדרש קוד אימות
 
