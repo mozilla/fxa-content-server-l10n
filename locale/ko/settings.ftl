@@ -15,9 +15,8 @@
 ## Checklist of services/information that can be synced across signed in devices
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
@@ -58,6 +57,12 @@ input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 
 
 
 ## LinkExpired component
+
+
+## LinkExpiredResetPassword component
+
+
+## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -164,6 +169,7 @@ cs-disconnect-suspicious-advice-content =
     변경 해야 합니다. { -brand-firefox }에 저장된 다른 암호도 
     주소창에 about:logins를 입력해서 변경해야 합니다.
 cs-sign-out-button = 로그아웃
+cs-recent-activity = 최근 계정 활동
 
 ##
 
@@ -347,6 +353,7 @@ display-name-success-alert-2 = 표시 이름 업데이트됨
 
 ## Recent Activity
 
+recent-activity-title = 최근 계정 활동
 
 # Account recovery key setup page
 
@@ -562,11 +569,9 @@ auth-error-105-2 = 잘못된 인증 코드
 auth-error-110 = 유효하지 않은 토큰
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 너무 많이 시도했습니다. { $retryAfter } 다시 시도하십시오.
 auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.

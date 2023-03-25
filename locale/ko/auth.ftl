@@ -52,6 +52,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store }에서 { $productName } 다운로드">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName }를 <a data-l10n-name="anotherDeviceLink">다른 데스크톱 기기</a>에 설치하세요.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName }을 <a data-l10n-name="anotherDeviceLink">다른 기기</a>에 설치하세요.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Google Play에서 { $productName } 다운로드:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = App Store에서 { $productName } 다운로드:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = 다른 기기에 { $productName } 설치:
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 자동으로 발송된 이메일입니다. 이 작업을 승인하지 않았다면 비밀번호를 변경해 주세요:
 automated-email-reset =
@@ -84,6 +99,28 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $lastFour }로 끝나는 { $cardType } 카드
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = 청구서 번호: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = 요금제 변경: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = 할인: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = 일회성 할인: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }개월 할인: -{ $invoiceDiscountAmount }
 subscriptionSupport = 구독에 관해 궁금한 점이 있으신가요? <a data-l10n-name="subscriptionSupportUrl">지원팀</a>이 도와드리겠습니다.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다.
@@ -295,6 +332,9 @@ subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기�
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
 subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
