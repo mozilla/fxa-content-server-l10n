@@ -10,6 +10,10 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Kapat
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Bir sorun oluştu. Yeni bağlantı gönderilemedi.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +54,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Kredi kartları
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } gelen kutusunu aç
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Gelen kutusunda da spam klasöründe de yok mu? Yeniden gönder
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +160,26 @@ reset-pwd-link-damaged-header = Parolayı sıfırlama bağlantısı hasarlı
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Onay bağlantısı zarar görmüş
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Tıkladığınız bağlantıda bazı karakterler eksikti. Bağlantı, e-posta istemciniz tarafından bozulmuş olabilir. Adresi dikkatle kopyalayıp tekrar deneyin.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Yeni bağlantı iste
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Parolayı sıfırlama bağlantısının süresi doldu
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Onay bağlantısının süresi dolmuş
 reset-pwd-link-expired-message = Parolanızı sıfırlamak için tıkladığınız bağlantı zaman aşımına uğramış.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Onay bağlantısının süresi dolmuş
 signin-link-expired-message = E-postanızı onaylamak için tıkladığınız bağlantı zaman aşımına uğramış.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Yeni bağlantı iste
 
 ## LinkRememberPassword component
 
@@ -1016,9 +1023,6 @@ account-restored-success-message = Hesap kurtarma anahtarınızı kullanarak hes
 account-recovery-reset-password-success-alert = Parola ayarlandı
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Beklenmeyen bir hatayla karşılaşıldı
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
-account-recovery-reset-password-email-resend-error = E-postanıza parola sıfırlama bağlantısı gönderilirken bir sorun oluştu.
 account-recovery-reset-password-redirecting = Yönlendiriliyor
 
 ## CompleteResetPassword component
@@ -1042,8 +1046,6 @@ confirm-pw-reset-header = Sıfırlama e-postası gönderildi
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Yeni bir parola oluşturmak için { $email } adresine gönderdiğimiz bağlantıya bir saat içinde tıklayın.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 
 ## ResetPassword page
 
@@ -1196,11 +1198,6 @@ confirm-signup-code-code-expired = Kodun süresi mi doldu?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-posta ile yeni kod gönder.
 confirm-signup-code-success-alert = Hesap başarıyla onaylandı
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Onay kodu gerekli
 
