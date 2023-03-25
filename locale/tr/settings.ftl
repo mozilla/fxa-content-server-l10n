@@ -795,7 +795,7 @@ connect-another-device-get-data-on-another-device-message = Sekmelerinizi, yer i
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Başka bir cihaz bağla
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
-connect-another-device-not-now-link = Daha sonra
+connect-another-device-not-now-link = Şimdi değil
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
 connect-another-device-android-complete-setup-message = Kurulumu tamamlamak için Android için { -brand-firefox }’a giriş yapın
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
@@ -956,7 +956,7 @@ pair-or-download-subheader = veya indirin
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = Mobil cihazlar için { -brand-firefox }’u indirmek için kodu tarayın veya kendinize bir <linkExternal>indirme bağlantısı</linkExternal> gönderin.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
-pair-not-now-button = Daha sonra
+pair-not-now-button = Şimdi değil
 pair-take-your-data-message = Sekmelerinizi, yer imlerinizi ve parolalarınızı { -brand-firefox }’u kullandığınız her yere götürün.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Başlayın
