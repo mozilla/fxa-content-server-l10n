@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = 關閉
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = 有些東西怪怪的，無法寄出新的鏈結。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新的確認碼。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = 信用卡資料
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = 開啟 { $emailProvider } 收信
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = 沒在收件匣或垃圾信件匣中找到嗎？點此重送
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = 重設密碼鏈結已毀損
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 驗證鏈結無效
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = 取得新鏈結
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = 重設密碼鏈結已失效
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = 驗證鏈結已失效
 reset-pwd-link-expired-message = 您點擊的密碼重設鏈結已失效。
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 驗證鏈結已失效
 signin-link-expired-message = 您點擊的密碼重設驗證鏈結已失效。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 取得新鏈結
 
 ## LinkRememberPassword component
 
@@ -1005,9 +1015,6 @@ account-restored-success-message = 已成功使用帳號救援金鑰恢復您的
 account-recovery-reset-password-success-alert = 已設定密碼
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = 遇到未知錯誤
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
-account-recovery-reset-password-email-resend-error = 抱歉，重寄密碼重設信給您時遇到問題。
 account-recovery-reset-password-redirecting = 重導中
 
 ## CompleteResetPassword component
@@ -1031,8 +1038,6 @@ confirm-pw-reset-header = 已寄出重設郵件
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 請在一小時內點擊我們發送到 { $email } 的鏈結，以設定新密碼。
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
 
 ## ResetPassword page
 
@@ -1185,11 +1190,6 @@ confirm-signup-code-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重寄新驗證碼。
 confirm-signup-code-success-alert = 成功確認帳號
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = 有些東西怪怪的，無法寄出新的確認碼。
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 需要輸入確認碼
 
