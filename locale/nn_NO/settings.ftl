@@ -418,7 +418,8 @@ display-name-success-alert-2 = Visingsnamn oppdatert
 ## Recent Activity
 
 recent-activity-account-create = Kontoen vart oppretta
-recent-activity-account-disable = Kontoen vart deaktivert
+recent-activity-account-disable = Kontoen vart slått av
+recent-activity-account-enable = Kontoen vart slått på
 
 # Account recovery key setup page
 
@@ -435,6 +436,7 @@ recovery-key-success-alert-3 = Kontogjenopprettingsnøkkel oppretta
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Steg 1 av 2
 add-secondary-email-page-title =
     .title = Sekundær e-postadresse
 add-secondary-email-enter-address =
@@ -444,9 +446,13 @@ add-secondary-email-save-button = Lagre
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Steg 2 av 2
 verify-secondary-email-page-title =
     .title = Sekundær e-postadresse
+verify-secondary-email-verification-code-2 =
+    .label = Skriv inn stadfestingskoden din
 verify-secondary-email-cancel-button = Avbryt
+verify-secondary-email-verify-button-2 = Stadfest
 
 ##
 
@@ -471,6 +477,8 @@ tfa-enabled = Tostegs-godkjenning aktivert
 tfa-qa-code-alt =
     Bruk koden { $secret } for å setje opp tostegs-godkjenning i
     støtta appar.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
 
 ##
@@ -498,6 +506,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Oppretta: { $date }
+security-not-set = Ikkje innstilt
+security-action-create = Opprett
 
 ## Switch component
 
@@ -566,48 +576,99 @@ tfa-row-change-modal-confirm = Endre
 
 auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
+auth-error-105-2 = Ugyldig stadfestingskode
 auth-error-110 = Ugyldig token
+auth-error-155 = TOTP-token ikkje funne
+auth-error-999 = Uventa feil
+auth-error-1008 = Det må vere eit nytt passord
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Klarte ikkje å lage konto
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Les meir
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Du er logga inn på { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-postadresse stadfesta
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Innlogging stadfesta
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Kople til ei anna eining
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ikkje no
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Prøv igjen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Les meir
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Avbryt
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Hald fram
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Stadfest
+inline-recovery-back-link = Tilbake
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Avbryt konfigurasjon
+inline-totp-setup-continue-button = Hald fram
+inline-totp-setup-ready-button = Klar
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = godkjenningskode
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Juridisk
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Tenestevilkår
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Personvernpraksis
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Personvernpraksis
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Tenestevilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ja, godkjenn eininga
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Eining tilkopla
+pair-auth-complete-manage-devices-link = Handsam einingar
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Skriv inn 6-sifra kode
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Stadfest
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -616,17 +677,34 @@ auth-error-110 = Ugyldig token
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Paring ikkje vellykka
+pair-failure-message = Installasjonsprosessen vart avslutta.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synkroniser eininga di
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ikkje no
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Kom i gang
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kode
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Eining tilkopla
+pair-success-message-2 = Paring vellykka.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Stadfest paring <span>for { $email }</span>
+pair-supp-allow-confirm-button = Stadfest paring
+pair-supp-allow-cancel-link = Avbryt
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -635,6 +713,7 @@ auth-error-110 = Ugyldig token
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Paring via ein app
 
 ## AccountRecoveryConfirmKey page
 
@@ -652,27 +731,51 @@ account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsn
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Lag nytt passord
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Passord innstilt
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Lag nytt passord
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Passord innstilt
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-post for tilbakestilling er sendt
 
 ## ResetPassword page
 
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-post
+reset-password-button = Start tilbakestilling
 reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Feil:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Stadfest denne innlogginga
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
