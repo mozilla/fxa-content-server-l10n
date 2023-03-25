@@ -776,30 +776,58 @@ signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
+signin-subheader-without-logo-default = Hald fram til kontoinnstillinga
+signin-button = Logg inn
+signin-header = Logg inn
+signin-use-a-different-account-link = Bruk ein annan konto
+signin-forgot-password-link = Gløymt passordet?
+signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
+back = Tilbake
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Stadfest
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Tilbake
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Er du sperra ute?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Takk før vaktsemda di
+signin-reported-message = Teamet vårt er varsla. Rapportar som denne hjelper oss med å avverja inntrengarar.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Skriv inn 6-sifra kode
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Stadfest
+signin-token-code-code-expired = Har koden gått ut?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Send ny kode på e-post.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Stadfest
+signin-totp-code-other-account-link = Bruk ein annan konto
+signin-totp-code-recovery-code-link = Har du poblem med å taste inn koden?
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Stadfest kontoen din
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -807,7 +835,25 @@ signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Skriv inn stadfestingskode
+confirm-signup-code-input-label = Skriv inn 6-sifra kode
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Stadfest
+confirm-signup-code-code-expired = Har koden gått ut?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Send ny kode på e-post.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Endre e-post
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kor gammal er du?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Du må skrive inn alder for å registrere deg
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Kvifor spør vi?
