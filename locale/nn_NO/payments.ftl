@@ -77,6 +77,7 @@ payment-confirmation-thanks-heading = Takk skal du ha!
 payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
+payment-confirmation-details-heading-2 = Betalingsinformasjon
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -159,6 +160,7 @@ plan-details-list-price = Listepris
 plan-details-show-button = Vis detaljar
 plan-details-hide-button = Gøym detaljar
 plan-details-total-label = Totalt
+plan-details-tax = Skattar og avgifter
 
 ## Component - PlanErrorDialog
 

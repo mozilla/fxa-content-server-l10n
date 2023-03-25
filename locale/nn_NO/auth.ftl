@@ -304,6 +304,7 @@ subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
@@ -322,6 +323,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderSecond-action-2 = Stadfest kontoen
+verify-title-2 = Opne internett med { -brand-firefox }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen

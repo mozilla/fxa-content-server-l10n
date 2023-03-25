@@ -47,13 +47,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Betalingskort
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Opne { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -101,6 +97,12 @@ form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-copy-2 =
+    .title = Kopier
+    .aria-label = Kopier
+get-data-trio-print-2 =
+    .title = Skriv ut
+    .aria-label = Skriv ut
 
 ## Images - these are all aria labels used for illustrations
 
@@ -111,18 +113,47 @@ input-password-hide = Gøym passord
 input-password-show = Vis passord
 input-password-hide-aria = Gøym passord frå skjermen.
 input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Tilbake
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Passordlenke for tilbakestilling er skada
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Stadfestingslenka er skada
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Lenka du trykte på manglar nokre teikn, og kan ha blitt skada av e-postklienten. Kopier adressa nøye, og prøv på nytt.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Få ei ny lenke
+
+## LinkExpiredResetPassword component
+
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Passordlenke for tilbakestilling er gått ut
+reset-pwd-link-expired-message = Lenka du trykte på for å tilbakestille passordet ditt har gått ut.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Stadfestingslenka har gått ut
 
 ## LinkRememberPassword component
 
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primær e-postadresse allereie stadfesta
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Innlogging allereie stadfesta
+confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og kan berre brukast ein gong.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -130,9 +161,20 @@ input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Passordkrav
+password-strength-balloon-min-length = Minst 8 teikn
+password-strength-balloon-not-email = Ikkje di e-postadresse
 
 ## Ready component
 
+reset-password-complete-header = Passordet ditt er tilbakestilt
+ready-start-browsing-button = Start nettlesinga
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Kontoen din er klar!
+ready-continue = Hald fram
+sign-in-complete-header = Innlogging stadfesta
+sign-up-complete-header = Konto stadfesta
+primary-email-verified-header = Primær e-postadresse stadfesta
 
 ## Alert Bar
 
@@ -152,6 +194,10 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din rett til privatliv på nettet.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
@@ -333,6 +379,20 @@ delete-account-header =
     .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
+delete-account-product-firefox-addons = { -brand-firefox }-tillegg
+delete-account-acknowledge = Stadfest at når du slettar kontoen din:
+delete-account-chk-box-3 =
+    .label = Aktivering på nytt med denne e-postadressa vil kanskje ikkje gjenopprette den lagra informasjonen
+delete-account-chk-box-4 =
+    .label = Eventuelle utvidingar og tema som du har publisert på addons.mozilla.org vert sletta
 delete-account-continue-button = Fortset
 delete-account-password-input =
     .label = Skriv inn passord
@@ -350,12 +410,15 @@ display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
+display-name-success-alert-2 = Visingsnamn oppdatert
 
 ##
 
 
 ## Recent Activity
 
+recent-activity-account-create = Kontoen vart oppretta
+recent-activity-account-disable = Kontoen vart deaktivert
 
 # Account recovery key setup page
 
