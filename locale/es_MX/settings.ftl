@@ -50,13 +50,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Tarjetas de crédito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Abrir { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o en la carpeta de spam? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +156,26 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña esta d
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Enlace de confirmación dañado
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo electrónico lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Recibir nuevo enlace
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Enlace para restablecer la contraseña expirado
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Enlace de confirmación expirado
 reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha expirado.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Enlace de confirmación expirado
 signin-link-expired-message = El enlace en el que hiciste clic para confirmar tu correo electrónico ha expirado.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Recibir nuevo enlace
 
 ## LinkRememberPassword component
 
@@ -751,11 +754,9 @@ auth-error-105-2 = Código de confirmación inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo { $retryAfter }.
 auth-error-138-2 = Sesión sin confirmar
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
@@ -963,6 +964,7 @@ create-new-password-header = Crear nueva contraseña
 account-restored-success-message = Has restaurado exitosamente tu cuenta utilizando tu clave de recuperación de cuenta. Crea una nueva contraseña para proteger tus datos y guárdala en un lugar seguro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Contraseña establecida
+account-recovery-reset-password-redirecting = Redireccionando
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -983,8 +985,6 @@ confirm-pw-reset-header = Correo de restablecimiento enviado
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Haz clic en el enlace enviado por correo electrónico a { $email } dentro de la próxima hora para crear una nueva contraseña.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Correo reenviado. Agrega { $accountsEmail } a tus contactos para asegurar la entrega sin problemas.
 
 ## ResetPassword page
 
@@ -995,10 +995,10 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Correo electrónico
 reset-password-button = Comenzar restablecimiento
-reset-password-success-alert = Restablecer contraseña
-reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu contraseña
-reset-password-error-unknown-account = Cuenta desconocida
 reset-password-with-recovery-key-verified-page-title = La contraseña se restableció exitosamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de la cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
@@ -1121,9 +1121,6 @@ confirm-signup-code-code-expired = ¿El código expiró?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
 confirm-signup-code-success-alert = Cuenta confirmada exitosamente
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Correo reenviado. Agrega { $accountsEmail } a tus contactos para asegurar la entrega sin problemas.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Se requiere código de confirmación
 
