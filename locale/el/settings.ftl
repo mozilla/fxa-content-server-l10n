@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Κλείσιμο
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Το email απεστάλη ξανά. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +53,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Πιστωτικές κάρτες
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Άνοιγμα { $emailProvider }
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Πίσω
 
@@ -159,12 +158,19 @@ signin-link-damaged-header = Ο σύνδεσμος επιβεβαίωσης εί
 
 ## LinkExpired component
 
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Ο σύνδεσμος επιβεβαίωσης έληξε
-reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει.
-signin-link-expired-message = Ο σύνδεσμος που επιλέξατε για την επιβεβαίωση του email σας έχει λήξει.
-# Button to request a new link to reset password if the previous link was expired
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
 reset-pwd-resend-link = Λήψη νέου συνδέσμου
+
+## LinkExpiredResetPassword component
+
+reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Ο σύνδεσμος επιβεβαίωσης έληξε
+signin-link-expired-message = Ο σύνδεσμος που επιλέξατε για την επιβεβαίωση του email σας έχει λήξει.
 
 ## LinkRememberPassword component
 
@@ -954,8 +960,6 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 
 ## Confirm Reset Password Component
 
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Το email απεστάλη. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 
 ## ResetPassword page
 
@@ -1063,11 +1067,6 @@ confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
 confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Το email απεστάλη. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Απαιτείται κωδικός επιβεβαίωσης
 
