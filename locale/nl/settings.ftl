@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Sluiten
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Er is iets misgegaan. Er kon geen nieuwe koppeling worden verzonden.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Creditcards
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } openen
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Niet in Postvak IN of map met spam? Opnieuw verzenden
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Herinitialisatiekoppeling beschadigd
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bevestigingskoppeling beschadigd
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = De koppeling waarop u hebt geklikt miste tekens en is mogelijk beschadigd geraakt door uw e-mailclient. Kopieer het adres zorgvuldig en probeer het opnieuw.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Nieuwe koppeling ontvangen
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Herinitialisatiekoppeling verlopen
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Bevestigingskoppeling verlopen
 reset-pwd-link-expired-message = De koppeling waarop u hebt geklikt voor het opnieuw instellen van uw wachtwoord is verlopen.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bevestigingskoppeling verlopen
 signin-link-expired-message = De koppeling waarop u hebt geklikt voor het bevestigen van uw e-mailadres is verlopen.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Nieuwe koppeling ontvangen
 
 ## LinkRememberPassword component
 
@@ -1043,9 +1053,6 @@ account-restored-success-message = U hebt met succes uw account hersteld via uw 
 account-recovery-reset-password-success-alert = Wachtwoord ingesteld
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Er is een onverwachte fout opgetreden
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
-account-recovery-reset-password-email-resend-error = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van een koppeling voor wachtwoordherinitialisatie naar uw e-mailadres.
 account-recovery-reset-password-redirecting = Omleiden
 
 ## CompleteResetPassword component
@@ -1069,8 +1076,6 @@ confirm-pw-reset-header = E-mailbericht voor herinitialisatie verzonden
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik binnen een uur op de koppeling die naar { $email } is verzonden om een nieuw wachtwoord aan te maken.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
 
 ## ResetPassword page
 
@@ -1223,11 +1228,6 @@ confirm-signup-code-code-expired = Code verlopen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nieuwe code versturen per e-mail.
 confirm-signup-code-success-alert = Account met succes bevestigd
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bevestigingscode is vereist
 
