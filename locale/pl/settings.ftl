@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Zamknij
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Coś się nie powiodło. Nie można wysłać nowego odnośnika.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Karty płatnicze
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Otwórz pocztę { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Nie ma nic w Odebranych ani w Niechcianych? Wyślij jeszcze raz
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Odnośnik do zmiany hasła jest uszkodzony
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Odnośnik potwierdzenia jest uszkodzony
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = W klikniętym odnośniku brakuje znaków. Mógł on zostać uszkodzony przez klienta poczty. Starannie skopiuj adres i spróbuj ponownie.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Wyślij nowy odnośnik
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Odnośnik do zmiany hasła wygasł
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Odnośnik potwierdzenia wygasł
 reset-pwd-link-expired-message = Kliknięty odnośnik do zmiany hasła wygasł.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Odnośnik potwierdzenia wygasł
 signin-link-expired-message = Kliknięty odnośnik do potwierdzenia adresu e-mail wygasł.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Wyślij nowy odnośnik
 
 ## LinkRememberPassword component
 
@@ -770,11 +780,9 @@ auth-error-105-2 = Nieprawidłowy kod potwierdzenia
 auth-error-110 = Nieprawidłowy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie { $retryAfter }.
 auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
@@ -1039,6 +1047,9 @@ create-new-password-header = Utwórz nowe hasło
 account-restored-success-message = Pomyślnie przywrócono konto za pomocą klucza odzyskiwania konta. Utwórz nowe hasło, aby zabezpieczyć swoje dane, i zachowaj je w bezpiecznym miejscu.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Ustawiono hasło
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Wystąpił nieoczekiwany błąd
+account-recovery-reset-password-redirecting = Przekierowywanie
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1061,8 +1072,6 @@ confirm-pw-reset-header = Wysłano e-mail do zmiany hasła
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kliknij odnośnik wysłany na adres { $email } w ciągu godziny, aby utworzyć nowe hasło.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
 
 ## ResetPassword page
 
@@ -1074,10 +1083,10 @@ reset-password-heading-w-default-service = Zmień hasło, <span>aby przejść do
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Zmień hasło, <span>aby przejść do usługi { $serviceName }</span>
 reset-password-warning-message-2 = <span>Uwaga:</span> zmiana hasła przywraca Twoje konto. Możesz utracić część swoich danych (w tym historię, zakładki i hasła). Dzieje się tak, ponieważ szyfrujemy te dane za pomocą tego hasła, aby chronić prywatność użytkowników. Nie utracisz żadnych posiadanych subskrypcji i nie wpłynie to na dane { -product-pocket }.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Adres e-mail
 reset-password-button = Rozpocznij zmianę
-reset-password-success-alert = Zmieniono hasło
-reset-password-error-general = Przepraszamy, wystąpił problem ze zmienianiem hasła
-reset-password-error-unknown-account = Nieznane konto
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
@@ -1215,11 +1224,6 @@ confirm-signup-code-code-expired = Kod wygasł?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Wyślij nowy.
 confirm-signup-code-success-alert = Pomyślnie potwierdzono konto
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Wysłano wiadomość e-mail. Dodaj { $accountsEmail } do kontaktów, aby zapewnić jej odbiór.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Wymagany jest kod potwierdzenia
 
