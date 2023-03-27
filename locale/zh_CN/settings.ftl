@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = 关闭
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = 出了点问题，无法发送新链接。
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = 出了点问题，无法发送新验证码。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = 信用卡
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = 打开 { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = 不在收件箱和垃圾邮件箱？重新发送
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = 重置密码链接已损坏
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = 确认链接已损坏
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = 接收新链接
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = 重置密码链接已过期
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = 确认链接已过期
 reset-pwd-link-expired-message = 您点击的重置密码链接已过期。
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = 确认链接已过期
 signin-link-expired-message = 您点击的验证邮箱链接已过期。
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = 接收新链接
 
 ## LinkRememberPassword component
 
@@ -1036,8 +1046,6 @@ confirm-pw-reset-header = 已发送重置邮件
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = 请在一小时内点击发送到 { $email } 的链接以创建新密码。
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
 
 ## ResetPassword page
 
@@ -1190,11 +1198,6 @@ confirm-signup-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重新发送验证码。
 confirm-signup-code-success-alert = 账户已成功确认
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = 出了点问题，无法发送新验证码。
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 请输入验证码
 
