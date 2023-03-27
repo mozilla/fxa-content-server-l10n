@@ -13,6 +13,10 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Algo deu errado. Não foi possível enviar um novo link.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
