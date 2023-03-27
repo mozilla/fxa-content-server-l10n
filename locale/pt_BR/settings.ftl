@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Fechar
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +53,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Cartões de crédito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Abrir { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Não chegou em sua caixa de entrada ou pasta de spam? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +159,26 @@ reset-pwd-link-damaged-header = Link para redefinir senha danificado
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Link de confirmação danificado
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = O link que você clicou tem caracteres faltando. Pode ter sido corrompido pelo seu cliente de email. Copie o endereço com cuidado e tente novamente.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Receber novo link
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = O link para redefinir a senha expirou
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = O link de confirmação expirou
 reset-pwd-link-expired-message = O link que você clicou para redefinir sua senha expirou.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = O link de confirmação expirou
 signin-link-expired-message = O link que você clicou para confirmar seu email expirou.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Receber novo link
 
 ## LinkRememberPassword component
 
@@ -1005,9 +1011,6 @@ account-restored-success-message = Você restaurou sua conta com sucesso usando 
 account-recovery-reset-password-success-alert = Senha definida
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Encontrado erro não esperado
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
-account-recovery-reset-password-email-resend-error = Houve um problema ao reenviar email com link de redefinição de senha.
 account-recovery-reset-password-redirecting = Redirecionando
 
 ## CompleteResetPassword component
@@ -1031,8 +1034,6 @@ confirm-pw-reset-header = Email de redefinição enviado
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Clique no link enviado por email para { $email } em até uma hora para criar uma nova senha.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
 
 ## ResetPassword page
 
@@ -1185,11 +1186,6 @@ confirm-signup-code-code-expired = O código expirou?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar novo código por email.
 confirm-signup-code-success-alert = Conta confirmada com sucesso
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = O código de confirmação é obrigatório
 
