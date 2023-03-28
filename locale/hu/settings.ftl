@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Bezárás
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Valami elromlott. Nem sikerült új hivatkozást küldeni.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Bankkártyák
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } megnyitása
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Nincs a beérkezett vagy a spam mappában? Újraküldés
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = A jelszó-visszaállítási hivatkozás sérült
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = A megerősítő hivatkozás sérült
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = A hivatkozásból karakterek hiányoztak, ezt az e-mail kliense ronthatta el. Másolja be a címet körültekintően, és próbálja újra.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Új hivatkozás kérése
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = A jelszó-visszaállítási hivatkozás lejárt
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = A megerősítő hivatkozás lejárt
 reset-pwd-link-expired-message = A jelszó visszaállításához használt hivatkozás lejárt.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = A megerősítő hivatkozás lejárt
 signin-link-expired-message = Az e-mail-cím megerősítéséhez használt hivatkozás lejárt.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Új hivatkozás kérése
 
 ## LinkRememberPassword component
 
@@ -1041,9 +1051,6 @@ account-restored-success-message = Sikeresen helyreállította a fiókját a fi�
 account-recovery-reset-password-success-alert = Jelszó megadva
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Váratlan hiba történt
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
-account-recovery-reset-password-email-resend-error = Sajnos hiba történt a jelszó-visszaállítási hivatkozást tartalmazó levél újraküldésekor.
 account-recovery-reset-password-redirecting = Átirányítás
 
 ## CompleteResetPassword component
@@ -1067,8 +1074,6 @@ confirm-pw-reset-header = Visszaállítási e-mail elküldve
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Kattintson a(z) { $email } címre elküldött hivatkozásra a következő órán belül, hogy létrehozza az új jelszavát.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
 
 ## ResetPassword page
 
@@ -1221,11 +1226,6 @@ confirm-signup-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
 confirm-signup-code-success-alert = A fiók sikeresen megerősítve
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Megerősítési kód szükséges
 
