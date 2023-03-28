@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Cau
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon dolen newydd.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Cardiau Credyd
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Agor { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Ddim yn y blwch derbyn na'r sbam? Ailanfon
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Mae dolen ailosod y cyfrinair wedi ei difrodi
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Mae'r ddolen cadarnhad wedi'i difrodi
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Derbyn dolen newydd
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Mae'r ddolen ailosod wedi dod i ben
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
 reset-pwd-link-expired-message = Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Mae'r ddolen dilysu wedi dod i ben
 signin-link-expired-message = Mae'r ddolen rydych newydd ei chlicio i gadarnhau eich e-bost wedi dod i ben.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Derbyn dolen newydd
 
 ## LinkRememberPassword component
 
@@ -1037,9 +1047,6 @@ account-restored-success-message = Rydych wedi adfer eich cyfrif yn llwyddiannus
 account-recovery-reset-password-success-alert = Wedi gosod y cyfrinair
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Cafwyd gwall annisgwyl
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
-account-recovery-reset-password-email-resend-error = Ymddiheuriadau, bu anhawster wrth ail anfon dolen ailosod cyfrinair i'ch e-bost.
 account-recovery-reset-password-redirecting = Yn ailgyfeirio
 
 ## CompleteResetPassword component
@@ -1063,8 +1070,6 @@ confirm-pw-reset-header = Wedi anfon yr e-bost ailosod
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Cliciwch y ddolen anfonwyd drwy e-bost at { $email } o fewn yr awr nesaf er mwyn creu cyfrinair newydd.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
 
 ## ResetPassword page
 
@@ -1217,11 +1222,6 @@ confirm-signup-code-code-expired = Cod wedi dod i ben?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-bostiwch god newydd.
 confirm-signup-code-success-alert = Cyfrif wedi'i gadarnhau'n llwyddiannus
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Mae angen cod cadarnhad
 
