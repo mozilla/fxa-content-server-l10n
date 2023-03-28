@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Loka
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan tengil.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Greiðslukort
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Opna { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Ekki í pósthólfinu eða ruslpóstmöppunni? Senda aftur
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Tengill til að endurstilla lykilorð er skemmdu
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Staðfestingartengill er skemmdur
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Fá nýjan tengil
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Tengill til að endurstilla lykilorð er útrunninn
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Staðfestingartengill er útrunninn
 reset-pwd-link-expired-message = Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Staðfestingartengill er útrunninn
 signin-link-expired-message = Tengillinn sem þú smelltir á til að staðfesta tölvupóstfangið þitt er útrunninn.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Fá nýjan tengil
 
 ## LinkRememberPassword component
 
@@ -1037,9 +1047,6 @@ account-restored-success-message = Þér hefur tekist að endurheimta reikningin
 account-recovery-reset-password-success-alert = Lykilorð stillt
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Óvænt villa kom upp
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
-account-recovery-reset-password-email-resend-error = Því miður kom upp vandamál við að endursenda tengil til að endurstilla lykilorð á netfangið þitt.
 account-recovery-reset-password-redirecting = Endurbeini
 
 ## CompleteResetPassword component
@@ -1063,8 +1070,6 @@ confirm-pw-reset-header = Endurstillingarpóstur sendur
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á { $email } til að útbúa nýtt lykilorð.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
 
 ## ResetPassword page
 
@@ -1217,11 +1222,6 @@ confirm-signup-code-code-expired = Útrunninn kóði?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Senda nýjan kóða í tölvupósti.
 confirm-signup-code-success-alert = Tókst að staðfesta reikning
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Tölvupóstur endursendur. Bættu { $accountsEmail } við tengiliðina þína til að tryggja hnökralausa afhendingu.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Staðfestingarkóða er krafist
 
