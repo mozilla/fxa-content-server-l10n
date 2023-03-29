@@ -201,6 +201,8 @@ confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Ky fjalëkalim ju duhet për të hyrë në çfarëdo të dhënash të fshehtëzuara që depozitoni me ne.
+password-info-balloon-reset-risk-info = Ricaktimi do të thotë humbje potenciale të dhënash të tilla si fjalëkalime dhe faqerojtës.
 
 ## PasswordStrengthBalloon component
 
@@ -208,18 +210,25 @@ password-strength-balloon-heading = Domosdoshmëri fjalëkalimi
 password-strength-balloon-min-length = Të paktën 8 shenja
 password-strength-balloon-not-email = Jo adresën tuaj email
 password-strength-balloon-not-common = Jo një fjalëkalim të përdorur rëndom
+password-strength-balloon-stay-safe-tips = Jini të parrezik — Mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza se si <LinkExternal>të krijohen fjalëkalime të fuqishëm</LinkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = Fjalëkalimi juaj u ricaktua
+ready-complete-set-up-instruction = Plotësojeni rregullimin duke dhënë fjalëkalimin tuaj të ri te pajisjet tuaja të tjera me { -brand-firefox }.
+ready-start-browsing-button = Nisni shfletimin
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Tani jeni gati të përdorni { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Tani jeni gati të përdorni rregullimet e llogarisë
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Llogaria juaj është gati!
 ready-continue = Vazhdo
 sign-in-complete-header = Hyrje e ripohuar
+sign-up-complete-header = Llogaria u ripohua
+primary-email-verified-header = Email-i parësor u ripohua
 
 ## Alert Bar
 
@@ -289,6 +298,7 @@ cs-disconnect-sync-heading = Shkëputu prej Sync-u
 cs-disconnect-sync-content-3 =
     Të dhënat mbi shfletimin tuaj do të mbeten në <span>{ $device }</span>,
     por s’do të njëkohësohen më me llogarinë tuaj.
+cs-disconnect-sync-reason-3 = Cila është arsyeja kryesore për shkëputjen e <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -316,6 +326,7 @@ cs-disconnect-suspicious-advice-content =
     tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
     tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-sign-out-button = Dilni
+cs-recent-activity = Veprimtari Llogarie Së Fundi
 
 ##
 
@@ -474,6 +485,7 @@ delete-account-header =
     .title = Fshijeni Llogarinë
 delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
+delete-account-confirm-title-3 = Munde të keni lidhur { -product-firefox-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -819,15 +831,40 @@ connect-another-device-ios-complete-setup-message = Hyni te { -brand-firefox }-i
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Depozitimi vendor dhe cookie-t janë të domosdoshme
+cookies-disabled-enable-prompt = Ju lutemi, që të përdorni { -product-firefox-accounts }, aktivizoni te shfletuesi juaj cookie-t dhe depozitimin vendor. Kjo do të bëjë të mundur funksione të tillë si mbajtja mend e përdoruesit mes dy sesionesh.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Riprovoni
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Mësoni më tepër
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Anuloje
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Vazhdo
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Ripohojeni
+inline-recovery-back-link = Mbrapsht
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Kod mirëfilltësimi kopjeruajtjeje
+inline-recovery-confirmation-description = Që të garantohet se do të jeni në gjendje të rifitoni hyrjen në llogarinë tuaj, në rast humbjeje pajisjeje, ju lutemi, jepni një nga kodet e ruajtur për mirëfilltësimi kopjeruajtjeje.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Anuloje ujdisjen
+inline-totp-setup-continue-button = Vazhdo
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
