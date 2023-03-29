@@ -841,6 +841,15 @@ cookies-disabled-learn-more = Mësoni më tepër
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = <span>Që të vazhdoni te rregullimet e llogarisë</span>, ripohoni kod mirëfilltësimi kopjeruajtjeje
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = <span>Që të vazhdohet te { $serviceName }</span>, ruani kode mirëfilltësimi kopjeruajtjeje
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Ruajini këta kode njëpërdorimsh në një vend të sigurt, për kur të mos keni pajisjen tuaj celulare.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Anuloje
@@ -865,6 +874,12 @@ inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }
 
 inline-totp-setup-cancel-setup-button = Anuloje ujdisjen
 inline-totp-setup-continue-button = Vazhdo
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Shtoni te llogaria juaj një shtresë sigurie duke kërkuar kode sigurie prej një nga <authenticationAppsLink>këto aplikacione mirëfilltësimi</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = <span>Që të vazhdoni te rregullimet e llogarisë</span>, aktivizoni mirëfilltësim dyfaktorësh
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>Që të vazhdohet te { $serviceName }</span>, aktivizoni mirëfilltësim dyfaktorësh
 inline-totp-setup-ready-button = Gati
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1047,6 +1062,7 @@ complete-reset-password-success-alert = Fjalëkalimi u caktua
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
+complete-reset-password-recovery-key-error = Na ndjeni, pati një problem me kontrollin për të parë nëse keni kyç rimarrjeje llogarie. <hasRecoveryKeyErrorLink>Ricaktoni fjalëkalimin tuaj me kyçin tuaj të rimarrjes së llogarisë.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1066,6 +1082,7 @@ reset-password-heading-w-default-service = <span>Që të vazhdoni te rregullimet
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>Që të vazhdoni te { $serviceName }</span>, ricaktoni fjalëkalimin
+reset-password-warning-message-2 = <span>Shënim:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { -product-pocket } s’do të preken.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Email
