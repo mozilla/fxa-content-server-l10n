@@ -1198,7 +1198,32 @@ confirm-signup-code-page-title = Jepni kodin e ripohimit
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
+confirm-signup-code-input-label = Jepni kodin 6-shifror
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Ripohojeni
+confirm-signup-code-code-expired = Skadoi kodi?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Dërgo me email kod të ri.
+confirm-signup-code-success-alert = Llogaria u ripohua me sukses
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Kodi i ripohimit është i domosdoshëm
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Caktoni fjalëkalimin tuaj
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Pse më duhet ta krijoj këtë llogari? <LinkExternal>Mësojeni këtu</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Ndryshoni email
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Ç’moshë keni?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Duhet të jepni moshën tuaj që të regjistroheni
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Pse pyesim?
