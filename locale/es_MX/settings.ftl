@@ -596,6 +596,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp-v2 = Ahora ingresa el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp-v2 =
     .label = Introducir código de autenticación
 tfa-save-these-codes-1 =
@@ -871,6 +872,7 @@ pair-auth-complete-heading = Dispositivo conectado
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
+pair-auth-complete-sync-benefits-text = Ahora puedes acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
 pair-auth-complete-see-tabs-button = Mira las pestañas de tus dispositivos sincronizados
 pair-auth-complete-manage-devices-link = Administrar dispositivos
 
@@ -879,9 +881,13 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
 # String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Ingresa el código de autenticación <span>para continuar con los ajustes de la cuenta</span>
+# String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Ingresa el código de autenticación <span>para continuar a { $serviceName }</span>
+auth-totp-instruction = Abre tu aplicación de autenticación e ingresa el código de autenticación que se te proporciona.
 auth-totp-input-label = Ingresa código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
@@ -964,6 +970,8 @@ create-new-password-header = Crear nueva contraseña
 account-restored-success-message = Has restaurado exitosamente tu cuenta utilizando tu clave de recuperación de cuenta. Crea una nueva contraseña para proteger tus datos y guárdala en un lugar seguro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Contraseña establecida
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Error inesperado encontrado
 account-recovery-reset-password-redirecting = Redireccionando
 
 ## CompleteResetPassword component
@@ -1079,6 +1087,9 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Ingresa el código de autenticación <span>para continuar con los ajustes de la cuenta</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
