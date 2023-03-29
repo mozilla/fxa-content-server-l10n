@@ -865,6 +865,19 @@ inline-recovery-confirmation-header = <span>Që të vazhdoni te { $serviceName }
 
 inline-totp-setup-cancel-setup-button = Anuloje ujdisjen
 inline-totp-setup-continue-button = Vazhdo
+inline-totp-setup-ready-button = Gati
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = <span>Që të vazhdohet te { $serviceName }</span>, skanoni kod mirëfilltësimi
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = <span>Që të vazhdohet te { $serviceName }</span>, jepeni kodin dorazi
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = <span>Që të vazhdoni te rregullimet e llogarisë</span>, skanoni kod mirëfilltësimi
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = <span>Që të vazhdoni te rregullimet e llogarisë</span>, jepeni kodin dorazi
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve. <toggleToQRButton>Të skanohet kodi QR, në vend të kësaj?</toggleToQRButton>
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
