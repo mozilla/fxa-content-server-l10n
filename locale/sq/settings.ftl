@@ -878,54 +878,129 @@ inline-totp-setup-show-qr-default-service-header-2 = <span>Që të vazhdoni te r
 inline-totp-setup-no-qr-default-service-header-2 = <span>Që të vazhdoni te rregullimet e llogarisë</span>, jepeni kodin dorazi
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve. <toggleToQRButton>Të skanohet kodi QR, në vend të kësaj?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skanojeni kodin QR te aplikacioni juaj i mirëfilltësimeve dhe jepeni mandej kodin tuaj të mirëfilltësimi që tregohet. <toggleToManualModeButton>Nuk skanoni dot kod?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Pasi të jetë plotësuar, do të fillohet të prodhohen kode mirëfilltësimi për t’i dhënë ju.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Kod mirëfilltësimi
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Ligjore
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Kushte Shërbimi
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Shënim Mbi Privatësinë
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Shënim Mbi Privatësinë
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Kushte Shërbimi
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Mos sapo hytë në { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Po, miratoje pajisjen
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Nëse s’qetë ju, <link>ndryshoni fjalëkalimin tuaj</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Pajisja u lidh
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Tani po njëkohësoni me: { $deviceFamily } në { $deviceOS }
+pair-auth-complete-sync-benefits-text = Tani mund të përdorni skedat tuaja të hapura, fjalëkalime dhe faqerojtës në krejt pajisjet tuaja.
+pair-auth-complete-see-tabs-button = Shihni skeda prej pajisjesh të njëkohësuara
+pair-auth-complete-manage-devices-link = Administroni pajisje
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, jepni kod mirëfilltësimi
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = <span>Që të vazhdohet te { $serviceName }</span>, jepni kod mirëfilltësimi
+auth-totp-instruction = Hapni aplikacionin tuaj të mirëfilltësimeve dhe jepni kodin e mirëfilltësimit që ofron.
+auth-totp-input-label = Jepni kodin 6-shifror
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Ripohojeni
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Lypset kod mirëfilltësimi
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Miratim i domosdoshëm tani <span>që nga pajisja juaj tjetër</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Çiftim i pasuksesshëm
+pair-failure-message = Procesi i rregullimit u përfundua.
 
 ## Pair index page
 
+pair-sync-header = Njëkohësoni { -brand-firefox }-in te telefoni ose tableti juaj
+pair-cad-header = Lidheni { -brand-firefox }-in në një tjetër pajisje
+pair-already-have-firefox-paragraph = Keni tashmë { -brand-firefox } te telefoni ose tableti juaj?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Njëkohësoni pajisjen tuaj
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Ose shkarkoni
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skanojeni që të shkarkohet { -brand-firefox } për celular, ose dërgojini vetes një <linkExternal>lidhje shkarkimi</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Jo tani
+pair-take-your-data-message = Merrni skedat, faqerojtësit dhe fjalëkalimet me vete, kudo që përdorni { -brand-firefox }-in.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Fillojani
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Kod QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Pajisja u lidh
+pair-success-message-2 = Çiftimi qe i suksesshëm.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Ripohoni çiftim <span>për %(email)s</span>
+pair-supp-allow-confirm-button = Ripohoni çiftim
+pair-supp-allow-cancel-link = Anuloje
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Miratim i domosdoshëm tani <span>që nga pajisja juaj tjetër</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Çiftoji duke përdorur një aplikacion
+pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit { -brand-firefox }.
 
 ## AccountRecoveryConfirmKey page
 
@@ -955,6 +1030,11 @@ account-recovery-lost-recovery-key-link = S’keni kyç rimarrjeje llogarie?
 # Header for form to create new password
 create-new-password-header = Krijoni fjalëkalim të ri
 account-restored-success-message = E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes së llogarisë. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezik.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Fjalëkalimi u caktua
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = U has gabim i papritur
+account-recovery-reset-password-redirecting = Po ridrejtohet
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
