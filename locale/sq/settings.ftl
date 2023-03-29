@@ -1040,6 +1040,7 @@ account-recovery-reset-password-redirecting = Po ridrejtohet
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Krijoni fjalëkalim të ri
+complete-reset-password-warning-message-2 = <span>Mbani mend:</span> Kur ricaktoni fjalëkalimin tuaj, llogarinë tuaj e ktheni në fillimet. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në { -product-pocket } s’do të preken.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Fjalëkalimi u caktua
@@ -1065,24 +1066,73 @@ reset-password-heading-w-default-service = <span>Që të vazhdoni te rregullimet
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>Që të vazhdoni te { $serviceName }</span>, ricaktoni fjalëkalimin
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Filloni ricaktimin
+reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
 reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Gabim:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Po vlerësohet hyrja…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Ripohoni këtë hyrje
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Shihni te email-et tuaj për lidhjen e ripohimit të hyrjes dërguar te { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Jepni fjalëkalimin tuaj <span>për { -product-firefox-account } tuajën</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Vazhdoni te { $serviceName }
+signin-subheader-without-logo-default = Vazhdoni te rregullime llogarie
+signin-button = Hyni
+signin-header = Hyni
+signin-use-a-different-account-link = Përdorni një llogari tjetër
+signin-forgot-password-link = Harruat  fjalëkalimin?
+signin-bounced-header = Na ndjeni. Kemi kyçur llogarinë tuaj.
+# $email (string) - The user's email.
+signin-bounced-message = Email-i i ripohimit që dërguam te { $email } u kthye mbrapsht dhe e kemi kyçur llogarinë tuaj që të mbrojmë të dhënat tuaja { -brand-firefox }.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = Nëse kjo është një adresë email e vlefshme, <linkExternal>na e bëni të ditur</linkExternal> dhe do t’ju ndihmojmë ta zhbllokoni llogarinë tuaj.
+signin-bounced-create-new-account = S’e keni më në zotërim atë email? Krijoni një llogari të re
+back = Mbrapsht
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, jepni kod mirëfilltësimi kopjeruajtjeje
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = <span>Që të vazhdohet te { $serviceName }</span>, jepni kod mirëfilltësimi kopjeruajtjeje
+signin-recovery-code-instruction = Ju lutemi, jepni një kod mirëfilltësimi kopjeruajtjeje që ju qe dhënë gjatë ujdisjes së mirëfilltësimit dyhapësh.
+signin-recovery-code-input-label = Jepni kod dhjetë-shifror mirëfilltësimi kopjeruajtjeje
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Ripohojeni
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Mbrapsht
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Jeni kyçur jashtë?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1093,16 +1143,48 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
+signin-token-code-input-label-v2 = Jepni kodin 6-shifror
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Ripohojeni
+signin-token-code-code-expired = Skadoi kodi?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Dërgo me email kod të ri.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Lypset kod ripohimi
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = <span>Që të vazhdohet te rregullimet e llogarisë</span>, jepni kod mirëfilltësimi
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = <span>Që të vazhdohet te { $serviceName }</span>, jepni kod mirëfilltësimi
+signin-totp-code-instruction-v2 = Hapni aplikacionin tuaj të mirëfilltësimeve dhe jepni kodin e mirëfilltësimit që ofron.
+signin-totp-code-input-label-v2 = Jepni kodin 6-shifror
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Ripohojeni
+signin-totp-code-other-account-link = Përdorni një llogari tjetër
+signin-totp-code-recovery-code-link = Probleme me dhënien e kodit?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Lypset kod mirëfilltësimi
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Ripohoni llogarinë tuaj
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Shihni te email-et tuaj për lidhjen e ripohimit dërguar te { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1110,6 +1192,12 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Jepni kodin e ripohimit
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Jepni kod ripohimi <span>për { -product-firefox-account } tuajën</span>
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
