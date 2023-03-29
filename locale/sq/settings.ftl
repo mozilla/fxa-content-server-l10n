@@ -456,6 +456,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Po njëkohësohen të dhëna { -brand-firefox }
 delete-account-product-firefox-addons = Shtesa { -brand-firefox }
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
+delete-account-chk-box-1-v3 =
+    .label = Çfarëdo pajtimesh të paguara do të anulohen (Hiq { -product-pocket })
 delete-account-chk-box-2 =
     .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -487,6 +489,13 @@ display-name-success-alert-2 = Emri për në ekran u përditësua
 
 ## Recent Activity
 
+recent-activity-title = Veprimtari Llogarie Së Fundi
+recent-activity-account-create = Llogaria u krijua
+recent-activity-account-disable = Llogaria u çaktivizua
+recent-activity-account-enable = Llogaria u aktivizua
+recent-activity-account-login = Hyrje e filluar nga llogaria
+recent-activity-account-reset = Ricaktim fjalëkalimi filluar nga llogaria
+recent-activity-emails-clearBounces = Kthime email-esh spastruar nga llogaria
 
 # Account recovery key setup page
 
@@ -564,6 +573,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = S’e skanoni dot kodin?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:
+tfa-enter-totp-v2 = Tani jepni kodin e mirëfilltësimit prej aplikacionit të mirëfilltësimeve.
+tfa-input-enter-totp-v2 =
+    .label = Jepni kod mirëfilltësimi
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
@@ -711,6 +723,14 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Duke vazhduar, pajtoheni me:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Terma Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim Privatësie</pocketPrivacy> të { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy> të { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Duke vazhduar, pajtoheni me <firefoxTos>Terma Shërbimi</firefoxTos> dhe <firefoxPrivacy>Shënim Privatësie</firefoxPrivacy>.
 
 ## Auth-server based errors that originate from backend service
 
@@ -728,11 +748,14 @@ auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
+auth-error-999 = Gabim i papritur
+auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = S’krijohet dot llogaria
 
 ## Connect Another Device page
 
