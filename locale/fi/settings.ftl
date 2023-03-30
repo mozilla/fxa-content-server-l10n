@@ -10,6 +10,10 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Sulje
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Jotain meni pieleen. Uutta linkkiä ei voitu lähettää.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +54,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Luottokortit
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Avaa { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Ei saapuneissa tai roskapostissa? Lähetä uudestaan
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -132,6 +132,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+signin-recovery-code-image-description =
+    .aria-label = Piilotettua tekstiä sisältävä asiakirja.
+signin-totp-code-image-label =
+    .aria-label = Laite piilotetulla 6-numeroisella koodilla.
 confirm-signup-aria-label =
     .aria-label = Kirjekuori, joka sisältää linkin
 
@@ -141,6 +145,8 @@ input-password-hide = Piilota salasana
 input-password-show = Näytä salasana
 input-password-hide-aria = Piilota salasana näytöltä.
 input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Takaisin
 
 ## LinkDamaged component
 
@@ -150,19 +156,26 @@ reset-pwd-link-damaged-header = Salasanan nollauslinkki on vaurioitunut
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Vahvistuslinkki vaurioitunut
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Avaamastasi linkistä puuttui merkkejä. Sähköpostiohjelmasi on saattanut katkaista sen. Kopioi osoite huolellisesti ja yritä uudelleen.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Vastaanota uusi linkki
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Salasanan nollauslinkki on vanhentunut
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Vahvistuslinkki on vanhentunut
 reset-pwd-link-expired-message = Linkki, jolla yritit nollata salasanasi, on vanhentunut.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Vahvistuslinkki on vanhentunut
 signin-link-expired-message = Avaamasi vahvistuslinkki on vanhentunut.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Vastaanota uusi linkki
 
 ## LinkRememberPassword component
 
@@ -942,7 +955,11 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Sähköposti
 reset-password-button = Aloita nollaus
+reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille
 
@@ -1040,8 +1057,8 @@ confirm-signup-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
 confirm-signup-code-success-alert = Tilin vahvistaminen onnistui
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
