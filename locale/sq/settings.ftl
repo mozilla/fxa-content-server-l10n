@@ -1000,7 +1000,7 @@ pair-success-message-2 = Çiftimi qe i suksesshëm.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Ripohoni çiftim <span>për %(email)s</span>
+pair-supp-allow-heading-text = Ripohoni çiftim <span>për { $email }/span>
 pair-supp-allow-confirm-button = Ripohoni çiftim
 pair-supp-allow-cancel-link = Anuloje
 
