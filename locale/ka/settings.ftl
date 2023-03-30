@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = დახურვა
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = წერილი გაგზავნილია ახლიდან. დაამატეთ { $accountsEmail } ნაცნობ მისამართებში შეტყობინებების შეუფერხებლად მიღებისთვის.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი ბმულის გაგზავნა ვერ მოხერხდა.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = საკრედიტო ბარათები
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = გახსენით { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = არ მიგიღიათ და არც ჯართის საქაღალდეშია? გაგზავნეთ ხელახლა
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = პაროლის აღსადგენ�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = ბმულს, რომელზეც გადახვედით ან სიმბოლოები აკლია, ან დაზიანებულია თქვენი ელფოსტის კლიენტის მიერ. ყურადღებით გადმოიტანეთ მისამართი და სცადეთ ხელახლა.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = ახალი ბმულის მიღება
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = პაროლის აღსადგენი ბმული ვადაგასულია
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
 reset-pwd-link-expired-message = პაროლის აღსადგენი ბმული, რომელზეც დააწკაპეთ, ვადაგასულია.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
 signin-link-expired-message = ბმული, რომელზეც დაწკაპეთ ელფოსტის დასადასტურებლად, ვადაგასულია.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = ახალი ბმულის მიღება
 
 ## LinkRememberPassword component
 
@@ -1002,6 +1012,17 @@ pair-unsupported-message = სისტემის კამერას იყ
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = შეიყვანეთ ანგარიშის აღდგენის გასაღები
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = დაადასტურეთ ანგარიშის აღდგენის გასაღები
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = ანგარიშის აღდგენის უმართებულო გასაღები
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = ანგარიშის აღდგენის გასაღები აუცილებელია
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = არ გაქვთ ანგარიშის აღდგენის გასაღები?
 
 ## Account recovery reset password page
 
