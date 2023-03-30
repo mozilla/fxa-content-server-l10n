@@ -1028,13 +1028,18 @@ account-recovery-lost-recovery-key-link = არ გაქვთ ანგარ
 
 # Header for form to create new password
 create-new-password-header = შექმენით ახალი პაროლი
+account-restored-success-message = თქვენ წარმატებით დაიბრუნეთ ანგარიშთან წვდომა მისი აღდგენის გასაღების მეშვეობით. შექმენით ახალი პაროლი თქვენი მონაცემების დასაცავად და შეინახეთ უსაფრთხო ადგილას.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = პაროლი დაყენებულია
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = წარმოიქმნა მოულოდნელი შეცდომა
+account-recovery-reset-password-redirecting = გადამისამართება
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = შექმენით ახალი პაროლი
+complete-reset-password-warning-message-2 = <span>გახსოვდეთ:</span> პაროლის განულებისას ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ ჩვენ თქვენს მონაცემებს ვშიფრავთ თქვენი პაროლის მეშვეობით პირადი მონაცემების ხელშეუხებლობისთვის. გამოწერები თუ გაქვთ, შეგინარჩუნდებათ და { -product-pocket }-ის მონაცემებიც უცვლელად დარჩება.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = პაროლი დაყენებულია
