@@ -78,6 +78,7 @@ automated-email-no-action = { automated-email-no-action-plaintext } ਹੋਰ �
 automated-email-no-action-plaintext = ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਗਲਤੀ ਨਾਲ ਮਿਲੀ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਕੁਝ ਵੀ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = ਜੇ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ; ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਪਰਮਾਣਿਤ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
+automated-email-reset = ਇਹ ਆਟੋਮੈਟਿਕ ਭੇਜੀ ਗਈ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਖੁਦ ਨਹੀਂ ਕੀਤਾ ਸੀ ਤਾਂ <a data-l10n-name="resetLink">ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</a>। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਨਹੀਂ ਬਦਲਿਆ ਤਾਂ ਹੁਣੇ ਆਪਣਾ ਪਾਸਵਰਡ { $resetLink } ਰਾਹੀਂ ਬਦਲੋ
@@ -122,6 +123,10 @@ subscriptionFirstInvoiceDiscount-content-discount = ਛੋਟ: -{ $invoiceDiscou
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = ਇੱਕ ਵਾਰ ਲਈ ਛੋਟ: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-ਮਹੀਨੇਵਾਰ ਛੋਟ: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = ਟੈਕਸ ਤੇ ਫ਼ੀਸਾਂ: { $invoiceTaxAmount }
