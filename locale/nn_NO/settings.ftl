@@ -71,8 +71,17 @@ datablock-print =
 # Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, British Columbia, Canada (estimated)'
 device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimert)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (utrekna bruk)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (utrekna bruk)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Ukjend plassering
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } på { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresse: { $ipAddress }
@@ -93,10 +102,15 @@ form-reset-password-with-balloon-match-error = Passorda samsvarar ikkje
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Dette feltet er påkravd
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Last ned
+    .aria-label = Last ned
 get-data-trio-copy-2 =
     .title = Kopier
     .aria-label = Kopier
@@ -221,6 +235,11 @@ connect-another-app-store-image-2 =
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Logga ut frå { $service }
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
 # Link text to a support page on missing or duplicate devices
@@ -284,6 +303,7 @@ header-help = Hjelp
 
 ## Linked Accounts section
 
+la-heading = Kopla kontoar
 la-unlink-button = Fjern tilknyting
 la-unlink-account-button = Fjern tilknyting
 nav-linked-accounts = { la-heading }
@@ -350,6 +370,8 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Endra passord
+pw-8-chars = Minst 8 teikn
+pw-not-email = Ikkje di e-postadresse
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
@@ -369,6 +391,7 @@ pw-change-success-alert-2 = Passord oppdatert
 
 pw-create-header =
     .title = Opprett passord
+pw-create-success-alert-2 = Passord innstilt
 
 ##
 
@@ -597,6 +620,8 @@ connect-another-device-signed-in-header = Du er logga inn på { -brand-firefox }
 connect-another-device-email-confirmed-banner = E-postadresse stadfesta
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Innlogging stadfesta
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Logg inn
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Kople til ei anna eining
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -735,6 +760,7 @@ account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsn
 create-new-password-header = Lag nytt passord
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Passord innstilt
+account-recovery-reset-password-redirecting = Omdirigerer
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
