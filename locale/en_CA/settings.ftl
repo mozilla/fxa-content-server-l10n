@@ -1172,6 +1172,7 @@ signin-totp-code-heading-w-default-service-v2 = Enter authentication code <span>
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Enter authentication code <span>to continue to { $serviceName }</span>
+signin-totp-code-instruction-v2 = Open your authentication app and enter the authentication code it provides.
 signin-totp-code-input-label-v2 = Enter 6-digit code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
