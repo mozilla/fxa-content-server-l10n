@@ -67,6 +67,14 @@ ios-download-plaintext = App Store에서 { $productName } 다운로드:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = 다른 기기에 { $productName } 설치:
+automated-email-change-2 = 이 조치를 취하지 않았다면 즉시 <a data-l10n-name="passwordChangeLink">비밀번호를 변경</a>하세요.
+automated-email-support = 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = 이 조치를 취하지 않았다면 즉시 비밀번호를 변경하세요:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = 자세한 내용은 { -brand-mozilla } 지원을 참조하세요:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 자동으로 발송된 이메일입니다. 이 작업을 승인하지 않았다면 비밀번호를 변경해 주세요:
 automated-email-reset =
@@ -121,6 +129,13 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = 일회성 할인: -
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }개월 할인: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = 세금 및 수수료: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = { $invoiceDateOnly }에 { $invoiceTotal } 금액이 청구됩니다
 subscriptionSupport = 구독에 관해 궁금한 점이 있으신가요? <a data-l10n-name="subscriptionSupportUrl">지원팀</a>이 도와드리겠습니다.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다.
@@ -196,6 +211,7 @@ downloadSubscription-link-action-2 = 시작하기
 fraudulentAccountDeletion-subject = { -product-firefox-account }이 삭제되었습니다
 fraudulentAccountDeletion-title = 계정이 삭제되었습니다
 fraudulentAccountDeletion-content = 최근에 이 이메일을 사용하여 { -product-firefox-account }이 생성되었고 구독이 청구되었습니다. 모든 새 계정에 필요한 절차와 같이, 이 이메일 주소를 인증하여 계정을 확인하세요.
+fraudulentAccountDeletion-contact = 궁금하신 점이 있다면, <a data-l10n-name="mozillaSupportUrl">지원 팀</a>에 문의하세요.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 궁금하신 점이 있다면, 지원 팀에 문의하세요: { $mozillaSupportUrl }
@@ -271,18 +287,27 @@ postChangePrimary-title = 새 기본 이메일
 #  $email (String) - A user's email address
 postChangePrimary-description = 기본 이메일을 { $email }으로 성공적으로 변경했습니다. 이 주소는 이제 { -product-firefox-account }에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다.
 postChangePrimary-action = 계정 관리
+postConsumeRecoveryCode-title-2 = 백업 인증 코드를 사용하였습니다.
 postConsumeRecoveryCode-action = 계정 관리
+postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
+postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
 postRemoveAccountRecovery-title-2 = 계정 복구 키를 삭제했습니다.
 postRemoveAccountRecovery-action = 계정 관리
+postRemoveAccountRecovery-invalid-2 = 비밀번호를 잊어버린 경우 { -brand-firefox } 데이터를 복구하려면 계정 복구 키가 필요합니다.
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { -product-firefox-account } 계정에서 { $secondaryEmail }을 보조 이메일에서 삭제하였습니다. 보안 알림과 로그인 확인은 더 이상 이 이메일로 전송되지 않습니다.
 postRemoveSecondary-action = 계정 관리
+postRemoveTwoStepAuthentication-subject-line-2 = 2단계 인증이 꺼져 있습니다
+postRemoveTwoStepAuthentication-title-2 = 2단계 인증을 껐습니다
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = 다음에서 비활성화했습니다:
 postRemoveTwoStepAuthentication-action = 계정 관리
+postRemoveTwoStepAuthentication-not-required-2 = 로그인할 때 더 이상 인증 앱의 보안 코드가 필요하지 않습니다.
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = 보조 이메일 주소를 추가했습니다
 # Variables:
