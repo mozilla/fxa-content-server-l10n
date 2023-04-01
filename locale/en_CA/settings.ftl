@@ -50,13 +50,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Credit Cards
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Open { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Not in inbox or spam folder? Resend
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +156,26 @@ reset-pwd-link-damaged-header = Reset password link damaged
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Confirmation link damaged
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Receive new link
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Reset password link expired
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Confirmation link expired
 reset-pwd-link-expired-message = The link you clicked to reset your password is expired.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Confirmation link expired
 signin-link-expired-message = The link you clicked to confirm your email is expired.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Receive new link
 
 ## LinkRememberPassword component
 
@@ -593,6 +596,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Can't scan code?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Enter this secret key into your authenticator app:
+tfa-enter-totp-v2 = Now enter the authentication code from the authentication app.
 tfa-input-enter-totp-v2 =
     .label = Enter authentication code
 tfa-save-these-codes-1 =
@@ -755,11 +759,9 @@ auth-error-105-2 = Invalid confirmation code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
@@ -920,7 +922,19 @@ pair-auth-complete-manage-devices-link = Manage devices
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Enter authentication code <span>to continue to account settings</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Enter authentication code <span>to continue to { $serviceName }</span>
 auth-totp-instruction = Open your authentication app and enter the authentication code it provides.
+auth-totp-input-label = Enter 6-digit code
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirm
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Authentication code required
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1012,6 +1026,9 @@ create-new-password-header = Create new password
 account-restored-success-message = You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Password set
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Unexpected error encountered
+account-recovery-reset-password-redirecting = Redirecting
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1033,8 +1050,6 @@ confirm-pw-reset-header = Reset email sent
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Click the link emailed to { $email } within the next hour to create a new password.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 
 ## ResetPassword page
 
@@ -1046,10 +1061,10 @@ reset-password-heading-w-default-service = Reset password <span>to continue to a
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Reset password <span>to continue to { $serviceName }</span>
 reset-password-warning-message-2 = <span>Note:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and { -product-pocket } data will not be affected.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Begin reset
-reset-password-success-alert = Password reset
-reset-password-error-general = Sorry, there was a problem resetting your password
-reset-password-error-unknown-account = Unknown account
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
@@ -1111,6 +1126,8 @@ signin-recovery-code-back-link = Back
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Are you locked out?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Backup authentication code required
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1140,11 +1157,16 @@ signin-token-code-required-error = Confirmation code required
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Enter authentication code <span>to continue to account settings</span>
 signin-totp-code-input-label-v2 = Enter 6-digit code
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account
 signin-totp-code-recovery-code-link = Trouble entering code?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Authentication code required
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1160,6 +1182,8 @@ confirm-signup-instruction = Check your email for the confirmation link sent to 
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Enter confirmation code
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
@@ -1172,6 +1196,9 @@ confirm-signup-code-confirm-button = Confirm
 confirm-signup-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Email new code.
+confirm-signup-code-success-alert = Account confirmed successfully
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Confirmation code is required
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
