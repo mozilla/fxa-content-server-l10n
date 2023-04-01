@@ -20,9 +20,17 @@ subplat-privacy-plaintext = Ichinan na’oj:
 subplat-update-billing-plaintext = { subplat-update-billing }
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Xak'ül re taqoya'l ruma chi ri { $email } k'o jun rub'i' rutaqoya'l richin { -product-firefox-account } chuqa' xatz'ib'aj ab'i' richin { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account }.
 subplat-explainer-multiple = Nak'ül re taqoya'l re' ruma chi ri { $email } k'o pa jun { -product-firefox-account } chuqa' xatz'ib'aj ab'i' pa jalajöj taq tikojil.
 subplat-explainer-was-deleted = Nak'ül re taqoya'l re' ruma chi ri { $email } xtz'ib'äx pa jun { -product-firefox-account }.
+subplat-manage-account = Tanuk'samajij ri taq runuk'ulem ataqoya'l richin { -product-firefox-account } rik'in yatok pa <a data-l10n-name="subplat-account-page">ruxaq taqoya'l</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Tanuk'samajij ri runuk'ulem { -product-firefox-account } rik'in natz'ët ruxaq ataqoya'l: { $accountSettingsUrl }
 subplat-terms-policy = Rojqanem chuqa’ ruq‘atik na'ojil
 subplat-terms-policy-plaintext = { subplat-terms-policy } :
 subplat-cancel = Ruq’atik tz‘ib'anïk b'i'aj
@@ -59,6 +67,14 @@ ios-download-plaintext = Taqasaj { $productName } pa App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Tayaka' { $productName } pa jun chik okisaxel:
+automated-email-change-2 = We man ja ta rat xab'anon, <a data-l10n-name="passwordChangeLink">tajala' ri ewan atzij</a> pan anin.
+automated-email-support = Richin nawetamaj, tatz'eta' <a data-l10n-name="supportLink">{ -brand-mozilla } Rutob'al</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = We majun ab'anon, tajalaxtayij ri ewan atzij:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Richin rutzijol, tatz'eta' rutob'al { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Richin rutzijol, tatz'eta' <a data-l10n-name="supportLink"> Rutob'al { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = We man ja ta rat xajalo, tatzolij ri ewan atzij wakami pa { $resetLink }
