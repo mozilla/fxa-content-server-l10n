@@ -898,6 +898,9 @@ auth-totp-code-required-error = Se requiere un código de autenticación
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Ahora se requiere la aprobación <span>desde tu otro dispositivo</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
