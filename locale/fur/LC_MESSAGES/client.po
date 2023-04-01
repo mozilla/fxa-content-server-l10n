@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-21 05:01+0000\n"
+"PO-Revision-Date: 2023-04-01 15:32+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -640,11 +640,11 @@ msgstr "Chest account nol esist plui."
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Proprietât no valide tal gjeton par ripiâ: %(property)s"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "E mancje une proprietât tal gjeton par ripiâ: %(property)s"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
@@ -886,7 +886,7 @@ msgstr "Erôr 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Orpo, alc al è lât strucj. Nus è rivade a segnalazion dal probleme e o lavorarìn par comedâlu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
@@ -954,7 +954,7 @@ msgstr "Sielç ce sincronizâ:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Sincronize selezionâts"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
