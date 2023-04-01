@@ -43,6 +43,8 @@ coupon-promo-code-applied = Kampanjekode brukt
 coupon-submit = Bruk
 coupon-remove = Fjern
 coupon-error = Koden du skreiv inn er ugyldig eller utgått.
+coupon-error-expired = Koden du skreiv inn har gått ut.
+coupon-error-invalid = Koden du skreiv inn er ugyldig.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Skriv inn kode
