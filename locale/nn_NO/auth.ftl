@@ -272,6 +272,8 @@ postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
 postRemoveSecondary-action = Handsam kontoen
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
 postVerify-subject-3 = Velkomen til { -brand-firefox }!
 postVerify-setup-2 = Kople til ei anna eining:
@@ -290,6 +292,8 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
 subscriptionAccountFinishSetup-action-2 = Kom i gang
+subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
+subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din

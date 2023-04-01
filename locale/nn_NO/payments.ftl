@@ -60,6 +60,7 @@ brand-name-firefox-logo = { -brand-name-firefox }-logo
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link = Har du allereie ein { -brand-name-firefox }-konto? <a>Logg inn</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -343,6 +344,8 @@ brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Sjå gjennom endringa
+sub-change-failed = Mislykka endring av plan
 sub-update-copy =
     Planen din vil endrast med ein gong, og du vil bli belasta eit justert
     beløp for resten av faktureringssyklusen. Frå og med { $startingDate }
@@ -385,6 +388,8 @@ sub-route-idx-cancel-aside = Har du spørsmål? Besøk <a>{ -brand-name-mozilla 
 
 sub-customer-error =
     .title = Problem med å laste inn kunde
+sub-invoice-error =
+    .title = Problemer med å laste inn fakturaer
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
 
 ## Routes - Subscription - ActionButton
@@ -412,6 +417,8 @@ sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
+invoice-not-found = Fann ikkje etterfølgjande faktura
+sub-invoice-preview-error-title = Fann ikkje førehandsvising av faktura
 
 ## Routes - Subscriptions - Pocket Subscription
 
