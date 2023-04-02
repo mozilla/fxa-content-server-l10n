@@ -405,7 +405,7 @@ sub-update-payment-title = 付款信息
 
 ## Routes - Checkout and Product/Subscription create
 
-pay-with-heading-card-or = 或刷卡支付
+pay-with-heading-card-or = 或使用银行卡支付
 pay-with-heading-card-only = 刷卡支付
 product-invoice-preview-error-title = 加载发票预览时出现问题
 product-invoice-preview-error-text = 无法加载发票预览
