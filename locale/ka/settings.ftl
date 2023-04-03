@@ -1000,6 +1000,9 @@ pair-success-message-2 = მიერთებულია წარმატე
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = მიერთების დადასტურება <small>ელფოსტისთვის { $email }</small>
 pair-supp-allow-confirm-button = მიერთების დადასტურება
 pair-supp-allow-cancel-link = გაუქმება
 
@@ -1007,6 +1010,9 @@ pair-supp-allow-cancel-link = გაუქმება
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = ახლა საჭიროა დამოწმება <span>თქვენი მეორე მოწყობილობიდან</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1015,7 +1021,15 @@ pair-unsupported-message = სისტემის კამერას იყ
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ { $serviceName }</span>
 account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
+account-recovery-confirm-key-warning-message = <span>გაითვალისწინეთ:</span> თუ ანგარიშის აღდგენის გასაღები არ გაქვთ შენახული და მის გარეშე გაანულებთ პაროლს, თქვენი მონაცემების ნაწილი დაიკარგება (მათ შორის სერვერზე დასინქრონებული ისტორია და სანიშნები).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = შეიყვანეთ ანგარიშის აღდგენის გასაღები
@@ -1050,12 +1064,16 @@ complete-reset-password-success-alert = პაროლი დაყენებ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
+complete-reset-password-recovery-key-error = სამწუხაროდ, ხარვეზი იყო ანგარიშის აღდგენის გასაღების გადამოწმებისას. <hasRecoveryKeyErrorLink>გაანულეთ პაროლი თქვენი ანგარიშის აღდგენის გასაღებით.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = აღსადგენი შეტყობინება გამოგზავნილია
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = დააწკაპეთ ბმულზე, რომელსაც მიიღებთ ელფოსტაზე { $email } უახლოეს ერთი საათში და მიუთითეთ ახალი პაროლი.
 
 ## ResetPassword page
 
@@ -1066,6 +1084,10 @@ reset-password-heading-w-default-service = გაანულეთ პარო
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = გაანულეთ პაროლი, <span>რომ იხილოთ { $serviceName }</span>
+reset-password-warning-message-2 = <span>გაითვალისწინეთ:</span> პაროლის განულებისას ასევე სუფთავდება თქვენი ანგარიშის მონაცემები. შესაძლოა დაკარგოთ პირადი ინფორმაციის ნაწილი (მათ შორის ისტორია, სანიშნები და პაროლები). ეს იმიტომ, რომ ჩვენ თქვენს მონაცემებს ვშიფრავთ თქვენივე პაროლით პირადი მონაცემების უსაფრთხოებისთვის. გამოწერები თუ გაქვთ, შეგინარჩუნდებათ და { -product-pocket }-ის მონაცემებიც ხელუხლებელი დარჩება.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = ელფოსტა
 reset-password-button = აღდგენის დაწყება
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-with-recovery-key-verified-generate-new-key = ანგარიშის აღდგენის ახალი გასაღების შედგენა
@@ -1081,11 +1103,16 @@ validating-signin = მიმდინარეობს შესვლის �
 ## ConfirmSignin component
 
 confirm-signin-header = დაადასტურეთ ეს შესვლა
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = შეამოწმეთ თქვენი ელფოსტა { $email }, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
 
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = შეიყვანეთ პაროლი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = განაგრძეთ, რომ იხილოთ <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = გამოიყენეთ { $serviceName }
@@ -1097,6 +1124,8 @@ signin-forgot-password-link = დაგავიწყდათ პაროლ�
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
+# linkExternal is a link to a mozilla support
+signin-bounced-help = თუ ელფოსტის მითითებული მისამართი მართებულია, <linkExternal>გვაცნობეთ</linkExternal> და დაგეხმარებით თქვენს ანგარიშთან წვდომის დაბრუნებაში.
 signin-bounced-create-new-account = აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში
 back = უკან
 
@@ -1137,6 +1166,8 @@ signin-reported-message = ჩვენი გუნდი უკვე გაფ
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-firefox-account(case: "ben") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 signin-token-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = დასტური
@@ -1150,6 +1181,14 @@ signin-token-code-required-error = საჭიროა დასტური�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = შეიყვანეთ შესვლის კოდი, <span>რომ იხილოთ { $serviceName }</span>
+signin-totp-code-instruction-v2 = გახსენით შესვლის დასამოწმებელი პროგრამა და შეიყვანეთ შესვლის მოცემული კოდი.
 signin-totp-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = დასტური
