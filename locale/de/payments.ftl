@@ -123,7 +123,9 @@ payment-confirmation-download-button = Weiter zum Download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Ich ermächtige { -brand-name-mozilla }, Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Ich ermächtige { -brand-name-mozilla }, Entwickler von { -brand-name-firefox }-Produkten, meine Zahlungsmethode { $price } für { $productName } gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> zu belasten und <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink>, bis ich meinen Dauerauftrag storniere.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Datenschutzerklärung von { -br
 payment-method-header = Wählen Sie Ihre Zahlungsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Erforderlich
+payment-method-first-approve = Zuerst müssen Sie Ihr Abonnement genehmigen
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Zahlungsinformationen
 
 pay-with-heading-card-or = Oder mit Karte bezahlen
 pay-with-heading-card-only = Mit Karte bezahlen
+pay-with-heading-paypal = Mit { -brand-name-paypal } bezahlen
 product-invoice-preview-error-title = Fehler beim Laden der Rechnungsvorschau
 product-invoice-preview-error-text = Rechnungsvorschau konnte nicht geladen werden
 
