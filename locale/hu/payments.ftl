@@ -128,7 +128,9 @@ payment-confirmation-download-button = Tovább a letöltéshez
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy levonja a megjelenített összeget a számlámról az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy a(z) { $price } fizetési módomat terhelje meg a(z) { $productName }, a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> szerint és az <privacyNoticeLink>Adatvédelmi nyilatkozatot</privacyNoticeLink>, amíg le nem mondom az előfizetést.
 
 ## Component - PaymentErrorView
 
@@ -170,7 +172,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>A { -brand-name-stripe } adatv�
 payment-method-header = Válassza ki a fizetési módot
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Kötelező
+payment-method-first-approve = Először jóvá kell hagynia az előfizetését
 
 ## Component - PaymentProcessing
 
@@ -416,6 +418,7 @@ sub-update-payment-title = Fizetési információk
 
 pay-with-heading-card-or = Vagy fizessen kártyával
 pay-with-heading-card-only = Fizessen kártyával
+pay-with-heading-paypal = Fizetés { -brand-name-paypal }lal
 product-invoice-preview-error-title = Probléma a számla előnézetének betöltésekor
 product-invoice-preview-error-text = Nem sikerült betölteni a számla előnézetét
 
