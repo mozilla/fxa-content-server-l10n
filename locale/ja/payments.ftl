@@ -160,6 +160,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } プラ�
 payment-method-header = お支払い方法を選択してください
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = まず、サブスクリプションの承認が必要です。
 
 ## Component - PaymentProcessing
 
