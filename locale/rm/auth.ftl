@@ -298,20 +298,52 @@ postChangePrimary-title = Nova adressa dad e-mail principala
 postChangePrimary-description = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes { -product-firefox-account }. En pli serva ella per retschaiver communicaziuns da segirezza e confermas d'annunzia.
 postChangePrimary-action = Administrar il conto
 postConsumeRecoveryCode-title-2 = Ti has utilisà in code d'autentificaziun da backup
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = El è vegnì utilisà sin:
 postConsumeRecoveryCode-action = Administrar il conto
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] I resta anc 1 code d'autentificaziun da backup
+       *[other] I restan anc { $numberRemaining } codes d'autentificaziun da backup
+    }
+postNewRecoveryCodes-subject-2 = Creà novs codes d'autentificaziun da backup
+postNewRecoveryCodes-title-2 = Ti has creà novs codes d'autentificaziun da backup
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Els èn vegnids creads sin:
 postNewRecoveryCodes-action = Administrar il conto
+postRemoveAccountRecovery-subject-2 = Stizzà la clav da recuperaziun dal conto
+postRemoveAccountRecovery-title-2 = Ti has stizzà tia clav da recuperaziun dal conto.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Ella è vegnida stizzada sin:
 postRemoveAccountRecovery-action = Administrar il conto
+postRemoveAccountRecovery-invalid-2 = Ti dovras ina clav da recuperaziun dal conto per recuperar tias datas da { -brand-firefox } sche ti emblidas tes pled-clav.
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail alternativa da tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
 postRemoveSecondary-action = Administrar il conto
+postRemoveTwoStepAuthentication-subject-line-2 = L'autentificaziun en dus pass è deactivada
+postRemoveTwoStepAuthentication-title-2 = Ti has deactivà l'autentificaziun en dus pass
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Ti l'has deactivà cun agid da:
 postRemoveTwoStepAuthentication-action = Administrar il conto
+postRemoveTwoStepAuthentication-not-required-2 = Ti na dovras nagins codes da segirezza pli da tia app d'autentificaziun per t'annunziar.
+postVerify-sub-title-3 = Nus ans allegrain che ti es qua!
+postVerify-title-2 = Vuls ti vesair il medem tab sin dus apparats?
+postVerify-description-2 = Quai è simpel! Installescha simplamain { -brand-firefox } sin in auter apparat e t'annunzia per sincronisar. Sco sch'i fiss magia!
+postVerify-sub-description = (Psst… Quai vul era dir che ti pos ir per tes segnapaginas, pleds-clav ed autras datas da { -brand-firefox } dapertut là nua che ti es annunzià.)
+postVerify-subject-3 = Bainvegni en { -brand-firefox }!
+postVerify-setup-2 = Connectar in auter apparat:
+postVerify-action-2 = Connectar in auter apparat
 postVerifySecondary-subject = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-title = Agiuntà ina adressa dad e-mail alternativa
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Ti has confermà cun success { $secondaryEmail } sco adressa dad e-mail alternativa per tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia vegnan ussa tramess ad omaduas adressas.
 postVerifySecondary-action = Administrar il conto
 recovery-subject = Redefinir tes pled-clav
+recovery-title-2 = Emblidà tes pled-clav?
 recovery-action = Crear in nov pled-clav
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
