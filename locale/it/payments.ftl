@@ -123,7 +123,9 @@ payment-confirmation-download-button = Prosegui con il download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Autorizzo { -brand-name-mozilla }, produttore dei prodotti { -brand-name-firefox }, ad addebitare { $price } sul mio metodo di pagamento per { $productName }, in base ai <termsOfServiceLink>Termini di servizio</termsOfServiceLink> e <privacyNoticeLink>Informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Informativa sulla privacy di { 
 payment-method-header = Scegli il tuo metodo di pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Obbligatorio
+payment-method-first-approve = Per prima cosa devi approvare il tuo abbonamento
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Informazioni sul pagamento
 
 pay-with-heading-card-or = O paga con la carta
 pay-with-heading-card-only = Paga con la carta
+pay-with-heading-paypal = Paga con { -brand-name-paypal }
 product-invoice-preview-error-title = Problema durante il caricamento dell’anteprima della fattura
 product-invoice-preview-error-text = Impossibile caricare l’anteprima della fattura
 
