@@ -147,7 +147,9 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Pooblaščam { -brand-name-mozilla }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> bremeni moje plačilno sredstvo { $price } za { $productName } in <privacyNoticeLink>Obvestilo o zasebnosti</privacyNoticeLink>, dokler naročnine ne prekličem.
 
 ## Component - PaymentErrorView
 
@@ -189,7 +191,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Politika zasebnosti za { -brand
 payment-method-header = Izberite način plačila
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Zahtevano
+payment-method-first-approve = Najprej morate odobriti svojo naročnino
 
 ## Component - PaymentProcessing
 
@@ -483,6 +485,7 @@ sub-update-payment-title = Podatki o plačilu
 
 pay-with-heading-card-or = Ali plačajte s kartico
 pay-with-heading-card-only = Plačajte s kartico
+pay-with-heading-paypal = Plačaj s storitvijo { -brand-name-paypal }
 product-invoice-preview-error-title = Težava pri nalaganju predogleda računa
 product-invoice-preview-error-text = Ni bilo mogoče naložiti predogleda računa
 
