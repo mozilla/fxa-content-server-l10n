@@ -623,6 +623,10 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
     როცა თან არ გექნებათ მობილური მოწყობილობა.
+tfa-enter-code-to-confirm-1 =
+    გთხოვთ შეინახოთ შესვლის სამარქაფო კოდები ახლავე
+    და დაადასტუროთ, რომ შენახულია. ეს კოდები დაგეხმარებათ ანგარიშზე შესვლაში, თუ
+    დაკარგავთ მობილურთან წვდომას.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -1101,6 +1105,14 @@ back = უკან
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = შეიყვანეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ ანგარიშის პარამეტრები</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = შეიყვანეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
+signin-recovery-code-instruction = გთხოვთ შეინახოთ შესვლის სამარქაფო კოდები, რომლებიც მოგეწოდათ ანგარიშზე ორბიჯიანი შესვლის გამართვისას.
 signin-recovery-code-input-label = შეიყვანეთ შესვლის 10-ციფრიანი სამარქაფო კოდი
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
@@ -1143,12 +1155,16 @@ signin-totp-code-input-label-v2 = შეიყვანეთ 6-ციფრი�
 signin-totp-code-confirm-button = დასტური
 signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
 signin-totp-code-recovery-code-link = ვერ შეგყავთ კოდი?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = შესვლის დამოწმების კოდი აუცილებელია
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
 confirm-signup-heading = დაადასტურეთ თქვენი ანგარიში
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = შეამოწმეთ თქვენი ელფოსტა %(email)s, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1156,10 +1172,14 @@ confirm-signup-heading = დაადასტურეთ თქვენი �
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = შეიყვანეთ დადასტურების კოდი
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = დასტური
