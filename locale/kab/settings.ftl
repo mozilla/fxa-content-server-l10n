@@ -818,6 +818,7 @@ pair-auth-complete-manage-devices-link = Sefrek ibenkan
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Sekcem tangalt s 6-izwilen
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Sentem
 
