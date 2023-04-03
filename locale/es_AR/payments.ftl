@@ -123,7 +123,6 @@ payment-confirmation-download-button = Continuar descargando
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cobrar de mi método de pago la suma mostrada según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +164,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -b
 payment-method-header = Elegí tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Necesario
+payment-method-first-approve = Primero tendrás que aprobar tu suscripción
 
 ## Component - PaymentProcessing
 
@@ -411,6 +410,7 @@ sub-update-payment-title = Información del pago
 
 pay-with-heading-card-or = O pagar con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
+pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 product-invoice-preview-error-title = Problema cargando las vistas previas de las facturas
 product-invoice-preview-error-text = No se pudo cargar la vista previa de la factura
 
