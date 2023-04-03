@@ -124,7 +124,9 @@ payment-confirmation-download-button = Continue to download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method { $price } for { $productName }, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
 
 ## Component - PaymentErrorView
 
@@ -170,7 +172,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privacy 
 payment-method-header = Choose your payment method
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Required
+payment-method-first-approve = First you’ll need to approve your subscription
 
 ## Component - PaymentProcessing
 
@@ -398,6 +400,7 @@ sub-update-payment-title = Payment information
 ## Routes - Checkout and Product/Subscription create
 pay-with-heading-card-or = Or pay with card
 pay-with-heading-card-only = Pay with card
+pay-with-heading-paypal = Pay with { -brand-name-paypal }
 
 product-invoice-preview-error-title = Problem loading invoice preview
 product-invoice-preview-error-text = Could not load invoice preview
