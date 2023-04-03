@@ -119,7 +119,6 @@ payment-confirmation-download-button = ダウンロードを続行
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
 
 ## Component - PaymentErrorView
 
@@ -161,7 +160,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } プラ�
 payment-method-header = お支払い方法を選択してください
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = 必須
 
 ## Component - PaymentProcessing
 
@@ -383,6 +381,7 @@ sub-update-payment-title = 支払情報
 
 pay-with-heading-card-or = もしくはカードで支払います
 pay-with-heading-card-only = カードで支払います
+pay-with-heading-paypal = { -brand-name-paypal } で支払う
 product-invoice-preview-error-title = 請求書プレビュー読み込みエラー
 product-invoice-preview-error-text = 請求書プレビューを読み込めませんでした
 
