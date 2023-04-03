@@ -522,6 +522,7 @@ recent-activity-account-disable = アカウントが無効化されました
 recent-activity-account-enable = アカウントが有効化されました
 recent-activity-account-login = アカウントへのログイン開始
 recent-activity-account-reset = アカウントのパスワードリセット
+recent-activity-emails-clearBounces = アカウントのバウンスメール (配信エラーのメール) が消去されました
 
 # Account recovery key setup page
 
