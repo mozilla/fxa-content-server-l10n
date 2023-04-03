@@ -166,7 +166,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות �
 payment-method-header = נא לבחור את שיטת התשלום שלך
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = נדרש
 
 ## Component - PaymentProcessing
 
@@ -426,6 +425,7 @@ sub-update-payment-title = פרטי תשלום
 
 pay-with-heading-card-or = או לשלם עם כרטיס
 pay-with-heading-card-only = תשלום באמצעות כרטיס
+pay-with-heading-paypal = תשלום באמצעות { -brand-name-paypal }
 product-invoice-preview-error-title = בעיה בטעינת תצוגה מקדימה של החשבונית
 product-invoice-preview-error-text = לא ניתן לטעון תצוגה מקדימה של החשבונית
 
