@@ -139,7 +139,9 @@ payment-confirmation-download-button = Parhau i lwytho i lawr
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu y swm sy'n cael ei ddangos, yn ôl <termsOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Rwy'n awdurdodi { -brand-name-mozilla } , gwneuthurwr cynhyrchion { -brand-name-firefox }, i godi tâl ar fy null talu { $price } am { $productName }, yn unol â <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ganslo fy nhanysgrifiad.
 
 ## Component - PaymentErrorView
 
@@ -181,7 +183,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Polisi preifatrwydd { -brand-na
 payment-method-header = Dewiswch eich dull talu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Angenrheidiol
+payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
 
 ## Component - PaymentProcessing
 
@@ -523,6 +525,7 @@ sub-update-payment-title = Manylion talu
 
 pay-with-heading-card-or = Neu dalu gyda cherdyn
 pay-with-heading-card-only = Talu gyda cherdyn
+pay-with-heading-paypal = Talu gyda { -brand-name-paypal }
 product-invoice-preview-error-title = Anhawster wrth lwytho rhagolwg anfoneb
 product-invoice-preview-error-text = Methu llwytho rhagolwg anfoneb
 
