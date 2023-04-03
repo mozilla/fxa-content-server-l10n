@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Kapat
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-link-error-message = Bir sorun oluştu. Yeni bağlantı gönderilemedi.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
