@@ -123,7 +123,9 @@ payment-confirmation-download-button = 前往下載
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取 { $price } 費用來提供 { $productName }，直到我主動取消訂閱為止。
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隱私�
 payment-method-header = 選擇付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = 必填
+payment-method-first-approve = 請先授權付款訂閱
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = 付款資訊
 
 pay-with-heading-card-or = 或刷卡付款
 pay-with-heading-card-only = 刷卡付款
+pay-with-heading-paypal = 使用 { -brand-name-paypal } 付款
 product-invoice-preview-error-title = 載入請款單預覽頁面時發生問題
 product-invoice-preview-error-text = 無法載入請款單預覽頁面
 
