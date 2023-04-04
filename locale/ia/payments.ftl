@@ -123,7 +123,6 @@ payment-confirmation-download-button = Continuar a discargar
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Io autorisa { -brand-name-mozilla }, creator del productos { -brand-name-firefox }, a debitar a mi methodo de pagamento le amonta indicate, in conformitate con le <termsOfServiceLink>conditiones de servicio</termsOfServiceLink> e con le <privacyNoticeLink>aviso de confidentialitate</privacyNoticeLink>, usque io cancella mi subscription.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +164,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Politica de confidentialitate d
 payment-method-header = Elige tu methodo de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Necessari
 
 ## Component - PaymentProcessing
 
@@ -411,6 +409,7 @@ sub-update-payment-title = Information de pagamento
 
 pay-with-heading-card-or = O paga con le carta
 pay-with-heading-card-only = Pagar con le carta
+pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 product-invoice-preview-error-title = Problemas a cargar vistas previe de factura
 product-invoice-preview-error-text = Impossibile cargar vistas previe de factura
 
