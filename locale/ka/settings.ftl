@@ -1002,7 +1002,7 @@ pair-success-message-2 = მიერთებულია წარმატე
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = მიერთების დადასტურება <small>ელფოსტისთვის { $email }</small>
+pair-supp-allow-heading-text = მიერთების დადასტურება <span>ელფოსტისთვის { $email }</span>
 pair-supp-allow-confirm-button = მიერთების დადასტურება
 pair-supp-allow-cancel-link = გაუქმება
 
@@ -1203,7 +1203,7 @@ signin-totp-code-required-error = შესვლის დამოწმებ
 
 confirm-signup-heading = დაადასტურეთ თქვენი ანგარიში
 # { $email } is the email entered by the user and where the signup confirmation link was sent
-confirm-signup-instruction = შეამოწმეთ თქვენი ელფოსტა %(email)s, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
+confirm-signup-instruction = შეამოწმეთ თქვენი ელფოსტა { $email }, რომელზეც გამოგზავნილია დასადასტურებელი ბმული
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
