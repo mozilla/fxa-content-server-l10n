@@ -137,7 +137,9 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
 
 ## Component - PaymentErrorView
 
@@ -179,7 +181,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Zásady ochrany osobných údaj
 payment-method-header = Vyberte si spôsob platby
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Požadované
+payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 
 ## Component - PaymentProcessing
 
@@ -449,6 +451,7 @@ sub-update-payment-title = Informácie o platbe
 
 pay-with-heading-card-or = Alebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatiť kartou
+pay-with-heading-paypal = Zaplatiť cez { -brand-name-paypal }
 product-invoice-preview-error-title = Problém s načítaním ukážky faktúry
 product-invoice-preview-error-text = Nepodarilo sa načítať ukážku faktúry
 
