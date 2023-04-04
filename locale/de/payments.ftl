@@ -125,7 +125,7 @@ payment-confirmation-download-button = Weiter zum Download
 
 # Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Ich ermächtige { -brand-name-mozilla }, Entwickler von { -brand-name-firefox }-Produkten, meine Zahlungsmethode { $price } für { $productName } gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> zu belasten und <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink>, bis ich meinen Dauerauftrag storniere.
+payment-confirm-with-legal-links = Ich ermächtige { -brand-name-mozilla }, Entwickler von { -brand-name-firefox }-Produkten, meine Zahlungsmethode für { $productName } gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit { $price } zu belasten, bis ich meinen Dauerauftrag storniere.
 
 ## Component - PaymentErrorView
 
@@ -167,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Datenschutzerklärung von { -br
 payment-method-header = Wählen Sie Ihre Zahlungsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-first-approve = Zuerst müssen Sie Ihr Abonnement genehmigen
+payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehmigen
 
 ## Component - PaymentProcessing
 
