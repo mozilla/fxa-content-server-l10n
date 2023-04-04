@@ -149,7 +149,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 # Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Pooblaščam { -brand-name-mozilla }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> bremeni moje plačilno sredstvo { $price } za { $productName } in <privacyNoticeLink>Obvestilo o zasebnosti</privacyNoticeLink>, dokler naročnine ne prekličem.
+payment-confirm-with-legal-links = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo v višini { $price } za { $productName }, dokler ne prekličem naročnine.
 
 ## Component - PaymentErrorView
 
