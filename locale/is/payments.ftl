@@ -123,7 +123,9 @@ payment-confirmation-download-button = Halda áfram í niðurhal
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra tilgreinda upphæð af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra upphæðina { $price } af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } persónu
 payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Nauðsynlegt
+payment-method-first-approve = Fyrst þarftu að samþykkja áskriftina þína
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Greiðsluupplýsingar
 
 pay-with-heading-card-or = Eða borga með greiðslukorti
 pay-with-heading-card-only = Borga með greiðslukorti
+pay-with-heading-paypal = Greiða með { -brand-name-paypal }
 product-invoice-preview-error-title = Vandamál við að hlaða inn forskoðun á greiðsluseðli
 product-invoice-preview-error-text = Ekki tókst að hlaða inn forskoðun á greiðsluseðli
 
