@@ -123,7 +123,9 @@ payment-confirmation-download-button = Doorgaan naar download
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met { $price } te belasten voor { $productName }, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacyb
 payment-method-header = Kies uw betalingsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Vereist
+payment-method-first-approve = U dient eerst uw abonnement goed te keuren
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Betalingsgegevens
 
 pay-with-heading-card-or = Of betaal met kaart
 pay-with-heading-card-only = Betalen met kaart
+pay-with-heading-paypal = Betalen met { -brand-name-paypal }
 product-invoice-preview-error-title = Probleem bij het laden van factuurvoorbeeld
 product-invoice-preview-error-text = Kan factuurvoorbeeld niet laden
 
