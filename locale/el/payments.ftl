@@ -123,7 +123,6 @@ payment-confirmation-download-button = Συνέχεια στη λήψη
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +164,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Πολιτική απορρήτ
 payment-method-header = Επιλέξτε τη μέθοδο πληρωμής σας
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Απαιτείται
+payment-method-first-approve = Θα πρέπει πρώτα να εγκρίνετε τη συνδρομή σας
 
 ## Component - PaymentProcessing
 
@@ -356,6 +355,7 @@ sub-update-payment-title = Πληροφορίες πληρωμής
 
 pay-with-heading-card-or = Ή πληρωμή με κάρτα
 pay-with-heading-card-only = Πληρωμή με κάρτα
+pay-with-heading-paypal = Πληρωμή με { -brand-name-paypal }
 product-invoice-preview-error-title = Πρόβλημα φόρτωσης προεπισκόπησης τιμολογίου
 product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης τιμολογίου
 
