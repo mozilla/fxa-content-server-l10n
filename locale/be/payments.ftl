@@ -127,7 +127,9 @@ payment-confirmation-download-button = Працягнуць сцягванне
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты { $price } за { $productName } у адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
 
 ## Component - PaymentErrorView
 
@@ -169,7 +171,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } палі
 payment-method-header = Выберыце спосаб аплаты
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Абавязковы
+payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
 
 ## Component - PaymentProcessing
 
@@ -439,6 +441,7 @@ sub-update-payment-title = Плацежная інфармацыя
 
 pay-with-heading-card-or = Або аплаціць картай
 pay-with-heading-card-only = Аплаціць картай
+pay-with-heading-paypal = Аплаціць праз { -brand-name-paypal }
 product-invoice-preview-error-title = Праблема з загрузкай папярэдняга прагляду рахунка-фактуры
 product-invoice-preview-error-text = Не ўдалося загрузіць папярэдні прагляд рахунка-фактуры
 
