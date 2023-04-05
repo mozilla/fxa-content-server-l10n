@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Luk
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Noget gik galt. Et nyt link kunne ikke sendes.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Betalingskort
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Åbn { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Var mailen hverken i din indbakke eller spam-mappen? Send igen
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Link til nulstilling af adgangskode beskadiget
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Bekræftelseslink beskadiget
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Få et nyt link
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Linket til nulstilling af adgangskode udløb
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Bekræftelseslinket er udløbet
 reset-pwd-link-expired-message = Linket, du klikkede på for at nulstille din adgangskode, er udløbet.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bekræftelseslinket er udløbet
 signin-link-expired-message = Linket, du klikkede på for at bekræfte din mailadresse, er udløbet.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Få et nyt link
 
 ## LinkRememberPassword component
 
@@ -1042,9 +1052,6 @@ account-restored-success-message = Du har genoprettet din konto ved hjælp af di
 account-recovery-reset-password-success-alert = Adgangskode oprettet
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Der opstod en uventet fejl
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-account-recovery-reset-password-email-resent = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
-account-recovery-reset-password-email-resend-error = Der opstod desværre et problem med at sende et link til nulstilling af adgangskode til din mailadresse igen.
 account-recovery-reset-password-redirecting = Omdirigerer
 
 ## CompleteResetPassword component
@@ -1068,8 +1075,6 @@ confirm-pw-reset-header = Mail til nulstilling sendt
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klik på linket, vi har sendt til { $email } indenfor den næste time for at oprette en ny adgangskode.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
 
 ## ResetPassword page
 
@@ -1222,11 +1227,6 @@ confirm-signup-code-code-expired = Er koden udløbet?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send en ny kode.
 confirm-signup-code-success-alert = Konto bekræftet
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bekræftelseskode er påkrævet
 
