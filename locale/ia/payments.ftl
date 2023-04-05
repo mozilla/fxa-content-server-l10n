@@ -123,6 +123,9 @@ payment-confirmation-download-button = Continuar a discargar
 
 ## Component - PaymentConsentCheckbox
 
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Io autorisa { -brand-name-mozilla }, creator del productos { -brand-name-firefox }, a debitar a mi methodo de pagamento { $price } pro { $productName }, in conformitate con le <termsOfServiceLink>conditiones de servicio</termsOfServiceLink> e con le <privacyNoticeLink>aviso de confidentialitate</privacyNoticeLink>, usque io cancella mi subscription.
 
 ## Component - PaymentErrorView
 
@@ -164,6 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Politica de confidentialitate d
 payment-method-header = Elige tu methodo de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Primo tu debera approbar tu subscription
 
 ## Component - PaymentProcessing
 
