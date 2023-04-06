@@ -123,7 +123,6 @@ payment-confirmation-download-button = İndirmeye devam et
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
 
 ## Component - PaymentErrorView
 
@@ -163,7 +162,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik
 payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Gerekli
 
 ## Component - PaymentProcessing
 
@@ -409,6 +407,7 @@ sub-update-payment-title = Ödeme bilgileri
 
 pay-with-heading-card-or = veya kartla ödeyin
 pay-with-heading-card-only = Kartla öde
+pay-with-heading-paypal = { -brand-name-paypal } ile öde
 product-invoice-preview-error-title = Fatura ön izlemesi yüklenirken sorun oluştu
 product-invoice-preview-error-text = Fatura ön izlemesi yüklenemedi
 
