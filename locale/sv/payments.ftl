@@ -123,7 +123,9 @@ payment-confirmation-download-button = Fortsätt till nedladdning
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox } produkter, att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag säger upp min prenumeration.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox } produkter, att debitera min betalningsmetod { $price } för { $productName } enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } sekretes
 payment-method-header = Välj din betalningsmetod
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Krävs
+payment-method-first-approve = Först måste du godkänna din prenumeration
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Betalningsinformation
 
 pay-with-heading-card-or = Eller betala med kort
 pay-with-heading-card-only = Betala med kort
+pay-with-heading-paypal = Betala med { -brand-name-paypal }
 product-invoice-preview-error-title = Problem med att ladda förhandsgranskning av faktura
 product-invoice-preview-error-text = Det gick inte att läsa in förhandsgranskning av faktura
 
