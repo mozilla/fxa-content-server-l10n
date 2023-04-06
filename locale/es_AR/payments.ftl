@@ -123,6 +123,9 @@ payment-confirmation-download-button = Continuar descargando
 
 ## Component - PaymentConsentCheckbox
 
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cobrar de mi método de pago { $price } por { $productName } según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
 
 ## Component - PaymentErrorView
 
