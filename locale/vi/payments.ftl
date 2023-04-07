@@ -119,7 +119,9 @@ payment-confirmation-download-button = Tiếp tục tải xuống
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí { $price } cho { $productName }, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
 
 ## Component - PaymentErrorView
 
@@ -161,7 +163,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Chính sách riêng tư của {
 payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Bắt buộc
+payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệt thuê bao của mình
 
 ## Component - PaymentProcessing
 
@@ -383,6 +385,7 @@ sub-update-payment-title = Thông tin thanh toán
 
 pay-with-heading-card-or = Hoặc thanh toán bằng thẻ
 pay-with-heading-card-only = Thanh toán bằng thẻ
+pay-with-heading-paypal = Thanh toán bằng { -brand-name-paypal }
 product-invoice-preview-error-title = Sự cố khi tải bản xem trước hóa đơn
 product-invoice-preview-error-text = Không thể tải bản xem trước hóa đơn
 
