@@ -277,7 +277,7 @@ postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
 postAddAccountRecovery-description-2 = Nový kľúč bol vytvorený z:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Neboli ste to vy?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Odstráňte tento nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmente si heslo</a>
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Odstráňte tento nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmeňte si heslo</a>.
 postAddAccountRecovery-action = Spravovať účet
 postAddAccountRecovery-delete-key = Odstrániť nový kľúč:
 postAddAccountRecovery-changd-password = Zmeniť heslo:
