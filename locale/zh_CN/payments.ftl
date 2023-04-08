@@ -119,7 +119,9 @@ payment-confirmation-download-button = 前往下载
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取 { $price } 以订阅 { $productName }，直到我主动取消订阅为止。
 
 ## Component - PaymentErrorView
 
@@ -161,7 +163,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隐私�
 payment-method-header = 选择付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = 必填
+payment-method-first-approve = 请先核准您的订阅
 
 ## Component - PaymentProcessing
 
@@ -407,6 +409,7 @@ sub-update-payment-title = 付款信息
 
 pay-with-heading-card-or = 或使用银行卡支付
 pay-with-heading-card-only = 刷卡支付
+pay-with-heading-paypal = 通过 { -brand-name-paypal } 付款
 product-invoice-preview-error-title = 加载发票预览时出现问题
 product-invoice-preview-error-text = 无法加载发票预览
 
