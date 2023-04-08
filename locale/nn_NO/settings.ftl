@@ -188,6 +188,8 @@ ready-start-browsing-button = Start nettlesinga
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Du er no klar til å bruke { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Du er no klar til å bruke kontoinnstillingane
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Kontoen din er klar!
 ready-continue = Hald fram
@@ -276,6 +278,7 @@ cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-sign-out-button = Logg ut
+cs-recent-activity = Nyleg kontoaktivitet
 
 ##
 
