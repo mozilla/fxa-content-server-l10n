@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-19 15:56+0000\n"
+"PO-Revision-Date: 2023-04-08 07:53+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1802,7 +1802,7 @@ msgstr "Inštalácia Firefoxu a synchronizácia medzi najmenej dvoma zariadeniam
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr "Skenovanie je pripravené"
+msgstr "Pripravené na skenovanie"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
