@@ -123,7 +123,9 @@ payment-confirmation-download-button = განაგრძეთ ჩამო�
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამომაჭრას { $price } ჩემ მიერ მითითებული გადახდის საშუალებიდან { $productName } მომსახურებისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } პი�
 payment-method-header = შეარჩიეთ გადახდის საშუალება
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = აუცილებელია
+payment-method-first-approve = ჯერ უნდა დაამოწმოთ გამოწერა
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = გადახდის მონაცემებ�
 
 pay-with-heading-card-or = ან გადაიხადეთ ბარათით
 pay-with-heading-card-only = ბარათით გადახდა
+pay-with-heading-paypal = გადაიხადეთ { -brand-name-paypal }
 product-invoice-preview-error-title = ხარვეზი ზედნადებების შეთვალიერებისას
 product-invoice-preview-error-text = ვერ ჩაიტვირთა ზედნადები შესათვალიერებლად
 
