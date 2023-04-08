@@ -178,11 +178,16 @@ confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og
 password-strength-balloon-heading = Passordkrav
 password-strength-balloon-min-length = Minst 8 teikn
 password-strength-balloon-not-email = Ikkje di e-postadresse
+password-strength-balloon-not-common = Ikkje eit vanleg brukt passord
 
 ## Ready component
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
 ready-start-browsing-button = Start nettlesinga
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Du er no klar til å bruke { $serviceName }
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Kontoen din er klar!
 ready-continue = Hald fram
@@ -212,6 +217,8 @@ bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox }-nettlesar for datamaskiner
+bento-menu-firefox-mobile = { -brand-firefox }-nettlesar for mobil
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
