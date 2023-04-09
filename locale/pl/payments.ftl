@@ -457,6 +457,7 @@ sub-update-payment-title = Informacje o płatności
 
 pay-with-heading-card-or = Lub zapłać kartą
 pay-with-heading-card-only = Zapłać kartą
+pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-name-paypal }
 product-invoice-preview-error-title = Problem podczas wczytywania podglądu faktury
 product-invoice-preview-error-text = Nie można wczytać podglądu faktury
 
