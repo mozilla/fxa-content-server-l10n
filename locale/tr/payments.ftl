@@ -162,6 +162,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik
 payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerekiyor
 
 ## Component - PaymentProcessing
 
