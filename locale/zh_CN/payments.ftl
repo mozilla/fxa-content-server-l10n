@@ -382,11 +382,11 @@ fxa-account-signup-error-2 = 系统出错，导致 { $productName } 订阅失败
 fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败。请查收邮件，继续设置账户。
 newsletter-signup-error = 您并未订阅接收产品更新邮件，可到账户设置页面中重试。
 product-plan-error =
-    .title = 方案内容载入出错
+    .title = 方案内容加载出错
 product-profile-error =
-    .title = 个人资料载入出错
+    .title = 个人资料加载出错
 product-customer-error =
-    .title = 客户资料载入出错
+    .title = 客户资料加载出错
 product-plan-not-found = 找不到方案内容
 
 ## Hooks - coupons
