@@ -308,7 +308,24 @@ subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert
+subscriptionFailedPaymentsCancellation-title = Abonnentet dit er annukert
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Betaling for { $productName } stadfesta
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Takk for at du abonnerer på { $productName }
+subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det kan ta opptil fire arbeidsdagar å fullføre.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 subscriptionRenewalReminder-content-closing = Vennleg helsing,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
@@ -331,11 +348,18 @@ verify-title-2 = Opne internett med { -brand-firefox }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Logga du inn på { $clientName }?
 verifyLogin-subject-2 = Stadfest innlogging
 verifyLogin-action = Stadfest innlogging
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Godkjenn innlogging på { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logga du inn på { $serviceName }
+verifyLoginCode-prompt-3 = Om ja, her er godkjenningskoden din:
 verifyLoginCode-expiry-notice = Den går ut om 5 minutt.
 verifyPrimary-title-2 = Stadfest primær e-postadresse
 verifyPrimary-description = Ein førespurnad om å utføre ei kontoendring er gjort frå følgjande eining:
@@ -345,6 +369,7 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title-2 = Stadfest sekundær e-postadresse
 verifySecondaryCode-action-2 = Stadfest e-postadressa
+verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Stadfest kontoen din
