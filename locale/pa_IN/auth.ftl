@@ -315,6 +315,9 @@ subscriptionAccountReminderSecond-title = { -brand-firefox } ਵਲੋਂ ਜੀ
 subscriptionAccountReminderSecond-content-select-2 = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਵਾਸਤੇ “ਪਾਸਵਰਡ ਬਣਾਓ” ਨੂੰ ਚੁਣੋ ਅਤੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਪੂਰਾ ਕਰੋ।
 subscriptionAccountReminderSecond-action = ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
 subscriptionCancellation-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
 
 ## Variables
