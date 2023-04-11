@@ -344,6 +344,11 @@ postVerifySecondary-content-2 = Ti has confermà cun success { $secondaryEmail }
 postVerifySecondary-action = Administrar il conto
 recovery-subject = Redefinir tes pled-clav
 recovery-title-2 = Emblidà tes pled-clav?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-firefox-account } da:
+recovery-new-password-button = Creescha in nov pled-clav cun cliccar sin il buttun sutvart. Questa colliaziun vegn a scrudar en ina ura.
+recovery-copy-paste = Creescha in nov pled-clav cun copiar ed encollar l'URL sutvart en tes navigatur. Questa colliaziun vegn a scrudar en ina ura.
 recovery-action = Crear in nov pled-clav
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -365,10 +370,14 @@ subscriptionAccountFinishSetup-content-create-2 = Sco proxim stos ti crear in pl
 subscriptionAccountFinishSetup-action-2 = Cumenzar
 subscriptionAccountReminderFirst-subject = Promemoria: Terminescha la configuraziun da tes conto
 subscriptionAccountReminderFirst-title = Ti na pos anc betg acceder a tes abunament
+subscriptionAccountReminderFirst-content-info-2 = Avant in pèr dis has ti creà in { -product-firefox-account } ma n'al has mai confermà. Nus sperain che ti fineschias la configuraziun per che ti possias utilisar tes nov abunament.
+subscriptionAccountReminderFirst-content-select-2 = Tscherna «Crear in pled-clav» per endrizzar in nov pled-clav e cumplettar la conferma da tes conto.
 subscriptionAccountReminderFirst-action = Crear in pled-clav
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Ultima promemoria: Endrizza tes conto
 subscriptionAccountReminderSecond-title = Bainvegni tar { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Avant in pèr dis has ti creà in { -product-firefox-account } ma n'al has mai confermà. Nus sperain che ti fineschias la configuraziun da tes conto per che ti possias utilisar tes nov abunament.
+subscriptionAccountReminderSecond-content-select-2 = Tscherna «Crear in pled-clav» per endrizzar in nov pled-clav e cumplettar la conferma da tes conto.
 subscriptionAccountReminderSecond-action = Crear in pled-clav
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
