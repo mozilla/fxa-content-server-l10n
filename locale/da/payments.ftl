@@ -123,7 +123,9 @@ payment-confirmation-download-button = Fortsæt til hentning
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække { $price } for { $productName } med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privatli
 payment-method-header = Vælg din betalingsmetode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Påkrævet
+payment-method-first-approve = Først skal du godkende dit abonnement
 
 ## Component - PaymentProcessing
 
@@ -411,6 +413,7 @@ sub-update-payment-title = Betalingsinformation
 
 pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
+pay-with-heading-paypal = Betal med { -brand-name-paypal }
 product-invoice-preview-error-title = Problem med indlæsning af eksempel på faktura
 product-invoice-preview-error-text = Kunne ikke indlæse eksempel på faktura
 
