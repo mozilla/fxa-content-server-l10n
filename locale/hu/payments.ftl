@@ -130,7 +130,7 @@ payment-confirmation-download-button = Tovább a letöltéshez
 
 # Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy a(z) { $price } fizetési módomat terhelje meg a(z) { $productName }, a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> szerint és az <privacyNoticeLink>Adatvédelmi nyilatkozatot</privacyNoticeLink>, amíg le nem mondom az előfizetést.
+payment-confirm-with-legal-links = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy a fizetési módnak megfelelő módon levonja a(z) { $price } összeget a(z) { $productName } termékért, az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
 
 ## Component - PaymentErrorView
 
