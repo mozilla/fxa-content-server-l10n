@@ -913,7 +913,7 @@ legal-terms-heading = Terminos de servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Ha tu justo accedite a { -product-firefox }?
+pair-auth-allow-heading-text = Ha tu justo ora aperite session a { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Si, approbar apparato
