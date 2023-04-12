@@ -885,6 +885,8 @@ pair-auth-complete-manage-devices-link = Graty rjadować
 auth-totp-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Wobkrućić
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Awtentifikaciski kod trěbny
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -966,6 +968,9 @@ create-new-password-header = Nowe hesło wutworić
 account-restored-success-message = Sće wuspěšnje swoje konto z pomocu swojeho kontoweho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Hesło je so nastajiło
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Njewočakowany zmylk je wustupił
+account-recovery-reset-password-redirecting = Posrědkujeće so dale
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -991,6 +996,9 @@ confirm-pw-reset-instructions = Klikńće wob hodźinu na wotkaz, kotryž smy p�
 ## ResetPassword page
 
 reset-password-warning-message-2 = <span>Kedźbu:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mejlowa adresa
 reset-password-button = Wróćostajenje započeć
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
@@ -1000,6 +1008,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu ko
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Zmylk:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Přizjewjenje so wobkrućuje…
 
 ## ConfirmSignin component
 
@@ -1009,6 +1019,8 @@ confirm-signin-message = Přepytujće swoju e-mejl za přizjewjenskim wobkrućen
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Zapodajće swoje hesło <span>za swoje konto { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Dale k <span>{ $serviceLogo }</span>
@@ -1071,6 +1083,8 @@ signin-totp-code-input-label-v2 = 6-městnowy kod zapodać
 signin-totp-code-confirm-button = Wobkrućić
 signin-totp-code-other-account-link = Wužiwajće druhe konto
 signin-totp-code-recovery-code-link = Maće problemy při zapodawanju koda?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Awtentifikaciski kod trěbny
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1086,6 +1100,12 @@ confirm-signup-instruction = Přepytujće swoju e-mejl za wobkrućenskim wotkazo
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Wobkrućenski kod zapodać
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Zapodajće wobkrućenski kod <span>za swoje konto { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
 confirm-signup-code-input-label = 6-městnowy kod zapodać
@@ -1094,11 +1114,17 @@ confirm-signup-code-confirm-button = Wobkrućić
 confirm-signup-code-code-expired = Je kod spadnył?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nowy kod přez e-mejl pósłać.
+confirm-signup-code-success-alert = Konto je so wuspěšnje wobkrućiło
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Wobkrućenski kod je trěbny
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Zapodajće swoje hesło
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Čehodla dyrbju tute konto załožić? <LinkExternal>Hlejće tu</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
