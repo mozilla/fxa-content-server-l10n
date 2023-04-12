@@ -131,7 +131,9 @@ payment-confirmation-download-button = Dale k sćehnjenju
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu { $price } za { $productName } poćežić, doniž swój abonement njewupowědźu.
 
 ## Component - PaymentErrorView
 
@@ -173,7 +175,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Prawidła priwatnosće { -brand
 payment-method-header = Wubjerće swoju płaćensku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Trěbny
+payment-method-first-approve = Najprjedy dyrbiće swój abonement wobkrućić
 
 ## Component - PaymentProcessing
 
@@ -467,6 +469,7 @@ sub-update-payment-title = Płaćenske informacije
 
 pay-with-heading-card-or = Abo płaćće z kartu
 pay-with-heading-card-only = Z kartu płaćić
+pay-with-heading-paypal = Z { -brand-name-paypal } płaćić
 product-invoice-preview-error-title = Problem při čitanju přehlada zličbowanki
 product-invoice-preview-error-text = Přehlad zličbowanki njeda so začitać
 
