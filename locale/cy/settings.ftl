@@ -770,6 +770,16 @@ terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Telerau Gwasana
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Drwy barhau, rydych yn cytuno i'r <firefoxTos>Telerau Gwasanaeth</firefoxTos> a'r <firefoxPrivacy>Hysbysiad Preifatrwydd</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Neu
+continue-with-google-button = Parhau gyda { -brand-google }
+continue-with-apple-button = Parhau gyda { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cyfrif anhysbys
@@ -1120,7 +1130,7 @@ signin-forgot-password-link = Wedi anghofio'r cyfrinair?
 signin-bounced-header = Ymddiheuriadau. Rydym wedi cloi eich  cyfrif.
 # $email (string) - The user's email.
 signin-bounced-message = Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i { $email } ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data { -brand-firefox }.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Os yw hwn yn gyfrif e-bost dilys, <linkExternal>gadewch i ni wybod</linkExternal> a byddwn yn gallu helpu i ddatgloi eich cyfrif.
 signin-bounced-create-new-account = Ddim yn berchen ar yr e-bost hwn? Crëwch gyfrif newydd
 back = Nôl
