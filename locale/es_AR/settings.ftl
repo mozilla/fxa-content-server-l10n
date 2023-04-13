@@ -769,6 +769,16 @@ terms-privacy-agreement-firefox = <firefoxTos>Términos del servicio</firefoxTos
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Al continuar, aceptás los <firefoxTos>términos del servicio</firefoxTos> y la <firefoxPrivacy>nota de privacidad</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = O
+continue-with-google-button = Continuar con { -brand-google }
+continue-with-apple-button = Continuar con { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cuenta desconocida
@@ -1119,7 +1129,7 @@ signin-forgot-password-link = ¿Olvidaste la contraseña?
 signin-bounced-header = Lo sentimos. Bloqueamos tu cuenta.
 # $email (string) - The user's email.
 signin-bounced-message = El correo electrónico de confirmación que enviamos a { $email } rebotó y bloqueamos tu cuenta para proteger tus datos de { -brand-firefox }.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Si esta es una dirección de correo electronico válida, <linkExternal>avisanos</linkExternal> y podemos ayudarte a desbloquear tu cuenta.
 signin-bounced-create-new-account = ¿No tenés más ese correo electrónico? Creá una nueva cuenta
 back = Atrás
