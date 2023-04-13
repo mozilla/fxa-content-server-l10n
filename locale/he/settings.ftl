@@ -703,6 +703,12 @@ terms-privacy-agreement-firefox = <firefoxTos>תנאי השירות</firefoxTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = המשך התהליך מהווה הסכמה ל<firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+continue-with-google-button = המשך באמצעות { -brand-google }
+continue-with-apple-button = המשך באמצעות { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = חשבון לא ידוע
@@ -1034,7 +1040,7 @@ signin-forgot-password-link = שכחת את הססמה?
 signin-bounced-header = מצטערים. חסמנו את החשבון שלך.
 # $email (string) - The user's email.
 signin-bounced-message = הודעת האימות ששלחנו לכתובת { $email } חזרה וחסמנו את החשבון שלך כדי להגן על נתוני ה־{ -brand-firefox } שלך.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = אם זוהי כתובת דוא״ל תקנית, <linkExternal>נא ליצור איתנו קשר</linkExternal> ונעזור לשחרר את הנעילה מהחשבון שלך.
 signin-bounced-create-new-account = כתובת דוא״ל זו כבר לא בבעלותך? יצירת חשבון חדש
 back = חזרה
