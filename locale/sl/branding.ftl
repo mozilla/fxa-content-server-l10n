@@ -75,3 +75,4 @@
         [orodnik] Googlom
     }
 -google-play = Google Play
+-brand-apple = Apple

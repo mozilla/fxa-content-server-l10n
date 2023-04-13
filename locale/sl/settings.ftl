@@ -774,6 +774,16 @@ terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <f
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilom o zasebnosti</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Or
+continue-with-google-button = Nadaljuj s { -brand-google }
+continue-with-apple-button = Nadaljuj s { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznan račun
@@ -1124,7 +1134,7 @@ signin-forgot-password-link = Pozabljeno geslo?
 signin-bounced-header = Oprostite. Zaklenili smo vaš račun.
 # $email (string) - The user's email.
 signin-bounced-message = Potrditveno sporočilo, ki smo ga poslali na { $email }, je bilo vrnjeno, vaš račun pa smo zaradi zaščite vaših podatkov v { -brand-firefox(sklon: "mestnik") } zaklenili.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam to sporočite</linkExternal> in pomagali vam bomo odkleniti vaš račun.
 signin-bounced-create-new-account = Ne uporabljate več tega naslova? Ustvarite nov račun
 back = Nazaj
