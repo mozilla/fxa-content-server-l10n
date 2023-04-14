@@ -65,14 +65,21 @@
 -brand-paypal = PayPal
 -app-store = App Store
 -brand-google =
-    =
     { $sklon ->
-       *[imenovalnik] Google
         [rodilnik] Googla
         [dajalnik] Googlu
         [tozilnik] Google
         [mestnik] Googlu
         [orodnik] Googlom
+       *[imenovalnik] Google
     }
 -google-play = Google Play
--brand-apple = Apple
+-brand-apple =
+    { $sklon ->
+        [rodilnik] Appla
+        [dajalnik] Applu
+        [tozilnik] Apple
+        [mestnik] Applu
+        [orodnik] Applom
+       *[imenovalnik] Apple
+    }
