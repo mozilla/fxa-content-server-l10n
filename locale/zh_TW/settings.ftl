@@ -738,6 +738,16 @@ terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服務條款
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 使用本服務，代表您同意<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = 或著
+continue-with-google-button = 使用 { -brand-google } 帳號繼續
+continue-with-apple-button = 使用 { -brand-apple } 帳號繼續
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 未知帳號
@@ -1088,7 +1098,7 @@ signin-forgot-password-link = 忘記密碼？
 signin-bounced-header = 抱歉，我們鎖定了您的帳號。
 # $email (string) - The user's email.
 signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了保護您 { -brand-firefox } 的資料，已暫時鎖定您的帳號。
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = 若這是有效的電子郵件地址，<linkExternal>請讓我們知道</linkExternal>，我們將協助您解鎖帳號。
 signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
 back = 返回
