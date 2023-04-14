@@ -748,6 +748,10 @@ terms-privacy-agreement-firefox = { -brand-firefox } の <firefoxTos>サービ�
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 続けることにより、<firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy> に同意したものとみなされます。
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 不明なアカウント
@@ -1098,7 +1102,7 @@ signin-forgot-password-link = パスワードをお忘れですか？
 signin-bounced-header = 申し訳ありません。あなたのアカウントはロックされています。
 # $email (string) - The user's email.
 signin-bounced-message = { $email } へ送られた確認メールが返送されてきたので、あなたの { -brand-firefox } データを守るためアカウントをロックしました。
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = このメールアドレスが正しい場合は、<linkExternal>ご連絡<</linkExternal> いただければロック解除をお手伝いします。
 signin-bounced-create-new-account = 既にこのアドレスをお持ちでないなら、新しいアカウントを作成してください
 back = 戻る
