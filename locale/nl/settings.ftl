@@ -776,6 +776,16 @@ terms-privacy-agreement-firefox = De <firefoxTos>Servicevoorwaarden</firefoxTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Door verder te gaan, gaat u akkoord met de <firefoxTos>Servicevoorwaarden</firefoxTos> en de <firefoxPrivacy>Privacyverklaring</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Of
+continue-with-google-button = Doorgaan met { -brand-google }
+continue-with-apple-button = Doorgaan met { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Onbekende account
@@ -1126,7 +1136,7 @@ signin-forgot-password-link = Wachtwoord vergeten?
 signin-bounced-header = Sorry. We hebben uw account vergrendeld.
 # $email (string) - The user's email.
 signin-bounced-message = De bevestigingsmail die we naar { $email } hebben verstuurd, is geretourneerd en om uw { -brand-firefox }-gegevens te beschermen, is uw account vergrendeld.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Als dit een geldig e-mailadres is, <linkExternal>laat dit dan weten</linkExternal> en we helpen uw account te ontgrendelen.
 signin-bounced-create-new-account = Hebt u dat e-mailadres niet meer? Maak een nieuwe account
 back = Terug
