@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-02 05:27+0000\n"
+"PO-Revision-Date: 2023-04-14 04:24+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1011,27 +1011,27 @@ msgstr "Colegament di conferme scjadût"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Il colegament doprât par confermâ la e-mail al è scjadût."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Fâs clic achì par ricevi un gnûf colegament pe conferme"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Il colegament di conferme al è danezât"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Erôr di conferme"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Conferme il to account"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Conferme chest acès"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
@@ -1044,16 +1044,16 @@ msgstr ""
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "No ise te pueste in jentrade o tal cartele spam/malvolude? Torne mande"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
-msgstr ""
+msgstr "Indaûr"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "E-mail par ristabilî la password inviade"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1062,11 +1062,11 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Inserìs il codiç di conferme"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "pal to account Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1075,16 +1075,16 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Inserìs il codiç a 6 cifris"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
-msgstr ""
+msgstr "Conferme"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Codiç scjadût?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
@@ -1092,7 +1092,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
-msgstr ""
+msgstr "Conet un altri dispositîf"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
