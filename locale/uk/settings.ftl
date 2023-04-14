@@ -777,6 +777,16 @@ terms-privacy-agreement-firefox = <firefoxTos>Умовами користува�
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Або
+continue-with-google-button = Продовжити з { -brand-google }
+continue-with-apple-button = Продовжити з { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Невідомий обліковий запис
@@ -1127,7 +1137,7 @@ signin-forgot-password-link = Забули пароль?
 signin-bounced-header = Вибачте. Ми заблокували ваш обліковий запис.
 # $email (string) - The user's email.
 signin-bounced-message = Електронний лист із підтвердженням, який ми надіслали на адресу { $email }, повернувся, і ми заблокували ваш обліковий запис, щоб захистити ваші дані { -brand-firefox }.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Якщо це дійсна адреса електронної пошти, <linkExternal>повідомте нас</linkExternal> і ми допоможемо розблокувати ваш обліковий запис.
 signin-bounced-create-new-account = Ця адреса електронної пошти вам більше не належить? Створіть новий обліковий запис
 back = Назад
