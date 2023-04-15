@@ -774,6 +774,16 @@ terms-privacy-agreement-firefox = <firefoxTos>Điều khoản dịch vụ</firef
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Bằng cách tiếp tục, bạn đồng ý với <firefoxTos>Điều khoản dịch vụ</firefoxTos> và <firefoxPrivacy>thông báo về quyền riêng tư</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Hoặc
+continue-with-google-button = Tiếp tục với { -brand-google }
+continue-with-apple-button = Tiếp tục với { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tài khoản không xác định
@@ -1124,7 +1134,7 @@ signin-forgot-password-link = Đã quên mật khẩu?
 signin-bounced-header = Rất tiếc. Chúng tôi đã khóa tài khoản của bạn.
 # $email (string) - The user's email.
 signin-bounced-message = Email xác nhận chúng tôi gửi tới { $email } đã bị trả lại và chúng tôi đã khóa tài khoản của bạn để bảo vệ dữ liệu { -brand-firefox } của bạn.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Nếu đây là địa chỉ email hợp lệ, hãy <linkExternal>cho chúng tôi biết</linkExternal> và chúng tôi có thể giúp mở khóa tài khoản của bạn.
 signin-bounced-create-new-account = Không còn sở hữu email đó nữa? Tạo tài khoản mới
 back = Quay lại
