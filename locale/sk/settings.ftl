@@ -773,6 +773,16 @@ terms-privacy-agreement-firefox = <firefoxTos>Podmienky používania služby</fi
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Pokračovaním vyjadrujete súhlas s <firefoxTos>Podmienkami používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásením o ochrane osobných údajov</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = alebo
+continue-with-google-button = Pokračovať pomocou { -brand-google }
+continue-with-apple-button = Pokračovať pomocou { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámy účet
@@ -1123,7 +1133,7 @@ signin-forgot-password-link = Zabudli ste heslo?
 signin-bounced-header = Mrzí nás to, no váš účet bol uzamknutý.
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdzovací e-mail, ktorý sme poslali na adresu { $email }, nebol doručený. Aby sme ochránili vaše údaje { -brand-firefox(case: "gen") }, váš účet sme uzamkli.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Ak ide o platnú e-mailovú adresu, <linkExternal>dajte nám vedieť</linkExternal> a my vám pomôžeme odomknúť váš účet.
 signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
 back = Naspäť
