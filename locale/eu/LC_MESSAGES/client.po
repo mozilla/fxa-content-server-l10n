@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2022-10-23 15:28+0000\n"
+"PO-Revision-Date: 2023-04-15 08:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -75,7 +75,7 @@ msgstr "Orain prest zaude aldaketak egiteko zure Firefox kontuan."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Helbide elektroniko nagusia berretsi da"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Kontuaren jakinarazpenak %(secondaryEmailVerified)s helbidera ere bidali
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Helbide elektroniko alternatiboa berretsi da"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Kontua berretsi da"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -124,7 +124,7 @@ msgstr ""
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Itxi"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -192,7 +192,7 @@ msgstr "Erakutsi pasahitza"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox babeskopiarako autentifikazio-kodeak"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -200,7 +200,7 @@ msgstr "Bi urratseko autentifikazioa gaitua"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox kontua berreskuratzeko gakoa"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -224,7 +224,7 @@ msgstr "Inprimatuta"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Kontua behar bezala berretsi da"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -484,11 +484,11 @@ msgstr "Ez dago erabilgarri gailu-komandoa"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Ez da aurkitu kontua berreskuratzeko gakoa"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Kontua berreskuratzeko gako baliogabea"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -524,7 +524,7 @@ msgstr "Eguneraketa ukatu egin da, saiatu berriro mesedez"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Berrespen-kode baliogabea edo iraungita"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
@@ -605,7 +605,7 @@ msgstr "Baliozko URLa behar da"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Zure berrespen-mezu elektronikoa itzuli berri da. Helbide elektronikoa gaizki idatzita zegoen?"
 
 #: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -685,15 +685,15 @@ msgstr "Bi urratseko autentifikazio kode baliogabea"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Beharrezkoa da autentifikazio-kodearen babeskopia"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Babeskopiako autentifikazio-kode baliogabea"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Kontua berreskuratzeko gakoa behar da"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
@@ -733,7 +733,7 @@ msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Hartu neurriak Internet osasuntsu mantentzeko"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -745,11 +745,11 @@ msgstr "Proba itzazu Firefox-en produktuak"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Internet osasuntsu mantentzeko neurriak hartzea"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Segurtasuna eta pribatutasuna sarean Firefox eta Mozillarekin"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -848,12 +848,10 @@ msgid "Invalid Token"
 msgstr "Token baliogabea"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
-"a> onartzen dituzu."
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</a>"
+" onartzen dituzu."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -905,7 +903,7 @@ msgstr "Jaso lotura berria"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Berrezarri pasahitza kontua berreskuratzeko gakoarekin"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -921,24 +919,23 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OHARRA:</span> Pasahitza berrezartzen baduzu eta ez badaukazu berreskuratzeko gakoa gordeta, zure hainbat datu ezabatuko dira (historia eta laster-markak bezalako zerbitzarian "
 "sinkronizatutako datuak barne)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Idatzi kontua berreskuratzeko gakoa"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Berretsi kontua berreskuratzeko gakoa"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Ez duzu kontua berreskuratzeko gakorik?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -946,7 +943,7 @@ msgstr "Ezin da kontua sortu"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Adin jakin bat izan behar duzu Firefox &nbsp;kontu bat sortzeko."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1008,7 +1005,7 @@ msgstr "Saio-hasiera dagoeneko berretsita"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Berrespen-lotura iraungita"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
@@ -1016,7 +1013,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Egin klik hemen berrespen-lotura berri bat jasotzeko"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
@@ -1024,7 +1021,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Berrespen-errorea"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1097,11 +1094,11 @@ msgstr "Konektatu beste gailu bat"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Firefox-en saioa hasi duzu"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Helbide elektronikoa berretsi da"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1121,11 +1118,11 @@ msgstr "Konfigurazioa osatzeko, hasi saioa Firefoxen beste gailu batean"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Zure fitxak, laster-markak eta pasahitzak beste gailu batean eduki nahi dituzu?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Une honetan ez"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1163,11 +1160,8 @@ msgid "Password"
 msgstr "Pasahitza"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Jarraituz gero, <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> "
-"onartzen dituzu."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Jarraituz gero, <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1179,7 +1173,7 @@ msgstr "Pasahitza ahaztu duzu?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Jarraitu Firefox kontuetara"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1195,7 +1189,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Erregistratu edo hasi saioa"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1432,8 +1426,7 @@ msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1526,8 +1519,7 @@ msgstr "Sortu kontua"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -2018,7 +2010,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Sinkronizatu Firefox zure telefonoan edo tabletan"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
@@ -2026,11 +2018,10 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Sinkronizatu zure gailua"
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
