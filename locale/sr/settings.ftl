@@ -10,6 +10,13 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Затвори
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Нешто је пошло наопако. Није могуће послати нову везу.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +57,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Кредитне картице
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Отвори { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Није у сандучету или у нежељеној пошти? Пошаљи поново
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +163,26 @@ reset-pwd-link-damaged-header = Веза за ресетовање лозинк�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Веза за потврду је оштећена
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Примите нову везу
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Веза за ресетовање лозинке је истекла
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Веза за потврду је истекла
 reset-pwd-link-expired-message = Везу коју сте кликнули за обнављање лозинке је истекла.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Веза за потврду је истекла
 signin-link-expired-message = Веза коју сте кликнули за потврду е-поште је истекла.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Примите нову везу
 
 ## LinkRememberPassword component
 
@@ -766,6 +776,16 @@ terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>условим�
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Ако наставите, слажете се са <firefoxTos>условима коришћења</firefoxTos> и <firefoxPrivacy>политиком приватности</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = или
+continue-with-google-button = Наставите са { -brand-google }-ом
+continue-with-apple-button = Наставите са { -brand-apple }-ом
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Непознат налог
@@ -774,11 +794,9 @@ auth-error-105-2 = Неисправан код за потврду
 auth-error-110 = Неважећи токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Покушали сте превише пута. Покушајте поново за { $retryAfter }.
 auth-error-138-2 = Непотврђена сесија
 auth-error-139 = Секундарна адреса мора бити другачија од адресе вашег налога
@@ -1043,6 +1061,9 @@ create-new-password-header = Направи нову лозинку
 account-restored-success-message = Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Лозинка је постављена
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Дошло је до неочекиване грешке
+account-recovery-reset-password-redirecting = Преусмеравање
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1065,8 +1086,6 @@ confirm-pw-reset-header = Е-пошта за ресетовање је посл�
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Кликните на везу послату на { $email } у наредних сат времена да направите нову лозинку.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
 
 ## ResetPassword page
 
@@ -1078,10 +1097,10 @@ reset-password-heading-w-default-service = Ресетујте лозинку <sp
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ресетујте лозинку <span>да наставите на { $serviceName }</span>
 reset-password-warning-message-2 = <span>Напомена:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и { -product-pocket } подаци неће бити погођени.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Е-пошта
 reset-password-button = Започни ресетовање
-reset-password-success-alert = Ресетовање лозинке
-reset-password-error-general = Жао нам је, дошло је до грешке при ресетовању лозинке
-reset-password-error-unknown-account = Непознат налог
 reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
 reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
 reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
@@ -1117,7 +1136,7 @@ signin-forgot-password-link = Заборавили сте лозинку?
 signin-bounced-header = Жао нам је. Закључали смо ваш налог.
 # $email (string) - The user's email.
 signin-bounced-message = Потврдна порука е-поште коју смо послали на { $email } је враћена, те смо закључали ваш налог да заштитимо ваше { -brand-firefox } податке.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Ако је ово исправна адреса е-поште, <linkExternal>јавите нам се</linkExternal> и помоћи ћемо вам око откључавања налога.
 signin-bounced-create-new-account = То више није ваша адреса е-поште? Направите нови налог
 back = Назад
@@ -1219,11 +1238,6 @@ confirm-signup-code-code-expired = Код је истекао?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Пошаљи нови е-поштом.
 confirm-signup-code-success-alert = Налог је успешно потврђен
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Е-порука је поново послата. Додајте { $accountsEmail } у ваше контакте да бисте осигурали пријем поруке.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Потребан је код за потврду
 
