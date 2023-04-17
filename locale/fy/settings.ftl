@@ -776,6 +776,16 @@ terms-privacy-agreement-firefox = De <firefoxTos>Tsjinstbetingsten</firefoxTos> 
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Troch fierder te gean, geane jo akkoard mei de <firefoxTos>Tsjinbetingsten</firefoxTos> en de <firefoxPrivacy>Privacyferklearring</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Of
+continue-with-google-button = Trochgean mei { -brand-google }
+continue-with-apple-button = Trochgean mei { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Unbekend account
@@ -1126,7 +1136,7 @@ signin-forgot-password-link = Wachtwurd ferjitten?
 signin-bounced-header = Sorry. Wy hawwe jo account beskoattele.
 # $email (string) - The user's email.
 signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoerd hawwe, is retoernearre en om jo { -brand-firefox }-gegevens te beskermjen, is jo account beskoattele.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = As dit in jildich e-mailadres is, <linkExternal>lit dit dan witte</linkExternal> en wy helpe jo account te ûntskoatteljen.
 signin-bounced-create-new-account = Hawwe jo dat e-mailadres net mear? Meitsje in nije account
 back = Tebek
