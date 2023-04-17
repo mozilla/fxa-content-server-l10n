@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-10 17:04+0000\n"
+"PO-Revision-Date: 2023-04-17 23:53+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -940,7 +940,7 @@ msgstr "Klarte ikkje å lage konto"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Du må oppfylle visse krav for å opprette ein Firefox-konto."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1190,7 +1190,7 @@ msgstr "Registrer deg eller logg inn"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Ein Firefox-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
