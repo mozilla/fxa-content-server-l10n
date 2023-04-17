@@ -776,6 +776,16 @@ terms-privacy-agreement-firefox = { -brand-firefox }s <firefoxTos>användarvillk
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Genom att fortsätta godkänner du <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Eller
+continue-with-google-button = Fortsätt med { -brand-google }
+continue-with-apple-button = Fortsätt med { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Okänt konto
@@ -1126,7 +1136,7 @@ signin-forgot-password-link = Glömt ditt lösenord?
 signin-bounced-header = Förlåt. Vi har låst ditt konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekräftelsemeddelandet som vi skickade till { $email } returnerades och vi har låst ditt konto för att skydda din { -brand-firefox }-data.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Om detta är en giltig e-postadress, <linkExternal>meddela oss</linkExternal> så kan vi hjälpa dig att låsa upp ditt konto.
 signin-bounced-create-new-account = Äger du inte längre den e-postadressen? Skapa ett nytt konto
 back = Tillbaka
