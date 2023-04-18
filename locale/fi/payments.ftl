@@ -129,7 +129,9 @@ payment-confirmation-download-button = Jatka lataamiseen
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan { $price } tuotteesta { $productName }, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojaselosteen</privacyNoticeLink> mukaisesti, kunnes perun tilaukseni.
 
 ## Component - PaymentErrorView
 
@@ -171,7 +173,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }n tietosu
 payment-method-header = Valitse maksutapa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Pakollinen
+payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
 
 ## Component - PaymentProcessing
 
@@ -417,6 +419,7 @@ sub-update-payment-title = Maksun tiedot
 
 pay-with-heading-card-or = Tai maksa kortilla
 pay-with-heading-card-only = Maksa kortilla
+pay-with-heading-paypal = Maksa { -brand-name-paypal }illa
 product-invoice-preview-error-title = Ongelma ladattaessa laskun esikatselua
 product-invoice-preview-error-text = Laskun esikatselua ei voitu ladata
 
