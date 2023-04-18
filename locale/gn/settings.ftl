@@ -13,6 +13,10 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Oĩ nosẽporãiva. Noñemondokuaái juajuha ipyahúva.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -779,6 +783,8 @@ terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’e
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = Térã
+continue-with-google-button = Eku’ejey { -brand-google } ndive
+continue-with-apple-button = Eku’ejey { -brand-apple } ndive
 
 ## Auth-server based errors that originate from backend service
 
@@ -1055,6 +1061,9 @@ create-new-password-header = Emoheñói ñe’ẽñemi pyahu
 account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Ojejuhu jejavy ñeha’ãrõ’ỹva
+account-recovery-reset-password-redirecting = Mbohapejey
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
