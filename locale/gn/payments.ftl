@@ -123,7 +123,6 @@ payment-confirmation-download-button = Emboguejy ehóvo
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ tepy ojekuaáva, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
 
 ## Component - PaymentErrorView
 
@@ -165,7 +164,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua
 payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Tekotevẽva
 
 ## Component - PaymentProcessing
 
@@ -411,6 +409,7 @@ sub-update-payment-title = Jehepyme’ẽ marandu
 
 pay-with-heading-card-or = Térã ehepyme’ẽ kuatia’atãme
 pay-with-heading-card-only = Ehepyme’ẽ kuatia’atãme
+pay-with-heading-paypal = Ehepyme’ẽ { -brand-name-paypal } ndive
 product-invoice-preview-error-title = Apañuãi emyanyhẽvo kuatiañemure jehecha ypy
 product-invoice-preview-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha ypy
 

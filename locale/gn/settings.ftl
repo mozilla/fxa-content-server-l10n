@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Mboty
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +53,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Kuatia’atã ñemurã
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Embojuruja { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = ¿Ndaipóri ñe’ẽmondo g̃uahẽhápe térã ñandutiveve vai? Emondojey
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +159,26 @@ reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñemby
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Juajuha hechajeyha oñembyai
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Ereko juajuha pyahu
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Juajuha eguerujey hag̃ua ñe’ẽñemi ndoikovéima
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
 reset-pwd-link-expired-message = Juajuha eikutúva eguerujey hag̃ua ne ñe’ẽñemi ndoikovéima.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Juajuha ñemoneĩha ndoikovéima
 signin-link-expired-message = Pe juajuha emoneĩhague ne ñanduti veve ndoikovéima.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Ereko juajuha pyahu
 
 ## LinkRememberPassword component
 
@@ -766,6 +772,14 @@ terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’epururã 
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Térã
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Mba’ete ojeikuaa’ỹva
@@ -774,11 +788,9 @@ auth-error-105-2 = Ayvu ñemoneĩrã oiko’ỹva
 auth-error-110 = Token oiko’ỹva
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
@@ -1065,8 +1077,6 @@ confirm-pw-reset-header = Ñanduti jeguerujeyrã mondopyre
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Eikutu juajuha romondóva { $email } rupive peteĩ aravópe emoheñói hag̃ua ñe’ẽñemi pyahu.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
 
 ## ResetPassword page
 
@@ -1078,10 +1088,10 @@ reset-password-heading-w-default-service = Erujey ñe’ẽñemi <span>eku’eje
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Erujey ñe’ẽñemi <span>eku’ejey hag̃ua { $serviceName }</span> ndive
 reset-password-warning-message-2 = <span>Haipy:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, techaukaha ha ñe’ẽñemi). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua nde rekoñemi. Opytáta ne ñemboheraguapykue ha umi { -product-pocket } mba’ekuaarã noñemoambuemo’ãi.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Ñandutiveve
 reset-password-button = Emoñepyrũ jeguerujey
-reset-password-success-alert = Eguerujey ñe’ẽñemi
-reset-password-error-general = Rombyasy, oiko apañuãi eguerujeykuévo ne ñe’ẽñemi
-reset-password-error-unknown-account = Mba’ete ojeikuaa’ỹva
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe
@@ -1117,7 +1127,7 @@ signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
 # $email (string) - The user's email.
 signin-bounced-message = Ko ñanduti veve ñemoneĩgua romondóva { $email }-pe nog̃uahẽi ha rojokóma mba’ete romo’ã hag̃ua mba’ekuaarã { -brand-firefox } pegua.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Kóva ha’erõ ñanduti veve oikóva, <linkExternal>emombe’u oréve</linkExternal> ha roipytyvõta erekojey hag̃ua ne mba’ete.
 signin-bounced-create-new-account = ¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva
 back = Tapykue
@@ -1219,11 +1229,6 @@ confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
 confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuãi’ỹre
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-confirm-signup-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
 
