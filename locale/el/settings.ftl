@@ -166,6 +166,8 @@ reset-pwd-resend-link = Λήψη νέου συνδέσμου
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έληξε
 reset-pwd-link-expired-message = Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει.
 
 ## LinkExpiredSignin component
@@ -283,6 +285,9 @@ cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Τα δεδομένα περιήγησής σας θα παραμείνουν στο <span>{ $device }</span>,
+    αλλά δε θα συγχρονίζονται πλέον με τον λογαριασμό σας.
 cs-disconnect-sync-reason-3 = Ποιος είναι ο κύριος λόγος για την αποσύνδεση του <span>{ $device }</span>;
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -924,6 +929,7 @@ pair-qr-code-aria-label = Κωδικός QR
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Η συσκευή συνδέθηκε
+pair-success-message-2 = Επιτυχής σύζευξη.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
