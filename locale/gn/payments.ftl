@@ -123,6 +123,9 @@ payment-confirmation-download-button = Emboguejy ehóvo
 
 ## Component - PaymentConsentCheckbox
 
+# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
+payment-confirm-with-legal-links = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatuhápe ahepyme’ẽ { $price } { $productName } rupi he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
 
 ## Component - PaymentErrorView
 
@@ -164,6 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua
 payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 
 ## Component - PaymentProcessing
 
