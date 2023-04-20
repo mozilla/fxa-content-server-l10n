@@ -101,14 +101,38 @@ subscriptionUpdateBillingEnsure = Түләү ысулыгызның һәм хи�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Түләү ысулыгызның һәм хисабыгыз турындагы мәгълүматның актуаль булуын монда тикшерә аласыз:
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaOS }-да { $uaBrowser }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP адрес: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (чама белән)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (чама белән)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (чама белән)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (чама белән)
 view-invoice = <a data-l10n-name="invoiceLink">Квитанциягезне карагыз</a>
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Квитанцияне карау: { $invoiceLink }
+cadReminderFirst-subject-1 = Искәртү! Әйдәгез, { -brand-firefox } кушымтасын синхронлыйк
 cadReminderFirst-action = Башка җиһазны синхронлау
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Синхронлау өчен 2 җиһаз кирәк
 cadReminderSecond-action = Башка җиһазны синхронлау
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
