@@ -749,6 +749,14 @@ terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşu
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Devam ederek <firefoxTos>Hizmet Koşulları</firefoxTos>’nı ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>’ni kabul etmiş olursunuz.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = veya
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Bilinmeyen hesap
@@ -1099,7 +1107,7 @@ signin-forgot-password-link = Parolanızı unuttunuz mu?
 signin-bounced-header = Kusura bakmayın, hesabınızı kilitledik.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası geri döndüğü için { -brand-firefox } verilerinizi korumak amacıyla hesabınızı kilitledik.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Bu e-posta adresi geçerliyse <linkExternal>bize haber verirseniz</linkExternal> hesabınızı açmanıza yardımcı olabiliriz.
 signin-bounced-create-new-account = Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın
 back = Geri dön
