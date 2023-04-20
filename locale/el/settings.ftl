@@ -15,6 +15,8 @@ banner-dismiss-button =
 link-expired-resent-link-success-message = Το email απεστάλη ξανά. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-link-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου συνδέσμου.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -104,6 +106,8 @@ signup-confirm-password-label =
 signup-submit-button = Δημιουργία λογαριασμού
 form-reset-password-with-balloon-new-password =
     .label = Νέος κωδικός πρόσβασης
+form-reset-password-with-balloon-confirm-password =
+    .label = Εισαγάγετε ξανά τον κωδικό πρόσβασης
 form-reset-password-with-balloon-submit-button = Επαναφορά κωδικού πρόσβασης
 form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
 
