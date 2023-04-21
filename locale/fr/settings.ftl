@@ -637,7 +637,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Une barre de progression indiquant que l’utilisateur a franchi l’étape { $currentStep } sur { $numberOfSteps }.
+progress-bar-aria-label = Une barre de progression indiquant que l’utilisateur ou l’utilisatrice a franchi l’étape { $currentStep } sur { $numberOfSteps }.
 
 ## Security section of Setting
 
