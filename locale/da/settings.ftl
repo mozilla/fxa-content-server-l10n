@@ -645,6 +645,14 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = En statuslinje der viser, at brugeren er på trin { $currentStep } af { $numberOfSteps }.
+
 ## Security section of Setting
 
 security-heading = Sikkerhed
@@ -774,6 +782,16 @@ terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår
 terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivspolitik</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Ved at fortsætte accepterer du <firefoxTos>tjenestevilkårene</firefoxTos> og <firefoxPrivacy>privatlivspolitikken</firefoxPrivacy>.
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = eller
+continue-with-google-button = fortsæt med { -brand-google }
+continue-with-apple-button = fortsæt med { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1125,7 +1143,7 @@ signin-forgot-password-link = Glemt adgangskode?
 signin-bounced-header = Vi har låst din konto.
 # $email (string) - The user's email.
 signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur, så vi har låst din konto for at beskytte dine { -brand-firefox }-data.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Hvis det er en gyldig mailadresse, <linkExternal>så fortæl os det</linkExternal>. Så kan vi hjælpe med at låse din konto op.
 signin-bounced-create-new-account = Er du ikke længere ejer af mailadressen? Opret en ny konto
 back = Tilbage
