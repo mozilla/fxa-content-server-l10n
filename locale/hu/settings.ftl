@@ -650,7 +650,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Egy folyamatjelző sáv, amely mutatja, hogy a felhasználó a(z) { $currentStep }. lépésnél tart: { $numberOfSteps }.
+progress-bar-aria-label = Egy folyamatjelző sáv, amely mutatja, hogy a felhasználó a(z) { $currentStep }. / { $numberOfSteps } lépésnél tart.
 
 ## Security section of Setting
 
