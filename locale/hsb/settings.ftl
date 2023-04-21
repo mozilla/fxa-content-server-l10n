@@ -629,6 +629,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Wěstota
@@ -750,6 +753,16 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = abo
+continue-with-google-button = Dale z { -brand-google }
+continue-with-apple-button = Dale z { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -882,6 +895,7 @@ pair-auth-complete-manage-devices-link = Graty rjadować
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-instruction = Wočińće swoje awtentifikowanske nałoženje a zapodajće k dispoziciji stajeny awtentifikaciski kod.
 auth-totp-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Wobkrućić
@@ -1035,7 +1049,7 @@ signin-forgot-password-link = Sće hesło zabył?
 signin-bounced-header = Bohužel je waše konto zawrjene.
 # $email (string) - The user's email.
 signin-bounced-message = Wobkrućenska e-mejlka, kotruž smy na { $email } pósłali, je so wróćiła a smy waše konto zawrěli, zo bychmy waše daty { -brand-firefox } škitali.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Jeli to je płaćiwa adresa, <linkExternal>informujće nas</linkExternal> a móžemy pomhać, waše konto wotewrěć.
 signin-bounced-create-new-account = Tuta e-mejlowa hižo wam njesłuša? Załožće konto
 back = Wróćo
@@ -1053,6 +1067,8 @@ signin-recovery-code-back-link = Wróćo
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sće wuzamknjewny?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trěbny
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1063,6 +1079,10 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Zapodajće wobkrućenski kod<span>za swoje konto { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
 signin-token-code-input-label-v2 = 6-městnowy kod zapodać
@@ -1078,6 +1098,7 @@ signin-token-code-required-error = Wobkrućenski kod trěbny
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-instruction-v2 = Wočińće swoje awtentifikaciske nałoženje a zapodajće k dispoziciji stajeny awtentifikaciski kod.
 signin-totp-code-input-label-v2 = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkrućić
