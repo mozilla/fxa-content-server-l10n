@@ -622,6 +622,14 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = 进度条显示用户正在进行 { $numberOfSteps } 的第 { $currentStep } 步。
+
 ## Security section of Setting
 
 security-heading = 账户安全
@@ -739,6 +747,16 @@ terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服务条款<
 terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 继续操作即表示您同意我们的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>。
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = 或者
+continue-with-google-button = 继续使用{ -brand-google }
+continue-with-apple-button = 继续使用 { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1096,7 +1114,7 @@ signin-forgot-password-link = 忘记密码？
 signin-bounced-header = 对不起。我们已锁定您的账户。
 # $email (string) - The user's email.
 signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的帐户以保护您的 { -brand-firefox } 数据。
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的帐户。
 signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账户吧
 back = 上一步
