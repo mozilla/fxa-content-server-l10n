@@ -214,7 +214,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
-bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din rett til privatliv på nettet.
+bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for retten din til privatliv på nettet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -530,6 +530,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Sikkerheit
@@ -603,6 +606,10 @@ tfa-row-change-modal-confirm = Endre
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
 ## Auth-server based errors that originate from backend service
