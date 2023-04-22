@@ -813,6 +813,8 @@ confirm-signin-header = Stadfest denne innlogginga
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Skriv inn passordet ditt <span>for { -product-firefox-account }en din</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
