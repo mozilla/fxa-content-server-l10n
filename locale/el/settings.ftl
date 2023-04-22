@@ -631,6 +631,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Ασφάλεια
@@ -985,6 +988,9 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 
 ## ResetPassword page
 
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Email
 reset-password-button = Έναρξη επαναφοράς
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
