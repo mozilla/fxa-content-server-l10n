@@ -629,6 +629,14 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = Kullanıcının { $numberOfSteps } adımdan { $currentStep }. adımda olduğunu gösteren ilerleme çubuğu
+
 ## Security section of Setting
 
 security-heading = Güvenlik
@@ -756,6 +764,8 @@ terms-privacy-agreement-default = Devam ederek <firefoxTos>Hizmet Koşulları</f
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = veya
+continue-with-google-button = { -brand-google } ile devam et
+continue-with-apple-button = { -brand-apple } ile devam et
 
 ## Auth-server based errors that originate from backend service
 
