@@ -140,6 +140,14 @@ downloadSubscription-subject = { $productName } кушымтасына рәхи�
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } кушымтасына рәхим итегез
+lowRecoveryCodes-action-2 = Кодлар булдыру
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Резерв копия аутентификация кодлары калмады
+        [one] Бары тик бер резерв копия аутентификация коды калды
+       *[other] Бары тик { $numberRemaining } резерв копия аутентификация коды калды!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } эченә яңа керү
