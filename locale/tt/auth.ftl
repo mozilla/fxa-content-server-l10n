@@ -140,6 +140,7 @@ downloadSubscription-subject = { $productName } кушымтасына рәхи�
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } кушымтасына рәхим итегез
+codes-reminder-description-two-left = Ике код кына калды.
 lowRecoveryCodes-action-2 = Кодлар булдыру
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
@@ -170,15 +171,27 @@ postChangePrimary-title = Яңа төп электрон почта адресы
 #  $email (String) - A user's email address
 postChangePrimary-description = Төп электрон почта адресыгызны { $email } адресына уңышлы үзгәрттегез. Бу адрес хәзер { -product-firefox-account } эченә керү өчен кулланасы исемегез булачак. Моннан тыш, хәвефсезлеккә бәйле белдерүләр һәм хисап язмагызга керү турындагы хәбәрләр дә шул адреска җибәреләчәк.
 postChangePrimary-action = Хисап белән идарә итү
+postConsumeRecoveryCode-title-2 = Сез резерв копия аутентификация кодын кулландыгыз
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Бу җиһазда кулланылды:
 postConsumeRecoveryCode-action = Хисап белән идарә итү
+postNewRecoveryCodes-title-2 = Сез яңа резерв копия аутентификация кодларын булдырдгыз
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Алар бу җиһазда ясалган:
 postNewRecoveryCodes-action = Хисап белән идарә итү
+postRemoveAccountRecovery-subject-2 = Хисапны коткару ачкычы бетерелде
+postRemoveAccountRecovery-title-2 = Сез хисапны коткару ачкычын бетердегез.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Бу җиһаздан бетерелде:
 postRemoveAccountRecovery-action = Хисап белән идарә итү
+postRemoveAccountRecovery-invalid-2 = Серсүзегезне онытсагыз, { -brand-firefox } мәгълүматыгызны тергезү өчен сезгә хисапны коткару ачкычы кирәк.
 postRemoveSecondary-subject = Икенчел электрон почта бетерелде
 postRemoveSecondary-title = Икенчел электрон почта бетерелде
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
+postRemoveTwoStepAuthentication-subject-line-2 = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-action = Хисап белән идарә итү
 postVerifySecondary-subject = Икенчел эл. почта өстәлде
 postVerifySecondary-title = Икенчел эл. почта өстәлде
