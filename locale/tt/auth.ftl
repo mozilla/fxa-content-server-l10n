@@ -134,6 +134,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхронлау өчен 2 җиһаз кирәк
 cadReminderSecond-action = Башка җиһазны синхронлау
+cadReminderSecond-title-2 = Синхронлауны онытмагыз!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } кушымтасына рәхим итегез
@@ -152,6 +153,9 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } эченә яңа керү
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Сез түгелме? Серсүзегезне үзгәртегез:
 newDeviceLogin-action = Хисап белән идарә итү
 passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
