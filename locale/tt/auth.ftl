@@ -192,11 +192,22 @@ postRemoveSecondary-title = Икенчел электрон почта бете�
 postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-subject-line-2 = Ике адымлы аутентификация сүндерелде
+postRemoveTwoStepAuthentication-title-2 = Сез ике адымлы аутентификацияне сүндердегез
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Сез аны бу җиһаздан сүндердегез:
 postRemoveTwoStepAuthentication-action = Хисап белән идарә итү
+postRemoveTwoStepAuthentication-not-required-2 = Сез кергәндә, аутентификация кушымтасыннан алынган хәвефсезлек кодлары кирәк түгел.
+postVerify-sub-title-3 = Без сезне күреп бик бәхетле!
+postVerify-title-2 = Бер үк табны ике җиһазда да күрәсегез киләме?
+postVerify-description-2 = Бу җиңел! Башка җиһазга { -brand-firefox } урнаштырыгыз һәм синхронлауга керегез. Тылсым кебек!
+postVerify-subject-3 = { -brand-firefox }-ка рәхим итегез!
+postVerify-setup-2 = Башка бер җиһазны тоташтыру:
+postVerify-action-2 = Башка бер җиһазны тоташтыру
 postVerifySecondary-subject = Икенчел эл. почта өстәлде
 postVerifySecondary-title = Икенчел эл. почта өстәлде
 postVerifySecondary-action = Хисап белән идарә итү
 recovery-subject = Серсүзегезне алыштырыгыз
+recovery-title-2 = Серсүзегезне оныттыгызмы?
 recovery-action = Яңа парол булдыру
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -208,7 +219,9 @@ subscriptionAccountFinishSetup-subject = { $productName } программасы
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } хезмәтенә рәхим итегез
+subscriptionAccountFinishSetup-action-2 = Башлап җибәрү
 subscriptionAccountReminderFirst-subject = Бер искәртү: Хисабыгызны көйләүне тәмамлагыз
+subscriptionAccountReminderFirst-title = Сез әле абунәгезгә керә алмыйсыз
 subscriptionAccountReminderFirst-action = Серсүз булдыру
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Соңгы искәртү: Хисабыгызны көйләгез
