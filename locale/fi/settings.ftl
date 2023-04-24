@@ -339,7 +339,7 @@ dc-heading = Tietojen keruu ja käyttö
 dc-subheader = Auta parantamaan palvelua { -product-firefox-accounts }
 dc-subheader-content = Salli palvelun { -product-firefox-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success = Poistuminen onnistui. { -product-firefox-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
-dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan palvelua { -product-firefox-accounts }.
+dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-firefox-accounts } -palvelua.
 dc-opt-in-out-error-2 = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma
 dc-learn-more = Lue lisää
 
@@ -537,6 +537,7 @@ recent-activity-account-disable = Tili poistettiin käytöstä
 recent-activity-account-enable = Tili otettiin käyttöön
 recent-activity-account-login = Tili käynnisti kirjautumisen
 recent-activity-account-reset = Tili käynnisti salasanan nollauksen
+recent-activity-emails-clearBounces = Tili tyhjensi kimmonneet sähköpostiviestit
 
 # Account recovery key setup page
 
@@ -602,7 +603,7 @@ tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
-    Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
+    Skannaa tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -613,7 +614,7 @@ tfa-qa-code-alt =
     tuettuihin sovelluksiin.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
+tfa-button-cant-scan-qr = Etkö voi skannata QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
 tfa-enter-totp-v2 = Syötä nyt todennussovelluksessa näkyvä todennuskoodi.
