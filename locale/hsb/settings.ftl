@@ -887,6 +887,9 @@ pair-auth-allow-confirm-button = Haj, grat schwalić
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Grat je zwjazany
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Synchronizujeće nětko z: { $deviceFamily } na { $deviceOS }
 pair-auth-complete-sync-benefits-text = Nětko maće přistup k swojim wočinjenym rajtarkam, hesłam a zapołožkam na wšěch swojich gratach.
 pair-auth-complete-see-tabs-button = Rajtarki ze synchronizowanych gratow pokazać
 pair-auth-complete-manage-devices-link = Graty rjadować
@@ -895,6 +898,13 @@ pair-auth-complete-manage-devices-link = Graty rjadować
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Zapodajće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Zapodajće awtentifikaciski kod, <span>zo byšće z { $serviceName } pokročował</span>
 auth-totp-instruction = Wočińće swoje awtentifikowanske nałoženje a zapodajće k dispoziciji stajeny awtentifikaciski kod.
 auth-totp-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
@@ -926,6 +936,7 @@ pair-sync-your-device-button = Synchronizujće swój grat
 pair-or-download-subheader = Abo sćehńće
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Nic nětko
+pair-take-your-data-message = Wzmiće swoje rajtarki, zapołožki a hesła wšudźe, hdźež { -brand-firefox } wužiwaće.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Prěnje kroki
 # This is the aria label on the QR code image
