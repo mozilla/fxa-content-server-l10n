@@ -396,6 +396,9 @@ subscriptionCancellation-title = Škoda, zo woteńdźeće
 
 subscriptionCancellation-content-2 = Smy waš abonement za { $productName } wupowědźili. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } sćiniło.
 subscriptionCancellation-outstanding-content-2 = Smy waš abonement za { $productName } wupowědźili. Waše kónčne płaćenje { $invoiceTotal } so dnja { $invoiceDateOnly } sćini.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Waša słužba so hač do kónca wašeho aktualneho wotličenskeje doby pokročuje, kotraž je { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Sće k { $productName } přešoł
