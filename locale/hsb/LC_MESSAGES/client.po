@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-24 20:30+0000\n"
+"PO-Revision-Date: 2023-04-24 20:42+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1884,7 +1884,7 @@ msgstr "Čehodla dyrbju tute konto załožić? <a %(escapedSuggestionAttrs)s>Tu 
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Kak stary sće? Zo byšće zhonił, čehodla za wašej starobu prašamy, slědujće wotkazej „čehodla so prašamy\" deleka."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
