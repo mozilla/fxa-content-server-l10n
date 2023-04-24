@@ -534,11 +534,13 @@ unblockCode-prompt-plaintext = Jeli haj, tu je awtorizowanski kod, kotryž trjeb
 unblockCode-report = Jeli nic, pomhajće nam zadobywarjow wotwobarać a <a data-l10n-name="reportSignInLink">zdźělće nam to.</a>
 unblockCode-report-plaintext = Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to.
 verificationReminderFinal-subject = Poslednje dopomnjeće: Wobkrućće swoje konto
+verificationReminderFinal-description = Před někotrymi njedźelemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Za wašu wěstotu zhašamy konto, jeli so za přichodne 24 hodźin njewobkrući.
 confirm-account = Konto wobkrućić
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderFirst-title-2 = Witajće k { -brand-firefox }!
 verificationReminderFirst-description-2 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 15 dnjow abo konto so awtomatisce zhaša.
+verificationReminderFirst-sub-description-3 = Njezapasće wobhladowak, za kotryž wy a waša priwatnosć na prěnje městno stejatej.
 confirm-email-2 = Konto wobkrućić
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
