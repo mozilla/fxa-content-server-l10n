@@ -225,6 +225,7 @@ codes-reminder-title-two = Je čas, dalše kody za zawěsćensku awtentifikaciju
 codes-reminder-description-part-one = Kody za zawěsćensku awtentifikaciju wam pomhaja, waše informacije wobnowić, hdyž sće swoje hesło zabył.
 codes-reminder-description-part-two = Wutworće nětko nowe kody, zo njebyšće so pozdźišo swoje daty zhubił
 codes-reminder-description-two-left = Maće jenož dwaj kodaj wyše.
+codes-reminder-description-create-codes = Wutworće awtentifikaciske kody za zawěsćenje, zo byšće zaso přistup k swojemu kontu dóstał, jeli sće wuzamknjeny.
 lowRecoveryCodes-action-2 = Kody wutworić
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
