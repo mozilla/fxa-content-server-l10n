@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Sulje
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Sähköposti lähetetty uudelleen. Lisää { $accountsEmail } yhteystietoihisi varmistaaksesi sujuvan toimituksen.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-link-error-message = Jotain meni pieleen. Uutta linkkiä ei voitu lähettää.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
@@ -132,6 +135,10 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Tietokone ja matkapuhelin, joissa molemmissa on särkynyt sydän
+hearts-verified-image-aria-label =
+    .aria-label = Tietokone, matkapuhelin ja tabletti, joissa kaikissa on sykkivä sydän
 signin-recovery-code-image-description =
     .aria-label = Piilotettua tekstiä sisältävä asiakirja.
 signin-totp-code-image-label =
@@ -194,6 +201,8 @@ confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja li
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Tarvitset tämän salasanan käsitelläksesi palveluumme tallentamiasi salattuja tietojasi.
+password-info-balloon-reset-risk-info = Nollauksen seurauksena saatat menettää salasanojen ja kirjanmerkkien kaltaiset tiedot.
 
 ## PasswordStrengthBalloon component
 
@@ -201,6 +210,7 @@ password-strength-balloon-heading = Salasanan vaatimukset
 password-strength-balloon-min-length = Vähintään 8 merkkiä
 password-strength-balloon-not-email = Ei sinun sähköpostiosoite
 password-strength-balloon-not-common = Ei yleisesti käytetty salasana
+password-strength-balloon-stay-safe-tips = Pysy turvassa — älä käytä samoja salasanoja toistuvasti. Katso lisää <linkExternal>vahvojen salasanojen luontivinkkejä</linkExternal>.
 
 ## Ready component
 
@@ -365,6 +375,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Sulje
 modal-cancel-button = Peruuta
+modal-default-confirm-button = Vahvista
 
 ## Modal Verify Session
 
@@ -595,6 +606,8 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
+tfa-input-enter-totp-v2 =
+    .label = Syötä todennuskoodi
 tfa-save-these-codes-1 =
     Tallenna nämä varatodennuskoodit turvalliseen paikkaan
     sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
@@ -619,6 +632,9 @@ profile-primary-email =
     .header = Ensisijainen sähköposti
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -751,6 +767,16 @@ terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Jatkamalla hyväksyt <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytännön</firefoxPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Tai
+continue-with-google-button = Jatka käyttämällä { -brand-google }a
+continue-with-apple-button = Jatka käyttämällä { -brand-apple }a
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Tuntematon tili
@@ -813,18 +839,23 @@ inline-recovery-cancel-button = Peruuta
 inline-recovery-continue-button = Jatka
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Vahvista
+inline-recovery-back-link = Takaisin
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Varatodennuskoodi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Peru määritys
 inline-totp-setup-continue-button = Jatka
 inline-totp-setup-ready-button = Valmis
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Toodennuskoodi
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Juridiset asiat
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Käyttöehdot
 # Links to our internal "Firefox Cloud" /legal/terms page
@@ -859,6 +890,11 @@ pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Syötä 6-numeroinen koodi
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Vahvista
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Todennuskoodi vaaditaan
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -867,6 +903,8 @@ pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Parin muodostaminen epäonnistui.
+pair-failure-message = Määritysprosessi keskeytettiin.
 
 ## Pair index page
 
@@ -874,17 +912,21 @@ pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 pair-sync-your-device-button = Synkronoi laitteesi
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ei nyt
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Aloita
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-koodi
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Laite yhdistetty
+pair-success-message-2 = Parin muodostaminen onnistui.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-confirm-button = Vahvista parin muodostus
 pair-supp-allow-cancel-link = Peruuta
 
 ## WaitForAuth page - Part of the devide pairing flow
@@ -894,6 +936,7 @@ pair-supp-allow-cancel-link = Peruuta
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Muodosta pari sovelluksella
 
 ## AccountRecoveryConfirmKey page
 
