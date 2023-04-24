@@ -487,6 +487,7 @@ delete-account-header =
     .title = Poista tili
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
+delete-account-confirm-title-3 = Saatat olla yhdistänyt { -product-firefox-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -911,6 +912,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Syötä koodi manuaalisesti <s
 inline-totp-setup-show-qr-default-service-header-2 = Skannaa todennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Syötä koodi manuaalisesti <span>jatkaaksesi tilin asetuksiin</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Syötä tämä salainen avain todennussovellukseesi. <toggleToQRButton>Vai haluatko sen sijaan skannata QR-koodin?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skannaa QR-koodi todennussovellukseesi ja syötä sen ilmoittama todennuskoodi. <toggleToManualModeButton>Etkö voi skannata koodia?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1073,12 +1076,14 @@ account-recovery-reset-password-redirecting = Uudelleenohjataan
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Luo uusi salasana
+complete-reset-password-warning-message-2 = <span>Muista:</span> Salasanan nollaus tyhjentää myös tilisi sisällön. Saatat menettää joitakin henkilökohtaisia tietojasi (kuten historian, kirjanmerkit ja salasanat). Tämä johtuu siitä, että tietosi salataan salasanallasi yksityisyytesi suojaamiseksi. Mahdolliset tilauksesi pysyvät silti edelleen voimassa, eikä tämä vaikuta { -product-pocket }in paikallisiin tietoihin.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Salasana asetettu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
+complete-reset-password-recovery-key-error = Valitettavasti tapahtui ongelma, kun tarkistettiin, onko sinulla tilin palautusavainta. <hasRecoveryKeyErrorLink>Nollaa salasanasi tilin palautusavaimella.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1098,6 +1103,7 @@ reset-password-heading-w-default-service = Nollaa salasana <span>jatkaksesi tili
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Nollaa salasana <span>jatkaaksesi palveluun { $serviceName }</span>
+reset-password-warning-message-2 = <span>Huomioi:</span> Salasanan nollaus tyhjentää myös tilisi sisällön. Saatat menettää joitakin henkilökohtaisia tietojasi (kuten historian, kirjanmerkit ja salasanat). Tämä johtuu siitä, että tietosi salataan salasanallasi yksityisyytesi suojaamiseksi. Mahdolliset tilauksesi pysyvät silti edelleen voimassa, eikä tämä vaikuta { -product-pocket }in tietoihin.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Sähköposti
