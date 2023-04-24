@@ -269,6 +269,9 @@ passwordResetAccountRecovery-title-2 = Hesło je so wuspěšnje wróćo stajiło
 passwordResetAccountRecovery-description-2 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło aktualizował wot:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Nowy kontowy wobnowjenski kluč wutworić
+passwordResetAccountRecovery-regen-required-mjml-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Dyrbiće so na wšěch swojich synchronizowanych gratach znowa přizjewić. Mysli na to, nowe kontowy wobnowjenski kluč wutworić, zo byšće tón wuměnił, kotryž sće wužił:
 postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Information on the browser and device triggering this string follows.
