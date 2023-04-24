@@ -831,6 +831,13 @@ cookies-disabled-learn-more = Dalše informacije
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Składujće awtentifikaciske kody za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -844,6 +851,13 @@ inline-recovery-back-link = Wróćo
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Awtentifikaciski kod zawěsćić
 inline-recovery-confirmation-description = Zo byšće zaso přistup k swojemu kontu dóstał, jeli sće swój grat zhubił, zapodajće prošu jedyn ze swojich kodow za zawěsćensku awtentifikaciju.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Wobkrućće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -853,6 +867,12 @@ inline-totp-setup-continue-button = Dale
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Požadajće awtentifikaciske kody z jednoho z <authenticationAppsLink>tutych awtentifikaciskich nałoženjow</authenticationAppsLink>, zo byšće swojemu kontu wěstotnu runinu přidał.
 inline-totp-setup-ready-button = Hotowy
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z { $serviceName } pokročował</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -972,6 +992,13 @@ pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Stajće hesło z kontowym wobnowjenskim klučom wróćo, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Stajće hesło z kontowym wobnowjenskim klučom wróćo, <span>zo byšće z { $serviceName } pokročował</span>
 account-recovery-confirm-key-instructions = Prošu zapodajće kontowy wobnowjenski kluč za jónkróćne wužiće, kotryž sće na wěstym městnje składował, zo byšće přistup k swojemu kontu { -product-firefox-account } měł.
 account-recovery-confirm-key-warning-message = <span>KEDŹBU:</span> Jeli sće swoje hesło wróćo stajił a njejsće swój kontowy wobnowjenski kluč składował, so někotre z wašich datow zhašeja (inkluziwnje synchronizowane serwerowe daty kaž historiju a zapołožki).
 # Prompts the user to enter their account recovery code
@@ -1020,6 +1047,13 @@ confirm-pw-reset-instructions = Klikńće wob hodźinu na wotkaz, kotryž smy p�
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Stajće hesło wróćo, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Stajće hesło wróćo, <span>zo byšće z { $serviceName } pokročował</span>
 reset-password-warning-message-2 = <span>Kedźbu:</span> Hdyž swoje hesło wróćo stajeće, stajiće swoje konto wróćo. Móžeće někotre z wašich wosobinskich datow zhubić (na přikład historiju, zapołožki a hesła). Tohodla zaklučujemy waše daty z wašim hesłom, zo bychmy wašu priwatnosć škitali. Waše abonementy, kotrež snano maće, wobchowaće a daty { -product-pocket } njejsu potrjechene.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
@@ -1070,6 +1104,13 @@ back = Wróćo
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Zapodajće awtentifikaciski kod za zawěsćenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Zapodajće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
 signin-recovery-code-input-label = Zapodajće 10-městnowy kod za zawěsćensku awtentifikaciju
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkrućić
@@ -1109,6 +1150,13 @@ signin-token-code-required-error = Wobkrućenski kod trěbny
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Zapodajće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Zapodajće awtentifikaciski kod, <span>zo byšće z { $serviceName } pokročował</span>
 signin-totp-code-instruction-v2 = Wočińće swoje awtentifikaciske nałoženje a zapodajće k dispoziciji stajeny awtentifikaciski kod.
 signin-totp-code-input-label-v2 = 6-městnowy kod zapodać
 # Form button to confirm if the authentication code entered by the user is valid
