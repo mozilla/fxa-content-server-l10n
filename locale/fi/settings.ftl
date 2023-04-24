@@ -851,6 +851,7 @@ connect-another-device-ios-complete-setup-message = Kirjaudu { -brand-firefox }i
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Paikallinen tallennustila ja evästeet vaaditaan
+cookies-disabled-enable-prompt = Ota evästeet ja paikallinen tallennustila käyttöön selaimessasi käyttääksesi { -product-firefox-accounts } -palvelua. Tämä mahdollistaa toiminnot, joiden ansiosta sinut esimerkiksi muistetaan istuntojen välillä.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Yritä uudelleen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -860,6 +861,15 @@ cookies-disabled-learn-more = Lue lisää
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Vahvista varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Tallenna varatodennuskoodit <span>jatkaaksesi palveluun { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Säilytä nämä kertakäyttökoodit turvallisessa paikassa. Tarvitset niitä, jos sinulla ei ole mobiililaitettasi.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Peruuta
@@ -870,16 +880,41 @@ inline-recovery-confirm-button = Vahvista
 inline-recovery-back-link = Takaisin
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Varatodennuskoodi
+inline-recovery-confirmation-description = Varmistaaksesi pääsyn tilillesi, jos laite esimerkiksi katoaa tai rikkoutuu, syötä yksi tallentamistasi varatodennuskoodeista.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Vahvista varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Vahvista varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Peru määritys
 inline-totp-setup-continue-button = Jatka
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Paranna tilisi suojausta vaatimalla todennuskoodeja jollakin <authenticationAppsLink>näistä todennussovelluksista</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ota kaksivaiheinen todennus käyttöön <span>jatkaaksesi tilin asetuksiin</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ota kaksivaiheinen todennus käyttöön <span>jatkaaksesi palveluun { $serviceName }</span>
 inline-totp-setup-ready-button = Valmis
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Skannaa todennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Syötä koodi manuaalisesti <span>jatkaaksesi palveluun { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skannaa todennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Syötä koodi manuaalisesti <span>jatkaaksesi tilin asetuksiin</span>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skannaa QR-koodi todennussovellukseesi ja syötä sen ilmoittama todennuskoodi. <toggleToManualModeButton>Etkö voi skannata koodia?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Määrityksen valmistuttua sovellus tuottaa kirjautumisen yhteydessä tarvittavia todennuskoodeja.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Toodennuskoodi
 
@@ -926,6 +961,13 @@ pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Syötä todennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Syötä todennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
 auth-totp-instruction = Avaa todennussovellus ja syötä sen näyttämä todennuskoodi.
 auth-totp-input-label = Syötä 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
@@ -955,6 +997,8 @@ pair-already-have-firefox-paragraph = Löytyykö { -brand-firefox } jo puhelimes
 pair-sync-your-device-button = Synkronoi laitteesi
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Tai lataa
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skannaa ladataksesi { -brand-firefox } mobiililaitteelle tai lähetä <linkExternal>latauslinkki</linkExternal> itsellesi.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ei nyt
 pair-take-your-data-message = Ota välilehdet, kirjanmerkit ja salasanat mukaan kaikkialle missä käytät { -brand-firefox }ia.
@@ -972,6 +1016,9 @@ pair-success-message-2 = Parin muodostaminen onnistui.
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Vahvista parin muodostaminen <small>tilille { $email }</small>
 pair-supp-allow-confirm-button = Vahvista parin muodostus
 pair-supp-allow-cancel-link = Peruuta
 
@@ -979,10 +1026,14 @@ pair-supp-allow-cancel-link = Peruuta
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <small>joltain muulta laitteeltasi</small>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Muodosta pari sovelluksella
+pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1065,9 +1116,13 @@ validating-signin = Vahvistetaan kirjautumista…
 ## ConfirmSignin component
 
 confirm-signin-header = Vahvista tämä kirjautuminen
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Katso osoitteeseen { $email } lähetetty kirjautumisen vahvistuslinkki
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Syötä <span>{ -product-firefox-account }si</span> salasana
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
@@ -1080,6 +1135,10 @@ signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
 signin-bounced-header = Pahoittelut, olemme lukinneet tilisi.
+# $email (string) - The user's email.
+signin-bounced-message = Osoitteeseen { $email } lähetetty vahvistusviesti palautui vastaanottamattomana ja tilisi on lukittu { -brand-firefox }-tietojesi suojaamiseksi.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Jos tämä on käytössä oleva sähköpostiosoite, <linkExternal>ilmoita siitä meille</linkExternal> niin autamme tilin lukituksen poistossa.
 signin-bounced-create-new-account = Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili
 back = Edellinen
 
@@ -1088,6 +1147,14 @@ back = Edellinen
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Syötä varatodennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Syötä varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
+signin-recovery-code-instruction = Syötä varatodennuskoodi, jonka sait kaksivaiheisen todennuksen määrityksen yhteydessä.
 signin-recovery-code-input-label = Anna 10-numeroinen varatodennuskoodi
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
@@ -1112,6 +1179,8 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Anna vahvistuskoodi<span> { -product-firefox-account }llesi</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Syötä osoitteeseen { $email } lähetetty vahvistuskoodi viiden minuutin kuluessa.
 signin-token-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Vahvista
@@ -1125,6 +1194,14 @@ signin-token-code-required-error = Vahvistuskoodi vaaditaan
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Syötä todennuskoodi <span>jatkaaksesi tilin asetuksiin</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Syötä todennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
+signin-totp-code-instruction-v2 = Avaa käyttämäsi todennussovellus ja syötä sen ilmoittama todennuskoodi.
 signin-totp-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
@@ -1138,6 +1215,8 @@ signin-totp-code-required-error = Todennuskoodi vaaditaan
 ## when setting up a new account
 
 confirm-signup-heading = Vahvista tilisi
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Katso osoitteeseen { $email } lähetetty vahvistuslinkki
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1147,6 +1226,12 @@ confirm-signup-heading = Vahvista tilisi
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Kirjoita vahvistuskoodi
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Syötä <span>{ -product-firefox-account }si</span> vahvistuskoodi
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Syötä osoitteeseen { $email } lähetetty vahvistuskoodi viiden minuutin kuluessa.
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Vahvista
