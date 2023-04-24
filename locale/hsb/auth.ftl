@@ -336,6 +336,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaće hižo wěstotne ko
 postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
+postVerify-sub-description = (Pst… Woznamjenja tež, zo móžeće swoje zapołožki, hesła a druhe daty { -brand-firefox } dóstać, hdźežkuli sće so přizjewił.)
 postVerify-subject-3 = Witajće k { -brand-firefox }!
 postVerify-setup-2 = Z druhim gratom zwjazać:
 postVerify-action-2 = Z druhim gratom zwjazać
@@ -393,6 +394,8 @@ subscriptionCancellation-title = Škoda, zo woteńdźeće
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Smy waš abonement za { $productName } wupowědźili. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } sćiniło.
+subscriptionCancellation-outstanding-content-2 = Smy waš abonement za { $productName } wupowědźili. Waše kónčne płaćenje { $invoiceTotal } so dnja { $invoiceDateOnly } sćini.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Sće k { $productName } přešoł
