@@ -215,6 +215,7 @@ password-strength-balloon-stay-safe-tips = Pysy turvassa — älä käytä samoj
 ## Ready component
 
 reset-password-complete-header = Salasanasi on nollattu
+ready-complete-set-up-instruction = Viimeistele määritys syöttämällä uusi salasana muihin { -brand-firefox }-asennuksiisi.
 ready-start-browsing-button = Aloita selaaminen
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -296,6 +297,10 @@ cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Selaustietosi säilyvät laitteella <span>{ $device }</span>,
+    mutta kyseinen laite ei enää synkronoi tilillesi.
+cs-disconnect-sync-reason-3 = Mikä on pääasiallinen syy laitteen <span>?{ $device }</span> yhteyden katkaisuun?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -492,6 +497,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkronoidaan { -brand-firefox }-tietoja
 delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
+delete-account-chk-box-1-v3 =
+    .label = Kaikki käytössäsi olevat maksulliset tilaukset perutaan ({ -product-pocket } pois lukien)
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
@@ -527,6 +534,8 @@ recent-activity-title = Viimeaikaiset tilitapahtumat
 recent-activity-account-create = Tili luotiin
 recent-activity-account-disable = Tili poistettiin käytöstä
 recent-activity-account-enable = Tili otettiin käyttöön
+recent-activity-account-login = Tili käynnisti kirjautumisen
+recent-activity-account-reset = Tili käynnisti salasanan nollauksen
 
 # Account recovery key setup page
 
@@ -606,6 +615,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
+tfa-enter-totp-v2 = Syötä nyt todennussovelluksessa näkyvä todennuskoodi.
 tfa-input-enter-totp-v2 =
     .label = Syötä todennuskoodi
 tfa-save-these-codes-1 =
@@ -636,6 +646,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = Edistymispalkki, joka näyttää, että käyttäjä on vaiheessa { $currentStep }/{ $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -801,6 +816,7 @@ auth-error-1008 = Uuden salasanan pitää erota vanhasta
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Tiliä ei voida luoda
+cannot-create-account-requirements = Sinun on oltava riittävän vanha luodaksesi { -product-firefox-account }n.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Lue lisää
 
@@ -812,12 +828,24 @@ connect-another-device-signed-in-header = Olet kirjautunut { -brand-firefox }iin
 connect-another-device-email-confirmed-banner = Sähköposti vahvistettu
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Kirjautuminen vahvistettu
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Viimeistele määritys kirjautumalla tähän { -brand-firefox }iin
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Kirjaudu sisään
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Lisäätkö laitteita edelleen? Kirjaudu { -brand-firefox }iin toisella laitteella viimeistelläksesi määrityksen
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Kirjaudu { -brand-firefox }iin toisella laitteella viimeistelläksesi määrityksen
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Haluatko saada välilehdet, kirjanmerkit ja salasanat toiselle laitteelle?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Yhdistä toinen laite
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ei nyt
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Kirjaudu { -brand-firefox }iin Androidissa viimeistelläksesi määrityksen
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Kirjaudu { -brand-firefox }iin iOS:ssä viimeistelläksesi määrityksen
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -849,6 +877,9 @@ inline-recovery-backup-authentication-code = Varatodennuskoodi
 inline-totp-setup-cancel-setup-button = Peru määritys
 inline-totp-setup-continue-button = Jatka
 inline-totp-setup-ready-button = Valmis
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skannaa todennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Toodennuskoodi
 
@@ -884,12 +915,18 @@ pair-auth-allow-refuse-device-link = Jos se et ollut sinä, <link>vaihda salasan
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Laite yhdistetty
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Synkronoit nyt: { $deviceFamily } alustalla { $deviceOS }
+pair-auth-complete-sync-benefits-text = Löydät nyt avoimet välilehdet, salasanat ja kirjanmerkit kaikilta laitteiltasi.
+pair-auth-complete-see-tabs-button = Näytä synkronoitujen laitteiden välilehdet
 pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-instruction = Avaa todennussovellus ja syötä sen näyttämä todennuskoodi.
 auth-totp-input-label = Syötä 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Vahvista
@@ -900,6 +937,9 @@ auth-totp-code-required-error = Todennuskoodi vaaditaan
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <small>joltakin muulta laitteeltasi</small>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -908,10 +948,16 @@ pair-failure-message = Määritysprosessi keskeytettiin.
 
 ## Pair index page
 
+pair-sync-header = Synkronoi { -brand-firefox } puhelimella tai tabletilla
+pair-cad-header = Yhdistä { -brand-firefox } toisella laitteella
+pair-already-have-firefox-paragraph = Löytyykö { -brand-firefox } jo puhelimestasi tai tabletistasi?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkronoi laitteesi
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Tai lataa
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ei nyt
+pair-take-your-data-message = Ota välilehdet, kirjanmerkit ja salasanat mukaan kaikkialle missä käytät { -brand-firefox }ia.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Aloita
 # This is the aria label on the QR code image
@@ -968,6 +1014,9 @@ create-new-password-header = Luo uusi salasana
 account-restored-success-message = Olet palauttanut tilisi onnistuneesti tilin palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Salasana asetettu
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Tapahtui odottamaton virhe
+account-recovery-reset-password-redirecting = Uudelleenohjataan
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1039,6 +1088,7 @@ back = Edellinen
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Anna 10-numeroinen varatodennuskoodi
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
 # Link to return to signin with two-step authentication code
@@ -1058,6 +1108,10 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Anna vahvistuskoodi<span> { -product-firefox-account }llesi</span>
 signin-token-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Vahvista
