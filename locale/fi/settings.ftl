@@ -985,7 +985,7 @@ auth-totp-code-required-error = Todennuskoodi vaaditaan
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <small>joltakin muulta laitteeltasi</small>
+pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <span>joltakin muulta laitteeltasi</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1022,7 +1022,7 @@ pair-success-message-2 = Parin muodostaminen onnistui.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Vahvista parin muodostaminen <small>tilille { $email }</small>
+pair-supp-allow-heading-text = Vahvista parin muodostaminen <span>tilille { $email }</span>
 pair-supp-allow-confirm-button = Vahvista parin muodostus
 pair-supp-allow-cancel-link = Peruuta
 
@@ -1032,7 +1032,7 @@ pair-supp-allow-cancel-link = Peruuta
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <small>joltain muulta laitteeltasi</small>
+pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muulta laitteeltasi</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
