@@ -726,6 +726,7 @@ pair-failure-message = Installasjonsprosessen vart avslutta.
 
 ## Pair index page
 
+pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
 pair-already-have-firefox-paragraph = Har du allereie { -brand-firefox } på ein telefon eller eit nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser eininga di
