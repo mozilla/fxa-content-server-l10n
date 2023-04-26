@@ -637,6 +637,8 @@ connect-another-device-signed-in-header = Du er logga inn på { -brand-firefox }
 connect-another-device-email-confirmed-banner = E-postadresse stadfesta
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Innlogging stadfesta
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Logg inn på denne { -brand-firefox } for å gjere ferdig konfigurasjonen
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Logg inn
 # This link leads the user back to the `/pair` page so as to connect another device
