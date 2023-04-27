@@ -124,9 +124,9 @@ payment-confirmation-download-button = Continue to download
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method { $price } for { $productName }, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+payment-confirm-with-legal-links-static = I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+
+payment-confirm-checkbox-error = You need to complete this before moving forward
 
 ## Component - PaymentErrorView
 
@@ -181,6 +181,10 @@ payment-processing-message = Please wait while we process your payment…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pay with { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -397,10 +401,10 @@ new-user-submit = Subscribe Now
 ## Routes - Product and Subscriptions
 sub-update-payment-title = Payment information
 
-## Routes - Checkout and Product/Subscription create
-pay-with-heading-card-or = Or pay with card
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
+
 pay-with-heading-card-only = Pay with card
-pay-with-heading-paypal = Pay with { -brand-name-paypal }
 
 product-invoice-preview-error-title = Problem loading invoice preview
 product-invoice-preview-error-text = Could not load invoice preview
