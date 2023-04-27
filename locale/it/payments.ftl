@@ -123,9 +123,8 @@ payment-confirmation-download-button = Prosegui con il download
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare { $price } per { $productName }utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+payment-confirm-checkbox-error = È necessario completare questa operazione prima di procedere
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Attendi mentre elaboriamo il tuo pagamento…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = La carta termina con { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Paga con { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Abbonati adesso
 
 sub-update-payment-title = Informazioni sul pagamento
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O paga con la carta
 pay-with-heading-card-only = Paga con la carta
-pay-with-heading-paypal = Paga con { -brand-name-paypal }
 product-invoice-preview-error-title = Problema durante il caricamento dell’anteprima della fattura
 product-invoice-preview-error-text = Impossibile caricare l’anteprima della fattura
 
