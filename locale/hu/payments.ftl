@@ -128,9 +128,8 @@ payment-confirmation-download-button = Tovább a letöltéshez
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy a fizetési módnak megfelelő módon levonja a(z) { $price } összeget a(z) { $productName } termékért, az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+payment-confirm-with-legal-links-static = Engedélyt adok a { -brand-name-mozilla }, a { -brand-name-firefox } termékek gyártója, számára, hogy levonja a megjelenített összeget a számlámról az <termsOfServiceLink>Általános szerződési feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Component - PaymentErrorView
 
@@ -181,6 +180,10 @@ payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Fizetés { -brand-name-paypal }lal
 
 ## Component - PlanDetails
 
@@ -414,11 +417,10 @@ new-user-submit = Előfizetés most
 
 sub-update-payment-title = Fizetési információk
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Vagy fizessen kártyával
 pay-with-heading-card-only = Fizessen kártyával
-pay-with-heading-paypal = Fizetés { -brand-name-paypal }lal
 product-invoice-preview-error-title = Probléma a számla előnézetének betöltésekor
 product-invoice-preview-error-text = Nem sikerült betölteni a számla előnézetét
 
