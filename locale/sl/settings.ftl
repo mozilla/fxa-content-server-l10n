@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Prišlo je do napake. Nove povezave ni 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Prenesite obnovitveni ključ
+    .title = Prenesi
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = SHRANITE KLJUČ ZA OBNOVITEV RAČUNA
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Shranite to datoteko s ključem za obnovitev računa na mesto, ki si ga boste zapomnili. Ali pa ga natisnite in obdržite fizično kopijo. Ključ za obnovitev računa vam lahko pomaga obnoviti podatke v { -brand-firefox(sklon: "rodilnik") }, če pozabite geslo.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Ključ: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Ključ ustvarjen: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Več o ključu za obnovitev računa: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -406,6 +433,7 @@ nav-email-comm = E-poštno obveščanje
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pri menjavi rezervnih overitvenih kod je prišlo do težave
+tfa-create-code-error = Pri ustvarjanju rezervnih overitvenih kod je prišlo do težave
 tfa-replace-code-success-1 =
     Ustvarjene so bile nove kode. Te rezervne overitvene kode za
     enkratno uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
@@ -1037,6 +1065,11 @@ pair-wait-for-auth-heading-text = Zdaj je zahtevana odobritev <span>z vaše drug
 pair-unsupported-header = Seznani s pomočjo aplikacije
 pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opraviti v aplikaciji { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Počakajte, preusmerjeni ste na pooblaščeno aplikacijo.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1107,6 +1140,8 @@ reset-password-warning-message-2 = <span>Opomba:</span> s ponastavitvijo gesla p
 reset-password-password-input =
     .label = E-pošta
 reset-password-button = Začni ponastavitev
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Potreben je e-poštni naslov
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
 reset-password-with-recovery-key-verified-continue-to-account = Nadaljuj v moj račun

@@ -147,9 +147,8 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo v višini { $price } za { $productName }, dokler ne prekličem naročnine.
+payment-confirm-with-legal-links-static = Pooblaščam { -brand-name-mozilla(sklon: "tozilnik") }, izdelovalca izdelkov { -brand-name-firefox }, da v skladu s <termsOfServiceLink>Pogoji storitve</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
+payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Component - PaymentErrorView
 
@@ -200,6 +199,10 @@ payment-processing-message = Počakajte, da obdelamo vaše plačilo …
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Plačaj s storitvijo { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -481,11 +484,10 @@ new-user-submit = Naroči se zdaj
 
 sub-update-payment-title = Podatki o plačilu
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ali plačajte s kartico
 pay-with-heading-card-only = Plačajte s kartico
-pay-with-heading-paypal = Plačaj s storitvijo { -brand-name-paypal }
 product-invoice-preview-error-title = Težava pri nalaganju predogleda računa
 product-invoice-preview-error-text = Ni bilo mogoče naložiti predogleda računa
 
