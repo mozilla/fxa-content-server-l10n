@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Etwas ist schief gelaufen. Es konnte ke
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Laden Sie Ihren Wiederherstellungsschlüssel herunter
+    .title = Herunterladen
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = SICHERN SIE IHREN Account-Wiederherstellungsschlüssel
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Speichern Sie diese Datei mit Ihrem Kontowiederherstellungsschlüssel an einem Ort, an den Sie sich erinnern können. Oder drucken Sie es und behalten Sie eine physische Kopie. Ihr Kontowiederherstellungsschlüssel kann Ihnen dabei helfen, { -brand-firefox }-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑-Schlüssel: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Schlüssel erzeugt: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Weitere Informationen über Ihren Kontowiederherstellungsschlüssel: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -404,6 +431,7 @@ nav-email-comm = E-Mail-Kommunikation
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Beim Ersetzen Ihrer Sicherungs-Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-create-code-error = Beim Erstellen Ihrer Sicherungs-Authentifizierungscodes ist ein Problem aufgetreten
 tfa-replace-code-success-1 =
     Neue Codes wurden erstellt. Speichern Sie diese Sicherungs-Authentifizierungscodes
     zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
@@ -1032,6 +1060,11 @@ pair-wait-for-auth-heading-text = Freischaltung ist jetzt erforderlich <span>von
 pair-unsupported-header = Über eine App koppeln
 pair-unsupported-message = Haben Sie die Systemkamera verwendet? Dann müssen Sie aus einer { -brand-firefox }-App heraus koppeln.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Bitte warten Sie, Sie werden zur autorisierten Anwendung weitergeleitet.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1102,6 +1135,8 @@ reset-password-warning-message-2 = <span>Hinweis:</span> Wenn Sie Ihr Passwort z
 reset-password-password-input =
     .label = E-Mail-Adresse
 reset-password-button = Zurücksetzen beginnen
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-Mail-Adresse erforderlich
 reset-password-with-recovery-key-verified-page-title = Passwort erfolgreich zurückgesetzt
 reset-password-with-recovery-key-verified-generate-new-key = Einen neuen Kontowiederherstellungsschlüssel erzeugen
 reset-password-with-recovery-key-verified-continue-to-account = Weiter zu meinem Konto
