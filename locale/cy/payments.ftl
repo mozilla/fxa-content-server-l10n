@@ -139,9 +139,8 @@ payment-confirmation-download-button = Parhau i lwytho i lawr
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Rwy'n awdurdodi { -brand-name-mozilla } , gwneuthurwr cynhyrchion { -brand-name-firefox }, i godi tâl ar fy null talu { $price } am { $productName }, yn unol â <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ganslo fy nhanysgrifiad.
+payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu y swm sy'n cael ei ddangos, yn ôl <termsOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
+payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Component - PaymentErrorView
 
@@ -192,6 +191,10 @@ payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Talu gyda { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -521,11 +524,10 @@ new-user-submit = Tanysgrifiwch Nawr
 
 sub-update-payment-title = Manylion talu
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Neu dalu gyda cherdyn
 pay-with-heading-card-only = Talu gyda cherdyn
-pay-with-heading-paypal = Talu gyda { -brand-name-paypal }
 product-invoice-preview-error-title = Anhawster wrth lwytho rhagolwg anfoneb
 product-invoice-preview-error-text = Methu llwytho rhagolwg anfoneb
 

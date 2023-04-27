@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Lawrlwythwch eich allwedd adfer
+    .title = Llwytho i Lawr
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = ARBEDWCH ALLWEDD ADFER EICH CYFRIF
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Storiwch y ffeil hon sy'n cynnwys allwedd adfer eich cyfrif mewn man y byddwch chi'n ei gofio. Neu ei argraffu a chadw copi corfforol. Gall allwedd adfer eich cyfrif eich helpu i adennill data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Allwedd: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account } : { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Allwedd wedi'i chynhyrchu: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Dysgu rhagor am allwedd adfer eich cyfrif: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -404,6 +431,7 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
+tfa-create-code-error = Bu problem wrth greu eich codau dilysu wrth gefn
 tfa-replace-code-success-1 =
     Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
     gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
@@ -1033,6 +1061,11 @@ pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 pair-unsupported-header = Paru gan ddefnyddio ap
 pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Arhoswch, rydych chi'n cael eich ailgyfeirio i'r cais awdurdodedig.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1103,6 +1136,8 @@ reset-password-warning-message-2 = <span>Sylwch:</span> Pan fyddwch yn ailosod e
 reset-password-password-input =
     .label = E-bost
 reset-password-button = Cychwyn ailosod
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Angen e-bost
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
