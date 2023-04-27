@@ -123,9 +123,8 @@ payment-confirmation-download-button = Continuar descargando
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cobrar de mi método de pago { $price } por { $productName } según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
+payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cobrar de mi método de pago la suma mostrada según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
+payment-confirm-checkbox-error = Tienes que completar esto antes de seguir adelante
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Esperá mientras procesamos tu pago…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Suscribirse ahora
 
 sub-update-payment-title = Información del pago
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O pagar con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
-pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 product-invoice-preview-error-title = Problema cargando las vistas previas de las facturas
 product-invoice-preview-error-text = No se pudo cargar la vista previa de la factura
 

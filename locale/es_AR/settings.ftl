@@ -18,6 +18,20 @@ link-expired-resent-link-error-message = Algo salió mal. No se pudo enviar un n
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un nuevo código.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Descarga tu clave de recuperación
+    .title = Descargar
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = GUARDAR LA CLAVE DE RECUPERACIÓN
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Guarda este archivo que contiene tu clave de recuperación de cuenta en un lugar que recordarás. O imprimirlo y guardar una copia física. Tu clave de recuperación de cuenta puede ayudarte a recuperar datos de { -brand-firefox } si olvidás tu contraseña.
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -404,6 +418,7 @@ nav-email-comm = Comunicaciones por correo electrónico
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Hubo un problema reemplazando los códigos de autenticación de respaldo
+tfa-create-code-error = Hubo un problema al crear los códigos de autenticación de respaldo
 tfa-replace-code-success-1 = Se crearon códigos nuevos. Guardá estos códigos de autenticación de respaldo en un lugar seguro, los necesitarás para acceder a tu cuenta si no tenés tu dispositivo móvil.
 tfa-replace-code-success-alert-3 = Código de autenticación de respaldo de cuenta actualizado
 tfa-replace-code-1-2 = Paso 1 de 2
@@ -1032,6 +1047,11 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro di
 pair-unsupported-header = Conectar usando una aplicación
 pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejarla desde una aplicación de { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Espere, está siendo redireccionado a la aplicación autorizada.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1102,6 +1122,8 @@ reset-password-warning-message-2 = <span>Nota:</span> Cuando restablecés tu con
 reset-password-password-input =
     .label = Correo electrónico
 reset-password-button = Iniciar el restablecimiento
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Se requiere correo electrónico
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
