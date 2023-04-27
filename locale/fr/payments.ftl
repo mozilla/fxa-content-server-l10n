@@ -123,9 +123,8 @@ payment-confirmation-download-button = Continuer vers le téléchargement
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement { $price } pour { $productName }, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
+payment-confirm-with-legal-links-static = J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement le montant affiché, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
+payment-confirm-checkbox-error = Vous devez terminer cette étape avant de continuer
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Veuillez patienter pendant le traitement de votre p
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Payer avec { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = S’abonner maintenant
 
 sub-update-payment-title = Informations de paiement
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ou payer par carte
 pay-with-heading-card-only = Payer par carte
-pay-with-heading-paypal = Payer avec { -brand-name-paypal }
 product-invoice-preview-error-title = Erreur lors du chargement de l’aperçu de la facture
 product-invoice-preview-error-text = Impossible de charger l’aperçu de la facture
 
