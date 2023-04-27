@@ -119,9 +119,7 @@ payment-confirmation-download-button = ダウンロードを続行
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、{ $productName } のために { $price } の金額を指定の支払い方法で請求することを承認します。
+payment-confirm-with-legal-links-static = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
 
 ## Component - PaymentErrorView
 
@@ -172,6 +170,10 @@ payment-processing-message = お支払いが処理されるまでお待ちくだ
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = { -brand-name-paypal } で支払う
 
 ## Component - PlanDetails
 
@@ -381,11 +383,10 @@ new-user-submit = サブスクリプションを購入
 
 sub-update-payment-title = 支払情報
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = もしくはカードで支払います
 pay-with-heading-card-only = カードで支払います
-pay-with-heading-paypal = { -brand-name-paypal } で支払う
 product-invoice-preview-error-title = 請求書プレビュー読み込みエラー
 product-invoice-preview-error-text = 請求書プレビューを読み込めませんでした
 
