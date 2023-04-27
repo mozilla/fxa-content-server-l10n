@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = משהו השתבש. לא ניתן הי
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = הורדת מפתח השחזור שלך
+    .title = הורדה
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = יש לשמור את מפתח שחזור החשבון שלך
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = יש לאחסן את קובץ זה שמכיל את מפתח שחזור החשבון שלך במקום שתזכור, או להדפיס אותו ולשמור עותק פיזי. מפתח שחזור החשבון שלך יכול לעזור לך לשחזר את נתוני { -brand-firefox } אם ססמתך תישכח.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 מפתח: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account(case: "a") }: ‏{ $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • מפתח נוצר בתאריך: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • למידע נוסף על מפתח שחזור החשבון שלך: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -588,6 +615,14 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = סרגל התקדמות המראה שהמשתמש נמצא בשלב { $currentStep } מתוך { $numberOfSteps }.
+
 ## Security section of Setting
 
 security-heading = אבטחה
@@ -935,6 +970,10 @@ pair-wait-for-auth-heading-text = נדרש אישור <span>מהמכשיר הא�
 pair-unsupported-header = ביצוע צימוד באמצעות יישומון
 pair-unsupported-message = האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישומון של { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1005,6 +1044,8 @@ reset-password-warning-message-2 = <span>לתשומת לבך:</span> בעת אי
 reset-password-password-input =
     .label = דוא״ל
 reset-password-button = התחלת איפוס
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = דוא״ל נדרש
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-with-recovery-key-verified-generate-new-key = יצירת מפתח שחזור חשבון חדש
 reset-password-with-recovery-key-verified-continue-to-account = המשך לחשבון שלי
