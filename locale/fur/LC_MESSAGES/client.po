@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-27 14:25+0000\n"
+"PO-Revision-Date: 2023-04-27 14:33+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1200,7 +1200,7 @@ msgstr "Regjistriti o jentre"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Un account Firefox al sbloche ancje l'acès a altris prodots di Mozilla che a protezin la riservatece."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1208,7 +1208,7 @@ msgstr "Salve i codiçs di autenticazion di backup"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Conserve chescj codiçs, che si puedin doprâ une volte sole, intun puest sigûr tal câs che no tu vedis il to dispositîf mobil."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1239,7 +1239,7 @@ msgstr "Conferme il codiç di autenticazion di backup"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Par sigurâsi che tu podedis tornâ a cuistâ l'acès al to account, tal câs che tu pierdis il dispositîf, inserìs un dai tiei codiçs di autenticazion di backup che tu âs salvât."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -1251,55 +1251,55 @@ msgstr "Ative la autenticazion in doi passaçs"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Zonte un strât di sigurece al to account domandant codiçs di sigurece di une di <a %(escapedTotpSupportAttributes)s>chestis aplicazions di autenticazion</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Scansione il codiç di autenticazion"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Inserìs il codiç a man"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Scansione il codiç QR te tô aplicazion di autenticazion e dopo inserìs il codiç di sigurece che ti da fûr."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Impussibil scansionâ il codiç?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Une volte completade la procedure, la aplicazion e scomençarà a gjenerâ codiç di sigurece di inserî."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Scrîf cheste clâf segrete te tô aplicazion di autenticazion."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Scansionâ invezit il codiç QR?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
-msgstr ""
+msgstr "Codiç di sigurece"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
-msgstr ""
+msgstr "Pront"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Notis legâls"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
-msgstr ""
+msgstr "Tiermins dal servizi"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Informative su la riservatece"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
