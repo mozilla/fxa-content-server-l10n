@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-27 14:16+0000\n"
+"PO-Revision-Date: 2023-04-27 14:25+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1128,23 +1128,23 @@ msgstr "No cumò"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Stâstu ancjemò zontant dispositîfs? Jentre in Firefox suntun altri dispositîf par completâ la configurazion"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Jentre in Firefox par Android par completâ la configurazion"
 
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Jentre in Firefox par iOS par completâ la configurazion"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "A son necessaris I cookies e la memorie di archiviazion locâl"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Par acedi a Firefox Accounts abilite i cookies e la memorie di archiviazion locâl tal to navigadôr. Tu podarâs cussì usufruî des diviersis funzions come il to ricognossiment tra lis sessions."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1156,6 +1156,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Inserìs la tô password <span class=\"card-subheader\" id=\"subheader\">pal to account Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1164,6 +1167,8 @@ msgstr "Password"
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+"Se tu continuis, tu acetis lis <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Informative su la riservatece</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1179,7 +1184,7 @@ msgstr "Continue su Firefox accounts"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sincronize passwords, schedis e segnelibris dapardut là che tu dopris Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
@@ -1187,7 +1192,7 @@ msgstr "Inserìs la tô e-mail"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Continue su <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
