@@ -26,6 +26,24 @@ link-expired-resent-code-error-message = Что-то пошло не так. Н�
 # .title will displayed as a tooltip on the button
 recovery-key-download-button = Загрузить ваш ключ восстановления
     .title = Загрузить
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = СОХРАНИТЕ КЛЮЧ ВОССТАНОВЛЕНИЯ АККАУНТА
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Сохраните этот файл, содержащий ключ восстановления вашего аккаунта, в месте, о котором вы будете помнить. Или распечатайте его и сохраните физическую копию. Ключ восстановления вашего аккаунта может помочь вам восстановить данные { -brand-firefox }, если вы забудете свой пароль.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Ключ: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Ключ сгенерирован: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Узнайте больше о ключе восстановления вашего аккаунта: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -413,6 +431,7 @@ nav-email-comm = Почтовые рассылки
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = При замене ваших резервных кодов аутентификации возникла проблема
+tfa-create-code-error = При создании ваших резервных кодов аутентификации возникла проблема
 tfa-replace-code-success-1 =
     Созданы новые коды. Храните эти одноразовые резервные
     коды аутентификации в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
@@ -1047,6 +1066,7 @@ pair-unsupported-message = Вы использовали системную ка
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Подождите, вас перенаправят в авторизованное приложение.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1118,6 +1138,8 @@ reset-password-warning-message-2 = <span>Примечание:</span> Когда
 reset-password-password-input =
     .label = Электронная почта
 reset-password-button = Начать сброс
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Требуется указать электронную почту
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-with-recovery-key-verified-generate-new-key = Сгенерировать новый ключ восстановления аккаунта
 reset-password-with-recovery-key-verified-continue-to-account = Перейти в мой аккаунт
