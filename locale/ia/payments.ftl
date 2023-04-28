@@ -123,9 +123,8 @@ payment-confirmation-download-button = Continuar a discargar
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Io autorisa { -brand-name-mozilla }, creator del productos { -brand-name-firefox }, a debitar a mi methodo de pagamento { $price } pro { $productName }, in conformitate con le <termsOfServiceLink>conditiones de servicio</termsOfServiceLink> e con le <privacyNoticeLink>aviso de confidentialitate</privacyNoticeLink>, usque io cancella mi subscription.
+payment-confirm-with-legal-links-static = Io autorisa { -brand-name-mozilla }, creator del productos { -brand-name-firefox }, a debitar a mi methodo de pagamento le amonta indicate, in conformitate con le <termsOfServiceLink>conditiones de servicio</termsOfServiceLink> e con le <privacyNoticeLink>aviso de confidentialitate</privacyNoticeLink>, usque io cancella mi subscription.
+payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Attende durante que nos elabora tu pagamento…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Abona te ora
 
 sub-update-payment-title = Information de pagamento
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O paga con le carta
 pay-with-heading-card-only = Pagar con le carta
-pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 product-invoice-preview-error-title = Problemas a cargar vistas previe de factura
 product-invoice-preview-error-text = Impossibile cargar vistas previe de factura
 
