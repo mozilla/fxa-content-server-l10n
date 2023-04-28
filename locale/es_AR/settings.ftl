@@ -24,13 +24,26 @@ link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un n
 
 # Button to download recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Descarga tu clave de recuperación
+recovery-key-download-button = Descargá tu clave de recuperación
     .title = Descargar
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = GUARDAR LA CLAVE DE RECUPERACIÓN
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Guarda este archivo que contiene tu clave de recuperación de cuenta en un lugar que recordarás. O imprimirlo y guardar una copia física. Tu clave de recuperación de cuenta puede ayudarte a recuperar datos de { -brand-firefox } si olvidás tu contraseña.
+recovery-key-file-instructions = Guardá este archivo que contiene tu clave de recuperación de cuenta en un lugar que te acuerdes. O imprimilo y guardá una copia física. Tu clave de recuperación de cuenta puede ayudarte a recuperar datos de { -brand-firefox } si olvidás tu contraseña.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Clave:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Clave generada: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Conocer más sobre la clave de recuperación de la cuenta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -1050,7 +1063,7 @@ pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejar
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Espere, está siendo redireccionado a la aplicación autorizada.
+third-party-auth-callback-message = Esperá, estás siendo redireccionado a la aplicación autorizada.
 
 ## AccountRecoveryConfirmKey page
 
