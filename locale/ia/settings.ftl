@@ -24,6 +24,15 @@ link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non
 
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = SALVA LE CLAVE DE RECUPERATION DE TU CONTO
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Clave:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Clave generate: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
