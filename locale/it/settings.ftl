@@ -30,10 +30,10 @@ recovery-key-download-button = Scarica la chiave di ripristino
 recovery-key-file-header = SALVA LA CHIAVE DI RECUPERO DELL’ACCOUNT
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Conserva questo file contenente la chiave di recupero dell’account in un luogo che ricorderai per sempre. Oppure stampalo e conservane una copia fisica. La chiave di recupero dell’account può aiutarti a recuperare i dati di { -brand-firefox } se dimentichi la password.
+recovery-key-file-instructions = Conserva questo file contenente la chiave di recupero dell’account in una posizione facile da ricordare. Oppure stampalo e conservane una copia fisica. La chiave di recupero dell’account può aiutarti a recuperare i dati di { -brand-firefox } se dimentichi la password.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Chiave: { $recoveryKeyValue }
+recovery-key-file-key-value = 🔑 Chiave: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 # Date when the recovery key was created and this file was downloaded
@@ -1116,7 +1116,7 @@ reset-password-password-input =
     .label = Email
 reset-password-button = Inizia il ripristino
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Email richiesta
+reset-password-email-required-error = Email obbligatoria
 reset-password-with-recovery-key-verified-page-title = Password reimpostata correttamente
 reset-password-with-recovery-key-verified-generate-new-key = Genera una nuova chiave di recupero dell’account
 reset-password-with-recovery-key-verified-continue-to-account = Vai al mio account
