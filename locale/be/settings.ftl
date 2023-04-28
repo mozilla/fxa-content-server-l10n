@@ -434,6 +434,7 @@ nav-email-comm = Зносіны па электроннай пошце
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Узнікла праблема пры замене вашых рэзервовых кодаў аўтэнтыфікацыі
+tfa-create-code-error = Узнікла праблема пры стварэнні вашых рэзервовых кодаў аўтэнтыфікацыі
 tfa-replace-code-success-1 =
     Створаны новыя коды. Захоўвайце гэтыя аднаразовыя рэзервовыя
     коды аўтэнтыфікацыі ў бяспечным месцы — яны спатрэбяцца вам для доступу да вашага ўліковага запісу,
@@ -1070,6 +1071,7 @@ pair-unsupported-message = Выкарыстоўвалі сістэмную ка�
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Калі ласка, пачакайце, вы будзеце перанакіраваны ў аўтарызаваную праграму.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1141,6 +1143,8 @@ reset-password-warning-message-2 = <span>Заўвага:</span> Пры скід�
 reset-password-password-input =
     .label = Электронная пошта
 reset-password-button = Пачаць скід
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Электронная пошта абавязковая
 reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 reset-password-with-recovery-key-verified-generate-new-key = Стварыць новы ключ аднаўлення ўліковага запісу
 reset-password-with-recovery-key-verified-continue-to-account = Перайсці ў мой уліковы запіс
