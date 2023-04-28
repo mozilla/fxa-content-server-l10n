@@ -28,6 +28,9 @@ recovery-key-download-button = Baixe sua chave de recuperação
     .title = Baixar
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = SALVE SUA CHAVE DE RECUPERAÇÃO DE CONTA
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Guarde este arquivo que contém a chave de recuperação de conta em um local fácil de lembrar. Ou imprima e guarde uma cópia física. A chave de recuperação de conta pode ajudar a recuperar os dados do { -brand-firefox }, caso você esqueça sua senha.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Chave:  { $recoveryKeyValue }
