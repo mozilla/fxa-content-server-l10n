@@ -127,9 +127,8 @@ payment-confirmation-download-button = Працягнуць сцягванне
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты { $price } за { $productName } у адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
+payment-confirm-with-legal-links-static = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
+payment-confirm-checkbox-error = Вам трэба завяршыць гэта, перш чым рухацца далей
 
 ## Component - PaymentErrorView
 
@@ -180,6 +179,10 @@ payment-processing-message = Калі ласка, пачакайце, пакул
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Аплаціць праз { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -437,11 +440,10 @@ new-user-submit = Падпісацца зараз
 
 sub-update-payment-title = Плацежная інфармацыя
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Або аплаціць картай
 pay-with-heading-card-only = Аплаціць картай
-pay-with-heading-paypal = Аплаціць праз { -brand-name-paypal }
 product-invoice-preview-error-title = Праблема з загрузкай папярэдняга прагляду рахунка-фактуры
 product-invoice-preview-error-text = Не ўдалося загрузіць папярэдні прагляд рахунка-фактуры
 
