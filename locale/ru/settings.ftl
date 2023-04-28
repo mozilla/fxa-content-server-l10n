@@ -18,6 +18,15 @@ link-expired-resent-link-error-message = Что-то пошло не так. Н�
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Что-то пошло не так. Не удалось отправить новый код.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Загрузить ваш ключ восстановления
+    .title = Загрузить
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -1034,6 +1043,10 @@ pair-wait-for-auth-heading-text = Теперь требуется подтвер
 
 pair-unsupported-header = Сопряжение с помощью приложения
 pair-unsupported-message = Вы использовали системную камеру? Вы должны выполнить сопряжение в приложении { -brand-firefox }.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 

@@ -127,9 +127,8 @@ payment-confirmation-download-button = Продолжить загрузку
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать плату в размере { $price } за { $productName } с моего способа оплаты в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Примечанием о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+payment-confirm-with-legal-links-static = Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+payment-confirm-checkbox-error = Вы должны принять это, прежде чем перейти к следующему шагу
 
 ## Component - PaymentErrorView
 
@@ -180,6 +179,10 @@ payment-processing-message = Подождите, пока мы обработа�
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Оплатить через { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -437,11 +440,10 @@ new-user-submit = Подписаться
 
 sub-update-payment-title = Платежная информация
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Или оплатите картой
 pay-with-heading-card-only = Оплатить картой
-pay-with-heading-paypal = Оплатить через { -brand-name-paypal }
 product-invoice-preview-error-title = Проблема с загрузкой предварительного просмотра счета
 product-invoice-preview-error-text = Не удалось загрузить предварительный просмотр счета
 
