@@ -27,13 +27,13 @@ link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte ke
 recovery-key-download-button = Laden Sie Ihren Wiederherstellungsschlüssel herunter
     .title = Herunterladen
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
-recovery-key-file-header = SICHERN SIE IHREN Account-Wiederherstellungsschlüssel
+recovery-key-file-header = SICHERN SIE IHREN KONTO-WIEDERHERSTELLUNGSSCHLÜSSEL
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Speichern Sie diese Datei mit Ihrem Kontowiederherstellungsschlüssel an einem Ort, an den Sie sich erinnern können. Oder drucken Sie es und behalten Sie eine physische Kopie. Ihr Kontowiederherstellungsschlüssel kann Ihnen dabei helfen, { -brand-firefox }-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
+recovery-key-file-instructions = Speichern Sie diese Datei mit Ihrem Kontowiederherstellungsschlüssel an einem Ort, den Sie sich merken können. Oder drucken Sie ihn aus und sichern Sie das Blatt Papier. Ihr Kontowiederherstellungsschlüssel kann Ihnen dabei helfen, { -brand-firefox }-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑-Schlüssel: { $recoveryKeyValue }
+recovery-key-file-key-value = 🔑 Schlüssel: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 # Date when the recovery key was created and this file was downloaded

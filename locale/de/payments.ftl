@@ -124,7 +124,7 @@ payment-confirmation-download-button = Weiter zum Download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Ich ermächtige { -brand-name-mozilla }, Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
-payment-confirm-checkbox-error = Sie müssen dies abschließen, bevor Sie fortfahren
+payment-confirm-checkbox-error = Sie müssen dieses Kästchen aktivieren, bevor Sie fortfahren
 
 ## Component - PaymentErrorView
 
