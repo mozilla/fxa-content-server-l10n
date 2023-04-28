@@ -18,6 +18,13 @@ link-expired-resent-link-error-message = Oĩ nosẽporãiva. Noñemondokuaái ju
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -1039,6 +1046,10 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 pair-unsupported-header = Eike eipurúvo tembipuru’i
 pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembipuru’i rupive.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1109,6 +1120,8 @@ reset-password-warning-message-2 = <span>Haipy:</span> Eguerujeývo ne ñe’ẽ
 reset-password-password-input =
     .label = Ñandutiveve
 reset-password-button = Emoñepyrũ jeguerujey
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Ñanduti veve tekotevẽva
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-with-recovery-key-verified-generate-new-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 reset-password-with-recovery-key-verified-continue-to-account = Aimevéta che mba’etépe

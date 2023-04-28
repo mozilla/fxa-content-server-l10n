@@ -123,9 +123,7 @@ payment-confirmation-download-button = Emboguejy ehóvo
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatuhápe ahepyme’ẽ { $price } { $productName } rupi he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
+payment-confirm-with-legal-links-static = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ tepy ojekuaáva, ojogueraháva umi <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
 
 ## Component - PaymentErrorView
 
@@ -176,6 +174,10 @@ payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Ehepyme’ẽ { -brand-name-paypal } ndive
 
 ## Component - PlanDetails
 
@@ -409,11 +411,10 @@ new-user-submit = Eñemboheraguapy Ko’ág̃a
 
 sub-update-payment-title = Jehepyme’ẽ marandu
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Térã ehepyme’ẽ kuatia’atãme
 pay-with-heading-card-only = Ehepyme’ẽ kuatia’atãme
-pay-with-heading-paypal = Ehepyme’ẽ { -brand-name-paypal } ndive
 product-invoice-preview-error-title = Apañuãi emyanyhẽvo kuatiañemure jehecha ypy
 product-invoice-preview-error-text = Ndaikatúi oñemyanyhẽ kuatiañemure jehecha ypy
 
