@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Algo se fue a las pailas. No se pudo en
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo se fue a las pailas. No se pudo enviar un código nuevo.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Descarga tu clave de recuperación
+    .title = Descargar
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Guarda este archivo que contiene la clave de recuperación de tu cuenta en un lugar que puedas recordar. O imprímelo y guarda una copia física. La clave de recuperación de tu cuenta puede ayudarte a recuperar los datos de { -brand-firefox } si olvidas tu contraseña.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Clave: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Clave generada: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Obtén más información acerca de la clave de recuperación de tu cuenta: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -404,6 +431,7 @@ nav-email-comm = Comunicaciones por correo
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Hubo un problema al reemplazar tus códigos de autenticación de respaldo
+tfa-create-code-error = Hubo un problema al crear tus códigos de autenticación de respaldo
 tfa-replace-code-success-1 =
     Se han creado nuevos códigos. Guarda estos códigos de autenticación de respaldo de
     un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
@@ -1030,6 +1058,11 @@ pair-wait-for-auth-heading-text = Ahora se requiere aprobación <span>desde tu o
 pair-unsupported-header = Emparejar usando una app
 pair-unsupported-message = ¿Usaste la cámara del sistema? Debes emparejar desde una app de { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Espera, estás siendo redirigido a la aplicación autorizada.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1100,6 +1133,8 @@ reset-password-warning-message-2 = <span>NOTA:</span> Cuando restableces tu cont
 reset-password-password-input =
     .label = Correo electrónico
 reset-password-button = Iniciar restablecimiento
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Correo electrónico requerido
 reset-password-with-recovery-key-verified-page-title = Restablecimiento de contraseña exitoso
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi cuenta
