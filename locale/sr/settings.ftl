@@ -18,6 +18,17 @@ link-expired-resent-link-error-message = Нешто је пошло наопак
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Преузмите ваш кључ за опоравак налога
+    .title = Преузми
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВАК НАЛОГА
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -1038,6 +1049,10 @@ pair-wait-for-auth-heading-text = Сада је потребно одобрењ�
 
 pair-unsupported-header = Упаривање помоћу апликације
 pair-unsupported-message = Да ли сте користили системску камеру? Морате да се упарите у оквиру { -brand-firefox } апликације.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 

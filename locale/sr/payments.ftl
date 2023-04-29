@@ -128,6 +128,7 @@ payment-confirmation-download-button = Идите на преузимање
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Овлашћујем { -brand-name-mozilla }-у, творца { -brand-name-firefox } производа, да наплати мој начин плаћања за ове трошкове, у складу са <termsOfServiceLink>условима коришћења</termsOfServiceLink> и <privacyNoticeLink>политиком приватности</privacyNoticeLink>, док добровољно не откажем претплату.
+payment-confirm-checkbox-error = Прихватите ово да бисте наставили
 
 ## Component - PaymentErrorView
 
