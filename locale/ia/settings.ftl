@@ -22,6 +22,10 @@ link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Discarga tu clave de recuperation
+    .title = Discargar
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = SALVA LE CLAVE DE RECUPERATION DE TU CONTO
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
@@ -33,6 +37,10 @@ recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Clave generate: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = Pro saper plus le clave de recuperation de tu conto: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -1120,6 +1128,8 @@ reset-password-warning-message-2 = <span>Nota:</span> Quando tu reinitialisa tu 
 reset-password-password-input =
     .label = Email
 reset-password-button = Initiar reinitialisation
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Email obligatori
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
