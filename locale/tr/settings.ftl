@@ -18,6 +18,30 @@ link-expired-resent-link-error-message = Bir sorun oluştu. Yeni bağlantı gön
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Kurtarma anahtarını indir
+    .title = İndir
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = HESAP KURTARMA ANAHTARINIZI KAYDEDİN
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Anahtar:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Oluşturulma tarihi: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Hesap kurtarma anahtarınız hakkında daha fazla bilgi için: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -398,6 +422,7 @@ nav-email-comm = E-posta iletişimi
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Yedek kimlik doğrulama kodlarınız değiştirilirken bir sorun oluştu
+tfa-create-code-error = Yedek kimlik doğrulama kodlarınız oluşturulurken bir sorun oluştu
 tfa-replace-code-success-1 = Yeni kodlar oluşturuldu. Bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın. Mobil cihazınıza ulaşamazsanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
 tfa-replace-code-success-alert-3 = Hesap yedek kimlik doğrulama kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
@@ -1012,6 +1037,11 @@ pair-wait-for-auth-heading-text = Şimdi <span>diğer cihazınızdan</span> onay
 pair-unsupported-header = Uygulama kullanarak eşleştir
 pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-firefox } uygulaması içinden eşleştirme yapmalısınız.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Lütfen bekleyin, yetkili uygulamaya yönlendiriliyorsunuz.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1082,6 +1112,8 @@ reset-password-warning-message-2 = <span>Not:</span> Parolanızı sıfırlarsan�
 reset-password-password-input =
     .label = E-posta
 reset-password-button = Sıfırlamayı başlat
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-posta gerekli
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
 reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
