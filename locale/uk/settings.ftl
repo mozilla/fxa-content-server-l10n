@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Щось пішло не так. Не �
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Щось пішло не так. Не вдалося надіслати новий код.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Завантажте свій ключ відновлення
+    .title = Завантажити
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = ЗБЕРЕЖІТЬ КЛЮЧ ВІДНОВЛЕННЯ ОБЛІКОВОГО ЗАПИСУ
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Зберігайте цей файл, що містить ключ відновлення вашого облікового запису, в надійному місці, або ж надрукуйте його. Ваш ключ відновлення облікового запису може допомогти відновити дані { -brand-firefox } у разі втрати пароля.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Ключ:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Ключ згенеровано: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Дізнайтеся більше про ключ відновлення облікового запису: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -407,6 +434,7 @@ nav-email-comm = Зв’язок електронною поштою
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Виникла проблема під час заміни ваших резервних кодів
+tfa-create-code-error = Виникла проблема під час створення ваших резервних кодів автентифікації
 tfa-replace-code-success-1 =
     Створено нові коди. Збережіть ці одноразові резервні коди автентифікації
     в надійному місці — вам вони знадобляться для доступу до облікового запису
@@ -1040,6 +1068,11 @@ pair-wait-for-auth-heading-text = Відтепер підтвердження з
 pair-unsupported-header = Створення пари за допомогою програми
 pair-unsupported-message = Ви використали системну камеру? Ви повинні створити пару через програму { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Зачекайте, вас буде перенаправлено до авторизованої програми.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1110,6 +1143,8 @@ reset-password-warning-message-2 = <span>Примітка:</span> Скиданн
 reset-password-password-input =
     .label = Електронна пошта
 reset-password-button = Почати скидання
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Потрібно ввести е-пошту
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-with-recovery-key-verified-generate-new-key = Згенерувати новий ключ відновлення облікового запису
 reset-password-with-recovery-key-verified-continue-to-account = Продовжити в обліковому записі
