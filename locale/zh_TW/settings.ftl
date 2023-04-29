@@ -28,6 +28,9 @@ recovery-key-download-button = 下載您的救援金鑰
     .title = 下載
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = 儲存帳號救援金鑰
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = 請將這個包含您的帳號救援金鑰的檔案保存於能夠快速找回的地方，或是列印出來保存實體版本。若您忘記密碼，可使用帳號救援金鑰來救回 { -brand-firefox } 資料。
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 金鑰：{ $recoveryKeyValue }
