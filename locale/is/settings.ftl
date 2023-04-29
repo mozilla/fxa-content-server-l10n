@@ -18,6 +18,20 @@ link-expired-resent-link-error-message = Eitthvað fór úrskeiðis. Ekki var h�
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Sæktu endurheimtulykilinn þinn
+    .title = Sækja
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = VISTAÐU ENDURHEIMTULYKIL REIKNINGSINS ÞÍNS
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Lykill: { $recoveryKeyValue }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -1032,6 +1046,10 @@ pair-wait-for-auth-heading-text = Núna er krafist er samþykktar <span>frá hin
 
 pair-unsupported-header = Para með forriti
 pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr { -brand-firefox }-forritinu.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 

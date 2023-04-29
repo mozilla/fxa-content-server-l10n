@@ -123,9 +123,8 @@ payment-confirmation-download-button = Halda áfram í niðurhal
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra upphæðina { $price } fyrir { $productName }af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.,
+payment-confirm-with-legal-links-static = Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra tilgreinda upphæð af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+payment-confirm-checkbox-error = Þú þarft að ljúka þessu áður en þú heldur áfram
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsl
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Greiða með { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Gerast áskrifandi núna
 
 sub-update-payment-title = Greiðsluupplýsingar
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Eða borga með greiðslukorti
 pay-with-heading-card-only = Borga með greiðslukorti
-pay-with-heading-paypal = Greiða með { -brand-name-paypal }
 product-invoice-preview-error-title = Vandamál við að hlaða inn forskoðun á greiðsluseðli
 product-invoice-preview-error-text = Ekki tókst að hlaða inn forskoðun á greiðsluseðli
 
