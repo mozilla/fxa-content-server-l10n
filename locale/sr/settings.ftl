@@ -1142,6 +1142,8 @@ reset-password-warning-message-2 = <span>Напомена:</span> Ресетов
 reset-password-password-input =
     .label = Е-пошта
 reset-password-button = Започни ресетовање
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Адреса е-поште је обавезна
 reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
 reset-password-with-recovery-key-verified-generate-new-key = Направи нови кључ за опоравак налога
 reset-password-with-recovery-key-verified-continue-to-account = Настави на мој налог
