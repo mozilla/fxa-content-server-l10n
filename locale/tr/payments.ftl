@@ -123,6 +123,7 @@ payment-confirmation-download-button = İndirmeye devam et
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Component - PaymentErrorView
 
@@ -171,6 +172,10 @@ payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = { -brand-name-paypal } ile öde
 
 ## Component - PlanDetails
 
@@ -404,11 +409,10 @@ new-user-submit = Şimdi abone ol
 
 sub-update-payment-title = Ödeme bilgileri
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = veya kartla ödeyin
 pay-with-heading-card-only = Kartla öde
-pay-with-heading-paypal = { -brand-name-paypal } ile öde
 product-invoice-preview-error-title = Fatura ön izlemesi yüklenirken sorun oluştu
 product-invoice-preview-error-text = Fatura ön izlemesi yüklenemedi
 
