@@ -119,9 +119,8 @@ payment-confirmation-download-button = 前往下载
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取 { $price } 以订阅 { $productName }，直到我主动取消订阅为止。
+payment-confirm-with-legal-links-static = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
+payment-confirm-checkbox-error = 同意此项后才可继续
 
 ## Component - PaymentErrorView
 
@@ -172,6 +171,10 @@ payment-processing-message = 请稍候，我们正在处理您的付款…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = 通过 { -brand-name-paypal } 付款
 
 ## Component - PlanDetails
 
@@ -405,11 +408,10 @@ new-user-submit = 立即订阅
 
 sub-update-payment-title = 付款信息
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = 或使用银行卡支付
 pay-with-heading-card-only = 刷卡支付
-pay-with-heading-paypal = 通过 { -brand-name-paypal } 付款
 product-invoice-preview-error-title = 加载发票预览时出现问题
 product-invoice-preview-error-text = 无法加载发票预览
 
