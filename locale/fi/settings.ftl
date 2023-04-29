@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Jotain meni pieleen. Uutta linkkiä ei 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Lataa palautusavain
+    .title = Lataa
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = TALLENNA TILIN PALAUTUSAVAIN
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Tallenna tämä tilin palautusavaimen sisältävä tiedosto paikkaan, jonka muistat. Tai tulosta se ja säilytä fyysinen kopio. Tilin palautusavain voi auttaa sinua palauttamaan { -brand-firefox }-tiedot, jos unohdat salasanasi.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Avain:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Avain luotu: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Lisätietoja tilisi palautusavaimesta: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -406,6 +433,7 @@ nav-email-comm = Sähköpostiviestintä
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Varatodennuskoodiesi korvaamisessa ilmeni ongelma
+tfa-create-code-error = Varatodennuskoodeja luotaessa ilmeni ongelma
 tfa-replace-code-success-1 =
     Uudet koodit on luotu. Talleta nämä kertakäyttöiset
     varatodennuskoodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi,
@@ -1039,6 +1067,11 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Odota, sinut ohjataan valtuutettuun sovellukseen.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1109,6 +1142,8 @@ reset-password-warning-message-2 = <span>Huomioi:</span> Salasanan nollaus tyhje
 reset-password-password-input =
     .label = Sähköposti
 reset-password-button = Aloita nollaus
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Sähköpostiosoite vaaditaan
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-with-recovery-key-verified-generate-new-key = Luo uusi tilin palautusavain
 reset-password-with-recovery-key-verified-continue-to-account = Jatka omalle tilille

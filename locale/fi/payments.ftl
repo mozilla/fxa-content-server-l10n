@@ -129,9 +129,8 @@ payment-confirmation-download-button = Jatka lataamiseen
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan { $price } tuotteesta { $productName }, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojaselosteen</privacyNoticeLink> mukaisesti, kunnes perun tilaukseni.
+payment-confirm-with-legal-links-static = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
+payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen kuin jatkat eteenpäin
 
 ## Component - PaymentErrorView
 
@@ -182,6 +181,10 @@ payment-processing-message = Odota kun käsittelemme maksuasi…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Maksa { -brand-name-paypal }illa
 
 ## Component - PlanDetails
 
@@ -415,11 +418,10 @@ new-user-submit = Tilaa nyt
 
 sub-update-payment-title = Maksun tiedot
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Tai maksa kortilla
 pay-with-heading-card-only = Maksa kortilla
-pay-with-heading-paypal = Maksa { -brand-name-paypal }illa
 product-invoice-preview-error-title = Ongelma ladattaessa laskun esikatselua
 product-invoice-preview-error-text = Laskun esikatselua ei voitu ladata
 
