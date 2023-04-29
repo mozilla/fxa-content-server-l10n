@@ -416,6 +416,7 @@ nav-email-comm = Communicationes email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Il habeva un problema a reimplaciar tu codices de authentication de salvamento
+tfa-create-code-error = Il habeva un problema a crear tu codices de authentication de salvamento
 tfa-replace-code-success-1 = Nove codices ha essite create. Salva iste codices de authentication de salvamento provisori in un loco secur: tu besoniara de illos pro acceder a tu conto, si tu non ha tu apparato mobile.
 tfa-replace-code-success-alert-3 = Conto codices de authentication de salvamento actualisate
 tfa-replace-code-1-2 = Passo 1de 2
