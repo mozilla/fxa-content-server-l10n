@@ -40,6 +40,10 @@ recovery-key-file-user-email = • { -product-firefox-account }：{ $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • 密钥生成时间：{ $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • 了解账户恢复密钥的详细信息：{ $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +421,7 @@ nav-email-comm = 新闻通讯
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
+tfa-create-code-error = 创建备用验证码时出现问题
 tfa-replace-code-success-1 = 已生成新的验证码，请将这些一次性代码保存在安全的地方，当您的移动设备不可用时，可以使用验证码访问账户。
 tfa-replace-code-success-alert-3 = 已更新账户备用验证码
 tfa-replace-code-1-2 = 步骤（1 / 2）
@@ -1106,6 +1111,8 @@ reset-password-warning-message-2 = <span>注意：</span>重置密码时，您�
 reset-password-password-input =
     .label = 邮箱地址
 reset-password-button = 开始重置
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = 请输入邮箱地址
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-with-recovery-key-verified-generate-new-key = 生成新的账户恢复密钥
 reset-password-with-recovery-key-verified-continue-to-account = 继续使用我的账户
