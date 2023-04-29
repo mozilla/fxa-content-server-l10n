@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = エラーが発生しました。新し
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = 回復用キーをダウンロードします
+    .title = ダウンロード
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = アカウント回復用キーを保管しましょう
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = このアカウント回復用キーを含むファイルを覚えやすい場所に保存してください。もしくは、これを印刷して安全な場所に保管してください。パスワードを忘れた場合に、アカウント回復用キーで { -brand-firefox } のデータを回復できます。
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 キー: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • キーの生成日: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • アカウント回復用キーの詳細についてはこちら: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -394,6 +421,7 @@ nav-email-comm = メールの設定管理
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
+tfa-create-code-error = バックアップ認証コードの生成時に問題が発生しました
 tfa-replace-code-success-1 = 新しいバックアップ認証コードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
 tfa-replace-code-success-alert-3 = アカウントのバックアップ認証コードが更新されました
 tfa-replace-code-1-2 = ステップ 1/2
@@ -1011,6 +1039,11 @@ pair-wait-for-auth-heading-text = <span>他の端末から</span> の承認が�
 pair-unsupported-header = アプリを使用してペアリング
 pair-unsupported-message = システムカメラを使用しましたか？ { -brand-firefox } アプリ内からペアリングする必要があります。
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = 認証されたアプリケーションにリダイレクトしています。しばらくお待ちください。
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1081,6 +1114,8 @@ reset-password-warning-message-2 = <span>注意:</span> パスワードをリセ
 reset-password-password-input =
     .label = メールアドレス
 reset-password-button = リセットを開始
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = メールアドレスが必須です
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 reset-password-with-recovery-key-verified-generate-new-key = 新しいアカウント回復用キーを生成する
 reset-password-with-recovery-key-verified-continue-to-account = 自分のアカウントへ進む

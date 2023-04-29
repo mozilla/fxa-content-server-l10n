@@ -120,6 +120,7 @@ payment-confirmation-download-button = ダウンロードを続行
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
+payment-confirm-checkbox-error = 先へ進む前に、こちらに同意していただく必要があります。
 
 ## Component - PaymentErrorView
 
