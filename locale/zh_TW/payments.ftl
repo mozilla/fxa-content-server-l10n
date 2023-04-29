@@ -123,9 +123,8 @@ payment-confirmation-download-button = 前往下載
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取 { $price } 費用來提供 { $productName }，直到我主動取消訂閱為止。
+payment-confirm-with-legal-links-static = 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
+payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下一步
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = 請稍候，正在處理付款…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = 使用 { -brand-name-paypal } 付款
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = 立刻訂閱
 
 sub-update-payment-title = 付款資訊
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = 或刷卡付款
 pay-with-heading-card-only = 刷卡付款
-pay-with-heading-paypal = 使用 { -brand-name-paypal } 付款
 product-invoice-preview-error-title = 載入請款單預覽頁面時發生問題
 product-invoice-preview-error-text = 無法載入請款單預覽頁面
 

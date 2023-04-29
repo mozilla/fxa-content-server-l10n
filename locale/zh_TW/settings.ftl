@@ -18,6 +18,30 @@ link-expired-resent-link-error-message = 有些東西怪怪的，無法寄出新
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新的確認碼。
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = 下載您的救援金鑰
+    .title = 下載
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = 儲存帳號救援金鑰
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 金鑰：{ $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }：{ $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • 金鑰產生於：{ $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • 了解帳號救援金鑰的更多資訊：{ $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -392,6 +416,7 @@ nav-email-comm = 電子郵件通訊
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
+tfa-create-code-error = 建立您的備用驗證碼時發生問題
 tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用的備用驗證碼保存在安全的地方，當您無法再使用行動裝置時，可以使用此驗證碼登入帳號。
 tfa-replace-code-success-alert-3 = 已更新帳號備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
@@ -1001,6 +1026,11 @@ pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
 pair-unsupported-header = 使用應用程式配對
 pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-firefox } 程式中的相機配對。
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = 請稍後，將帶您前往要登入的應用程式。
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1071,6 +1101,8 @@ reset-password-warning-message-2 = <span>請銘記：</span>重設密碼的同�
 reset-password-password-input =
     .label = 電子郵件地址
 reset-password-button = 開始重設
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = 需要填寫電子郵件地址
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
 reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
