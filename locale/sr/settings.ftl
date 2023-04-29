@@ -28,6 +28,22 @@ recovery-key-download-button = Преузмите ваш кључ за опор�
     .title = Преузми
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВАК НАЛОГА
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Чувајте ову датотеку која садржи кључ за опоравак налога на безбедном. Или је одштампајте и задржите физичку копију. Ако заборавите лозинку, можете да користите кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Кључ:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Кључ направљен: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Сазнајте више о вашем кључу за опоравак налога: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +433,7 @@ nav-email-comm = Комуникација путем е-поште
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Дошло је до грешке при мењању ваших резервних приступних кодова
+tfa-create-code-error = Дошло је до проблема при прављењу резервног приступног кода
 tfa-replace-code-success-1 =
     Нови кодови су направљени. Чувајте ове једнократне
     резервне приступне кодове на безбедном — могу се користити за приступ вашем налогу
@@ -1053,6 +1070,7 @@ pair-unsupported-message = Да ли сте користили системск�
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Сачекајте тренутак, бићете преусмерени на овлашћени програм.
 
 ## AccountRecoveryConfirmKey page
 
