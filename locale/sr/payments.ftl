@@ -127,9 +127,7 @@ payment-confirmation-download-button = Идите на преузимање
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Овлашћујем { -brand-name-mozilla }-у, творца { -brand-name-firefox } производа, да мојим начином плаћања наплати { $price } за { $productName }, у складу са <termsOfServiceLink>условима коришћења</termsOfServiceLink> и <privacyNoticeLink>политиком приватности</privacyNoticeLink>, док не откажем претплату.
+payment-confirm-with-legal-links-static = Овлашћујем { -brand-name-mozilla }-у, творца { -brand-name-firefox } производа, да наплати мој начин плаћања за ове трошкове, у складу са <termsOfServiceLink>условима коришћења</termsOfServiceLink> и <privacyNoticeLink>политиком приватности</privacyNoticeLink>, док добровољно не откажем претплату.
 
 ## Component - PaymentErrorView
 
@@ -180,6 +178,10 @@ payment-processing-message = Сачекајте док обрадимо вашу
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Картица завршава са { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Платите { -brand-name-paypal }-ом
 
 ## Component - PlanDetails
 
@@ -437,11 +439,10 @@ new-user-submit = Претплати се
 
 sub-update-payment-title = Подаци о плаћању
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Или платите картицом
 pay-with-heading-card-only = Платите картицом
-pay-with-heading-paypal = Платите { -brand-name-paypal }-ом
 product-invoice-preview-error-title = Проблем при учитавању прегледа рачуна
 product-invoice-preview-error-text = Није могуће учитати преглед рачуна
 
