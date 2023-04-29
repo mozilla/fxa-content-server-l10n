@@ -31,6 +31,16 @@ recovery-key-file-header = VISTAÐU ENDURHEIMTULYKIL REIKNINGSINS ÞÍNS
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Lykill: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Lykill útbúinn: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Frekari upplýsingar um endurheimtulykilinn þinn: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -420,6 +430,7 @@ nav-email-comm = Tölvupóstsamskipti
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Vandamál kom upp við að skipta um varaauðkenningarkóðana þína
+tfa-create-code-error = Vandamál kom upp við að útbúa varaauðkenningarkóðana þína
 tfa-replace-code-success-1 = Nýir kóðar hafa verið útbúnir. Vistaðu þessa eins-skiptis varaauðkenningarkóða á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki með farsímann þinn.
 tfa-replace-code-success-alert-3 = Varaauðkenningarkóðar reiknings uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
@@ -1050,6 +1061,7 @@ pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður a
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Hinkraðu aðeins, þér verður endurbeint á viðurkennda forritið.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1121,6 +1133,8 @@ reset-password-warning-message-2 = <span>Athugaðu:</span> Þegar þú endurstil
 reset-password-password-input =
     .label = Tölvupóstfang
 reset-password-button = Hefja endurstillingu
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Tölvupóstur er nauðsynlegur
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-with-recovery-key-verified-generate-new-key = Útbúa nýjan endurheimtulykil fyrir reikninginn
 reset-password-with-recovery-key-verified-continue-to-account = Halda áfram á aðganginn minn
