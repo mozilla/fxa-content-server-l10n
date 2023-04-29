@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Đã xảy ra sự cố. Không thể g
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể gửi mã mới.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Tải xuống khóa khôi phục của bạn
+    .title = Tải xuống
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = LƯU KHÓA KHÔI PHỤC TÀI KHOÀN CỦA BẠN
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Lưu trữ tập tin này có chứa khóa khôi phục tài khoản của bạn ở một nơi mà bạn sẽ nhớ. Hoặc in nó và giữ một bản sao vật lý. Khóa khôi phục tài khoản của bạn có thể giúp bạn khôi phục dữ liệu { -brand-firefox } nếu bạn quên mật khẩu.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Khóa:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Đã tạo khóa: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Tìm hiểu thêm về khóa khôi phục tài khoản của bạn: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -406,6 +433,7 @@ nav-email-comm = Truyền thông email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Đã xảy ra sự cố khi thay thế mã xác thực dự phòng của bạn
+tfa-create-code-error = Đã xảy ra sự cố khi tạo mã xác thực dự phòng của bạn
 tfa-replace-code-success-1 =
     Mã mới đã được tạo. Lưu các mã xác thực dự phòng một lần này
     ở một nơi an toàn — bạn sẽ cần chúng để truy cập vào tài khoản của mình nếu không
@@ -1037,6 +1065,11 @@ pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ th
 pair-unsupported-header = Ghép nối bằng ứng dụng
 pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ bên trong ứng dụng { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Vui lòng đợi, bạn đang được chuyển hướng đến ứng dụng được ủy quyền.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1107,6 +1140,8 @@ reset-password-warning-message-2 = <span>Lưu ý:</span> Khi bạn đặt lại 
 reset-password-password-input =
     .label = Email
 reset-password-button = Bắt đầu đặt lại
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Yêu cầu email
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-with-recovery-key-verified-generate-new-key = Tạo một khóa khôi phục tài khoản mới
 reset-password-with-recovery-key-verified-continue-to-account = Tiếp tục đến tài khoản của tôi

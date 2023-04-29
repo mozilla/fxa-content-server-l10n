@@ -119,9 +119,8 @@ payment-confirmation-download-button = Tiếp tục tải xuống
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí { $price } cho { $productName }, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
+payment-confirm-with-legal-links-static = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
+payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trước khi tiếp tục
 
 ## Component - PaymentErrorView
 
@@ -172,6 +171,10 @@ payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý tha
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Thanh toán bằng { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -381,11 +384,10 @@ new-user-submit = Theo dõi ngay
 
 sub-update-payment-title = Thông tin thanh toán
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Hoặc thanh toán bằng thẻ
 pay-with-heading-card-only = Thanh toán bằng thẻ
-pay-with-heading-paypal = Thanh toán bằng { -brand-name-paypal }
 product-invoice-preview-error-title = Sự cố khi tải bản xem trước hóa đơn
 product-invoice-preview-error-text = Không thể tải bản xem trước hóa đơn
 
