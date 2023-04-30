@@ -28,6 +28,22 @@ recovery-key-download-button = Pobierz klucz odzyskiwania
     .title = Pobierz
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = Zachowaj klucz odzyskiwania konta
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Przechowuj ten plik zawierający klucz odzyskiwania konta w miejscu, które zapamiętasz. Albo wydrukuj go i zachowaj fizyczną kopię. Klucz odzyskiwania konta może pomóc Ci odzyskać dane { -brand-firefox(case: "gen") }, jeśli zapomnisz hasła.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Klucz:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Data utworzenia klucza: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Więcej informacji o kluczu odzyskiwania konta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +433,7 @@ nav-email-comm = Ustawienia poczty
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Wystąpił problem podczas zastępowania zapasowych kodów uwierzytelniania
+tfa-create-code-error = Wystąpił problem podczas tworzenia zapasowych kodów uwierzytelniania
 tfa-replace-code-success-1 =
     Utworzono nowe kody. Zachowaj te zapasowe kody uwierzytelniania
     jednorazowego użytku w bezpiecznym miejscu — będą one potrzebne
@@ -657,6 +674,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = Pasek postępu pokazujący, że użytkownik jest w { $currentStep }. kroku z { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -789,6 +811,12 @@ terms-privacy-agreement-default = Kontynuując, wyrażasz zgodę na <firefoxTos>
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Lub
+continue-with-google-button = Kontynuuj za pomocą konta { -brand-google }
+continue-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -1038,6 +1066,7 @@ pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z�
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Proszę czekać, następuje przekierowanie do upoważnionej aplikacji.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1109,6 +1138,8 @@ reset-password-warning-message-2 = <span>Uwaga:</span> zmiana hasła przywraca T
 reset-password-password-input =
     .label = Adres e-mail
 reset-password-button = Rozpocznij zmianę
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Adres e-mail jest wymagany
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-with-recovery-key-verified-generate-new-key = Utwórz nowy klucz odzyskiwania konta
 reset-password-with-recovery-key-verified-continue-to-account = Przejdź do mojego konta
