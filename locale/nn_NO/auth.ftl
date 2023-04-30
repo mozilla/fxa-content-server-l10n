@@ -327,6 +327,13 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Betaling motteken for { $productName }
+subscriptionSubsequentInvoice-title = Takk for at du abonnerer!
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
