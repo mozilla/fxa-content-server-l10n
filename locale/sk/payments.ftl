@@ -137,9 +137,7 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať sumu { $price } na mnou určený spôsob platby za produkt { $productName } v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
+payment-confirm-with-legal-links-static = Oprávňujem spoločnosť { -brand-name-mozilla }, ktorá je tvorcom produktov { -brand-name-firefox }, účtovať zobrazenú sumu na mnou určený spôsob platby v súlade s <termsOfServiceLink>Podmienkami používania služby</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, kým nezruším svoje predplatné.
 
 ## Component - PaymentErrorView
 
@@ -190,6 +188,10 @@ payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Zaplatiť cez { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -447,11 +449,10 @@ new-user-submit = Predplatiť
 
 sub-update-payment-title = Informácie o platbe
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Alebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatiť kartou
-pay-with-heading-paypal = Zaplatiť cez { -brand-name-paypal }
 product-invoice-preview-error-title = Problém s načítaním ukážky faktúry
 product-invoice-preview-error-text = Nepodarilo sa načítať ukážku faktúry
 
