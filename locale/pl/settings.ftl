@@ -18,6 +18,17 @@ link-expired-resent-link-error-message = Coś się nie powiodło. Nie można wys
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Pobierz klucz odzyskiwania
+    .title = Pobierz
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = Zachowaj klucz odzyskiwania konta
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -644,6 +655,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Bezpieczeństwo
@@ -771,6 +785,10 @@ terms-privacy-agreement-pocket = <pocketTos>regulamin usługi</pocketTos> i <po
 terms-privacy-agreement-firefox = <firefoxTos>regulamin usługi</firefoxTos> i <firefoxPrivacy>zasady ochrony prywatności</firefoxPrivacy> { -brand-firefox(case: "gen") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Kontynuując, wyrażasz zgodę na <firefoxTos>regulamin usługi</firefoxTos> i <firefoxPrivacy>zasady ochrony prywatności</firefoxPrivacy>.
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -1017,6 +1035,10 @@ pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z inn
 pair-unsupported-header = Powiąż za pomocą aplikacji
 pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1122,7 +1144,7 @@ signin-forgot-password-link = Nie pamiętasz hasła?
 signin-bounced-header = Konto zostało zablokowane.
 # $email (string) - The user's email.
 signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres { $email } została zwrócona, więc konto zostało zablokowane, aby chronić dane użytkownika { -brand-firefox(case: "gen") }.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj nam znać</linkExternal>, a pomożemy w odblokowaniu konta.
 signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
 back = Wstecz

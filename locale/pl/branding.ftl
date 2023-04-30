@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Brands used in fxa-auth-server and fxa-settings.
 ##
 ## Unless otherwise indicated, brands cannot be:
@@ -32,8 +33,7 @@
         [ins] Firefoksem
         [loc] Firefoksie
     }
-
-# "accounts" can be localized, "Firefox" must be treated as a brand.
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
@@ -68,8 +68,7 @@
                 [lower] kontach Firefoksa
             }
     }
-
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
@@ -104,20 +103,23 @@
                 [lower] koncie Firefoksa
             }
     }
-
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
 -product-mdn-plus = MDN Plus
-# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 -product-firefox-monitor = Firefox Monitor
 -product-firefox-relay = Firefox Relay
 -product-pocket = Pocket
-
-# Should should be treated as a brand.
 -brand-paypal = PayPal
-# Should should be treated as a brand.
 -app-store = App Store
 -brand-google = Google
-# Should should be treated as a brand.
 -google-play = Google Play
+-brand-apple =
+    { $case ->
+        [gen] Apple’a
+        [dat] Apple’owi
+        [acc] Apple’a
+        [ins] Apple’em
+        [loc] Apple’u
+       *[nom] Apple
+    }

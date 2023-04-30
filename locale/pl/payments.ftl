@@ -45,7 +45,15 @@ project-brand = Konta Firefoksa
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
--brand-name-apple = Apple
+-brand-name-apple =
+    { $case ->
+        [gen] Apple’a
+        [dat] Apple’owi
+        [acc] Apple’a
+        [ins] Apple’em
+        [loc] Apple’u
+       *[nom] Apple
+    }
 -brand-name-pocket = Pocket
 
 ## Component - AppLayout
@@ -143,9 +151,8 @@ payment-confirmation-download-button = Kontynuuj, aby pobrać
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty { $price } za { $productName } zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
+payment-confirm-with-legal-links-static = Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania wymienionej opłaty zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
+payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść dalej
 
 ## Component - PaymentErrorView
 
@@ -196,6 +203,10 @@ payment-processing-message = Prosimy czekać na przetworzenie płatności…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -453,11 +464,10 @@ new-user-submit = Subskrybuj
 
 sub-update-payment-title = Informacje o płatności
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Lub zapłać kartą
 pay-with-heading-card-only = Zapłać kartą
-pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-name-paypal }
 product-invoice-preview-error-title = Problem podczas wczytywania podglądu faktury
 product-invoice-preview-error-text = Nie można wczytać podglądu faktury
 
