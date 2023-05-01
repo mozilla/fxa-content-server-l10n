@@ -24,13 +24,13 @@ link-expired-resent-code-error-message = Une erreur s’est produite. Impossible
 
 # Button to download recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Téléchargez votre clé de récupération
-    .title = Téléchargements
+recovery-key-download-button = Télécharger votre clé de récupération
+    .title = Télécharger
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
-recovery-key-file-header = ENREGISTRER LA CLE DE RÉCUPÉRATION
+recovery-key-file-header = ENREGISTREZ VOTRE CLÉ DE RÉCUPÉRATION
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Conservez le fichier contenant la clé de récupération de votre compte dans un endroit sûr. Vous pouvez aussi l’imprimer et conserver une copie physique. La clé de récupération de votre compte peut vous aider à récupérer les données de { -brand-firefox } si vous oubliez votre mot de passe.
+recovery-key-file-instructions = Conservez le fichier contenant la clé de récupération de votre compte en lieu sûr. Vous pouvez aussi l’imprimer et conserver une copie physique. La clé de récupération de votre compte peut vous aider à récupérer les données de { -brand-firefox } si vous oubliez votre mot de passe.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = Clé 🔑 : { $recoveryKeyValue }
@@ -1049,7 +1049,7 @@ pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’asso
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Veuillez patienter, vous allez être redirigé vers l’application autorisée.
+third-party-auth-callback-message = Veuillez patienter, vous allez être redirigé·e vers l’application autorisée.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1122,7 +1122,7 @@ reset-password-password-input =
     .label = Adresse e-mail
 reset-password-button = Lancer la réinitialisation
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Adresse électronique nécessaire
+reset-password-email-required-error = Adresse e-mail nécessaire
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-with-recovery-key-verified-generate-new-key = Générer une nouvelle clé de récupération de compte
 reset-password-with-recovery-key-verified-continue-to-account = Continuer vers mon compte
