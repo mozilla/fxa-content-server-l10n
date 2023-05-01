@@ -15,6 +15,15 @@ banner-dismiss-button =
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Кілт:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Кілт жасалды: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
