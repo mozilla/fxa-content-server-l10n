@@ -26,6 +26,24 @@ link-expired-resent-code-error-message = Der is wat misgien. Der koe gjin nije k
 # .title will displayed as a tooltip on the button
 recovery-key-download-button = Jo werstelkaai downloade
     .title = Downloade
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = BEWARJE JO ACCOUNTWERSTELKAAI
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Bewarje dit bestân mei jo accountwerstelkaai op in plak dat jo ûnthâlde sille. Of druk it ôf en bewarje in fysike kopy. Jo accountwerstelkaai kin jo helpe om { -brand-firefox }-gegevens te werstellen as jo jo wachtwurd ferjitte.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Kaai: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Kaai oanmakke: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Mear ynfo oer jo accountwerstelkaai: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -415,6 +433,7 @@ nav-email-comm = E-mailkommunikaasje
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Der is in probleem bard by it ferfangen fan jo reserve-autentikaasjekoaden
+tfa-create-code-error = Der is in probleem bard by it oanmeitsjen fan jo reserve-autentikaasjekoaden
 tfa-replace-code-success-1 =
     Der binne nije koaden oanmakke. Bewarje dizze reserve-autentikaasjekoaden foar ien kear gebrûk
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
@@ -1051,6 +1070,7 @@ pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = In amerijke, jo wurde omlaat nei de autorisearre applikaasje.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1122,6 +1142,8 @@ reset-password-warning-message-2 = <span>Noat:</span> wannear’t jo jo wachtwur
 reset-password-password-input =
     .label = E-mailadres
 reset-password-button = Werinisjalisaasje begjinne
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mailadres fereaske
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-with-recovery-key-verified-generate-new-key = In nije accountwerstelkaai oanmeitsje
 reset-password-with-recovery-key-verified-continue-to-account = Trochgean nei myn account
