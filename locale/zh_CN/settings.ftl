@@ -1040,6 +1040,7 @@ pair-unsupported-message = 您用的是系统相机？配对必须通过 { -bran
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = 请稍等，正将您重定向至授权的应用程序。
 
 ## AccountRecoveryConfirmKey page
 
