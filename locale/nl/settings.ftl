@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Er is iets misgegaan. Er kon geen nieuw
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Uw herstelsleutel downloaden
+    .title = Downloaden
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = BEWAAR UW ACCOUNTHERSTELSLEUTEL
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Bewaar dit bestand met uw accountherstelsleutel op een plek die u kunt onthouden. Of druk het af en bewaar een fysiek exemplaar. Uw accountherstelsleutel kan u helpen bij het herstellen van { -brand-firefox }-gegevens als u uw wachtwoord bent vergeten.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Sleutel: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Sleutel aangemaakt: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Meer info over uw accountherstelsleutel: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -406,6 +433,7 @@ nav-email-comm = E-mailcommunicatie
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Er is een probleem opgetreden bij het vervangen van uw reserve-authenticatiecodes
+tfa-create-code-error = Er is een probleem opgetreden bij het aanmaken van uw reserve-authenticatiecodes
 tfa-replace-code-success-1 =
     Er zijn nieuwe codes aangemaakt. Bewaar deze reserve-authenticatiecodes voor eenmalig
     gebruik op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
@@ -1039,6 +1067,11 @@ pair-wait-for-auth-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 pair-unsupported-header = Koppelen via een app
 pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een { -brand-firefox }-app.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Even geduld, u wordt doorgestuurd naar de geautoriseerde toepassing.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1109,6 +1142,8 @@ reset-password-warning-message-2 = <span>Noot:</span> wanneer u uw wachtwoord op
 reset-password-password-input =
     .label = E-mailadres
 reset-password-button = Herinitialisatie beginnen
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mailadres vereist
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-with-recovery-key-verified-generate-new-key = Een nieuwe accountherstelsleutel aanmaken
 reset-password-with-recovery-key-verified-continue-to-account = Doorgaan naar mijn account

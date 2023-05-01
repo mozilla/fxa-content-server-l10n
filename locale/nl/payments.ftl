@@ -123,9 +123,8 @@ payment-confirmation-download-button = Doorgaan naar download
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met { $price } te belasten voor { $productName }, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder gaat
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Betalen met { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Nu abonneren
 
 sub-update-payment-title = Betalingsgegevens
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Of betaal met kaart
 pay-with-heading-card-only = Betalen met kaart
-pay-with-heading-paypal = Betalen met { -brand-name-paypal }
 product-invoice-preview-error-title = Probleem bij het laden van factuurvoorbeeld
 product-invoice-preview-error-text = Kan factuurvoorbeeld niet laden
 
