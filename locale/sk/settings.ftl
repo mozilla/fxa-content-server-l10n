@@ -22,11 +22,28 @@ link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepod
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Stiahnuť kľúč na obnovenie
+    .title = Stiahnuť
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = USCHOVAJTE SI KĽÚČ NA OBNOVENIE ÚČTU
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Uložte tento súbor obsahujúci kľúč na obnovenie účtu na miesto, ktoré si zapamätáte. Alebo si ho vytlačte a ponechajte si fyzickú kópiu. Váš kľúč na obnovenie účtu vám môže pomôcť obnoviť údaje { -brand-firefox(case: "gen") }, ak zabudnete heslo.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Kľúč: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Kľúč vygenerovaný: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Ďalšie informácie o kľúči na obnovenie účtu: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +434,7 @@ nav-email-comm = E-mailová komunikácia
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pri výmene záložných overovacích kódov sa vyskytol problém
+tfa-create-code-error = Pri vytváraní záložných overovacích kódov sa vyskytol problém
 tfa-replace-code-success-1 =
     Boli vytvorené nové kódy. Tieto jednorazové záložné overovacie kódy
     si uložte na bezpečné miesto – budete ich potrebovať na prístup k svojmu
@@ -1049,6 +1067,7 @@ pair-unsupported-message = Použili ste fotoaparát systému? Párovanie je potr
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Počkajte, prosím, budete presmerovaní na autorizovanú aplikáciu.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1120,6 +1139,8 @@ reset-password-warning-message-2 = <span>Poznámka:</span> Keď obnovíte svoje 
 reset-password-password-input =
     .label = E-mailová adresa
 reset-password-button = Spustiť obnovu
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Vyžaduje sa e-mailová adresa
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-with-recovery-key-verified-generate-new-key = Vygenerovať nový kľúč na obnovenie účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovať do môjho účtu
