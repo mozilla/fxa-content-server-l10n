@@ -28,6 +28,9 @@ recovery-key-download-button = Sæktu endurheimtulykilinn þinn
     .title = Sækja
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = VISTAÐU ENDURHEIMTULYKIL REIKNINGSINS ÞÍNS
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Geymdu þessa skrá sem inniheldur endurheimtulykilinn þinn á stað sem þú manst eftir. Eða prentaðu hann út og geymdu eintakið vel. Endurheimtulykill reikningsins þíns getur hjálpað þér að endurheimta gögn úr { -brand-firefox } ef þú gleymir lykilorðinu þínu.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Lykill: { $recoveryKeyValue }
