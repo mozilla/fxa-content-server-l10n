@@ -11,6 +11,11 @@
 banner-dismiss-button =
     .aria-label = Жабу
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -50,13 +55,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Несиелік карталар
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } ашу
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -160,19 +161,26 @@ reset-pwd-link-damaged-header = Парольді тастау сілтемесі
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Растау сілтемесі зақымдалған
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Сіз шерткен сілтемеде бірнеше таңба жоқ, және оны сіздің эл. пошта клиентіңіз зақымдаған мүмкін. Адресті тиянақты көшіріп алып, қайталап көріңіз.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Жаңа сілтемені алу
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Парольді тастау сілтемесінің мерзімі біткен
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Растау сілтемесінің мерзімі аяқталған
 reset-pwd-link-expired-message = Пароліңізді тастау үшін сіз шерткен сілтеменің мерзімі біткен.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Растау сілтемесінің мерзімі аяқталған
 signin-link-expired-message = Эл. пошта адресін растау үшін сіз шерткен сілтеменің мерзімі біткен.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Жаңа сілтемені алу
 
 ## LinkRememberPassword component
 
@@ -635,6 +643,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Қауіпсіздік
@@ -765,6 +776,10 @@ terms-privacy-agreement-firefox = { -brand-firefox } өнімінің <firefoxTo
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Жалғастыру арқылы сіз <firefoxTos>Қолдану шарттары</firefoxTos> және <firefoxPrivacy>Қауіпсіздік ескертуі</firefoxPrivacy> шарттарымен келісесіз.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Белгісіз тіркелгі
@@ -773,11 +788,9 @@ auth-error-105-2 = Жарамсыз растау коды
 auth-error-110 = Жарамсыз токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Тым көп талаптар санын жасадыңыз. { $retryAfter } кейін қайталап көріңіз.
 auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
@@ -985,6 +998,10 @@ pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құр�
 pair-unsupported-header = Қолданба арқылы жұптастыру
 pair-unsupported-message = Жүйелік камераны пайдаландыңыз ба? { -brand-firefox } қолданбасынан жұптастыру керек.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1036,8 +1053,6 @@ confirm-pw-reset-header = Тастау эл. пошта хаты жіберіл�
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Жаңа парольді жасау үшін келесі сағат ішінде { $email } электрондық поштасына жіберілген сілтемені басыңыз.
-# $accountsEmail is the email address the resent password reset confirmation is sent from. (e.g. accounts@firefox.com)
-resend-pw-reset-banner = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
 ## ResetPassword page
 
@@ -1049,10 +1064,12 @@ reset-password-heading-w-default-service = <span>Тіркелгі баптаул
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
 reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Эл. пошта
 reset-password-button = Қалпына келтіруді бастау
-reset-password-success-alert = Парольді қалпына келтіру
-reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
-reset-password-error-unknown-account = Белгісіз тіркелгі
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Эл. пошта керек
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру
@@ -1088,7 +1105,7 @@ signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
 signin-bounced-header = Кешіріңіз. Біз сіздің тіркелгіңізді блоктадық.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің { -brand-firefox } деректерін қорғау мақсатында тіркелгіңізді құлыптадық.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Егер ол дұрыс эл. пошта адресі болса, <linkExternal>бізге хабарлаңыз</linkExternal>, тіркелгіңіздің блоктауын алып тастауға көмектесе аламыз.
 signin-bounced-create-new-account = Ол эл. пошта адресіне енді ие емессіз бе? Жаңа тіркелгіні жасаңыз
 back = Артқа
@@ -1114,6 +1131,8 @@ signin-recovery-code-back-link = Артқа
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Сақтық аутентификация коды қажет
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1180,9 +1199,6 @@ confirm-signup-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
 confirm-signup-code-success-alert = Тіркелгі сәтті расталды
-# Message displayed in a banner after the user requested to receive a new confirmation code.
-# Variable $accountsEmail is the email addressed used to send accounts related emails to users.
-confirm-signup-code-resend-code-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Растау коды қажет
 
