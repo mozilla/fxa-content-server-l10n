@@ -18,6 +18,15 @@ link-expired-resent-link-error-message = Der is wat misgien. Der koe gjin nije k
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Jo werstelkaai downloade
+    .title = Downloade
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -1038,6 +1047,10 @@ pair-wait-for-auth-heading-text = Goedkarring <span>fan jo oare apparaat ôf</sp
 
 pair-unsupported-header = Keppelje mei in app
 pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { -brand-firefox }-app út keppelje.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 
