@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Жабу
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
 ## DownloadRecoveryKeyAsFile
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
@@ -788,6 +791,12 @@ terms-privacy-agreement-default = Жалғастыру арқылы сіз <fire
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Немесе
+continue-with-google-button = { -brand-google } арқылы жалғастыру
+continue-with-apple-button = { -brand-apple } арқылы жалғастыру
 
 ## Auth-server based errors that originate from backend service
 

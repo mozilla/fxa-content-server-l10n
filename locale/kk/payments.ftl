@@ -165,7 +165,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жеке
 payment-method-header = Төлем әдісін таңдаңыз
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Міндетті
 
 ## Component - PaymentProcessing
 
@@ -174,6 +173,10 @@ payment-processing-message = Төлеміңізді өңделгенше күт�
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = { -brand-name-paypal } арқылы төлеу
 
 ## Component - PlanDetails
 
@@ -407,9 +410,9 @@ new-user-submit = Қазір жазылу
 
 sub-update-payment-title = Төлем ақпараты
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Немесе картамен төлеңіз
 pay-with-heading-card-only = Картамен төлеу
 product-invoice-preview-error-title = Шот-фактураны алдын ала қарауды жүктеу кезінде мәселе
 product-invoice-preview-error-text = Шот-фактураны алдын ала қарауды жүктеу мүмкін болмады
