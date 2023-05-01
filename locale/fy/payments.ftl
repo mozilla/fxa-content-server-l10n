@@ -123,9 +123,8 @@ payment-confirmation-download-button = Trochgean mei download
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade mei { $price } te belêsten foar { $productName }, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+payment-confirm-with-legal-links-static = Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder gean
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = In momint wylst wy jo betelling ferwurkje…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Betelje mei { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = No abonnearje
 
 sub-update-payment-title = Betellingsgegevens
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Of betelje mei kaart
 pay-with-heading-card-only = Betelje mei kaart
-pay-with-heading-paypal = Betelje mei { -brand-name-paypal }
 product-invoice-preview-error-title = Probleem by it laden fan faktuerfoarbyld
 product-invoice-preview-error-text = Kin faktuerfoarbyld net lade
 

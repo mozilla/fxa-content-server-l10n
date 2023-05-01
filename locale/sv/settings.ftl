@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Något gick fel. En ny länk kunde inte
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte skickas.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Ladda ner din återställningsnyckel
+    .title = Ladda ner
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = SPARA DIN KONTOÅTERSTÄLLNINGSNYCKEL
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Förvara den här filen som innehåller din kontoåterställningsnyckel på en plats du kommer ihåg. Eller skriv ut den och behåll en fysisk kopia. Din kontoåterställningsnyckel kan hjälpa dig att återställa { -brand-firefox }-data om du glömmer ditt lösenord.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Nyckel: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Nyckel genererad: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Läs mer om din kontoåterställningsnyckel: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -406,6 +433,7 @@ nav-email-comm = E-postkommunikation
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina reservautentiseringskoder
+tfa-create-code-error = Det gick inte att skapa dina reservautentiseringskoder
 tfa-replace-code-success-1 =
     Nya koder har skapats. Spara dessa reservautentiseringskoder
     för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
@@ -1039,6 +1067,11 @@ pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra e
 pair-unsupported-header = Parkoppling via en app
 pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från en { -brand-firefox }-app.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Vänta, du omdirigeras till den auktoriserade applikationen.
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1109,6 +1142,8 @@ reset-password-warning-message-2 = <span>Obs!</span> När du återställer ditt 
 reset-password-password-input =
     .label = E-post
 reset-password-button = Påbörja återställning
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-post krävs
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-with-recovery-key-verified-generate-new-key = Skapa en ny kontoåterställningsnyckel
 reset-password-with-recovery-key-verified-continue-to-account = Fortsätt till mitt konto

@@ -123,9 +123,8 @@ payment-confirmation-download-button = Fortsätt till nedladdning
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox } produkter, att debitera min betalningsmetod { $price } för { $productName } enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
+payment-confirm-with-legal-links-static = Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod för det visade beloppet, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretessmeddelande</privacyNoticeLink>, tills jag säger upp min prenumeration.
+payment-confirm-checkbox-error = Du måste slutföra detta innan du går vidare
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Vänta medan vi behandlar din betalning…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Betala med { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Prenumerera nu
 
 sub-update-payment-title = Betalningsinformation
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Eller betala med kort
 pay-with-heading-card-only = Betala med kort
-pay-with-heading-paypal = Betala med { -brand-name-paypal }
 product-invoice-preview-error-title = Problem med att ladda förhandsgranskning av faktura
 product-invoice-preview-error-text = Det gick inte att läsa in förhandsgranskning av faktura
 
