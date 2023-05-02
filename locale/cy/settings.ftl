@@ -24,13 +24,13 @@ link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 
 # Button to download recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Lawrlwythwch eich allwedd adfer
+recovery-key-download-button = Llwythwch eich allwedd adfer i lawr
     .title = Llwytho i Lawr
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
-recovery-key-file-header = ARBEDWCH ALLWEDD ADFER EICH CYFRIF
+recovery-key-file-header = CADWCH ALLWEDD ADFER EICH CYFRIF
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Storiwch y ffeil hon sy'n cynnwys allwedd adfer eich cyfrif mewn man y byddwch chi'n ei gofio. Neu ei argraffu a chadw copi corfforol. Gall allwedd adfer eich cyfrif eich helpu i adennill data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
+recovery-key-file-instructions = Cadwch y ffeil hon sy'n cynnwys allwedd adfer eich cyfrif mewn man y byddwch chi'n ei gofio. Neu ei argraffu a chadw copi corfforol. Gall allwedd adfer eich cyfrif eich helpu i adfer data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Allwedd: { $recoveryKeyValue }
@@ -431,7 +431,7 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
-tfa-create-code-error = Bu problem wrth greu eich codau dilysu wrth gefn
+tfa-create-code-error = Bu anhawster wrth greu eich codau dilysu wrth gefn
 tfa-replace-code-success-1 =
     Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
     gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
@@ -1064,7 +1064,7 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Arhoswch, rydych chi'n cael eich ailgyfeirio i'r cais awdurdodedig.
+third-party-auth-callback-message = Arhoswch, rydych chi'n cael eich ailgyfeirio i'r rhaglen awdurdodedig.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1137,7 +1137,7 @@ reset-password-password-input =
     .label = E-bost
 reset-password-button = Cychwyn ailosod
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
-reset-password-email-required-error = Angen e-bost
+reset-password-email-required-error = Mae angen e-bost
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-with-recovery-key-verified-generate-new-key = Cynhyrchwch allwedd adfer cyfrif newydd
 reset-password-with-recovery-key-verified-continue-to-account = Ymlaen i fy nghyfrif
