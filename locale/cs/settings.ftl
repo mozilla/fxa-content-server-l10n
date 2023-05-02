@@ -11,6 +11,11 @@
 banner-dismiss-button =
     .aria-label = Zavřít
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -47,9 +52,8 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Platební karty
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = Žádný email jste neobdrželi? Znovu odeslat
@@ -139,19 +143,26 @@ reset-pwd-link-damaged-header = Odkaz pro obnovení je poškozen
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Odkaz pro potvrzení je poškozen
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a zkuste to znovu.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Získat nový odkaz
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Platnost odkazu pro obnovení hesla vypršela
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
 reset-pwd-link-expired-message = Platnost odkazu pro obnovení hesla už vypršela.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Platnost odkazu pro potvrzení vypršela
 signin-link-expired-message = Platnost odkazu pro potvrzení už vypršela.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Získat nový odkaz
 
 ## LinkRememberPassword component
 
@@ -564,6 +575,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Zabezpečení
@@ -676,6 +690,10 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračováním souhlasíte s:
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámý účet
@@ -684,11 +702,9 @@ auth-error-105-2 = Špatný potvrzovací kód
 auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $retryAfter }.
 auth-error-138-2 = Nepotvrzená relace
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
@@ -716,6 +732,7 @@ connect-another-device-signin-link = Přihlásit se
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Abyste mohli používat { -product-firefox-accounts(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Zkusit znovu
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -789,6 +806,10 @@ inline-totp-setup-ready-button = Připraveno
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 
@@ -812,8 +833,6 @@ confirm-pw-reset-header = E-mail pro obnovu odeslán
 ## ResetPassword page
 
 reset-password-button = Začít obnovu
-reset-password-success-alert = Obnova hesla
-reset-password-error-unknown-account = Neznámý účet
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
 
 ## CompleteSignin component
