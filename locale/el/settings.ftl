@@ -18,6 +18,11 @@ link-expired-resent-link-error-message = Κάτι πήγε στραβά. Δεν 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -957,6 +962,10 @@ pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>απ
 
 pair-unsupported-header = Σύζευξη με εφαρμογή
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
@@ -974,6 +983,9 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 create-new-password-header = Δημιουργία νέου κωδικού πρόσβασης
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Παρουσιάστηκε απρόσμενο σφάλμα
+account-recovery-reset-password-redirecting = Ανακατεύθυνση
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -992,6 +1004,8 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 reset-password-password-input =
     .label = Email
 reset-password-button = Έναρξη επαναφοράς
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Απαιτείται email
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-with-recovery-key-verified-generate-new-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 reset-password-with-recovery-key-verified-continue-to-account = Συνέχεια στον λογαριασμό μου
