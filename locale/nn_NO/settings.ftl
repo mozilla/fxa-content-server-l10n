@@ -11,11 +11,32 @@
 banner-dismiss-button =
     .aria-label = Lat att
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Nøkkel:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Nøkkel generert: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Les meir om kontogjenopprettingsnøkkelen din: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Praktisk info i innboksen din. Registrer deg for meir:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Få siste nytt om { -brand-mozilla } och { -brand-firefox }
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Gjer noko for å halde nettet friskt og raskt
@@ -769,6 +790,10 @@ pair-supp-allow-cancel-link = Avbryt
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Paring via ein app
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 

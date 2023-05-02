@@ -146,7 +146,6 @@ payment-validate-name-error = Skriv inn namnet ditt
 payment-method-header = Vel betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Påkravd
 
 ## Component - PaymentProcessing
 
@@ -155,6 +154,10 @@ payment-processing-message = Vent mens vi behandlar betalinga di…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Betal med { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -174,6 +177,7 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } i skatt
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-no-tax-month =
     { $intervalCount ->
@@ -231,6 +235,7 @@ sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 terms = Tenestevilkår
 privacy = Personvernerklæring
+terms-download = Vilkår for nedlasting
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -327,9 +332,9 @@ new-user-submit = Abonner no
 
 sub-update-payment-title = Betalingsinformasjon
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
 
 ## Routes - Product - IapRoadblock
