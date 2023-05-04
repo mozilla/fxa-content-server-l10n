@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Ein Gerät mit einem versteckten 6-stelligen Code.
 confirm-signup-aria-label =
     .aria-label = Ein Umschlag mit einem Link
+security-shield-aria-label =
+    .aria-label = Illustration für einen Kontowiederherstellungsschlüssel.
 
 ## Input Password
 
@@ -382,6 +384,19 @@ drop-down-menu-sign-out-error-2 = Beim Abmelden ist ein Fehler aufgetreten.
 
 flow-container-back = Zurück
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Zurück zu den Einstellungen
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Erstellen Sie einen Kontowiederherstellungsschlüssel für den Fall, dass Sie Ihr Passwort vergessen
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Wir verschlüsseln Surf-Daten – Passwörter, Lesezeichen und mehr. Das ist gut für die Privatsphäre, aber es bedeutet, dass wir Ihre Daten nicht wiederherstellen können, wenn Sie Ihr Passwort vergessen.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Deshalb ist das Erstellen eines Kontowiederherstellungsschlüssels so wichtig – Sie können Ihren Schlüssel verwenden, um Ihre Daten wiederherzustellen.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Beginnen Sie mit der Erstellung Ihres Wiederherstellungsschlüssels
+
 # HeaderLockup component
 
 header-menu-open = Menü schließen
@@ -578,6 +593,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Schritt 1 von 2
 recovery-key-step-2 = Schritt 2 von 2
 recovery-key-success-alert-3 = Kontowiederherstellungsschlüssel erstellt
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontowiederherstellungsschlüssel
 
 ## Add secondary email page
 
