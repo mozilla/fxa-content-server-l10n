@@ -318,6 +318,7 @@ subscriptionRenewalReminder-content-closing = S pozdravem,
 subscriptionRenewalReminder-content-signature = Tým produktu { $productName }
 subscriptionsPaymentExpired-subject-1 = Platnost platební karty pro vaše předplatné vypršela nebo brzy vyprší
 subscriptionsPaymentExpired-title-1 = Platnost vaší platební karty vypršela nebo brzy vyprší
+subscriptionsPaymentProviderCancelled-title = Je nám to líto, ale s vaší platební metodou se vyskytly problémy
 subscriptionsPaymentProviderCancelled-content-payment = Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -329,23 +330,43 @@ subscriptionSubsequentInvoice-content-received = Obdrželi jsme vaši poslední 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Další platba: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Úspěšně jste aktualizovali na produkt { $productName }
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
+verificationReminderFinal-subject = Poslední připomenutí k potvrzení vašeho účtu
 confirm-account-plaintext = { confirm-account }:
 confirm-email-2 = Potvrdit účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Potvrdit účet
+verificationReminderSecond-subject-2 = Nezapomeňte potvrdit svůj účet
+verificationReminderSecond-title-2 = Nenechte si ujít { -brand-firefox }!
+verificationReminderSecond-action-2 = Potvrdit účet
 verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
+verify-action-2 = Potvrdit účet
+verifyLogin-subject-2 = Potvrdit přihlášení
 verifyLogin-action = Potvrdit přihlášení
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Schválení přihlášení k { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Přihlásili jste se do produktu { $serviceName }?
 verifyLoginCode-expiry-notice = Platnost vyprší za 5 minut.
+verifyPrimary-title-2 = Ověřit hlavní e-mailovou adresu
 verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
+verifyPrimary-action-2 = Potvrdit e-mailovou adresu
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
+verifySecondaryCode-title-2 = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
 verifySecondaryCode-prompt-2 = Použijte tento potvrzovací kód:
 # Variables:
