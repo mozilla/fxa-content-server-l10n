@@ -1094,6 +1094,8 @@ signin-totp-code-required-error = Απαιτείται κωδικός ταυτο
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης που απεστάλη στο { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
