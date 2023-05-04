@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 18:12+0000\n"
+"PO-Revision-Date: 2023-05-04 18:22+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -203,23 +203,23 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Enviouse de novo a mensaxe. Engada accounts@firefox.com aos seus contactos para garantir unha entrega sen problemas."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr ""
+msgstr "Copiouse"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Non se puido copiar. Copie manualmente."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "Descargouse"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "Imprimiouse"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
@@ -227,15 +227,15 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "pagamento e facturación"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "problemas coa conta"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "problemas técnicos"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -247,11 +247,11 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marcadores"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
-msgstr ""
+msgstr "Historial"
 
 #: .es5/models/sync-engines.js:66
 msgid "Passwords"
@@ -259,43 +259,43 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
-msgstr ""
+msgstr "Complementos"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
-msgstr ""
+msgstr "Separadores abertos"
 
 #: .es5/models/sync-engines.js:78
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencias"
 
 #: .es5/models/sync-engines.js:86
 msgid "Addresses"
-msgstr ""
+msgstr "Enderezos"
 
 #: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
-msgstr ""
+msgstr "Tarxetas de crédito"
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Correo electrónico principal verificado correctamente"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Correo electrónico secundario verificado correctamente"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Restableceuse o contrasinal correctamente"
 
 #: .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "A recuperación da conta está activada"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -307,23 +307,23 @@ msgstr "A ligazón que premeu para comprobar o seu correo está caducada."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Xa o intentaches moitas veces. Volve intentalo máis tarde."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Xa o intentaches moitas veces. Volve intentalo %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
-msgstr ""
+msgstr "Código incorrecto"
 
 #: .es5/lib/auth-errors.js:44
 msgid "Invalid timestamp in request signature"
-msgstr ""
+msgstr "Marca de tempo incorrecta na sinatura da solicitude"
 
 #: .es5/lib/auth-errors.js:48
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "Nonce incorrecto na sinatura da solicitude"
 
 #: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
@@ -335,7 +335,7 @@ msgstr "Conta descoñecida"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr ""
+msgstr "Maiúsculas incorrectas no enderezo de correo electrónico"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
@@ -355,19 +355,19 @@ msgstr "JSON incorrecto no corpo da solicitude"
 
 #: .es5/lib/auth-errors.js:80
 msgid "Invalid parameter: %(param)s"
-msgstr ""
+msgstr "Parámetro incorrecto: %(param)s"
 
 #: .es5/lib/auth-errors.js:84
 msgid "Missing parameter: %(param)s"
-msgstr ""
+msgstr "Falta un parámetro: %(param)s"
 
 #: .es5/lib/auth-errors.js:88
 msgid "Invalid request signature"
-msgstr ""
+msgstr "A sinatura da solicitude non é correcta"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr ""
+msgstr "Falta a cabeceira Content-Length"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
@@ -375,39 +375,39 @@ msgstr "Corpo da solicitude demasiado grande"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "A solicitude bloqueouse por motivos de seguridade"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
 msgid "Invalid authorization code"
-msgstr ""
+msgstr "Código de autorización incorrecto"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Número de teléfono non válido"
 
 #: .es5/lib/auth-errors.js:131
 msgid "Cannot send to this country"
-msgstr ""
+msgstr "Non se pode enviar a este país"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "Non se puido enviar unha mensaxe a este número"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr ""
+msgstr "O seu correo electrónico acaba de ser devolto"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "O seu correo electrónico acaba de ser devolto. Escribiu mal o enderezo?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Non se puido enviar o correo electrónico"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Este correo electrónico xa o verificou outro usuario"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
@@ -415,19 +415,19 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "O correo electrónico secundario debe ser distinto do principal"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Chegou aos máximos correos secundarios permitidos"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Este correo xa existe na conta"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Para iniciar sesión ten que usar o enderezo de correo electrónico principal da conta."
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
