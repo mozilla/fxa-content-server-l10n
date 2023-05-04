@@ -160,6 +160,8 @@ signin-totp-code-image-label =
     .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
 confirm-signup-aria-label =
     .aria-label = מעטפה המכילה קישור
+security-shield-aria-label =
+    .aria-label = איור המייצג מפתח שחזור חשבון.
 
 ## Input Password
 
@@ -230,6 +232,7 @@ password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל ת�
 ## Ready component
 
 reset-password-complete-header = הססמה שלך אופסה
+ready-complete-set-up-instruction = ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה שלך במכשירי ה־{ -brand-firefox } הנוספים שלך.
 ready-start-browsing-button = התחלת גלישה
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -357,6 +360,19 @@ drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחש�
 ## Flow Container
 
 flow-container-back = חזרה
+
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = חזרה להגדרות
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון למקרה שהססמה שלך תישכח
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל זה אומר שאנחנו לא יכולים לשחזר את הנתונים שלך אם הססמה שלך תישכח.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש במפתח כדי לקבל בחזרה את הנתונים שלך.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = התחלה ביצירת מפתח השחזור שלך
 
 # HeaderLockup component
 
@@ -539,6 +555,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = שלב 1 מתוך 2
 recovery-key-step-2 = שלב 2 מתוך 2
 recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
