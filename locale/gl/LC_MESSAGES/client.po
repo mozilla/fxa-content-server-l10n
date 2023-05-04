@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 18:32+0000\n"
+"PO-Revision-Date: 2023-05-04 18:42+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -620,67 +620,67 @@ msgstr "Danouse a ligazón de comprobación"
 
 #: .es5/lib/auth-errors.js:440
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "As dimensións da imaxe deben ser como mínimo de 100×100px"
 
 #: .es5/lib/auth-errors.js:444
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "Axiña poderá crear unha conta en Firefox para iOS"
 
 #: .es5/lib/auth-errors.js:456
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Debe indicar a súa idade para rexistrarse"
 
 #: .es5/lib/auth-errors.js:460
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Debe indicar unha idade válida para rexistrarse"
 
 #: .es5/lib/auth-errors.js:476
 msgid "Account no longer exists."
-msgstr ""
+msgstr "A conta xa non existe."
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Hai unha propiedade non válida no código de continuación: %(property)s"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Falta unha propiedade no código de continuación: %(property)s"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Atributo de datos non válido: %(property)s"
 
 #: .es5/lib/auth-errors.js:492
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Falta un atributo de datos: %(property)s"
 
 #: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Esa ligazón de confirmación xa se usou e só pode usarse unha vez."
 
 #: .es5/lib/auth-errors.js:509
 msgid "This is a required field"
-msgstr ""
+msgstr "Este campo é obrigatorio"
 
 #: .es5/lib/auth-errors.js:513
 msgid "Authorization code required"
-msgstr ""
+msgstr "Necesítase un código de autorización"
 
 #: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "A ligazón está danada"
 
 #: .es5/lib/auth-errors.js:544
 msgid "Phone number required"
-msgstr ""
+msgstr "Necesítase o número de teléfono"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Necesítase o código de autenticación en dous pasos"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "O código de autenticación en dous pasos non é válido"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
@@ -696,39 +696,39 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Introduza o código de verificación"
 
 #: .es5/lib/auth-errors.js:605
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Redirección non válida"
 
 #: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Escribiu mal o enderezo de correo electrónico? %(domain)s non dá servizo."
 
 #: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "O ficheiro de imaxe é demasiado grande para envialo."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
-msgstr ""
+msgstr "Falta a configuración"
 
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
-msgstr ""
+msgstr "A configuración non é válida"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Escribiu mal o enderezo de correo electrónico?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Probe novos produtos de Firefox"
 
 #: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Reciba as últimas novas sobre Mozilla e Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
