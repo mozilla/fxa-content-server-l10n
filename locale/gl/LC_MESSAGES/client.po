@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 18:22+0000\n"
+"PO-Revision-Date: 2023-05-04 18:32+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -431,47 +431,47 @@ msgstr "Para iniciar sesión ten que usar o enderezo de correo electrónico prin
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Xa hai outra conta usando ese enderezo"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Para restabelecer requírese o enderezo de correo electrónico principal"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
-msgstr ""
+msgstr "O código de inicio de sesión non é válido"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "Non se pode cambiar o enderezo de correo electrónico principal a un sen verificar"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "Non se pode cambiar o enderezo de correo electrónico principal a un que non pertence a esta conta"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
-msgstr ""
+msgstr "Este enderezo de correo electrónico non pode usarse para iniciar sesión nestes momentos"
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
-msgstr ""
+msgstr "Non se puido enviar a mensaxe de correo electrónico"
 
 #: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
-msgstr ""
+msgstr "Requírese un código válido"
 
 #: .es5/lib/auth-errors.js:224
 msgid "This verification code has expired"
-msgstr ""
+msgstr "Este código de verificación caducou"
 
 #: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "Xa hai un código TOTP para esta conta"
 
 #: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
-msgstr ""
+msgstr "Non se atopou o código TOTP"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
@@ -479,7 +479,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
-msgstr ""
+msgstr "A orde do dispositivo non está dispoñíbel"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
@@ -491,35 +491,35 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "Esta solicitude require que a súa conta teña activada a autenticación de dous pasos."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "Fallou por mor dunha solicitude en conflito con esta, inténteo de novo."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "Cliente da subscrición descoñecido."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Subscrición descoñecida."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Plan descoñecido para a subscrición."
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "O código de pago da subscrición non é válido."
 
 #: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Xa se cancelara a subscrición"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Rexeitouse a actualización. Inténteo de novo."
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
@@ -531,7 +531,7 @@ msgstr "Servido ocupado, tente de novo pronto"
 
 #: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Funcionalidade desactivada"
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
@@ -540,7 +540,7 @@ msgstr "O sistema non está dispoñíbel, tente de novo pronto"
 
 #: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
-msgstr ""
+msgstr "Xa non se permite usar este cabo"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
@@ -548,7 +548,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Cancelouse o intento de iniciar sesión"
 
 #: .es5/lib/auth-errors.js:324
 msgid "Session expired. Sign in to continue."
@@ -568,11 +568,11 @@ msgstr "Traballando…"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "Non se puido conseguir o aviso de privacidade"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "Non se puideron conseguir as condicións do servizo"
 
 #: .es5/lib/auth-errors.js:348
 msgid "Your new password must be different"
@@ -584,23 +584,23 @@ msgstr "Debe ter polo mínimo 8 caracteres"
 
 #: .es5/lib/auth-errors.js:356
 msgid "Valid password required"
-msgstr ""
+msgstr "Requírese un contrasinal válido"
 
 #: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
 msgid "Valid email required"
-msgstr ""
+msgstr "Requírese un enderezo de correo electrónico válido"
 
 #: .es5/lib/auth-errors.js:372
 msgid "A usable image was not found"
-msgstr ""
+msgstr "Non se atopou unha imaxe utilizable"
 
 #: .es5/lib/auth-errors.js:376
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Non se puido iniciar a cámara"
 
 #: .es5/lib/auth-errors.js:380
 msgid "Valid URL required"
-msgstr ""
+msgstr "Requírese un URL válido"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
@@ -608,11 +608,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr ""
+msgstr "Escriba un enderezo de correo electrónico válido. firefox.com non ofrece correo electrónico."
 
 #: .es5/lib/auth-errors.js:412
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "As contas de Firefox só se poden colocar nun IFRAME en sitios aprobados"
 
 #: .es5/lib/auth-errors.js:432
 msgid "Verification link damaged"
