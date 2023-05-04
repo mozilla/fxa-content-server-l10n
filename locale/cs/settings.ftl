@@ -10,6 +10,10 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Zavřít
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Nový odkaz se nepodařilo odeslat.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 
 ## DownloadRecoveryKeyAsFile
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key

@@ -208,3 +208,14 @@
     }
     .gender = masculine
 -google-play = Google Play
+-brand-apple =
+    { $case ->
+       *[nom] Apple
+        [gen] Applu
+        [dat] Applu
+        [acc] Apple
+        [voc] Apple
+        [loc] Applu
+        [ins] Applem
+    }
+    .gender = masculine
