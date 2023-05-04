@@ -171,6 +171,8 @@ cadReminderFirst-title-1 = K synchronizaci jsou potřeba dva
 cadReminderFirst-description-2 = Synchronizace trvá jen chvíli.
 cadReminderSecond-action = Synchronizovat další zařízení
 cadReminderSecond-title-2 = Nezapomeňte na synchronizaci!
+cadReminderSecond-description-sync = Synchronizujte své záložky, hesla, otevřené panely a další věci — všude, kde používáte { -brand-firefox }.
+cadReminderSecond-description-plus = Plus, vaše data jsou vždy šifrovaná. Vidíte je pouze vy a zařízení, které schválíte.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Vítá vás { $productName }
@@ -224,12 +226,16 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-action = Správa účtu
 postConsumeRecoveryCode-action = Správa účtu
 postNewRecoveryCodes-action = Správa účtu
+postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
+postRemoveAccountRecovery-title-2 = Smazali jste svůj obnovovací klíč k účtu.
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Byl smazán z:
 postRemoveAccountRecovery-action = Správa účtu
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-action = Správa účtu
+postRemoveTwoStepAuthentication-subject-line-2 = Dvoufázové ověření je vypnuté
+postRemoveTwoStepAuthentication-title-2 = Vypnuli jste dvoufázové ověření
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Zakázali jste ho z:
 postRemoveTwoStepAuthentication-action = Správa účtu
@@ -254,6 +260,8 @@ subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte 
 subscriptionAccountFinishSetup-title = Vítá vás { $productName }
 subscriptionAccountFinishSetup-action-2 = Začít
 subscriptionAccountReminderFirst-action = Vytvoření hesla
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Poslední připomenutí: Nastavte si svůj účet
 subscriptionAccountReminderSecond-title = Vítá vás { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Vytvoření hesla
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -267,12 +275,27 @@ subscriptionCancellation-title = Je nám líto, že odcházíte
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Úspěšně jste přešli na { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Úspěšně jste přešli z { $productNameOld } na { $productName }.
 subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionFailedPaymentsCancellation-title = Vaše předplatné bylo zrušeno
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Děkujeme, že jste si předplatili { $productName }
+subscriptionFirstInvoice-content-processing = Vaši platbu nyní zpracováváme, což může trvat až čtyři pracovní dny.
 subscriptionFirstInvoice-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Další platba: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Platnost vaší platební karty vypršela nebo brzy vyprší
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Platba za produkt { $productName } se nezdařila
