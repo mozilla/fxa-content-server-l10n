@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Un sobre que contiene un enlace
+security-shield-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de cuenta.
 
 ## Input Password
 
@@ -382,6 +384,19 @@ drop-down-menu-sign-out-error-2 = Disculpá, hubo un problema al cerrar la sesi�
 
 flow-container-back = Atrás
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Volver a ajustes
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Crea una clave de recuperación de cuenta en caso de que olvides tu contraseña
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Ciframos los datos de navegación - contraseñas, marcadores y más. Es genial para la privacidad, pero significa que no podremos recuperar tus datos si olvidas la contraseña.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Es por eso que crear una clave de recuperación de cuenta es tan importante - puedes usar tu clave para recuperar tus datos.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Comienza a crear tu clave de recuperación
+
 # HeaderLockup component
 
 header-menu-open = Cerrar menú
@@ -575,6 +590,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
 recovery-key-success-alert-3 = Se creó la clave de recuperación de la cuenta
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clave de recuperación de cuenta
 
 ## Add secondary email page
 
