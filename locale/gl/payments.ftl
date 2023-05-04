@@ -224,12 +224,23 @@ sub-route-idx-reactivating = Non se puido reactivar a subscrición
 sub-route-idx-cancel-failed = Non se puido cancelar a subscrición
 sub-route-idx-contact = Contactar co equipo de asistencia
 sub-route-idx-cancel-msg-title = Sentimos que se vaia.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Cancelouse a súa subscrición de { $name }
+                <br />
+                O seu acceso a { $name } rematará o { $date }.
+sub-route-idx-cancel-aside = Ten preguntas? Visite <a> { -brand-name-mozilla } Asistencia </a>.
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Produciuse un problema ao cargar o cliente
+sub-billing-update-success = Actualizouse a súa información de facturación
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Cambiar
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -242,9 +253,12 @@ sub-route-idx-cancel-msg-title = Sentimos que se vaia.
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Caduca o { $expirationDate }
+sub-route-idx-updating = Actualizando a información de facturación…
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Non hai ningún plan para esta subscrición.
 
 ## Routes - Subscriptions - Pocket Subscription
 
@@ -252,6 +266,14 @@ sub-route-idx-cancel-msg-title = Sentimos que se vaia.
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Quere seguir usando { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Conservará o acceso a { $name }, o ciclo de facturación
+    e o pago. O seguinte cargo será de
+    { $amount } o { $endDate }, á tarxeta que remata en { $last }.
 
 ## $date (Date) - Last day of product access
 
