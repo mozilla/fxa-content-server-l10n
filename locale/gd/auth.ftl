@@ -41,9 +41,17 @@ subplat-update-billing = Ùraich am fiosrachadh bileachaidh
 subplat-privacy-policy = Poileasaidh prìobhaideachd { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Teirmichean na seirbheise aig { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Nòtaichean laghail
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Prìobhaideachd
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Luchdaich a-nuas { $productName } air { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Luchdaich a-nuas { $productName } san { -app-store }">
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
 newDeviceLogin-action = Stiùirich an cunntas
