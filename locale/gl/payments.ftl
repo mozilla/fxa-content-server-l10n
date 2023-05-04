@@ -134,12 +134,20 @@ product-no-such-plan = Ese plan non existe para este produto.
 
 ## Component - SubscriptionTitle
 
+sub-guarantee = Garantía de devolución do diñeiro de 30 días
 
 ## Component - TermsAndPrivacy
 
+terms = Condicións do servizo
+privacy = Aviso de privacidade
 
 ## App-level string(s) and messages shared by multiple components or routes
 
+document =
+    .title = Contas de Firefox
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Pechar
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -147,6 +155,26 @@ product-no-such-plan = Ese plan non existe para este produto.
 
 ## Error messages
 
+# App error dialog
+general-error-heading = Erro xeral da aplicación
+basic-error-message = Algo fallou. Inténteo de novo máis tarde.
+payment-error-1 = Algo impediu autorizar o pago. Inténteo de novo ou contacte co emisor da súa tarxeta.
+payment-error-2 = Algo impediu autorizar o pago. Contacte co emisor da súa tarxeta.
+expired-card-error = Parece que a súa tarxeta de crédito caducou. Probe con outra.
+insufficient-funds-error = Parece que a súa tarxeta non ten fondos dabondo. Probe con outra.
+withdrawal-count-limit-exceeded-error = Parece que esta transacción superaría o seu límite de crédito. Probe con outra tarxeta.
+charge-exceeds-source-limit = Parece que esta transacción superaría o seu límite de crédito diario. Probe con outra tarxeta ou en 24 horas.
+instant-payouts-unsupported = Parece que a súa tarxeta de débito non está configurada para pagos instantáneos. Probe con outra tarxeta de débito ou crédito.
+duplicate-transaction = Parece que se acaba de enviar unha transacción idéntica. Comprobe o seu historial de pagos.
+coupon-expired = Parece que ese código promocional caducou.
+card-error = Non se puido procesar a súa transacción. Verifique a información da súa tarxeta de crédito e inténteo de novo.
+product-plan-error =
+    .title = Produciuse un problema ao cargar os plans
+product-profile-error =
+    .title = Produciuse un problema ao cargar o perfil
+product-customer-error =
+    .title = Produciuse un problema ao cargar o cliente
+product-plan-not-found = Non se atopou o plan
 
 ## Hooks - coupons
 
@@ -170,16 +198,32 @@ product-no-such-plan = Ese plan non existe para este produto.
 
 ## Routes - Product - Subscription upgrade
 
+sub-update-copy = O seu plan cambiará de inmediato e cobraráselle un importe axustado ao que resta do período de facturación actual. A partir de { $startingDate } cobraráselle o importe completo.
+sub-update-current-plan-label = Plan actual
+sub-update-new-plan-label = Novo plan
+sub-update-total-label = Novo total
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Cancelar a subscrición
+sub-item-stay-sub = Manter a subscrición
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg =
+    Xa non poderá usar { $name } despois de
+    { $period }, o último día do seu período de facturación actual.
+sub-item-cancel-confirm =
+    Cancelar o meu acceso e a miña información gardada en
+    { $name } o { $period }
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Non se puido reactivar a subscrición
+sub-route-idx-cancel-failed = Non se puido cancelar a subscrición
+sub-route-idx-contact = Contactar co equipo de asistencia
+sub-route-idx-cancel-msg-title = Sentimos que se vaia.
 
 ## Routes - Subscriptions - Errors
 
