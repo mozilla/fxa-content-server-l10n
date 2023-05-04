@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Naprava s skrito 6-mestno kodo.
 confirm-signup-aria-label =
     .aria-label = Ovojnica s povezavo
+security-shield-aria-label =
+    .aria-label = Slika, ki predstavlja ključ za obnovitev računa.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljan
 
 flow-container-back = Nazaj
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Nazaj na nastavitve
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozabite geslo
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je super zaradi varovanja zasebnosti, vendar pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – s svojim ključem lahko obnovite svoje podatke.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Začnite ustvarjati obnovitveni ključ
+
 # HeaderLockup component
 
 header-menu-open = Zapri meni
@@ -580,6 +595,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
 recovery-key-success-alert-3 = Ključ za obnovitev računa ustvarjen
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Ključ za obnovitev računa
 
 ## Add secondary email page
 
