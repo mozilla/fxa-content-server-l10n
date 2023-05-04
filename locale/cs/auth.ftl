@@ -290,4 +290,9 @@ verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z t
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Potvrďte svůj účet
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.

@@ -350,6 +350,10 @@ modal-default-confirm-button = Potvrdit
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrďte svou e-mailovou adresu
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Vložte prosím během 5 minut potvrzovací kód, který vám byl zaslán na <email>{ $email }</email>.
 msv-cancel-button = Zrušit
 msv-submit-button-2 = Potvrdit
 
@@ -877,9 +881,13 @@ signin-reported-header = Děkujeme za vaši ostražitost
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdit
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -903,9 +911,13 @@ confirm-signup-heading = Potvrzení účtu
 
 # and a confirmation code has been sent to their email address.
 
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 confirm-signup-code-input-label = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdit
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Zaslat e-mailem nový kód.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
