@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Egy eszköz egy rejtett 6 számjegyű kóddal.
 confirm-signup-aria-label =
     .aria-label = Egy hivatkozást tartalmazó boríték
+security-shield-aria-label =
+    .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezése
 
 flow-container-back = Vissza
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Vissza a beállításokhoz
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcsot arra az esetre, ha elfelejtené a jelszavát
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de azt jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja a kulcsát, hogy visszakapja az adatait.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Kezdje el a helyreállítási kulcs létrehozását
+
 # HeaderLockup component
 
 header-menu-open = Menü bezárása
@@ -580,6 +595,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = 1. / 2. lépés
 recovery-key-step-2 = 2. / 2. lépés
 recovery-key-success-alert-3 = Fiók-helyreállítási kulcs létrehozva
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Fiók-helyreállítási kulcs
 
 ## Add secondary email page
 
