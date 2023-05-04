@@ -239,7 +239,9 @@ postRemoveTwoStepAuthentication-title-2 = Vypnuli jste dvoufázové ověření
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Zakázali jste ho z:
 postRemoveTwoStepAuthentication-action = Správa účtu
+postVerify-sub-title-3 = Jsme rádi, že vás vidíme!
 postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
+postVerify-subject-3 = Vítá vás { -brand-firefox }!
 postVerify-setup-2 = Připojit další zařízení:
 postVerify-action-2 = Připojte další zařízení
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
@@ -258,7 +260,10 @@ subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Vítá vás { $productName }
+subscriptionAccountFinishSetup-content-processing = Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte.
 subscriptionAccountFinishSetup-action-2 = Začít
+subscriptionAccountReminderFirst-subject = Připomínka: dokončete nastavení vašeho účtu
+subscriptionAccountReminderFirst-title = Zatím nemáte přístup ke svému předplatnému
 subscriptionAccountReminderFirst-action = Vytvoření hesla
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Poslední připomenutí: Nastavte si svůj účet
@@ -340,7 +345,10 @@ unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
 verificationReminderFinal-subject = Poslední připomenutí k potvrzení vašeho účtu
+confirm-account = Potvrdit účet
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Nezapomeňte potvrdit svůj účet
+verificationReminderFirst-title-2 = Vítá vás { -brand-firefox }!
 confirm-email-2 = Potvrdit účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdit účet
@@ -359,6 +367,7 @@ verifyLoginCode-subject-line-2 = Schválení přihlášení k { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Přihlásili jste se do produktu { $serviceName }?
+verifyLoginCode-prompt-3 = Pokud ano, zde je váš autorizační kód:
 verifyLoginCode-expiry-notice = Platnost vyprší za 5 minut.
 verifyPrimary-title-2 = Ověřit hlavní e-mailovou adresu
 verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:
