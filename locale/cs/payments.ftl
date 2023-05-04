@@ -198,6 +198,7 @@ payment-confirmation-download-button = Pokračovat ke stažení
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala zobrazenou částku skrze mou preferovanou platební metodu v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Component - PaymentErrorView
 
@@ -206,6 +207,10 @@ payment-error-manage-subscription-button = Správa předplatného
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Přeplatné produktu { $productName } už máte skrze obchod s aplikacemi { -brand-name-google(case: "gen") } nebo { -brand-name-apple(case: "gen") }.
+iap-upgrade-no-bundle-support = V tuto chvílí změnu plánu těchto předplatných nepodporujeme, ale brzy budeme.
+iap-upgrade-contact-support = Tento produkt můžete stále získat – abychom vám mohli pomoci, kontaktujte prosím podporu.
 iap-upgrade-get-help-button = Získat pomoc
 
 ## Component - PaymentForm
@@ -235,7 +240,7 @@ payment-legal-link-stripe-3 = Zásady ochrany osobních údajů pro službu <str
 payment-method-header = Vyberte způsob platby
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Povinné
+payment-method-first-approve = Nejprve musíte schválit své předplatné
 
 ## Component - PaymentProcessing
 
@@ -244,6 +249,10 @@ payment-processing-message = Počkejte prosím na zpracování vaší platby…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Zaplatit přes { -brand-name-paypal(case: "acc") }
 
 ## Component - PlanDetails
 
@@ -525,15 +534,16 @@ new-user-submit = Odebírat
 
 sub-update-payment-title = Platební informace
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Nebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatit kartou
 product-invoice-preview-error-title = Náhled faktury se nepodařilo načíst
 product-invoice-preview-error-text = Náhled faktury nelze načíst
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Vaše předplatné zatím nemůžeme povýšit
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
@@ -600,6 +610,8 @@ pay-update-manage-btn = Správa
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Další platba dne { $date }
+sub-next-bill-no-tax = Vaše další platba <strong>{ $priceAmount }</strong> má splatnost <strong>{ $date }</strong>
+sub-next-bill-tax = Vaše další platba <strong>{ $priceAmount } +</strong> daň <strong>{ $taxAmount }</strong> má splatnost <strong>{ $date }</strong>
 sub-expires-on = Datum konce platnosti: { $date }
 
 ## Routes - Subscription - PaymentUpdate
