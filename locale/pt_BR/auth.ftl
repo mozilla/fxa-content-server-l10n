@@ -242,7 +242,7 @@ newDeviceLogin-subject = Novo acesso no { $clientName }
 newDeviceLogin-title-2 = Sua { -product-firefox-account } foi usada para entrar no
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = Não foi você? <a data-l10n-name="passwordChangeLink">Mude sua senha</a>.
+newDeviceLogin-change-password = Se não foi você, <a data-l10n-name="passwordChangeLink">mude sua senha</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Não foi você? Mude sua senha:
