@@ -67,6 +67,15 @@ ios-download-plaintext = Luchdaich a-nuas { $productName } san App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Stàlaich { $productName } air uidheam eile:
+automated-email-change-2 = Mura b’ e tusa a rinn seo, <a data-l10n-name="passwordChangeLink">atharraich am facal-faire agad</a> sa bhad.
+automated-email-support = Airson barrachd fiosrachaidh, tadhail air <a data-l10n-name="supportLink">taic { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Mura b’ e tusa a rinn seo, atharraich am facal-faire agad sa bhad:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Airson barrachd fiosrachaidh, tadhail air taic { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Airson barrachd fiosrachaidh, tadhail air <a data-l10n-name="supportLink">taic { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Seo post-d fèin-obrachail. Ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
 newDeviceLogin-action = Stiùirich an cunntas
