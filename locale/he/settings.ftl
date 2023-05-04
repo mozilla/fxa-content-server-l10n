@@ -558,6 +558,8 @@ recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = מפתח שחזור חשבון
 
 ## Add secondary email page
 
@@ -617,6 +619,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = אין לך אפשרות לסרוק קוד?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:
+tfa-enter-totp-v2 = כעת יש להכניס את קוד האימות מיישומון האימות.
+tfa-input-enter-totp-v2 =
+    .label = נא להכניס קוד אימות
 
 ##
 
