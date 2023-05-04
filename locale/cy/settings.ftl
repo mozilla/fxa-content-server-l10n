@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Dyfais gyda chod 6 digid cudd.
 confirm-signup-aria-label =
     .aria-label = Amlen yn cynnwys dolen
+security-shield-aria-label =
+    .aria-label = Darlun i gynrychioli allwedd adfer cyfrif.
 
 ## Input Password
 
@@ -382,6 +384,19 @@ drop-down-menu-sign-out-error-2 = Ymddiheuriadau, bu anhawster wrth i chi allgof
 
 flow-container-back = Nôl
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Nôl i'r gosodiadau
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Creu allwedd adfer cyfrif rhag ofn i chi anghofio eich cyfrinair
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Rydym yn amgryptio data pori –– cyfrineiriau, nodau tudalen, a mwy. Mae'n wych ar gyfer preifatrwydd, ond mae'n golygu na allwn adennill eich data os byddwch yn anghofio eich cyfrinair.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Dyna pam mae creu allwedd adfer cyfrif mor bwysig -- gallwch ddefnyddio'ch allwedd i gael eich data yn ôl.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Dechreuwch greu eich allwedd adfer
+
 # HeaderLockup component
 
 header-menu-open = Cau'r ddewislen
@@ -578,6 +593,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Cam 1 o 2
 recovery-key-step-2 = Cam 2 o 2
 recovery-key-success-alert-3 = Crëwyd eich allwedd adfer cyfrif
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Allwedd Adfer Cyfrif
 
 ## Add secondary email page
 
