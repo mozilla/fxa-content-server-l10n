@@ -299,6 +299,19 @@ subscriptionPaymentExpired-title-1 = Platnost vaší platební karty vypršela n
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Platba za produkt { $productName } se nezdařila
+subscriptionPaymentFailed-title = Omlouváme se, máme potíže s vaší platbou
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Vyskytl se problém s vaší poslední platbou za { $productName }.
+subscriptionPaymentFailed-content-outdated = Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé.
+subscriptionPaymentProviderCancelled-title = Je nám to líto, ale s vaší platební metodou se vyskytly problémy
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Předplatné produktu { $productName } bylo znovu aktivované
+subscriptionRenewalReminder-title = Vaše předplatné bude brzy obnoveno
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Vážený zákazníku produktu { $productName },
 subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
