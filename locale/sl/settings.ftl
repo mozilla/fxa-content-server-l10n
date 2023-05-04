@@ -30,7 +30,7 @@ recovery-key-download-button = Prenesite obnovitveni ključ
 recovery-key-file-header = SHRANITE KLJUČ ZA OBNOVITEV RAČUNA
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Shranite to datoteko s ključem za obnovitev računa na mesto, ki si ga boste zapomnili. Ali pa ga natisnite in obdržite fizično kopijo. Ključ za obnovitev računa vam lahko pomaga obnoviti podatke v { -brand-firefox(sklon: "rodilnik") }, če pozabite geslo.
+recovery-key-file-instructions = Shranite to datoteko s ključem za obnovitev računa na mesto, ki si ga boste zapomnili, ali ga natisnite in obdržite fizično kopijo. Ključ za obnovitev računa vam lahko pomaga obnoviti podatke v { -brand-firefox(sklon: "mestnik") }, če pozabite geslo.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Ključ: { $recoveryKeyValue }
@@ -393,9 +393,9 @@ flow-recovery-key-info-back-button-title = Nazaj na nastavitve
 # The header of the first view in the Recovery Key Add flow
 flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozabite geslo
 # In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je super zaradi varovanja zasebnosti, vendar pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
+flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je odlično z vidika varovanja zasebnosti, vendar hkrati pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
 # In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – s svojim ključem lahko obnovite svoje podatke.
+flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
 flow-recovery-key-info-cta-text = Začnite ustvarjati obnovitveni ključ
 
@@ -1088,7 +1088,7 @@ pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opr
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Počakajte, preusmerjeni ste na pooblaščeno aplikacijo.
+third-party-auth-callback-message = Počakajte, poteka preusmeritev na pooblaščeno aplikacijo.
 
 ## AccountRecoveryConfirmKey page
 
