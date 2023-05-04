@@ -52,6 +52,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Luchdaich a-nu
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Luchdaich a-nuas { $productName } san { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Stàlaich { $productName } air <a data-l10n-name="anotherDeviceLink">uidheam desktop eile</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Stàlaich { $productName } air <a data-l10n-name="anotherDeviceLink">uidheam eile</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Faigh { $productName } air Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Luchdaich a-nuas { $productName } san App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Stàlaich { $productName } air uidheam eile:
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
 newDeviceLogin-action = Stiùirich an cunntas
