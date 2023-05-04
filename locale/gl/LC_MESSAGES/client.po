@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 18:52+0000\n"
+"PO-Revision-Date: 2023-05-04 19:01+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -918,6 +918,8 @@ msgstr ""
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">NOTA:</span> Se restabelece o seu contrasinal e non ten gardada a clave de recuperación da conta, eliminaranse algúns dos seus datos (incluídos datos sincronizados co servidor "
+"como o historial e os marcadores)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -946,15 +948,15 @@ msgstr "Máis información"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Escolla que sincronizar:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Sincronizar a selección"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Non sincronizar este dispositivo"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -962,11 +964,11 @@ msgstr "Danouse a ligazón de restabelecer o contrasinal"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Á ligazón que premeu faltábanlle caracteres, pode que o seu cliente de correo electrónico a rompese. Probe a copiar o enderezo de novo, con coidado."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Crear un novo contrasinal"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -984,19 +986,19 @@ msgstr "Novo contrasinal"
 
 #: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr ""
+msgstr "Escriba de novo o contrasinal"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Lembra o contrasinal? Inicie sesión"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Xa se confirmou o enderezo de correo electrónico principal"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Xa se confirmou o inicio de sesión"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
@@ -1024,7 +1026,7 @@ msgstr "Confirme a súa conta"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Confirmar este inicio de sesión"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
@@ -1032,12 +1034,12 @@ msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Busque no correo electrónico a ligazón de confirmación de inicio de sesión, enviada a %(escapedEmail)s."
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr ""
+msgstr "Non está na caixa de entrada nin na do correo non desexado? Enviala de novo"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
@@ -1050,7 +1052,7 @@ msgstr "Enviouse un correo de restabelecemento"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Prema a ligazón enviada a %(email)s na próxima hora para crear un novo contrasinal."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1068,7 +1070,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Escriba o código de 6 díxitos"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
@@ -1085,7 +1087,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
-msgstr ""
+msgstr "Conectar outro dispositivo"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
@@ -1097,19 +1099,19 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Completar a configuración"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Inicie sesión neste Firefox para completar a configuración."
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Segue a engadir dispositivos?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Inicie sesión no Firefox doutro dispositivo para completar a configuración."
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
@@ -1121,15 +1123,15 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Segue a engadir dispositivos? Inicie sesión no Firefox doutro dispositivo para completar a configuración."
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Inicie sesión en Firefox para Android para completar a configuración."
 
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Inicie sesión en Firefox para iOS para completar a configuración."
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
