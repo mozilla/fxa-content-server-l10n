@@ -274,9 +274,13 @@ reactivate-confirm-copy =
     Conservará o acceso a { $name }, o ciclo de facturación
     e o pago. O seguinte cargo será de
     { $amount } o { $endDate }, á tarxeta que remata en { $last }.
+reactivate-confirm-button = Subscribirse de novo
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = Perderá acceso a { $name } o <strong>{ $date }</strong>.
+reactivate-success-copy = Grazas! Está todo listo.
+reactivate-success-button = Pechar
 
 ## Routes - Subscriptions - Subscription iap item
 
