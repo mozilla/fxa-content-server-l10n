@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 20:21+0000\n"
+"PO-Revision-Date: 2023-05-04 20:44+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1682,10 +1682,12 @@ msgstr "para continuar a %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Detectamos un comportamento sospeitoso na súa conta de Firefox. Para protexer a súa conta, cree un novo contrasinal. Empregará este contrasinal para iniciar sesión en todos os servizos da súa conta "
+"de Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Non se perderán os datos sincronizados de historial, marcadores, credenciais e outros datos persoais."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1693,7 +1695,7 @@ msgstr "Contrasinal actual"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Repita o novo contrasinal"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
@@ -1701,23 +1703,23 @@ msgstr "Cambiar contrasinal"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Este Firefox está conectado"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Inicie sesión para máis"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Enviouse información práctica á súa caixa de entrada."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Reciba información práctica na súa caixa de entrada sobre:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Subscribir %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
@@ -1738,7 +1740,7 @@ msgstr ""
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirmar o contrasinal"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
@@ -1746,83 +1748,83 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Conectouse o dispositivo!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Conectar outro"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Usar SMS mellor"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Rematei por agora"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Sincronice Firefox entre dispositivos"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Sincronice marcadores, historial e contrasinais con Firefox nos seus dispositivos móbiles. Serán só uns minutos."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
 msgid "Get started"
-msgstr ""
+msgstr "Comezar"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Fareino máis tarde, envíeme un recordatorio"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Descargue Firefox coa súa aplicación de cámara"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "A instalación de Firefox e a sincronización entre polo menos dous dispositivos tamén protexe contra a perda de datos."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Listo para escanear"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Conecte o dispositivo móbil</h1><p>co código QR creado para vostede</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Abra a aplicación de cámara no dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Apunte a cámara ao código QR e toque a ligazón que aparece"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Instale Firefox e ábrao no seu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "Acceda á súa conta"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Abra a aplicación de cámara no dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Apunte a cámara ao código QR e toque a aplicación que aparece"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Instale Firefox e ábrao no dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Inicie sesión"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
@@ -1830,11 +1832,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Os datos sincronizados poden incluír contrasinais que gardou."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Dado que esta información é fundamental para a súa seguridade, Firefox elimínaa cando restabelece o contrasinal para evitar que outras persoas poidan acceder a ela."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
@@ -1854,7 +1856,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
-msgstr ""
+msgstr "Feito"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
@@ -1866,7 +1868,7 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
-msgstr ""
+msgstr "Cantos anos ten?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
@@ -1874,27 +1876,27 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(family)s en %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s (estimado)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (estimado)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
-msgstr ""
+msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "Localización descoñecida"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "Enderezo IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1918,19 +1920,19 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "O noso sistema ten un problema, e estamos traballando en solucionalo. Lamentamos as molestias. Inténteo de novo máis tarde."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Enviouse a mensaxe ao equipo de asistencia técnica"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Volver a subscricións"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Busca Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comece aquí</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1966,7 +1968,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
-msgstr ""
+msgstr "Conectouse un dispositivo"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1985,19 +1987,19 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
-msgstr ""
+msgstr "Xestionar os dispositivos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Agora ten que aprobalo <small>desde o outro dispositivo</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
-msgstr ""
+msgstr "O emparellamento fallou"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Interrompeuse o proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
@@ -2029,11 +2031,11 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Emparellouse o dispositivo"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Completouse o emparellamento."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
@@ -2041,12 +2043,12 @@ msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Confirmar o emparellamento"
 
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
-msgstr ""
+msgstr "Emparellar mediante unha aplicación"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Usou a cámara do sistema? Ten que emparellar desde unha aplicación de Firefox."
