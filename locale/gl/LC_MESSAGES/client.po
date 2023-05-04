@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 19:01+0000\n"
+"PO-Revision-Date: 2023-05-04 20:07+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1135,11 +1135,11 @@ msgstr "Inicie sesión en Firefox para iOS para completar a configuración."
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Precísanse rastros e almacenamento local"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Active os rastros e o almacenamento local no navegador para acceder ás contas de Firefox. Facelo permitirá funcionalidades como manter a sesión tras reinicios."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
-msgstr ""
+msgstr "Escriba o seu enderezo de correo electrónico"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1198,30 +1198,30 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Garde estes códigos de un só uso nun lugar seguro para cando non teña o seu dispositivo móbil."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
-msgstr ""
+msgstr "Imprimir"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Cancelar a configuración"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
@@ -1237,47 +1237,47 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Activar a autenticación en dous pasos"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Para mellorar a seguridade da conta, esixa códigos de seguridade dunha destas <a %(escapedTotpSupportAttributes)s>aplicacións de autenticación</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Escanear o código de autenticación"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Escribir o código"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Escanee o código QR cunha aplicación de autenticación e escriba o código de seguridade que mostrará."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Non pode escanear o código?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Cando remate comezará a xerar códigos de seguridade."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Escriba esta clave secreta na súa aplicación de autenticación."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Ou escanear o código QR?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
-msgstr ""
+msgstr "Código de seguridade"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
-msgstr ""
+msgstr "Listo"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1293,33 +1293,33 @@ msgstr "Política de privacidade"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Descubra a experiencia de sincronización definitiva."
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Descargar Firefox para iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Descargar Firefox para Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Descargar Firefox para dispositivos móbiles."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Solicitude de permiso"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s quere esta información da súa conta:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Aceptar"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -1335,7 +1335,7 @@ msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
-msgstr ""
+msgstr "Continuar á miña conta"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
@@ -1347,19 +1347,19 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Informar dun inicio de sesión non autorizado?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Recibiu unha mensaxe de correo electrónico sobre un intento de acceso á súa conta. Quere denunciar esta actividade como sospeitosa?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Denunciar a actividade"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Isto por que pasa?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
@@ -1373,19 +1373,19 @@ msgstr "Correo"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr ""
+msgstr "Comezar o restabelecemento"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Actividade recente"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Eventos de seguridade"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Nome do evento"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
@@ -1393,23 +1393,23 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Creado o"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Eliminar os eventos"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Volver á configuración"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Bloqueouse a súa conta."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "A mensaxe de correo electrónico de confirmación enviada a %(email)s viu de volta, así que bloqueamos a conta para protexer os seus datos de Firefox."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
