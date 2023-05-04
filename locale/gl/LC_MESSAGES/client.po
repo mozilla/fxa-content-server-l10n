@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 20:13+0000\n"
+"PO-Revision-Date: 2023-05-04 20:21+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1474,15 +1474,15 @@ msgstr "Ten problemas para escribir o código?"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Autorizar este inicio de sesión"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Busca no correo electrónico o código de autorización enviado a %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Escriba o código de autorización"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
@@ -1490,7 +1490,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr ""
+msgstr "Cambiar o enderezo de correo electrónico"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
@@ -1502,7 +1502,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Enviámoslle información práctica á caixa de entrada. Inscríbase para descubrir máis:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1510,7 +1510,7 @@ msgstr "Escolla que sincronizar"
 
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
-msgstr ""
+msgstr "Crear unha conta"
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid ""
@@ -1523,7 +1523,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Contas de Firefox"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
@@ -1535,11 +1535,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Contacte connosco"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Por que está a contactar connosco?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
@@ -1547,27 +1547,27 @@ msgstr ""
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Con que necesita axuda?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr ""
+msgstr "Pagos e facturas"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
-msgstr ""
+msgstr "Problemas coa conta"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Problemas técnicos"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Opinar ou solicitar funcionalidades"
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Non aparece"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
@@ -1575,27 +1575,27 @@ msgstr ""
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Asunto (opcional)"
 
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
-msgstr ""
+msgstr "Descrición do problema"
 
 #: .es5/templates/support.mustache:22
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Quere sincronizar este dispositivo coa súa conta?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sincronizar este dispositivo"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Paso 1 de 2: repetir o contrasinal"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
@@ -1603,11 +1603,11 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
-msgstr ""
+msgstr "Escriba o contrasinal"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Conectouse"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
@@ -1643,20 +1643,20 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Engadir un enderezo de correo electrónico secundario"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Para recuperar a conta se non pode acceder a %(escapedEmail)s, engada un enderezo de correo electrónico secundario."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr ""
+msgstr "Enderezo de correo electrónico secundario"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
-msgstr ""
+msgstr "Quizais máis tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1664,19 +1664,19 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Necesita outro código? Enviar outro"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Usar outro enderezo de correo electrónico"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Cambie de contrasinal"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "para continuar a %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
