@@ -375,6 +375,11 @@ drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
 flow-container-back = Retro
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Tornar a parametros
+
 # HeaderLockup component
 
 header-menu-open = Clauder menu
@@ -568,6 +573,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
 recovery-key-success-alert-3 = Clave de recuperation del conto create
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
