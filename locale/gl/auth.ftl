@@ -1,10 +1,12 @@
 ## Non-email strings
 
+session-verify-send-push-body-2 = Fai clic aquí para confirmar que es ti
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+subplat-privacy-notice = Aviso de privacidade
 recovery-subject = Restabelecer o contrasinal
 
 ## Variables

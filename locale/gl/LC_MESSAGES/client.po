@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2017-11-15 22:22+0000\n"
-"Last-Translator: Keko <eu@keko.me>\n"
+"PO-Revision-Date: 2023-05-04 18:08+0000\n"
+"Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr "Restabeleceuse o contrasinal"
 
 #: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Restableceuse o contrasinal correctamente. Inicie sesión para continuar."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -34,19 +34,19 @@ msgstr "Eliminouse a conta correctamente"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Use o código %(code)s para configurar a autenticación en dous pasos nos aplicativos compatibles."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (requirido)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr ""
+msgstr "Enderezo do correo"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
-msgstr ""
+msgstr "Nome visíbel"
 
 #: .es5/views/permissions.js:52
 msgid "Account picture"
@@ -54,23 +54,23 @@ msgstr "Imaxe da conta"
 
 #: .es5/views/ready.js:58
 msgid "Welcome back"
-msgstr ""
+msgstr "Benvido de novo"
 
 #: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
-msgstr ""
+msgstr "Firefox Sync continuará en breves"
 
 #: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Restableceuse o contrasinal."
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Completa a configuración introducindo o novo contrasinal nos outros dispositivos con Firefox."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Xa pode facer cambios na súa conta de Firefox."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "As notificacións da conta tamén se enviarán a %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Confirmouse o inicio de sesión"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
-msgstr ""
+msgstr "Conectado"
 
 #: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -106,11 +106,11 @@ msgstr "Conta descoñecida. <a href=\"/signup\">Crear conta</a>"
 
 #: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "A conta xa non existe. Recreala?"
 
 #: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 #: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -847,9 +847,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -918,8 +916,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1158,8 +1155,7 @@ msgid "Password"
 msgstr "Contrasinal"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1425,8 +1421,7 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1519,8 +1514,7 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -2020,8 +2014,7 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
