@@ -10,6 +10,18 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Cerrar
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Correo electrónico reenviado. Añade { $accountsEmail } a tus contactos para asegurar una recepción sin problemas.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Ha habido un problema. No se ha podido enviar un nuevo enlace.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Ha habido un problema. No se ha podido enviar un nuevo código.
+
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +62,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = Tarjetas de crédito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = Abrir { $emailProvider }
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = ¿No está en la bandeja de entrada o en la carpeta spam? Reenviar
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -132,6 +140,16 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Un ordenador, un teléfono móvil y la imagen de un corazón roto en cada uno.
+hearts-verified-image-aria-label =
+    .aria-label = Un ordenador, un teléfono móvil y una tablet con un corazón palpitante en cada uno.
+signin-recovery-code-image-description =
+    .aria-label = Documento que contiene texto oculto.
+signin-totp-code-image-label =
+    .aria-label = Un dispositivo con un código oculto de 6 dígitos.
+confirm-signup-aria-label =
+    .aria-label = Un sobre que contiene un enlace
 
 ## Input Password
 
@@ -150,19 +168,26 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña está 
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Enlace de confirmación dañado
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Recibir nuevo enlace
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = El enlace para restablecer la contraseña ha cadudado
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = Enlace de confirmación expirado
 reset-pwd-link-expired-message = El enlace que seleccionaste para restablecer la contraseña ha caducado.
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Enlace de confirmación expirado
 signin-link-expired-message = El enlace en el que hiciste clic para confirmar tu correo electrónico ha caducado.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Recibir nuevo enlace
 
 ## LinkRememberPassword component
 
@@ -181,6 +206,8 @@ confirmation-link-reused-message = Ese enlace de confirmación ya ha sido usado 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
+password-info-balloon-reset-risk-info = Un reinicio podría ocasionar la pérdida de datos como contraseñas y marcadores.
 
 ## PasswordStrengthBalloon component
 
@@ -348,6 +375,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Cerrar
 modal-cancel-button = Cancelar
+modal-default-confirm-button = Confirmar
 
 ## Modal Verify Session
 
@@ -494,6 +522,7 @@ display-name-success-alert-2 = Nombre visible actualizado
 
 ## Recent Activity
 
+recent-activity-title = Actividad reciente de la cuenta
 
 # Account recovery key setup page
 
@@ -594,6 +623,9 @@ profile-primary-email =
     .header = Correo electrónico principal
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -716,6 +748,12 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 ## These terms are used in signin and signup for Firefox account
 
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+continue-with-google-button = Continuar con { -brand-google }
+continue-with-apple-button = Continuar con { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cuenta desconocida
@@ -724,28 +762,46 @@ auth-error-105-2 = Código de confirmación no válido
 auth-error-110 = Token no válido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has probado demasiadas veces. Vuelve a intentarlo { $retryAfter }.
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación no válido o caducado
+auth-error-999 = Error inesperado
 auth-error-1008 = La nueva contraseña debe ser diferente
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = No se ha podido crear la cuenta
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Saber más
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Has iniciado sesión en { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Correo electrónico confirmado
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Inicio de sesión confirmado
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Iniciar sesión
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Conectar otro dispositivo
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ahora no
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Reintentar
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Saber más
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -763,6 +819,7 @@ inline-recovery-back-link = Atrás
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
@@ -770,6 +827,9 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Legal
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Términos del servicio
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-privacy-link = Aviso de privacidad
 
@@ -792,6 +852,9 @@ pair-auth-allow-confirm-button = Sí, aprobar dispositivo
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Dispositivo conectado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ahora estás sincronizando con: { $deviceFamily } en { $deviceOS }
 pair-auth-complete-sync-benefits-text = Ahora puedes acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos.
 pair-auth-complete-see-tabs-button = Ver pestañas de dispositivos sincronizados
 pair-auth-complete-manage-devices-link = Administrar dispositivos
@@ -800,17 +863,30 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Introduce el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+auth-totp-input-label = Introduce el código de 6 dígitos
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirmar
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Se requiere aprobación <span>desde tu otro dispositivo</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Ha fallado el emparejamiento
+pair-failure-message = Proceso de configuración interrumpido.
 
 ## Pair index page
 
+pair-sync-header = Sincronizar { -brand-firefox } en tu teléfono o tableta
+pair-cad-header = Conectar { -brand-firefox } en otro dispositivo
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ahora no
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -839,6 +915,10 @@ pair-supp-allow-cancel-link = Cancelar
 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 
 ## AccountRecoveryConfirmKey page
@@ -902,9 +982,6 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
 reset-password-button = Iniciar restablecimiento
-reset-password-success-alert = Contraseña restablecida
-reset-password-error-general = Lo sentimos, ha surgido un problema al establecer tu contraseña
-reset-password-error-unknown-account = Cuenta desconocida
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
 
@@ -964,6 +1041,7 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v2 = Introduce el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
@@ -973,6 +1051,7 @@ signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirma tu cuenta
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -980,13 +1059,17 @@ signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Introduce el código de confirmación
 confirm-signup-code-input-label = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
 confirm-signup-code-code-expired = ¿Código caducado?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
+confirm-signup-code-success-alert = Cuenta confirmada correctamente
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Establece tu contraseña

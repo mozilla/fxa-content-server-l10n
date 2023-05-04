@@ -165,7 +165,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -b
 payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Requerido
 
 ## Component - PaymentProcessing
 
@@ -174,6 +173,10 @@ payment-processing-message = Por favor, espera mientras procesamos tu pago…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pagar con { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -407,9 +410,9 @@ new-user-submit = Suscribirse ahora
 
 sub-update-payment-title = Información del pago
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = O paga con tarjeta
 pay-with-heading-card-only = Pagar con tarjeta
 product-invoice-preview-error-title = Problema al cargar la vista previa de la factura
 product-invoice-preview-error-text = No se ha podido cargar la vista previa de la factura
