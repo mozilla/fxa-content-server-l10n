@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-04 20:07+0000\n"
+"PO-Revision-Date: 2023-05-04 20:13+0000\n"
 "Last-Translator: adrian <adrian@chaves.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -1413,11 +1413,11 @@ msgstr "A mensaxe de correo electrónico de confirmación enviada a %(email)s vi
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Se este é un enderezo de correo electrónico válido, <a %(escapedSupportLinkAttrs)s>infórmanos</a> e axudarémoste a desbloquear a conta."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Xa non ten ese enderezo de correo electrónico? Cree unha nova conta"
 
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
@@ -1442,15 +1442,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Non pode entrar?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Grazas por permanecer vixilante"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Notificamos ao noso equipo. Denuncias coma esta axúdannos a defendernos das intrusións."
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
@@ -1462,15 +1462,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Escriba o código de seguridade"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Abra a aplicación de autenticación e escriba o código de seguridade que fornece."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Ten problemas para escribir o código?"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
