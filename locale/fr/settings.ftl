@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Un appareil avec un code caché à 6 chiffres.
 confirm-signup-aria-label =
     .aria-label = Une enveloppe contenant un lien
+security-shield-aria-label =
+    .aria-label = Illustration représentant une clé de récupération de compte.
 
 ## Input Password
 
@@ -372,6 +374,19 @@ drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconn
 
 flow-container-back = Retour
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Retour aux paramètres
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Créez une clé de récupération de compte au cas où vous oublieriez votre mot de passe
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Nous chiffrons les données de navigation (mots de passe, marque-pages, etc.). C’est excellent pour la vie privée, mais cela signifie que nous ne pouvons pas récupérer vos données si vous oubliez votre mot de passe.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = C’est pourquoi créer une clé de récupération de compte est si important : vous pouvez utiliser votre clé pour récupérer vos données.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Commencez à créer votre clé de récupération
+
 # HeaderLockup component
 
 header-menu-open = Fermer le menu
@@ -568,6 +583,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Étape 1 sur 2
 recovery-key-step-2 = Étape 2 sur 2
 recovery-key-success-alert-3 = Clé de récupération de compte créée
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clé de récupération de compte
 
 ## Add secondary email page
 
