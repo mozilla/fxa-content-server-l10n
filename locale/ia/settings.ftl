@@ -379,6 +379,8 @@ flow-container-back = Retro
 
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Tornar a parametros
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Initia crear tu clave de recuperation
 
 # HeaderLockup component
 
@@ -576,6 +578,8 @@ recovery-key-success-alert-3 = Clave de recuperation del conto create
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clave de recuperation del conto
 
 ## Add secondary email page
 
