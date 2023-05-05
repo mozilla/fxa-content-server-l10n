@@ -381,11 +381,11 @@ flow-recovery-key-info-back-button-title = Torna alle impostazioni
 # The header of the first view in the Recovery Key Add flow
 flow-recovery-key-info-header = Crea una chiave di recupero dell’account nel caso in cui dimentichi la password
 # In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Criptiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma significa che non possiamo recuperare i tuoi dati se dimentichi la password.
+flow-recovery-key-info-shield-bullet-point = Crittiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma significa che non possiamo recuperare i tuoi dati se dimentichi la password.
 # In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
 flow-recovery-key-info-key-bullet-point = Ecco perché è così importante creare una chiave di recupero dell’account: puoi utilizzare la tua chiave per recuperare i tuoi dati.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Inizia a creare la chiave di ripristino
+flow-recovery-key-info-cta-text = Inizia a creare la chiave di recupero dell’account
 
 # HeaderLockup component
 
@@ -584,7 +584,7 @@ recovery-key-success-alert-3 = La chiave di recupero dell’account è stata gen
 ## Create Recovery Key page
 
 # The page title displayed at the top of the flow container
-recovery-key-create-page-title = Chiave per il recupero dell’account
+recovery-key-create-page-title = Chiave di recupero dell’account
 
 ## Add secondary email page
 
