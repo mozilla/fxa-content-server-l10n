@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Прылада са схаваным 6-значным кодам.
 confirm-signup-aria-label =
     .aria-label = Канверт са спасылкай
+security-shield-aria-label =
+    .aria-label = Ілюстрацыя, якая прадстаўляе ключ аднаўлення ўліковага запісу.
 
 ## Input Password
 
@@ -385,6 +387,11 @@ drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзні�
 
 flow-container-back = Назад
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Вярнуцца да наладаў
+
 # HeaderLockup component
 
 header-menu-open = Закрыць меню
@@ -581,6 +588,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
 recovery-key-success-alert-3 = Ключ аднаўлення ўліковага запісу створаны
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
