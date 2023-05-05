@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = 包含隱藏六位數安全碼的裝置。
 confirm-signup-aria-label =
     .aria-label = 包含鏈結的信封
+security-shield-aria-label =
+    .aria-label = 表示帳號救援金鑰的插圖。
 
 ## Input Password
 
@@ -370,6 +372,19 @@ drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
 flow-container-back = 上一頁
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = 回到設定
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = 建立帳號救援金鑰，避免忘記密碼時資料流失
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = 我們會為您加密上網資料（密碼、書籤等等資料），對您的隱私很有保護，但要是忘記密碼，就無法救回所有資料。
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = 所以帳號救援金鑰相當重要，萬一忘記密碼時，還可以用這把金鑰救回資料。
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = 打一把救援金鑰
+
 # HeaderLockup component
 
 header-menu-open = 關閉選單
@@ -563,6 +578,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = 第 1 步，共 2 步
 recovery-key-step-2 = 第 2 步，共 2 步
 recovery-key-success-alert-3 = 已建立帳號救援金鑰
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = 帳號救援金鑰
 
 ## Add secondary email page
 
