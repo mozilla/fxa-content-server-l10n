@@ -22,6 +22,15 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Κλειδί:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Μάθετε περισσότερα σχετικά με το κλειδί ανάκτησης του λογαριασμού σας: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -148,6 +157,8 @@ signin-totp-code-image-label =
     .aria-label = Μια συσκευή με κρυφό 6ψήφιο κωδικό.
 confirm-signup-aria-label =
     .aria-label = Ένας φάκελος που περιέχει έναν σύνδεσμο
+security-shield-aria-label =
+    .aria-label = Απεικόνιση ενός κλειδιού ανάκτησης λογαριασμού.
 
 ## Input Password
 
@@ -354,6 +365,9 @@ drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλ�
 
 flow-container-back = Πίσω
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+
 # HeaderLockup component
 
 header-menu-open = Κλείσιμο μενού
@@ -546,6 +560,11 @@ recovery-key-step-1 = Βημα 1 απο 2
 recovery-key-step-2 = Βημα 2 απο 2
 recovery-key-success-alert-3 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Κλειδί ανάκτησης λογαριασμού
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Βήμα 1 από 2
@@ -638,6 +657,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = Μια γραμμή προόδου που υποδεικνύει ότι ο χρήστης βρίσκεται στο βήμα { $currentStep } από { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -931,6 +955,10 @@ pair-failure-message = Η διαδικασία ρύθμισης τερματίσ
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Συγχρονισμός συσκευής
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Ή λήψη
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Όχι τώρα
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -968,6 +996,9 @@ pair-unsupported-header = Σύζευξη με εφαρμογή
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Επιβεβαίωση κλειδιού ανάκτησης λογαριασμού
 # Error displayed in an alert banner when the recovery key confirmation is unsuccessful
