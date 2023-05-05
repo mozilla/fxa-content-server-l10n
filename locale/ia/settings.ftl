@@ -169,6 +169,8 @@ signin-totp-code-image-label =
     .aria-label = Un apparato con un codice occulte de 6 cifras.
 confirm-signup-aria-label =
     .aria-label = Un inveloppe continente un ligamine
+security-shield-aria-label =
+    .aria-label = Illustration pro representar un clave de recuperation de conto.
 
 ## Input Password
 
