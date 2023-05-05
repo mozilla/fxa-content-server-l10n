@@ -389,13 +389,13 @@ flow-container-back = Atrás
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Volver a ajustes
 # The header of the first view in the Recovery Key Add flow
-flow-recovery-key-info-header = Crea una clave de recuperación de cuenta en caso de que olvides tu contraseña
+flow-recovery-key-info-header = Creá una clave de recuperación de cuenta en caso de que olvidés tu contraseña
 # In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Ciframos los datos de navegación - contraseñas, marcadores y más. Es genial para la privacidad, pero significa que no podremos recuperar tus datos si olvidas la contraseña.
+flow-recovery-key-info-shield-bullet-point = Ciframos los datos de navegación –– contraseñas, marcadores y más. Es genial para la privacidad, pero significa que no podremos recuperar tus datos si olvidás la contraseña.
 # In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-key-bullet-point = Es por eso que crear una clave de recuperación de cuenta es tan importante - puedes usar tu clave para recuperar tus datos.
+flow-recovery-key-info-key-bullet-point = Es por eso que crear una clave de recuperación de cuenta es tan importante –– podés usar tu clave para recuperar tus datos.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Comienza a crear tu clave de recuperación
+flow-recovery-key-info-cta-text = Comenzar a crear tu clave de recuperación
 
 # HeaderLockup component
 
