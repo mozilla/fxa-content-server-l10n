@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Um dispositivo com um código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Um envelope contendo um link
+security-shield-aria-label =
+    .aria-label = Ilustração para representar uma chave de recuperação de conta.
 
 ## Input Password
 
@@ -370,6 +372,15 @@ drop-down-menu-sign-out-error-2 = Desculpe, houve um problema ao desconectar da 
 
 flow-container-back = Voltar
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Voltar à configuração
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Crie uma chave de recuperação de conta, para o caso de você esquecer sua senha
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Criptografamos os dados de navegação –– senhas, favoritos e muito mais. É ótimo para privacidade, mas significa que não podemos recuperar seus dados se você esquecer sua senha.
+
 # HeaderLockup component
 
 header-menu-open = Fechar menu
@@ -563,6 +574,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Etapa 1 de 2
 recovery-key-step-2 = Etapa 2 de 2
 recovery-key-success-alert-3 = Criada chave de recuperação de conta
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
