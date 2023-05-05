@@ -393,7 +393,7 @@ flow-recovery-key-info-back-button-title = Vissza a beállításokhoz
 # The header of the first view in the Recovery Key Add flow
 flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcsot arra az esetre, ha elfelejtené a jelszavát
 # In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de azt jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
+flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de ez azt is jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
 # In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
 flow-recovery-key-info-key-bullet-point = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja a kulcsát, hogy visszakapja az adatait.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
@@ -1088,7 +1088,7 @@ pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Kérem, várjon, át lesz irányítva a engedélyezett alkalmazáshoz.
+third-party-auth-callback-message = Kis türelmet, át lesz irányítva az engedélyezett alkalmazáshoz.
 
 ## AccountRecoveryConfirmKey page
 
