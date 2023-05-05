@@ -58,6 +58,8 @@ ios-download-plaintext = Stáhnout { $productName } z App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Nainstalovat { $productName } na jiné zařízení:
 automated-email-support = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Pokud jste tuto akci neprovedli, okamžitě si změňte heslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }:
 automated-email-no-action-plaintext = Tento e-mail byl zaslán automaticky. Pokud jste jej obdrželi omylem, nemusíte nic dělat.
@@ -114,6 +116,10 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednorázová sleva
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Daně a poplatky: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Dne { $invoiceDateOnly } účtováno { $invoiceTotal }
 subscriptionSupport = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a data-l10n-name="subscriptionSupportUrl">tým podpory</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:
@@ -131,6 +137,9 @@ subscriptionUpdateBillingTry-plaintext = Vaši platbu zkusíme provést znovu za
 subscriptionUpdatePayment = Abyste zabránili jakémukoliv přerušení předplatného služeb, <a data-l10n-name="updateBillingUrl">aktualizujte včas své platební údaje</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -180,6 +189,7 @@ downloadSubscription-subject = Vítá vás { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Vítá vás { $productName }
 downloadSubscription-link-action-2 = Začít
+fraudulentAccountDeletion-subject = Váš { -product-firefox-account(capitalization: "lower") } byl smazán
 fraudulentAccountDeletion-title = Váš účet byl smazán
 codes-reminder-description-two-left = Zbývají vám jen dva kódy.
 lowRecoveryCodes-action-2 = Vytvořit kódy
@@ -187,6 +197,9 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Pro přihlášení byl použitý váš { -product-firefox-account(capitalization: "lower") }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Nebyli jste to vy? Změňte si heslo:
@@ -210,6 +223,8 @@ passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k účtu
 postAddAccountRecovery-subject-2 = Obnovovací klíč k účtu byl vytvořen
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Nový klíč byl vytvořen z:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Nejste to vy?
 postAddAccountRecovery-action = Správa účtu
@@ -224,6 +239,8 @@ postAddTwoStepAuthentication-action = Správa účtu
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
 postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-action = Správa účtu
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Byl použitý na:
 postConsumeRecoveryCode-action = Správa účtu
 postNewRecoveryCodes-action = Správa účtu
 postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
