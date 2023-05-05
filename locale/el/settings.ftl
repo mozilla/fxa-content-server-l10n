@@ -22,11 +22,21 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Λήψη του κλειδιού ανάκτησής σας
+    .title = Λήψη
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣΗΣ ΛΟΓΑΡΙΑΣΜΟΥ
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Κλειδί:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Δημιουργία κλειδιού: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
@@ -367,6 +377,8 @@ flow-container-back = Πίσω
 
 ## First view in the Recovery-Key-Add UX redesign flow
 
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Πίσω στις ρυθμίσεις
 
 # HeaderLockup component
 
@@ -955,6 +967,7 @@ pair-failure-message = Η διαδικασία ρύθμισης τερματίσ
 
 ## Pair index page
 
+pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } στο κινητό ή το tablet σας;
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Συγχρονισμός συσκευής
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
@@ -975,6 +988,9 @@ pair-success-message-2 = Επιτυχής σύζευξη.
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Επιβεβαίωση σύζευξης <span>για το { $email }</span>
 pair-supp-allow-confirm-button = Επιβεβαίωση σύζευξης
 pair-supp-allow-cancel-link = Ακύρωση
 
@@ -989,6 +1005,7 @@ pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>απ
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Σύζευξη με εφαρμογή
+pair-unsupported-message = Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1025,6 +1042,9 @@ complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσ
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 
 ## Confirm Reset Password Component
 
