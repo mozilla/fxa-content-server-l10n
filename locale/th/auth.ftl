@@ -122,6 +122,20 @@ subscriptionFirstInvoiceDiscount-content-subtotal = รวมเงิน: { $in
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = ส่วนลด: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = ส่วนลดครั้งเดียว: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = ส่วนลด { $discountDuration } เดือน: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = ภาษีและค่าธรรมเนียม: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = เรียกเก็บเงินจำนวน { $invoiceTotal } เมื่อ { $invoiceDateOnly }
 subscriptionSupport = มีคำถามเกี่ยวกับการสมัครสมาชิกของคุณหรือไม่? <a data-l10n-name="subscriptionSupportUrl">ทีมสนับสนุน</a>ของเราพร้อมช่วยคุณ
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = มีคำถามเกี่ยวกับการสมัครสมาชิกของคุณหรือไม่? ทีมสนับสนุนของเราพร้อมช่วยคุณ:
@@ -197,6 +211,7 @@ downloadSubscription-link-action-2 = เริ่มต้น
 fraudulentAccountDeletion-subject = ลบ{ -product-firefox-account } ของคุณแล้ว
 fraudulentAccountDeletion-title = ลบบัญชีของคุณแล้ว
 fraudulentAccountDeletion-content = เมื่อเร็วๆ นี้ { -product-firefox-account } ได้ถูกสร้างขึ้นและได้มีการเรียกเก็บเงินค่าสมัครสมาชิกโดยใช้ที่อยู่อีเมลนี้ เช่นเดียวกับที่เราดำเนินการกับบัญชีใหม่ทั้งหมด เราขอให้คุณยืนยันบัญชีของคุณโดยตรวจสอบความถูกต้องของที่อยู่อีเมลนี้ก่อน
+fraudulentAccountDeletion-contact = หากคุณมีคำถามใดๆ โปรดติดต่อ<a data-l10n-name="mozillaSupportUrl">ทีมช่วยเหลือ</a>ของเรา
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
@@ -273,11 +288,15 @@ postChangePrimary-title = อีเมลหลักใหม่
 #  $email (String) - A user's email address
 postChangePrimary-description = คุณได้เปลี่ยนแปลงอีเมลหลักเป็น { $email } สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใช้ใน{ -product-firefox-account } ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใจ
 postChangePrimary-action = จัดการบัญชี
+postConsumeRecoveryCode-title-2 = คุณใช้รหัสยืนยันตัวตนสำรองไปแล้ว
 postConsumeRecoveryCode-action = จัดการบัญชี
+postNewRecoveryCodes-subject-2 = สร้างรหัสยืนยันตัวตนสำรองใหม่แล้ว
+postNewRecoveryCodes-title-2 = คุณได้สร้างรหัสยืนยันตัวตนสำรองใหม่แล้ว
 postNewRecoveryCodes-action = จัดการบัญชี
 postRemoveAccountRecovery-subject-2 = ลบคีย์กู้คืนบัญชีแล้ว
 postRemoveAccountRecovery-title-2 = คุณลบคีย์กู้คืนบัญชีของคุณแล้ว
 postRemoveAccountRecovery-action = จัดการบัญชี
+postRemoveAccountRecovery-invalid-2 = คุณต้องใช้คีย์กู้คืนบัญชีเพื่อกู้คืนข้อมูลใน { -brand-firefox } ของคุณหากคุณลืมรหัสผ่าน
 postRemoveSecondary-subject = อีเมลสำรองถูกลบแล้ว
 postRemoveSecondary-title = อีเมลสำรองถูกลบแล้ว
 # Variables:
