@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Laite piilotetulla 6-numeroisella koodilla.
 confirm-signup-aria-label =
     .aria-label = Kirjekuori, joka sisältää linkin
+security-shield-aria-label =
+    .aria-label = Tilin palautusavainta esittävä kuva.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni
 
 flow-container-back = Takaisin
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Takaisin asetuksiin
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Luo tilin palautusavain siltä varalta, että unohdat salasanasi
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Salaamme selaustiedot – salasanat, kirjanmerkit ja paljon muuta. Se on hyvä yksityisyyden kannalta, mutta se tarkoittaa, että emme voi palauttaa tietojasi, jos unohdat salasanasi.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Siksi tilin palautusavaimen luominen on niin tärkeää – voit käyttää avainta tietojesi palauttamiseen.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Aloita palautusavaimen luominen
+
 # HeaderLockup component
 
 header-menu-open = Sulje valikko
@@ -580,6 +595,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Vaihe 1/2
 recovery-key-step-2 = Vaihe 2/2
 recovery-key-success-alert-3 = Tilin palautusavain luotu
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Tilin palautusavain
 
 ## Add secondary email page
 
