@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-05 19:23+0000\n"
+"PO-Revision-Date: 2023-05-05 19:29+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1308,56 +1308,56 @@ msgstr "Sfrute dut il potenziâl di Sync."
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Discjame Firefox par iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Discjame Firefox par Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Discjame Firefox par dispositîfs mobii."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Richieste di permès"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s al vûl chestis informazions dal to account:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Acete"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Anule"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Operazion lade a bon fin"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Cumò al è dut pront par doprâ <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
-msgstr ""
+msgstr "Continue sul gno account"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Il to account al è pront!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Gjenere une gnove clâf di recupar dal account"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Segnalâ acès no autorizât?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
