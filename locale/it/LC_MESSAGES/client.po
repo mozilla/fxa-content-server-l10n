@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 07:53+0000\n"
+"PO-Revision-Date: 2023-05-05 19:24+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1318,7 +1318,7 @@ msgstr "Scarica Firefox per Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Scarica Firefox per dispositivi mobile."
+msgstr "Scarica Firefox per dispositivi mobili."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
