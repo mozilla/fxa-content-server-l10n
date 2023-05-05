@@ -55,6 +55,26 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="ดาวน์โ�
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-desktop-device-2 = ติดตั้ง { $productName } บน<a data-l10n-name="anotherDeviceLink">อุปกรณ์เดสก์ท็อปอื่น</a>
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = ติดตั้ง { $productName } บน<a data-l10n-name="anotherDeviceLink">อุปกรณ์อื่น</a>
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = รับ { $productName } บน Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = ดาวน์โหลด { $productName } บน App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = ติดตั้ง{ $productName } บนอุปกรณ์อื่น:
+automated-email-change-2 = หากคุณไม่ดำเนินการนี้ ให้<a data-l10n-name="passwordChangeLink">เปลี่ยนรหัสผ่านของคุณ</a>ทันที
+automated-email-support = สำหรับข้อมูลเพิ่มเติม ให้ไปที่<a data-l10n-name="supportLink">ฝ่ายช่วยเหลือของ { -brand-mozilla }</a>
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = หากคุณไม่ดำเนินการนี้ ให้เปลี่ยนรหัสผ่านของคุณทันที:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = สำหรับข้อมูลเพิ่มเติม ให้ไปที่ฝ่ายช่วยเหลือของ { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } สำหรับข้อมูลเพิ่มเติม ให้ไปที่<a data-l10n-name="supportLink">ฝ่ายช่วยเหลือของ { -brand-mozilla }</a>:
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่ได้อนุญาตให้ดำเนินการนี้ โปรดเปลี่ยนรหัสผ่านของคุณ:
 automated-email-reset =
@@ -87,6 +107,21 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = บัตร { $cardType } ที่ลงท้ายด้วย { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = หมายเลขใบแจ้งหนี้: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = หมายเลขใบแจ้งหนี้: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = การเปลี่ยนแปลงแผน: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = รวมเงิน: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = ส่วนลด: -{ $invoiceDiscountAmount }
 subscriptionSupport = มีคำถามเกี่ยวกับการสมัครสมาชิกของคุณหรือไม่? <a data-l10n-name="subscriptionSupportUrl">ทีมสนับสนุน</a>ของเราพร้อมช่วยคุณ
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = มีคำถามเกี่ยวกับการสมัครสมาชิกของคุณหรือไม่? ทีมสนับสนุนของเราพร้อมช่วยคุณ:
