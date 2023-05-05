@@ -391,6 +391,14 @@ flow-container-back = Назад
 
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Вярнуцца да наладаў
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Стварыце ключ аднаўлення ўліковага запісу на выпадак, калі вы забудзеце пароль
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Мы шыфруем дадзеныя аглядання –– паролі, закладкі і многае іншае. Гэта выдатна для прыватнасці, але гэта азначае, што мы не можам аднавіць вашы дадзеныя, калі вы забудзеце пароль.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Вось чаму стварэнне ключа аднаўлення ўліковага запісу так важна –– вы можаце выкарыстаць свой ключ, каб вярнуць свае дадзеныя.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Пачаць стварэнне вашага ключа аднаўлення
 
 # HeaderLockup component
 
@@ -591,6 +599,8 @@ recovery-key-success-alert-3 = Ключ аднаўлення ўліковага 
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Ключ аднаўлення ўліковага запісу
 
 ## Add secondary email page
 
