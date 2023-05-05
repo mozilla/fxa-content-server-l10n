@@ -384,6 +384,13 @@ drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
 flow-container-back = Tillbaka
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Tillbaka till inställningar
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Börja skapa din återställningsnyckel
+
 # HeaderLockup component
 
 header-menu-open = Stäng meny
@@ -580,6 +587,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
 recovery-key-success-alert-3 = Kontoåterställningsnyckel skapad
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Nyckel för kontoåterställning
 
 ## Add secondary email page
 
