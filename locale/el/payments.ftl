@@ -123,6 +123,8 @@ payment-confirmation-download-button = Συνέχεια στη λήψη
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
+payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε αυτήν τη διαδικασία πριν προχωρήσετε
 
 ## Component - PaymentErrorView
 
@@ -173,6 +175,10 @@ payment-processing-message = Παρακαλούμε περιμένετε όσο 
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Πληρωμή με { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -351,11 +357,10 @@ new-user-submit = Συνδρομή τώρα
 
 sub-update-payment-title = Πληροφορίες πληρωμής
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ή πληρωμή με κάρτα
 pay-with-heading-card-only = Πληρωμή με κάρτα
-pay-with-heading-paypal = Πληρωμή με { -brand-name-paypal }
 product-invoice-preview-error-title = Πρόβλημα φόρτωσης προεπισκόπησης τιμολογίου
 product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης τιμολογίου
 
