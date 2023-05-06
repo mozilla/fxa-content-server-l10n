@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Một thiết bị có mã gồm 6 chữ số.
 confirm-signup-aria-label =
     .aria-label = Một phong bì chứa một liên kết
+security-shield-aria-label =
+    .aria-label = Hình minh họa đại diện cho khóa khôi phục tài khoản.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Xin lỗi, đã xảy ra sự cố khi đăng 
 
 flow-container-back = Quay lại
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Quay lại cài đặt
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Tạo khóa khôi phục tài khoản trong trường hợp bạn quên mật khẩu
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Chúng tôi mã hóa dữ liệu duyệt web –– mật khẩu, dấu trang, v.v. Điều này rất tốt cho quyền riêng tư, nhưng điều đó có nghĩa là chúng tôi không thể khôi phục dữ liệu của bạn nếu bạn quên mật khẩu.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Đó là lý do tại sao việc tạo khóa khôi phục tài khoản lại quan trọng đến vậy –– bạn có thể sử dụng khóa của mình để lấy lại dữ liệu của mình.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Bắt đầu tạo khóa khôi phục của bạn
+
 # HeaderLockup component
 
 header-menu-open = Đóng menu
@@ -580,6 +595,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Bước 1/2
 recovery-key-step-2 = Bước 2/2
 recovery-key-success-alert-3 = Đã tạo khóa khôi phục tài khoản
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Khóa khôi phục tài khoản
 
 ## Add secondary email page
 
