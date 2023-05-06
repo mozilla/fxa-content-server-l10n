@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = En enhet med en dold 6-siffrig kod.
 confirm-signup-aria-label =
     .aria-label = Ett meddelande som innehåller en länk
+security-shield-aria-label =
+    .aria-label = Illustration som representerar en kontoåterställningsnyckel.
 
 ## Input Password
 
@@ -388,6 +390,12 @@ flow-container-back = Tillbaka
 
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Tillbaka till inställningar
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Skapa en kontoåterställningsnyckel om du glömmer ditt lösenord
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Vi krypterar webbläsardata –– lösenord, bokmärken och mer. Det är bra för integriteten, men det betyder att vi inte kan återställa din data om du glömmer ditt lösenord.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Det är därför det är så viktigt att skapa en kontoåterställningsnyckel –– du kan använda din nyckel för att få tillbaka dina data.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
 flow-recovery-key-info-cta-text = Börja skapa din återställningsnyckel
 
