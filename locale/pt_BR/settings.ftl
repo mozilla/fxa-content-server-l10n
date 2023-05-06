@@ -581,6 +581,8 @@ recovery-key-success-alert-3 = Criada chave de recuperação de conta
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Chave de recuperação de conta
 
 ## Add secondary email page
 
