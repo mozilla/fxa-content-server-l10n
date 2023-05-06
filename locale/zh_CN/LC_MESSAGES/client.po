@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-18 16:15+0000\n"
+"PO-Revision-Date: 2023-05-06 13:57+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1456,7 +1456,7 @@ msgstr "我们已收到您的反馈，感谢您帮助我们防范入侵者。"
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "请输入<span class=\"card-subheader\">您 Firefox 账户</span>的验证码"
+msgstr "<span class=\"card-subheader\">Firefox 账户</span>请输入验证码"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
