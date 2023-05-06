@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = 带有隐藏 6 位验证码的设备。
 confirm-signup-aria-label =
     .aria-label = 包含链接的信封
+security-shield-aria-label =
+    .aria-label = 表示账户恢复密钥的插图。
 
 ## Input Password
 
@@ -372,6 +374,15 @@ drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
 flow-container-back = 返回
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = 回到设置
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = 开始创建您的恢复密钥
+
 # HeaderLockup component
 
 header-menu-open = 关闭菜单
@@ -565,6 +576,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
 recovery-key-success-alert-3 = 已创建账户恢复密钥
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = 账户恢复密钥
 
 ## Add secondary email page
 
