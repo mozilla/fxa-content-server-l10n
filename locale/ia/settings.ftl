@@ -28,6 +28,9 @@ recovery-key-download-button = Discarga tu clave de recuperation
     .title = Discargar
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
 recovery-key-file-header = SALVA LE CLAVE DE RECUPERATION DE TU CONTO
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Immagazina iste file que contine tu clave recuperation del conto in un placia que tu rememorara. O imprime lo e mantene un copia physic. Tu clave recuperation del conto pote adjutar te a recuperar datos de { -brand-firefox } si tu oblida tu contrasigno.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Clave:  { $recoveryKeyValue }
@@ -381,6 +384,12 @@ flow-container-back = Retro
 
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Tornar a parametros
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Crea un clave recuperation del conto in caso tu oblida tu contrasigno
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Nos crypta datos de navigation, contrasignos, marcapaginas, e plus. Isto es grande pro le confidentialitate, ma significa que nos non pote recuperar tu datos, si tu oblida tu contrasigno.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Id es perque le creation del un clave recuperation del conto es assi importante, tu pote usar tu clave pro obtener tu datos retro.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
 flow-recovery-key-info-cta-text = Initia crear tu clave de recuperation
 
@@ -1071,6 +1080,7 @@ pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Attende, tu va esser re-dirigite al application autorisate.
 
 ## AccountRecoveryConfirmKey page
 
