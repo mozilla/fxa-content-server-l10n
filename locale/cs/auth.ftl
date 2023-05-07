@@ -203,6 +203,9 @@ newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
 newDeviceLogin-title-2 = Pro přihlášení byl použitý váš { -product-firefox-account(capitalization: "lower") }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = Nebyli jste to vy? <a data-l10n-name="passwordChangeLink">Zmeňte si heslo</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Nebyli jste to vy? Změňte si heslo:
 newDeviceLogin-action = Správa účtu
 passwordChanged-subject = Heslo změněno
