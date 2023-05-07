@@ -380,6 +380,10 @@ flow-container-back = 返回
 flow-recovery-key-info-back-button-title = 回到设置
 # The header of the first view in the Recovery Key Add flow
 flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = 我们加密浏览数据——密码、书签等。这非常适合保护隐私，但这意味着如果您忘记了密码，我们将无法恢复您的数据。
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = 这就是创建账户恢复密钥如此重要的原因——您可以使用您的恢复密钥取回您的数据。
 # The text of the "submit" button in the first view of the Recovery Key Add flow
 flow-recovery-key-info-cta-text = 开始创建您的恢复密钥
 
