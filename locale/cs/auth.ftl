@@ -191,6 +191,7 @@ downloadSubscription-title = Vítá vás { $productName }
 downloadSubscription-link-action-2 = Začít
 fraudulentAccountDeletion-subject = Váš { -product-firefox-account(capitalization: "lower") } byl smazán
 fraudulentAccountDeletion-title = Váš účet byl smazán
+codes-reminder-description-part-two = Vytvořte nové kódy hned, abyste později o svá data nepřišli.
 codes-reminder-description-two-left = Zbývají vám jen dva kódy.
 lowRecoveryCodes-action-2 = Vytvořit kódy
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
