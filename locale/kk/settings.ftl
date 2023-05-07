@@ -368,6 +368,11 @@ drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу к
 
 flow-container-back = Артқа
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Баптауларға оралу
+
 # HeaderLockup component
 
 header-menu-open = Мәзірді жабу
@@ -563,6 +568,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Қадам 1, барлығы 2
 recovery-key-step-2 = Қадам 2, барлығы 2
 recovery-key-success-alert-3 = Тіркелгіні қалпына келтіру кілті жасалды
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
