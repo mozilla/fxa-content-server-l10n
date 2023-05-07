@@ -224,16 +224,21 @@ passwordReset-title = Heslo k vašemu účtu bylo změněno
 passwordReset-description = Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo.
 passwordResetAccountRecovery-subject-2 = Vaše heslo bylo obnoveno
 passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Použili jste obnovovací klíč k účtu k aktualizaci hesla z:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k účtu
 postAddAccountRecovery-subject-2 = Obnovovací klíč k účtu byl vytvořen
+postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Nový klíč byl vytvořen z:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Nejste to vy?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Smažte nový klíč</a> a <a data-l10n-name="passwordChangeLink">změňte si heslo</a>
 postAddAccountRecovery-action = Správa účtu
 postAddAccountRecovery-delete-key = Smazat nový klíč:
 postAddAccountRecovery-changd-password = Změňte si své heslo:
+postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
 postAddTwoStepAuthentication-subject-2 = Dvoufázové ověření je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
