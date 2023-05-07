@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Пристрій з прихованим 6-значним кодом.
 confirm-signup-aria-label =
     .aria-label = Конверт із посиланням
+security-shield-aria-label =
+    .aria-label = Ілюстрація ключа відновлення облікового запису.
 
 ## Input Password
 
@@ -385,6 +387,19 @@ drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час
 
 flow-container-back = Назад
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Назад до налаштувань
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Створіть ключ відновлення облікового запису на випадок, якщо ви забудете свій пароль
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Ми шифруємо дані перегляду –– паролі, закладки тощо. Це добре для приватності, але це означає, що ми не зможемо відновити ваші дані, якщо ви забудете пароль.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Ось чому створення ключа відновлення облікового запису таке важливе –– ви можете використовувати його, щоб відновити свої дані.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Почніть створювати свій ключ відновлення
+
 # HeaderLockup component
 
 header-menu-open = Закрити меню
@@ -581,6 +596,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
 recovery-key-success-alert-3 = Ключ відновлення облікового запису створено
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Ключ відновлення облікового запису
 
 ## Add secondary email page
 
