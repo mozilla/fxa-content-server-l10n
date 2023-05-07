@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Устройство со скрытым 6-значным кодом.
 confirm-signup-aria-label =
     .aria-label = Конверт со ссылкой
+security-shield-aria-label =
+    .aria-label = Иллюстрация для представления ключа восстановления аккаунта.
 
 ## Input Password
 
@@ -382,6 +384,19 @@ drop-down-menu-sign-out-error-2 = К сожалению, при выходе в�
 
 flow-container-back = Назад
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Вернуться в настройки
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Создайте ключ восстановления аккаунта на случай, если вы забудете пароль
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Мы шифруем данные веб-серфинга — пароли, закладки и многое другое. Это отлично подходит для приватности, но означает, что мы не сможем восстановить ваши данные, если вы забудете свой пароль.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Вот почему создание ключа восстановления аккаунта так важно — вы можете использовать свой ключ, чтобы вернуть свои данные.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Начните создавать ключ восстановления
+
 # HeaderLockup component
 
 header-menu-open = Закрыть меню
@@ -578,6 +593,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Шаг 1 из 2
 recovery-key-step-2 = Шаг 2 из 2
 recovery-key-success-alert-3 = Ключ восстановления аккаунта создан
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Ключ восстановления аккаунта
 
 ## Add secondary email page
 
