@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Zariadenie so skrytým šesťmiestnym kódom.
 confirm-signup-aria-label =
     .aria-label = Obálka s odkazom
+security-shield-aria-label =
+    .aria-label = Obrázok predstavujúci kľúč na obnovenie účtu.
 
 ## Input Password
 
@@ -385,6 +387,19 @@ drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
 flow-container-back = Naspäť
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Späť na nastavenia
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Vytvorte si kľúč na obnovenie účtu pre prípad, že zabudnete heslo
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Šifrujeme údaje z prehliadania – heslá, záložky a ďalšie. Je to skvelé pre súkromie, ale znamená to, že ak zabudnete heslo, nemôžeme obnoviť vaše údaje.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Preto je vytvorenie kľúča na obnovenie účtu také dôležité – svoj kľúč môžete použiť na získanie údajov späť.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Poďme vytvoriť kľúč na obnovenie
+
 # HeaderLockup component
 
 header-menu-open = Zavrieť ponuku
@@ -581,6 +596,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
 recovery-key-success-alert-3 = Bol vytvorený kľúč na obnovenie účtu
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kľúč na obnovenie účtu
 
 ## Add secondary email page
 
