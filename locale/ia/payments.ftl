@@ -136,7 +136,7 @@ payment-error-manage-subscription-button = Gerer mi subscription
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Tu jam ha un subscription a { $productName }  via le magazines de apps de { -brand-name-google } o de { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Nos non supporta promotiones pro iste subscriptiones, ma nos los supportara tosto.
-iap-upgrade-contact-support = Tu pote ancora obtener iste producto, contacta le supporto assi nos pote adjutar te.
+iap-upgrade-contact-support = Tu pote ancora obtener iste producto, continge le supporto assi nos pote adjutar te.
 iap-upgrade-get-help-button = Obtener auxilio
 
 ## Component - PaymentForm
@@ -368,8 +368,8 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
-payment-error-1 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Reproba o contacta tu emissor de carta.
-payment-error-2 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
+payment-error-1 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Reproba o continge tu emissor de carta.
+payment-error-2 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Continge tu emissor de carta.
 payment-error-3b = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
@@ -455,7 +455,7 @@ sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate i
 
 sub-route-idx-reactivating = Reactivation del subscription fallite
 sub-route-idx-cancel-failed = Cancellation del subscription fallite
-sub-route-idx-contact = Contactar assistentia
+sub-route-idx-contact = Continger assistentia
 sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
