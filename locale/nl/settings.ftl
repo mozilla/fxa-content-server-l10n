@@ -384,6 +384,11 @@ drop-down-menu-sign-out-error-2 = Sorry, er is een probleem opgetreden bij het a
 
 flow-container-back = Terug
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Begin met het maken van uw herstelsleutel
+
 # HeaderLockup component
 
 header-menu-open = Menu sluiten
@@ -580,6 +585,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Stap 1 van 2
 recovery-key-step-2 = Stap 2 van 2
 recovery-key-success-alert-3 = Sleutel voor accountherstel aangemaakt
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
