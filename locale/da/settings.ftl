@@ -390,6 +390,12 @@ flow-container-back = Tilbage
 
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Tilbage til indstillinger
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Opret en genoprettelsesnøgle til kontoen, i tilfælde af at du glemmer din adgangskode
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Vi krypterer browserdata –– adgangskoder, bogmærker med mere. Det gør vi for at beskytte dit privatliv bedst mulig. Men det betyder, at vi ikke kan gendanne dine data, hvis du glemmer din adgangskode.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Derfor er det meget vigtig, at du opretter en genoprettelsesnøgle til kontoen –– du skal bruge din nøgle til at få dine data tilbage.
 # The text of the "submit" button in the first view of the Recovery Key Add flow
 flow-recovery-key-info-cta-text = Begynd at oprette din genoprettelsesnøgle
 
@@ -1083,6 +1089,7 @@ pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Vent venligst, du bliver omdirigeret til den godkendte applikation.
 
 ## AccountRecoveryConfirmKey page
 
