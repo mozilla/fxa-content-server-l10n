@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-02 12:12+0000\n"
+"PO-Revision-Date: 2023-05-09 12:23+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -688,7 +688,7 @@ msgstr "Reserve-autentiseringskode påkravd"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Ugyldig reserve-godkjenningskode"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
@@ -900,7 +900,7 @@ msgstr "Få ei ny lenke"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Tilbakestill passord med gjenopprettingsnøkkel"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -913,7 +913,7 @@ msgstr "Fortset til %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Skriv inn eingongs-gjenopprettingsnøkkelen du lagra på ein trygg plass, for å få tilgang til Firefox-kontoen din igjen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1010,7 +1010,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klikk her for å få ei ny stadfestingslenke"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
@@ -1065,7 +1065,7 @@ msgstr "for Firefox-kontoen din"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Skriv inn koden som vart sendt til %(escapedEmail)s, innan 5 minutt."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1115,7 +1115,7 @@ msgstr "Logg inn på Firefox på ei anna eining for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Vil du ha fanene, bokmerka og passorda dine på ei anna eining?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
@@ -1177,7 +1177,7 @@ msgstr "Hald fram til Firefox-konto"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkroniser passord, faner og bokmerke alle stadar du brukar Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
@@ -1197,7 +1197,7 @@ msgstr "Ein Firefox-konto låser også opp tilgang til fleire personvernbeskytta
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Lagre reserve-godkjenningskodar"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1228,7 +1228,7 @@ msgstr "Avbryt konfigurasjon"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Stadfest reserve-godkjenningskode"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
@@ -1334,11 +1334,11 @@ msgstr "Vellykka"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Du er no klar til å bruke <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
-msgstr "Fortset til kontoen min"
+msgstr "Hald fram til kontoen min"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
@@ -1457,11 +1457,11 @@ msgstr "Teamet vårt er varsla. Rapportar som denne hjelper oss med å avverja i
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Skriv inn stadfestingskoden <span class=\"card-subheader\">for Firefox-kontoen din</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Skriv inn koden som vart sendt til %(email)s, innan 5 minutt."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"

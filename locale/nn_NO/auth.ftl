@@ -257,6 +257,8 @@ postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
 postAddAccountRecovery-changd-password = Endre passordet ditt?
 postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
 postAddLinkedAccount-action = Handsam kontoen
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
@@ -322,6 +324,9 @@ subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
 subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
