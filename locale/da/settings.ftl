@@ -18,6 +18,33 @@ link-expired-resent-link-error-message = Noget gik galt. Et nyt link kunne ikke 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Hent din genoprettelsesnøgle
+    .title = Hent
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = GEM DIN GENOPRETTELSESNØGLE TIL KONTOEN
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = Denne fil indeholder din genoprettelsesnøgle til kontoen. Opbevar den et sted, du kan huske. Eller udskriv filen og gem en fysisk kopi. Din genoprettelsesnøgle til kontoen kan hjælpe dig med at gendanne { -brand-firefox }-data, hvis du glemmer din adgangskode.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Nøgle:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Nøgle oprettet: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Læs mere om din genoprettelsesnøgle til kontoen: { $supportURL }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -145,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = En enhed med en skjult 6-cifret kode.
 confirm-signup-aria-label =
     .aria-label = En konvolut med et link
+security-shield-aria-label =
+    .aria-label = Illustration af en genoprettelsesnøgle til en konto.
 
 ## Input Password
 
@@ -357,6 +386,13 @@ drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge d
 
 flow-container-back = Tilbage
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Tilbage til indstillinger
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Begynd at oprette din genoprettelsesnøgle
+
 # HeaderLockup component
 
 header-menu-open = Luk menu
@@ -406,6 +442,7 @@ nav-email-comm = Mail-kommunikation
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Der opstod et problem med at erstatte dine reserve-godkendelseskoder
+tfa-create-code-error = Der opstod et problem med at oprette dine reserve-godkendelseskoder
 tfa-replace-code-success-1 =
     Nye koder er blevet oprettet. Opbevar disse engangs-reserve-godkendelseskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
@@ -551,6 +588,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Trin 1 af 2
 recovery-key-step-2 = Trin 2 af 2
 recovery-key-success-alert-3 = Genoprettelsesnøgle til kontoen blev oprettet
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Genoprettelsesnøgle til kontoen
 
 ## Add secondary email page
 
@@ -1038,6 +1080,10 @@ pair-wait-for-auth-heading-text = Godkendelse er nu påkrævet <span>fra din and
 pair-unsupported-header = Parring ved hjælp af en app
 pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp af en { -brand-firefox }-app.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1108,6 +1154,8 @@ reset-password-warning-message-2 = <span>Bemærk:</span> Når du nulstiller din 
 reset-password-password-input =
     .label = Mailadresse
 reset-password-button = Start nulstilling
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Mailadresse påkrævet
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-with-recovery-key-verified-generate-new-key = Opret en ny genoprettelsesnøgle til kontoen
 reset-password-with-recovery-key-verified-continue-to-account = Fortsæt til min konto

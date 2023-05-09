@@ -123,9 +123,8 @@ payment-confirmation-download-button = Fortsæt til hentning
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække { $price } for { $productName } med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = Vent mens vi behandler din betaling…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Betal med { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = Abonner nu
 
 sub-update-payment-title = Betalingsinformation
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
-pay-with-heading-paypal = Betal med { -brand-name-paypal }
 product-invoice-preview-error-title = Problem med indlæsning af eksempel på faktura
 product-invoice-preview-error-text = Kunne ikke indlæse eksempel på faktura
 
