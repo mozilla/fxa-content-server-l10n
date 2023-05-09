@@ -76,6 +76,8 @@ automated-email-support-plaintext = Airson barrachd fiosrachaidh, tadhail air ta
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Airson barrachd fiosrachaidh, tadhail air <a data-l10n-name="supportLink">taic { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Seo post-d fèin-obrachail. Ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Seo post-d fèin-obrachail, mur bu tusa a cheadaich seo, atharraich am facal-faire agad:
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
 newDeviceLogin-action = Stiùirich an cunntas
