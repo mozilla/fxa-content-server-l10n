@@ -78,8 +78,64 @@ automated-email-no-action = { automated-email-no-action-plaintext } Airson barra
 automated-email-no-action-plaintext = Seo post-d fèin-obrachail. Ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Seo post-d fèin-obrachail, mur bu tusa a cheadaich seo, atharraich am facal-faire agad:
+automated-email-reset =
+    Seo post-d fèin-obrachail, mur bu tusa a cheadaich seo, <a data-l10n-name="resetLink">ath-shuidhich am facal-faire agad</a>.
+    Airson barrachd fiosrachaidh, tadhail air <a data-l10n-name="supportLink">taic { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Mur tusa a dh’atharraich e, ath-shuidhich am facal-faire agad an-dràsta aig { $resetLink }
+cancellationSurvey = Cuidich leinn a’ toirt piseach air na seirbheisean againn is tu a’ gabhail <a data-l10n-name="cancellationSurveyUrl">na suirbhidhe ghoirid seo</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Cuidich leinn a’ toirt piseach air na seirbheisean againn is tu a’ gabhail na suirbhidhe ghoirid seo:
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
+manage-account-plaintext = { manage-account }:
+payment-details = Am mion-fhiosrachadh pàighidh:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Àireamh an fhàirdeil: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Air iarraidh: { $invoiceTotal } { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = An ath-fhàirdeal: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = An dòigh pàighidh:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Cairt { $cardType } a tha a’ crìochnachadh le { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Àireamh an fhàirdeil: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Àireamh an fhàirdeil: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Atharrachadh a’ phlana: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Fo-iomlan: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Lasachadh: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Lasachadh aon turais: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Cìsean ⁊ tàillean: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Chaidh { $invoiceTotal } iarraidh { $invoiceDateOnly }
+subscriptionSupport = Ceistean mun fho-sgrìobhadh agad? Cuidichidh an <a data-l10n-name="subscriptionSupportUrl">sgioba taice</a> againn thu.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Ceistean mun fho-sgrìobhadh agad? Cuidichidh an sgioba taice againn thu.
 newDeviceLogin-action = Stiùirich an cunntas
 passwordChanged-title = Chaidh am facal-faire atharrachadh
 passwordChangeRequired-signoff = le gach deagh-dhùrachd,
