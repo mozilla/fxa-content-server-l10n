@@ -7,6 +7,8 @@ session-verify-send-push-body-2 = Fai clic aquí para confirmar que es ti
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 subplat-privacy-notice = Aviso de privacidade
+subplat-privacy = Privacidade
+subplat-privacy-website-plaintext = { subplat-privacy }:
 recovery-subject = Restabelecer o contrasinal
 
 ## Variables
