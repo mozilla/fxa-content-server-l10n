@@ -26,7 +26,11 @@ subplat-explainer-specific = Tuto e-mailovou zprávu vám posíláme, protože e
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tuto e-mailovou zprávu vám posíláme, protože { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") }.
 subplat-explainer-multiple = Tuto e-mailovou zprávu vám posíláme, protože { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") } a máte předplaceno několik produktů.
+subplat-explainer-was-deleted = Tento e-mail jste dostali, protože na adresu { $email } byl zaregistrován { -product-firefox-account(capitalization: "lower") }.
 subplat-manage-account = Svá nastavení { -product-firefox-account(case: "gen", capitalization: "lower") } můžete spravovat na <a data-l10n-name="subplat-account-page">stránce svého účtu</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Spravujte nastavení { -product-firefox-account(case: "gen", capitalization: "lower") } na stránce svého účtu: { $accountSettingsUrl }
 subplat-terms-policy = Podmínky zrušení
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušit předplatné
@@ -50,6 +54,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Stáhnout apli
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stáhnout aplikaci { $productName } z { -app-store(case: "gen") }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Nainstalujte si { $productName } na <a data-l10n-name="anotherDeviceLink">dalším stolním počítači</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Nainstalujte si { $productName } na <a data-l10n-name="anotherDeviceLink">další zařízení</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Získejte { $productName } na Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -57,11 +67,14 @@ ios-download-plaintext = Stáhnout { $productName } z App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Nainstalovat { $productName } na jiné zařízení:
+automated-email-change-2 = Pokud jste tuto akci neprovedli, ihned si <a data-l10n-name="passwordChangeLink">změňte heslo</a>.
 automated-email-support = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Pokud jste tuto akci neprovedli, okamžitě si změňte heslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Další informace naleznete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Tento e-mail byl zaslán automaticky. Pokud jste jej obdrželi omylem, nemusíte nic dělat.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; pokud jste tuto akci neprovedli, změňte si své heslo:
@@ -113,6 +126,10 @@ subscriptionFirstInvoiceDiscount-content-discount = Sleva: -{ $invoiceDiscountAm
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednorázová sleva: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-měsíční sleva: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Daně a poplatky: { $invoiceTaxAmount }
@@ -173,6 +190,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobrazit fakturu: { $invoiceLink }
+cadReminderFirst-subject-1 = Připomenutí! Nastavte si synchronizaci v aplikaci { -brand-firefox }
 cadReminderFirst-action = Synchronizovat další zařízení
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
