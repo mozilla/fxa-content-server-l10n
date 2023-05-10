@@ -126,6 +126,16 @@ subscriptionFirstInvoiceDiscount-content-discount = Lasachadh: -{ $invoiceDiscou
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Lasachadh aon turais: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating =
+    { $discountDuration ->
+        [one] Lasachadh { $discountDuration } mhìos: -{ $invoiceDiscountAmount }
+        [two] Lasachadh { $discountDuration } mhìos: -{ $invoiceDiscountAmount }
+        [few] Lasachadh { $discountDuration } mìosan: -{ $invoiceDiscountAmount }
+       *[other] Lasachadh { $discountDuration } mìos: -{ $invoiceDiscountAmount }
+    }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Cìsean ⁊ tàillean: { $invoiceTaxAmount }

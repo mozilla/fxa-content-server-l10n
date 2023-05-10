@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-10 17:49+0000\n"
+"PO-Revision-Date: 2023-05-10 18:27+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -1271,7 +1271,7 @@ msgstr "Turas a thèid a choileanadh, ginidh e còdan tèarainteachd as urrainn 
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr "Cuir an iuchair dhìomhair seo a-steach san aplacaid dearbhaidh agad."
+msgstr "Cuir an iuchair rùin seo a-steach san aplacaid dearbhaidh agad."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
