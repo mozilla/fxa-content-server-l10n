@@ -682,6 +682,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label = A progress bar showing that the user is on step { $currentStep } of { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -1067,6 +1072,7 @@ pair-unsupported-message = Did you use the system camera? You must pair from wit
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Please wait, you are being redirected to the authorized application.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1138,6 +1144,8 @@ reset-password-warning-message-2 = <span>Note:</span> When you reset your passwo
 reset-password-password-input =
     .label = Email
 reset-password-button = Begin reset
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Email required
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-with-recovery-key-verified-generate-new-key = Generate a new account recovery key
 reset-password-with-recovery-key-verified-continue-to-account = Continue to my account
