@@ -389,7 +389,7 @@ flow-container-back = Nôl
 # This will be the title of the back button so that users know where that button will take them
 flow-recovery-key-info-back-button-title = Nôl i'r gosodiadau
 # The header of the first view in the Recovery Key Add flow
-flow-recovery-key-info-header = Creu allwedd adfer cyfrif rhag ofn i chi anghofio eich cyfrinair
+flow-recovery-key-info-header = Crëwch allwedd adfer cyfrif rhag ofn i chi anghofio eich cyfrinair
 # In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
 flow-recovery-key-info-shield-bullet-point = Rydym yn amgryptio data pori –– cyfrineiriau, nodau tudalen, a mwy. Mae'n wych ar gyfer preifatrwydd, ond mae'n golygu na allwn adennill eich data os byddwch yn anghofio eich cyfrinair.
 # In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
