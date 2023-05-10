@@ -27,10 +27,10 @@ link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un n
 recovery-key-download-button = Descargá tu clave de recuperación
     .title = Descargar
 # Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
-recovery-key-file-header = GUARDAR LA CLAVE DE RECUPERACIÓN
+recovery-key-file-header = GUARDÁ LA CLAVE DE RECUPERACIÓN DE TU CUENTA
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this key can result in data loss.
-recovery-key-file-instructions = Guardá este archivo que contiene tu clave de recuperación de cuenta en un lugar que te acuerdes. O imprimilo y guardá una copia física. Tu clave de recuperación de cuenta puede ayudarte a recuperar datos de { -brand-firefox } si olvidás tu contraseña.
+recovery-key-file-instructions = Guardá este archivo que contiene la clave de recuperación de tu cuenta en un lugar que puedas recordar. O imprimilo y guardá una copia física. La clave de recuperación de tu cuenta puede ayudarte a recuperar los datos de { -brand-firefox } si te olvidás de tu contraseña.
 # { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Clave:  { $recoveryKeyValue }
