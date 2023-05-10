@@ -196,6 +196,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaci jsou potřeba dva
 cadReminderFirst-description-2 = Synchronizace trvá jen chvíli.
+cadReminderSecond-subject-2 = Na nic nečekejte a dokončete nastavení synchronizace
 cadReminderSecond-action = Synchronizovat další zařízení
 cadReminderSecond-title-2 = Nezapomeňte na synchronizaci!
 cadReminderSecond-description-sync = Synchronizujte své záložky, hesla, otevřené panely a další věci — všude, kde používáte { -brand-firefox }.
@@ -206,9 +207,14 @@ downloadSubscription-subject = Vítá vás { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Vítá vás { $productName }
+downloadSubscription-content-2 = Začněte používat všechny funkce, které jsou zahrnuté ve vašem předplatném:
 downloadSubscription-link-action-2 = Začít
 fraudulentAccountDeletion-subject = Váš { -product-firefox-account(capitalization: "lower") } byl smazán
 fraudulentAccountDeletion-title = Váš účet byl smazán
+fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte prosím náš <a data-l10n-name="mozillaSupportUrl">tým podpory</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
 codes-reminder-description-part-two = Vytvořte nové kódy hned, abyste později o svá data nepřišli.
 codes-reminder-description-two-left = Zbývají vám jen dva kódy.
 lowRecoveryCodes-action-2 = Vytvořit kódy
