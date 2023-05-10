@@ -345,13 +345,25 @@ subscriptionFailedPaymentsCancellation-subject = Vaše předplatné produktu { $
 subscriptionFailedPaymentsCancellation-title = Vaše předplatné bylo zrušeno
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Platba za { $productName } byla potvrzena
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Děkujeme, že jste si předplatili { $productName }
 subscriptionFirstInvoice-content-processing = Vaši platbu nyní zpracováváme, což může trvat až čtyři pracovní dny.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Obdržíte samostatný e-mail o tom, jak začít používat { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Další platba: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Platnost platební karty pro { $productName } vypršela nebo brzy vyprší
 subscriptionPaymentExpired-title-1 = Platnost vaší platební karty vypršela nebo brzy vyprší
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Platnost kreditní karty, kterou používáte k platbám za { $productName }, vypršela nebo brzy vyprší.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Platba za produkt { $productName } se nezdařila
@@ -366,7 +378,21 @@ subscriptionPaymentProviderCancelled-subject = Je vyžadována aktualizace plate
 subscriptionPaymentProviderCancelled-title = Je nám to líto, ale s vaší platební metodou se vyskytly problémy
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Zjistili jsme problém s vaší platební metodou za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Předplatné produktu { $productName } bylo znovu aktivované
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Děkujeme, že jste znovu aktivovali předplatné { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Váš fakturační cyklus a platba zůstanou stejné. Vaše další platba bude { $invoiceTotal } dne { $nextInvoiceDateOnly }. Vaše předplatné se automaticky obnoví každé fakturační období, pokud se nerozhodnete jej zrušit.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Upozornění na automatické obnovení produktu { $productName }
 subscriptionRenewalReminder-title = Vaše předplatné bude brzy obnoveno
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -377,7 +403,10 @@ subscriptionRenewalReminder-content-closing = S pozdravem,
 subscriptionRenewalReminder-content-signature = Tým produktu { $productName }
 subscriptionsPaymentExpired-subject-1 = Platnost platební karty pro vaše předplatné vypršela nebo brzy vyprší
 subscriptionsPaymentExpired-title-1 = Platnost vaší platební karty vypršela nebo brzy vyprší
+subscriptionsPaymentExpired-content-1 = Platnost kreditní karty, kterou používáte k platbám za následující předplatné, vypršela nebo brzy vyprší.
+subscriptionsPaymentProviderCancelled-subject = Pro předplatná { -brand-mozilla } je vyžadována aktualizace platebních údajů
 subscriptionsPaymentProviderCancelled-title = Je nám to líto, ale s vaší platební metodou se vyskytly problémy
+subscriptionsPaymentProviderCancelled-content-detected = S vaší platební metodou platbou pro úhradu následujících předplatných se vyskytly problémy.
 subscriptionsPaymentProviderCancelled-content-payment = Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -393,6 +422,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Další platba: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Úspěšně jste aktualizovali na produkt { $productName }
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Úspěšně jste přešli z { $productNameOld } na { $productName }.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?

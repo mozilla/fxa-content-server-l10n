@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-05 17:38+0000\n"
+"PO-Revision-Date: 2023-05-10 17:20+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -95,7 +95,7 @@ msgstr "Nyní můžete používat %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Účet ověřen"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -1007,19 +1007,19 @@ msgstr "Přihlášení už bylo potvrzeno"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Platnost odkazu pro potvrzení vypršela"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Platnost odkazu pro potvrzení už vypršela."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klepnutím zde získáte nový odkaz pro potvrzení"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Odkaz pro potvrzení je poškozen"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1062,7 +1062,7 @@ msgstr "Pro vytvoření nového hesla prosím během jedné hodiny klepněte na 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Zadejte potvrzovací kód"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1096,7 +1096,7 @@ msgstr "Připojit další zařízení"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Jste přihlášeni do Firefoxu"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
@@ -1120,7 +1120,7 @@ msgstr "Pro dokončení nastavení se přihlaste k Firefoxu na jiném zařízen�
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Chcete mít své panely, záložky a hesla na dalším zařízení?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
