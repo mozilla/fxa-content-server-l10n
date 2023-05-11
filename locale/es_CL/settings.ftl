@@ -852,6 +852,7 @@ auth-error-183-2 = Código de confirmación inválido o expirado
 auth-error-999 = Error inesperado
 auth-error-1003 = El almacenamiento local o las cookies siguen deshabilitados
 auth-error-1008 = Tu nueva conraseña debe ser diferente
+auth-error-1011 = Se requiere un correo válido
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
