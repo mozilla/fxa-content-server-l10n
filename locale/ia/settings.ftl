@@ -851,6 +851,7 @@ auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-999 = Error inexpectate
 auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
+auth-error-1011 = Il es necessari un adresse email valide
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
