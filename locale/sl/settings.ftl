@@ -859,6 +859,7 @@ auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-999 = Nepričakovana napaka
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
 auth-error-1008 = Novo geslo mora biti drugačno
+auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
