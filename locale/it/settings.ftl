@@ -834,6 +834,7 @@ auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-999 = Errore imprevisto
 auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
+auth-error-1011 = È necessario inserire un indirizzo email valido
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
