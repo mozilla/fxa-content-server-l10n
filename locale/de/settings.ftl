@@ -854,6 +854,7 @@ auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
 auth-error-999 = Unerwarteter Fehler
 auth-error-1003 = Local Storage oder Cookies sind weiterhin deaktiviert
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
+auth-error-1011 = Gültige E-Mail-Adresse erforderlich
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
