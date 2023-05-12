@@ -862,6 +862,7 @@ auth-error-183-2 = Несапраўдны або пратэрмінаваны к
 auth-error-999 = Нечаканая памылка
 auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
+auth-error-1011 = Патрэбен сапраўдны адрас электроннай пошты
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
