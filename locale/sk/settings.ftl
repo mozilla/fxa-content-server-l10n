@@ -858,6 +858,7 @@ auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnos�
 auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
+auth-error-1011 = Vyžaduje sa platná e-mailová adresa
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
