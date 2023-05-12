@@ -40,6 +40,7 @@ settings-home = ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
 
 coupon-submit = ਲਾਗੂ ਕਰੋ
 coupon-remove = ਹਟਾਓ
+coupon-error = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਕੋਡ ਅਢੁੱਕਵਾਂ ਹੈ ਜਾਂ ਇਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
 coupon-error-expired = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਹੈ।
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
@@ -74,6 +75,7 @@ new-user-already-has-account-sign-in = ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲ
 payment-confirmation-thanks-heading = ਤੁਹਾਡਾ ਧੰਨਵਾਦ!
 payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
+payment-confirmation-invoice-number = ਇਨਵਾਇਸ ${ $invoiceNumber }
 payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -145,7 +147,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ਪਰ�
 payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = ਲੋੜੀਂਦਾ
 
 ## Component - PaymentProcessing
 
@@ -154,6 +155,10 @@ payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ 
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = { -brand-name-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
 
 ## Component - PlanDetails
 
@@ -238,9 +243,9 @@ new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
 
 sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = ਜਾਂ ਕਾਰਡ ਨਾਲ ਭੁਗਤਾਨ ਕਰੋ
 pay-with-heading-card-only = ਕਾਰਡ ਨਾਲ ਭੁਗਤਾਨ
 
 ## Routes - Product - IapRoadblock
@@ -294,6 +299,8 @@ pay-update-manage-btn = ਬੰਦੋਬਸਤ
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = { $date } ਨੂੰ ਅਗਲਾ ਬਿੱਲ
+sub-expires-on = { $date } ਦੀ ਮਿਆਦ ਪੁੱਗਣੀ ਹੈ
 
 ## Routes - Subscription - PaymentUpdate
 
@@ -302,6 +309,7 @@ pay-update-manage-btn = ਬੰਦੋਬਸਤ
 
 pay-update-card-exp = ਮਿਆਦ { $expirationDate }
 sub-route-idx-updating = ਬਿੱਲ ਸਬੰਧੀ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
+sub-route-payment-modal-heading = ਅਢੁੱਕਵੀਂ ਬਿੱਲ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -313,6 +321,7 @@ sub-item-no-such-plan = ਉਸ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਪਲਾਨ 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } ਵਰਤਣਾ ਜਾਰੀ ਰੱਖਣਾ ਹੈ?
 reactivate-confirm-button = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
 
 ## $date (Date) - Last day of product access
@@ -322,4 +331,6 @@ reactivate-success-button = ਬੰਦ ਕਰੋ
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: ਐਪ ਵਿੱਚ ਖਰੀਦਦਾਰੀ
+sub-iap-item-apple-purchase = { -brand-name-apple }: ਐਪ ਵਿੱਚ ਖਰੀਦਦਾਰੀ
 sub-iap-item-manage-button = ਬੰਦੋਬਸਤ

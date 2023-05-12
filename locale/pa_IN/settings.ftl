@@ -10,6 +10,30 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = ਬੰਦ ਕਰੋ
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਲਿੰਕ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਡਾਊਨਲੋਡ ਕਰੋ
+    .title = ਡਾਊਨਲੋਡ
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੋ
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 ਕੁੰਜੀ:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • ਕੁੰਜੀ ਬਣਾਈ: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -50,13 +74,9 @@ choose-what-to-sync-option-addresses =
 choose-what-to-sync-option-creditcards =
     .label = ਕਰੈਡਿਟ ਕਾਰਡ
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
-# { $emailProvider } could be Gmail, Outlook, etc.
-# This link will open the email provider is a new tab
-confirm-with-link-webmail-link = { $emailProvider } ਖੋਲ੍ਹੋ
 # Button to resend an email with the confirmation link
 confirm-with-link-resend-link-button = ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ
 # The link target may vary depending on the user's entry point into the confirmation page
@@ -158,19 +178,26 @@ reset-pwd-link-damaged-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿ
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = ਤਸਦੀਕੀ ਲਿੰਕ ਖਰਾਬ ਸੀ
-# The user followed a "reset password" link received by email.
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿਕ ਕੀਤੇ ਗਏ ਲਿੰਕ ਵਿੱਚ ਅੱਖਰ ਗੁੰਮ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਈਮੇਲ ਕਲਾਇਟ ਵਲੋਂ ਖ਼ਰਾਬ ਕੀਤੇ ਗਏ ਹੋ ਸਕਦੇ ਹਨ। ਸਿਰਨਾਵਾਂ ਲਿੰਕ ਨੂੰ ਧਿਆਨ ਨਾਲ ਕਾਪੀ ਕਰੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
-# The user followed a password reset link, but that link is expired and no longer valid
-signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 reset-pwd-link-expired-message = ਤੁਹਾਡੇ ਵਲੋਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਚੁੱਕੀ ਹੈ।
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 signin-link-expired-message = ਤੁਹਾਡੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਲੇ ਲਿੰਕ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਕਲਿੱਕ ਕੀਤਾ ਹੈ, ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ।
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = ਨਵਾਂ ਲਿੰਕ ਮਿਲਿਆ
 
 ## LinkRememberPassword component
 
@@ -326,6 +353,9 @@ drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾ�
 ## Flow Container
 
 flow-container-back = ਪਿੱਛੇ
+
+## First view in the Recovery-Key-Add UX redesign flow
+
 
 # HeaderLockup component
 
@@ -501,6 +531,9 @@ recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
 recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 
+## Create Recovery Key page
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
@@ -570,6 +603,9 @@ profile-primary-email =
     .header = ਮੁੱਢਲਾ ਈਮੇਲ
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -675,6 +711,10 @@ terms-privacy-agreement-firefox = { -brand-firefox } ਦੀਆਂ <firefoxTos>�
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <firefoxTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</firefoxTos> ਅਤੇ <firefoxPrivacy>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</firefoxPrivacy> ਨਾਲ ਸਹਿਮਤ ਹੋ
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
@@ -683,11 +723,9 @@ auth-error-105-2 = ਗਲਤ ਤਸਦੀਕੀ ਕੋਡ
 auth-error-110 = ਗਲਤ ਟੋਕਨ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
 auth-error-138-2 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
 auth-error-139 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
@@ -874,6 +912,10 @@ pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ �
 pair-unsupported-header = ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ
 pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰਾ ਵਰਤਿਆ ਸੀ? ਤੁਹਾਨੂੰ { -brand-firefox } ਐਪ ਤੋਂ ਪੇਅਰ ਕਰਨਾ ਪਵੇਗਾ।
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Prompts the user to enter their account recovery code
@@ -919,9 +961,6 @@ confirm-pw-reset-header = ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗ�
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 reset-password-button = ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ
-reset-password-success-alert = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
-reset-password-error-general = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
-reset-password-error-unknown-account = ਅਣਜਾਣ ਖਾਤਾ
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-with-recovery-key-verified-generate-new-key = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
 reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -953,7 +992,7 @@ signin-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 signin-bounced-header = ਅਫ਼ਸੋਸ। ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕੀਤਾ ਹੈ।
 # $email (string) - The user's email.
 signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਬੇਰੰਗ ਪਰਤ ਆਈ ਅਤੇ ਤੁਹਾਡੇ { -brand-firefox } ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕਰ ਲਿਆ ਹੈ।
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = ਜੇ ਇਹ ਵਾਜਬ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਹੈ ਤਾਂ <linkExternal>ਸਾਨੂੰ ਦੱਸੋ</linkExternal> ਅਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ।
 signin-bounced-create-new-account = ਉਹ ਈਮੇਲ ਹੁਣ ਤੁਹਾਡਾ ਨਹੀਂ ਹੈ? ਨਵਾਂ ਖਾਤਾ ਬਣਾਓ
 back = ਪਿੱਛੇ
