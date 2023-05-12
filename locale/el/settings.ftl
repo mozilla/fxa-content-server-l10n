@@ -218,6 +218,7 @@ remember-pw-link = Θυμάστε τον κωδικό πρόσβασης σας;
 primary-email-confirmation-link-reused = Το κύριο email έχει ήδη επαληθευτεί
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
+confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
