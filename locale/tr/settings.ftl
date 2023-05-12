@@ -169,6 +169,8 @@ signin-totp-code-image-label =
     .aria-label = 6 basamaklı gizli kodu olan bir cihaz.
 confirm-signup-aria-label =
     .aria-label = Bağlantı içeren bir zarf
+security-shield-aria-label =
+    .aria-label = Bir hesap kurtarma anahtarını betimleyen resim.
 
 ## Input Password
 
@@ -373,6 +375,15 @@ drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun o
 
 flow-container-back = Geri dön
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Ayarlara dön
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Parolanızı unutursanız kullanabileceğiniz bir hesap kurtarma anahtarı oluşturun
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Kurtarma anahtarınızı oluşturmaya başlayın
+
 # HeaderLockup component
 
 header-menu-open = Menüyü kapat
@@ -566,6 +577,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
 recovery-key-success-alert-3 = Hesap kurtarma anahtarı oluşturuldu
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Hesap kurtarma anahtarı
 
 ## Add secondary email page
 
@@ -811,6 +827,7 @@ auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-999 = Beklenmeyen hata
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
+auth-error-1011 = Geçerli bir e-posta gerekiyor
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
