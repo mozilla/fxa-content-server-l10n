@@ -34,6 +34,10 @@ recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • ਕੁੰਜੀ ਬਣਾਈ: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਾਰੇ ਹੋਰ ਸਿੱਖੋ: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -132,6 +136,8 @@ form-reset-password-with-balloon-match-error = ਪਾਸਵਰਡ ਮਿਲਦ�
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -160,6 +166,8 @@ signin-totp-code-image-label =
     .aria-label = ਲੁਕੋਏ 6-ਅੰਕ ਕੋਡ ਨਾਲ ਡਿਵਾਈਸ
 confirm-signup-aria-label =
     .aria-label = ਲਿੰਕ ਰੱਖਣ ਵਾਲਾ ਲਿਫ਼ਾਫ਼ਾ
+security-shield-aria-label =
+    .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
 
 ## Input Password
 
@@ -308,6 +316,7 @@ cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ �
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ <span>{ $device }</span> ਉੱਤੇ ਰਹੇਗਾ, ਪਰ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -356,6 +365,16 @@ flow-container-back = ਪਿੱਛੇ
 
 ## First view in the Recovery-Key-Add UX redesign flow
 
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ ਤਾਂ ਵਰਤਣ ਲਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = ਅਸੀਂ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲੇ ਡਾਟੇ –– ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨੂੰ ਇੰਕ੍ਰਿਪਟ ਕਰਦੇ ਹਾਂ। ਇਹ ਪਰਦੇਦਾਰੀ ਲਈ ਤਾਂ ਬਹੁਤ ਵਧੀਆ ਹੈ, ਪਰ ਨਾਲ ਇਹ ਵੀ ਹੈ ਕਿ ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਤਾਂ ਅਸੀਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਨਹੀਂ ਕਰ ਸਕਾਂਗੇ।
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = ਇਸ ਕਰਕੇ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਉਣ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ –– ਤੁਸੀਂ ਆਪਣੀ ਕੁੰਜੀ ਨੂੰ ਆਪਣਾ ਡਾਟਾ ਵਾਪਸ ਹਾਸਲ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ।
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰੋ
 
 # HeaderLockup component
 
@@ -379,11 +398,16 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = ਬੰਦ ਕਰੋ
 modal-cancel-button = ਰੱਦ ਕਰੋ
+modal-default-confirm-button = ਤਸਦੀਕ
 
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = ਆਪਣੇ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ
 mvs-enter-verification-code-2 = ਆਪਣਾ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = <email>{ $email }</email> ਉੱਤੇ ਭੇਜੇ ਗਏ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਨੂੰ 5 ਮਿੰਟ ਦੇ ਵਿੱਚ ਵਿੱਚ ਭਰੋ।
 msv-cancel-button = ਰੱਦ ਕਰੋ
 msv-submit-button-2 = ਤਸਦੀਕ
 
@@ -399,6 +423,8 @@ nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+tfa-create-code-error = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-replace-code-success-alert-3 = ਖਾਤਾ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਅੱਪਡੇਟ ਕੀਤੇ ਗਏ
 tfa-replace-code-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 tfa-replace-code-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
@@ -533,6 +559,8 @@ recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ �
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 
 ## Add secondary email page
 
@@ -548,6 +576,7 @@ add-secondary-email-save-button = ਸੰਭਾਲੋ
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+verify-secondary-email-error-3 = ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਗੜਬੜ ਹੋਈ।
 verify-secondary-email-page-title =
     .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
 verify-secondary-email-verification-code-2 =
@@ -574,6 +603,8 @@ tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
 tfa-button-cancel = ਰੱਦ ਕਰੋ
 tfa-button-finish = ਮੁਕੰਮਲ
 tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+tfa-cannot-verify-code-4 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+tfa-incorrect-recovery-code-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਗਲਤ ਹੈ
 tfa-enabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
 tfa-scan-this-code = <linkExternal>ਇਹ ਪਰਮਾਣਕਿਤਾ ਐਪਾਂ</linkExternal> ਵਿੱਚ ਕਿਸੇ ਨਾਲ ਇਹ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ।
 # This is the image alt text for a QR code.
@@ -586,6 +617,10 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = ਇਹ ਭੇਤ ਕੁੰਜੀ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਭਰੋ:
+tfa-enter-totp-v2 = ਹੁਣ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਤੋਂ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+tfa-input-enter-totp-v2 =
+    .label = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+tfa-save-these-codes-1 = ਜਦੋਂ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤਣ ਲਈ ਇਹ ਇਕਹੇਰੀ ਵਰਤੋਂਯੋਗ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸੁਰੱਖਿਆ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ।
 tfa-enter-recovery-code-1 =
     .label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 
@@ -695,7 +730,10 @@ tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 tfa-row-content-explain = ਹਰ ਵਾਰ ਵਿਲੱਖਣ ਕੋਡ, ਜੋ ਸਿਰਫ਼਼ ਤੁਹਾਡੇ ਕੋਲ ਹੋਵੋ, ਚਾਹੀਦਾ ਬਣਾ ਕੇ ਕਿਸੇ ਹੋਰ ਨੂੰ ਲਾਗ ਇਨ ਹੋਣ ਤੋਂ ਰੋਕੋ।
+tfa-row-disable-modal-heading = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਕਰਨਾ ਹੈ?
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
+tfa-row-cannot-disable-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ
+tfa-row-change-modal-heading-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਦਲਣੇ ਹਨ?
 tfa-row-change-modal-confirm = ਬਦਲੋ
 tfa-row-change-modal-explain = ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲੈ ਸਕੋਗੇ।
 
@@ -714,6 +752,12 @@ terms-privacy-agreement-default = ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = ਜਾਂ
+continue-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+continue-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
 ## Auth-server based errors that originate from backend service
 
@@ -734,6 +778,7 @@ auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮ�
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
 auth-error-1003 = ਲੋਕਲ ਸਟੋਰੇਜ਼ ਅਤੇ ਕੂਕੀਜ਼ ਹਾਲੇ ਵੀ ਅਸਮਰੱਥ ਹਨ
 auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
+auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -806,7 +851,17 @@ inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰ
 
 inline-totp-setup-cancel-setup-button = ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ
 inline-totp-setup-continue-button = ਜਾਰੀ ਰੱਖੋ
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ</span> ਰੱਖਣ ਲਈ ਦੋ-ਪੜਾਵੀ ਪਰਮਾਣੀਕਰਨ ਸਮਰੱਥ ਕਰੋ
 inline-totp-setup-ready-button = ਤਿਆਰ
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸਕੈਨ ਕਰੋ
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਕੋਡ ਖੁਦ ਭਰੋ
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸਕੈਨ ਕਰੋ
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 
@@ -853,6 +908,16 @@ pair-auth-complete-manage-devices-link = ਡਿਵਾਈਸਾਂ ਦਾ ਬੰ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+auth-totp-instruction = ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਉਸ ਵਲੋਂ ਦਿੱਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ।
+auth-totp-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = ਤਸਦੀਕ
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -960,7 +1025,12 @@ confirm-pw-reset-header = ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਭੇਜੀ ਗ�
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 reset-password-heading-w-default-service = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = ਈਮੇਲ
 reset-password-button = ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = ਈਮੇਲ ਲੋੜੀਂਦੀ ਹੈ
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-with-recovery-key-verified-generate-new-key = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
 reset-password-with-recovery-key-verified-continue-to-account = ਮੇਰੇ ਖਾਤੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -975,9 +1045,13 @@ validating-signin = …ਸਾਈਨ-ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕ�
 ## ConfirmSignin component
 
 confirm-signin-header = ਇਹ ਸਾਈਨ-ਇਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = { $email } ਨੂੰ ਭੇਜੇ ਗਏ ਸਾਈਨ-ਇਨ ਤਸਦੀਕੀਕਰਨ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = <span>ਆਪਣੇ { -product-firefox-account } ਲਈ</span> ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -1017,6 +1091,8 @@ signin-recovery-code-back-link = ਪਿੱਛੇ
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1046,6 +1122,14 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = <span>ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ</span> ਲਈ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+signin-totp-code-instruction-v2 = ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਉਸ ਵਲੋਂ ਦਿੱਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ।
 signin-totp-code-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
