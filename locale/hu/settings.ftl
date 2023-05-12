@@ -859,7 +859,7 @@ auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-999 = Nem várt hiba
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
-auth-error-1011 = Érvényes e-mail szükséges
+auth-error-1011 = Érvényes e-mail-cím szükséges
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
