@@ -1050,6 +1050,9 @@ complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρό�
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Απεστάλη το email επαναφοράς
 
 ## ResetPassword page
 
@@ -1116,6 +1119,7 @@ signin-reported-header = Σας ευχαριστούμε για την εγρή�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Επιβεβαίωση
 signin-token-code-code-expired = Έληξε ο κωδικός;
@@ -1159,6 +1163,7 @@ confirm-signup-instruction = Ελέγξτε το email σας για τον σύ
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
+confirm-signup-code-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
 confirm-signup-code-code-expired = Έληξε ο κωδικός;
