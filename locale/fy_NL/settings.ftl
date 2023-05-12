@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = In apparaat mei in ferburgen 6-siferige koade.
 confirm-signup-aria-label =
     .aria-label = In slúf mei in keppeling
+security-shield-aria-label =
+    .aria-label = Yllustraasje om in accountwerstelkaai wer te jaan.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 
 flow-container-back = Tebek
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Tebek nei ynstellingen
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Meitsje in accountwerstelkaai oan foar it gefal jo jo wachtwurd ferjitte
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Wy fersiferje sneupgegevens – wachtwurden, blêdwizers, en mear. It is geweldich foar privacy, mar it betsjut dat wy jo gegevens net herstellen kinne as jo jo wachtwurd ferjitte.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Dêrom is it meitsjen fan in accountwerstelkaai sa wichtich – jo kinne jo kaai brûke om jo gegevens werom te krijen.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Begjin mei it meitsjen fan jo werstelkaai
+
 # HeaderLockup component
 
 header-menu-open = Menu slute
@@ -580,6 +595,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Stap 1 fan 2
 recovery-key-step-2 = Stap 2 fan 2
 recovery-key-success-alert-3 = Kaai foar accountwerstel oanmakke
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Accountwerstelkaai
 
 ## Add secondary email page
 
@@ -841,6 +861,7 @@ auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-999 = Unferwachte flater
 auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
+auth-error-1011 = Jildich e-mailadres fereaske
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
