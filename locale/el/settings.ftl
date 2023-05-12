@@ -951,6 +951,7 @@ auth-totp-heading-w-default-service = Εισαγάγετε τον κωδικό �
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 auth-totp-instruction = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
+auth-totp-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Επιβεβαίωση
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1135,6 +1136,7 @@ signin-totp-code-heading-w-default-service-v2 = Εισαγάγετε τον κω
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Εισαγάγετε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 signin-totp-code-instruction-v2 = Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ταυτοποίησης που σας παρέχει.
+signin-totp-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση
 signin-totp-code-other-account-link = Χρήση διαφορετικού λογαριασμού
