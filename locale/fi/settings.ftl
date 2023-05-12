@@ -861,6 +861,7 @@ auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
 auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
+auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
