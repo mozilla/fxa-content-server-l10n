@@ -1002,6 +1002,7 @@ create-new-password-header = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 account-restored-success-message = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵਰਤ ਕੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਹਾਲ ਕਰ ਲਿਆ ਹੈ। ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ ਉੱਤੇ ਸਟੋਰ ਕਰਨ ਲਈ ਇੱਕ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ।
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
+account-recovery-reset-password-redirecting = ਰੀ-ਡਾਇਰੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1135,12 +1136,16 @@ signin-totp-code-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 signin-totp-code-confirm-button = ਤਸਦੀਕ
 signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 signin-totp-code-recovery-code-link = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
 confirm-signup-heading = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = { $email } ਨੂੰ ਭੇਜੇ ਤਸਦੀਕੀਕਰਨ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1148,6 +1153,12 @@ confirm-signup-heading = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਿਓ
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = <span>ਆਪਣੇ { -product-firefox-account } ਲਈ</span> ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਦਿਓ
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = { $email } ਉੱਤੇ 5 ਮਿੰਟ ਵਿੱਚ ਭੇਜਿਆ ਕੋਡ ਦਿਓ
 confirm-signup-code-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
@@ -1156,11 +1167,19 @@ confirm-signup-code-confirm-button = ਤਸਦੀਕ
 confirm-signup-code-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
+confirm-signup-code-success-alert = ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਤਸਦੀਕ ਕੀਤਾ ਗਿਆ
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket =
+    ਮੈਨੂੰ ਇਸ ਖਾਤੇ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
+    <LinkExternal>ਜਾਣਕਾਰੀ ਇੱਥੋਂ ਲਵੋ</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
