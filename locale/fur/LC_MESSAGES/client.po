@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-13 07:51+0000\n"
+"PO-Revision-Date: 2023-05-13 11:58+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1475,43 +1475,43 @@ msgstr "Inserìs il codiç di conferme <span class=\"card-subheader\">pal to acc
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Inserìs dentri di 5 minûts il codiç che ti vin mandât su %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Inserìs il codiç di sigurece"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Vierç la tô aplicazion di autenticazion e inserìs il codiç di sigurece che ti da."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Problemis a inserî il codiç?"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Autorize chest acès"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Controle la casele di pueste: il codiç di autorizazion al è stât inviât a %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Inserìs il codiç di autorizazion"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Definìs la tô password"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr ""
+msgstr "Modifiche e-mail"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
-msgstr ""
+msgstr "Ripet password"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
