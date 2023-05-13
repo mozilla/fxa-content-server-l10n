@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-13 06:22+0000\n"
+"PO-Revision-Date: 2023-05-13 06:50+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1376,50 +1376,52 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>NOTE:</span> cuant che tu azeris la tô password, tu azeris ancje il contignût dal to account. Tu podaressis pierdi cualchi informazion personâl (come cronologjie, segnelibris e passwords). "
+"Chest a sucêt parcè che o criptìn i tiei dâts cu la tô password, par protezi la tô riservatece. Tu mantignarâs distès ducj i abonaments in vore e i dâts di Pocket no vignaran modificâts."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr ""
+msgstr "Scomence azerament"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Ativitât resinte"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Events di sigurece"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Non event"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Confermât"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Date creazion"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Elimine events"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Torne aes impostazions"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Nus displâs. O vin blocât il to account."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "La e-mail di conferme che o vin mandât a %(email)s e je tornade indaûr. Duncje o vin blocât il to account par protezi i tiei dâts di Firefox."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
