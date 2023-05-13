@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-13 07:20+0000\n"
+"PO-Revision-Date: 2023-05-13 07:25+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1447,7 +1447,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Inserìs il codiç di autenticazion di backup"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
