@@ -68,6 +68,17 @@ choose-newsletters-option-knowledge-is-power =
 choose-what-to-sync-prompt = 동기화할 대상 선택:
 choose-what-to-sync-option-bookmarks =
     .label = 북마크
+choose-what-to-sync-option-history =
+    .label = 방문 기록
+choose-what-to-sync-option-passwords =
+    .label = 비밀번호
+choose-what-to-sync-option-addons =
+    .label = 부가 기능
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = 열린 탭
+choose-what-to-sync-option-prefs =
+    .label = 설정
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -89,9 +100,13 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+form-reset-password-with-balloon-submit-button = 비밀번호 재설정
+form-reset-password-with-balloon-match-error = 비밀번호가 일치하지 않습니다
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = 필수 항목입니다
 
 # GetDataTrio component, part of Account Recovery Key flow
 
