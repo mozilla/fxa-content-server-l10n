@@ -6,14 +6,68 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = 닫기
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = 이메일이 다시 전송되었습니다. 원활한 전송을 위해 { $accountsEmail }을 연락처에 추가하세요.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = 문제가 발생했습니다. 새 링크를 보낼 수 없습니다.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
+
+## DownloadRecoveryKeyAsFile
+## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = 복구 키 다운로드
+    .title = 다운로드
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = 계정 복구 키 저장
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this key can result in data loss.
+recovery-key-file-instructions = 계정 복구 키를 포함하는 이 파일을 기억할 수 있는 곳에 보관하세요. 혹은 인쇄하여 물리적 사본을 보관하세요. 비밀번호를 잊어버렸을 때 계정 복구 키로 { -brand-firefox } 데이터를 복구할 수 있습니다.
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 키:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • 키 생성일: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • 계정 복구 키에 대해 더 알아보세요: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = 유용한 정보가 받은 편지함으로 전송됩니다. 더 많은 것을 위해 가입하세요:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = 최신 { -brand-mozilla }와 { -brand-firefox } 뉴스를 받아보세요.
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = 인터넷을 건강하게 유지하기 위한 행동을 취하세요.
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = 더 안전하고 똑똑한 인터넷
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = 동기화할 대상 선택:
+choose-what-to-sync-option-bookmarks =
+    .label = 북마크
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
@@ -198,6 +252,9 @@ drop-down-menu-sign-out-error-2 = 로그아웃 중 문제가 발생했습니다.
 
 flow-container-back = 이전
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+
 # HeaderLockup component
 
 header-menu-open = 메뉴 닫기
@@ -368,6 +425,9 @@ recovery-key-step-1 = 1/2 단계
 recovery-key-step-2 = 2/2 단계
 recovery-key-success-alert-3 = 계정 복구 키 생성됨
 
+## Create Recovery Key page
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2단계 중 1단계
@@ -445,6 +505,9 @@ profile-primary-email =
     .header = 기본 이메일
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -561,6 +624,10 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 ## These terms are used in signin and signup for Firefox account
 
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = 알 수 없는 계정
@@ -645,6 +712,10 @@ auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니
 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 
 ## AccountRecoveryConfirmKey page

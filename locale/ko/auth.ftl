@@ -328,6 +328,7 @@ recovery-title-2 = 비밀번호를 잊으셨습니까?
 # triggered the email follows.
 recovery-request-origin = 다음으로부터 { -product-firefox-account } 비밀번호 변경 요청을 받았습니다:
 recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
+recovery-copy-paste = 아래 URL을 복사하고 브라우저에 붙여 넣어 새 비밀번호를 만드세요. 링크는 한 시간 후에 만료됩니다.
 recovery-action = 새로운 비밀번호 생성
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -369,6 +370,8 @@ subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기�
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = { $productName } 구독을 취소했습니다. { $invoiceDateOnly }에 최종 결제 금액 { $invoiceTotal }이 지불되었습니다.
+subscriptionCancellation-outstanding-content-2 = { $productName } 구독을 취소했습니다. { $invoiceDateOnly }에 최종 결제 금액 { $invoiceTotal }이 지불될 예정됩니다.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
@@ -455,6 +458,7 @@ unblockCode-report = 그렇지 않은 경우, 침입자를 차단할 수 있도�
 unblockCode-report-plaintext = 그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요.
 confirm-account = 계정 확인
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = { -brand-firefox }에 오신 것을 환영합니다!
 confirm-email-2 = 계정 확인
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = 계정 확인
