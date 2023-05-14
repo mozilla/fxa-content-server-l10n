@@ -1058,6 +1058,9 @@ create-new-password-header = Жаңа парольді жасау
 account-restored-success-message = Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Пароль орнатылды
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Күтпеген қате орын алды
+account-recovery-reset-password-redirecting = Қайта бағдарлау
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
