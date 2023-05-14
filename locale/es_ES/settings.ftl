@@ -22,6 +22,12 @@ link-expired-resent-code-error-message = Ha habido un problema. No se ha podido 
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Descarga tu clave de recuperación
+    .title = Descargar
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -352,6 +358,9 @@ drop-down-menu-sign-out-error-2 = Lo sentimos, ha surgido un problema al cerrar 
 
 flow-container-back = Atrás
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+
 # HeaderLockup component
 
 header-menu-open = Cerrar menú
@@ -537,6 +546,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
 recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
