@@ -172,6 +172,8 @@ signin-totp-code-image-label =
     .aria-label = Tæki með falinn 6-stafa kóða.
 confirm-signup-aria-label =
     .aria-label = Umslag sem inniheldur tengil
+security-shield-aria-label =
+    .aria-label = Skýringarmynd til að tákna endurheimtulykil reiknings.
 
 ## Input Password
 
@@ -384,6 +386,19 @@ drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá
 
 flow-container-back = Til baka
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Til baka í stillingar
+# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-info-header = Útbúðu endurheimtulykil til að nota ef þú gleymir lykilorðinu þínu
+# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-shield-bullet-point = Við dulritum vafragögn – lykilorð, bókamerki og fleira. Það er frábært fyrir friðhelgi einkalífsins, en það þýðir að við getum ekki endurheimt gögnin þín ef þú gleymir lykilorðinu þínu.
+# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+flow-recovery-key-info-key-bullet-point = Þess vegna er svo mikilvægt að búa til endurheimtulykil fyrir reikning - þú getur notað lykilinn þinn til að fá gögnin þín til baka.
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Byrjaðu að búa til endurheimtulykilinn þinn
+
 # HeaderLockup component
 
 header-menu-open = Loka valmynd
@@ -577,6 +592,11 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Skref 1 af 2
 recovery-key-step-2 = Skref 2 af 2
 recovery-key-success-alert-3 = Endurheimtulykill reiknings útbúinn
+
+## Create Recovery Key page
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Endurheimtulykill reiknings
 
 ## Add secondary email page
 
@@ -835,6 +855,7 @@ auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-999 = Óvænt villa
 auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
+auth-error-1011 = Krafist er gilds tölvupóstfangs
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
