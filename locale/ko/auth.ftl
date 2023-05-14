@@ -224,6 +224,7 @@ codes-reminder-description-part-two = 지금 새 코드를 생성하여 나중�
 codes-reminder-description-two-left = 코드가 두 개만 남았습니다.
 codes-reminder-description-create-codes = 계정이 잠긴 경우 다시 로그인할 수 있도록 새 백업 인증 코드를 만드세요.
 lowRecoveryCodes-action-2 = 코드 생성
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 대한 새 로그인
@@ -308,6 +309,13 @@ postRemoveTwoStepAuthentication-title-2 = 2단계 인증을 껐습니다
 postRemoveTwoStepAuthentication-from-device = 다음에서 비활성화했습니다:
 postRemoveTwoStepAuthentication-action = 계정 관리
 postRemoveTwoStepAuthentication-not-required-2 = 로그인할 때 더 이상 인증 앱의 보안 코드가 필요하지 않습니다.
+postVerify-sub-title-3 = 만나서 반갑습니다!
+postVerify-title-2 = 두 기기에서 동일한 탭을 보고 싶은가요?
+postVerify-description-2 = 간단합니다! 다른 기기에 { -brand-firefox }를 설치하고 로그인하여 동기화하세요. 마법처럼요!
+postVerify-sub-description = (잠깐... 또한 로그인 한 모든 곳에서 북마크, 암호 및 기타 { -brand-firefox } 데이터를 가져올 수 있습니다.)
+postVerify-subject-3 = { -brand-firefox }에 오신 것을 환영합니다!
+postVerify-setup-2 = 다른 기기 연결:
+postVerify-action-2 = 다른 기기 연결
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = 보조 이메일 주소를 추가했습니다
 # Variables:
@@ -316,6 +324,10 @@ postVerifySecondary-content-2 = { -product-firefox-account }에서 { $secondaryE
 postVerifySecondary-action = 계정 관리
 recovery-subject = 비밀번호 재설정
 recovery-title-2 = 비밀번호를 잊으셨습니까?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = 다음으로부터 { -product-firefox-account } 비밀번호 변경 요청을 받았습니다:
+recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
 recovery-action = 새로운 비밀번호 생성
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
