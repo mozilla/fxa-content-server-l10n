@@ -1139,6 +1139,8 @@ signin-totp-code-input-label-v2 = Zadejte šestimístný kód
 signin-totp-code-confirm-button = Potvrdit
 signin-totp-code-other-account-link = Použít jiný účet
 signin-totp-code-recovery-code-link = Problém se zadáváním kódu?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Je vyžadován ověřovací kód
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -1152,17 +1154,24 @@ confirm-signup-heading = Potvrzení účtu
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Zadejte potvrzovací kód
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 confirm-signup-code-input-label = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdit
+confirm-signup-code-code-expired = Platnost kódu vypršela?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Zaslat e-mailem nový kód.
+confirm-signup-code-success-alert = Účet byl úspěšně potvrzen
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Je vyžadován potvrzovací kód
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Nastavte si heslo
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
@@ -1170,3 +1179,6 @@ signup-age-check-label =
     .label = Kolik vám je let?
 # Error displayed in a tooltip when the user attempts to submit the form without filling in their age
 signup-age-check-input-error = Pro registraci musíte zadat svůj věk
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Proč se ptáme?
