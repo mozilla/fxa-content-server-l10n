@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = Algo salió mal. No se pudo enviar un n
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un nuevo código.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Descargá tu clave de recuperación
+recovery-key-download-button-v2 = Descarga tu clave de recuperación de cuenta
     .title = Descargar
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = GUARDÁ LA CLAVE DE RECUPERACIÓN DE TU CUENTA
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Guardá este archivo que contiene la clave de recuperación de tu cuenta en un lugar que puedas recordar. O imprimilo y guardá una copia física. La clave de recuperación de tu cuenta puede ayudarte a recuperar los datos de { -brand-firefox } si te olvidás de tu contraseña.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Clave:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Clave generada: { $downloadDate }
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Imprimir
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Una computadora y un teléfono celular con la imagen de un corazón roto en cada uno
@@ -172,8 +176,15 @@ signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Un sobre que contiene un enlace
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+lock-image-aria-label =
+    .aria-label = Una ilustración de un candado
 
 ## Input Password
 
@@ -384,18 +395,41 @@ drop-down-menu-sign-out-error-2 = Disculpá, hubo un problema al cerrar la sesi�
 
 flow-container-back = Atrás
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Volver a ajustes
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading = Ingresa tu contraseña de nuevo para comenzar
+flow-recovery-key-confirm-pwd-input-label = Ingrese su contraseña
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Crear clave de recuperación de cuenta
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading = Se generó la clave de recuperación de la cuenta; guardala en un lugar que recordarás
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Esta clave ayudará a recuperar sus datos si olvida su contraseña.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Algunas ideas para guardar la clave de recuperación de tu cuenta:
+flow-recovery-key-download-storage-ideas-folder = Carpeta memorable en tu dispositivo
+flow-recovery-key-download-storage-ideas-cloud = Almacenamiento en la nube confiable
+flow-recovery-key-download-storage-ideas-print = Imprimir y guardar una copia física
+flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Siguiente
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Creá una clave de recuperación de cuenta en caso de que olvidés tu contraseña
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Ciframos los datos de navegación –– contraseñas, marcadores y más. Es genial para la privacidad, pero significa que no podremos recuperar tus datos si olvidás la contraseña.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Es por eso que crear una clave de recuperación de cuenta es tan importante –– podés usar tu clave para recuperar tus datos.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Comenzar a crear tu clave de recuperación
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Comienza a crear tu clave de recuperación de cuenta
 
 # HeaderLockup component
 
@@ -591,10 +625,13 @@ recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
 recovery-key-success-alert-3 = Se creó la clave de recuperación de la cuenta
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Clave de recuperación de cuenta
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Volver a ajustes
 
 ## Add secondary email page
 
@@ -689,11 +726,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Una barra de progreso que muestra que el usuario está en el paso { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
