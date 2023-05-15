@@ -22,6 +22,21 @@ link-expired-resent-code-error-message = Ha habido un problema. No se ha podido 
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Descarga tu clave de recuperación
+    .title = Descargar
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Clave: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Clave generada: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -219,6 +234,7 @@ password-strength-balloon-not-common = Que no sea una contraseña de uso común
 ## Ready component
 
 reset-password-complete-header = Se ha restablecido tu contraseña
+ready-start-browsing-button = Empezar a navegar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -324,6 +340,7 @@ cs-disconnect-suspicious-advice-content =
     en la configuración de tu cuenta. También deberías cambiar cualquier otra
     contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
+cs-recent-activity = Actividad reciente de la cuenta
 
 ##
 
@@ -351,6 +368,9 @@ drop-down-menu-sign-out-error-2 = Lo sentimos, ha surgido un problema al cerrar 
 ## Flow Container
 
 flow-container-back = Atrás
+
+## First view in the Recovery-Key-Add UX redesign flow
+
 
 # HeaderLockup component
 
@@ -490,6 +510,7 @@ delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
+delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Recuerda que si eliminas tu cuenta:
 delete-account-chk-box-2 =
     .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
@@ -523,6 +544,7 @@ display-name-success-alert-2 = Nombre visible actualizado
 ## Recent Activity
 
 recent-activity-title = Actividad reciente de la cuenta
+recent-activity-account-create = Se ha creado la cuenta
 
 # Account recovery key setup page
 
@@ -537,6 +559,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
 recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
@@ -815,12 +840,15 @@ inline-recovery-continue-button = Continuar
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Atrás
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Código de autenticación de respaldo
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
+inline-totp-setup-ready-button = Listo
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
 
@@ -981,7 +1009,12 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = Correo electrónico
 reset-password-button = Iniciar restablecimiento
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Correo electrónico requerido
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
 
