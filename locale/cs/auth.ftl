@@ -215,6 +215,9 @@ fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte pro
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Došly vám záložní ověřovací kódy!
+codes-reminder-title-two = Je čas vytvořit další záložní ověřovací kódy
 codes-reminder-description-part-two = Vytvořte nové kódy hned, abyste později o svá data nepřišli.
 codes-reminder-description-two-left = Zbývají vám jen dva kódy.
 lowRecoveryCodes-action-2 = Vytvořit kódy
@@ -263,6 +266,9 @@ postAddAccountRecovery-action = Správa účtu
 postAddAccountRecovery-delete-key = Smazat nový klíč:
 postAddAccountRecovery-changd-password = Změňte si své heslo:
 postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Váš účet { $providerName } byl propojen s vaším účtem { -product-firefox-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
 postAddTwoStepAuthentication-subject-2 = Dvoufázové ověření je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
