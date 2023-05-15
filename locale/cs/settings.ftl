@@ -33,12 +33,23 @@ recovery-key-file-header = UCHOVEJTE SI KLÍČ PRO OBNOVENÍ ÚČTU
 recovery-key-file-key-value = Klíč: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the recovery key was created and this file was downloaded
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Klíč vygenerován: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Zjistěte více o svém obnovovacím klíči k účtu: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více informací:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Získejte nejnovější zprávy o { -brand-mozilla(case: "loc") } a { -brand-firefox(case: "loc") }
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Bojujte za zdravý internet
@@ -105,6 +116,9 @@ device-info-block-location-city-country = { $city }, { $country } (odhad)
 device-info-block-location-country = { $country } (odhad)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Neznámá poloha
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } na { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresa: { $ipAddress }
@@ -131,6 +145,8 @@ form-verify-code-default-error = Toto pole je povinné
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Klíč k obnovení účtu { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Záložní ověřovací kódy pro účet { -brand-firefox }
 get-data-trio-download-2 =
     .title = Stáhnout
     .aria-label = Stáhnout
@@ -143,6 +159,16 @@ get-data-trio-print-2 =
 
 ## Images - these are all aria labels used for illustrations
 
+hearts-broken-image-aria-label =
+    .aria-label = Počítač a mobil a na každém obrázek zlomeného srdce
+signin-recovery-code-image-description =
+    .aria-label = Dokument, který obsahuje skrytý text.
+signin-totp-code-image-label =
+    .aria-label = Zařízení se skrytým 6místným kódem.
+confirm-signup-aria-label =
+    .aria-label = Obálka obsahující odkaz
+security-shield-aria-label =
+    .aria-label = Ilustrace představující klíč pro obnovení účtu.
 
 ## Input Password
 
@@ -199,6 +225,8 @@ confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Toto heslo potřebujete pro přístup ke všem zašifrovaným datům, která u nás ukládáte.
+password-info-balloon-reset-risk-info = Reset znamená potenciální ztrátu dat, jako jsou hesla a záložky.
 
 ## PasswordStrengthBalloon component
 
@@ -211,12 +239,20 @@ password-strength-balloon-stay-safe-tips = Nepřepoužívejte stejné heslo a p�
 ## Ready component
 
 reset-password-complete-header = Vaše heslo bylo obnoveno
+ready-complete-set-up-instruction = Dokončete nastavení zadáním nového hesla na ostatní zařízeních s { -brand-firefox(case: "ins") }.
 ready-start-browsing-button = Začít prohlížet
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Nyní můžete používat službu { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Nyní jste připraveni použít nastavení účtu
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Váš účet je dokončen!
 ready-continue = Pokračovat
 sign-in-complete-header = Přihlášení potvrzeno
 sign-up-complete-header = Účet ověřen
+primary-email-verified-header = Hlavní e-mailová adresa byla potvrzena
 
 ## Alert Bar
 
@@ -283,6 +319,8 @@ cs-disconnect-sync-heading = Odpojit od Syncu
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = Vaše data o prohlížení zůstanou v zařízení <span>{ $device }</span>, ale už nebudou synchronizována s vaším účtem.
+cs-disconnect-sync-reason-3 = Jaký byl váš hlavní důvod pro odpojení zařízení <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -308,6 +346,7 @@ cs-disconnect-suspicious-advice-content =
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-sign-out-button = Odhlásit se
+cs-recent-activity = Nedávná aktivita účtu
 
 ##
 
@@ -338,6 +377,10 @@ flow-container-back = Zpět
 
 ## First view in the Recovery-Key-Add UX redesign flow
 
+# This will be the title of the back button so that users know where that button will take them
+flow-recovery-key-info-back-button-title = Zpět do nastavení
+# The text of the "submit" button in the first view of the Recovery Key Add flow
+flow-recovery-key-info-cta-text = Začněte vytvářet svůj obnovovací klíč
 
 # HeaderLockup component
 
@@ -367,6 +410,7 @@ modal-default-confirm-button = Potvrdit
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrďte svou e-mailovou adresu
+mvs-enter-verification-code-2 = Zadejte potvrzovací kód
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
@@ -504,6 +548,9 @@ display-name-success-alert-2 = Zobrazované jméno aktualizováno
 
 ## Recent Activity
 
+recent-activity-title = Nedávná aktivita účtu
+recent-activity-account-create = Účet byl vytvořen
+recent-activity-account-disable = Účet byl deaktivován
 recent-activity-account-enable = Účet byl povolen
 
 # Account recovery key setup page
@@ -522,6 +569,8 @@ recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
 
 ## Create Recovery Key page
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Obnovovací klíč k účtu
 
 ## Add secondary email page
 
@@ -586,6 +635,8 @@ tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací ap
 tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
 tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
+tfa-enter-recovery-code-1 =
+    .label = Vložte záložní ověřovací kód
 
 ##
 
