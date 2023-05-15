@@ -146,6 +146,56 @@ subscriptionFirstInvoice-content-charge = Chaidh { $invoiceTotal } iarraidh { $i
 subscriptionSupport = Ceistean mun fho-sgrìobhadh agad? Cuidichidh an <a data-l10n-name="subscriptionSupportUrl">sgioba taice</a> againn thu.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ceistean mun fho-sgrìobhadh agad? Cuidichidh an sgioba taice againn thu.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Mòran taing airson fo-sgrìobhadh gu { $productName }. Ma tha ceist sam bith agad mun fho-sgrìobhadh agad no ma tha barrachd fiosrachaidh a dhìth ort mu dhèidhinn { $productName }, <a data-l10n-name="subscriptionSupportUrl">cuir fios thugainn</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Mòran taing airson fo-sgrìobhadh gu { $productName }. Ma tha ceist sam bith agad mun fho-sgrìobhadh agad no ma tha barrachd fiosrachaidh a dhìth ort mu dhèidhinn { $productName }, cuir fios thugainn:
+subscriptionUpdateBillingEnsure = ’S urrainn dhut dèanamh cinnteach gu bheil an dòigh pàighidh is fiosrachadh a’ chunntais agad cho ùr ’s a ghabhas <a data-l10n-name="updateBillingUrl">an-seo</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = ’S urrainn dhut dèanamh cinnteach gu bheil an dòigh pàighidh is fiosrachadh a’ chunntais agad cho ùr ’s a ghabhas an-seo:
+subscriptionUpdateBillingTry = Iarraidh sinn an t-airgead a-rithist thairis air na beagan làithean seo romhainn ach dh’fhaoidte gum bi agad ri ar cuideachadh is tu <a data-l10n-name="updateBillingUrl">ag ùrachadh an fhiosrachaidh phàighidh agad</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Iarraidh sinn an t-airgead a-rithist thairis air na beagan làithean seo romhainn ach dh’fhaoidte gum bi agad ri ar cuideachadh is tu ag ùrachadh an fhiosrachaidh phàighidh agad:
+subscriptionUpdatePayment = Airson ’s nach bris dad a-steach air an t-seirbheis agad, <a data-l10n-name="updateBillingUrl">ùraich am fiosrachadh pàighidh agad</a> cho ùr ’s a ghabhas.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Airson ’s nach bris dad a-steach air an t-seirbheis agad, ùraich am fiosrachadh pàighidh agad cho ùr ’s a ghabhas:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Airson barrachd fiosrachaidh, tadhail air taic { -brand-mozilla }: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } air { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } air { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Seòladh IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (tuairmse)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (tuairmse)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (tuairmse)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (tuairmse)
+view-invoice = <a data-l10n-name="invoiceLink">Coimhead air an fhàirdeal agad</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Coimhead air an fhàirdeal: { $invoiceLink }
 newDeviceLogin-action = Stiùirich an cunntas
 passwordChanged-title = Chaidh am facal-faire atharrachadh
 passwordChangeRequired-signoff = le gach deagh-dhùrachd,
