@@ -818,10 +818,25 @@ connect-another-device-signin-confirmed-banner = Přihlášení potvrzeno
 connect-another-device-signin-to-complete-message = Pro dokončení nastavení se přihlaste do { -brand-firefox(case: "gen") }
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Přihlásit se
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Potřebujete přidat zařízení? Pro dokončení nastavení se přihlaste k { -brand-firefox(case: "dat") } na jiném zařízení
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Pro dokončení nastavení se přihlaste k { -brand-firefox(case: "dat") } na jiném zařízení
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Chcete mít své panely, záložky a hesla na dalším zařízení?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Připojte další zařízení
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Teď ne
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Pro dokončení nastavení se přihlaste k { -brand-firefox(case: "dat") } pro Android
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Pro dokončení nastavení se přihlaste k { -brand-firefox(case: "dat") } pro iOS
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Je vyžadováno místní úložiště a cookies
 cookies-disabled-enable-prompt = Abyste mohli používat { -product-firefox-accounts(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Zkusit znovu
@@ -832,6 +847,8 @@ cookies-disabled-learn-more = Zjistit více
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Zrušit
@@ -840,34 +857,75 @@ inline-recovery-continue-button = Pokračovat
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Potvrdit
 inline-recovery-back-link = Zpět
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Záložní ověřovací kód
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Zrušit nastavení
 inline-totp-setup-continue-button = Pokračovat
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Povolte dvoufázové ověření <span>a pokračujte do nastavení účtu</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Povolte dvoufázové ověření <span>a pokračujte do služby { $serviceName }</span>
 inline-totp-setup-ready-button = Připraveno
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Naskenujte ověřovací kód <span>a pokračujte do služby { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Ručně zadejte kód <span>a pokračujte do služby { $serviceName }</span>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Ověřovací kód
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Právní informace
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Podmínky služby
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Zásady ochrany osobních údajů
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Zásady ochrany osobních údajů
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Podmínky služby
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Přihlásili jste se právě do { -product-firefox(case: "gen") }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ano, schválit zařízení
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Pokud jste to nebyli vy, <link>změňte si heslo</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Zařízení připojeno
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Nyní synchronizujete: { $deviceFamily } ({ $deviceOS })
+pair-auth-complete-sync-benefits-text = Nyní máte přístup k otevřeným panelům, heslům a záložkám na všech svých zařízeních.
+pair-auth-complete-see-tabs-button = Zobrazit panely ze synchronizovaných zařízení
+pair-auth-complete-manage-devices-link = Správa zařízení
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Zadejte šestimístný kód
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Potvrdit
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Je vyžadován ověřovací kód
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -876,9 +934,12 @@ inline-totp-setup-ready-button = Připraveno
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Párování se nezdařilo
+pair-failure-message = Nastavování bylo ukončeno.
 
 ## Pair index page
 
+pair-sync-header = Synchronizujte { -brand-firefox(case: "acc") }  se svým telefonem či tabletem
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
