@@ -275,12 +275,19 @@ postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Povolili jste ho z:
 postAddTwoStepAuthentication-action = Správa účtu
+postAddTwoStepAuthentication-code-required-2 = Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace.
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
 postChangePrimary-title = Nová hlavní e-mailová adresa
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-firefox-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
 postChangePrimary-action = Správa účtu
+postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Byl použitý na:
 postConsumeRecoveryCode-action = Správa účtu
+postNewRecoveryCodes-subject-2 = Byly vytvořeny nové záložní ověřovací kódy
+postNewRecoveryCodes-title-2 = Vytvořili jste nové záložní ověřovací kódy
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Byly vytvořeny na:
 postNewRecoveryCodes-action = Správa účtu
