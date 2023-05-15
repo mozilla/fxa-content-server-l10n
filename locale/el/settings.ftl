@@ -900,6 +900,9 @@ inline-recovery-backup-authentication-code = Εφεδρικός κωδικός �
 inline-totp-setup-cancel-setup-button = Ακύρωση ρύθμισης
 inline-totp-setup-continue-button = Συνέχεια
 inline-totp-setup-ready-button = Έτοιμο
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Σαρώστε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
@@ -969,6 +972,7 @@ pair-failure-message = Η διαδικασία ρύθμισης τερματίσ
 
 ## Pair index page
 
+pair-cad-header = Συνδέστε το { -brand-firefox } σε άλλη συσκευή
 pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } στο κινητό ή το tablet σας;
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Συγχρονισμός συσκευής
@@ -1163,6 +1167,8 @@ confirm-signup-instruction = Ελέγξτε το email σας για τον σύ
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email }, εντός 5 λεπτών.
 confirm-signup-code-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
