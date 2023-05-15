@@ -944,18 +944,18 @@ inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activa le aut
 inline-totp-setup-ready-button = Preste
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header-2 = Scanna le codice de authentication <span>pro continuar a { $serviceName }</span>
+inline-totp-setup-show-qr-custom-service-header-2 = Scande le codices de authentication <span>pro continuar a { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Insere codice manualmente <span>pro continuar { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header-2 = Scanna le codice de authentication <span>pro continuar al parametros del conto</span>
+inline-totp-setup-show-qr-default-service-header-2 = Scande le codices de authentication <span>pro continuar a configurar le conto</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Insere codice manualmente <span>pro continuar a configurar le conto</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Insere iste clave secrete in tu app de authentication. <toggleToQRButton>Prefere scannar le codice QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Scanna le codice QR in tu app de authentication e pois insere le codice de authentication que illo forni. <toggleToManualModeButton>Non pote scannar le codice?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu app de authentication e pois insere le codice de authentication que illo forni. <toggleToManualModeButton>Non pote tu scander le codice?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Un vice complete, illo comenciara a generar codices de authentication que tu pote inserer.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1041,7 +1041,7 @@ pair-sync-your-device-button = Synchronisa tu apparato
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = O discarga
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
-pair-scan-to-download-message = Scanna pro discargar { -brand-firefox } pro mobile, o invia te un <linkExternal>ligamine de discargamento</linkExternal>.
+pair-scan-to-download-message = Scande pro discargar { -brand-firefox } pro mobile, o invia te un <linkExternal>ligamine de discargamento</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Non ora
 pair-take-your-data-message = Porta tu schedas, marcapaginas e contrasignos ubique tu usa { -brand-firefox }.
