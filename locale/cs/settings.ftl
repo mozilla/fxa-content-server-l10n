@@ -994,44 +994,104 @@ third-party-auth-callback-message = Čekejte prosím, budete přesměrováni na 
 account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocí klíče pro obnovení účtu <span>a pokračujte do nastavení účtu</span>
 account-recovery-confirm-key-instructions = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-firefox-account }.
 account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou smazána.
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Zadejte obnovovací klíč k účtu
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Potvrďte obnovovací klíč k účtu
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Neplatný obnovovací klíč k účtu
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Je vyžadován obnovovací klíč k účtu
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Nemáte obnovovací klíč k účtu?
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Vytvořit nové heslo
+account-restored-success-message = Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče k účtu. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné místo.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Heslo nastaveno
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Nastala neočekávaná chyba.
+account-recovery-reset-password-redirecting = Probíhá přesměrování
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Vytvořit nové heslo
+complete-reset-password-warning-message-2 = <span>Nezapomeňte:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě { -product-pocket } zůstanou beze změny.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Heslo nastaveno
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = E-mail pro obnovu odeslán
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, který jsme vám poslali e-mailem na adresu { $email }.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Obnovte heslo <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Obnovte heslo <span>a pokračujte do služby { $serviceName }</span>
+reset-password-warning-message-2 = <span>Poznámka:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě { -product-pocket } zůstanou beze změny.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail
 reset-password-button = Začít obnovu
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mail je vyžadován
+reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
+reset-password-with-recovery-key-verified-generate-new-key = Vytvořit nový obnovovací klíč k účtu
 reset-password-with-recovery-key-verified-continue-to-account = Pokračovat do mého účtu
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Chyba:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Ověřuje se přihlášení…
 
 ## ConfirmSignin component
 
 confirm-signin-header = Potvrdit toto přihlášení
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Zkontrolujte potvrzovací odkaz, který jsme poslali na { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Zadejte své heslo <span>k účtu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Pokračovat do služby { $serviceName }
+signin-subheader-without-logo-default = Pokračujte do nastavení účtu
 signin-button = Přihlásit se
 signin-header = Přihlásit se
 signin-use-a-different-account-link = Použít jiný účet
 signin-forgot-password-link = Zapomněli jste heslo?
+signin-bounced-header = Omlouváme se, váš účet byl uzamčen.
+# $email (string) - The user's email.
+signin-bounced-message = Potvrzovací e-mail, který jsme poslali na adresu { $email }, se vrátil zpět. Abychom ochránili vaše data, váš účet jsme uzamkli.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Pokud se jedná o platnou e-mailovou adresu, <linkExternal>dejte nám vědět</linkExternal> a my vám pomůžeme odemknout váš účet.
+signin-bounced-create-new-account = Už tento e-mail nevlastníte? Vytvořte si nový účet
 back = Zpět
 
 ## SigninRecoveryCode page
@@ -1039,6 +1099,7 @@ back = Zpět
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Zadejte 10místný záložní ověřovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdit
 # Link to return to signin with two-step authentication code
@@ -1046,10 +1107,13 @@ signin-recovery-code-back-link = Zpět
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ztratili jste přístup?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Je vyžadován záložní ověřovací kód
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Děkujeme za vaši ostražitost
+signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pomáhají odrážet útočníky.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1060,8 +1124,11 @@ signin-token-code-instruction = Vložte během 5 minut kód, který vám byl zas
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdit
+signin-token-code-code-expired = Platnost kódu vypršela?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Je vyžadován potvrzovací kód
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
