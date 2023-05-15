@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = Valami elromlott. Nem sikerült új hiv
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Töltse le a helyreállítási kulcsot
+recovery-key-download-button-v2 = Töltse le a fiók-helyreállítási kulcsot
     .title = Letöltés
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = MENTSE EL A FIÓK-HELYREÁLLÍTÁSI KULCSÁT
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Tárolja ezt a fiók-helyreállítási kulcsát tartalmazó fájlt egy olyan helyen, amelyre emlékezni fog. Vagy nyomtassa ki és tartson meg egy másolatot. A fiók-helyreállítási kulcsa segíthet a { -brand-firefox } adatainak helyreállításában, ha elfelejti a jelszavát.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Kulcs: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Kulcs előállítva: { $downloadDate }
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Nyomtatás
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Egy számítógép és egy mobiltelefon, mindkettőn egy összetört szív képe
@@ -172,8 +176,15 @@ signin-totp-code-image-label =
     .aria-label = Egy eszköz egy rejtett 6 számjegyű kóddal.
 confirm-signup-aria-label =
     .aria-label = Egy hivatkozást tartalmazó boríték
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
+lock-image-aria-label =
+    .aria-label = Illusztráció: egy zár
 
 ## Input Password
 
@@ -386,18 +397,41 @@ drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezése
 
 flow-container-back = Vissza
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Vissza a beállításokhoz
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading = A kezdéshez adja meg újra a jelszavát
+flow-recovery-key-confirm-pwd-input-label = Írja be a jelszavát
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Fiók-helyreállítási kulcs létrehozása
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading = Fiók-helyreállítási kulcs előállítva – tárolja olyan helyen, amelyre emlékezni fog
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Ez a kulcs segít helyreállítani az adatait, ha elfelejti a jelszavát.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Néhány ötlet a fiók-helyreállítási kulcs tárolásához:
+flow-recovery-key-download-storage-ideas-folder = Emlékezetes mappa az eszközén
+flow-recovery-key-download-storage-ideas-cloud = Megbízható felhő tároló
+flow-recovery-key-download-storage-ideas-print = Nyomtasson és tartson meg egy fizikai másolatot
+flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Tovább
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcsot arra az esetre, ha elfelejtené a jelszavát
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de ez azt is jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja a kulcsát, hogy visszakapja az adatait.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Kezdje el a helyreállítási kulcs létrehozását
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Kezdje el létrehozni a fiók-helyreállítási kulcsát
 
 # HeaderLockup component
 
@@ -596,10 +630,13 @@ recovery-key-step-1 = 1. / 2. lépés
 recovery-key-step-2 = 2. / 2. lépés
 recovery-key-success-alert-3 = Fiók-helyreállítási kulcs létrehozva
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Fiók-helyreállítási kulcs
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Vissza a beállításokhoz
 
 ## Add secondary email page
 
@@ -698,7 +735,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Egy folyamatjelző sáv, amely mutatja, hogy a felhasználó a(z) { $currentStep }. / { $numberOfSteps } lépésnél tart.
+progress-bar-aria-label-v2 = { $currentStep }. / { $numberOfSteps } lépés.
 
 ## Security section of Setting
 
