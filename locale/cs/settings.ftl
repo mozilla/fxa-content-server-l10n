@@ -772,6 +772,12 @@ terms-privacy-agreement-intro = Pokračováním souhlasíte s:
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Nebo
+continue-with-google-button = Pokračovat pomocí { -brand-google }
+continue-with-apple-button = Pokračovat pomocí { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -791,6 +797,7 @@ auth-error-155 = TOTP token nenalezen
 auth-error-183-2 = Neplatný nebo starý potvrzovací kód
 auth-error-999 = Neočekávaná chyba
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
+auth-error-1011 = Je požadován platný e-mail
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -801,10 +808,14 @@ cannot-create-account-learn-more-link = Zjistit více
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Jste přihlášen(a) do { -brand-firefox(case: "gen") }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = E-mail potvrzen
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Přihlášení potvrzeno
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Pro dokončení nastavení se přihlaste do { -brand-firefox(case: "gen") }
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Přihlásit se
 
