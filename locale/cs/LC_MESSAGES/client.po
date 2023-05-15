@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-10 17:21+0000\n"
+"PO-Revision-Date: 2023-05-15 09:20+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -484,7 +484,7 @@ msgstr "Nedostupný příkaz zařízení"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Obnovovací klíč k účtu nebyl nalezen"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
@@ -524,7 +524,7 @@ msgstr "Aktualizace byla zamítnuta, zkuste to znovu"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Neplatný nebo starý potvrzovací kód"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
@@ -605,7 +605,7 @@ msgstr "Je vyžadována platná URL"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Odeslaná potvrzující e-mailová zpráva se právě vrátila zpět. Nemáte překlep v e-mailové adrese?"
 
 #: .es5/lib/auth-errors.js:404
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -685,11 +685,11 @@ msgstr "Neplatný kód pro dvoufázové ověření"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Je vyžadován záložní ověřovací kód"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Neplatný záložní ověřovací kód"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"

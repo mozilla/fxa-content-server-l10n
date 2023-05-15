@@ -275,6 +275,8 @@ postChangePrimary-action = Správa účtu
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Byl použitý na:
 postConsumeRecoveryCode-action = Správa účtu
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Byly vytvořeny na:
 postNewRecoveryCodes-action = Správa účtu
 postRemoveAccountRecovery-subject-2 = Obnovovací klíč k účtu byl smazán
 postRemoveAccountRecovery-title-2 = Smazali jste svůj obnovovací klíč k účtu.
@@ -446,6 +448,9 @@ verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
 verify-action-2 = Potvrdit účet
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Přihlásili jste se do produktu { $clientName }?
 verifyLogin-subject-2 = Potvrdit přihlášení
 verifyLogin-action = Potvrdit přihlášení
 # Variables:
