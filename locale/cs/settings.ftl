@@ -940,29 +940,60 @@ pair-failure-message = Nastavování bylo ukončeno.
 ## Pair index page
 
 pair-sync-header = Synchronizujte { -brand-firefox(case: "acc") }  se svým telefonem či tabletem
+pair-cad-header = Připojit { -brand-firefox } na jiném zařízení
+pair-already-have-firefox-paragraph = Už máte { -brand-firefox } na telefonu nebo tabletu?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronizovat zařízení
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Nebo stáhnout
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Teď ne
+pair-take-your-data-message = Vezměte si své panely, záložky a hesla všude tam, kde používáte { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Začít
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR kód
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Zařízení připojeno
+pair-success-message-2 = Párování dokončeno.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Potvrdit párování <small>pro { $email }</small>
+pair-supp-allow-confirm-button = Potvrdit párování
+pair-supp-allow-cancel-link = Zrušit
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Je požadováno schválení <span>z vašeho dalšího zařízení</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Spárovat pomocí aplikace
+pair-unsupported-message = Použili jste systémový fotoaparát? Párování je potřeba zahájit z { -brand-firefox(case: "gen") }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Čekejte prosím, budete přesměrováni na autorizovanou aplikaci.
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocí klíče pro obnovení účtu <span>a pokračujte do nastavení účtu</span>
+account-recovery-confirm-key-instructions = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou smazána.
 
 ## Account recovery reset password page
 
