@@ -10,6 +10,9 @@
 # This text is for screen-readers
 banner-dismiss-button =
     .aria-label = Zavřít
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = E-mail byl znovu odeslán. Pro jistotu si přidejte adresu { $accountsEmail } do svých kontaktů.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-link-error-message = Nový odkaz se nepodařilo odeslat.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
@@ -19,6 +22,17 @@ link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 ## These strings are used in an unformatted plain text file that users can download to save their recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button = Stáhnout klíč pro obnovení
+    .title = Stáhnout
+# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-file-header = UCHOVEJTE SI KLÍČ PRO OBNOVENÍ ÚČTU
+# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = Klíč: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -322,6 +336,9 @@ drop-down-menu-sign-out-error-2 = Omlouváme se, odhlášení se nezdařilo
 
 flow-container-back = Zpět
 
+## First view in the Recovery-Key-Add UX redesign flow
+
+
 # HeaderLockup component
 
 header-menu-open = Zavřít nabídku
@@ -502,6 +519,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Krok 1 ze 2
 recovery-key-step-2 = Krok 2 ze 2
 recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
+
+## Create Recovery Key page
+
 
 ## Add secondary email page
 
