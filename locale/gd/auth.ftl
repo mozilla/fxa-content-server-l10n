@@ -196,6 +196,11 @@ view-invoice = <a data-l10n-name="invoiceLink">Coimhead air an fhàirdeal agad</
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Coimhead air an fhàirdeal: { $invoiceLink }
+cadReminderFirst-subject-1 = Cuimhneachan! Sioncronaicheamaid { -brand-firefox }
+cadReminderFirst-action = Sioncronaich uidheam eile
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Tha feum air dithis airson sioncronachadh
 newDeviceLogin-action = Stiùirich an cunntas
 passwordChanged-title = Chaidh am facal-faire atharrachadh
 passwordChangeRequired-signoff = le gach deagh-dhùrachd,
