@@ -26,7 +26,7 @@ link-sr-new-window = 새 창에서 열림
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
 # Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = 로드 중...
+app-loading-spinner-aria-label-loading = 로드 중…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
