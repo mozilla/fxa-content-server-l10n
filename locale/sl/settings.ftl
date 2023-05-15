@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = Prišlo je do napake. Nove povezave ni 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Prenesite obnovitveni ključ
+recovery-key-download-button-v2 = Prenesite ključ za obnovitev računa
     .title = Prenesi
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = SHRANITE KLJUČ ZA OBNOVITEV RAČUNA
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Shranite to datoteko s ključem za obnovitev računa na mesto, ki si ga boste zapomnili, ali ga natisnite in obdržite fizično kopijo. Ključ za obnovitev računa vam lahko pomaga obnoviti podatke v { -brand-firefox(sklon: "mestnik") }, če pozabite geslo.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Ključ: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Ključ ustvarjen: { $downloadDate }
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Natisni
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Računalnik in mobilni telefon ter na vsakem podoba zlomljenega srca
@@ -172,8 +176,15 @@ signin-totp-code-image-label =
     .aria-label = Naprava s skrito 6-mestno kodo.
 confirm-signup-aria-label =
     .aria-label = Ovojnica s povezavo
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Slika, ki predstavlja ključ za obnovitev računa.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Slika, ki predstavlja ključ za obnovitev računa.
+lock-image-aria-label =
+    .aria-label = Ilustracija ključavnice
 
 ## Input Password
 
@@ -386,18 +397,41 @@ drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljan
 
 flow-container-back = Nazaj
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Nazaj na nastavitve
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading = Za začetek znova vnesite geslo
+flow-recovery-key-confirm-pwd-input-label = Vnesite svoje geslo
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Ustvari ključ za obnovitev računa
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading = Ključ za obnovitev računa ustvarjen – shranite ga na mesto, ki si ga boste zapomnili
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Ta ključ vam bo pomagal obnoviti podatke, če pozabite geslo.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Nekaj predlogov za shranjevanje ključa za obnovitev računa:
+flow-recovery-key-download-storage-ideas-folder = Pomnilna mapa v vaši napravi
+flow-recovery-key-download-storage-ideas-cloud = Zaupanja vredna shramba v oblaku
+flow-recovery-key-download-storage-ideas-print = Natisnite in shranite fizično kopijo
+flow-recovery-key-download-storage-ideas-pwd-manager = Upravitelj gesel
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Naprej
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozabite geslo
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je odlično z vidika varovanja zasebnosti, vendar hkrati pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Začnite ustvarjati obnovitveni ključ
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Začnite ustvarjati ključ za obnovitev računa
 
 # HeaderLockup component
 
@@ -596,10 +630,13 @@ recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
 recovery-key-success-alert-3 = Ključ za obnovitev računa ustvarjen
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Ključ za obnovitev računa
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Nazaj na nastavitve
 
 ## Add secondary email page
 
@@ -698,7 +735,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Vrstica napredka, ki prikazuje, da je uporabnik na koraku { $currentStep } od { $numberOfSteps }.
+progress-bar-aria-label-v2 = Korak { $currentStep } od { $numberOfSteps }.
 
 ## Security section of Setting
 
