@@ -184,7 +184,7 @@ security-shield-aria-label =
 recovery-key-image-aria-label =
     .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
 lock-image-aria-label =
-    .aria-label = Illusztráció: egy zár
+    .aria-label = Egy zár illusztrációja
 
 ## Input Password
 
