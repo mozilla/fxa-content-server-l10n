@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-16 14:02+0000\n"
+"PO-Revision-Date: 2023-05-16 14:11+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1540,103 +1540,103 @@ msgstr ""
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Accounts di Firefox"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Pagjine principâl dal account"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
-msgstr ""
+msgstr "Sotscrizions"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Contatinus"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Par cuâl motîf tu nus contatis?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Selezione une opzion"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Cemût podìno judâti?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr ""
+msgstr "Paiaments e faturazion"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
-msgstr ""
+msgstr "Problemis cul account"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Problemis tecnics"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Mandâ une opinion / domandâ funzionalitâts"
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Nol è te liste"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Ti covential jutori cuntune aplicazion o servizi specific? (opzionâl)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Ogjet (opzionâl)"
 
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
-msgstr ""
+msgstr "Descrizion dal probleme"
 
 #: .es5/templates/support.mustache:22
 msgid "Send"
-msgstr ""
+msgstr "Invie"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Desideristu sincronizâ chest dispositîf cul to account?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sincronize chest dispositîf"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Pas 1 di 2: torne inserìs la password"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Inserìs la password par visualizâ la clâf di recupar dal account."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
-msgstr ""
+msgstr "Inserìs la password"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Conetût cun sucès"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Siere cheste pagjine e continue sul altri dispositîf."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Gnûf acès a Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Conferme acès"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
