@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = משהו השתבש. לא ניתן הי
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = הורדת מפתח השחזור שלך
+recovery-key-download-button-v2 = הורדת מפתח שחזור החשבון שלך
     .title = הורדה
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = יש לשמור את מפתח שחזור החשבון שלך
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = יש לאחסן את קובץ זה שמכיל את מפתח שחזור החשבון שלך במקום שתזכור, או להדפיס אותו ולשמור עותק פיזי. מפתח שחזור החשבון שלך יכול לעזור לך לשחזר את נתוני { -brand-firefox } אם ססמתך תישכח.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 מפתח: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account(case: "a") }: ‏{ $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • מפתח נוצר בתאריך: { $downloadDate }
@@ -48,6 +51,15 @@ recovery-key-file-support = • למידע נוסף על מפתח שחזור ה�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = קבלת העדכונים האחרונים על { -brand-mozilla } ו־{ -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = נקיטת פעולה לשמירת בריאות האינטרנט
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = להיות בטוח וחכם יותר ברשת
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -149,6 +161,7 @@ get-data-trio-print-2 =
     .aria-label = הדפסה
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = מחשב וטלפון נייד עם תמונה של לב שבור על כל אחד
@@ -160,8 +173,15 @@ signin-totp-code-image-label =
     .aria-label = מכשיר עם קוד נסתר בן 6 ספרות.
 confirm-signup-aria-label =
     .aria-label = מעטפה המכילה קישור
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = איור המייצג מפתח שחזור חשבון.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = איור המייצג מפתח שחזור חשבון.
+lock-image-aria-label =
+    .aria-label = איור של מנעול
 
 ## Input Password
 
@@ -361,18 +381,28 @@ drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחש�
 
 flow-container-back = חזרה
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = חזרה להגדרות
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading = יש להכניס שוב את הססמה שלך כדי להתחיל
+flow-recovery-key-confirm-pwd-input-label = נא להכניס את הססמה שלך
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = יצירת מפתח שחזור חשבון
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון למקרה שהססמה שלך תישכח
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל זה אומר שאנחנו לא יכולים לשחזר את הנתונים שלך אם הססמה שלך תישכח.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש במפתח כדי לקבל בחזרה את הנתונים שלך.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = התחלה ביצירת מפתח השחזור שלך
 
 # HeaderLockup component
 
@@ -556,7 +586,7 @@ recovery-key-step-1 = שלב 1 מתוך 2
 recovery-key-step-2 = שלב 2 מתוך 2
 recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = מפתח שחזור חשבון
@@ -641,11 +671,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = סרגל התקדמות המראה שהמשתמש נמצא בשלב { $currentStep } מתוך { $numberOfSteps }.
 
 ## Security section of Setting
 
