@@ -24,7 +24,7 @@ link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un n
 
 # Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Descarga tu clave de recuperación de cuenta
+recovery-key-download-button-v2 = Descargar tu clave de recuperación de cuenta
     .title = Descargar
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
@@ -399,8 +399,8 @@ flow-container-back = Atrás
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Ingresa tu contraseña de nuevo para comenzar
-flow-recovery-key-confirm-pwd-input-label = Ingrese su contraseña
+flow-recovery-key-confirm-pwd-heading = Ingresá tu contraseña de nuevo para comenzar
+flow-recovery-key-confirm-pwd-input-label = Ingresá tu contraseña
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear clave de recuperación de cuenta
 
@@ -408,9 +408,9 @@ flow-recovery-key-confirm-pwd-submit-button = Crear clave de recuperación de cu
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Se generó la clave de recuperación de la cuenta; guardala en un lugar que recordarás
+flow-recovery-key-download-heading = Se generó la clave de recuperación de la cuenta — guardala en un lugar que recordarás
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Esta clave ayudará a recuperar sus datos si olvida su contraseña.
+flow-recovery-key-download-info = Esta clave ayudará a recuperar tus datos si olvidás tu contraseña.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Algunas ideas para guardar la clave de recuperación de tu cuenta:
 flow-recovery-key-download-storage-ideas-folder = Carpeta memorable en tu dispositivo
@@ -429,7 +429,7 @@ flow-recovery-key-info-shield-bullet-point = Ciframos los datos de navegación �
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Es por eso que crear una clave de recuperación de cuenta es tan importante –– podés usar tu clave para recuperar tus datos.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Comienza a crear tu clave de recuperación de cuenta
+flow-recovery-key-info-cta-text-v2 = Comenzar a crear tu clave de recuperación de cuenta
 
 # HeaderLockup component
 
@@ -726,6 +726,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Paso { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
