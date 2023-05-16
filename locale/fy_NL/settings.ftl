@@ -411,6 +411,16 @@ flow-recovery-key-confirm-pwd-submit-button = Accountwerstelkaai oanmeitsje
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading = Akkountwerstelkaai oanmakke – bewarje it op in plak dat jo ûnthâlde kinne
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Mei dizze kaai kinne jo jo gegevens werstelle as jo jo wachtwurd ferjitte binne.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Inkelde ideeën foar it bewarjen fan jo accountwerstelkaai:
+flow-recovery-key-download-storage-ideas-folder = Goed te ûnthâlden map op jo apparaat
+flow-recovery-key-download-storage-ideas-cloud = Fertroude cloudûnthâld
+flow-recovery-key-download-storage-ideas-print = In fysyk eksimplaar ôfdrukke en bewarje
+flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwurdbehearder
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Folgjende
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -420,6 +430,8 @@ flow-recovery-key-info-header = Meitsje in accountwerstelkaai oan foar it gefal 
 flow-recovery-key-info-shield-bullet-point = Wy fersiferje sneupgegevens – wachtwurden, blêdwizers, en mear. It is geweldich foar privacy, mar it betsjut dat wy jo gegevens net herstellen kinne as jo jo wachtwurd ferjitte.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Dêrom is it meitsjen fan in accountwerstelkaai sa wichtich – jo kinne jo kaai brûke om jo gegevens werom te krijen.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Begjin mei it meitsjen fan jo accountwerstelkaai
 
 # HeaderLockup component
 
@@ -622,6 +634,9 @@ recovery-key-success-alert-3 = Kaai foar accountwerstel oanmakke
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Accountwerstelkaai
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Tebek nei ynstellingen
 
 ## Add secondary email page
 
@@ -718,6 +733,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Stap { $currentStep } fan { $numberOfSteps }.
 
 ## Security section of Setting
 
