@@ -398,12 +398,12 @@ flow-recovery-key-confirm-pwd-submit-button = Créer une clé de récupération 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = La clé de récupération de votre compte a été générée. Conservez-la dans un endroit où vous vous en souviendrez
+flow-recovery-key-download-heading = La clé de récupération du compte a été générée. Conservez-la à un endroit dont vous vous souviendrez.
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Cette clé vous aidera à récupérer vos données si vous oubliez votre mot de passe.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Quelques idées pour stocker la clé de récupération de votre compte :
-flow-recovery-key-download-storage-ideas-folder = Dossier mémorable sur votre appareil
+flow-recovery-key-download-storage-ideas-folder = Un dossier facile à retenir sur votre appareil
 flow-recovery-key-download-storage-ideas-cloud = Stockage cloud fiable
 flow-recovery-key-download-storage-ideas-print = Imprimer et conserver une copie physique
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestionnaire de mots de passe
@@ -419,7 +419,7 @@ flow-recovery-key-info-shield-bullet-point = Nous chiffrons les données de navi
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = C’est pourquoi créer une clé de récupération de compte est si important : vous pouvez utiliser votre clé pour récupérer vos données.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Commencez à créer votre clé de récupération de compte
+flow-recovery-key-info-cta-text-v2 = Lancer la création de votre clé de récupération de compte
 
 # HeaderLockup component
 
