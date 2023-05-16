@@ -416,8 +416,8 @@ flow-recovery-key-download-info = Ez a kulcs segít helyreállítani az adatait,
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Néhány ötlet a fiók-helyreállítási kulcs tárolásához:
 flow-recovery-key-download-storage-ideas-folder = Emlékezetes mappa az eszközén
-flow-recovery-key-download-storage-ideas-cloud = Megbízható felhő tároló
-flow-recovery-key-download-storage-ideas-print = Nyomtasson és tartson meg egy fizikai másolatot
+flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
+flow-recovery-key-download-storage-ideas-print = Nyomtasson ki és tartson meg egy fizikai másolatot
 flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Tovább
