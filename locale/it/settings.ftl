@@ -25,7 +25,7 @@ link-expired-resent-code-error-message = Si è verificato un problema. Impossibi
 # Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v2 = Scarica la chiave di recupero dell’account
-    .title = Download
+    .title = Scarica
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = SALVA LA CHIAVE DI RECUPERO DELL’ACCOUNT
@@ -403,10 +403,10 @@ flow-recovery-key-download-heading = Chiave di recupero dell’account generata:
 flow-recovery-key-download-info = Questa chiave ti aiuterà a recuperare i tuoi dati se dimentichi la password.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Alcune idee per memorizzare la chiave di recupero dell’account:
-flow-recovery-key-download-storage-ideas-folder = Cartella memorabile nel dispositivo
+flow-recovery-key-download-storage-ideas-folder = Cartella facile da ricordare nel tuo dispositivo
 flow-recovery-key-download-storage-ideas-cloud = Archiviazione su cloud affidabile
 flow-recovery-key-download-storage-ideas-print = Stampa e conserva una copia fisica
-flow-recovery-key-download-storage-ideas-pwd-manager = Gestisci le tue password
+flow-recovery-key-download-storage-ideas-pwd-manager = Gestore di password
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Avanti
 
