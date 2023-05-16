@@ -413,7 +413,7 @@ flow-recovery-key-download-heading = Kontowiederherstellungsschlüssel erzeugt �
 flow-recovery-key-download-info = Dieser Schlüssel hilft Ihnen, Ihre Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Einige Ideen zum Speichern Ihres Kontowiederherstellungsschlüssels:
-flow-recovery-key-download-storage-ideas-folder = Denkwürdiger Ordner auf Ihrem Gerät
+flow-recovery-key-download-storage-ideas-folder = Ordner auf Ihrem Gerät, den Sie sich merken können
 flow-recovery-key-download-storage-ideas-cloud = Vertrauenswürdiger Cloud-Speicher
 flow-recovery-key-download-storage-ideas-print = Drucken und eine Kopie behalten
 flow-recovery-key-download-storage-ideas-pwd-manager = Passwort-Manager
