@@ -399,6 +399,7 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = Введите пароль еще раз, чтобы начать работу
 flow-recovery-key-confirm-pwd-input-label = Введите пароль
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Создать ключ восстановления аккаунта
@@ -407,6 +408,14 @@ flow-recovery-key-confirm-pwd-submit-button = Создать ключ восст
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = Сгенерирован ключ восстановления аккаунта — сохраните его в удобном месте
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Этот ключ поможет восстановить ваши данные, если вы забудете пароль.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Некоторые идеи для хранения ключа восстановления вашего аккаунта:
+flow-recovery-key-download-storage-ideas-folder = Запоминающаяся папка на вашем устройстве
+flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
+flow-recovery-key-download-storage-ideas-print = Печать и сохранение физической копии
 flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Далее
@@ -419,6 +428,8 @@ flow-recovery-key-info-header = Создайте ключ восстановле
 flow-recovery-key-info-shield-bullet-point = Мы шифруем данные веб-серфинга — пароли, закладки и многое другое. Это отлично подходит для приватности, но означает, что мы не сможем восстановить ваши данные, если вы забудете свой пароль.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Вот почему создание ключа восстановления аккаунта так важно — вы можете использовать свой ключ, чтобы вернуть свои данные.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Начните создавать ключ восстановления вашего аккаунта
 
 # HeaderLockup component
 
