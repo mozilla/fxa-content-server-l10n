@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-16 18:28+0000\n"
+"PO-Revision-Date: 2023-05-16 18:32+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1645,7 +1645,7 @@ msgstr "Conferme acès"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Se tu suspietis che cualchidun al stedi cirint in maniere ilegjitime di acedi al to account, <a id=\"change-password\" href=\"/settings/change_password\">cambie daurman la tô password.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
