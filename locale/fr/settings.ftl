@@ -24,8 +24,8 @@ link-expired-resent-code-error-message = Une erreur s’est produite. Impossible
 
 # Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Téléchargez la clé de récupération de votre compte
-    .title = Téléchargements
+recovery-key-download-button-v2 = Télécharger la clé de récupération de votre compte
+    .title = Télécharger
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = ENREGISTREZ VOTRE CLÉ DE RÉCUPÉRATION
@@ -722,7 +722,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label-v2 = Étape { $currentStep } de { $numberOfSteps }.
+progress-bar-aria-label-v2 = Étape { $currentStep } sur { $numberOfSteps }.
 
 ## Security section of Setting
 
