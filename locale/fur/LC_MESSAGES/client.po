@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-16 18:32+0000\n"
+"PO-Revision-Date: 2023-05-16 19:00+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1709,7 +1709,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Cronologjie, segnelibris, credenziâls e altris dâts personâi sincronizâts no laran pierdûts."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1745,48 +1745,48 @@ msgstr "Iscriviti a %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Tal colegament che tu âs fat clic al mancje cualchi caratar, al è probabil che al sedi un probleme causât dal client di pueste eletroniche."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Cree un account Firefox"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Continue su %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Inserìs une password"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Conferme password"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Cree password"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Dispositîf conetût!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Conet un altri dispositîf"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Dopre invezit un SMS"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Pal moment o ai finît"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Sincronize Firefox tra i varis dispositîfs"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
