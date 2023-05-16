@@ -394,6 +394,17 @@ flow-recovery-key-confirm-pwd-submit-button = יצירת מפתח שחזור ח�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = נוצר מפתח לשחזור החשבון - יש לאחסן אותו במקום שקל לזכור
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = מפתח זה יסייע לשחזר את הנתונים שלך אם הססמה שלך תישכח.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = כמה רעיונות לאחסון מפתח שחזור החשבון שלך:
+flow-recovery-key-download-storage-ideas-folder = תיקייה במקום שקל לזכור במכשיר שלך
+flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
+flow-recovery-key-download-storage-ideas-print = הדפסה ושמירת עותק פיזי
+flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = הבא
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -403,6 +414,8 @@ flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון ל
 flow-recovery-key-info-shield-bullet-point = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל זה אומר שאנחנו לא יכולים לשחזר את הנתונים שלך אם הססמה שלך תישכח.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש במפתח כדי לקבל בחזרה את הנתונים שלך.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = התחלה ביצירת מפתח שחזור החשבון שלך
 
 # HeaderLockup component
 
@@ -590,6 +603,9 @@ recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = מפתח שחזור חשבון
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = חזרה להגדרות
 
 ## Add secondary email page
 
@@ -671,6 +687,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = שלב { $currentStep } מתוך { $numberOfSteps }.
 
 ## Security section of Setting
 
