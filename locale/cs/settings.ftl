@@ -18,22 +18,21 @@ link-expired-resent-link-error-message = Nový odkaz se nepodařilo odeslat.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
-# .title will displayed as a tooltip on the button
-recovery-key-download-button = Stáhnout klíč pro obnovení
-    .title = Stáhnout
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = UCHOVEJTE SI KLÍČ PRO OBNOVENÍ ÚČTU
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = Klíč: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Klíč vygenerován: { $downloadDate }
@@ -158,6 +157,7 @@ get-data-trio-print-2 =
     .aria-label = Vytisknout
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Počítač a mobil a na každém obrázek zlomeného srdce
@@ -167,6 +167,8 @@ signin-totp-code-image-label =
     .aria-label = Zařízení se skrytým 6místným kódem.
 confirm-signup-aria-label =
     .aria-label = Obálka obsahující odkaz
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Ilustrace představující klíč pro obnovení účtu.
 
@@ -375,12 +377,18 @@ drop-down-menu-sign-out-error-2 = Omlouváme se, odhlášení se nezdařilo
 
 flow-container-back = Zpět
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Zpět do nastavení
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Začněte vytvářet svůj obnovovací klíč
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
 
 # HeaderLockup component
 
@@ -567,7 +575,7 @@ recovery-key-step-1 = Krok 1 ze 2
 recovery-key-step-2 = Krok 2 ze 2
 recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Obnovovací klíč k účtu
@@ -965,7 +973,7 @@ pair-success-message-2 = Párování dokončeno.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Potvrdit párování <small>pro { $email }</small>
+pair-supp-allow-heading-text = Potvrdit párování <span>pro { $email }</span>
 pair-supp-allow-confirm-button = Potvrdit párování
 pair-supp-allow-cancel-link = Zrušit
 
