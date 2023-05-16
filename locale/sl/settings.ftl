@@ -414,11 +414,11 @@ flow-recovery-key-download-heading = Ključ za obnovitev računa ustvarjen – s
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Ta ključ vam bo pomagal obnoviti podatke, če pozabite geslo.
 # This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Nekaj predlogov za shranjevanje ključa za obnovitev računa:
-flow-recovery-key-download-storage-ideas-folder = Pomnilna mapa v vaši napravi
-flow-recovery-key-download-storage-ideas-cloud = Zaupanja vredna shramba v oblaku
-flow-recovery-key-download-storage-ideas-print = Natisnite in shranite fizično kopijo
-flow-recovery-key-download-storage-ideas-pwd-manager = Upravitelj gesel
+flow-recovery-key-download-storage-ideas-heading = Nekaj predlogov, kam shraniti ključ za obnovitev računa:
+flow-recovery-key-download-storage-ideas-folder = mapa na računalniku, ki si jo boste zapomnili
+flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblaku
+flow-recovery-key-download-storage-ideas-print = natisnite ga in shranite v fizični obliki
+flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Naprej
 
