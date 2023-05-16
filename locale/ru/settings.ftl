@@ -399,7 +399,7 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Введите пароль еще раз, чтобы начать работу
+flow-recovery-key-confirm-pwd-heading = Введите пароль ещё раз, чтобы начать работу
 flow-recovery-key-confirm-pwd-input-label = Введите пароль
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Создать ключ восстановления аккаунта
