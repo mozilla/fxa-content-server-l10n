@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-13 11:58+0000\n"
+"PO-Revision-Date: 2023-05-16 14:02+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1515,19 +1515,19 @@ msgstr "Ripet password"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Ti covente cheste password par acedi a ducj i dâts cifrâts che tu archiviis cun nô.<br class=\"mb-3\">Un ripristinament al significhe la pierdite potenziâl di dâts come passwords e segnelibris."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Ricêf cognossincis pratichis su la tô casele di pueste. Regjistriti par savê di plui:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
-msgstr ""
+msgstr "Sielç ce sincronizâ"
 
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
-msgstr ""
+msgstr "Cree un account"
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid ""
