@@ -436,6 +436,7 @@ nav-email-comm = E-mejlowa komunikacija
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Při wuměnjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
+tfa-create-code-error = Při wutworjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 tfa-replace-code-success-1 =
     Nowe kody su so wutworili. Składujće tute kody
     za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje – trjebaće je za přistup k swojemu kontu, jeli nimaće
@@ -582,6 +583,11 @@ recovery-key-success-alert-3 = Kontowy wobnowjenski kluč je so wutworił
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontowy wobnowjenski kluč
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Wróćo k nastajenjam
 
 ## Add secondary email page
 
@@ -821,6 +827,7 @@ auth-error-155 = TOTP-token njeje so namakał
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-999 = Njewočakowany zmylk
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
+auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1102,6 +1109,8 @@ reset-password-warning-message-2 = <span>Kedźbu:</span> Hdyž swoje hesło wró
 reset-password-password-input =
     .label = E-mejlowa adresa
 reset-password-button = Wróćostajenje započeć
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mejlowa adresa trěbna
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wobnowjenski kluč wutworić
 reset-password-with-recovery-key-verified-continue-to-account = Dale k mojemu kontu
