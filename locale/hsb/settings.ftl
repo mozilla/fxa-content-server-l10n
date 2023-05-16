@@ -18,6 +18,22 @@ link-expired-resent-link-error-message = Něšto je so nimokuliło. Nowy wotkaz 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod njeda so słać.
 
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Kluč:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Kluč je so wutworił: { $downloadDate }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -134,6 +150,7 @@ get-data-trio-print-2 =
     .aria-label = Ćišćeć
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 signin-recovery-code-image-description =
     .aria-label = Dokument, kotryž schowany tekst wobsahuje.
@@ -351,6 +368,25 @@ drop-down-menu-sign-out-error-2 = Bohužel je při wotzjewjenju problem nastał
 
 flow-container-back = Wróćo
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+flow-recovery-key-confirm-pwd-input-label = Zapodajće swoje hesło
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Kontowy wobnowjenski kluč wutworić
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Dale
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
 # HeaderLockup component
 
 header-menu-open = Meni začinić
@@ -543,6 +579,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
 recovery-key-success-alert-3 = Kontowy wobnowjenski kluč je so wutworił
+
+## PageRecoveryKeyCreate
+
 
 ## Add secondary email page
 
@@ -989,6 +1028,10 @@ pair-wait-for-auth-heading-text = Schwalenje je nětko <span>wot wašeho druheho
 
 pair-unsupported-header = Z nałoženjom koplować
 pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju { -brand-firefox } koplować.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 
