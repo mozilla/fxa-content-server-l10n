@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-17 09:06+0000\n"
+"PO-Revision-Date: 2023-05-17 10:00+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1096,7 +1096,7 @@ msgstr "Сез Firefox-ка кердегез"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Эл. почта расланды"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1120,7 +1120,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Хәзер түгел"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1187,7 +1187,7 @@ msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> хезмә�
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Теркәлү яки керү"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1195,7 +1195,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Резерв копия аутентификация кодларын саклау"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1226,7 +1226,7 @@ msgstr "Урнаштырудан баш тарту"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Резерв копия аутентификация кодын раслау"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
@@ -1234,7 +1234,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Резерв копия аутентификация коды"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1344,7 +1344,7 @@ msgstr "Хисабыгыз хәзер!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Яңа бер хисапны коткару ачкычын төзү"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1390,7 +1390,7 @@ msgstr "Вакыйга исеме"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Расланды"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
