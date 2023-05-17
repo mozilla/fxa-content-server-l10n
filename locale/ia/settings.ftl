@@ -183,6 +183,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustration pro representar un clave de recuperation de conto.
+lock-image-aria-label =
+    .aria-label = Illustration de un serratura
 
 ## Input Password
 
@@ -405,6 +407,11 @@ flow-recovery-key-confirm-pwd-submit-button = Crear clave de recuperation del co
 flow-recovery-key-download-heading = Clave de recuperation del conto generate, immagazina lo in un loco que tu rememorara
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Iste clave adjutara a recuperar tu datos si tu oblida tu contrasigno.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Alcun ideas pro stockar le clave de recuperation de tu conto:
+flow-recovery-key-download-storage-ideas-folder = Un plica facile a memorar de tu apparato
+flow-recovery-key-download-storage-ideas-cloud = Stockage fidibile in nube
+flow-recovery-key-download-storage-ideas-print = Imprimer e conservar un copia physic
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de contrasigno
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Sequente
@@ -417,6 +424,8 @@ flow-recovery-key-info-header = Crea un clave recuperation del conto in caso tu 
 flow-recovery-key-info-shield-bullet-point = Nos crypta datos de navigation, contrasignos, marcapaginas, e plus. Isto es grande pro le confidentialitate, ma significa que nos non pote recuperar tu datos, si tu oblida tu contrasigno.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Id es perque le creation del un clave recuperation del conto es assi importante, tu pote usar tu clave pro obtener tu datos retro.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Initia crear tu clave de recuperation del conto
 
 # HeaderLockup component
 
@@ -715,6 +724,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Passo { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -976,7 +990,7 @@ inline-totp-setup-show-qr-default-service-header-2 = Scande le codices de authen
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Insere codice manualmente <span>pro continuar a configurar le conto</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Insere iste clave secrete in tu app de authentication. <toggleToQRButton>Prefere scannar le codice QR?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Insere iste clave secrete in tu app de authentication. <toggleToQRButton>Prefere tu scander le codice QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Scande le codice QR in tu app de authentication e pois insere le codice de authentication que illo forni. <toggleToManualModeButton>Non pote tu scander le codice?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
