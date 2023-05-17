@@ -334,4 +334,5 @@ verifySecondaryCode-subject = Икенчел эл. почтаны раслау
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
+verifyShortCode-prompt-3 = Бу раслау кодын куллану:
 verifyShortCode-expiry-notice = Кодның яраклылык вакыты 5 минут.

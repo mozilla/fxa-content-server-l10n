@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-04-20 23:20+0000\n"
+"PO-Revision-Date: 2023-05-17 09:02+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -74,7 +74,7 @@ msgstr "Сез хәзер Firefox аккаунтыгызга үзгәрешлә�
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Беренчел эл. почта расланды"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Аккаунтыгызга кагылышлы белдерүләр хә�
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Икенчел эл. почта расланды"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Сез хәзер %(serviceName)s хезмәтен куллана ала
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Хисап расланды"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -124,7 +124,7 @@ msgstr ""
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Ябу"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -192,7 +192,7 @@ msgstr "Паролны күрсәтү"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox Резерв Копия Аутентификация Кодлары"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -200,7 +200,7 @@ msgstr "Ике адымлы аутентификация кабызылды"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox Хисабын Коткару Ачкычы"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -224,7 +224,7 @@ msgstr "Бастырылды"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Хисап уңышлы расланды"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -420,7 +420,7 @@ msgstr "Икенче эл. почта хисабыгызның төп эл. по
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Сез рөхсәт ителгән икенчел эл. почталарның максималь санына җиттегез"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
@@ -476,7 +476,7 @@ msgstr "TOTP токен табылмады"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Резерв копия аутентификация коды табылмады"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -484,11 +484,11 @@ msgstr "Мөмкин булмаган җайланма командасы"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Хисапны коткару ачкычы табылмады"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Яраксыз хисапны коткару ачкычы"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -524,7 +524,7 @@ msgstr "Яңарту кире кагылды, зинһар кабатлап ка
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Яраксыз яки мөддәте чыккан раслау коды"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
 msgid "Server busy, try again soon"
@@ -685,15 +685,15 @@ msgstr "Ике адымлы аутентификация коды хаталы"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Резерв копия аутентификация коды кирәк"
 
 #: .es5/lib/auth-errors.js:575
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Яраксыз резерв копия аутентификация коды"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Хисапны коткару ачкычы кирәк"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Please enter verification code"
@@ -705,7 +705,7 @@ msgstr "Яраксыз юнәлтү"
 
 #: .es5/lib/auth-errors.js:617
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Адресны язганда хата җибәрмәдегезме? %(domain)s эл. почта хезмәтен күрсәтми."
 
 #: .es5/lib/auth-errors.js:621
 msgid "The image file size is too large to be uploaded."
@@ -855,7 +855,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Ярдәм</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -903,7 +903,7 @@ msgstr "Яңа сылтама алу"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Серсүзне хисапны коткару коды ярдәмендә үзгәртү"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -924,16 +924,16 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Хисапны коткару ачкычын кертү"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Хисапны коткару ачкычын раслау"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Хисапны коткару ачкычыгыз юкмы?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -941,7 +941,7 @@ msgstr "Хисап ясый алмыйм"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Firefox&nbsp;хисабын булдыру өчен билгеле бер яшьтән өлкәнрәк булуыгыз кирәк."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1003,7 +1003,7 @@ msgstr "Керү расланды инде"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Раслау сылтамасының вакыты чыккан"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
