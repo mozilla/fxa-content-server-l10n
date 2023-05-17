@@ -167,7 +167,20 @@ passwordChangeRequired-signoff-name = { -product-firefox-accounts } такымы
 passwordReset-subject = Серсүз яңартылды
 passwordReset-title = Хисабыгызның паролы үзгәртелде
 passwordReset-description = Башка җиһазларыгызда да синхронлау дәвам итсен өчен, аларга да яңа паролыгызны кертүегез кирәк.
+passwordResetAccountRecovery-subject-2 = Серсүзегез үзгәртелде
+passwordResetAccountRecovery-title-2 = Серсүз уңышлы үзгәртелде
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Яңа хисапны коткару ачкычын булдыру
+postAddAccountRecovery-subject-2 = Хисапны коткару ачкычы ясалды
+postAddAccountRecovery-title2 = Сез яңа хисапны коткару ачкычы булдырдыгыз
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Сез түгелме?
 postAddAccountRecovery-action = Хисап белән идарә итү
+postAddLinkedAccount-action = Хисап белән идарә итү
+postAddTwoStepAuthentication-subject-2 = Ике адымлы аутентификация кабызылды
+postAddTwoStepAuthentication-title-2 = Сез ике адымлы аутентификацияне кабыздыгыз
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Сез аны бу җиһаздан кабыздыгыз:
 postAddTwoStepAuthentication-action = Хисап белән идарә итү
 postChangePrimary-subject = Төп эл. почта адресы яңартылды
 postChangePrimary-title = Яңа төп электрон почта адресы
@@ -179,6 +192,12 @@ postConsumeRecoveryCode-title-2 = Сез резерв копия аутенти�
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Бу җиһазда кулланылды:
 postConsumeRecoveryCode-action = Хисап белән идарә итү
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Бары тик бер резерв копия аутентификация коды калды
+       *[other] Бары тик { $numberRemaining } резерв копия аутентификация коды калды
+    }
+postNewRecoveryCodes-subject-2 = Яңа резерв копия аутентификация кодлары ясалды
 postNewRecoveryCodes-title-2 = Сез яңа резерв копия аутентификация кодларын булдырдгыз
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Алар бу җиһазда ясалган:
@@ -262,6 +281,10 @@ subscriptionFirstInvoice-title = { $productName } хәбәрләренә язы�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Киләсе квитанция: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Сезнең кредит картасының вакыты чыккан яки чыгып килә
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = { $productName } продукты өчен түләүләр өчен сез кулланган кредит картасының вакыты чыккан яки чыгып килә.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } өчен түләү уңышсыз тәмамланды
@@ -295,6 +318,7 @@ subscriptionRenewalReminder-content-closing = Хөрмәт илә,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } такымы
+subscriptionsPaymentExpired-title-1 = Сезнең кредит картасының вакыты чыккан яки чыгып килә
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } абунәләре өчен түләү турындагы мәгълүматны яңарту кирәк
 subscriptionsPaymentProviderCancelled-title = Гафу итегез, сезнең түләү ысулы белән проблема бар
 subscriptionsPaymentProviderCancelled-content-detected = Түбәндәге абунәләр өчен түләү ысулыгыз белән бер проблема ачыкладык.
@@ -325,6 +349,15 @@ unblockCode-prompt = Әйе булса, Сезгә кирәкле авториз
 unblockCode-prompt-plaintext = Әйе булса, Сезгә кирәкле авторизация коды менә бу: { $unblockCode }
 unblockCode-report = Юк икән, безгә алдакчылар белән көрәшергә ярдәм итү өчен бу хәл турында <a data-l10n-name="reportSignInLink">хәбәр итегез.</a>
 unblockCode-report-plaintext = Юк булса, безгә алдакчылар белән көрәшергә ярдәм итү өчен бу хәл турында хәбәр итегез.
+verificationReminderFinal-subject = Хисабыгызны раслау өчен соңгы искәртү
+confirm-account = Хисапны раслагыз
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Хисабыгызны расларга онытмагыз
+verificationReminderFirst-title-2 = { -brand-firefox }-ка рәхим итегез!
+verificationReminderFirst-sub-description-3 = Сезне һәм хосусыйлыгыгызны беренче урынга куйган браузерны күрми калмагыз.
+confirm-email-2 = Хисапны раслагыз
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Хисапны раслагыз
 verify-subject = Хисап язмагызны ясап бетерегез
 verifyLogin-action = Керүне раслау
 verifyLoginCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
