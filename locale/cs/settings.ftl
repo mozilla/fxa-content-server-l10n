@@ -1096,7 +1096,7 @@ signin-use-a-different-account-link = Použít jiný účet
 signin-forgot-password-link = Zapomněli jste heslo?
 signin-bounced-header = Omlouváme se, váš účet byl uzamčen.
 # $email (string) - The user's email.
-signin-bounced-message = Potvrzovací e-mail, který jsme poslali na adresu { $email }, se vrátil zpět. Abychom ochránili vaše data, váš účet jsme uzamkli.
+signin-bounced-message = Potvrzovací e-mail, který jsme poslali na adresu { $email }, se vrátil zpět. Uzamkli jsme proto váš účet, abychom ochránili vaše data { -brand-firefox(case: "gen") }.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Pokud se jedná o platnou e-mailovou adresu, <linkExternal>dejte nám vědět</linkExternal> a my vám pomůžeme odemknout váš účet.
 signin-bounced-create-new-account = Už tento e-mail nevlastníte? Vytvořte si nový účet
