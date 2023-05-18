@@ -18,12 +18,21 @@ link-expired-resent-link-error-message = Oĩ nosẽporãiva. Noñemondokuaái ju
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 Ñe’ẽñemi:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • Ñe’ẽñemi moheñoimbyre: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -141,6 +150,7 @@ get-data-trio-print-2 =
     .aria-label = Ñemonguatia
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Mohendaha ha pumbyry popegua korasõ jeka ra’ãnga reheve peteĩteĩvape
@@ -364,6 +374,22 @@ drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembi
 
 flow-container-back = Tapykue
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Upeigua
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
 # HeaderLockup component
 
 header-menu-open = Emboty poravorã
@@ -560,6 +586,14 @@ recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
 recovery-key-success-alert-3 = Oñemoheñói mba’ete mba’eñemi jeguerujeyrã
 
+## PageRecoveryKeyCreate
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Mba’ete mba’eñemi jeguerujeyrã
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Eguevi ñembohekópe
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Ku’e 1 2-gui
@@ -655,11 +689,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Pe jeku’e renda ohechaukáva puruhára oĩha { $currentStep } rapére { $numberOfSteps }-pe.
 
 ## Security section of Setting
 
@@ -820,6 +849,7 @@ auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-999 = Jejavy eha’arõ’ỹva
 auth-error-1003 = Ñeñongatu pypegua terã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
+auth-error-1011 = Eikotevẽ ñanduti veve oikóva
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
