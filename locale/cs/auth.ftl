@@ -333,20 +333,33 @@ postRemoveTwoStepAuthentication-not-required-2 = Při přihlašování již nepo
 postVerify-sub-title-3 = Jsme rádi, že vás vidíme!
 postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
 postVerify-description-2 = Je to snadné! Stačí nainstalovat { -brand-firefox } na jiné zařízení a přihlásit se k synchronizaci. Je to jako kouzlo!
+postVerify-sub-description = (Psst… To také znamená, že své záložky, hesla a další data { -brand-firefox(case: "gen") } můžete získat všude, kde jste přihlášeni.)
 postVerify-subject-3 = Vítá vás { -brand-firefox }!
 postVerify-setup-2 = Připojit další zařízení:
 postVerify-action-2 = Připojte další zařízení
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
 postVerifySecondary-title = Záložní e-mailová adresa byla přidána
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Úspěšně jste potvrdili { $secondaryEmail } jako záložní e-mailovou adresu pro váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostní oznámení a potvrzení o přihlášení budou nyní doručována na obě e-mailové adresy.
 postVerifySecondary-action = Správa účtu
 recovery-subject = Obnovit heslo
 recovery-title-2 = Zapomněli jste heslo?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Obdrželi jsme žádost o změnu hesla k vašemu { -product-firefox-account(case: "dat") } z:
 recovery-new-password-button = Vytvořte si nové heslo klepnutím na tlačítko níže. Platnost tohoto odkazu vyprší v průběhu následující hodiny.
+recovery-copy-paste = Vytvořte si nové heslo zkopírováním a vložením adresy URL níže do vašeho prohlížeče. Platnost tohoto odkazu vyprší během následující hodiny.
 recovery-action = Vytvořit nové heslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionAccountDeletion-title = Je nám líto, že odcházíte
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Nedávno jste smazali svůj { -product-firefox-account(case: "acc") }. Proto jsme zrušili vaše předplatné produktu { $productName }. Vaše poslední platba ve výši{ $invoiceTotal } byla uhrazena dne { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte si prosím heslo.
@@ -354,13 +367,18 @@ subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Vítá vás { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte.
+subscriptionAccountFinishSetup-content-create-2 = Dále si vytvoříte heslo pro { -product-firefox-account(case: "acc") }, abyste mohli začít používat své nové předplatné.
 subscriptionAccountFinishSetup-action-2 = Začít
 subscriptionAccountReminderFirst-subject = Připomínka: dokončete nastavení vašeho účtu
 subscriptionAccountReminderFirst-title = Zatím nemáte přístup ke svému předplatnému
+subscriptionAccountReminderFirst-content-info-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
+subscriptionAccountReminderFirst-content-select-2 = Vyberte „Vytvořit heslo“ pro nastavení nového hesla a dokončení potvrzování účtu.
 subscriptionAccountReminderFirst-action = Vytvoření hesla
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Poslední připomenutí: Nastavte si svůj účet
 subscriptionAccountReminderSecond-title = Vítá vás { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
+subscriptionAccountReminderSecond-content-select-2 = Vyberte „Vytvořit heslo“ pro nastavení nového hesla a dokončení potvrzování účtu.
 subscriptionAccountReminderSecond-action = Vytvoření hesla
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -373,6 +391,8 @@ subscriptionCancellation-title = Je nám líto, že odcházíte
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Zrušili jsme své předplatné produktu { $productName }. Vaše poslední platba ve výši { $invoiceTotal } byla zaplacena dne { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Zrušili jsme vaše předplatné produktu { $productName }. Vaše poslední platba ve výši { $invoiceTotal } bude zaplacena dne { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Služba bude dostupná až do konce vašeho aktuálního fakturačního období, což je { $serviceLastActiveDateOnly }.
@@ -384,6 +404,13 @@ subscriptionDowngrade-subject = Úspěšně jste přešli na { $productName }
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Úspěšně jste přešli z { $productNameOld } na { $productName }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }. Zároveň vám bude poskytnut jednorázový kredit ve výši { $paymentProrated }, který odráží nižší poplatek za zbytek stávajícího období { $productPaymentCycleOld }.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Pokud je pro používání produktu { $productName } potřeba instalace dodatečného softwaru, pošleme vám samostatný e-mail s pokyny, jak ho stáhnout.
 subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
@@ -391,6 +418,9 @@ subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fa
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionFailedPaymentsCancellation-title = Vaše předplatné bylo zrušeno
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Zrušili jsme vaše předplatné služby { $productName } z důvodu opakovaného selhání platby. Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Platba za { $productName } byla potvrzena
