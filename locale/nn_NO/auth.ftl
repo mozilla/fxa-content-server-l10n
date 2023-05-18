@@ -264,17 +264,23 @@ postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
 postAddAccountRecovery-changd-password = Endre passordet ditt?
 postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
 postAddLinkedAccount-action = Handsam kontoen
+postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
+postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
 postChangePrimary-action = Handsam kontoen
+postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Han vart brukt på:
 postConsumeRecoveryCode-action = Handsam kontoen
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
 postRemoveAccountRecovery-subject-2 = Konto-gjenopprettingsnøkkel sletta
+postRemoveAccountRecovery-title-2 = Du sletta kontogjenopprettingsnøkkelen din
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Han vart sletta frå:
 postRemoveAccountRecovery-action = Handsam kontoen
@@ -331,6 +337,7 @@ subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
