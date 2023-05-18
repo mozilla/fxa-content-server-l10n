@@ -217,9 +217,12 @@ fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte pro
 fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Došly vám záložní ověřovací kódy!
+codes-reminder-title-one = Používáte poslední záložní ověřovací kód
 codes-reminder-title-two = Je čas vytvořit další záložní ověřovací kódy
+codes-reminder-description-part-one = Záložní ověřovací kódy vám pomohou obnovit vaše informace, když zapomenete své heslo.
 codes-reminder-description-part-two = Vytvořte nové kódy hned, abyste později o svá data nepřišli.
 codes-reminder-description-two-left = Zbývají vám jen dva kódy.
+codes-reminder-description-create-codes = Vytvořte si nové záložní ověřovací kódy, které vám pomohou dostat se zpět k účtu, pokud k němu nebudete mít přístup.
 lowRecoveryCodes-action-2 = Vytvořit kódy
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
