@@ -225,6 +225,14 @@ codes-reminder-description-two-left = Zbývají vám jen dva kódy.
 codes-reminder-description-create-codes = Vytvořte si nové záložní ověřovací kódy, které vám pomohou dostat se zpět k účtu, pokud k němu nebudete mít přístup.
 lowRecoveryCodes-action-2 = Vytvořit kódy
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nejsou k dispozici žádné záložní ověřovací kódy
+        [one] K dispozici 1 záložní ověřovací kód
+        [few] K dispozici { $numberRemaining } záložní ověřovací kódy
+        [many] K dispozici { $numberRemaining } záložních ověřovacích kódů
+       *[other] K dispozici { $numberRemaining } záložních ověřovacích kódů
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
@@ -258,6 +266,9 @@ passwordResetAccountRecovery-title-2 = Heslo bylo úspěšně obnoveno
 passwordResetAccountRecovery-description-2 = Použili jste obnovovací klíč k účtu k aktualizaci hesla z:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Vytvořit nový obnovovací klíč k účtu
+passwordResetAccountRecovery-regen-required-mjml-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Na všech synchronizovaných zařízeních se budete muset znovu přihlásit. Nezapomeňte vytvořit nový klíč pro obnovení účtu, který nahradí ten, který jste používali:
 postAddAccountRecovery-subject-2 = Obnovovací klíč k účtu byl vytvořen
 postAddAccountRecovery-title2 = Vytvořili jste nový obnovovací klíč k účtu
 # Information on the browser and device triggering this string follows.
@@ -289,6 +300,13 @@ postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Byl použitý na:
 postConsumeRecoveryCode-action = Správa účtu
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Zbývá 1 záložní ověřovací kód
+        [few] Zbývají { $numberRemaining } záložní ověřovací kódy
+        [many] Zbývá { $numberRemaining } záložních ověřovacích kódů
+       *[other] Zbývá { $numberRemaining } záložních ověřovacích kódů
+    }
 postNewRecoveryCodes-subject-2 = Byly vytvořeny nové záložní ověřovací kódy
 postNewRecoveryCodes-title-2 = Vytvořili jste nové záložní ověřovací kódy
 # After the colon, there is information about the device that the authentication codes were created on
@@ -299,16 +317,22 @@ postRemoveAccountRecovery-title-2 = Smazali jste svůj obnovovací klíč k úč
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Byl smazán z:
 postRemoveAccountRecovery-action = Správa účtu
+postRemoveAccountRecovery-invalid-2 = Pokud zapomenete heslo, potřebujete k obnovení dat { -brand-firefox(case: "gen") } klíč pro obnovení účtu.
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Úspěšně jste z vašeho účtu { -product-firefox-account } odebrali { $secondaryEmail } coby záložní e-mailovou adresu. Nadále už nebudou na tuto adresu doručovány bezpečnostní oznámení a potvrzování přihlášení.
 postRemoveSecondary-action = Správa účtu
 postRemoveTwoStepAuthentication-subject-line-2 = Dvoufázové ověření je vypnuté
 postRemoveTwoStepAuthentication-title-2 = Vypnuli jste dvoufázové ověření
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Zakázali jste ho z:
 postRemoveTwoStepAuthentication-action = Správa účtu
+postRemoveTwoStepAuthentication-not-required-2 = Při přihlašování již nepotřebujete bezpečnostní kódy z ověřovací aplikace.
 postVerify-sub-title-3 = Jsme rádi, že vás vidíme!
 postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
+postVerify-description-2 = Je to snadné! Stačí nainstalovat { -brand-firefox } na jiné zařízení a přihlásit se k synchronizaci. Je to jako kouzlo!
 postVerify-subject-3 = Vítá vás { -brand-firefox }!
 postVerify-setup-2 = Připojit další zařízení:
 postVerify-action-2 = Připojte další zařízení
