@@ -22,9 +22,16 @@ link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v2 = Stáhnout váš obnovovací klíč k účtu
+    .title = Stáhnout
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = UCHOVEJTE SI KLÍČ PRO OBNOVENÍ ÚČTU
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Uložte tento soubor obsahující klíč pro obnovení účtu na místo, které si budete pamatovat. Nebo si ho vytiskněte a uschovejte si fyzickou kopii. Váš klíč pro obnovení účtu vám může pomoci obnovit data { -brand-firefox(case: "gen") }, pokud zapomenete heslo.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
