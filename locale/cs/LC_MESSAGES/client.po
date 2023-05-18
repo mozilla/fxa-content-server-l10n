@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-05-18 16:59+0000\n"
+"PO-Revision-Date: 2023-05-18 18:10+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1035,7 +1035,7 @@ msgstr "Potvrdit toto přihlášení"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Zkontrolujte svůj e-mail pro potvrzovací odkaz odeslaný&nbsp;na %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1156,6 +1156,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Zadejte heslo <span class=\"card-subheader\" id=\"subheader\">ke svému účtu Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1199,7 +1202,7 @@ msgstr "Účet Firefoxu odemyká přístup i k dalším soukromí chránícím p
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Uložit záložní ověřovací kódy"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1230,15 +1233,15 @@ msgstr "Zrušit nastavení"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Potvrzení záložních ověřovacích kódů"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Abyste zajistili, že budete moci znovu získat přístup ke svému účtu, v případě ztráty zařízení zadejte jeden z uložených záložních ověřovacích kódů."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Záložní ověřovací kód"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1348,7 +1351,7 @@ msgstr "Váš účet je dokončen!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Vytvořit nový obnovovací klíč k účtu"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1434,14 +1437,19 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Pokračováním souhlasíte s:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">smluvní podmínky</a> a <a id=\"pocket-pp\" společnosti Pocket \" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Oznámení o ochraně osobních údajů</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Smluvní podmínky</a> a <a class=\"link-grey\" id=\"fxa-pp\" Firefoxu href=\"/legal/privacy\">Oznámení o ochraně osobních údajů</a>.\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Zadejte záložní ověřovací kód"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Zadejte prosím záložní ověřovací kód, který vám byl poskytnut při nastavování dvoufázového ověřování."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
@@ -1461,7 +1469,7 @@ msgstr "Náš tým byl upozorněn. Zprávy jako tato nám pomáhají odrážet �
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Zadejte potvrzovací kód <span class=\"card-subheader\">pro váš účet Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1505,7 +1513,7 @@ msgstr "Zopakujte heslo"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Toto heslo budete potřebovat pro přístup ke všech šifrovaným datům, které si u nás uložíte.<br class=\"mb-3\">Při jeho obnovení může dojít ke ztrátě všech těchto dat včetně hesel nebo záložek."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1606,7 +1614,7 @@ msgstr "Krok 1 ze 2: Zadejte znovu heslo"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Pro zobrazení obnovovacího klíče k účtu zadejte své heslo."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
