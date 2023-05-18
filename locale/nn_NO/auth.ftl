@@ -195,10 +195,12 @@ cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det må to til for å synkronisere
+cadReminderFirst-description-1 = Ta med deg fanene dine til alle einingane dine. Få bokmerke, passord og dei andre dataa dine overalt der du brukar { -brand-firefox }. Det er som å ha magi i { -brand-firefox }-kontoen din!
 cadReminderFirst-description-2 = Det tar berre eit sekund å synkronisere.
 cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
+cadReminderSecond-description-sync = Synkroniser bokmerka dine, passord, opene faner og meir — overalt der du brukar { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Velkomen til { $productName }
