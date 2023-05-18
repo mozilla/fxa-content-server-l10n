@@ -24,7 +24,7 @@ link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 
 # Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Lawrlwythwch eich allwedd adfer cyfrif
+recovery-key-download-button-v2 = Llwythwch eich allwedd adfer i lawr
     .title = Llwytho i Lawr
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
@@ -400,15 +400,15 @@ flow-container-back = Nôl
 ## This screen asks the user to confirm their password before generating a new key
 
 flow-recovery-key-confirm-pwd-heading = Rhowch eich cyfrinair eto i ddechrau
-flow-recovery-key-confirm-pwd-input-label = Cyflwyno eich cyfrinair
+flow-recovery-key-confirm-pwd-input-label = Rhowch eich cyfrinair
 # Clicking on this button will check the password and create an account recovery key
-flow-recovery-key-confirm-pwd-submit-button = Creu allwedd adfer cyfrif
+flow-recovery-key-confirm-pwd-submit-button = Crëwch allwedd adfer cyfrif
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Allwedd adfer cyfrif wedi'i chynhyrchu - storiwch hi mewn man y byddwch chi'n ei gofio
+flow-recovery-key-download-heading = Allwedd adfer cyfrif wedi'i chynhyrchu - cadwch hi mewn man y byddwch chi'n ei gofio
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Bydd yr allwedd hon yn helpu i adennill eich data os byddwch yn anghofio eich cyfrinair.
 # This heading is shown above a list of options for storing the account recovery key
