@@ -290,6 +290,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Du har aktivert det frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
+postAddTwoStepAuthentication-code-required-2 = Sikkerheitskoder frå autentiseringsappen din er no påkravd no kvar gong du loggar inn.
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
 postChangePrimary-action = Handsam kontoen
