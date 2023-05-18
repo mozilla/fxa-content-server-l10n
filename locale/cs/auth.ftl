@@ -475,6 +475,12 @@ subscriptionRenewalReminder-title = Vaše předplatné bude brzy obnoveno
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Vážený zákazníku produktu { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Vaše stávající předplatné bude obnoveno během { $reminderLength } dní. V tu chvíli { -brand-mozilla } obnoví vaše předplatné na dobu  { $planIntervalCount } { $planInterval } a skrze platební metodu nastavenou u vašeho účtu strhne částku { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -504,6 +510,17 @@ subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Úspěšně jste přešli z { $productNameOld } na { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }. V té době vám bude také účtován jednorázový poplatek { $paymentProrated }, který odráží vyšší poplatek za zbytek stávajícího období { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Bude vám účtován jednorázový poplatek { $paymentProrated }, který odráží vyšší cenu vašeho předplatného po zbytek tohoto { $productPaymentCycleOld }. Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Pokud je pro používání produktu { $productName } potřeba instalace dodatečného softwaru, pošleme vám samostatný e-mail s pokyny, jak ho stáhnout.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
@@ -514,15 +531,21 @@ unblockCode-prompt-plaintext = Pokud ano, zde je váš autorizační kód, kter�
 unblockCode-report = Pokud ne, pomozte nám odrazit útočníky a <a data-l10n-name="reportSignInLink">nahlašte nám to</a>.
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
 verificationReminderFinal-subject = Poslední připomenutí k potvrzení vašeho účtu
+verificationReminderFinal-description = Před několika týdny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Pro vaši bezpečnost účet smažeme, pokud nebude ověřen během následujících 24 hodin.
 confirm-account = Potvrdit účet
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nezapomeňte potvrdit svůj účet
 verificationReminderFirst-title-2 = Vítá vás { -brand-firefox }!
+verificationReminderFirst-description-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 15 dní, jinak bude automaticky smazán.
+verificationReminderFirst-sub-description-3 = Nenechte si ujít prohlížeč, který staví vás a vaše soukromí na první místo.
 confirm-email-2 = Potvrdit účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdit účet
 verificationReminderSecond-subject-2 = Nezapomeňte potvrdit svůj účet
 verificationReminderSecond-title-2 = Nenechte si ujít { -brand-firefox }!
+verificationReminderSecond-description-3 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
+verificationReminderSecond-second-description = Váš { -product-firefox-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
+verificationReminderSecond-sub-description-2 = Staňte se součástí našeho poslání proměnit internet v místo, které je otevřené pro každého.
 verificationReminderSecond-action-2 = Potvrdit účet
 verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
@@ -531,6 +554,7 @@ verify-action-2 = Potvrdit účet
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Přihlásili jste se do produktu { $clientName }?
+verifyLogin-description-2 = Pomozte nám udržet váš účet v bezpečí tím, že potvrdíte, že jste se přihlásili:
 verifyLogin-subject-2 = Potvrdit přihlášení
 verifyLogin-action = Potvrdit přihlášení
 # Variables:
@@ -539,6 +563,8 @@ verifyLoginCode-subject-line-2 = Schválení přihlášení k { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Přihlásili jste se do produktu { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pomozte nám udržet váš účet v bezpečí tím, že schválíte své přihlášení na zařízení:
 verifyLoginCode-prompt-3 = Pokud ano, zde je váš autorizační kód:
 verifyLoginCode-expiry-notice = Platnost vyprší za 5 minut.
 verifyPrimary-title-2 = Ověřit hlavní e-mailovou adresu
@@ -546,10 +572,15 @@ verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z t
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
 verifyPrimary-action-2 = Potvrdit e-mailovou adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Po potvrzení budou z tohoto zařízení možné změny účtu, jako je přidání záložní e-mailové adresy.
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-title-2 = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Žádost o použití adresy { $email } jako záložní e-mailové adresy byla podána z následujícího { -product-firefox-account(case: "gen") }:
 verifySecondaryCode-prompt-2 = Použijte tento potvrzovací kód:
+verifySecondaryCode-expiry-notice-2 = Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svůj účet
