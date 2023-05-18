@@ -201,6 +201,7 @@ cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkronis
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
 cadReminderSecond-description-sync = Synkroniser bokmerka dine, passord, opene faner og meir — overalt der du brukar { -brand-firefox }.
+cadReminderSecond-description-plus = I tillegg er dataa dine alltid krypterte. Berre du og eininga du godkjenner kan sjå dei.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Velkomen til { $productName }
@@ -211,6 +212,10 @@ downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonan
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
 codes-reminder-title-two = På tide å lage fleire reserve-autentiseringskodar
 codes-reminder-description-part-one = Reserve-autentiseringskodar hjelper deg med å gjenopprette informasjonen din når du gløymer passordet ditt.
 codes-reminder-description-two-left = Du har berre to kodar att.
