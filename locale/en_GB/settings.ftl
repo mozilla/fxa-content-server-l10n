@@ -411,6 +411,16 @@ flow-recovery-key-confirm-pwd-submit-button = Create account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading = Account recovery key generated — store it in a place you’ll remember
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = This key will help recover your data if you forget your password.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Some ideas for storing your account recovery key:
+flow-recovery-key-download-storage-ideas-folder = Memorable folder in your device
+flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
+flow-recovery-key-download-storage-ideas-print = Print and keep a physical copy
+flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Next
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -420,6 +430,8 @@ flow-recovery-key-info-header = Create an account recovery key in case you forge
 flow-recovery-key-info-shield-bullet-point = We encrypt browsing data –– passwords, bookmarks, and more. It’s great for privacy, but it means we can’t recover your data if you forget your password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = That’s why creating an account recovery key is so important –– you can use your key to get your data back.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Start creating your account recovery key
 
 # HeaderLockup component
 
@@ -622,6 +634,9 @@ recovery-key-success-alert-3 = Account recovery key created
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Account Recovery Key
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Back to settings
 
 ## Add secondary email page
 
@@ -718,6 +733,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Step { $currentStep } of { $numberOfSteps }.
 
 ## Security section of Setting
 
