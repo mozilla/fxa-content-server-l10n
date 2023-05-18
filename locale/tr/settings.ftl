@@ -18,22 +18,25 @@ link-expired-resent-link-error-message = Bir sorun oluştu. Yeni bağlantı gön
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Kurtarma anahtarını indir
+recovery-key-download-button-v2 = Hesap kurtarma anahtarını indir
     .title = İndir
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = HESAP KURTARMA ANAHTARINIZI KAYDEDİN
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Anahtar:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Oluşturulma tarihi: { $downloadDate }
@@ -158,6 +161,7 @@ get-data-trio-print-2 =
     .aria-label = Yazdır
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Her birinde kırık bir kalp olan bir bilgisayar ve bir cep telefonu
@@ -169,8 +173,15 @@ signin-totp-code-image-label =
     .aria-label = 6 basamaklı gizli kodu olan bir cihaz.
 confirm-signup-aria-label =
     .aria-label = Bağlantı içeren bir zarf
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Bir hesap kurtarma anahtarını betimleyen resim.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Bir hesap kurtarma anahtarını betimleyen resim.
+lock-image-aria-label =
+    .aria-label = Bir kilit resmi
 
 ## Input Password
 
@@ -375,14 +386,33 @@ drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun o
 
 flow-container-back = Geri dön
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Ayarlara dön
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading = Başlamak için parolanızı yeniden girin
+flow-recovery-key-confirm-pwd-input-label = Parolanızı girin
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Hesap kurtarma anahtarı oluştur
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Hesap kurtarma anahtarınızı saklamak için bazı fikirler:
+flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
+flow-recovery-key-download-storage-ideas-print = Fiziksel bir kopyasını yazdırıp saklayın
+flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = İleri
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Parolanızı unutursanız kullanabileceğiniz bir hesap kurtarma anahtarı oluşturun
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Kurtarma anahtarınızı oluşturmaya başlayın
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Hesap kurtarma anahtarınızı oluşturmaya başlayın
 
 # HeaderLockup component
 
@@ -578,10 +608,13 @@ recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
 recovery-key-success-alert-3 = Hesap kurtarma anahtarı oluşturuldu
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Hesap kurtarma anahtarı
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Ayarlara dön
 
 ## Add secondary email page
 
@@ -676,7 +709,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Kullanıcının { $numberOfSteps } adımdan { $currentStep }. adımda olduğunu gösteren ilerleme çubuğu
+progress-bar-aria-label-v2 = Adım { $currentStep }/{ $numberOfSteps }.
 
 ## Security section of Setting
 
