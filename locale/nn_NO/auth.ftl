@@ -213,16 +213,27 @@ downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
 fraudulentAccountDeletion-content = Nyleg vart ein { -product-firefox-account } oppretta og eit abonnement  vart belasta med denne e-postadressa. Og som vi gjer med alle nye kontoar, ba vi deg stadfeste kontoen din ved først å validere denne e-postadressa.
+fraudulentAccountDeletion-content-2 = Førebels ser vi at kontoen aldri vart stadfesta. Sidan dette steget ikkje vart fullført, er vi ikkje sikre på om dette var eit autorisert abonnement. Som eit resultat vart { -product-firefox-account } registrert på denne e-postadressa sletta og abonnementet ditt vart avslutta med alle kostnadar refunderte.
 fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Du er tom for reserve-autentiseringskodar!
+codes-reminder-title-one = Du har kun éin reserve-autentiseringskode att
 codes-reminder-title-two = På tide å lage fleire reserve-autentiseringskodar
 codes-reminder-description-part-one = Reserve-autentiseringskodar hjelper deg med å gjenopprette informasjonen din når du gløymer passordet ditt.
+codes-reminder-description-part-two = Opprett nye kodar no, slik at du ikkje mistar dataa dine seinare.
 codes-reminder-description-two-left = Du har berre to kodar att.
 codes-reminder-description-create-codes = Opprett nye reserve-autentiseringskodar for å hjelpe deg med å få tilgang til kontoen din dersom du vert låst ute.
 lowRecoveryCodes-action-2 = Lag kodar
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Ingen reserve-godkjenningskode att
+        [one] Berre 1 reserve-godkjenningskode att
+       *[other] Berre { $numberRemaining } reserve-godkjenningskode att!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
@@ -252,6 +263,8 @@ passwordReset-title = Kontopassordet ditt vart endra
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Du brukte kontogjenopprettingsnøkkelen din til å oppdatere passordet ditt frå:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
 postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel oppretta
