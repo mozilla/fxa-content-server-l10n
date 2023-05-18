@@ -267,16 +267,23 @@ passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
 passwordResetAccountRecovery-description-2 = Du brukte kontogjenopprettingsnøkkelen din til å oppdatere passordet ditt frå:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
+passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle dei synkroniserte einingane dine. Hugs å opprette ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
 postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Ein ny nøkkel vart oppretta frå:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Ikke deg?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>
 postAddAccountRecovery-action = Handsam kontoen
 postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
 postAddAccountRecovery-changd-password = Endre passordet ditt?
 postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = { $providerName }-kontoen din er kopla til { -product-firefox-account }en din
 postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
