@@ -212,6 +212,7 @@ downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonan
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+fraudulentAccountDeletion-content = Nyleg vart ein { -product-firefox-account } oppretta og eit abonnement  vart belasta med denne e-postadressa. Og som vi gjer med alle nye kontoar, ba vi deg stadfeste kontoen din ved først å validere denne e-postadressa.
 fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -322,6 +323,13 @@ subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Du har bytt til { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Du har bytt frå { $productNameOld } til { $productName }.
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -337,6 +345,7 @@ subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+subscriptionPaymentFailed-content-outdated = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
