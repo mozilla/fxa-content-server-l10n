@@ -558,7 +558,12 @@ verifyLogin-subject-2 = Confermar l'annunzia
 verifyLogin-action = Confermar l’annunzia
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Acceptar l'annunzia en { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Es ti t'annunzia en { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ans gida da proteger tes conto cun acceptar tia annunzia en:
 verifyLoginCode-prompt-3 = Sche gea, qua è tes code d'autorisaziun:
 verifyLoginCode-expiry-notice = El scada en 5 minutas.
 verifyPrimary-title-2 = Confermar l'adressa dad e-mail principala

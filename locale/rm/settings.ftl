@@ -709,6 +709,12 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Memorisescha quests codes d'autentificaziun da backup a diever unic en in lieu segir
     en cas che ti n'has ina giada betg access a tes apparat mobil.
+tfa-enter-code-to-confirm-1 =
+    Endatescha ussa per plaschair in da tes codes d'autentificaziun da backup
+    per confermar che ti als has memorisà. Ti dovras in code per t'annunziar sche ti n'has betg access
+    a tes apparat mobil.
+tfa-enter-recovery-code-1 =
+    .label = Endatescha in code d'autentificaziun da backup
 
 ##
 
@@ -728,6 +734,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Pass { $currentStep } da { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -738,6 +749,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Creà: { $date }
+security-not-set = Betg definì
+security-action-create = Crear
+security-set-password = Definescha in pled-clav per sincronisar ed utilisar tschertas funcziuns da segirezza dal conto.
 
 ## Switch component
 
@@ -759,27 +773,58 @@ row-defaults-status = Nagin
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clav da recuperaziun dal conto
 rk-enabled = Activà
 rk-not-set = Betg definì
 rk-action-create = Crear
 rk-action-remove = Allontanar
+rk-cannot-refresh-1 = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun dal conto.
+rk-key-removed-2 = Stizzà la clav da recuperaziun dal conto
 rk-cannot-remove-key = Impussibel dad allontanar tia clav da recuperaziun dal conto.
+rk-refresh-key-1 = Actualisar la clav da recuperaziun dal conto
 rk-content-explain = Recuperescha tias datas sche ti has emblidà tes pled-clav.
+rk-cannot-verify-session-4 = Perstgisa, igl ha dà in problem cun confermar tia sesida
+rk-remove-modal-heading-1 = Allontanar la clav da recuperaziun dal conto?
+rk-remove-modal-content-1 =
+    Sche ti reinizialiseschas tes pled-clav, na vegns ti betg pli a pudair
+    utilisar tia clav da recuperaziun dal conto per acceder a tias datas. Questa acziun na po betg vegnir revocada.
+rk-refresh-error-1 = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun dal conto.
+rk-remove-error-2 = I n'è betg reussì dad allontanar tia clav da recuperaziun dal conto
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Adressa d'e-mail secundara
     .header = Adressa d'e-mail secundara
 se-cannot-refresh-email = Perstgisa, igl ha dà in problem cun actualisar questa adressa dad e-mail.
+se-cannot-resend-code-3 = Perstgisa, igl ha dà in problem cun trametter anc ina giada il code da conferma
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } è ussa tia adressa dad e-mail principala
+se-set-primary-error-2 = Perstgisa, igl ha dà in problem cun midar tia adressa dad e-mail principala
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = Stizzà cun success l'adressa { $email }
+se-delete-email-error-2 = Perstgisa, igl ha dà in problem cun stizzar questa adressa dad e-mail
+se-verify-session-3 = Ti stos confermar tia sesida actuala per exequir questa acziun
+se-verify-session-error-3 = Perstgisa, igl ha dà in problem cun confermar tia sesida
 # Button to remove the secondary email
 se-remove-email =
     .title = Allontanar l'adressa dad e-mail
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Actualisar l'adressa dad e-mail
+se-unverified-2 = betg confermà
+se-resend-code-2 =
+    Conferma necessaria. <button>Trametter anc ina giada il code da conferma</button>
+    sch'el na sa chatta betg en la posta entrada u en l'ordinatur dals messadis nungiavischads.
 # Button to make secondary email the primary
 se-make-primary = Definir sco adressa principala
 se-default-content = Acceda a tes conto sche ti na pos betg t'annunziar a tia adressa d'e-mail principala.
+se-content-note-1 =
+    Remartga: ina adressa dad e-mail secundara na serva betg per restaurar tias datas – ti
+    dovras ina <a>clav da recuperaziun dal conto</a> per quest intent.
 # Default value for the secondary email
 se-secondary-email-none = Nagina
 
@@ -789,6 +834,7 @@ se-secondary-email-none = Nagina
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificaziun en dus pass
+tfa-row-disabled-2 = Autentificaziun en dus pass deactivada
 tfa-row-enabled = Activada
 tfa-row-not-set = Betg definida
 tfa-row-action-add = Agiuntar
@@ -801,23 +847,44 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Impedir ch'insatgi auter possia s'annunziar cun pretender
     in code unic, al qual mo ti has access.
+tfa-row-cannot-verify-session-4 = Perstgisa, igl ha dà in problem cun confermar tia sesida
 tfa-row-disable-modal-heading = Deactivar l'autentificaziun en dus pass?
 tfa-row-disable-modal-confirm = Deactivar
+tfa-row-disable-modal-explain-1 =
+    Ti na vegns betg a pudair revocar questa acziun. Ti has
+    era la pussaivladad da <linkExternal>remplazzar tes codes d'autentificaziun da backup</linkExternal>.
+tfa-row-cannot-disable-2 = Impussibel da deactivar l'autentificaziun en dus pass
+tfa-row-change-modal-heading-1 = Midar ils codes d'autentificaziun da backup?
 tfa-row-change-modal-confirm = Midar
 tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Cun cuntinuar acceptas ti:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = Las <pocketTos>cundiziuns d'utilisaziun</pocketTos> e las <pocketPrivacy>infurmaziuns davart la protecziun da datas</pocketPrivacy> da { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = Las <firefoxTos>cundiziuns d'utilisaziun</firefoxTos> e las <firefoxPrivacy>infurmaziuns davart la protecziun da datas</firefoxPrivacy> da { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Cun cuntinuar acceptas ti las <firefoxTos>cundiziuns d'utilisaziun</firefoxTos> e las <firefoxPrivacy>infurmaziuns davart la protecziun da datas</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = u
+continue-with-google-button = Cuntinuar cun { -brand-google }
+continue-with-apple-button = Cuntinuar cun { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conto nunenconuschent
 auth-error-103 = Pled-clav nuncorrect
+auth-error-105-2 = Code da conferma nunvalid
 auth-error-110 = Token nunvalid
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -825,16 +892,39 @@ auth-error-110 = Token nunvalid
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
+auth-error-138-2 = Sesida betg confermada
 auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto
 auth-error-155 = Betg chattà il token TOTP
+auth-error-183-2 = Code da conferma nunvalid u scadì
+auth-error-999 = Errur nunspetgada
+auth-error-1003 = Arcun local u cookies èn anc adina deactivads
 auth-error-1008 = Tes pled-clav nov sto esser different
+auth-error-1011 = Adressa dad e-mail valida è obligatorica
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Impussibel da crear in conto
+cannot-create-account-requirements = Ti stos avair ina tscherta vegliadetgna per crear in { -product-firefox-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Ulteriuras infurmaziuns
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Connectà cun { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Adressa dad e-mail confermada
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Annunzia confermada
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = T'annunzia en quest { -brand-firefox } per cumplettar la configuraziun
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = S'annunziar
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Ti vuls anc agiuntar auters apparats? T'annunzia en { -brand-firefox } sin in auter apparat per cumplettar la configuraziun.
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = T'annunzia en { -brand-firefox } sin in auter apparat per cumplettar l'installaziun
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
