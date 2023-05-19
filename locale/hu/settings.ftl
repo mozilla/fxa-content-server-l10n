@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Az illusztráció egy fiók-helyreállítási kulcsot reprezentál.
 lock-image-aria-label =
     .aria-label = Egy zár illusztrációja
+lightbulb-aria-label =
+    .aria-label = Ábra a tárolási tipp létrehozását jelképezi.
 
 ## Input Password
 
@@ -421,6 +423,33 @@ flow-recovery-key-download-storage-ideas-print = Nyomtasson ki és tartson meg e
 flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Tovább
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Nagyszerű! Most adjon hozzá tárolási tippet
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Tipp hozzáadása arról, hogy hol tárolta a fiók-helyreállítási kulcsát. Meg tudjuk mutatni a jelszó-visszaállításkor, hogy helyreállítsuk az adatait.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Adja meg a tárolási javaslatot (nem kötelező)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Befejezés
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Fiók-helyreállítási kulcs engedélyezve.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = A fiók-helyreállítási kulcs engedélyezve, és a tárolási tipp mentve.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = A tippnek 255 karakternél rövidebbnek kell lennie.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonságos Unicode karaktereket. Csak betűk, számok, írásjelek és szimbólumok engedélyezettek.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
