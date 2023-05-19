@@ -409,6 +409,9 @@ flow-recovery-key-download-next-link = 下一步
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 完成
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -418,6 +421,8 @@ flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
 flow-recovery-key-info-shield-bullet-point = 我们加密浏览数据——密码、书签等。这非常适合保护隐私，但这意味着如果您忘记了密码，我们将无法恢复您的数据。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = 这就是创建账户恢复密钥如此重要的原因——您可以使用您的恢复密钥取回您的数据。
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = 开始创建账户恢复密钥
 
 # HeaderLockup component
 
@@ -617,6 +622,9 @@ recovery-key-success-alert-3 = 已创建账户恢复密钥
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = 账户恢复密钥
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = 返回设置
 
 ## Add secondary email page
 
@@ -704,6 +712,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = 第 { $currentStep } 步，共 { $numberOfSteps } 步。
 
 ## Security section of Setting
 
