@@ -3,118 +3,156 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Contos da Firefox
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Contos da Firefox
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Contos da Firefox
 
-## general-aria
-
-close-aria =
-    .aria-label = Serrar il dialog
-
-## app error dialog
-
-general-error-heading = Errur generala da l'applicaziun
-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
-payment-error-1 = Hm. Igl ha dà in problem cun autorisar tes pajament. Emprova anc ina giada u contactescha l'emittent da tia carta.
-payment-error-2 = Hm. Igl ha dà in problem cun autorisar tes pajament. Contactescha l'emittent da tia carta.
-payment-error-3b = Ina errur nunspetgada è succedida durant l'elavuraziun da tes pajament, emprova per plaschair anc ina giada.
-payment-error-retry-button = Reempruvar
-payment-error-manage-subscription-button = Administrar mes abunament
-country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
-currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
-no-subscription-change = Perstgisa. Ti na pos betg midar tes plan d'abunaments.
-# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
-iap-already-subscribed = Ti has gia in abunament via l'{ $mobileAppStore }.
-expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
-insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
-withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
-charge-exceeds-source-limit = I para che questa transacziun surpassia la limita da credit quotidiana da tia carta. Emprova cun in'autra carta u en 24 uras.
-instant-payouts-unsupported = I para che tia carta da debit na saja betg configurada per pajaments immediats. Emprova cun in'autra carta da debit u da credit.
-duplicate-transaction = Hm. I para ch'ina transacziun identica saja gist vegnida tramessa. Controllescha tes extract dal conto.
-coupon-expired = I para che quest code da promoziun saja scadì.
-card-error = Impussibel dad elavurar tia transacziun. Verifitgescha per plaschair las datas da tia carta da credit ed emprova anc ina giada.
-
-##  $productName (String) - The name of the subscribed product.
-
-fxa-account-signup-error-2 = Ina errur dal sistem ha gì per consequenza ch'i n'è betg reussì dad abunar { $productName }. Tia metoda da pajament n'è betg vegnida debitada. Emprova per plaschair anc ina giada.
-newsletter-signup-error = Ti n'has betg abunà e-mails davart actualisaziuns dal product. Ti pos anc empruvar ina giada en ils parameters da tes conto.
-fxa-post-passwordless-sub-error = Tes abunament è confermà, ma i n'è betg reussì da chargiar la pagina da conferma. Controllescha per plaschair tes e-mails per endrizzar tes conto.
-
-## settings
+## Component - AppLayout
 
 settings-home = Pagina principala dal conto
-settings-subscriptions-title = Abunaments
 
-## legal footer
+## Component - CouponForm
 
-terms = Cundiziuns d'utilisaziun
-privacy = Infurmaziuns davart la protecziun da datas
-terms-download = Telechargiar las cundiziuns
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Applitgà il code da promoziun
+coupon-submit = Applitgar
+coupon-remove = Allontanar
+coupon-error = Il code che ti has endatà è nunvalid u scadì.
+coupon-error-generic = Ina errur è succedida cun elavurar il code. Reempruvar per plaschair.
+coupon-error-expired = Il code endatà è scrudà.
+coupon-error-limit-reached = Il code endatà ha cuntanschì sia limita.
+coupon-error-invalid = Il code endatà è nunvalid.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Endatescha il code
 
-## Subscription titles
+## Component - Fields
 
-subscription-create-title = Configurescha tes abunament
-subscription-success-title = Conferma da l'abunament.
-subscription-processing-title = Confermar l'abunament…
-subscription-error-title = Errur cun confermar l'abunament…
-subscription-noplanchange-title = La midada da quest plan d'abunaments na vegn betg sustegnida
-subscription-iapsubscribed-title = Gia abunà
+default-input-error = Quest champ è obligatoric
+input-error-is-required = { $label } è obligatoric
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Component - Header
 
-#  $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
+brand-name-firefox-logo = Logo da { -brand-name-firefox }
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Endatescha tia adressa dad e-mail
+new-user-confirm-email =
+    .label = Confermar tes e-mail
+new-user-subscribe-product-updates = Jau vi retschaiver novitads davart products da { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
+new-user-email-validate = L'e-mail n'è betg valid
+new-user-email-validate-confirm = Las adressas na correspundan betg
+new-user-already-has-account-sign-in = Ti has gia in conto. <a>T'annunzia</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Sbagl da tippar en l'adressa? { $domain } na porscha nagin servetsch dad e-mail.
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Grazia fitg!
+payment-confirmation-thanks-heading-account-exists = Grazia, controllescha ussa tes e-mails!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = In e-mail da conferma è vegnì tramess a { $email } cun infurmaziuns per ils emprims pass cun { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Ti retschaivas in e-mail sin { $email } cun instrucziuns per endrizzar tes conto, sco era tias datas da pajament.
+payment-confirmation-order-heading = Detagls da l'empustaziun
+payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
+payment-confirmation-details-heading-2 = Infurmaziuns da pajament
+payment-confirmation-amount = { $amount } per { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] Per { $productName } vegn debità { $amount } mintga di
-       *[other] Per { $productName } vegn debità { $amount } mintga { $intervalCount } dis
+        [one] { $amount } per di
+       *[other] { $amount } mintga { $intervalCount } dis
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
     { $intervalCount ->
-        [one] Per { $productName } vegn debità { $amount } mintg'emna
-       *[other] Per { $productName } vegn debità { $amount } mintga { $intervalCount } emnas
+        [one] { $amount } per emna
+       *[other] { $amount } mintga { $intervalCount } emnas
     }
-#  $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
     { $intervalCount ->
-        [one] Per { $productName } vegn debità { $amount } mintga mais
-       *[other] Per { $productName } vegn debità { $amount } mintga { $intervalCount } mais
+        [one] { $amount } per mais
+       *[other] { $amount } mintga { $intervalCount } mais
     }
-#  $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
     { $intervalCount ->
-        [one] Per { $productName } vegn debità { $amount } mintg'onn
-       *[other] Per { $productName } vegn debità { $amount } mintga { $intervalCount } onns
+        [one] { $amount } per onn
+       *[other] { $amount } mintga { $intervalCount } onns
     }
+payment-confirmation-download-button = Vinavant a la telechargiada
 
-## Product route
+## Component - PaymentConsentCheckbox
 
-product-plan-error =
-    .title = Problem cun chargiar ils plans
-product-profile-error =
-    .title = Problem cun chargiar il profil
-product-customer-error =
-    .title = Problem cun chargiar il client
-product-plan-not-found = Betg chattà il plan
-product-no-such-plan = Nagin abunament correspundent per quest product.
+payment-confirm-with-legal-links-static = Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 
-## payment legal blurb
+## Component - PaymentErrorView
+
+payment-error-retry-button = Reempruvar
+payment-error-manage-subscription-button = Administrar mes abunament
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Ti has gia in abunament da { $productName } via l'app store da { -brand-name-google } u { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Nus n'offrin anc nagins upgrades per quests abunaments, ma vegnin prest a far quai.
+iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
+iap-upgrade-get-help-button = Ir per agid
+
+## Component - PaymentForm
+
+payment-name =
+    .placeholder = Num cumplet
+    .label = Num sco quai ch'el è scrit sin la carta
+payment-cc =
+    .label = Tia carta
+payment-cancel-btn = Interrumper
+payment-update-btn = Actualisar
+payment-pay-btn = Pajar ussa
+payment-pay-with-paypal-btn = Pajar cun { -brand-name-paypal }
+payment-validate-name-error = Endatescha per plaschair tes num
+
+## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } e { -brand-name-paypal } per l'elavuraziun segira dal pajament.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
@@ -123,158 +161,367 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Directivas da la protecziun da 
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } per l'elavuraziun segira da pajaments.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Component - PaymentMethodHeader
 
-payment-name =
-    .placeholder = Num cumplet
-    .label = Num sco quai ch'el è scrit sin la carta
-payment-cc =
-    .label = Tia carta
-payment-ccn =
-    .label = Numer da la carta
-payment-exp =
-    .label = Data da scadenza
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Numer postal
+payment-method-header = Tscherna tia metoda da pajament
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = L'emprim stos ti approvar tes abunament
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Component - PaymentProcessing
+
+payment-processing-message = Spetgar per plaschair fertant che nus elavurain il pajament…
+
+## Component - PaymentProviderDetails
+
+payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pajar cun { -brand-name-paypal }
+
+## Component - PlanDetails
+
+plan-details-header = Detagls dal product
+plan-details-list-price = Pretsch da catalog
+plan-details-show-button = Mussar ils detagls
+plan-details-hide-button = Zuppentar ils detagls
+plan-details-total-label = Total
+plan-details-tax = Taglias e taxas
+
+## Component - PlanErrorDialog
+
+product-no-such-plan = Nagin abunament correspundent per quest product.
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } taglia
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } mintga di
+       *[other] { $priceAmount } mintga { $intervalCount } dis
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mintga di
+           *[other] { $priceAmount } mintga { $intervalCount } dis
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } mintg'emna
+       *[other] { $priceAmount } mintga { $intervalCount } emnas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mintg'emna
+           *[other] { $priceAmount } mintga { $intervalCount } emnas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mintga mais
+       *[other] { $priceAmount } mintga { $intervalCount } mais
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mintga mais
+           *[other] { $priceAmount } mintga { $intervalCount } mais
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } mintg'onn
+       *[other] { $priceAmount } mintga { $intervalCount } onns
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mintg'onn
+           *[other] { $priceAmount } mintga { $intervalCount } onns
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxas mintga di
+       *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } dis
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxas mintga di
+           *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } dis
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxas mintg'emna
+       *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } emnas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxas mintg'emna
+           *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } emnas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxas mintga mais
+       *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } mais
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxas mintga mais
+           *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } mais
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxas mintg'onn
+       *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } onns
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxas mintg'onn
+           *[other] { $priceAmount } + { $taxAmount } taxas mintga { $intervalCount } onns
+        }
+
+## Component - SubscriptionTitle
+
+subscription-create-title = Configurescha tes abunament
+subscription-success-title = Conferma da l'abunament.
+subscription-processing-title = Confermar l'abunament…
+subscription-error-title = Errur cun confermar l'abunament…
+subscription-noplanchange-title = La midada da quest plan d'abunaments na vegn betg sustegnida
+subscription-iapsubscribed-title = Gia abunà
+sub-guarantee = Garanzia da restituziun da 30 dis
+
+## Component - TermsAndPrivacy
+
+terms = Cundiziuns d'utilisaziun
+privacy = Infurmaziuns davart la protecziun da datas
+terms-download = Telechargiar las cundiziuns
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Contos da Firefox
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Serrar il dialog
+settings-subscriptions-title = Abunaments
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Code da promoziun
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>mintga di { $amount }</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
-       *[other] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } mintga { $intervalCount } dis</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+        [one] { $amount } mintga di
+       *[other] { $amount } mintga { $intervalCount } dis
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mintga di
+           *[other] { $amount } mintga { $intervalCount } dis
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
     { $intervalCount ->
-        [one] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } per emna</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
-       *[other] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } mintga { $intervalCount } emnas</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+        [one] { $amount } mintg'emna
+       *[other] { $amount } mintga { $intervalCount } emnas
     }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mintg'emna
+           *[other] { $amount } mintga { $intervalCount } emnas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
     { $intervalCount ->
-        [one] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } per mais</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
-       *[other] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } mintga { $intervalCount } mais</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+        [one] { $amount } mintga mais
+       *[other] { $amount } mintga { $intervalCount } mais
     }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mintga mais
+           *[other] { $amount } mintga { $intervalCount } mais
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
     { $intervalCount ->
-        [one] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } per onn</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
-       *[other] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } mintga { $intervalCount } onns</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+        [one] { $amount } mintg'onn
+       *[other] { $amount } mintga { $intervalCount } onns
     }
-payment-confirm = Jau permet a Mozilla, l'organisaziun che realisescha ils products da Firefox, da debitar cun mia metoda da pajament <strong>{ $amount }$ per { $interval }</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mintg'onn
+           *[other] { $amount } mintga { $intervalCount } onns
+        }
 
-##
+## Error messages
 
-payment-cancel-btn = Interrumper
-payment-update-btn = Actualisar
-payment-pay-btn = Pajar ussa
-payment-pay-with-paypal-btn = Pajar cun { -brand-name-paypal }
-payment-validate-name-error = Endatescha per plaschair tes num
-payment-validate-zip-required = Il numer postal è obligatoric
-payment-validate-zip-short = Il numer postal è memia curt
+# App error dialog
+general-error-heading = Errur generala da l'applicaziun
+basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
+payment-error-1 = Hm. Igl ha dà in problem cun autorisar tes pajament. Emprova anc ina giada u contactescha l'emittent da tia carta.
+payment-error-2 = Hm. Igl ha dà in problem cun autorisar tes pajament. Contactescha l'emittent da tia carta.
+payment-error-3b = Ina errur nunspetgada è succedida durant l'elavuraziun da tes pajament, emprova per plaschair anc ina giada.
+expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
+insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
+withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
+charge-exceeds-source-limit = I para che questa transacziun surpassia la limita da credit quotidiana da tia carta. Emprova cun in'autra carta u en 24 uras.
+instant-payouts-unsupported = I para che tia carta da debit na saja betg configurada per pajaments immediats. Emprova cun in'autra carta da debit u da credit.
+duplicate-transaction = Hm. I para ch'ina transacziun identica saja gist vegnida tramessa. Controllescha tes extract dal conto.
+coupon-expired = I para che quest code da promoziun saja scadì.
+card-error = Impussibel dad elavurar tia transacziun. Verifitgescha per plaschair las datas da tia carta da credit ed emprova anc ina giada.
+country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
+currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
+no-subscription-change = Perstgisa. Ti na pos betg midar tes plan d'abunaments.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ti has gia in abunament via l'{ $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Ina errur dal sistem ha gì per consequenza ch'i n'è betg reussì dad abunar { $productName }. Tia metoda da pajament n'è betg vegnida debitada. Emprova per plaschair anc ina giada.
+fxa-post-passwordless-sub-error = Tes abunament è confermà, ma i n'è betg reussì da chargiar la pagina da conferma. Controllescha per plaschair tes e-mails per endrizzar tes conto.
+newsletter-signup-error = Ti n'has betg abunà e-mails davart actualisaziuns dal product. Ti pos anc empruvar ina giada en ils parameters da tes conto.
+product-plan-error =
+    .title = Problem cun chargiar ils plans
+product-profile-error =
+    .title = Problem cun chargiar il profil
+product-customer-error =
+    .title = Problem cun chargiar il client
+product-plan-not-found = Betg chattà il plan
 
-## subscription redirect
+## Hooks - coupons
 
-sub-redirect-ready = Tes abunament è pront
-sub-redirect-copy = Has ti peda in amen per descriver tia experientscha?
-sub-redirect-skip-survey = Na grazia, ma mussai be mes product.
+coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
 
-## fields
+## Routes - Checkout - New user
 
-default-input-error = Quest champ è obligatoric
-input-error-is-required = { $label } è obligatoric
+new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
+new-user-card-title = Endatescha las infurmaziuns da tia carta
+new-user-submit = Abunar ussa
 
-## subscription upgrade
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Infurmaziuns da pajament
+
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
+
+pay-with-heading-card-only = Pajar cun la carta
+product-invoice-preview-error-title = Problem cun chargiar la prevista dal quint
+product-invoice-preview-error-text = Impussibel da chargiar la prevista dal quint
+
+## Routes - Product - IapRoadblock
+
+subscription-iaperrorupgrade-title = Anc n'è l'upgrade betg pussaivel
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
+
+## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Controllescha tia midada
 sub-change-failed = Midada dal plan betg reussida
-sub-update-payment-title = Infurmaziuns da pajament
-sub-update-card-exp = Scadenza: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tes plan vegn immediat midà ed i vegn debità ina summa
     adattada per il rest dal ciclus da facturaziun. A partir dals { $startingDate }
     vegn debità l'entir import.
-
-##
-
 sub-change-submit = Confermar la midada
-sub-change-indicator =
-    .aria-label = indicatur da midadas
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nov plan
 sub-update-total-label = Nov total
 
-## subscription upgrade plan details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Routes - Subscriptions - Cancel
 
-#  $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } per di
-       *[other] { $amount } mintga { $intervalCount } dis
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } per emna
-       *[other] { $amount } mintga { $intervalCount } emnas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } per mais
-       *[other] { $amount } mintga { $intervalCount } mais
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } per onn
-       *[other] { $amount } mintga { $intervalCount } onns
-    }
+sub-item-cancel-sub = Annullar l'abunament
+sub-item-stay-sub = Tegnair l'abunament
 
-## subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } per di
-       *[other] { $amount } mintga { $intervalCount } dis
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } per emna
-       *[other] { $amount } mintga { $intervalCount } emnas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } per mais
-       *[other] { $amount } mintga { $intervalCount } mais
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } per onn
-       *[other] { $amount } mintga { $intervalCount } onns
-    }
+sub-item-cancel-msg =
+    Ti na vegns betg pli a pudair utilisar { $name } suenter
+    ils { $period }, l'ultim di da tes ciclus da facturaziun.
+sub-item-cancel-confirm =
+    Annullar mes access e stizzar mias infurmaziuns memorisadas en
+    { $name } ils { $period }
 
+## Routes - Subscription
+
+sub-route-idx-reactivating = Reactivaziun da l'abunament betg reussida
+sub-route-idx-cancel-failed = Annullaziun da l'abunament betg reussida
+sub-route-idx-contact = Contactar l'agid
+sub-route-idx-cancel-msg-title = Igl ans displascha che ti vas
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tes abunament da { $name } è vegnì annullà.
+          <br />
+          Ti has anc access a { $name } enfin ils { $date }.
+sub-route-idx-cancel-aside = Has ti dumondas? Visita <a>l'agid da { -brand-name-mozilla }</a>.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Problem cun chargiar il client
+sub-invoice-error =
+    .title = Problem cun chargiar quints
+sub-billing-update-success = Actualisà cun success tias infurmaziuns da facturaziun
+sub-invoice-previews-error-title = Problem cun chargiar las previstas dals quints
+sub-invoice-previews-error-text = Impussibel da chargiar las previstas dals quints
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Midar
+pay-update-manage-btn = Administrar
+
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxima facturaziun ils { $date }
+sub-next-bill-no-tax = Tes proxim quint da <strong>{ $priceAmount }</strong> è da pajar ils <strong>{ $date }</strong>
+sub-next-bill-tax = Tes proxim quint da <strong>{ $priceAmount } + { $taxAmount }</strong> taxas è da pajar ils <strong>{ $date }</strong>
 sub-expires-on = Scada ils { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Scadenza: { $expirationDate }
-pay-update-change-btn = Midar
+sub-route-idx-updating = Actualisar las infurmaziuns per la facturaziun…
+sub-route-payment-modal-heading = Infurmaziuns da facturaziun nunvalidas
+sub-route-payment-modal-message = I para da dar ina errur cun tes conto da { -brand-name-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
+sub-route-missing-billing-agreement-payment-alert = Infurmaziun da pajament nunvalida. Igl è succedida ina errur cun tes conto. <div>Administrar</div>
+sub-route-funding-source-payment-alert = Infurmaziuns da pajament nunvalidas. Igl è succedida ina errur cun tes conto. I po cuzzar in mument enfin che quest avis svanescha suenter l'actualisaziun da tias infurmaziuns. <div>Administrar</div>
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Nagin plan correspundent per quest product.
+invoice-not-found = Betg chattà il proxim quint
+sub-item-no-such-subsequent-invoice = Betg chattà il proxim quint per quest abunament.
+sub-invoice-preview-error-title = Betg chattà la prevista dal quint
+sub-invoice-preview-error-text = Betg chattà la prevista dal quint per quest abunament
+
+## Routes - Subscriptions - Pocket Subscription
+
+manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vuls ti vinavant utilisar { $name }?
@@ -294,174 +541,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } succeda ils { $endDate }.
 reactivate-confirm-button = Reabunar
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
-reactivate-panel-date = Ti has annullà tes abunament ils { $date }.
 reactivate-panel-copy = Ti vegns a perder l'access a { $name } ils <strong>{ $date }</strong>.
 reactivate-success-copy = Grazia! Tut è pront.
 reactivate-success-button = Serrar
 
-## subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-sub-item-missing = Problem cun chargiar ils abunaments
-sub-item-missing-msg = Emprova per plaschair pli tard anc ina giada.
-sub-item-no-such-plan = Nagin plan correspundent per quest product.
-sub-item-cancel-sub = Annullar l'abunament
-sub-item-stay-sub = Tegnair l'abunament
-sub-item-cancel-msg =
-    Ti na vegns betg pli a pudair utilisar { $name } suenter
-    ils { $period }, l'ultim di da tes ciclus da facturaziun.
-sub-item-cancel-confirm =
-    Annullar mes access e stizzar mias infurmaziuns memorisadas en
-    { $name } ils { $period }
-invoice-not-found = Betg chattà il proxim quint
-sub-item-no-such-subsequent-invoice = Betg chattà il proxim quint per quest abunament.
-
-## subscription iap item
+## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Cumpra in-app
 sub-iap-item-apple-purchase = { -brand-name-apple }: Cumpra in-app
 sub-iap-item-manage-button = Administrar
-account-activated = Tes conto è activà, <userEl/>
-
-## subscription route index
-
-sub-route-idx-updating = Actualisar las infurmaziuns per la facturaziun…
-sub-route-idx-reactivating = Reactivaziun da l'abunament betg reussida
-sub-route-idx-cancel-failed = Annullaziun da l'abunament betg reussida
-sub-route-idx-contact = Contactar l'agid
-sub-route-idx-cancel-msg-title = Igl ans displascha che ti vas
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    Tes abunament da { $name } è vegnì annullà.
-          <br />
-          Ti has anc access a { $name } enfin ils { $date }.
-sub-route-idx-cancel-aside = Has ti dumondas? Visita <a>l'agid da { -brand-name-mozilla }</a>.
-sub-subscription-error =
-    .title = Problem cun chargiar ils abunaments
-sub-customer-error =
-    .title = Problem cun chargiar il client
-sub-invoice-error =
-    .title = Problem cun chargiar quints
-sub-billing-update-success = Actualisà cun success tias infurmaziuns da facturaziun
-sub-route-payment-modal-heading = Infurmaziuns da facturaziun nunvalidas
-sub-route-payment-modal-message = I para da dar ina errur cun tes conto da { -brand-name-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
-sub-route-missing-billing-agreement-payment-alert = Infurmaziun da pajament nunvalida. Igl è succedida ina errur cun tes conto. <div>Administrar</div>
-sub-route-funding-source-payment-alert = Infurmaziuns da pajament nunvalidas. Igl è succedida ina errur cun tes conto. I po cuzzar in mument enfin che quest avis svanescha suenter l'actualisaziun da tias infurmaziuns. <div>Administrar</div>
-pay-update-manage-btn = Administrar
-
-## subscription create
-
-sub-guarantee = Garanzia da restituziun da 30 dis
-pay-with-heading-other = Tscherner ina opziun da pajament
-pay-with-heading-card-or = U pajar cun la carta da credit
-pay-with-heading-card-only = Pajar cun la carta
-
-## plan-details
-
-plan-details-header = Detagls dal product
-plan-details-show-button = Mussar ils detagls
-plan-details-hide-button = Zuppentar ils detagls
-plan-details-total-label = Total
-plan-details-list-price = Pretsch da catalog
-
-## coupons
-
-coupon-discount = Rabat
-coupon-discount-applied = Applitgà il rabat
-coupon-submit = Applitgar
-coupon-remove = Allontanar
-coupon-error = Il code che ti has endatà è nunvalid u scadì.
-coupon-error-generic = Ina errur è succedida cun elavurar il code. Reempruvar per plaschair.
-coupon-error-expired = Il code endatà è scrudà.
-coupon-error-limit-reached = Il code endatà ha cuntanschì sia limita.
-coupon-error-invalid = Il code endatà è nunvalid.
-coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
-coupon-enter-code =
-    .placeholder = Endatescha il code
-
-## payment-processing
-
-payment-processing-message = Spetgar per plaschair fertant che nus elavurain il pajament…
-
-## payment confirmation
-
-payment-confirmation-alert = Clicca qua per telechargiar
-payment-confirmation-mobile-alert = L'app n'è betg s'averta? <a>Clicca qua</a>
-payment-confirmation-thanks-heading = Grazia fitg!
-
-## payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-payment-confirmation-thanks-subheading = In e-mail da conferma è vegnì tramess a { $email } cun infurmaziuns per ils emprims pass cun { $product_name }.
-payment-confirmation-thanks-heading-account-exists = Grazia, controllescha ussa tes e-mails!
-
-## $email (string) - The user's email.
-
-payment-confirmation-thanks-subheading-account-exists = Ti retschaivas in e-mail sin { $email } cun instrucziuns per endrizzar tes conto, sco era tias datas da pajament.
-payment-confirmation-order-heading = Detagls da l'empustaziun
-payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
-payment-confirmation-billing-heading = Quint a:
-payment-confirmation-details-heading-2 = Infurmaziuns da pajament
-payment-confirmation-amount = { $amount } per { $interval }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] { $amount } per di
-       *[other] { $amount } mintga { $intervalCount } dis
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] { $amount } per emna
-       *[other] { $amount } mintga { $intervalCount } emnas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] { $amount } per mais
-       *[other] { $amount } mintga { $intervalCount } mais
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] { $amount } per onn
-       *[other] { $amount } mintga { $intervalCount } onns
-    }
-payment-confirmation-download-button = Vinavant a la telechargiada
-payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
-
-## new user email form
-
-new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
-new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Endatescha tia adressa d'e-mail
-new-user-confirm-email =
-    .label = Confermar tes e-mail
-new-user-subscribe-product-updates = Jau vi retschaiver novitads davart products da { -brand-name-firefox }
-new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
-new-user-email-validate = L'e-mail n'è betg valid
-new-user-email-validate-confirm = Las adressas na correspundan betg
-new-user-already-has-account-sign-in = Ti has gia in conto. <a>T'annunzia</a>
-new-user-card-title = Endatescha las infurmaziuns da tia carta
-new-user-submit = Abunar ussa
-manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
-manage-pocket-body = Per l'administrar, <a>clicca qua</a>.
-payment-method-header = Tscherna tia metoda da pajament
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Obligatoric
