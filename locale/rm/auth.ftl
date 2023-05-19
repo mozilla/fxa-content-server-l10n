@@ -440,6 +440,9 @@ subscriptionPaymentExpired-subject-1 = La carta da credit per { $productName } �
 subscriptionPaymentExpired-title-1 = Tia carta da credit è scadida u scada prest
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = La carta da credit che ti utiliseschas per far pajaments per { $productName } è scadida u scada prest.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pajament per { $productName } betg reussì
 subscriptionPaymentFailed-title = Perstgisa, nus avain in problem cun tes pajament
 # Variables:
