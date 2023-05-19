@@ -399,6 +399,8 @@ flow-recovery-key-confirm-pwd-submit-button = Hesap kurtarma anahtarı oluştur
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Hesap kurtarma anahtarınızı saklamak için bazı fikirler:
 flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
