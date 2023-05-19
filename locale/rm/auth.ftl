@@ -516,6 +516,7 @@ subscriptionUpgrade-upgrade-info = Ti has midà cun success da { $productNameOld
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A partir da tes proxim quint mida la summa debitada da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }. Il medem mument vegn era debità il pajament unic da { $paymentProrated } che reflectescha la debitaziun pli auta durant il rest da quest { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = I vegn debità il pajament unic da { $paymentProrated } per reflectar il pretsch pli aut da l'abunament per il rest da quest { $productPaymentCycleOld }. A partir da tes proxim quint mida la summa debitada da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Sch'igl è necessari dad installar nova software per pudair utilisar { $productName }, retschaivas ti in e-mail separà cun instrucziuns per la telechargiar.
@@ -528,14 +529,57 @@ unblockCode-prompt = Sche gea, quai è il code d’autorisaziun che ti dovras:
 unblockCode-prompt-plaintext = Sche gea, quai è il code d'autorisaziun che ti dovras: { $unblockCode }
 unblockCode-report = Sche na, ans pos ti gidar d'ans defender encunter laders ed <a data-l10n-name="reportSignInLink">ans rapportar quai</a>.
 unblockCode-report-plaintext = Sche na ans pos ti gidar d’ans defender encunter laders ed ans rapportar quai.
+verificationReminderFinal-subject = Ultima promemoria per confermar tes conto
+verificationReminderFinal-description = Avant in pèr emnas has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Per tia segirezza stizzain nus il conto sch'el na vegn betg verifitgà durant las proximas 24 uras.
+confirm-account = Confermar il conto
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = N'emblida betg da confermar tes conto
+verificationReminderFirst-title-2 = Bainvegni en { -brand-firefox }!
+verificationReminderFirst-description-2 = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 15 dis, uschiglio vegn el stizzà automaticamain.
+verificationReminderFirst-sub-description-3 = Na manchenta betg il navigatur che dat la prioritad a ti ed a tia sfera privata.
+confirm-email-2 = Confermar il conto
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confermar il conto
+verificationReminderSecond-subject-2 = N'emblida betg da confermar tes conto
+verificationReminderSecond-title-2 = Na manchenta betg { -brand-firefox }!
+verificationReminderSecond-description-3 = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà. Conferma per plaschair tes conto entaifer ils proxims 10 dis, uschiglio vegn el stizzà automaticamain.
+verificationReminderSecond-second-description = Tes { -product-firefox-account } ta permetta da sincronisar tias infurmaziuns tranter tes apparats e ta dat access ad ulteriurs products per la protecziun da datas da { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Participescha a nossa missiun che vul transfurmar l'internet en in lieu avert per ina e mintgin.
+verificationReminderSecond-action-2 = Confermar il conto
+verify-title-2 = Avrir l'internet cun { -brand-firefox }
 verify-description = Conferma tes conto e profitescha al maximum da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verify-subject = Finir la creaziun da tes conto
+verify-action-2 = Confermar il conto
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Es ti t'annunzia en { $clientName }?
+verifyLogin-description-2 = Ans gida da proteger tes conto cun confermar che ti es t'annunzià en:
+verifyLogin-subject-2 = Confermar l'annunzia
 verifyLogin-action = Confermar l’annunzia
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Es ti t'annunzia en { $serviceName }?
+verifyLoginCode-prompt-3 = Sche gea, qua è tes code d'autorisaziun:
 verifyLoginCode-expiry-notice = El scada en 5 minutas.
+verifyPrimary-title-2 = Confermar l'adressa dad e-mail principala
 verifyPrimary-description = Il suandant apparat ha dumandà da pudair modifitgar il conto:
 verifyPrimary-subject = Confermar l’adressa dad e-mail principala
+verifyPrimary-action-2 = Confermar l’adressa d‘e-mail
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Suenter la conferma èsi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat.
 verifySecondaryCode-subject = Confermar l’adressa dad e-mail secundara
+verifySecondaryCode-title-2 = Confermar l'adressa dad e-mail secundara
+verifySecondaryCode-action-2 = Confermar l’adressa d‘e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = Utilisescha quest code da conferma:
+verifySecondaryCode-expiry-notice-2 = El scada en 5 minutas. Uschespert che questa adressa è confermada, retschaiva ella avis e confermas da segirezza.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Conferma tes conto
+verifyShortCode-title-2 = Avra l'internet cun { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Conferma tes conto e profitescha il meglier pussaivel da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
+verifyShortCode-prompt-3 = Dovra quest code da conferma:
 verifyShortCode-expiry-notice = El scada en 5 minutas.
