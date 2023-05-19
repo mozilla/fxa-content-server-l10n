@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Una ilustración de un candado
 lightbulb-aria-label =
-    .aria-label = Ilustración para representar la creación de una pista de almacenamiento.
+    .aria-label = Ilustración para representar la creación de una pista de donde la guardarás.
 
 ## Input Password
 
@@ -428,20 +428,20 @@ flow-recovery-key-download-next-link = Siguiente
 
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = ¡Genial! Ahora agrega una pista de almacenamiento
+flow-recovery-key-hint-header = ¡Excelente! Ahora agregá una pista de dónde la guardás.
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Agrega una pista sobre dónde guardaste la clave de recuperación de la cuenta. Podemos mostrárselo durante el restablecimiento de la contraseña para recuperar sus datos.
+flow-recovery-key-hint-message = Agregá una pista sobre dónde guardaste la clave de recuperación de tu cuenta. Te la podemos mostrar durante el restablecimiento de la contraseña para recuperar tus datos.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Ingresa tu pista de almacenamiento (opcional)
+    .label = Ingresa la pista de donde la guardarás (opcional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finalizar
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Clave de recuperación de cuenta habilitada.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Se habilitó la clave de recuperación de la cuenta y se guardó la sugerencia de almacenamiento.
+flow-recovery-key-success-alert-with-hint = Se habilitó la clave de recuperación de la cuenta y se guardó la pista de almacenamiento.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = La pista debe contener menos de 255 caracteres.
