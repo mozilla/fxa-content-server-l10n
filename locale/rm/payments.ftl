@@ -520,6 +520,7 @@ sub-invoice-preview-error-text = Betg chattà la prevista dal quint per quest ab
 ## Routes - Subscriptions - Pocket Subscription
 
 manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
+manage-pocket-body-2 = Per l'administrar, <linkExternal>cliccar qua</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
