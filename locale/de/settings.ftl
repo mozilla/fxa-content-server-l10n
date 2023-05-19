@@ -430,7 +430,7 @@ flow-recovery-key-download-next-link = Weiter
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
 flow-recovery-key-hint-header = Toll! Fügen Sie jetzt einen Speicherhinweis hinzu
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Fügen Sie einen Hinweis darauf hinzu, wo Sie Ihren Kontowiederherstellungsschlüssel gespeichert haben. Wir können es Ihnen während des Zurücksetzens des Passworts anzeigen, um Ihre Daten wiederherzustellen.
+flow-recovery-key-hint-message = Fügen Sie einen Hinweis darauf hinzu, wo Sie Ihren Kontowiederherstellungsschlüssel gespeichert haben. Wir können Ihnen den Hinweis während des Zurücksetzens des Passworts anzeigen, um Ihre Daten wiederherzustellen.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
@@ -444,7 +444,7 @@ flow-recovery-key-success-alert-no-hint = Kontowiederherstellungsschlüssel akti
 flow-recovery-key-success-alert-with-hint = Kontowiederherstellungsschlüssel aktiviert und Speicherhinweis gespeichert.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Der Hinweis muss weniger als 256 Zeichen enthalten.
+flow-recovery-key-hint-char-limit-error = Der Hinweis muss weniger als 255 Zeichen enthalten.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Der Hinweis darf keine unsicheren Unicode-Zeichen enthalten. Nur Buchstaben, Zahlen, Satzzeichen und Symbole sind erlaubt.
