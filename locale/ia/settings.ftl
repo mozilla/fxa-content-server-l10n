@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Illustration pro representar un clave de recuperation de conto.
 lock-image-aria-label =
     .aria-label = Illustration de un serratura
+lightbulb-aria-label =
+    .aria-label = Illustration pro representar le creation de un indicio de immagazinage.
 
 ## Input Password
 
@@ -420,9 +422,28 @@ flow-recovery-key-download-next-link = Sequente
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Bon! Ora adde un indicio de immagazinage
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Adde un indicio re ubi tu immagazinava tu clave recuperation del conto. Nos pote monstrar te lo durante le redefinition de contrasigno pro recuperar tu datos.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Insere tu indicio de immagazinage (optional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finir
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Clave recuperation del conto activate.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Clave recuperation del conto activate e indicio de immagazinage salvate.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Le indicio debe continer minus que 255 characteres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characteres unicode non secur.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
