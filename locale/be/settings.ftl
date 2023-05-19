@@ -448,6 +448,9 @@ flow-recovery-key-success-alert-with-hint = Ключ аднаўлення ўлі
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Падказка павінна змяшчаць менш за 255 знакаў.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтрымліваць небяспечныя сімвалы унікода. Дапускаюцца толькі літары, лічбы, знакі прыпынку і сімвалы.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
