@@ -387,8 +387,17 @@ flow-container-back = Πίσω
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Επόμενο
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Τέλος
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -589,6 +598,9 @@ recovery-key-success-alert-3 = Το κλειδί ανάκτησης λογαρι
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Κλειδί ανάκτησης λογαριασμού
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Πίσω στις ρυθμίσεις
 
 ## Add secondary email page
 
@@ -682,6 +694,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Βήμα { $currentStep } από { $numberOfSteps }.
 
 ## Security section of Setting
 
