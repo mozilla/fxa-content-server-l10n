@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Illustrazione di un lucchetto
 lightbulb-aria-label =
-    .aria-label = Illustrazione per rappresentare la creazione di un suggerimento per lo spazio di archiviazione.
+    .aria-label = Illustrazione per rappresentare la creazione di un suggerimento per l’archiviazione.
 
 ## Input Password
 
@@ -404,9 +404,9 @@ flow-recovery-key-download-heading = Chiave di recupero dell’account generata:
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Questa chiave ti aiuterà a recuperare i tuoi dati se dimentichi la password.
 # This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Alcune idee per memorizzare la chiave di recupero dell’account:
-flow-recovery-key-download-storage-ideas-folder = Cartella facile da ricordare nel tuo dispositivo
-flow-recovery-key-download-storage-ideas-cloud = Archiviazione su cloud affidabile
+flow-recovery-key-download-storage-ideas-heading = Alcune idee per archiviare la chiave di recupero dell’account:
+flow-recovery-key-download-storage-ideas-folder = Una cartella facile da ricordare nel tuo dispositivo
+flow-recovery-key-download-storage-ideas-cloud = Spazio di archiviazione su cloud affidabile
 flow-recovery-key-download-storage-ideas-print = Stampa e conserva una copia fisica
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestore di password
 # This link allows user to proceed to the next step without clicking the download button
@@ -418,20 +418,20 @@ flow-recovery-key-download-next-link = Avanti
 
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Ottimo! Ora aggiungi un suggerimento per lo spazio di archiviazione
+flow-recovery-key-hint-header = Ottimo! Ora aggiungi un suggerimento per l’archiviazione
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Aggiungi un suggerimento su dove hai memorizzato la chiave di recupero dell’account. Possiamo mostrartelo durante la reimpostazione della password per recuperare i tuoi dati.
+flow-recovery-key-hint-message = Aggiungi un suggerimento su dove hai archiviato la chiave di recupero dell’account. Possiamo mostrartelo durante la reimpostazione della password per recuperare i tuoi dati.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Inserisci il tuo suggerimento per lo spazio di archiviazione (facoltativo)
+    .label = Inserisci il tuo suggerimento per l’archiviazione (facoltativo)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fine
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Chiave di recupero account attivata.
+flow-recovery-key-success-alert-no-hint = Chiave di recupero dell’account attivata.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Chiave di recupero dell’account abilitata e suggerimento di archiviazione salvato.
+flow-recovery-key-success-alert-with-hint = Chiave di recupero dell’account attivata e suggerimento per l’archiviazione salvato.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Il suggerimento deve contenere meno di 255 caratteri.
