@@ -390,6 +390,11 @@ subscriptionCancellation-title = Donn che ti vas
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Nus avain annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è exequì pajà ils { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Nus avain annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } vegn exequi ils { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Tes servetsch vegn a cuntinuar enfin la fin da tia perioda da facturaziun actuala ils { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Ti has midà a { $productName }
@@ -429,6 +434,10 @@ subscriptionFirstInvoice-content-auto-renew = Tes abunament vegn renovà automat
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = La carta da credit per { $productName } è scadida u scada prest
+subscriptionPaymentExpired-title-1 = Tia carta da credit è scadida u scada prest
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pajament per { $productName } betg reussì
