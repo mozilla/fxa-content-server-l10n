@@ -439,7 +439,7 @@ flow-recovery-key-hint-input =
     .label = Vnesite namig za prostor za shranjevanje (izbirno)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
-flow-recovery-key-hint-cta-text = Končaj
+flow-recovery-key-hint-cta-text = Dokončaj
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Ključ za obnovitev računa omogočen.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
