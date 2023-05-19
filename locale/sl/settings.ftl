@@ -446,7 +446,7 @@ flow-recovery-key-success-alert-no-hint = Ključ za obnovitev računa omogočen.
 flow-recovery-key-success-alert-with-hint = Ključ za obnovitev računa omogočen in namig za prostor shranjen.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = Namig mora vsebovati manj kot 255 znakov.
+flow-recovery-key-hint-char-limit-error = Namig lahko vsebuje največ 255 znakov.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Namig ne sme vsebovati nevarnih znakov unicode. Dovoljene so samo črke, številke, ločila in simboli.
