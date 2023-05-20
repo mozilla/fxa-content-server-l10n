@@ -399,6 +399,7 @@ flow-recovery-key-confirm-pwd-submit-button = Hesap kurtarma anahtarı oluştur
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = Hesap kurtarma anahtarı oluşturuldu. Hesap kurtarma anahtarınızı unutmayacağınız bir yerde saklayın
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz.
 # This heading is shown above a list of options for storing the account recovery key
@@ -408,6 +409,22 @@ flow-recovery-key-download-storage-ideas-print = Fiziksel bir kopyasını yazdı
 flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = İleri
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Bitir
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Hesap kurtarma anahtarı etkinleştirildi.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = İpucu 255 karakterden kısa olmalıdır.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler içeremez. Yalnızca harf, sayı, noktalama işareti ve simge içerebilir.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
