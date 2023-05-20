@@ -420,6 +420,16 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паро
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Далее
 
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Завершить
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Ключ восстановления аккаунта включён.
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
