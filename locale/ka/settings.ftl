@@ -457,6 +457,10 @@ flow-recovery-key-hint-unsafe-char-error = მინიშნება არ �
 flow-recovery-key-info-header = შექმენით ანგარიშის აღდგენის გასაღები პაროლის დავიწყების შემთხვევისთვის
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = ჩვენ ვშიფრავთ დათვალიერების მონაცემებს –– პაროლებს, სანიშნებს და სხვა. ეს შესანიშნავია პირადულობისთვის, მაგრამ ნიშნავს, რომ ჩვენ ვერ აღვადგენთ თქვენს მონაცემებს, თუ დაგავიწყდათ პაროლი.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point = სწორედ ამიტომაა მეტად მნიშვნელოვანი ანგარიშის აღდგენის გასაღების შექმნა –– შეგიძლიათ გამოიყენოთ ეგ გასაღები თქვენი მონაცემების დასაბრუნებლად.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = დაიწყეთ თქვენი ანგარიშის აღდგენის გასაღების შედგენა
 
 # HeaderLockup component
 
@@ -507,6 +511,7 @@ nav-email-comm = ელფოსტით კავშირები
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = ხარვეზი წარმოიშვა, თქვენი სამარქაფო კოდების ჩანაცვლებისას
+tfa-create-code-error = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების შედგენისას ანგარიშის დასამოწმებლად
 tfa-replace-code-success-1 =
     ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
     სამარქაფო კოდები დაცულ ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის
@@ -656,6 +661,11 @@ recovery-key-success-alert-3 = ანგარიშის აღდგენი
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = ანგარიშის აღდგენის გასაღები
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = პარამეტრებზე დაბრუნება
 
 ## Add secondary email page
 
@@ -752,6 +762,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = { $currentStep } ნაჯიბი { $numberOfSteps }-იდან.
 
 ## Security section of Setting
 
@@ -884,6 +899,12 @@ terms-privacy-agreement-default = თუ განაგრძობთ, ეთ�
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = ან
+continue-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
+continue-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 
 ## Auth-server based errors that originate from backend service
 
@@ -904,6 +925,7 @@ auth-error-183-2 = არასწორი ან ვადაგასულ�
 auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
+auth-error-1011 = მართებული ელფოსტის მითითება აუცილებელია
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1133,6 +1155,7 @@ pair-unsupported-message = სისტემის კამერას იყ
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = გთხოვთ მოითმინოთ, სანამ გადამისამართდებით დამოწმებულ პროგრამაში.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1204,6 +1227,8 @@ reset-password-warning-message-2 = <span>გაითვალისწინე
 reset-password-password-input =
     .label = ელფოსტა
 reset-password-button = აღდგენის დაწყება
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = ელფოსტა აუცილებელია
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-with-recovery-key-verified-generate-new-key = ანგარიშის აღდგენის ახალი გასაღების შედგენა
 reset-password-with-recovery-key-verified-continue-to-account = ანგარიშზე გადასვლა
