@@ -298,6 +298,7 @@ postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Han vart brukt på:
 postConsumeRecoveryCode-action = Handsam kontoen
+postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
