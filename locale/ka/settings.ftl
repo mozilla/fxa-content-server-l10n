@@ -412,14 +412,51 @@ flow-recovery-key-confirm-pwd-submit-button = ანგარიშის აღ
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = ანგარიშის აღდგენის გასაღები შედგენილია — შეინახეთ ისეთ ადგილას, რომელიც დაგამახსოვრდებათ
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = ეს გასაღები დაგეხმარებათ თქვენი მონაცემების აღდგენაში, თუ დაგავიწყდათ პაროლი.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = რამდენიმე კარგი აზრი ანგარიშის აღდგენის გასაღების შესანახად:
+flow-recovery-key-download-storage-ideas-folder = დასამახსოვრებელი საქაღალდე თქვენს მოწყობილობაში
+flow-recovery-key-download-storage-ideas-cloud = სანდო ღრუბლოვანი საცავი
+flow-recovery-key-download-storage-ideas-print = ამობეჭდვა და ასლის შენახვა ფიზიკურად
+flow-recovery-key-download-storage-ideas-pwd-manager = პაროლების მმართველი
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = შემდეგი
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = მშვენიერია! ახლა დაამატეთ საცავის მინიშნება
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = დაამატეთ მინიშნება იმის შესახებ, თუ სად ინახავთ თქვენი ანგარიშის აღდგენის გასაღებს. შეგვიძლია გაჩვენოთ პაროლის განულების დროს თქვენი მონაცემების დასაბრუნებლად.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = შეიყვანეთ თქვენი საცავის მინიშნება (არასავალდებულო)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = დასრულება
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = ანგარიშის აღდგენის გასაღები ამოქმედებულია
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = ანგარიშის აღდგენის გასაღები ამოქმედებულია და საცავის მინიშნება შენახულია.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = მინიშნება უნდა შეიცავდეს არაუმეტეს 255 სიმბოლოს.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = მინიშნება არ უნდა შეიცავდეს საფრთხის შემცველ უნიკოდ-სიმბოლოებს. მისაღებია მხოლოდ ასოები, ციფრები და სასვენი ნიშნები.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = შექმენით ანგარიშის აღდგენის გასაღები პაროლის დავიწყების შემთხვევისთვის
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point = ჩვენ ვშიფრავთ დათვალიერების მონაცემებს –– პაროლებს, სანიშნებს და სხვა. ეს შესანიშნავია პირადულობისთვის, მაგრამ ნიშნავს, რომ ჩვენ ვერ აღვადგენთ თქვენს მონაცემებს, თუ დაგავიწყდათ პაროლი.
 
 # HeaderLockup component
 
