@@ -422,6 +422,19 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Seuraava
 
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Tilin palautusavain käytössä.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Vihje saa sisältää alle 255 merkkiä.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia unicode-merkkejä. Vain kirjaimet, numerot, välimerkit ja symbolit ovat sallittuja.
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
