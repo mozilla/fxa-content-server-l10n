@@ -18,6 +18,22 @@ link-expired-resent-link-error-message = Რაღაც ხარვეზი �
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
 
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download the account recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v2 = ჩამოტვირთეთ თქვენი ანგარიშის აღდგენის გასაღები
+    .title = ჩამოტვირთვა
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 გასაღები:  { $recoveryKeyValue }
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -134,6 +150,7 @@ get-data-trio-print-2 =
     .aria-label = ამობეჭდვა
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = კომპიუტერი, მობილური ტელეფონი და თითოეულ მათგანზე გამოსახული გატეხილი გული
@@ -357,6 +374,24 @@ drop-down-menu-sign-out-error-2 = სამწუხაროდ, ხარვ�
 
 flow-container-back = უკან
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
 # HeaderLockup component
 
 header-menu-open = მენიუს დახურვა
@@ -553,6 +588,9 @@ recovery-key-step-1 = 1-ელი ნაბიჯი 2-დან
 recovery-key-step-2 = მე-2 ნაბიჯი 2-დან
 recovery-key-success-alert-3 = ანგარიშის აღდგენის გასაღები შექმნილია
 
+## PageRecoveryKeyCreate
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1-ელი ნაბიჯი 2-დან
@@ -644,6 +682,9 @@ profile-primary-email =
     .header = მთავარი ელფოსტა
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -773,6 +814,10 @@ terms-privacy-agreement-pocket = { -product-pocket }-ის <pocketTos>მომ
 terms-privacy-agreement-firefox = { -brand-firefox }-ის <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = თუ განაგრძობთ, ეთანხმებით <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>.
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -1019,6 +1064,10 @@ pair-wait-for-auth-heading-text = ახლა საჭიროა დამ�
 pair-unsupported-header = მიერთება აპლიკაციის გამოყენებით
 pair-unsupported-message = სისტემის კამერას იყენებდით? მიერთებაა საჭირო { -brand-firefox }-პროგრამიდან.
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
@@ -1124,7 +1173,7 @@ signin-forgot-password-link = დაგავიწყდათ პაროლ�
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
-# linkExternal is a link to a mozilla support
+# linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = თუ ელფოსტის მითითებული მისამართი მართებულია, <linkExternal>გვაცნობეთ</linkExternal> და დაგეხმარებით თქვენს ანგარიშთან წვდომის დაბრუნებაში.
 signin-bounced-create-new-account = აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში
 back = უკან

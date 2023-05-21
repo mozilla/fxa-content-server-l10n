@@ -123,9 +123,8 @@ payment-confirmation-download-button = განაგრძეთ ჩამო�
 
 ## Component - PaymentConsentCheckbox
 
-# Variables: $price (String) - The amount of the subscription being billed, including currency, e.g. $10.00. 
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN.
-payment-confirm-with-legal-links = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამომაჭრას { $price } ჩემ მიერ მითითებული გადახდის საშუალებიდან { $productName } მომსახურებისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+payment-confirm-with-legal-links-static = ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+payment-confirm-checkbox-error = უნდა დაასრულოთ, სანამ განაგრძობთ
 
 ## Component - PaymentErrorView
 
@@ -176,6 +175,10 @@ payment-processing-message = გთხოვთ, მოითმინოთ, �
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = გადაიხადეთ { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -409,11 +412,10 @@ new-user-submit = გამოწერა ახლავე
 
 sub-update-payment-title = გადახდის მონაცემები
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = ან გადაიხადეთ ბარათით
 pay-with-heading-card-only = ბარათით გადახდა
-pay-with-heading-paypal = გადაიხადეთ { -brand-name-paypal }
 product-invoice-preview-error-title = ხარვეზი ზედნადებების შეთვალიერებისას
 product-invoice-preview-error-text = ვერ ჩაიტვირთა ზედნადები შესათვალიერებლად
 
