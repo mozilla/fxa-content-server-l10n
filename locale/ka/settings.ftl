@@ -176,6 +176,17 @@ signin-totp-code-image-label =
     .aria-label = მოწყობილობა დაფარული 6-ციფრიანი კოდით.
 confirm-signup-aria-label =
     .aria-label = წერილის კონვერტი ბმულით
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = გამოსახულებაზე წარმოდგენილი ანგარიშის აღდგენის გასაღები.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = გამოსახულებაზე წარმოდგენილი ანგარიშის აღდგენის გასაღები.
+lock-image-aria-label =
+    .aria-label = საკეტის გამოსახულება
+lightbulb-aria-label =
+    .aria-label = გამოსახულებაზე წარმოდგენილი საცავის შექმნის მინიშნება.
 
 ## Input Password
 
@@ -392,6 +403,10 @@ flow-container-back = უკან
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = დასაწყისისთვის კვლავ შეიყვანეთ პაროლი
+flow-recovery-key-confirm-pwd-input-label = მიუთითეთ თქვენი პაროლი
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = ანგარიშის აღდგენის გასაღების შექმნა
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
