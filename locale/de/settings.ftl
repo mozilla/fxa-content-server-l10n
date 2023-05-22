@@ -453,12 +453,18 @@ flow-recovery-key-hint-unsafe-char-error = Der Hinweis darf keine unsicheren Uni
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Erstellen Sie einen Kontowiederherstellungsschlüssel für den Fall, dass Sie Ihr Passwort vergessen
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Ändern Sie Ihren Kontowiederherstellungsschlüssel
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Wir verschlüsseln Surf-Daten – Passwörter, Lesezeichen und mehr. Das ist gut für die Privatsphäre, aber es bedeutet, dass wir Ihre Daten nicht wiederherstellen können, wenn Sie Ihr Passwort vergessen.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Deshalb ist das Erstellen eines Kontowiederherstellungsschlüssels so wichtig – Sie können Ihren Schlüssel verwenden, um Ihre Daten wiederherzustellen.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Beginnen Sie mit der Erstellung Ihres Kontowiederherstellungsschlüssels
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Kontowiederherstellungsschlüssel ändern
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Abbrechen
 
 # HeaderLockup component
 
@@ -613,6 +619,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Fortsetzen
 delete-account-password-input =
     .label = Passwort eingeben
+pocket-delete-notice = Wenn Sie Pocket Premium abonnieren, stellen Sie bitte sicher, dass Sie <a>Ihres Abonnement kündigen</a>, bevor Sie Ihr Konto löschen.
 delete-account-cancel-button = Abbrechen
 delete-account-delete-button-2 = Löschen
 
@@ -798,6 +805,8 @@ rk-header-1 = Kontowiederherstellungsschlüssel
 rk-enabled = Aktiviert
 rk-not-set = Nicht festgelegt
 rk-action-create = Erstellen
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Ändern
 rk-action-remove = Entfernen
 rk-cannot-refresh-1 = Bei der Aktualisierung des Kontowiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-key-removed-2 = Kontowiederherstellungsschlüssel entfernt
@@ -811,6 +820,8 @@ rk-remove-modal-content-1 =
     nicht nutzen, um auf Ihre Daten zuzugreifen. Dies kann nicht rückgängig gemacht werden.
 rk-refresh-error-1 = Bei der Aktualisierung des Kontowiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-remove-error-2 = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Kontowiederherstellungsschlüssel löschen
 
 ## Secondary email sub-section on main Settings page
 
