@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Иллюстрация для представления ключа восстановления аккаунта.
 lock-image-aria-label =
     .aria-label = Иллюстрация замка
+lightbulb-aria-label =
+    .aria-label = Иллюстрация, показывающая создание подсказки хранилища.
 
 ## Input Password
 
@@ -424,11 +426,28 @@ flow-recovery-key-download-next-link = Далее
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Отлично! Теперь добавьте подсказку хранилища
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Добавьте подсказку о том, где вы сохранили ключ восстановления аккаунта. Мы можем показать её вам во время сброса пароля, чтобы восстановить ваши данные.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Введите подсказку хранилища (необязательно)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Завершить
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Ключ восстановления аккаунта включён.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Ключ восстановления аккаунта включен и подсказка хранилища сохранена.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Подсказка должна содержать менее 255 символов.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Подсказка не может содержать небезопасные символы Юникода. Допускаются только буквы, цифры, знаки препинания и символы.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
