@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Illustratie om een sleutel voor accountherstel weer te geven.
 lock-image-aria-label =
     .aria-label = Een illustratie van een slot
+lightbulb-aria-label =
+    .aria-label = Illustratie om het maken van een opslaghint weer te geven.
 
 ## Input Password
 
@@ -421,6 +423,33 @@ flow-recovery-key-download-storage-ideas-print = Een fysiek exemplaar afdrukken 
 flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Volgende
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Geweldig! Voeg nu een opslaghint toe
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Voeg een hint toe over waar u uw accountherstelsleutel hebt opgeslagen. We kunnen het u tonen tijdens het opnieuw instellen van het wachtwoord om uw gegevens te herstellen.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Voer uw opslaghint in (optioneel)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Voltooien
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Accountherstelsleutel ingeschakeld.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Accountherstelsleutel ingeschakeld en opslaghint opgeslagen.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = De hint moet minder dan 255 tekens bevatten.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = De hint mag geen onveilige Unicode-tekens bevatten. Alleen letters, cijfers, leestekens en symbolen zijn toegestaan.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
