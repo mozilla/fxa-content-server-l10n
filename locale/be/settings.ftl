@@ -431,7 +431,7 @@ flow-recovery-key-download-next-link = Далей
 
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Выдатна! Цяпер дадайце падказку для захавання
+flow-recovery-key-hint-header = Выдатна! Цяпер дадайце падказку для сховішча
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 flow-recovery-key-hint-message = Дадайце падказку аб тым, дзе вы захавалі ключ аднаўлення ўліковага запісу. Мы можам паказаць яе вам у часе скіду пароля, каб аднавіць вашы дадзеныя.
 # The label for the text input where the user types in the storage hint they want to save.
