@@ -443,12 +443,18 @@ flow-recovery-key-hint-unsafe-char-error = Il suggerimento non può contenere ca
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Crea una chiave di recupero dell’account nel caso in cui dimentichi la password
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Modifica la chiave di recupero dell’account
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Crittiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma significa che non possiamo recuperare i tuoi dati se dimentichi la password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Ecco perché è così importante creare una chiave di recupero dell’account: puoi utilizzare la tua chiave per recuperare i tuoi dati.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Inizia a creare la chiave di recupero dell’account
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Modifica la chiave di recupero dell’account
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Annulla
 
 # HeaderLockup component
 
@@ -600,6 +606,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continua
 delete-account-password-input =
     .label = Inserire la password
+pocket-delete-notice = Se ti abboni a Pocket Premium, assicurati di <a>annullare l’abbonamento</a> prima di eliminare il tuo account.
 delete-account-cancel-button = Annulla
 delete-account-delete-button-2 = Elimina
 
@@ -788,6 +795,8 @@ rk-header-1 = Chiave di recupero dell’account
 rk-enabled = Attiva
 rk-not-set = Non impostato
 rk-action-create = Crea
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Modifica
 rk-action-remove = Rimuovi
 rk-cannot-refresh-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-key-removed-2 = Eliminata chiave di recupero account
@@ -799,6 +808,8 @@ rk-remove-modal-heading-1 = Rimuovere la chiave di recupero dell’account?
 rk-remove-modal-content-1 = Se decidi di reimpostare la password, non potrai utilizzare la chiave di recupero dell’account per accedere ai tuoi dati. Questa azione è irreversibile.
 rk-refresh-error-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero dell’account.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Elimina la chiave di recupero dell’account
 
 ## Secondary email sub-section on main Settings page
 
