@@ -436,12 +436,18 @@ flow-recovery-key-hint-unsafe-char-error = 提示不能包含不安全的 unicod
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = 更改账户恢复密钥
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = 我们加密浏览数据——密码、书签等。这非常适合保护隐私，但这意味着如果您忘记了密码，我们将无法恢复您的数据。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = 这就是创建账户恢复密钥如此重要的原因——您可以使用您的恢复密钥取回您的数据。
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = 开始创建账户恢复密钥
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = 更改账户恢复密钥
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = 取消
 
 # HeaderLockup component
 
@@ -593,6 +599,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 继续
 delete-account-password-input =
     .label = 请输入密码
+pocket-delete-notice = 如果您订阅了 Pocket Premium，请确保在删除账户之前<a>取消订阅</a>。
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 删除
 
@@ -774,6 +781,8 @@ rk-header-1 = 账户恢复密钥
 rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = 更改
 rk-action-remove = 移除
 rk-cannot-refresh-1 = 抱歉，刷新账户恢复密钥时出现问题。
 rk-key-removed-2 = 已移除账户恢复密钥
@@ -785,6 +794,8 @@ rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
 rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
 rk-refresh-error-1 = 抱歉，刷新账户恢复密钥时出现问题。
 rk-remove-error-2 = 无法删除您的账户恢复密钥
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = 删除账户恢复密钥
 
 ## Secondary email sub-section on main Settings page
 
