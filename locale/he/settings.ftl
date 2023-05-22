@@ -439,12 +439,18 @@ flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון למקרה שהססמה שלך תישכח
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = שינוי מפתח שחזור החשבון שלך
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל זה אומר שאנחנו לא יכולים לשחזר את הנתונים שלך אם הססמה שלך תישכח.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש במפתח כדי לקבל בחזרה את הנתונים שלך.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = התחלה ביצירת מפתח שחזור החשבון שלך
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = שינוי מפתח שחזור חשבון
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = ביטול
 
 # HeaderLockup component
 
@@ -758,6 +764,8 @@ rk-header-1 = מפתח שחזור חשבון
 rk-enabled = מופעל
 rk-not-set = לא מוגדר
 rk-action-create = יצירה
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = שינוי
 rk-action-remove = הסרה
 rk-cannot-refresh-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-key-removed-2 = מפתח לשחזור החשבון הוסר
@@ -769,6 +777,8 @@ rk-remove-modal-heading-1 = להסיר את מפתח שחזור החשבון?
 rk-remove-modal-content-1 = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח שחזור החשבון שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
 rk-refresh-error-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-remove-error-2 = לא ניתן היה להסיר את מפתח שחזור החשבון שלך
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = מחיקת מפתח שחזור חשבון
 
 ## Secondary email sub-section on main Settings page
 
