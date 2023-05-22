@@ -441,6 +441,8 @@ flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres un
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Crie uma chave de recuperação de conta, para o caso de você esquecer sua senha
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Alteração da chave de recuperação de conta
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Criptografamos os dados de navegação –– senhas, favoritos e muito mais. É ótimo para privacidade, mas significa que não podemos recuperar seus dados se você esquecer sua senha.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
@@ -602,6 +604,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Digite a senha
+pocket-delete-notice = Se você tiver assinatura do Pocket Premium, certifique-se de <a>cancelar sua assinatura</a> antes de excluir sua conta.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Excluir
 
@@ -796,6 +799,8 @@ rk-remove-modal-heading-1 = Remover chave de recuperação de conta?
 rk-remove-modal-content-1 = Caso você redefina sua senha, não poderá usar sua chave de recuperação de conta para acessar seus dados. Esta ação não pode ser desfeita.
 rk-refresh-error-1 = Desculpe, houve um problema ao atualizar a chave de recuperação de conta.
 rk-remove-error-2 = Não foi possível remover a chave de recuperação da sua conta
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Excluir chave de recuperação de conta
 
 ## Secondary email sub-section on main Settings page
 
