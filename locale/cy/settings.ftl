@@ -453,12 +453,18 @@ flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicod
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Crëwch allwedd adfer cyfrif rhag ofn i chi anghofio eich cyfrinair
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Newidiwch allwedd adfer eich cyfrif
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Rydym yn amgryptio data pori –– cyfrineiriau, nodau tudalen, a mwy. Mae'n wych ar gyfer preifatrwydd, ond mae'n golygu na allwn adennill eich data os byddwch yn anghofio eich cyfrinair.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Dyna pam mae creu allwedd adfer cyfrif mor bwysig -- gallwch ddefnyddio'ch allwedd i gael eich data yn ôl.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Dechreuwch greu allwedd adfer eich cyfrif
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Newid allwedd adfer cyfrif
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Diddymu
 
 # HeaderLockup component
 
@@ -613,6 +619,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
+pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>canslo'ch tanysgrifiad</a> cyn dileu eich cyfrif.
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
@@ -803,6 +810,8 @@ rk-header-1 = Allwedd adfer cyfrif
 rk-enabled = Galluogwyd
 rk-not-set = Heb ei Osod
 rk-action-create = Creu
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Newid
 rk-action-remove = Tynnu
 rk-cannot-refresh-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
@@ -816,6 +825,8 @@ rk-remove-modal-content-1 =
     defnyddio'ch allwedd adfer cyfrif i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
 rk-refresh-error-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Dileu allwedd adfer cyfrif
 
 ## Secondary email sub-section on main Settings page
 
