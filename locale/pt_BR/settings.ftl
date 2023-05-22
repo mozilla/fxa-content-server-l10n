@@ -447,6 +447,10 @@ flow-recovery-key-info-shield-bullet-point = Criptografamos os dados de navegaç
 flow-recovery-key-info-key-bullet-point = É por isso que criar uma chave de recuperação de conta é tão importante. Você pode usar sua chave para recuperar seus dados.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Iniciar a criação de chave de recuperação da sua conta
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Alterar chave de recuperação de conta
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Cancelar
 
 # HeaderLockup component
 
@@ -779,6 +783,8 @@ rk-header-1 = Chave de recuperação de conta
 rk-enabled = Ativado
 rk-not-set = Não definido
 rk-action-create = Criar
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Alterar
 rk-action-remove = Remover
 rk-cannot-refresh-1 = Desculpe, houve um problema ao atualizar a chave de recuperação de conta.
 rk-key-removed-2 = Chave de recuperação da conta removida
