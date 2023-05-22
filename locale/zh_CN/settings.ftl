@@ -180,6 +180,13 @@ confirm-signup-aria-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = 表示账户恢复密钥的插图。
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = 账户恢复密钥的图案。
+lock-image-aria-label =
+    .aria-label = 挂锁图形
+lightbulb-aria-label =
+    .aria-label = 创建存储的图案。
 
 ## Input Password
 
