@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonsá
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcsot arra az esetre, ha elfelejtené a jelszavát
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Módosítsa a fiók-helyreállítási kulcsát
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de ez azt is jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja a kulcsát, hogy visszakapja az adatait.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Kezdje el létrehozni a fiók-helyreállítási kulcsát
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Fiók-helyreállítási kulcs módosítása
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Mégse
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
+pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor kérjük, győződjön meg arról, hogy <a>mondta meg az előfizetését</a>, mielőtt törölné a fiókját.
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
@@ -803,6 +810,8 @@ rk-header-1 = Fiók-helyreállítási kulcs
 rk-enabled = Engedélyezve
 rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Módosítás
 rk-action-remove = Eltávolítás
 rk-cannot-refresh-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-key-removed-2 = Fiók-helyreállítási kulcs eltávolítva
@@ -816,6 +825,8 @@ rk-remove-modal-content-1 =
     a fiók-helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
 rk-refresh-error-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Fiók-helyreállítási kulcs törlése
 
 ## Secondary email sub-section on main Settings page
 
