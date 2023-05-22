@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Illustration som representerar en kontoåterställningsnyckel.
 lock-image-aria-label =
     .aria-label = En illustration av ett lås
+lightbulb-aria-label =
+    .aria-label = Illustration som representerar att skapa ett lagringstips.
 
 ## Input Password
 
@@ -421,6 +423,33 @@ flow-recovery-key-download-storage-ideas-print = Skriv ut och behåll en fysisk 
 flow-recovery-key-download-storage-ideas-pwd-manager = Lösenordshanterare
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Nästa
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Bra! Lägg nu till ett lagringstips
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Lägg till en ledtråd om var du lagrade din kontoåterställningsnyckel. Vi kan visa det för dig under lösenordsåterställningen för att återställa dina data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Ange ditt lagringstips (valfritt)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Slutför
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Nyckel för kontoåterställning har aktiverats.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Kontoåterställningsnyckeln aktiverad och lagringstipset har sparats.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Tipset måste innehålla färre än 255 tecken.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Tipset får inte innehålla osäkra unicode-tecken. Endast bokstäver, siffror, skiljetecken och symboler är tillåtna.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -1086,7 +1115,7 @@ pair-already-have-firefox-paragraph = Har du redan { -brand-firefox } på en tel
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkronisera din enhet
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
-pair-or-download-subheader = Eller ladda ner
+pair-or-download-subheader = eller ladda ner
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = Skanna för att ladda ner { -brand-firefox } för mobil, eller skicka dig själv en <linkExternal>nedladdningslänk</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
