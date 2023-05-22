@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Ілюстрацыя замка
 lightbulb-aria-label =
-    .aria-label = Ілюстрацыя, якая прадстаўляе падказку для захавання.
+    .aria-label = Ілюстрацыя, якая прадстаўляе стварэнне падказкі для сховішча.
 
 ## Input Password
 
@@ -437,7 +437,7 @@ flow-recovery-key-hint-message = Дадайце падказку аб тым, д
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Увядзіце падказку для захавання (неабавязкова)
+    .label = Увядзіце падказку аб сховішчы (неабавязкова)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Скончыць
