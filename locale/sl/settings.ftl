@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = Namig ne sme vsebovati nevarnih znako
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozabite geslo
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Spremenite ključ za obnovitev računa
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je odlično z vidika varovanja zasebnosti, vendar hkrati pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Začnite ustvarjati ključ za obnovitev računa
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Spremeni ključ za obnovitev računa
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Prekliči
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
+pocket-delete-notice = Če ste naročeni na Pocket Premium, pred izbrisom računa <a>prekličite naročnino</a>.
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
@@ -803,6 +810,8 @@ rk-header-1 = Ključ za obnovitev računa
 rk-enabled = Omogočen
 rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Spremeni
 rk-action-remove = Odstrani
 rk-cannot-refresh-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-key-removed-2 = Obnovitveni ključ za račun odstranjen
@@ -816,6 +825,8 @@ rk-remove-modal-content-1 =
     ne boste mogli uporabiti za dostop do podatkov. Tega dejanja ne morete razveljaviti.
 rk-refresh-error-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-remove-error-2 = Ključa za obnovitev računa ni bilo mogoče odstraniti
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Izbriši ključ za obnovitev računa
 
 ## Secondary email sub-section on main Settings page
 
