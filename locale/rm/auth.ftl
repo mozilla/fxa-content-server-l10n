@@ -242,10 +242,10 @@ newDeviceLogin-subject = Nova annunzia a { $clientName }
 newDeviceLogin-title-2 = Tes { -product-firefox-account } è vegnì duvrà per s'annunziar
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = Qua n'es betg ti? <a data-l10n-name="passwordChangeLink">Mida tes pled-clav</a>.
+newDeviceLogin-change-password = Quai n'es betg ti? <a data-l10n-name="passwordChangeLink">Mida tes pled-clav</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password-plain = Qua n'es betg ti? Mida tes pled-clav:
+newDeviceLogin-change-password-plain = Quai n'es betg ti? Mida tes pled-clav:
 newDeviceLogin-action = Administrar il conto
 passwordChanged-subject = Actualisà il pled-clav
 passwordChanged-title = Midà cun success il pled-clav
