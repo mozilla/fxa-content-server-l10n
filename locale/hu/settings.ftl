@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Egy zár illusztrációja
 lightbulb-aria-label =
-    .aria-label = Ábra a tárolási tipp létrehozását jelképezi.
+    .aria-label = A tárolási tipp létrehozását jelképező illusztráció.
 
 ## Input Password
 
@@ -430,13 +430,13 @@ flow-recovery-key-download-next-link = Tovább
 
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Nagyszerű! Most adjon hozzá tárolási tippet
+flow-recovery-key-hint-header = Nagyszerű! Most adjon hozzá egy tárolási tippet.
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Tipp hozzáadása arról, hogy hol tárolta a fiók-helyreállítási kulcsát. Meg tudjuk mutatni a jelszó-visszaállításkor, hogy helyreállítsuk az adatait.
+flow-recovery-key-hint-message = Tipp hozzáadása arról, hogy hol tárolta a fiók-helyreállítási kulcsát. Meg tudjuk jeleníteni a jelszó-visszaállításkor, hogy helyreállítsuk az adatait.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Adja meg a tárolási javaslatot (nem kötelező)
+    .label = Adja meg a tárolási tippet (nem kötelező)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Befejezés
