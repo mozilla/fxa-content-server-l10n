@@ -197,7 +197,7 @@ pay-with-heading-paypal = Zaplatiť cez { -brand-name-paypal }
 ## Component - PlanDetails
 
 plan-details-header = Podrobnosti o produkte
-plan-details-list-price = Cenník
+plan-details-list-price = Cenníková cena
 plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
 plan-details-total-label = Celkom
