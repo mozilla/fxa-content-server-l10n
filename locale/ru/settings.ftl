@@ -453,12 +453,16 @@ flow-recovery-key-hint-unsafe-char-error = Подсказка не может с
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Создайте ключ восстановления аккаунта на случай, если вы забудете пароль
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Изменение вашего ключа восстановления аккаунта
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Мы шифруем данные веб-серфинга — пароли, закладки и многое другое. Это отлично подходит для приватности, но означает, что мы не сможем восстановить ваши данные, если вы забудете свой пароль.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Вот почему создание ключа восстановления аккаунта так важно — вы можете использовать свой ключ, чтобы вернуть свои данные.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Начните создавать ключ восстановления вашего аккаунта
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Изменить ключ восстановления аккаунта
 
 # HeaderLockup component
 
