@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Hình minh họa đại diện cho khóa khôi phục tài khoản.
 lock-image-aria-label =
     .aria-label = Hình minh họa ổ khóa
+lightbulb-aria-label =
+    .aria-label = Hình minh họa đại diện cho việc tạo gợi ý lưu trữ.
 
 ## Input Password
 
@@ -422,16 +424,49 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật k
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Tiếp theo
 
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Tuyệt! Bây giờ thêm gợi ý về nơi lưu trữ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Thêm gợi ý về nơi bạn lưu khóa khôi phục tài khoản của mình. Chúng tôi có thể hiển thị nó cho bạn trong quá trình đặt lại mật khẩu để khôi phục dữ liệu của bạn.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Nhập gợi ý về nơi lưu trữ của bạn (không bắt buộc)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Hoàn thành
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Đã bật khóa khôi phục tài khoản.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Đã bật khóa khôi phục tài khoản và đã lưu gợi ý nơi lưu trữ.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Chuỗi gợi ý phải chứa ít hơn 255 kí tự.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Gợi ý không được chứa các ký tự unicode không an toàn. Chỉ cho phép các chữ cái, số, dấu chấm câu và ký hiệu.
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Tạo khóa khôi phục tài khoản trong trường hợp bạn quên mật khẩu
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Thay đổi khóa khôi phục tài khoản của bạn
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Chúng tôi mã hóa dữ liệu duyệt web –– mật khẩu, dấu trang, v.v. Điều này rất tốt cho quyền riêng tư, nhưng điều đó có nghĩa là chúng tôi không thể khôi phục dữ liệu của bạn nếu bạn quên mật khẩu.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Đó là lý do tại sao việc tạo khóa khôi phục tài khoản lại quan trọng đến vậy –– bạn có thể sử dụng khóa của mình để lấy lại dữ liệu của mình.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Bắt đầu tạo khóa khôi phục tài khoản của bạn
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Thay đổi khóa khôi phục tài khoản
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Hủy bỏ
 
 # HeaderLockup component
 
@@ -586,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Tiếp tục
 delete-account-password-input =
     .label = Nhập mật khẩu
+pocket-delete-notice = Nếu bạn đăng ký Pocket Premium, vui lòng đảm bảo rằng bạn <a>đã hủy đăng ký</a> trước khi xóa tài khoản của mình.
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
@@ -776,6 +812,8 @@ rk-header-1 = Khóa khôi phục tài khoản
 rk-enabled = Đã bật
 rk-not-set = Chưa tạo
 rk-action-create = Tạo
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Thay đổi
 rk-action-remove = Xóa
 rk-cannot-refresh-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-key-removed-2 = Đã xóa khóa khôi phục tài khoản
@@ -789,6 +827,8 @@ rk-remove-modal-content-1 =
     có thể sử dụng khóa khôi phục tài khoản để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
 rk-refresh-error-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-remove-error-2 = Không thể xóa khóa khôi phục của tài khoản của bạn
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Xóa khóa khôi phục tài khoản
 
 ## Secondary email sub-section on main Settings page
 
