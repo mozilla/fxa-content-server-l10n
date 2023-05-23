@@ -456,12 +456,18 @@ flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтр
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Стварыце ключ аднаўлення ўліковага запісу на выпадак, калі вы забудзеце пароль
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Змяніце свой ключ аднаўлення ўліковага запісу
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Мы шыфруем дадзеныя аглядання –– паролі, закладкі і многае іншае. Гэта выдатна для прыватнасці, але гэта азначае, што мы не можам аднавіць вашы дадзеныя, калі вы забудзеце пароль.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Вось чаму стварэнне ключа аднаўлення ўліковага запісу так важна –– вы можаце выкарыстаць свой ключ, каб вярнуць свае дадзеныя.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Пачаць стварэнне вашага ключа аднаўлення ўліковага запісу
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Змяніць ключ аднаўлення ўліковага запісу
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Скасаваць
 
 # HeaderLockup component
 
@@ -616,6 +622,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Працягнуць
 delete-account-password-input =
     .label = Увядзіце пароль
+pocket-delete-notice = Калі вы падпісаліся на Pocket Premium, пераканайцеся, што вы <a>скасавалі падпіску</a> перад выдаленнем свайго ўліковага запісу.
 delete-account-cancel-button = Скасаваць
 delete-account-delete-button-2 = Выдаліць
 
@@ -806,6 +813,8 @@ rk-header-1 = Ключ аднаўлення ўліковага запісу
 rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Змяніць
 rk-action-remove = Выдаліць
 rk-cannot-refresh-1 = На жаль, падчас абнаўлення ключа аднаўлення ўліковага запісу узнікла праблема
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
@@ -819,6 +828,8 @@ rk-remove-modal-content-1 =
     аднаўлення ўліковага запісу для доступу да вашых даных. Гэта дзеянне нельга скасаваць.
 rk-refresh-error-1 = На жаль, падчас абнаўлення ключа аднаўлення ўліковага запісу узнікла праблема
 rk-remove-error-2 = Не атрымалася выдаліць ключ аднаўлення ўліковага запісу
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Выдаліць ключ аднаўлення ўліковага запісу
 
 ## Secondary email sub-section on main Settings page
 
