@@ -463,6 +463,8 @@ flow-recovery-key-info-key-bullet-point = Вот почему создание �
 flow-recovery-key-info-cta-text-v2 = Начните создавать ключ восстановления вашего аккаунта
 # The text of the "submit" button in the first view of the Account Recovery Key Create flow
 flow-recovery-key-info-cta-text-change-key = Изменить ключ восстановления аккаунта
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Отмена
 
 # HeaderLockup component
 
@@ -617,6 +619,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Продолжить
 delete-account-password-input =
     .label = Введите пароль
+pocket-delete-notice = Если вы подписаны на Pocket Premium, убедитесь, что вы <a>отменили подписку</a> перед удалением своей учетной записи.
 delete-account-cancel-button = Отмена
 delete-account-delete-button-2 = Удалить
 
@@ -807,6 +810,8 @@ rk-header-1 = Ключ восстановления аккаунта
 rk-enabled = Включён
 rk-not-set = Не настроен
 rk-action-create = Создать
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Изменить
 rk-action-remove = Удалить
 rk-cannot-refresh-1 = К сожалению, при обновлении ключа восстановления аккаунта произошла ошибка.
 rk-key-removed-2 = Ключ восстановления аккаунта удалён
@@ -820,6 +825,8 @@ rk-remove-modal-content-1 =
     воспользоваться ключами восстановления аккаунта для доступа к вашим данным. Это действие нельзя отменить.
 rk-refresh-error-1 = К сожалению, при обновлении ключа восстановления аккаунта произошла ошибка.
 rk-remove-error-2 = Ключ восстановления вашего аккаунта не может быть удалён
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Удалить ключ восстановления аккаунта
 
 ## Secondary email sub-section on main Settings page
 
