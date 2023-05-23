@@ -456,7 +456,7 @@ flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonsá
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcsot arra az esetre, ha elfelejtené a jelszavát
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
-flow-recovery-key-info-header-change-key = Módosítsa a fiók-helyreállítási kulcsát
+flow-recovery-key-info-header-change-key = A fiók-helyreállítási kulcs módosítása
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de ez azt is jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
@@ -621,7 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
-pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor kérjük, győződjön meg arról, hogy <a>mondta meg az előfizetését</a>, mielőtt törölné a fiókját.
+pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor győződjön meg arról, hogy <a>lemondta meg az előfizetését</a>, mielőtt törölné a fiókját.
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
