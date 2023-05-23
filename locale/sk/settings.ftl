@@ -456,6 +456,8 @@ flow-recovery-key-hint-unsafe-char-error = Pomôcka nemôže obsahovať nebezpe�
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Vytvorte si kľúč na obnovenie účtu pre prípad, že zabudnete heslo
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Zmeňte si kľúč na obnovenie účtu
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Šifrujeme údaje z prehliadania – heslá, záložky a ďalšie. Je to skvelé pre súkromie, ale znamená to, že ak zabudnete heslo, nemôžeme obnoviť vaše údaje.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
@@ -620,6 +622,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovať
 delete-account-password-input =
     .label = Zadajte heslo
+pocket-delete-notice = Ak sa prihlásite na odber služby Pocket Premium, pred odstránením účtu sa uistite, že ste <a>zrušili svoje predplatné</a>.
 delete-account-cancel-button = Zrušiť
 delete-account-delete-button-2 = Odstrániť
 
@@ -825,6 +828,8 @@ rk-remove-modal-content-1 =
     Túto akciu nie je možné vrátiť späť.
 rk-refresh-error-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Odstrániť kľúč na obnovenie účtu
 
 ## Secondary email sub-section on main Settings page
 

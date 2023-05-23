@@ -354,7 +354,7 @@ recovery-copy-paste = Vytvorte si nové heslo tak, že skopírujete a prilepíte
 recovery-action = Vytvoriť nové heslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountDeletion-subject = Vaše predplatné { $productName } bolo zrušené
+subscriptionAccountDeletion-subject = Vaše predplatné produktu { $productName } bolo zrušené
 subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -384,7 +384,7 @@ subscriptionAccountReminderSecond-action = Vytvoriť heslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-subject = Vaše predplatné { $productName } bolo zrušené
+subscriptionCancellation-subject = Vaše predplatné produktu { $productName } bolo zrušené
 subscriptionCancellation-title = Mrzí nás, že odchádzate
 
 ## Variables
@@ -399,7 +399,7 @@ subscriptionCancellation-outstanding-content-2 = Zrušili sme vaše predplatné 
 subscriptionCancellation-content-continue = Služba bude dostupná až do konca vášho aktuálneho fakturačného obdobia, čo je { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-subject = Úspešne ste prešli na { $productName }
+subscriptionDowngrade-subject = Úspešne ste prešli na produkt { $productName }
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -417,7 +417,7 @@ subscriptionDowngrade-content-install = Ak je k dispozícii nový softvér potre
 subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFailedPaymentsCancellation-subject = Vaše predplatné { $productName } bolo zrušené
+subscriptionFailedPaymentsCancellation-subject = Vaše predplatné produktu { $productName } bolo zrušené
 subscriptionFailedPaymentsCancellation-title = Vaše predplatné bolo zrušené
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -453,7 +453,7 @@ subscriptionPaymentFailed-content-problem = Vyskytol sa problém s vašou posled
 subscriptionPaymentFailed-content-outdated = Mohlo sa stať, že platnosť vašej kreditnej karty vypršala alebo je váš aktuálny spôsob platby zastaraný.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentProviderCancelled-subject = Vyžaduje sa aktualizácia platobných údajov pre { $productName }
+subscriptionPaymentProviderCancelled-subject = Vyžaduje sa aktualizácia platobných údajov pre produkt { $productName }
 subscriptionPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -505,7 +505,7 @@ subscriptionSubsequentInvoice-content-received = Dostali sme vašu poslednú pla
 subscriptionSubsequentInvoice-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = Inovovali ste na { $productName }
+subscriptionUpgrade-subject = Inovovali ste na produkt { $productName }
 subscriptionUpgrade-title = Ďakujeme, že ste inovovali!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
@@ -560,7 +560,7 @@ verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Schválenie prihlásenia do { $serviceName }
+verifyLoginCode-subject-line-2 = Schválenie prihlásenia - { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Prihlásili ste sa do produktu { $serviceName }?
