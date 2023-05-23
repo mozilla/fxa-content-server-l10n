@@ -619,7 +619,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Fortsetzen
 delete-account-password-input =
     .label = Passwort eingeben
-pocket-delete-notice = Wenn Sie Pocket Premium abonnieren, stellen Sie bitte sicher, dass Sie <a>Ihres Abonnement kündigen</a>, bevor Sie Ihr Konto löschen.
+pocket-delete-notice = Wenn Sie Pocket Premium abonnieren, stellen Sie bitte sicher, dass Sie <a>Ihr Abonnement kündigen</a>, bevor Sie Ihr Konto löschen.
 delete-account-cancel-button = Abbrechen
 delete-account-delete-button-2 = Löschen
 
