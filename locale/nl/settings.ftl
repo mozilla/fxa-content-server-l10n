@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = De hint mag geen onveilige Unicode-te
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Maak een accountherstelsleutel aan voor het geval u uw wachtwoord vergeet
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Uw accountherstelsleutel wijzigen
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = We versleutelen browsegegevens – wachtwoorden, bladwijzers en meer. Het is geweldig voor de privacy, maar het betekent dat we uw gegevens niet kunnen herstellen als u uw wachtwoord vergeet.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Daarom is het maken van een accountherstelsleutel zo belangrijk – u kunt uw sleutel gebruiken om uw gegevens terug te krijgen.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Begin met het maken van uw accountherstelsleutel
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Accountherstelsleutel wijzigen
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Annuleren
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Doorgaan
 delete-account-password-input =
     .label = Voer wachtwoord in
+pocket-delete-notice = Als u een abonnement hebt op Pocket Premium, zorg er dan voor dat u <a>uw abonnement opzegt</a> voordat u uw account verwijdert.
 delete-account-cancel-button = Annuleren
 delete-account-delete-button-2 = Verwijderen
 
@@ -805,6 +812,8 @@ rk-header-1 = Accountherstelsleutel
 rk-enabled = Ingeschakeld
 rk-not-set = Niet ingesteld
 rk-action-create = Aanmaken
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Wijzigen
 rk-action-remove = Verwijderen
 rk-cannot-refresh-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-key-removed-2 = Sleutel voor accountherstel verwijderd
@@ -818,6 +827,8 @@ rk-remove-modal-content-1 =
     om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
 rk-refresh-error-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-remove-error-2 = Uw sleutel voor accountherstel kon niet worden verwijderd
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Accountherstelsleutel verwijderen
 
 ## Secondary email sub-section on main Settings page
 
