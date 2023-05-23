@@ -433,7 +433,7 @@ flow-recovery-key-download-next-link = Ďalej
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
 flow-recovery-key-hint-header = Skvelé! Teraz si pridajte pomôcku, podľa ktorej si zapamätáte, kde si kód uložili
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Pridajte pomôcku o tom, kde ste uložili kľúč na obnovenie účtu. Môžeme vám ju zobraziť počas obnovy hesla, aby sme obnovili vaše údaje.
+flow-recovery-key-hint-message = Pridajte si pomôcku, ktorá vám napovie, kde ste uložili kľúč na obnovenie účtu. My vám ju zobrazíme počas obnovy hesla, ktorej cieľom je obnoviť vaše údaje.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
@@ -462,6 +462,10 @@ flow-recovery-key-info-shield-bullet-point = Šifrujeme údaje z prehliadania �
 flow-recovery-key-info-key-bullet-point = Preto je vytvorenie kľúča na obnovenie účtu také dôležité – svoj kľúč môžete použiť na získanie údajov späť.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Poďme vytvoriť kľúč na obnovenie účtu
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Zmeniť kľúč na obnovenie účtu
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Zrušiť
 
 # HeaderLockup component
 
@@ -805,6 +809,8 @@ rk-header-1 = Kľúč na obnovenie účtu
 rk-enabled = Povolený
 rk-not-set = Nie je nastavený
 rk-action-create = Vytvoriť
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Zmeniť
 rk-action-remove = Odstrániť
 rk-cannot-refresh-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-key-removed-2 = Obnovovací kľúč k účtu bol odstránený
