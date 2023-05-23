@@ -435,7 +435,7 @@ flow-recovery-key-success-alert-with-hint = 已開啟帳號救援金鑰，也已
 flow-recovery-key-hint-char-limit-error = 提示不可以超過 255 個字。
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = 提示內容僅接受字母、數字、標點符號。
+flow-recovery-key-hint-unsafe-char-error = 提示內容不可使用 Unicode 特殊字元，僅接受一般文字、拉丁字母、數字、標點符號。
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
