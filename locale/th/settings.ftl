@@ -6,6 +6,18 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = ปิด
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = ส่งอีเมลใหม่แล้ว เพิ่ม { $accountsEmail } ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น
+
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -15,9 +27,8 @@
 ## Checklist of services/information that can be synced across signed in devices
 
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
@@ -44,6 +55,7 @@ datablock-print =
 
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
 ## Input Password
@@ -57,6 +69,12 @@ input-password-show-aria = แสดงรหัสผ่านในรูป�
 
 
 ## LinkExpired component
+
+
+## LinkExpiredResetPassword component
+
+
+## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -177,6 +195,24 @@ drop-down-menu-sign-out = ลงชื่อออก
 ## Flow Container
 
 flow-container-back = กลับ
+
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
 
 # HeaderLockup component
 
@@ -343,6 +379,9 @@ recovery-key-step-1 = ขั้นตอนที่ 1 จาก 2
 recovery-key-step-2 = ขั้นตอนที่ 2 จาก 2
 recovery-key-success-alert-3 = สร้างคีย์กู้คืนบัญชีแล้ว
 
+## PageRecoveryKeyCreate
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = ขั้นตอนที่ 1 จาก 2
@@ -408,6 +447,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = ความปลอดภัย
@@ -453,6 +495,10 @@ tfa-row-change-modal-confirm = เปลี่ยน
 ## These terms are used in signin and signup for Firefox account
 
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = บัญชีที่ไม่รู้จัก
@@ -460,11 +506,9 @@ auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = คุณได้พยายามหลายครั้งเกินไป โปรดลองอีกครั้ง{ $retryAfter }
 
 ## Cannot Create Account page
@@ -537,6 +581,10 @@ cannot-create-account-learn-more-link = เรียนรู้เพิ่ม�
 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 
 ## AccountRecoveryConfirmKey page
