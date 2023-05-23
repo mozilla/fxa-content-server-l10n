@@ -13,23 +13,80 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = ส่งอีเมลใหม่แล้ว เพิ่ม { $accountsEmail } ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = มีบางอย่างผิดพลาด ไม่สามารถส่งลิงก์ใหม่ได้
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = มีบางอย่างผิดพลาด ไม่สามารถส่งรหัสใหม่ได้
 
 ## ButtonDownloadRecoveryKey
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = บันทึกคีย์กู้คืนบัญชีของคุณ
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+# 🔑 is included for visual interest and to draw attention to the key
+recovery-key-file-key-value = 🔑 คีย์:  { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date = • คีย์สร้างเมื่อ: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • เรียนรู้เพิ่มเกี่ยวกับคีย์กู้คืนบัญชี: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = ความรู้ที่เป็นประโยชน์กำลังมาถึงในกล่องจดหมายขาเข้าของคุณ ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติม:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = รับข่าวล่าสุดเกี่ยวกับ { -brand-mozilla } และ { -brand-firefox }
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = ร่วมลงมือสร้างอินเตอร์เน็ตที่ดี
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = อยู่บนโลกออนไลน์ได้อย่างปลอดภัยและฉลาดขึ้น
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = เลือกสิ่งที่ต้องการซิงค์:
+choose-what-to-sync-option-bookmarks =
+    .label = ที่คั่นหน้า
+choose-what-to-sync-option-history =
+    .label = ประวัติ
+choose-what-to-sync-option-passwords =
+    .label = รหัสผ่าน
+choose-what-to-sync-option-addons =
+    .label = ส่วนเสริม
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = แท็บที่เปิด
+choose-what-to-sync-option-prefs =
+    .label = การกำหนดลักษณะ
+choose-what-to-sync-option-addresses =
+    .label = ที่อยู่
+choose-what-to-sync-option-creditcards =
+    .label = บัตรเครดิต
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = ย้อนกลับ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
