@@ -439,12 +439,18 @@ flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia 
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Luo tilin palautusavain siltä varalta, että unohdat salasanasi
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Vaihda tilisi palautusavain
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Salaamme selaustiedot – salasanat, kirjanmerkit ja paljon muuta. Se on hyvä yksityisyyden kannalta, mutta se tarkoittaa, että emme voi palauttaa tietojasi, jos unohdat salasanasi.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Siksi tilin palautusavaimen luominen on niin tärkeää – voit käyttää avainta tietojesi palauttamiseen.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Aloita tilin palautusavaimen luominen
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Vaihda tilin palautusavain
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Peruuta
 
 # HeaderLockup component
 
@@ -789,6 +795,8 @@ rk-header-1 = Tilin palautusavain
 rk-enabled = Käytössä
 rk-not-set = Ei asetettu
 rk-action-create = Luo
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Vaihda
 rk-action-remove = Poista
 rk-cannot-refresh-1 = Valitettavasti tilin palautusavaimen päivittämisessä oli ongelma.
 rk-key-removed-2 = Tilin palautusavain poistettu
@@ -802,6 +810,8 @@ rk-remove-modal-content-1 =
     saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
 rk-refresh-error-1 = Valitettavasti tilin palautusavaimen päivittämisessä oli ongelma.
 rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Poista tilin palautusavain
 
 ## Secondary email sub-section on main Settings page
 
