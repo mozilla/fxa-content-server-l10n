@@ -441,12 +441,18 @@ flow-recovery-key-hint-unsafe-char-error = 提示內容僅接受字母、數字�
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = 建立帳號救援金鑰，避免忘記密碼時資料流失
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = 更換您的帳號救援金鑰
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = 我們會為您加密上網資料（密碼、書籤等等資料），對您的隱私很有保護，但要是忘記密碼，就無法救回所有資料。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = 所以帳號救援金鑰相當重要，萬一忘記密碼時，還可以用這把金鑰救回資料。
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = 打一把帳號救援金鑰
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = 更換帳號救援金鑰
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = 取消
 
 # HeaderLockup component
 
@@ -598,6 +604,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 繼續
 delete-account-password-input =
     .label = 輸入密碼
+pocket-delete-notice = 若您訂閱了 Pocket Premium，請務必先<a>取消訂閱</a>再刪除帳號。
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
@@ -779,6 +786,8 @@ rk-header-1 = 帳號救援金鑰
 rk-enabled = 啟用
 rk-not-set = 未設定
 rk-action-create = 建立
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = 變更
 rk-action-remove = 移除
 rk-cannot-refresh-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-key-removed-2 = 已刪除帳號救援金鑰
@@ -790,6 +799,8 @@ rk-remove-modal-heading-1 = 要移除帳號救援金鑰嗎？
 rk-remove-modal-content-1 = 若您重設密碼，就無法再使用帳號救援金鑰來存取資料，也無法恢復此動作。
 rk-refresh-error-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-remove-error-2 = 無法刪除您的帳號救援金鑰
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = 刪除帳號救援金鑰
 
 ## Secondary email sub-section on main Settings page
 
