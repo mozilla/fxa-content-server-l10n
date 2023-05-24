@@ -430,7 +430,7 @@ flow-recovery-key-download-next-link = Nesaf
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
 flow-recovery-key-hint-header = Gwych! Nawr ychwanegwch awgrym storio
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Ychwanegwch awgrym o ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi yn ystod ailosod y cyfrinair i adennill eich data.
+flow-recovery-key-hint-message = Ychwanegwch awgrym o ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi wrth ailosod y cyfrinair i adennill eich data.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
@@ -619,7 +619,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
-pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>canslo'ch tanysgrifiad</a> cyn dileu eich cyfrif.
+pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>diddymu'ch tanysgrifiad</a> cyn dileu eich cyfrif.
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
