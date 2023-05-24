@@ -621,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
+pocket-delete-notice = Om du prenumererar på Pocket Premium, se till att du <a>avbryter din prenumeration</a> innan du tar bort ditt konto.
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
