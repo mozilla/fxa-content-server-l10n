@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = Нешто је пошло наопак
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Нешто је пошло наопако. Није могуће послати нови код.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Преузмите ваш кључ за опоравак налога
+recovery-key-download-button-v2 = Преузмите ваш кључ за опоравак налога
     .title = Преузми
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВАК НАЛОГА
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Чувајте ову датотеку која садржи кључ за опоравак налога на безбедном. Или је одштампајте и задржите физичку копију. Ако заборавите лозинку, можете да користите кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Кључ:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Кључ направљен: { $downloadDate }
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Штампај
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Рачунар и мобилни телефон, сваки са сликом сломљеног срца
@@ -384,6 +388,24 @@ drop-down-menu-sign-out-error-2 = Жао нам је, дошло је до гр�
 
 flow-container-back = Назад
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
 # HeaderLockup component
 
 header-menu-open = Затвори мени
@@ -581,6 +603,9 @@ recovery-key-step-1 = Корак 1 од 2
 recovery-key-step-2 = Корак 2 од 2
 recovery-key-success-alert-3 = Кључ за опоравак налога је направљен
 
+## PageRecoveryKeyCreate
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Корак 1 од 2
@@ -676,11 +701,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Трака напретка која показује да је корисник на кораку { $currentStep } од { $numberOfSteps }.
 
 ## Security section of Setting
 
