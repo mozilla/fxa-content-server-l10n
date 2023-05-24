@@ -176,6 +176,15 @@ signin-totp-code-image-label =
     .aria-label = Уређај са скривеним шестоцифреним кодом.
 confirm-signup-aria-label =
     .aria-label = Коверта која садржи везу
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Илустрација која представља кључ за опоравак налога.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Илустрација која представља кључ за опоравак налога.
+lock-image-aria-label =
+    .aria-label = Илустрација катанца
 
 ## Input Password
 
