@@ -429,6 +429,14 @@ flow-recovery-key-download-next-link = Следеће
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Направите кључ за опоравак налога у случају да заборавите лозинку
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Почните са прављењем кључа за опоравак налога
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Промените кључ за опоравак налога
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Откажи
 
 # HeaderLockup component
 
@@ -788,6 +796,8 @@ rk-remove-modal-content-1 =
     користите кључ за опоравак налога за приступ подацима. Ова радња се не може опозвати.
 rk-refresh-error-1 = Жао нам је, дошло је до грешке при освежавању кључа за опоравак налога.
 rk-remove-error-2 = Није могуће уклонити ваш кључ за опоравак налога
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Избриши кључ за опоравак налога
 
 ## Secondary email sub-section on main Settings page
 
@@ -897,6 +907,7 @@ auth-error-183-2 = Неисправан или истекао код за пот
 auth-error-999 = Неочекивана грешка
 auth-error-1003 = Локално складиште или колачићи су и даље онемогућени
 auth-error-1008 = Нова лозинка мора да буде другачија
+auth-error-1011 = Потребна је важећа адреса е-поште
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
