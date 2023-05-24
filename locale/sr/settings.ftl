@@ -415,6 +415,12 @@ flow-recovery-key-download-heading = Кључ за опоравак налога
 flow-recovery-key-download-info = Овај кључ ће вам помоћи да опоравите ваше податке ако заборавите лозинку.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Предлози где да сачувате кључ за опоравак налога:
+flow-recovery-key-download-storage-ideas-folder = Упечатљива фасцикла на вашем уређају
+flow-recovery-key-download-storage-ideas-cloud = Поуздано складиште у облаку
+flow-recovery-key-download-storage-ideas-print = Штампана физичка копија
+flow-recovery-key-download-storage-ideas-pwd-manager = Уређивач лозинки
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Следеће
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -623,6 +629,11 @@ recovery-key-success-alert-3 = Кључ за опоравак налога је 
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Кључ за опоравак налога
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Назад на подешавања
 
 ## Add secondary email page
 
@@ -719,6 +730,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Корак { $currentStep } од { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -757,6 +773,8 @@ rk-header-1 = Кључ за опоравак налога
 rk-enabled = Омогућено
 rk-not-set = Није постављено
 rk-action-create = Направи
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Промени
 rk-action-remove = Уклони
 rk-cannot-refresh-1 = Жао нам је, дошло је до грешке при освежавању кључа за опоравак налога.
 rk-key-removed-2 = Кључ за опоравак налога је уклоњен
