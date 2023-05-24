@@ -616,7 +616,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Ingresar contraseña
-pocket-delete-notice = Si se suscribe a Pocket Premium, asegúrese de <a> cancelar su suscripción </a> antes de eliminar su cuenta.
+pocket-delete-notice = Si te suscribís a Pocket Premium, asegurate de <a>cancelar tu suscripción</a> antes de eliminar tu cuenta.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -821,7 +821,7 @@ rk-remove-modal-content-1 =
 rk-refresh-error-1 = Disculpá, hubo un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se pudo eliminar la clave de recuperación de tu cuenta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
-unit-row-recovery-key-delete-icon-button-title = Eliminar clave de recuperación de cuenta
+unit-row-recovery-key-delete-icon-button-title = Eliminar clave de recuperación de la cuenta
 
 ## Secondary email sub-section on main Settings page
 
