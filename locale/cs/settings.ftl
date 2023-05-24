@@ -393,9 +393,22 @@ flow-container-back = Zpět
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Další
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokončit
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Zrušit
 
 # HeaderLockup component
 
@@ -586,6 +599,9 @@ recovery-key-success-alert-3 = Obnovovací klíč k účtu byl vytvořen
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Obnovovací klíč k účtu
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Zpět do nastavení
 
 ## Add secondary email page
 
@@ -709,6 +725,8 @@ rk-header-1 = Obnovovací klíč k účtu
 rk-enabled = Povoleno
 rk-not-set = Není nastaven
 rk-action-create = Vytvořit
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Změnit
 rk-action-remove = Odebrat
 rk-cannot-refresh-1 = Omlouváme se, při aktualizaci obnovovacího klíče k účtu nastal problém.
 rk-key-removed-2 = Obnovovací klíč k účtu byl odstraněn
