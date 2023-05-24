@@ -401,11 +401,20 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = Поново унесите лозинку да почнете
+flow-recovery-key-confirm-pwd-input-label = Унесите вашу лозинку
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Направи кључ за опоравак налога
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = Кључ за опоравак налога је направљен — сачувајте га да не заборавите
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Овај кључ ће вам помоћи да опоравите ваше податке ако заборавите лозинку.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Предлози где да сачувате кључ за опоравак налога:
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
