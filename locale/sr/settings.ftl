@@ -431,6 +431,10 @@ flow-recovery-key-download-next-link = Следеће
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Направите кључ за опоравак налога у случају да заборавите лозинку
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Промените кључ за опоравак налога
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point = Шифрујемо податке прегледања –– лозинке, обележиваче и остало. Ово је одлично за приватност, али значи да нећемо моћи да опоравимо ваше податке ако заборавите лозинку.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Почните са прављењем кључа за опоравак налога
 # The text of the "submit" button in the first view of the Account Recovery Key Create flow
