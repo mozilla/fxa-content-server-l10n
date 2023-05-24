@@ -1152,6 +1152,10 @@ signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pom�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Zadejte potvrzovací kód<span> pro váš { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
@@ -1167,6 +1171,14 @@ signin-token-code-required-error = Je vyžadován potvrzovací kód
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Zadejte ověřovací kód <span>pro pokračování do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Zadejte ověřovací kód <span>a pokračujte do služby { $serviceName }</span>
+signin-totp-code-instruction-v2 = Otevřete svoji ověřovací aplikaci a zadejte ověřovací kód, který vám poskytne.
 signin-totp-code-input-label-v2 = Zadejte šestimístný kód
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdit
@@ -1180,6 +1192,8 @@ signin-totp-code-required-error = Je vyžadován ověřovací kód
 ## when setting up a new account
 
 confirm-signup-heading = Potvrzení účtu
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Zkontrolujte svůj e-mail, zda jste nezískali potvrzovací odkaz zaslaný na adresu { $email }.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
