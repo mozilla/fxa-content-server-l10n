@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = De hint mei gjin ûnfeilige Unicode-t
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Meitsje in accountwerstelkaai oan foar it gefal jo jo wachtwurd ferjitte
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Jo accountwerstelkaai wizigje
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Wy fersiferje sneupgegevens – wachtwurden, blêdwizers, en mear. It is geweldich foar privacy, mar it betsjut dat wy jo gegevens net herstellen kinne as jo jo wachtwurd ferjitte.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Dêrom is it meitsjen fan in accountwerstelkaai sa wichtich – jo kinne jo kaai brûke om jo gegevens werom te krijen.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Begjin mei it meitsjen fan jo accountwerstelkaai
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Accountwerstelkaai wizigje
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Annulearje
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Trochgean
 delete-account-password-input =
     .label = Fier wachtwurd yn
+pocket-delete-notice = As jo in abonnemint hawwe op Pocket Premium, soargje der dan foar dat jo <a>jo abonnemint opsizze</a> eardat jo jo account fuortsmite.
 delete-account-cancel-button = Annulearje
 delete-account-delete-button-2 = Fuortsmite
 
@@ -805,6 +812,8 @@ rk-header-1 = Accountwerstelkaai
 rk-enabled = Ynskeakele
 rk-not-set = Net ynsteld
 rk-action-create = Oanmeitsje
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Wizigje
 rk-action-remove = Fuortsmite
 rk-cannot-refresh-1 = Sorry, der is in probleem bard by it fernijen fan de accountwerstelkaai.
 rk-key-removed-2 = Kaai foar accountwerstel fuortsmiten
@@ -818,6 +827,8 @@ rk-remove-modal-content-1 =
     om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
 rk-refresh-error-1 = Sorry, der is in probleem bard by it fernijen fan de accountwerstelkaai.
 rk-remove-error-2 = Jo kaai foar accountwerstel koe net fuortsmiten wurde
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Accountwerstelkaai fuortsmite
 
 ## Secondary email sub-section on main Settings page
 
