@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = Tipset får inte innehålla osäkra u
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Skapa en kontoåterställningsnyckel om du glömmer ditt lösenord
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Ändra din kontoåterställningsnyckel
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = Vi krypterar webbläsardata –– lösenord, bokmärken och mer. Det är bra för integriteten, men det betyder att vi inte kan återställa din data om du glömmer ditt lösenord.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = Det är därför det är så viktigt att skapa en kontoåterställningsnyckel –– du kan använda din nyckel för att få tillbaka dina data.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Börja skapa din kontoåterställningsnyckel
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Ändra nyckel för kontoåterställning
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Avbryt
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
+pocket-delete-notice = Om du prenumererar på Pocket Premium, se till att du <a>avbryter din prenumeration</a> innan du tar bort ditt konto.
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
@@ -805,6 +812,8 @@ rk-header-1 = Nyckel för kontoåterställning
 rk-enabled = Aktivera
 rk-not-set = Inte inställd
 rk-action-create = Skapa
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Ändra
 rk-action-remove = Ta bort
 rk-cannot-refresh-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
@@ -818,6 +827,8 @@ rk-remove-modal-content-1 =
     din kontoåterställningsnyckel för att komma åt dina data. Du kan inte ångra den här åtgärden.
 rk-refresh-error-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Ta bort nyckel för kontoåterställning
 
 ## Secondary email sub-section on main Settings page
 
