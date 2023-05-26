@@ -394,6 +394,8 @@ flow-recovery-key-confirm-pwd-input-label = Zadání hesla
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úložiště
+flow-recovery-key-download-storage-ideas-print = Vytiskněte a uschovejte fyzickou kopii
 flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Další
@@ -688,6 +690,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Krok { $currentStep } z { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -739,6 +746,8 @@ rk-remove-modal-heading-1 = Odebrat obnovovací klíč k účtu?
 rk-remove-modal-content-1 = Pokud obnovíte své heslo, nebudete už moci pro přístup ke svým datům použít svůj obnovovací klíč k účtu. Tuto akci nelze vzít zpět.
 rk-refresh-error-1 = Omlouváme se, při aktualizaci obnovovacího klíče k účtu nastal problém.
 rk-remove-error-2 = Obnovovací klíč k vašemu účtu se nepodařilo odebrat
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Smazat obnovovací klíč k účtu
 
 ## Secondary email sub-section on main Settings page
 
@@ -802,6 +811,10 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračováním souhlasíte s:
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Pokračováním vyjadřujete souhlas s <firefoxTos>Podmínkami poskytování služby</firefoxTos> a <firefoxPrivacy>Oznámením o ochraně osobních údajů</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -830,6 +843,7 @@ auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účt
 auth-error-155 = TOTP token nenalezen
 auth-error-183-2 = Neplatný nebo starý potvrzovací kód
 auth-error-999 = Neočekávaná chyba
+auth-error-1003 = Místní úložiště nebo cookies jsou stále zakázány
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 auth-error-1011 = Je požadován platný e-mail
 
@@ -837,6 +851,7 @@ auth-error-1011 = Je požadován platný e-mail
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Účet nelze vytvořit
+cannot-create-account-requirements = Pokud si chcete vytvořit { -product-firefox-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Zjistit více
 
@@ -881,6 +896,9 @@ cookies-disabled-learn-more = Zjistit více
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -893,6 +911,10 @@ inline-recovery-confirm-button = Potvrdit
 inline-recovery-back-link = Zpět
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Záložní ověřovací kód
+inline-recovery-confirmation-description = Abyste zajistili, že budete moci znovu získat přístup ke svému účtu, v případě ztráty zařízení zadejte jeden z uložených záložních ověřovacích kódů.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
