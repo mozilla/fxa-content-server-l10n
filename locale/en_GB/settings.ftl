@@ -455,12 +455,18 @@ flow-recovery-key-hint-unsafe-char-error = The hint cannot contain unsafe unicod
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Create an account recovery key in case you forget your password
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Change your account recovery key
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = We encrypt browsing data –– passwords, bookmarks, and more. It’s great for privacy, but it means we can’t recover your data if you forget your password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = That’s why creating an account recovery key is so important –– you can use your key to get your data back.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Start creating your account recovery key
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Change account recovery key
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Cancel
 
 # HeaderLockup component
 
@@ -615,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Enter password
+pocket-delete-notice = If you subscribe to Pocket Premium, please make sure that you <a>cancel your subscription</a> before deleting your account.
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
@@ -805,6 +812,8 @@ rk-header-1 = Account recovery key
 rk-enabled = Enabled
 rk-not-set = Not Set
 rk-action-create = Create
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Change
 rk-action-remove = Remove
 rk-cannot-refresh-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-key-removed-2 = Account recovery key removed
@@ -818,6 +827,8 @@ rk-remove-modal-content-1 =
     able to use your account recovery key to access your data. You can’t undo this action.
 rk-refresh-error-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-remove-error-2 = Your account recovery key could not be removed
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Delete account recovery key
 
 ## Secondary email sub-section on main Settings page
 
