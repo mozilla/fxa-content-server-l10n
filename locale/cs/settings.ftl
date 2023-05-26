@@ -977,6 +977,14 @@ pair-auth-complete-manage-devices-link = Správa zařízení
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Zadejte ověřovací kód <span>pro pokračování do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Zadejte ověřovací kód <span>a pokračujte do služby { $serviceName }</span>
+auth-totp-instruction = Otevřete svoji ověřovací aplikaci a zadejte ověřovací kód, který vám poskytne.
 auth-totp-input-label = Zadejte šestimístný kód
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Potvrdit
@@ -987,6 +995,9 @@ auth-totp-code-required-error = Je vyžadován ověřovací kód
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Je požadováno schválení <span>z vašeho dalšího zařízení</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1155,6 +1166,7 @@ back = Zpět
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-instruction = Zadejte prosím záložní ověřovací kód, který vám byl poskytnut při nastavování dvoufázového ověřování.
 signin-recovery-code-input-label = Zadejte 10místný záložní ověřovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdit
