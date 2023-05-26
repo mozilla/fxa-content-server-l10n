@@ -398,6 +398,11 @@ flow-recovery-key-confirm-pwd-submit-button = Emoheñói mba’ete mba’eñemi 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Eñamindu’u eñongatu hag̃ua mba’eñemi jeguerujeyrã ne mba’etégui:
+flow-recovery-key-download-storage-ideas-folder = Ñongatuha oikóva ne mba’e’okápe
+flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
+flow-recovery-key-download-storage-ideas-print = Emonguatia ha eguereko nendive
 flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Upeigua
@@ -406,6 +411,15 @@ flow-recovery-key-download-next-link = Upeigua
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Emoinge moõpa eñongatukuaa (ejaposérõ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Mbopaha
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Ijurujáma mba’ete guerujeyrã.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
