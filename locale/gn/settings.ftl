@@ -389,6 +389,10 @@ flow-container-back = Tapykue
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = Ehaijey ne ñe’ẽñemi eñepyrũ hag̃ua
+flow-recovery-key-confirm-pwd-input-label = Ehai ne ñe’ẽñemi
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Emoheñói mba’ete mba’eñemi guerujeyrã
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
