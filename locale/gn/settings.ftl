@@ -423,6 +423,12 @@ flow-recovery-key-success-alert-no-hint = Ijurujáma mba’ete guerujeyrã.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Emoheñói ne mba’ete mba’eñemi guerujeyrã
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Heja
 
 # HeaderLockup component
 
@@ -723,6 +729,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Ambohasa { $currentStep } { $numberOfSteps } mba’e.
 
 ## Security section of Setting
 
@@ -761,6 +772,8 @@ rk-header-1 = Mba’ete jeguerujey
 rk-enabled = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Moambue
 rk-action-remove = Mboguete
 rk-cannot-refresh-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.
 rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
@@ -774,6 +787,8 @@ rk-remove-modal-content-1 =
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 rk-refresh-error-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.
 rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Embogue mba’ete mba’eñemi guerujeyrã
 
 ## Secondary email sub-section on main Settings page
 
