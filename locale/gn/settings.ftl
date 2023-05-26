@@ -26,6 +26,9 @@ link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ay
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v2 = Emboguejy ne mba’ete mba’eñemi guerujeyrã
     .title = Emboguejy
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = EÑONGATU NE MBA’ETE MBA’EÑEMI GUERUJEYRÃ
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
@@ -37,6 +40,10 @@ recovery-key-file-user-email = • { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Ñe’ẽñemi moheñoimbyre: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support = • Eikuaave mba’ete mba’eñemi guerujeyrã rehegua: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
