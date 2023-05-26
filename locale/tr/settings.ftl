@@ -409,6 +409,7 @@ flow-recovery-key-download-heading = Hesap kurtarma anahtarı oluşturuldu. Hesa
 flow-recovery-key-download-info = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz.
 # This heading is shown above a list of options for storing the account recovery key
 flow-recovery-key-download-storage-ideas-heading = Hesap kurtarma anahtarınızı saklamak için bazı fikirler:
+flow-recovery-key-download-storage-ideas-folder = Cihazınızdaki unutmayacağınız bir klasör
 flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
 flow-recovery-key-download-storage-ideas-print = Fiziksel bir kopyasını yazdırıp saklayın
 flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
@@ -448,8 +449,16 @@ flow-recovery-key-hint-unsafe-char-error = İpucu güvensiz unicode karakterler 
 flow-recovery-key-info-header = Parolanızı unutursanız kullanabileceğiniz bir hesap kurtarma anahtarı oluşturun
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Hesap kurtarma anahtarınızı değiştirin
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point = Gezinti verilerinizi, parolalarınızı, yer imlerini ve diğer bilgilerinizi şifreliyoruz. Gizlilik açısından en doğrusu bu, ama parolanızı unutursanız verilerinizi kurtaramayacağımız anlamına geliyor.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point = Bu yüzden hesap kurtarma anahtarı oluşturmanız çok önemli. Verilerinizi kurtarmak istediğinizde anahtarınızı kullanabilirsiniz.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Hesap kurtarma anahtarınızı oluşturmaya başlayın
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Hesap kurtarma anahtarını değiştir
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = İptal
 
 # HeaderLockup component
 
@@ -601,6 +610,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Devam
 delete-account-password-input =
     .label = Parolanızı yazın
+pocket-delete-notice = Pocket Premium abonesiyseniz hesabınızı silmeden önce lütfen <a>aboneliğinizi iptal etmeyi</a> unutmayın.
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
