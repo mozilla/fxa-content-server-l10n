@@ -22,6 +22,10 @@ link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ay
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v2 = Emboguejy ne mba’ete mba’eñemi guerujeyrã
+    .title = Emboguejy
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
@@ -386,6 +390,11 @@ flow-container-back = Tapykue
 flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link = Upeigua
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 

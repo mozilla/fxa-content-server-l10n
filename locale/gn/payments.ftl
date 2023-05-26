@@ -124,6 +124,7 @@ payment-confirmation-download-button = Emboguejy ehóvo
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ tepy ojekuaáva, ojogueraháva umi <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
+payment-confirm-checkbox-error = Emyenyhẽraẽ kóva eku’ejey mboyve
 
 ## Component - PaymentErrorView
 
