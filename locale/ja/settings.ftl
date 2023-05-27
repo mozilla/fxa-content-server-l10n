@@ -18,25 +18,28 @@ link-expired-resent-link-error-message = エラーが発生しました。新し
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = 回復用キーをダウンロードします
+recovery-key-download-button-v2 = アカウント回復用キーをダウンロード
     .title = ダウンロード
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = アカウント回復用キーを保管しましょう
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = このアカウント回復用キーを含むファイルを覚えやすい場所に保存してください。もしくは、これを印刷して安全な場所に保管してください。パスワードを忘れた場合に、アカウント回復用キーで { -brand-firefox } のデータを回復できます。
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 キー: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • キーの生成日: { $downloadDate }
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = 印刷
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = コンピューターとスマートフォン、それぞれに失恋ハートの画像
@@ -172,6 +176,8 @@ signin-totp-code-image-label =
     .aria-label = 6 桁のコードが隠されている端末。
 confirm-signup-aria-label =
     .aria-label = リンクを含む封筒
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = アカウント回復用キーを表す図。
 
@@ -374,18 +380,29 @@ drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト�
 
 flow-container-back = 戻る
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = 設定に戻る
-# The header of the first view in the Recovery Key Add flow
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = パスワードを忘れた場合に備えてアカウント回復用キーを作成します
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = パスワードやブックマークなどのブラウジングデータは暗号化されます。これは、プライバシー保護には優れていますが、パスワードを忘れた場合にデータを回復できないことを意味します。
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = そのため、アカウント回復用キーの作成が非常に重要です。キーを使用してデータを取り戻すことができます。
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = 回復用キーの作成を開始
 
 # HeaderLockup component
 
@@ -581,7 +598,7 @@ recovery-key-step-1 = ステップ 1/2
 recovery-key-step-2 = ステップ 2/2
 recovery-key-success-alert-3 = アカウント回復用キーが生成されました
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = アカウント回復用キー
@@ -674,11 +691,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = 進捗バーでユーザーが { $numberOfSteps } ステップのうち { $currentStep } 番目にいることを示しています。
 
 ## Security section of Setting
 
