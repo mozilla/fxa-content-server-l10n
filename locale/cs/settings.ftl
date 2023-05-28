@@ -168,6 +168,8 @@ get-data-trio-print-2 =
 
 hearts-broken-image-aria-label =
     .aria-label = Počítač a mobil a na každém obrázek zlomeného srdce
+hearts-verified-image-aria-label =
+    .aria-label = Počítač, mobilní telefon a tablet a na každém pulzující srdíčko
 signin-recovery-code-image-description =
     .aria-label = Dokument, který obsahuje skrytý text.
 signin-totp-code-image-label =
@@ -178,6 +180,13 @@ confirm-signup-aria-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Ilustrace představující klíč pro obnovení účtu.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustrace představující klíč pro obnovení účtu.
+lock-image-aria-label =
+    .aria-label = Ilustrace zámku
+lightbulb-aria-label =
+    .aria-label = Ilustrace znázorňující vytvoření nápovědy k úložišti.
 
 ## Input Password
 
@@ -388,12 +397,20 @@ flow-container-back = Zpět
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = Pokud chcete začít, zadejte znovu své heslo
 flow-recovery-key-confirm-pwd-input-label = Zadání hesla
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Vytvořit obnovovací klíč k účtu
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = Tento klíč vám pomůže obnovit vaše heslo, pokud ho zapomenete.
+# This heading is shown above a list of options for storing the account recovery key
+flow-recovery-key-download-storage-ideas-heading = Několik nápadů na uložení obnovovacího klíč k účtu:
+flow-recovery-key-download-storage-ideas-folder = Složka na vašem zařízení, kterou si zapamatujete
 flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úložiště
 flow-recovery-key-download-storage-ideas-print = Vytiskněte a uschovejte fyzickou kopii
 flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
@@ -404,6 +421,9 @@ flow-recovery-key-download-next-link = Další
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Skvělé! Nyní přidejte nápovědu k místu uložení
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončit
