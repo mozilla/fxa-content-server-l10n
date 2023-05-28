@@ -431,9 +431,42 @@ flow-recovery-key-download-next-link = Dalej
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
 flow-recovery-key-hint-header = Wspaniale! Teraz dodaj wskazówkę o miejscu przechowywania
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Dodaj wskazówkę dotyczącą miejsca przechowywania klucza odzyskiwania konta. Możemy pokazać Ci ją podczas zmiany hasła, aby odzyskać Twoje dane.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Wpisz wskazówkę o miejscu przechowywania (opcjonalnie)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokończ
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Włączono klucz odzyskiwania konta.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Włączono klucz odzyskiwania konta i ustawiono wskazówkę o miejscu przechowywania.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Wskazówka nie może mieć więcej niż 254 znaki.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebezpiecznych znaków Unicode. Dozwolone są tylko litery, cyfry, znaki interpunkcyjne i symbole.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Utwórz klucz odzyskiwania konta na wypadek zapomnienia hasła
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Zmień klucz odzyskiwania konta
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point = Szyfrujemy dane przeglądania — hasła, zakładki i nie tylko. To świetne rozwiązanie w zakresie prywatności, ale oznacza też, że nie możemy odzyskać Twoich danych, jeśli zapomnisz hasła.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point = Dlatego tak ważne jest utworzenie klucza odzyskiwania konta — możesz go użyć, aby odzyskać swoje dane.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Zacznij tworzenie klucza odzyskiwania konta
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Zmień klucz odzyskiwania konta
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Anuluj
 
 # HeaderLockup component
 
@@ -588,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Kontynuuj
 delete-account-password-input =
     .label = Wpisz hasło
+pocket-delete-notice = Jeśli subskrybujesz Pocket Premium, upewnij się, że <a>anulujesz subskrypcję</a> przed usunięciem konta.
 delete-account-cancel-button = Anuluj
 delete-account-delete-button-2 = Usuń
 
@@ -634,6 +668,11 @@ recovery-key-success-alert-3 = Utworzono klucz odzyskiwania konta
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Klucz odzyskiwania konta
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Wróć do ustawień
 
 ## Add secondary email page
 
@@ -728,6 +767,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = { $currentStep }. krok z { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -766,6 +810,8 @@ rk-header-1 = Klucz odzyskiwania konta
 rk-enabled = Włączony
 rk-not-set = Nieustawiony
 rk-action-create = Utwórz
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Zmień
 rk-action-remove = Usuń
 rk-cannot-refresh-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-key-removed-2 = Usunięto klucz odzyskiwania konta
@@ -779,6 +825,8 @@ rk-remove-modal-content-1 =
     do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
 rk-refresh-error-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-remove-error-2 = Nie można usunąć klucza odzyskiwania konta
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Usuń klucz odzyskiwania konta
 
 ## Secondary email sub-section on main Settings page
 
@@ -886,6 +934,7 @@ auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-999 = Nieznany błąd
 auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest nadal wyłączona
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
+auth-error-1011 = Wymagany jest prawidłowy adres e-mail
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
