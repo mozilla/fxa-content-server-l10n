@@ -22,6 +22,10 @@ link-expired-resent-code-error-message = Insatge è ì mal. I n'è betg reussì 
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v2 = Telechargiar tia clav da recuperaziun dal conto
+    .title = Telechargiar
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = MEMORISESCHA TIA CLAV DA RECUPERAZIUN DAL CONTO
@@ -181,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Illustraziun che represchenta ina clav da recuperaziun dal conto.
 lock-image-aria-label =
     .aria-label = Ina illustraziun dad in maschlos
+lightbulb-aria-label =
+    .aria-label = Illustraziun che represchenta la creaziun dad in tip per l'archivaziun.
 
 ## Input Password
 
@@ -422,6 +428,28 @@ flow-recovery-key-download-next-link = Enavant
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Grondius! Agiuntescha ussa in tip per il lieu d'archivaziun
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Agiuntescha in tip che circumscriva nua che ti tegnas en salv tia clav da recuperaziun dal conto. Nus pudain ta mussar l'avis durant il process da reinizialisaziun dal pled-clav per recuperar tias datas.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Endatescha in tip per il lieu d'archivaziun (facultativ)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finir
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Activà la clav da recuperaziun dal conto.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Activà la clav da recuperaziun dal conto e memorisà il tip per il lieu d'archivaziun.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Il tip na dastga betg surpassar 254 caracters.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Il tip na dastga betg cuntegnair caracters da unicode malsegirs. Mo letras, cifras, segns d'interpuncziun e simbols èn lubids.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
