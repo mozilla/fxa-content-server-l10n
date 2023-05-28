@@ -989,6 +989,11 @@ inline-totp-setup-ready-button = Připraveno
 inline-totp-setup-show-qr-custom-service-header-2 = Naskenujte ověřovací kód <span>a pokračujte do služby { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Ručně zadejte kód <span>a pokračujte do služby { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Naskenujte ověřovací kód a <span>pokračujte do nastavení účtu</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ručně zadejte kód a <span>pokračujte do nastavení účtu</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ověřovací kód
 
@@ -1312,6 +1317,9 @@ confirm-signup-code-is-required-error = Je vyžadován potvrzovací kód
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Nastavte si heslo
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Proč si musím vytvořit tento účet? <LinkExternal>Zjistěte to zde</LinkExternal>.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
