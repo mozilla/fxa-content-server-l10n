@@ -1124,6 +1124,10 @@ third-party-auth-callback-message = Čekejte prosím, budete přesměrováni na 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocí klíče pro obnovení účtu <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocí obnovovacího klíče k účtu a <span>pokračujte do služby { $serviceName }</span>
 account-recovery-confirm-key-instructions = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-firefox-account }.
 account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou smazána.
 # Prompts the user to enter their account recovery code
@@ -1160,6 +1164,7 @@ complete-reset-password-success-alert = Heslo nastaveno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
+complete-reset-password-recovery-key-error = Omlouváme se, ale při kontrole, zda máte obnovovací klíč k účtu, nastala chyba. <hasRecoveryKeyErrorLink>Obnovte své heslo pomocí obnovovacího klíče k účtu.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1231,6 +1236,13 @@ back = Zpět
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Zadejte záložní ověřovací kód a <span>pokračujte do nastavení účtu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Zadejte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
 signin-recovery-code-instruction = Zadejte prosím záložní ověřovací kód, který vám byl poskytnut při nastavování dvoufázového ověřování.
 signin-recovery-code-input-label = Zadejte 10místný záložní ověřovací kód
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1303,6 +1315,10 @@ confirm-signup-instruction = Zkontrolujte svůj e-mail, zda jste nezískali potv
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Zadejte potvrzovací kód
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Zadejte potvrzovací kód<span>pro svůj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 confirm-signup-code-input-label = Zadejte šestimístný kód
