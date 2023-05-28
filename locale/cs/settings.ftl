@@ -635,6 +635,9 @@ recent-activity-title = Nedávná aktivita účtu
 recent-activity-account-create = Účet byl vytvořen
 recent-activity-account-disable = Účet byl deaktivován
 recent-activity-account-enable = Účet byl povolen
+recent-activity-account-login = Účet inicioval přihlášení
+recent-activity-account-reset = Účet inicioval změnu hesla
+recent-activity-emails-clearBounces = Účet vymazal nedoručitelné e-maily
 
 # Account recovery key setup page
 
@@ -704,6 +707,8 @@ tfa-button-cancel = Zrušit
 tfa-button-finish = Dokončit
 tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
 tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
+tfa-cannot-verify-code-4 = Při potvrzení vašeho záložního ověřovacího kódu se vyskytl problém
+tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
 tfa-enabled = Dvoufázové ověřování zapnuto
 tfa-scan-this-code =
     Naskenujte tento QR kód jednou z <linkExternal>těchto
@@ -855,6 +860,7 @@ tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením v
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
+tfa-row-change-modal-heading-1 = Chcete změnit záložní ověřovací kódy?
 tfa-row-change-modal-confirm = Změnit
 tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
