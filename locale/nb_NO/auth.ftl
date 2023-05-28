@@ -354,20 +354,30 @@ recovery-action = Lag nytt passord
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ditt abonnement på { $productName } har blit avsluttet
 subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Du har nylig slettet { -product-firefox-account }en din. Som et resultat har vi kansellert ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et passord.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
+subscriptionAccountFinishSetup-content-processing = Betalingen din behandles og kan ta opptil fire virkedager å fullføre. Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
 subscriptionAccountFinishSetup-content-create-2 = Deretter oppretter du et { -product-firefox-account }-passord for å begynne å bruke ditt nye abonnement.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikke tilgang til abonnementet ditt ennå
+subscriptionAccountReminderFirst-content-info-2 = For noen dager siden opprettet du en { -product-firefox-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
+subscriptionAccountReminderFirst-content-select-2 = Velg «Opprett passord» for å sette opp et nytt passord og fullfør bekreftelsen av kontoen din.
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminnelse: Konfigurer kontoen din
 subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = For noen dager siden opprettet du en { -product-firefox-account }, men bekreftet den aldri. Vi håper du fullfører konfigureringen av kontoen din, slik at du kan bruke ditt nye abonnement.
+subscriptionAccountReminderSecond-content-select-2 = Velg «Opprett passord» for å sette opp et nytt passord og fullfør bekreftelsen av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -382,6 +392,19 @@ subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
 
 subscriptionCancellation-content-2 = Vi har avsluttet { $productName }-abonnementet ditt. Den endelige betalingen på { $invoiceTotal } ble betalt { $invoiceDateOnly }.
 subscriptionCancellation-outstanding-content-2 = Vi har avsluttet { $productName }-abonnementet ditt. Den endelige betalingen din på { $invoiceTotal } vil bli betalt { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Tjenesten din vil fortsette til slutten av gjeldende faktureringsperiode, som er { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Du har byttet til { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Du har byttet fra { $productNameOld } til { $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
