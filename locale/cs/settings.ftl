@@ -424,12 +424,36 @@ flow-recovery-key-download-next-link = Další
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
 flow-recovery-key-hint-header = Skvělé! Nyní přidejte nápovědu k místu uložení
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Přidejte informaci o tom, kam jste uložili obnovovací klíč k účtu. Tuto informaci vám můžeme ukázat během obnovy hesla a obnovu vám tak usnadnit.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Vložte nápovědu k uložení (volitelné)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončit
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Obnovovací klíč k účtu povolen.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Obnovovací klíč k účtu povolen a nápověda k uložení účtu uložena.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Nápověda musí mít méně než 255 znaků.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpečné znaky Unicode. Povoleny jsou pouze písmena, číslice, interpunkční znaménka a symboly.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Vytvořte si obnovovací klíč k účtu pro případ, když zapomenete své heslo
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Změna vašeho obnovovacího klíče k účtu
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Pojďme vytvořit váš obnovovací klíč k účtu
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Změnit obnovovací klíč k účtu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušit
 
@@ -481,6 +505,13 @@ nav-email-comm = E-mailová sdělení
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Při výměně záložních ověřovacích kódů se vyskytl problém
+tfa-create-code-error = Při vytváření záložních ověřovacích kódů se vyskytl problém
+tfa-replace-code-success-1 =
+    Byly vytvořeny nové kódy. Tyto jednorázové záložní ověřovací kódy
+    si uložte na bezpečné místo — bude je potřebovat pro přístup ke svému
+    účtu, pokud nebudete mít po ruce mobilní zařízení
+tfa-replace-code-success-alert-3 = Záložní ověřovací kódy účtu byly aktualizovány
 tfa-replace-code-1-2 = Krok 1 ze 2
 tfa-replace-code-2-2 = Krok 2 ze 2
 
@@ -564,6 +595,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-monitor = { -product-firefox-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
 delete-account-chk-box-1-v3 =
