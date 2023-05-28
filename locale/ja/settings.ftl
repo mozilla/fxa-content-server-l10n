@@ -180,6 +180,13 @@ confirm-signup-aria-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = アカウント回復用キーを表す図。
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = アカウント回復用キーを表すイラスト。
+lock-image-aria-label =
+    .aria-label = 錠前のイラスト
+lightbulb-aria-label =
+    .aria-label = ストレージヒントの作成を表すイラスト。
 
 ## Input Password
 
@@ -384,11 +391,23 @@ flow-container-back = 戻る
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading = パスワードをもう一度入力して開始してください
+flow-recovery-key-confirm-pwd-input-label = パスワードを入力してください
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = アカウント回復用キーを作成
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = アカウント回復用キーが生成されました — 覚えやすい場所に保管してください
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info = このキーは、パスワードを忘れた場合にデータを回復するのに役立ちます。
+flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
+flow-recovery-key-download-storage-ideas-print = 紙媒体に印刷して保管する
+flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = 次へ
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
