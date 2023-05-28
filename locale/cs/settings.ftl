@@ -1076,6 +1076,8 @@ pair-already-have-firefox-paragraph = Už máte { -brand-firefox } na telefonu n
 pair-sync-your-device-button = Synchronizovat zařízení
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Nebo stáhnout
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Naskenujte a stáhněte si { -brand-firefox } pro mobil, nebo si pošlete <linkExternal>odkaz ke stažení</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Teď ne
 pair-take-your-data-message = Vezměte si své panely, záložky a hesla všude tam, kde používáte { -brand-firefox }.
