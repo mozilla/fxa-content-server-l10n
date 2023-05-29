@@ -615,6 +615,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
+pocket-delete-notice = Pokud si předplatíte Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
@@ -732,6 +733,10 @@ tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací ap
 tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
 tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
+tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
+tfa-enter-code-to-confirm-1 =
+    Nyní prosím zadejte jeden ze svých záložních ověřovacích kódů a
+    potvrďte, že jste je uložili. Pokud nebudete mít přístup ke svému účtu, budete k přihlášení potřebovat tento kód.
 tfa-enter-recovery-code-1 =
     .label = Vložte záložní ověřovací kód
 
@@ -865,6 +870,9 @@ tfa-row-content-explain = Zabraňte cizím lidem v přístupu k vašemu účtu v
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
+tfa-row-disable-modal-explain-1 =
+    Tuto akci nelze vzít zpět. Máte také možnost
+    <linkExternal>své záložní ověřovací kódy vyměnit</linkExternal>.
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
 tfa-row-change-modal-heading-1 = Chcete změnit záložní ověřovací kódy?
 tfa-row-change-modal-confirm = Změnit
@@ -875,6 +883,8 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračováním souhlasíte s:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
@@ -963,6 +973,10 @@ cookies-disabled-learn-more = Zjistit více
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Uložte záložní ověřovací kódy a <span>pokračujte do služby { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -979,12 +993,18 @@ inline-recovery-confirmation-description = Abyste zajistili, že budete moci zno
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-confirmation-header-default = Potvrďte záložní ověřovací kód <span>a pokračujte do nastavení účtu</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Potvrďte záložní ověřovací kód a <span>pokračujte do služby { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Zrušit nastavení
 inline-totp-setup-continue-button = Pokračovat
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Přidejte do svého účtu další úroveň zabezpečení tím, že budete vyžadovat ověřovací kódy z jedné z <authenticationAppsLink>těchto ověřovacích aplikací</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Povolte dvoufázové ověření <span>a pokračujte do nastavení účtu</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
@@ -1000,6 +1020,12 @@ inline-totp-setup-no-qr-custom-service-header-2 = Ručně zadejte kód <span>a p
 inline-totp-setup-show-qr-default-service-header-2 = Naskenujte ověřovací kód a <span>pokračujte do nastavení účtu</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Ručně zadejte kód a <span>pokračujte do nastavení účtu</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Zadejte tento tajný klíč do aplikace pro ověřování. <toggleToQRButton>Naskenovat místo toho QR kód?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Naskenujte QR kód ve své ověřovací aplikaci, a poté zadejte ověřovací kód, který poskytuje. <toggleToManualModeButton>Nemůžete naskenovat kód?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Po dokončení začne generovat ověřovací kódy, které můžete zadat.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Ověřovací kód
 
