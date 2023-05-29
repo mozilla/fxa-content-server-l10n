@@ -329,6 +329,7 @@ postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
 postRemoveTwoStepAuthentication-not-required-2 = Du treng ikkje lenger sikkerheitskodar frå autentiseringsappen når du loggar inn.
+postVerify-sub-title-3 = Vi er glade for å sjå deg!
 postVerify-subject-3 = Velkomen til { -brand-firefox }!
 postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
