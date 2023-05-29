@@ -173,6 +173,11 @@ signin-totp-code-image-label =
     .aria-label = Mba’e’oka ayvu kañymby 6 tai reheve.
 confirm-signup-aria-label =
     .aria-label = Mba’yru oguerekóva juajuha
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
+lock-image-aria-label =
+    .aria-label = Peteĩ mbotyha ra’ãnga
 
 ## Input Password
 
