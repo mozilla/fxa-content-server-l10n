@@ -406,6 +406,27 @@ subscriptionDowngrade-content-switch = Du har byttet fra { $productNameOld } til
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Ditt abonnement på { $productName } har blit avsluttet
+subscriptionFailedPaymentsCancellation-title = Abonnementet ditt er kansellert
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Vi har kansellert { $productName }-abonnementet ditt fordi flere betalingsforsøk mislyktes. For å få tilgang igjen, start et nytt abonnement med en oppdatert betalingsmåte.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Betaling for { $productName } bekreftet
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Takk for at du abonnerer på { $productName }
+subscriptionFirstInvoice-content-processing = Betalingen din behandles for øyeblikket og det kan ta opptil fire virkedager å fullføre.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Du vil motta en separat e-post om hvordan du begynner å bruke { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
 unblockCode-subject = Godkjenningskode for konto
