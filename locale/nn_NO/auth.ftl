@@ -293,11 +293,19 @@ postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-2 = Sikkerheitskoder frå autentiseringsappen din er no påkravd no kvar gong du loggar inn.
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Du har endra den primære e-postadressa di til { $email }. Denne adressa er no brukarnamn for å logge inn på { -product-firefox-account }en din, i tillegg til å ta imot sikkerheitsvarsel og stadfestingar på innloggingar.
 postChangePrimary-action = Handsam kontoen
 postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Han vart brukt på:
 postConsumeRecoveryCode-action = Handsam kontoen
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 reserve-godkjenningskode
+       *[other] { $numberRemaining } reserve-godkjenningskodar att
+    }
 postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
 postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
 # After the colon, there is information about the device that the authentication codes were created on
@@ -308,6 +316,7 @@ postRemoveAccountRecovery-title-2 = Du sletta kontogjenopprettingsnøkkelen din
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Han vart sletta frå:
 postRemoveAccountRecovery-action = Handsam kontoen
+postRemoveAccountRecovery-invalid-2 = Du treng ein kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataa dine dersom du gløymer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
 postRemoveSecondary-action = Handsam kontoen
