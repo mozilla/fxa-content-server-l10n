@@ -406,6 +406,7 @@ flow-recovery-key-confirm-pwd-submit-button = Vytvořit obnovovací klíč k ú�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading = Vytvořen obnovovací klíč k účtu — uložte jej na místo, které si zapamatujete
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info = Tento klíč vám pomůže obnovit vaše heslo, pokud ho zapomenete.
 # This heading is shown above a list of options for storing the account recovery key
@@ -450,6 +451,10 @@ flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpe
 flow-recovery-key-info-header = Vytvořte si obnovovací klíč k účtu pro případ, když zapomenete své heslo
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Změna vašeho obnovovacího klíče k účtu
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point = Šifrujeme data procházení – hesla, záložky a další. Je to skvělé pro ochranu soukromí, ale znamená to, že pokud zapomenete heslo, nemůžeme vaše data obnovit.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point = Proto je vytvoření obnovovacího klíče k účtu tak důležité – svůj klíč můžete použít k získání dat zpět.
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Pojďme vytvořit váš obnovovací klíč k účtu
 # The text of the "submit" button in the first view of the Account Recovery Key Create flow

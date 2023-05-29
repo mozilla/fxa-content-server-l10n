@@ -195,6 +195,7 @@ cadReminderFirst-action = Synchronizovat další zařízení
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaci jsou potřeba dva
+cadReminderFirst-description-1 = Panely můžete používat ve všech zařízeních. Získejte své záložky, hesla a další data všude, kde používáte { -brand-firefox }. Je to jako mít kouzlo ve svém účtu { -brand-firefox }!
 cadReminderFirst-description-2 = Synchronizace trvá jen chvíli.
 cadReminderSecond-subject-2 = Na nic nečekejte a dokončete nastavení synchronizace
 cadReminderSecond-action = Synchronizovat další zařízení
@@ -211,6 +212,8 @@ downloadSubscription-content-2 = Začněte používat všechny funkce, které js
 downloadSubscription-link-action-2 = Začít
 fraudulentAccountDeletion-subject = Váš { -product-firefox-account(capitalization: "lower") } byl smazán
 fraudulentAccountDeletion-title = Váš účet byl smazán
+fraudulentAccountDeletion-content = Nedávno byl vytvořen účet { -product-firefox-account } a pomocí této e-mailové adresy bylo účtováno předplatné. Stejně jako u všech nových účtů jsme vás požádali o potvrzení účtu nejprve ověřením této e-mailové adresy.
+fraudulentAccountDeletion-content-2 = V současné době vidíme, že účet nebyl nikdy potvrzen. Protože tento krok nebyl dokončen, nejsme si jisti, zda se jednalo o autorizované předplatné. V důsledku toho byl smazán { -product-firefox-account } zaregistrovaný na tuto e-mailovou adresu, vaše předplatné bylo zrušeno a všechny poplatky byly vráceny.
 fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte prosím náš <a data-l10n-name="mozillaSupportUrl">tým podpory</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
