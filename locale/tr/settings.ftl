@@ -91,7 +91,7 @@ choose-what-to-sync-option-creditcards =
 ## Users will see this page if a confirmation link was sent to their email address
 
 # Button to resend an email with the confirmation link
-confirm-with-link-resend-link-button = Gelen kutusunda da spam klasöründe de yok mu? Yeniden gönder
+confirm-with-link-resend-link-button = Gelen kutusunda ve spam klasöründe göremediniz mi? Yeniden gönderin
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Geri
 
@@ -787,7 +787,7 @@ switch-is-off = kapalı
 row-defaults-action-add = Ekle
 row-defaults-action-change = Değiştir
 row-defaults-action-disable = Devre dışı bırak
-row-defaults-status = Hiçbiri
+row-defaults-status = Yok
 
 ## Account recovery key sub-section on main Settings page
 
