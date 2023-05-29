@@ -427,6 +427,22 @@ subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt fornyes automati
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Betalingskortet for { $productName } har utløpt eller utløper snart
+subscriptionPaymentExpired-title-1 = Ditt betalingskort er utløpt eller i ferd med å utløpe
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Betaling for { $productName } mislyktes
+subscriptionPaymentFailed-title = Beklager, vi har problemer med betalingen din
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Vi hadde et problem med den siste betalingen din for { $productName }.
+subscriptionPaymentFailed-content-outdated = Det kan være at betalingskortet ditt er utløpt, eller at din nåværende betalingsmåte er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { $productName }
+subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmetoden din
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
 unblockCode-subject = Godkjenningskode for konto
