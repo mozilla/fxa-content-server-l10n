@@ -372,6 +372,9 @@ subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDat
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Betalingskortet for { $productName } har gått ut, eller går ut snart
 subscriptionPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Betalingskortet du brukar for å betale for { $productName } har gått ut eller går snart ut.
 subscriptionPaymentFailed-content-outdated = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables
