@@ -319,10 +319,16 @@ postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveAccountRecovery-invalid-2 = Du treng ein kontogjenopprettingsnøkkel for å gjenopprette { -brand-firefox }-dataa dine dersom du gløymer passordet ditt.
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Du har sletta { $secondaryEmail } som ei sekundær e-postadresse frå { -product-firefox-account }en din. Sikkerheitsmeldingar og innloggingsstadfestingar vil ikkje lenger bli leverte til denne adressa.
 postRemoveSecondary-action = Handsam kontoen
+postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-godkjenning er slått av
+postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
+postRemoveTwoStepAuthentication-not-required-2 = Du treng ikkje lenger sikkerheitskodar frå autentiseringsappen når du loggar inn.
 postVerify-subject-3 = Velkomen til { -brand-firefox }!
 postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
@@ -385,6 +391,7 @@ subscriptionPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = Betalingskortet du brukar for å betale for { $productName } har gått ut eller går snart ut.
 subscriptionPaymentFailed-content-outdated = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
+subscriptionPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
 subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
