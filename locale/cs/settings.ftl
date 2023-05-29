@@ -593,6 +593,7 @@ delete-account-header =
     .title = Smazat účet
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
+delete-account-confirm-title-3 = Možná jste svůj { -product-firefox-account(case: "acc", capitalization: "lower") }  připojili k jednomu nebo více z následujících produktů nebo služeb od { -brand-mozilla(case: "gen") }, které vám zajišťují bezpečnost a produktivitu na webu:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
