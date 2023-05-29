@@ -1,6 +1,6 @@
 ## Non-email strings
 
-session-verify-send-push-title = Logger inn på { -product-firefox-accounts }?
+session-verify-send-push-title = Logger du inn på { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Klikk her for å bekrefte at det er deg
 
 ## Email content
@@ -213,7 +213,7 @@ downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = Din { -product-firefox-account } ble slettet
 fraudulentAccountDeletion-title = Kontoen din ble slettet
 fraudulentAccountDeletion-content = Nylig ble en { -product-firefox-account } opprettet og et abonnement ble belastet med denne e-postadressen. Som vi gjør med alle nye kontoer, ba vi deg bekrefte kontoen din ved først å validere denne e-postadressen.
-fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-firefox-account } registrert på denne e-postadressen slettet og abonnementet ditt ble kansellert med alle kostnader refundert.
+fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-firefox-account } registrert på denne e-postadressen slettet og abonnementet ditt ble avsluttet med alle kostnader refundert.
 fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -358,14 +358,14 @@ subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Du har nylig slettet { -product-firefox-account }en din. Som et resultat har vi kansellert ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Du har nylig slettet { -product-firefox-account }en din. Som et resultat har vi avsluttet ditt abonnement på { $productName }. Den endelige betalingen på { $invoiceTotal } ble betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Velg et passord.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
-subscriptionAccountFinishSetup-content-processing = Betalingen din behandles og kan ta opptil fire virkedager å fullføre. Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+subscriptionAccountFinishSetup-content-processing = Betalingen din behandles og kan ta opptil fire virkedager å fullføre. Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 subscriptionAccountFinishSetup-content-create-2 = Deretter oppretter du et { -product-firefox-account }-passord for å begynne å bruke ditt nye abonnement.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
@@ -405,7 +405,7 @@ subscriptionDowngrade-content-switch = Du har byttet fra { $productNameOld } til
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
-subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ditt abonnement på { $productName } har blit avsluttet
@@ -423,14 +423,14 @@ subscriptionFirstInvoice-content-processing = Betalingen din behandles for øyeb
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Du vil motta en separat e-post om hvordan du begynner å bruke { $productName }.
-subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Betalingskortet for { $productName } har utløpt eller utløper snart
-subscriptionPaymentExpired-title-1 = Ditt betalingskort er utløpt eller i ferd med å utløpe
+subscriptionPaymentExpired-title-1 = Ditt betalingskort har utløpt eller i ferd med å utløpe
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = Betalingskortet du bruker for å utføre betalinger for { $productName }, har utløpt eller er i ferd med å utløpe.
@@ -446,8 +446,9 @@ subscriptionPaymentFailed-content-outdated = Det kan være at betalingskortet di
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { $productName }
 subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmetoden din
+subscriptionPaymentProviderCancelled-content-reason = Det kan være at betalingskortet ditt er utløpt, eller at din nåværende betalingsmåte er utdatert.
 subscriptionUpgrade-title = Takk for at du oppgraderer!
-subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som logger inn?
 unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
