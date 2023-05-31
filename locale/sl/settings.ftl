@@ -436,14 +436,14 @@ flow-recovery-key-hint-message = Dodajte namig o tem, kje ste shranili ključ za
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Vnesite namig za prostor za shranjevanje (izbirno)
+    .label = Vnesite namig za shranjevanje (izbirno)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončaj
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Ključ za obnovitev računa omogočen.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Ključ za obnovitev računa omogočen in namig za prostor shranjen.
+flow-recovery-key-success-alert-with-hint = Ključ za obnovitev računa omogočen in namig za shranjevanje shranjen.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Namig lahko vsebuje največ 255 znakov.
