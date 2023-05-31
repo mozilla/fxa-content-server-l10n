@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Ilustracija ključavnice
 lightbulb-aria-label =
-    .aria-label = Slika, ki predstavlja ustvarjanje namig za shranjevanje.
+    .aria-label = Slika, ki predstavlja ustvarjanje namiga za shranjevanje.
 
 ## Input Password
 
