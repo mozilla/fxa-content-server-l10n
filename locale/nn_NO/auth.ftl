@@ -341,6 +341,9 @@ postVerifySecondary-title = Sekundær e-post lagt til
 postVerifySecondary-action = Handsam kontoen
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Gløymt passordet ditt?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Vi mottok ein førespurnad om passordendring på { -product-firefox-account }en din frå:
 recovery-action = Lag nytt passord
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
 # Variables:
@@ -421,6 +424,7 @@ subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar f
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
+unblockCode-report = Om ikkje, hjelp oss med å avverje inntrengarar og <a data-l10n-name="reportSignInLink">rapporter dette til oss</a>.
 unblockCode-report-plaintext = Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss.
 confirm-account = Stadfest kontoen
 confirm-account-plaintext = { confirm-account }:
