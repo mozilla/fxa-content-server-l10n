@@ -793,7 +793,7 @@ switch-is-off = vypnuto
 row-defaults-action-add = Přidat
 row-defaults-action-change = Změnit
 row-defaults-action-disable = Zakázat
-row-defaults-status = Žádný
+row-defaults-status = Žádné
 
 ## Account recovery key sub-section on main Settings page
 
@@ -850,7 +850,7 @@ se-make-primary = Nastavit jako hlavní
 se-default-content = Získejte přístup ke svému účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
 se-content-note-1 = Poznámka: záložní e-mailová adresa neumožní obnovit vaše informace — na to budete potřebovat <a>obnovovací klíč k účtu</a>.
 # Default value for the secondary email
-se-secondary-email-none = Žádný
+se-secondary-email-none = Žádná
 
 ##
 
