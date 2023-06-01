@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-01 13:08+0000\n"
+"PO-Revision-Date: 2023-06-01 13:17+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1626,7 +1626,7 @@ msgstr "Stadfest innlogging"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Dersom du mistenkjer at nokon prøver å få tilgang til kontoen din, må du <a id=\"change-password\" href=\"/settings/change_password\">endre passordet ditt.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1642,7 +1642,7 @@ msgstr "Send fane på nytt"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Fekk du ikkje fana? Send ein e-post i staden"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
