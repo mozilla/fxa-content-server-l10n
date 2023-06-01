@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-01 13:17+0000\n"
+"PO-Revision-Date: 2023-06-01 13:25+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1634,7 +1634,7 @@ msgstr "Send push-varsel for innlogging"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Sjekk, på dei tilkopla Firefox-einingane dine, om du har fått fana for innloggingsstafesting vi sende."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
