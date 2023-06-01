@@ -11,16 +11,18 @@
 banner-dismiss-button =
     .aria-label = Lat att
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Nøkkel:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Nøkkel generert: { $downloadDate }
@@ -140,6 +142,7 @@ get-data-trio-print-2 =
     .aria-label = Skriv ut
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
 ## Input Password
@@ -323,6 +326,31 @@ drop-down-menu-sign-out = Logg ut
 
 flow-container-back = Tilbake
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Neste
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fullfør
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Avbryt
+
 # HeaderLockup component
 
 header-menu-open = Lat att meny
@@ -488,6 +516,9 @@ recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
 recovery-key-success-alert-3 = Kontogjenopprettingsnøkkel oppretta
 
+## PageRecoveryKeyCreate
+
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Steg 1 av 2
@@ -534,6 +565,10 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
+tfa-input-enter-totp-v2 =
+    .label = SKriv inn godkjenningskode
+tfa-enter-recovery-code-1 =
+    .label = Skriv inn ein backup authentication code
 
 ##
 
@@ -553,6 +588,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Steg { $currentStep } av { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -590,6 +630,8 @@ rk-header-1 = Kontogjenopprettingsnøkkel
 rk-enabled = Aktivert
 rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Endre
 rk-action-remove = Fjern
 rk-key-removed-2 = Gjenopprettingsnøkkel for konto fjerna
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
@@ -632,6 +674,8 @@ tfa-row-change-modal-confirm = Endre
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+continue-with-google-button = Hald fram med { -brand-google }
+continue-with-apple-button = Hald fram med { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -639,9 +683,12 @@ auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
 auth-error-105-2 = Ugyldig stadfestingskode
 auth-error-110 = Ugyldig token
+auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
+auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-999 = Uventa feil
 auth-error-1008 = Det må vere eit nytt passord
+auth-error-1011 = Gyldig e-postadresse påkravd
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -687,6 +734,8 @@ inline-recovery-continue-button = Hald fram
 # This button allows user to verify one of their recovery codes to show they downloaded them
 inline-recovery-confirm-button = Stadfest
 inline-recovery-back-link = Tilbake
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reserve-godkjenningskode
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -739,6 +788,8 @@ pair-auth-complete-manage-devices-link = Handsam einingar
 auth-totp-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Stadfest
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Godkjenningskode påkravd
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -753,6 +804,7 @@ pair-failure-message = Installasjonsprosessen vart avslutta.
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
+pair-cad-header = Kople { -brand-firefox } til ei anna eining
 pair-already-have-firefox-paragraph = Har du allereie { -brand-firefox } på ein telefon eller eit nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser eininga di
@@ -905,6 +957,8 @@ signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
 signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
 signin-totp-code-recovery-code-link = Har du poblem med å taste inn koden?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Godkjenningskode påkravd
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
@@ -926,10 +980,17 @@ confirm-signup-code-confirm-button = Stadfest
 confirm-signup-code-code-expired = Har koden gått ut?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send ny kode på e-post.
+confirm-signup-code-success-alert = Kontoen er stadfesta
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Angje passord
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Kvifor må eg opprette denne kontoen? <LinkExternal>Finn ut av det her</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
