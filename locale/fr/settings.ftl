@@ -186,7 +186,7 @@ recovery-key-image-aria-label =
 lock-image-aria-label =
     .aria-label = Une illustration d’un cadenas
 lightbulb-aria-label =
-    .aria-label = Illustration représentant la création d’une indication de stockage.
+    .aria-label = Illustration représentant la création d’un indice de lieu de stockage.
 
 ## Input Password
 
@@ -418,23 +418,23 @@ flow-recovery-key-download-next-link = Suivant
 
 # The header of the fourth step in the account recovery key creation flow
 # "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Génial ! Maintenant, ajoutez un indice de stockage
+flow-recovery-key-hint-header = Super ! Ajoutez à présent un indice pour le lieu de stockage
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Ajouter un indice sur l’endroit où vous avez stocké la clé de récupération de votre compte. Nous pourrons vous l’afficher lors de la réinitialisation du mot de passe afin de récupérer vos données.
+flow-recovery-key-hint-message = Ajoutez un indice sur l’endroit où vous avez stocké votre clé de récupération du compte. Nous pourrons l’afficher lors de la réinitialisation du mot de passe afin de récupérer vos données.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
-    .label = Saisissez votre indice de stockage (facultatif)
+    .label = Saisissez votre indice de lieu de stockage (facultatif)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Terminer
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Clé de récupération du compte activée.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Clé de récupération de compte activée et indice de stockage enregistré.
+flow-recovery-key-success-alert-with-hint = Clé de récupération de compte activée et indice de lieu de stockage enregistré.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = L’indice doit contenir moins de 225 caractères.
+flow-recovery-key-hint-char-limit-error = L’indice doit contenir moins de 225 caractères.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = L’indice ne peut pas contenir de caractères Unicode non sûrs. Seuls les lettres, les nombres, les signes de ponctuation et les symboles sont autorisés.
