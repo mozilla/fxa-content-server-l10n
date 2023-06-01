@@ -608,6 +608,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Jatka
 delete-account-password-input =
     .label = Kirjoita salasana
+pocket-delete-notice = Jos tilaat tai olet tilannut Pocket Premiumin, varmista, että <a>peruutat tilauksesi</a> ennen tilisi poistamista.
 delete-account-cancel-button = Peruuta
 delete-account-delete-button-2 = Poista
 
