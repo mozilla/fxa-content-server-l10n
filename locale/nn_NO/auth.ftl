@@ -338,6 +338,9 @@ postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
 postVerifySecondary-subject = Sekundær e-post lagt til
 postVerifySecondary-title = Sekundær e-post lagt til
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Du har stadfesta { $secondaryEmail } som ei sekundær e-postadresse for { -product-firefox-account }en din. Tryggingsvarsel og innloggingsstadfestingar vil no bli leverte til begge e-postadressene.
 postVerifySecondary-action = Handsam kontoen
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Gløymt passordet ditt?
