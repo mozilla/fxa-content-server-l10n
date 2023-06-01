@@ -362,6 +362,8 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
+subscriptionAccountFinishSetup-content-processing = Betalinga din vert behandla og kan ta opptil fire yrkedagar å fullføre. Abonnementet ditt vert fornya automatisk kvar faktureringsperiode, dersom du ikkje vel å avslutte.
+subscriptionAccountFinishSetup-content-create-2 = Deretter opprettar du eit { -product-firefox-account }-passord for å byrje å bruke det nye abonnementet ditt.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
