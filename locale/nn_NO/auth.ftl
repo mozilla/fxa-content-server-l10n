@@ -344,8 +344,18 @@ recovery-title-2 = Gløymt passordet ditt?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Vi mottok ein førespurnad om passordendring på { -product-firefox-account }en din frå:
+recovery-new-password-button = Opprett eit nytt passord ved å klikke på knappen nedanfor. Denne lenka vil gå ut innan den neste timen.
+recovery-copy-paste = Opprett eit nytt passord ved å kopiere og lime inn nettadressa nedanfor i nettlesaren din. Denne lenka vil gåp ut innan den neste timen.
 recovery-action = Lag nytt passord
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Abonnentet ditt på { $productName } her avslutta
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Du har nyleg sletta { -product-firefox-account }en din. Som eit resultat har vi avslutta abonnementet ditt på { $productName }. Den endelege betalinga på { $invoiceTotal } vart betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit passord.
