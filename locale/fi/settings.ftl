@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Tilin palautusavainta esittävä kuva.
 lock-image-aria-label =
     .aria-label = Lukon kuva
+lightbulb-aria-label =
+    .aria-label = Talletusvihjeen luomista esittävä kuva.
 
 ## Input Password
 
@@ -426,11 +428,22 @@ flow-recovery-key-download-next-link = Seuraava
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
+flow-recovery-key-hint-header = Loistavaa! Lisää nyt talletusvihje
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message = Lisää vihje siitä, mihin talletit tilin palautusavaimen. Voimme näyttää vihjeen sinulle salasanan nollaamisen aikana tietojen palauttamiseksi.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input =
+    .label = Kirjoita talletusvihje (valinnainen)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Valmis
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
 flow-recovery-key-success-alert-no-hint = Tilin palautusavain käytössä.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Tilin palautusavain käytössä ja talletusvihje tallennettu.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Vihje saa sisältää alle 255 merkkiä.
