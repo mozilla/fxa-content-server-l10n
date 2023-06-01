@@ -367,12 +367,19 @@ subscriptionAccountFinishSetup-content-create-2 = Deretter opprettar du eit { -p
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påminning: Fullfør oppretting av kontoen din
 subscriptionAccountReminderFirst-title = Du har ikkje tilgang til abonnementet ditt enno
+subscriptionAccountReminderFirst-content-info-2 = For nokre dager sidan oppretta du ein { -product-firefox-account }, men stadfesta han aldri. Vi håper du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnemenet ditt.
+subscriptionAccountReminderFirst-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
 subscriptionAccountReminderSecond-title = Velkomen til { -brand-firefox }
+subscriptionAccountReminderSecond-content-info-2 = For nokre dager sidan oppretta du ein { -product-firefox-account }, men stadfesta han aldri. Vi håper du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnement ditt.
+subscriptionAccountReminderSecond-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Abonnementet ditt på { $productName } er avslutta
 subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 
 ## Variables
@@ -380,6 +387,11 @@ subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Vi har avslutta { $productName }-abonnementet ditt. Den endelege betalinga på { $invoiceTotal } vart betalt { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Vi har avslutta { $productName }-abonnementet ditt. Den endelege betalinga di på { $invoiceTotal } vert betalt { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Tenesta di vil halde fram til slutten av gjeldande faktureringsperiode, som er { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Du har bytt til { $productName }
