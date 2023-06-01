@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-01 19:13+0000\n"
+"PO-Revision-Date: 2023-06-01 19:26+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1829,7 +1829,7 @@ msgstr "<span class=\"number\">4</span>Logg inn på kontoen din"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Vern dine data med ein kontogjenopprettingsnøkkel"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."

@@ -424,9 +424,23 @@ subscriptionPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = Betalingskortet du brukar for å betale for { $productName } har gått ut eller går snart ut.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Betalinga for %(productName)s var mislykka
+subscriptionPaymentFailed-title = Beklagar, vi har problem med betalinga di
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Vi hadde eit problem med den siste betalinga din for { $productName }.
 subscriptionPaymentFailed-content-outdated = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon er påkravd for { $productName }
 subscriptionPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
 subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingskortet ditt har gått ut, eller at den gjeldande betalingsmåten din er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Abonnementet på { $productName } er aktivert på nytt
+subscriptionRenewalReminder-title = Abonnentet ditt vil snart verte fornya
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
@@ -461,6 +475,7 @@ confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
 verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
+verificationReminderSecond-title-2 = Gå ikkje glipp av { -brand-firefox }!
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-2 = Opne internett med { -brand-firefox }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
