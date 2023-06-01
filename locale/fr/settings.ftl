@@ -429,7 +429,7 @@ flow-recovery-key-hint-input =
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Terminer
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Clé de récupération de compte activée.
+flow-recovery-key-success-alert-no-hint = Clé de récupération du compte activée.
 # Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
 flow-recovery-key-success-alert-with-hint = Clé de récupération de compte activée et indice de stockage enregistré.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -609,7 +609,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuer
 delete-account-password-input =
     .label = Saisissez votre mot de passe
-pocket-delete-notice = Si vous êtes abonné·e à Pocket Premium, assurez-vous de <a>annuler votre abonnement</a> avant de supprimer votre compte.
+pocket-delete-notice = Si vous êtes abonné·e à Pocket Premium, assurez-vous <a>d’annuler votre abonnement</a> avant de supprimer votre compte.
 delete-account-cancel-button = Annuler
 delete-account-delete-button-2 = Supprimer
 
