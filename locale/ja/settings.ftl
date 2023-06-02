@@ -422,6 +422,8 @@ flow-recovery-key-info-header = パスワードを忘れた場合に備えてア
 flow-recovery-key-info-shield-bullet-point = パスワードやブックマークなどのブラウジングデータは暗号化されます。これは、プライバシー保護には優れていますが、パスワードを忘れた場合にデータを回復できないことを意味します。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = そのため、アカウント回復用キーの作成が非常に重要です。キーを使用してデータを取り戻すことができます。
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = キャンセル
 
 # HeaderLockup component
 
