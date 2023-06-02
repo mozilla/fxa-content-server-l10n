@@ -426,7 +426,7 @@ subscriptionPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er
 subscriptionPaymentExpired-content-1 = Betalingskortet du brukar for å betale for { $productName } har gått ut eller går snart ut.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentFailed-subject = Betalinga for %(productName)s var mislykka
+subscriptionPaymentFailed-subject = Betalinga for { $productName } var mislykka
 subscriptionPaymentFailed-title = Beklagar, vi har problem med betalinga di
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
