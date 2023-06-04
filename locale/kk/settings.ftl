@@ -13,17 +13,23 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Бірнәрсе қате кетті. Жаңа сілтемені жіберу мүмкін емес.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Бірнәрсе қате кетті. Жаңа кодты жіберу мүмкін емес.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Кілт:  { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Кілт жасалды: { $downloadDate }
@@ -144,6 +150,7 @@ get-data-trio-print-2 =
     .aria-label = Баспаға шығару
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Компьютер мен ұялы телефон және әрқайсысында жаралы жүректің суреті
@@ -368,10 +375,23 @@ drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу к
 
 flow-container-back = Артқа
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Баптауларға оралу
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
 
 # HeaderLockup component
 
@@ -569,7 +589,7 @@ recovery-key-step-1 = Қадам 1, барлығы 2
 recovery-key-step-2 = Қадам 2, барлығы 2
 recovery-key-success-alert-3 = Тіркелгіні қалпына келтіру кілті жасалды
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 
 ## Add secondary email page
