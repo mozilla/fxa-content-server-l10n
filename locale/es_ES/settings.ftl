@@ -386,19 +386,31 @@ flow-container-back = Atrás
 
 flow-recovery-key-confirm-pwd-heading = Introduce tu contraseña de nuevo para empezar
 flow-recovery-key-confirm-pwd-input-label = Introduce tu contraseña
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Crear una clave de recuperación de cuenta
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link = Siguiente
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finalizar
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Clave de recuperación de cuenta activada.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Cancelar
 
 # HeaderLockup component
 
@@ -573,6 +585,8 @@ display-name-success-alert-2 = Nombre visible actualizado
 
 recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create = Se ha creado la cuenta
+recent-activity-account-disable = La cuenta fue desactivada
+recent-activity-account-enable = La cuenta fue activada
 
 # Account recovery key setup page
 
@@ -590,6 +604,9 @@ recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
 
 ## PageRecoveryKeyCreate
 
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Volver a los ajustes
 
 ## Add secondary email page
 
@@ -718,6 +735,8 @@ rk-header-1 = Clave de recuperación de cuenta
 rk-enabled = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Cambiar
 rk-action-remove = Eliminar
 rk-cannot-refresh-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Clave de recuperación de cuenta eliminada
@@ -731,6 +750,8 @@ rk-remove-modal-content-1 =
     usar tu clave de recuperación de cuenta para acceder a tus datos. No puedes deshacer esta acción.
 rk-refresh-error-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se ha podido eliminar la clave de recuperación de tu cuenta
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Eliminar clave de recuperación de cuenta
 
 ## Secondary email sub-section on main Settings page
 
@@ -800,10 +821,16 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Al continuar, aceptas:
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = O
 continue-with-google-button = Continuar con { -brand-google }
 continue-with-apple-button = Continuar con { -brand-apple }
 
@@ -943,6 +970,10 @@ pair-failure-message = Proceso de configuración interrumpido.
 
 pair-sync-header = Sincronizar { -brand-firefox } en tu teléfono o tableta
 pair-cad-header = Conectar { -brand-firefox } en otro dispositivo
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincroniza tu dispositivo
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = O descargar
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ahora no
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -1007,6 +1038,8 @@ create-new-password-header = Crear nueva contraseña
 account-restored-success-message = Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Contraseña establecida
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Se ha encontrado un error inesperado
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
