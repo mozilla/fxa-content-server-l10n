@@ -18,22 +18,21 @@ link-expired-resent-link-error-message = Ha habido un problema. No se ha podido 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Ha habido un problema. No se ha podido enviar un nuevo código.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
-# .title will displayed as a tooltip on the button
-recovery-key-download-button = Descarga tu clave de recuperación
-    .title = Descargar
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
 # 🔑 is included for visual interest and to draw attention to the key
 recovery-key-file-key-value = 🔑 Clave: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date = • Clave generada: { $downloadDate }
@@ -154,6 +153,7 @@ get-data-trio-print-2 =
     .aria-label = Imprimir
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Un ordenador, un teléfono móvil y la imagen de un corazón roto en cada uno.
@@ -165,6 +165,17 @@ signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Un sobre que contiene un enlace
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+lock-image-aria-label =
+    .aria-label = Una ilustración de un candado
+lightbulb-aria-label =
+    .aria-label = Ilustración para representar la creación de una sugerencia de almacenamiento.
 
 ## Input Password
 
@@ -369,7 +380,24 @@ drop-down-menu-sign-out-error-2 = Lo sentimos, ha surgido un problema al cerrar 
 
 flow-container-back = Atrás
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+flow-recovery-key-confirm-pwd-heading = Introduce tu contraseña de nuevo para empezar
+flow-recovery-key-confirm-pwd-input-label = Introduce tu contraseña
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
 # HeaderLockup component
@@ -560,7 +588,7 @@ recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
 recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 
 ## Add secondary email page

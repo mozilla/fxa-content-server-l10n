@@ -124,6 +124,7 @@ payment-confirmation-download-button = Continuar para descargar
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago el importe mostrado, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
+payment-confirm-checkbox-error = Debes completar esto antes de seguir adelante
 
 ## Component - PaymentErrorView
 
@@ -165,6 +166,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -b
 payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Primero tendrás que aprobar tu suscripción
 
 ## Component - PaymentProcessing
 
