@@ -173,6 +173,10 @@ signin-totp-code-image-label =
     .aria-label = Mba’e’oka ayvu kañymby 6 tai reheve.
 confirm-signup-aria-label =
     .aria-label = Mba’yru oguerekóva juajuha
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
@@ -428,6 +432,8 @@ flow-recovery-key-success-alert-no-hint = Ijurujáma mba’ete guerujeyrã.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
 # The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
 flow-recovery-key-info-cta-text-v2 = Emoheñói ne mba’ete mba’eñemi guerujeyrã
 # The text of the "submit" button in the first view of the Account Recovery Key Create flow
@@ -484,6 +490,7 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Oiko apañuãi emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
+tfa-create-code-error = Oiko apañuãi emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
 tfa-replace-code-success-1 =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
