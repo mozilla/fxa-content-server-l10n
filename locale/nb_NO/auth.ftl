@@ -447,6 +447,9 @@ subscriptionPaymentFailed-content-outdated = Det kan være at betalingskortet di
 subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { $productName }
 subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmetoden din
 subscriptionPaymentProviderCancelled-content-reason = Det kan være at betalingskortet ditt er utløpt, eller at din nåværende betalingsmåte er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName }-abonnement reaktiveret
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto
