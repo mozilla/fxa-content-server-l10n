@@ -311,6 +311,7 @@ cs-recent-activity = Nyleg kontoaktivitet
 
 dc-heading = Datainnsamling og bruk
 dc-subheader = Hjelp til med å forbetre { -product-firefox-accounts }
+dc-subheader-content = Tillat { -product-firefox-accounts } å sende tekniske data og brukardata til { -brand-mozilla }.
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
