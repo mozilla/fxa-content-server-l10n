@@ -427,15 +427,36 @@ flow-recovery-key-hint-message = Add a hint about where you stored your account 
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input =
     .label = Enter your storage hint (optional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finish
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
+flow-recovery-key-success-alert-no-hint = Account recovery key enabled.
+# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
+flow-recovery-key-success-alert-with-hint = Account recovery key enabled and storage hint saved.
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = The hint must contain fewer than 255 characters.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = The hint cannot contain unsafe unicode characters. Only letters, numbers, punctuation marks and symbols are allowed.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Create an account recovery key in case you forget your password
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Change your account recovery key
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point = We encrypt browsing data –– passwords, bookmarks, and more. It’s great for privacy, but it means we can’t recover your data if you forget your password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point = That’s why creating an account recovery key is so important –– you can use your key to get your data back.
+# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
+flow-recovery-key-info-cta-text-v2 = Start creating your account recovery key
+# The text of the "submit" button in the first view of the Account Recovery Key Create flow
+flow-recovery-key-info-cta-text-change-key = Change account recovery key
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Cancel
 
 # HeaderLockup component
 
@@ -590,6 +611,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Enter password
+pocket-delete-notice = If you subscribe to Pocket Premium, please make sure that you <a>cancel your subscription</a> before deleting your account.
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
@@ -638,6 +660,9 @@ recovery-key-success-alert-3 = Account recovery key created
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Account Recovery Key
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Back to settings
 
 ## Add secondary email page
 
@@ -730,6 +755,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Step { $currentStep } of { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -768,6 +798,8 @@ rk-header-1 = Account recovery key
 rk-enabled = Enabled
 rk-not-set = Not set
 rk-action-create = Create
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Change
 rk-action-remove = Remove
 rk-cannot-refresh-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-key-removed-2 = Account recovery key removed
@@ -781,6 +813,8 @@ rk-remove-modal-content-1 =
     able to use your account recovery key to access your data. You can’t undo this action.
 rk-refresh-error-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-remove-error-2 = Your account recovery key could not be removed
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Delete account recovery key
 
 ## Secondary email sub-section on main Settings page
 
@@ -886,6 +920,7 @@ auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
+auth-error-1011 = Valid email required
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
