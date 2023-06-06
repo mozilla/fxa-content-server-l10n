@@ -397,24 +397,49 @@ flow-container-back = Zpět
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Z důvodu zabezpečení zadejte znovu své heslo
 flow-recovery-key-confirm-pwd-input-label = Zadání hesla
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Vytvořit obnovovací klíč k účtu
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Vytvořit nový obnovovací klíč k účtu
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Obnovovací klíč k účtu byl vytvořen — stáhněte si jej a uložte
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Tento klíč umožňuje obnovit data, pokud zapomenete heslo. Stáhněte si jej nyní a uložte na místo, které si budete pamatovat — později se na tuto stránku nebudete moci vrátit.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Pokračovat bez stahování
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Přidejte nápovědu, která vám pomůže najít klíč
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Tato nápověda by vám měla pomoci zapamatovat si, kam jste uložili obnovovací klíč k účtu. Ukážeme vám jej, když jej použijete k obnově dat.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Zadejte nápovědu (volitelné)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončit
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Místa pro uložení vašeho klíče:
+flow-recovery-key-download-storage-ideas-folder-v2 = Složka na zabezpečeném zařízení
 flow-recovery-key-download-storage-ideas-cloud = Důvěryhodné cloudové úložiště
+flow-recovery-key-download-storage-ideas-print-v2 = Tištěná fyzická kopie
 flow-recovery-key-download-storage-ideas-pwd-manager = Správce hesel
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Obnovovací klíč k účtu byl vytvořen
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Nápověda musí mít méně než 255 znaků.
@@ -428,6 +453,8 @@ flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpe
 flow-recovery-key-info-header = Vytvořte si obnovovací klíč k účtu pro případ, když zapomenete své heslo
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Změna vašeho obnovovacího klíče k účtu
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Začít
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušit
 
