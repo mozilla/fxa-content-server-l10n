@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kó
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Töltse le a fiók-helyreállítási kulcsot
-    .title = Letöltés
+recovery-key-download-button-v3 = Letöltés és folytatás
+    .title = Letöltés és folytatás
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = MENTSE EL A FIÓK-HELYREÁLLÍTÁSI KULCSÁT
@@ -34,19 +35,18 @@ recovery-key-file-header = MENTSE EL A FIÓK-HELYREÁLLÍTÁSI KULCSÁT
 recovery-key-file-instructions = Tárolja ezt a fiók-helyreállítási kulcsát tartalmazó fájlt egy olyan helyen, amelyre emlékezni fog. Vagy nyomtassa ki és tartson meg egy másolatot. A fiók-helyreállítási kulcsa segíthet a { -brand-firefox } adatainak helyreállításában, ha elfelejti a jelszavát.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Kulcs: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Kulcs: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Kulcs előállítva: { $downloadDate }
+recovery-key-file-download-date-v2 = * Kulcs előállítva: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Tudjon meg többet a fiók-helyreállítási kulcsáról: { $supportURL }
+recovery-key-file-support-v2 = * Tudjon meg többet a fiók-helyreállítási kulcsáról: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,49 @@ flow-container-back = Vissza
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = A kezdéshez adja meg újra a jelszavát
+flow-recovery-key-confirm-pwd-heading-v2 = Biztonsági okokból adja meg újra a jelszavát
 flow-recovery-key-confirm-pwd-input-label = Írja be a jelszavát
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Fiók-helyreállítási kulcs létrehozása
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Új fiók-helyreállítási kulcs létrehozása
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Fiók-helyreállítási kulcs előállítva – tárolja olyan helyen, amelyre emlékezni fog
+flow-recovery-key-download-heading-v2 = Fiók-helyreállítási kulcs létrehozva – Töltse le és tárolja most
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Ez a kulcs segít helyreállítani az adatait, ha elfelejti a jelszavát.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Néhány ötlet a fiók-helyreállítási kulcs tárolásához:
-flow-recovery-key-download-storage-ideas-folder = Emlékezetes mappa az eszközén
-flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
-flow-recovery-key-download-storage-ideas-print = Nyomtasson ki és tartson meg egy fizikai másolatot
-flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
+flow-recovery-key-download-info-v2 = Ez a kulcs lehetővé teszi az adatok helyreállítását, ha elfelejti a jelszavát. Töltse le most, és tárolja valahol, ahová emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Tovább
+flow-recovery-key-download-next-link-v2 = Folytatás letöltés nélkül
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Nagyszerű! Most adjon hozzá egy tárolási tippet.
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Tipp hozzáadása, ami segít megtalálni a kulcsát
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Tipp hozzáadása arról, hogy hol tárolta a fiók-helyreállítási kulcsát. Meg tudjuk jeleníteni a jelszó-visszaállításkor, hogy helyreállítsuk az adatait.
+flow-recovery-key-hint-message-v2 = Ez a tipp segít megjegyezni, hogy hol tárolta a fiók-helyreállítási kulcsot. Meg fogjuk mutatni Önnek, ha az adatai helyreállításához használja.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Adja meg a tárolási tippet (nem kötelező)
+flow-recovery-key-hint-input-v2 =
+    .label = Adjon meg egy tippet (nem kötelező)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Befejezés
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Fiók-helyreállítási kulcs engedélyezve.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = A fiók-helyreállítási kulcs engedélyezve, és a tárolási tipp mentve.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Kulcstároló helyek:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappa a biztonságos eszközön
+flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
+flow-recovery-key-download-storage-ideas-print-v2 = Kinyomtatott fizikai másolat
+flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Fiók-helyreállítási kulcs létrehozva
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = A tippnek 255 karakternél rövidebbnek kell lennie.
@@ -458,13 +460,11 @@ flow-recovery-key-info-header = Hozzon létre egy fiók-helyreállítási kulcso
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = A fiók-helyreállítási kulcs módosítása
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de ez azt is jelenti, hogy nem tudjuk helyreállítani az adatait, ha elfelejti a jelszavát.
+flow-recovery-key-info-shield-bullet-point-v2 = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de elvesztheti az adatait, ha elfelejti a jelszavát.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja a kulcsát, hogy visszakapja az adatait.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Kezdje el létrehozni a fiók-helyreállítási kulcsát
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Fiók-helyreállítási kulcs módosítása
+flow-recovery-key-info-key-bullet-point-v2 = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja az adatai visszaállítására.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Kezdő lépések
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Mégse
 
@@ -813,7 +813,6 @@ rk-action-create = Létrehozás
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Módosítás
 rk-action-remove = Eltávolítás
-rk-cannot-refresh-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-key-removed-2 = Fiók-helyreállítási kulcs eltávolítva
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key-1 = Fiók-helyreállítási kulcs frissítése
@@ -823,7 +822,6 @@ rk-remove-modal-heading-1 = Eltávolítja a fiók-helyreállítási kulcsot?
 rk-remove-modal-content-1 =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
     a fiók-helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
-rk-refresh-error-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Fiók-helyreállítási kulcs törlése
