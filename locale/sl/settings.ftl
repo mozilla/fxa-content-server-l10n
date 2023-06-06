@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Prenesite ključ za obnovitev računa
-    .title = Prenesi
+recovery-key-download-button-v3 = Prenesi in nadaljuj
+    .title = Prenesi in nadaljuj
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = SHRANITE KLJUČ ZA OBNOVITEV RAČUNA
@@ -34,19 +35,18 @@ recovery-key-file-header = SHRANITE KLJUČ ZA OBNOVITEV RAČUNA
 recovery-key-file-instructions = Shranite to datoteko s ključem za obnovitev računa na mesto, ki si ga boste zapomnili, ali ga natisnite in obdržite fizično kopijo. Ključ za obnovitev računa vam lahko pomaga obnoviti podatke v { -brand-firefox(sklon: "mestnik") }, če pozabite geslo.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Ključ: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Ključ: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Ključ ustvarjen: { $downloadDate }
+recovery-key-file-download-date-v2 = * Ključ ustvarjen: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Več o ključu za obnovitev računa: { $supportURL }
+recovery-key-file-support-v2 = * Več o ključu za obnovitev računa: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,49 @@ flow-container-back = Nazaj
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Za začetek znova vnesite geslo
+flow-recovery-key-confirm-pwd-heading-v2 = Zaradi varnosti znova vnesite geslo
 flow-recovery-key-confirm-pwd-input-label = Vnesite svoje geslo
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Ustvari ključ za obnovitev računa
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Ustvari nov ključ za obnovitev računa
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Ključ za obnovitev računa ustvarjen – shranite ga na mesto, ki si ga boste zapomnili
+flow-recovery-key-download-heading-v2 = Ključ za obnovitev računa ustvarjen — prenesite in shranite ga zdaj
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Ta ključ vam bo pomagal obnoviti podatke, če pozabite geslo.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Nekaj predlogov, kam shraniti ključ za obnovitev računa:
-flow-recovery-key-download-storage-ideas-folder = mapa na računalniku, ki si jo boste zapomnili
-flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblaku
-flow-recovery-key-download-storage-ideas-print = natisnite ga in shranite v fizični obliki
-flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
+flow-recovery-key-download-info-v2 = Ta ključ vam omogoča obnovitev podatkov, če pozabite geslo. Prenesite jo zdaj in jo shranite na mesto, ki si ga boste zapomnili – na to stran se pozneje ne boste mogli vrniti.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Naprej
+flow-recovery-key-download-next-link-v2 = Nadaljuj brez prenosa
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Odlično! Zdaj dodajte namig za shranjevanje
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Dodajte namig, da boste lažje našli svoj ključ
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Dodajte namig o tem, kje ste shranili ključ za obnovitev računa. Lahko vam ga pokažemo med ponastavitvijo gesla za obnovitev podatkov.
+flow-recovery-key-hint-message-v2 = Ta namig vam bo pomagal zapomniti, kje ste shranili ključ za obnovitev računa. Pokazali vam ga bomo, ko boste z njim obnovili svoje podatke.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Vnesite namig za shranjevanje (izbirno)
+flow-recovery-key-hint-input-v2 =
+    .label = Vnesite namig (izbirno)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončaj
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Ključ za obnovitev računa omogočen.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Ključ za obnovitev računa omogočen in namig za shranjevanje shranjen.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Mesta za shranjevanje ključa:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mapa v varni napravi
+flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblaku
+flow-recovery-key-download-storage-ideas-print-v2 = Natisnjena fizična kopija
+flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Obnovitveni ključ za račun ustvarjen
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Namig lahko vsebuje največ 255 znakov.
@@ -458,13 +460,11 @@ flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozab
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Spremenite ključ za obnovitev računa
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je odlično z vidika varovanja zasebnosti, vendar hkrati pomeni, da vaših podatkov ne moremo obnoviti, če pozabite geslo.
+flow-recovery-key-info-shield-bullet-point-v2 = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je super za zasebnost, vendar lahko izgubite podatke, če pozabite geslo.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Začnite ustvarjati ključ za obnovitev računa
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Spremeni ključ za obnovitev računa
+flow-recovery-key-info-key-bullet-point-v2 = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Začnite
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Prekliči
 
@@ -813,7 +813,6 @@ rk-action-create = Ustvari
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Spremeni
 rk-action-remove = Odstrani
-rk-cannot-refresh-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-key-removed-2 = Obnovitveni ključ za račun odstranjen
 rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key-1 = Osveži ključ za obnovitev računa
@@ -823,7 +822,6 @@ rk-remove-modal-heading-1 = Odstrani ključ za obnovitev računa?
 rk-remove-modal-content-1 =
     V primeru, da ponastavite geslo, obnovitvenega ključa
     ne boste mogli uporabiti za dostop do podatkov. Tega dejanja ne morete razveljaviti.
-rk-refresh-error-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-remove-error-2 = Ključa za obnovitev računa ni bilo mogoče odstraniti
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Izbriši ključ za obnovitev računa
