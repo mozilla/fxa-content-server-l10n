@@ -37,7 +37,7 @@ recovery-key-file-instructions = Conservez le fichier contenant la clé de récu
 # "Key" here refers to the term "account recovery key"
 recovery-key-file-key-value-v2 = Clé : { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account } : { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account(capitalization: "uppercase") } : { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
