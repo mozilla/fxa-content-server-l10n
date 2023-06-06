@@ -417,7 +417,7 @@ flow-recovery-key-download-next-link-v2 = Continuer sans télécharger
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Ajouter un indice pour vous aider à retrouver votre clé
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Cet indice devrait vous aider à vous rappeler où vous avez stocké la clé de récupération de votre compte. Nous vous l’afficherons lorsque vous l’utiliserez pour récupérer vos données.
+flow-recovery-key-hint-message-v2 = Cet indice a pour but de vous aider à vous souvenir où vous avez stocké la clé de récupération de votre compte. Nous l’afficherons lorsque vous l’utiliserez pour récupérer vos données.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -427,10 +427,10 @@ flow-recovery-key-hint-input-v2 =
 flow-recovery-key-hint-cta-text = Terminer
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Où stocker votre clé :
-flow-recovery-key-download-storage-ideas-folder-v2 = Dossier sur un appareil sécurisé
+flow-recovery-key-download-storage-ideas-heading-v2 = Où conserver votre clé :
+flow-recovery-key-download-storage-ideas-folder-v2 = Un dossier sur un appareil sécurisé
 flow-recovery-key-download-storage-ideas-cloud = Stockage cloud fiable
-flow-recovery-key-download-storage-ideas-print-v2 = Copie papier
+flow-recovery-key-download-storage-ideas-print-v2 = Une copie papier
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestionnaire de mots de passe
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Clé de récupération de compte créée
@@ -452,7 +452,7 @@ flow-recovery-key-info-shield-bullet-point-v2 = Nous chiffrons les données de n
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = C’est pourquoi créer une clé de récupération de compte est si important : vous pouvez l’utiliser pour restaurer vos données.
 # The text of the "submit" button to start creating (or changing) an account recovery key
-flow-recovery-key-info-cta-text-v3 = Lancez-vous
+flow-recovery-key-info-cta-text-v3 = Commencer
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annuler
 
