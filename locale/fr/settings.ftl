@@ -415,7 +415,7 @@ flow-recovery-key-download-next-link-v2 = Continuer sans télécharger
 
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Ajouter un indice pour vous aider à trouver votre clé
+flow-recovery-key-hint-header-v2 = Ajouter un indice pour vous aider à retrouver votre clé
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 flow-recovery-key-hint-message-v2 = Cet indice devrait vous aider à vous rappeler où vous avez stocké la clé de récupération de votre compte. Nous vous l’afficherons lorsque vous l’utiliserez pour récupérer vos données.
 # The label for the text input where the user types in the storage hint they want to save.
