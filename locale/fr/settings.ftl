@@ -403,9 +403,9 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Créer une nouvelle cl�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Clé de récupération de compte créée — Téléchargez et stockez-la maintenant
+flow-recovery-key-download-heading-v2 = Clé de récupération de compte créée — Téléchargez-la et conservez-la maintenant
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Cette clé vous permet de récupérer vos données si vous oubliez votre mot de passe. Téléchargez-le maintenant et conservez-le dans un endroit sûr — vous ne pourrez pas revenir plus tard sur cette page.
+flow-recovery-key-download-info-v2 = Cette clé vous permet de récupérer vos données si vous oubliez votre mot de passe. Téléchargez-la maintenant et conservez-la en lieu sûr — vous ne pourrez pas revenir sur cette page ultérieurement.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuer sans télécharger
 
