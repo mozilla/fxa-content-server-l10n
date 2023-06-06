@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Si è verificato un problema. Impossibi
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Scarica la chiave di recupero dell’account
-    .title = Scarica
+recovery-key-download-button-v3 = Scarica e continua
+    .title = Scarica e continua
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = SALVA LA CHIAVE DI RECUPERO DELL’ACCOUNT
@@ -34,19 +35,18 @@ recovery-key-file-header = SALVA LA CHIAVE DI RECUPERO DELL’ACCOUNT
 recovery-key-file-instructions = Conserva questo file contenente la chiave di recupero dell’account in una posizione facile da ricordare. Oppure stampalo e conservane una copia fisica. La chiave di recupero dell’account può aiutarti a recuperare i dati di { -brand-firefox } se dimentichi la password.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Chiave: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Chiave: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Chiave generata: { $downloadDate }
+recovery-key-file-download-date-v2 = * Chiave generata: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Ulteriori informazioni sulla chiave di recupero del tuo account: { $supportURL }
+recovery-key-file-support-v2 = * Ulteriori informazioni sulla chiave di recupero del tuo account: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -391,47 +391,49 @@ flow-container-back = Indietro
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Inserisci nuovamente la password per iniziare
+flow-recovery-key-confirm-pwd-heading-v2 = Reinserire la password per motivi di sicurezza
 flow-recovery-key-confirm-pwd-input-label = Inserire la password
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crea una chiave di recupero dell’account
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crea una nuova chiave di recupero dell’account
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Chiave di recupero dell’account generata: conservala in un luogo che ricorderai
+flow-recovery-key-download-heading-v2 = Chiave di recupero dell’account creata: scaricala e salvala subito
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Questa chiave ti aiuterà a recuperare i tuoi dati se dimentichi la password.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Alcune idee per archiviare la chiave di recupero dell’account:
-flow-recovery-key-download-storage-ideas-folder = Una cartella facile da ricordare nel tuo dispositivo
-flow-recovery-key-download-storage-ideas-cloud = Spazio di archiviazione su cloud affidabile
-flow-recovery-key-download-storage-ideas-print = Stampa e conserva una copia fisica
-flow-recovery-key-download-storage-ideas-pwd-manager = Gestore di password
+flow-recovery-key-download-info-v2 = Questa chiave consente di recuperare i propri dati se si dimentica la password. Scaricala adesso e conservala in un luogo facile da ricordare (non sarà possibile ritornare a questa pagina).
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Avanti
+flow-recovery-key-download-next-link-v2 = Continua senza scaricare
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Ottimo! Ora aggiungi un suggerimento per l’archiviazione
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Aggiungi un suggerimento per trovare la chiave
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Aggiungi un suggerimento su dove hai archiviato la chiave di recupero dell’account. Possiamo mostrartelo durante la reimpostazione della password per recuperare i tuoi dati.
+flow-recovery-key-hint-message-v2 = Questo suggerimento dovrebbe aiutarti a ricordare dove hai memorizzato la chiave di recupero dell’account. Te lo mostreremo quando lo utilizzerai per recuperare i tuoi dati.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Inserisci il tuo suggerimento per l’archiviazione (facoltativo)
+flow-recovery-key-hint-input-v2 =
+    .label = Inserisci un suggerimento (facoltativo)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fine
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Chiave di recupero dell’account attivata.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Chiave di recupero dell’account attivata e suggerimento per l’archiviazione salvato.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Luoghi in cui conservare la chiave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Cartella su un dispositivo sicuro
+flow-recovery-key-download-storage-ideas-cloud = Spazio di archiviazione su cloud affidabile
+flow-recovery-key-download-storage-ideas-print-v2 = Copia cartacea
+flow-recovery-key-download-storage-ideas-pwd-manager = Gestore di password
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = La chiave di recupero dell’account è stata generata
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Il suggerimento deve contenere meno di 255 caratteri.
@@ -446,13 +448,11 @@ flow-recovery-key-info-header = Crea una chiave di recupero dell’account nel c
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Modifica la chiave di recupero dell’account
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Crittiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma significa che non possiamo recuperare i tuoi dati se dimentichi la password.
+flow-recovery-key-info-shield-bullet-point-v2 = Crittiamo i dati di navigazione: password, segnalibri e altro ancora. È ottimo per la privacy, ma potresti perdere i tuoi dati se dimentichi la password.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Ecco perché è così importante creare una chiave di recupero dell’account: puoi utilizzare la tua chiave per recuperare i tuoi dati.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Inizia a creare la chiave di recupero dell’account
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Modifica la chiave di recupero dell’account
+flow-recovery-key-info-key-bullet-point-v2 = Ecco perché è così importante creare una chiave di recupero dell’account: puoi usarla per ripristinare i tuoi dati.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Inizia
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annulla
 
@@ -798,7 +798,6 @@ rk-action-create = Crea
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Modifica
 rk-action-remove = Rimuovi
-rk-cannot-refresh-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-key-removed-2 = Eliminata chiave di recupero account
 rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero dell’account.
 rk-refresh-key-1 = Aggiorna la chiave di recupero dell’account
@@ -806,7 +805,6 @@ rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 rk-remove-modal-heading-1 = Rimuovere la chiave di recupero dell’account?
 rk-remove-modal-content-1 = Se decidi di reimpostare la password, non potrai utilizzare la chiave di recupero dell’account per accedere ai tuoi dati. Questa azione è irreversibile.
-rk-refresh-error-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero dell’account.
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Elimina la chiave di recupero dell’account
