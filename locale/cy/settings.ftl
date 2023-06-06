@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Llwythwch eich allwedd adfer i lawr
-    .title = Llwytho i Lawr
+recovery-key-download-button-v3 = Lawrlwythwch a pharhau
+    .title = Lawrlwythwch a pharhau
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = CADWCH ALLWEDD ADFER EICH CYFRIF
@@ -34,19 +35,18 @@ recovery-key-file-header = CADWCH ALLWEDD ADFER EICH CYFRIF
 recovery-key-file-instructions = Cadwch y ffeil hon sy'n cynnwys allwedd adfer eich cyfrif mewn man y byddwch chi'n ei gofio. Neu ei argraffu a chadw copi corfforol. Gall allwedd adfer eich cyfrif eich helpu i adfer data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Allwedd: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Allwedd: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account } : { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account } : { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Allwedd wedi'i chynhyrchu: { $downloadDate }
+recovery-key-file-download-date-v2 = * Allwedd wedi'i chynhyrchu: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Dysgu rhagor am allwedd adfer eich cyfrif: { $supportURL }
+recovery-key-file-support-v2 = * Dysgu rhagor am allwedd adfer eich cyfrif: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -401,47 +401,49 @@ flow-container-back = Nôl
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Rhowch eich cyfrinair eto i ddechrau
+flow-recovery-key-confirm-pwd-heading-v2 = Rhowch eich cyfrinair eto er diogelwch
 flow-recovery-key-confirm-pwd-input-label = Rhowch eich cyfrinair
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crëwch allwedd adfer cyfrif
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crëuwch allwedd adfer newydd
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Allwedd adfer cyfrif wedi'i chynhyrchu - cadwch hi mewn man y byddwch chi'n ei gofio
+flow-recovery-key-download-heading-v2 = Allwedd adfer cyfrif wedi'i chreu - Dadlwythwch a storiwch hi nawr
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Bydd yr allwedd hon yn helpu i adennill eich data os byddwch yn anghofio eich cyfrinair.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Rhai syniadau ar gyfer storio allwedd adfer eich cyfrif:
-flow-recovery-key-download-storage-ideas-folder = Ffolder cofiadwy yn eich dyfais
-flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
-flow-recovery-key-download-storage-ideas-print = Argraffu a chadw copi corfforol
-flow-recovery-key-download-storage-ideas-pwd-manager = Rheolwr cyfrineiriau
+flow-recovery-key-download-info-v2 = Mae'r allwedd hon yn eich galluogi i adennill eich data os byddwch yn anghofio eich cyfrinair. Dadlwythwch ef nawr a'i storio yn rhywle y byddwch chi'n ei gofio - ni fyddwch yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Nesaf
+flow-recovery-key-download-next-link-v2 = Parhewch heb ei lawrlwytho
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Gwych! Nawr ychwanegwch awgrym storio
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Ychwanegwch awgrym i'ch helpu i ddod o hyd i'ch allwedd
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Ychwanegwch awgrym o ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi wrth ailosod y cyfrinair i adennill eich data.
+flow-recovery-key-hint-message-v2 = Dylai'r awgrym hwn eich helpu i gofio ble rydych wedi storio allwedd adfer eich cyfrif. Byddwn yn ei ddangos i chi pan fyddwch yn ei ddefnyddio i adfer eich data.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Rhowch eich awgrym storio (dewisol)
+flow-recovery-key-hint-input-v2 =
+    .label = Rhowch awgrym (dewisol)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Gorffen
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Allwedd adfer cyfrif wedi'i galluogi.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Allwedd adfer cyfrif wedi'i galluogi ac awgrym storio wedi'i gadw.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lleoedd i storio'ch allwedd:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ffolder ar ddyfais ddiogel
+flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
+flow-recovery-key-download-storage-ideas-print-v2 = Copi ffisegol wedi'i argraffu
+flow-recovery-key-download-storage-ideas-pwd-manager = Rheolwr cyfrineiriau
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Crëwyd yr allwedd adfer cyfrif.
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Rhaid i'r awgrym gynnwys llai na 255 nod.
@@ -456,13 +458,11 @@ flow-recovery-key-info-header = Crëwch allwedd adfer cyfrif rhag ofn i chi angh
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Newidiwch allwedd adfer eich cyfrif
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Rydym yn amgryptio data pori –– cyfrineiriau, nodau tudalen, a mwy. Mae'n wych ar gyfer preifatrwydd, ond mae'n golygu na allwn adennill eich data os byddwch yn anghofio eich cyfrinair.
+flow-recovery-key-info-shield-bullet-point-v2 = Rydym yn amgryptio data pori –– cyfrineiriau, nodau tudalen, a mwy. Mae'n wych ar gyfer preifatrwydd, ond efallai y byddwch yn colli eich data os byddwch yn anghofio eich cyfrinair.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Dyna pam mae creu allwedd adfer cyfrif mor bwysig -- gallwch ddefnyddio'ch allwedd i gael eich data yn ôl.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Dechreuwch greu allwedd adfer eich cyfrif
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Newid allwedd adfer cyfrif
+flow-recovery-key-info-key-bullet-point-v2 = Dyna pam mae creu allwedd adfer cyfrif mor bwysig -- gallwch ei ddefnyddio i adfer eich data.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Cychwyn arni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Diddymu
 
@@ -813,7 +813,6 @@ rk-action-create = Creu
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Newid
 rk-action-remove = Tynnu
-rk-cannot-refresh-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
 rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
 rk-refresh-key-1 = Adnewyddu'r allwedd adfer cyfrif
@@ -823,7 +822,6 @@ rk-remove-modal-heading-1 = Tynnu allwedd adfer cyfrif?
 rk-remove-modal-content-1 =
     Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
     defnyddio'ch allwedd adfer cyfrif i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
-rk-refresh-error-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Dileu allwedd adfer cyfrif
