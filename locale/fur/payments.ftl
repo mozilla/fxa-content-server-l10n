@@ -452,21 +452,45 @@ sub-item-stay-sub = Reste abonât/abonade
 ## $period (Date) - The last day of product access
 
 sub-item-cancel-msg = No tu rivarâs plui a doprâ { $name } dopo dal/dai { $period }, ultin dì dal to cicli di faturazion.
+sub-item-cancel-confirm =
+    Scancele il gno acès e lis mês informazions salvadis in
+    { $name } al/ai { $period }
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Riativazion dal abonament falide
+sub-route-idx-cancel-failed = Cancelazion dal abonament falît
+sub-route-idx-contact = Contate la assistence
+sub-route-idx-cancel-msg-title = Nus displâs di vioditi lâ vie
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Il to abonament a { $name } al è stât cancelât.
+          <br />
+          Tu podarâs ancjemò acedi a { $name } fin al/ai { $date }.
+sub-route-idx-cancel-aside = Âstu domandis? Visite il <a>supuart par { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Probleme tal cjariâ il client
+sub-invoice-error =
+    .title = Probleme tal cjariâ lis faturis
+sub-billing-update-success = I tiei dâts di faturazion a son stâts inzornâts cun sucès
+sub-invoice-previews-error-title = Probleme tal cjariâ lis anteprimis des faturis
+sub-invoice-previews-error-text = Impussibil cjariâ lis anteprimis des faturis
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Modifiche
+pay-update-manage-btn = Gjestìs
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Prossim adebit al/ai { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
