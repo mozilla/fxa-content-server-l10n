@@ -415,7 +415,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Neuen Kontowiederherste
 
 flow-recovery-key-download-heading-v2 = Kontowiederherstellungsschlüssel erstellt – Jetzt herunterladen und speichern
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Mit diesem Schlüssel können Sie Ihre Daten wiederherstellen, wenn Sie Ihr Passwort vergessen. Laden Sie sie jetzt herunter und speichern Sie sie an einem Ort, an den Sie sich erinnern können – Sie können später nicht zu dieser Seite zurückkehren.
+flow-recovery-key-download-info-v2 = Mit diesem Schlüssel können Sie Ihre Daten wiederherstellen, wenn Sie Ihr Passwort vergessen. Laden Sie ihn jetzt herunter und speichern Sie sie an einem Ort, an den Sie sich erinnern können – Sie können später nicht zu dieser Seite zurückkehren.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Weiter ohne Download
 
@@ -427,7 +427,7 @@ flow-recovery-key-download-next-link-v2 = Weiter ohne Download
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Fügen Sie einen Hinweis hinzu, der Ihnen beim Finden Ihres Schlüssels hilft
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Dieser Hinweis sollte Ihnen dabei helfen, sich zu merken, wo Sie Ihren Kontowiederherstellungsschlüssel gespeichert haben. Wir zeigen ihn Ihnen, wenn Sie ihn zur Wiederherstellung Ihrer Daten verwenden.
+flow-recovery-key-hint-message-v2 = Dieser Hinweis sollte Ihnen dabei helfen, sich zu merken, wo Sie Ihren Kontowiederherstellungsschlüssel gespeichert haben. Wir zeigen ihn an, wenn Sie ihn zur Wiederherstellung Ihrer Daten verwenden.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -458,11 +458,11 @@ flow-recovery-key-info-header = Erstellen Sie einen Kontowiederherstellungsschl�
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Ändern Sie Ihren Kontowiederherstellungsschlüssel
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = Wir verschlüsseln Surf-Daten – Passwörter, Lesezeichen und mehr. Es ist hervorragend für die Privatsphäre, aber Sie können Ihre Daten verlieren, wenn Sie Ihr Passwort vergessen.
+flow-recovery-key-info-shield-bullet-point-v2 = Wir verschlüsseln Surf-Daten – Passwörter, Lesezeichen und mehr. Das ist hervorragend für die Privatsphäre, aber Sie können Ihre Daten verlieren, wenn Sie Ihr Passwort vergessen.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = Deshalb ist das Erstellen eines Kontowiederherstellungsschlüssels so wichtig – Sie können ihn zum Wiederherstellen Ihrer Daten verwenden.
 # The text of the "submit" button to start creating (or changing) an account recovery key
-flow-recovery-key-info-cta-text-v3 = Erste Schritte
+flow-recovery-key-info-cta-text-v3 = Los geht’s
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Abbrechen
 
