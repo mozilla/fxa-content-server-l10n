@@ -125,6 +125,7 @@ payment-confirmation-amount-year =
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = עליך להשלים זאת לפני שיהיה באפשרותך להתקדם
 
 ## Component - PaymentErrorView
 
@@ -166,6 +167,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות �
 payment-method-header = נא לבחור את שיטת התשלום שלך
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = ראשית יש לאשר את המינוי שלך
 
 ## Component - PaymentProcessing
 
@@ -174,6 +176,10 @@ payment-processing-message = נא להמתין בעת עיבוד התשלום ש
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = תשלום באמצעות { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -421,11 +427,10 @@ new-user-submit = הרשמה כמינוי כעת
 
 sub-update-payment-title = פרטי תשלום
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = או לשלם עם כרטיס
 pay-with-heading-card-only = תשלום באמצעות כרטיס
-pay-with-heading-paypal = תשלום באמצעות { -brand-name-paypal }
 product-invoice-preview-error-title = בעיה בטעינת תצוגה מקדימה של החשבונית
 product-invoice-preview-error-text = לא ניתן לטעון תצוגה מקדימה של החשבונית
 
