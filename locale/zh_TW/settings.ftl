@@ -402,6 +402,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 產生新的帳號救�
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = 已建立帳號救援金鑰 — 請立即下載並儲存
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = 若您萬一忘記密碼，此金鑰可協助您救回資料。請立即下載，並在您能夠記得找回的方式也備份一份。本頁面只會顯示一次。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = 不下載繼續
 
@@ -445,6 +447,8 @@ flow-recovery-key-info-header = 建立帳號救援金鑰，避免忘記密碼時
 flow-recovery-key-info-header-change-key = 更換您的帳號救援金鑰
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = 我們會為您加密上網資料（密碼、書籤等等資料），對您的隱私很有保護。但要是忘記密碼，可能就會失去這些資料。
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = 所以帳號救援金鑰相當重要，萬一忘記密碼時，還可以用這把金鑰救回資料。
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = 開始使用
 # Link to cancel account recovery key change and return to settings
