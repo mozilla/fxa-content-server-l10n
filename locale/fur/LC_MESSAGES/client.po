@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-07 14:02+0000\n"
+"PO-Revision-Date: 2023-06-07 14:06+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -2054,28 +2054,28 @@ msgstr "Codiç QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Puartiti daûr lis schedis, i segnelibris e lis passwords, dapardut là che tu dopris Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Dispositîfs associât cun sucès"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Associazion lade ben."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Conferme associazion <span class=\"card-subheader\">par <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Conferme associazion"
 
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
-msgstr ""
+msgstr "Associe doprant une aplicazion"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Âstu doprât la fotocjamare di sisteme? Tu scugnis associâ di dentri di une aplicazion di Firefox."
