@@ -389,9 +389,13 @@ flow-container-back = 上一頁
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = 為了保護帳號安全，請重新輸入密碼
 flow-recovery-key-confirm-pwd-input-label = 請輸入您的密碼
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = 產生帳號救援金鑰
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = 產生新的帳號救援金鑰
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -402,9 +406,17 @@ flow-recovery-key-confirm-pwd-submit-button = 產生帳號救援金鑰
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = 輸入提示（選填）
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = 完成
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 金鑰存放位置：
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全裝置上的資料夾
 flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
 flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
