@@ -123,12 +123,18 @@ payment-confirmation-download-button = Continue par discjariâ
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = O autorizi { -brand-name-mozilla }, la organizazion che e realize i prodots { -brand-name-firefox }, a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae <privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintremai che no anularai il gno abonament.
+payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prime di procedi
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = Torne prove
+payment-error-manage-subscription-button = Gjestion abonament
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Tu âs za un abonament a { $productName } midiant l’app store di { -brand-name-google } o di { -brand-name-apple }.
 
 ## Component - PaymentForm
 
