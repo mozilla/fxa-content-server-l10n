@@ -369,6 +369,14 @@ plan-price-interval-year =
 general-error-heading = Erôr gjenerâl de aplicazion
 basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
 payment-error-1 = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Torne prove o contate l’emitent de cjarte.
+payment-error-2 = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Contate l’emitent de cjarte.
+payment-error-3b = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
+expired-card-error = Al somee che la tô cjarte di credit e sedi scjadude. Prove cuntune altre cjarte.
+insufficient-funds-error = Al somee che la tô cjarte no vedi credit suficient. Prove cuntune altre cjarte.
+withdrawal-count-limit-exceeded-error = Al somee che cheste transazion e superi il limit di credit disponibil. Prove cuntune altre cjarte.
+charge-exceeds-source-limit = Al somee che cheste transazion e superi il limit di credit disponibil. Prove cuntune altre cjarte o spiete 24 oris.
+instant-payouts-unsupported = Al somee che la tô cjarte di debit no sedi configurade pai paiaments istantanis. Prove cuntune altre cjarte di debit o di credit.
+duplicate-transaction = Uhm… al somee che e sedi stade a pene inviade une transazion identiche. Controle la cronologjie dai paiaments.
 
 ## Hooks - coupons
 
