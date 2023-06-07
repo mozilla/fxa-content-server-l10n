@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuw
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Uw accountherstelsleutel downloaden
-    .title = Downloaden
+recovery-key-download-button-v3 = Downloaden en doorgaan
+    .title = Downloaden en doorgaan
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = BEWAAR UW ACCOUNTHERSTELSLEUTEL
@@ -34,19 +35,18 @@ recovery-key-file-header = BEWAAR UW ACCOUNTHERSTELSLEUTEL
 recovery-key-file-instructions = Bewaar dit bestand met uw accountherstelsleutel op een plek die u kunt onthouden. Of druk het af en bewaar een fysiek exemplaar. Uw accountherstelsleutel kan u helpen bij het herstellen van { -brand-firefox }-gegevens als u uw wachtwoord bent vergeten.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Sleutel: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Sleutel: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Sleutel aangemaakt: { $downloadDate }
+recovery-key-file-download-date-v2 = * Sleutel aangemaakt: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Meer info over uw accountherstelsleutel: { $supportURL }
+recovery-key-file-support-v2 = * Meer info over uw accountherstelsleutel: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,49 @@ flow-container-back = Terug
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Voer uw wachtwoord opnieuw in om te beginnen
+flow-recovery-key-confirm-pwd-heading-v2 = Voer uw wachtwoord opnieuw in voor de veiligheid
 flow-recovery-key-confirm-pwd-input-label = Voer uw wachtwoord in
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Accountherstelsleutel aanmaken
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Nieuwe accountherstelsleutel aanmaken
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Accountherstelsleutel aangemaakt – bewaar deze op een plek die u kunt onthouden
+flow-recovery-key-download-heading-v2 = Accountherstelsleutel aangemaakt – Download en bewaar deze nu
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Met deze sleutel kunt u uw gegevens herstellen als u uw wachtwoord bent vergeten.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Enkele ideeën voor het opslaan van uw accountherstelsleutel:
-flow-recovery-key-download-storage-ideas-folder = Goed te onthouden map op uw apparaat
-flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
-flow-recovery-key-download-storage-ideas-print = Een fysiek exemplaar afdrukken en bewaren
-flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
+flow-recovery-key-download-info-v2 = Met deze sleutel kunt u uw gegevens herstellen als u uw wachtwoord bent vergeten. Download hem nu en bewaar hem op een plek die u kunt onthouden – u kunt later niet meer terugkeren naar deze pagina.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Volgende
+flow-recovery-key-download-next-link-v2 = Doorgaan zonder downloaden
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Geweldig! Voeg nu een opslaghint toe
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Voeg een hint toe om uw sleutel te vinden
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Voeg een hint toe over waar u uw accountherstelsleutel hebt opgeslagen. We kunnen het u tonen tijdens het opnieuw instellen van het wachtwoord om uw gegevens te herstellen.
+flow-recovery-key-hint-message-v2 = Deze hint helpt u herinneren waar u uw accountherstelsleutel hebt opgeslagen. We tonen hem als u hem gebruikt om uw gegevens te herstellen.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Voer uw opslaghint in (optioneel)
+flow-recovery-key-hint-input-v2 =
+    .label = Voer een hint in (optioneel)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Voltooien
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Accountherstelsleutel ingeschakeld.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Accountherstelsleutel ingeschakeld en opslaghint opgeslagen.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plaatsen om uw sleutel op te slaan:
+flow-recovery-key-download-storage-ideas-folder-v2 = Map op beveiligd apparaat
+flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
+flow-recovery-key-download-storage-ideas-print-v2 = Afgedrukt fysiek exemplaar
+flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Sleutel voor accountherstel aangemaakt
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = De hint moet minder dan 255 tekens bevatten.
@@ -458,13 +460,11 @@ flow-recovery-key-info-header = Maak een accountherstelsleutel aan voor het geva
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Uw accountherstelsleutel wijzigen
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = We versleutelen browsegegevens – wachtwoorden, bladwijzers en meer. Het is geweldig voor de privacy, maar het betekent dat we uw gegevens niet kunnen herstellen als u uw wachtwoord vergeet.
+flow-recovery-key-info-shield-bullet-point-v2 = We versleutelen navigatiegegevens – wachtwoorden, bladwijzers en meer. Het is geweldig voor de privacy, maar u kunt uw gegevens verliezen als u uw wachtwoord vergeet.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Daarom is het maken van een accountherstelsleutel zo belangrijk – u kunt uw sleutel gebruiken om uw gegevens terug te krijgen.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Begin met het maken van uw accountherstelsleutel
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Accountherstelsleutel wijzigen
+flow-recovery-key-info-key-bullet-point-v2 = Daarom is het maken van een accountherstelsleutel zo belangrijk – u kunt deze gebruiken om uw gegevens te herstellen.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Beginnen
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annuleren
 
@@ -815,7 +815,6 @@ rk-action-create = Aanmaken
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Wijzigen
 rk-action-remove = Verwijderen
-rk-cannot-refresh-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-key-removed-2 = Sleutel voor accountherstel verwijderd
 rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
 rk-refresh-key-1 = Accountherstelsleutel vernieuwen
@@ -825,7 +824,6 @@ rk-remove-modal-heading-1 = Accountherstelsleutel verwijderen?
 rk-remove-modal-content-1 =
     Als u uw wachtwoord herinitialiseert, kunt u uw accountherstelsleutel niet gebruiken
     om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
-rk-refresh-error-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-remove-error-2 = Uw sleutel voor accountherstel kon niet worden verwijderd
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Accountherstelsleutel verwijderen
