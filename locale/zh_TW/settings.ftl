@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = 下載您的帳號救援金鑰
-    .title = 下載
+recovery-key-download-button-v3 = 下載並繼續
+    .title = 下載並繼續
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = 儲存帳號救援金鑰
@@ -34,19 +35,18 @@ recovery-key-file-header = 儲存帳號救援金鑰
 recovery-key-file-instructions = 請將這個包含您的帳號救援金鑰的檔案保存於能夠快速找回的地方，或是列印出來保存實體版本。若您忘記密碼，可使用帳號救援金鑰來救回 { -brand-firefox } 資料。
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 金鑰：{ $recoveryKeyValue }
+recovery-key-file-key-value-v2 = 金鑰：{ $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }：{ $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }：{ $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • 金鑰產生於：{ $downloadDate }
+recovery-key-file-download-date-v2 = * 金鑰產生於：{ $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • 了解帳號救援金鑰的更多資訊：{ $supportURL }
+recovery-key-file-support-v2 = * 了解帳號救援金鑰的更多資訊：{ $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -389,7 +389,6 @@ flow-container-back = 上一頁
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = 請再次輸入您的密碼以開始使用
 flow-recovery-key-confirm-pwd-input-label = 請輸入您的密碼
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = 產生帳號救援金鑰
@@ -398,38 +397,16 @@ flow-recovery-key-confirm-pwd-submit-button = 產生帳號救援金鑰
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = 已產生帳號救援金鑰，請將它儲存在您能找得到的地方
-# The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = 萬一忘記密碼時，可使用這把金鑰救回資料。
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = 儲存帳號救援金鑰的一些好地方：
-flow-recovery-key-download-storage-ideas-folder = 您裝置中可以找得到的資料夾
-flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
-flow-recovery-key-download-storage-ideas-print = 列印出來，儲存實體紙本
-flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = 下一步
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = 好極了！現在把備份儲存位置的提示寫下來
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = 記下您把帳號救援金鑰保存在何處的提示，萬一未來需要重設密碼時，我們能夠提醒您找到金鑰的所在位置。
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = 您將備份金鑰保存於何處的提示（選填）
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = 完成
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = 已啟用帳號救援金鑰。
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = 已開啟帳號救援金鑰，也已儲存金鑰保存位置的提示。
+flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
+flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = 提示不可以超過 255 個字。
@@ -443,14 +420,6 @@ flow-recovery-key-hint-unsafe-char-error = 提示內容不可使用 Unicode 特�
 flow-recovery-key-info-header = 建立帳號救援金鑰，避免忘記密碼時資料流失
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 更換您的帳號救援金鑰
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = 我們會為您加密上網資料（密碼、書籤等等資料），對您的隱私很有保護，但要是忘記密碼，就無法救回所有資料。
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = 所以帳號救援金鑰相當重要，萬一忘記密碼時，還可以用這把金鑰救回資料。
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = 打一把帳號救援金鑰
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = 更換帳號救援金鑰
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
@@ -789,7 +758,6 @@ rk-action-create = 建立
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = 變更
 rk-action-remove = 移除
-rk-cannot-refresh-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-key-removed-2 = 已刪除帳號救援金鑰
 rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
 rk-refresh-key-1 = 重新整理帳號救援金鑰
@@ -797,7 +765,6 @@ rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 rk-remove-modal-heading-1 = 要移除帳號救援金鑰嗎？
 rk-remove-modal-content-1 = 若您重設密碼，就無法再使用帳號救援金鑰來存取資料，也無法恢復此動作。
-rk-refresh-error-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-remove-error-2 = 無法刪除您的帳號救援金鑰
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = 刪除帳號救援金鑰
