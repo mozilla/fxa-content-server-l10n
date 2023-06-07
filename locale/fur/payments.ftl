@@ -340,9 +340,35 @@ plan-price-interval-week =
             [one] { $amount } ogni setemane
            *[other] { $amount } ogni { $intervalCount } setemanis
         }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } ogni mês
+       *[other] { $amount } ogni { $intervalCount } mês
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ogni mês
+           *[other] { $amount } ogni { $intervalCount } mês
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } ogni an
+       *[other] { $amount } ogni { $intervalCount } agns
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ogni an
+           *[other] { $amount } ogni { $intervalCount } agns
+        }
 
 ## Error messages
 
+# App error dialog
+general-error-heading = Erôr gjenerâl de aplicazion
+basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
+payment-error-1 = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Torne prove o contate l’emitent de cjarte.
 
 ## Hooks - coupons
 
