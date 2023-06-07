@@ -135,9 +135,22 @@ payment-error-manage-subscription-button = Gjestion abonament
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Tu âs za un abonament a { $productName } midiant l’app store di { -brand-name-google } o di { -brand-name-apple }.
+iap-upgrade-no-bundle-support = I inzornaments no son disponibii par chescj abonaments, ma lu saran chi di pôc.
+iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — contate il supuart pe assistence par ricevi jutori.
+iap-upgrade-get-help-button = Oten jutori
 
 ## Component - PaymentForm
 
+payment-name =
+    .placeholder = Non complet
+    .label = Il non cussì cemût che al è te cjarte
+payment-cc =
+    .label = La tô cjarte
+payment-cancel-btn = Anule
+payment-update-btn = Inzorne
+payment-pay-btn = Paie cumò
+payment-pay-with-paypal-btn = Paie cun { -brand-name-paypal }
+payment-validate-name-error = Inserìs il to non
 
 ## Component - PaymentLegalBlurb
 
