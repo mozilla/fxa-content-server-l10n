@@ -377,6 +377,13 @@ withdrawal-count-limit-exceeded-error = Al somee che cheste transazion e superi 
 charge-exceeds-source-limit = Al somee che cheste transazion e superi il limit di credit disponibil. Prove cuntune altre cjarte o spiete 24 oris.
 instant-payouts-unsupported = Al somee che la tô cjarte di debit no sedi configurade pai paiaments istantanis. Prove cuntune altre cjarte di debit o di credit.
 duplicate-transaction = Uhm… al somee che e sedi stade a pene inviade une transazion identiche. Controle la cronologjie dai paiaments.
+coupon-expired = Al somee che il codiç promozionâl al sedi scjadût.
+card-error = Nol è stât pussibil elaborâ la transazion. Verifiche i dâts de tô cjarte di credit e torne prove.
+country-currency-mismatch = La valude di chest abonament no je valide pal paîs associât ae tô modalitât di paiament.
+currency-currency-mismatch = Nus displâs, nol è pussibil cambiâ la valude.
+no-subscription-change = Nus displâs, no tu puedis modificâ il to plan di abonament.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Tu sês za abonât/abonade midiant { $mobileAppStore }.
 
 ## Hooks - coupons
 
