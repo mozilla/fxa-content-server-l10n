@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilem
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Hesap kurtarma anahtarını indir
-    .title = İndir
+recovery-key-download-button-v3 = İndir ve devam et
+    .title = İndir ve devam et
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = HESAP KURTARMA ANAHTARINIZI KAYDEDİN
@@ -34,19 +35,18 @@ recovery-key-file-header = HESAP KURTARMA ANAHTARINIZI KAYDEDİN
 recovery-key-file-instructions = Hesap kurtarma anahtarınızı içeren bu dosyayı unutmayacağınız bir yerde saklayın veya yazdırıp fiziksel olarak saklayın. Parolanızı unutursanız { -brand-firefox } verilerinizi kurtarmak için hesap kurtarma anahtarınızı kullanabilirsiniz.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Anahtar:  { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Anahtar: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Oluşturulma tarihi: { $downloadDate }
+recovery-key-file-download-date-v2 = * Oluşturulma tarihi: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Hesap kurtarma anahtarınız hakkında daha fazla bilgi için: { $supportURL }
+recovery-key-file-support-v2 = * Hesap kurtarma anahtarınız hakkında daha fazla bilgi için: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -395,47 +395,41 @@ flow-container-back = Geri dön
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Başlamak için parolanızı yeniden girin
+flow-recovery-key-confirm-pwd-heading-v2 = Güvenliğiniz için parolanızı yeniden yazın
 flow-recovery-key-confirm-pwd-input-label = Parolanızı girin
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Hesap kurtarma anahtarı oluştur
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Yeni hesap kurtarma anahtarı oluştur
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Hesap kurtarma anahtarı oluşturuldu. Hesap kurtarma anahtarınızı unutmayacağınız bir yerde saklayın
-# The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Hesap kurtarma anahtarınızı saklamak için bazı fikirler:
-flow-recovery-key-download-storage-ideas-folder = Cihazınızdaki unutmayacağınız bir klasör
-flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
-flow-recovery-key-download-storage-ideas-print = Fiziksel bir kopyasını yazdırıp saklayın
-flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
+flow-recovery-key-download-heading-v2 = Hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = İleri
+flow-recovery-key-download-next-link-v2 = İndirmeden devam et
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Güzel! Şimdi bir saklama ipucu ekleyin
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Hesap kurtarma anahtarınızı nereye sakladığınıza dair bir ipucu ekleyin. Parolanızı sıfırlamak istediğinizde verilerinizi kurtarmak için bu ipucunu size gösterebiliriz.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Saklama ipucunuzu girin (isteğe bağlı)
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Anahtarınızı bulmanıza yardımcı olacak bir ipucu ekleyin
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Bitir
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Hesap kurtarma anahtarı etkinleştirildi.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Hesap kurtarma anahtarı etkinleştirildi ve saklama ipucu kaydedildi.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Anahtarınızı saklayabileceğiniz yerler:
+flow-recovery-key-download-storage-ideas-folder-v2 = Güvenli bir cihazdaki bir klasör
+flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
+flow-recovery-key-download-storage-ideas-print-v2 = Yazdırılmış fiziksel kopya
+flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Hesap kurtarma anahtarı oluşturuldu
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = İpucu 255 karakterden kısa olmalıdır.
@@ -450,13 +444,9 @@ flow-recovery-key-info-header = Parolanızı unutursanız kullanabileceğiniz bi
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Hesap kurtarma anahtarınızı değiştirin
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Gezinti verilerinizi, parolalarınızı, yer imlerini ve diğer bilgilerinizi şifreliyoruz. Gizlilik açısından en doğrusu bu, ama parolanızı unutursanız verilerinizi kurtaramayacağımız anlamına geliyor.
+flow-recovery-key-info-shield-bullet-point-v2 = Gezinti verilerinizi, parolalarınızı, yer imlerini ve diğer bilgilerinizi şifreliyoruz. Gizlilik açısından en doğrusu bu, ama parolanızı unutursanız verilerinizi kaybedebilirsiniz.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Bu yüzden hesap kurtarma anahtarı oluşturmanız çok önemli. Verilerinizi kurtarmak istediğinizde anahtarınızı kullanabilirsiniz.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Hesap kurtarma anahtarınızı oluşturmaya başlayın
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Hesap kurtarma anahtarını değiştir
+flow-recovery-key-info-key-bullet-point-v2 = Bu yüzden hesap kurtarma anahtarı oluşturmanız çok önemli. Verilerinizi geri getirmek istediğinizde anahtarınızı kullanabilirsiniz.
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = İptal
 
@@ -798,7 +788,6 @@ rk-action-create = Oluştur
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Değiştir
 rk-action-remove = Kaldır
-rk-cannot-refresh-1 = Hesap kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-key-removed-2 = Hesap kurtarma anahtarı silindi
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key-1 = Hesap kurtarma anahtarını yenile
@@ -806,7 +795,6 @@ rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi s
 rk-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 rk-remove-modal-heading-1 = Hesap kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content-1 = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için hesap kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
-rk-refresh-error-1 = Hesap kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Hesap kurtarma anahtarını sil
