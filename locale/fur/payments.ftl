@@ -384,6 +384,8 @@ currency-currency-mismatch = Nus displâs, nol è pussibil cambiâ la valude.
 no-subscription-change = Nus displâs, no tu puedis modificâ il to plan di abonament.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Tu sês za abonât/abonade midiant { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Un erôr di sisteme al à impedît l’abonament a { $productName }. Nol è stât aplicât nissun adebit sul to metodi di paiament. Torne prove.
 
 ## Hooks - coupons
 
