@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-07 14:11+0000\n"
+"PO-Revision-Date: 2023-06-07 14:13+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -44,14 +44,16 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Orpo, al è vignût fûr un erôr. O vin ricevût la segnalazion e\n"
+" o stin lavorant par une soluzion."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
-msgstr ""
+msgstr "Erôr 502"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "Il servidôr al è ocupât, torne prove chi di pôc"
 
 #: server/templates/pages/src/503.html:3
 msgid ""
