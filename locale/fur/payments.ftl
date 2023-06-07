@@ -386,12 +386,26 @@ no-subscription-change = Nus displâs, no tu puedis modificâ il to plan di abon
 iap-already-subscribed = Tu sês za abonât/abonade midiant { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Un erôr di sisteme al à impedît l’abonament a { $productName }. Nol è stât aplicât nissun adebit sul to metodi di paiament. Torne prove.
+fxa-post-passwordless-sub-error = La sotscrizion dal abonament e je confermade, ma nol è stât pussibil cjariâ la pagjine de conferme. Controle la tô e-mail par configurâ il to account.
+newsletter-signup-error = No tu sês iscrit(e) aes notifichis vie e-mail sui inzornaments dai prodots. Tu puedis tornâ a provâ tes impostazions dal to account.
+product-plan-error =
+    .title = Probleme tal cjariâ i plans
+product-profile-error =
+    .title = Probleme tal cjariâ il profîl
+product-customer-error =
+    .title = Probleme tal cjariâ il client
+product-plan-not-found = Plan no cjatât
 
 ## Hooks - coupons
 
+coupon-success = Il to plan si rinovarà in automatic al presit di catalic.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDurationDate } al presit di catalic.
 
 ## Routes - Checkout - New user
 
+new-user-step-1 = 1. Cree un account { -brand-name-firefox }
+new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di credit
 
 ## Routes - Product and Subscriptions
 
