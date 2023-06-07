@@ -401,11 +401,19 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 產生新的帳號救�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = 已建立帳號救援金鑰 — 請立即下載並儲存
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = 不下載繼續
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = 加入能協助您找到金鑰的提示
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = 此提示可協助您記得把帳號救援金鑰保存在何處。萬一未來需要找回資料時，我們能夠再次顯示給您。
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -418,7 +426,10 @@ flow-recovery-key-hint-cta-text = 完成
 flow-recovery-key-download-storage-ideas-heading-v2 = 金鑰存放位置：
 flow-recovery-key-download-storage-ideas-folder-v2 = 安全裝置上的資料夾
 flow-recovery-key-download-storage-ideas-cloud = 可靠的雲端儲存服務
+flow-recovery-key-download-storage-ideas-print-v2 = 印出紙本
 flow-recovery-key-download-storage-ideas-pwd-manager = 密碼管理員
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = 已建立帳號救援金鑰
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = 提示不可以超過 255 個字。
@@ -432,6 +443,10 @@ flow-recovery-key-hint-unsafe-char-error = 提示內容不可使用 Unicode 特�
 flow-recovery-key-info-header = 建立帳號救援金鑰，避免忘記密碼時資料流失
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 更換您的帳號救援金鑰
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = 我們會為您加密上網資料（密碼、書籤等等資料），對您的隱私很有保護。但要是忘記密碼，可能就會失去這些資料。
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = 開始使用
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
