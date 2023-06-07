@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = משהו השתבש. לא ניתן הי
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = הורדת מפתח שחזור החשבון שלך
-    .title = הורדה
+recovery-key-download-button-v3 = הורדה והמשך
+    .title = הורדה והמשך
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = יש לשמור את מפתח שחזור החשבון שלך
@@ -34,23 +35,24 @@ recovery-key-file-header = יש לשמור את מפתח שחזור החשבון
 recovery-key-file-instructions = יש לאחסן את קובץ זה שמכיל את מפתח שחזור החשבון שלך במקום שתזכור, או להדפיס אותו ולשמור עותק פיזי. מפתח שחזור החשבון שלך יכול לעזור לך לשחזר את נתוני { -brand-firefox } אם ססמתך תישכח.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 מפתח: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = מפתח: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account(case: "a") }: ‏{ $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account(case: "a") }: ‏{ $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • מפתח נוצר בתאריך: { $downloadDate }
+recovery-key-file-download-date-v2 = * מפתח נוצר בתאריך: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • למידע נוסף על מפתח שחזור החשבון שלך: { $supportURL }
+recovery-key-file-support-v2 = * למידע נוסף על מפתח שחזור החשבון שלך: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = ידע חיוני בדרכו אל תיבת הדוא״ל שלך. להרשמה:
 # Newsletter checklist item
 choose-newsletters-option-firefox-accounts-journey =
     .label = קבלת העדכונים האחרונים על { -brand-mozilla } ו־{ -brand-firefox }
@@ -387,47 +389,45 @@ flow-container-back = חזרה
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = יש להכניס שוב את הססמה שלך כדי להתחיל
+flow-recovery-key-confirm-pwd-heading-v2 = נא להכניס מחדש את הססמה שלך לצורך אבטחה
 flow-recovery-key-confirm-pwd-input-label = נא להכניס את הססמה שלך
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = יצירת מפתח שחזור חשבון
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = יצירת מפתח שחזור חשבון חדש
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = נוצר מפתח לשחזור החשבון - יש לאחסן אותו במקום שקל לזכור
+flow-recovery-key-download-heading-v2 = מפתח שחזור חשבון נוצר — יש להוריד ולאחסן אותו כעת במקום בטוח
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = מפתח זה יסייע לשחזר את הנתונים שלך אם הססמה שלך תישכח.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = כמה רעיונות לאחסון מפתח שחזור החשבון שלך:
-flow-recovery-key-download-storage-ideas-folder = תיקייה במקום שקל לזכור במכשיר שלך
-flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
-flow-recovery-key-download-storage-ideas-print = הדפסה ושמירת עותק פיזי
-flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
+flow-recovery-key-download-info-v2 = מפתח זה מאפשר לך לשחזר את הנתונים שלך אם הססמה שלך תישכח. יש להוריד אותו עכשיו ולשמור אותו במקום שקל לזכור — לא תהיה לך אפשרות לחזור לדף זה מאוחר יותר.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = הבא
+flow-recovery-key-download-next-link-v2 = המשך ללא הורדה
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = מצוין! עכשיו נוסיף רמז לאחסון
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = הוספת רמז שיעזור למצוא את המפתח שלך
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = כאן אפשר להוסיף רמז לגבי היכן שמרת את מפתח שחזור החשבון שלך. נראה לך אותו במהלך איפוס ססמה לצורך שחזור הנתונים שלך.
+flow-recovery-key-hint-message-v2 = רמז זה אמור לעזור לך לזכור היכן שמרת את מפתח שחזור החשבון שלך. נראה לך אותו כשיהיה לך צורך בו כדי לשחזר את הנתונים שלך.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = נא להכניס את הרמז לאחסון שלך (אופציונלי)
+flow-recovery-key-hint-input-v2 =
+    .label = נא להכיס רמז (אופציונלי)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = סיום
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = מפתח לשחזור החשבון הופעל
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = מפתח לשחזור החשבון הופעל ורמז לאחסון נשמר.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
+flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
+flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = הרמז חייב להכיל פחות מ־255 תווים.
@@ -441,14 +441,6 @@ flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל
 flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון למקרה שהססמה שלך תישכח
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = שינוי מפתח שחזור החשבון שלך
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל זה אומר שאנחנו לא יכולים לשחזר את הנתונים שלך אם הססמה שלך תישכח.
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש במפתח כדי לקבל בחזרה את הנתונים שלך.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = התחלה ביצירת מפתח שחזור החשבון שלך
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = שינוי מפתח שחזור חשבון
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ביטול
 
@@ -767,7 +759,6 @@ rk-action-create = יצירה
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = שינוי
 rk-action-remove = הסרה
-rk-cannot-refresh-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-key-removed-2 = מפתח לשחזור החשבון הוסר
 rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
 rk-refresh-key-1 = רענון מפתח שחזור חשבון
@@ -775,7 +766,6 @@ rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נ�
 rk-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 rk-remove-modal-heading-1 = להסיר את מפתח שחזור החשבון?
 rk-remove-modal-content-1 = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח שחזור החשבון שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
-rk-refresh-error-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-remove-error-2 = לא ניתן היה להסיר את מפתח שחזור החשבון שלך
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = מחיקת מפתח שחזור חשבון
