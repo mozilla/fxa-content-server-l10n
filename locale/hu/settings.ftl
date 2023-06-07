@@ -462,7 +462,7 @@ flow-recovery-key-info-header-change-key = A fiók-helyreállítási kulcs módo
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Titkosítjuk a böngészési adatokat – a jelszavakat, könyvjelzőket és egyebeket. Nagyszerű az adatvédelem szempontjából, de elvesztheti az adatait, ha elfelejti a jelszavát.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja az adatai visszaállítására.
+flow-recovery-key-info-key-bullet-point-v2 = Ezért olyan fontos a fiók-helyreállítási kulcs létrehozása – felhasználhatja az adatai visszaszerzésére.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Kezdő lépések
 # Link to cancel account recovery key change and return to settings
