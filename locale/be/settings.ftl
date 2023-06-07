@@ -429,11 +429,24 @@ flow-recovery-key-download-next-link-v2 = Працягнуць без сцягв
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Дадайце падказку, якая дапаможа знайсці ваш ключ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Гэта падказка павінна дапамагчы вам успомніць, дзе вы захавалі ключ аднаўлення ўліковага запісу. Мы пакажам яе вам, калі вы будзеце выкарыстоўваць яго для аднаўлення сваіх звестак.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Увядзіце падказку (неабавязкова)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Скончыць
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Месцы для захоўвання вашага ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Папка на бяспечнай прыладзе
 flow-recovery-key-download-storage-ideas-cloud = Надзейнае воблачнае сховішча
+flow-recovery-key-download-storage-ideas-print-v2 = Друкаваная фізічная копія
 flow-recovery-key-download-storage-ideas-pwd-manager = Менеджар пароляў
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Ключ аднаўлення ўліковага запісу створаны
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Падказка павінна змяшчаць менш за 255 знакаў.
@@ -447,6 +460,12 @@ flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтр
 flow-recovery-key-info-header = Стварыце ключ аднаўлення ўліковага запісу на выпадак, калі вы забудзеце пароль
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Змяніце свой ключ аднаўлення ўліковага запісу
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Мы шыфруем дадзеныя аглядання — паролі, закладкі і многае іншае. Гэта выдатна для прыватнасці, але вы можаце страціць свае дадзеныя, калі забудзеце пароль.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Вось чаму стварэнне ключа аднаўлення ўліковага запісу так важна — вы можаце выкарыстаць яго для аднаўлення дадзеных.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Пачаць
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасаваць
 
