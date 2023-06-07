@@ -411,11 +411,27 @@ flow-recovery-key-download-next-link-v2 = Continuar sem baixar
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar sua chave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Esta dica deve te ajudar a lembrar onde guardou a chave de recuperação de conta. Mostraremos a você quando for usar a chave para recuperar seus dados.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Digite uma dica (opcional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Pronto
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar a chave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Pasta em um dispositivo seguro
 flow-recovery-key-download-storage-ideas-cloud = Armazenamento confiável em nuvem
+flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
 flow-recovery-key-download-storage-ideas-pwd-manager = Gerenciador de senhas
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Criada chave de recuperação de conta
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = A dica deve conter menos de 255 caracteres.
@@ -429,6 +445,12 @@ flow-recovery-key-hint-unsafe-char-error = A dica não pode conter caracteres un
 flow-recovery-key-info-header = Crie uma chave de recuperação de conta, para o caso de você esquecer sua senha
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Alteração da chave de recuperação de conta
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Criptografamos dados de navegação, senhas, favoritos e muito mais. É ótimo para privacidade, mas você pode perder seus dados se esquecer sua senha.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = É por isso que criar uma chave de recuperação de conta é tão importante. Você pode usar para restaurar seus dados.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
