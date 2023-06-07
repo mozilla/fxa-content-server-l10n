@@ -434,13 +434,24 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Riviôt la tô modifiche
 sub-change-failed = Modifiche dal plan falide
+sub-update-copy =
+    Il to plan al vignarà cambiât daurman e ti vignarà contizât un impuart
+    calcolât pe part che e reste dal cicli di faturazion. A partî di { $startingDate }
+    ti vignarà contizât l’impuart intîr.
+sub-change-submit = Conferme modifiche
+sub-update-current-plan-label = Plan atuâl
+sub-update-new-plan-label = Gnûf plan
+sub-update-total-label = Gnûf totâl
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Scancele abonament
+sub-item-stay-sub = Reste abonât/abonade
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg = No tu rivarâs plui a doprâ { $name } dopo dal/dai { $period }, ultin dì dal to cicli di faturazion.
 
 ## Routes - Subscription
 
