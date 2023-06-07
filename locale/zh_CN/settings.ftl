@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = 出了点问题，无法发送新验证
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = 下载账户恢复密钥
-    .title = 下载
+recovery-key-download-button-v3 = 下载并继续
+    .title = 下载并继续
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = 保存账户恢复密钥
@@ -34,19 +35,18 @@ recovery-key-file-header = 保存账户恢复密钥
 recovery-key-file-instructions = 请将这份包含账户恢复密钥的文件保存在自己不会遗忘的地方，或者将其打印出来。如果您忘记了密码，可以使用此账户恢复密钥来恢复 { -brand-firefox } 数据。
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 密钥：{ $recoveryKeyValue }
+recovery-key-file-key-value-v2 = 恢复密钥：{ $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }：{ $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • 密钥生成时间：{ $downloadDate }
+recovery-key-file-download-date-v2 = * 恢复密钥已生成：{ $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • 了解账户恢复密钥的详细信息：{ $supportURL }
+recovery-key-file-support-v2 = * 账户恢复密钥的更多信息：{ $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -391,47 +391,48 @@ flow-container-back = 返回
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = 请再次输入密码
+flow-recovery-key-confirm-pwd-heading-v2 = 请再次输入密码以确保安全
 flow-recovery-key-confirm-pwd-input-label = 请输入密码
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = 创建账户恢复密钥
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = 创建新的账户恢复密钥
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = 已生成账户恢复密钥——请将其妥善保存
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = 如果您忘记密码，此密钥将帮助您恢复数据。
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = 保存账户恢复密钥的建议：
-flow-recovery-key-download-storage-ideas-folder = 设备中容易记住的文件夹
-flow-recovery-key-download-storage-ideas-cloud = 可信的云存储
-flow-recovery-key-download-storage-ideas-print = 打印并保留一份实物副本
-flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
+flow-recovery-key-download-info-v2 = 如果您忘记密码，此密钥可让您恢复数据。请立即下载并将其妥善保存——您将无法返回此页面。
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = 下一步
+flow-recovery-key-download-next-link-v2 = 继续但不下载
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = 棒极了！现在请添加帮助您记忆密钥保存的提示
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = 添加提示以帮助记忆恢复密钥
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = 添加帮助您记住保存账户恢复密钥位置的提示。在重置密码时它可以帮助您恢复数据。
+flow-recovery-key-hint-message-v2 = 此提示应该可以帮助您记住账户恢复密钥的位置。当您使用它来恢复数据时，我们会显示此提示。
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = 输入密钥保存提示（可选）
+flow-recovery-key-hint-input-v2 =
+    .label = 输入提示（可选）
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = 完成
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = 账户恢复密钥已启用。
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = 启用账户恢复密钥并保存存储提示。
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = 密钥存放位置：
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全设备上的文件夹
+flow-recovery-key-download-storage-ideas-cloud = 可信的云存储
+flow-recovery-key-download-storage-ideas-print-v2 = 打印的物理副本
+flow-recovery-key-download-storage-ideas-pwd-manager = 密码管理器
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = 已创建账户恢复密钥
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = 提示不能超过 255 个字符。
@@ -446,13 +447,11 @@ flow-recovery-key-info-header = 创建账户恢复密钥，以防忘记密码
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = 更改账户恢复密钥
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = 我们加密浏览数据——密码、书签等。这非常适合保护隐私，但这意味着如果您忘记了密码，我们将无法恢复您的数据。
+flow-recovery-key-info-shield-bullet-point-v2 = 我们会加密浏览数据——密码、书签等。这样能很好地保护隐私，但是如果您忘记密码，那么您的数据可能会丢失。
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = 这就是创建账户恢复密钥如此重要的原因——您可以使用您的恢复密钥取回您的数据。
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = 开始创建账户恢复密钥
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = 更改账户恢复密钥
+flow-recovery-key-info-key-bullet-point-v2 = 这就是创建账户恢复密钥如此重要的原因——您可以使用它来恢复数据。
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = 新手上路
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
@@ -791,7 +790,6 @@ rk-action-create = 创建
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = 更改
 rk-action-remove = 移除
-rk-cannot-refresh-1 = 抱歉，刷新账户恢复密钥时出现问题。
 rk-key-removed-2 = 已移除账户恢复密钥
 rk-cannot-remove-key = 无法删除您的账户恢复密钥。
 rk-refresh-key-1 = 刷新账户恢复密钥
@@ -799,7 +797,6 @@ rk-content-explain = 当您忘记密码时恢复数据。
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
 rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
-rk-refresh-error-1 = 抱歉，刷新账户恢复密钥时出现问题。
 rk-remove-error-2 = 无法删除您的账户恢复密钥
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = 删除账户恢复密钥
