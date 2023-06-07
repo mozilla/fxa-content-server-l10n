@@ -406,23 +406,34 @@ coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDu
 
 new-user-step-1 = 1. Cree un account { -brand-name-firefox }
 new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di credit
+new-user-submit = Aboniti cumò
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Informazions sul paiament
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
+pay-with-heading-card-only = Paie cu la cjarte
+product-invoice-preview-error-title = Probleme tal cjariâ la anteprime de fature
+product-invoice-preview-error-text = Impussibil cjariâ la anteprime de fature
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Nol è ancjemò pussibil inzornâti
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Riviôt la tô modifiche
+sub-change-failed = Modifiche dal plan falide
 
 ## Routes - Subscriptions - Cancel
 
