@@ -71,9 +71,55 @@ new-user-enter-email =
 new-user-confirm-email =
     .label = Conferme la tô e-mail
 new-user-subscribe-product-updates = O vûl ricevi inzornaments sui prodots di { -brand-name-firefox }
+new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par creâ il to account. No le vendarìn mai a tierçs.
+new-user-email-validate = La e-mail no je valide
+new-user-email-validate-confirm = Lis direzions e-mail no corispuindin
+new-user-already-has-account-sign-in = Tu âs za un account. <a>Jentre</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Âstu sbaliât a scrivi la e-mail? { $domain } nol ufrìs un servizi di pueste eletroniche.
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = Graciis!
+payment-confirmation-thanks-heading-account-exists = Graciis. Cumò controle la tô e-mail.
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = E je stade inviade une e-mail di conferme a { $email } cui detais su cemût scomençâ a doprâ { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Tu ricevarâs une e-mail ae direzion { $email } cu lis istruzions par configurâ il to account e i detais pal paiament.
+payment-confirmation-order-heading = Detais dal ordin
+payment-confirmation-invoice-number = Fature #{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Informazions sul paiament
+payment-confirmation-amount = { $amount } par { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } ogni dì
+       *[other] { $amount } ogni { $intervalCount } dîs
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } ogni setemane
+       *[other] { $amount } ogni { $intervalCount } setemanis
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } ogni mês
+       *[other] { $amount } ogni { $intervalCount } mês
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } ogni an
+       *[other] { $amount } ogni { $intervalCount } agns
+    }
+payment-confirmation-download-button = Continue par discjariâ
 
 ## Component - PaymentConsentCheckbox
 
