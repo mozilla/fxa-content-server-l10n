@@ -417,7 +417,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Új fiók-helyreállít
 
 flow-recovery-key-download-heading-v2 = Fiók-helyreállítási kulcs létrehozva – Töltse le és tárolja most
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Ez a kulcs lehetővé teszi az adatok helyreállítását, ha elfelejti a jelszavát. Töltse le most, és tárolja valahol, ahová emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
+flow-recovery-key-download-info-v2 = Ez a kulcs lehetővé teszi az adatok helyreállítását, ha elfelejti a jelszavát. Töltse le most, és tárolja olyan helyen, amelyre emlékezni fog – később nem fog tudni visszatérni erre az oldalra.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Folytatás letöltés nélkül
 
@@ -427,7 +427,7 @@ flow-recovery-key-download-next-link-v2 = Folytatás letöltés nélkül
 
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Tipp hozzáadása, ami segít megtalálni a kulcsát
+flow-recovery-key-hint-header-v2 = Tipp hozzáadása, amely segít megtalálni a kulcsát
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 flow-recovery-key-hint-message-v2 = Ez a tipp segít megjegyezni, hogy hol tárolta a fiók-helyreállítási kulcsot. Meg fogjuk mutatni Önnek, ha az adatai helyreállításához használja.
 # The label for the text input where the user types in the storage hint they want to save.
@@ -440,7 +440,7 @@ flow-recovery-key-hint-cta-text = Befejezés
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Kulcstároló helyek:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappa a biztonságos eszközön
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappa egy biztonságos eszközön
 flow-recovery-key-download-storage-ideas-cloud = Megbízható felhős tároló
 flow-recovery-key-download-storage-ideas-print-v2 = Kinyomtatott fizikai másolat
 flow-recovery-key-download-storage-ideas-pwd-manager = Jelszókezelő
