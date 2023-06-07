@@ -25,8 +25,8 @@ link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 # Button to download the account recovery key as a plain text file and continue to the next step
 # "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v3 = Lawrlwythwch a pharhau
-    .title = Lawrlwythwch a pharhau
+recovery-key-download-button-v3 = Llwytho i lawr a pharhau
+    .title = Llwytho i lawr a pharhau
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = CADWCH ALLWEDD ADFER EICH CYFRIF
@@ -401,7 +401,7 @@ flow-container-back = Nôl
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading-v2 = Rhowch eich cyfrinair eto er diogelwch
+flow-recovery-key-confirm-pwd-heading-v2 = Rhowch eich cyfrinair eto er eich diogelwch
 flow-recovery-key-confirm-pwd-input-label = Rhowch eich cyfrinair
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crëwch allwedd adfer cyfrif
