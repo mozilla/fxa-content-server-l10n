@@ -154,29 +154,106 @@ payment-validate-name-error = Inserìs il to non
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } al dopre { -brand-name-stripe } e { -brand-name-paypal } pe elaborazion sigure dal paiament.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Informative su la riservatece di { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } al dopre { -brand-name-paypal } pe elaborazion sigure dai paiaments.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Informative su la riservatece di { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } al dopre { -brand-name-stripe } pe elaborazion sigure dai paiaments.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Informative su la riservatece di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Sielç il to metodi di paiament
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abonament
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Par plasê spiete intant che o elaborìn il to paiament…
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal = Paie cun { -brand-name-paypal }
 
 ## Component - PlanDetails
 
+plan-details-header = Detais dal prodot
+plan-details-list-price = Presit di catalic
+plan-details-show-button = Mostre detais
+plan-details-hide-button = Plate detais
+plan-details-total-label = Totâl
+plan-details-tax = Tassis e comissions
 
 ## Component - PlanErrorDialog
 
+product-no-such-plan = Nissun plan di chel gjenar par chest prodot.
 
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } tassis
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } ogni dì
+       *[other] { $priceAmount } ogni { $intervalCount } dîs
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ogni dì
+           *[other] { $priceAmount } ogni { $intervalCount } dîs
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } ogni setemane
+       *[other] { $priceAmount } ogni { $intervalCount } setemanis
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ogni setemane
+           *[other] { $priceAmount } ogni { $intervalCount } setemanis
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } ogni mês
+       *[other] { $priceAmount } ogni { $intervalCount } mês
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ogni mês
+           *[other] { $priceAmount } ogni { $intervalCount } mês
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ogni an
+       *[other] { $priceAmount } ogni { $intervalCount } agns
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ogni an
+           *[other] { $priceAmount } ogni { $intervalCount } agns
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassis ogni dì
+       *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } dîs
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassis ogni dì
+           *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } dîs
+        }
 
 ## Component - SubscriptionTitle
 
