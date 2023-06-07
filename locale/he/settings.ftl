@@ -426,8 +426,12 @@ flow-recovery-key-hint-cta-text = סיום
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
+flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר מאובטח
 flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
+flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
 flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = נוצר מפתח לשחזור החשבון
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = הרמז חייב להכיל פחות מ־255 תווים.
@@ -441,6 +445,12 @@ flow-recovery-key-hint-unsafe-char-error = הרמז אינו יכול להכיל
 flow-recovery-key-info-header = יצירת מפתח לשחזור החשבון למקרה שהססמה שלך תישכח
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = שינוי מפתח שחזור החשבון שלך
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = אנו מצפינים נתוני גלישה – ססמאות, סימניות ועוד. זה נהדר לפרטיות, אבל ייתכן שהנתונים שלך יאבדו אם הססמה שלך תישכח.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = לכן יצירת מפתח שחזור חשבון היא כל כך חשובה - באפשרותך להשתמש בו כדי לשחזר את הנתונים שלך.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = תחילת עבודה
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ביטול
 
