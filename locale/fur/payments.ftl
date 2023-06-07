@@ -254,19 +254,92 @@ price-details-tax-day =
             [one] { $priceAmount } + { $taxAmount } di tassis ogni dì
            *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } dîs
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassis ogni setemane
+       *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } setemanis
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassis ogni setemane
+           *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } setemanis
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassis ogni mês
+       *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } mês
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassis ogni mês
+           *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } mês
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassis ogni an
+       *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } agns
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassis ogni an
+           *[other] { $priceAmount } + { $taxAmount } di tassis ogni { $intervalCount } agns
+        }
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Configure l’abonament
+subscription-success-title = Conferme dal abonament
+subscription-processing-title = Daûr a confermâ l’abonament…
+subscription-error-title = Erôr te conferme dal abonament…
+subscription-noplanchange-title = Cheste modifiche al plan di abonament no je supuartade
+subscription-iapsubscribed-title = Za abonât/abonade
+sub-guarantee = Garanzie di rimbors di 30 dîs
 
 ## Component - TermsAndPrivacy
 
+terms = Tiermins dal servizi
+privacy = Informative su la riservatece
+terms-download = Discjame i tiermins
 
 ## App-level string(s) and messages shared by multiple components or routes
 
+document =
+    .title = Accounts di Firefox
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Siere barcon di dialic
+settings-subscriptions-title = Abonaments
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Codiç promozionâl
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } ogni dì
+       *[other] { $amount } ogni { $intervalCount } dîs
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ogni dì
+           *[other] { $amount } ogni { $intervalCount } dîs
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } ogni setemane
+       *[other] { $amount } ogni { $intervalCount } setemanis
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ogni setemane
+           *[other] { $amount } ogni { $intervalCount } setemanis
+        }
 
 ## Error messages
 
