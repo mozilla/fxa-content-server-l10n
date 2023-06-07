@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-06-06 07:17+0000\n"
+"PO-Revision-Date: 2023-06-07 13:51+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1942,23 +1942,23 @@ msgstr "Reste al sigûr, no sta tornâ a doprâ lis passwords. Viôt altris sugj
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "O vin fastidis cui nestris sistemis. O sin daûr a comedâju e si scusìn pal inconvenient. Torne prove plui indenant."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Il to messaç al è stât inviât al Supuart"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Torne ai abonaments"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Stâstu cirint Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Scomence di chi</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "opûr"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
