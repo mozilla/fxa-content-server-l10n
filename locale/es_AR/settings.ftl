@@ -401,7 +401,7 @@ flow-container-back = Atrás
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading-v2 = Vuelve a escribir tu contraseña por seguridad
+flow-recovery-key-confirm-pwd-heading-v2 = Volvé a escribir tu contraseña por seguridad
 flow-recovery-key-confirm-pwd-input-label = Ingresá tu contraseña
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear clave de recuperación de cuenta
@@ -413,9 +413,9 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crear una nueva clave d
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Se creó la clave de recuperación de la cuenta: descárgala y almacénala
+flow-recovery-key-download-heading-v2 = Se creó la clave de recuperación de la cuenta: descargala y guardala
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Esta clave te permite recuperar tus datos si olvidas tu contraseña. Descárgalo ahora y guardalo en un lugar que recordarás. No podrás volver a esta página más tarde.
+flow-recovery-key-download-info-v2 = Esta clave te permite recuperar tus datos si olvidás tu contraseña. Descargala ahora y guardala en un lugar que recordarás — No podrás volver a esta página más tarde.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sin descargar
 
@@ -425,9 +425,9 @@ flow-recovery-key-download-next-link-v2 = Continuar sin descargar
 
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Agrega una pista para encontrar la clave
+flow-recovery-key-hint-header-v2 = Agregar una pista para encontrar la clave
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Esta pista debería ayudarte a recordar dónde almacenaste tu clave de recuperación de cuenta. Te lo mostraremos cuando lo uses para recuperar tus datos.
+flow-recovery-key-hint-message-v2 = Esta pista debería ayudarte a recordar dónde almacenaste tu clave de recuperación de cuenta. Te la mostraremos cuando la usés para recuperar tus datos.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -458,9 +458,9 @@ flow-recovery-key-info-header = Creá una clave de recuperación de cuenta en ca
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Cambiar la clave de recuperación de la cuenta
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = Ciframos los datos de navegación - contraseñas, marcadores y más. Es genial para la privacidad, pero puede perder sus datos si olvida la contraseña.
+flow-recovery-key-info-shield-bullet-point-v2 = Ciframos los datos de navegación –– contraseñas, marcadores y más. Es genial para la privacidad, pero podés perder tus datos si olvidás la contraseña.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = Es por eso que crear una clave de recuperación de cuenta es tan importante - puedes usarla para restaurar tus datos.
+flow-recovery-key-info-key-bullet-point-v2 = Es por eso que crear una clave de recuperación de cuenta es tan importante –– podés usarla para restaurar tus datos.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Comenzar
 # Link to cancel account recovery key change and return to settings
