@@ -491,12 +491,16 @@ pay-update-manage-btn = Gjestìs
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prossim adebit al/ai { $date }
+sub-next-bill-no-tax = La prossime fature di <strong>{ $priceAmount }</strong> e je dovude al/ai <strong>{ $date }</strong>
+sub-next-bill-tax = La prossime fature di <strong>{ $priceAmount } + { $taxAmount }</strong> e je dovude al/ai <strong>{ $date }</strong>
+sub-expires-on = Al scjat al/ai { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Al scjât al/ai { $expirationDate }
 
 ## Routes - Subscription - SubscriptionItem
 
