@@ -413,11 +413,11 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crëuwch allwedd adfer 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Allwedd adfer cyfrif wedi'i chreu - Dadlwythwch a storiwch hi nawr
+flow-recovery-key-download-heading-v2 = Crewyd allwedd adfer cyfrif - llwythwch ef i lawr a'i gadw ef nawr
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Mae'r allwedd hon yn eich galluogi i adennill eich data os byddwch yn anghofio eich cyfrinair. Dadlwythwch ef nawr a'i storio yn rhywle y byddwch chi'n ei gofio - ni fyddwch yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
+flow-recovery-key-download-info-v2 = Mae'r allwedd hon yn eich galluogi i adennill eich data os byddwch yn anghofio eich cyfrinair. Llwythwch ef i lawr nawr a'i gadw'n rhywle y byddwch chi'n ei gofio - fyddwch chi ddim yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link-v2 = Parhewch heb ei lawrlwytho
+flow-recovery-key-download-next-link-v2 = Parhewch heb ei lwytho i lawr
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -437,7 +437,7 @@ flow-recovery-key-hint-input-v2 =
 flow-recovery-key-hint-cta-text = Gorffen
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lleoedd i storio'ch allwedd:
+flow-recovery-key-download-storage-ideas-heading-v2 = Lleoedd i gadw'ch allwedd:
 flow-recovery-key-download-storage-ideas-folder-v2 = Ffolder ar ddyfais ddiogel
 flow-recovery-key-download-storage-ideas-cloud = Storfa cwmwl dibynadwy
 flow-recovery-key-download-storage-ideas-print-v2 = Copi ffisegol wedi'i argraffu
