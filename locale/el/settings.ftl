@@ -35,6 +35,10 @@ recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣ�
 recovery-key-file-key-value-v2 = Κλειδί: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Μάθετε περισσότερα σχετικά με το κλειδί ανάκτησης του λογαριασμού σας: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -166,6 +170,9 @@ confirm-signup-aria-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Απεικόνιση ενός κλειδιού ανάκτησης λογαριασμού.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Απεικόνιση που αναπαριστά ένα κλειδί ανάκτησης λογαριασμού.
 lock-image-aria-label =
     .aria-label = Απεικόνιση μιας κλειδαριάς
 
@@ -397,6 +404,8 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κω
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Ακύρωση
 
 # HeaderLockup component
 
@@ -733,6 +742,8 @@ rk-header-1 = Κλειδί ανάκτησης λογαριασμού
 rk-enabled = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Αλλαγή
 rk-action-remove = Αφαίρεση
 rk-key-removed-2 = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
@@ -744,6 +755,8 @@ rk-remove-modal-content-1 =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα μπορείτε να χρησιμοποιήσετε
     το κλειδί ανάκτησης λογαριασμού σας για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
 rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Διαγραφή κλειδιού ανάκτησης λογαριασμού
 
 ## Secondary email sub-section on main Settings page
 
