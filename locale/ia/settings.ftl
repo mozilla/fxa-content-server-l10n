@@ -427,7 +427,12 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finir
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Ubi conservar tu claves:
+flow-recovery-key-download-storage-ideas-folder-v2 = Plica sur apparato secur
 flow-recovery-key-download-storage-ideas-cloud = Stockage fidibile in nube
+flow-recovery-key-download-storage-ideas-print-v2 = Copia physic imprimite
 flow-recovery-key-download-storage-ideas-pwd-manager = Gestor de contrasigno
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Clave de recuperation del conto create
@@ -444,6 +449,10 @@ flow-recovery-key-hint-unsafe-char-error = Le indicio non pote continer characte
 flow-recovery-key-info-header = Crea un clave recuperation del conto in caso tu oblida tu contrasigno
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Cambiar le clave de recuperation de tu conto
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Nos crypta datos de navigation, contrasignos, marcapaginas, e plus. Isto es bon pro le confidentialitate, ma tu pote perder tu datos, si tu oblida tu contrasigno.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Ecce perque le creation del un clave recuperation del conto es assi importante, tu pote usar lo pro restaurar tu datos.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Comenciar
 # Link to cancel account recovery key change and return to settings
