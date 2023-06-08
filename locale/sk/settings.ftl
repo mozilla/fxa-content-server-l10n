@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepod
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Stiahnite si kľúč na obnovenie účtu
-    .title = Stiahnuť
+recovery-key-download-button-v3 = Stiahnuť a pokračovať
+    .title = Stiahnuť a pokračovať
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = USCHOVAJTE SI KĽÚČ NA OBNOVENIE ÚČTU
@@ -34,19 +35,18 @@ recovery-key-file-header = USCHOVAJTE SI KĽÚČ NA OBNOVENIE ÚČTU
 recovery-key-file-instructions = Uložte tento súbor obsahujúci kľúč na obnovenie účtu na miesto, ktoré si zapamätáte. Alebo si ho vytlačte a ponechajte si fyzickú kópiu. Váš kľúč na obnovenie účtu vám môže pomôcť obnoviť údaje { -brand-firefox(case: "gen") }, ak zabudnete heslo.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Kľúč: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Kľúč: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Kľúč vygenerovaný: { $downloadDate }
+recovery-key-file-download-date-v2 = * Kľúč vygenerovaný: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Ďalšie informácie o kľúči na obnovenie účtu: { $supportURL }
+recovery-key-file-support-v2 = * Ďalšie informácie o kľúči na obnovenie účtu: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -404,47 +404,49 @@ flow-container-back = Naspäť
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Ak chcete začať, znova zadajte svoje heslo
+flow-recovery-key-confirm-pwd-heading-v2 = Kvôli bezpečnosti znova zadajte svoje heslo
 flow-recovery-key-confirm-pwd-input-label = Zadajte svoje heslo
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Vytvoriť kľúč na obnovenie účtu
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Vytvoriť nový kľúč na obnovenie účtu
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Kľúč na obnovenie účtu bol vygenerovaný – uložte si ho na miesto, ktoré si zapamätáte
+flow-recovery-key-download-heading-v2 = Kľúč na obnovenie účtu bol vytvorený – stiahnite si ho a uložte
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Tento kľúč vám pomôže obnoviť vaše údaje, ak zabudnete heslo.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Niekoľko nápadov na uloženie kľúča na obnovenie účtu:
-flow-recovery-key-download-storage-ideas-folder = Zapamätateľný priečinok vo vašom zariadení
-flow-recovery-key-download-storage-ideas-cloud = Dôveryhodné cloudové úložisko
-flow-recovery-key-download-storage-ideas-print = Vytlačte a uschovajte si fyzickú kópiu
-flow-recovery-key-download-storage-ideas-pwd-manager = Správca hesiel
+flow-recovery-key-download-info-v2 = Tento kľúč vám umožňuje obnoviť údaje, ak zabudnete heslo. Stiahnite si ho a uložte na miesto, ktoré si zapamätáte – neskôr sa na túto stránku už nebudete môcť vrátiť.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Ďalej
+flow-recovery-key-download-next-link-v2 = Pokračovať bez stiahnutia
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Skvelé! Teraz si pridajte pomôcku, podľa ktorej si zapamätáte, kde si kód uložili
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Pridajte si pomôcku, ktorá vám pomôže nájsť kľúč
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Pridajte si pomôcku, ktorá vám napovie, kde ste uložili kľúč na obnovenie účtu. My vám ju zobrazíme počas obnovy hesla, ktorej cieľom je obnoviť vaše údaje.
+flow-recovery-key-hint-message-v2 = Táto pomôcka by vám mala pomôcť zapamätať si, kde ste uložili kľúč na obnovenie účtu. Zobrazíme vám ju počas procesu obnovenia vašich údajov.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Zadajte pomôcku pre uloženie kľúča (voliteľné)
+flow-recovery-key-hint-input-v2 =
+    .label = Zadajte pomôcku (voliteľné)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokončiť
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Kľúč na obnovenie účtu je povolený.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Kľúč na obnovenie účtu bol povolený a pomôcka k uloženiu kľúča bola uložená.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Miesta na uloženie kľúča:
+flow-recovery-key-download-storage-ideas-folder-v2 = Priečinok na zabezpečenom zariadení
+flow-recovery-key-download-storage-ideas-cloud = Dôveryhodné cloudové úložisko
+flow-recovery-key-download-storage-ideas-print-v2 = Vytlačená fyzická kópia
+flow-recovery-key-download-storage-ideas-pwd-manager = Správca hesiel
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kľúč na obnovenie účtu bol vytvorený
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Pomôcka musí obsahovať menej ako 255 znakov.
@@ -459,13 +461,11 @@ flow-recovery-key-info-header = Vytvorte si kľúč na obnovenie účtu pre prí
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Zmeňte si kľúč na obnovenie účtu
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Šifrujeme údaje z prehliadania – heslá, záložky a ďalšie. Je to skvelé pre súkromie, ale znamená to, že ak zabudnete heslo, nemôžeme obnoviť vaše údaje.
+flow-recovery-key-info-shield-bullet-point-v2 = Šifrujeme údaje prehliadania – heslá, záložky a ďalšie. Je to skvelé pre súkromie, ale ak zabudnete heslo, môžete prísť o svoje údaje.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Preto je vytvorenie kľúča na obnovenie účtu také dôležité – svoj kľúč môžete použiť na získanie údajov späť.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Poďme vytvoriť kľúč na obnovenie účtu
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Zmeniť kľúč na obnovenie účtu
+flow-recovery-key-info-key-bullet-point-v2 = Preto je vytvorenie kľúča na obnovenie účtu také dôležité – môžete ho použiť na obnovenie údajov.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Začíname
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušiť
 
@@ -815,7 +815,6 @@ rk-action-create = Vytvoriť
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Zmeniť
 rk-action-remove = Odstrániť
-rk-cannot-refresh-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-key-removed-2 = Obnovovací kľúč k účtu bol odstránený
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key-1 = Obnoviť kľúč na obnovenie účtu
@@ -826,7 +825,6 @@ rk-remove-modal-content-1 =
     V prípade, že si nastavíte nové heslo, nebudete už môcť
     použiť kľúč na obnovenie účtu na prístup k vašim údajom.
     Túto akciu nie je možné vrátiť späť.
-rk-refresh-error-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Odstrániť kľúč na obnovenie účtu
