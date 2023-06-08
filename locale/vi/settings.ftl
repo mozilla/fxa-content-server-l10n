@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể g
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Tải xuống khóa khôi phục tài khoản của bạn
-    .title = Tải xuống
+recovery-key-download-button-v3 = Tải xuống và tiếp tục
+    .title = Tải xuống và tiếp tục
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = LƯU KHÓA KHÔI PHỤC TÀI KHOÀN CỦA BẠN
@@ -34,19 +35,18 @@ recovery-key-file-header = LƯU KHÓA KHÔI PHỤC TÀI KHOÀN CỦA BẠN
 recovery-key-file-instructions = Lưu trữ tập tin này có chứa khóa khôi phục tài khoản của bạn ở một nơi mà bạn sẽ nhớ. Hoặc in nó và giữ một bản sao vật lý. Khóa khôi phục tài khoản của bạn có thể giúp bạn khôi phục dữ liệu { -brand-firefox } nếu bạn quên mật khẩu.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Khóa:  { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Khóa: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Đã tạo khóa: { $downloadDate }
+recovery-key-file-download-date-v2 = * Đã tạo khóa: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Tìm hiểu thêm về khóa khôi phục tài khoản của bạn: { $supportURL }
+recovery-key-file-support-v2 = * Tìm hiểu thêm về khóa khôi phục tài khoản của bạn: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,49 @@ flow-container-back = Quay lại
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Nhập lại mật khẩu của bạn để bắt đầu
+flow-recovery-key-confirm-pwd-heading-v2 = Nhập lại mật khẩu của bạn vì lý do bảo mật
 flow-recovery-key-confirm-pwd-input-label = Nhập mật khẩu của bạn
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Tạo khóa khôi phục tài khoản
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Tạo khóa khôi phục tài khoản mới
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Đã tạo khóa khôi phục tài khoản — giữ nó ở nơi bạn sẽ nhớ
+flow-recovery-key-download-heading-v2 = Đã tạo khóa khôi phục tài khoản — Tải xuống và lưu trữ ngay bây giờ
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Khóa này sẽ giúp bạn khôi phục dữ liệu nếu bạn quên mật khẩu.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Một số ý tưởng để giữ khóa khôi phục tài khoản của bạn:
-flow-recovery-key-download-storage-ideas-folder = Thư mục đáng nhớ trong thiết bị của bạn
-flow-recovery-key-download-storage-ideas-cloud = Lưu trữ đám mây đáng tin cậy
-flow-recovery-key-download-storage-ideas-print = In và giữ một bản sao vật lý
-flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật khẩu
+flow-recovery-key-download-info-v2 = Khóa này cho phép bạn khôi phục dữ liệu nếu bạn quên mật khẩu. Tải xuống ngay bây giờ và lưu trữ ở đâu đó bạn sẽ nhớ — bạn sẽ không thể quay lại trang này sau này.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Tiếp theo
+flow-recovery-key-download-next-link-v2 = Tiếp tục mà không tải xuống
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Tuyệt! Bây giờ thêm gợi ý về nơi lưu trữ
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Thêm gợi ý để giúp tìm khóa của bạn
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Thêm gợi ý về nơi bạn lưu khóa khôi phục tài khoản của mình. Chúng tôi có thể hiển thị nó cho bạn trong quá trình đặt lại mật khẩu để khôi phục dữ liệu của bạn.
+flow-recovery-key-hint-message-v2 = Gợi ý này sẽ giúp bạn nhớ nơi bạn đã lưu khóa khôi phục tài khoản của mình. Chúng tôi sẽ hiển thị cho bạn khi bạn sử dụng nó để khôi phục dữ liệu của mình.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Nhập gợi ý về nơi lưu trữ của bạn (không bắt buộc)
+flow-recovery-key-hint-input-v2 =
+    .label = Nhập gợi ý (không bắt buộc)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Hoàn thành
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Đã bật khóa khôi phục tài khoản.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Đã bật khóa khôi phục tài khoản và đã lưu gợi ý nơi lưu trữ.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Nơi lưu trữ khóa của bạn:
+flow-recovery-key-download-storage-ideas-folder-v2 = Thư mục trên thiết bị an toàn
+flow-recovery-key-download-storage-ideas-cloud = Lưu trữ đám mây đáng tin cậy
+flow-recovery-key-download-storage-ideas-print-v2 = Bản in vật lý
+flow-recovery-key-download-storage-ideas-pwd-manager = Trình quản lý mật khẩu
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Đã tạo khóa khôi phục tài khoản
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Chuỗi gợi ý phải chứa ít hơn 255 kí tự.
@@ -458,13 +460,11 @@ flow-recovery-key-info-header = Tạo khóa khôi phục tài khoản trong trư
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Thay đổi khóa khôi phục tài khoản của bạn
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Chúng tôi mã hóa dữ liệu duyệt web –– mật khẩu, dấu trang, v.v. Điều này rất tốt cho quyền riêng tư, nhưng điều đó có nghĩa là chúng tôi không thể khôi phục dữ liệu của bạn nếu bạn quên mật khẩu.
+flow-recovery-key-info-shield-bullet-point-v2 = Chúng tôi mã hóa dữ liệu duyệt web –– mật khẩu, dấu trang, v.v. Điều này rất tốt cho quyền riêng tư, nhưng bạn có thể mất dữ liệu nếu quên mật khẩu.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Đó là lý do tại sao việc tạo khóa khôi phục tài khoản lại quan trọng đến vậy –– bạn có thể sử dụng khóa của mình để lấy lại dữ liệu của mình.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Bắt đầu tạo khóa khôi phục tài khoản của bạn
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Thay đổi khóa khôi phục tài khoản
+flow-recovery-key-info-key-bullet-point-v2 = Đó là lý do tại sao việc tạo khóa khôi phục tài khoản lại quan trọng đến vậy –– bạn có thể sử dụng nó để khôi phục dữ liệu của mình.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Bắt đầu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Hủy bỏ
 
@@ -815,7 +815,6 @@ rk-action-create = Tạo
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Thay đổi
 rk-action-remove = Xóa
-rk-cannot-refresh-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-key-removed-2 = Đã xóa khóa khôi phục tài khoản
 rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
 rk-refresh-key-1 = Làm mới khóa khôi phục tài khoản
@@ -825,7 +824,6 @@ rk-remove-modal-heading-1 = Xóa khóa khôi phục tài khoản?
 rk-remove-modal-content-1 =
     Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không
     có thể sử dụng khóa khôi phục tài khoản để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
-rk-refresh-error-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-remove-error-2 = Không thể xóa khóa khôi phục của tài khoản của bạn
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Xóa khóa khôi phục tài khoản
