@@ -22,24 +22,19 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Λήψη και συνέχεια
+    .title = Λήψη και συνέχεια
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣΗΣ ΛΟΓΑΡΙΑΣΜΟΥ
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Κλειδί:  { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Κλειδί: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Δημιουργία κλειδιού: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Μάθετε περισσότερα σχετικά με το κλειδί ανάκτησης του λογαριασμού σας: { $supportURL }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -171,6 +166,8 @@ confirm-signup-aria-label =
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Απεικόνιση ενός κλειδιού ανάκτησης λογαριασμού.
+lock-image-aria-label =
+    .aria-label = Απεικόνιση μιας κλειδαριάς
 
 ## Input Password
 
@@ -387,9 +384,6 @@ flow-container-back = Πίσω
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Επόμενο
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -398,6 +392,8 @@ flow-recovery-key-download-next-link = Επόμενο
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Τέλος
+flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
+flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -738,7 +734,6 @@ rk-enabled = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
-rk-cannot-refresh-1 = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης λογαριασμού.
 rk-key-removed-2 = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key-1 = Ανανέωση κλειδιού ανάκτησης λογαριασμού
@@ -748,7 +743,6 @@ rk-remove-modal-heading-1 = Αφαίρεση κλειδιού ανάκτησης
 rk-remove-modal-content-1 =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα μπορείτε να χρησιμοποιήσετε
     το κλειδί ανάκτησης λογαριασμού σας για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
-rk-refresh-error-1 = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης λογαριασμού.
 rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας
 
 ## Secondary email sub-section on main Settings page
