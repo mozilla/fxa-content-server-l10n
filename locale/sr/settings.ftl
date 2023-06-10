@@ -401,6 +401,7 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Поново унесите лозинку ради безбедности
 flow-recovery-key-confirm-pwd-input-label = Унесите вашу лозинку
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Направи кључ за опоравак налога
@@ -438,6 +439,10 @@ flow-recovery-key-success-alert = Кључ за опоравак налога ј
 flow-recovery-key-info-header = Направите кључ за опоравак налога у случају да заборавите лозинку
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Промените кључ за опоравак налога
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Шифрујемо ваше податке прегледања — лозинке, обележиваче и остало. Ово је одлично за приватност, али ако заборавите лозинку, можете да изгубите ове податке.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Због тога је толико важно да направите кључ за опоравак налога — биће вам потребан да опоравите ваше податке.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Започните
 # Link to cancel account recovery key change and return to settings
