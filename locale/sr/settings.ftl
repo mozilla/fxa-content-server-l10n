@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Нешто је пошло наопак
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Преузмите ваш кључ за опоравак налога
-    .title = Преузми
+recovery-key-download-button-v3 = Преузми и настави
+    .title = Преузми и настави
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВАК НАЛОГА
@@ -34,19 +35,18 @@ recovery-key-file-header = САЧУВАЈТЕ ВАШ КЉУЧ ЗА ОПОРАВ�
 recovery-key-file-instructions = Чувајте ову датотеку која садржи кључ за опоравак налога на безбедном. Или је одштампајте и задржите физичку копију. Ако заборавите лозинку, можете да користите кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Кључ:  { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Кључ: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Кључ направљен: { $downloadDate }
+recovery-key-file-download-date-v2 = * Кључ је направљен: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Сазнајте више о вашем кључу за опоравак налога: { $supportURL }
+recovery-key-file-support-v2 = * Сазнајте више о вашем кључу за опоравак налога: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -401,31 +401,36 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Поново унесите лозинку да почнете
 flow-recovery-key-confirm-pwd-input-label = Унесите вашу лозинку
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Направи кључ за опоравак налога
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Направите нови кључ за опоравак налога
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Кључ за опоравак налога је направљен — сачувајте га да не заборавите
+flow-recovery-key-download-heading-v2 = Кључ за опоравак налога је направљен — преузмите и сачувајте га одмах
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Овај кључ ће вам помоћи да опоравите ваше податке ако заборавите лозинку.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Предлози где да сачувате кључ за опоравак налога:
-flow-recovery-key-download-storage-ideas-folder = Упечатљива фасцикла на вашем уређају
-flow-recovery-key-download-storage-ideas-cloud = Поуздано складиште у облаку
-flow-recovery-key-download-storage-ideas-print = Штампана физичка копија
-flow-recovery-key-download-storage-ideas-pwd-manager = Уређивач лозинки
+flow-recovery-key-download-info-v2 = Овај кључ вам омогућава да опоравите ваше податке ако заборавите лозинку. Преузмите га сада и сачувајте на погодном месту — нећете моћи да се вратите на ову страницу касније.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Следеће
+flow-recovery-key-download-next-link-v2 = Наставите без преузимања
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Места за чување кључа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Фасцикла на безбедном уређају
+flow-recovery-key-download-storage-ideas-cloud = Поуздано складиште у облаку
+flow-recovery-key-download-storage-ideas-print-v2 = Одштампана физичка копија
+flow-recovery-key-download-storage-ideas-pwd-manager = Уређивач лозинки
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Кључ за опоравак налога је направљен
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -433,14 +438,8 @@ flow-recovery-key-download-next-link = Следеће
 flow-recovery-key-info-header = Направите кључ за опоравак налога у случају да заборавите лозинку
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Промените кључ за опоравак налога
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Шифрујемо податке прегледања –– лозинке, обележиваче и остало. Ово је одлично за приватност, али значи да нећемо моћи да опоравимо ваше податке ако заборавите лозинку.
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Због тога је толико важно да направите кључ за опоравак налога –– биће вам потребан да опоравите ваше податке.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Почните са прављењем кључа за опоравак налога
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Промените кључ за опоравак налога
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Започните
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Откажи
 
@@ -791,7 +790,6 @@ rk-action-create = Направи
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Промени
 rk-action-remove = Уклони
-rk-cannot-refresh-1 = Жао нам је, дошло је до грешке при освежавању кључа за опоравак налога.
 rk-key-removed-2 = Кључ за опоравак налога је уклоњен
 rk-cannot-remove-key = Није могуће уклонити ваш кључ за опоравак налога.
 rk-refresh-key-1 = Освежи кључ за опоравак налога
@@ -801,7 +799,6 @@ rk-remove-modal-heading-1 = Уклонити кључ за опоравак на
 rk-remove-modal-content-1 =
     Када ресетујете лозинку, више нећете моћи да
     користите кључ за опоравак налога за приступ подацима. Ова радња се не може опозвати.
-rk-refresh-error-1 = Жао нам је, дошло је до грешке при освежавању кључа за опоравак налога.
 rk-remove-error-2 = Није могуће уклонити ваш кључ за опоравак налога
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Избриши кључ за опоравак налога
