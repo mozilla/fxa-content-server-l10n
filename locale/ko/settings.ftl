@@ -18,32 +18,16 @@ link-expired-resent-link-error-message = 문제가 발생했습니다. 새 링�
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
-# .title will displayed as a tooltip on the button
-recovery-key-download-button = 복구 키 다운로드
-    .title = 다운로드
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = 계정 복구 키 저장
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = 계정 복구 키를 포함하는 이 파일을 기억할 수 있는 곳에 보관하세요. 혹은 인쇄하여 물리적 사본을 보관하세요. 비밀번호를 잊어버렸을 때 계정 복구 키로 { -brand-firefox } 데이터를 복구할 수 있습니다.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 키:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • 키 생성일: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • 계정 복구 키에 대해 더 알아보세요: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -100,6 +84,8 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = 비밀번호
 form-reset-password-with-balloon-submit-button = 비밀번호 재설정
 form-reset-password-with-balloon-match-error = 비밀번호가 일치하지 않습니다
 
@@ -113,6 +99,7 @@ form-verify-code-default-error = 필수 항목입니다
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 계정 복구 키
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
 ## Input Password
@@ -267,7 +254,22 @@ drop-down-menu-sign-out-error-2 = 로그아웃 중 문제가 발생했습니다.
 
 flow-container-back = 이전
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
 # HeaderLockup component
@@ -440,7 +442,7 @@ recovery-key-step-1 = 1/2 단계
 recovery-key-step-2 = 2/2 단계
 recovery-key-success-alert-3 = 계정 복구 키 생성됨
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 
 ## Add secondary email page
@@ -569,7 +571,6 @@ rk-refresh-key-1 = 계정 복구 키 새로 고침
 rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원합니다.
 rk-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 rk-remove-modal-heading-1 = 계정 복구 키를 삭제하시겠습니까?
-rk-refresh-error-1 = 죄송합니다. 계정 복구 키를 새로 고침하는 중에 문제가 발생했습니다.
 rk-remove-error-2 = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
