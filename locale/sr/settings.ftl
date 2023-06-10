@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Илустрација која представља кључ за опоравак налога.
 lock-image-aria-label =
     .aria-label = Илустрација катанца
+lightbulb-aria-label =
+    .aria-label = Илустрација која представља осмишљавање наговештаја за складиште.
 
 ## Input Password
 
