@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = Щось пішло не так. Не �
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Завантажити ключ відновлення облікового запису
-    .title = Завантажити
+recovery-key-download-button-v3 = Завантажити та продовжити
+    .title = Завантажити та продовжити
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = ЗБЕРЕЖІТЬ КЛЮЧ ВІДНОВЛЕННЯ ОБЛІКОВОГО ЗАПИСУ
@@ -34,19 +35,18 @@ recovery-key-file-header = ЗБЕРЕЖІТЬ КЛЮЧ ВІДНОВЛЕННЯ О
 recovery-key-file-instructions = Зберігайте цей файл, що містить ключ відновлення вашого облікового запису, в надійному місці, або ж надрукуйте його. Ваш ключ відновлення облікового запису може допомогти відновити дані { -brand-firefox } у разі втрати пароля.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Ключ:  { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Ключ: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Ключ згенеровано: { $downloadDate }
+recovery-key-file-download-date-v2 = * Ключ згенеровано: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Дізнайтеся більше про ключ відновлення облікового запису: { $supportURL }
+recovery-key-file-support-v2 = * Дізнайтеся більше про ключ відновлення облікового запису: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -404,47 +404,45 @@ flow-container-back = Назад
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Введіть пароль ще раз, щоб розпочати
+flow-recovery-key-confirm-pwd-heading-v2 = Повторно введіть пароль для безпеки
 flow-recovery-key-confirm-pwd-input-label = Введіть свій пароль
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Створити ключ відновлення облікового запису
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Створити новий ключ відновлення облікового запису
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Ключ відновлення облікового запису згенеровано — збережіть його в надійному місці
-# The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Цей ключ допоможе відновити ваші дані, якщо ви забудете пароль.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Деякі пропозиції щодо зберігання ключа відновлення облікового запису:
-flow-recovery-key-download-storage-ideas-folder = Запам'ятовувана тека на вашому пристрої
-flow-recovery-key-download-storage-ideas-cloud = Надійне хмарне сховище
-flow-recovery-key-download-storage-ideas-print = Надрукуйте та збережіть фізичну копію
-flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролів
+flow-recovery-key-download-heading-v2 = Ключ відновлення облікового запису створено — завантажте та збережіть його зараз
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Далі
+flow-recovery-key-download-next-link-v2 = Продовжити без завантаження
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Чудово! Тепер додайте підказку про сховище
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Додайте підказку про те, де ви зберегли ключ відновлення облікового запису. Ми можемо показати її вам під час скидання пароля, щоб відновити ваші дані.
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Додайте підказку, яка допоможе знайти ваш ключ
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Введіть підказку про місце зберігання (необов'язково)
+flow-recovery-key-hint-input-v2 =
+    .label = Введіть підказку (необов'язково)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Завершити
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Ключ відновлення облікового запису увімкнено.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Ключ відновлення облікового запису ввімкнено, підказку про сховище збережено.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Місця для зберігання ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Тека на безпечному пристрої
+flow-recovery-key-download-storage-ideas-cloud = Надійне хмарне сховище
+flow-recovery-key-download-storage-ideas-print-v2 = Друкована фізична копія
+flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролів
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Ключ відновлення облікового запису створено
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Підказка має містити менше ніж 255 символів.
@@ -458,14 +456,8 @@ flow-recovery-key-hint-unsafe-char-error = Підказка не може міс
 flow-recovery-key-info-header = Створіть ключ відновлення облікового запису на випадок, якщо ви забудете свій пароль
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Змініть ключ відновлення облікового запису
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Ми шифруємо дані перегляду –– паролі, закладки тощо. Це добре для приватності, але це означає, що ми не зможемо відновити ваші дані, якщо ви забудете пароль.
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Ось чому створення ключа відновлення облікового запису таке важливе –– ви можете використовувати його, щоб відновити свої дані.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Розпочати створення ключа відновлення облікового запису
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Змінити ключ відновлення облікового запису
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Розпочати
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасувати
 
@@ -816,7 +808,6 @@ rk-action-create = Створити
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Змінити
 rk-action-remove = Вилучити
-rk-cannot-refresh-1 = На жаль, під час оновлення ключа відновлення облікового запису виникла проблема.
 rk-key-removed-2 = Ключ відновлення облікового запису вилучено
 rk-cannot-remove-key = Не вдається видалити ключ відновлення вашого облікового запису.
 rk-refresh-key-1 = Оновити ключ відновлення облікового запису
@@ -826,7 +817,6 @@ rk-remove-modal-heading-1 = Вилучити ключ відновлення о�
 rk-remove-modal-content-1 =
     У випадку скидання пароля, ви не зможете використати свій ключ відновлення
     облікового запису для доступу до збережених даних. Цю дію неможливо скасувати.
-rk-refresh-error-1 = На жаль, під час оновлення ключа відновлення облікового запису виникла проблема.
 rk-remove-error-2 = Не вдалося видалити ключ відновлення облікового запису
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Видалити ключ відновлення облікового запису
