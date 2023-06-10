@@ -22,10 +22,11 @@ link-expired-resent-code-error-message = エラーが発生しました。新し
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = アカウント回復用キーをダウンロード
-    .title = ダウンロード
+recovery-key-download-button-v3 = ダウンロードして続ける
+    .title = ダウンロードして続ける
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = アカウント回復用キーを保管しましょう
@@ -34,19 +35,18 @@ recovery-key-file-header = アカウント回復用キーを保管しましょ�
 recovery-key-file-instructions = このアカウント回復用キーを含むファイルを覚えやすい場所に保存してください。もしくは、これを印刷して安全な場所に保管してください。パスワードを忘れた場合に、アカウント回復用キーで { -brand-firefox } のデータを回復できます。
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 キー: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = キー: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • キーの生成日: { $downloadDate }
+recovery-key-file-download-date-v2 = * キーの生成日: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • アカウント回復用キーの詳細についてはこちら: { $supportURL }
+recovery-key-file-support-v2 = * アカウント回復用キーの詳細についてはこちら: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -391,37 +391,31 @@ flow-container-back = 戻る
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = パスワードをもう一度入力して開始してください
+flow-recovery-key-confirm-pwd-heading-v2 = 安全のためパスワードを再入力してください
 flow-recovery-key-confirm-pwd-input-label = パスワードを入力してください
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = アカウント回復用キーを作成
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = 新しいアカウント回復用キーを作成する
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = アカウント回復用キーが生成されました — 覚えやすい場所に保管してください
-# The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = このキーは、パスワードを忘れた場合にデータを回復するのに役立ちます。
-flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
-flow-recovery-key-download-storage-ideas-print = 紙媒体に印刷して保管する
-flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = 次へ
+flow-recovery-key-download-heading-v2 = アカウント回復キーが作成されました — 今すぐダウンロードして保存してください
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
+flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = パスワードを忘れた場合に備えてアカウント回復用キーを作成します
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = パスワードやブックマークなどのブラウジングデータは暗号化されます。これは、プライバシー保護には優れていますが、パスワードを忘れた場合にデータを回復できないことを意味します。
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = そのため、アカウント回復用キーの作成が非常に重要です。キーを使用してデータを取り戻すことができます。
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
@@ -751,7 +745,6 @@ rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
-rk-cannot-refresh-1 = 申し訳ありませんが、アカウント回復用キーのリフレッシュ中に問題が発生しました。
 rk-key-removed-2 = アカウント回復用キーが削除されました
 rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
 rk-refresh-key-1 = アカウント回復用キーをリフレッシュ
@@ -761,7 +754,6 @@ rk-remove-modal-heading-1 = アカウント回復用キーを削除しますか�
 rk-remove-modal-content-1 =
     パスワードをリセットした場合、
     アカウント回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
-rk-refresh-error-1 = 申し訳ありませんが、アカウント回復用キーのリフレッシュ中に問題が発生しました。
 rk-remove-error-2 = アカウントの回復用キーを削除できませんでした
 
 ## Secondary email sub-section on main Settings page
