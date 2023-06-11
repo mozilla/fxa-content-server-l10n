@@ -403,6 +403,7 @@ flow-container-back = Takaisin
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Syötä salasanasi uudelleen turvallisuuden vuoksi
 flow-recovery-key-confirm-pwd-input-label = Kirjoita salasanasi
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Luo tilin palautusavain
@@ -415,6 +416,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Luo uusi tilin palautus
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Tilin palautusavain luotu — Lataa ja tallenna se nyt
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Tämän avaimen avulla voit palauttaa tietosi, jos unohdat salasanasi. Lataa avain nyt ja talleta se johonkin paikkaan, jonka muistat – et voi palata tälle sivulle myöhemmin.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Jatka lataamatta
 
@@ -422,6 +425,15 @@ flow-recovery-key-download-next-link-v2 = Jatka lataamatta
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Lisää vihje, joka auttaa löytämään avaimesi
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Tämän vihjeen tulisi auttaa sinua muistamaan, mihin talletit tilin palautusavaimen. Näytämme vihjeen sinulle, kun käytät sitä tietojesi palauttamiseen.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Anna vihje (valinnainen)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Valmis
@@ -447,6 +459,12 @@ flow-recovery-key-hint-unsafe-char-error = Vihje ei saa sisältää vaarallisia 
 flow-recovery-key-info-header = Luo tilin palautusavain siltä varalta, että unohdat salasanasi
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Vaihda tilisi palautusavain
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Salaamme selaustiedot – salasanat, kirjanmerkit ja paljon muuta. Se on hyvä yksityisyyden kannalta, mutta se tarkoittaa, ettei tietojasi voi palauttaa, jos unohdat salasanasi.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Siksi tilin palautusavaimen luominen on niin tärkeää – voit käyttää avainta tietojesi palauttamiseen.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Aloitetaan
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Peruuta
 
