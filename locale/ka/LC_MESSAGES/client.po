@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-03-23 19:35+0000\n"
+"PO-Revision-Date: 2023-06-11 11:11+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -467,11 +467,11 @@ msgstr "დამადასტურებელი კოდი ვადა�
 
 #: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
-msgstr "TOTP-ნიშანი ამ ანგარიშისთვის უკვე არსებობს"
+msgstr "TOTP-საცნობი ამ ანგარიშისთვის უკვე არსებობს"
 
 #: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
-msgstr "TOTP-ნიშანი ვერ მოიძებნა"
+msgstr "TOTP-საცნობი ვერ მოიძებნა"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
@@ -511,7 +511,7 @@ msgstr "გამოწერის დაუდგენელი გეგმ�
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
-msgstr "გადახდის არამართებული კოდი გამოწერისთვის."
+msgstr "არამართებული საგადასახადო საცნობი კოდი გამოწერისთვის."
 
 #: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
@@ -640,7 +640,7 @@ msgstr "ანგარიში გაუქმებულია"
 
 #: .es5/lib/auth-errors.js:480
 msgid "Invalid property in resume token: %(property)s"
-msgstr "არასწორი თვისება ტალონის გასაგრძელებლად: %(property)s"
+msgstr "არასწორი თვისება საცნობის გასაგრძელებლად: %(property)s"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Missing property in resume token: %(property)s"
