@@ -22,12 +22,31 @@ link-expired-resent-code-error-message = Რაღაც ხარვეზი �
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = ჩამოტვირთეთ და განაგრძეთ
+    .title = ჩამოტვირთეთ და განაგრძეთ
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = შეინახეთ თქვენი ანგარიშის აღდგენის გასაღების შემცველი ფაილი ისეთ ადგილას, რომელიც კარგად გემახსოვრებათ. ან ამობეჭდეთ და შეინახეთ ფიზიკური ასლი. თქვენი ანგარიშის აღდგენის გასაღები დაგეხმარებათ { -brand-firefox }-მონაცემების დაბრუნებაში, თუ პაროლი დაგავიწყდებათ.
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+recovery-key-file-key-value-v2 = გასაღები: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * გასაღები შედგენილია: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * ვრცლად ანგარიშის აღდგენის გასაღების შესახებ: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -384,24 +403,49 @@ flow-container-back = უკან
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = კვლავ მიუთითეთ თქვენი უსაფრთხოებისთვის
 flow-recovery-key-confirm-pwd-input-label = მიუთითეთ თქვენი პაროლი
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = ანგარიშის აღდგენის გასაღების შექმნა
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = ანგარიშის აღდგენის ახალი გასაღების შექმნა
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = შექმნილია ანგარიშის აღდგენის გასაღები — ჩამოტვირთეთ და შეინახეთ ახლავე
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = ეს გასაღები საშუალებას გაძლევთ, აღადგინოთ თქვენი მონაცემები, თუ დაგავიწყდებათ პაროლი. ჩამოტვირთეთ ახლავე და შეინახეთ დასამახსოვრებელ ადგილას — შემდგომ ვეღარ დაუბრუნდებით ამ გვერდს.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = განაგრძეთ ჩამოტვირთვის გარეშე
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = დაამატეთ მინიშნება გასაღების ადვილად საპოვნელად
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = ეს მინიშნება დაგეხმარებათ, გაიხსენოთ, სად შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები. ჩვენ მას გაჩვენებთ, როდესაც დაგჭირდებათ თქვენი მონაცემების აღსადგენად.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = შეიყვანეთ მინიშნება (არასავალდებულო)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = დასრულება
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = ადგილები გასაღების შესანახად:
+flow-recovery-key-download-storage-ideas-folder-v2 = საქაღალდე დაცულ მოწყობილობაზე
 flow-recovery-key-download-storage-ideas-cloud = სანდო ღრუბლოვანი საცავი
+flow-recovery-key-download-storage-ideas-print-v2 = ფიზიკურად ამობეჭდილი ასლი
 flow-recovery-key-download-storage-ideas-pwd-manager = პაროლების მმართველი
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = ანგარიშის აღდგენის გასაღები შექმნილია
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = მინიშნება უნდა შეიცავდეს არაუმეტეს 255 სიმბოლოს.
@@ -415,6 +459,12 @@ flow-recovery-key-hint-unsafe-char-error = მინიშნება არ �
 flow-recovery-key-info-header = შექმენით ანგარიშის აღდგენის გასაღები პაროლის დავიწყების შემთხვევისთვის
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = შეცვალეთ ანგარიშის აღდგენის გასაღები
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = ჩვენ დავშიფრავთ დათვალიერების მონაცემებს –– პაროლებს, სანიშნებს და სხვა. ეს შესანიშნავია პირადულობისთვის, მაგრამ სანაცვლოდ შეიძლება დაკარგოთ თქვენი მონაცემები, თუ დაგავიწყდებათ პაროლი.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = სწორედ ამიტომაა მეტად მნიშვნელოვანი ანგარიშის აღდგენის გასაღების შექმნა –– შეგიძლიათ გამოიყენოთ ეგ გასაღები თქვენი მონაცემების დასაბრუნებლად.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = დაიწყეთ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = გაუქმება
 
