@@ -403,19 +403,50 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 新しいアカウン�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = アカウント回復キーが作成されました — 今すぐダウンロードして保存してください
+flow-recovery-key-download-heading-v2 = アカウント回復キーが作成されました — 今すぐダウンロードして保管してください
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = パスワードを忘れた場合に、このキーを使用してデータを回復できます。今すぐダウンロードして、覚えやすい場所に保管してください。後でこのページに戻ることはできません。
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = ダウンロードせずに続ける
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = キーを見つけるのに役立つヒントを追加してください
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = このヒントは、アカウント回復キーを保管した場所を思い出すのに役立ちます。データの回復に使用するときに表示されます。
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = ヒントを入力してください (任意)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = 完了
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = キーを保管する場所:
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全な端末内のフォルダー
 flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
+flow-recovery-key-download-storage-ideas-print-v2 = 印刷された物理コピー
 flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = アカウント回復用キーが生成されました
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = このヒントは 255 文字以内に短くしてください。
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = ヒントに安全でないユニコードの制御文字等を含めることはできません。通常の文字、数字、句読点、記号のみが使用できます。
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = パスワードを忘れた場合に備えてアカウント回復用キーを作成します
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = アカウント回復用キーを変更してください
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
@@ -617,6 +648,9 @@ recovery-key-success-alert-3 = アカウント回復用キーが生成されま�
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = アカウント回復用キー
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = 設定に戻る
 
 ## Add secondary email page
 
@@ -706,6 +740,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = ステップ { $currentStep }/{ $numberOfSteps }。
 
 ## Security section of Setting
 
@@ -744,6 +783,8 @@ rk-header-1 = アカウント回復用キー
 rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = 変更
 rk-action-remove = 削除
 rk-key-removed-2 = アカウント回復用キーが削除されました
 rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
@@ -755,6 +796,8 @@ rk-remove-modal-content-1 =
     パスワードをリセットした場合、
     アカウント回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
 rk-remove-error-2 = アカウントの回復用キーを削除できませんでした
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = アカウント回復用キーを削除
 
 ## Secondary email sub-section on main Settings page
 
