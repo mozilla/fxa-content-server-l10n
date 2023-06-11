@@ -1161,6 +1161,7 @@ reset-password-password-input =
 reset-password-button = Iniciar restablecimiento
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
 reset-password-email-required-error = Correo electrónico requerido
+reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
 
@@ -1168,16 +1169,26 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar el acc
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validando inicio de sesión…
 
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmar este inicio de sesión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Comprueba en tu correo electrónico el enlace de confirmación enviado a { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Introduce tu contraseña <span>para tu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-subheader-without-logo-default = Continuar a configuración de cuenta
 signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
@@ -1252,3 +1263,13 @@ confirm-signup-code-success-alert = Cuenta confirmada correctamente
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambiar correo
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Qué edad tienes?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Debes introducir la edad para registrarte
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ¿Por qué preguntamos?
