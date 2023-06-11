@@ -36,6 +36,17 @@ recovery-key-file-instructions = Guarda este archivo que contiene la clave de re
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
 recovery-key-file-key-value-v2 = Clave: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Clave generada: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Saber más sobre la clave de recuperación de la cuenta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -241,15 +252,19 @@ password-strength-balloon-heading = Requisitos de contraseña
 password-strength-balloon-min-length = Al menos 8 caracteres
 password-strength-balloon-not-email = Diferente a tu dirección de correo electrónico
 password-strength-balloon-not-common = Que no sea una contraseña de uso común
+password-strength-balloon-stay-safe-tips = Mantente seguro — no reutilices las contraseñas. Descubre más consejos para <linkExternal>crear contraseñas seguras</linkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = Se ha restablecido tu contraseña
+ready-complete-set-up-instruction = Completa la configuración introduciendo tu nueva contraseña en el resto de tus dispositivos { -brand-firefox }.
 ready-start-browsing-button = Empezar a navegar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ya tienes todo listo para usar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Ahora estás listo para utilizar los ajustes de la cuenta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
@@ -324,6 +339,9 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Tus datos de navegación permanecerán en <span>{ $device }</span>, 
+    pero ya no se sincronizarán con tu cuenta.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
