@@ -342,6 +342,7 @@ cs-disconnect-sync-heading = Desconectar de Sync
 cs-disconnect-sync-content-3 =
     Tus datos de navegación permanecerán en <span>{ $device }</span>, 
     pero ya no se sincronizarán con tu cuenta.
+cs-disconnect-sync-reason-3 = ¿Cuál es el motivo principal para desconectar <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -402,22 +403,46 @@ flow-container-back = Atrás
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Introduce de nuevo tu contraseña por seguridad
 flow-recovery-key-confirm-pwd-input-label = Introduce tu contraseña
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear una clave de recuperación de cuenta
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crear una nueva clave de recuperación de cuenta
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Clave de recuperación de cuenta creada — Descárgala y guárdala ahora
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Esta clave te permite recuperar tus datos si olvidas tu contraseña. Descárgala ahora y guárdala en algún lugar que recuerdes — no podrás regresar a esta página más tarde.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Continuar sin descargar
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Añade una pista para ayudarte a encontrar tu clave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Esta pista debería ayudarte a recordar dónde guardaste la clave de recuperación de tu cuenta. Te la mostraremos cuando la necesites para recuperar tus datos.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Introduce una pista (opcional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finalizar
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar la clave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Carpeta en un dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Almacenamiento de confianza en la nube
+flow-recovery-key-download-storage-ideas-print-v2 = Copia física impresa
 flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
