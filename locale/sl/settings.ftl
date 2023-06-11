@@ -403,7 +403,7 @@ flow-container-back = Nazaj
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading-v2 = Zaradi varnosti znova vnesite geslo
+flow-recovery-key-confirm-pwd-heading-v2 = Iz varnostnih razlogov znova vnesite geslo
 flow-recovery-key-confirm-pwd-input-label = Vnesite svoje geslo
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Ustvari ključ za obnovitev računa
@@ -415,9 +415,9 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Ustvari nov ključ za o
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Ključ za obnovitev računa ustvarjen — prenesite in shranite ga zdaj
+flow-recovery-key-download-heading-v2 = Ključ za obnovitev računa ustvarjen – prenesite in shranite ga zdaj
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Ta ključ vam omogoča obnovitev podatkov, če pozabite geslo. Prenesite jo zdaj in jo shranite na mesto, ki si ga boste zapomnili – na to stran se pozneje ne boste mogli vrniti.
+flow-recovery-key-download-info-v2 = Ta ključ vam omogoča obnovitev podatkov v primeru, da pozabite geslo. Prenesite ga zdaj in ga shranite na kraj, ki si ga boste zapomnili – na to stran se pozneje ne boste mogli vrniti.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Nadaljuj brez prenosa
 
@@ -445,7 +445,7 @@ flow-recovery-key-download-storage-ideas-cloud = zaupanja vredna shramba v oblak
 flow-recovery-key-download-storage-ideas-print-v2 = Natisnjena fizična kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = upravitelj gesel
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
-flow-recovery-key-success-alert = Obnovitveni ključ za račun ustvarjen
+flow-recovery-key-success-alert = Ključ za obnovitev računa ustvarjen
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Namig lahko vsebuje največ 255 znakov.
@@ -460,7 +460,7 @@ flow-recovery-key-info-header = Ustvarite ključ za obnovitev računa, če pozab
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Spremenite ključ za obnovitev računa
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je super za zasebnost, vendar lahko izgubite podatke, če pozabite geslo.
+flow-recovery-key-info-shield-bullet-point-v2 = Podatke o brskanju – gesla, zaznamke in drugo – šifriramo. To je odlično z vidika varovanja zasebnosti, vendar hkrati pomeni, da so podatki izgubljeni, če pozabite geslo.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = Zato je ustvarjanje ključa za obnovitev računa tako pomembno – z njim lahko obnovite svoje podatke.
 # The text of the "submit" button to start creating (or changing) an account recovery key
