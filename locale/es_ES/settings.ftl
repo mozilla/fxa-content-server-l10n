@@ -22,20 +22,20 @@ link-expired-resent-code-error-message = Ha habido un problema. No se ha podido 
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Descargar y continuar
+    .title = Descargar y continuar
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Guarda este archivo que contiene la clave de recuperación de tu cuenta en un lugar que puedas recordar. O imprímelo y guarda una copia física. La clave de recuperación de tu cuenta puede ayudarte a recuperar los datos de { -brand-firefox } si olvidas tu contraseña.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Clave: { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Clave generada: { $downloadDate }
+recovery-key-file-key-value-v2 = Clave: { $recoveryKeyValue }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -384,7 +384,6 @@ flow-container-back = Atrás
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Introduce tu contraseña de nuevo para empezar
 flow-recovery-key-confirm-pwd-input-label = Introduce tu contraseña
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear una clave de recuperación de cuenta
@@ -393,9 +392,6 @@ flow-recovery-key-confirm-pwd-submit-button = Crear una clave de recuperación d
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Siguiente
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -404,8 +400,7 @@ flow-recovery-key-download-next-link = Siguiente
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finalizar
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Clave de recuperación de cuenta activada.
+flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -738,7 +733,6 @@ rk-action-create = Crear
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Cambiar
 rk-action-remove = Eliminar
-rk-cannot-refresh-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Clave de recuperación de cuenta eliminada
 rk-cannot-remove-key = No se ha podido eliminar la clave de recuperación de tu cuenta.
 rk-refresh-key-1 = Actualizar clave de recuperación de cuenta
@@ -748,7 +742,6 @@ rk-remove-modal-heading-1 = ¿Eliminar clave de recuperación de cuenta?
 rk-remove-modal-content-1 =
     En caso de que restablezcas tu contraseña, no podrás
     usar tu clave de recuperación de cuenta para acceder a tus datos. No puedes deshacer esta acción.
-rk-refresh-error-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se ha podido eliminar la clave de recuperación de tu cuenta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Eliminar clave de recuperación de cuenta
