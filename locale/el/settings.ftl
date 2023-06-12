@@ -35,6 +35,11 @@ recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣ�
 recovery-key-file-key-value-v2 = Κλειδί: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Δημιουργία κλειδιού: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
@@ -391,6 +396,8 @@ flow-container-back = Πίσω
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -399,11 +406,15 @@ flow-container-back = Πίσω
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Τέλος
+flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
+flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
 flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
 flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Έναρξη
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Ακύρωση
 
