@@ -438,7 +438,7 @@ flow-recovery-key-hint-cta-text = Завершить
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищенном устройстве
+flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
 flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
 flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
 flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
