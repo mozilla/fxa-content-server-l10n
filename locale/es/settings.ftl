@@ -22,20 +22,31 @@ link-expired-resent-code-error-message = Ha habido un problema. No se ha podido 
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Descargar y continuar
+    .title = Descargar y continuar
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = GUARDA LA CLAVE DE RECUPERACIÓN DE TU CUENTA
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Guarda este archivo que contiene la clave de recuperación de tu cuenta en un lugar que puedas recordar. O imprímelo y guarda una copia física. La clave de recuperación de tu cuenta puede ayudarte a recuperar los datos de { -brand-firefox } si olvidas tu contraseña.
 # { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
 # "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Clave: { $recoveryKeyValue }
+recovery-key-file-key-value-v2 = Clave: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Clave generada: { $downloadDate }
+recovery-key-file-download-date-v2 = * Clave generada: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Saber más sobre la clave de recuperación de la cuenta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -241,15 +252,19 @@ password-strength-balloon-heading = Requisitos de contraseña
 password-strength-balloon-min-length = Al menos 8 caracteres
 password-strength-balloon-not-email = Diferente a tu dirección de correo electrónico
 password-strength-balloon-not-common = Que no sea una contraseña de uso común
+password-strength-balloon-stay-safe-tips = Mantente seguro — no reutilices las contraseñas. Descubre más consejos para <linkExternal>crear contraseñas seguras</linkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = Se ha restablecido tu contraseña
+ready-complete-set-up-instruction = Completa la configuración introduciendo tu nueva contraseña en el resto de tus dispositivos { -brand-firefox }.
 ready-start-browsing-button = Empezar a navegar
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Ya tienes todo listo para usar { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Ahora estás listo para utilizar los ajustes de la cuenta
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Tu cuenta está lista!
 ready-continue = Continuar
@@ -324,6 +339,10 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Tus datos de navegación permanecerán en <span>{ $device }</span>, 
+    pero ya no se sincronizarán con tu cuenta.
+cs-disconnect-sync-reason-3 = ¿Cuál es el motivo principal para desconectar <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -384,31 +403,68 @@ flow-container-back = Atrás
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Introduce tu contraseña de nuevo para empezar
+flow-recovery-key-confirm-pwd-heading-v2 = Introduce de nuevo tu contraseña por seguridad
 flow-recovery-key-confirm-pwd-input-label = Introduce tu contraseña
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear una clave de recuperación de cuenta
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crear una nueva clave de recuperación de cuenta
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
+flow-recovery-key-download-heading-v2 = Clave de recuperación de cuenta creada — Descárgala y guárdala ahora
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Esta clave te permite recuperar tus datos si olvidas tu contraseña. Descárgala ahora y guárdala en algún lugar que recuerdes — no podrás regresar a esta página más tarde.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Siguiente
+flow-recovery-key-download-next-link-v2 = Continuar sin descargar
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Añade una pista para ayudarte a encontrar tu clave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Esta pista debería ayudarte a recordar dónde guardaste la clave de recuperación de tu cuenta. Te la mostraremos cuando la necesites para recuperar tus datos.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Introduce una pista (opcional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finalizar
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Clave de recuperación de cuenta activada.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar la clave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Carpeta en un dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Almacenamiento de confianza en la nube
+flow-recovery-key-download-storage-ideas-print-v2 = Copia física impresa
+flow-recovery-key-download-storage-ideas-pwd-manager = Administrador de contraseñas
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Clave de recuperación de cuenta creada
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = La pista debe contener menos de 255 caracteres.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = La pista no puede contener caracteres Unicode inseguros. Solo se permiten letras, números, signos de puntuación y símbolos.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Crea una clave de recuperación de cuenta en caso de que olvides tu contraseña
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Cambiar tu clave de recuperación de cuenta
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Ciframos los datos de navegación: contraseñas, marcadores y más. Es lo mejor para la privacidad, pero podrías perder tus datos si olvidas tu contraseña.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Por eso es tan importante crear una clave de recuperación de cuenta: puedes usarla para restaurar tus datos
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Comenzar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
@@ -461,6 +517,7 @@ nav-email-comm = Comunicaciones por correo electrónico
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Ha habido un problema al reemplazar tus códigos de autenticación de respaldo
+tfa-create-code-error = Ha habido un problema al crear tus códigos de autenticación de respaldo
 tfa-replace-code-success-1 =
     Se han creado nuevos códigos. Guarda estos códigos de
     autenticación de respaldo de un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
@@ -542,6 +599,7 @@ delete-account-header =
     .title = Eliminar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title-3 = Puede que hayas conectado tu { -product-firefox-account } a uno o más de los siguientes productos o servicios de { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -552,6 +610,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
 delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Recuerda que si eliminas tu cuenta:
+delete-account-chk-box-1-v3 =
+    .label = Cualquier suscripción de pago que tengas será cancelada (excepto { -product-pocket })
 delete-account-chk-box-2 =
     .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -561,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Introducir contraseña
+pocket-delete-notice = Si te suscribes a Pocket Premium, asegúrate de <a>cancelar tu suscripción</a> antes de eliminar tu cuenta.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -587,6 +648,8 @@ recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create = Se ha creado la cuenta
 recent-activity-account-disable = La cuenta fue desactivada
 recent-activity-account-enable = La cuenta fue activada
+recent-activity-account-login = Inicio de sesión iniciado desde la cuenta
+recent-activity-account-reset = Restablecimiento de contraseña iniciado desde la cuenta
 
 # Account recovery key setup page
 
@@ -604,6 +667,8 @@ recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clave de recuperación de cuenta
 # Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
 # and back to account settings
 recovery-key-create-back-button-title = Volver a los ajustes
@@ -670,6 +735,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp-v2 = Ahora introduce el código de autenticación de la aplicación de autenticación.
+tfa-input-enter-totp-v2 =
+    .label = Introducir código de autenticación
 tfa-save-these-codes-1 =
     Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
     no tengas tu dispositivo móvil.
@@ -697,6 +765,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Paso { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -738,7 +811,6 @@ rk-action-create = Crear
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Cambiar
 rk-action-remove = Eliminar
-rk-cannot-refresh-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Clave de recuperación de cuenta eliminada
 rk-cannot-remove-key = No se ha podido eliminar la clave de recuperación de tu cuenta.
 rk-refresh-key-1 = Actualizar clave de recuperación de cuenta
@@ -748,7 +820,6 @@ rk-remove-modal-heading-1 = ¿Eliminar clave de recuperación de cuenta?
 rk-remove-modal-content-1 =
     En caso de que restablezcas tu contraseña, no podrás
     usar tu clave de recuperación de cuenta para acceder a tus datos. No puedes deshacer esta acción.
-rk-refresh-error-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se ha podido eliminar la clave de recuperación de tu cuenta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Eliminar clave de recuperación de cuenta
@@ -823,6 +894,12 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Al continuar, aceptas:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Términos de servicio</pocketTos> y <pocketPrivacy>Aviso de privacidad</pocketPrivacy> de { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy> de { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Al continuar, aceptas los <firefoxTos>Términos de servicio</firefoxTos> y <firefoxPrivacy>Aviso de privacidad</firefoxPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -851,12 +928,15 @@ auth-error-139 = El correo electrónico secundario debe ser diferente del correo
 auth-error-155 = Token TOTP no encontrado
 auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-999 = Error inesperado
+auth-error-1003 = El almacenamiento local o las cookies siguen desactivados
 auth-error-1008 = La nueva contraseña debe ser diferente
+auth-error-1011 = Se requiere un correo válido
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = No se ha podido crear la cuenta
+cannot-create-account-requirements = Debes cumplir ciertos requisitos mínimos de edad para crear una { -product-firefox-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saber más
 
@@ -868,6 +948,8 @@ connect-another-device-signed-in-header = Has iniciado sesión en { -brand-firef
 connect-another-device-email-confirmed-banner = Correo electrónico confirmado
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Inicio de sesión confirmado
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Inicia sesión en este { -brand-firefox } para completar la configuración
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Iniciar sesión
 # This link leads the user back to the `/pair` page so as to connect another device
@@ -878,6 +960,7 @@ connect-another-device-not-now-link = Ahora no
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Se requiere almacenamiento local y cookies
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reintentar
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1040,11 +1123,13 @@ account-restored-success-message = Has restaurado correctamente tu cuenta usando
 account-recovery-reset-password-success-alert = Contraseña establecida
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Se ha encontrado un error inesperado
+account-recovery-reset-password-redirecting = Redirigiendo
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Crear nueva contraseña
+complete-reset-password-warning-message-2 = <span>Recuerda:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { -product-pocket } no se verán modificados.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
@@ -1076,6 +1161,7 @@ reset-password-password-input =
 reset-password-button = Iniciar restablecimiento
 # Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
 reset-password-email-required-error = Correo electrónico requerido
+reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-with-recovery-key-verified-generate-new-key = Generar una nueva clave de recuperación de cuenta
 reset-password-with-recovery-key-verified-continue-to-account = Continuar el acceso a mi cuenta
 
@@ -1083,16 +1169,26 @@ reset-password-with-recovery-key-verified-continue-to-account = Continuar el acc
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Error:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validando inicio de sesión…
 
 ## ConfirmSignin component
 
 confirm-signin-header = Confirmar este inicio de sesión
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Comprueba en tu correo electrónico el enlace de confirmación enviado a { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Introduce tu contraseña <span>para tu { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
+signin-subheader-without-logo-default = Continuar a configuración de cuenta
 signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
@@ -1167,3 +1263,13 @@ confirm-signup-code-success-alert = Cuenta confirmada correctamente
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambiar correo
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = ¿Qué edad tienes?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Debes introducir la edad para registrarte
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = ¿Por qué preguntamos?
