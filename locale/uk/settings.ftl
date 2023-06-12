@@ -417,6 +417,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Створити нов
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Ключ відновлення облікового запису створено — завантажте та збережіть його зараз
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Цей ключ дає вам змогу відновити свої дані у разі втрати пароля. Завантажте його і збережіть в надійному місці. Ви не зможете повернутися до цієї сторінки знову.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Продовжити без завантаження
 
@@ -427,6 +429,8 @@ flow-recovery-key-download-next-link-v2 = Продовжити без заван
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Додайте підказку, яка допоможе знайти ваш ключ
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Ця підказка має допомогти вам згадати місце збереження ключа відновлення. Ви побачите її під час відновлення даних.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -456,6 +460,10 @@ flow-recovery-key-hint-unsafe-char-error = Підказка не може міс
 flow-recovery-key-info-header = Створіть ключ відновлення облікового запису на випадок, якщо ви забудете свій пароль
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Змініть ключ відновлення облікового запису
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Усі ваші дані перегляду, як-от паролі та закладки, шифруються. Це чудовий захист приватності, але ви втратите до них доступ, якщо забудете свій пароль.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Саме тому дуже важливо створити ключ відновлення облікового запису, який можна використати для відновлення даних.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Розпочати
 # Link to cancel account recovery key change and return to settings
