@@ -429,7 +429,7 @@ flow-recovery-key-download-next-link-v2 = Nadaljuj brez prenosa
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Dodajte namig, da boste lažje našli svoj ključ
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Ta namig vam bo pomagal zapomniti, kje ste shranili ključ za obnovitev računa. Pokazali vam ga bomo, ko boste z njim obnovili svoje podatke.
+flow-recovery-key-hint-message-v2 = Ta namig vam bo pomagal zapomniti si, kje ste shranili ključ za obnovitev računa. Pokazali vam ga bomo, ko boste z njim obnovili svoje podatke.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
