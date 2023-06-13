@@ -25,21 +25,6 @@ link-expired-resent-code-error-message = มีบางอย่างผิด
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = บันทึกคีย์กู้คืนบัญชีของคุณ
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 คีย์:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • คีย์สร้างเมื่อ: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • เรียนรู้เพิ่มเกี่ยวกับคีย์กู้คืนบัญชี: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -104,6 +89,10 @@ datablock-print =
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = รหัสผ่าน
+form-reset-password-with-balloon-submit-button = ตั้งรหัสผ่านใหม่
+form-reset-password-with-balloon-match-error = รหัสผ่านไม่ตรงกัน
 
 ## FormVerifyCode
 
