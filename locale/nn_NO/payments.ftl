@@ -110,7 +110,7 @@ payment-confirmation-amount-year =
         [one] { $amount } kvart år
        *[other] { $amount } kvart { $intervalCount } år
     }
-payment-confirmation-download-button = Fortset til nedlasting
+payment-confirmation-download-button = Hald fram til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
@@ -437,14 +437,14 @@ reactivate-confirm-dialog-header = Vil du halde fram med å bruke { $name }?
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
-    Tilgangen din til { $name } vil fortsetje, og faktureringssyklusen din
+    Tilgangen din til { $name } vil halde fram, og faktureringssyklusen din
     og betalinga vil vere den same. Den neste betalinga di kjem på { $amount } den { $endDate } til kortet som sluttar på { $last }.
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
 reactivate-confirm-without-payment-method-copy =
-    Tilgangen din til { $name } vil fortsetje, og faktureringssyklusen din
-    og betalingen vil vere som før. Den neste betalinga di blir
+    Tilgangen din til { $name } vil halde fram, og faktureringssyklusen din
+    og betalinga vil vere som før. Den neste betalinga di blir
     på { $amount } den { $endDate }.
 reactivate-confirm-button = Abonner ein gong til
 
