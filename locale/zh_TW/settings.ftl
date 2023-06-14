@@ -415,7 +415,7 @@ flow-recovery-key-download-next-link-v2 = 不下載繼續
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = 加入能協助您找到金鑰的提示
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = 此提示可協助您記得把帳號救援金鑰保存在何處。萬一未來需要找回資料時，我們能夠再次顯示給您。
+flow-recovery-key-hint-message-v2 = 在此處填寫把救援金鑰保存在何處的提示，萬一未來需要救回資料時，我們可再次顯示。
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
