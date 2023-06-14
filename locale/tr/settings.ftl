@@ -418,6 +418,12 @@ flow-recovery-key-download-next-link-v2 = İndirmeden devam et
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Anahtarınızı bulmanıza yardımcı olacak bir ipucu ekleyin
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Bu ipucu, hesap kurtarma anahtarınızı nerede sakladığınızı size hatırlatmalı. Verilerinizi kurtarmak için hesap kurtarma anahtarını kullanmak istediğinizde bu ipucunu size gösterebiliriz.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = İpucunuzu yazın (isteğe bağlı)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Bitir
@@ -447,6 +453,8 @@ flow-recovery-key-info-header-change-key = Hesap kurtarma anahtarınızı deği�
 flow-recovery-key-info-shield-bullet-point-v2 = Gezinti verilerinizi, parolalarınızı, yer imlerini ve diğer bilgilerinizi şifreliyoruz. Gizlilik açısından en doğrusu bu, ama parolanızı unutursanız verilerinizi kaybedebilirsiniz.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = Bu yüzden hesap kurtarma anahtarı oluşturmanız çok önemli. Verilerinizi geri getirmek istediğinizde anahtarınızı kullanabilirsiniz.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Başla
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = İptal
 
