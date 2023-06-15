@@ -410,6 +410,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crear nove clave de rec
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Clave de recuperation del conto create, discarga lo e reserva lo ora
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Iste clave permitte que tu recupera tu datos si tu oblida tu contrasigno. Discarga lo ja e guarda lo in alcun loco que tu va memorar. — tu non potera retornar a iste pagina postea.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sin discargar
 
@@ -420,6 +422,8 @@ flow-recovery-key-download-next-link-v2 = Continuar sin discargar
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Adde un indicio pro adjutar a trovar tu clave
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+flow-recovery-key-hint-message-v2 = Iste indicio te adjuta a memorar ubi tu guardava le clave pro recuperar tu conto. Nos te lo monstrara quanto tu vole usar lo pro recuperar tu datos.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
