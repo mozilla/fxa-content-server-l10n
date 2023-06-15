@@ -427,7 +427,8 @@ flow-recovery-key-download-next-link-v2 = Parhewch heb ei lwytho i lawr
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Ychwanegwch awgrym i'ch helpu i ddod o hyd i'ch allwedd
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Dylai'r awgrym hwn eich helpu i gofio ble rydych wedi storio allwedd adfer eich cyfrif. Byddwn yn ei ddangos i chi pan fyddwch yn ei ddefnyddio i adfer eich data.
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dylai'r awgrym hwn eich helpu i gofio ble rydych wedi storio allwedd adfer eich cyfrif. Gallwn ei ddangos i chi yn ystod ailosod y cyfrinair i adennill eich data.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
