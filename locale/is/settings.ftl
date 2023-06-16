@@ -185,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Skýringarmynd til að tákna endurheimtulykil reiknings.
 lock-image-aria-label =
     .aria-label = Skýringamynd af lás
+lightbulb-aria-label =
+    .aria-label = Myndskreyting sem táknar að búa til vísbendingu fyrir geymslu.
 
 ## Input Password
 
@@ -421,11 +423,43 @@ flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Bættu við vísbendingu til að hjálpa þér að finna lykilinn þinn
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Settu inn vísbendingu (valfrjálst)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Ljúka
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Staðir til að geyma lykilinn þinn:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappa á öruggu tæki
+flow-recovery-key-download-storage-ideas-cloud = Traust skýjageymsla
+flow-recovery-key-download-storage-ideas-print-v2 = Prentað eintak
+flow-recovery-key-download-storage-ideas-pwd-manager = Lykilorðaumsýsla
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Endurheimtulykill reiknings útbúinn
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Vísbendingin verður að innihalda færri en 255 stafi.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Útbúðu endurheimtulykil til að nota ef þú gleymir lykilorðinu þínu
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = breyttu endurheimtulykli reikningsins þíns
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Við dulritum vafragögn – lykilorð, bókamerki og fleira. Það er frábært fyrir friðhelgi einkalífsins, en þú gætir tapað gögnunum þínum ef þú gleymir lykilorðinu þínu.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Þess vegna er svo mikilvægt að búa til endurheimtulykil fyrir reikning - þú getur notað lykilinn þinn til að fá gögnin þín til baka.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Hefjast handa
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Hætta við
 
 # HeaderLockup component
 
@@ -577,6 +611,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Halda áfram
 delete-account-password-input =
     .label = Settu inn lykilorð
+pocket-delete-notice = Ef þú gerist áskrifandi að Pocket Premium skaltu ganga úr skugga um að þú <a>segir upp áskriftinni</a> áður en þú eyðir reikningnum þínum.
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
@@ -625,6 +660,9 @@ recovery-key-success-alert-3 = Endurheimtulykill reiknings útbúinn
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Endurheimtulykill reiknings
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Til baka í stillingar
 
 ## Add secondary email page
 
@@ -718,6 +756,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Skref { $currentStep } af { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -756,6 +799,8 @@ rk-header-1 = Endurheimtulykill reiknings
 rk-enabled = Virkjað
 rk-not-set = Ekki stillt
 rk-action-create = Búa til
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Breyta
 rk-action-remove = Fjarlægja
 rk-key-removed-2 = Endurheimtulykill reiknings fjarlægður
 rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
@@ -767,6 +812,8 @@ rk-remove-modal-content-1 =
     Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
     notað endurheimtulykil reikningsins þíns til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
 rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Eyða endurheimtulykli reiknings
 
 ## Secondary email sub-section on main Settings page
 
