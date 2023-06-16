@@ -18,32 +18,35 @@ link-expired-resent-link-error-message = Eitthvað fór úrskeiðis. Ekki var h�
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Sæktu endurheimtulykilinn þinn
-    .title = Sækja
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-download-button-v3 = Sækja og halda áfram
+    .title = Sækja og halda áfram
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = VISTAÐU ENDURHEIMTULYKIL REIKNINGSINS ÞÍNS
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Geymdu þessa skrá sem inniheldur endurheimtulykilinn þinn á stað sem þú manst eftir. Eða prentaðu hann út og geymdu eintakið vel. Endurheimtulykill reikningsins þíns getur hjálpað þér að endurheimta gögn úr { -brand-firefox } ef þú gleymir lykilorðinu þínu.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Lykill: { $recoveryKeyValue }
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+recovery-key-file-key-value-v2 = Lykill: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Lykill útbúinn: { $downloadDate }
+recovery-key-file-download-date-v2 = * Lykill útbúinn: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Frekari upplýsingar um endurheimtulykilinn þinn: { $supportURL }
+recovery-key-file-support-v2 = * Frekari upplýsingar um endurheimtulykilinn þinn: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Prenta
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = Tölva og farsími með brostin hjörtu
@@ -172,8 +176,15 @@ signin-totp-code-image-label =
     .aria-label = Tæki með falinn 6-stafa kóða.
 confirm-signup-aria-label =
     .aria-label = Umslag sem inniheldur tengil
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Skýringarmynd til að tákna endurheimtulykil reiknings.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Skýringarmynd til að tákna endurheimtulykil reiknings.
+lock-image-aria-label =
+    .aria-label = Skýringamynd af lás
 
 ## Input Password
 
@@ -386,18 +397,35 @@ drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá
 
 flow-container-back = Til baka
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Til baka í stillingar
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-heading-v2 = Sláðu aftur inn lykilorðið þitt til öryggis
+flow-recovery-key-confirm-pwd-input-label = Settu inn lykilorðið þitt
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Útbúðu endurheimtulykil reiknings
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Útbúðu nýjan endurheimtulykil fyrir reikninginn
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading-v2 = Endurheimtulykill reiknings búinn til — Sæktu hann núna og geymdu
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Útbúðu endurheimtulykil til að nota ef þú gleymir lykilorðinu þínu
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Við dulritum vafragögn – lykilorð, bókamerki og fleira. Það er frábært fyrir friðhelgi einkalífsins, en það þýðir að við getum ekki endurheimt gögnin þín ef þú gleymir lykilorðinu þínu.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-key-bullet-point = Þess vegna er svo mikilvægt að búa til endurheimtulykil fyrir reikning - þú getur notað lykilinn þinn til að fá gögnin þín til baka.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Byrjaðu að búa til endurheimtulykilinn þinn
 
 # HeaderLockup component
 
@@ -593,7 +621,7 @@ recovery-key-step-1 = Skref 1 af 2
 recovery-key-step-2 = Skref 2 af 2
 recovery-key-success-alert-3 = Endurheimtulykill reiknings útbúinn
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Endurheimtulykill reiknings
@@ -690,11 +718,6 @@ profile-primary-email =
 
 ## Progress bar
 
-# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
-# Variables:
-#   $currentStep (number) - the step which the user is currently on
-#   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = Framvindustika sem sýnir að notandinn er á skrefi { $currentStep } af { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -734,7 +757,6 @@ rk-enabled = Virkjað
 rk-not-set = Ekki stillt
 rk-action-create = Búa til
 rk-action-remove = Fjarlægja
-rk-cannot-refresh-1 = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-key-removed-2 = Endurheimtulykill reiknings fjarlægður
 rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
 rk-refresh-key-1 = Endurlesa endurheimtulykil reiknings
@@ -744,7 +766,6 @@ rk-remove-modal-heading-1 = Fjarlægja endurheimtulykil reiknings?
 rk-remove-modal-content-1 =
     Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
     notað endurheimtulykil reikningsins þíns til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
-rk-refresh-error-1 = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns
 
 ## Secondary email sub-section on main Settings page
