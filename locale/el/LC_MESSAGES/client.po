@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-16 00:37+0000\n"
-"PO-Revision-Date: 2023-02-22 09:39+0000\n"
+"PO-Revision-Date: 2023-06-17 12:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1582,7 +1582,7 @@ msgstr "Σε τι χρειάζεστε βοήθεια;"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr "Πληρωμή & χρέωση"
+msgstr "Πληρωμή και χρέωση"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
