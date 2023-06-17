@@ -416,6 +416,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Útbúðu nýjan endurh
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Endurheimtulykill reiknings búinn til — Sæktu hann núna og geymdu
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Þessi lykill gerir þér kleift að endurheimta gögnin þín ef þú gleymir lykilorðinu þínu. Sæktu hann núna og geymdu einhvers staðar þar sem þú manst - þú munt ekki geta farið aftur á þessa síðu.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
 
@@ -426,6 +428,9 @@ flow-recovery-key-download-next-link-v2 = Halda áfram án þess að sækja
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Bættu við vísbendingu til að hjálpa þér að finna lykilinn þinn
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Þessi vísbending ætti að hjálpa þér að muna hvar þú geymir endurheimtarlykilinn þinn. Við getum sýnt þér hana við endurstillingu lykilorðsins til að geta endurheimt gögnin þín.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -445,6 +450,9 @@ flow-recovery-key-success-alert = Endurheimtulykill reiknings útbúinn
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Vísbendingin verður að innihalda færri en 255 stafi.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Vísbendingin má ekki innihalda óörugga unicode-stafi. Aðeins bókstafir, tölustafir, greinarmerki og tákn eru leyfð.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
