@@ -966,11 +966,14 @@ connect-another-device-cad-link = Conectar otro dispositivo
 connect-another-device-not-now-link = Ahora no
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
 connect-another-device-android-complete-setup-message = Inicia sesión en { -brand-firefox } para Android para completar la configuración.
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Inicia sesión en { -brand-firefox } para iOS para completar la configuración.
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Se requiere almacenamiento local y cookies
+cookies-disabled-enable-prompt = Por favor, activa las cookies y el almacenamiento local en tu navegador para acceder a { -product-firefox-accounts }. Si lo haces, se activarán funcionalidades como recordar tus datos entre sesiones.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reintentar
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -980,6 +983,15 @@ cookies-disabled-learn-more = Saber más
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Confirma el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Guarda los códigos de autenticación de respaldo <span>para continuar en { $serviceName }</span>.
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Guarda estos códigos de un solo uso en un lugar seguro para cuando no tengas tu dispositivo móvil.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Cancelar
@@ -990,13 +1002,37 @@ inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Atrás
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Código de autenticación de respaldo
+inline-recovery-confirmation-description = Para asegurarte de poder recuperar el acceso a tu cuenta si pierdes un dispositivo, introduce uno de los códigos de autenticación de respaldo.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Confirma el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Confirma el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Añade una capa de seguridad a tu cuenta requiriendo códigos de autenticación de una de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Activa la autenticación en dos pasos <span>para continuar con la configuración de la cuenta</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activa la autenticación en dos pasos <span>para continuar con { $serviceName }</span>
 inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Escanea el código de autenticación <span> para continuar con { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Introduce el código manualmente <span>para continuar con { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Escanea el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Introduce el código manualmente <span>para continuar con la configuración de la cuenta</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
 
