@@ -1281,6 +1281,15 @@ back = Atrás
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Introduce el código de autenticación de respaldo <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Introduce el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>
+signin-recovery-code-instruction = Por favor, introduce un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos.
+signin-recovery-code-input-label = Introduce un código de autenticación de respaldo de 10 dígitos
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to return to signin with two-step authentication code
@@ -1288,6 +1297,8 @@ signin-recovery-code-back-link = Atrás
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Estás bloqueado?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Se requiere un código de autenticación de respaldo
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1298,6 +1309,12 @@ signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Introduce el código de confirmación <span>para tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
 signin-token-code-input-label-v2 = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1311,17 +1328,29 @@ signin-token-code-required-error = Código de confirmación requerido
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Introduce el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Introduce el código de autenticación <span>para continuar en { $serviceName }</span>
+signin-totp-code-instruction-v2 = Abre tu aplicación de autenticación e introduce el código de autenticación que te proporciona.
 signin-totp-code-input-label-v2 = Introduce el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
 signin-totp-code-recovery-code-link = ¿Problemas para introducir el código?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Código de autenticación requerido
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
 confirm-signup-heading = Confirma tu cuenta
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Comprueba en tu correo electrónico el enlace de confirmación enviado a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1331,6 +1360,12 @@ confirm-signup-heading = Confirma tu cuenta
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Introduce el código de confirmación
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Introduce el código de confirmación <span>para tu { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
 confirm-signup-code-input-label = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1338,11 +1373,16 @@ confirm-signup-code-code-expired = ¿Código caducado?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
 confirm-signup-code-success-alert = Cuenta confirmada correctamente
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Código de confirmación requerido
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Establece tu contraseña
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = ¿Por qué necesito crear esta cuenta? <LinkExternal>Descúbrelo aquí</LinkExternal>
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
