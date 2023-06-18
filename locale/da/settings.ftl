@@ -403,6 +403,7 @@ flow-container-back = Tilbage
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Indtast din adgangskode igen for at øge sikkerheden
 flow-recovery-key-confirm-pwd-input-label = Indtast din adgangskode
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Opret genoprettelsesnøgle til konto
@@ -427,6 +428,9 @@ flow-recovery-key-download-next-link-v2 = Fortsæt uden at hente
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Tilføj et tip til at hjælpe med at finde din nøgle
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dette tip skal hjælpe dig med at huske, hvor du gemte din genoprettelsesnøgle til kontoen. Vi kan vise dig tippet, når du nulstiller adgangskoden for at gendanne dine data.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -437,6 +441,7 @@ flow-recovery-key-hint-cta-text = Afslut
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
 flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
 flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
 flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
@@ -616,6 +621,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Fortsæt
 delete-account-password-input =
     .label = Indtast adgangskode
+pocket-delete-notice = Hvis du abonnerer på Pocket Premium, så sørg for at du <a>annullerer dit abonnement</a>, inden du sletter din konto.
 delete-account-cancel-button = Annuller
 delete-account-delete-button-2 = Slet
 
