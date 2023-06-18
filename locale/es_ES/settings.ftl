@@ -429,7 +429,8 @@ flow-recovery-key-download-next-link-v2 = Continuar sin descargar
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Añade una pista para ayudarte a encontrar tu clave
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Esta pista debería ayudarte a recordar dónde guardaste la clave de recuperación de tu cuenta. Te la mostraremos cuando la necesites para recuperar tus datos.
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Esta pista debería ayudarte a recordar dónde guardaste tu clave de recuperación de cuenta. Podemos mostrártela durante el restablecimiento de contraseña para recuperar tus datos.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -650,6 +651,7 @@ recent-activity-account-disable = La cuenta fue desactivada
 recent-activity-account-enable = La cuenta fue activada
 recent-activity-account-login = Inicio de sesión iniciado desde la cuenta
 recent-activity-account-reset = Restablecimiento de contraseña iniciado desde la cuenta
+recent-activity-emails-clearBounces = La cuenta ha eliminado correos rebotados
 
 # Account recovery key setup page
 
@@ -952,10 +954,18 @@ connect-another-device-signin-confirmed-banner = Inicio de sesión confirmado
 connect-another-device-signin-to-complete-message = Inicia sesión en este { -brand-firefox } para completar la configuración
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Iniciar sesión
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = ¿Aún añadiendo dispositivos? Inicia sesión con { -brand-firefox } en otro dispositivo para completar la configuración.
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Inicia sesión con { -brand-firefox } en otro dispositivo para completar la configuración.
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = ¿Quieres tener tus pestañas, marcadores y contraseñas en otro dispositivo?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Conectar otro dispositivo
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ahora no
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Inicia sesión en { -brand-firefox } para Android para completar la configuración.
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
