@@ -1033,6 +1033,12 @@ inline-totp-setup-no-qr-custom-service-header-2 = Introduce el código manualmen
 inline-totp-setup-show-qr-default-service-header-2 = Escanea el código de autenticación <span>para continuar con la configuración de la cuenta</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Introduce el código manualmente <span>para continuar con la configuración de la cuenta</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Escribe esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Prefieres escanear el código QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Escanea el código QR en tu aplicación de autenticación y luego introduce el código de autenticación que te proporciona. <toggleToManualModeButton>¿No puedes escanear el código?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Una vez completado, comenzará a generar códigos de seguridad para ti
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
 
@@ -1055,9 +1061,13 @@ legal-terms-heading = Términos del servicio
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = ¿Acabas de iniciar sesión en { -product-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sí, aprobar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si no fuiste tú, <link>cambia tu contraseña</link>.
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1078,9 +1088,16 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 auth-totp-heading-w-default-service = Introduce el código de autenticación <span>para continuar con la configuración de la cuenta</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Introduce el código de autenticación <span>para continuar en { $serviceName }</span>
+auth-totp-instruction = Abre tu aplicación de autenticación e introduce el código de autenticación que te proporciona.
 auth-totp-input-label = Introduce el código de 6 dígitos
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Confirmar
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Código de autenticación requerido
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1099,12 +1116,16 @@ pair-failure-message = Proceso de configuración interrumpido.
 
 pair-sync-header = Sincronizar { -brand-firefox } en tu teléfono o tableta
 pair-cad-header = Conectar { -brand-firefox } en otro dispositivo
+pair-already-have-firefox-paragraph = ¿Ya tienes { -brand-firefox } en un teléfono o tableta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincroniza tu dispositivo
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = O descargar
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Escanea para descargar { -brand-firefox } para dispositivos móviles o envíate un <linkExternal>enlace de descarga</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ahora no
+pair-take-your-data-message = Lleva tus pestañas, marcadores y contraseñas a cualquier lugar donde uses { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Comenzar
 # This is the aria label on the QR code image
@@ -1129,13 +1150,19 @@ pair-supp-allow-cancel-link = Cancelar
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde tu otro dispositivo</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Conectarse mediante una aplicación
+pair-unsupported-message = ¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Espera, estás siendo redirigido a la aplicación autorizada.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1182,6 +1209,7 @@ complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, ha surgido un problema al establecer tu contraseña
+complete-reset-password-recovery-key-error = Lo sentimos, ha habido un problema al verificar si tienes una clave de recuperación de cuenta. <hasRecoveryKeyErrorLink>Restablece tu contraseña con la clave de recuperación de cuenta.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1201,6 +1229,7 @@ reset-password-heading-w-default-service = Restablecer contraseña <span>para co
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+reset-password-warning-message-2 = <span>Nota:</span> Cuando restableces tu contraseña, también restableces tu cuenta. Puede que pierdas alguna información personal (incluyendo tu historial, marcadores, y contraseñas). Eso es debido a que ciframos tus datos con tu contraseña para proteger tu privacidad. Seguirás manteniendo las suscripciones que pudieras tener y los datos de { -product-pocket } no se verán modificados.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Correo electrónico
@@ -1240,6 +1269,11 @@ signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usar una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
 signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
+# $email (string) - The user's email.
+signin-bounced-message = El correo electrónico de confirmación enviado a { $email } fue devuelto y hemos bloqueado tu cuenta para proteger tus datos de { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Si esta es una dirección de correo válida, <linkExternal>háznoslo saber</linkExternal> y podremos ayudarte a desbloquear tu cuenta.
+signin-bounced-create-new-account = ¿Ese correo electrónico ya no es tuyo? Crea una cuenta nueva
 back = Atrás
 
 ## SigninRecoveryCode page
