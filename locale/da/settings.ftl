@@ -18,32 +18,35 @@ link-expired-resent-link-error-message = Noget gik galt. Et nyt link kunne ikke 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 
-## DownloadRecoveryKeyAsFile
-## These strings are used in an unformatted plain text file that users can download to save their recovery key
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button = Hent din genoprettelsesnøgle
-    .title = Hent
-# Heading in the text file. No formatting will be applied to the text. All caps is used in English to show this is a header.
+recovery-key-download-button-v3 = Hent og fortsæt
+    .title = Hent og fortsæt
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
 recovery-key-file-header = GEM DIN GENOPRETTELSESNØGLE TIL KONTOEN
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this key can result in data loss.
+# Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Denne fil indeholder din genoprettelsesnøgle til kontoen. Opbevar den et sted, du kan huske. Eller udskriv filen og gem en fysisk kopi. Din genoprettelsesnøgle til kontoen kan hjælpe dig med at gendanne { -brand-firefox }-data, hvis du glemmer din adgangskode.
-# { $recoveryKeyValue } is the recovery key, a randomly generated code in latin characters
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Nøgle:  { $recoveryKeyValue }
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+recovery-key-file-key-value-v2 = Nøgle: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the recovery key was created and this file was downloaded
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Nøgle oprettet: { $downloadDate }
+recovery-key-file-download-date-v2 = * Nøgle oprettet: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Læs mere om din genoprettelsesnøgle til kontoen: { $supportURL }
+recovery-key-file-support-v2 = * Læs mere om din genoprettelsesnøgle til kontoen: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -161,6 +164,7 @@ get-data-trio-print-2 =
     .aria-label = Udskriv
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
     .aria-label = En computer og en mobiltelefon med et billede af et knust hjerte på hver
@@ -172,8 +176,17 @@ signin-totp-code-image-label =
     .aria-label = En enhed med en skjult 6-cifret kode.
 confirm-signup-aria-label =
     .aria-label = En konvolut med et link
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
     .aria-label = Illustration af en genoprettelsesnøgle til en konto.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Illustration af en genoprettelsesnøgle til en konto.
+lock-image-aria-label =
+    .aria-label = En illustration af en lås
+lightbulb-aria-label =
+    .aria-label = Illustration af oprettelse af opbevaringstip.
 
 ## Input Password
 
@@ -386,18 +399,70 @@ drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge d
 
 flow-container-back = Tilbage
 
-## First view in the Recovery-Key-Add UX redesign flow
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
 
-# This will be the title of the back button so that users know where that button will take them
-flow-recovery-key-info-back-button-title = Tilbage til indstillinger
-# The header of the first view in the Recovery Key Add flow
+flow-recovery-key-confirm-pwd-input-label = Indtast din adgangskode
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Opret genoprettelsesnøgle til konto
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Opret ny genoprettelsesnøgle til kontoen
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading-v2 = Genoprettelsesnøgle til kontoen oprettet — Hent og gem den nu
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Med denne nøgle kan du gendanne dine data, hvis du glemmer din adgangskode. Hent den nu og gem den et sted, du kan huske — Du kan ikke vende tilbage til denne side senere.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Fortsæt uden at hente
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Tilføj et tip til at hjælpe med at finde din nøgle
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Indtast et tip (valgfrit)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Afslut
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
+flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
+flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
+flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Genoprettelsesnøgle til kontoen blev oprettet
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Tippet skal indeholde færre end 255 tegn.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Tippet kan ikke indeholde usikre unicode-tegn. Kun bogstaver, tal, tegnsætningstegn og symboler er tilladt.
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Opret en genoprettelsesnøgle til kontoen, i tilfælde af at du glemmer din adgangskode
-# In the first view of the Recovery Key Add flow, this is the first of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-shield-bullet-point = Vi krypterer browserdata –– adgangskoder, bogmærker med mere. Det gør vi for at beskytte dit privatliv bedst mulig. Men det betyder, at vi ikke kan gendanne dine data, hvis du glemmer din adgangskode.
-# In the first view of the Recovery Key Add flow, this is the second of two bullet points explaining why the user should create a recovery key
-flow-recovery-key-info-key-bullet-point = Derfor er det meget vigtig, at du opretter en genoprettelsesnøgle til kontoen –– du skal bruge din nøgle til at få dine data tilbage.
-# The text of the "submit" button in the first view of the Recovery Key Add flow
-flow-recovery-key-info-cta-text = Begynd at oprette din genoprettelsesnøgle
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Skift din genoprettelsesnøgle til kontoen
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Vi krypterer browserdata –– adgangskoder, bogmærker med mere. Det gør vi for at beskytte dit privatliv bedst mulig. Men det betyder, at du kan miste dine data, hvis du glemmer din adgangskode.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Derfor er det meget vigtig, at du opretter en genoprettelsesnøgle til kontoen –– du skal bruge den til at gendanne dine data.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Kom i gang
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Annuller
 
 # HeaderLockup component
 
@@ -595,10 +660,13 @@ recovery-key-step-1 = Trin 1 af 2
 recovery-key-step-2 = Trin 2 af 2
 recovery-key-success-alert-3 = Genoprettelsesnøgle til kontoen blev oprettet
 
-## Create Recovery Key page
+## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Genoprettelsesnøgle til kontoen
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Tilbage til indstillinger
 
 ## Add secondary email page
 
@@ -699,7 +767,7 @@ profile-primary-email =
 # Variables:
 #   $currentStep (number) - the step which the user is currently on
 #   $numberOfSteps (number) - the total number of steps in a given flow
-progress-bar-aria-label = En statuslinje der viser, at brugeren er på trin { $currentStep } af { $numberOfSteps }.
+progress-bar-aria-label-v2 = Trin { $currentStep } af { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -738,8 +806,9 @@ rk-header-1 = Genoprettelsesnøgle til kontoen
 rk-enabled = Aktiveret
 rk-not-set = Ikke indstillet
 rk-action-create = Opret
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Skift
 rk-action-remove = Fjern
-rk-cannot-refresh-1 = Der opstod desværre et problem med at opdatere genoprettelsesnøglen til kontoen.
 rk-key-removed-2 = Genoprettelsesnøgle til kontoen blev fjernet
 rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 rk-refresh-key-1 = Opdater genoprettelsesnøgle til kontoen
@@ -749,8 +818,9 @@ rk-remove-modal-heading-1 = Fjern genoprettelsesnøgle til kontoen?
 rk-remove-modal-content-1 =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
     til kontoen til at få adgang til dine data. Du kan ikke fortryde denne handling.
-rk-refresh-error-1 = Der opstod desværre et problem med at opdatere genoprettelsesnøglen til kontoen.
 rk-remove-error-2 = Genoprettelsesnøglen til din konto kunne ikke fjernes
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Slet genoprettelsesnøgle til kontoen
 
 ## Secondary email sub-section on main Settings page
 
@@ -860,6 +930,7 @@ auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-999 = Uventet fejl
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
+auth-error-1011 = Gyldig mailadresse påkrævet
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
