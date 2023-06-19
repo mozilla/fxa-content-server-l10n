@@ -423,16 +423,32 @@ flow-recovery-key-download-next-link-v2 = Eku’ejey emboguejy’ỹre
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Embojuaju tape roipytyvõ hag̃ua ne mba’eñemi guerujeyrã
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Emoinge tape (ejaposérõ)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Mbopaha
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Eñongatukuaaha mba’eñemi:
+flow-recovery-key-download-storage-ideas-folder-v2 = Marandurenda mba’e’oka hekorosãvape
 flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
+flow-recovery-key-download-storage-ideas-print-v2 = Ñemonguatiapyre
 flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Mba’ete mba’eñemi guerujeyrã moheñoimbyre
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Eñepyrũ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Heja
 
