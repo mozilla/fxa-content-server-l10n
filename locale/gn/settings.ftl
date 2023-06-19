@@ -403,14 +403,21 @@ flow-container-back = Tapykue
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Ehaijey ne ñe’ẽñemi tekorosãrãve
 flow-recovery-key-confirm-pwd-input-label = Ehai ne ñe’ẽñemi
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Emoheñói mba’ete mba’eñemi guerujeyrã
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Mba’ete mba’eñemi guerujeyrã moheñoimbyre — Emboguejy ha eñongatu
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Eku’ejey emboguejy’ỹre
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
