@@ -30,6 +30,23 @@ recovery-key-download-button-v3 = Emboguejy ha eku’ejey
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = EÑONGATU NE MBA’ETE MBA’EÑEMI GUERUJEYRÃ
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Eñongatu ko marandurenda orekóva ne mba’ete mba’eñemi guerujeyrã peteĩ tenda eikuaahápe. Térã emonguatia ha eñongatu. Pe mba’ete mba’eñemi guerujeyrã nepytyvõkuaa erujey hag̃ua mba’ekuaarã { -brand-firefox } guive nderesaráirõ ñe’ẽñemígui.
+# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
+# "Key" here refers to the term "account recovery key"
+recovery-key-file-key-value-v2 = Mba’eñemi: { $recoveryKeyValue }
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Mba’eñemi moheñoimbyre: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Eikuaave mba’ete mba’eñemi guerujeyrã rehegua: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -168,6 +185,8 @@ recovery-key-image-aria-label =
     .aria-label = Ta’ãnga ehechauka hag̃ua mba’ete mba’eñemi guerujeyrã.
 lock-image-aria-label =
     .aria-label = Peteĩ mbotyha ra’ãnga
+lightbulb-aria-label =
+    .aria-label = Ta’ãnga ehechauka hag̃ua ñemoñe’ẽ moheñoimby ñembyatyha rendarã.
 
 ## Input Password
 
