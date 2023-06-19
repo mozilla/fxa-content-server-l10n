@@ -22,28 +22,14 @@ link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ay
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Emboguejy ne mba’ete mba’eñemi guerujeyrã
-    .title = Emboguejy
+recovery-key-download-button-v3 = Emboguejy ha eku’ejey
+    .title = Emboguejy ha eku’ejey
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = EÑONGATU NE MBA’ETE MBA’EÑEMI GUERUJEYRÃ
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Ñe’ẽñemi:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Ñe’ẽñemi moheñoimbyre: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Eikuaave mba’ete mba’eñemi guerujeyrã rehegua: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -398,7 +384,6 @@ flow-container-back = Tapykue
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Ehaijey ne ñe’ẽñemi eñepyrũ hag̃ua
 flow-recovery-key-confirm-pwd-input-label = Ehai ne ñe’ẽñemi
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Emoheñói mba’ete mba’eñemi guerujeyrã
@@ -407,40 +392,21 @@ flow-recovery-key-confirm-pwd-submit-button = Emoheñói mba’ete mba’eñemi 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Eñamindu’u eñongatu hag̃ua mba’eñemi jeguerujeyrã ne mba’etégui:
-flow-recovery-key-download-storage-ideas-folder = Ñongatuha oikóva ne mba’e’okápe
-flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
-flow-recovery-key-download-storage-ideas-print = Emonguatia ha eguereko nendive
-flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Upeigua
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = ¡Oĩporã! Ehechauka moõpa eñongatúta
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Emoinge moõpa eñongatukuaa (ejaposérõ)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Mbopaha
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Ijurujáma mba’ete guerujeyrã.
+flow-recovery-key-download-storage-ideas-cloud = Ñeñongatuha araípe jeroviaha
+flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Emoheñói ne mba’ete mba’eñemi guerujeyrã
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Heja
 
@@ -790,7 +756,6 @@ rk-action-create = Moheñói
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Moambue
 rk-action-remove = Mboguete
-rk-cannot-refresh-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.
 rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key-1 = Embohekopyahu mba’eñemi jeguerujeyrã
@@ -800,7 +765,6 @@ rk-remove-modal-heading-1 = Embogue mba’ete mba’eñemi jeguerujeyrã
 rk-remove-modal-content-1 =
     Emoĩporãsejeýramo ne ñe’ẽñemi, ndaikatumo’ãi
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
-rk-refresh-error-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.
 rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Embogue mba’ete mba’eñemi guerujeyrã
