@@ -442,6 +442,9 @@ flow-recovery-key-download-storage-ideas-print-v2 = Ñemonguatiapyre
 flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangarekohára
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Mba’ete mba’eñemi guerujeyrã moheñoimbyre
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Pe tape oguerekova’erã hetave 255 tairendágui.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
