@@ -33,9 +33,9 @@ recovery-key-file-header = CADWCH ALLWEDD ADFER EICH CYFRIF
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Cadwch y ffeil hon sy'n cynnwys allwedd adfer eich cyfrif mewn man y byddwch chi'n ei gofio. Neu ei argraffu a chadw copi corfforol. Gall allwedd adfer eich cyfrif eich helpu i adfer data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Allwedd: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Allwedd:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account } : { $email }
 # Date when the account recovery key was created and this file was downloaded
