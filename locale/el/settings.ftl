@@ -30,9 +30,9 @@ recovery-key-download-button-v3 = Λήψη και συνέχεια
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣΗΣ ΛΟΓΑΡΙΑΣΜΟΥ
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Κλειδί: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Κλειδί:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
