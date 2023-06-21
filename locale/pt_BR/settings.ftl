@@ -33,9 +33,9 @@ recovery-key-file-header = SALVE SUA CHAVE DE RECUPERAÇÃO DE CONTA
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Guarde este arquivo que contém a chave de recuperação de conta em um local fácil de lembrar. Ou imprima e guarde uma cópia física. A chave de recuperação de conta pode ajudar a recuperar os dados do { -brand-firefox }, caso você esqueça sua senha.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Chave: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Chave:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
