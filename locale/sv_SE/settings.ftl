@@ -33,9 +33,9 @@ recovery-key-file-header = SPARA DIN KONTOÅTERSTÄLLNINGSNYCKEL
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Förvara den här filen som innehåller din kontoåterställningsnyckel på en plats du kommer ihåg. Eller skriv ut den och behåll en fysisk kopia. Din kontoåterställningsnyckel kan hjälpa dig att återställa { -brand-firefox }-data om du glömmer ditt lösenord.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Nyckel: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Nyckel:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
