@@ -33,9 +33,9 @@ recovery-key-file-header = TALLENNA TILIN PALAUTUSAVAIN
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Tallenna tämä tilin palautusavaimen sisältävä tiedosto paikkaan, jonka muistat. Tai tulosta se ja säilytä fyysinen kopio. Tilin palautusavain voi auttaa sinua palauttamaan { -brand-firefox }-tiedot, jos unohdat salasanasi.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Avain: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Avain:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -428,8 +428,6 @@ flow-recovery-key-download-next-link-v2 = Jatka lataamatta
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Lisää vihje, joka auttaa löytämään avaimesi
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Tämän vihjeen tulisi auttaa sinua muistamaan, mihin talletit tilin palautusavaimen. Näytämme vihjeen sinulle, kun käytät sitä tietojesi palauttamiseen.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
