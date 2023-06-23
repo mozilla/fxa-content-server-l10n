@@ -653,6 +653,10 @@ recent-activity-account-login = Račun je začel postopek prijave
 recent-activity-account-reset = Račun je začel ponastavitev gesla
 recent-activity-emails-clearBounces = Račun je odstranil zavrnjeno pošto
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Prekliči
