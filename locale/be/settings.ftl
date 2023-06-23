@@ -654,6 +654,10 @@ recent-activity-account-login = Уваход ініцыяваны ўліковы
 recent-activity-account-reset = Скід пароля ініцыяваны ўліковым запісам
 recent-activity-emails-clearBounces = Уліковы запіс ачысціў недастаўленую пошту
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Скасаваць
