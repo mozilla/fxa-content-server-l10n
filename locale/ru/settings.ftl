@@ -651,6 +651,10 @@ recent-activity-account-login = Вход, инициированный акка�
 recent-activity-account-reset = Сброс пароля, инициированный аккаунтом
 recent-activity-emails-clearBounces = Аккаунт очистил отправку писем
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Отмена
