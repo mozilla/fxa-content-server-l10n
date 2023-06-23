@@ -641,6 +641,10 @@ recent-activity-account-login = Connexion initiée par le compte
 recent-activity-account-reset = Réinitialisation du mot de passe initiée par le compte
 recent-activity-emails-clearBounces = Le compte a été débarrassé de la non-distribution des e-mails
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Annuler
