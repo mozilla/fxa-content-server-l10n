@@ -651,6 +651,10 @@ recent-activity-account-login = Vom Konto initiierte Anmeldung
 recent-activity-account-reset = Vom Konto initiiertes Zurücksetzen des Passworts
 recent-activity-emails-clearBounces = Konto hat zurückgewiesene E-Mails gelöscht
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Abbrechen
