@@ -648,6 +648,10 @@ recent-activity-account-login = Ingreso a la cuenta iniciado
 recent-activity-account-reset = Restablecimiento de contraseña de la cuenta iniciado
 recent-activity-emails-clearBounces = Limpieza de correos electrónicos de la cuenta rebotados
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
