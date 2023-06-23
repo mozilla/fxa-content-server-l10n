@@ -651,6 +651,10 @@ recent-activity-account-login = Mewngofnod ar sail cyfrif
 recent-activity-account-reset = Ailosod cyfrifnair ar sail cyfrif
 recent-activity-emails-clearBounces = Cyfrif wedi clirio adlamiad e-bost
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Diddymu
