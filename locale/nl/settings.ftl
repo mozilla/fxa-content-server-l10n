@@ -653,6 +653,10 @@ recent-activity-account-login = Door account geïnitieerde aanmelding
 recent-activity-account-reset = Door account geïnitieerde wachtwoordherinitialisatie
 recent-activity-emails-clearBounces = Door account opgeloste e-mailberichtretournering
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Annuleren
