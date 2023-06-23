@@ -653,6 +653,10 @@ recent-activity-account-login = Troch account inisjearre oanmelding
 recent-activity-account-reset = Troch account inisjearre wachtwurdwerinisjalisaasje
 recent-activity-emails-clearBounces = Troch account oploste e-mailberjochtenretoernearing
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Annulearje
