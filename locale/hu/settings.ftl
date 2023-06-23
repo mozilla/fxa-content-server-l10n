@@ -653,6 +653,10 @@ recent-activity-account-login = A fiók bejelentkezést kezdeményezett
 recent-activity-account-reset = A fiók jelszó-visszaállítást kezdeményezett
 recent-activity-emails-clearBounces = A fiók törölte a visszapattant leveleket
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Mégse
