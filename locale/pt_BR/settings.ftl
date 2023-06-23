@@ -636,6 +636,10 @@ recent-activity-account-login = Iniciado acesso na conta
 recent-activity-account-reset = Iniciada redefinição de senha da conta
 recent-activity-emails-clearBounces = A conta removeu a não entrega de emails
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
