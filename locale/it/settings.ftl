@@ -638,6 +638,10 @@ recent-activity-account-login = L’account ha iniziato la procedura di accesso
 recent-activity-account-reset = L’account ha iniziato la reimpostazione della password
 recent-activity-emails-clearBounces = L’account ha rimosso il mancato recapito delle email
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Annulla
