@@ -33,9 +33,9 @@ recovery-key-file-header = BEWARJE JO ACCOUNTWERSTELKAAI
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Bewarje dit bestân mei jo accountwerstelkaai op in plak dat jo ûnthâlde sille. Of druk it ôf en bewarje in fysike kopy. Jo accountwerstelkaai kin jo helpe om { -brand-firefox }-gegevens te werstellen as jo jo wachtwurd ferjitte.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Kaai: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Kaai:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
