@@ -623,6 +623,10 @@ recent-activity-account-create = החשבון נוצר
 recent-activity-account-disable = החשבון הושבת
 recent-activity-account-enable = החשבון הופעל
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = ביטול
