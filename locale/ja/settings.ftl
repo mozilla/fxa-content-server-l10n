@@ -33,9 +33,9 @@ recovery-key-file-header = アカウント回復用キーを保管しましょ�
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = このアカウント回復用キーを含むファイルを覚えやすい場所に保存してください。もしくは、これを印刷して安全な場所に保管してください。パスワードを忘れた場合に、アカウント回復用キーで { -brand-firefox } のデータを回復できます。
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = キー: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = キー名:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -417,7 +417,8 @@ flow-recovery-key-download-next-link-v2 = ダウンロードせずに続ける
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = キーを見つけるのに役立つヒントを追加してください
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = このヒントは、アカウント回復キーを保管した場所を思い出すのに役立ちます。データの回復に使用するときに表示されます。
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = このヒントは、アカウント回復キーを保管した場所を思い出すのに役立ちます。これは、パスワードをリセットしてデータを回復するときに表示されます。
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -447,6 +448,12 @@ flow-recovery-key-hint-unsafe-char-error = ヒントに安全でないユニコ�
 flow-recovery-key-info-header = パスワードを忘れた場合に備えてアカウント回復用キーを作成します
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = アカウント回復用キーを変更してください
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = パスワードやブックマークなどのブラウジングデータは暗号化されます。これは、プライバシー保護には優れていますが、パスワードを忘れるとデータが失われることを意味します。
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = そのため、アカウント回復用キーの作成が非常に重要です。このキーを使用してデータを復元してください。
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = はじめに
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
@@ -600,6 +607,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
+pocket-delete-notice = Pocket Premium を購読している場合は、アカウントを削除する前に必ず <a>購読をキャンセル</a> してください。
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
@@ -629,6 +637,10 @@ recent-activity-account-enable = アカウントが有効化されました
 recent-activity-account-login = アカウントへのログイン開始
 recent-activity-account-reset = アカウントのパスワードリセット
 recent-activity-emails-clearBounces = アカウントのバウンスメール (配信エラーのメール) が消去されました
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
