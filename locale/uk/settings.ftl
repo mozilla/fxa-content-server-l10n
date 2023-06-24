@@ -654,6 +654,10 @@ recent-activity-account-login = Вхід з обліковим записом
 recent-activity-account-reset = Скидання пароля через обліковий запис
 recent-activity-emails-clearBounces = Очищено недоставлену пошту облікового запису
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Скасувати
