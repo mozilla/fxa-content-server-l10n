@@ -638,6 +638,10 @@ recent-activity-account-login = 账户发起的登录
 recent-activity-account-reset = 账户发起的密码重置
 recent-activity-emails-clearBounces = 账户已清除退件
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = 取消
