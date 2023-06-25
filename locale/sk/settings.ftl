@@ -33,9 +33,9 @@ recovery-key-file-header = USCHOVAJTE SI KĽÚČ NA OBNOVENIE ÚČTU
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Uložte tento súbor obsahujúci kľúč na obnovenie účtu na miesto, ktoré si zapamätáte. Alebo si ho vytlačte a ponechajte si fyzickú kópiu. Váš kľúč na obnovenie účtu vám môže pomôcť obnoviť údaje { -brand-firefox(case: "gen") }, ak zabudnete heslo.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Kľúč: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Kľúč:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -430,7 +430,8 @@ flow-recovery-key-download-next-link-v2 = Pokračovať bez stiahnutia
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Pridajte si pomôcku, ktorá vám pomôže nájsť kľúč
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Táto pomôcka by vám mala pomôcť zapamätať si, kde ste uložili kľúč na obnovenie účtu. Zobrazíme vám ju počas procesu obnovenia vašich údajov.
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Táto pomôcka by vám mala pomôcť zapamätať si, kde ste uložili kľúč na obnovenie účtu. Zobrazíme vám ju počas procesu obnovenia hesla a vašich údajov.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -652,6 +653,10 @@ recent-activity-account-enable = Účet bol povolený
 recent-activity-account-login = Účet inicioval prihlásenie
 recent-activity-account-reset = Účet inicioval zmenu hesla
 recent-activity-emails-clearBounces = Účet vymazal nedoručiteľné e-maily
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
