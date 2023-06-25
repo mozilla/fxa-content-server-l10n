@@ -428,11 +428,25 @@ flow-recovery-key-download-next-link-v2 = Kontynuuj bez pobierania
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Dodaj wskazówkę, która pomoże Ci znaleźć klucz
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Ta wskazówka powinna być pomocna przy szukaniu klucza odzyskiwania konta. Możemy pokazać Ci ją podczas zmiany hasła, aby odzyskać Twoje dane.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Wpisz wskazówkę (opcjonalnie)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokończ
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Miejsca, w których można zachować klucz:
+flow-recovery-key-download-storage-ideas-folder-v2 = Folder na zabezpieczonym urządzeniu
 flow-recovery-key-download-storage-ideas-cloud = Zaufany serwis do przechowywania plików
+flow-recovery-key-download-storage-ideas-print-v2 = Wydrukowana kartka
 flow-recovery-key-download-storage-ideas-pwd-manager = Menedżer haseł
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Utworzono klucz odzyskiwania konta
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Wskazówka nie może mieć więcej niż 254 znaki.
@@ -446,6 +460,12 @@ flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebez
 flow-recovery-key-info-header = Utwórz klucz odzyskiwania konta na wypadek zapomnienia hasła
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Zmień klucz odzyskiwania konta
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Szyfrujemy dane przeglądania — hasła, zakładki i nie tylko. To świetne rozwiązanie w zakresie prywatności, ale oznacza też, że możesz stracić swoje dane, jeśli zapomnisz hasła.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Dlatego tak ważne jest utworzenie klucza odzyskiwania konta — możesz go użyć, aby odzyskać swoje dane.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Zacznij teraz
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuluj
 
@@ -635,6 +655,7 @@ recent-activity-emails-clearBounces = Konto wyczyściło odrzucone wiadomości
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
