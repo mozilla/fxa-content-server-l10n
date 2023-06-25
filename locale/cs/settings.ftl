@@ -647,6 +647,10 @@ recent-activity-account-login = Účet inicioval přihlášení
 recent-activity-account-reset = Účet inicioval změnu hesla
 recent-activity-emails-clearBounces = Účet vymazal nedoručitelné e-maily
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Zrušit
