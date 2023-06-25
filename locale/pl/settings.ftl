@@ -22,31 +22,31 @@ link-expired-resent-code-error-message = Coś się nie powiodło. Nie można wys
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Pobierz klucz odzyskiwania konta
-    .title = Pobierz
+recovery-key-download-button-v3 = Pobierz i kontynuuj
+    .title = Pobierz i kontynuuj
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = Zachowaj klucz odzyskiwania konta
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Przechowuj ten plik zawierający klucz odzyskiwania konta w miejscu, które zapamiętasz. Albo wydrukuj go i zachowaj fizyczną kopię. Klucz odzyskiwania konta może pomóc Ci odzyskać dane { -brand-firefox(case: "gen") }, jeśli zapomnisz hasła.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Klucz:  { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Klucz:
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Data utworzenia klucza: { $downloadDate }
+recovery-key-file-download-date-v2 = * Data utworzenia klucza: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Więcej informacji o kluczu odzyskiwania konta: { $supportURL }
+recovery-key-file-support-v2 = * Więcej informacji o kluczu odzyskiwania konta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,36 @@ flow-container-back = Wstecz
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Wpisz hasło ponownie, aby zacząć
+flow-recovery-key-confirm-pwd-heading-v2 = Wpisz hasło ponownie w celach bezpieczeństwa
 flow-recovery-key-confirm-pwd-input-label = Wpisz hasło
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Utwórz klucz odzyskiwania konta
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Utwórz nowy klucz odzyskiwania konta
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = Utworzono klucz odzyskiwania konta — przechowuj go w miejscu, którego nie zapomnisz
+flow-recovery-key-download-heading-v2 = Utworzono klucz odzyskiwania konta — teraz pobierz go i zachowaj
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Ten klucz pomoże Ci odzyskać swoje dane, jeśli zapomnisz hasła.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = Kilka pomysłów, gdzie można przechowywać klucz odzyskiwania konta:
-flow-recovery-key-download-storage-ideas-folder = Łatwy do zapamiętania folder na komputerze
-flow-recovery-key-download-storage-ideas-cloud = Zaufany serwis do przechowywania plików
-flow-recovery-key-download-storage-ideas-print = Wydrukowanie i zachowanie fizycznej kopii
-flow-recovery-key-download-storage-ideas-pwd-manager = Menedżer haseł
+flow-recovery-key-download-info-v2 = Ten klucz umożliwia odzyskanie danych, jeśli zapomnisz hasła. Pobierz go teraz i zachowaj w miejscu, które zapamiętasz — nie będzie można później wrócić do tej strony.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Dalej
+flow-recovery-key-download-next-link-v2 = Kontynuuj bez pobierania
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Wspaniale! Teraz dodaj wskazówkę o miejscu przechowywania
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Dodaj wskazówkę dotyczącą miejsca przechowywania klucza odzyskiwania konta. Możemy pokazać Ci ją podczas zmiany hasła, aby odzyskać Twoje dane.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Wpisz wskazówkę o miejscu przechowywania (opcjonalnie)
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Dodaj wskazówkę, która pomoże Ci znaleźć klucz
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokończ
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Włączono klucz odzyskiwania konta.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Włączono klucz odzyskiwania konta i ustawiono wskazówkę o miejscu przechowywania.
+flow-recovery-key-download-storage-ideas-cloud = Zaufany serwis do przechowywania plików
+flow-recovery-key-download-storage-ideas-pwd-manager = Menedżer haseł
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Wskazówka nie może mieć więcej niż 254 znaki.
@@ -457,14 +446,6 @@ flow-recovery-key-hint-unsafe-char-error = Wskazówka nie może zawierać niebez
 flow-recovery-key-info-header = Utwórz klucz odzyskiwania konta na wypadek zapomnienia hasła
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Zmień klucz odzyskiwania konta
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Szyfrujemy dane przeglądania — hasła, zakładki i nie tylko. To świetne rozwiązanie w zakresie prywatności, ale oznacza też, że nie możemy odzyskać Twoich danych, jeśli zapomnisz hasła.
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Dlatego tak ważne jest utworzenie klucza odzyskiwania konta — możesz go użyć, aby odzyskać swoje dane.
-# The text of the "submit" button in the first view of the PageRecoveryKeyCreate flow
-flow-recovery-key-info-cta-text-v2 = Zacznij tworzenie klucza odzyskiwania konta
-# The text of the "submit" button in the first view of the Account Recovery Key Create flow
-flow-recovery-key-info-cta-text-change-key = Zmień klucz odzyskiwania konta
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuluj
 
@@ -652,6 +633,9 @@ recent-activity-account-login = Konto zainicjowało logowanie
 recent-activity-account-reset = Konto zainicjowało zmianę hasła
 recent-activity-emails-clearBounces = Konto wyczyściło odrzucone wiadomości
 
+## $date (Date) - Date recent activity was created
+
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Anuluj
@@ -813,7 +797,6 @@ rk-action-create = Utwórz
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Zmień
 rk-action-remove = Usuń
-rk-cannot-refresh-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-key-removed-2 = Usunięto klucz odzyskiwania konta
 rk-cannot-remove-key = Nie można usunąć klucza odzyskiwania konta.
 rk-refresh-key-1 = Odśwież klucz odzyskiwania konta
@@ -823,7 +806,6 @@ rk-remove-modal-heading-1 = Usunąć klucz odzyskiwania konta?
 rk-remove-modal-content-1 =
     W przypadku zmiany hasła nie będzie można użyć klucza odzyskiwania konta
     do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
-rk-refresh-error-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-remove-error-2 = Nie można usunąć klucza odzyskiwania konta
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Usuń klucz odzyskiwania konta
