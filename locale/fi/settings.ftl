@@ -428,6 +428,9 @@ flow-recovery-key-download-next-link-v2 = Jatka lataamatta
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Lisää vihje, joka auttaa löytämään avaimesi
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Tämän vihjeen tulisi auttaa sinua muistamaan, mihin talletit tilin palautusavaimen. Voimme näyttää vihjeen sinulle, kun nollaat salasanasi, jotta voit palauttaa tietosi.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -649,6 +652,10 @@ recent-activity-account-enable = Tili otettiin käyttöön
 recent-activity-account-login = Tili käynnisti kirjautumisen
 recent-activity-account-reset = Tili käynnisti salasanan nollauksen
 recent-activity-emails-clearBounces = Tili tyhjensi kimmonneet sähköpostiviestit
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
