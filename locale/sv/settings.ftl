@@ -653,6 +653,10 @@ recent-activity-account-login = Kontoinitierad inloggning
 recent-activity-account-reset = Kontoinitierad lösenordsåterställning
 recent-activity-emails-clearBounces = Kontot rensade returnerade e-postmeddelanden
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Avbryt

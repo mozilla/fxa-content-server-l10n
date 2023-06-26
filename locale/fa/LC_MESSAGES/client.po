@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-16 00:37+0000\n"
+"POT-Creation-Date: 2023-06-26 20:11+0000\n"
 "PO-Revision-Date: 2021-11-21 01:02+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد. بر�
 msgid "Sign in"
 msgstr "ورود"
 
-#: .es5/views/index.js:176
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
@@ -105,7 +105,7 @@ msgstr "متصل شد"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 
-#: .es5/views/sign_up_password.js:85
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "این حساب دیگر وجود ندارد. دوباره ساخته شود؟"
 
@@ -1167,11 +1167,11 @@ msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "از یک حساب دیگر استفاده کنید"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
 msgid "Forgot password?"
 msgstr "گذرواژه را فراموش کرده اید؟"
 
@@ -1195,7 +1195,7 @@ msgstr ""
 msgid "Sign up or sign in"
 msgstr ""
 
-#: .es5/templates/index.mustache:11
+#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr ""
 
@@ -1429,11 +1429,11 @@ msgstr "دیگر مالک آن رایانامه نیستید؟ حساب جدید
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"            "
+"                By proceeding, you agree to:<br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              "
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1945,11 +1945,11 @@ msgstr "به دنبال همگام‌ساز فایرفاکس هستید؟ <a %(e
 msgid "or"
 msgstr ""
 
-#: .es5/templates/partial/third-party-auth.mustache:2
+#: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
 msgstr ""
 
-#: .es5/templates/partial/third-party-auth.mustache:3
+#: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr ""
 
