@@ -596,6 +596,10 @@ recent-activity-account-create = Ο λογαριασμός δημιουργήθ�
 recent-activity-account-disable = Ο λογαριασμός απενεργοποιήθηκε
 recent-activity-account-enable = Ο λογαριασμός ενεργοποιήθηκε
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Ακύρωση

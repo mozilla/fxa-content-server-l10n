@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα emai
 payment-confirmation-thanks-subheading-account-exists = Θα λάβετε ένα email στο { $email } με οδηγίες για τη ρύθμιση του λογαριασμού και των στοιχείων πληρωμής σας.
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Στοιχεία πληρωμής
 payment-confirmation-amount = { $amount } ανά { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
