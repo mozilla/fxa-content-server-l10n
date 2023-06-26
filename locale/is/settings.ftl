@@ -33,9 +33,9 @@ recovery-key-file-header = VISTAÐU ENDURHEIMTULYKIL REIKNINGSINS ÞÍNS
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Geymdu þessa skrá sem inniheldur endurheimtulykilinn þinn á stað sem þú manst eftir. Eða prentaðu hann út og geymdu eintakið vel. Endurheimtulykill reikningsins þíns getur hjálpað þér að endurheimta gögn úr { -brand-firefox } ef þú gleymir lykilorðinu þínu.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Lykill: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Lykill:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -649,6 +649,10 @@ recent-activity-account-enable = Reikningur var virkjaður
 recent-activity-account-login = Innskráning frá reikningi
 recent-activity-account-reset = Endurstilling lykilorðs frá reikningi
 recent-activity-emails-clearBounces = Endursendingar pósts hreinsaðar af reikningi
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
