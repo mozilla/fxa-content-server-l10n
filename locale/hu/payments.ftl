@@ -94,6 +94,8 @@ payment-confirmation-thanks-subheading = Egy megerősítő e-mailt küldtünk a(
 payment-confirmation-thanks-subheading-account-exists = Egy levelet fog kapni a(z) { $email } címre a fiókbeállítási utasításokkal és a fizetés részleteiről.
 payment-confirmation-order-heading = Megrendelés részletei
 payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Fizetési információk
 payment-confirmation-amount = { $amount } / { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
