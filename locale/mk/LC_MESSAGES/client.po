@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-16 00:37+0000\n"
+"POT-Creation-Date: 2023-06-26 20:11+0000\n"
 "PO-Revision-Date: 2022-07-24 10:24+0000\n"
 "Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Лозинката е успешно ресетирана. Најаве�
 msgid "Sign in"
 msgstr "Најавете се"
 
-#: .es5/views/index.js:176
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "Сметката е успешно избришана"
 
@@ -104,7 +104,7 @@ msgstr "Поврзани"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Непозната сметка. <a href=\"/signup\">Регистрирајте се</a>"
 
-#: .es5/views/sign_up_password.js:85
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "Сметката повеќе не постои. Создајте нова?"
 
@@ -1162,11 +1162,11 @@ msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
 msgid "Forgot password?"
 msgstr ""
 
@@ -1190,7 +1190,7 @@ msgstr ""
 msgid "Sign up or sign in"
 msgstr ""
 
-#: .es5/templates/index.mustache:11
+#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr ""
 
@@ -1424,11 +1424,11 @@ msgstr ""
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"            "
+"                By proceeding, you agree to:<br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              "
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1940,11 +1940,11 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#: .es5/templates/partial/third-party-auth.mustache:2
+#: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
 msgstr ""
 
-#: .es5/templates/partial/third-party-auth.mustache:3
+#: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr ""
 

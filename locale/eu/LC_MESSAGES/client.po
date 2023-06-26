@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-16 00:37+0000\n"
+"POT-Creation-Date: 2023-06-26 20:11+0000\n"
 "PO-Revision-Date: 2023-04-15 08:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 msgid "Sign in"
 msgstr "Hasi saioa"
 
-#: .es5/views/index.js:176
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "Kontua ondo ezabatu da"
 
@@ -105,7 +105,7 @@ msgstr "Konektatuta"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
 
-#: .es5/views/sign_up_password.js:85
+#: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontua jada ez da existitzen. Birsortu nahi al duzu?"
 
@@ -848,10 +848,12 @@ msgid "Invalid Token"
 msgstr "Token baliogabea"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</a>"
-" onartzen dituzu."
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
+"a> onartzen dituzu."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -919,7 +921,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OHARRA:</span> Pasahitza berrezartzen baduzu eta ez badaukazu berreskuratzeko gakoa gordeta, zure hainbat datu ezabatuko dira (historia eta laster-markak bezalako zerbitzarian "
 "sinkronizatutako datuak barne)."
@@ -1160,14 +1163,17 @@ msgid "Password"
 msgstr "Pasahitza"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Jarraituz gero, <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Jarraituz gero, <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> "
+"onartzen dituzu."
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Erabili beste kontu bat"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztu duzu?"
 
@@ -1191,7 +1197,7 @@ msgstr ""
 msgid "Sign up or sign in"
 msgstr "Erregistratu edo hasi saioa"
 
-#: .es5/templates/index.mustache:11
+#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr ""
 
@@ -1425,10 +1431,11 @@ msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
-"              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"            "
+"                By proceeding, you agree to:<br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              "
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1519,7 +1526,8 @@ msgstr "Sortu kontua"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1941,11 +1949,11 @@ msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen
 msgid "or"
 msgstr "edo"
 
-#: .es5/templates/partial/third-party-auth.mustache:2
+#: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
 msgstr "Jarraitu Googlerekin"
 
-#: .es5/templates/partial/third-party-auth.mustache:3
+#: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "Jarraitu Applerekin"
 
@@ -2021,7 +2029,8 @@ msgid "Sync your device"
 msgstr "Sinkronizatu zure gailua"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
