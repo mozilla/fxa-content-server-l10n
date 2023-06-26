@@ -104,10 +104,15 @@ payment-plan-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Mba’éicha ehepyme’ẽta:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = Kuatia’atã { $cardType } opáva { $lastFour }-pe
+credit-card-ending-in = Kuartia’atã { $cardName } opáva { $lastFour }-pe
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Kuartia’atã ojekuaa’ỹ opáva { $lastFour }-pe
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Ñemuhague papapy: <b>{ $invoiceNumber }</b>

@@ -33,9 +33,9 @@ recovery-key-file-header = EÑONGATU NE MBA’ETE MBA’EÑEMI GUERUJEYRÃ
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Eñongatu ko marandurenda orekóva ne mba’ete mba’eñemi guerujeyrã peteĩ tenda eikuaahápe. Térã emonguatia ha eñongatu. Pe mba’ete mba’eñemi guerujeyrã nepytyvõkuaa erujey hag̃ua mba’ekuaarã { -brand-firefox } guive nderesaráirõ ñe’ẽñemígui.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Mba’eñemi: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Mba’eñemi:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -637,6 +637,10 @@ recent-activity-account-enable = Oñembojurujáma mba’ete
 recent-activity-account-login = Mba’etépe jeike oñepyrũma
 recent-activity-account-reset = Mba’ete ñe’ẽñemi jeguerujey oñepyrũma
 recent-activity-emails-clearBounces = Mba’ete ñanduti veve ojevyjey
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
