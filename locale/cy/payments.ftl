@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Mae e-bost cadarnhau wedi'i anfon at { 
 payment-confirmation-thanks-subheading-account-exists = Byddwch yn derbyn e-bost o { $email } gyda chyfarwyddiadau ar gyfer creu eich cyfrif, yn ogystal â'ch manylion talu.
 payment-confirmation-order-heading = Manylion yr archeb
 payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Manylion talu
 payment-confirmation-amount = { $amount } fesul { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
