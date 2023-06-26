@@ -653,6 +653,10 @@ recent-activity-account-login = Налог је започео пријаву
 recent-activity-account-reset = Налог је започео ресетовање лозинке
 recent-activity-emails-clearBounces = Налог је обрисао враћене е-поруке
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Откажи
