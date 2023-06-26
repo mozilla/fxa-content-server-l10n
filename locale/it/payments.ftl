@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = È stata inviata un’email di conferma
 payment-confirmation-thanks-subheading-account-exists = Riceverai un’email all’indirizzo { $email } con le istruzioni per configurare il tuo account e i dettagli per il pagamento.
 payment-confirmation-order-heading = Dettagli dell’ordine
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informazioni sul pagamento
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
