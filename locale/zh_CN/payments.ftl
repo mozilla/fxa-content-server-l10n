@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = 确认邮件已发送至 { $email }，�
 payment-confirmation-thanks-subheading-account-exists = 您将会在 { $email } 收到一封邮件，其中包括如何设置账户、付款方式等信息。
 payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = 付款信息
 payment-confirmation-amount = 每 { $interval } { $amount }
 # $amount (Number) - The amount billed. It will be formatted as currency.
