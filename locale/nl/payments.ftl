@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Er is een bevestigingsbericht verzonden
 payment-confirmation-thanks-subheading-account-exists = U ontvangt een e-mailbericht op { $email } met instructies over het instellen van uw account, evenals uw betalingsgegevens.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Betalingsgegevens
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
