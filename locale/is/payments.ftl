@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Staðfestingartölvupóstur hefur veri�
 payment-confirmation-thanks-subheading-account-exists = Þú munt fá tölvupóst á { $email } með leiðbeiningum um uppsetningu á reikningnum þínum, sem og greiðsluupplýsingum þínum.
 payment-confirmation-order-heading = Upplýsingar um pöntun
 payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Greiðsluupplýsingar
 payment-confirmation-amount = { $amount } á { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
