@@ -88,6 +88,8 @@ payment-confirmation-thanks-subheading = דוא״ל לאימות נשלח אל {
 payment-confirmation-thanks-subheading-account-exists = תתקבל הודעת דוא״ל לכתובת { $email } עם הוראות להגדרת החשבון שלך, כמו גם פרטי התשלום שלך.
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = פרטי תשלום
 payment-confirmation-amount = { $amount } כל { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
