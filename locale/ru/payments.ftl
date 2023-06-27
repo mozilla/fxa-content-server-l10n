@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = На адрес { $email } было о�
 payment-confirmation-thanks-subheading-account-exists = Вы получите письмо на адрес { $email } с инструкциями по настройке аккаунта, а также с платежными реквизитами.
 payment-confirmation-order-heading = Информация о заказе
 payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Платежная информация
 payment-confirmation-amount = { $amount } за { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
