@@ -33,9 +33,9 @@ recovery-key-file-header = SALVA LE CLAVE DE RECUPERATION DE TU CONTO
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Immagazina iste file que contine tu clave recuperation del conto in un placia que tu rememorara. O imprime lo e mantene un copia physic. Tu clave recuperation del conto pote adjutar te a recuperar datos de { -brand-firefox } si tu oblida tu contrasigno.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = 🔑 Clave:  { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Clave:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -422,8 +422,6 @@ flow-recovery-key-download-next-link-v2 = Continuar sin discargar
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Adde un indicio pro adjutar a trovar tu clave
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = Iste indicio te adjuta a memorar ubi tu guardava le clave pro recuperar tu conto. Nos te lo monstrara quanto tu vole usar lo pro recuperar tu datos.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -642,6 +640,10 @@ recent-activity-account-enable = Le conto era  activate.
 recent-activity-account-login = Accesso al conto initiate
 recent-activity-account-reset = Le conto initiava le remontage del contrasigno
 recent-activity-emails-clearBounces = Le conto clarava emails refusate
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
