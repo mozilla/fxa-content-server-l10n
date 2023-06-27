@@ -95,6 +95,8 @@ payment-confirmation-thanks-subheading = Vahvistusviesti on lähetetty osoittees
 payment-confirmation-thanks-subheading-account-exists = Saat sähköpostin osoitteeseen { $email }. Viesti sisältää ohjeet tilin luomiseen ja maksutiedot.
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Maksun tiedot
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
