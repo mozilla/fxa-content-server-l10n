@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = { $email } adresine { $product_name } �
 payment-confirmation-thanks-subheading-account-exists = { $email } adresine, hesabınızın kurulumuna ilişkin talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Ödeme bilgileri
 payment-confirmation-amount = { $interval } { $amount }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -123,6 +125,7 @@ payment-confirmation-download-button = İndirmeye devam et
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
 payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Component - PaymentErrorView
