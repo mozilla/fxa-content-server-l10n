@@ -651,6 +651,10 @@ recent-activity-account-login = Se inició un intento de conexión a la cuenta
 recent-activity-account-reset = Se inició un restablecimiento de contraseña
 recent-activity-emails-clearBounces = Se solucionaron los rebotes de correo de la cuenta
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
