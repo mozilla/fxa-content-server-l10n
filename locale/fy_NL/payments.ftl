@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Der is in befêstigingsberjocht ferstjo
 payment-confirmation-thanks-subheading-account-exists = Jo ûntfange in e-mailberjocht op { $email } mei ynstruksjes oer it ynstellen fan jo account, krekt as jo betellingsgegevens.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Betellingsgegevens
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
