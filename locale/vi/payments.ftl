@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Một email xác nhận đã được g
 payment-confirmation-thanks-subheading-account-exists = Bạn sẽ nhận được một email tại { $email } với các hướng dẫn để thiết lập tài khoản, cũng như các chi tiết thanh toán của bạn.
 payment-confirmation-order-heading = Chi tiết đơn hàng
 payment-confirmation-invoice-number = Hóa đơn #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Thông tin thanh toán
 payment-confirmation-amount = { $amount } mỗi { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.

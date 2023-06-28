@@ -653,6 +653,10 @@ recent-activity-account-login = Tài khoản bắt đầu đăng nhập
 recent-activity-account-reset = Tài khoản đã đặt lại mật khẩu ban đầu
 recent-activity-emails-clearBounces = Tài khoản đã xóa email bị trả lại
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Hủy bỏ
