@@ -1437,11 +1437,6 @@ msgid ""
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
-"\n"
-"                Drwy symud ymlaen, rydych yn cytuno i:<br />\n"
-"                <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Telerau Gwasanaeth</a> a <a id=\"pocket-pp\" poced \" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Hysbysiad Preifatrwydd</a><br />\n"
-"                <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" gan Firefox href=\"/cyfreithiol/preifatrwydd\">Hysbysiad Preifatrwydd</a>.\n"
-"              "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
