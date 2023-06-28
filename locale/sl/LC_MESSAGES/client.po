@@ -1435,11 +1435,6 @@ msgid ""
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
-"\n"
-"                Z nadaljevanjem se strinjate z:<br />\n"
-"                Pocketovi <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">pogoji storitve</a> in <a id=\"pocket-pp \" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Obvestilo o zasebnosti</a><br />\n"
-"                <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Pogoji storitve</a> in <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Obvestilo o zasebnosti</a>.\n"
-"              "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
