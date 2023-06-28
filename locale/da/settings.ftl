@@ -33,9 +33,9 @@ recovery-key-file-header = GEM DIN GENOPRETTELSESNØGLE TIL KONTOEN
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Denne fil indeholder din genoprettelsesnøgle til kontoen. Opbevar den et sted, du kan huske. Eller udskriv filen og gem en fysisk kopi. Din genoprettelsesnøgle til kontoen kan hjælpe dig med at gendanne { -brand-firefox }-data, hvis du glemmer din adgangskode.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = Nøgle: { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Nøgle:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -651,6 +651,10 @@ recent-activity-account-enable = Kontoen blev aktiveret
 recent-activity-account-login = Kontoen påbegyndte login
 recent-activity-account-reset = Kontoen påbegyndte nulstilling af adgangskode
 recent-activity-emails-clearBounces = Kontoen ryddede mail-afvisninger
+
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
