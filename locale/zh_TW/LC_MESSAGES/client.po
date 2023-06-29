@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
 "PO-Revision-Date: 2023-03-03 13:09+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "打錯信箱地址？"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "測試 Firefox 的新產品"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "取得 Mozilla 與 Firefox 的最新消息。"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "採取行動，保護網際網路的健康"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "更聰明、更安全上網"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "測試 Firefox 產品"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "採取行動，保護網際網路的健康"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "使用 Firefox 與 Mozilla 產品，保護線上安全與隱私權"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1509,8 +1501,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "需要這組密碼才能解開儲存於我們這邊的加密資料。<br class=\"mb-3\">重設密碼也代表可能會失去密碼、書籤等資料。"
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "將發送有用小知識給您。訂閱其他電子報："
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

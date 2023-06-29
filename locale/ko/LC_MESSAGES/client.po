@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
 "PO-Revision-Date: 2023-05-03 09:43+0000\n"
 "Last-Translator: Hanjin Lee <jinifor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "이메일을 잘못 입력했나요?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "새 FIrefox 제품을 시험해보세요"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla와 Firefox에 대한 소식을 받기"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "인터넷을 건강하게 유지하기 위한 행동을 취하세요"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "더 안전하고 스마트한 온라인"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Firefox 제품 시험하기"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "인터넷을 건강하게 유지하기"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Firefox와 Mozilla를 통해서 온라인 안전과 개인 정보 보호하기"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1516,8 +1508,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 비밀번호가 필요합니다.<br class=\"mb-3\">재설정은 저장된 비밀번호나 북마크가 사라질 수 있음을 뜻합니다."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "유용한 지식이 받은 편지함으로 찾아갑니다. 더 많은 것을 원하시면 가입하세요:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

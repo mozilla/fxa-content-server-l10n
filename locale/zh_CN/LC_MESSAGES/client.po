@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
 "PO-Revision-Date: 2023-05-06 13:57+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -725,32 +725,24 @@ msgid "Mistyped email?"
 msgstr "邮箱地址输错？"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "测试 Firefox 新产品"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "获取有关 Mozilla 和 Firefox 的最新消息"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "采取行动保持互联网健康"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "上网更智能、更安全"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "测试 Firefox 产品"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "采取行动保持互联网健康"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Firefox 和 Mozilla 守护您的在线安全和隐私"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1510,8 +1502,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "您需要此密码才能访问存储于云端的所有加密数据。<br class=\"mb-3\">若重置则可能会丢失密码、书签等数据。"
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "将发送实用小知识给您。订阅其他新闻通讯："
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
 "PO-Revision-Date: 2023-03-29 10:21+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -736,32 +736,24 @@ msgid "Mistyped email?"
 msgstr "Email i shkruar gabim?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Provoni produkte të reja Firefox"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Merrni lajmet më të reja rreth Mozilla-s dhe Firefox-it"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "Hidhuni në veprim për ta mbajtur Internetin të shëndetshëm"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Jini më të parrezikuar dhe të mençur në internet"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Provë produktesh të reja Firefox"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "Hidhuni në veprim për ta mbajtur Internetin të shëndetshëm"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Siguri dhe privatësi internetore me Firefox-in dhe Mozilla-n"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1567,8 +1559,8 @@ msgstr ""
 "faqerojtës."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Dija praktike po vjen në të marrët tuaj. Regjistrohuni për më tepër:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

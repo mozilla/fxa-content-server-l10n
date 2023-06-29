@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
-"PO-Revision-Date: 2023-03-03 02:40+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
+"PO-Revision-Date: 2023-06-27 17:48+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "Skrev du fel e-postadress?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Testa nya Firefox-produkter"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Få de senaste nyheterna om Mozilla och Firefox"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "Vidta åtgärder för att hålla internet friskt"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Bli säkrare och smartare online"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Testar Firefox-produkter"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "Vidtar åtgärder för att hålla internet friskt"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Säkerhet och integritet online med Firefox och Mozilla"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1444,6 +1436,12 @@ msgid ""
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
+"\n"
+"                Genom att fortsätta godkänner du:<br />\n"
+"                Pocket:s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">användarvillkor</a> och <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">sekretessmeddelande</a><br />\n"
+"                Firefox:s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">användarvillkor</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">sekretessmeddelande</a>.\n"
+"              "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
@@ -1518,8 +1516,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "Du behöver det här lösenordet för att komma åt krypterad data som du lagrar hos oss.<br class=\"mb-3\">En återställning innebär potentiellt att du kan förlora data som lösenord och bokmärken."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktisk kunskap kommer till din inkorg. Registrera dig för mer:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

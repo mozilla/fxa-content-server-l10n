@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-29 20:11+0000\n"
 "PO-Revision-Date: 2023-06-28 08:19+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "C’è un errore di battitura nell’indirizzo email?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Prova i nuovi prodotti Firefox"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Ricevi le ultime novità su Mozilla e Firefox"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "Come mantenere Internet in salute con le tue azioni"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Come essere più sicuri e consapevoli online"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Testare i prodotti Firefox"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "Agire per proteggere la salute di internet"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Sicurezza e privacy online con Firefox e Mozilla"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -848,10 +840,12 @@ msgid "Invalid Token"
 msgstr "Token non valido"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Proseguendo confermi di accettare le <a id=\"service-tos\" href=\"%(termsUri)s\">Condizioni di utilizzo del servizio</a> e l’<a id=\"service-pp\" href=\"%(privacyUri)s\">Informativa sulla "
-"privacy</a> di %(serviceName)s (%(serviceUri)s)."
+"Proseguendo confermi di accettare le <a id=\"service-tos\" href=\"%(termsUri)s\">Condizioni di utilizzo del servizio</a> e l’<a id=\"service-pp\" href=\"%(privacyUri)s\">Informativa sulla privacy</"
+"a> di %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -919,7 +913,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Inserisci la chiave di recupero monouso dell’account per riottenere accesso all’account Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">Nota:</span> se reimposti la password e non hai salvato la chiave di recupero dell’account, alcuni dati verranno eliminati (compresi i dati sincronizzati sul server come "
 "cronologia e segnalibri)."
@@ -1166,10 +1161,11 @@ msgid "Password"
 msgstr "Password"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Proseguendo, confermi di accettare le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Informativa sulla privacy</a>."
+"Proseguendo, confermi di accettare le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Informativa sulla privacy</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1436,14 +1432,17 @@ msgstr "Non controlli più questo indirizzo email? Crea un nuovo account"
 msgid ""
 "\n"
 "                By proceeding, you agree to:<br />\n"
-"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Privacy Notice</a><br />\n"
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
 "\n"
 " Proseguendo confermi di accettare:<br />\n"
-" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condizioni di utilizzo del servizio</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informativa sulla privacy</a> di Pocket<br />\n"
-" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> di Firefox.\n"
+" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condizioni di utilizzo del servizio</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Informativa sulla privacy</a> di Pocket<br />\n"
+" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> di "
+"Firefox.\n"
 " "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1520,8 +1519,8 @@ msgstr ""
 "Per accedere ai dati crittografati che memorizzi con noi, hai bisogno di questa password.<br class=\"mb-3\">Un ripristino significa potenzialmente perdere tutti i dati, come password e segnalibri."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Ricevi suggerimenti pratici direttamente nella tua casella di posta. Registrati per saperne di più:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1535,14 +1534,17 @@ msgstr "Crea un account"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Proseguendo confermi di accettare:<br />\n"
-"            le <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Informativa sulla privacy</a> di Pocket<br />\n"
-"            le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> di Firefox\n"
+"            le <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://"
+"getpocket.com/en/privacy/\">Informativa sulla privacy</a> di Pocket<br />\n"
+"            le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e l’<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla "
+"privacy</a> di Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -2045,7 +2047,8 @@ msgid "Sync your device"
 msgstr "Sincronizza il tuo dispositivo"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Scansiona il codice per scaricare Firefox per dispositivi mobili, oppure inviati un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">link per scaricarlo</a>."
