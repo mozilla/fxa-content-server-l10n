@@ -104,10 +104,15 @@ payment-plan-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Methodo de pagamento:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = Carta de credito { $cardType } que termina con { $lastFour }
+credit-card-ending-in = Carta de credito { $cardName } que termina con { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Carta de credito incognite que termina con { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Numero de factura: <b>{ $invoiceNumber }</b>
