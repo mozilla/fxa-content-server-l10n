@@ -921,6 +921,9 @@ auth-error-102 = Unbekanntes Konto
 auth-error-103 = Ungültiges Passwort
 auth-error-105-2 = Ungültiger Bestätigungscode
 auth-error-110 = Ungültiger Schlüssel
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Sie haben es zu oft versucht. Bitte versuchen Sie es später erneut.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
