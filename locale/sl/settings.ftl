@@ -926,6 +926,9 @@ auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
 auth-error-105-2 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Prevečkrat ste poskusili. Poskusite znova pozneje.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-06-26 21:07+0000\n"
+"PO-Revision-Date: 2023-06-30 06:27+0000\n"
 "Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -725,7 +725,7 @@ msgstr "Napačna e-pošta?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Zgodnji dostop za preizkušanje novih izdelkov"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -733,7 +733,7 @@ msgstr "Sledite novicam o Mozilli in Firefoxu"
 
 #: .es5/lib/newsletters.js:33
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Pomagajte ohraniti internet zdrav"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -741,7 +741,7 @@ msgstr "Bodite varnejši in pametnejši na spletu"
 
 #: .es5/lib/newsletters.js:41
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Novice in posodobitve o varnosti in zasebnosti"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -840,12 +840,8 @@ msgid "Invalid Token"
 msgstr "Neveljaven žeton"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Z nadaljevanjem sprejemate <a id=\"service-tos\" href=\"%(termsUri)s\">Pogoje uporabe</a> in <a id=\"service-pp\" href=\"%(privacyUri)s\">Obvestilo o zasebnosti</a> storitve %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -913,8 +909,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Da si povrnete dostop do Firefox računa, vnesite obnovitveni ključ za enkratno uporabo, ki ste ga bili shranili na varnem mestu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">POZOR:</span> Če ponastavite svoje geslo, ne da bi vnesli obnovitveni ključ, bodo nekateri od vaših podatkov izbrisani (vključno s sinhroniziranimi podatki, kot so zaznamki in "
 "zgodovina)."
@@ -1160,10 +1155,8 @@ msgid "Password"
 msgstr "Geslo"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Z nadaljevanjem sprejemate <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">pogoje uporabe</a> in <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obvestilo o zasebnosti</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Z nadaljevanjem sprejemate <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">pogoje uporabe</a> in <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obvestilo o zasebnosti</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1430,8 +1423,7 @@ msgstr "Ne uporabljate več tega naslova? Ustvarite nov račun"
 msgid ""
 "\n"
 "                By proceeding, you agree to:<br />\n"
-"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
-"com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
@@ -1510,7 +1502,7 @@ msgstr "To geslo potrebujete za dostop do šifriranih podatkov, ki jih hranite p
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Izkoristite Mozillo še več:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1524,15 +1516,13 @@ msgstr "Ustvari račun"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Z nadaljevanjem soglašate s:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">pogoji uporabe</a> in <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
-"\">obvestilom o zasebnosti</a> Pocketa<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">pogoji uporabe</a> in <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">obvestilom o zasebnosti</a> Pocketa<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">pogoji uporabe</a> in <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obvestilom o zasebnosti</a> Firefoxa\n"
 "          "
 
@@ -2034,8 +2024,7 @@ msgid "Sync your device"
 msgstr "Sinhronizirajte svojo napravo"
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Skenirajte za prenos Firefoxa za mobilne naprave, ali si pošljite <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">povezavo za "
 "prenos</a>."
