@@ -1159,6 +1159,7 @@ pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipuru’i oñemoneĩmbyrévape.
 
 ## AccountRecoveryConfirmKey page
 
