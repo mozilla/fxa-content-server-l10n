@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-30 06:15+0000\n"
 "PO-Revision-Date: 2023-06-27 14:42+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,8 +120,8 @@ msgstr "Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> an die
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-"Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> für <b>%(escapedSelectedProduct)s</b> an die Mozilla-Hilfe gewandt haben. Wir werden uns so schnell wie möglich per E-Mail bei Ihnen"
-" melden."
+"Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> für <b>%(escapedSelectedProduct)s</b> an die Mozilla-Hilfe gewandt haben. Wir werden uns so schnell wie möglich per E-Mail bei "
+"Ihnen melden."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
@@ -726,32 +726,24 @@ msgid "Mistyped email?"
 msgstr "E-Mail-Adresse falsch eingegeben?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Testen Sie neue Firefox-Produkte"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Erhalten Sie die neuesten Nachrichten über Mozilla und Firefox"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "Setzen Sie sich für ein gesundes Internet ein"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Sicherer und mit mehr Wissen im Internet"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Testen von Firefox-Produkten"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "Einsatz für ein gesundes Internet"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Sicherheit und Datenschutz im Internet mit Firefox und Mozilla"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -850,7 +842,9 @@ msgid "Invalid Token"
 msgstr "Ungültiger Schlüssel"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Indem Sie fortfahren, stimmen Sie den <a id=\"service-tos\" href=\"%(termsUri)s\">Nutzungsbedingungen</a> sowie dem <a id=\"service-pp\" href=\"%(privacyUri)s\">Datenschutzhinweis</a> von "
 "%(serviceName)s (%(serviceUri)s) zu."
@@ -921,7 +915,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Bitte geben Sie den einmaligen Kontowiederherstellungsschlüssel ein, den Sie an einem sicheren Ort gespeichert haben, um wieder Zugriff auf Ihr Firefox-Konto zu erhalten."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">HINWEIS:</span> Wenn Sie Ihr Passwort zurücksetzen und Ihren Wiederherstellungsschlüssel nicht gespeichert haben, werden einige Ihrer Daten gelöscht (einschließlich "
 "synchronisierter Serverdaten wie Chronik und Lesezeichen)."
@@ -1168,10 +1163,11 @@ msgid "Password"
 msgstr "Passwort"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Indem Sie fortfahren, stimmen Sie den <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Datenschutzhinweis</a> zu."
+"Indem Sie fortfahren, stimmen Sie den <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Datenschutzhinweis</a> zu."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1439,7 +1435,8 @@ msgstr "Ist das nicht mehr Ihre E-Mail-Adresse? Erstellen Sie ein neues Konto"
 msgid ""
 "\n"
 "                By proceeding, you agree to:<br />\n"
-"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
+"com/en/privacy/\">Privacy Notice</a><br />\n"
 "                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "              "
 msgstr ""
@@ -1522,8 +1519,8 @@ msgstr ""
 "Lesezeichen verloren."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktisches Wissen kommt in Ihren Posteingang. Mehr im Newsletter-Abo:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1537,7 +1534,8 @@ msgstr "Konto erstellen"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1942,7 +1940,8 @@ msgstr "Kein häufig verwendetes Passwort"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr "Schützen Sie sich &ndash; verwenden Sie Passwörter nicht wieder. Sehen Sie sich weitere Tipps zum <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">Erstellen starker Passwörter</a> an."
+msgstr ""
+"Schützen Sie sich &ndash; verwenden Sie Passwörter nicht wieder. Sehen Sie sich weitere Tipps zum <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">Erstellen starker Passwörter</a> an."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2045,7 +2044,8 @@ msgid "Sync your device"
 msgstr "Synchronisieren Sie Ihr Gerät"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Scannen Sie den Code, um Firefox für Mobilgeräte herunterzuladen, oder senden Sie sich einen <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" "
 "class=\"link-blue\">Download-Link.</a>"

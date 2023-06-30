@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Ett bekräftelsemeddelande har skickats
 payment-confirmation-thanks-subheading-account-exists = Du får ett e -postmeddelande till { $email } med instruktioner för hur du konfigurerar ditt konto samt dina betalningsuppgifter.
 payment-confirmation-order-heading = Orderdetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Betalningsinformation
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.

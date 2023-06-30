@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-30 06:15+0000\n"
 "PO-Revision-Date: 2022-12-31 16:08+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "טעות בהקלדת כתובת הדוא״ל?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "בדיקת מוצרי Firefox חדשים"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "צפייה בחדשות האחרונות על Mozilla ועל Firefox"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr ""
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "בדיקת מוצרי Firefox"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "בטיחות ופרטיות ברשת עם Firefox ו־Mozilla"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1512,7 +1504,7 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "הססמה הזו תשמש אותך כדי לגשת לכל הנתונים המוצפנים שלך המאוחסנים אצלנו.<br class=\"mb-3\">איפוס הססמה עלול לגרום לאיבוד נתונים כמו ססמאות וסימניות."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgid "Get more from Mozilla:"
 msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
