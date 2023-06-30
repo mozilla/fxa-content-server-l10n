@@ -99,6 +99,8 @@ payment-confirmation-thanks-subheading = Na adresu { $email } bol odoslaný potv
 payment-confirmation-thanks-subheading-account-exists = Na adresu { $email } dostanete e-mail s pokynmi na nastavenie účtu, ako aj s podrobnosťami o platbe.
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informácie o platbe
 payment-confirmation-amount = { $amount } za { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
