@@ -926,6 +926,9 @@ auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
 auth-error-105-2 = Érvénytelen megerősítő kód!
 auth-error-110 = Érvénytelen token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
