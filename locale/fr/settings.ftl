@@ -907,6 +907,9 @@ auth-error-102 = Compte inconnu
 auth-error-103 = Mot de passe incorrect
 auth-error-105-2 = Code de confirmation invalide
 auth-error-110 = Jeton invalide
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Vous avez effectué trop d’essais. Veuillez réessayer plus tard.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
