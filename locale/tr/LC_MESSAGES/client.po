@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-30 06:15+0000\n"
 "PO-Revision-Date: 2023-05-29 17:15+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -724,32 +724,24 @@ msgid "Mistyped email?"
 msgstr "Adresinizi yanlış mı yazdınız?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Yeni Firefox ürünlerini deneyin"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Mozilla ve Firefox hakkındaki son haberleri alın"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "İnternetin sağlığını korumak için harekete geçin"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "İnterneti daha güvenli ve akıllıca kullanın"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Firefox ürünlerini test etme"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "İnternetin sağlığını korumak için harekete geçme"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Firefox ve Mozilla ile çevrimiçi güvenlik ve gizlilik"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1516,8 +1508,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr "Sakladığınız şifrelenmiş verilere erişmek için bu parolaya ihtiyacınız olacak.<br class=\"mb-3\">Bu parolayı sıfırlarsanız kayıtlı parolalar ve yer imleri gibi verilerinizi kaybeceksiniz."
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Pratik bilgiler gelen kutunuza geliyor. Daha fazlası için kaydolun:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

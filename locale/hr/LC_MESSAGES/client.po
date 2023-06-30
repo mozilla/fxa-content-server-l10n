@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 20:11+0000\n"
+"POT-Creation-Date: 2023-06-30 06:15+0000\n"
 "PO-Revision-Date: 2023-01-01 23:41+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -723,32 +723,24 @@ msgid "Mistyped email?"
 msgstr "Je li e-mail adresa ispravna?"
 
 #: .es5/lib/newsletters.js:25
-msgid "Test new Firefox products"
-msgstr "Isprobaj nove Firefox proizvode"
+msgid "Early access to test new products"
+msgstr ""
 
-#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+#: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Dobij najnovije vijesti o Mozilli i Firefoxu"
 
 #: .es5/lib/newsletters.js:33
-msgid "Take action to keep the internet healthy"
-msgstr "Poduzmi korake za održavanje zdravog interneta"
+msgid "Help keep the internet healthy"
+msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Budi sigurniji i pametniji na internetu"
 
-#: .es5/lib/newsletters.js:44
-msgid "Testing Firefox products"
-msgstr "Testiranje Firefox proizvoda"
-
-#: .es5/lib/newsletters.js:52
-msgid "Taking action to keep the internet healthy"
-msgstr "Poduzimanje radnji za održavanje zdravog interneta"
-
-#: .es5/lib/newsletters.js:56
-msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Sigurnost i privatnost na internetu s Firefoxom i Mozillom"
+#: .es5/lib/newsletters.js:41
+msgid "Security & privacy news and updates"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1511,8 +1503,8 @@ msgid "You need this password to access any encrypted data you store with us.<br
 msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
-msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktično znanje stiže u tvoj ulazni sandučić. Registriraj se za više:"
+msgid "Get more from Mozilla:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
