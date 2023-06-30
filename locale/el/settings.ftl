@@ -1075,6 +1075,7 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού
