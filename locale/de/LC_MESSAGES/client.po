@@ -1515,7 +1515,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr "Holen Sie mehr von Mozilla heraus:"
+msgstr "Holen Sie mehr von Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
