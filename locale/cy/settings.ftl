@@ -922,6 +922,9 @@ auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
 auth-error-105-2 = Cod cadarnhau annilys
 auth-error-110 = Tocyn annilys
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto yn nes ymlaen.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
