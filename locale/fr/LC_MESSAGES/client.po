@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-06-30 06:47+0000\n"
+"PO-Revision-Date: 2023-06-30 07:00+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -733,7 +733,7 @@ msgstr "Recevoir les dernières actualités concernant Mozilla et Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Help keep the internet healthy"
-msgstr "Aidez à garder Internet en bonne santé"
+msgstr "Aidez à conserver un Internet sain"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -1510,7 +1510,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr "Obtenir plus de Mozilla :"
+msgstr "Découvrez tout ce que Mozilla a à offrir :"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
