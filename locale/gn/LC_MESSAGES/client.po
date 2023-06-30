@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-06-30 13:21+0000\n"
+"PO-Revision-Date: 2023-06-30 13:25+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -741,7 +741,7 @@ msgstr "Eime tekorosãme ñandutípe"
 
 #: .es5/lib/newsletters.js:41
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Marandu ha tekopyahu tekorosã ha tekoñemirãve"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1502,7 +1502,7 @@ msgstr "Eikotevẽ ñe’ẽñemi eike hag̃ua mba’ekuaarã ipapapýva embyat�
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Eipuruve Mozilla-pe:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

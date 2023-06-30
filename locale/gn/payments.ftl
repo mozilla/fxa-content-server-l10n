@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ reheg
 payment-confirmation-thanks-subheading-account-exists = Og̃uahẽta ndéve ñandutiveve { $email } rupive embohekokuaahápe ne mba’ete, avei mba’eichaitépa ehepyme’ẽta.
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Jehepyme’ẽrã marandu
 payment-confirmation-amount = { $amount } { $interval } rehe
 # $amount (Number) - The amount billed. It will be formatted as currency.
