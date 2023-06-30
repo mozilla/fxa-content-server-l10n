@@ -87,6 +87,8 @@ choose-what-to-sync-option-creditcards =
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Δεν είναι στα εισερχόμενα ή στα ανεπιθύμητα; Αποστολή ξανά
 # The link target may vary depending on the user's entry point into the confirmation page
 confirm-with-link-back-link = Πίσω
 
@@ -1013,6 +1015,9 @@ auth-totp-code-required-error = Απαιτείται κωδικός ταυτοπ
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Απαιτείται τώρα έγκριση <span>από την άλλη συσκευή σας</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1021,6 +1026,7 @@ pair-failure-message = Η διαδικασία ρύθμισης τερματίσ
 
 ## Pair index page
 
+pair-sync-header = Συγχρονίστε το { -brand-firefox } στο τηλέφωνο ή το tablet σας
 pair-cad-header = Συνδέστε το { -brand-firefox } σε άλλη συσκευή
 pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } στο κινητό ή το tablet σας;
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -1065,6 +1071,7 @@ pair-unsupported-message = Χρησιμοποιήσατε την κάμερα σ
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Παρακαλούμε περιμένετε, ανακατευθύνεστε στην εξουσιοδοτημένη εφαρμογή.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1154,6 +1161,7 @@ back = Πίσω
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Εισαγάγετε τον 10ψήφιο εφεδρικό κωδικό ταυτοποίησης
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
 # Link to return to signin with two-step authentication code

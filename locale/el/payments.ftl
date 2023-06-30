@@ -245,6 +245,50 @@ price-details-no-tax-year =
             [one] { $priceAmount } ετησίως
            *[other] { $priceAmount } κάθε { $intervalCount } έτη
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } φόρος ημερησίως
+       *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } ημέρες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } φόρος ημερησίως
+           *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } ημέρες
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } φόρος εβδομαδιαία
+       *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } εβδομάδες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } φόρος εβδομαδιαία
+           *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } εβδομάδες
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } φόρος μηνιαία
+       *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } μήνες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } φόρος μηνιαία
+           *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } μήνες
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } φόρος ετησίως
+       *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } έτη
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } φόρος ετησίως
+           *[other] { $priceAmount } + { $taxAmount } φόρος κάθε { $intervalCount } έτη
+        }
 
 ## Component - SubscriptionTitle
 
@@ -297,6 +341,17 @@ plan-price-interval-week =
         { $intervalCount ->
             [one] { $amount } εβδομαδιαία
            *[other] { $amount } κάθε { $intervalCount } εβδομάδες
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } μηνιαία
+       *[other] { $amount } κάθε { $intervalCount } μήνες
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } μηνιαία
+           *[other] { $amount } κάθε { $intervalCount } μήνες
         }
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
