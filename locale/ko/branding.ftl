@@ -24,6 +24,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 계정
 -product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
 -product-firefox-cloud = Firefox Cloud
 -brand-paypal = PayPal
 -app-store = App Store
