@@ -25,8 +25,12 @@
 -product-firefox-account = Firefox 계정
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
+-product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
+-product-firefox-monitor = Firefox Monitor
+-product-pocket = Pocket
 -brand-paypal = PayPal
 -app-store = App Store
 -brand-google = Google
 -google-play = Google Play
+-brand-apple = Apple
