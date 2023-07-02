@@ -127,6 +127,9 @@ payment-error-manage-subscription-button = 내 구독 관리
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = 이미 { -brand-name-google } 또는 { -brand-name-apple } 앱스토어를 통해 { $productName } 앱을 구독하고 있습니다.
+iap-upgrade-get-help-button = 도움말
 
 ## Component - PaymentForm
 
@@ -155,6 +158,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 개인�
 payment-method-header = 지불 방법 선택
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = 먼저 구독을 승인해야 합니다.
 
 ## Component - PaymentProcessing
 
@@ -166,6 +170,7 @@ payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal = { -brand-name-paypal }로 결제
 
 ## Component - PlanDetails
 
