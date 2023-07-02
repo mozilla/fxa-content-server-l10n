@@ -918,6 +918,9 @@ auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
 auth-error-105-2 = Codice de confirmation invalide
 auth-error-110 = Token invalide
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Tu ha tentate troppo de vices. Retenta plus tarde.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
