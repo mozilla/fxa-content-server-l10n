@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-01 13:44+0000\n"
+"PO-Revision-Date: 2023-07-01 13:46+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1505,7 +1505,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Obtene magis per Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
