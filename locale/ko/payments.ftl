@@ -61,6 +61,11 @@ brand-name-firefox-logo = { -brand-name-firefox } 로고
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = 이미 { -brand-name-firefox } 계정을 갖고 계신가요? <a>로그인</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = 이메일 입력
 new-user-confirm-email =
     .label = 이메일 확인
 new-user-subscribe-product-updates = { -brand-name-firefox }에서 제품 업데이트 소식을 받길 원합니다.
@@ -112,6 +117,8 @@ payment-confirmation-download-button = 다운로드 계속 하기
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = <termsOfServiceLink>서비스 약관</termsOfServiceLink>과 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 표시된 금액을 구독을 취소할 때까지 청구하도록 승인합니다.
+payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 완료해야 합니다.
 
 ## Component - PaymentErrorView
 
