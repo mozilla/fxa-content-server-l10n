@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-06-30 06:27+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-07-02 16:30+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -733,7 +733,7 @@ msgstr "Sledite novicam o Mozilli in Firefoxu"
 
 #: .es5/lib/newsletters.js:33
 msgid "Help keep the internet healthy"
-msgstr "Pomagajte ohraniti internet zdrav"
+msgstr "Pomagajte internet ohraniti zdrav"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
