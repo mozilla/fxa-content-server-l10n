@@ -892,6 +892,9 @@ auth-error-102 = 未知账户
 auth-error-103 = 密码错误
 auth-error-105-2 = 无效的验证码
 auth-error-110 = 无效令牌
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = 您的尝试次数过多，请稍后再试。
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
