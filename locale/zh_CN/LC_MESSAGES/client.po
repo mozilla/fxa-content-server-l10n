@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-05 09:49+0000\n"
+"PO-Revision-Date: 2023-07-05 09:54+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -726,7 +726,7 @@ msgstr "邮箱地址输错？"
 
 #: .es5/lib/newsletters.js:25
 msgid "Early access to test new products"
-msgstr ""
+msgstr "抢先体验新产品"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
