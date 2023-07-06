@@ -445,6 +445,7 @@ sub-update-copy =
     A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
     módosított összeget fog fizetni. A következő dátumtól kezdve a teljes összeg
     kerül kiszámlázásra: { $startingDate }.
+sub-update-acknowledgment = A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A következő dátumtól kezdve a teljes összeg levonásra kerül: { $startingDate }.
 sub-change-submit = Módosítás megerősítése
 sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
