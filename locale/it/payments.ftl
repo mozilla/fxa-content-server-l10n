@@ -437,6 +437,7 @@ brand-name-apple-app-store = App Store
 product-plan-change-heading = Rivedi la tua modifica
 sub-change-failed = Modifica del piano non riuscita
 sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
+sub-update-acknowledgment = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato oggi un importo ripartito proporzionalmente per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’intero importo.
 sub-change-submit = Conferma modifica
 sub-update-current-plan-label = Piano attuale
 sub-update-new-plan-label = Nuovo piano
