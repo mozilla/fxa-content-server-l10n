@@ -440,6 +440,7 @@ sub-update-copy =
     Ihr Plan wird sofort geändert und für den Rest des Abrechungszeitraums wird
     ein geänderter Betrag berechnet. Ab dem { $startingDate } wird der 
     volle Betrag berechnet.
+sub-update-acknowledgment = Ihr Plan wird sofort geändert und Ihnen wird heute ein anteiliger Betrag für den Rest dieses Abrechnungszeitraums berechnet. Ab dem { $startingDate } wird Ihnen der volle Betrag belastet.
 sub-change-submit = Änderung bestätigen
 sub-update-current-plan-label = Derzeitiger Plan
 sub-update-new-plan-label = Neuer Plan
