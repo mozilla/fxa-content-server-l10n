@@ -33,9 +33,9 @@ recovery-key-file-header = 儲存帳號救援金鑰
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = 請將這個包含您的帳號救援金鑰的檔案保存於能夠快速找回的地方，或是列印出來保存實體版本。若您忘記密碼，可使用帳號救援金鑰來救回 { -brand-firefox } 資料。
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = 金鑰：{ $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = 救援金鑰：
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }：{ $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -636,6 +636,10 @@ recent-activity-account-login = 帳號進行登入
 recent-activity-account-reset = 帳號進行密碼重設
 recent-activity-emails-clearBounces = 已處理帳號退信
 
+## $date (Date) - Date recent activity was created
+
+recent-activity-created-at = { $date }
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = 取消
@@ -886,6 +890,9 @@ auth-error-102 = 未知帳號
 auth-error-103 = 密碼不正確
 auth-error-105-2 = 確認碼無效
 auth-error-110 = token 無效
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = 您已嘗試太多次，請稍候再試。
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
