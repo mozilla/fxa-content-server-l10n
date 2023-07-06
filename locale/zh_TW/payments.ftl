@@ -437,6 +437,7 @@ brand-name-apple-app-store = App Store
 product-plan-change-heading = 確認變更內容
 sub-change-failed = 方案變更失敗
 sub-update-copy = 您的方案內容會立刻變更，且會向您收取剩餘帳務週期的差額。自 { $startingDate } 起將會向您收取全額。
+sub-update-acknowledgment = 您的方案內容會立刻變更，且會向您收取本帳務週期剩餘天數的差額。自 { $startingDate } 起將會向您收取全額。
 sub-change-submit = 確認變更
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
