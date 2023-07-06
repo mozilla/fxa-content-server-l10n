@@ -440,6 +440,7 @@ sub-update-copy =
     Votre forfait changera immédiatement et le montant de votre facture sera
     ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
     le montant total vous sera facturé.
+sub-update-acknowledgment = Votre forfait changera immédiatement et un montant calculé au prorata vous sera facturé aujourd’hui pour le reste du cycle de facturation. À partir du { $startingDate }, le montant total vous sera facturé.
 sub-change-submit = Confirmer la modification
 sub-update-current-plan-label = Forfait actuel
 sub-update-new-plan-label = Nouveau forfait
