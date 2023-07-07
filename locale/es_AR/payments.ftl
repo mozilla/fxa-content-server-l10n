@@ -440,7 +440,10 @@ sub-update-copy =
     El plan cambiará de inmediato y se cobrará un monto
     ajustado para el resto del ciclo de facturación. A partir de { $startingDate }
     se cobrará el importe total.
-sub-update-acknowledgment = Tu plan cambiará de inmediato y hoy se te cobrará una cantidad prorrateada por el resto de este ciclo de facturación. A partir del { $startingDate } se te cobrará el importe total.
+sub-update-acknowledgment =
+    Tu plan cambiará de inmediato y se te cobrará un monto
+    prorrateado por el resto de este ciclo de facturación. A partir de { $startingDate }
+    se te cobrará el importe total.
 sub-change-submit = Confirmar cambio
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nuevo plan
