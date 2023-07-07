@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-06 17:05+0000\n"
+"PO-Revision-Date: 2023-07-06 17:07+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -724,7 +724,7 @@ msgstr "Adresse de e-mail incorrecte?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Accesso precoce pro verificar nove productos"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
@@ -740,7 +740,7 @@ msgstr "Sia plus secur e plus intelligente in linea"
 
 #: .es5/lib/newsletters.js:41
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Novas e actualisationes de securitate & confidentialitate"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
