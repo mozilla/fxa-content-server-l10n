@@ -236,6 +236,8 @@ confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβ
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Χρειάζεστε αυτόν τον κωδικό πρόσβασης για την πρόσβαση σε τυχόν κρυπτογραφημένα δεδομένα που έχετε αποθηκεύσει σε εμάς.
+password-info-balloon-reset-risk-info = Η επαναφορά κωδικού πρόσβασης σημαίνει πιθανή απώλεια δεδομένων, όπως κωδικών πρόσβασης και σελιδοδεικτών.
 
 ## PasswordStrengthBalloon component
 
@@ -248,6 +250,7 @@ password-strength-balloon-stay-safe-tips = Μείνετε ασφαλείς — �
 ## Ready component
 
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
+ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με { -brand-firefox }.
 ready-start-browsing-button = Έναρξη περιήγησης
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
