@@ -437,6 +437,7 @@ brand-name-apple-app-store = App Store
 product-plan-change-heading = Revide tu cambio
 sub-change-failed = Cambio de plano fallite
 sub-update-copy = Tu plan cambiara immediatemente e te sera debitate un amonta adjustate pro le resto de tu termino de facturation. A partir del { $startingDate } te sera debitate le plen amonta.
+sub-update-acknowledgment = Tu plano cambiara immediatemente, e hodie te sera cargate un amonta proportional al resto de iste cyclo de facturation. Desde le { $startingDate } te sera cargate le amonta complete.
 sub-change-submit = Confirmar le cambio
 sub-update-current-plan-label = Plano actual
 sub-update-new-plan-label = Nove plano
