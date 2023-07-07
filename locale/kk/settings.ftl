@@ -22,17 +22,9 @@ link-expired-resent-code-error-message = Бірнәрсе қате кетті. �
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Кілт:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Кілт жасалды: { $downloadDate }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Кілт:
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -575,6 +567,9 @@ recent-activity-account-login = Тіркелгі кіруді бастады
 recent-activity-account-reset = Тіркелгі парольді тастауды бастады
 recent-activity-emails-clearBounces = Тіркелгі эл. пошта қайталауларын тазарты
 
+## $date (Date) - Date recent activity was created
+
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Бас тарту
@@ -724,7 +719,6 @@ rk-enabled = Іске қосулы
 rk-not-set = Орнатылмаған
 rk-action-create = Жасау
 rk-action-remove = Өшіру
-rk-cannot-refresh-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
 rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті өшірілді
 rk-cannot-remove-key = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
 rk-refresh-key-1 = Тіркелгіні қалпына келтіру кілтін жаңартыңыз
@@ -734,7 +728,6 @@ rk-remove-modal-heading-1 = Тіркелгіні қалпына келтіру �
 rk-remove-modal-content-1 =
     Парольді қалпына келтірген жағдайда, деректерге кіру үшін тіркелгіні
     қалпына келтіру кілтін пайдалана алмайсыз. Бұл әрекетті кері қайтара алмайсыз.
-rk-refresh-error-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
 rk-remove-error-2 = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
 
 ## Secondary email sub-section on main Settings page

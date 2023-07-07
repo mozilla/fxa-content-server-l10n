@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = { $email } адресіне { $product_
 payment-confirmation-thanks-subheading-account-exists = Сіз { $email } адресіне тіркелгіңізді баптау нұсқаулары, сондай-ақ төлем мәліметтері көрсетілген электрондық хат аласыз.
 payment-confirmation-order-heading = Тапсырыс мәліметтері
 payment-confirmation-invoice-number = №{ $invoiceNumber } шот-фактура
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Төлем ақпараты
 payment-confirmation-amount = { $amount }, { $interval } үшін
 # $amount (Number) - The amount billed. It will be formatted as currency.
