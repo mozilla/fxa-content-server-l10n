@@ -440,6 +440,10 @@ sub-update-copy =
     Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
     gebracht voor het restant van uw facturatieperiode. Vanaf { $startingDate }
     wordt u het volledige bedrag in rekening gebracht.
+sub-update-acknowledgment =
+    Uw abonnement wijzigt direct, en er wordt een proportioneel bedrag in rekening
+    gebracht voor het restant van deze facturatieperiode. Vanaf { $startingDate }
+    wordt u het volledige bedrag in rekening gebracht.
 sub-change-submit = Wijziging bevestigen
 sub-update-current-plan-label = Huidig schema
 sub-update-new-plan-label = Nieuw schema
