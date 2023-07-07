@@ -412,6 +412,10 @@ sub-update-copy =
     Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ phải trả một khoản tiền
     được điều chỉnh cho phần còn lại của chu kỳ thanh toán.
     Bắt đầu { $startingDate }, bạn sẽ phải trả toàn bộ số tiền.
+sub-update-acknowledgment =
+    Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ bị tính phí theo tỷ lệ
+    ngày hôm nay cho phần còn lại của chu kỳ thanh toán này. Bắt đầu
+    vào { $startingDate } bạn sẽ bị tính toàn bộ số tiền này.
 sub-change-submit = Xác nhận thay đổi
 sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
