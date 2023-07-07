@@ -25,6 +25,13 @@ link-expired-resent-code-error-message = Бірнәрсе қате кетті. �
 # "Key" here refers to the term "account recovery key", a randomly generated 32-character code
 # containing a mix of numbers and letters (excluding I, L, O, U)
 recovery-key-file-key-value-v3 = Кілт:
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Кілт жасалды: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -154,6 +161,8 @@ signin-totp-code-image-label =
     .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 confirm-signup-aria-label =
     .aria-label = Сілтемесі бар конверт
+lock-image-aria-label =
+    .aria-label = Құлыптың суреті
 
 ## Input Password
 
@@ -381,6 +390,9 @@ flow-container-back = Артқа
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Аяқтау
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
