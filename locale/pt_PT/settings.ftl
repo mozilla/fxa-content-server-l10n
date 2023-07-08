@@ -179,25 +179,52 @@ reset-pwd-resend-link = Receber nova ligação
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = A ligação para a redefinição da palavra-passe expirou
+reset-pwd-link-expired-message = A ligação que utilizou para redefinir a palavra-passe expirou.
 
 ## LinkExpiredSignin component
 
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = A ligação de confirmação expirou
+signin-link-expired-message = A ligação que clicou para confirmar o seu endereço de correio eletrónico expirou.
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Memorizar a sua palavra-passe? Iniciar a sessão
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = O e-mail primário já foi confirmado
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = O início de sessão já foi confirmado
+confirmation-link-reused-message = A ligação de confirmação já foi utilizada e só pode ser utilizada uma vez.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Precisa desta palavra-passe para aceder a quaisquer dados encriptados guardados connosco.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Requisitos da palavra-passe
+password-strength-balloon-min-length = Pelo menos 8 carateres
+password-strength-balloon-not-email = Não é o seu endereço de e-mail
+password-strength-balloon-not-common = Não é uma palavra-passe comummente utilizada
 
 ## Ready component
 
+reset-password-complete-header = A sua palavra-passe foi reposta
+ready-start-browsing-button = Começar a navegar
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = A sua conta está pronta!
+ready-continue = Continuar
+sign-in-complete-header = Início de sessão confirmado
+sign-up-complete-header = Conta confirmada
+primary-email-verified-header = E-mail primário confirmado
 
 ## Alert Bar
 
@@ -217,6 +244,10 @@ avatar-default-avatar =
 
 bento-menu-title = Menu Bento { -brand-firefox }
 bento-menu-firefox-title = O { -brand-firefox } é tecnologia que luta pela sua privacidade na Internet.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
 bento-menu-made-by-mozilla = Criado pela { -brand-mozilla }
@@ -289,6 +320,7 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account } nas configurações da sua conta. Também deve alterar quaisquer outras
     palavras-passe que guardou no { -brand-firefox } digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
+cs-recent-activity = Atividade Recente da Conta
 
 ##
 
@@ -321,19 +353,42 @@ flow-container-back = Voltar
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Reinsira a sua palavra-passe para segurança
+flow-recovery-key-confirm-pwd-input-label = Insira a sua palavra-passe
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Criar uma chave de recuperação da conta
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Criar nova chave de recuperação da conta
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Continuar sem transferir
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adicione uma dica para ajudar a encontrar a sua chave
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Digite uma dica (opcional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Terminar
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Começar
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Cancelar
 
 # HeaderLockup component
 
@@ -358,6 +413,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Fechar
 modal-cancel-button = Cancelar
+modal-default-confirm-button = Confirmar
 
 ## Modal Verify Session
 
@@ -419,7 +475,9 @@ avatar-page-image-too-large-error-2 = O tamanho do ficheiro de imagem é muito g
 pw-change-header =
     .title = Alterar palavra-passe
 pw-8-chars = Pelo menos 8 caracteres
+pw-not-email = Não é o seu endereço de e-mail
 pw-change-must-match = Confirmação que a nova palavra-passe corresponde
+pw-commonly-used = Não é uma palavra-passe comummente utilizada
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-tips = Fique seguro — não reutilize palavras-passe. Veja mais dicas para <linkExternal>criar palavras-passe fortes</linkExternal>.
 pw-change-cancel-button = Cancelar
@@ -452,7 +510,18 @@ delete-account-header =
     .title = Eliminar conta
 delete-account-step-1-2 = Passo 1 de 2
 delete-account-step-2-2 = Passo 2 de 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = A sincronizar os dados do { -brand-firefox }
+delete-account-product-firefox-addons = Extras do { -brand-firefox }
 delete-account-acknowledge = Por favor, note que, ao eliminar a sua conta:
+delete-account-chk-box-1-v3 =
+    .label = Quaisquer subscrições pagas que tiver serão canceladas (Exceto { -product-pocket })
 delete-account-chk-box-2 =
     .label = Poderá perder informações e funcionalidades guardadas dentro dos produtos da { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -462,6 +531,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Inserir palavra-passe
+pocket-delete-notice = Se subscrever o Pocket Premium, por favor, certifique-se que <a>cancela a sua subscrição</a> antes de eliminar a sua conta.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -484,9 +554,14 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 
 ## Recent Activity
 
+recent-activity-title = Atividade Recente da Conta
+recent-activity-account-create = A conta foi criada
+recent-activity-account-disable = A conta foi desativada
+recent-activity-account-enable = A conta foi ativada
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -495,11 +570,19 @@ recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
 recovery-key-enter-password =
     .label = Inserir palavra-passe
+recovery-key-page-title-1 =
+    .title = Chave de recuperação da conta
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
+recovery-key-success-alert-3 = Chave de recuperação da conta criada
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Chave de Recuperação da Conta
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Voltar para as definições
 
 ## Add secondary email page
 
@@ -515,10 +598,17 @@ add-secondary-email-save-button = Guardar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passo 2 de 2
+verify-secondary-email-error-3 = Ocorreu um problema ao enviar o código de confirmação
 verify-secondary-email-page-title =
     .title = E-mail secundário
+verify-secondary-email-verification-code-2 =
+    .label = Insira o seu código de confirmação
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button-2 = Confirmar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Por favor, insira nos próximos 5 minutos o código de confirmação que foi enviado para <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -540,6 +630,8 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
 tfa-incorrect-totp = Código de autenticação de dois passos inválido
 tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
+tfa-cannot-verify-code-4 = Ocorreu um problema ao confirmar o seu código de autenticação de recuperação
+tfa-incorrect-recovery-code-1 = Código de autenticação de recuperação incorreto
 tfa-enabled = Autenticação de dois passos ativada
 tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <linkExternal>aplicações de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
@@ -554,6 +646,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Não consegue digitalizar o código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autenticação:
+tfa-enter-totp-v2 = Agora insira o código de segurança da aplicação de autenticação.
+tfa-input-enter-totp-v2 =
+    .label = Inserir código de autenticação
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
@@ -575,6 +670,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Passo { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -609,20 +709,29 @@ row-defaults-status = Nenhum
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Chave de recuperação da conta
 rk-enabled = Ativada
 rk-not-set = Não definida
 rk-action-create = Criar
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Alterar
 rk-action-remove = Remover
 rk-key-removed-2 = Chave de recuperação de conta removida
 rk-cannot-remove-key = Não foi possível remover a sua chave de recuperação de conta.
+rk-refresh-key-1 = Recarregar chave de recuperação da conta
 rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
+rk-cannot-verify-session-4 = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
+rk-remove-modal-heading-1 = Remover a chave de recuperação da conta?
 rk-remove-error-2 = Não foi possível remover a sua chave de recuperação de conta
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Eliminar a chave de recuperação da conta
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = E-mail secundário
     .header = E-mail secundário
 se-cannot-refresh-email = Pedimos desculpa, mas ocorreu um problema ao atualizar esse e-mail.
+se-cannot-resend-code-3 = Desculpe, ocorreu um problema ao reenviar o código de confirmação
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -674,10 +783,24 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Ao prosseguir, concorda com:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Termos do Serviço</firefoxTos> e <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy> do { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Ao continuar, concorda com os <firefoxTos>Termos do Serviço</firefoxTos> e com a <firefoxPrivacy>Informação de Privacidade</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Ou
+continue-with-google-button = Continue com { -brand-google }
+continue-with-apple-button = Continue com { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -685,6 +808,9 @@ auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
 auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Código inválido
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Tentou demasiadas vezes. Por favor, tente novamente mais tarde.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -694,23 +820,63 @@ auth-error-114 = Tentou demasiadas vezes. Tente novamente { $retryAfter }.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado
+auth-error-183-2 = Código de confirmação inválido ou expirado
+auth-error-999 = Erro inesperado
+auth-error-1003 = O armazenamento local ou os cookies ainda estão desativados
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
+auth-error-1011 = É necessário um e-mail válido
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Não é possível criar a conta
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Saber mais
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Está autenticado com o { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail confirmado
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Início de sessão confirmado
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Inicie a sessão neste { -brand-firefox } para concluir a configuração
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Iniciar a sessão
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Ligar outro dispositivo
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Agora não
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Inicie a sessão no { -brand-firefox } para Android para concluir a configuração
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Inicie sessão no { -brand-firefox } para iOS para concluir a configuração
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = O armazenamento local e os cookies são obrigatórios
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Tentar novamente
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Saber mais
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Cancelar
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continuar
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confirmar
+inline-recovery-back-link = Voltar
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Código de autenticação de recuperação
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
