@@ -559,6 +559,7 @@ brand-name-apple-app-store = App Store
 product-plan-change-heading = Zkontrolujte změnu předplatného
 sub-change-failed = Nepodařilo se změnit vaše předplatné
 sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
+sub-update-acknowledgment = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
 sub-change-submit = Potvrdit změnu
 sub-update-current-plan-label = Stávající předplatné
 sub-update-new-plan-label = Nový plán
