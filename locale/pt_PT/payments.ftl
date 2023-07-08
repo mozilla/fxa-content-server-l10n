@@ -58,6 +58,7 @@ input-error-is-required = { $label } é necessário
 
 ## Component - Header
 
+brand-name-firefox-logo = Logótipo de { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
@@ -65,8 +66,7 @@ new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie ses
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Introduza o seu e-mail
 new-user-confirm-email =
     .label = Confirme o seu e-mail
@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Foi enviado um e-mail de confirmação 
 payment-confirmation-thanks-subheading-account-exists = Irá receber um e-mail em { $email } com instruções para configurar a sua conta, bem como os seus detalhes de pagamento.
 payment-confirmation-order-heading = Detalhes de compra
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informação de pagamento
 payment-confirmation-amount = { $amount } por { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -123,6 +125,7 @@ payment-confirmation-download-button = Continuar para descarregar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = Precisa de concluir isto antes de continuar
 
 ## Component - PaymentErrorView
 
@@ -160,7 +163,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>política de privacidade do { -
 payment-method-header = Escolha o seu método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Necessário
 
 ## Component - PaymentProcessing
 
@@ -169,6 +171,10 @@ payment-processing-message = Por favor, aguarde enquanto processamos o seu pagam
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Pague com { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -182,6 +188,57 @@ plan-details-tax = Impostos e Taxas
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Não existe esse plano para este produto.
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } em impostos
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } diariamente
+       *[other] { $priceAmount } a cada { $intervalCount } dia
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } diariamente
+           *[other] { $priceAmount } a cada { $intervalCount } dias
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } semanalmente
+       *[other] { $priceAmount } a cada { $intervalCount } semana
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } semanalmente
+           *[other] { $priceAmount } a cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mensalmente
+       *[other] { $priceAmount } a cada { $intervalCount } mês
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mensalmente
+           *[other] { $priceAmount } a cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } anualmente
+       *[other] { $priceAmount } a cada { $intervalCount } ano
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } anualmente
+           *[other] { $priceAmount } a cada { $intervalCount } anos
+        }
 
 ## Component - SubscriptionTitle
 
@@ -206,8 +263,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Fechar janela
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = A carregar…
 settings-subscriptions-title = Subscrições
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Código promocional
@@ -216,29 +271,49 @@ coupon-promo-code = Código promocional
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } diário
-       *[other] { $amount } todos os { $intervalCount } dias
+        [one] { $amount } diariamente
+       *[other] { $amount } a cada { $intervalCount } dia
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } diariamente
+           *[other] { $amount } a cada { $intervalCount } dias
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
         [one] { $amount } semanalmente
-       *[other] { $amount } todas as { $intervalCount } semanas
+       *[other] { $amount } a cada { $intervalCount } semana
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } semanalmente
+           *[other] { $amount } a cada { $intervalCount } semanas
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] { $amount } mensalmente
-       *[other] { $amount } todos os { $intervalCount } meses
+       *[other] { $amount } a cada { $intervalCount } mês
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensalmente
+           *[other] { $amount } a cada { $intervalCount } meses
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } anualmente
-       *[other] { $amount } todos os { $intervalCount } anos
+       *[other] { $amount } a cada { $intervalCount } ano
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anualmente
+           *[other] { $amount } a cada { $intervalCount } anos
+        }
 
 ## Error messages
 
@@ -276,6 +351,8 @@ product-plan-not-found = Plano não encontrado
 ## Hooks - coupons
 
 coupon-success = O seu plano será renovado automaticamente pelo preço de tabela.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = O seu plano será renovado automaticamente depois de { $couponDurationDate } pelo preço de tabela.
 
 ## Routes - Checkout - New user
 
@@ -287,13 +364,16 @@ new-user-submit = Subscrever agora
 
 sub-update-payment-title = Informação de pagamento
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ou pague com cartão
 pay-with-heading-card-only = Pagar com cartão
+product-invoice-preview-error-title = Problema ao carregar a pré-visualização da fatura
+product-invoice-preview-error-text = Não foi possível carregar a pré-visualização da fatura
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Nós ainda não o podemos atualizar
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
@@ -310,6 +390,10 @@ sub-update-copy =
     O seu plano irá mudar imediatamente e você vai ser cobrado um valor ajustado 
     durante o resto do seu ciclo de pagamento. A partir de { $startingDate }
     você será cobrado o valor total.
+sub-update-acknowledgment =
+    O seu plano irá mudar imediatamente, e será cobrado um valor ajustado 
+    durante o resto do seu ciclo de faturação. A partir de { $startingDate }
+    será cobrado o valor total.
 sub-change-submit = Confirmar alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
@@ -329,34 +413,6 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar o meu acesso e a minha informação guardada em
     { $name } em { $period }
-
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } diariamente
-       *[other] { $amount } a cada { $intervalCount } dias
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } semanalmente
-       *[other] { $amount } a cada { $intervalCount } semanas
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mensalmente
-       *[other] { $amount } a cada { $intervalCount } meses
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } anualmente
-       *[other] { $amount } a cada { $intervalCount } anos
-    }
 
 ## Routes - Subscription
 
@@ -379,6 +435,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema ao carregar as faturas
 sub-billing-update-success = A sua informação de pagamento foi atualizada com sucesso
+sub-invoice-previews-error-title = Problema ao carregar as pré-visualizações da fatura
+sub-invoice-previews-error-text = Não foi possível carregar as pré-visualizações da fatura
 
 ## Routes - Subscription - ActionButton
 
@@ -386,9 +444,13 @@ pay-update-change-btn = Alterar
 pay-update-manage-btn = Gerir
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança a { $date }
+sub-next-bill-no-tax = A sua próxima fatura de <strong>{ $priceAmount }</strong> vence a <strong>{ $date }</strong>
+sub-next-bill-tax = A sua próxima fatura de <strong>{ $priceAmount } + { $taxAmount }</strong> de imposto vence a <strong>{ $date }</strong>
 sub-expires-on = Expira a { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -408,6 +470,8 @@ sub-route-funding-source-payment-alert = Informação de pagamento inválida; h�
 sub-item-no-such-plan = Não existe um plano para esta subscrição.
 invoice-not-found = Fatura subsequente não encontrada
 sub-item-no-such-subsequent-invoice = Fatura subsequente não encontrada para esta subscrição.
+sub-invoice-preview-error-title = Não foi encontrada a pré-visualização da fatura
+sub-invoice-preview-error-text = Não foi encontrada a pré-visualização da fatura para esta subscrição
 
 ## Routes - Subscriptions - Pocket Subscription
 

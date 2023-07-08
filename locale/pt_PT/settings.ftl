@@ -6,19 +6,72 @@
 ## Banner component
 ## Used to show success, error or info messages
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Fechar
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Algo correu mal. Não foi possível enviar um novo código.
+
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Transferir e continuar
+    .title = Transferir e continuar
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = GUARDAR A SUA CHAVE DE RECUPERAÇÃO DE CONTA
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Chave:
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Chave gerada: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Saiba mais sobre a sua chave de recuperação da conta: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = O conhecimento prático está a chegar à sua caixa de entrada. Registe-se para mais:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = Marcadores
+choose-what-to-sync-option-history =
+    .label = Histórico
+choose-what-to-sync-option-passwords =
+    .label = Palavras-passe
+choose-what-to-sync-option-addons =
+    .label = Extras
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Separadores Abertos
+choose-what-to-sync-option-prefs =
+    .label = Preferências
+choose-what-to-sync-option-addresses =
+    .label = Endereços
+choose-what-to-sync-option-creditcards =
+    .label = Cartões de Crédito
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
 
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Anterior
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -33,20 +86,70 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $stateCode }, { $country } (estimado)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $city }, { $country } (estimado)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimado)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (estimado)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Localização desconhecida
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } em { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Endereço de IP: { $ip-address }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Palavra-passe
+signup-confirm-password-label =
+    .label = Repetir palavra-passe
+signup-submit-button = Criar conta
+form-reset-password-with-balloon-new-password =
+    .label = Nova palavra-passe
+form-reset-password-with-balloon-confirm-password =
+    .label = Reinserir palavra-passe
+form-reset-password-with-balloon-submit-button = Redefinir palavra-passe
+form-reset-password-with-balloon-match-error = As palavras-passe não coincidem
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Este campo é obrigatório
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Chave de recuperação da conta { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticação de recuperação do { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Transferir
+    .aria-label = Transferir
+get-data-trio-copy-2 =
+    .title = Copiar
+    .aria-label = Copiar
+get-data-trio-print-2 =
+    .title = Imprimir
+    .aria-label = Imprimir
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = Documento que contém texto oculto.
+signin-totp-code-image-label =
+    .aria-label = Um dispositivo com um código oculto de 6 dígitos.
+confirm-signup-aria-label =
+    .aria-label = Um envelope contendo uma ligação
 
 ## Input Password
 
@@ -54,11 +157,30 @@ input-password-hide = Ocultar palavra-passe
 input-password-show = Mostrar palavra-passe
 input-password-hide-aria = Ocultar a palavra-passe do ecrã
 input-password-show-aria = Mostrar a palavra-passe como texto simples. A sua palavra-passe ficará visível no ecrã.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Voltar
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = A ligação de redefinição da palavra-passe está danificada
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Ligação de confirmação danificada
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = A ligação que clicou tem carateres em falta e pode ter sido corrompida pelo seu cliente de e-mail. Copie cuidadosamente o endereço e tente novamente.
 
 ## LinkExpired component
+
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Receber nova ligação
+
+## LinkExpiredResetPassword component
+
+
+## LinkExpiredSignin component
 
 
 ## LinkRememberPassword component
@@ -194,6 +316,24 @@ drop-down-menu-sign-out-error-2 = Pedimos desculpa, mas ocorreu um problema ao t
 ## Flow Container
 
 flow-container-back = Voltar
+
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
 
 # HeaderLockup component
 
@@ -345,6 +485,9 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ## Recent Activity
 
 
+## $date (Date) - Date recent activity was created
+
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
@@ -354,6 +497,9 @@ recovery-key-enter-password =
     .label = Inserir palavra-passe
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
+
+## PageRecoveryKeyCreate
+
 
 ## Add secondary email page
 
@@ -425,6 +571,9 @@ profile-primary-email =
     .header = E-mail primário
 
 ##
+
+
+## Progress bar
 
 
 ## Security section of Setting
@@ -526,6 +675,10 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 ## These terms are used in signin and signup for Firefox account
 
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Conta desconhecida
@@ -534,11 +687,9 @@ auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Código inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tentou demasiadas vezes. Tente novamente { $retryAfter }.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
@@ -611,6 +762,10 @@ auth-error-1008 = A sua nova palavra-passe tem de ser diferente
 
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 
 ## AccountRecoveryConfirmKey page
