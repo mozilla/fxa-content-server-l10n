@@ -876,51 +876,112 @@ inline-recovery-continue-button = Continuar
 inline-recovery-confirm-button = Confirmar
 inline-recovery-back-link = Voltar
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Código de autenticação de recuperação
+inline-recovery-backup-authentication-code = Código de recuperação de autenticação
+inline-recovery-confirmation-description = Para garantir que poderá recuperar o acesso à sua conta no caso de perda de um dispositivo, por favor, insira um dos seus códigos de recuperação de autenticação que guardou.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Cancelar configuração
+inline-totp-setup-continue-button = Continuar
+inline-totp-setup-ready-button = Pronto
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Código de autenticação
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Informação legal
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Termos do Serviço
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Informação de Privacidade
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Informação de privacidade
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Termos do Serviço
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Acabou de iniciar a sessão no { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Sim, aprovar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Se não foi você, <link>altere a sua palavra-passe</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispositivo ligado
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Agora está a sincronizar com: { $deviceFamily } em { $deviceOS }
+pair-auth-complete-sync-benefits-text = Agora pode aceder aos seus separadores abertos, palavras-passe e marcadores em todos os seus dispositivos.
+pair-auth-complete-see-tabs-button = Ver separadores dos dispositivos sincronizados
+pair-auth-complete-manage-devices-link = Gerir dispositivos
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Inserir código de 6 dígitos
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirmar
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Código de autenticação obrigatório
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = A aprovação agora é obrigatória <span>do seu outro dispositivo</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Emparelhamento sem sucesso
+pair-failure-message = O processo de configuração foi terminado.
 
 ## Pair index page
 
+pair-sync-header = Sincronizar o { -brand-firefox } no seu telemóvel ou tablet
+pair-cad-header = Ligar o { -brand-firefox } noutro dispositivo
+pair-already-have-firefox-paragraph = Já tem o { -brand-firefox } num telefone ou tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronizar o seu dispositivo
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Ou transferir
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Digitalize para transferir o { -brand-firefox } para um dispositivo móvel, ou envie para si mesmo uma <linkExternal>ligação de transferência</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Agora não
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Começar
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Código QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dispositivo ligado
+pair-success-message-2 = O emparelhamento foi bem-sucedido.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirme o emparelhamento <span>para { $email }</span>
+pair-supp-allow-confirm-button = Confirmar emparelhamento
+pair-supp-allow-cancel-link = Cancelar
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -929,6 +990,7 @@ inline-recovery-backup-authentication-code = Código de autenticação de recupe
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Emparelhar usando uma aplicação
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -936,52 +998,136 @@ inline-recovery-backup-authentication-code = Código de autenticação de recupe
 
 ## AccountRecoveryConfirmKey page
 
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Inserir uma chave de recuperação da conta
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confirmar chave de recuperação da conta
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Chave de recuperação da conta inválida
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Chave de recuperação da conta obrigatória
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação da conta?
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Criar nova palavra-passe
+account-restored-success-message = Restaurou com sucesso a sua conta utilizando a chave de recuperação da conta. Crie uma nova palavra-passe para proteger os seus dados e guarde-a numa localização segura.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Palavra-passe definida
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Encontrado um erro inesperado
+account-recovery-reset-password-redirecting = A redirecionar
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Criar nova palavra-passe
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Palavra-passe definida
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Desculpe, ocorreu um problema ao definir a sua palavra-passe
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Mensagem de reposição enviada
 
 ## ResetPassword page
 
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail
+reset-password-button = Iniciar redefinição
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = É necessário o e-mail
+reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
+reset-password-with-recovery-key-verified-generate-new-key = Gerar uma nova chave de recuperação da conta
+reset-password-with-recovery-key-verified-continue-to-account = Continuar para a minha conta
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Erro:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = A validar o início de sessão…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confirmar este início de sessão
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuar para { $serviceName }
+signin-subheader-without-logo-default = Continuar para as definições da conta
+signin-button = Iniciar a sessão
+signin-header = Iniciar a sessão
+signin-use-a-different-account-link = Utilizar uma conta diferente
+signin-forgot-password-link = Esqueceu-se da palavra-passe?
+signin-bounced-header = Desculpe. Nós bloqueámos a sua conta.
+back = Voltar
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-input-label = Insira o código de recuperação de autenticação de 10 dígitos
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Voltar
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Está bloqueado?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = É necessário o código de recuperação de autenticação
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Obrigado pela sua vigilância
+signin-reported-message = A nossa equipa foi notificada. As denúncias como esta ajudam-nos a afastar os intrusos.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Inserir código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmar
+signin-token-code-code-expired = Código expirado?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Enviar novo código por e-mail.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = É necessário o código de confirmação
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v2 = Inserir código de 6 dígitos
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Confirmar
+signin-totp-code-other-account-link = Utilizar uma conta diferente
+signin-totp-code-recovery-code-link = Problemas ao inserir o código?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = É necessário o código de autenticação
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Confirmar a sua conta
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -989,7 +1135,29 @@ inline-recovery-backup-authentication-code = Código de autenticação de recupe
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Inserir código de confirmação
+confirm-signup-code-input-label = Inserir código de 6 dígitos
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-code-expired = Código expirado?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Enviar novo código por e-mail.
+confirm-signup-code-success-alert = Conta confirmada com sucesso
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = É necessário o código de confirmação
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Definir a sua palavra-passe
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Alterar e-mail
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Qual é a sua idade?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Deve inserir a sua idade para se registar
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Por que é que nós perguntamos?
