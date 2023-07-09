@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-07 16:32+0000\n"
+"PO-Revision-Date: 2023-07-09 09:20+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -741,7 +741,7 @@ msgstr "Интернетте қауіпсіздеу және ақылдырақ 
 
 #: .es5/lib/newsletters.js:41
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Қауіпсіздік және жекелік жаңалықтары мен жаңартулары"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
