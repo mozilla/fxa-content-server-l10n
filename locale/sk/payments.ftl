@@ -477,6 +477,7 @@ sub-change-failed = Zmena plánu zlyhala
 sub-update-copy =
     Váš plán sa okamžite zmení a po zvyšok fakturačného cyklu vám bude
     účtovaná upravená suma. Od dňa { $startingDate } vám bude účtovaná celá suma.
+sub-update-acknowledgment = Váš plán sa okamžite zmení a dnes vám bude účtovaná pomerná suma za zvyšok tohto fakturačného cyklu. Od { $startingDate } vám bude účtovaná plná suma.
 sub-change-submit = Potvrdiť zmenu
 sub-update-current-plan-label = Súčasný plán
 sub-update-new-plan-label = Nový plán
