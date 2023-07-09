@@ -1507,7 +1507,7 @@ msgstr "To geslo potrebujete za dostop do šifriranih podatkov, ki jih hranite p
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr "Izkoristite Mozillo še več:"
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
