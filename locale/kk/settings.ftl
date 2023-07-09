@@ -380,22 +380,41 @@ flow-container-back = Артқа
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Қауіпсіздік үшін пароліңізді қайта енгізіңіз
+flow-recovery-key-confirm-pwd-input-label = Пароліңізді енгізіңіз
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Тіркелгіні қалпына келтіру кілтін жасау
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Тіркелгіні қалпына келтіру кілті жасалды — Қазір жүктеп алыңыз және сақтаңыз
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Жүктеп алмай жалғастыру
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Кілтті табуға көмектесу үшін кеңес қосу
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Аяқтау
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Тіркелгіңізді қалпына келтіру кілтін өзгерту
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Бастау
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Бас тарту
 
 # HeaderLockup component
 
@@ -446,6 +465,7 @@ nav-email-comm = Эл. пошта хабарландырулары
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Сақтық көшірме аутентификация кодтарын ауыстыру кезінде мәселе орын алды
+tfa-create-code-error = Сақтық көшірме аутентификация кодтарын жасау кезінде мәселе орын алды
 tfa-replace-code-success-1 =
     Жаңа кодтар жасалды. Осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз — мобильді құрылғыңыз болмаса,
@@ -549,6 +569,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Жалғастыру
 delete-account-password-input =
     .label = Парольді енгізіңіз
+pocket-delete-notice = Pocket Premium-ге жазылсаңыз, тіркелгіңізді өшірмес бұрын <a>жазылымнан бас тартқаныңызға</a> көз жеткізіңіз.
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
@@ -581,6 +602,7 @@ recent-activity-emails-clearBounces = Тіркелгі эл. пошта қайт
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -598,6 +620,11 @@ recovery-key-success-alert-3 = Тіркелгіні қалпына келтір�
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Тіркелгіні қалпына келтіру кілті
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Баптауларға оралу
 
 ## Add secondary email page
 
@@ -692,6 +719,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Қадам { $currentStep }/{ $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -730,6 +762,8 @@ rk-header-1 = Тіркелгіні қалпына келтіру кілті
 rk-enabled = Іске қосулы
 rk-not-set = Орнатылмаған
 rk-action-create = Жасау
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Өзгерту
 rk-action-remove = Өшіру
 rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті өшірілді
 rk-cannot-remove-key = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
@@ -741,6 +775,8 @@ rk-remove-modal-content-1 =
     Парольді қалпына келтірген жағдайда, деректерге кіру үшін тіркелгіні
     қалпына келтіру кілтін пайдалана алмайсыз. Бұл әрекетті кері қайтара алмайсыз.
 rk-remove-error-2 = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Тіркелгіні қалпына келтіру кілтін өшіру
 
 ## Secondary email sub-section on main Settings page
 
@@ -837,6 +873,9 @@ auth-error-102 = Белгісіз тіркелгі
 auth-error-103 = Пароль қате
 auth-error-105-2 = Жарамсыз растау коды
 auth-error-110 = Жарамсыз токен
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Тым көп талаптар санын жасадыңыз. Кейінірек қайталап көріңіз.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -850,6 +889,7 @@ auth-error-183-2 = Жарамсыз немесе мерзімі өткен ра�
 auth-error-999 = Күтпеген қате
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
+auth-error-1011 = Жарамды эл. пошта адресі керек
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -936,6 +976,8 @@ inline-totp-setup-continue-button = Жалғастыру
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
 inline-totp-setup-ready-button = Дайын
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } қызметіне өту үшін</span> кодты қолмен енгізіңіз
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Бұл құпия кілтті аутентификация қолданбасына теріңіз. <toggleToQRButton>Оның орнына QR кодын сканерлеу керек пе?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
