@@ -552,7 +552,7 @@ sub-update-copy =
     Bydd eich cynllun yn newid ar unwaith, a bydd y swm ar gyfer eich
     cylch bilio'n cael ei addasu. Gan ddechrau { $startingDate }
     bydd y swm llawn yn cael ei godi arnoch.
-sub-update-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a chodir swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau { $startingDate } codir y swm llawn arnoch.
+sub-update-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $startingDate } byddwn yn codi'r swm llawn arnoch.
 sub-change-submit = Cadarnhau'r newid
 sub-update-current-plan-label = Cynllun cyfredol
 sub-update-new-plan-label = Cynllun newydd

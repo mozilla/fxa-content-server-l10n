@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-10 09:37+0000\n"
+"PO-Revision-Date: 2023-07-10 11:09+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -725,7 +725,7 @@ msgstr "Camdeipio'r e-bost?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Early access to test new products"
-msgstr "Mynediad cynnar i brofi cynhyrchion newydd"
+msgstr "Mynediad cynnar i brofi cynnyrch newydd"
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
