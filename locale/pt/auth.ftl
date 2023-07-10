@@ -105,10 +105,6 @@ payment-plan-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
 payment-method = Método de pagamento:
 payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = cartão { $cardType } que termina com { $lastFour }
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -514,6 +510,7 @@ unblockCode-prompt-plaintext = Se sim, aqui está o código de autorização que
 unblockCode-report = Se não, ajude-nos a afastar os intrusos e <a data-l10n-name="reportSignInLink">reporte a situação à nossa equipa</a>.
 unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e reporte a situação à nossa equipa.
 verificationReminderFinal-subject = Lembrete final para configurar a sua conta
+verificationReminderFinal-description = Há algumas semanas, criou uma { -product-firefox-account }, mas nunca a confirmou. Para sua segurança, nós iremos eliminar a conta se não for verificada nas próximas 24 horas.
 confirm-account = Confirmar conta
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Lembre-se de confirmar a sua conta

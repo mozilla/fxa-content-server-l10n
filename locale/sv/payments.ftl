@@ -440,6 +440,10 @@ sub-update-copy =
     Din plan kommer att ändras omedelbart och du kommer att debiteras ett justerat
     belopp för resten av din faktureringscykel. Från och med { $startingDate }
     debiteras du hela beloppet.
+sub-update-acknowledgment =
+    Din plan kommer att ändras omedelbart och du kommer att debiteras
+    ett proportionellt belopp idag för resten av denna faktureringsperiod.
+    Från och med { $startingDate } kommer du att debiteras för hela beloppet.
 sub-change-submit = Bekräfta ändring
 sub-update-current-plan-label = Nuvarande plan
 sub-update-new-plan-label = Ny plan

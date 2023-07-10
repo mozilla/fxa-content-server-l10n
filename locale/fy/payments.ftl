@@ -440,6 +440,10 @@ sub-update-copy =
     Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
     brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
     wurdt jo it folsleine bedrach yn rekkening brocht.
+sub-update-acknowledgment =
+    Jo abonnemint wiziget daliks, en der wurdt in grut bedrach yn rekkening
+    brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
+    wurdt jo it folsleine bedrach yn rekkening brocht.
 sub-change-submit = Wiziging befêstigje
 sub-update-current-plan-label = Aktuele skema
 sub-update-new-plan-label = Nij skema
