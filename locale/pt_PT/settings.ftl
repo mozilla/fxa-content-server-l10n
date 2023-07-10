@@ -88,10 +88,10 @@ datablock-print =
 
 # Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, British Columbia, Canada (estimated)'
-device-info-block-location-city-region-country = { $city }, { $stateCode }, { $country } (estimado)
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimado)
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
-device-info-block-location-region-country = { $city }, { $country } (estimado)
+device-info-block-location-region-country = { $region }, { $country } (estimado)
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
 device-info-block-location-city-country = { $city }, { $country } (estimado)
@@ -105,7 +105,7 @@ device-info-block-location-unknown = Localização desconhecida
 device-info-browser-os = { $browserName } em { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
-device-info-ip-address = Endereço de IP: { $ip-address }
+device-info-ip-address = Endereço de IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
