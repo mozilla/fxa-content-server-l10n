@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-10 11:09+0000\n"
+"PO-Revision-Date: 2023-07-10 11:12+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -741,7 +741,7 @@ msgstr "Byddwch yn fwy diogel ac yn fwy craff ar-lein"
 
 #: .es5/lib/newsletters.js:41
 msgid "Security & privacy news and updates"
-msgstr "Newyddion a diweddariadau diogelwch a phreifatrwydd"
+msgstr "Newyddion diogelwch a phreifatrwydd a diweddariadau"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
