@@ -244,7 +244,7 @@ newDeviceLogin-subject = { $clientName } 的新登入通知
 newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = 不是您？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
+newDeviceLogin-change-password = 不是您嗎？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = 不是您嗎？請更改密碼：
@@ -277,7 +277,7 @@ postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = 有人從下列位置建立新的金鑰：
 # This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = 不是您？
+postAddAccountRecovery-not-you = 不是您嗎？
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">刪除這把金鑰</a>並<a data-l10n-name="passwordChangeLink">更改密碼</a>
 postAddAccountRecovery-action = 管理帳號
 postAddAccountRecovery-delete-key = 刪除這把金鑰：
