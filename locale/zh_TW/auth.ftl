@@ -241,7 +241,7 @@ lowRecoveryCodes-subject-2 =
 newDeviceLogin-subject = { $clientName } 的新登入通知
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = 您的 { -product-firefox-account } 已用於登入
+newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
