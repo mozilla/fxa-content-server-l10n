@@ -126,6 +126,7 @@ payment-confirmation-download-button = Жүктеп алуды жалғасты�
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Мен { -brand-name-firefox } өнімдерін өндірушісі, { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
+payment-confirm-checkbox-error = Алға жылжу алдында осыны аяқтауыңыз керек.
 
 ## Component - PaymentErrorView
 
@@ -167,6 +168,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жеке
 payment-method-header = Төлем әдісін таңдаңыз
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
 
 ## Component - PaymentProcessing
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-09 09:20+0000\n"
+"PO-Revision-Date: 2023-07-10 16:26+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -545,7 +545,7 @@ msgstr "Бұл сұраным адресіне енді қолдау жоқ"
 
 #: .es5/lib/auth-errors.js:312
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Тіркелігіні баптауды аяқтаңыз. Жалғастыру үшін, <a href=\"/reset_password\">парольді қалпына келтіріңіз</a>."
 
 #: .es5/lib/auth-errors.js:320
 msgid "Login attempt cancelled"
