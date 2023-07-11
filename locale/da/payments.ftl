@@ -440,6 +440,10 @@ sub-update-copy =
     Din plan bliver ændret med det samme og du vil blive opkrævet et justeret
     beløb for resten af faktureringsperioden. Fra og med { $startingDate }
     vil du blive opkrævet det fulde beløb.
+sub-update-acknowledgment =
+    Din plan bliver ændret med det samme, og du vil blive opkrævet et forholdsmæssigt
+    beløb i dag for resten af denne faktureringsperiode. Fra og med { $startingDate }
+    vil du blive opkrævet det fulde beløb.
 sub-change-submit = Bekræft ændring
 sub-update-current-plan-label = Nuværende plan
 sub-update-new-plan-label = Ny plan
