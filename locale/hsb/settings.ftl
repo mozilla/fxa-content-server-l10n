@@ -27,6 +27,9 @@ link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod nje
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Sćahnyć a pokročować
     .title = Sćahnyć a pokročować
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = SKŁADUJĆE SWÓJ KONTOWY WOBNOWJENSKI KLUČ
 # "Key" here refers to the term "account recovery key", a randomly generated 32-character code
 # containing a mix of numbers and letters (excluding I, L, O, U)
 recovery-key-file-key-value-v3 = Kluč:
@@ -376,6 +379,7 @@ flow-container-back = Wróćo
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Zapodajće swoje hesło z přičinow wěstoty znowa
 flow-recovery-key-confirm-pwd-input-label = Zapodajće swoje hesło
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Kontowy wobnowjenski kluč wutworić
@@ -395,6 +399,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjens
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokónčić
+flow-recovery-key-download-storage-ideas-folder-v2 = Rjadowak na wěstym graće
+flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
@@ -701,6 +707,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Krok { $currentStep } z { $numberOfSteps }.
 
 ## Security section of Setting
 
