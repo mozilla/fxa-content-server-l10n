@@ -754,6 +754,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Hapi { $currentStep } nga { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -903,6 +908,9 @@ auth-error-102 = Llogari e panjohur
 auth-error-103 = Fjalëkalim i pasaktë
 auth-error-105-2 = Kod i pavlefshëm ripohimi
 auth-error-110 = Token i pavlefshëm
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = E provuat shumë herë. Ju lutemi, riprovoni më vonë.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -916,6 +924,7 @@ auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-999 = Gabim i papritur
 auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
+auth-error-1011 = Lypset email i vlefshëm
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -1145,6 +1154,7 @@ pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çift
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Ju lutemi, pritni, po ridrejtoheni te aplikacioni i autorizuar.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1216,6 +1226,8 @@ reset-password-warning-message-2 = <span>Shënim:</span> Kur ricaktoni fjalëkal
 reset-password-password-input =
     .label = Email
 reset-password-button = Filloni ricaktimin
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = Lypset email
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-with-recovery-key-verified-generate-new-key = Prodho një kyç të ri rimarrjeje llogarie
 reset-password-with-recovery-key-verified-continue-to-account = Vazhdo te llogaria ime
