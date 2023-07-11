@@ -22,17 +22,21 @@ link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod nje
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Kluč:  { $recoveryKeyValue }
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Sćahnyć a pokročować
+    .title = Sćahnyć a pokročować
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Kluč:
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Kluč je so wutworił: { $downloadDate }
+recovery-key-file-download-date-v2 = * Kluč je so wutworił: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -380,9 +384,12 @@ flow-recovery-key-confirm-pwd-submit-button = Kontowy wobnowjenski kluč wutwori
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Dale
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -567,6 +574,9 @@ recent-activity-account-disable = Konto je so znjemóžniło
 recent-activity-account-enable = Konto je so zmóžniło
 recent-activity-account-login = Přez konto iniciěrowane přizjewjenje
 
+## $date (Date) - Date recent activity was created
+
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Přetorhnyć
@@ -715,7 +725,6 @@ rk-enabled = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
 rk-action-remove = Wotstronić
-rk-cannot-refresh-1 = Bohužel je při aktualizowanju kontoweho wobnowjenskeho kluča problem nastał.
 rk-key-removed-2 = Kontowy wobnowjenski kluč je so wotstronił
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 rk-refresh-key-1 = Kontowy wobnowjenski kluč aktualizować
@@ -725,7 +734,6 @@ rk-remove-modal-heading-1 = Kontowy wobnowjenski kluč wotstronić?
 rk-remove-modal-content-1 =
     Jeli waše hesło wróćo stajeće, njemóžeće swój
     kontowy wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
-rk-refresh-error-1 = Bohužel je při aktualizowanju kontoweho wobnowjenskeho kluča problem nastał.
 rk-remove-error-2 = Wobnowjenski kluč wašeho konta njeda so wotstronić
 
 ## Secondary email sub-section on main Settings page

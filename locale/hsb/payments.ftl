@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = Wobkrućenska mejlka je so z podrobnos�
 payment-confirmation-thanks-subheading-account-exists = Dóstanjeće mejlku na { $email } z instrukcijemi za konfigurowanje wašeho konta kaž tež waše płaćenske podrobnosće.
 payment-confirmation-order-heading = Skazanske podrobnosće
 payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Płaćenske informacije
 payment-confirmation-amount = { $amount } na { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
