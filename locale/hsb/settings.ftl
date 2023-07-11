@@ -379,6 +379,9 @@ flow-container-back = Wróćo
 flow-recovery-key-confirm-pwd-input-label = Zapodajće swoje hesło
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Kontowy wobnowjenski kluč wutworić
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjenski kluč wutworić
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -389,10 +392,21 @@ flow-recovery-key-confirm-pwd-submit-button = Kontowy wobnowjenski kluč wutwori
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokónčić
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Změńće swój kontowy wobnowjenski kod
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Prěnje kroki
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Přetorhnyć
 
 # HeaderLockup component
 
@@ -576,6 +590,7 @@ recent-activity-account-login = Přez konto iniciěrowane přizjewjenje
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -724,6 +739,8 @@ rk-header-1 = Kontowy wobnowjenski kluč
 rk-enabled = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Změnić
 rk-action-remove = Wotstronić
 rk-key-removed-2 = Kontowy wobnowjenski kluč je so wotstronił
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
@@ -735,6 +752,8 @@ rk-remove-modal-content-1 =
     Jeli waše hesło wróćo stajeće, njemóžeće swój
     kontowy wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
 rk-remove-error-2 = Wobnowjenski kluč wašeho konta njeda so wotstronić
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Kontowy wobnowjenski kluč zhašeć
 
 ## Secondary email sub-section on main Settings page
 
@@ -823,6 +842,9 @@ auth-error-102 = Njeznate konto
 auth-error-103 = Wopačne hesło
 auth-error-105-2 = Njepłaćiwy wobkrućenski kod
 auth-error-110 = Njepłaćiwy token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Sće to přehusto spytał. Spytajće prošu pozdźišo hišće raz.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
