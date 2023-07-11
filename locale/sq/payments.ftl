@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = A confirmation email has been sent Te {
 payment-confirmation-thanks-subheading-account-exists = Do të merrni një email te { $email }, me udhëzime për ujdisjen e llogarisë tuaj, si dhe me hollësitë e pagesës tuaj.
 payment-confirmation-order-heading = Hollësi porosie
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Hollësi pagese
 payment-confirmation-amount = { $amount } në { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -124,6 +126,7 @@ payment-confirmation-download-button = Vazhdoni te shkarkimi
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
+payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni më tej
 
 ## Component - PaymentErrorView
 
@@ -165,7 +168,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } rregulla
 payment-method-header = Zgjidhni metodën tuaj të pagesës
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = E domosdoshme
+payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
 
 ## Component - PaymentProcessing
 
@@ -174,6 +177,10 @@ payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Paguani me { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -407,9 +414,9 @@ new-user-submit = Pajtohuni Tani
 
 sub-update-payment-title = Të dhëna pagese
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Ose paguani me kartë
 pay-with-heading-card-only = Paguani me kartë
 product-invoice-preview-error-title = Problem me ngarkim paraparjeje fature
 product-invoice-preview-error-text = S’u ngarkua dot paraparje faturash
