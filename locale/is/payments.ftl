@@ -440,6 +440,10 @@ sub-update-copy =
     Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
     upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
     { $startingDate } færð þú kröfu um alla upphæðina.
+sub-update-acknowledgment =
+    Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
+    upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
+    { $startingDate } færð þú kröfu um alla upphæðina.
 sub-change-submit = Staðfesta breytingu
 sub-update-current-plan-label = Núverandi áskriftarleið
 sub-update-new-plan-label = Ný áskriftarleið
