@@ -433,6 +433,7 @@ brand-name-apple-app-store = App Store
 product-plan-change-heading = 确认您的更改
 sub-change-failed = 方案更改失败
 sub-update-copy = 您的方案内容会即刻变更，且会向您收取剩余的差额。自 { $startingDate } 起将会向您收取全额。
+sub-update-acknowledgment = 您的方案内容会即刻变更，且会向您收取本期剩余部分的差额。自 { $startingDate } 起将会向您收取全额。
 sub-change-submit = 确认更改
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
