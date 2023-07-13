@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-30 06:15+0000\n"
-"PO-Revision-Date: 2023-07-11 18:06+0000\n"
+"PO-Revision-Date: 2023-07-13 20:10+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1497,7 +1497,7 @@ msgstr "您需要此密码才能访问存储于云端的所有加密数据。<br
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "接收 Mozilla 的更多消息："
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

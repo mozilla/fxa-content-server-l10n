@@ -1369,7 +1369,7 @@ signup-info-banner-for-pocket = 我为何需要创建此账户？<LinkExternal>�
 signup-change-email-link = 更改邮箱
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
-    .label = 请问您的年龄？
+    .label = 您目前多少岁？
 # Error displayed in a tooltip when the user attempts to submit the form without filling in their age
 signup-age-check-input-error = 您必须输入您的年龄才能注册
 # Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
