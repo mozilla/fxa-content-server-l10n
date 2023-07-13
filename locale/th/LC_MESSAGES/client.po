@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-30 06:15+0000\n"
+"POT-Creation-Date: 2023-07-13 20:34+0000\n"
 "PO-Revision-Date: 2023-03-16 17:58+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,858 +14,858 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: .es5/views/confirm_reset_password.js:199
+#: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
 msgstr "ตั้งรหัสผ่านใหม่"
 
-#: .es5/views/confirm_reset_password.js:217
+#: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
 msgstr "ตั้งรหัสผ่านใหม่สำเร็จแล้ว ลงชื่อเข้าใช้เพื่อดำเนินการต่อ"
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:140
 msgid "Account deleted successfully"
 msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 
-#: .es5/views/inline_totp_setup.js:156
+#: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "ใช้รหัส %(code)s เพื่อตั้งค่าการยืนยันตัวบุคคลแบบสองขั้นตอนในแอพพลิเคชั่นที่รองรับ"
 
-#: .es5/views/permissions.js:41
+#: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (จำเป็น)"
 
-#: .es5/views/permissions.js:45
+#: .es5/views/permissions.js:34
 msgid "Email address"
 msgstr "ที่อยู่อีเมล"
 
-#: .es5/views/permissions.js:49
+#: .es5/views/permissions.js:38
 msgid "Display name"
 msgstr "ชื่อที่แสดงผล"
 
-#: .es5/views/permissions.js:52
+#: .es5/views/permissions.js:41
 msgid "Account picture"
 msgstr "รูปภาพบัญชี"
 
-#: .es5/views/ready.js:58
+#: .es5/views/ready.js:43
 msgid "Welcome back"
 msgstr "ยินดีต้อนรับกลับมา"
 
-#: .es5/views/ready.js:59
+#: .es5/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync จะทำงานต่อเร็ว ๆ นี้"
 
-#: .es5/views/ready.js:63 .es5/views/ready.js:68
+#: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
 msgstr "รหัสผ่านของคุณถูกตั้งใหม่แล้ว"
 
-#: .es5/views/ready.js:64 .es5/views/ready.js:69
+#: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "ตั้งค่าให้สมบูรณ์ โดยการป้อนรหัสผ่านใหม่บน Firefox ในอุปกรณ์อื่น ๆ"
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "ตอนนี้คณพร้อมแล้วที่จะเปลี่ยนแปล Firefox Account ของคุณ"
 
-#: .es5/views/ready.js:74
+#: .es5/views/ready.js:59
 msgid "Primary email confirmed"
 msgstr "ยืนยันอีเมลหลักแล้ว"
 
-#: .es5/views/ready.js:77
+#: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "การแจ้งเตือนบัญชีจะถูกส่งไปยัง %(secondaryEmailVerified)s ด้วย"
 
-#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
 msgid "Secondary email confirmed"
 msgstr "ยืนยันอีเมลสำรองแล้ว"
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "ขณะนี้คุณพร้อมใช้ %(serviceName)s แล้ว"
 
-#: .es5/views/ready.js:89
+#: .es5/views/ready.js:74
 msgid "Account confirmed"
 msgstr "ยืนยันบัญชีแล้ว"
 
-#: .es5/views/ready.js:94
+#: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
-#: .es5/views/reset_password.js:111
+#: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">ลงทะเบียน</a>"
 
-#: .es5/views/sign_up_password.js:87
+#: .es5/views/sign_up_password.js:62
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "อื่น ๆ"
 
-#: .es5/views/support.js:270
+#: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
-#: .es5/views/support.js:272
+#: .es5/views/support.js:233
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> สำหรับ <b>%(escapedSelectedProduct)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:53
+#: .es5/views/post_verify/verified.js:38
 msgid "Your sync data is protected"
 msgstr "ข้อมูลการซิงค์ของคุณได้รับการปกป้อง"
 
-#: .es5/views/post_verify/verified.js:54
+#: .es5/views/post_verify/verified.js:39
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "หากคุณสูญเสียการเข้าถึงบัญชีของคุณ คุณจะสามารถคืนค่าข้อมูลการซิงค์ของคุณได้"
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "เริ่มการเรียกดู"
 
-#: .es5/views/post_verify/verified.js:58
+#: .es5/views/post_verify/verified.js:43
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "การแจ้งเตือนบัญชีจะถูกส่งไปยัง %(secondaryEmail)s ด้วย"
 
-#: .es5/views/post_verify/verified.js:59
+#: .es5/views/post_verify/verified.js:44
 msgid "Continue to %(serviceName)s "
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+#: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "บัญชีของคุณถูกล็อกเพราะเหตุผลทางความปลอดภัย"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "ตั้งรหัสผ่านใหม่"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "none"
 msgstr "ไม่มี"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "ตรวจสอบล่าสุดเมื่อ: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
 msgstr "เปิด Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Hotmail"
 msgstr "เปิด Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:32
 msgid "Open Yahoo"
 msgstr "เปิด Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
 msgstr "เปิด Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:42
 msgid "Open Restmail"
 msgstr "เปิด Restmail"
 
-#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
+#: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
 msgid "Hide password"
 msgstr "ซ่อนรหัสผ่าน"
 
-#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "แสดงรหัสผ่าน"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:77
+#: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
 msgstr ""
 
-#: .es5/views/mixins/recovery-codes-mixin.js:142
+#: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
 msgstr "เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
 
-#: .es5/views/mixins/recovery-key-mixin.js:30
+#: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
 msgstr "คีย์การกู้คืนบัญชี Firefox"
 
-#: .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "ส่งอีเมลใหม่แล้ว เพิ่ม accounts@firefox.com ในรายชื่อติดต่อของคุณเพื่อให้แน่ใจว่ามีการส่งมอบอย่างราบรื่น"
 
-#: .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
 msgstr "คัดลอกแล้ว"
 
-#: .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
 msgstr "คัดลอกล้มเหลว โปรดคัดลอกด้วยตนเอง"
 
-#: .es5/views/mixins/save-options-mixin.js:78
+#: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
 msgstr "ดาวน์โหลดแล้ว"
 
-#: .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
 msgstr "พิมพ์แล้ว"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
+#: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "ยืนยันบัญชีสำเร็จแล้ว"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "payment & billing"
 msgstr "การชำระและการเรียกเก็บเงิน"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "account issues"
 msgstr "ปัญหาบัญชี"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "technical issues"
 msgstr "ปัญหาทางเทคนิค"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
 msgstr "ให้คำติชม / ขอคุณลักษณะ"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "not listed"
 msgstr "ไม่อยู่ในรายการ"
 
-#: .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
 msgstr "ที่คั่นหน้า"
 
-#: .es5/models/sync-engines.js:62
+#: .es5/models/sync-engines.js:50
 msgid "History"
 msgstr "ประวัติ"
 
-#: .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:54
 msgid "Passwords"
 msgstr "รหัสผ่าน"
 
-#: .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:58
 msgid "Add-ons"
 msgstr "ส่วนเสริม"
 
-#: .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
 msgstr "แท็บที่เปิดอยู่"
 
-#: .es5/models/sync-engines.js:78
+#: .es5/models/sync-engines.js:66
 msgid "Preferences"
 msgstr "การตั้งค่า"
 
-#: .es5/models/sync-engines.js:86
+#: .es5/models/sync-engines.js:74
 msgid "Addresses"
 msgstr "ที่อยู่"
 
-#: .es5/models/sync-engines.js:94
+#: .es5/models/sync-engines.js:82
 msgid "Credit Cards"
 msgstr "บัตรเครดิต"
 
-#: .es5/models/reliers/browser.js:88
+#: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
 
-#: .es5/models/auth_brokers/base.js:110
+#: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
 msgstr "อีเมลหลักได้รับการยืนยันสำเร็จแล้ว"
 
-#: .es5/models/auth_brokers/base.js:114
+#: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
 msgstr "อีเมลสำรองได้รับการยืนยันสำเร็จแล้ว"
 
-#: .es5/models/auth_brokers/web.js:38
+#: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "รีเซ็ตรหัสผ่านสำเร็จแล้ว"
 
-#: .es5/models/auth_brokers/web.js:45
+#: .es5/models/auth_brokers/web.js:36
 msgid "Account recovery enabled"
 msgstr "เปิดใช้งานการกู้คืนบัญชีแล้ว"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
 msgstr "ข้อผิดพลาดที่ไม่คาดคิด"
 
-#: .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
 msgstr "ลิงก์ที่คุณได้คลิกเพื่อตรวจสอบอีเมลของคุณหมดอายุแล้ว"
 
-#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "คุณได้พยายามหลายครั้งเกินไป ลองอีกครั้งในภายหลัง"
 
-#: .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "คุณได้พยายามหลายครั้งเกินไป ลองอีกครั้ง %(retryAfterLocalized)s"
 
-#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:35 .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
 msgstr "โทเคนไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:44
+#: .es5/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "เวลาประทับไม่ถูกต้องในการร้องขอลายเซ็น"
 
-#: .es5/lib/auth-errors.js:48
+#: .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "nonce ไม่ถูกต้องในการร้องขอลายเซ็น"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:174
 msgid "Account already exists"
 msgstr "มีบัญชีนี้อยู่แล้ว"
 
-#: .es5/lib/auth-errors.js:56
+#: .es5/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "บัญชีที่ไม่รู้จัก"
 
-#: .es5/lib/auth-errors.js:60
+#: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "อักษรตัวใหญ่ตัวเล็กในอีเมลไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:64
+#: .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
 msgstr "รหัสผ่านไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:68
+#: .es5/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "บัญชีที่ยังไม่ได้ตรวจสอบ"
 
-#: .es5/lib/auth-errors.js:72
+#: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "รหัสตรวจสอบไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:76
+#: .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON ในตัวการร้องขอไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:80
+#: .es5/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "พารามิเตอร์ไม่ถูกต้อง: %(param)s"
 
-#: .es5/lib/auth-errors.js:84
+#: .es5/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "ขาดพารามิเตอร์: %(param)s"
 
-#: .es5/lib/auth-errors.js:88
+#: .es5/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "การร้องขอลายเซ็นไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:92
+#: .es5/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "ส่วนหัว content-length ไม่มีอยู่"
 
-#: .es5/lib/auth-errors.js:96
+#: .es5/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "ตัวการร้องขอใหญ่เกินไป"
 
-#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+#: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "การร้องขอถูกปิดกั้นด้วยเหตุผลด้านความปลอดภัย"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
+#: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
 msgstr "รหัสยืนยันตัวตนผิดพลาด"
 
-#: .es5/lib/auth-errors.js:127
+#: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "เบอร์โทรศัพท์ผิดพลาด"
 
-#: .es5/lib/auth-errors.js:131
+#: .es5/lib/auth-errors.js:125
 msgid "Cannot send to this country"
 msgstr "ไม่สามารถส่งไปยังประเทศนี้ได้"
 
-#: .es5/lib/auth-errors.js:140
+#: .es5/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
 msgstr "ไม่สามารถส่งข้อความไปยังเบอร์นี้ได้"
 
-#: .es5/lib/auth-errors.js:144
+#: .es5/lib/auth-errors.js:138
 msgid "Your email was just returned"
 msgstr "อีเมลของคุณถูกตีกลับมา"
 
-#: .es5/lib/auth-errors.js:148
+#: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
 msgstr "อีเมลของคุณถูกตีกลับมา พิมพ์อีเมลผิด?"
 
-#: .es5/lib/auth-errors.js:152
+#: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
 msgstr "ไม่สามารถส่งอีเมล"
 
-#: .es5/lib/auth-errors.js:156
+#: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
 msgstr "อีเมลนี้ได้ถูกยืนยันโดยผู้ใช้คนอื่นแล้ว"
 
-#: .es5/lib/auth-errors.js:160
+#: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
 msgstr "วาระที่ไม่ได้รับการยืนยัน"
 
-#: .es5/lib/auth-errors.js:164
+#: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
 msgstr "อีเมลสำรองต้องแตกต่างจากอีเมลของบัญชีคุณ"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
 msgstr "คุณมีอีเมลสำรองสูงสุดถึงจำนวนสูงสุดที่อนุญาตแล้ว"
 
-#: .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
 msgstr "มีอีเมลนี้บนบัญชีของคุณแล้ว"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
 msgstr "ต้องการอีเมลหลักของบัญชีในการลงชื่อเข้าใช้"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
 msgstr "ที่อยู่ถูกใช้โดยบัญชีอื่น"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
 msgstr "ต้องการอีเมลหลักของบัญชีในการตั้งค่าใหม่"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
 msgstr "รหัสการลงชื่อเข้าใช้ไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:200
+#: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
 msgstr "ไม่สามารถเปลี่ยนอีเมลหลักเป็นอีเมลที่ไม่ได้รับการยืนยัน"
 
-#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "ไม่สามารถเปลี่ยนอีเมลหลักเป็นอีเมลที่ไม่เกี่ยวข้องกับบัญชีนี้"
 
-#: .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
 msgstr "ไม่สามารถใช้อีเมลนี้ในการเข้าสู่ระบบได้ในขณะนี้"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:210
 msgid "Failed to send email"
 msgstr "การส่งอีเมลล้มเหลว"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:214
 msgid "Valid code required"
 msgstr "ต้องการโค้ดที่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:218
 msgid "This verification code has expired"
 msgstr "รหัสยืนยันนี้หมดอายุแล้ว"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:222
 msgid "A TOTP token already exists for this account"
 msgstr "มีโทเค็น TOTP อยู่แล้วสำหรับบัญชีนี้"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:226
 msgid "TOTP token not found"
 msgstr "ไม่พบโทเค็น TOTP"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
 msgstr "คำสั่งอุปกรณ์ไม่พร้อมใช้งาน"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
 msgstr "ไม่พบคีย์การกู้คืนบัญชี"
 
-#: .es5/lib/auth-errors.js:248
+#: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
 msgstr "คีย์การกู้คืนบัญชีไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
 msgstr "คำขอนี้ต้องเปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนในบัญชีของคุณ"
 
-#: .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
 msgstr "เกิดการขัดข้องจากคำขอที่ขัดแย้งกัน โปรดลองอีกครั้ง"
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
 msgstr "ไม่ทราบลูกค้าสำหรับการสมัครสมาชิก"
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
 msgstr "ไม่ทราบการสมัครสมาชิก"
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
 msgstr "ไม่ทราบแผนสำหรับการสมัครสมาชิก"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:270
 msgid "Invalid payment token for subscription."
 msgstr "โทเค็นการชำระเงินสำหรับการสมัครสมาชิกไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:274
 msgid "Subscription has already been cancelled"
 msgstr "การสมัครรับถูกยกเลิกไปแล้ว"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:278
 msgid "Update was rejected, please try again"
 msgstr "การอัปเดตถูกปฏิเสธ โปรดลองอีกครั้ง"
 
-#: .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
 msgstr "เซิร์ฟเวอร์กำลังทำงานหนัก ลองอีกครั้งในเร็ว ๆ นี้"
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
 msgstr "คุณลักษณะนี้ไม่ได้เปิดใช้งาน"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
+#: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "ระบบไม่พร้อมใช้งาน ลองอีกครั้งหนึ่งเร็ว ๆ นี้"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
 msgstr "ไม่รองรับปลายทางนี้อีกต่อไป"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
 msgstr "ความพยายามในการเข้าสู่ระบบถูกยกเลิก"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:318
 msgid "Session expired. Sign in to continue."
 msgstr "วาระหมดอายุ ลงชื่อเข้าใหม่เพื่อดำเนินการต่อ"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
 msgstr "คุกกี้ยังถูกปิดใช้งาน"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:326
 msgid "Passwords do not match"
 msgstr "รหัสผ่านไม่ตรงกัน"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:330
 msgid "Working…"
 msgstr "กำลังทำงาน…"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:334
 msgid "Could not get Privacy Notice"
 msgstr "ไม่สามารถนำประกาศความเป็นส่วนตัวมาได้"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
 msgstr "ไม่สามารถนำเงื่อนไขการให้บริการมาได้"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
 msgstr "รหัสผ่านใหม่ของคุณต้องไม่เหมือนเดิม"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:346
 msgid "Must be at least 8 characters"
 msgstr "ต้องมีอย่างน้อย 8 อักขระ"
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:350
 msgid "Valid password required"
 msgstr "ต้องการรหัสผ่านที่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
+#: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
 msgstr "ต้องการอีเมลที่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
 msgstr "ไม่พบภาพที่ใช้งานได้"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:369
 msgid "Could not initialize camera"
 msgstr "ไม่สามารถเริ่มใช้กล้องได้"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:373
 msgid "Valid URL required"
 msgstr "ต้องการ URL ที่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "โปรแกรดป้อนที่อยู่อีเมลที่ถูกต้อง firefox.com ไม่มีบริการอีเมล"
 
-#: .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:404
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "บัญชี Firefox สามารถใส่ใน IFRAME ได้เฉพาะเว็บได้รับอนุญาตแล้ว"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
 msgstr "ลิงก์ตรวจสอบได้รับความเสียหาย"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
 msgstr "ภาพต้องมีขนาดอย่างน้อย 100x100 จุด"
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Firefox สำหรับ iOS จะลงทะเบียนได้เร็ว ๆ นี้"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:446
 msgid "You must enter your age to sign up"
 msgstr "คุณต้องป้อนอายุของคุณเพื่อลงทะเบียน"
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:450
 msgid "You must enter a valid age to sign up"
 msgstr "คุณต้องป้อนอายุที่ถูกต้องเพื่อลงทะเบียน"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:465
 msgid "Account no longer exists."
 msgstr "ไม่มีบัญชีนี้อีกแล้ว"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:469
 msgid "Invalid property in resume token: %(property)s"
 msgstr "คุณสมบัติของโทเคนสำหรับดำเนินการต่อไม่ถูกต้อง: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:473
 msgid "Missing property in resume token: %(property)s"
 msgstr "ขาดคุณสมบัติของโทเคนสำหรับดำเนินการต่อ: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:477
 msgid "Invalid data attribute: %(property)s"
 msgstr "แอตทริบิวต์ข้อมูลไม่ถูกต้อง: %(property)s"
 
-#: .es5/lib/auth-errors.js:492
+#: .es5/lib/auth-errors.js:481
 msgid "Missing data attribute: %(property)s"
 msgstr "ขาดแอตทริบิวต์ข้อมูล: %(property)s"
 
-#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ลิงก์สำหรับยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว"
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:498
 msgid "This is a required field"
 msgstr "ช่องนี้จำเป็นต้องกรอก"
 
-#: .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
 msgstr "ต้องการรหัสยืนยันตัวตน"
 
-#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "ลิงก์เสียหาย"
 
-#: .es5/lib/auth-errors.js:544
+#: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
 msgstr "ต้องการเบอร์โทรศัพท์"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
 msgstr "จำเป็นต้องใช้รหัสการยืนยันตัวบุคคลแบบสองขั้นตอน"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
 msgstr "รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:575
+#: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
 msgstr "ต้องใช้คีย์การกู้คืนบัญชี"
 
-#: .es5/lib/auth-errors.js:593
+#: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
 msgstr "โปรดใส่รหัสการตรวจสอบ"
 
-#: .es5/lib/auth-errors.js:605
+#: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
 msgstr "การเปลี่ยนเส้นทางไม่ถูกต้อง"
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:604
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "พิมพ์อีเมลผิด? %(domain)s ไม่มีบริการอีเมล"
 
-#: .es5/lib/auth-errors.js:621
+#: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้"
 
-#: .es5/lib/config-loader.js:117
+#: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
 msgstr "การกำหนดค่าขาดหาย"
 
-#: .es5/lib/config-loader.js:121
+#: .es5/lib/config-loader.js:105
 msgid "Invalid configuration"
 msgstr "การกำหนดค่าไม่ถูกต้อง"
 
-#: .es5/lib/email-domain-validator.js:40
+#: .es5/lib/email-domain-validator.js:51
 msgid "Mistyped email?"
 msgstr "พิมพ์อีเมลผิด?"
 
-#: .es5/lib/newsletters.js:25
+#: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
 msgstr ""
 
-#: .es5/lib/newsletters.js:29
+#: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "รับข่าวสารล่าสุดเกี่ยวกับ Mozilla และ Firefox"
 
-#: .es5/lib/newsletters.js:33
+#: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
 msgstr ""
 
-#: .es5/lib/newsletters.js:37
+#: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
 msgstr "อยู่บนโลกออนไลน์ได้อย่างปลอดภัยและฉลาดขึ้น"
 
-#: .es5/lib/newsletters.js:41
+#: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:34
+#: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
 msgstr "เครื่องลูกข่ายที่ไม่รู้จัก"
 
-#: .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:31
 msgid "Incorrect redirect_uri"
 msgstr "redirect_uri ไม่ถูกต้อง"
 
-#: .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:35
 msgid "Invalid assertion"
 msgstr "การตรวจสอบยืนยันไม่ถูกต้อง"
 
-#: .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:39
 msgid "Unknown code"
 msgstr "รหัสที่ไม่รู้จัก"
 
-#: .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:43
 msgid "Incorrect code"
 msgstr "รหัสไม่ถูกต้อง"
 
-#: .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:47
 msgid "Expired code"
 msgstr "รหัสหมดอายุ"
 
-#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "พารามิเตอร์ OAuth ไม่ถูกต้อง: %(param)s"
 
-#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+#: .es5/lib/oauth-errors.js:63 .es5/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "ไม่ได้รับอนุญาต"
 
-#: .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:67
 msgid "Forbidden"
 msgstr "ห้ามเข้าใช้"
 
-#: .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:83
 msgid "Expired token"
 msgstr "โทเคนหมดอายุแล้ว"
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:127
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "มีความผิดพลาดบางประการ โปรดปิดแท็บนี้และลองใหม่อีกครั้ง"
 
-#: .es5/lib/oauth-errors.js:153
+#: .es5/lib/oauth-errors.js:146
 msgid "no message"
 msgstr "ไม่มีข้อความ"
 
-#: .es5/lib/oauth-errors.js:157
+#: .es5/lib/oauth-errors.js:150
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "ขาดพารามิเตอร์ OAuth: %(param)s"
 
-#: .es5/lib/oauth-errors.js:181
+#: .es5/lib/oauth-errors.js:174
 msgid "User is not signed in"
 msgstr "ผู้ใช้ไม่ได้ลงชื่อเข้าใช้"
 
-#: .es5/lib/oauth-errors.js:186
+#: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
 msgstr "ผู้ใช้อื่นลงชื่อเข้าแล้ว"
 
-#: .es5/lib/oauth-errors.js:191
+#: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
 msgstr "ผู้ใช้หรือเซสชั่นไม่ได้รับการยืนยัน"
 
-#: .es5/lib/oauth-errors.js:196
+#: .es5/lib/oauth-errors.js:189
 msgid "Invalid id_token_hint"
 msgstr "id_token_hint ไม่ถูกต้อง"
 
-#: .es5/lib/pairing-channel-client-errors.js:44
+#: .es5/lib/pairing-channel-client-errors.js:38
 msgid "Invalid message from the remote device"
 msgstr "ข้อความจากอุปกรณ์ระยะไกลไม่ถูกต้อง"
 
-#: .es5/lib/pairing-channel-client-errors.js:52
+#: .es5/lib/pairing-channel-client-errors.js:46
 msgid "Error pairing to remote device"
 msgstr "มีข้อผิดพลาดในการจับคู่กับอุปกรณ์ระยะไกล"
 
-#: .es5/lib/pairing-channel-client-errors.js:56
+#: .es5/lib/pairing-channel-client-errors.js:50
 msgid "Connection to remote device closed, please try again"
 msgstr "การเชื่อมต่อไปยังอุปกรณ์ทางไกลถูกปิด โปรดลองอีกครั้ง"
 
-#: .es5/lib/profile-errors.js:29
+#: .es5/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "พารามิเตอร์ในตัวการร้องขอไม่ถูกต้อง: %(param)s"
 
-#: .es5/lib/profile-errors.js:33
+#: .es5/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "ผู้ให้บริการภาพที่ไม่ได้รองรับ"
 
-#: .es5/lib/profile-errors.js:37
+#: .es5/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "ข้อผิดพลาดในการประมวลผลภาพ"
 
-#: .es5/lib/profile-errors.js:49
+#: .es5/lib/profile-errors.js:45
 msgid "Invalid Token"
 msgstr "โทเคนไม่ถูกต้อง"
 
-#: .es5/lib/strings.js:25
+#: .es5/lib/strings.js:26
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
-#: .es5/lib/strings.js:31
+#: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">วิธีใช้</a>"
 
-#: .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "สมัครรับข่าวสารล่าสุดเกี่ยวกับ Mozilla และ Firefox"
 
-#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s %(country)s (โดยประมาณ)"
 
-#: .es5/lib/strings.js:37
+#: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (โดยประมาณ)"
 
-#: .es5/lib/strings.js:38
+#: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
 msgstr "ที่อยู่ IP: %(ip)s"
 
-#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+#: .es5/lib/strings.js:43 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้านี้เพื่อเริ่มซิงค์กับอุปกรณ์นี้:"
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "Password"
 msgstr "รหัสผ่าน"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "การดำเนินการต่อถือว่าคุณยอมรับ<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">เงื่อนไขการให้บริการ</a>และ<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ประกาศความเป็นส่วนตัว</a>"
@@ -1421,14 +1421,14 @@ msgstr "ถ้าอีเมลนั้นถูกต้อง <a %(escapedSu
 msgid "No longer own that email? Create a new account"
 msgstr "ไม่ได้เป็นเจ้าของอีเมลนั้นแล้ว? สร้างบัญชีใหม่"
 
-#: .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:12
 msgid ""
 "\n"
-"                By proceeding, you agree to:<br />\n"
-"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
-"com/en/privacy/\">Privacy Notice</a><br />\n"
-"                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"              "
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"          "
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1519,7 +1519,7 @@ msgstr "สร้างบัญชี"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
 "privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "

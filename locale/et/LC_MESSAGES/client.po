@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-30 06:15+0000\n"
+"POT-Creation-Date: 2023-07-13 20:34+0000\n"
 "PO-Revision-Date: 2022-03-25 05:30+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,858 +15,858 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1448538766.0\n"
 
-#: .es5/views/confirm_reset_password.js:199
+#: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
 msgstr "Parool on lähtestatud"
 
-#: .es5/views/confirm_reset_password.js:217
+#: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
 msgstr "Parool on lähtestatud. Jätkamiseks logi sisse."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Sisselogimine"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:140
 msgid "Account deleted successfully"
 msgstr "Konto on edukalt kustutatud"
 
-#: .es5/views/inline_totp_setup.js:156
+#: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Toetatud rakendustes kaheastmelise autentimise seadistamiseks kasuta koodi %(code)s."
 
-#: .es5/views/permissions.js:41
+#: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
 msgstr "%(permissionName)s (kohustuslik)"
 
-#: .es5/views/permissions.js:45
+#: .es5/views/permissions.js:34
 msgid "Email address"
 msgstr "E-posti aadress"
 
-#: .es5/views/permissions.js:49
+#: .es5/views/permissions.js:38
 msgid "Display name"
 msgstr "Kuvatav nimi"
 
-#: .es5/views/permissions.js:52
+#: .es5/views/permissions.js:41
 msgid "Account picture"
 msgstr "Konto pilt"
 
-#: .es5/views/ready.js:58
+#: .es5/views/ready.js:43
 msgid "Welcome back"
 msgstr "Tere tulemast tagasi"
 
-#: .es5/views/ready.js:59
+#: .es5/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync jätkab peagi"
 
-#: .es5/views/ready.js:63 .es5/views/ready.js:68
+#: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
 msgstr "Sinu parool on lähtestatud"
 
-#: .es5/views/ready.js:64 .es5/views/ready.js:69
+#: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Seadistamise lõpetamiseks sisesta uus parool oma teistes Firefoxi seadmetes."
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Nüüd võid Firefoxi kontos muudatusi teha."
 
-#: .es5/views/ready.js:74
+#: .es5/views/ready.js:59
 msgid "Primary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:77
+#: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Konto teavitusi saadetakse edaspidi ka aadressile %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:46
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Sisselogimine on kinnitatud"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s on kasutamiseks valmis."
 
-#: .es5/views/ready.js:89
+#: .es5/views/ready.js:74
 msgid "Account confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:94
+#: .es5/views/ready.js:79
 msgid "Connected"
 msgstr "Ühendatud"
 
-#: .es5/views/reset_password.js:111
+#: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Tundmatu konto. <a href=\"/signup\">Registreeru</a>"
 
-#: .es5/views/sign_up_password.js:87
+#: .es5/views/sign_up_password.js:62
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot pole enam olemas. Kas soovid selle uuesti luua?"
 
-#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+#: .es5/views/support.js:230 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Muu"
 
-#: .es5/views/support.js:270
+#: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Täname, et võtsid ühendust Mozilla toega teemal <b>%(escapedLowercaseTopic)s</b>. Võtame sinuga e-posti teel ühendust esimesel võimalusel."
 
-#: .es5/views/support.js:272
+#: .es5/views/support.js:233
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Täname, et võtsid ühendust Mozilla toega teemal <b>%(escapedLowercaseTopic)s</b> teenuse <b>%(escapedSelectedProduct)s</b> kohta. Võtame sinuga e-posti teel ühendust esimesel võimalusel."
 
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
 msgid "Close"
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:53
+#: .es5/views/post_verify/verified.js:38
 msgid "Your sync data is protected"
 msgstr "Sinu sünkroniseeritud andmed on kaitstud"
 
-#: .es5/views/post_verify/verified.js:54
+#: .es5/views/post_verify/verified.js:39
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Kui kaotad ligipääsu oma kontole, siis saad oma sünkroniseeritud andmed taastada."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+#: .es5/views/post_verify/verified.js:40 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Alusta veebilehitsemist"
 
-#: .es5/views/post_verify/verified.js:58
+#: .es5/views/post_verify/verified.js:43
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
 msgstr "Konto teavitusi saadetakse edaspidi ka aadressile %(secondaryEmail)s."
 
-#: .es5/views/post_verify/verified.js:59
+#: .es5/views/post_verify/verified.js:44
 msgid "Continue to %(serviceName)s "
 msgstr "Jätka teenusega %(serviceName)s"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+#: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
 msgstr "Sinu konto on turvakaalutlustel lukustatud"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Parooli lähtestamine"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:38
+#: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "none"
 msgstr "puudub"
 
-#: .es5/views/mixins/last-checked-time-mixin.js:44
+#: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
 msgstr "Viimati kontrollitud: %(lastCheckTime)s"
 
-#: .es5/views/mixins/open-webmail-mixin.js:25
+#: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
 msgstr "Ava Gmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:30
+#: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Hotmail"
 msgstr "Ava Hotmail"
 
-#: .es5/views/mixins/open-webmail-mixin.js:35
+#: .es5/views/mixins/open-webmail-mixin.js:32
 msgid "Open Yahoo"
 msgstr "Ava Yahoo"
 
-#: .es5/views/mixins/open-webmail-mixin.js:40
+#: .es5/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
 msgstr "Ava Outlook"
 
-#: .es5/views/mixins/open-webmail-mixin.js:45
+#: .es5/views/mixins/open-webmail-mixin.js:42
 msgid "Open Restmail"
 msgstr "Ava Restmail"
 
-#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
+#: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
 msgid "Hide password"
 msgstr "Peida parool"
 
-#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Kuva parool"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:77
+#: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
 msgstr ""
 
-#: .es5/views/mixins/recovery-codes-mixin.js:142
+#: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
 msgstr "Kaheastmeline autentimine lubati"
 
-#: .es5/views/mixins/recovery-key-mixin.js:30
+#: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
 msgstr ""
 
-#: .es5/views/mixins/resend-mixin.js:53
+#: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "E-kiri saadeti uuesti. Lisa accounts@firefox.com oma kontaktide sekka, et kirjad jõuaks kindlamini kohale."
 
-#: .es5/views/mixins/save-options-mixin.js:59
+#: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
 msgstr "Kopeeritud"
 
-#: .es5/views/mixins/save-options-mixin.js:61
+#: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
 msgstr "Kopeerimine ebaõnnestus. Palun tee seda käsitsi."
 
-#: .es5/views/mixins/save-options-mixin.js:78
+#: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
 msgstr "Alla laaditud"
 
-#: .es5/views/mixins/save-options-mixin.js:90
+#: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
 msgstr "Prinditud"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
+#: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr ""
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "payment & billing"
 msgstr "maksed ja arveldamine"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "account issues"
 msgstr "konto probleemid"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "technical issues"
 msgstr "tehnilised probleemid"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
 msgstr "anna tagasisidet / taotle uut funktsionaalsust"
 
-#: .es5/models/support-form.js:25
+#: .es5/models/support-form.js:23
 msgid "not listed"
 msgstr "pole loetletud"
 
-#: .es5/models/sync-engines.js:58
+#: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
-#: .es5/models/sync-engines.js:62
+#: .es5/models/sync-engines.js:50
 msgid "History"
 msgstr "Ajalugu"
 
-#: .es5/models/sync-engines.js:66
+#: .es5/models/sync-engines.js:54
 msgid "Passwords"
 msgstr "Paroolid"
 
-#: .es5/models/sync-engines.js:70
+#: .es5/models/sync-engines.js:58
 msgid "Add-ons"
 msgstr "Lisad"
 
-#: .es5/models/sync-engines.js:74
+#: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
 msgstr "Avatud kaardid"
 
-#: .es5/models/sync-engines.js:78
+#: .es5/models/sync-engines.js:66
 msgid "Preferences"
 msgstr "Eelistused"
 
-#: .es5/models/sync-engines.js:86
+#: .es5/models/sync-engines.js:74
 msgid "Addresses"
 msgstr "Aadressid"
 
-#: .es5/models/sync-engines.js:94
+#: .es5/models/sync-engines.js:82
 msgid "Credit Cards"
 msgstr "Krediitkaardid"
 
-#: .es5/models/reliers/browser.js:88
+#: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
 
-#: .es5/models/auth_brokers/base.js:110
+#: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
 msgstr "Peamise e-posti aadressi kinnitamine õnnestus"
 
-#: .es5/models/auth_brokers/base.js:114
+#: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
 msgstr "Teise e-posti aadress kinnitamine õnnestus"
 
-#: .es5/models/auth_brokers/web.js:38
+#: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
 msgstr "Parooli lähtestamine õnnestus"
 
-#: .es5/models/auth_brokers/web.js:45
+#: .es5/models/auth_brokers/web.js:36
 msgid "Account recovery enabled"
 msgstr "Konto taastamine lubati"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
 msgstr "Ootamatu viga"
 
-#: .es5/lib/auth-errors.js:27
+#: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
 msgstr "Link, millel klõpsasid oma e-posti aadressi kinnitamiseks, on aegunud."
 
-#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+#: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
 msgstr "Proovisid liiga palju kordi. Proovi hiljem uuesti."
 
-#: .es5/lib/auth-errors.js:32
+#: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
 msgstr "Proovisid liiga palju kordi. Proovi uuesti %(retryAfterLocalized)s."
 
-#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+#: .es5/lib/auth-errors.js:35 .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
 msgstr "Vigane turvatõend"
 
-#: .es5/lib/auth-errors.js:44
+#: .es5/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Vigane ajatempel päringu signatuuris"
 
-#: .es5/lib/auth-errors.js:48
+#: .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Vigane nonss päringu signatuuris"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:174
 msgid "Account already exists"
 msgstr "Konto on juba olemas"
 
-#: .es5/lib/auth-errors.js:56
+#: .es5/lib/auth-errors.js:51
 msgid "Unknown account"
 msgstr "Tundmatu konto"
 
-#: .es5/lib/auth-errors.js:60
+#: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Vigane e-posti aadress"
 
-#: .es5/lib/auth-errors.js:64
+#: .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
 msgstr "Vigane parool"
 
-#: .es5/lib/auth-errors.js:68
+#: .es5/lib/auth-errors.js:63
 msgid "Unverified account"
 msgstr "Kinnitamata konto"
 
-#: .es5/lib/auth-errors.js:72
+#: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
 msgstr "Vigane kinnituskood"
 
-#: .es5/lib/auth-errors.js:76
+#: .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "Vigane JSON päringu kehas"
 
-#: .es5/lib/auth-errors.js:80
+#: .es5/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
 msgstr "Vigane parameeter: %(param)s"
 
-#: .es5/lib/auth-errors.js:84
+#: .es5/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
 msgstr "Puuduv parameeter: %(param)s"
 
-#: .es5/lib/auth-errors.js:88
+#: .es5/lib/auth-errors.js:83
 msgid "Invalid request signature"
 msgstr "Vigane päringu signatuur"
 
-#: .es5/lib/auth-errors.js:92
+#: .es5/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Puudub päis content-length"
 
-#: .es5/lib/auth-errors.js:96
+#: .es5/lib/auth-errors.js:91
 msgid "Request body too large"
 msgstr "Päringu keha liiga suur"
 
-#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+#: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "Päring blokiti turvalisuse tagamiseks"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:517
+#: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
 msgstr "Vigane autoriseerimiskood"
 
-#: .es5/lib/auth-errors.js:127
+#: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
 msgstr "Vigane telefoninumber"
 
-#: .es5/lib/auth-errors.js:131
+#: .es5/lib/auth-errors.js:125
 msgid "Cannot send to this country"
 msgstr "Sellesse riiki pole saatmine võimalik"
 
-#: .es5/lib/auth-errors.js:140
+#: .es5/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
 msgstr "Sõnumi saatmine sellele numbrile pole võimalik"
 
-#: .es5/lib/auth-errors.js:144
+#: .es5/lib/auth-errors.js:138
 msgid "Your email was just returned"
 msgstr "Sinu kiri tagastati"
 
-#: .es5/lib/auth-errors.js:148
+#: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
 msgstr "Sinu kiri tagastati. Ehk eksisid aadressiga?"
 
-#: .es5/lib/auth-errors.js:152
+#: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
 msgstr "Kirja kohale toimetamine ei õnnestunud."
 
-#: .es5/lib/auth-errors.js:156
+#: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
 msgstr "Selle e-posti aadressi kinnitas juba teine kasutaja"
 
-#: .es5/lib/auth-errors.js:160
+#: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
 msgstr "Kinnitamata seanss"
 
-#: .es5/lib/auth-errors.js:164
+#: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
 msgstr "Teine e-posti aadress peab erinema konto peamisest e-posti aadressist."
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
 msgstr "Oled jõudnud maksimaalselt lubatud teiseste e-posti aadresside arvuni"
 
-#: .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
 msgstr "See e-posti aadress on juba sinu kontoga seotud"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
 msgstr "Sisselogimiseks on vajalik konto peamine e-posti aadress."
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
 msgstr "Aadress on kasutusel teises kontos"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
 msgstr "Lähtestamiseks on vajalik konto peamine e-posti aadress."
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
 msgstr "Vigane sisselogimiskood"
 
-#: .es5/lib/auth-errors.js:200
+#: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
 msgstr "Peamiseks e-posti aadressiks ei saa määrata kinnitamata aadressi"
 
-#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Peamiseks e-posti aadressiks ei saa määrata selle kontoga sidumata aadressi"
 
-#: .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
 msgstr "Seda e-posti aadressi hetkel sisselogimiseks kasutada ei saa"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:210
 msgid "Failed to send email"
 msgstr "Kirja saatmine ebaõnnestus"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:214
 msgid "Valid code required"
 msgstr "Kood peab olema korrektne"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:218
 msgid "This verification code has expired"
 msgstr "See kinnituskood on aegunud"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:222
 msgid "A TOTP token already exists for this account"
 msgstr "Selle konto jaoks on TOTP-turvatõend juba olemas"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:226
 msgid "TOTP token not found"
 msgstr "TOTP-turvatõendit ei leitud"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
 msgstr "Seadme käsk pole saadaval"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:248
+#: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
 msgstr "See taotlus eeldab, et sinu kontol on lubatud kaheastmeline autentimine."
 
-#: .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Vastuolulise taotluse tõttu ebaõnnestus, palun proovi uuesti."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
 msgstr "Tundmatu klient tellimuse esitamiseks."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
 msgstr "Tundmatu tellimus."
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
 msgstr "Tundmatu plaan tellimuse esitamiseks."
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:270
 msgid "Invalid payment token for subscription."
 msgstr "Kehtetu maksevahend tellimuse esitamiseks."
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:274
 msgid "Subscription has already been cancelled"
 msgstr "Tellimus on juba tühistatud"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:278
 msgid "Update was rejected, please try again"
 msgstr "Uuendamine lükati tagasi, palun proovi uuesti"
 
-#: .es5/lib/auth-errors.js:288
+#: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:497
+#: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
 msgstr "Server on hõivatud, proovi mõne aja pärast uuesti"
 
-#: .es5/lib/auth-errors.js:296
+#: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
 msgstr "Funktsioon pole lubatud"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:316 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
+#: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
 msgstr "Süsteem pole kättesaadav, proovi mõne aja pärast uuesti"
 
-#: .es5/lib/auth-errors.js:308
+#: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
 msgstr "See lõpppunkt pole enam toetatud"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
 msgstr "Sisselogimine katkestati"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:318
 msgid "Session expired. Sign in to continue."
 msgstr "Seanss aegus. Jätkamiseks logi sisse."
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
 msgstr "Küpsised on endiselt keelatud"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:326
 msgid "Passwords do not match"
 msgstr "Paroolid ei ühti"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:330
 msgid "Working…"
 msgstr "Töötlemine…"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:334
 msgid "Could not get Privacy Notice"
 msgstr "Privaatsusreeglite hankimine ebaõnnestus"
 
-#: .es5/lib/auth-errors.js:344
+#: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
 msgstr "Teenuste tingimuste hankimine ebaõnnestus"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
 msgstr "Vana ja uus parool peavad erinema"
 
-#: .es5/lib/auth-errors.js:352
+#: .es5/lib/auth-errors.js:346
 msgid "Must be at least 8 characters"
 msgstr "Peab olema vähemalt 8 tähemärgi pikkune"
 
-#: .es5/lib/auth-errors.js:356
+#: .es5/lib/auth-errors.js:350
 msgid "Valid password required"
 msgstr "Parool peab olema korrektne"
 
-#: .es5/lib/auth-errors.js:360 .es5/lib/auth-errors.js:400 .es5/lib/auth-errors.js:416
+#: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
 msgstr "E-posti aadress peab olema korrektne"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
 msgstr "Kasutatavat pilti ei leitud"
 
-#: .es5/lib/auth-errors.js:376
+#: .es5/lib/auth-errors.js:369
 msgid "Could not initialize camera"
 msgstr "Kaamera kasutamine polnud võimalik"
 
-#: .es5/lib/auth-errors.js:380
+#: .es5/lib/auth-errors.js:373
 msgid "Valid URL required"
 msgstr "URL peab olema korrektne"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Sisesta korrektne e-posti address. firefox.com ei paku e-posti teenust."
 
-#: .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:404
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts'i kuvamine IFRAME's on võimalik vaid tunnustatud saitidel"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
 msgstr "Kinnitamise link on vigane"
 
-#: .es5/lib/auth-errors.js:440
+#: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Pildi mõõtmed peavad olema vähemalt 100x100px."
 
-#: .es5/lib/auth-errors.js:444
+#: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Registreerumine Firefox iOS'is algab varsti"
 
-#: .es5/lib/auth-errors.js:456
+#: .es5/lib/auth-errors.js:446
 msgid "You must enter your age to sign up"
 msgstr "Registreerumiseks pead sisestama enda vanuse."
 
-#: .es5/lib/auth-errors.js:460
+#: .es5/lib/auth-errors.js:450
 msgid "You must enter a valid age to sign up"
 msgstr "Registreerumiseks pead sisestama korrektse vanuse"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:465
 msgid "Account no longer exists."
 msgstr "Kontot pole enam olemas."
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:469
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Invalid property in resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:473
 msgid "Missing property in resume token: %(property)s"
 msgstr "Missing property in resume token: %(property)s"
 
-#: .es5/lib/auth-errors.js:488
+#: .es5/lib/auth-errors.js:477
 msgid "Invalid data attribute: %(property)s"
 msgstr "Andmeatribuut %(property)s on vigane"
 
-#: .es5/lib/auth-errors.js:492
+#: .es5/lib/auth-errors.js:481
 msgid "Missing data attribute: %(property)s"
 msgstr "Andmeatribuut %(property)s puudub"
 
-#: .es5/lib/auth-errors.js:505 .es5/lib/auth-errors.js:559 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "See kinnituslink on juba kasutatud ning seda saab kasutada vaid ühekordselt."
 
-#: .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:498
 msgid "This is a required field"
 msgstr "See on kohustuslik väli"
 
-#: .es5/lib/auth-errors.js:513
+#: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
 msgstr "Vajalik on autoriseerimiskood"
 
-#: .es5/lib/auth-errors.js:521 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Link on vigane"
 
-#: .es5/lib/auth-errors.js:544
+#: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
 msgstr "Telefoninumber on nõutav"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
 msgstr "Kaheastmeline autentimiskood on nõutav"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
 msgstr "Vigane kaheastmelise autentimise kood"
 
-#: .es5/lib/auth-errors.js:571
+#: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:575
+#: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:589
+#: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:593
+#: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
 msgstr "Palun sisesta kinnituskood"
 
-#: .es5/lib/auth-errors.js:605
+#: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
 msgstr "Vigane ümbersuunamine"
 
-#: .es5/lib/auth-errors.js:617
+#: .es5/lib/auth-errors.js:604
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Kirjutasid e-posti aadressi valesti? %(domain)s ei paku e-posti teenust."
 
-#: .es5/lib/auth-errors.js:621
+#: .es5/lib/auth-errors.js:608
 msgid "The image file size is too large to be uploaded."
 msgstr "Pildifaili suurus on üleslaadimiseks liiga suur."
 
-#: .es5/lib/config-loader.js:117
+#: .es5/lib/config-loader.js:101
 msgid "Missing configuration"
 msgstr "Puuduv seadistus"
 
-#: .es5/lib/config-loader.js:121
+#: .es5/lib/config-loader.js:105
 msgid "Invalid configuration"
 msgstr "Vigane seadistus"
 
-#: .es5/lib/email-domain-validator.js:40
+#: .es5/lib/email-domain-validator.js:51
 msgid "Mistyped email?"
 msgstr "Eksisid e-posti aadressiga?"
 
-#: .es5/lib/newsletters.js:25
+#: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
 msgstr ""
 
-#: .es5/lib/newsletters.js:29
+#: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Hangi viimased Mozilla ja Firefoxi uudised"
 
-#: .es5/lib/newsletters.js:33
+#: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
 msgstr ""
 
-#: .es5/lib/newsletters.js:37
+#: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
 msgstr "Ole võrgus turvaliselt ja targalt"
 
-#: .es5/lib/newsletters.js:41
+#: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
 msgstr ""
 
-#: .es5/lib/oauth-errors.js:34
+#: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
 msgstr "Tundmatu klient"
 
-#: .es5/lib/oauth-errors.js:38
+#: .es5/lib/oauth-errors.js:31
 msgid "Incorrect redirect_uri"
 msgstr "Vigane redirect_uri"
 
-#: .es5/lib/oauth-errors.js:42
+#: .es5/lib/oauth-errors.js:35
 msgid "Invalid assertion"
 msgstr "Vigane tõend"
 
-#: .es5/lib/oauth-errors.js:46
+#: .es5/lib/oauth-errors.js:39
 msgid "Unknown code"
 msgstr "Tundmatu kood"
 
-#: .es5/lib/oauth-errors.js:50
+#: .es5/lib/oauth-errors.js:43
 msgid "Incorrect code"
 msgstr "Vale kood"
 
-#: .es5/lib/oauth-errors.js:54
+#: .es5/lib/oauth-errors.js:47
 msgid "Expired code"
 msgstr "Aegunud kood"
 
-#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+#: .es5/lib/oauth-errors.js:55 .es5/lib/oauth-errors.js:77
 msgid "Invalid OAuth parameter: %(param)s"
 msgstr "Vigane OAuth parameeter: %(param)s"
 
-#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+#: .es5/lib/oauth-errors.js:63 .es5/lib/profile-errors.js:21
 msgid "Unauthorized"
 msgstr "Autoriseerimata"
 
-#: .es5/lib/oauth-errors.js:74
+#: .es5/lib/oauth-errors.js:67
 msgid "Forbidden"
 msgstr "Keelatud"
 
-#: .es5/lib/oauth-errors.js:89
+#: .es5/lib/oauth-errors.js:83
 msgid "Expired token"
 msgstr "Aegunud turvatõend"
 
-#: .es5/lib/oauth-errors.js:133
+#: .es5/lib/oauth-errors.js:127
 msgid "Something went wrong. Please close this tab and try again."
 msgstr "Midagi läks valesti. Palun sulge see kaart ja proovi uuesti."
 
-#: .es5/lib/oauth-errors.js:153
+#: .es5/lib/oauth-errors.js:146
 msgid "no message"
 msgstr "sõnum puudub"
 
-#: .es5/lib/oauth-errors.js:157
+#: .es5/lib/oauth-errors.js:150
 msgid "Missing OAuth parameter: %(param)s"
 msgstr "Puuduv OAuth parameeter: %(param)s"
 
-#: .es5/lib/oauth-errors.js:181
+#: .es5/lib/oauth-errors.js:174
 msgid "User is not signed in"
 msgstr "Kasutaja pole sisse logitud"
 
-#: .es5/lib/oauth-errors.js:186
+#: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
 msgstr "Teine kasutaja on sisse logitud"
 
-#: .es5/lib/oauth-errors.js:191
+#: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
 msgstr "Kinnitamata kasutaja või seanss"
 
-#: .es5/lib/oauth-errors.js:196
+#: .es5/lib/oauth-errors.js:189
 msgid "Invalid id_token_hint"
 msgstr "Vigane id_token_hint"
 
-#: .es5/lib/pairing-channel-client-errors.js:44
+#: .es5/lib/pairing-channel-client-errors.js:38
 msgid "Invalid message from the remote device"
 msgstr "Kaugseadmelt võeti vastu vigane sõnum"
 
-#: .es5/lib/pairing-channel-client-errors.js:52
+#: .es5/lib/pairing-channel-client-errors.js:46
 msgid "Error pairing to remote device"
 msgstr "Kaugseadmega paaristamisel esines viga"
 
-#: .es5/lib/pairing-channel-client-errors.js:56
+#: .es5/lib/pairing-channel-client-errors.js:50
 msgid "Connection to remote device closed, please try again"
 msgstr "Kaugseadmega loodud ühendus suleti, palun proovi uuesti"
 
-#: .es5/lib/profile-errors.js:29
+#: .es5/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
 msgstr "Vigane parameeter päringu kehas: %(param)s"
 
-#: .es5/lib/profile-errors.js:33
+#: .es5/lib/profile-errors.js:29
 msgid "Unsupported image provider"
 msgstr "Toetamata piltide pakkuja"
 
-#: .es5/lib/profile-errors.js:37
+#: .es5/lib/profile-errors.js:33
 msgid "Image processing error"
 msgstr "Pildi töötlemisel tekkis viga"
 
-#: .es5/lib/profile-errors.js:49
+#: .es5/lib/profile-errors.js:45
 msgid "Invalid Token"
 msgstr "Vigane turvatõend"
 
-#: .es5/lib/strings.js:25
+#: .es5/lib/strings.js:26
 msgid ""
 "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
 "(%(serviceUri)s)."
 msgstr ""
 "Jätkates nõustud <a id=\"service-tos\" href=\"%(termsUri)s\">Teenusetingimuste</a> ja teenuse %(serviceName)s (%(serviceUri)s) <a id=\"service-pp\" href=\"%(privacyUri)s\">Privaatsuspoliitikaga</a>."
 
-#: .es5/lib/strings.js:31
+#: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
 msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Abi</a>"
 
-#: .es5/lib/strings.js:34
+#: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Hangi viimased Mozilla ja Firefoxi uudised."
 
-#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (umbkaudne)"
 
-#: .es5/lib/strings.js:37
+#: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (umbkaudne)"
 
-#: .es5/lib/strings.js:38
+#: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
 msgstr "IP-aadress: %(ip)s"
 
-#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+#: .es5/lib/strings.js:43 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Turvalisuse lisamiseks kinnita palun see sisselogimine selle seadmega sünkimise alustamiseks:"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 msgid "Password"
 msgstr "Parool"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
@@ -1420,14 +1420,14 @@ msgstr "Kui see on korrektne aadress, siis <a %(escapedSupportLinkAttrs)s>võta 
 msgid "No longer own that email? Create a new account"
 msgstr "See e-posti aadress ei kuulu enam sulle? Loo uus konto."
 
-#: .es5/templates/sign_in_password.mustache:11
+#: .es5/templates/sign_in_password.mustache:12
 msgid ""
 "\n"
-"                By proceeding, you agree to:<br />\n"
-"                Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket."
-"com/en/privacy/\">Privacy Notice</a><br />\n"
-"                Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"              "
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"          "
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1518,7 +1518,7 @@ msgstr "Loo konto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
 "privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
