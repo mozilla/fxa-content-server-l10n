@@ -1217,27 +1217,87 @@ account-recovery-reset-password-redirecting = Renviament
 
 complete-reset-pw-header = Crear in nov pled-clav
 complete-reset-password-warning-message-2 = <span>Avis:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da { -product-pocket } n'èn betg pertutgadas.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Definì il pled-clav
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Perstgisa, igl ha dà in problem cun definir tes pled-clav
+complete-reset-password-recovery-key-error = Perstgisa, igl ha dà in problem durant controllar sche ti hajas ina clav da recuperaziun dal conto. <hasRecoveryKeyErrorLink>Reinizialisescha tes pled-clav cun tia clav da recuperaziun dal conto.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = Tramess l'e-mail da reinizialisaziun
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Clicca entaifer la proxima ura sin la colliaziun tramessa via e-mail a { $email } per crear in nov pled-clav.
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Reinizialisescha il pled-clav per <span>cuntinuar cun ils parameters dal conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Reinizialisescha il pled-clav per <span>cuntinuar cun { $serviceName }</span>
+reset-password-warning-message-2 = <span>Avis:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da { -product-pocket } n'èn betg pertutgadas.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail
+reset-password-button = Lantschar la reinizialisaziun
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mail obligatoric
+reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
+reset-password-with-recovery-key-verified-generate-new-key = Generar ina nova clav da recuperaziun dal conto
+reset-password-with-recovery-key-verified-continue-to-account = Vinavant tar mes conto
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Errur:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validaziun da l'annunzia…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Confermar questa annunzia
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Controllescha tes e-mails per chattar la colliaziun per confermar l'annunzia tramessa a { $email }
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Endatescha il pled-clav da <span>tes { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Cuntinuar cun <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Cuntinuar cun { $serviceName }
+signin-subheader-without-logo-default = Cuntinuar cun ils parameters dal conto
+signin-button = S'annunziar
+signin-header = S'annunziar
+signin-use-a-different-account-link = Utilisar in auter conto
+signin-forgot-password-link = Emblidà il pled-clav?
+signin-bounced-header = Deplorablamain è tes conto bloccà.
+# $email (string) - The user's email.
+signin-bounced-message = L'e-mail da conferma tramess a { $email } è vegnì returnà e nus avain bloccà tes conto per proteger tias datas da { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Sche questa adressa dad e-mail è valida, <linkExternal>ans fa a savair</linkExternal> e nus pudain ta gidar a debloccar tes conto.
+signin-bounced-create-new-account = Quai n'è betg pli ti'adressa dad e-mail? Creescha in nov conto
+back = Enavos
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Endatescha il code d'autentificaziun da backup <span>per cuntinuar cun ils parameters dal conto</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
