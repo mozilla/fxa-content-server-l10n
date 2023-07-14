@@ -1049,6 +1049,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Scannescha il code d'autent
 inline-totp-setup-no-qr-default-service-header-2 = Endatescha manualmain il code per <span>cuntinuar cun ils parameters dal conto</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Tippa questa clav secreta en tia app d'autentificaziun. <toggleToQRButton>U scannar enstagl il code QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scannescha il code QR en tia app d'autentificaziun ed endatescha lura il code d'autentificaziun furnì. <toggleToManualModeButton>Na vai betg da scannar il code?</toggleToManualModeButton>
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
