@@ -612,6 +612,7 @@ recent-activity-title = Πρόσφατη δραστηριότητα λογαρι
 recent-activity-account-create = Ο λογαριασμός δημιουργήθηκε
 recent-activity-account-disable = Ο λογαριασμός απενεργοποιήθηκε
 recent-activity-account-enable = Ο λογαριασμός ενεργοποιήθηκε
+recent-activity-account-login = Ο λογαριασμός ξεκίνησε τη διαδικασία σύνδεσης
 
 ## $date (Date) - Date recent activity was created
 
