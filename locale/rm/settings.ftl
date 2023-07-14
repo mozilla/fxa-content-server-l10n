@@ -1298,24 +1298,73 @@ back = Enavos
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Endatescha il code d'autentificaziun da backup <span>per cuntinuar cun ils parameters dal conto</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Endatescha il code d'autentificaziun da backup <span>per cuntinuar cun { $serviceName }</span>
+signin-recovery-code-instruction = Endatescha per plaschair in code d'autentificaziun da backup che ti has obtegnì durant la configuraziun da l'autentificaziun en dus pass.
+signin-recovery-code-input-label = Endatescha il code d'autentificaziun da backup da 10 cifras
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confermar
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Enavos
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Es ti sclaus da tes conto?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Code d'autentificaziun da backup necessari
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Grazia per tia vigilanza
+signin-reported-message = Noss team è vegnì infurmà. Quests rapports ans gidan d'ans defender encunter attatgaders.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Endatescha il code da conferma <span>per tes { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
+signin-token-code-input-label-v2 = Endatescha il code da 6 cifras
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confermar
+signin-token-code-code-expired = Code scadì?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Trametter in nov code via e-mail.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Code da conferma necessari
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Endatescha il code d'autentificaziun <span>per cuntinuar cun ils parameters dal conto</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Endatescha il code d'autentificaziun <span>per cuntinuar cun { $serviceName }</span>
+signin-totp-code-instruction-v2 = Avra tia applicaziun d'autentificaziun ed endatescha il code d'autentificaziun furnì.
+signin-totp-code-input-label-v2 = Endatescha il code da 6 cifras
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Confermar
+signin-totp-code-other-account-link = Utilisar in auter conto
+signin-totp-code-recovery-code-link = Difficultads cun endatar il code?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Code d'autentificaziun necessari
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Conferma tes conto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Controllescha tes e-mails per chattar la colliaziun da conferma, tramessa a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1323,7 +1372,38 @@ signin-recovery-code-heading-w-default-service = Endatescha il code d'autentific
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Endatescha il code da conferma
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Endatescha il code da conferma <span>per tes { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
+confirm-signup-code-input-label = Endatescha il code da 6 cifras
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confermar
+confirm-signup-code-code-expired = Code scadì?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Trametter in nov code via e-mail.
+confirm-signup-code-success-alert = Confermà cun success il conto
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Il code da conferma è necessari
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Definescha tes pled-clav
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Pertge stoss jau crear quest conto? <LinkExternal>Ve a savair pertge</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Midar l'adressa dad e-mail
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Quants onns has ti?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Ti stos inditgar tia vegliadetgna per ta registrar
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Pertge dumandain nus?
