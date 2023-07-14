@@ -458,6 +458,16 @@ flow-recovery-key-hint-unsafe-char-error = Il tip na dastga betg cuntegnair cara
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Creescha ina clav da recuperaziun dal conto en cas che ti emblidas tes pled-clav
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Mida tia clav da recuperaziun dal conto
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Nus criptain las datas da navigaziun (pleds-clav, segnapaginas etc.). Quai è excellent per la protecziun da datas, ma ti pos perder tias datas sche ti emblidas tes pled-clav.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Perquai èsi uschè impurtant da crear ina clav da recuperaziun dal conto – uschia pos ti l'utilisar per recuperar tias datas.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Cumenzar
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Interrumper
 
 # HeaderLockup component
 
@@ -612,6 +622,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Cuntinuar
 delete-account-password-input =
     .label = Endatar il pled-clav
+pocket-delete-notice = Sche ti abuneschas Pocket Premium, fa la segira che ti <a>annulleschas tes abunament</a> avant che ti stizzas tes conto.
 delete-account-cancel-button = Interrumper
 delete-account-delete-button-2 = Stizzar
 
@@ -644,6 +655,7 @@ recent-activity-emails-clearBounces = Il conto ha eliminà e-mails da nunretscha
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -807,6 +819,8 @@ rk-header-1 = Clav da recuperaziun dal conto
 rk-enabled = Activà
 rk-not-set = Betg definì
 rk-action-create = Crear
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Midar
 rk-action-remove = Allontanar
 rk-key-removed-2 = Stizzà la clav da recuperaziun dal conto
 rk-cannot-remove-key = Impussibel dad allontanar tia clav da recuperaziun dal conto.
@@ -818,6 +832,8 @@ rk-remove-modal-content-1 =
     Sche ti reinizialiseschas tes pled-clav, na vegns ti betg pli a pudair
     utilisar tia clav da recuperaziun dal conto per acceder a tias datas. Questa acziun na po betg vegnir revocada.
 rk-remove-error-2 = I n'è betg reussì dad allontanar tia clav da recuperaziun dal conto
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Stizzar la clav da recuperaziun dal conto
 
 ## Secondary email sub-section on main Settings page
 
@@ -914,6 +930,9 @@ auth-error-102 = Conto nunenconuschent
 auth-error-103 = Pled-clav nuncorrect
 auth-error-105-2 = Code da conferma nunvalid
 auth-error-110 = Token nunvalid
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Ti has empruvà memia savens. Emprova per plaschair pli tard anc ina giada.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -953,19 +972,64 @@ connect-another-device-signin-link = S'annunziar
 connect-another-device-still-adding-devices-message = Ti vuls anc agiuntar auters apparats? T'annunzia en { -brand-firefox } sin in auter apparat per cumplettar la configuraziun.
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = T'annunzia en { -brand-firefox } sin in auter apparat per cumplettar l'installaziun
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vuls ti prender cun tai tes tabs, tes segnapaginas e tes pleds-clav sin in auter apparat?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Colliar in auter apparat
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Betg ussa
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = T'annunzia en { -brand-firefox } per Android per finir la configuraziun
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = T'annunzia en { -brand-firefox } per iOS per finir la configuraziun
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Igl è necessari dad activar l'arcun local e cookies
+cookies-disabled-enable-prompt = Activescha p.pl. cookies e l'arcun local en tes navigatur per acceder al { -product-firefox-accounts }. Quai activescha funcziuns sco quella che ta reconuscha en ina nova sesida.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Empruvar anc ina giada
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Ulteriuras infurmaziuns
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun ils parameters dal conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Memorisescha ils codes d'autentificaziun da backup per <span>cuntinuar cun { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Tegna en salv quests codes a diever unic en in lieu segir. Els servan en cas che ti n'has betg access a tes apparat mobil.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Interrumper
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Cuntinuar
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Confermar
+inline-recovery-back-link = Enavos
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Code d'autentificaziun da backup
+inline-recovery-confirmation-description = Per t'atschertar che ti possias acceder a tes conto era en cas che ti perdessas tes apparat, endatescha per plaschair in da tes codes d'autentificaziun da backup memorisads.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun ils parameters dal conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Interrumper la configuraziun
+inline-totp-setup-continue-button = Cuntinuar
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
