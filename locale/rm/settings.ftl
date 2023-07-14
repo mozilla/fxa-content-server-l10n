@@ -416,16 +416,37 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crear ina nova clav da 
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Creà ina clav da recuperaziun dal conto – telechargia ussa la clav e la tegna en salv
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Questa clav ta permetta da recuperar tias datas sche ti emblidas tes pled-clav. Telechargia ussa la clav e la tegna en salv en in lieu che ti tegnas endament – ti na vegns betg a pudair returnar tar questa pagina.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Cuntinuar senza telechargiar
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Agiuntescha in tip che ta gida da chattar tia clav
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Quest tip duess gidar a ta regurdar nua che ti tegnas en salv tia clav da recuperaziun dal conto. Nus pudain ta mussar l'avis durant il process da reinizialisaziun dal pled-clav per recuperar tias datas.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Endatar in tip (facultativ)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finir
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lieus per tegnair en salv la clav:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat segirà
 flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
 flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Creà la clav da recuperaziun dal conto
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Il tip na dastga betg surpassar 254 caracters.
