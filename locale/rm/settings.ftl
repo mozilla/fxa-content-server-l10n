@@ -1051,68 +1051,172 @@ inline-totp-setup-no-qr-default-service-header-2 = Endatescha manualmain il code
 inline-totp-setup-enter-key-or-use-qr-instructions = Tippa questa clav secreta en tia app d'autentificaziun. <toggleToQRButton>U scannar enstagl il code QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Scannescha il code QR en tia app d'autentificaziun ed endatescha lura il code d'autentificaziun furnì. <toggleToManualModeButton>Na vai betg da scannar il code?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Uschespert ch'il process è terminà, vegnan generads codes d'autentificaziun per inserir.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Code d'autentificaziun
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Infurmaziuns giuridicas
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Cundiziuns d'utilisaziun
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Infurmaziuns davart la protecziun da datas
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Infurmaziuns davart la protecziun da datas
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Cundiziuns d'utilisaziun
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Es ti gist t'annunzià en { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Gea, approvar l'apparat
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Sche ti n'has betg fatg quai, <link>mida tes pled-clav</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Apparat connectà
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ti sincroniseschas ussa cun: { $deviceFamily } sin { $deviceOS }
+pair-auth-complete-sync-benefits-text = Ti pos ussa acceder a tes tabs averts, als pleds-clav ed als segnapaginas sin tut tes apparats.
+pair-auth-complete-see-tabs-button = Mussar ils tabs dals apparats sincronisads
+pair-auth-complete-manage-devices-link = Administrar ils apparats
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Endatescha il code d'autentificaziun per <span>cuntinuar cun ils parameters dal conto</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Endatescha il code d'autentificaziun per <span>cuntinuar cun { $serviceName }</span>
+auth-totp-instruction = Avra tia app d'autentificaziun ed endatescha il code d'autentificaziun furnì.
+auth-totp-input-label = Endatescha il code da 6 caracters
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confermar
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Code d'autentificaziun obligatoric
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = I dovra ussa ina approvaziun <span>sin tes auter apparat</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Associaziun betg reussida
+pair-failure-message = Il process d'installaziun è interrut.
 
 ## Pair index page
 
+pair-sync-header = Sincronisescha { -brand-firefox } sin tes telefon u tablet
+pair-cad-header = Connectescha { -brand-firefox } sin in auter apparat
+pair-already-have-firefox-paragraph = Has ti gia { -brand-firefox } sin in telefon u tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronisescha tes apparat
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = u telechargia Firefox
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scannescha per telechargiar { -brand-firefox } per apparats mobils u ta trametta ina <linkExternal>colliaziun da telechargiada</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Betg ussa
+pair-take-your-data-message = Prenda tes tabs, segnapaginas e pleds-clav cun tai – dapertut là nua che ti utiliseschas { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Emprims pass
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Code QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Apparat connectà
+pair-success-message-2 = Associà cun success.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confermar l'associaziun <small>per %(email)s</small>
+pair-supp-allow-confirm-button = Confermar l'associaziun
+pair-supp-allow-cancel-link = Interrumper
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = I dovra ussa ina approvaziun <span>sin tes auter apparat</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Associar cun agid dad ina app
+pair-unsupported-message = Has ti utilisà la camera dal sistem? Ti stos associar cun agid dad ina app da { -brand-firefox }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Spetga per plaschair, ti vegns renvià a l'applicaziun autorisada.
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Reinizialisescha il pled-clav cun la clav da recuperaziun dal conto per <span>cuntinuar cun ils parameters dal conto</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Reinizialisescha il pled-clav cun la clav da recuperaziun dal conto per <span>cuntinuar cun { $serviceName }</span>
+account-recovery-confirm-key-instructions = Endatescha per plaschair la clav da recuperaziun a diever unic da tes conto che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes { -product-firefox-account }.
+account-recovery-confirm-key-warning-message = <span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav e n'has betg tia clav da recuperaziun dal conto memorisada, vegnan tschertas datas stizzadas (inclus las datas memorisadas sin il server sco la cronologia ed ils segnapaginas).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Endatescha la clav da recuperaziun dal conto
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Confermar la clav da recuperaziun dal conto
+# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
+account-recovery-confirm-key-error-general = Clav da recuperaziun dal conto nunvalida
+# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
+account-recovery-confirm-key-empty-input-error = Clav da recuperaziun dal conto necessaria
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = Ti n'has nagina clav da recuperaziun dal conto?
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Crear in nov pled-clav
+account-restored-success-message = Ti has restaurà cun succes tes conto cun agid da tia clav da recuperaziun dal conto. Creescha in nov pled-clav per segirar tias datas ed al tegna en salv en in lieu segir.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Definì il pled-clav
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Errur nunspetgada
+account-recovery-reset-password-redirecting = Renviament
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Crear in nov pled-clav
+complete-reset-password-warning-message-2 = <span>Avis:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da { -product-pocket } n'èn betg pertutgadas.
 
 ## Confirm Reset Password Component
 
