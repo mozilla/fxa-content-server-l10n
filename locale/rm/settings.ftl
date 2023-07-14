@@ -1030,6 +1030,25 @@ inline-recovery-confirmation-header = Conferma il code d'autentificaziun da back
 
 inline-totp-setup-cancel-setup-button = Interrumper la configuraziun
 inline-totp-setup-continue-button = Cuntinuar
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Augmenta il nivel da segirezza da tes conto cun codes d'autentificaziun dad ina da <authenticationAppsLink>questas apps d'autentificaziun</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Activescha l'autentificaziun en dus pass per <span>cuntinuar cun ils parameters dal conto</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activescha l'autentificaziun en dus pass per <span>cuntinuar cun { $serviceName }</span>
+inline-totp-setup-ready-button = Pront
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scannescha il code d'autentificaziun per <span>cuntinuar cun { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Endatescha manualmain il code per <span>cuntinuar cun { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scannescha il code d'autentificaziun per <span>cuntinuar cun ils parameters dal conto</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Endatescha manualmain il code per <span>cuntinuar cun ils parameters dal conto</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Tippa questa clav secreta en tia app d'autentificaziun. <toggleToQRButton>U scannar enstagl il code QR?</toggleToQRButton>
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
