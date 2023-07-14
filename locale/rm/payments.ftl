@@ -89,6 +89,8 @@ payment-confirmation-thanks-subheading = In e-mail da conferma è vegnì tramess
 payment-confirmation-thanks-subheading-account-exists = Ti retschaivas in e-mail sin { $email } cun instrucziuns per endrizzar tes conto, sco era tias datas da pajament.
 payment-confirmation-order-heading = Detagls da l'empustaziun
 payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Infurmaziuns da pajament
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -437,6 +439,10 @@ sub-change-failed = Midada dal plan betg reussida
 sub-update-copy =
     Tes plan vegn immediat midà ed i vegn debità ina summa
     adattada per il rest dal ciclus da facturaziun. A partir dals { $startingDate }
+    vegn debità l'entir import.
+sub-update-acknowledgment =
+    Tes plan vegn immediat midà ed i vegn debità oz ina summa proporziunala
+    per il rest da tes ciclus da facturaziun. A partir dals { $startingDate }
     vegn debità l'entir import.
 sub-change-submit = Confermar la midada
 sub-update-current-plan-label = Plan actual

@@ -22,31 +22,31 @@ link-expired-resent-code-error-message = Insatge è ì mal. I n'è betg reussì 
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v2 = Telechargiar tia clav da recuperaziun dal conto
-    .title = Telechargiar
+recovery-key-download-button-v3 = Telechargiar e cuntinuar
+    .title = Telechargiar e cuntinuar
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = MEMORISESCHA TIA CLAV DA RECUPERAZIUN DAL CONTO
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = Memorisescha questa datoteca che cuntegna tia clav da recuperaziun dal conto en in lieu segir che ti tegnas endament. U che ti pos la stampar e tegnair en salv ina copia fisica. Tia clav da recuperaziun dal conto po ta gidar da recuperar tias datas da { -brand-firefox } sche ti emblidas tes pled-clav.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 clav:  { $recoveryKeyValue }
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Clav:
 # { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
+recovery-key-file-user-email-v2 = * { -product-firefox-account(capitalization: "uppercase") } : { $email }
 # Date when the account recovery key was created and this file was downloaded
 # "Key" here refers to the term "account recovery key"
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Clav generada: { $downloadDate }
+recovery-key-file-download-date-v2 = * Clav generada: { $downloadDate }
 # Link to get more information and support
 # { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
 # The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Vegnir a savair dapli davart tia clav da recuperaziun dal conto: { $supportURL }
+recovery-key-file-support-v2 = * Vegnir a savair dapli davart tia clav da recuperaziun dal conto: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -403,47 +403,29 @@ flow-container-back = Enavos
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
-flow-recovery-key-confirm-pwd-heading = Endatescha anc ina giada tes pled-clav per cumenzar
+flow-recovery-key-confirm-pwd-heading-v2 = Endatescha anc ina giada tes pled-clav per motivs da segirezza
 flow-recovery-key-confirm-pwd-input-label = Endatescha tes pled-clav
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Crear ina clav da recuperaziun dal conto
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crear ina nova clav da recuperaziun dal conto
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading = La clav da recuperaziun dal conto è vegnida generada – la metta en salv en in lieu che ti tegnas endament
-# The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info = Questa clav vegn a ta gidar a recuperar tias datas sche ti emblidas tes pled-clav.
-# This heading is shown above a list of options for storing the account recovery key
-flow-recovery-key-download-storage-ideas-heading = In pèr ideas per tegnair en salv tia clav da recuperaziun dal conto:
-flow-recovery-key-download-storage-ideas-folder = In ordinatur sin tes apparat dal qual ti ta regordas
-flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
-flow-recovery-key-download-storage-ideas-print = Stampar e salvar ina copia fisica
-flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Enavant
+flow-recovery-key-download-heading-v2 = Creà ina clav da recuperaziun dal conto – telechargia ussa la clav e la tegna en salv
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
-# The header of the fourth step in the account recovery key creation flow
-# "Storage hint" can be any information the user finds useful to help them remember where they saved or stored their account recovery key.
-flow-recovery-key-hint-header = Grondius! Agiuntescha ussa in tip per il lieu d'archivaziun
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message = Agiuntescha in tip che circumscriva nua che ti tegnas en salv tia clav da recuperaziun dal conto. Nus pudain ta mussar l'avis durant il process da reinizialisaziun dal pled-clav per recuperar tias datas.
-# The label for the text input where the user types in the storage hint they want to save.
-# The storage hint is optional, and users can leave this blank.
-flow-recovery-key-hint-input =
-    .label = Endatescha in tip per il lieu d'archivaziun (facultativ)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finir
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow without saving a hint.
-flow-recovery-key-success-alert-no-hint = Activà la clav da recuperaziun dal conto.
-# Success message displayed in alert bar after the user has completed the account recovery key creation flow and saved a hint.
-flow-recovery-key-success-alert-with-hint = Activà la clav da recuperaziun dal conto e memorisà il tip per il lieu d'archivaziun.
+flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
+flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Il tip na dastga betg surpassar 254 caracters.
@@ -455,10 +437,6 @@ flow-recovery-key-hint-unsafe-char-error = Il tip na dastga betg cuntegnair cara
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Creescha ina clav da recuperaziun dal conto en cas che ti emblidas tes pled-clav
-# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point = Nus criptain las datas da navigaziun (pleds-clav, segnapaginas etc.). Quai è perfetg per la protecziun da datas, i vul dentant dir che nus na pudain betg recuperar tias datas sche ti emblidas tes pled-clav.
-# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point = Perquai èsi uschè impurtant che ti creeschias ina clav da recuperaziun dal conto – uschia pos ti utilisar tia clav per recuperar tias datas.
 
 # HeaderLockup component
 
@@ -643,6 +621,9 @@ recent-activity-account-login = Annunzia iniziada dal conto
 recent-activity-account-reset = Reinizialisaziun dal pled-clav iniziada dal conto
 recent-activity-emails-clearBounces = Il conto ha eliminà e-mails da nunretschavida
 
+## $date (Date) - Date recent activity was created
+
+
 # Account recovery key setup page
 
 recovery-key-cancel-button = Interrumper
@@ -806,7 +787,6 @@ rk-enabled = Activà
 rk-not-set = Betg definì
 rk-action-create = Crear
 rk-action-remove = Allontanar
-rk-cannot-refresh-1 = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun dal conto.
 rk-key-removed-2 = Stizzà la clav da recuperaziun dal conto
 rk-cannot-remove-key = Impussibel dad allontanar tia clav da recuperaziun dal conto.
 rk-refresh-key-1 = Actualisar la clav da recuperaziun dal conto
@@ -816,7 +796,6 @@ rk-remove-modal-heading-1 = Allontanar la clav da recuperaziun dal conto?
 rk-remove-modal-content-1 =
     Sche ti reinizialiseschas tes pled-clav, na vegns ti betg pli a pudair
     utilisar tia clav da recuperaziun dal conto per acceder a tias datas. Questa acziun na po betg vegnir revocada.
-rk-refresh-error-1 = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun dal conto.
 rk-remove-error-2 = I n'è betg reussì dad allontanar tia clav da recuperaziun dal conto
 
 ## Secondary email sub-section on main Settings page
