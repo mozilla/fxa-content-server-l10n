@@ -31,6 +31,47 @@ project-brand = Firefox Accounts
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
 
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+## Brands used in fxa-auth-server and fxa-settings.
+##
+## Unless otherwise indicated, brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
+
+# "accounts" can and should be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
+-product-firefox-accounts = Firefox accounts
+
+# "account" should be localized and lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Firefox account
+
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+-product-mdn-plus = MDN Plus
+-product-firefox-cloud = Firefox Cloud
+-product-firefox-monitor = Firefox Monitor
+-product-firefox-relay = Firefox Relay
+-product-pocket = Pocket
+
+-brand-paypal = PayPal
+-app-store = App Store
+-brand-google = Google
+-google-play = Google Play
+-brand-apple = Apple
+
 ## Component - AppLayout
 
 settings-home = Account Home
@@ -69,7 +110,10 @@ new-user-enter-email =
   .label = Enter your email
 new-user-confirm-email =
   .label = Confirm your email
-new-user-subscribe-product-updates = I’d like to receive product updates from { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = I’d like to receive product news and updates from { -brand-mozilla }
+new-user-subscribe-product-updates-snp = I’d like to receive security and privacy news and updates from { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = I’d like to receive product news and updates from { -product-mozilla-hubs } and { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = I’d like to receive product news and updates from { -product-mdn-plus } and { -brand-mozilla }
 new-user-subscribe-product-assurance = We only use your email to create your account. We will never sell it to a third party.
 new-user-email-validate = Email is not valid
 new-user-email-validate-confirm = Emails do not match
