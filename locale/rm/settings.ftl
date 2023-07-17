@@ -1156,7 +1156,7 @@ pair-success-message-2 = Associà cun success.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Confermar l'associaziun <small>per %(email)s</small>
+pair-supp-allow-heading-text = Confermar l'associaziun <span>per { $email }</span>
 pair-supp-allow-confirm-button = Confermar l'associaziun
 pair-supp-allow-cancel-link = Interrumper
 
