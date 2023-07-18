@@ -216,10 +216,16 @@ confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo 
 ## PasswordStrengthBalloon component
 
 password-strength-balloon-heading = Gronidłowe pominanja
+password-strength-balloon-min-length = Nanejmjenjej 8 znamuškow
+password-strength-balloon-not-email = Nic waša e-mailowa adresa
+password-strength-balloon-not-common = Nic cesto wužywane gronidło
+password-strength-balloon-stay-safe-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo dalšne pokaze aby <LinkExternal>mócne gronidła napórał</LinkExternal>.
 
 ## Ready component
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
+ready-complete-set-up-instruction = Zapódajśo swójo nowe gronidło na swójich drugich rědach { -brand-firefox }, aby zarědowanje dokóńcył.
+ready-start-browsing-button = Pśeglědowanje zachopiś
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -228,6 +234,8 @@ ready-use-service = Móžośo něnto { $serviceName } wužywaś
 ready-account-ready = Wašo konto jo gótowo!
 ready-continue = Dalej
 sign-in-complete-header = Pśizjawjenje jo se wobkšuśiło
+sign-up-complete-header = Konto jo wobkšuśone
+primary-email-verified-header = Primarna e-mailowa adresa jo wokšuśona
 
 ## Alert Bar
 
@@ -247,6 +255,10 @@ avatar-default-avatar =
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za wašu priwatnosć online wójujo.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
 bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
@@ -292,6 +304,10 @@ cs-disconnect-sync-heading = Ze Sync źěliś
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Waše pśeglědowańske daty na <span>{ $device }</span> wóstanu, 
+    ale njebuźo wěcej z wašym kontom synchronizěrowaś.
+cs-disconnect-sync-reason-3 = Co jo głowna pśicyna za źělenje wót <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -319,6 +335,7 @@ cs-disconnect-suspicious-advice-content =
     změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
     adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
 cs-sign-out-button = Wótzjawiś
+cs-recent-activity = Nejnowša kontowa aktiwita
 
 ##
 
@@ -351,19 +368,42 @@ flow-container-back = Slědk
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Zapódajśo swójo gronidło z pśicynow wěstoty znowego
+flow-recovery-key-confirm-pwd-input-label = Zapódajśo swójo gronidło
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Kontowy wótnowjeński kluc napóraś
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wótnowjeński kluc napóraś
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Dokóńcyś
+flow-recovery-key-download-storage-ideas-folder-v2 = Zarědnik na wěstem rěźe
+flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
+flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kontowy wótnowjeński kluc jo se napórał
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Změńśo swój kontowy wótnowjeński kluc
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Prědne kšace
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Pśetergnuś
 
 # HeaderLockup component
 
@@ -388,6 +428,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Zacyniś
 modal-cancel-button = Pśetergnuś
+modal-default-confirm-button = Wobkšuśiś
 
 ## Modal Verify Session
 
