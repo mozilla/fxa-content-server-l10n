@@ -408,7 +408,7 @@ flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
-flow-recovery-key-info-header-change-key = Změńće swój kontowy wobnowjenski kod
+flow-recovery-key-info-header-change-key = Změńće swój kontowy wobnowjenski kluč
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Prěnje kroki
 # Link to cancel account recovery key change and return to settings
