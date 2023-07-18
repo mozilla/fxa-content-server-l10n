@@ -70,7 +70,6 @@ new-user-enter-email =
     .label = Zapódajśo swóju e-mailowu adresu
 new-user-confirm-email =
     .label = Wašu e-mailowu adresu wobkšuśiś
-new-user-subscribe-product-updates = Ja by rady dostał produktowe aktualizacije wót { -brand-name-firefox }
 new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 new-user-email-validate = E-mailowa adresa njejo płaśiwa
 new-user-email-validate-confirm = E-mailowej adresy njejstej jadnakej.
@@ -89,6 +88,8 @@ payment-confirmation-thanks-subheading = Wobkšuśeńska mejlka jo se pósłała
 payment-confirmation-thanks-subheading-account-exists = Dostanjośo mejlku na { $email } z instrukcijami za konfigurěrowanje wašogo konta ako teke waše płaśeńske drobnostki.
 payment-confirmation-order-heading = Skazańske drobnostki
 payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Płaśeńske informacije
 payment-confirmation-amount = { $amount } na { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -131,6 +132,7 @@ payment-confirmation-download-button = Dalej k ześěgnjenjeju
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
 
 ## Component - PaymentErrorView
 
@@ -172,7 +174,6 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Pšawidła priwatnosći { -bran
 payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Trjebny
 
 ## Component - PaymentProcessing
 
@@ -181,6 +182,10 @@ payment-processing-message = Pšosym cakajśo, mjaztym až wašo płaśenje pśe
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
+
+## Component - PayPalButton
+
+pay-with-heading-paypal = Z { -brand-name-paypal } płaśiś
 
 ## Component - PlanDetails
 
@@ -282,9 +287,9 @@ new-user-submit = Něnto aboněrowaś
 
 sub-update-payment-title = Płaśeńske informacije
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = Abo płaśćo z kórtu
 pay-with-heading-card-only = Z kórtu płaśiś
 
 ## Routes - Product - IapRoadblock

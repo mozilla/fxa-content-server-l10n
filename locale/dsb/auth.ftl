@@ -104,10 +104,15 @@ payment-plan-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Płaśeńska metoda:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = Kórta { $cardType } se na { $lastFour } kóńcy
+credit-card-ending-in = Kórta { $cardName } se na { $lastFour } kóńcy
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Njeznata kórta, kótaraž se na { $lastFour } kóńcy
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Numer zliceńki: <b>{ $invoiceNumber }</b>
@@ -508,6 +513,7 @@ subscriptionUpgrade-upgrade-info = Sćo wuspěšnje aktualizěrował wót { $pro
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } pśez { $productPaymentCycleNew } změnijo. Pótom teke musyśo jadnorazowe pśipisanje { $paymentProrated } płaśiś, aby se wušy płaśonk za zbytk { $productPaymentCycleOld } wótbłyšćował.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
