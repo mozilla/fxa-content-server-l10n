@@ -2,18 +2,84 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner component
 ## Used to show success, error or info messages
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+banner-dismiss-button =
+    .aria-label = Zacyniś
+# This message is displayed in a success banner
+# $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
+link-expired-resent-link-success-message = Mejlka jo se znowego pósłała. Pśidajśo swójim kontaktam { $accountsEmail }, aby dodaśe bźez problemow zawěsćił.
+
+## ButtonDownloadRecoveryKey
+## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Ześěgnuś a pókšacowaś
+    .title = Ześěgnuś a pókšacowaś
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = SKŁADUJŚO SWÓJ KONTOWY WÓTNOWJEŃSKI KLUC
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Kluc:
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Kluc jo se napórał: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktiska wěda do wašogo postowego kašćika dójźo. Registrěrujśo se za wěcej:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Zasajźćo se za strowy internet
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Buźćo wěsćejšy a z wěcej wědu online
+
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-## Confirm page
-## Users will see this page if a verification link was sent to their email address
-## when setting up a new account
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Wubjeŕśo, což cośo synchronizěrowaś:
+choose-what-to-sync-option-bookmarks =
+    .label = Cytańske znamjenja
+choose-what-to-sync-option-history =
+    .label = Historija
+choose-what-to-sync-option-passwords =
+    .label = Gronidła
+choose-what-to-sync-option-addons =
+    .label = Dodanki
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Wócynjone rejtariki
+choose-what-to-sync-option-prefs =
+    .label = Nastajenja
+choose-what-to-sync-option-addresses =
+    .label = Adrese
+choose-what-to-sync-option-creditcards =
+    .label = Kreditowe kórty
+
+## ConfirmWithLink
+## Users will see this page if a confirmation link was sent to their email address
+
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Ani w postowem dochaźe ani w spamowem zarědniku? Znowego pósłaś
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Slědk
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -28,15 +94,68 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (pówoblicone)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (pówoblicone)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (pówoblicone)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (pówoblicone)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Njeznate městno
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } na { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adresa: { $ipAddress }
+
 ## FormPasswordWithBalloons
+
+signup-new-password-label =
+    .label = Gronidło
+signup-confirm-password-label =
+    .label = Gronidło wóspjetowaś
+signup-submit-button = Konto załožyś
+form-reset-password-with-balloon-new-password =
+    .label = Nowe gronidło
+form-reset-password-with-balloon-confirm-password =
+    .label = Gronidło znowego zapódaś
+form-reset-password-with-balloon-submit-button = Gronidło slědk stajiś
+form-reset-password-with-balloon-match-error = Gronidle njejstej jadnakej
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Toś to pólo jo trjebne
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontowy wótnowjeński kluc { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Kody za zawěsćeńsku awtentifikaciju { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Ześěgnuś
+    .aria-label = Ześěgnuś
+get-data-trio-copy-2 =
+    .title = Kopěrowaś
+    .aria-label = Kopěrowaś
+get-data-trio-print-2 =
+    .title = Śišćaś
+    .aria-label = Śišćaś
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+signin-recovery-code-image-description =
+    .aria-label = Dokument, kótaryž schowany tekst wopśimujo.
+signin-totp-code-image-label =
+    .aria-label = Rěd ze schowanym 6-městnowym kodom.
 
 ## Input Password
 
@@ -44,24 +163,37 @@ input-password-hide = Gronidła schowaś
 input-password-show = Gronidło pokazaś
 input-password-hide-aria = Gronidło na wobrazowce schowaś.
 input-password-show-aria = Gronidło ako lutny tekst pokazaś. Wašo gronidło buźo widobne na wobrazowce.
-
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Slědk
 
 ## LinkDamaged component
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Wótkaz k slědkstajanjeju gronidła wobškóźony
-
-# The user followed a "reset password" link received by email.
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Wobkšuśeński wótkaz jo wobškóźony
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći raz.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Nowy wótkaz dostaś
+
+## LinkExpiredResetPassword component
+
 # The user followed a password reset link, but that link is expired and no longer valid
 reset-pwd-link-expired-header = Wótkaz k slědkstajanjeju gronidła pśepadnjony
 reset-pwd-link-expired-message = Wótkaz, na kótaryž sćo kliknuł, aby swójo gronidło slědk stajił, jo pśepadnuł.
-# Button to request a new link to reset password if the previous link was expired
-reset-pwd-resend-link = Nowy wótkaz dostaś
+
+## LinkExpiredSignin component
+
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Wobkšuśeński wótkaz jo pśepadnuł
+signin-link-expired-message = Wótkaz, na kótaryž sćo kliknuł, aby swóju e-mailowu adresu pśeglědał, jo pśepadnuł.
 
 ## LinkRememberPassword component
 
@@ -71,18 +203,28 @@ remember-pw-link = Dopominaśo se na swójo  gronidło? Pśizjawśo se
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wokšuśona
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
+confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+
 ## PasswordStrengthBalloon component
+
+password-strength-balloon-heading = Gronidłowe pominanja
 
 ## Ready component
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
-# This is a string that tells the user they can use whatever service prompted them to reset their password
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Móžośo něnto { $serviceName } wužywaś
+# Message shown when the account is ready but the user is not signed in
 ready-account-ready = Wašo konto jo gótowo!
 ready-continue = Dalej
 sign-in-complete-header = Pśizjawjenje jo se wobkšuśiło
@@ -100,14 +242,13 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za wašu priwatnosć online wójujo.
-
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
-
 bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
 
 ## Connect another device promo
@@ -116,7 +257,6 @@ connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefo
 connect-another-find-fx-mobile =
     Namakajśo { -brand-firefox } w { -google-play } a { -app-store } abo
     <br /><linkExternal>sćelśo ześěgnjeński wótkaz na swój rěd.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -125,6 +265,7 @@ connect-another-app-store-image-2 =
     .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -139,13 +280,10 @@ cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wót { $service } wótzjawjony
-
 cs-refresh-button =
     .title = Zwězane słužby aktualizěrowaś
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Felujuce abo dwójne elementy?
-
 cs-disconnect-sync-heading = Ze Sync źěliś
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -153,6 +291,7 @@ cs-disconnect-sync-heading = Ze Sync źěliś
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -179,10 +318,10 @@ cs-disconnect-suspicious-advice-content =
     suspektny, wy dejał swójo gronidło { -product-firefox-account } w swójich nastajenjach
     změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
     adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
-
 cs-sign-out-button = Wótzjawiś
 
 ##
+
 
 ## Data collection section
 
@@ -202,12 +341,29 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wótzjawiś
-
 drop-down-menu-sign-out-error-2 = Bóžko jo pśi wótzjawjanju problem nastał
 
 ## Flow Container
 
 flow-container-back = Slědk
+
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
 
 # HeaderLockup component
 
@@ -228,7 +384,7 @@ la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
 la-unlink-content-3 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót swójich zwězanych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
 nav-linked-accounts = { la-heading }
 
-## Modal
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Zacyniś
 modal-cancel-button = Pśetergnuś
@@ -297,11 +453,11 @@ avatar-page-image-too-large-error-2 = Wobrazowa dataja jo pśewjelika za nagraś
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Gronidło změniś
-
 pw-8-chars = Nanejmjenjej 8 znamuškow
 pw-not-email = Nic waša e-mailowa adresa
 pw-change-must-match = Nowe gronidło wobkšuśenjeju wótpowědujo
@@ -311,73 +467,67 @@ pw-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo da
 pw-change-cancel-button = Pśetergnuś
 pw-change-save-button = Składowaś
 pw-change-forgot-password-link = Sćo gronidło zabył?
-
 pw-change-current-password =
     .label = Aktualne gronidło zapódaś
 pw-change-new-password =
     .label = Nowe gronidło zapódaś
 pw-change-confirm-password =
     .label = Nowe gronidło wobkšuśiś
-
 pw-change-success-alert-2 = Gronidło jo se zaktualizěrowało
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Gronidło napóraś
-
 pw-create-success-alert-2 = Gronidło jo se nastajiło
 pw-create-error-2 = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Konto wulašowaś
-
 delete-account-step-1-2 = Kšac 1 z 2
 delete-account-step-2-2 = Kšac 2 z 2
-
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
-
 delete-account-chk-box-2 =
     .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
 delete-account-chk-box-3 =
     .label = Waše skłaźone informacije njedaju se snaź wótnowiś, gaž toś tu e-mailowu adresu znowego aktiwěrujośo
 delete-account-chk-box-4 =
     .label = Rozšyrjenja, kótarež sćo wózjawił na addons.mozilla.org, se wulašuju.
-
-
 delete-account-continue-button = Dalej
-
 delete-account-password-input =
     .label = Gronidło zapódaś
-
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Zwobraznjeńske mě
-
 display-name-input =
     .label = Zapódajśo zwobraznjeńske mě
 submit-display-name = Składowaś
 cancel-display-name = Pśetergnuś
-
 display-name-update-error-2 = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał
-
 display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 
 ##
 
+
 ## Recent Activity
+
+
+## $date (Date) - Date recent activity was created
 
 
 # Account recovery key setup page
@@ -393,6 +543,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Kšac 1 z 2
 recovery-key-step-2 = Kšac 2 z 2
 recovery-key-success-alert-3 = Kontowy wótnowjeński kluc jo se napórał
+
+## PageRecoveryKeyCreate
+
 
 ## Add secondary email page
 
@@ -432,23 +585,18 @@ delete-account-link = Konto wulašowaś
 ## Two Step Authentication
 
 tfa-title = Dwójokšacowa awtentifikacija
-
 tfa-step-1-3 = Kšac 1 z 3
 tfa-step-2-3 = Kšac 2 z 3
 tfa-step-3-3 = Kšac 3 z 3
-
 tfa-button-continue = Dalej
 tfa-button-cancel = Pśetergnuś
 tfa-button-finish = Dokóńcyś
-
 tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
 tfa-cannot-verify-code-4 = Pśi wobkśuśenju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
-
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -457,19 +605,14 @@ tfa-qa-code-alt = Wužywajśo kod { $secret }, aby zarědował dwukšacowu awten
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Njamóžośo kod skannowaś?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:
-
-tfa-enter-totp = Zapódajśo něnto wěstotny kod z awtentifikaciskego nałoženja.
-tfa-input-enter-totp =
-    .label = Wěstotny kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
-
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
 ##
+
 
 ## Profile section
 
@@ -482,6 +625,10 @@ profile-primary-email =
     .header = Primarna e-mailowa adresa
 
 ##
+
+
+## Progress bar
+
 
 ## Security section of Setting
 
@@ -521,7 +668,6 @@ rk-enabled = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
-rk-cannot-refresh-1 = Bóžko jo pśi aktualizěrowanju kontowego wótnowjeńskego kluca problem nastał
 rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
 rk-refresh-key-1 = Kontowy wótnowjeński kluc aktualizěrowaś
@@ -531,7 +677,6 @@ rk-remove-modal-heading-1 = Kontowy wótnowjeński kluc wótwónoźeś?
 rk-remove-modal-content-1 =
     Jolic wašo gronidło slědk stajaśo, njamóžośo swój
     kontowy wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
-rk-refresh-error-1 = Bóžko jo pśi aktualizěrowanju kontowego wótnowjeńskego kluca problem nastał
 rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
 
 ## Secondary email sub-section on main Settings page
@@ -573,6 +718,7 @@ se-secondary-email-none = Žedna
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwójokšacowa awtentifikacija
@@ -581,7 +727,6 @@ tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony
 tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
-
 tfa-row-button-refresh =
     .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
 tfa-row-cannot-refresh =
@@ -591,20 +736,23 @@ tfa-row-content-explain =
     Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
     aby zajźował tomu, až se něchten drugi pśizjawja.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
-
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain-1 =
     Njamóžośo toś tu akciju anulěrowaś. Maśo teke
     móžnosć <linkExternal>swóje kody za zawěsćeńsku awtentifikaciju wuměniś</linkExternal>.
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
-
 tfa-row-change-modal-heading-1 = Kody za zawěsćeńsku awtentifikaciju změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
 
 ## Auth-server based errors that originate from backend service
 
@@ -614,11 +762,9 @@ auth-error-105-2 = Njepłaśiwy wobkšuśeński kod
 auth-error-110 = Njepłaśiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
-#   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on accept language in request. Our timestamp
-#                          formatting library (momentjs) will automatically add the word `in`
-#                          as part of the string.
-#                           (for example: "in 15 minutes")
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
 auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
@@ -626,57 +772,81 @@ auth-error-155 = TOTP-token njejo se namakał
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
 auth-error-1008 = Wašo nowe gronidło musy druge byś
 
-
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+
 ## Connect Another Device page
+
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
+
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+
 ## AuthAllow page - Part of the device pairing flow
 
+
 ## PairAuthComplete page - part of the device pairing flow
+
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairFailure - a view which displays on failure of the device pairing process
+
 
 ## Pair index page
 
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
+
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
 
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-instructions = Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju { -product-firefox-account } měł.
-
 account-recovery-confirm-key-warning-message = <span>GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo swój skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane serwerowe daty ako historiju a cytańske znamjenja).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -699,12 +869,11 @@ account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z po
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
-# User followed a password reset link and is now prompted to create a new password
 complete-reset-pw-header = Nowe gronidło napóraś
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Gronidło jo se nastajiło
-# An error occured while attempting to set a new password (password reset flow)
+# An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 
@@ -713,7 +882,6 @@ complete-reset-password-error-alert = Bóžko jo nastał problem pśi stajanju w
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Mailka za slědkstajenje jo se pósłała
-
 # Instructions to continue the password reset process
 # { $email } is the email entered by the user and where the password reset instructions were sent
 confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž smy pśez e-mejl na { $email } pósłali, aby napórał nowe gronidło.
@@ -721,23 +889,23 @@ confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž
 ## ResetPassword page
 
 reset-password-button = Slědkstajanje zachopiś
-reset-password-success-alert = Gronidło slědk stajone
-reset-password-error-general = Bóžko jo nastał problem pśi slědkstajanju wašogo gronidła
-reset-password-error-unknown-account = Njeznate konto
-
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
 
 ## CompleteSignin component
 
+
 ## ConfirmSignin component
 
+
 ## Signin page
+
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -748,18 +916,23 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
-## The "security code" here refers to the code provided by an authentication app.
+
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
+
+
 # and a confirmation code has been sent to their email address.
+
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
