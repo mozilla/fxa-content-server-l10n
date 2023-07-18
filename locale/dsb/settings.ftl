@@ -535,7 +535,18 @@ delete-account-header =
     .title = Konto wulašowaś
 delete-account-step-1-2 = Kšac 1 z 2
 delete-account-step-2-2 = Kšac 2 z 2
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Daty { -brand-firefox } se synchronizěruju
+delete-account-product-firefox-addons = Dodanki { -brand-firefox }
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
+delete-account-chk-box-1-v3 =
+    .label = Někotare z wašych abonementow se anulěruju (mimo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
 delete-account-chk-box-3 =
@@ -567,9 +578,15 @@ display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 
 ## Recent Activity
 
+recent-activity-title = Nejnowša kontowa aktiwita
+recent-activity-account-create = Konto jo se załožyło
+recent-activity-account-disable = Konto jo se znjemóžniło
+recent-activity-account-enable = Konto jo se zmóžniło
+recent-activity-account-login = Pśez konto iniciěrowane pśizjawjenje
 
 ## $date (Date) - Date recent activity was created
 
+recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -587,6 +604,11 @@ recovery-key-success-alert-3 = Kontowy wótnowjeński kluc jo se napórał
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontowy wótnowjeński kluc
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Slědk k nastajenjam
 
 ## Add secondary email page
 
@@ -648,6 +670,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Njamóžośo kod skannowaś?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:
+tfa-enter-totp-v2 = Zapódajśo něnto awtentifikaciski kod z awtentifikaciskego nałoženja.
+tfa-input-enter-totp-v2 =
+    .label = Awtentificěrowański kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
@@ -670,6 +695,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Kšac { $currentStep } z { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -708,6 +738,8 @@ rk-header-1 = Kontowy wótnowjeński kluc
 rk-enabled = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Změniś
 rk-action-remove = Wótwónoźeś
 rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
@@ -719,6 +751,8 @@ rk-remove-modal-content-1 =
     Jolic wašo gronidło slědk stajaśo, njamóžośo swój
     kontowy wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
 rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Kontowy wótnowjeński kluc lašowaś
 
 ## Secondary email sub-section on main Settings page
 
@@ -794,6 +828,12 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = abo
+continue-with-google-button = Dalej z { -brand-google }
+continue-with-apple-button = Dalej z { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
@@ -801,6 +841,9 @@ auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
 auth-error-105-2 = Njepłaśiwy wobkšuśeński kod
 auth-error-110 = Njepłaśiwy token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Sćo to pśecesto wopytał. Wopytajśo pšosym pózdźej hyšći raz.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -811,14 +854,44 @@ auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
+auth-error-999 = Njewótcakowana zmólka
 auth-error-1008 = Wašo nowe gronidło musy druge byś
+auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Konto njedajo se załožyś
+cannot-create-account-requirements = Musyśo wěste starstwowe pominanja docyniś, aby konto { -product-firefox-account } załožył.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Dalšne informacije
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Sćo pla { -brand-firefox } pśizjawjony
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mailowa adresa jo se wobkšuśiła
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Pśizjawjenje jo se wobkšuśiło
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Pśizjawśo se pla toś togo { -brand-firefox }, aby zarědowanje dokóńcył
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Pśizjawiś
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Cośo dalšne rědy pśidaś? Pśizjawśo se pla { -brand-firefox }, na drugem rěźe, aby zarědowanje dokóńcył
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Pśizjawśo se pla { -brand-firefox }, na drugem rěźe, aby zarědowanje dokóńcył
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Cośo swóje rejtariki, cytańske znamjenja a gronidła na drugem rěźe dostaś?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Z drugim rědom zwězaś
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Nic něnto
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Pśizjawśo se pla { -brand-firefox } za Android, aby zarědowanje dokóńcył
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Pśizjawśo se pla { -brand-firefox } za iOS, aby zarědowanje dokóńcył
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
