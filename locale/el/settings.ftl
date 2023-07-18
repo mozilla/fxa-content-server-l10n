@@ -415,10 +415,15 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Τέλος
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
 flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
 flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
 flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
 flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να περιέχει λιγότερους από 255 χαρακτήρες.
@@ -613,6 +618,8 @@ recent-activity-account-create = Ο λογαριασμός δημιουργήθ�
 recent-activity-account-disable = Ο λογαριασμός απενεργοποιήθηκε
 recent-activity-account-enable = Ο λογαριασμός ενεργοποιήθηκε
 recent-activity-account-login = Ο λογαριασμός ξεκίνησε τη διαδικασία σύνδεσης
+recent-activity-account-reset = Ο λογαριασμός ξεκίνησε την επαναφορά κωδικού πρόσβασης
+recent-activity-emails-clearBounces = Ο λογαριασμός πέρασε τις ανακατευθύνσεις email
 
 ## $date (Date) - Date recent activity was created
 
