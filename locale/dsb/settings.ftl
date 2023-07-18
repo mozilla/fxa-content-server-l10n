@@ -896,31 +896,70 @@ connect-another-device-ios-complete-setup-message = Pśizjawśo se pla { -brand-
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-enable-prompt = Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup ku kontam { -product-firefox-accounts } měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Hyšći raz wopytaś
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Dalšne informacije
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Składujśo toś te kody za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Pśetergnuś
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Dalej
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Wobkšuśiś
+inline-recovery-back-link = Slědk
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Kod za zawěsćeńsku awtentifikaciju
+inline-recovery-confirmation-description = Aby zasej pśistup k swójomu kontoju dostał, jolic sćo zgubił swój rěd, zapódajśo pšosym jaden ze swójich skłaźonych kodow za zawěsćeńsku awtentifikaciju.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Instalaciju pśetergnuś
+inline-totp-setup-continue-button = Dalej
+inline-totp-setup-ready-button = Gótowo
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Gaž proces jo dokóńcony, se awtentificěrowańske kody napóraju, kótarež móžośo zapódaś.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Awtentificěrowański kod
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Pšawniske
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Wužywańske wuměnjenja
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Powěźeńka priwatnosći
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Powěźeńka priwatnosći
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Wužywańske wuměnjenja
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Sćo se rowno pśizjawił pla { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Jo, rěd pśizwóliś
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Rěd jo zwězany
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
