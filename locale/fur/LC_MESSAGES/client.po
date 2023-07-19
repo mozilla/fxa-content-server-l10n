@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-07-19 07:11+0000\n"
+"PO-Revision-Date: 2023-07-19 08:19+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -1036,7 +1036,7 @@ msgstr "Controle la tô e-mail pal colegament di conferme di acès mandât a %(e
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr "No ise te pueste in jentrade o tal cartele spam/malvolude? Torne mande"
+msgstr "No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8

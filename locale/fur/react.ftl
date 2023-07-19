@@ -20,9 +20,15 @@ app-page-title = { $title } | { -product-firefox-accounts(capitalization: "upper
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+# Message for screen readers, to announce that external link will open in new window
+link-sr-new-window = Si vierç intun gnûf barcon
 
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Daûr a cjariâ…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt =
+    .alt = Logo di { -brand-firefox }
