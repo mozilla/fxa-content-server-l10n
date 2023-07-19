@@ -238,16 +238,36 @@ remember-pw-link = Ti visistu la password? Jentre
 primary-email-confirmation-link-reused = E-mail primarie za confermade
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acès za confermât
+confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Ti covente cheste password par acedi ai dâts cifrâts che o salvìn par te.
+password-info-balloon-reset-risk-info = Un ripristinament al podarès compuartâ la pierdite di dâts come passwords e segnelibris.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Recuisîts de password
+password-strength-balloon-min-length = Almancul 8 caratars
+password-strength-balloon-not-email = No compagne de direzion e-mail
+password-strength-balloon-not-common = No une password di ûs comun
+password-strength-balloon-stay-safe-tips = Reste al sigûr — No sta tornâ a doprâ lis passwords. Viôt altris sugjeriments par <LinkExternal>creâ passwords complessis</LinkExternal>.
 
 ## Ready component
 
+reset-password-complete-header = La password e je stade ristabilide
+ready-complete-set-up-instruction = Finìs la configurazion inserint la gnove password sui altris dispositîfs { -brand-firefox }.
+ready-start-browsing-button = Scomence a navigâ
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Cumò tu sês pront par doprâ { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Cumò tu sês pront par doprâ lis impostazions dal account
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Il to account al è pront!
+ready-continue = Continue
 
 ## Alert Bar
 
