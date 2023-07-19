@@ -529,6 +529,7 @@ manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExterna
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Desideristu continuâ a doprâ { $name }?
 
 ## $date (Date) - Last day of product access
 
