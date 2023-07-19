@@ -510,12 +510,21 @@ pay-update-card-exp = Al scjât al/ai { $expirationDate }
 sub-route-idx-updating = Inzornament dâts di faturazion…
 sub-route-payment-modal-heading = Informazions di faturazion no validis
 sub-route-payment-modal-message = Al somee che al sedi vignût fûr un erôr cul to account { -brand-name-paypal }, al covente fâ i passaçs necessaris par risolvi chest probleme cul paiament.
+sub-route-missing-billing-agreement-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. <div>Gjestìs</div>
+sub-route-funding-source-payment-alert = Informazions di paiament no validis; al è vignût fûr un erôr cul to account. Al podarès passâ un pôc di timp prime che chest avîs al vegni gjavât, ancje dopo che tu âs inzornât cun sucès lis tôs informazions. <div>Gjestìs</div>
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Nissun plan di chest gjenar par chest abonament.
+invoice-not-found = Fature sucessive no cjatade
+sub-item-no-such-subsequent-invoice = Fature sucessive no cjatade par chest abonament.
+sub-invoice-preview-error-title = Anteprime fature no cjatade
+sub-invoice-preview-error-text = Anteprime fature no cjatade par chest abonament
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title = Ciristu il to abonament premium a { -brand-name-pocket }?
+manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
