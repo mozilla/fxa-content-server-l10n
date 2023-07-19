@@ -138,37 +138,106 @@ signup-confirm-password-label =
 signup-submit-button = Cree un account
 form-reset-password-with-balloon-new-password =
     .label = Gnove password
+form-reset-password-with-balloon-confirm-password =
+    .label = Torne inserìs la password
+form-reset-password-with-balloon-submit-button = Ristabilìs la password
+form-reset-password-with-balloon-match-error = Lis passwords no corispuindin
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Chest cjamp al è obligatori
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Clâf di recupar dal account { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codiçs di autenticazion di backup par { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Discjame
+    .aria-label = Discjame
+get-data-trio-copy-2 =
+    .title = Copie
+    .aria-label = Copie
+get-data-trio-print-2 =
+    .title = Stampe
+    .aria-label = Stampe
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Un computer e un celulâr e la imagjin di un cûr slambrât su ogniun
+hearts-verified-image-aria-label =
+    .aria-label = Un computer, un celulâr e un tablet cuntun cûr che al bat su ognun
+signin-recovery-code-image-description =
+    .aria-label = Document che al conten test platât.
+signin-totp-code-image-label =
+    .aria-label = Un dispositîf cuntun codiç platât a 6 cifris.
+confirm-signup-aria-label =
+    .aria-label = Une buste che e conten un colegament
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustrazion par rapresentâ une clâf di recupar dal account.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustrazion par rapresentâ une clâf di recupar dal account.
+lock-image-aria-label =
+    .aria-label = Une ilustrazion di un lochet
+lightbulb-aria-label =
+    .aria-label = Ilustrazion par rapresentâ la creazion di un sugjeriment pe archiviazion.
 
 ## Input Password
 
+input-password-hide = Plate password
+input-password-show = Mostre password
+input-password-hide-aria = Plate la password dal schermi.
+input-password-show-aria = Mostre la password come test normâl. La tô password e sarà visibile sul schermi.
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Indaûr
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Chest colegament par ristabilî la password al è danezât
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Il colegament di conferme al è danezât
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+# This button is used for password reset and signin confirmation 
+reset-pwd-resend-link = Mandimi un gnûf colegament
 
 ## LinkExpiredResetPassword component
 
+# The user followed a password reset link, but that link is expired and no longer valid
+reset-pwd-link-expired-header = Chest colegament par ristabilî la password al è scjadût
+reset-pwd-link-expired-message = Il colegament doprât par ristabilî la tô password al è scjadût.
 
 ## LinkExpiredSignin component
 
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Colegament di conferme scjadût
+signin-link-expired-message = Il colegament doprât par confermâ la e-mail al è scjadût.
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Ti visistu la password? Jentre
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = E-mail primarie za confermade
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Acès za confermât
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
