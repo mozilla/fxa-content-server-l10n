@@ -548,6 +548,12 @@ reactivate-confirm-button = Torne aboniti
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = Tu pierdarâs l’acès a { $name } al/i <strong>{ $date }</strong>.
+reactivate-success-copy = Graciis! Dut pront.
+reactivate-success-button = Siere
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: acuist vie aplicazion
+sub-iap-item-apple-purchase = { -brand-name-apple }: acuist vie aplicazion
+sub-iap-item-manage-button = Gjestìs
