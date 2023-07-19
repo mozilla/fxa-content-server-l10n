@@ -443,6 +443,7 @@ sub-update-copy =
     Il to plan al vignarà cambiât daurman e ti vignarà contizât un impuart
     calcolât pe part che e reste dal cicli di faturazion. A partî di { $startingDate }
     ti vignarà contizât l’impuart intîr.
+sub-update-acknowledgment = Il to plan al vignarà cambiât daurman e vuê ti vignarà contizât un impuart ripartît in mût proporzionâl pe part che e reste dal cicli di faturazion. A partî di { $startingDate } ti vignarà contizât l’impuart intîr.
 sub-change-submit = Conferme modifiche
 sub-update-current-plan-label = Plan atuâl
 sub-update-new-plan-label = Gnûf plan
@@ -506,6 +507,9 @@ sub-expires-on = Al scjat al/ai { $date }
 # $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Al scjât al/ai { $expirationDate }
+sub-route-idx-updating = Inzornament dâts di faturazion…
+sub-route-payment-modal-heading = Informazions di faturazion no validis
+sub-route-payment-modal-message = Al somee che al sedi vignût fûr un erôr cul to account { -brand-name-paypal }, al covente fâ i passaçs necessaris par risolvi chest probleme cul paiament.
 
 ## Routes - Subscription - SubscriptionItem
 
