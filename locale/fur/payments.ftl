@@ -530,6 +530,21 @@ manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExterna
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Desideristu continuâ a doprâ { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Tu podarâs continuâ a acedi a { $name }, il to cicli di faturazion
+    e il paiament a restaran invariâts. Il to prossim adebit su la cjarte che e finìs par { $last }
+    al sarà di { $amount } e al capitarà al/i { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Tu podarâs continuâ a acedi a { $name }. Cicli di faturazion 
+    e impuart a restaran invariâts. Il prossim adebit al
+    sarà di { $amount } e al capitarà al/i { $endDate }.
+reactivate-confirm-button = Torne aboniti
 
 ## $date (Date) - Last day of product access
 
