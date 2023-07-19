@@ -104,10 +104,15 @@ payment-plan-next-invoice = Prossime fature: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Metodi di paiament:
 payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = La cjarte di credit { $cardType } che e finìs cun { $lastFour }
+credit-card-ending-in = Cjarte di credit { $cardName } che e finìs par { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Cjarte di credit no cognossude che e finìs par { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Numar fature: <b>{ $invoiceNumber }</b>
@@ -515,6 +520,7 @@ subscriptionUpgrade-upgrade-info = Tu âs inzornât cun sucès di { $productName
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = Tacant de prossime fature, il to paiament al vignarà modificât di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }. Tal stes timp ti vignarà increditât un impuart una tantum di { $paymentProrated } par rifleti la tarife plui alte pal rest di chest { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Ti vignarà contizât un impuart una tantum di { $paymentProrated } par rifleti la tarife plui alte dal to abonament pal rest di chest { $productPaymentCycleOld }. Tacant de prossime fature, il to paiament al sarà modificât di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
