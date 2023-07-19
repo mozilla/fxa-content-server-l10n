@@ -268,21 +268,39 @@ ready-use-service-default = Cumò tu sês pront par doprâ lis impostazions dal 
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Il to account al è pront!
 ready-continue = Continue
+sign-in-complete-header = Acès confermât
+sign-up-complete-header = Account confermât
+primary-email-verified-header = E-mail primarie confermade
 
 ## Alert Bar
 
+alert-bar-close-message = Siere il messaç
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Il to avatar
+avatar-default-avatar =
+    .alt = Avatar predefinît
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title = Menù bento di { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } e je une tecnologjie che e combat pe tô riservatece in rêt.
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-2 = { -product-firefox-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-firefox-desktop = Navigadôr { -brand-firefox } par scritori
+bento-menu-firefox-mobile = Navigadôr { -brand-firefox } par dispositîfs mobii
+bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
 
 ##
 
