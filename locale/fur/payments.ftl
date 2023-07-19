@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Inserìs la tô e-mail
 new-user-confirm-email =
     .label = Conferme la tô e-mail
-new-user-subscribe-product-updates = O vûl ricevi inzornaments sui prodots di { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = O desideri ricevi di { -brand-mozilla } inzornaments e novitâts sui prodots
+new-user-subscribe-product-updates-snp = O desideri ricevi di { -brand-mozilla } inzornaments su sigurece e riservatece
+new-user-subscribe-product-updates-hubs = O desideri ricevi di { -product-mozilla-hubs } e { -brand-mozilla } inzornaments e novitâts sui prodots
+new-user-subscribe-product-updates-mdnplus = O desideri ricevi di { -product-mdn-plus } e { -brand-mozilla } inzornaments e novitâts sui prodots
 new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par creâ il to account. No le vendarìn mai a tierçs.
 new-user-email-validate = La e-mail no je valide
 new-user-email-validate-confirm = Lis direzions e-mail no corispuindin
@@ -89,6 +92,8 @@ payment-confirmation-thanks-subheading = E je stade inviade une e-mail di confer
 payment-confirmation-thanks-subheading-account-exists = Tu ricevarâs une e-mail ae direzion { $email } cu lis istruzions par configurâ il to account e i detais pal paiament.
 payment-confirmation-order-heading = Detais dal ordin
 payment-confirmation-invoice-number = Fature #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informazions sul paiament
 payment-confirmation-amount = { $amount } par { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
