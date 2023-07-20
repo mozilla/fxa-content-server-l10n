@@ -226,6 +226,21 @@ price-details-no-tax-day =
             [few] { $priceAmount } kužde { $intervalCount } dny
            *[other] { $priceAmount } kužde { $intervalCount } dnjow
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } kuždy tyźeń
+        [two] { $priceAmount } kuždej { $intervalCount } tyźenja
+        [few] { $priceAmount } kužde { $intervalCount } tyźenje
+       *[other] { $priceAmount } kužde { $intervalCount } tyźenjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kuždy tyźeń
+            [two] { $priceAmount } kuždej { $intervalCount } tyźenja
+            [few] { $priceAmount } kužde { $intervalCount } tyźenje
+           *[other] { $priceAmount } kužde { $intervalCount } tyźenjow
+        }
 
 ## Component - SubscriptionTitle
 
