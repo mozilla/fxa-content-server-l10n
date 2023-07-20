@@ -358,7 +358,6 @@ cs-disconnect-lost-advice-content-2 = Poiché il tuo dispositivo è stato smarri
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
 cs-disconnect-suspicious-advice-content = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell’{ -product-firefox-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
 cs-sign-out-button = Disconnetti
-cs-recent-activity = Attività recente dell’account
 
 ##
 
@@ -628,19 +627,38 @@ display-name-success-alert-2 = Il nome visualizzato è stato aggiornato
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Attività recente dell”account
-recent-activity-account-create = L’account è stato creato
-recent-activity-account-disable = L’account è stato disattivato
-recent-activity-account-enable = L’account è stato attivato
-recent-activity-account-login = L’account ha iniziato la procedura di accesso
-recent-activity-account-reset = L’account ha iniziato la reimpostazione della password
-recent-activity-emails-clearBounces = L’account ha rimosso il mancato recapito delle email
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Account creato
+recent-activity-account-disable-v2 = Account disattivato
+recent-activity-account-enable-v2 = Account abilitato
+recent-activity-account-login-v2 = Accesso all’account avviato
+recent-activity-account-reset-v2 = Reimpostazione password avviata
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Le email respinte sono state cancellate
+recent-activity-account-login-failure = Tentativo di accesso all’account non riuscito
+recent-activity-account-two-factor-added = Autenticazione in due passaggi attivata
+recent-activity-account-two-factor-requested = Autenticazione in due passaggi richiesta
+recent-activity-account-two-factor-failure = Autenticazione in due passaggi non riuscita
+recent-activity-account-two-factor-success = Autenticazione in due passaggi riuscita
+recent-activity-account-two-factor-removed = Autenticazione in due passaggi disattivata
+recent-activity-account-password-reset-requested = È stata richiesta la reimpostazione della password per l’account
+recent-activity-account-password-reset-success = Reimpostazione password account riuscita
+recent-activity-account-recovery-key-added = Chiave di recupero account attivata
+recent-activity-account-recovery-key-verification-failure = Verifica della chiave di recupero dell’account non riuscita
+recent-activity-account-recovery-key-verification-success = Verifica della chiave di recupero dell’account riuscita
+recent-activity-account-recovery-key-removed = Eliminata chiave di recupero account
+recent-activity-account-password-added = Nuova password aggiunta
+recent-activity-account-password-changed = Password modificata
+recent-activity-account-secondary-email-added = Indirizzo email secondario aggiunto
+recent-activity-account-secondary-email-removed = Indirizzo email secondario rimosso
+recent-activity-account-emails-swapped = Email principale e secondaria scambiate
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Altre attività dell’account
 
 # Account recovery key setup page
 
@@ -775,6 +793,8 @@ security-password-created-date = Data di creazione: { $date }
 security-not-set = Non impostata
 security-action-create = Crea
 security-set-password = Imposta una password per sincronizzare e utilizzare specifiche funzioni di sicurezza dell’account.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Visualizza l'attività recente dell'account
 
 ## Switch component
 

@@ -445,6 +445,20 @@ sub-change-submit = Conferma modifica
 sub-update-current-plan-label = Piano attuale
 sub-update-new-plan-label = Nuovo piano
 sub-update-total-label = Nuovo totale
+sub-update-prorated-upgrade = Aggiornamento proporzionale
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (giornaliero)
+sub-update-new-plan-weekly = { $productName } (settimanale)
+sub-update-new-plan-monthly = { $productName } (mensile)
+sub-update-new-plan-yearly = { $productName } (annuale)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
