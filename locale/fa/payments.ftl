@@ -128,19 +128,26 @@ document =
 ## Error messages
 
 basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
+payment-error-1 = اوووم. در تأیید پرداخت شما مشکلی وجود داشت. دوباره امتحان کنید یا با صادرکنندهٔ کارت خود تماس بگیرید.
+payment-error-2 = اوووم. در تأیید پرداخت شما مشکلی وجود داشت. با صادرکنندهٔ کارت خود تماس بگیرید.
+payment-error-3b = هنگام پردازش پرداخت شما یک خطای غیرمنتظره رخ داده است، لطفاً دوباره امتحان کنید.
 
 ## Hooks - coupons
 
+coupon-success = طرح شما به طور خودکار با فهرست قیمت تمدید می‌شود.
 
 ## Routes - Checkout - New user
 
+new-user-card-title = اطلاعات کارت خود را وارد کنید
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = اطلاعات پرداخت
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
+pay-with-heading-card-only = پرداخت با کارت
 
 ## Routes - Product - IapRoadblock
 
@@ -148,12 +155,18 @@ basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوبار
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play = فروشگاه پلی { -brand-name-google }
 
 ## Routes - Product - Subscription upgrade
 
+sub-change-failed = تغییر طرح ناموفق بود
+sub-update-current-plan-label = طرح کنونی
+sub-update-new-plan-label = طرح جدید
+sub-update-total-label = مجموع جدید
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = لغو اشتراک
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
@@ -167,6 +180,7 @@ basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوبار
 
 ## Routes - Subscription - ActionButton
 
+pay-update-manage-btn = مدیریت
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -179,6 +193,7 @@ basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوبار
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+sub-route-idx-updating = در حال به‌روزرسانی اطلاعات صورت‌حساب…
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -192,6 +207,8 @@ basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوبار
 
 ## $date (Date) - Last day of product access
 
+reactivate-success-button = بستن
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-manage-button = مدیریت
