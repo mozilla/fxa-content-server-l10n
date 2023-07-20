@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-07-20 12:31+0000\n"
+"PO-Revision-Date: 2023-07-20 12:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -742,7 +742,7 @@ msgstr "Buźćo wěsćejšy a z wěcej wědu online"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Nowosći a aktualizacije wó wěstośe a priwatnosći"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -1876,7 +1876,7 @@ msgstr "Cogodla musym toś to konto załožyś? <a %(escapedSuggestionAttrs)s>ho
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Kak stary sćo? Aby zgónił, cogodla za wašym starstwom pšašamy, slědujśo wótkazoju „cogodla se pšašamy\" dołojce."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -2044,7 +2044,7 @@ msgstr "QR-kod"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Wzejśo swóje rejtariki, cytańske znamjenja a gronidła wšuźi, źož Firefox wužywaśo."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

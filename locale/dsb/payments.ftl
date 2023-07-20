@@ -70,6 +70,10 @@ new-user-enter-email =
     .label = Zapódajśo swóju e-mailowu adresu
 new-user-confirm-email =
     .label = Wašu e-mailowu adresu wobkšuśiś
+new-user-subscribe-product-updates-mozilla = Ja by rady dostał produktowe nowosći a aktualizacije wót { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Ja by rady dostał nowosći wó wěstośe a priwatnosći a aktualizacije wót { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Ja by rady dostał produktowe nowosći a aktualizacije wót { -product-mozilla-hubs } a { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Ja by rady dostał produktowe nowosći a aktualizacije wót { -product-mdn-plus } a { -brand-mozilla }
 new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 new-user-email-validate = E-mailowa adresa njejo płaśiwa
 new-user-email-validate-confirm = E-mailowej adresy njejstej jadnakej.
@@ -174,6 +178,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>Pšawidła priwatnosći { -bran
 payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Nejpjerwjej musyśo swój abonement wobkšuśiś
 
 ## Component - PaymentProcessing
 
