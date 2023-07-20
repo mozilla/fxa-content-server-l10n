@@ -211,6 +211,21 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } dank
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } kuždy źeń
+        [two] { $priceAmount } kuždej { $intervalCount } dnja
+        [few] { $priceAmount } kužde { $intervalCount } dny
+       *[other] { $priceAmount } kužde { $intervalCount } dnjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kuždy źeń
+            [two] { $priceAmount } kuždej { $intervalCount } dnja
+            [few] { $priceAmount } kužde { $intervalCount } dny
+           *[other] { $priceAmount } kužde { $intervalCount } dnjow
+        }
 
 ## Component - SubscriptionTitle
 
