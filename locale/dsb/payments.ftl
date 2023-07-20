@@ -301,6 +301,36 @@ price-details-tax-week =
             [few] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } tyźenje
            *[other] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } tyźenjow
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + dank { $taxAmount } kuždy mjasec
+        [two] { $priceAmount } + dank { $taxAmount } kuždej { $intervalCount } mjaseca
+        [few] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } mjasece
+       *[other] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } mjasecow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dank { $taxAmount } kuždy mjasec
+            [two] { $priceAmount } + dank { $taxAmount } kuždej { $intervalCount } mjaseca
+            [few] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } mjasece
+           *[other] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } mjasecow
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + dank { $taxAmount } kužde lěto
+        [two] { $priceAmount } + dank { $taxAmount } kuždej { $intervalCount } lěśe
+        [few] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } lěta
+       *[other] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + dank { $taxAmount } kužde lěto
+            [two] { $priceAmount } + dank { $taxAmount } kuždej { $intervalCount } lěśe
+            [few] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } lěta
+           *[other] { $priceAmount } + dank { $taxAmount } kužde { $intervalCount } lět
+        }
 
 ## Component - SubscriptionTitle
 
@@ -332,6 +362,36 @@ coupon-promo-code = Akciski kod
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } kuždy źeń
+        [two] { $amount } kuždej { $intervalCount } dnja
+        [few] { $amount } kužde { $intervalCount } dny
+       *[other] { $amount } kužde { $intervalCount } dnjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kuždy źeń
+            [two] { $amount } kuždej { $intervalCount } dnja
+            [few] { $amount } kužde { $intervalCount } dny
+           *[other] { $amount } kužde { $intervalCount } dnjow
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } kuždy tyźeń
+        [two] { $amount } kuždej { $intervalCount } tyźenja
+        [few] { $amount } kužde { $intervalCount } tyźenje
+       *[other] { $amount } kužde { $intervalCount } tyźenjow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kuždy tyźeń
+            [two] { $amount } kuždej { $intervalCount } tyźenja
+            [few] { $amount } kužde { $intervalCount } tyźenje
+           *[other] { $amount } kužde { $intervalCount } tyźenjow
+        }
 
 ## Error messages
 
