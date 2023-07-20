@@ -1010,27 +1010,45 @@ pair-auth-complete-heading = Rěd jo zwězany
 ## Pair index page
 
 pair-sync-header = Synchronizěrujśo { -brand-firefox } na swójom telefonje abo tableśe
+pair-cad-header = { -brand-firefox } na drugem rěźe zwězaś
+pair-already-have-firefox-paragraph = Maśo južo { -brand-firefox } na telefonje abo tableśe?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizěrujśo swój rěd
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Nic něnto
 pair-take-your-data-message = Wzejśo swóje rejtariki, cytańske znamjenja a gronidła wšuźi, źož { -brand-firefox } wužywaśo.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Prědne kšace
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kod
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Rěd jo zwězany
+pair-success-message-2 = Koplowanje jo se raźiło.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Wobkšuśćo koplowanje <span>za { $email }</span>
+pair-supp-allow-confirm-button = Koplowanje wobkšuśiś
+pair-supp-allow-cancel-link = Pśetergnuś
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Z nałoženim koplowaś
+pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju { -brand-firefox } koplowaś.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1057,11 +1075,15 @@ account-recovery-lost-recovery-key-link = Njamaśo kontowy wótnowjeński kluc?
 # Header for form to create new password
 create-new-password-header = Nowe gronidło napóraś
 account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z pomocu swójogo kontowego wótnowjeńskego kluca. Napórajśo nowe gronidło, aby swóje daty zawěsćił a składujśo jo na wěstem městnje.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Gronidło jo se nastajiło
+account-recovery-reset-password-redirecting = Pósrědnjaśo se dalej
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Nowe gronidło napóraś
+complete-reset-password-warning-message-2 = <span>NJEZABYWAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { -product-pocket } njejsu pótrjefjone.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Gronidło jo se nastajiło
@@ -1080,24 +1102,57 @@ confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž
 
 ## ResetPassword page
 
+reset-password-warning-message-2 = <span>GLĚDAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { -product-pocket } njejsu pótrjefjone.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mailowa adresa
 reset-password-button = Slědkstajanje zachopiś
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mailowa adresa trjebna
+reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-with-recovery-key-verified-generate-new-key = Nowy kontowy wótnowjeński kluc napóraś
 reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu kontoju
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Zmólka:
 
 ## ConfirmSignin component
 
+confirm-signin-header = Toś to pśizjawjenje wobkšuśiś
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Pśepytujśo swóju e-mail za pśizjawjeńskim wóbkšuśeńskim wótkazom, kótaryž jo se na { $email } pósłał
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Dalej k { $serviceName }
+signin-subheader-without-logo-default = Dalej ku kontowym nastajenjam
+signin-button = Pśizjawiś
+signin-header = Pśizjawiś
+signin-use-a-different-account-link = Druge konto wužywaś
+signin-forgot-password-link = Sćo gronidło zabył?
+signin-bounced-header = Bóžko jo wašo konto zastajone.
+# $email (string) - The user's email.
+signin-bounced-message = Wobkśuśeńska mejlka, kótaruž smy na { $email } pósłali, jo se wrośiła a smy wašo konto zastajili, aby my waše daty { -brand-firefox } šćitali.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Jolic to jo płaśiwa adresa, <linkExternal>informěrujśo nas</linkExternal> a móžomy pomagaś, wašo konto wótwóriś.
+signin-bounced-create-new-account = Toś ta e-mailowa wěcej wam njesłuša? Załožćo konto
+back = Slědk
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
