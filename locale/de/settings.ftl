@@ -368,7 +368,6 @@ cs-disconnect-suspicious-advice-content =
     in den Konteneinstellungen ändern. Sie sollten auch alle anderen in { -brand-firefox }
     gespeicherten Passwörter ändern, indem Sie about:logins in die Adressleiste eingeben.
 cs-sign-out-button = Abmelden
-cs-recent-activity = Letzte Kontoaktivität
 
 ##
 
@@ -641,19 +640,38 @@ display-name-success-alert-2 = Anzeigename aktualisiert
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Letzte Kontoaktivität
-recent-activity-account-create = Konto wurde erstellt
-recent-activity-account-disable = Konto wurde deaktiviert
-recent-activity-account-enable = Konto wurde aktiviert
-recent-activity-account-login = Vom Konto initiierte Anmeldung
-recent-activity-account-reset = Vom Konto initiiertes Zurücksetzen des Passworts
-recent-activity-emails-clearBounces = Konto hat zurückgewiesene E-Mails gelöscht
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Konto hinzugefügt
+recent-activity-account-disable-v2 = Konto deaktiviert
+recent-activity-account-enable-v2 = Konto aktiviert
+recent-activity-account-login-v2 = Anmeldung für das Konto initiiert
+recent-activity-account-reset-v2 = Zurücksetzen des Passworts gestartet
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Unzulässige E-Mail-Adressen gelöscht
+recent-activity-account-login-failure = Anmeldeversuch mit dem Konto fehlgeschlagen
+recent-activity-account-two-factor-added = Zwei-Schritt-Authentifizierung aktiviert
+recent-activity-account-two-factor-requested = Zwei-Schritt-Authentifizierung angefordert
+recent-activity-account-two-factor-failure = Zwei-Schritt-Authentifizierung fehlgeschlagen
+recent-activity-account-two-factor-success = Zwei-Schritt-Authentifizierung erfolgreich
+recent-activity-account-two-factor-removed = Zwei-Schritt-Authentifizierung entfernt
+recent-activity-account-password-reset-requested = Konto hat Zurücksetzen des Passworts angefordert
+recent-activity-account-password-reset-success = Zurücksetzen des Kontopassworts erfolgreich
+recent-activity-account-recovery-key-added = Kontowiederherstellungsschlüssel aktiviert
+recent-activity-account-recovery-key-verification-failure = Verifizierung des Kontowiederherstellungsschlüssels fehlgeschlagen
+recent-activity-account-recovery-key-verification-success = Verifizierung des Kontowiederherstellungsschlüssels erfolgreich
+recent-activity-account-recovery-key-removed = Kontowiederherstellungsschlüssel entfernt
+recent-activity-account-password-added = Neues Passwort hinzugefügt
+recent-activity-account-password-changed = Passwort geändert
+recent-activity-account-secondary-email-added = Zweit-E-Mail-Adresse hinzugefügt
+recent-activity-account-secondary-email-removed = Zweit-E-Mail-Adresse entfernt
+recent-activity-account-emails-swapped = Primär- und Sekundär-E-Mail-Adresse vertauscht
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Andere Kontoaktivitäten
 
 # Account recovery key setup page
 
@@ -785,6 +803,8 @@ security-password-created-date = Erstellt: { $date }
 security-not-set = Nicht festgelegt
 security-action-create = Erstellen
 security-set-password = Legen Sie ein Passwort fest, um bestimmte Kontosicherheitsfunktionen zu synchronisieren und zu verwenden.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Letzte Kontoaktivität ansehen
 
 ## Switch component
 
