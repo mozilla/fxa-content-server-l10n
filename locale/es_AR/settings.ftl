@@ -368,7 +368,6 @@ cs-disconnect-suspicious-advice-content =
     en la configuración de la cuenta. También tenés que cambiar cualquier otra
     contraseña que guardaste en { -brand-firefox } ingresando  about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar la sesión
-cs-recent-activity = Actividad reciente de la cuenta
 
 ##
 
@@ -638,19 +637,38 @@ display-name-success-alert-2 = Nombre actualizado
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Actividad reciente de la cuenta
-recent-activity-account-create = La cuenta fue creada
-recent-activity-account-disable = La cuenta fue deshabilitada
-recent-activity-account-enable = La cuenta fue habilitada
-recent-activity-account-login = Ingreso a la cuenta iniciado
-recent-activity-account-reset = Restablecimiento de contraseña de la cuenta iniciado
-recent-activity-emails-clearBounces = Limpieza de correos electrónicos de la cuenta rebotados
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Cuenta creada
+recent-activity-account-disable-v2 = Cuenta deshabilitada
+recent-activity-account-enable-v2 = Cuenta habilitada
+recent-activity-account-login-v2 = Inicio de sesión en la cuenta
+recent-activity-account-reset-v2 = Se inició el restablecimiento de la contraseña
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Mensajes devueltos eliminados
+recent-activity-account-login-failure = Falló el intento de ingreso a la cuenta
+recent-activity-account-two-factor-added = Se habilitó la autenticación en dos pasos
+recent-activity-account-two-factor-requested = Autenticación de dos pasos solicitada
+recent-activity-account-two-factor-failure = Falló la autenticación de dos pasos
+recent-activity-account-two-factor-success = Autenticación en dos pasos exitosa
+recent-activity-account-two-factor-removed = Se eliminó la autenticación en dos pasos
+recent-activity-account-password-reset-requested = Se ha solicitado el restablecimiento de la contraseña
+recent-activity-account-password-reset-success = Se restableció la contraseña de la cuenta
+recent-activity-account-recovery-key-added = Clave de recuperación de cuenta habilitada
+recent-activity-account-recovery-key-verification-failure = Falló la verificación de la clave de recuperación de la cuenta
+recent-activity-account-recovery-key-verification-success = Se verificó la clave de recuperación de la cuenta
+recent-activity-account-recovery-key-removed = Se eliminó la clave de recuperación de la cuenta
+recent-activity-account-password-added = Nueva contraseña agregada
+recent-activity-account-password-changed = Contraseña cambiada
+recent-activity-account-secondary-email-added = Dirección de correo electrónico secundaria agregada
+recent-activity-account-secondary-email-removed = Dirección de correo electrónico secundaria eliminada
+recent-activity-account-emails-swapped = Correos electrónicos principales y secundarios intercambiados
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Otra actividad de la cuenta
 
 # Account recovery key setup page
 
@@ -785,6 +803,8 @@ security-password-created-date = Creado el { $date }
 security-not-set = No establecida
 security-action-create = Crear
 security-set-password = Establecer una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver la actividad reciente de la cuenta
 
 ## Switch component
 
