@@ -1153,6 +1153,20 @@ back = Slědk
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 signin-recovery-code-heading-w-default-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
+signin-recovery-code-input-label = Zapódajśo 10-městnowy kod za zawěsćeńsku awtentifikaciju
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Wobkšuśiś
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Slědk
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Sćo se wuzamknuł?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trjebny
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1163,16 +1177,44 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na { $email }.
+signin-token-code-input-label-v2 = 6-městnowy kod zapódaś
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Wobkšuśiś
+signin-token-code-code-expired = Kod jo spadnuł?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Nowy kod pśez e-mail pósłaś.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Wobkšuśeński kod trjebny
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Zapódajśo awtentifikaciski kod, <span>aby z kontowymi nastajenjami pókšacował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Zapódajśo awtentifikaciski kod, <span>aby z { $serviceName } pókšacował</span>
+signin-totp-code-instruction-v2 = Wócyńśo swójo awtentificěrowańske nałoženje a zapódajśo k dispoziciji stajony awtentifikaciski kod.
+signin-totp-code-input-label-v2 = 6-městnowy kod zapódaś
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Wobkšuśiś
+signin-totp-code-other-account-link = Wužywajśo druge konto
+signin-totp-code-recovery-code-link = Maśo problemy pśi zapódawanju koda?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Awtentifikaciski kod trjebny
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Wobkšuśćo swójo konto
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Pśepytujśo swóju e-mail za wóbkšuśeńskim wótkazom, kótaryž jo se na { $email } pósłał
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1180,7 +1222,38 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Wobkšuśeński kod zapódaś
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Zapódajśo wobkšuśeński kod <span>za swójo konto { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na { $email }.
+confirm-signup-code-input-label = 6-městnowy kod zapódaś
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Wobkšuśiś
+confirm-signup-code-code-expired = Kod jo spadnuł?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Nowy kod pśez e-mail pósłaś.
+confirm-signup-code-success-alert = Konto jo se wuspěšnje wobkšuśiło
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Wobkšuśeński kod jo trjebny
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Zapódajśo swójo gronidło
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Cogodla musym toś to konto załožyś? <LinkExternal>Glejśo how</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = E-mailowu adresu změniś
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Kak stary sćo?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Musyśo swójo starstwo zapódaś, aby se registrěrował
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Cogodla se pšašamy?
