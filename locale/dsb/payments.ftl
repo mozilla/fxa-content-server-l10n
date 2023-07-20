@@ -241,6 +241,36 @@ price-details-no-tax-week =
             [few] { $priceAmount } kužde { $intervalCount } tyźenje
            *[other] { $priceAmount } kužde { $intervalCount } tyźenjow
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } kuždy mjasec
+        [two] { $priceAmount } kuždej { $intervalCount } mjaseca
+        [few] { $priceAmount } kužde { $intervalCount } mjasece
+       *[other] { $priceAmount } kužde { $intervalCount } mjasecow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kuždy mjasec
+            [two] { $priceAmount } kuždej { $intervalCount } mjaseca
+            [few] { $priceAmount } kužde { $intervalCount } mjasece
+           *[other] { $priceAmount } kužde { $intervalCount } mjasecow
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } kužde lěto
+        [two] { $priceAmount } kuždej { $intervalCount } lěśe
+        [few] { $priceAmount } kužde { $intervalCount } lěta
+       *[other] { $priceAmount } kužde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } kužde lěto
+            [two] { $priceAmount } kuždej { $intervalCount } lěśe
+            [few] { $priceAmount } kužde { $intervalCount } lěta
+           *[other] { $priceAmount } kužde { $intervalCount } lět
+        }
 
 ## Component - SubscriptionTitle
 
