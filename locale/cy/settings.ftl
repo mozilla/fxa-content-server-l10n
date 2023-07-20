@@ -368,7 +368,6 @@ cs-disconnect-suspicious-advice-content =
     yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrinair arall
     a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins i'r bar cyfeiriad.
 cs-sign-out-button = Allgofnodi
-cs-recent-activity = Gweithgaredd Cyfrif Diweddar
 
 ##
 
@@ -641,19 +640,38 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Gweithgaredd Cyfrif Diweddar
-recent-activity-account-create = Cyfrif wedi'i greu
-recent-activity-account-disable = Cyfrif wedi'i analluogi
-recent-activity-account-enable = Cyfrif wedi'i alluogi
-recent-activity-account-login = Mewngofnod ar sail cyfrif
-recent-activity-account-reset = Ailosod cyfrifnair ar sail cyfrif
-recent-activity-emails-clearBounces = Cyfrif wedi clirio adlamiad e-bost
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Cyfrif wedi'i greu
+recent-activity-account-disable-v2 = Analluogwyd y cyfrif
+recent-activity-account-enable-v2 = Cyfrif wedi'i alluogi
+recent-activity-account-login-v2 = Mewngofnodi cyfrif wedi'i gychwyn
+recent-activity-account-reset-v2 = Dechreuwyd ailosod cyfrinair
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Clirio bownsio e-bost
+recent-activity-account-login-failure = Methodd ymgais i fewngofnodi i'r cyfrif
+recent-activity-account-two-factor-added = Mae dilysu dau gam wedi ei alluogi
+recent-activity-account-two-factor-requested = Gofynnwyd am ddilysiad dau gam
+recent-activity-account-two-factor-failure = Methodd dilysu dau gam
+recent-activity-account-two-factor-success = Dilysu dau gam yn llwyddiannus
+recent-activity-account-two-factor-removed = Mae dilysu dau gam wedi ei dynnu
+recent-activity-account-password-reset-requested = Ailosod cyfrinair y gofynnwyd amdano'r cyfrif
+recent-activity-account-password-reset-success = Ailosod cyfrinair cyfrif yn llwyddiannus
+recent-activity-account-recovery-key-added = Allwedd adfer cyfrif wedi'i galluogi
+recent-activity-account-recovery-key-verification-failure = Methodd dilysu allwedd adfer y cyfrif
+recent-activity-account-recovery-key-verification-success = Gwiriad allwedd adfer cyfrif yn llwyddiannus
+recent-activity-account-recovery-key-removed = Tynnwyd yr allwedd adfer cyfrif
+recent-activity-account-password-added = Ychwanegwyd cyfrinair newydd
+recent-activity-account-password-changed = Cyfrinair wedi'i newid
+recent-activity-account-secondary-email-added = Cyfeiriad e-bost eilaidd wedi'i ychwanegu
+recent-activity-account-secondary-email-removed = Cyfeiriad e-bost eilaidd wedi'i dynnu
+recent-activity-account-emails-swapped = E-byst cynradd ac uwchradd wedi'u cyfnewid
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Gweithgarwch cyfrif arall
 
 # Account recovery key setup page
 
@@ -790,6 +808,8 @@ security-password-created-date = Crëwyd: { $date }
 security-not-set = Heb ei Osod
 security-action-create = Creu
 security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddion diogelwch cyfrif.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Gweld gweithgarwch cyfrif diweddar
 
 ## Switch component
 
