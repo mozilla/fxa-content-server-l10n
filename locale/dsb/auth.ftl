@@ -526,6 +526,7 @@ subscriptionUpgrade-upgrade-info = Sćo wuspěšnje aktualizěrował wót { $pro
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 # remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } pśez { $productPaymentCycleNew } změnijo. Pótom teke musyśo jadnorazowe pśipisanje { $paymentProrated } płaśiś, aby se wušy płaśonk za zbytk { $productPaymentCycleOld } wótbłyšćował.
+subscriptionUpgrade-content-charge-info-different-cycle = Nakładaju wam jadnorazowy płaśonk { $paymentProrated }, aby se wuša płaśizna abonementa za zbytk toś togo { $paymentProrated } wótbłyšćował. Z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změnijo.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productName } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
@@ -539,11 +540,13 @@ unblockCode-prompt-plaintext = Jolic jo, how jo awtorizěrowański kod, kótary�
 unblockCode-report = Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a data-l10n-name="reportSignInLink">dajśo nam to k wěsći.</a>
 unblockCode-report-plaintext = Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći.
 verificationReminderFinal-subject = Slědne dopomnjeśe: Wobkšuśćo swójo konto
+verificationReminderFinal-description = Pśed někotarymi njeźelami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Za wašu wěstotu wulašujomy konto, jolic se za pśiduce 24 góźin njewobkšuśijo.
 confirm-account = Konto wobkšuśiś
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderFirst-title-2 = Witajśo k { -brand-firefox }!
 verificationReminderFirst-description-2 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
+verificationReminderFirst-sub-description-3 = Njeskomuźćo wobglědowak, za kótaryž wy a waša priwatnosć na prědne městno stajatej.
 confirm-email-2 = Konto wobkšuśiś
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkšuśiś
