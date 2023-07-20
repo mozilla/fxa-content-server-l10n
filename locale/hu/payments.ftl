@@ -456,6 +456,20 @@ sub-change-submit = Módosítás megerősítése
 sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
 sub-update-total-label = Új összeg
+sub-update-prorated-upgrade = Időarányos frissítés
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (napi)
+sub-update-new-plan-weekly = { $productName } (hetente)
+sub-update-new-plan-monthly = { $productName } (havonta)
+sub-update-new-plan-yearly = { $productName } (évente)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

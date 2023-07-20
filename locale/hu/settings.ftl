@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
     jelszavát is, az about:logins beírásával a címsávba.
 cs-sign-out-button = Kijelentkezés
-cs-recent-activity = Legutóbbi fióktevékenység
 
 ##
 
@@ -643,19 +642,38 @@ display-name-success-alert-2 = A megjelenő név frissítve
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Legutóbbi fióktevékenység
-recent-activity-account-create = A fiók létrejött
-recent-activity-account-disable = A fiók le lett tiltva
-recent-activity-account-enable = A fiók engedélyezve lett
-recent-activity-account-login = A fiók bejelentkezést kezdeményezett
-recent-activity-account-reset = A fiók jelszó-visszaállítást kezdeményezett
-recent-activity-emails-clearBounces = A fiók törölte a visszapattant leveleket
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Fiók létrehozva
+recent-activity-account-disable-v2 = Fiók letiltva
+recent-activity-account-enable-v2 = Fiók engedélyezve
+recent-activity-account-login-v2 = Fiókbejelentkezés kezdeményezve
+recent-activity-account-reset-v2 = Jelszó-visszaállítás kezdeményezve
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Az e-mail visszapattanások törölve
+recent-activity-account-login-failure = A fiók bejelentkezési kísérlete sikertelen
+recent-activity-account-two-factor-added = Kétlépcsős hitelesítés engedélyezve
+recent-activity-account-two-factor-requested = Kétlépcsős hitelesítés kérve
+recent-activity-account-two-factor-failure = Kétlépcsős hitelesítés sikertelen
+recent-activity-account-two-factor-success = Kétlépcsős hitelesítés sikeres
+recent-activity-account-two-factor-removed = Kétlépcsős hitelesítés eltávolítva
+recent-activity-account-password-reset-requested = A fiók jelszó-visszaállítást kért
+recent-activity-account-password-reset-success = A fiókjelszó helyreállítása sikeres
+recent-activity-account-recovery-key-added = Fiók-helyreállítási kulcs engedélyezve
+recent-activity-account-recovery-key-verification-failure = A fiók-helyreállítási kulcs ellenőrzése sikertelen
+recent-activity-account-recovery-key-verification-success = A fiók-helyreállítási kulcs ellenőrzése sikeres
+recent-activity-account-recovery-key-removed = Fiók helyreállítási kulcs eltávolítva
+recent-activity-account-password-added = Új jelszó hozzáadva
+recent-activity-account-password-changed = A jelszó megváltozott
+recent-activity-account-secondary-email-added = Másodlagos e-mail-cím hozzáadva
+recent-activity-account-secondary-email-removed = Másodlagos e-mail-cím eltávolítva
+recent-activity-account-emails-swapped = Elsődleges és másodlagos e-mail címek felcserélve
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Egyéb fióktevékenység
 
 # Account recovery key setup page
 
@@ -790,6 +808,8 @@ security-password-created-date = Létrehozva: { $date }
 security-not-set = Nincs beállítva
 security-action-create = Létrehozás
 security-set-password = Állítson be jelszót a szinkronizáláshoz és bizonyos fiókbiztonsági funkciók használatához.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Legutóbbi fióktevékenységek megtekintése
 
 ## Switch component
 
