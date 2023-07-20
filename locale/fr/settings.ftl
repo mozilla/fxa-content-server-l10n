@@ -358,7 +358,6 @@ cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou vo
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-disconnect-suspicious-advice-content = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-firefox-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
 cs-sign-out-button = Se déconnecter
-cs-recent-activity = Activité récente du compte
 
 ##
 
@@ -631,19 +630,38 @@ display-name-success-alert-2 = Nom d’affichage mis à jour
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Activité récente du compte
-recent-activity-account-create = Le compte a été créé
-recent-activity-account-disable = Le compte a été désactivé
-recent-activity-account-enable = Le compte a été activé
-recent-activity-account-login = Connexion initiée par le compte
-recent-activity-account-reset = Réinitialisation du mot de passe initiée par le compte
-recent-activity-emails-clearBounces = Le compte a été débarrassé de la non-distribution des e-mails
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Compte créé
+recent-activity-account-disable-v2 = Compte désactivé
+recent-activity-account-enable-v2 = Compte activé
+recent-activity-account-login-v2 = Connexion au compte initiée
+recent-activity-account-reset-v2 = Réinitialisation du mot de passe initiée
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Refus d’e-mails effacés
+recent-activity-account-login-failure = La tentative de connexion au compte a échoué
+recent-activity-account-two-factor-added = Authentification en deux étapes activée
+recent-activity-account-two-factor-requested = Authentification en deux étapes demandée
+recent-activity-account-two-factor-failure = Échec de l’authentification en deux étapes
+recent-activity-account-two-factor-success = Authentification en deux étapes réussie
+recent-activity-account-two-factor-removed = Validation en deux étapes désactivée
+recent-activity-account-password-reset-requested = Le compte a demandé la réinitialisation du mot de passe
+recent-activity-account-password-reset-success = Le mot de passe du compte a été réinitialisé
+recent-activity-account-recovery-key-added = Clé de récupération de compte activée
+recent-activity-account-recovery-key-verification-failure = Échec de la vérification de la clé de récupération du compte
+recent-activity-account-recovery-key-verification-success = Vérification de la clé de récupération du compte réussie
+recent-activity-account-recovery-key-removed = La clé de récupération a été supprimée
+recent-activity-account-password-added = Nouveau mot de passe ajouté
+recent-activity-account-password-changed = Mot de passe changé
+recent-activity-account-secondary-email-added = Adresse e-mail secondaire ajoutée
+recent-activity-account-secondary-email-removed = L’adresse e-mail secondaire a été supprimée
+recent-activity-account-emails-swapped = Les adresses e-mail principale et secondaire ont été interverties
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Autre activité du compte
 
 # Account recovery key setup page
 
@@ -777,6 +795,8 @@ security-password-created-date = Créé le { $date }
 security-not-set = Non défini
 security-action-create = Créer
 security-set-password = Définissez un mot de passe pour synchroniser et utiliser certaines fonctionnalités de sécurité du compte.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Voir l’activité récente du compte
 
 ## Switch component
 
