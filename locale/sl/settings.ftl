@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     v nastavitvah računa. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili
     v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-sign-out-button = Odjava
-cs-recent-activity = Nedavna dejavnost v računu
 
 ##
 
@@ -643,19 +642,38 @@ display-name-success-alert-2 = Prikazno ime posodobljeno
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nedavna dejavnost v računu
-recent-activity-account-create = Račun je bil ustvarjen
-recent-activity-account-disable = Račun je bil onemogočen
-recent-activity-account-enable = Račun je bil omogočen
-recent-activity-account-login = Račun je začel postopek prijave
-recent-activity-account-reset = Račun je začel ponastavitev gesla
-recent-activity-emails-clearBounces = Račun je odstranil zavrnjeno pošto
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Račun ustvarjen
+recent-activity-account-disable-v2 = Račun onemogočen
+recent-activity-account-enable-v2 = Račun omogočen
+recent-activity-account-login-v2 = Prijava v račun se je začela
+recent-activity-account-reset-v2 = Ponastavitev gesla se je začela
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-poštna sporočila zavrnjena
+recent-activity-account-login-failure = Poskus prijave v račun ni uspel
+recent-activity-account-two-factor-added = Overitev v dveh korakih je omogočena
+recent-activity-account-two-factor-requested = Zahtevana je overitev v dveh korakih
+recent-activity-account-two-factor-failure = Preverjanje pristnosti v dveh korakih ni uspelo
+recent-activity-account-two-factor-success = Preverjanje pristnosti v dveh korakih uspešno
+recent-activity-account-two-factor-removed = Overitev v dveh korakih je odstranjena
+recent-activity-account-password-reset-requested = Račun zahteva ponastavitev gesla
+recent-activity-account-password-reset-success = Ponastavitev gesla za račun je bila uspešna
+recent-activity-account-recovery-key-added = Ključ za obnovitev računa omogočen
+recent-activity-account-recovery-key-verification-failure = Preverjanje ključa za obnovitev računa ni uspelo
+recent-activity-account-recovery-key-verification-success = Preverjanje ključa za obnovitev računa je bilo uspešno
+recent-activity-account-recovery-key-removed = Obnovitveni ključ za račun odstranjen
+recent-activity-account-password-added = Dodano novo geslo
+recent-activity-account-password-changed = Geslo spremenjeno
+recent-activity-account-secondary-email-added = Pomožni e-poštni naslov dodan
+recent-activity-account-secondary-email-removed = Pomožni e-poštni naslov je odstranjen
+recent-activity-account-emails-swapped = Primarni in sekundarni e-poštni naslov zamenjan
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Druge dejavnosti v računu
 
 # Account recovery key setup page
 
@@ -790,6 +808,8 @@ security-password-created-date = Ustvarjeno { $date }
 security-not-set = Ni nastavljeno
 security-action-create = Ustvari
 security-set-password = Nastavite geslo za sinhronizacijo in uporabo nekaterih varnostnih možnosti računa.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Oglejte si nedavno dejavnost v računu
 
 ## Switch component
 
