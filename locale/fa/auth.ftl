@@ -13,14 +13,23 @@ subplat-privacy-notice = نکات حفظ حریم خصوصی
 subplat-privacy-plaintext = نکات حفظ حریم خصوصی:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = لغو اشتراک
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = فعال‌سازی دوبارهٔ اشتراک
 subplat-privacy-policy = سیاست حفظ حریم خصوصی { -brand-mozilla }
+subplat-privacy = محرمانگی
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = به { $productName } خوش آمدید
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = به { $productName } خوش آمدید
 newDeviceLogin-action = مدیریت حساب‌کاربری
 passwordChanged-title = گذرواژه با موفقیت تغییر کرد
 passwordChangeRequired-signoff = بهترین ها،
+passwordReset-subject = گذرواژه به‌روز شد
 passwordReset-title = گذرواژه حساب شما تغییر کرد
 passwordReset-description = برای از سرگیری همگام‌سازی باید گذرواژه جدید خود را در دستگاه‌های دیگر وارد کنید.
 postAddAccountRecovery-action = مدیریت حساب‌کاربری
