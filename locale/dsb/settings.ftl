@@ -241,6 +241,8 @@ ready-start-browsing-button = Pśeglědowanje zachopiś
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = Móžośo něnto { $serviceName } wužywaś
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Móžośo něnto kontowe nastajenja wužywaś
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Wašo konto jo gótowo!
 ready-continue = Dalej
@@ -401,6 +403,9 @@ flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokóńcyś
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašogo kluca:
 flow-recovery-key-download-storage-ideas-folder-v2 = Zarědnik na wěstem rěźe
 flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
@@ -465,6 +470,7 @@ nav-email-comm = E-mailowa komunikacija
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pśi wuměnjanju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
+tfa-create-code-error = Pśi napóranju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 tfa-replace-code-success-1 =
     Nowe kody su s napórali. Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje
     na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
@@ -917,6 +923,13 @@ cookies-disabled-learn-more = Dalšne informacije
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Wobkšuśćo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Składujśo awtentifikaciske kody za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Składujśo toś te kody za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -930,12 +943,21 @@ inline-recovery-back-link = Slědk
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Kod za zawěsćeńsku awtentifikaciju
 inline-recovery-confirmation-description = Aby zasej pśistup k swójomu kontoju dostał, jolic sćo zgubił swój rěd, zapódajśo pšosym jaden ze swójich skłaźonych kodow za zawěsćeńsku awtentifikaciju.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Wobkšuśćo awtentifikaciski kod za zawěsćenje, <span>aby z kontowymi nastajenjami pókšacował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Wobkšuśćo awtentifikaciske kody za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Instalaciju pśetergnuś
 inline-totp-setup-continue-button = Dalej
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Pominajśo awtentifikaciske kody z jadnogo z <authenticationAppsLink>toś tych awtentifikaciskich nałoženjow</authenticationAppsLink>, aby pśidał swójomu kontoju wěstotnu rowninu.
 inline-totp-setup-ready-button = Gótowo
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Gaž proces jo dokóńcony, se awtentificěrowańske kody napóraju, kótarež móžośo zapódaś.
@@ -987,6 +1009,12 @@ pair-auth-complete-heading = Rěd jo zwězany
 
 ## Pair index page
 
+pair-sync-header = Synchronizěrujśo { -brand-firefox } na swójom telefonje abo tableśe
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synchronizěrujśo swój rěd
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Nic něnto
+pair-take-your-data-message = Wzejśo swóje rejtariki, cytańske znamjenja a gronidła wšuźi, źož { -brand-firefox } wužywaśo.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
