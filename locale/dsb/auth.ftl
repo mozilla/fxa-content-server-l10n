@@ -274,6 +274,9 @@ passwordResetAccountRecovery-title-2 = Gronidło jo se wuspěšnje slědk staji�
 passwordResetAccountRecovery-description-2 = Sćo wužył swój kontowy wótnowjeński kluc, aby swójo gronidło aktualizěrował wót:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Nowy kontowy wótnowjeński kluc napóraś
+passwordResetAccountRecovery-regen-required-mjml-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Musyśo se na wšych swójich synchronizěrowanych rědach znowego pśizjawiś. Njezabywajśo, nowe kontowy wótnowjeński kluc napóraś, aby ten wuměnił, kótaryž sćo wužył:
 postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Information on the browser and device triggering this string follows.
@@ -294,6 +297,7 @@ postAddTwoStepAuthentication-title-2 = Sćo zmóžnił dwójokšacowu awtentifik
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Sćo ju zmóžnił z:
 postAddTwoStepAuthentication-action = Konto zastojaś
+postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašogo awtentificěrowańskego nałoženja su kuždy raz trjebne, gaž se pśizjawjaśo.
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
 postChangePrimary-title = Nowa primarna e-mailowa adresa
 # Variables:
@@ -337,6 +341,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaśo wěcej wěstotne k
 postVerify-sub-title-3 = Wjaselimy se was wiźeś!
 postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
 postVerify-description-2 = To jo lažko! Instalštujśo jadnorje { -brand-firefox } na drugem rěźe a pśizawśo se za synchronizaciju. Na magisku wašnju!
+postVerify-sub-description = (Pst… Wóznamjenijo teke, až móžośo swóje cytańske znamjenja, gronidła a druge daty { -brand-firefox } dostaś, źožkuli sćo se pśizjawił.)
 postVerify-subject-3 = Witajśo k { -brand-firefox }!
 postVerify-setup-2 = Z drugim rědom zwězaś:
 postVerify-action-2 = Z drugim rědom zwězaś
