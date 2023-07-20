@@ -668,6 +668,10 @@ recent-activity-account-recovery-key-removed = Ключ восстановлен
 recent-activity-account-password-added = Добавлен новый пароль
 recent-activity-account-password-changed = Пароль изменён
 recent-activity-account-secondary-email-added = Добавлен дополнительный адрес электронной почты
+recent-activity-account-secondary-email-removed = Дополнительный адрес электронной почты удален
+recent-activity-account-emails-swapped = Основной и дополнительный адреса электронной почты поменялись местами
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Другая активность аккаунта
 
 # Account recovery key setup page
 
@@ -804,6 +808,8 @@ security-password-created-date = Создан { $date }
 security-not-set = Не настроена
 security-action-create = Создать
 security-set-password = Установите пароль для синхронизации и использования определенных функций безопасности учётной записи.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Просмотр последних действий в аккаунте
 
 ## Switch component
 
