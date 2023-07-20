@@ -18,6 +18,8 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-name-mozilla = Mozilla
+-brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
 project-brand = حساب‌های Firefox
@@ -25,6 +27,10 @@ project-brand = حساب‌های Firefox
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
 -brand-name-paypal = پی پالPayPal
+-brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
 
 ## Component - AppLayout
 
@@ -61,6 +67,7 @@ payment-confirmation-thanks-heading = سپاسگذاریم!
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = تلاش دوباره
 payment-error-manage-subscription-button = مدیریت اشتراک من
 
 ## Component - PaymentErrorView - IAP upgrade errors
@@ -127,6 +134,8 @@ document =
 
 ## Error messages
 
+# App error dialog
+general-error-heading = خطای عمومی برنامه
 basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
 payment-error-1 = اوووم. در تأیید پرداخت شما مشکلی وجود داشت. دوباره امتحان کنید یا با صادرکنندهٔ کارت خود تماس بگیرید.
 payment-error-2 = اوووم. در تأیید پرداخت شما مشکلی وجود داشت. با صادرکنندهٔ کارت خود تماس بگیرید.
@@ -156,6 +165,8 @@ pay-with-heading-card-only = پرداخت با کارت
 # but rather looked up in code and passed into the message as variables.
 
 brand-name-google-play = فروشگاه پلی { -brand-name-google }
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = فروشگاه اپل
 
 ## Routes - Product - Subscription upgrade
 

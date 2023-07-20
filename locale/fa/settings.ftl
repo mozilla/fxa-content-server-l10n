@@ -26,6 +26,12 @@
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = دریافت شد
+datablock-copy =
+    .message = رونوشت شد
+datablock-print =
+    .message = چاپ شد
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -47,6 +53,9 @@
 
 ## Input Password
 
+input-password-hide = پنهان کردن گذرواژه
+input-password-show = نمایش گذرواژه
+input-password-hide-aria = مخفی کردن گذرواژه از صفحه.
 
 ## LinkDamaged component
 
@@ -121,9 +130,11 @@ dc-learn-more = بیشتر بدانید
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = خروج
 
 ## Flow Container
 
+flow-container-back = بازگشت
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -145,6 +156,8 @@ dc-learn-more = بیشتر بدانید
 
 # HeaderLockup component
 
+header-menu-open = بستن منو
+header-menu-closed = منوی ناوبری سایت
 header-back-to-top-link =
     .title = برگشت به بالا
 header-title = حساب فایرفاکس
@@ -226,6 +239,7 @@ delete-account-header =
     .title = حذف حساب کاربری
 delete-account-step-1-2 = مرحله ۱ از ۲
 delete-account-step-2-2 = مرحله ۲ از ۲
+delete-account-acknowledge = لطفا در تایید کنید که با حذف حساب کاربری خود:
 delete-account-continue-button = ادامه
 delete-account-password-input =
     .label = گذرواژه را وارد کنید

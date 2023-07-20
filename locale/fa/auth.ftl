@@ -17,7 +17,10 @@ subplat-cancel = لغو اشتراک
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = فعال‌سازی دوبارهٔ اشتراک
 subplat-privacy-policy = سیاست حفظ حریم خصوصی { -brand-mozilla }
+subplat-legal = ملاحظات حقوقی
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = محرمانگی
+subplat-privacy-website-plaintext = { subplat-privacy }:
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
 #  Variables:
