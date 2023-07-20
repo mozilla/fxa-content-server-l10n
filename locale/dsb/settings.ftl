@@ -13,6 +13,10 @@ banner-dismiss-button =
 # This message is displayed in a success banner
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Mejlka jo se znowego pósłała. Pśidajśo swójim kontaktam { $accountsEmail }, aby dodaśe bźez problemow zawěsćił.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-link-error-message = Něco njejo se raźiło. Nowy wótkaz njedajo se słaś.
+# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
+link-expired-resent-code-error-message = Něco njejo se raźiło. Nowy code njedajo se słaś.
 
 ## ButtonDownloadRecoveryKey
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
@@ -42,6 +46,9 @@ recovery-key-file-download-date-v2 = * Kluc jo se napórał: { $downloadDate }
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt = Praktiska wěda do wašogo postowego kašćika dójźo. Registrěrujśo se za wěcej:
+# Newsletter checklist item
+choose-newsletters-option-firefox-accounts-journey =
+    .label = Wobstarajśo se nejnowše informacije wó { -brand-mozilla } a { -brand-firefox }
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet =
     .label = Zasajźćo se za strowy internet
@@ -156,6 +163,10 @@ signin-recovery-code-image-description =
     .aria-label = Dokument, kótaryž schowany tekst wopśimujo.
 signin-totp-code-image-label =
     .aria-label = Rěd ze schowanym 6-městnowym kodom.
+confirm-signup-aria-label =
+    .aria-label = Wobalka, kótaraž wótkaz wopśimujo
+lock-image-aria-label =
+    .aria-label = Ilustracija pytka
 
 ## Input Password
 

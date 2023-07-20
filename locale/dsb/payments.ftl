@@ -392,6 +392,36 @@ plan-price-interval-week =
             [few] { $amount } kužde { $intervalCount } tyźenje
            *[other] { $amount } kužde { $intervalCount } tyźenjow
         }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } kuždy mjasec
+        [two] { $amount } kuždej { $intervalCount } mjaseca
+        [few] { $amount } kužde { $intervalCount } mjasece
+       *[other] { $amount } kužde { $intervalCount } mjasecow
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kuždy mjasec
+            [two] { $amount } kuždej { $intervalCount } mjaseca
+            [few] { $amount } kužde { $intervalCount } mjasece
+           *[other] { $amount } kužde { $intervalCount } mjasecow
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } kužde lěto
+        [two] { $amount } kuždej { $intervalCount } lěśe
+        [few] { $amount } kužde { $intervalCount } lěta
+       *[other] { $amount } kužde { $intervalCount } lět
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } kužde lěto
+            [two] { $amount } kuždej { $intervalCount } lěśe
+            [few] { $amount } kužde { $intervalCount } lěta
+           *[other] { $amount } kužde { $intervalCount } lět
+        }
 
 ## Error messages
 
@@ -446,6 +476,8 @@ sub-update-payment-title = Płaśeńske informacije
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Z kórtu płaśiś
+product-invoice-preview-error-title = Problem pśi cytanju pśeglěda zliceńki
+product-invoice-preview-error-text = Pśeglěd zliceńki njedajo se zacytaś
 
 ## Routes - Product - IapRoadblock
 
@@ -507,6 +539,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem pśi cytanju zliceńkow
 sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje zaktualizěrowali
+sub-invoice-previews-error-title = Problem pśi cytanju pśeglědow zliceńkow
+sub-invoice-previews-error-text = Pśeglědy zliceńkow njedaju se zacytaś
 
 ## Routes - Subscription - ActionButton
 
@@ -539,6 +573,7 @@ sub-item-no-such-plan = Žeden plan za toś ten abonement.
 invoice-not-found = Naslědna zliceńka njejo se namakała
 sub-item-no-such-subsequent-invoice = Naslědna zliceńka njejo se namakała za toś ten abonement.
 sub-invoice-preview-error-title = Pśeglěd zliceńki njejo se namakał
+sub-invoice-preview-error-text = Pśeglěd zliceńki njejo se namakał za toś ten abonement
 
 ## Routes - Subscriptions - Pocket Subscription
 
