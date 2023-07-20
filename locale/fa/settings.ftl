@@ -145,6 +145,10 @@ dc-learn-more = بیشتر بدانید
 
 # HeaderLockup component
 
+header-back-to-top-link =
+    .title = برگشت به بالا
+header-title = حساب فایرفاکس
+header-help = راهنما
 
 ## Linked Accounts section
 
@@ -153,13 +157,19 @@ la-description = شما مجوز دسترسی به حساب‌های زیر را
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
+modal-close-title = بستن
 modal-cancel-button = لغو
 
 ## Modal Verify Session
 
+msv-cancel-button = انصراف
 
 ## Settings Nav
 
+nav-settings = تنظیمات
+nav-profile = نمایه
+nav-security = امنیت
+nav-connected-services = خدمات متصل
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -167,6 +177,20 @@ tfa-replace-code-2-2 = مرحلهٔ ۲ از ۲
 
 ## Avatar change page
 
+avatar-page-add-photo = اضافه کردن تصویر
+avatar-page-take-photo = عکس گرفتن
+avatar-page-remove-photo = عکس تصویر
+avatar-page-retake-photo = گرفتن دوباره تصویر
+avatar-page-cancel-button = انصراف
+avatar-page-save-button = ذخیره
+avatar-page-saving-button = در حال ذخیره…
+avatar-page-zoom-out-button =
+    .title = کوچک‌نمایی
+avatar-page-zoom-in-button =
+    .title = بزرگنمایی
+avatar-page-rotate-button =
+    .title = چرخش
+avatar-page-camera-error = نمی‌توان دوربین را راه‌اندازی کرد
 
 ##
 
@@ -175,6 +199,15 @@ tfa-replace-code-2-2 = مرحلهٔ ۲ از ۲
 
 pw-change-header =
     .title = تغییر گذرواژه
+pw-change-cancel-button = انصراف
+pw-change-save-button = ذخیره
+pw-change-forgot-password-link = گذرواژه را فراموش کرده‌اید؟
+pw-change-current-password =
+    .label = گذرواژهٔ فعلی را وارد کنید
+pw-change-new-password =
+    .label = یک گذرواژه جدید وارد کنید
+pw-change-confirm-password =
+    .label = تایید گذرواژه جدید
 
 ##
 
@@ -189,16 +222,23 @@ pw-create-header =
 
 ## Delete account page
 
+delete-account-header =
+    .title = حذف حساب کاربری
+delete-account-step-1-2 = مرحله ۱ از ۲
+delete-account-step-2-2 = مرحله ۲ از ۲
 delete-account-continue-button = ادامه
 delete-account-password-input =
     .label = گذرواژه را وارد کنید
 delete-account-cancel-button = لغو
+delete-account-delete-button-2 = حذف
 
 ##
 
 
 ## Display name page
 
+submit-display-name = ذخیره
+cancel-display-name = انصراف
 
 ##
 
@@ -211,12 +251,20 @@ delete-account-cancel-button = لغو
 
 # Account recovery key setup page
 
+recovery-key-cancel-button = انصراف
+recovery-key-close-button = بستن
+recovery-key-continue-button = ادامه
+recovery-key-enter-password =
+    .label = گذرواژه را وارد کنید
+recovery-key-step-1 = مرحله ۱ از ۲
+recovery-key-step-2 = مرحله ۲ از ۲
 
 ## PageRecoveryKeyCreate
 
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = مرحله ۱ از ۲
 add-secondary-email-cancel-button = لغو
 add-secondary-email-save-button = ذخیره
 
