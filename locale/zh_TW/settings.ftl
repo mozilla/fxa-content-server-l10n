@@ -356,7 +356,6 @@ cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
-cs-recent-activity = 近期帳號活動
 
 ##
 
@@ -626,19 +625,20 @@ display-name-success-alert-2 = 已更新顯示名稱
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 近期帳號活動
-recent-activity-account-create = 已建立帳號
-recent-activity-account-disable = 已停用帳號
-recent-activity-account-enable = 已啟用帳號
-recent-activity-account-login = 帳號進行登入
-recent-activity-account-reset = 帳號進行密碼重設
-recent-activity-emails-clearBounces = 已處理帳號退信
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = 已建立帳號
+recent-activity-account-disable-v2 = 帳號已停用
+recent-activity-account-enable-v2 = 已啟用帳號
+recent-activity-account-two-factor-added = 已開啟兩階段驗證
+recent-activity-account-two-factor-requested = 已要求進行兩階段驗證
+recent-activity-account-two-factor-failure = 兩階段驗證失敗
+recent-activity-account-two-factor-success = 兩階段驗證成功
+recent-activity-account-two-factor-removed = 已移除兩階段驗證
+recent-activity-account-password-changed = 密碼已修改
 
 # Account recovery key setup page
 
