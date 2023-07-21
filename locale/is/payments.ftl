@@ -451,6 +451,7 @@ sub-change-submit = Staðfesta breytingu
 sub-update-current-plan-label = Núverandi áskriftarleið
 sub-update-new-plan-label = Ný áskriftarleið
 sub-update-total-label = Ný heildarupphæð
+sub-update-prorated-upgrade = Leiðrétt uppfærsla
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
