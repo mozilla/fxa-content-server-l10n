@@ -647,6 +647,17 @@ recent-activity-title = Nýleg virkni reiknings
 recent-activity-account-create-v2 = Reikningur búinn til
 recent-activity-account-disable-v2 = Reikningur gerður óvirkur
 recent-activity-account-enable-v2 = Reikningur gerður virkur
+recent-activity-account-login-v2 = Beðið um innskráningu á reikning
+recent-activity-account-reset-v2 = Beðið um endurstillingu lykilorðs
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Endursendingar tölvupósts hreinsaðar
+recent-activity-account-login-failure = Tilraun til innskráningar á reikning mistókst
+recent-activity-account-two-factor-added = Tveggja-þrepa auðkenning virkjuð
+recent-activity-account-two-factor-requested = Beðið um tveggja-þrepa auðkenningu
+recent-activity-account-two-factor-failure = Tveggja-þrepa auðkenning mistókst
+recent-activity-account-two-factor-success = Tveggja-þrepa auðkenning tókst
+recent-activity-account-two-factor-removed = Tveggja-þrepa auðkenning fjarlægð
 recent-activity-account-password-added = Nýju lykilorði bætt við
 recent-activity-account-password-changed = Lykilorði breytt
 
