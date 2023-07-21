@@ -633,12 +633,30 @@ recent-activity-title = 近期帳號活動
 recent-activity-account-create-v2 = 已建立帳號
 recent-activity-account-disable-v2 = 帳號已停用
 recent-activity-account-enable-v2 = 已啟用帳號
+recent-activity-account-login-v2 = 帳號開始登入
+recent-activity-account-reset-v2 = 開始重設密碼
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = 清除郵件退信狀態
+recent-activity-account-login-failure = 帳號嘗試登入失敗
 recent-activity-account-two-factor-added = 已開啟兩階段驗證
 recent-activity-account-two-factor-requested = 已要求進行兩階段驗證
 recent-activity-account-two-factor-failure = 兩階段驗證失敗
 recent-activity-account-two-factor-success = 兩階段驗證成功
 recent-activity-account-two-factor-removed = 已移除兩階段驗證
+recent-activity-account-password-reset-requested = 帳號要求重設密碼
+recent-activity-account-password-reset-success = 帳號密碼重設成功
+recent-activity-account-recovery-key-added = 已啟用帳號救援金鑰
+recent-activity-account-recovery-key-verification-failure = 帳號救援金鑰驗證失敗
+recent-activity-account-recovery-key-verification-success = 帳號救援金鑰驗證成功
+recent-activity-account-recovery-key-removed = 已刪除救援金鑰
+recent-activity-account-password-added = 已新增密碼
 recent-activity-account-password-changed = 密碼已修改
+recent-activity-account-secondary-email-added = 已加入次要電子郵件地址
+recent-activity-account-secondary-email-removed = 已刪除次要電子郵件地址
+recent-activity-account-emails-swapped = 已交換主要與次要電子郵件地址
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = 其他帳號活動
 
 # Account recovery key setup page
 
@@ -766,6 +784,8 @@ security-password-created-date = 建立於 { $date }
 security-not-set = 未設定
 security-action-create = 設定
 security-set-password = 設定密碼，方可使用同步功能與其他帳號安全相關功能。
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = 檢視近期帳號活動
 
 ## Switch component
 

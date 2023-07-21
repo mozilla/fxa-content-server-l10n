@@ -445,6 +445,7 @@ sub-change-submit = 確認變更
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金額
+sub-update-prorated-upgrade = 按比例破月升級
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
