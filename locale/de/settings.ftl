@@ -645,14 +645,14 @@ display-name-success-alert-2 = Anzeigename aktualisiert
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Letzte Kontoaktivität
-recent-activity-account-create-v2 = Konto hinzugefügt
+recent-activity-account-create-v2 = Konto erstellt
 recent-activity-account-disable-v2 = Konto deaktiviert
 recent-activity-account-enable-v2 = Konto aktiviert
 recent-activity-account-login-v2 = Anmeldung für das Konto initiiert
-recent-activity-account-reset-v2 = Zurücksetzen des Passworts gestartet
+recent-activity-account-reset-v2 = Zurücksetzen des Passworts initiiert
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = Unzulässige E-Mail-Adressen gelöscht
+recent-activity-emails-clearBounces-v2 = Mitteilungen über zurückgewiesene E-Mails gelöscht
 recent-activity-account-login-failure = Anmeldeversuch mit dem Konto fehlgeschlagen
 recent-activity-account-two-factor-added = Zwei-Schritt-Authentifizierung aktiviert
 recent-activity-account-two-factor-requested = Zwei-Schritt-Authentifizierung angefordert
