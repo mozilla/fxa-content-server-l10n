@@ -642,7 +642,7 @@ recent-activity-account-login-v2 = Connexion au compte initiée
 recent-activity-account-reset-v2 = Réinitialisation du mot de passe initiée
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = Refus d’e-mails effacés
+recent-activity-emails-clearBounces-v2 = Alerte de refus d’e-mails supprimée
 recent-activity-account-login-failure = Échec de tentative de connexion au compte
 recent-activity-account-two-factor-added = Authentification en deux étapes activée
 recent-activity-account-two-factor-requested = Authentification en deux étapes demandée
