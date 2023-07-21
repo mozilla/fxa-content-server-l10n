@@ -396,6 +396,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjens
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -404,6 +406,9 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjens
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokónčić
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašeho kluča:
 flow-recovery-key-download-storage-ideas-folder-v2 = Rjadowak na wěstym graće
 flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
@@ -596,6 +601,23 @@ display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Najnowša kontowa aktiwita
+recent-activity-account-create-v2 = Konto załožene
+recent-activity-account-disable-v2 = Konto znjemóžnjene
+recent-activity-account-enable-v2 = Konto zmóžnjene
+recent-activity-account-two-factor-added = Dwukročelowa awtentifikacija zmóžnjena
+recent-activity-account-two-factor-requested = Dwukročelowa awtentifikacija požadana
+recent-activity-account-two-factor-failure = Dwukročelowa awtentifikacija je so nimokuliła
+recent-activity-account-two-factor-success = Dwukročelowa awtentifikacija wuspěšna
+recent-activity-account-two-factor-removed = Dwukročelowa awtentifikacija wotstronjena
+recent-activity-account-password-reset-success = Kontowe hesło je so wuspěšnje wróćo stajiło
+recent-activity-account-recovery-key-added = Kontowy wobnowjenski kluč zmóžnjeny
+recent-activity-account-recovery-key-removed = Kontowy wobnowjenski kluč je so wotstronił
+recent-activity-account-password-added = Nowe hesło je so přidało
+recent-activity-account-password-changed = Hesło je so změniło
+recent-activity-account-secondary-email-added = Sekundarna e-mejlowa adresa je so přidała
+recent-activity-account-secondary-email-removed = Sekundarna e-mejlowa adresa je so wotstroniła
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Druha kontowa aktiwita
 
 # Account recovery key setup page
 
@@ -724,6 +746,8 @@ security-password-created-date = Wutworjeny: { $date }
 security-not-set = Njenastajeny
 security-action-create = Wutworić
 security-set-password = Nastajće hesło, zo byšće wěste wěstotne funkcije konta synchronizował a wužiwał.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Najnowšu kontowu aktiwitu pokazać
 
 ## Switch component
 
@@ -952,10 +976,16 @@ inline-totp-setup-cancel-setup-button = Instalaciju přetorhnyć
 inline-totp-setup-continue-button = Dale
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Požadajće awtentifikaciske kody z jednoho z <authenticationAppsLink>tutych awtentifikaciskich nałoženjow</authenticationAppsLink>, zo byšće swojemu kontu wěstotnu runinu přidał.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Zmóžńće dwukročelowu awtentifikaciju, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Zmóžńće dwukročelowu awtentifikaciju, <span>zo byšće z { $serviceName } pokročował</span>
 inline-totp-setup-ready-button = Hotowy
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-custom-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z { $serviceName } pokročował</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Zapodajće kod z ruku, <span>zo byšće z { $serviceName } pokročował</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
