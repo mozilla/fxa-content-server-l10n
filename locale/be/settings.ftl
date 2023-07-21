@@ -653,6 +653,28 @@ recent-activity-account-disable-v2 = Уліковы запіс адключан�
 recent-activity-account-enable-v2 = Уліковы запіс уключаны
 recent-activity-account-login-v2 = Пачаты ўваход у ўліковы запіс
 recent-activity-account-reset-v2 = Пачаты скід пароля
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Адмовы электроннай пошты ачышчаны
+recent-activity-account-login-failure = Спроба ўваходу ў уліковы запіс не ўдалася
+recent-activity-account-two-factor-added = Двухэтапная аўтарызацыя ўключана
+recent-activity-account-two-factor-requested = Запытана двухэтапная аўтарызацыя
+recent-activity-account-two-factor-failure = Двухэтапная аўтарызацыя не ўдалася
+recent-activity-account-two-factor-success = Двухэтапная аўтарызацыя паспяховая
+recent-activity-account-two-factor-removed = Двухэтапная аўтарызацыя выдалена
+recent-activity-account-password-reset-requested = Уліковы запіс запытаў скід пароля
+recent-activity-account-password-reset-success = Скід пароля ўліковага запісу паспяховы
+recent-activity-account-recovery-key-added = Ключ аднаўлення ўліковага запісу ўключаны
+recent-activity-account-recovery-key-verification-failure = Праверка ключа аднаўлення ўліковага запісу не ўдалася
+recent-activity-account-recovery-key-verification-success = Праверка ключа аднаўлення ўліковага запісу паспяховая
+recent-activity-account-recovery-key-removed = Ключ аднаўлення ўліковага запісу выдалены
+recent-activity-account-password-added = Дададзены новы пароль
+recent-activity-account-password-changed = Пароль зменены
+recent-activity-account-secondary-email-added = Дададзены другі адрас электроннай пошты
+recent-activity-account-secondary-email-removed = Другі адрас электроннай пошты выдалены
+recent-activity-account-emails-swapped = Асноўны і другі адрас электроннай пошты памяняліся месцамі
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Іншыя дзеянні ўліковага запісу
 
 # Account recovery key setup page
 
@@ -789,6 +811,8 @@ security-password-created-date = Створаны { $date }
 security-not-set = Не ўстаноўлены
 security-action-create = Стварыць
 security-set-password = Усталюйце пароль для сінхранізацыі і выкарыстання пэўных функцый бяспекі ўліковага запісу.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Паглядзець апошнія дзеянні ўліковага запісу
 
 ## Switch component
 
