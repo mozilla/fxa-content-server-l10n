@@ -989,6 +989,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Zapodajće kod z ruku, <span>z
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Zapodajće kod z ruku, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
