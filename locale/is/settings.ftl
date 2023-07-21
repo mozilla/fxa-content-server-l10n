@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
     lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
-cs-recent-activity = Nýleg virkni reiknings
 
 ##
 
@@ -640,19 +639,16 @@ display-name-success-alert-2 = Birtingarnafn uppfært
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nýleg virkni reiknings
-recent-activity-account-create = Reikningur var búinn til
-recent-activity-account-disable = Reikningur var gerður óvirkur
-recent-activity-account-enable = Reikningur var virkjaður
-recent-activity-account-login = Innskráning frá reikningi
-recent-activity-account-reset = Endurstilling lykilorðs frá reikningi
-recent-activity-emails-clearBounces = Endursendingar pósts hreinsaðar af reikningi
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Reikningur búinn til
+recent-activity-account-disable-v2 = Reikningur gerður óvirkur
+recent-activity-account-enable-v2 = Reikningur gerður virkur
+recent-activity-account-password-added = Nýju lykilorði bætt við
+recent-activity-account-password-changed = Lykilorði breytt
 
 # Account recovery key setup page
 
