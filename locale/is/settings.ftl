@@ -658,8 +658,19 @@ recent-activity-account-two-factor-requested = Beðið um tveggja-þrepa auðken
 recent-activity-account-two-factor-failure = Tveggja-þrepa auðkenning mistókst
 recent-activity-account-two-factor-success = Tveggja-þrepa auðkenning tókst
 recent-activity-account-two-factor-removed = Tveggja-þrepa auðkenning fjarlægð
+recent-activity-account-password-reset-requested = Endurstillt lykilorð samkvæmt beiðni frá reikningi
+recent-activity-account-password-reset-success = Endurstilling lykilorðs reiknings tókst
+recent-activity-account-recovery-key-added = Endurheimtulykill reiknings virkur
+recent-activity-account-recovery-key-verification-failure = Sannvottun endurheimtulykils reiknings mistókst
+recent-activity-account-recovery-key-verification-success = Sannvottun endurheimtulykils reiknings tókst
+recent-activity-account-recovery-key-removed = Endurheimtulykill reiknings fjarlægður
 recent-activity-account-password-added = Nýju lykilorði bætt við
 recent-activity-account-password-changed = Lykilorði breytt
+recent-activity-account-secondary-email-added = Aukapóstfangi bætt við
+recent-activity-account-secondary-email-removed = Aukatölvupóstfang fjarlægt
+recent-activity-account-emails-swapped = Skipt var um aðal- og aukatölvupóstföng
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Önnur virkni á reikningi
 
 # Account recovery key setup page
 
@@ -793,6 +804,8 @@ security-password-created-date = Búið til { $date }
 security-not-set = Ekki stillt
 security-action-create = Búa til
 security-set-password = Settu lykilorð til að samstilla og nota ákveðna öryggiseiginleika reikningsins.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Skoða nýlega virkni á reikningi
 
 ## Switch component
 
