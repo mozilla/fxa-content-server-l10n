@@ -667,8 +667,8 @@ recent-activity-account-recovery-key-verification-success = Verifizierung des Ko
 recent-activity-account-recovery-key-removed = Kontowiederherstellungsschlüssel entfernt
 recent-activity-account-password-added = Neues Passwort hinzugefügt
 recent-activity-account-password-changed = Passwort geändert
-recent-activity-account-secondary-email-added = Zweit-E-Mail-Adresse hinzugefügt
-recent-activity-account-secondary-email-removed = Zweit-E-Mail-Adresse entfernt
+recent-activity-account-secondary-email-added = Sekundäre E-Mail-Adresse hinzugefügt
+recent-activity-account-secondary-email-removed = Sekundäre E-Mail-Adresse entfernt
 recent-activity-account-emails-swapped = Primär- und Sekundär-E-Mail-Adresse vertauscht
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Andere Kontoaktivitäten
