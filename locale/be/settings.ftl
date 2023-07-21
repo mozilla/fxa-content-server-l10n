@@ -371,7 +371,6 @@ cs-disconnect-suspicious-advice-content =
     Вам таксама варта змяніць любыя іншыя паролі,
     якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
 cs-sign-out-button = Выйсці
-cs-recent-activity = Апошнія дзеянні ўліковага запісу
 
 ##
 
@@ -644,19 +643,16 @@ display-name-success-alert-2 = Бачнае імя абноўлена
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Апошнія дзеянні ўліковага запісу
-recent-activity-account-create = Уліковы запіс створаны
-recent-activity-account-disable = Уліковы запіс адключаны
-recent-activity-account-enable = Уліковы запіс уключаны
-recent-activity-account-login = Уваход ініцыяваны ўліковым запісам
-recent-activity-account-reset = Скід пароля ініцыяваны ўліковым запісам
-recent-activity-emails-clearBounces = Уліковы запіс ачысціў недастаўленую пошту
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Уліковы запіс створаны
+recent-activity-account-disable-v2 = Уліковы запіс адключаны
+recent-activity-account-enable-v2 = Уліковы запіс уключаны
+recent-activity-account-login-v2 = Пачаты ўваход у ўліковы запіс
+recent-activity-account-reset-v2 = Пачаты скід пароля
 
 # Account recovery key setup page
 
