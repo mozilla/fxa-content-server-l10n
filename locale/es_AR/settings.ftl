@@ -649,11 +649,11 @@ recent-activity-account-login-v2 = Inicio de sesión en la cuenta
 recent-activity-account-reset-v2 = Se inició el restablecimiento de la contraseña
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = Mensajes devueltos eliminados
+recent-activity-emails-clearBounces-v2 = Correos rebotados eliminados
 recent-activity-account-login-failure = Falló el intento de ingreso a la cuenta
 recent-activity-account-two-factor-added = Se habilitó la autenticación en dos pasos
 recent-activity-account-two-factor-requested = Autenticación de dos pasos solicitada
-recent-activity-account-two-factor-failure = Falló la autenticación de dos pasos
+recent-activity-account-two-factor-failure = Falló la autenticación en dos pasos
 recent-activity-account-two-factor-success = Autenticación en dos pasos exitosa
 recent-activity-account-two-factor-removed = Se eliminó la autenticación en dos pasos
 recent-activity-account-password-reset-requested = Se ha solicitado el restablecimiento de la contraseña

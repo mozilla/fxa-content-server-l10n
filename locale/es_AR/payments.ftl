@@ -458,10 +458,10 @@ sub-update-prorated-upgrade = Actualización prorrateada
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
-sub-update-new-plan-daily = { $productName } (diario)
-sub-update-new-plan-weekly = { $productName } (semanal)
-sub-update-new-plan-monthly = { $productName } (mensual)
-sub-update-new-plan-yearly = { $productName } (anual)
+sub-update-new-plan-daily = { $productName } (Diario)
+sub-update-new-plan-weekly = { $productName } (Semanal)
+sub-update-new-plan-monthly = { $productName } (Mensual)
+sub-update-new-plan-yearly = { $productName } (Anual)
 
 ##
 
