@@ -40,6 +40,10 @@ recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date-v2 = * Kluč je so wutworił: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Zhońće wjace wo swojim kontowym wobnowjenskim kluču: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -165,6 +169,8 @@ signin-totp-code-image-label =
     .aria-label = Grat ze schowanym 6-městnowym kodom.
 confirm-signup-aria-label =
     .aria-label = Wobalka, kotraž wotkaz wobsahuje
+lock-image-aria-label =
+    .aria-label = Ilustracija zamka
 
 ## Input Password
 
@@ -346,7 +352,6 @@ cs-disconnect-suspicious-advice-content =
     změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
     adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
-cs-recent-activity = Najnowša kontowa aktiwita
 
 ##
 
@@ -586,17 +591,11 @@ display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Najnowša kontowa aktiwita
-recent-activity-account-create = Konto je so załožiło
-recent-activity-account-disable = Konto je so znjemóžniło
-recent-activity-account-enable = Konto je so zmóžniło
-recent-activity-account-login = Přez konto iniciěrowane přizjewjenje
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
