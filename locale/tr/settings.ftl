@@ -362,7 +362,6 @@ cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-sign-out-button = Çıkış yap
-cs-recent-activity = Son hesap etkinlikleri
 
 ##
 
@@ -630,19 +629,38 @@ display-name-success-alert-2 = Görünen ad güncellendi
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Son hesap etkinlikleri
-recent-activity-account-create = Hesap oluşturuldu
-recent-activity-account-disable = Hesap devre dışı bırakıldı
-recent-activity-account-enable = Hesap etkinleştirildi
-recent-activity-account-login = Hesap, giriş işlemini başlattı
-recent-activity-account-reset = Hesap, parola sıfırlamayı başlattı
-recent-activity-emails-clearBounces = Hesap, geri dönen e-postaları temizledi
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Hesap oluşturuldu
+recent-activity-account-disable-v2 = Hesap devre dışı bırakıldı
+recent-activity-account-enable-v2 = Hesap etkinleştirildi
+recent-activity-account-login-v2 = Hesap girişi başlatıldı
+recent-activity-account-reset-v2 = Parola sıfırlama başlatıldı
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Geri dönen e-postalar temizlendi
+recent-activity-account-login-failure = Hesaba giriş denemesi başarısız oldu
+recent-activity-account-two-factor-added = İki aşamalı kimlik doğrulama etkinleştirildi
+recent-activity-account-two-factor-requested = İki aşamalı kimlik doğrulama istendi
+recent-activity-account-two-factor-failure = İki aşamalı kimlik doğrulama başarısız oldu
+recent-activity-account-two-factor-success = İki aşamalı doğrulama başarılı oldu
+recent-activity-account-two-factor-removed = İki aşamalı kimlik doğrulama kaldırıldı
+recent-activity-account-password-reset-requested = Parola sıfırlama istendi
+recent-activity-account-password-reset-success = Hesap parolası başarıyla sıfırlandı
+recent-activity-account-recovery-key-added = Hesap kurtarma anahtarı etkinleştirildi
+recent-activity-account-recovery-key-verification-failure = Hesap kurtarma anahtarı doğrulanamadı
+recent-activity-account-recovery-key-verification-success = Hesap kurtarma anahtarı başarıyla doğrulandı
+recent-activity-account-recovery-key-removed = Hesap kurtarma anahtarı kaldırıldı
+recent-activity-account-password-added = Yeni parola eklendi
+recent-activity-account-password-changed = Parola değiştirildi
+recent-activity-account-secondary-email-added = İkinci e-posta adresi eklendi
+recent-activity-account-secondary-email-removed = İkinci e-posta adresi kaldırıldı
+recent-activity-account-emails-swapped = Birinci ve ikinci e-postalar birbirleriyle değiştirildi
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Diğer hesap etkinlikleri
 
 # Account recovery key setup page
 
@@ -773,6 +791,8 @@ security-password-created-date = Oluşturma: { $date }
 security-not-set = Ayarlanmamış
 security-action-create = Oluştur
 security-set-password = Eşitleme yapmak ve belirli hesap güvenlik özelliklerini kullanmak için parolanızı belirleyin.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Son hesap etkinliklerini görüntüle
 
 ## Switch component
 

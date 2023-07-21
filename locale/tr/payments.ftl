@@ -70,7 +70,8 @@ new-user-enter-email =
     .label = E-posta adresinizi yazın
 new-user-confirm-email =
     .label = E-postanızı doğrulayın
-new-user-subscribe-product-updates = { -brand-name-firefox } ile ilgili yeniliklerden haberdar olmak istiyorum
+new-user-subscribe-product-updates-mozilla = { -brand-mozilla }’dan ürün haberleri ve duyuruları almak istiyorum
+new-user-subscribe-product-updates-snp = { -brand-mozilla }’dan güvenlik ve gizlilik ile ilgili haberleri ve duyuruları almak istiyorum
 new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
 new-user-email-validate = E-posta geçerli değil
 new-user-email-validate-confirm = E-postalar eşleşmiyor
@@ -438,6 +439,19 @@ sub-change-submit = Değişikliği onaylayın
 sub-update-current-plan-label = Geçerli plan
 sub-update-new-plan-label = Yeni plan
 sub-update-total-label = Yeni toplam
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (Günlük)
+sub-update-new-plan-weekly = { $productName } (Haftalık)
+sub-update-new-plan-monthly = { $productName } (Aylık)
+sub-update-new-plan-yearly = { $productName } (Yıllık)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
