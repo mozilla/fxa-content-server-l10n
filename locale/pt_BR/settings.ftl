@@ -356,7 +356,6 @@ cs-disconnect-lost-advice-content-2 = Como seu dispositivo foi perdido ou roubad
 cs-disconnect-suspicious-advice-heading = Desconectado dispositivo suspeito
 cs-disconnect-suspicious-advice-content = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
 cs-sign-out-button = Sair
-cs-recent-activity = Atividade recente da conta
 
 ##
 
@@ -626,19 +625,16 @@ display-name-success-alert-2 = Nome de exibição atualizado
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Atividade recente da conta
-recent-activity-account-create = A conta foi criada
-recent-activity-account-disable = A conta foi desativada
-recent-activity-account-enable = A conta foi ativada
-recent-activity-account-login = Iniciado acesso na conta
-recent-activity-account-reset = Iniciada redefinição de senha da conta
-recent-activity-emails-clearBounces = A conta removeu a não entrega de emails
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Conta criada
+recent-activity-account-disable-v2 = Conta desativada
+recent-activity-account-enable-v2 = Conta ativada
+recent-activity-account-two-factor-added = Autenticação em duas etapas ativada
+recent-activity-account-two-factor-requested = Autenticação em duas etapas solicitada
 
 # Account recovery key setup page
 
