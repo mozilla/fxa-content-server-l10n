@@ -176,8 +176,17 @@ signin-totp-code-image-label =
     .aria-label = Жасырын 6 цифрлық коды бар құрылғы.
 confirm-signup-aria-label =
     .aria-label = Сілтемесі бар конверт
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Тіркелгіні қалпына келтіру кілтін бейнелейтін сурет.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Тіркелгіні қалпына келтіру кілтін бейнелейтін сурет.
 lock-image-aria-label =
     .aria-label = Құлыптың суреті
+lightbulb-aria-label =
+    .aria-label = Сақтау туралы кеңес жасауды бейнелейтін сурет.
 
 ## Input Password
 
@@ -642,6 +651,30 @@ recent-activity-title = Тіркелгінің жуырдағы белсенді
 recent-activity-account-create-v2 = Тіркелгі жасалды
 recent-activity-account-disable-v2 = Тіркелгі сөндірілді
 recent-activity-account-enable-v2 = Тіркелгі іске қосылды
+recent-activity-account-login-v2 = Тіркелгіге кіру басталды
+recent-activity-account-reset-v2 = Парольді тастау басталды
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Эл. поштаның кері қайтарылуы өшірілді
+recent-activity-account-login-failure = Тіркелгіге кіру әрекеті сәтсіз аяқталды
+recent-activity-account-two-factor-added = Екі қадамды аутентификация іске қосылды
+recent-activity-account-two-factor-requested = Екі қадамды аутентификация сұралды
+recent-activity-account-two-factor-failure = Екі қадамды аутентификация сәтсіз аяқталды
+recent-activity-account-two-factor-success = Екі қадамды аутентификация сәтті аяқталды
+recent-activity-account-two-factor-removed = Екі қадамды аутентификация өшірілді
+recent-activity-account-password-reset-requested = Тіркелгі парольді тастауды сұрады
+recent-activity-account-password-reset-success = Тіркелгі паролін тастау сәтті аяқталды
+recent-activity-account-recovery-key-added = Тіркелгіні қалпына келтіру кілті іске қосылды
+recent-activity-account-recovery-key-verification-failure = Тіркелгіні қалпына келтіру кілтін растау сәтсіз аяқталды
+recent-activity-account-recovery-key-verification-success = Тіркелгіні қалпына келтіру кілтін растау сәтті аяқталды
+recent-activity-account-recovery-key-removed = Тіркелгіні қалпына келтіру кілті өшірілді
+recent-activity-account-password-added = Жаңа пароль қосылды
+recent-activity-account-password-changed = Пароль өзгертілді
+recent-activity-account-secondary-email-added = Екіншілік эл. пошта адресі қосылды
+recent-activity-account-secondary-email-removed = Екіншілік эл. пошта адресі өшірілді
+recent-activity-account-emails-swapped = Негізгі және екіншілік эл. пошталар өзара ауыстырылды
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Тіркелгінің басқа белсенділігі
 
 # Account recovery key setup page
 
@@ -776,6 +809,8 @@ security-password-created-date = { $date } күні жасалған
 security-not-set = Орнатылмаған
 security-action-create = Жасау
 security-set-password = Синхрондау және белгілі бір тіркелгінің қауіпсіздік мүмкіндіктерін пайдалану үшін парольді орнатыңыз.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Тіркелгінің жуырдағы белсенділігін қарау
 
 ## Switch component
 
@@ -1014,9 +1049,21 @@ inline-totp-setup-cancel-setup-button = Баптаудан бас тарту
 inline-totp-setup-continue-button = Жалғастыру
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = <authenticationAppsLink>Осы аутентификация қолданбаларының</authenticationAppsLink> бірінен аутентификация кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = <span>Тіркелгі баптауларына өту үшін</span> екі қадамдық аутентификацияны іске қосыңыз
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = <span>{ $serviceName } қызметіне өту үшін</span> екі қадамдық аутентификацияны іске қосыңыз
 inline-totp-setup-ready-button = Дайын
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = <span>{ $serviceName } қызметіне өту үшін</span> аутентификация кодын сканерлеңіз
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = <span>{ $serviceName } қызметіне өту үшін</span> кодты қолмен енгізіңіз
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = <span>Тіркелгі баптауларына өту үшін</span> аутентификация кодын сканерлеңіз
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = <span>Тіркелгі баптауларына өту үшін</span> кодты қолмен енгізіңіз
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Бұл құпия кілтті аутентификация қолданбасына теріңіз. <toggleToQRButton>Оның орнына QR кодын сканерлеу керек пе?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
@@ -1058,6 +1105,9 @@ pair-auth-allow-refuse-device-link = Бұл сіз болмасаңыз, <link>�
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Құрылғы байланыстырылды
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Сіз енді синхрондаудасыз: { $deviceFamily }, { $deviceOS } жүйесінде
 pair-auth-complete-sync-benefits-text = Енді сіз барлық құрылғыларда өзіңіздің ашық беттер, парольдер және бетбелгілерге қол жеткізе аласыз.
 pair-auth-complete-see-tabs-button = Синхрондалған құрылғылардан беттерді қарау
 pair-auth-complete-manage-devices-link = Құрылғыларды басқару
@@ -1066,6 +1116,14 @@ pair-auth-complete-manage-devices-link = Құрылғыларды басқару
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> аутентификация кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> аутентификация кодын енгізіңіз
+auth-totp-instruction = Аутентификация қолданбаңызды ашып, ол ұсынған аутентификация кодын енгізіңіз.
 auth-totp-input-label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Растау
@@ -1094,6 +1152,8 @@ pair-already-have-firefox-paragraph = Телефонда немесе планш
 pair-sync-your-device-button = Құрылғыңызды синхрондаңыз
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Немесе жүктеп алу
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Мобильді { -brand-firefox } жүктеп алу үшін сканерлеңіз немесе өзіңізге <linkExternal>жүктеп алу сілтемесін</linkExternal> жіберіңіз.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Қазір емес
 pair-take-your-data-message = { -brand-firefox } қолданбасын пайдаланатын барлық жерде беттер, бетбелгілер және парольдерді алыңыз.
@@ -1133,6 +1193,7 @@ pair-unsupported-message = Жүйелік камераны пайдаланды�
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Күте тұрыңыз, сіз авторизацияланған қолданбаға қайта бағытталып жатырсыз.
 
 ## AccountRecoveryConfirmKey page
 
