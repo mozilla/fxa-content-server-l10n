@@ -612,6 +612,12 @@ recent-activity-account-two-factor-removed = Dwójokšacowa awtentifikacija jo s
 recent-activity-account-password-reset-success = Kontowe gronidło jo se wuspěšnje slědk stajiło
 recent-activity-account-recovery-key-added = Kontowy wótnowjeński kluc zmóžnjony
 recent-activity-account-recovery-key-removed = Kontowy wótnowjeński kluc jo se wótwónoźeł
+recent-activity-account-password-added = Nowe gronidło pśidane
+recent-activity-account-password-changed = Gronidło změnjone
+recent-activity-account-secondary-email-added = Sekundarna e-mailowa adresa pśidana
+recent-activity-account-secondary-email-removed = Sekundarna e-mailowa adresa wótwónoźona
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Druga kontowa aktiwita
 
 # Account recovery key setup page
 
@@ -738,6 +744,8 @@ security-password-created-date = Napórany: { $date }
 security-not-set = Njenastajony
 security-action-create = Napóraś
 security-set-password = Nastajśo gronidło, aby wěste wěstotne funkcije konta synchronizěrował a wužywał.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Nejnowšu kontowu aktiwitu pokazaś
 
 ## Switch component
 
@@ -966,7 +974,21 @@ inline-totp-setup-cancel-setup-button = Instalaciju pśetergnuś
 inline-totp-setup-continue-button = Dalej
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Pominajśo awtentifikaciske kody z jadnogo z <authenticationAppsLink>toś tych awtentifikaciskich nałoženjow</authenticationAppsLink>, aby pśidał swójomu kontoju wěstotnu rowninu.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Zmóžniśo dwójokšacowu awtentifikaciju, <span>aby z kontowymi nastajenjami pókšacował</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Zmóžniśo dwójokšacowu awtentifikaciju, <span>aby z { $serviceName } pókšacował</span>
 inline-totp-setup-ready-button = Gótowo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skannujśo awtentifikaciski kod, <span>aby z { $serviceName } pókšacował</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Zapódajśo kod z ruku, <span>aby z { $serviceName } pókšacował</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skannujśo awtentifikaciski kod, <span>aby z kontowymi nastajenjami pókšacował</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Zapódajśo kod z ruku, <span>aby z kontowymi nastajenjami pókšacował</span>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Gaž proces jo dokóńcony, se awtentificěrowańske kody napóraju, kótarež móžośo zapódaś.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1001,19 +1023,43 @@ pair-auth-allow-confirm-button = Jo, rěd pśizwóliś
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Rěd jo zwězany
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Synchronizěrujośo něnto z: { $deviceFamily } na { $deviceOS }
+pair-auth-complete-sync-benefits-text = Něnto maśo pśistup k swójim wócynjonym rejtarikam, gronidłam a cytańskim znamjenjam na wšych swójich rědach.
+pair-auth-complete-see-tabs-button = Rejtariki ze synchronizěrowanych rědow pokazaś
+pair-auth-complete-manage-devices-link = Rědy zastojaś
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Zapódajśo awtentifikaciski kod, <span>aby z kontowymi nastajenjami pókšacował</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Zapódajśo awtentifikaciski kod, <span>aby z { $serviceName } pókšacował</span>
+auth-totp-instruction = Wócyńśo swójo awtentificěrowańske nałoženje a zapódajśo k dispoziciji stajony awtentifikaciski kod.
+auth-totp-input-label = 6-městnowy kod zapódaś
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Wobkšuśiś
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Awtentifikaciski kod trjebny
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Koplowanje njejo se raźiło
+pair-failure-message = Instalěrowański proces jo se skóńcył.
 
 ## Pair index page
 
@@ -1022,6 +1068,8 @@ pair-cad-header = { -brand-firefox } na drugem rěźe zwězaś
 pair-already-have-firefox-paragraph = Maśo južo { -brand-firefox } na telefonje abo tableśe?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizěrujśo swój rěd
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Abo ześěgniśo
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Nic něnto
 pair-take-your-data-message = Wzejśo swóje rejtariki, cytańske znamjenja a gronidła wšuźi, źož { -brand-firefox } wužywaśo.
@@ -1064,6 +1112,13 @@ pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju 
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Stajśo gronidło z kontowym wótnowjeńskim klucom slědk, <span>aby z kontowymi nastajenjami pókšacował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Stajśo gronidło z kontowym wótnowjeńskim klucom slědk, <span>aby z { $serviceName } pókšacował</span>
 account-recovery-confirm-key-instructions = Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju { -product-firefox-account } měł.
 account-recovery-confirm-key-warning-message = <span>GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo swój skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane serwerowe daty ako historiju a cytańske znamjenja).
 # Prompts the user to enter their account recovery code
