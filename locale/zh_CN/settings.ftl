@@ -358,7 +358,6 @@ cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改保存在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
-cs-recent-activity = 最近的账户活动
 
 ##
 
@@ -628,19 +627,13 @@ display-name-success-alert-2 = 显示名称已更新
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 最近的账户活动
-recent-activity-account-create = 账户已创建
-recent-activity-account-disable = 账户已禁用
-recent-activity-account-enable = 账户已启用
-recent-activity-account-login = 账户发起的登录
-recent-activity-account-reset = 账户发起的密码重置
-recent-activity-emails-clearBounces = 账户已清除退件
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = 其他账户活动
 
 # Account recovery key setup page
 
@@ -768,6 +761,8 @@ security-password-created-date = 创建于 { $date }
 security-not-set = 未设置
 security-action-create = 创建
 security-set-password = 请设置密码以启用同步及使用更多账户安全功能。
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = 查看近期账户活动
 
 ## Switch component
 
