@@ -647,6 +647,28 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create-v2 = Cuenta creada
 recent-activity-account-disable-v2 = Cuenta deshabilitada
+recent-activity-account-enable-v2 = Cuenta habilitada
+recent-activity-account-login-v2 = Conexión a la cuenta iniciada
+recent-activity-account-reset-v2 = Restablecimiento de contraseña iniciado
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Correos rebotados eliminados
+recent-activity-account-login-failure = Intento de conexión a la cuenta fallido
+recent-activity-account-two-factor-added = Autenticación en dos pasos activada
+recent-activity-account-two-factor-requested = Autenticación en dos pasos solicitada
+recent-activity-account-two-factor-failure = Autenticación en dos pasos fallida
+recent-activity-account-two-factor-success = Autenticación en dos pasos exitosa
+recent-activity-account-two-factor-removed = Autenticación en dos pasos eliminada
+recent-activity-account-password-reset-requested = Se solicitó un restablecimiento de contraseña
+recent-activity-account-password-reset-success = Restablecimiento de contraseña de cuenta exitoso
+recent-activity-account-recovery-key-added = Clave de recuperación de cuenta activada
+recent-activity-account-recovery-key-verification-failure = Verificación de clave de recuperación de cuenta fallida
+recent-activity-account-recovery-key-verification-success = Verificación de clave de recuperación de cuenta exitosa
+recent-activity-account-recovery-key-removed = Clave de recuperación de cuenta eliminada
+recent-activity-account-password-added = Nueva contraseña añadida
+recent-activity-account-password-changed = Contraseña cambiada
+recent-activity-account-secondary-email-added = Dirección de correo secundario añadida
+recent-activity-account-secondary-email-removed = Dirección de correo secundario eliminada
 
 # Account recovery key setup page
 
