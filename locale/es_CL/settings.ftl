@@ -368,7 +368,6 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account } en la configuración de tu cuenta. También debes cambiar cualquier otra
     contraseña que hayas guardado en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Salir
-cs-recent-activity = Actividad reciente de la cuenta
 
 ##
 
@@ -641,19 +640,13 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Actividad reciente de la cuenta
-recent-activity-account-create = La cuenta fue creada
-recent-activity-account-disable = La cuenta fue deshabilitada
-recent-activity-account-enable = La cuenta fue habilitada
-recent-activity-account-login = Se inició un intento de conexión a la cuenta
-recent-activity-account-reset = Se inició un restablecimiento de contraseña
-recent-activity-emails-clearBounces = Se solucionaron los rebotes de correo de la cuenta
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Cuenta creada
+recent-activity-account-disable-v2 = Cuenta deshabilitada
 
 # Account recovery key setup page
 
