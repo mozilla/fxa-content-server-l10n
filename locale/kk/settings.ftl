@@ -30,6 +30,9 @@ recovery-key-download-button-v3 = Жүктеп алу және жалғасты�
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = ТІРКЕЛГІНІ ҚАЛПЫНА КЕЛТІРУ КІЛТІН САҚТАҢЫЗ
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Тіркелгіні қалпына келтіру кілті бар бұл файлды есте сақтайтын жерде сақтаңыз. Немесе оны басып шығарып, физикалық көшірмесін сақтаңыз. Парольді ұмытып қалсаңыз, тіркелгіні қалпына келтіру кілті { -brand-firefox } деректерін қалпына келтіруге көмектеседі.
 # "Key" here refers to the term "account recovery key", a randomly generated 32-character code
 # containing a mix of numbers and letters (excluding I, L, O, U)
 recovery-key-file-key-value-v3 = Кілт:
@@ -40,6 +43,10 @@ recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date-v2 = * Кілт жасалды: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Тіркелгіңізді қалпына келтіру кілті туралы қосымша ақпарат алыңыз: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -400,6 +407,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Тіркелгіні қ
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Тіркелгіні қалпына келтіру кілті жасалды — Қазір жүктеп алыңыз және сақтаңыз
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Бұл кілт парольді ұмытып қалсаңыз, деректерді қалпына келтіруге мүмкіндік береді. Оны қазір жүктеп алып, есіңізде қалатын жерде сақтаңыз — бұл бетке кейінірек орала алмайсыз.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Жүктеп алмай жалғастыру
 
@@ -410,14 +419,42 @@ flow-recovery-key-download-next-link-v2 = Жүктеп алмай жалғаст
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Кілтті табуға көмектесу үшін кеңес қосу
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Бұл кеңес тіркелгіңізді қалпына келтіру кілтін қайда сақтағаныңызды есте сақтауға көмектеседі. Біз оны деректерді қалпына келтіру үшін парольді қалпына келтіру кезінде көрсете аламыз.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Кеңес енгізіңіз (міндетті емес)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Аяқтау
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Кілтіңізді сақтайтын орындар:
+flow-recovery-key-download-storage-ideas-folder-v2 = Қауіпсіз құрылғыдағы бума
+flow-recovery-key-download-storage-ideas-cloud = Сенімді бұлттық қойма
+flow-recovery-key-download-storage-ideas-print-v2 = Басылған физикалық көшірме
+flow-recovery-key-download-storage-ideas-pwd-manager = Парольдер басқарушысы
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Тіркелгіні қалпына келтіру кілті жасалды
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Кеңес 255 таңбадан аз болуы тиіс.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Кеңесте қауіпті юникод таңбалары болмауы керек. Тек әріптерге, сандарға, тыныс белгілеріне және белгілерге рұқсат етіледі.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Парольді ұмытып қалған жағдайы үшін тіркелгіні қалпына келтіру кілтін жасаңыз
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Тіркелгіңізді қалпына келтіру кілтін өзгерту
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Біз шолу деректерін шифрлейміз –– парольдер, бетбелгілер және т.б. Бұл жекелік үшін тамаша, бірақ, парольді ұмытып қалсаңыз, деректеріңізді жоғалтуыңыз мүмкін.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Сондықтан тіркелгіні қалпына келтіру кілтін жасау өте маңызды –– оны деректеріңізді қалпына келтіру үшін пайдалануға болады.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Бастау
 # Link to cancel account recovery key change and return to settings
