@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
     salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
-cs-recent-activity = Viimeaikaiset tilitapahtumat
 
 ##
 
@@ -643,19 +642,33 @@ display-name-success-alert-2 = Näyttönimi päivitetty
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Viimeaikaiset tilitapahtumat
-recent-activity-account-create = Tili luotiin
-recent-activity-account-disable = Tili poistettiin käytöstä
-recent-activity-account-enable = Tili otettiin käyttöön
-recent-activity-account-login = Tili käynnisti kirjautumisen
-recent-activity-account-reset = Tili käynnisti salasanan nollauksen
-recent-activity-emails-clearBounces = Tili tyhjensi kimmonneet sähköpostiviestit
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Tili luotu
+recent-activity-account-disable-v2 = Tili poistettu käytöstä
+recent-activity-account-enable-v2 = Tili otettu käyttöön
+recent-activity-account-login-failure = Tilin kirjautumisyritys epäonnistui
+recent-activity-account-two-factor-added = Kaksivaiheinen todennus otettu käyttöön
+recent-activity-account-two-factor-requested = Kaksivaiheista todennusta pyydetty
+recent-activity-account-two-factor-failure = Kaksivaiheinen todennus epäonnistui
+recent-activity-account-two-factor-success = Kaksivaiheinen todennus onnistui
+recent-activity-account-two-factor-removed = Kaksivaiheinen todennus poistettu
+recent-activity-account-password-reset-requested = Tili pyysi salasanan nollaamista
+recent-activity-account-password-reset-success = Tilin salasanan nollaus onnistui
+recent-activity-account-recovery-key-added = Tilin palautusavain otettu käyttöön
+recent-activity-account-recovery-key-verification-failure = Tilin palautusavaimen vahvistus epäonnistui
+recent-activity-account-recovery-key-verification-success = Tilin palautusavaimen vahvistus onnistui
+recent-activity-account-recovery-key-removed = Tilin palautusavain poistettu
+recent-activity-account-password-added = Uusi salasana lisätty
+recent-activity-account-password-changed = Salasana vaihdettu
+recent-activity-account-secondary-email-added = Toissijainen sähköpostiosoite lisätty
+recent-activity-account-secondary-email-removed = Toissijainen sähköpostiosoite poistettu
+recent-activity-account-emails-swapped = Ensisijainen ja toissijainen sähköpostiosoite vaihdettu
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Muuta toimintaa tilillä
 
 # Account recovery key setup page
 
@@ -792,6 +805,8 @@ security-password-created-date = Luotu { $date }
 security-not-set = Ei asetettu
 security-action-create = Luo
 security-set-password = Aseta salasana tilin tiettyjen suojausominaisuuksien synkronointia ja käyttöä varten.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Näytä viimeisimmät tilitapahtumat
 
 ## Switch component
 

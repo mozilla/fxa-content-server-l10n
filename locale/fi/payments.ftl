@@ -76,7 +76,6 @@ new-user-enter-email =
     .label = Kirjoita sähköpostiosoitteesi
 new-user-confirm-email =
     .label = Vahvista sähköposti
-new-user-subscribe-product-updates = Haluan saada tuotepäivityksiä { -brand-name-firefox }ilta
 new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
 new-user-email-validate = Sähköpostiosoite ei ole kelvollinen
 new-user-email-validate-confirm = Sähköpostiosoitteet eivät täsmää
@@ -447,6 +446,19 @@ sub-change-submit = Vahvista muutos
 sub-update-current-plan-label = Nykyinen tilaustyyppi
 sub-update-new-plan-label = Uusi tilaustyyppi
 sub-update-total-label = Uusi summa
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (päivittäin)
+sub-update-new-plan-weekly = { $productName } (viikoittain)
+sub-update-new-plan-monthly = { $productName } (kuukausittain)
+sub-update-new-plan-yearly = { $productName } (vuosittain)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
