@@ -105,6 +105,9 @@ subscriptionFirstInvoice-content-invoice-number = Nomer Paktur: <b>{ $invoiceNum
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Nomer Paktur: { $invoiceNumber }
 # Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+# Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Diskon: -{ $invoiceDiscountAmount }
 # Variables
@@ -119,6 +122,9 @@ subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangd
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Pikeun leuwih teleb, buka Pangrojong { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -130,6 +136,26 @@ device-browser-os = { $uaBrowser } di { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Alamat IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (ancer-ancer)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (ancer-ancer)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (ancer-ancer)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (ancer-ancer)
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Tingali Tagihan: %(invoiceLink)s
 cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -151,6 +177,9 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Anyar asup ka { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Lain anjeun? Ganti kecap sandina:
 newDeviceLogin-action = Kokolakeun akun
 passwordChanged-subject = Kecap sandi geus diropéa
 passwordChanged-title = Ngarobah sandi geus hasil
@@ -158,6 +187,7 @@ passwordChangeRequired-subject = Aya kagiatan picurigaeun
 passwordChangeRequired-title = Kudu Gandi Sandi
 passwordChangeRequired-sign-in = Asup deui ka sakur paranti atawa layanan anu maké akun { -product-firefox-account } sarta tuturkeun pituduh anu bakal dipidangkeun.
 passwordChangeRequired-signoff = Panghadéna
+passwordChangeRequired-signoff-name = Tim { -product-firefox-accounts }.
 passwordReset-subject = Kecap sandi geus diropéa
 passwordReset-title = Sandi akun anjeun geus dirobah
 passwordReset-description = Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pikeun ngahanca singkronan.
@@ -184,6 +214,16 @@ postVerifySecondary-action = Kokolakeun akun
 recovery-subject = Setél ulang kecap sandi anjeun
 recovery-action = Jieun sandi anyar
 subscriptionAccountDeletion-title = Pileuleuyan
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Wilujeng sumping di { $productName }
+subscriptionAccountFinishSetup-action-2 = Mitembeyan
+subscriptionAccountReminderSecond-title = Wilujeng sumping di { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Jieun Kecap Sandi
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Langganan { $productName } anjeun geus dibedokeun
 subscriptionCancellation-title = Pileuleuyan
 
 ## Variables
