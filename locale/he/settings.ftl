@@ -356,7 +356,6 @@ cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד 
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
-cs-recent-activity = פעילות אחרונה בחשבון
 
 ##
 
@@ -616,16 +615,32 @@ display-name-success-alert-2 = שם התצוגה עודכן
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = פעילות אחרונה בחשבון
-recent-activity-account-create = החשבון נוצר
-recent-activity-account-disable = החשבון הושבת
-recent-activity-account-enable = החשבון הופעל
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = החשבון נוצר
+recent-activity-account-disable-v2 = החשבון הושבת
+recent-activity-account-enable-v2 = החשבון הופעל
+recent-activity-account-two-factor-added = אימות דו־שלבי הופעל
+recent-activity-account-two-factor-requested = התבקש אימות דו־שלבי
+recent-activity-account-two-factor-failure = אימות דו־שלבי נכשל
+recent-activity-account-two-factor-success = אימות דו־שלבי הצליח
+recent-activity-account-two-factor-removed = אימות דו־שלבי הוסר
+recent-activity-account-password-reset-requested = החשבון ביקש איפוס ססמה
+recent-activity-account-password-reset-success = איפוס ססמת החשבון הצליחה
+recent-activity-account-recovery-key-added = מפתח לשחזור החשבון הופעל
+recent-activity-account-recovery-key-verification-failure = אימות המפתח לשחזור החשבון נכשל
+recent-activity-account-recovery-key-verification-success = אימות המפתח לשחזור החשבון הצליח
+recent-activity-account-recovery-key-removed = מפתח לשחזור החשבון הוסר
+recent-activity-account-password-added = נוספה ססמה חדשה
+recent-activity-account-password-changed = הססמה שונתה
+recent-activity-account-secondary-email-added = נוספה כתובת דוא״ל משנית
+recent-activity-account-secondary-email-removed = הוסרה כתובת דוא״ל משנית
+recent-activity-account-emails-swapped = הוחלפה כתובת הדוא״ל הראשית במשנית
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = פעילות אחרת בחשבון
 
 # Account recovery key setup page
 
@@ -746,6 +761,8 @@ security-password =
 security-password-created-date = נוצר ב־{ $date }
 security-not-set = לא מוגדר
 security-action-create = יצירה
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = הצגת פעילות אחרונה בחשבון
 
 ## Switch component
 

@@ -463,6 +463,19 @@ sub-update-current-plan-label = תוכנית נוכחית
 sub-update-new-plan-label = תוכנית חדשה
 sub-update-total-label = סה״כ חדש
 
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (יומי)
+sub-update-new-plan-weekly = { $productName } (שבועי)
+sub-update-new-plan-monthly = { $productName } (חודשי)
+sub-update-new-plan-yearly = { $productName } (שנתי)
+
+##
+
+
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = ביטול מינוי
