@@ -635,6 +635,15 @@ recent-activity-account-disable-v2 = Conta desativada
 recent-activity-account-enable-v2 = Conta ativada
 recent-activity-account-two-factor-added = Autenticação em duas etapas ativada
 recent-activity-account-two-factor-requested = Autenticação em duas etapas solicitada
+recent-activity-account-two-factor-failure = Falha na autenticação em duas etapas
+recent-activity-account-two-factor-success = Autenticação em duas etapas bem-sucedida
+recent-activity-account-two-factor-removed = Autenticação em duas etapas removida
+recent-activity-account-password-added = Nova senha adicionada
+recent-activity-account-password-changed = Senha alterada
+recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
+recent-activity-account-secondary-email-removed = Endereço de email secundário removido
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Outra atividade da conta
 
 # Account recovery key setup page
 
@@ -762,6 +771,8 @@ security-password-created-date = Criada em { $date }
 security-not-set = Não definida
 security-action-create = Criar
 security-set-password = Defina uma senha para sincronizar e usar determinados recursos de segurança da conta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver atividade recente da conta
 
 ## Switch component
 
