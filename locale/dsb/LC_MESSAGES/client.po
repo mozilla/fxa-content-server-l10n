@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-07-20 12:34+0000\n"
+"PO-Revision-Date: 2023-07-22 16:11+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -726,7 +726,7 @@ msgstr "Sćo e-mailowu adresu wopak napisał?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Docasny pśistup, aby nowe produkty testował"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"

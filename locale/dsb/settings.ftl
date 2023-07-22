@@ -40,6 +40,10 @@ recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # { $downloadDate } is a formatted date in the user's preferred locale
 # e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 recovery-key-file-download-date-v2 = * Kluc jo se napórał: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Zgóńśo wěcej wó swójom kontowem wótnowjeńskem klucu: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -348,7 +352,6 @@ cs-disconnect-suspicious-advice-content =
     změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
     adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
 cs-sign-out-button = Wótzjawiś
-cs-recent-activity = Nejnowša kontowa aktiwita
 
 ##
 
@@ -593,17 +596,22 @@ display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nejnowša kontowa aktiwita
-recent-activity-account-create = Konto jo se załožyło
-recent-activity-account-disable = Konto jo se znjemóžniło
-recent-activity-account-enable = Konto jo se zmóžniło
-recent-activity-account-login = Pśez konto iniciěrowane pśizjawjenje
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Konto załožone
+recent-activity-account-disable-v2 = Konto znjemóžnjone
+recent-activity-account-enable-v2 = Konto zmóžnjone
+recent-activity-account-two-factor-added = Dwójokšacowa awtentifikacija jo se zmóžniła
+recent-activity-account-two-factor-requested = Dwójokšacowa awtentifikacija jo se pominała
+recent-activity-account-two-factor-failure = Dwójokšacowa awtentifikacija njejo se raźiła
+recent-activity-account-two-factor-success = Dwójokšacowa awtentifikacija wuspěšna
+recent-activity-account-two-factor-removed = Dwójokšacowa awtentifikacija jo se wótwónoźeła
+recent-activity-account-password-reset-success = Kontowe gronidło jo se wuspěšnje slědk stajiło
+recent-activity-account-recovery-key-added = Kontowy wótnowjeński kluc zmóžnjony
+recent-activity-account-recovery-key-removed = Kontowy wótnowjeński kluc jo se wótwónoźeł
 
 # Account recovery key setup page
 
