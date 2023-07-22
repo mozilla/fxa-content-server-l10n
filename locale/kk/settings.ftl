@@ -22,6 +22,14 @@ link-expired-resent-code-error-message = Бірнәрсе қате кетті. �
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Жүктеп алу және жалғастыру
+    .title = Жүктеп алу және жалғастыру
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = ТІРКЕЛГІНІ ҚАЛПЫНА КЕЛТІРУ КІЛТІН САҚТАҢЫЗ
 # "Key" here refers to the term "account recovery key", a randomly generated 32-character code
 # containing a mix of numbers and letters (excluding I, L, O, U)
 recovery-key-file-key-value-v3 = Кілт:
@@ -347,7 +355,6 @@ cs-disconnect-suspicious-advice-content =
     паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы
     { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
 cs-sign-out-button = Шығу
-cs-recent-activity = Тіркелгінің жуырдағы белсенділігі
 
 ##
 
@@ -590,19 +597,14 @@ display-name-success-alert-2 = Көрсетілетін атыңыз жаңар�
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Тіркелгінің жуырдағы белсенділігі
-recent-activity-account-create = Тіркелгі жасалды
-recent-activity-account-disable = Тіркелгі сөндірілді
-recent-activity-account-enable = Тіркелгі іске қосылды
-recent-activity-account-login = Тіркелгі кіруді бастады
-recent-activity-account-reset = Тіркелгі парольді тастауды бастады
-recent-activity-emails-clearBounces = Тіркелгі эл. пошта қайталауларын тазарты
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Тіркелгі жасалды
+recent-activity-account-disable-v2 = Тіркелгі сөндірілді
+recent-activity-account-enable-v2 = Тіркелгі іске қосылды
 
 # Account recovery key setup page
 

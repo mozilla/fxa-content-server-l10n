@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Эл. поштаңызды енгізіңіз
 new-user-confirm-email =
     .label = Эл. пошта адресіңізді растаңыз
-new-user-subscribe-product-updates = Мен { -brand-name-firefox } өнім жаңалықтарын алғым келеді
+new-user-subscribe-product-updates-mozilla = Мен { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
+new-user-subscribe-product-updates-snp = Мен { -brand-mozilla } ұсынған қауіпсіздік пен жекелік жаңалықтары мен жаңартуларын алғым келеді
+new-user-subscribe-product-updates-hubs = Мен { -product-mozilla-hubs } және { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
+new-user-subscribe-product-updates-mdnplus = Мен { -product-mdn-plus } және { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
 new-user-subscribe-product-assurance = Біз эл. поштаңызды тек тіркелгіңізді жасау үшін пайдаланамыз. Біз оны ешқашан үшінші тарапқа сатпаймыз.
 new-user-email-validate = Эл. пошта жарамсыз
 new-user-email-validate-confirm = Эл. пошталар өзара сәйкес келмейді
@@ -440,10 +443,28 @@ sub-update-copy =
     Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің
     қалған бөлігі үшін түзетілген сома алынады.
     { $startingDate } күнінен бастап сізден толық сома алынады.
+sub-update-acknowledgment =
+    Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің
+    қалған бөлігі үшін пропорционалды сома бүгін алынады.
+    { $startingDate } күнінен бастап сізден толық сома алынады.
 sub-change-submit = Өзгерісті растау
 sub-update-current-plan-label = Ағымдағы жоспар
 sub-update-new-plan-label = Жаңа жоспар
 sub-update-total-label = Жаңа толық сома
+sub-update-prorated-upgrade = Пропорционалды жаңарту
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (күн сайын)
+sub-update-new-plan-weekly = { $productName } (апта сайын)
+sub-update-new-plan-monthly = { $productName } (ай сайын)
+sub-update-new-plan-yearly = { $productName } (жыл сайын)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
