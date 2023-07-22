@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = 请输入邮箱
 new-user-confirm-email =
     .label = 确认邮箱地址
-new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产品更新信息。
+new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand-mozilla } 的产品新闻和更新
+new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
+new-user-subscribe-product-updates-hubs = 我愿意接收来自 { -product-mozilla-hubs } 和 { -brand-mozilla } 的产品新闻及更新
+new-user-subscribe-product-updates-mdnplus = 我愿意接收来自 { -product-mdn-plus } 和 { -brand-mozilla } 的产品新闻及更新
 new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
 new-user-email-validate = 电子邮件地址无效
 new-user-email-validate-confirm = 两次输入的邮箱地址不同
@@ -438,6 +441,15 @@ sub-change-submit = 确认更改
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金额
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
