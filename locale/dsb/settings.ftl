@@ -1140,6 +1140,8 @@ create-new-password-header = Nowe gronidło napóraś
 account-restored-success-message = Sćo wuspěšnje wótnowił swójo konto z pomocu swójogo kontowego wótnowjeńskego kluca. Napórajśo nowe gronidło, aby swóje daty zawěsćił a składujśo jo na wěstem městnje.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Gronidło jo se nastajiło
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Njewótcakana zmólka jo nastała
 account-recovery-reset-password-redirecting = Pósrědnjaśo se dalej
 
 ## CompleteResetPassword component
@@ -1165,6 +1167,13 @@ confirm-pw-reset-instructions = Klikniśo w běgu góźiny na wótkaz, kótaryž
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Stajśo gronidło slědk, <span>aby z kontowymi nastajenjami pókšacował</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Stajśo gronidło slědk, <span>aby z { $serviceName } pókšacował</span>
 reset-password-warning-message-2 = <span>GLĚDAJŚO:</span> Gaž swójo gronidło slědk stajaśo, stajijośo swójo konto slědk. Móžośo někotare z wašych wósobinskich datow zgubiś (na pśikład historiju, cytańske znamjenjai a gronidła). Togodla zaklucujomy waše daty z wašym gronidłom, aby my wašu priwatnosć šćitali. Waše abonementy, kótarež snaź maśo, wobchowajośo a daty { -product-pocket } njejsu pótrjefjone.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
@@ -1180,6 +1189,8 @@ reset-password-with-recovery-key-verified-continue-to-account = Dalej k mójomu 
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Zmólka:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Pśizjawjenje se wobkšuśijo…
 
 ## ConfirmSignin component
 
@@ -1189,6 +1200,8 @@ confirm-signin-message = Pśepytujśo swóju e-mail za pśizjawjeńskim wóbkšu
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Zapódajśo swójo gronidło <span>za swójo konto { -product-firefox-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
@@ -1240,6 +1253,10 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Zapódajśo wobkšuśeński kod <span>za swójo konto { -product-firefox-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na { $email }.
 signin-token-code-input-label-v2 = 6-městnowy kod zapódaś
