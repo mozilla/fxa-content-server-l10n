@@ -669,6 +669,9 @@ recent-activity-account-password-added = Nueva contraseña añadida
 recent-activity-account-password-changed = Contraseña cambiada
 recent-activity-account-secondary-email-added = Dirección de correo secundario añadida
 recent-activity-account-secondary-email-removed = Dirección de correo secundario eliminada
+recent-activity-account-emails-swapped = Correos electrónicos primario y secundario intercambiados
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Otra actividad de la cuenta
 
 # Account recovery key setup page
 
@@ -800,6 +803,8 @@ security-password-created-date = Creada el { $date }
 security-not-set = No establecida
 security-action-create = Crear
 security-set-password = Establece una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver actividad reciente de la cuenta
 
 ## Switch component
 
