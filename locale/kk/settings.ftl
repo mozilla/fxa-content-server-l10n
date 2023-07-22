@@ -1240,6 +1240,7 @@ complete-reset-password-success-alert = Пароль орнатылды
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
+complete-reset-password-recovery-key-error = Кешіріңіз, сізде тіркелгіні қалпына келтіру кілті бар-жоғын тексеру кезінде мәселе туындады. <hasRecoveryKeyErrorLink>Тіркелгіні қалпына келтіру кілтімен парольді тастаңыз.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
@@ -1358,6 +1359,14 @@ signin-token-code-required-error = Растау коды қажет
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = <span>Тіркелгі баптауларына өту үшін</span> аутентификация кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = <span>{ $serviceName } қызметіне өту үшін</span> аутентификация кодын енгізіңіз
+signin-totp-code-instruction-v2 = Аутентификация қолданбаңызды ашып, ол ұсынған аутентификация кодын енгізіңіз.
 signin-totp-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
