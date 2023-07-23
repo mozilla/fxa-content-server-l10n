@@ -560,7 +560,7 @@ sub-change-submit = Cadarnhau'r newid
 sub-update-current-plan-label = Cynllun cyfredol
 sub-update-new-plan-label = Cynllun newydd
 sub-update-total-label = Cyfanswm newydd
-sub-update-prorated-upgrade = Uwchraddio Prorated
+sub-update-prorated-upgrade = Uwchraddio yn Ôl y Raddfa
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)

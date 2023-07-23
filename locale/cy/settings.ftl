@@ -652,7 +652,7 @@ recent-activity-account-login-v2 = Mewngofnodi cyfrif wedi'i gychwyn
 recent-activity-account-reset-v2 = Dechreuwyd ailosod cyfrinair
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = Clirio bownsio e-bost
+recent-activity-emails-clearBounces-v2 = Clirio bownsio e-byst
 recent-activity-account-login-failure = Methodd ymgais i fewngofnodi i'r cyfrif
 recent-activity-account-two-factor-added = Mae dilysu dau gam wedi ei alluogi
 recent-activity-account-two-factor-requested = Gofynnwyd am ddilysiad dau gam
@@ -660,7 +660,7 @@ recent-activity-account-two-factor-failure = Methodd dilysu dau gam
 recent-activity-account-two-factor-success = Dilysu dau gam yn llwyddiannus
 recent-activity-account-two-factor-removed = Mae dilysu dau gam wedi ei dynnu
 recent-activity-account-password-reset-requested = Ailosod cyfrinair y gofynnwyd amdano'r cyfrif
-recent-activity-account-password-reset-success = Ailosod cyfrinair cyfrif yn llwyddiannus
+recent-activity-account-password-reset-success = Ailosodwyd cyfrinair cyfrif yn llwyddiannus
 recent-activity-account-recovery-key-added = Allwedd adfer cyfrif wedi'i galluogi
 recent-activity-account-recovery-key-verification-failure = Methodd dilysu allwedd adfer y cyfrif
 recent-activity-account-recovery-key-verification-success = Gwiriad allwedd adfer cyfrif yn llwyddiannus
