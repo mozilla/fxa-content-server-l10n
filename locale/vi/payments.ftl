@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Nhập email của bạn
 new-user-confirm-email =
     .label = Xác nhận email của bạn
-new-user-subscribe-product-updates = Tôi muốn nhận các cập nhật sản phẩm từ { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Tôi muốn nhận tin tức và cập nhật về bảo mật và quyền riêng tư từ { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -product-mozilla-hubs } và { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -product-mdn-plus } và { -brand-mozilla }
 new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
 new-user-email-validate = Email không hợp lệ
 new-user-email-validate-confirm = Email không khớp
@@ -420,6 +423,20 @@ sub-change-submit = Xác nhận thay đổi
 sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
 sub-update-total-label = Tổng số mới
+sub-update-prorated-upgrade = Nâng cấp theo tỷ lệ
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (Hàng ngày)
+sub-update-new-plan-weekly = { $productName } (Hàng tuần)
+sub-update-new-plan-monthly = { $productName } (Hàng tháng)
+sub-update-new-plan-yearly = { $productName } (Hàng năm)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

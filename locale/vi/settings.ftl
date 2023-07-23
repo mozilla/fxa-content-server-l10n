@@ -650,6 +650,30 @@ recent-activity-title = Hoạt động tài khoản gần đây
 recent-activity-account-create-v2 = Đã tạo tài khoản
 recent-activity-account-disable-v2 = Tài khoản đã bị vô hiệu hóa
 recent-activity-account-enable-v2 = Đã kích hoạt tài khoản
+recent-activity-account-login-v2 = Đã bắt đầu đăng nhập tài khoản
+recent-activity-account-reset-v2 = Đã bắt đầu đặt lại mật khẩu
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Đã xóa email bị trả lại
+recent-activity-account-login-failure = Nỗ lực đăng nhập không thành công
+recent-activity-account-two-factor-added = Đã bật xác thực hai bước
+recent-activity-account-two-factor-requested = Đã yêu cầu xác thực hai bước
+recent-activity-account-two-factor-failure = Xác thực hai bước không thành công
+recent-activity-account-two-factor-success = Xác thực hai bước thành công
+recent-activity-account-two-factor-removed = Đã xóa xác thực hai bước
+recent-activity-account-password-reset-requested = Đã yêu cầu đặt lại mật khẩu tài khoản
+recent-activity-account-password-reset-success = Đặt lại mật khẩu tài khoản thành công
+recent-activity-account-recovery-key-added = Đã bật khóa khôi phục tài khoản
+recent-activity-account-recovery-key-verification-failure = Xác minh khóa khôi phục tài khoản không thành công
+recent-activity-account-recovery-key-verification-success = Xác minh khóa khôi phục tài khoản thành công
+recent-activity-account-recovery-key-removed = Đã xóa khóa khôi phục tài khoản
+recent-activity-account-password-added = Đã thêm mật khẩu mới
+recent-activity-account-password-changed = Đã thay đổi mật khẩu
+recent-activity-account-secondary-email-added = Đã thêm địa chỉ email phụ
+recent-activity-account-secondary-email-removed = Đã xóa địa chỉ email phụ
+recent-activity-account-emails-swapped = Đã hoán đổi giữa địa chỉ email chính và địa chỉ email phụ
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Hoạt động tài khoản khác
 
 # Account recovery key setup page
 
@@ -786,6 +810,8 @@ security-password-created-date = Đã tạo { $date }
 security-not-set = Chưa đặt
 security-action-create = Tạo
 security-set-password = Đặt mật khẩu để đồng bộ hóa và sử dụng các tính năng bảo mật tài khoản nhất định.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Xem hoạt động tài khoản gần đây
 
 ## Switch component
 
