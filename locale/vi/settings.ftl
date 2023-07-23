@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác
     mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:login vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
-cs-recent-activity = Hoạt động tài khoản gần đây
 
 ##
 
@@ -643,19 +642,14 @@ display-name-success-alert-2 = Đã cập nhật tên hiển thị
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Hoạt động tài khoản gần đây
-recent-activity-account-create = Đã tạo tài khoản
-recent-activity-account-disable = Đã vô hiệu hóa tài khoản
-recent-activity-account-enable = Đã kích hoạt tài khoản
-recent-activity-account-login = Tài khoản bắt đầu đăng nhập
-recent-activity-account-reset = Tài khoản đã đặt lại mật khẩu ban đầu
-recent-activity-emails-clearBounces = Tài khoản đã xóa email bị trả lại
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Đã tạo tài khoản
+recent-activity-account-disable-v2 = Tài khoản đã bị vô hiệu hóa
+recent-activity-account-enable-v2 = Đã kích hoạt tài khoản
 
 # Account recovery key setup page
 
