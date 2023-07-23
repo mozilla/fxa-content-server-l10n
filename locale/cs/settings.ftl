@@ -644,6 +644,12 @@ recent-activity-title = Nedávná aktivita účtu
 recent-activity-account-create-v2 = Účet vytvořen
 recent-activity-account-disable-v2 = Účet deaktivován
 recent-activity-account-enable-v2 = Účet povolen
+recent-activity-account-password-changed = Heslo změněno
+recent-activity-account-secondary-email-added = Přidán záložní e-mail
+recent-activity-account-secondary-email-removed = Odebrán záložní e-mail
+recent-activity-account-emails-swapped = Prohozen hlavní a záložní e-mail
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Jiná aktivita u účtu
 
 # Account recovery key setup page
 
@@ -775,6 +781,8 @@ security-password-created-date = Vytvořeno { $date }
 security-not-set = Nenastaveno
 security-action-create = Vytvořit
 security-set-password = Pro synchronizaci a některé bezpečnostní funkce vašeho účtu si nastavte heslo.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Zobrazit nedávnou aktivitu u účtu
 
 ## Switch component
 
