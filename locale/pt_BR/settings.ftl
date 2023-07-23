@@ -648,10 +648,13 @@ recent-activity-account-password-reset-requested = Redefinição de senha requis
 recent-activity-account-password-reset-success = Redefinição de senha da conta bem-sucedida
 recent-activity-account-recovery-key-added = Chave de recuperação de conta ativada
 recent-activity-account-recovery-key-verification-failure = Falha na verificação da chave de recuperação de conta
+recent-activity-account-recovery-key-verification-success = Verificação da chave de recuperação de conta bem-sucedida
+recent-activity-account-recovery-key-removed = Removida a chave de recuperação de conta
 recent-activity-account-password-added = Nova senha adicionada
 recent-activity-account-password-changed = Senha alterada
 recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
 recent-activity-account-secondary-email-removed = Endereço de email secundário removido
+recent-activity-account-emails-swapped = Emails primário e secundário invertidos
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 
