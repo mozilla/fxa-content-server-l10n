@@ -645,7 +645,7 @@ recent-activity-title = Actividad reciente de la cuenta
 recent-activity-account-create-v2 = Cuenta creada
 recent-activity-account-disable-v2 = Cuenta deshabilitada
 recent-activity-account-enable-v2 = Cuenta habilitada
-recent-activity-account-login-v2 = Inicio de sesión en la cuenta
+recent-activity-account-login-v2 = Sesión de cuenta iniciado
 recent-activity-account-reset-v2 = Se inició el restablecimiento de la contraseña
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
