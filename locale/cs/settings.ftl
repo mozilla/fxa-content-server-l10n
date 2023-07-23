@@ -364,7 +364,6 @@ cs-disconnect-suspicious-advice-content =
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-sign-out-button = Odhlásit se
-cs-recent-activity = Nedávná aktivita účtu
 
 ##
 
@@ -637,19 +636,14 @@ display-name-success-alert-2 = Zobrazované jméno aktualizováno
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nedávná aktivita účtu
-recent-activity-account-create = Účet byl vytvořen
-recent-activity-account-disable = Účet byl deaktivován
-recent-activity-account-enable = Účet byl povolen
-recent-activity-account-login = Účet inicioval přihlášení
-recent-activity-account-reset = Účet inicioval změnu hesla
-recent-activity-emails-clearBounces = Účet vymazal nedoručitelné e-maily
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Účet vytvořen
+recent-activity-account-disable-v2 = Účet deaktivován
+recent-activity-account-enable-v2 = Účet povolen
 
 # Account recovery key setup page
 
