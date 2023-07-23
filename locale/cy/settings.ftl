@@ -647,7 +647,7 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 recent-activity-title = Gweithgaredd Cyfrif Diweddar
 recent-activity-account-create-v2 = Cyfrif wedi'i greu
 recent-activity-account-disable-v2 = Analluogwyd y cyfrif
-recent-activity-account-enable-v2 = Cyfrif wedi'i alluogi
+recent-activity-account-enable-v2 = Galluogwyd y cyfrif
 recent-activity-account-login-v2 = Mewngofnodi cyfrif wedi'i gychwyn
 recent-activity-account-reset-v2 = Dechreuwyd ailosod cyfrinair
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
@@ -659,17 +659,17 @@ recent-activity-account-two-factor-requested = Gofynnwyd am ddilysiad dau gam
 recent-activity-account-two-factor-failure = Methodd dilysu dau gam
 recent-activity-account-two-factor-success = Dilysu dau gam yn llwyddiannus
 recent-activity-account-two-factor-removed = Mae dilysu dau gam wedi ei dynnu
-recent-activity-account-password-reset-requested = Ailosod cyfrinair y gofynnwyd amdano'r cyfrif
+recent-activity-account-password-reset-requested = Ailosodwyd cyfrinair y cyfrif y gofynnwyd amdano
 recent-activity-account-password-reset-success = Ailosodwyd cyfrinair cyfrif yn llwyddiannus
 recent-activity-account-recovery-key-added = Allwedd adfer cyfrif wedi'i galluogi
 recent-activity-account-recovery-key-verification-failure = Methodd dilysu allwedd adfer y cyfrif
-recent-activity-account-recovery-key-verification-success = Gwiriad allwedd adfer cyfrif yn llwyddiannus
-recent-activity-account-recovery-key-removed = Tynnwyd yr allwedd adfer cyfrif
+recent-activity-account-recovery-key-verification-success = Gwiriwyd allwedd adfer cyfrif yn llwyddiannus
+recent-activity-account-recovery-key-removed = Tynnwyd  allwedd adfer cyfrif
 recent-activity-account-password-added = Ychwanegwyd cyfrinair newydd
-recent-activity-account-password-changed = Cyfrinair wedi'i newid
-recent-activity-account-secondary-email-added = Cyfeiriad e-bost eilaidd wedi'i ychwanegu
-recent-activity-account-secondary-email-removed = Cyfeiriad e-bost eilaidd wedi'i dynnu
-recent-activity-account-emails-swapped = E-byst cynradd ac uwchradd wedi'u cyfnewid
+recent-activity-account-password-changed = Newidiwyd y cyfrinair
+recent-activity-account-secondary-email-added = Ail gyfeiriad e-bost wedi'i ychwanegu
+recent-activity-account-secondary-email-removed = Ail gyfeiriad e-bost wedi'i dynnu
+recent-activity-account-emails-swapped = E-byst cyntaf ac ail wedi'u cyfnewid
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Gweithgarwch cyfrif arall
 
@@ -809,7 +809,7 @@ security-not-set = Heb ei Osod
 security-action-create = Creu
 security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddion diogelwch cyfrif.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
-security-recent-activity-link = Gweld gweithgarwch cyfrif diweddar
+security-recent-activity-link = Gweld gweithgaredd diweddar cyfrif
 
 ## Switch component
 
