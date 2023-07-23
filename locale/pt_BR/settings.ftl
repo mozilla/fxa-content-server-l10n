@@ -633,11 +633,21 @@ recent-activity-title = Atividade recente da conta
 recent-activity-account-create-v2 = Conta criada
 recent-activity-account-disable-v2 = Conta desativada
 recent-activity-account-enable-v2 = Conta ativada
+recent-activity-account-login-v2 = Iniciada entrada na conta
+recent-activity-account-reset-v2 = Iniciada redefinição de senha
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Devoluções de email excluídas
+recent-activity-account-login-failure = Falha na tentativa de entrar na conta
 recent-activity-account-two-factor-added = Autenticação em duas etapas ativada
 recent-activity-account-two-factor-requested = Autenticação em duas etapas solicitada
 recent-activity-account-two-factor-failure = Falha na autenticação em duas etapas
 recent-activity-account-two-factor-success = Autenticação em duas etapas bem-sucedida
 recent-activity-account-two-factor-removed = Autenticação em duas etapas removida
+recent-activity-account-password-reset-requested = Redefinição de senha requisitada pela conta
+recent-activity-account-password-reset-success = Redefinição de senha da conta bem-sucedida
+recent-activity-account-recovery-key-added = Chave de recuperação de conta ativada
+recent-activity-account-recovery-key-verification-failure = Falha na verificação da chave de recuperação de conta
 recent-activity-account-password-added = Nova senha adicionada
 recent-activity-account-password-changed = Senha alterada
 recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
