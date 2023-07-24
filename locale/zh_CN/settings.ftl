@@ -636,7 +636,10 @@ recent-activity-account-create-v2 = 创建账户
 recent-activity-account-disable-v2 = 禁用账户
 recent-activity-account-enable-v2 = 启用账户
 recent-activity-account-login-v2 = 初始登录账户
-recent-activity-account-login-failure = 账户登录尝试，未成功
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = 邮件退件被清除
+recent-activity-account-login-failure = 尝试登录账户，未成功
 recent-activity-account-two-factor-added = 启用两步验证
 recent-activity-account-two-factor-requested = 请求两步验证
 recent-activity-account-two-factor-failure = 两步验证失败
