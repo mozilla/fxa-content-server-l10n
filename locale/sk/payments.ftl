@@ -80,7 +80,10 @@ new-user-enter-email =
     .label = Zadajte e-mailovú adresu
 new-user-confirm-email =
     .label = Potvrďte vašu e-mailovú adresu
-new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -brand-name-firefox(case: "loc") }
+new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o produktoch { -brand-mozilla(case: "gen") }
+new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
+new-user-subscribe-product-updates-hubs = Chcem dostávať novinky o produktoch od { -product-mozilla-hubs } a { -brand-mozilla(case: "gen") }
+new-user-subscribe-product-updates-mdnplus = Chcem dostávať novinky o produktoch od { -product-mdn-plus } a { -brand-mozilla(case: "gen") }
 new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
@@ -482,6 +485,19 @@ sub-change-submit = Potvrdiť zmenu
 sub-update-current-plan-label = Súčasný plán
 sub-update-new-plan-label = Nový plán
 sub-update-total-label = Nová suma spolu
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (denne)
+sub-update-new-plan-weekly = { $productName } (týždenne)
+sub-update-new-plan-monthly = { $productName } (mesačne)
+sub-update-new-plan-yearly = { $productName } (ročne)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

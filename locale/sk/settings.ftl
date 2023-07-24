@@ -371,7 +371,6 @@ cs-disconnect-suspicious-advice-content =
     uložili na prehliadači { -brand-firefox }, a to zadaním výrazu
     about:logins do panela s adresou.
 cs-sign-out-button = Odhlásiť sa
-cs-recent-activity = Nedávna aktivita účtu
 
 ##
 
@@ -644,19 +643,35 @@ display-name-success-alert-2 = Zobrazované meno aktualizované
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nedávna aktivita účtu
-recent-activity-account-create = Účet bol vytvorený
-recent-activity-account-disable = Účet bol deaktivovaný
-recent-activity-account-enable = Účet bol povolený
-recent-activity-account-login = Účet inicioval prihlásenie
-recent-activity-account-reset = Účet inicioval zmenu hesla
-recent-activity-emails-clearBounces = Účet vymazal nedoručiteľné e-maily
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Účet bol vytvorený
+recent-activity-account-disable-v2 = Účet bol deaktivovaný
+recent-activity-account-enable-v2 = Účet je povolený
+recent-activity-account-login-v2 = Bolo spustené prihlásenie pomocou účtu
+recent-activity-account-reset-v2 = Bolo spustené obnovenie hesla
+recent-activity-account-login-failure = Pokus o prihlásenie do účtu zlyhal
+recent-activity-account-two-factor-added = Dvojstupňové overenie bolo povolené
+recent-activity-account-two-factor-requested = Vyžaduje sa dvojstupňové overenie
+recent-activity-account-two-factor-failure = Dvojstupňové overenie zlyhalo
+recent-activity-account-two-factor-success = Dvojstupňové overenie bolo úspešné
+recent-activity-account-two-factor-removed = Dvojstupňové overenie bolo odstránené
+recent-activity-account-password-reset-requested = Účet si vyžiadal obnovenie hesla
+recent-activity-account-password-reset-success = Obnovenie hesla účtu bolo úspešné
+recent-activity-account-recovery-key-added = Kľúč na obnovenie účtu je povolený
+recent-activity-account-recovery-key-verification-failure = Overenie kľúča na obnovenie účtu zlyhalo
+recent-activity-account-recovery-key-verification-success = Overenie kľúča na obnovenie účtu bolo úspešné
+recent-activity-account-recovery-key-removed = Kľúč na obnovenie účtu bol odstránený
+recent-activity-account-password-added = Bolo pridané nové heslo
+recent-activity-account-password-changed = Heslo bolo zmenené
+recent-activity-account-secondary-email-added = Bola pridaná alternatívna e-mailová adresa
+recent-activity-account-secondary-email-removed = Alternatívna e-mailová adresa bola odstránená
+recent-activity-account-emails-swapped = Hlavná a alternatívna e-mailová adresa boli vzájomne vymenené
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Iná aktivita účtu
 
 # Account recovery key setup page
 
@@ -792,6 +807,8 @@ security-password-created-date = Vytvorené { $date }
 security-not-set = Nie je nastavené
 security-action-create = Vytvoriť
 security-set-password = Nastavte si heslo na synchronizáciu a používanie určitých funkcií zabezpečenia účtu.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Zobraziť nedávnu aktivitu účtu
 
 ## Switch component
 
