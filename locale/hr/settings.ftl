@@ -31,18 +31,55 @@ recovery-key-file-header = SPREMITE SVOJ KLJUČ ZA OPORAVAK RAČUNA
 recovery-key-file-key-value-v3 = Ključ:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Generirani ključ: { $downloadDate }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt = Praktično znanje stiže u tvoj ulazni sandučić. Registriraj se za više:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet =
+    .label = Poduzmi korake za održavanje zdravog interneta
+# Newsletter checklist item
+choose-newsletters-option-knowledge-is-power =
+    .label = Budi sigurniji i pametniji na internetu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt = Odaberi što će se sinkronizirati:
+choose-what-to-sync-option-bookmarks =
+    .label = Zabilješke
+choose-what-to-sync-option-history =
+    .label = Povijest
+choose-what-to-sync-option-passwords =
+    .label = Lozinke
+choose-what-to-sync-option-addons =
+    .label = Dodaci
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Otvorene kartice
+choose-what-to-sync-option-prefs =
+    .label = Postavke
+choose-what-to-sync-option-addresses =
+    .label = Adrese
+choose-what-to-sync-option-creditcards =
+    .label = Kreditne kartice
 
 ## ConfirmWithLink
 ## Users will see this page if a confirmation link was sent to their email address
 
+# Button to resend an email with the confirmation link
+confirm-with-link-resend-link-button = Nije u ulaznom sandučiću niti u sandučiću neželjenih e-mailova? Pošalji ponovo
+# The link target may vary depending on the user's entry point into the confirmation page
+confirm-with-link-back-link = Natrag
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -57,18 +94,60 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (procijenjeno)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (procijenjeno)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (procijenjeno)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (procijenjeno)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Lokacija nije poznata
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } na { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP adresa: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Lozinka
+signup-confirm-password-label =
+    .label = Ponovi lozinku
+signup-submit-button = Otvori račun
+form-reset-password-with-balloon-new-password =
+    .label = Nova lozinka
+form-reset-password-with-balloon-confirm-password =
+    .label = Ponovo upiši lozinku
+form-reset-password-with-balloon-submit-button = Resetiraj lozinku
+form-reset-password-with-balloon-match-error = Lozinke se ne podudaraju
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Ovo je obavezno polje
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
 get-data-trio-title-firefox-backup-verification-codes = Autentifikacijski kodovi za sigurnosne kopije za { -brand-firefox }
+get-data-trio-download-2 =
+    .title = Preuzmi
+    .aria-label = Preuzmi
+get-data-trio-copy-2 =
+    .title = Kopiraj
+    .aria-label = Kopiraj
+get-data-trio-print-2 =
+    .title = Ispiši
+    .aria-label = Ispiši
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
