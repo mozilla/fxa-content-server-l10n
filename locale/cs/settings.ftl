@@ -644,6 +644,22 @@ recent-activity-title = Nedávná aktivita účtu
 recent-activity-account-create-v2 = Účet vytvořen
 recent-activity-account-disable-v2 = Účet deaktivován
 recent-activity-account-enable-v2 = Účet povolen
+recent-activity-account-login-v2 = Přihlašování pomocí účtu
+recent-activity-account-reset-v2 = Spuštěno obnovení hesla
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-maily o nedoručení vymazány
+recent-activity-account-login-failure = Pokus o přihlášení selhal
+recent-activity-account-two-factor-added = Povoleno dvoufázové ověřování.
+recent-activity-account-two-factor-requested = Vyžaduje se dvoufázové ověření
+recent-activity-account-two-factor-failure = Dvoufázové ověření selhalo
+recent-activity-account-two-factor-success = Dvoufázové ověření bylo úspěšné
+recent-activity-account-two-factor-removed = Dvoufázové ověřování zrušeno
+recent-activity-account-password-reset-requested = Vyžádáno obnovení hesla u účtu
+recent-activity-account-password-reset-success = Obnovení hesla u účtu bylo úspěšné
+recent-activity-account-recovery-key-added = Povolen obnovovací klíč k účtu
+recent-activity-account-recovery-key-verification-failure = Ověření pomocí obnovovacího klíče selhalo
+recent-activity-account-recovery-key-verification-success = Ověření obnovovacího klíče k účtu bylo úspěšné
 recent-activity-account-recovery-key-removed = Odstraněn obnovovací klíč k účtu
 recent-activity-account-password-added = Nastaveno nové heslo
 recent-activity-account-password-changed = Heslo změněno
