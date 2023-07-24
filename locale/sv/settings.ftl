@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     för att skydda din information. Du bör också ändra alla andra lösenord som du har
     sparat i { -brand-firefox } genom att skriva about:logins in i adressfältet.
 cs-sign-out-button = Logga ut
-cs-recent-activity = Senaste kontoaktivitet
 
 ##
 
@@ -643,19 +642,38 @@ display-name-success-alert-2 = Visningsnamn uppdaterat
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Senaste kontoaktivitet
-recent-activity-account-create = Kontot skapades
-recent-activity-account-disable = Kontot inaktiverades
-recent-activity-account-enable = Kontot aktiverades
-recent-activity-account-login = Kontoinitierad inloggning
-recent-activity-account-reset = Kontoinitierad lösenordsåterställning
-recent-activity-emails-clearBounces = Kontot rensade returnerade e-postmeddelanden
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Konto skapat
+recent-activity-account-disable-v2 = Konto inaktiverat
+recent-activity-account-enable-v2 = Konto aktiverat
+recent-activity-account-login-v2 = Kontoinloggning påbörjad
+recent-activity-account-reset-v2 = Lösenordsåterställning påbörjad
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-poststuds rensad
+recent-activity-account-login-failure = Kontoinloggningsförsök misslyckades
+recent-activity-account-two-factor-added = Tvåstegsautentisering aktiverad
+recent-activity-account-two-factor-requested = Tvåstegsautentisering begärd
+recent-activity-account-two-factor-failure = Tvåstegsautentisering misslyckades
+recent-activity-account-two-factor-success = Tvåstegsautentisering lyckades
+recent-activity-account-two-factor-removed = Tvåstegsautentisering borttagen
+recent-activity-account-password-reset-requested = Konto begärt lösenordsåterställning
+recent-activity-account-password-reset-success = Kontolösenordet har återställts
+recent-activity-account-recovery-key-added = Nyckel för kontoåterställning har aktiverats
+recent-activity-account-recovery-key-verification-failure = Verifiering av kontoåterställningsnyckel misslyckades
+recent-activity-account-recovery-key-verification-success = Kontoåterställningsnyckeln har verifierats
+recent-activity-account-recovery-key-removed = Kontoåterställningsnyckeln har tagits bort
+recent-activity-account-password-added = Nytt lösenord har lagts till
+recent-activity-account-password-changed = Lösenordet ändrat
+recent-activity-account-secondary-email-added = Sekundär e-postadress har lagts till
+recent-activity-account-secondary-email-removed = Den sekundära e-postadressen har tagits bort
+recent-activity-account-emails-swapped = Primär och sekundär e-post har bytts
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Annan kontoaktivitet
 
 # Account recovery key setup page
 
@@ -792,6 +810,8 @@ security-password-created-date = Skapad { $date }
 security-not-set = Inte inställt
 security-action-create = Skapa
 security-set-password = Ange ett lösenord för att synkronisera och använda vissa kontosäkerhetsfunktioner.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Visa senaste kontoaktivitet
 
 ## Switch component
 
