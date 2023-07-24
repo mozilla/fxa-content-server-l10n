@@ -632,6 +632,26 @@ display-name-success-alert-2 = 显示名称已更新
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 最近的账户活动
+recent-activity-account-create-v2 = 创建账户
+recent-activity-account-disable-v2 = 禁用账户
+recent-activity-account-enable-v2 = 启用账户
+recent-activity-account-login-v2 = 初始登录账户
+recent-activity-account-two-factor-added = 启用两步验证
+recent-activity-account-two-factor-requested = 请求两步验证
+recent-activity-account-two-factor-failure = 两步验证失败
+recent-activity-account-two-factor-success = 两步验证成功
+recent-activity-account-two-factor-removed = 已移除两步验证
+recent-activity-account-password-reset-requested = 账户请求重置密码
+recent-activity-account-password-reset-success = 账户密码重置成功
+recent-activity-account-recovery-key-added = 启用账户恢复密钥
+recent-activity-account-recovery-key-verification-failure = 账户恢复密钥验证失败
+recent-activity-account-recovery-key-verification-success = 账户恢复密钥验证成功
+recent-activity-account-recovery-key-removed = 移除账户恢复密钥
+recent-activity-account-password-added = 添加新密码
+recent-activity-account-password-changed = 更改密码
+recent-activity-account-secondary-email-added = 绑定备用邮箱
+recent-activity-account-secondary-email-removed = 移除备用邮箱
+recent-activity-account-emails-swapped = 主邮箱与备用邮箱调换
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 

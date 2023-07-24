@@ -447,6 +447,10 @@ sub-update-total-label = 新方案金额
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName }（日付）
+sub-update-new-plan-weekly = { $productName }（周付）
+sub-update-new-plan-monthly = { $productName }（月付）
+sub-update-new-plan-yearly = { $productName }（年付）
 
 ##
 
