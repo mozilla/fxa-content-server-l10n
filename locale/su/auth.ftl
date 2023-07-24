@@ -155,7 +155,7 @@ location-country = { $country } (ancer-ancer)
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
-view-invoice-plaintext = Tingali Tagihan: %(invoiceLink)s
+view-invoice-plaintext = Tingali Tagihan: { $invoiceLink }
 cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
