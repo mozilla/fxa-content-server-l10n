@@ -75,10 +75,10 @@ new-user-enter-email =
     .label = Adja meg az e-mail-címét
 new-user-confirm-email =
     .label = Erősítse meg az e-mail-címét
-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és újdonságokat kapni a { -brand-mozilla }tól
-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla }tól
-new-user-subscribe-product-updates-hubs = Szeretnék termékhíreket és frissítéseket kapni a { -product-mozilla-hubs } és a { -brand-mozilla } felől
-new-user-subscribe-product-updates-mdnplus = Szeretnék termékhíreket és frissítéseket kapni az { -product-mdn-plus } és a { -brand-mozilla } felől
+new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és újdonságokat kapni a { -brand-mozilla(ending: "accented") }tól
+new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
+new-user-subscribe-product-updates-hubs = Szeretnék termékhíreket és frissítéseket kapni a { -product-mozilla-hubs }-tól és a { -brand-mozilla(ending: "accented") }tól
+new-user-subscribe-product-updates-mdnplus = Szeretnék termékhíreket és frissítéseket kapni az { -product-mdn-plus }-tól és a { -brand-mozilla(ending: "accented") }tól
 new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 new-user-email-validate = Az e-mail-cím érvénytelen
 new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
@@ -464,9 +464,9 @@ sub-update-prorated-upgrade = Időarányos frissítés
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 sub-update-new-plan-daily = { $productName } (napi)
-sub-update-new-plan-weekly = { $productName } (hetente)
-sub-update-new-plan-monthly = { $productName } (havonta)
-sub-update-new-plan-yearly = { $productName } (évente)
+sub-update-new-plan-weekly = { $productName } (heti)
+sub-update-new-plan-monthly = { $productName } (havi)
+sub-update-new-plan-yearly = { $productName } (évi)
 
 ##
 
