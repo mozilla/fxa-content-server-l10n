@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Indtast din mailadresse
 new-user-confirm-email =
     .label = Bekræft din mailadresse
-new-user-subscribe-product-updates = Jeg vil gerne modtage nyheder om produkter fra { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Jeg vil gerne modtage nyheder om privatlivsbeskyttelse og opdateringer fra { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -product-mozilla-hubs } og { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -product-mdn-plus } og { -brand-mozilla }
 new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at oprette din konto. Vi vil aldrig sælge den til en tredjepart.
 new-user-email-validate = Mailadressen er ikke gyldig
 new-user-email-validate-confirm = Mailadresserne matcher ikke
@@ -448,6 +451,15 @@ sub-change-submit = Bekræft ændring
 sub-update-current-plan-label = Nuværende plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
