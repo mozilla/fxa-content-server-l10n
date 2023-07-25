@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
     adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-sign-out-button = Log ud
-cs-recent-activity = Seneste kontoaktivitet
 
 ##
 
@@ -642,19 +641,38 @@ display-name-success-alert-2 = Vist navn opdateret
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Seneste kontoaktivitet
-recent-activity-account-create = Kontoen blev oprettet
-recent-activity-account-disable = Kontoen blev deaktiveret
-recent-activity-account-enable = Kontoen blev aktiveret
-recent-activity-account-login = Kontoen påbegyndte login
-recent-activity-account-reset = Kontoen påbegyndte nulstilling af adgangskode
-recent-activity-emails-clearBounces = Kontoen ryddede mail-afvisninger
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Konto oprettet
+recent-activity-account-disable-v2 = Konto deaktiveret
+recent-activity-account-enable-v2 = Konto aktiveret
+recent-activity-account-login-v2 = Login på konto påbegyndt
+recent-activity-account-reset-v2 = Nulstilling af adgangskode påbegyndt
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Meddelelser om afviste mails ryddet
+recent-activity-account-login-failure = Forsøg på kontologin mislykkedes
+recent-activity-account-two-factor-added = Totrinsgodkendelse aktiveret
+recent-activity-account-two-factor-requested = Anmodet om totrinsgodkendelse
+recent-activity-account-two-factor-failure = Totrinsgodkendelse mislykkedes
+recent-activity-account-two-factor-success = Totrinsgodkendelse lykkedes
+recent-activity-account-two-factor-removed = Totrinsgodkendelse fjernet
+recent-activity-account-password-reset-requested = Kontoen anmodede om nulstilling af adgangskode
+recent-activity-account-password-reset-success = Adgangskode til konto nulstillet
+recent-activity-account-recovery-key-added = Genoprettelsesnøgle til konto aktiveret
+recent-activity-account-recovery-key-verification-failure = Bekræftelse af genoprettelsesnøgle til konto mislykkedes
+recent-activity-account-recovery-key-verification-success = Bekræftelse af genoprettelsesnøgle til konto lykkedes
+recent-activity-account-recovery-key-removed = Genoprettelsesnøgle til konto blev fjernet
+recent-activity-account-password-added = Ny adgangskode tilføjet
+recent-activity-account-password-changed = Adgangskode ændret
+recent-activity-account-secondary-email-added = Sekundær mailadresse tilføjet
+recent-activity-account-secondary-email-removed = Sekundær mailadresse fjernet
+recent-activity-account-emails-swapped = Primær og sekundær mailadresse byttet om
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Anden kontoaktivitet
 
 # Account recovery key setup page
 
@@ -791,6 +809,8 @@ security-password-created-date = Oprettet { $date }
 security-not-set = Ikke oprettet
 security-action-create = Opret
 security-set-password = Opret en adgangskode for at synkronisere og bruge visse kontosikkerhedsfunktioner.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Se seneste kontoaktivitet
 
 ## Switch component
 

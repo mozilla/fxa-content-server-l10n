@@ -451,6 +451,7 @@ sub-change-submit = Bekræft ændring
 sub-update-current-plan-label = Nuværende plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny total
+sub-update-prorated-upgrade = Forholdsmæssig opgradering
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
