@@ -457,6 +457,10 @@ sub-update-total-label = Ny total
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (Dagligt)
+sub-update-new-plan-weekly = { $productName } (Ugentligt)
+sub-update-new-plan-monthly = { $productName } (Månedligt)
+sub-update-new-plan-yearly = { $productName } (Årligt)
 
 ##
 
