@@ -1233,7 +1233,7 @@ account-recovery-reset-password-redirecting = Қайта бағдарлау
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Жаңа парольді жасау
-complete-reset-password-warning-message-2 = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
+complete-reset-password-warning-message-2 = <span>Есіңізде болсын:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - жекелігіңізді қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Пароль орнатылды
@@ -1260,7 +1260,7 @@ reset-password-heading-w-default-service = <span>Тіркелгі баптаул
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
-reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
+reset-password-warning-message-2 = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - жекелігіңізді қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { -product-pocket } деректеріне әсер етпейді.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Эл. пошта

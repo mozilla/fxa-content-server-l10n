@@ -520,6 +520,7 @@ subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен {
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді. Сол кезде сізден осы { $productPaymentCycleOld } қалған бөлігі үшін үлкенірек төлемді сипаттау үшін { $paymentProrated } бір реттік алым алынады.
 subscriptionUpgrade-content-charge-info-different-cycle = Осы { $productPaymentCycleOld } қалғанына жазылуңыздың үлкенірек бағасын сипаттау үшін сізден бір реттік { $paymentProrated } алым алынады. Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, енді әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді.
 # Variables:
@@ -548,7 +549,7 @@ verificationReminderFirst-action-2 = Тіркелгіні растау
 verificationReminderSecond-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
 verificationReminderSecond-title-2 = { -brand-firefox } жіберіп алмаңыз!
 verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
-verificationReminderSecond-second-description = { -product-firefox-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған басқа да құпиялылықты қорғайтын өнімдерге қол жеткізу мүмкіндігін береді.
+verificationReminderSecond-second-description = { -product-firefox-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған, жекелігіңізді қорғайтын басқа да өнімдерге қол жеткізу мүмкіндігін береді.
 verificationReminderSecond-sub-description-2 = Интернетті әркім үшін ашық жерге айналдыру миссиямыздың бір бөлігі болыңыз.
 verificationReminderSecond-action-2 = Тіркелгіні растау
 verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
