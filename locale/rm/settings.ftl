@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     per che tias datas restian segiras. En pli duessas ti era midar tut tschels pleds-clavs che
     ti has memorisà en { -brand-firefox } cun tippar about:logins en la trav d'adressas.
 cs-sign-out-button = Sortir
-cs-recent-activity = Activitad recenta dal conto
 
 ##
 
@@ -643,19 +642,38 @@ display-name-success-alert-2 = Actualisà il num per mussar
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Activitad recenta dal conto
-recent-activity-account-create = Il conto è vegnì creà
-recent-activity-account-disable = Il conto è vegnì deactivà
-recent-activity-account-enable = Il conto è vegnì activà
-recent-activity-account-login = Annunzia iniziada dal conto
-recent-activity-account-reset = Reinizialisaziun dal pled-clav iniziada dal conto
-recent-activity-emails-clearBounces = Il conto ha eliminà e-mails da nunretschavida
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Creà il conto
+recent-activity-account-disable-v2 = Deactivà il conto
+recent-activity-account-enable-v2 = Activà il conto
+recent-activity-account-login-v2 = Inizià l'annunzia al conto
+recent-activity-account-reset-v2 = Inizià la reinizialisaziun dal pled-clav
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Stizzà avis dad e-mails refusads
+recent-activity-account-login-failure = Emprova d'annunzia betg reussida
+recent-activity-account-two-factor-added = Autentificaziun en dus pass activada
+recent-activity-account-two-factor-requested = Dumandà l'autentificaziun en dus pass
+recent-activity-account-two-factor-failure = Autentificaziun en dus pass betg reussida
+recent-activity-account-two-factor-success = Autentificaziun en dus pass reussida
+recent-activity-account-two-factor-removed = Allontanà l'autentificaziun en dus pass
+recent-activity-account-password-reset-requested = Il conto pretenda da reinizialisar il pled-clav
+recent-activity-account-password-reset-success = Reinizialisà cun success il pled-clav dal conto
+recent-activity-account-recovery-key-added = Activà la clav da recuperaziun dal conto
+recent-activity-account-recovery-key-verification-failure = Verificaziun da la clav da recuperaziun dal conto betg reussida
+recent-activity-account-recovery-key-verification-success = Verifitgà cun success la clav da recuperaziun dal conto
+recent-activity-account-recovery-key-removed = Allontanà la clav da recuperaziun dal conto
+recent-activity-account-password-added = Agiuntà in nov pled-clav
+recent-activity-account-password-changed = Midà il pled-clav
+recent-activity-account-secondary-email-added = Agiuntà ina adressa dad e-mail secundara
+recent-activity-account-secondary-email-removed = Allontanà l'adressa dad e-mail secundara
+recent-activity-account-emails-swapped = Barattà l'adressa dad e-mail primara e secundara
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Autra activitad dal conto
 
 # Account recovery key setup page
 
@@ -794,6 +812,8 @@ security-password-created-date = Creà: { $date }
 security-not-set = Betg definì
 security-action-create = Crear
 security-set-password = Definescha in pled-clav per sincronisar ed utilisar tschertas funcziuns da segirezza dal conto.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Mussar las activitads recentas dal conto
 
 ## Switch component
 

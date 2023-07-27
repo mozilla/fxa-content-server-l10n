@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Endatescha tia adressa dad e-mail
 new-user-confirm-email =
     .label = Confermar tes e-mail
-new-user-subscribe-product-updates = Jau vi retschaiver novitads davart products da { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = Jau vi retschaiver novitads davart products ed autras novas da { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Jau vi retschaiver novitads davart segirezza e protecziun da datas ed autras novas da { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Jau vi retschaiver novitads davart products ed autras novas da { -product-mozilla-hubs } e { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Jau vi retschaiver novitads davart products ed autras novas da { -product-mdn-plus } e { -brand-mozilla }
 new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
 new-user-email-validate = L'e-mail n'è betg valid
 new-user-email-validate-confirm = Las adressas na correspundan betg
@@ -448,6 +451,20 @@ sub-change-submit = Confermar la midada
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nov plan
 sub-update-total-label = Nov total
+sub-update-prorated-upgrade = Midada cun custs calculads proporziunalmain
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (mintga di)
+sub-update-new-plan-weekly = { $productName } (emnil)
+sub-update-new-plan-monthly = { $productName } (mensil)
+sub-update-new-plan-yearly = { $productName } (annual)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
