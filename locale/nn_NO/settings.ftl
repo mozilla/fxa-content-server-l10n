@@ -15,9 +15,17 @@ banner-dismiss-button =
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and continue to the next step
+# "key" here refers to the "account recovery key"
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Last ned og hald fram
+    .title = Last ned og hald fram
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = LAGRE KONTOGJENOPPRETTINGSNØKKELEN DIN
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = Lagre denne fila som inneheld kontogjenopprettingsnøkkelen din, på ein trygg plass, eller skriv ut og behald ein fysisk kopi. Kontogjenopprettingsnøkkelen din kan hjelpe deg med å tilbakestille { -brand-firefox }-data om du gløymer passordet ditt.
 # "Key" here refers to the term "account recovery key", a randomly generated 32-character code
 # containing a mix of numbers and letters (excluding I, L, O, U)
 recovery-key-file-key-value-v3 = Nøkkel:
@@ -333,6 +341,7 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-input-label = Skriv inn passordet ditt
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
