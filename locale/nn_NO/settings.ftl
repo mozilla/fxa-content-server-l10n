@@ -660,6 +660,8 @@ security-password =
 security-password-created-date = Oppretta: { $date }
 security-not-set = Ikkje innstilt
 security-action-create = Opprett
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vis nyleg kontoaktivitet
 
 ## Switch component
 
@@ -689,7 +691,10 @@ rk-action-create = Opprett
 rk-action-change-button = Endre
 rk-action-remove = Fjern
 rk-key-removed-2 = Gjenopprettingsnøkkel for konto fjerna
+rk-refresh-key-1 = Oppdater kontogjenopprettingsnøkkel
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
+rk-remove-modal-heading-1 = Fjerne kontogjenopprettingsnøkkel?
+rk-remove-error-2 = Klarte ikkje å fjerne kontogjenopprettingsnøkkelen din
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkkel
 
@@ -703,6 +708,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Oppdater e-postadresse
+se-unverified-2 = ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
 # Default value for the secondary email
@@ -727,10 +733,16 @@ tfa-row-change-modal-confirm = Endre
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Ved å halde fram seier du deg samd i:
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Eller
 continue-with-google-button = Hald fram med { -brand-google }
 continue-with-apple-button = Hald fram med { -brand-apple }
 
@@ -740,6 +752,7 @@ auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
 auth-error-105-2 = Ugyldig stadfestingskode
 auth-error-110 = Ugyldig token
+auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
@@ -946,6 +959,8 @@ confirm-pw-reset-header = E-post for tilbakestilling er sendt
 reset-password-password-input =
     .label = E-post
 reset-password-button = Start tilbakestilling
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-post påkravd
 reset-password-with-recovery-key-verified-generate-new-key = Generer ein ny kontogjenopprettingsnøkkel
 reset-password-with-recovery-key-verified-continue-to-account = Hald fram til kontoen min
 
@@ -1031,6 +1046,8 @@ confirm-signup-heading = Stadfest kontoen din
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Skriv inn stadfestingskode
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 confirm-signup-code-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Stadfest
