@@ -321,6 +321,8 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Hald fram utan å laste ned
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -329,6 +331,10 @@ flow-container-back = Tilbake
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fullfør
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
+flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -792,7 +798,7 @@ pair-already-have-firefox-paragraph = Har du allereie { -brand-firefox } på ein
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser eininga di
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
-pair-or-download-subheader = eller last ned
+pair-or-download-subheader = Eller last ned
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
 pair-scan-to-download-message = Skann for å laste ned { -brand-firefox } for mobil, eller send deg sjølv ei <linkExternal>nedlastingslenke</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
