@@ -15,6 +15,23 @@ banner-dismiss-button =
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Heading in the text file. No CSS styling will be applied to the text.
+# All caps is used in English to show this is a header.
+recovery-key-file-header = LAGRE KONTOGJENOPPRETTINGSNØKKELEN DIN
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = Nøkkel:
+# { $email }  - The primary email associated with the account
+recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+# Date when the account recovery key was created and this file was downloaded
+# "Key" here refers to the term "account recovery key"
+# { $downloadDate } is a formatted date in the user's preferred locale
+# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
+recovery-key-file-download-date-v2 = * Nøkkel generert: { $downloadDate }
+# Link to get more information and support
+# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
+# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
+recovery-key-file-support-v2 = * Les meir om kontogjenopprettingsnøkkelen din: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -321,6 +338,9 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Kontogjenopprettingsnøkkel oppretta — Last ned og lagre han no
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Denne nøkkelen lèt deg tilbakestille dataa dine om du gløymer passordet ditt. Last ned og lagre han på ein trygg plass — du vil ikkje kunne gå tilbake til denne sida seinare.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Hald fram utan å laste ned
 
@@ -334,6 +354,9 @@ flow-recovery-key-hint-cta-text = Fullfør
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
+flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
+flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
 flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
