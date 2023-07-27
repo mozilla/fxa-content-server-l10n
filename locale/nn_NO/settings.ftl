@@ -342,6 +342,11 @@ flow-container-back = Tilbake
 ## This screen asks the user to confirm their password before generating a new key
 
 flow-recovery-key-confirm-pwd-input-label = Skriv inn passordet ditt
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Opprett kontogjenopprettingsnøkkel
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Opprett ny kontogjenopprettingsnøkkel
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -357,6 +362,13 @@ flow-recovery-key-download-next-link-v2 = Hald fram utan å laste ned
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Legg til eit hint for å finne nøkkelen din
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Legg til eit hint (valfritt)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fullfør
@@ -367,9 +379,16 @@ flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
 flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
 flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
 flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kontogjenopprettingsnøkkel oppretta
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 teikn.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Avbryt
 
@@ -443,6 +462,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Klarte ikkje å starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
+avatar-page-image-too-large-error-2 = Bildefila er for stor, og kan ikkje lastast opp
 
 ##
 
@@ -454,6 +474,7 @@ pw-change-header =
 pw-8-chars = Minst 8 teikn
 pw-not-email = Ikkje di e-postadresse
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
+pw-commonly-used = Ikkje eit vanleg brukt passord
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
@@ -523,6 +544,10 @@ display-name-success-alert-2 = Visingsnamn oppdatert
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = Konto opretta
+recent-activity-account-disable-v2 = Konto deaktivert
+recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-password-changed = Passordet er endra
 
 # Account recovery key setup page
 
@@ -539,6 +564,11 @@ recovery-key-success-alert-3 = Kontogjenopprettingsnøkkel oppretta
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontogjenopprettingsnøkkel
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Tilbake til innstillingar
 
 ## Add secondary email page
 
@@ -559,6 +589,10 @@ verify-secondary-email-verification-code-2 =
     .label = Skriv inn stadfestingskoden din
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button-2 = Stadfest
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } lagt til
 
 ##
 
@@ -656,6 +690,8 @@ rk-action-change-button = Endre
 rk-action-remove = Fjern
 rk-key-removed-2 = Gjenopprettingsnøkkel for konto fjerna
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkkel
 
 ## Secondary email sub-section on main Settings page
 
