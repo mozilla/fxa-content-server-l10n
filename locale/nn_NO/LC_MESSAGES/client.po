@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-07-27 20:00+0000\n"
+"PO-Revision-Date: 2023-07-27 20:04+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -732,7 +732,7 @@ msgstr "Få siste nytt om Mozilla og Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Hjelp til med å halde internett sunt"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -740,7 +740,7 @@ msgstr "Ver sikrare og smartare på nettet"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Sikkerheit- og personvern-nytt, og oppdateringar"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
