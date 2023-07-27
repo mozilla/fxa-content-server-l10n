@@ -363,7 +363,6 @@ cs-disconnect-suspicious-advice-content =
     { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
     όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
 cs-sign-out-button = Αποσύνδεση
-cs-recent-activity = Πρόσφατη δραστηριότητα λογαριασμού
 
 ##
 
@@ -611,19 +610,23 @@ display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημ
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Πρόσφατη δραστηριότητα λογαριασμού
-recent-activity-account-create = Ο λογαριασμός δημιουργήθηκε
-recent-activity-account-disable = Ο λογαριασμός απενεργοποιήθηκε
-recent-activity-account-enable = Ο λογαριασμός ενεργοποιήθηκε
-recent-activity-account-login = Ο λογαριασμός ξεκίνησε τη διαδικασία σύνδεσης
-recent-activity-account-reset = Ο λογαριασμός ξεκίνησε την επαναφορά κωδικού πρόσβασης
-recent-activity-emails-clearBounces = Ο λογαριασμός πέρασε τις ανακατευθύνσεις email
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Ο λογαριασμός δημιουργήθηκε
+recent-activity-account-disable-v2 = Ο λογαριασμός απενεργοποιήθηκε
+recent-activity-account-enable-v2 = Ο λογαριασμός ενεργοποιήθηκε
+recent-activity-account-login-v2 = Ξεκίνησε η σύνδεση λογαριασμού
+recent-activity-account-reset-v2 = Ξεκίνησε η επαναφορά κωδικού πρόσβασης
+recent-activity-account-recovery-key-added = Το κλειδί ανάκτησης λογαριασμού ενεργοποιήθηκε
+recent-activity-account-password-added = Προστέθηκε νέος κωδικός πρόσβασης
+recent-activity-account-password-changed = Ο κωδικός πρόσβασης άλλαξε
+recent-activity-account-secondary-email-added = Προστέθηκε δευτερεύουσα διεύθυνση email
+recent-activity-account-secondary-email-removed = Αφαιρέθηκε δευτερεύουσα διεύθυνση email
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
 
 # Account recovery key setup page
 
@@ -757,6 +760,8 @@ security-password-created-date = Δημιουργία: { $date }
 security-not-set = Δεν έχει οριστεί
 security-action-create = Δημιουργία
 security-set-password = Ορίστε έναν κωδικό πρόσβασης για συγχρονισμό και χρήση συγκεκριμένων λειτουργιών ασφαλείας του λογαριασμού.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Προβολή πρόσφατης δραστηριότητας λογαριασμού
 
 ## Switch component
 
