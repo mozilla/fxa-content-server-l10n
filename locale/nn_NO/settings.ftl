@@ -15,21 +15,6 @@ banner-dismiss-button =
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-# 🔑 is included for visual interest and to draw attention to the key
-recovery-key-file-key-value = 🔑 Nøkkel:  { $recoveryKeyValue }
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email = • { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date = • Nøkkel generert: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support = • Les meir om kontogjenopprettingsnøkkelen din: { $supportURL }
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -96,10 +81,10 @@ datablock-print =
 device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimert)
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
-device-info-block-location-city-country = { $city }, { $country } (utrekna bruk)
+device-info-block-location-city-country = { $city }, { $country } (estimert)
 # Variable { $country } represent the estimated location of the user's device
 # For example, 'Canada (estimated)'
-device-info-block-location-country = { $country } (utrekna bruk)
+device-info-block-location-country = { $country } (estimert)
 # When an approximate location for the user's device could not be determined
 device-info-block-location-unknown = Ukjend plassering
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
@@ -302,7 +287,6 @@ cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-sign-out-button = Logg ut
-cs-recent-activity = Nyleg kontoaktivitet
 
 ##
 
@@ -337,8 +321,6 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-# This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link = Neste
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -499,11 +481,10 @@ display-name-success-alert-2 = Visingsnamn oppdatert
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
-recent-activity-account-create = Kontoen vart oppretta
-recent-activity-account-disable = Kontoen vart slått av
-recent-activity-account-enable = Kontoen vart slått på
 
 # Account recovery key setup page
 

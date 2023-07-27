@@ -105,10 +105,6 @@ payment-plan-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 payment-method = Betalingsmåte:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType }-kort som sluttar på { $lastFour }
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Fakturanummer: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -173,18 +169,18 @@ user-ip = IP-adresse: { $ip }
 #  $city (String) - User's city
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
-location-all = { $city }, { $stateCode }, { $country } (utrekna bruk)
+location-all = { $city }, { $stateCode }, { $country } (estimert)
 # Variables:
 #  $city (String) - User's city
 #  $country (String) - User's country
-location-city-country = { $city }, { $country } (utrekna bruk)
+location-city-country = { $city }, { $country } (estimert)
 # Variables:
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
-location-state-country = { $stateCode }, { $country } (utrekna bruk)
+location-state-country = { $stateCode }, { $country } (estimert)
 # Variables:
 #  $country (stateCode) - User's country
-location-country = { $country } (utrekna bruk)
+location-country = { $country } (estimert)
 view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
