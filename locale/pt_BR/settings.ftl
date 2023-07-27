@@ -939,7 +939,7 @@ cannot-create-account-learn-more-link = Saiba mais
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
-connect-another-device-signed-in-header = Você está conectado no { -brand-firefox }
+connect-another-device-signed-in-header = Você está conectado neste { -brand-firefox }
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Email confirmado
 # A "success" message visible to users who verified via sign-in

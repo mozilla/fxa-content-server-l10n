@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-07-19 12:41+0000\n"
+"PO-Revision-Date: 2023-07-27 03:17+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1088,7 +1088,7 @@ msgstr "Conectar outro dispositivo"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr "Você está conectado no Firefox"
+msgstr "Você está conectado neste Firefox"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
