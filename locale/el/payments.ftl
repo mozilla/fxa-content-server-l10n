@@ -71,6 +71,7 @@ new-user-enter-email =
 new-user-confirm-email =
     .label = Επιβεβαιώστε το email σας
 new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις προϊόντων από τη { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
 new-user-subscribe-product-assurance = Χρησιμοποιούμε το email σας μόνο για τη δημιουργία του λογαριασμού σας. Δεν θα το πωλήσουμε ποτέ σε τρίτους.
 new-user-email-validate = Το email δεν είναι έγκυρο
 new-user-email-validate-confirm = Τα email δεν ταιριάζουν
@@ -448,6 +449,20 @@ sub-change-submit = Επιβεβαίωση αλλαγής
 sub-update-current-plan-label = Τρέχον πλάνο
 sub-update-new-plan-label = Νέο πλάνο
 sub-update-total-label = Νέο σύνολο
+sub-update-prorated-upgrade = Αναλογική αναβάθμιση
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (Ημερησίως)
+sub-update-new-plan-weekly = { $productName } (Εβδομαδιαία)
+sub-update-new-plan-monthly = { $productName } (Μηνιαία)
+sub-update-new-plan-yearly = { $productName } (Ετησίως)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
