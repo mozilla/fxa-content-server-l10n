@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Введіть адресу е-пошти
 new-user-confirm-email =
     .label = Підтвердьте електронну адресу
-new-user-subscribe-product-updates = Я хочу отримувати новини про продукти від { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = Я хочу отримувати новини та оновлення продуктів від { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Я хочу отримувати новини та оновлення щодо безпеки та приватності від { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Я хочу отримувати новини про продукти й оновлення від { -product-mozilla-hubs } і { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Я хочу отримувати новини про продукти й оновлення від { -product-mdn-plus } і { -brand-mozilla }
 new-user-subscribe-product-assurance = Ми застосовуємо вашу електронну адресу лише для створення вашого облікового запису. Ми ніколи не продаватимемо її стороннім.
 new-user-email-validate = Ваша адреса е-пошти недійсна
 new-user-email-validate-confirm = Адреси е-пошти відрізняються
@@ -476,6 +479,20 @@ sub-change-submit = Підтвердити зміни
 sub-update-current-plan-label = Поточний тарифний план
 sub-update-new-plan-label = Новий тарифний план
 sub-update-total-label = Нова сума
+sub-update-prorated-upgrade = Пропорційне оновлення
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (щодня)
+sub-update-new-plan-weekly = { $productName } (щотижня)
+sub-update-new-plan-monthly = { $productName } (щомісяця)
+sub-update-new-plan-yearly = { $productName } (щороку)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

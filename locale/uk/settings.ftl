@@ -371,7 +371,6 @@ cs-disconnect-suspicious-advice-content =
     Вам також треба змінити будь-які інші паролі,
     збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
-cs-recent-activity = Останні дії в обліковому записі
 
 ##
 
@@ -644,19 +643,36 @@ display-name-success-alert-2 = Показуване ім’я оновлено
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Останні дії в обліковому записі
-recent-activity-account-create = Обліковий запис створено
-recent-activity-account-disable = Обліковий запис вимкнено
-recent-activity-account-enable = Обліковий запис увімкнено
-recent-activity-account-login = Вхід з обліковим записом
-recent-activity-account-reset = Скидання пароля через обліковий запис
-recent-activity-emails-clearBounces = Очищено недоставлену пошту облікового запису
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Обліковий запис створено
+recent-activity-account-disable-v2 = Обліковий запис вимкнено
+recent-activity-account-enable-v2 = Обліковий запис увімкнено
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Відмови електронної пошти видалено
+recent-activity-account-login-failure = Невдала спроба входу в обліковий запис
+recent-activity-account-two-factor-added = Двоетапну перевірку ввімкнено
+recent-activity-account-two-factor-requested = Запитано двоетапну перевірку
+recent-activity-account-two-factor-failure = Невдала двоетапна перевірка
+recent-activity-account-two-factor-success = Успішна двоетапна перевірка
+recent-activity-account-two-factor-removed = Двоетапну перевірку вилучено
+recent-activity-account-password-reset-requested = Запит скидання пароля облікового запису
+recent-activity-account-password-reset-success = Успішне скидання пароля облікового запису
+recent-activity-account-recovery-key-added = Ключ відновлення облікового запису увімкнено
+recent-activity-account-recovery-key-verification-failure = Не вдалося перевірити ключ відновлення облікового запису
+recent-activity-account-recovery-key-verification-success = Успішна перевірка ключа відновлення облікового запису
+recent-activity-account-recovery-key-removed = Ключ відновлення облікового запису вилучено
+recent-activity-account-password-added = Додано новий пароль
+recent-activity-account-password-changed = Пароль змінено
+recent-activity-account-secondary-email-added = Додаткову адресу електронної пошти додано
+recent-activity-account-secondary-email-removed = Додаткову адресу електронної пошти вилучено
+recent-activity-account-emails-swapped = Основну та додаткову адреси електронної пошти поміняно місцями
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Інші дії в обліковому записі
 
 # Account recovery key setup page
 
@@ -793,6 +809,8 @@ security-password-created-date = Створено { $date }
 security-not-set = Не встановлено
 security-action-create = Створити
 security-set-password = Встановіть пароль для синхронізації та використання певних функцій безпеки облікового запису.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Переглянути останні дії в обліковому записі
 
 ## Switch component
 
