@@ -70,7 +70,6 @@ new-user-enter-email =
     .label = Insere tu email
 new-user-confirm-email =
     .label = Confirma tu email
-new-user-subscribe-product-updates = Io vole reciper actualisationes  de productos ab { -brand-name-firefox }
 new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear tu conto. Nos mais lo vendera a tertie parte.
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
@@ -442,6 +441,19 @@ sub-change-submit = Confirmar le cambio
 sub-update-current-plan-label = Plano actual
 sub-update-new-plan-label = Nove plano
 sub-update-total-label = Nove total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (quotidian)
+sub-update-new-plan-weekly = { $productName } (septimanal)
+sub-update-new-plan-monthly = { $productName } (mensual)
+sub-update-new-plan-yearly = { $productName } (annual)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

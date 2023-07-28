@@ -364,7 +364,6 @@ cs-disconnect-lost-advice-content-2 =
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-firefox-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
-cs-recent-activity = Activitate de conto recente
 
 ##
 
@@ -634,19 +633,16 @@ display-name-success-alert-2 = Nomine a monstrar actualisate
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Activitate de conto recente
-recent-activity-account-create = Conto create.
-recent-activity-account-disable = Le conto era disactivate.
-recent-activity-account-enable = Le conto era  activate.
-recent-activity-account-login = Accesso al conto initiate
-recent-activity-account-reset = Le conto initiava le remontage del contrasigno
-recent-activity-emails-clearBounces = Le conto clarava emails refusate
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Conto create.
+recent-activity-account-disable-v2 = Conto disactivate.
+recent-activity-account-enable-v2 = Conto activate.
+recent-activity-account-login-v2 = Connexion al conto initiate
+recent-activity-account-reset-v2 = Remontage de contrasigno initiate
 
 # Account recovery key setup page
 
