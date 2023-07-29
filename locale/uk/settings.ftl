@@ -651,6 +651,8 @@ recent-activity-title = Останні дії в обліковому запис
 recent-activity-account-create-v2 = Обліковий запис створено
 recent-activity-account-disable-v2 = Обліковий запис вимкнено
 recent-activity-account-enable-v2 = Обліковий запис увімкнено
+recent-activity-account-login-v2 = Ініційовано вхід в обліковий запис
+recent-activity-account-reset-v2 = Ініційовано скидання пароля
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Відмови електронної пошти видалено
