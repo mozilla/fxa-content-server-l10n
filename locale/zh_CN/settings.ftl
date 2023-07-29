@@ -636,6 +636,7 @@ recent-activity-account-create-v2 = 创建账户
 recent-activity-account-disable-v2 = 禁用账户
 recent-activity-account-enable-v2 = 启用账户
 recent-activity-account-login-v2 = 初始登录账户
+recent-activity-account-reset-v2 = 已启动密码重置
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = 邮件退件被清除
