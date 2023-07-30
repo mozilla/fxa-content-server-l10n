@@ -94,7 +94,10 @@ new-user-enter-email =
     .label = Wpisz adres e-mail
 new-user-confirm-email =
     .label = Potwierdź adres e-mail
-new-user-subscribe-product-updates = Chcę otrzymywać wiadomości o produktach od { -brand-name-firefox(case: "gen") }
+new-user-subscribe-product-updates-mozilla = Chcę otrzymywać aktualności i aktualizacje o produktach od { -brand-mozilla(case: "gen") }
+new-user-subscribe-product-updates-snp = Chcę otrzymywać aktualności i aktualizacje na temat bezpieczeństwa i prywatności od { -brand-mozilla(case: "gen") }
+new-user-subscribe-product-updates-hubs = Chcę otrzymywać aktualności i aktualizacje o produktach od { -product-mozilla-hubs } i { -brand-mozilla(case: "gen") }
+new-user-subscribe-product-updates-mdnplus = Chcę otrzymywać aktualności i aktualizacje o produktach od { -product-mdn-plus } i { -brand-mozilla(case: "gen") }
 new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
 new-user-email-validate = Adres e-mail jest nieprawidłowy
 new-user-email-validate-confirm = Adresy e-mail się nie zgadzają
@@ -496,6 +499,15 @@ sub-change-submit = Potwierdź zmianę
 sub-update-current-plan-label = Obecny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
