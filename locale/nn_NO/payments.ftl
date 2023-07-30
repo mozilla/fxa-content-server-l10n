@@ -80,6 +80,8 @@ payment-confirmation-thanks-heading = Takk skal du ha!
 payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Betalingsinformasjon
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -115,6 +117,7 @@ payment-confirmation-download-button = Hald fram til nedlasting
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min for beløpet som vert vist, i samsvar med <termsOfServiceLink>Vilkår for bruk</termsOfServiceLink> og <privacyNoticeLink>Personvernpraksisen</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Component - PaymentErrorView
 
@@ -229,6 +232,7 @@ subscription-create-title = Set opp abonnementet ditt
 subscription-success-title = Stadfesting av abonnement
 subscription-processing-title = Stadfestar abonnementet…
 subscription-error-title = Feil ved stadfesting av abonnementet…
+subscription-iapsubscribed-title = Abonnerer allereie
 sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -359,6 +363,19 @@ sub-change-submit = Stadfest endring
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny sum
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (kvar dag)
+sub-update-new-plan-weekly = { $productName } (kvar veke)
+sub-update-new-plan-monthly = { $productName } (kvar månad)
+sub-update-new-plan-yearly = { $productName } (kvart år)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

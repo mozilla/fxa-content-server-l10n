@@ -104,6 +104,9 @@ datablock-print =
 # Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, British Columbia, Canada (estimated)'
 device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimert)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (estimert)
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
 device-info-block-location-city-country = { $city }, { $country } (estimert)
@@ -141,6 +144,8 @@ form-verify-code-default-error = Dette feltet er påkravd
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kontogjenopprettingsnøkkel for { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkjenningskode
 get-data-trio-download-2 =
     .title = Last ned
     .aria-label = Last ned
@@ -154,6 +159,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = Dokument som inneheld skjult tekst.
+signin-totp-code-image-label =
+    .aria-label = Ei eining med ein skjult 6-sifra kode.
 
 ## Input Password
 
@@ -387,6 +396,8 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Endre kontogjenopprettingsnøkkelen din
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
@@ -544,6 +555,7 @@ display-name-success-alert-2 = Visingsnamn oppdatert
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Nyleg kontoaktivitet
 recent-activity-account-create-v2 = Konto opretta
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
