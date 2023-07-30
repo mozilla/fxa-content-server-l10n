@@ -652,6 +652,28 @@ recent-activity-account-disable-v2 = Wyłączono konto
 recent-activity-account-enable-v2 = Włączono konto
 recent-activity-account-login-v2 = Rozpoczęto logowanie do konta
 recent-activity-account-reset-v2 = Rozpoczęto zmianę hasła
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Wyczyszczono odrzucone wiadomości
+recent-activity-account-login-failure = Próba zalogowania się na konto się nie powiodła
+recent-activity-account-two-factor-added = Włączono uwierzytelnianie dwuetapowe
+recent-activity-account-two-factor-requested = Zażądano uwierzytelniania dwuetapowego
+recent-activity-account-two-factor-failure = Uwierzytelnienie dwuetapowe się nie powiodło
+recent-activity-account-two-factor-success = Pomyślnie uwierzytelniono dwuetapowo
+recent-activity-account-two-factor-removed = Usunięto uwierzytelnianie dwuetapowe
+recent-activity-account-password-reset-requested = Konto zażądało zmianę hasła
+recent-activity-account-password-reset-success = Pomyślnie zmieniono hasło konta
+recent-activity-account-recovery-key-added = Włączono klucz odzyskiwania konta
+recent-activity-account-recovery-key-verification-failure = Weryfikacja klucza odzyskiwania konta się nie powiodła
+recent-activity-account-recovery-key-verification-success = Pomyślnie zweryfikowano klucz odzyskiwania konta
+recent-activity-account-recovery-key-removed = Usunięto klucz odzyskiwania konta
+recent-activity-account-password-added = Dodano nowe hasło
+recent-activity-account-password-changed = Zmieniono hasło
+recent-activity-account-secondary-email-added = Dodano dodatkowy adres e-mail
+recent-activity-account-secondary-email-removed = Usunięto dodatkowy adres e-mail
+recent-activity-account-emails-swapped = Zamieniono główny i dodatkowy adres e-mail
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Inne działanie na koncie
 
 # Account recovery key setup page
 
@@ -786,6 +808,8 @@ security-password-created-date = Utworzono { $date }
 security-not-set = Nie ustawiono
 security-action-create = Utwórz
 security-set-password = Ustaw hasło, aby synchronizować i korzystać z części funkcji bezpieczeństwa konta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ostatnie działania na koncie
 
 ## Switch component
 
@@ -920,6 +944,9 @@ auth-error-102 = Nieznane konto
 auth-error-103 = Niepoprawne hasło
 auth-error-105-2 = Nieprawidłowy kod potwierdzenia
 auth-error-110 = Nieprawidłowy token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Próbowano za wiele razy. Proszę spróbować ponownie później.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
