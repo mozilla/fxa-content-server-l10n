@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     w ustawieniach konta. Należy także zmienić wszystkie inne hasła zachowane
     w { -brand-firefox(case: "loc") }, wpisując about:logins na pasku adresu.
 cs-sign-out-button = Wyloguj się
-cs-recent-activity = Ostatnie działania na koncie
 
 ##
 
@@ -643,19 +642,16 @@ display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Ostatnie działania na koncie
-recent-activity-account-create = Konto zostało utworzone
-recent-activity-account-disable = Konto zostało wyłączone
-recent-activity-account-enable = Konto zostało włączone
-recent-activity-account-login = Konto zainicjowało logowanie
-recent-activity-account-reset = Konto zainicjowało zmianę hasła
-recent-activity-emails-clearBounces = Konto wyczyściło odrzucone wiadomości
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Utworzono konto
+recent-activity-account-disable-v2 = Wyłączono konto
+recent-activity-account-enable-v2 = Włączono konto
+recent-activity-account-login-v2 = Rozpoczęto logowanie do konta
+recent-activity-account-reset-v2 = Rozpoczęto zmianę hasła
 
 # Account recovery key setup page
 

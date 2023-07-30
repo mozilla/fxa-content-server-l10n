@@ -495,16 +495,25 @@ sub-update-copy =
     Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
     o daną kwotę dla pozostałego czasu okresu rozliczeniowego. Począwszy od { $startingDate }
     opłata będzie wynosiła pełną kwotę.
+sub-update-acknowledgment =
+    Twój plan zmieni się natychmiast, a dzisiejsza opłata zostanie podzielona proporcjonalnie
+    za pozostały czas tego okresu rozliczeniowego. Począwszy od { $startingDate }
+    opłata będzie wynosiła pełną kwotę.
 sub-change-submit = Potwierdź zmianę
 sub-update-current-plan-label = Obecny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
+sub-update-prorated-upgrade = Przełączenie podzielone proporcjonalnie
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (dziennie)
+sub-update-new-plan-weekly = { $productName } (tygodniowo)
+sub-update-new-plan-monthly = { $productName } (miesięcznie)
+sub-update-new-plan-yearly = { $productName } (rocznie)
 
 ##
 
@@ -603,7 +612,7 @@ reactivate-confirm-copy =
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
 reactivate-confirm-without-payment-method-copy =
-    Twój dostęp do { $name } będzie kontynuowany, a cykl rozliczeniowy
+    Twój dostęp do { $name } będzie kontynuowany, a okres rozliczeniowy
     i płatności pozostaną takie same. Następna opłata będzie wynosiła { $amount } w dniu { $endDate }.
 reactivate-confirm-button = Subskrybuj ponownie
 
