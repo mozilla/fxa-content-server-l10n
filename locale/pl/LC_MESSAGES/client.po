@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 16:36+0000\n"
-"PO-Revision-Date: 2023-06-29 15:21+0000\n"
+"PO-Revision-Date: 2023-07-30 12:20+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -724,7 +724,7 @@ msgstr "Błąd w adresie e-mail?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Wczesny dostęp do testowania nowych produktów"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -732,7 +732,7 @@ msgstr "Najnowsze aktualności o Mozilli i Firefoksie"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Pomóż utrzymać zdrowy Internet"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -740,7 +740,7 @@ msgstr "Bezpieczniej i mądrzej korzystaj z Internetu"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Aktualności i aktualizacje na temat bezpieczeństwa i prywatności"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -839,9 +839,7 @@ msgid "Invalid Token"
 msgstr "Nieprawidłowy token"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Kontynuując, wyrażasz zgodę na <a id=\"service-tos\" href=\"%(termsUri)s\">regulamin usługi</a> oraz <a id=\"service-pp\" href=\"%(privacyUri)s\">zasady ochrony prywatności</a> usługi "
 "%(serviceName)s (%(serviceUri)s)."
@@ -912,8 +910,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Proszę wpisać jednorazowy klucz odzyskiwania konta przechowany w bezpiecznym miejscu, aby odzyskać dostęp do konta Firefoksa."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">UWAGA:</span> zmiana hasła bez dostępu do zachowanego klucza odzyskiwania konta spowoduje usunięcie części danych (w tym danych synchronizowanych na serwerze, takich jak "
 "historia i zakładki)."
@@ -1161,11 +1158,8 @@ msgid "Password"
 msgstr "Hasło"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Kontynuując, wyrażasz zgodę na <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">regulamin usługi</a> oraz <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zasady ochrony "
-"prywatności</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Kontynuując, wyrażasz zgodę na <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">regulamin usługi</a> oraz <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zasady ochrony prywatności</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1432,8 +1426,7 @@ msgstr "Ten adres e-mail zmienił właściciela? Utwórz nowe konto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
@@ -1514,7 +1507,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Więcej od Mozilli:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1528,8 +1521,7 @@ msgstr "Utwórz konto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -2034,11 +2026,8 @@ msgid "Sync your device"
 msgstr "Synchronizuj swoje urządzenie"
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
-"Zeskanuj, aby pobrać Firefoksa na telefon, albo wyślij sobie <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">odnośnik do "
-"pobrania</a>."
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "Zeskanuj, aby pobrać Firefoksa na telefon, albo wyślij sobie <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">odnośnik do pobrania</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
