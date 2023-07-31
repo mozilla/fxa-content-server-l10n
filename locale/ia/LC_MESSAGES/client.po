@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-07-06 17:07+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Le contrasigno ha essite reinitialisate. Aperi session pro continuar."
 msgid "Sign in"
 msgstr "Aperir session"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Conto delite con successo"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 "          Insere le contrasigno <span class=\"card-subheader\" id=\"subheader\">pro tu conto Firefox </span>\n"
 "        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Contrasigno"
 
@@ -1492,7 +1492,7 @@ msgstr "Controla tu e-mail pro le codice de autorisation inviate a %(email)s."
 msgid "Enter authorization code"
 msgstr "Insere le codice de autorisation"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Defini tu contrasigno"
 
@@ -1500,11 +1500,11 @@ msgstr "Defini tu contrasigno"
 msgid "Change email"
 msgstr "Cambiar adresse de e-mail"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Repete le contrasigno"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 "Iste contrasigno es necessari pro acceder al datos cryptate que tu immagazina in nostre systemas.<br class=\"mb-3\">Si tu reinitialisa le contrasigno, tu pote perder datos como contrasignos e "
@@ -1514,7 +1514,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr "Obtene magis per Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Elige lo que synchronisar"
 
@@ -1652,6 +1652,14 @@ msgstr "Reinviar le scheda"
 msgid "Tab not arriving? Send an email instead"
 msgstr "Scheda non arrivate? Inviar un e-mail in vice"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Crear contrasigno"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Adder un adresse de e-mail secundari"
@@ -1752,10 +1760,6 @@ msgstr "Insere un contrasigno"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Confirmar contrasigno"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Crear contrasigno"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

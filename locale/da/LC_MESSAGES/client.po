@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-07-18 17:31+0000\n"
 "Last-Translator: Joergen <joradan0@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
@@ -29,7 +29,7 @@ msgstr "Adgangskode nulstillet. Log ind for at fortsætte."
 msgid "Sign in"
 msgstr "Log ind"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Kontoen er slettet"
 
@@ -840,7 +840,9 @@ msgid "Invalid Token"
 msgstr "Ugyldigt token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -909,10 +911,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din Firefox-konto igen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data"
-" som fx historik og bogmærker)."
+"<span class=\"note\">BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt en genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-"
+"data som fx historik og bogmærker)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1150,13 +1153,16 @@ msgstr ""
 "          Indtast adgangskoden <span class=\"card-subheader\" id=\"subheader\">til din Firefox-konto</span>\n"
 "        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Adgangskode"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Ved at fortsætte accepterer du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivspolitikken</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Ved at fortsætte accepterer du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">privatlivspolitikken</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1423,13 +1429,15 @@ msgstr "Er du ikke længere ejer af den mailadresse? Opret en ny konto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Ved at fortsætte accepterer du:<br />\n"
-"            Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tjenestevilkår</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">privatlivserklæring</a><br />\n"
+"            Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tjenestevilkår</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">privatlivserklæring</a><br />\n"
 "            Firefox’ <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkår</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæring</a>.\n"
 "          "
 
@@ -1489,7 +1497,7 @@ msgstr "Tjek din mail for godkendelseskoden, der er sendt til %(email)s."
 msgid "Enter authorization code"
 msgstr "Indtast godkendelseskode"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Angiv din adgangskode"
 
@@ -1497,11 +1505,11 @@ msgstr "Angiv din adgangskode"
 msgid "Change email"
 msgstr "Skift mailadresse"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Gentag adgangskode"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr "Du skal bruge denne adgangskode for at få adgang til de krypterede data, du gemmer hos os.<br class=\"mb-3\">En nulstilling kan medføre tab af data som fx adgangskoder og bogmærker."
 
@@ -1509,7 +1517,7 @@ msgstr "Du skal bruge denne adgangskode for at få adgang til de krypterede data
 msgid "Get more from Mozilla:"
 msgstr "Få mere fra Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Vælg, hvad der skal synkroniseres"
 
@@ -1521,13 +1529,15 @@ msgstr "Opret konto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ved at fortsætte accepterer du:<br />\n"
-"            Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tjenestevilkår</a> og <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">privatlivserklæring</a><br />\n"
+"            Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tjenestevilkår</a> og <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
+"\">privatlivserklæring</a><br />\n"
 "            Firefox’ <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkår</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">privatlivserklæring</a>\n"
 "          "
 
@@ -1651,6 +1661,14 @@ msgstr "Send faneblad igen"
 msgid "Tab not arriving? Send an email instead"
 msgstr "Er fanebladet ikke ankommet? Send en mail i stedet for"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Opret adgangskode"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Tilføj en sekundær mailadresse"
@@ -1749,10 +1767,6 @@ msgstr "Indtast en adgangskode"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Bekræft adgangskode"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Opret adgangskode"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2029,10 +2043,11 @@ msgid "Sync your device"
 msgstr "Synkroniser din enhed"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
-"Skan for at hente Firefox til mobilen, eller send dig selv et <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">link til at hente"
-" appen.</a>"
+"Skan for at hente Firefox til mobilen, eller send dig selv et <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">link til at "
+"hente appen.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"

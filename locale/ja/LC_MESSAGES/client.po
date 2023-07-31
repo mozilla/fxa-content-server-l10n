@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-04-14 23:12+0000\n"
 "Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: Japanese\n"
@@ -29,7 +29,7 @@ msgstr "パスワードのリセットが完了しました。続けるにはロ
 msgid "Sign in"
 msgstr "ログイン"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
@@ -1156,7 +1156,7 @@ msgid ""
 "        "
 msgstr "<span class=\"card-subheader\" id=\"subheader\">Firefox アカウントの</span>パスワードを入力してください"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "パスワード"
 
@@ -1494,7 +1494,7 @@ msgstr "認証コードを %(email)s 宛にお送りしましたので、メー�
 msgid "Enter authorization code"
 msgstr "認証コードを入力"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "パスワードを設定"
 
@@ -1502,11 +1502,11 @@ msgstr "パスワードを設定"
 msgid "Change email"
 msgstr "メールアドレスを変更"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "パスワードを再入力してください"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr "このパスワードはサーバーに保存した暗号化されたデータにアクセスするのに必要です。<br class=\"mb-3\">リセットするとログイン情報やブックマークなどのデータが失われる可能性があります。"
 
@@ -1514,7 +1514,7 @@ msgstr "このパスワードはサーバーに保存した暗号化されたデ
 msgid "Get more from Mozilla:"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "同期するデータを選択する"
 
@@ -1652,6 +1652,14 @@ msgstr "タブを再送信"
 msgid "Tab not arriving? Send an email instead"
 msgstr "タブが届かない場合は、代わりにメールを送信してください"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "パスワードの作成"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "予備のメールアドレスを追加"
@@ -1753,10 +1761,6 @@ msgstr "パスワードを入力してください"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "パスワードを再度入力"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "パスワードの作成"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

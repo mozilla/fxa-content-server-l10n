@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-06-30 13:25+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Ñe’ẽñemi jeguerujey. Ejekuaauka eku’ejey hag̃ua."
 msgid "Sign in"
 msgstr "Eñepyrũ tembiapo"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Mba’ete oñemboguete apañuãi’ỹre"
 
@@ -1155,7 +1155,7 @@ msgstr ""
 "\t          Emoinge ñe’ẽñemi <span class=\"card-subheader\" id=\"subheader\">ne mba’ete Firefox peguáva</span>\n"
 "\t        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Ñe’ẽñemi"
 
@@ -1493,7 +1493,7 @@ msgstr "Ehechajey ne ñanduti vevépe ayvu ñemoneĩva mondopyre %(email)s-pe."
 msgid "Enter authorization code"
 msgstr "Emoinge ayvu ñemoneĩva"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Emboaje ne ñe’ẽñemi"
 
@@ -1501,11 +1501,11 @@ msgstr "Emboaje ne ñe’ẽñemi"
 msgid "Change email"
 msgstr "Ñanduti veve moambue"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Emoingejey ñe’ẽñemi"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr "Eikotevẽ ñe’ẽñemi eike hag̃ua mba’ekuaarã ipapapýva embyatýva orendivépe.<br class=\"mb-3\">Erujeýramo oguekuaa ndehegui mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha."
 
@@ -1513,7 +1513,7 @@ msgstr "Eikotevẽ ñe’ẽñemi eike hag̃ua mba’ekuaarã ipapapýva embyat�
 msgid "Get more from Mozilla:"
 msgstr "Eipuruve Mozilla-pe:"
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Eiporavo mba’épa embojuehéta"
 
@@ -1651,6 +1651,14 @@ msgstr "Emondojey tendayke"
 msgid "Tab not arriving? Send an email instead"
 msgstr "¿Nog̃uahẽi tendayke? Emondo ñanduti veve hendaguépe"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Emoheñói ñe’ẽñemi"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Embojuaju ñanduti veve mokõiháva"
@@ -1749,10 +1757,6 @@ msgstr "Emoinge ñe’ẽñemi"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Emoneĩ ñe’ẽñemi"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Emoheñói ñe’ẽñemi"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
