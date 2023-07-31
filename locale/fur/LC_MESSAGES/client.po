@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-07-20 20:49+0000\n"
 "Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Password ristabilide cun sucès. Jentre par continuâ."
 msgid "Sign in"
 msgstr "Jentre"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Account eliminât cun sucès"
 
@@ -839,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Gjeton no valit"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Continuant tu confermis di acetâ lis <a id=\"service-tos\" href=\"%(termsUri)s\">Condizions di utilizazion dal servizi</a> e la <a id=\"service-pp\" href=\"%(privacyUri)s\">Informative su la "
 "riservatece</a> di %(serviceName)s (%(serviceUri)s)."
@@ -910,7 +912,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Inserìs la clâf di recupar dal account, che si pues doprâ une volte sole e che tu âs memorizât intun puest sigûr, par tornâ a vê l'acès al to account Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE:</span> se tu ristabilissis la password e no tu âs salvât la clâf di recupar dal account, cualchi dât al vignarà eliminât (includûts i dâts sincronizâts sul servidôr come "
 "cronologjie e segnelibris)."
@@ -1152,15 +1155,16 @@ msgstr ""
 "          Inserìs la tô password <span class=\"card-subheader\" id=\"subheader\">pal to account Firefox</span>\n"
 "        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Password"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Se tu continuis, tu acetis lis <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Informative su la riservatece</a>."
+"Se tu continuis, tu acetis lis <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Informative su la riservatece</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1427,14 +1431,17 @@ msgstr "No tu controlis plui chê e-mail? Cree un gnûf account"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "              Continuant tu confermis di acetâ:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Cundizions di utilizazion dal servizi</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Informative su la riservatece</a> di Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Cundizions di utilizazion dal servizi</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informative su la riservatece</a> di Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Cundizions di utilizazion dal servizi</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Informative su la riservatece</a> di Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Cundizions di utilizazion dal servizi</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informative su la "
+"riservatece</a> di Firefox.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1493,7 +1500,7 @@ msgstr "Controle la casele di pueste: il codiç di autorizazion al è stât invi
 msgid "Enter authorization code"
 msgstr "Inserìs il codiç di autorizazion"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Definìs la tô password"
 
@@ -1501,19 +1508,20 @@ msgstr "Definìs la tô password"
 msgid "Change email"
 msgstr "Modifiche e-mail"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Ripet password"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ti covente cheste password par acedi a ducj i dâts cifrâts che tu archiviis cun nô.<br class=\"mb-3\">Un ripristinament al significhe la pierdite potenziâl di dâts come passwords e segnelibris."
+msgstr ""
+"Ti covente cheste password par acedi a ducj i dâts cifrâts che tu archiviis cun nô.<br class=\"mb-3\">Un ripristinament al significhe la pierdite potenziâl di dâts come passwords e segnelibris."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
 msgstr "Oten di plui di Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Sielç ce sincronizâ"
 
@@ -1525,14 +1533,17 @@ msgstr "Cree un account"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Continuant tu confermis di acetâ:<br />\n"
-"            lis <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Cundizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Informative su la riservatece</a> di Pocket<br />\n"
-"            lis <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Cundizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informative su la riservatece</a> di Firefox\n"
+"            lis <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Cundizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://"
+"getpocket.com/privacy/\">Informative su la riservatece</a> di Pocket<br />\n"
+"            lis <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Cundizions di utilizazion dal servizi</a> e la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informative "
+"su la riservatece</a> di Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1655,6 +1666,14 @@ msgstr "Torne mande schede"
 msgid "Tab not arriving? Send an email instead"
 msgstr "La schede no rive? Mande al so puest une e-mail"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Cree password"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Zonte une direzion e-mail secondarie"
@@ -1755,10 +1774,6 @@ msgstr "Inserìs une password"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Conferme password"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Cree password"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2035,7 +2050,8 @@ msgid "Sync your device"
 msgstr "Sincronize il to dispositîf"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Scansione il codiç par discjariâ Firefox par dispositîfs mobii o par inviâti un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">colegament par discjariâlu</a>."

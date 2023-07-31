@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2021-04-19 15:56+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "صُفِّرت كلمة السرّ بنجاح. لُج للاستمرار
 msgid "Sign in"
 msgstr "لِج"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "حُذف الحساب بنجاح"
 
@@ -1146,7 +1146,7 @@ msgid ""
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "كلمة السرّ"
 
@@ -1480,7 +1480,7 @@ msgstr "راجع بريدك الإلكتروني لتجد رمز التخويل 
 msgid "Enter authorization code"
 msgstr "أدخل رمز التخويل"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr ""
 
@@ -1488,11 +1488,11 @@ msgstr ""
 msgid "Change email"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "كرر كلمة السرّ"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
@@ -1500,7 +1500,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "اختر ما الذي تريد مزامنة"
 
@@ -1638,6 +1638,14 @@ msgstr ""
 msgid "Tab not arriving? Send an email instead"
 msgstr ""
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr ""
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
@@ -1735,10 +1743,6 @@ msgstr ""
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1

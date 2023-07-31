@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2022-06-05 18:14+0000\n"
 "Last-Translator: ‪Sociologist Abedi <sociologist.abedi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "بازنشانی گذرواژه با موفقیت انجام شد. بر�
 msgid "Sign in"
 msgstr "ورود"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "حساب با موفقیت حذف شد"
 
@@ -840,7 +840,9 @@ msgid "Invalid Token"
 msgstr "نشانه نامعتبر"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -911,7 +913,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE</span>اگر قصد دارید این رمز عبور را بازیابی کنید اما به کلید بازیابی ذخیره شده دسترسی ندارید، تعدادی از اطلاعات شما پاک خواهد شد( شامل اطلاعات همرسانی شده با سرور مانند "
 "تاریخچه مرورگر شما یا نشانک های شما)."
@@ -1147,12 +1150,13 @@ msgid ""
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "گذرواژه"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
@@ -1418,7 +1422,8 @@ msgstr "دیگر مالک آن رایانامه نیستید؟ حساب جدید
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
@@ -1479,7 +1484,7 @@ msgstr "رایانامهٔ خود را برای کُد تاییدیهٔ هویت
 msgid "Enter authorization code"
 msgstr "ورود کد تایید هویت"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr ""
 
@@ -1487,11 +1492,11 @@ msgstr ""
 msgid "Change email"
 msgstr "تغییر ایمیل"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "تکرار گذرواژه"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
@@ -1499,7 +1504,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "انتخاب کنید که چه چیزهایی همگام‌ شوند"
 
@@ -1511,7 +1516,8 @@ msgstr "ایجاد حساب کاربری"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1636,6 +1642,14 @@ msgstr "ارسال مجدد زبانه"
 msgid "Tab not arriving? Send an email instead"
 msgstr ""
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "ایجاد گذرواژه"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
@@ -1734,10 +1748,6 @@ msgstr "یک گذرواژه وارد کنید"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "تأیید گذرواژه"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "ایجاد گذرواژه"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2011,7 +2021,8 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-07-18 11:01+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 msgid "Sign in"
 msgstr "Giriş yap"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
@@ -1153,7 +1153,7 @@ msgstr ""
 "          <span class=\"card-subheader\" id=\"subheader\">Firefox hesabınızın</span> parolasını yazın\n"
 "        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Parola"
 
@@ -1491,7 +1491,7 @@ msgstr "%(email)s adresine gönderdiğimiz yetki kodunu kontrol edin."
 msgid "Enter authorization code"
 msgstr "Yetkilendirme kodunu girin"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Parolanızı ayarlayın"
 
@@ -1499,11 +1499,11 @@ msgstr "Parolanızı ayarlayın"
 msgid "Change email"
 msgstr "E-postayı değiştir"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Parola tekrarı"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr "Sakladığınız şifrelenmiş verilere erişmek için bu parolaya ihtiyacınız olacak.<br class=\"mb-3\">Bu parolayı sıfırlarsanız kayıtlı parolalar ve yer imleri gibi verilerinizi kaybeceksiniz."
 
@@ -1511,7 +1511,7 @@ msgstr "Sakladığınız şifrelenmiş verilere erişmek için bu parolaya ihtiy
 msgid "Get more from Mozilla:"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Nelerin eşitleneceğini seçin"
 
@@ -1649,6 +1649,14 @@ msgstr "Sekmeyi yeniden gönder"
 msgid "Tab not arriving? Send an email instead"
 msgstr "Sekme gelmiyor mu? Onun yerine e-posta gönderelim"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Parola oluştur"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "İkinci bir e-posta adresi ekleyin"
@@ -1749,10 +1757,6 @@ msgstr "Parola girin"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Parolayı onaylayın"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Parola oluştur"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

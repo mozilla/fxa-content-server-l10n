@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-18 16:36+0000\n"
+"POT-Creation-Date: 2023-07-31 20:16+0000\n"
 "PO-Revision-Date: 2023-07-08 14:25+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Palavra-passe reposta com sucesso. Inicie sessão para continuar."
 msgid "Sign in"
 msgstr "Iniciar sessão"
 
-#: .es5/views/index.js:140
+#: .es5/views/index.js:147
 msgid "Account deleted successfully"
 msgstr "Conta apagada com sucesso"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 "          Insira a sua palavra-passe <span class=\"card-subheader\" id=\"subheader\">para a sua conta Firefox</span>\n"
 "        "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Palavra-passe"
 
@@ -1492,7 +1492,7 @@ msgstr "Verifique o seu email para o código de autorização enviado para %(ema
 msgid "Enter authorization code"
 msgstr "Introduzir o código de autorização"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
 msgstr "Definir a sua palavra-passe"
 
@@ -1500,11 +1500,11 @@ msgstr "Definir a sua palavra-passe"
 msgid "Change email"
 msgstr "Alterar email"
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 "Precisa desta palavra-passe para aceder a quaisquer dados encriptados que guarde connosco.<br class=\"mb-3\">Uma reposição significa a perda potencial dos dados, tais como palavras-passe e "
@@ -1514,7 +1514,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr "Obtenha mais da Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
 msgstr "Escolha o que sincronizar"
 
@@ -1652,6 +1652,14 @@ msgstr "Reenviar separador"
 msgid "Tab not arriving? Send an email instead"
 msgstr "O separador não está a chegar? Como alternativa, envie um e-mail"
 
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
+msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
+msgstr ""
+
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Criar palavra-passe"
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Adicionar um endereço de e-mail secundário"
@@ -1752,10 +1760,6 @@ msgstr "Introduza uma palavra-passe"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Confirmar palavra-passe"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Criar palavra-passe"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
