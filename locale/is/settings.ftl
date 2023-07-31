@@ -483,8 +483,10 @@ la-heading = Tengdir reikningar
 la-description = Þú hefur heimilað aðgang að eftirfarandi reikningum.
 la-unlink-button = Aftengja
 la-unlink-account-button = Aftengja
+la-set-password-button = Setja lykilorð
 la-unlink-heading = Aftengja frá utanaðkomandi reikningi
 la-unlink-content-3 = Ertu viss um að þú viljir aftengja reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr tengdum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
+la-unlink-content-4 = Áður en þú aftengir reikninginn þinn verður þú að setja lykilorð. Án lykilorðs er engin leið fyrir þig að skrá þig inn eftir að hafa aftengt reikninginn þinn.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
