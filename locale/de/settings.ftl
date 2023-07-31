@@ -481,8 +481,10 @@ la-heading = Verknüpfte Konten
 la-description = Sie haben den Zugriff auf folgende Konten genehmigt.
 la-unlink-button = Verknüpfung aufheben
 la-unlink-account-button = Verknüpfung aufheben
+la-set-password-button = Passwort setzen
 la-unlink-heading = Verknüpfung zu Drittanbieterkonto entfernen
 la-unlink-content-3 = Möchten Sie die Verknüpfung Ihres Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von Ihren Verbundenen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
+la-unlink-content-4 = Bevor Sie die Verknüpfung Ihres Kontos aufheben, müssen Sie ein Passwort festlegen. Ohne Passwort gibt es keine Möglichkeit, sich anzumelden, nachdem Sie die Verknüpfung Ihres Kontos aufgehoben haben.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
