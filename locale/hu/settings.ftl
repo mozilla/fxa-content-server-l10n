@@ -483,8 +483,10 @@ la-heading = Összekapcsolt fiókok
 la-description = A következő fiókokhoz való hozzáférést engedélyezte.
 la-unlink-button = Leválasztás
 la-unlink-account-button = Leválasztás
+la-set-password-button = Jelszó beállítása
 la-unlink-heading = Leválasztás egy harmadik féltől származó fiókról
 la-unlink-content-3 = Biztos, hogy leválasztja a fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan a kapcsolódó szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Kapcsolódó szolgáltatások szakaszban.
+la-unlink-content-4 = A fiók leválasztása előtt meg kell adnia egy jelszót. Jelszó nélkül a fiók leválasztása után nincs lehetősége bejelentkezni.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
