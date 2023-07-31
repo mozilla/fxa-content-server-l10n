@@ -483,8 +483,10 @@ la-heading = Povezani računi
 la-description = Pooblastili ste dostop do naslednjih računov.
 la-unlink-button = Odklopi
 la-unlink-account-button = Odklopi
+la-set-password-button = Nastavi geslo
 la-unlink-heading = Odklopi od računa tretjega ponudnika
 la-unlink-content-3 = Ali ste prepričani, da želite prekiniti povezavo s svojim računom? Odklop računa ne pomeni samodejne odjave iz povezanih storitev. Iz njih se lahko odjavite ročno v odseku Povezane storitve.
+la-unlink-content-4 = Preden prekinete povezavo z računom, morate nastaviti geslo. Brez gesla se po prekinitvi povezave z računom ne morete prijaviti.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
