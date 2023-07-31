@@ -471,8 +471,10 @@ la-heading = Comptes liés
 la-description = Vous avez autorisé l’accès aux comptes suivants.
 la-unlink-button = Dissocier
 la-unlink-account-button = Dissocier
+la-set-password-button = Définir un mot de passe
 la-unlink-heading = Dissocier du compte tiers
 la-unlink-content-3 = Voulez-vous vraiment dissocier votre compte ? La dissociation de votre compte ne vous déconnecte pas automatiquement de vos Services connectés. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
+la-unlink-content-4 = Avant de dissocier votre compte, vous devez définir un mot de passe. Sans mot de passe, vous ne pourrez pas vous connecter après avoir dissocié votre compte.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
