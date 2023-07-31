@@ -481,8 +481,10 @@ la-heading = Cyfrifon Cysylltiedig
 la-description = Rydych wedi awdurdodi mynediad i'r cyfrifon canlynol.
 la-unlink-button = Datgysylltu
 la-unlink-account-button = Datgysylltu
+la-set-password-button = Gosod Cyfrinair
 la-unlink-heading = Datgysylltu o gyfrif trydydd parti
 la-unlink-content-3 = Ydych chi'n siŵr eich bod am ddatgysylltu eich cyfrif? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran Gwasanaethau Cysylltiedig.
+la-unlink-content-4 = Cyn datgysylltu'ch cyfrif, rhaid i chi osod cyfrinair. Heb gyfrinair, nid oes unrhyw ffordd i chi fewngofnodi ar ôl datgysylltu'ch cyfrif.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
