@@ -654,9 +654,6 @@ recent-activity-account-disable-v2 = Račun onemogočen
 recent-activity-account-enable-v2 = Račun omogočen
 recent-activity-account-login-v2 = Prijava v račun se je začela
 recent-activity-account-reset-v2 = Ponastavitev gesla se je začela
-# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
-# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = E-poštna sporočila zavrnjena
 recent-activity-account-login-failure = Neuspel poskus prijave v račun
 recent-activity-account-two-factor-added = Omogočena overitev v dveh korakih
 recent-activity-account-two-factor-requested = Zahteva po overitvi v dveh korakih
