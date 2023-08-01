@@ -481,8 +481,10 @@ la-heading = Связанные аккаунты
 la-description = Вы разрешили доступ к следующим аккаунтам.
 la-unlink-button = Отвязать
 la-unlink-account-button = Отвязать
+la-set-password-button = Установить пароль
 la-unlink-heading = Отвязать от стороннего аккаунта
 la-unlink-content-3 = Вы уверены, что хотите отвязать свой аккаунт? Отвязывание аккаунта не приведёт к автоматическому выходу из подключенных служб. Выход из них вам нужно будет выполнять вручную в разделе «‎Подключённые службы»‎.
+la-unlink-content-4 = Перед отвязкой аккаунта необходимо установить пароль. Без пароля вы не сможете войти в систему после отсоединения своего аккаунта.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
