@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-31 20:16+0000\n"
-"PO-Revision-Date: 2023-07-31 21:36+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-08-01 05:38+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1659,7 +1659,7 @@ msgstr "La scheda non è arrivata? Invia un’email in alternativa"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr "Crea una password per continuare con Firefox Sync. I tuoi dati sono crittografati con la tua password per proteggere la tua privacy."
+msgstr "Crea una password per continuare con la sincronizzazione in Firefox. I tuoi dati sono crittati con la tua password per proteggere la tua privacy."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"

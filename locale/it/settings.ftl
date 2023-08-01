@@ -474,7 +474,7 @@ la-unlink-account-button = Scollega
 la-set-password-button = Imposta password
 la-unlink-heading = Scollega da account di terze parti
 la-unlink-content-3 = Sei sicuro di voler scollegare il tuo account? Scollegando il tuo account non verrai disconnesso automaticamente dai servizi attualmente connessi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
-la-unlink-content-4 = Prima di scollegare il tuo account, devi impostare una password. Senza una password, non è possibile accedere dopo aver scollegato il proprio account.
+la-unlink-content-4 = Prima di scollegare il tuo account, devi impostare una password. Senza una password, non è più possibile accedere dopo aver scollegato il proprio account.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
