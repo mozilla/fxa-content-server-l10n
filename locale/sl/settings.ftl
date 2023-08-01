@@ -486,7 +486,7 @@ la-unlink-account-button = Odklopi
 la-set-password-button = Nastavi geslo
 la-unlink-heading = Odklopi od računa tretjega ponudnika
 la-unlink-content-3 = Ali ste prepričani, da želite prekiniti povezavo s svojim računom? Odklop računa ne pomeni samodejne odjave iz povezanih storitev. Iz njih se lahko odjavite ročno v odseku Povezane storitve.
-la-unlink-content-4 = Preden prekinete povezavo z računom, morate nastaviti geslo. Brez gesla se po prekinitvi povezave z računom ne morete prijaviti.
+la-unlink-content-4 = Preden prekinete povezavo z računom, morate nastaviti geslo. Brez gesla se po prekinitvi povezave ne boste več mogli prijaviti.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -657,20 +657,20 @@ recent-activity-account-reset-v2 = Ponastavitev gesla se je začela
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = E-poštna sporočila zavrnjena
-recent-activity-account-login-failure = Poskus prijave v račun ni uspel
-recent-activity-account-two-factor-added = Overitev v dveh korakih je omogočena
-recent-activity-account-two-factor-requested = Zahtevana je overitev v dveh korakih
-recent-activity-account-two-factor-failure = Preverjanje pristnosti v dveh korakih ni uspelo
-recent-activity-account-two-factor-success = Preverjanje pristnosti v dveh korakih uspešno
-recent-activity-account-two-factor-removed = Overitev v dveh korakih je odstranjena
+recent-activity-account-login-failure = Neuspel poskus prijave v račun
+recent-activity-account-two-factor-added = Omogočena overitev v dveh korakih
+recent-activity-account-two-factor-requested = Zahteva po overitvi v dveh korakih
+recent-activity-account-two-factor-failure = Neuspela overitev v dveh korakih
+recent-activity-account-two-factor-success = Uspešna overitev v dveh korakih
+recent-activity-account-two-factor-removed = Overitev v dveh korakih odstranjena
 recent-activity-account-password-reset-requested = Račun zahteva ponastavitev gesla
 recent-activity-account-password-reset-success = Ponastavitev gesla za račun je bila uspešna
-recent-activity-account-recovery-key-added = Ključ za obnovitev računa omogočen
+recent-activity-account-recovery-key-added = Omogočen ključ za obnovitev računa
 recent-activity-account-recovery-key-verification-failure = Preverjanje ključa za obnovitev računa ni uspelo
 recent-activity-account-recovery-key-verification-success = Preverjanje ključa za obnovitev računa je bilo uspešno
 recent-activity-account-recovery-key-removed = Obnovitveni ključ za račun odstranjen
 recent-activity-account-password-added = Dodano novo geslo
-recent-activity-account-password-changed = Geslo spremenjeno
+recent-activity-account-password-changed = Spremenjeno geslo
 recent-activity-account-secondary-email-added = Pomožni e-poštni naslov dodan
 recent-activity-account-secondary-email-removed = Pomožni e-poštni naslov je odstranjen
 recent-activity-account-emails-swapped = Primarni in sekundarni e-poštni naslov zamenjan
