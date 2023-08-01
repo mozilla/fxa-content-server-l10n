@@ -484,7 +484,7 @@ la-unlink-account-button = Desvincular
 la-set-password-button = Establecer contraseña
 la-unlink-heading = Desvincular de cuenta de terceros
 la-unlink-content-3 = ¿Estás seguro de que querés desvincular tu cuenta? Desvincular tu cuenta no te desconectará automáticamente de tus Servicios Conectados. Para hacerlo, deberás cerrar la sesión manualmente en la sección Servicios Conectados.
-la-unlink-content-4 = Antes de desvincular tu cuenta, debes establecer una contraseña. Sin contraseña, no hay forma de iniciar sesión después de desvincular tu cuenta.
+la-unlink-content-4 = Antes de desvincular tu cuenta, debés establecer una contraseña. Sin contraseña, no hay forma de iniciar sesión después de desvincular tu cuenta.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.

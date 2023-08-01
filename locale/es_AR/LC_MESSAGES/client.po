@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-31 20:16+0000\n"
-"PO-Revision-Date: 2023-07-31 21:36+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-08-01 05:12+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -1659,7 +1659,7 @@ msgstr "¿No llegó la pestaña? Enviar un correo electrónico en su lugar"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr "Cree una contraseña para continuar con Firefox Sync. Tus datos están encriptados con tu contraseña para proteger tu privacidad."
+msgstr "Creá una contraseña para continuar con Firefox Sync. Tus datos están cifrados con tu contraseña para proteger tu privacidad."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
