@@ -467,6 +467,7 @@ header-help = עזרה
 
 la-heading = חשבונות מקושרים
 la-description = יש לך גישה מורשית לחשבונות הבאים.
+la-set-password-button = הגדרת ססמה
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
