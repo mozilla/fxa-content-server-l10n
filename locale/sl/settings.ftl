@@ -666,16 +666,16 @@ recent-activity-account-two-factor-removed = Overitev v dveh korakih odstranjena
 recent-activity-account-password-reset-requested = Račun zahteva ponastavitev gesla
 recent-activity-account-password-reset-success = Ponastavitev gesla za račun je bila uspešna
 recent-activity-account-recovery-key-added = Omogočen ključ za obnovitev računa
-recent-activity-account-recovery-key-verification-failure = Preverjanje ključa za obnovitev računa ni uspelo
-recent-activity-account-recovery-key-verification-success = Preverjanje ključa za obnovitev računa je bilo uspešno
-recent-activity-account-recovery-key-removed = Obnovitveni ključ za račun odstranjen
+recent-activity-account-recovery-key-verification-failure = Neuspelo preverjanje ključa za obnovitev računa
+recent-activity-account-recovery-key-verification-success = Uspešno preverjanje ključa za obnovitev računa
+recent-activity-account-recovery-key-removed = Odstranjen ključ za obnovitev računa
 recent-activity-account-password-added = Dodano novo geslo
 recent-activity-account-password-changed = Spremenjeno geslo
-recent-activity-account-secondary-email-added = Pomožni e-poštni naslov dodan
-recent-activity-account-secondary-email-removed = Pomožni e-poštni naslov je odstranjen
-recent-activity-account-emails-swapped = Primarni in sekundarni e-poštni naslov zamenjan
+recent-activity-account-secondary-email-added = Dodan pomožni e-poštni naslov
+recent-activity-account-secondary-email-removed = Odstranjen pomožni e-poštni naslov
+recent-activity-account-emails-swapped = Zamenjana glavni in pomožni e-poštni naslov
 # Security event was recorded, but the activity details are unknown or not shown to user
-recent-activity-unknown = Druge dejavnosti v računu
+recent-activity-unknown = Drugačna dejavnost v računu
 
 # Account recovery key setup page
 
