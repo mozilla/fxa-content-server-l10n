@@ -484,8 +484,10 @@ la-heading = Звязаныя ўліковыя запісы
 la-description = Вы дазволілі доступ да наступных уліковых запісаў.
 la-unlink-button = Адвязаць
 la-unlink-account-button = Адвязаць
+la-set-password-button = Задаць пароль
 la-unlink-heading = Адвязаць ад старонняга ўліковага запісу
 la-unlink-content-3 = Вы ўпэўнены, што хочаце адвязаць свой акаўнт? Адвязванне ўліковага запісу не прывядзе да аўтаматычнага выхаду з падключаных паслуг. Для гэтага вам трэба будзе ўручную выйсці ў раздзела «Падключаныя паслугі».
+la-unlink-content-4 = Перш чым адвязаць уліковы запіс, вы павінны ўсталяваць пароль. Без пароля вы не зможаце ўвайсці ў сістэму пасля адлучэння свайго ўліковага запісу.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
