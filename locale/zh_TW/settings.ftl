@@ -469,8 +469,10 @@ la-heading = 連結帳號
 la-description = 您已授權連結下列帳號。
 la-unlink-button = 解除連結
 la-unlink-account-button = 解除連結
+la-set-password-button = 設定密碼
 la-unlink-heading = 解除與第三方帳號的連結
 la-unlink-content-3 = 您確定要解除連結帳號嗎？解除連結不會將您自動從連結的服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
+la-unlink-content-4 = 解除連結帳號前，必需先設定密碼。若未設定密碼，取消連結後就無法再登入帳號了。
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
