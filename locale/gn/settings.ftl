@@ -638,6 +638,18 @@ recent-activity-account-disable-v2 = Mba’ete pe’apyre
 recent-activity-account-enable-v2 = Mba’ete mbojurujapyre
 recent-activity-account-login-v2 = Mba’ete moñepyrũmbyre
 recent-activity-account-reset-v2 = Oñepyrũma ñe’ẽñemi ñemyatyrõ
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Ñandutiveve ojevýva mboguepyre
+recent-activity-account-login-failure = Ndoikói mba’etépe jeike
+recent-activity-account-two-factor-added = Ijurujáma mokõi jeku’épe ñemoneĩ
+recent-activity-account-two-factor-requested = Ñemoneĩ mokõijeýpe jerurepyre
+recent-activity-account-two-factor-failure = Ndoikói ñemoneĩ mokõijeyguáva
+recent-activity-account-two-factor-success = Oikoite ñemoneĩ mokõijeyguáva
+recent-activity-account-two-factor-removed = Oñembogue ñemoneĩ mokõijeyguáva
+recent-activity-account-password-reset-requested = Ojejerure ñe’ẽñemi ñemyatyrõjey
+recent-activity-account-password-reset-success = Oĩporãjeýma mba’ete ñe’ẽñemi
+recent-activity-account-recovery-key-added = Oĩporãjeýma mba’ete ñe’ẽñemi
 
 # Account recovery key setup page
 
