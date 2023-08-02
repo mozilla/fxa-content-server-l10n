@@ -652,6 +652,12 @@ recent-activity-account-password-reset-success = Oĩporãjeýma mba’ete ñe’
 recent-activity-account-recovery-key-added = Oĩporãjeýma mba’ete ñe’ẽñemi
 recent-activity-account-recovery-key-verification-failure = Ndoikói mba’ete mba’eñemi jeguerujeyrã
 recent-activity-account-recovery-key-verification-success = Ojehechajey mba’ete mba’eñemi jeguerujeyrã
+recent-activity-account-recovery-key-removed = Oguéma ayvu jeguerujeyrã mba’ete
+recent-activity-account-password-added = Ñe’ẽñemi pyahu mbojuajupyre
+recent-activity-account-password-changed = Ñe’ẽñemi moambuepyre
+recent-activity-account-secondary-email-added = Ñanduti veve mokõiháva mbojuajupyre
+recent-activity-account-secondary-email-removed = Ñanduti veve mokõiháva mboguepyre
+recent-activity-account-emails-swapped = Ñanduti veve ha’etéva ha mokõiháva mbojuasapyre
 
 # Account recovery key setup page
 
