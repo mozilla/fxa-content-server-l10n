@@ -70,7 +70,6 @@ new-user-enter-email =
     .label = Ehai ne ñanduti veve
 new-user-confirm-email =
     .label = Emoneĩjey ne ñanduti veve
-new-user-subscribe-product-updates = Hi’ã og̃uahẽ chéve ñembohekopyahu { -brand-name-firefox } apopyre rehegua
 new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
@@ -444,6 +443,16 @@ sub-change-submit = Emoneĩ moambue
 sub-update-current-plan-label = Ag̃agua tembiaporã
 sub-update-new-plan-label = Tembiaporã pyahu
 sub-update-total-label = Ipyahupaite
+sub-update-prorated-upgrade = Mbohekopyahu mboja’opyre
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
