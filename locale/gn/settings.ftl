@@ -370,7 +370,6 @@ cs-disconnect-suspicious-advice-content =
     ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
     ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
-cs-recent-activity = Mba’ete rembiapo ramoguavéva
 
 ##
 
@@ -470,6 +469,7 @@ la-heading = Mba’ete juajupyre
 la-description = Eikekuaa apañuãi’ỹre ko’ã mba’etépe.
 la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
+la-set-password-button = Emoĩ Ñe’ẽñemi
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
 la-unlink-content-3 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua upéicha, embotyraẽva’erã tembiapo nde pópe pe Mba’apuru jeikepyréva ndive.
 nav-linked-accounts = { la-heading }
@@ -628,19 +628,16 @@ display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Mba’ete rembiapo ramoguavéva
-recent-activity-account-create = Oñemoheñóima mba’ete
-recent-activity-account-disable = Oñemboykéma mba’ete
-recent-activity-account-enable = Oñembojurujáma mba’ete
-recent-activity-account-login = Mba’etépe jeike oñepyrũma
-recent-activity-account-reset = Mba’ete ñe’ẽñemi jeguerujey oñepyrũma
-recent-activity-emails-clearBounces = Mba’ete ñanduti veve ojevyjey
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Mba’ete moheñoimbyre
+recent-activity-account-disable-v2 = Mba’ete pe’apyre
+recent-activity-account-enable-v2 = Mba’ete mbojurujapyre
+recent-activity-account-login-v2 = Mba’ete moñepyrũmbyre
+recent-activity-account-reset-v2 = Oñepyrũma ñe’ẽñemi ñemyatyrõ
 
 # Account recovery key setup page
 

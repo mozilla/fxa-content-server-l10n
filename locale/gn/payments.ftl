@@ -450,6 +450,10 @@ sub-update-prorated-upgrade = Mbohekopyahu mboja’opyre
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (Aragua)
+sub-update-new-plan-weekly = { $productName } (Arapokõindygua)
+sub-update-new-plan-monthly = { $productName } (Jasygua)
+sub-update-new-plan-yearly = { $productName } (Arygua)
 
 ##
 
