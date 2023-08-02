@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-31 20:16+0000\n"
-"PO-Revision-Date: 2023-08-01 13:42+0000\n"
-"Last-Translator: wxie <xiewensheng@hotmail.com>\n"
+"PO-Revision-Date: 2023-08-02 15:48+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1645,7 +1645,7 @@ msgstr "未收到标签页？改用邮件发送"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr "请创建密码以继续 Firefox 同步。数据将使用您的密码进行加密，以保护您的隐私。"
+msgstr "请创建密码以继续使用 Firefox 同步。数据将使用您的密码进行加密，以保护您的隐私。"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"

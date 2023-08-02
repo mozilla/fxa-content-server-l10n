@@ -474,7 +474,7 @@ la-unlink-account-button = 断开连接
 la-set-password-button = 设置密码
 la-unlink-heading = 断开与第三方账户的连接
 la-unlink-content-3 = 您确定要断开与账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
-la-unlink-content-4 = 在取消账户关联之前，您必须设置密码。如果没有密码，您在取消关联帐户后将无法登录。
+la-unlink-content-4 = 在取消账户关联前，必须先设置密码。如果没有密码，此后将无法登录。
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
