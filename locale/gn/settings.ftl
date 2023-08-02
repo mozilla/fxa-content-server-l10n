@@ -658,6 +658,8 @@ recent-activity-account-password-changed = Ñe’ẽñemi moambuepyre
 recent-activity-account-secondary-email-added = Ñanduti veve mokõiháva mbojuajupyre
 recent-activity-account-secondary-email-removed = Ñanduti veve mokõiháva mboguepyre
 recent-activity-account-emails-swapped = Ñanduti veve ha’etéva ha mokõiháva mbojuasapyre
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Mba’ete rembiapo ambuéva
 
 # Account recovery key setup page
 
@@ -794,6 +796,8 @@ security-password-created-date = Heñoipyre { $date }
 security-not-set = Heko’ỹva
 security-action-create = Moheñói
 security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eipuru peteĩva mba’ete rekorosã rembiapoite.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
 
 ## Switch component
 
