@@ -484,8 +484,10 @@ la-heading = Байланыстырылған тіркелгілер
 la-description = Сіз келесі тіркелгілерге рұқсат бердіңіз.
 la-unlink-button = Байланысты үзу
 la-unlink-account-button = Байланысты үзу
+la-set-password-button = Парольді орнату
 la-unlink-heading = Үшінші жақ тіркелгісімен байланысты үзу
 la-unlink-content-3 = Тіркелгі байланысын шынымен үзгіңіз келе ме? Тіркелгіні өшіру сізді қосылған қызметтерден автоматты түрде шығармайды. Ол үшін "Байланыстырылған қызметтер" бөлімінен қолмен шығу керек.
+la-unlink-content-4 = Тіркелгі байланысын ажырату алдында парольді орнату керек. Тіркелгіңізді ажыратқаннан кейін жүйеге парольсіз кіру мүмкін болмайды.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
