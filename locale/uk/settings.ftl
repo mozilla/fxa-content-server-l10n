@@ -484,8 +484,10 @@ la-heading = Пов’язані облікові записи
 la-description = Ви авторизували доступ до таких облікових записів.
 la-unlink-button = Відв'язати
 la-unlink-account-button = Відв'язати
+la-set-password-button = Створити пароль
 la-unlink-heading = Відв’язати від стороннього облікового запису
 la-unlink-content-3 = Ви впевнені, що хочете відв’язати свій обліковий запис? Відв’язування облікового запису не призведе до автоматичного виходу з Під'єднаних служб. Для цього вам потрібно вручну вийти з розділу Під'єднані служби.
+la-unlink-content-4 = Перш ніж відв'язати свій обліковий запис, ви повинні створити пароль. Без пароля ви не зможете виконати вхід після відв'язування облікового запису.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
