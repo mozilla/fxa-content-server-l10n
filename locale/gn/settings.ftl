@@ -650,6 +650,8 @@ recent-activity-account-two-factor-removed = Oñembogue ñemoneĩ mokõijeyguáv
 recent-activity-account-password-reset-requested = Ojejerure ñe’ẽñemi ñemyatyrõjey
 recent-activity-account-password-reset-success = Oĩporãjeýma mba’ete ñe’ẽñemi
 recent-activity-account-recovery-key-added = Oĩporãjeýma mba’ete ñe’ẽñemi
+recent-activity-account-recovery-key-verification-failure = Ndoikói mba’ete mba’eñemi jeguerujeyrã
+recent-activity-account-recovery-key-verification-success = Ojehechajey mba’ete mba’eñemi jeguerujeyrã
 
 # Account recovery key setup page
 
