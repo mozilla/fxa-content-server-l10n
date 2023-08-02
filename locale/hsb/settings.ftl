@@ -403,6 +403,10 @@ flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Zapodajće pokiw (na přeće)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokónčić
@@ -414,6 +418,9 @@ flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješkow wobsahować.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -439,6 +446,7 @@ la-heading = Zwjazane konta
 la-description = Smy přistup k slědowacym kontam awtorizowali.
 la-unlink-button = Zwisk dźělić
 la-unlink-account-button = Zwisk dźělić
+la-set-password-button = Hesło nastajić
 la-unlink-heading = Wot konta třećeho poskićowarja dźělić
 la-unlink-content-3 = Chceće woprawdźe zwisk ze swojim kontom dźělić? Hdyž zwisk ze swojim kontom dźěliće, njewotzjewiće so awtomatisce wot swojich zwjazanych słužbow. Zo byšće to činił, dyrbiće so manuelnje wot wotrězka zwjazanych słužbow wotzjewić.
 nav-linked-accounts = { la-heading }
@@ -604,6 +612,9 @@ recent-activity-title = Najnowša kontowa aktiwita
 recent-activity-account-create-v2 = Konto załožene
 recent-activity-account-disable-v2 = Konto znjemóžnjene
 recent-activity-account-enable-v2 = Konto zmóžnjene
+recent-activity-account-login-v2 = Kontowe přizjewjenje je so iniciěrowało
+recent-activity-account-reset-v2 = Wróćostajenje je so iniciěrowało
+recent-activity-account-login-failure = Pospyt kontoweho přizjewjenja njeje so poradźiło
 recent-activity-account-two-factor-added = Dwukročelowa awtentifikacija zmóžnjena
 recent-activity-account-two-factor-requested = Dwukročelowa awtentifikacija požadana
 recent-activity-account-two-factor-failure = Dwukročelowa awtentifikacija je so nimokuliła
@@ -859,6 +870,10 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Wužiwanske wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Wužiwanske wuměnjenja</firefoxTos> a <firefoxPrivacy>zdźělenka priwatnosće</firefoxPrivacy> { -brand-firefox }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

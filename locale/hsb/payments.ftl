@@ -498,6 +498,10 @@ sub-update-copy =
     Waš plan so hnydom změni, a za zbytk wotličenskeje periody so wam
     přiměrjena suma wobličuje. Započinajo z { $startingDate }
     so połna suma wobličuje.
+sub-update-acknowledgment =
+    Waš plan so hnydom změni, a za zbytk tuteje wotličenskeje periody so wam dźensa
+    podźělna suma wobličuje. Započinajo z { $startingDate }
+    so połna suma wobličuje.
 sub-change-submit = Změnu wobkrućić
 sub-update-current-plan-label = Aktualny plan
 sub-update-new-plan-label = Nowy plan
