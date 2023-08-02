@@ -571,6 +571,8 @@ pay-update-manage-btn = Rjadować
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Přichodna zličbowanka: { $date }
+sub-next-bill-no-tax = Waša přichodna zličbowanka <strong>{ $priceAmount }</strong> dyrbi so <strong>{ $date } płaćić
+sub-next-bill-tax = Waša přichodna zličbowanka <strong>{ $priceAmount } + { $taxAmount } dawka</strong> dyrbi so <strong>{ $date } płaćić
 sub-expires-on = Spadnje { $date }
 
 ## Routes - Subscription - PaymentUpdate

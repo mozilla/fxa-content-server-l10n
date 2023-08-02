@@ -403,6 +403,9 @@ flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Přidajće pokiw, zo byšće swój kluč zaso namakał
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
