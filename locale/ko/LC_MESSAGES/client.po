@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-05-03 09:43+0000\n"
 "Last-Translator: Hanjin Lee <jinifor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -930,18 +930,6 @@ msgstr "계정 복구 키 확인"
 msgid "Don't have an account recovery key?"
 msgstr "계정 복구 키가 없습니까?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "계정을 만들 수 없음"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Firefox&nbsp;계정을 만들기 위해서는 나이 조건을 충족해야합니다."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "자세히 보기"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "동기화할 대상 선택:"
@@ -1040,7 +1028,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "받은편지함 또는 스팸함에 없나요? 다시 보내기"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "뒤로"
 
@@ -1130,18 +1118,6 @@ msgstr "Android용 Firefox에 로그인하여 설정을 완료하기"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "iOS용 Firefox에 로그인하여 설정을 완료하기"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "쿠키와 Local Storage가 필요함"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox 계정을 사용하려면 브라우저의 쿠키와 로컬 저장소를 활성화하세요. 그러면 세션 간의 기억과 같은 기능들이 작동합니다."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "다시 시도"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1283,18 +1259,6 @@ msgstr "보안 코드"
 msgid "Ready"
 msgstr "준비"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "법적 고지"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "서비스 약관"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "개인정보처리방침"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "완전한 동기화를 경험하세요."
@@ -1328,6 +1292,10 @@ msgstr "동의"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "취소"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "개인정보처리방침"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1592,6 +1560,10 @@ msgstr "문제에 대한 설명"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "보내기"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "서비스 약관"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

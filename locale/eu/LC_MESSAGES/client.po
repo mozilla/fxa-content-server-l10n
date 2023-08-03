@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-04-15 08:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -932,18 +932,6 @@ msgstr "Berretsi kontua berreskuratzeko gakoa"
 msgid "Don't have an account recovery key?"
 msgstr "Ez duzu kontua berreskuratzeko gakorik?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Ezin da kontua sortu"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Adin jakin bat izan behar duzu Firefox &nbsp;kontu bat sortzeko."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Argibide gehiago"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Aukeratu zer sinkronizatu:"
@@ -1040,7 +1028,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Atzera"
 
@@ -1130,18 +1118,6 @@ msgstr "Konfigurazioa osatzeko, hasi saioa Androiderako Firefoxen"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Konfigurazioa osatzeko, hasi saioa iOSerako Firefoxen"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Cookie-ak eta biltegiratze lokala beharrezkoak dira"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Mesedez, gaitu cookie-ak eta biltegiratze lokala zure nabigatzailean Firefox Kontuak atzitzeko. Hori eginez, funtzionaltasunak gaituko dituzu; saioen artean zu gogoraraztekoa, adibidez."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Saiatu berriro"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1280,18 +1256,6 @@ msgstr "Segurtasun-kodea"
 msgid "Ready"
 msgstr "Prest"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Legala"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Zerbitzuaren baldintzak"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Pribatutasun-abisua"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Eskuratu Sync-en esperientzia osoa."
@@ -1325,6 +1289,10 @@ msgstr "Onartu"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Utzi"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Pribatutasun-abisua"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1587,6 +1555,10 @@ msgstr "Arazoaren deskribapena"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Bidali"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Zerbitzuaren baldintzak"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

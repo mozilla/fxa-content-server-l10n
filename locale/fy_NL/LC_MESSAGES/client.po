@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-07-19 06:54+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -934,18 +934,6 @@ msgstr "Befêstigje accountwerstelkaai"
 msgid "Don't have an account recovery key?"
 msgstr "Hawwe jo gjin accountwerstelkaai?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Kin gjin account oanmeitsje"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Jo moatte oan bepaalde leeftiidskritearia foldwaan om in Firefox-account oan te meitsjen."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Mear ynfo"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Kies wat jo syngronisearje wolle:"
@@ -1044,7 +1032,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Tebek"
 
@@ -1134,18 +1122,6 @@ msgstr "Meld jo oan by Firefox foar Android om de ynstallaasje te foltôgjen"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Meld jo oan by Firefox foar iOS om de ynstallaasje te foltôgjen"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Cookies en lokale opslach binne fereaske"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta Firefox Accounts. Hjirtroch wurde funksjonaliteiten lykas it ûnthâlden fan jo, tusken sesjes ynskeakele."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Opnij probearje"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1287,18 +1263,6 @@ msgstr "Befeiligingskoade"
 msgid "Ready"
 msgstr "Klear"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Juridysk"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Servicebetingsten"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Privacyferklearring"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Krij de folsleine Sync-ûnderfining."
@@ -1332,6 +1296,10 @@ msgstr "Akseptearje"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Annulearje"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Privacyferklearring"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1611,6 +1579,10 @@ msgstr "Omskriuwing fan it probleem"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Ferstjoere"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Servicebetingsten"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2022-03-24 16:54+0000\n"
 "Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -932,18 +932,6 @@ msgstr ""
 msgid "Don't have an account recovery key?"
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Tidak dapat membuat akun"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Pelajari selengkapnya"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Pilih yang ingin disinkronkan:"
@@ -1040,7 +1028,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Tak ada di kotak masuk atau folder spam? Kirim ulang"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Kembali"
 
@@ -1130,18 +1118,6 @@ msgstr "Masuk ke Firefox untuk Android untuk menyelesaikan persiapan"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Masuk ke Firefox untuk iOS guna menyelesaikan persiapan"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Kuki dan penyimpanan lokal diperlukan"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Aktifkan kuki dan penyimpanan lokal peramban Anda untuk mengakses Firefox Account. Jika diaktifkan, fungsi mengingat antarsesi akan berfungsi."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Coba lagi"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1278,18 +1254,6 @@ msgstr "Kode keamanan"
 msgid "Ready"
 msgstr "Siap"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Pernyataan Hukum"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Ketentuan Layanan"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Kebijakan Privasi"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Dapatkan pengalaman sinkronisasi yang penuh."
@@ -1323,6 +1287,10 @@ msgstr "Terima"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Batal"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Kebijakan Privasi"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1585,6 +1553,10 @@ msgstr "Deskripsi masalah"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Kirim"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Ketentuan Layanan"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
