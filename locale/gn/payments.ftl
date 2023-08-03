@@ -72,6 +72,7 @@ new-user-confirm-email =
     .label = Emoneĩjey ne ñanduti veve
 new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
+new-user-subscribe-product-updates-hubs = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mozilla-hubs } ha { -brand-mozilla } apopyre rehegua
 new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
