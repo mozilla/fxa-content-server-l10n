@@ -447,6 +447,8 @@ flow-recovery-key-hint-char-limit-error = Pe tape oguerekova’erã hetave 255 t
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Emoheñói mba’ete mba’eñemi guerujeyrã nderesaráirõ ne ñe’ẽñemígui
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
 # The text of the "submit" button to start creating (or changing) an account recovery key

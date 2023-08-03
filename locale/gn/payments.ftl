@@ -73,6 +73,7 @@ new-user-confirm-email =
 new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 new-user-subscribe-product-updates-hubs = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mozilla-hubs } ha { -brand-mozilla } apopyre rehegua
+new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mdn-plus } ha { -brand-mozilla } apopyre rehegua
 new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
@@ -442,6 +443,10 @@ sub-update-copy =
     Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
     ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
     guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve.
+sub-update-acknowledgment =
+    Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
+    ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
+    guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve gotyo.
 sub-change-submit = Emoneĩ moambue
 sub-update-current-plan-label = Ag̃agua tembiaporã
 sub-update-new-plan-label = Tembiaporã pyahu
