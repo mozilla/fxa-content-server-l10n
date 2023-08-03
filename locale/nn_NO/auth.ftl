@@ -8,7 +8,7 @@ session-verify-send-push-body-2 = Klikk her for å stadfeste at det er du
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
-fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">3
 body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
