@@ -477,6 +477,7 @@ la-heading = Propojené účty
 la-description = Máte autorizovaný přístup k následujícím účtům.
 la-unlink-button = Odpojit
 la-unlink-account-button = Odpojit
+la-set-password-button = Nastavení hesla
 la-unlink-heading = Odpojit od účtu třetí strany
 la-unlink-content-3 = Opravdu chcete odpojit svůj účet? Jeho odpojení nezpůsobí odhlášení z vašich propojených služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
 nav-linked-accounts = { la-heading }
