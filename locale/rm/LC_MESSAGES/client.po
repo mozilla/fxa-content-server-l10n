@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-07-20 07:33+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -932,18 +932,6 @@ msgstr "Confermar la clav da recuperaziun dal conto"
 msgid "Don't have an account recovery key?"
 msgstr "Ti n'has nagina clav da recuperaziun dal conto?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Impussibel da crear in conto"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Ti stos avair ina tscherta vegliadetgna per pudair crear in conto&nbsp;da&nbsp;Firefox."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Dapli infurmaziuns"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Tscherna quai che duai vegnir sincronisà:"
@@ -1042,7 +1030,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Betg en la posta entrada u en l'ordinatur da spam? Trametter anc ina giada"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Enavos"
 
@@ -1132,18 +1120,6 @@ msgstr "T'annunzia en Firefox per Android per cumplettar l'installaziun"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "S'annunziar en Firefox per iOS per cumplettar l'installaziun"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Cookies e memoria locala èn necessaris"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Activescha p.pl. cookies e la memoria locala en tes navigatur per acceder a tes conto da Firefox. Mo uschia pudain nus memorisar tias datas tranter differentas sesidas."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Emprova anc ina giada"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1285,18 +1261,6 @@ msgstr "Code da segirezza"
 msgid "Ready"
 msgstr "Pront"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Legal"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Contract da licenza"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Decleraziun da protecziun da datas"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Retschaiva l'experientscha cumpletta da Sync."
@@ -1330,6 +1294,10 @@ msgstr "Acceptar"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Interrumper"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Decleraziun da protecziun da datas"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1610,6 +1578,10 @@ msgstr "Descripziun dal problem"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Trametter"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Contract da licenza"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

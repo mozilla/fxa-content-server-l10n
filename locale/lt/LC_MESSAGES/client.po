@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2021-07-30 09:19+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -934,18 +934,6 @@ msgstr ""
 msgid "Don't have an account recovery key?"
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Paskyros sukurti nepavyko"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Sužinoti daugiau"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr ""
@@ -1042,7 +1030,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Nerandate laiško gautųjų ar brukalo aplanke? Galime jį išsiųsti pakartotinai"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Atgal"
 
@@ -1132,18 +1120,6 @@ msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „Androi
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Diegimui užbaigti prisijunkite prie „Firefox“ naršyklės „iOS“ įrenginyje"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Būtina leisti naudoti slapukus ir vietinę saugyklą"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Prieigai prie „Firefox“ paskyros prašome įgalinti slapukus ir vietinę saugyklą. Tai atlikus, bus įgalintos tokios funkcijos, kaip galimybė jus įsiminti tarp seansų."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Bandykite dar kartą"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1280,18 +1256,6 @@ msgstr "Saugos kodas"
 msgid "Ready"
 msgstr ""
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Teisinė informacija"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Paslaugos teikimo sąlygos"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Privatumo pranešimas"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Išbandykite visus Sync privalumus."
@@ -1325,6 +1289,10 @@ msgstr "Priimti"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Atsisakyti"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Privatumo pranešimas"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1587,6 +1555,10 @@ msgstr ""
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Siųsti"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Paslaugos teikimo sąlygos"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

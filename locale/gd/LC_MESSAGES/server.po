@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:11+0000\n"
 "PO-Revision-Date: 2021-06-30 15:45+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Cunntasan Firefox"
 
@@ -64,14 +64,6 @@ msgstr "’Ga luchdadh"
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Feumaidh cunntasan Firefox JavaScript."
-
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
-msgid "Privacy Notice"
-msgstr "Aithris na prìobhaideachd"
-
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
-msgid "Terms of Service"
-msgstr "Teirmichean na seirbheise"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"

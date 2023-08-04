@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-07-24 16:41+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -930,18 +930,6 @@ msgstr "Potvrďte kľúč na obnovenie účtu"
 msgid "Don't have an account recovery key?"
 msgstr "Nemáte kľúč na obnovenie účtu?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Účet nie je možné vytvoriť"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Na vytvorenie účtu Firefox musíte spĺňať vekové požiadavky."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Ďalšie informácie"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Vyberte si, čo chcete synchronizovať:"
@@ -1040,7 +1028,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Nemáte nič v schránke ani v priečinku so spamom? Chcete, aby sme vám e-mail odoslali znova?"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Naspäť"
 
@@ -1130,18 +1118,6 @@ msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu pre Android"
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu pre iOS"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Cookies a lokálne úložisko sú požadované."
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Aby ste mohli používať účet Firefox, povoľte prosím cookies a lokálne úložisko. Vďaka tomu si vás budeme môcť zapamätať medzi jednotlivými reláciami."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Skúsiť znova"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1283,18 +1259,6 @@ msgstr "Bezpečnostný kód"
 msgid "Ready"
 msgstr "Hotovo"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Právne informácie"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Podmienky používania služby"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Vyhlásenie o ochrane osobných údajov"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Vychutnajte si synchronizáciu naplno."
@@ -1328,6 +1292,10 @@ msgstr "Povoliť"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Zrušiť"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Vyhlásenie o ochrane osobných údajov"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1602,6 +1570,10 @@ msgstr "Popis problému"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Odoslať"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Podmienky používania služby"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

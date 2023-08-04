@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2023-07-23 09:48+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -931,18 +931,6 @@ msgstr "Xác nhận khóa khôi phục tài khoản"
 msgid "Don't have an account recovery key?"
 msgstr "Không có khóa khôi phục tài khoản?"
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "Không thể tạo tài khoản"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr "Bạn phải đáp ứng các yêu cầu về tuổi nhất định để tạo tài khoản&nbsp;Firefox."
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "Tìm hiểu thêm"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Chọn những gì để đồng bộ hóa:"
@@ -1041,7 +1029,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Quay lại"
 
@@ -1131,18 +1119,6 @@ msgstr "Đăng nhập vào Firefox dành cho Android để hoàn tất thiết l
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Đăng nhập vào Firefox dành cho iOS để hoàn tất thiết lập"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "Cookie và bộ nhớ cục bộ là bắt buộc"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Vui lòng bật cookie và bộ nhớ cục bộ trong trình duyệt của bạn để truy cập Tài khoản Firefox. Làm như vậy sẽ bật chức năng như ghi nhớ bạn giữa các phiên."
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "Thử lại"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1284,18 +1260,6 @@ msgstr "Mã bảo mật"
 msgid "Ready"
 msgstr "Sẵn sàng"
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "Pháp lí"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "Điều khoản dịch vụ"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "Thông báo bảo mật"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Nhận trải nghiệm Đồng bộ hóa đầy đủ."
@@ -1329,6 +1293,10 @@ msgstr "Chấp nhận"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Hủy bỏ"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Thông báo bảo mật"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1605,6 +1573,10 @@ msgstr "Mô tả vấn đề"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Gửi"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "Điều khoản dịch vụ"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

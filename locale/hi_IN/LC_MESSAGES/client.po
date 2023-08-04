@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 20:16+0000\n"
+"POT-Creation-Date: 2023-08-03 20:10+0000\n"
 "PO-Revision-Date: 2021-12-26 05:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -930,18 +930,6 @@ msgstr ""
 msgid "Don't have an account recovery key?"
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:1
-msgid "Cannot create account"
-msgstr "खाता नहीं बना सका"
-
-#: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
-
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
-msgid "Learn more"
-msgstr "अधिक जानें"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr ""
@@ -1038,7 +1026,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "पीछे"
 
@@ -1128,18 +1116,6 @@ msgstr "सेट-अप पूर्ण करने हेतु एंड्�
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "सेट-अप पूर्ण करने हेतु iOS के लिए Firefox में साइन इन करें"
-
-#: .es5/templates/cookies_disabled.mustache:1
-msgid "Cookies and local storage are required"
-msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है"
-
-#: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox लेखा उपयोग करने के लिए अपने ब्राउज़र में कुकी और स्थानीय भंडारण सक्षम करें । ऐसा करने से इस तरह के सत्र के बीच में आप को याद कर के रूप में कार्यक्षमता सक्षम हो जाएगा ।"
-
-#: .es5/templates/cookies_disabled.mustache:4
-msgid "Try again"
-msgstr "पुनः प्रयास करें"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
@@ -1276,18 +1252,6 @@ msgstr "सुरक्षा कोड"
 msgid "Ready"
 msgstr ""
 
-#: .es5/templates/legal.mustache:1
-msgid "Legal"
-msgstr "क़ानूनी"
-
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
-msgid "Terms of Service"
-msgstr "सेवा की शर्तें"
-
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
-msgid "Privacy Notice"
-msgstr "निजी सूचना"
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "पाएं साथ करने का सम्पूर्ण अनुभव."
@@ -1321,6 +1285,10 @@ msgstr "स्वीकार"
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "रद्द"
+
+#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "निजी सूचना"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1583,6 +1551,10 @@ msgstr "समस्या का विवरण"
 #: .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "भेजें"
+
+#: .es5/templates/support.mustache:23
+msgid "Terms of Service"
+msgstr "सेवा की शर्तें"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
