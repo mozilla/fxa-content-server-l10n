@@ -301,6 +301,10 @@ bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Discjame { -brand-firefox } su { -google-play }
 
 ##
 
@@ -400,10 +404,9 @@ connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
 ##
 
 
-## Recent Activity
-
-
-## $date (Date) - Date recent activity was created
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 
 # Account recovery key setup page
