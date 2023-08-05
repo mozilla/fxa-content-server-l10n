@@ -70,7 +70,6 @@ new-user-enter-email =
     .label = メールアドレスを入力
 new-user-confirm-email =
     .label = メールアドレスを確認
-new-user-subscribe-product-updates = { -brand-name-firefox } から製品の更新通知を受け取りたい。
 new-user-subscribe-product-assurance = 私たちは、あなたのメールアドレスをアカウント作成にのみ使用し、この個人情報を第三者に販売しません。
 new-user-email-validate = メールアドレスが無効です
 new-user-email-validate-confirm = メールアドレスが一致しません
@@ -89,6 +88,8 @@ payment-confirmation-thanks-subheading = 確認メールが { $email } に送信
 payment-confirmation-thanks-subheading-account-exists = { $email } にアカウントの設定手順とお支払いの詳細が記載されたメールが届きます。
 payment-confirmation-order-heading = 注文詳細
 payment-confirmation-invoice-number = 請求書番号 { $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = 支払い情報
 payment-confirmation-amount = { $amount } / { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -411,6 +412,19 @@ sub-change-submit = 変更を確認
 sub-update-current-plan-label = 現在のプラン
 sub-update-new-plan-label = 変更後のプラン
 sub-update-total-label = 変更後の料金
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (毎日)
+sub-update-new-plan-weekly = { $productName } (毎週)
+sub-update-new-plan-monthly = { $productName } (毎月)
+sub-update-new-plan-yearly = { $productName } (毎年)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
