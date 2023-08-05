@@ -483,8 +483,10 @@ la-heading = Tài khoản được liên kết
 la-description = Bạn có quyền truy cập vào các tài khoản sau.
 la-unlink-button = Hủy liên kết
 la-unlink-account-button = Hủy liên kết
+la-set-password-button = Đặt mật khẩu
 la-unlink-heading = Hủy liên kết khỏi tài khoản của bên thứ ba
 la-unlink-content-3 = Bạn có chắc chắn muốn hủy liên kết tài khoản của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi dịch vụ được kết nối của bạn. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần dịch vụ được kết nối.
+la-unlink-content-4 = Trước khi hủy liên kết tài khoản của bạn, bạn sẽ phải đặt mật khẩu. Nếu không có mật khẩu, bạn sẽ không thể đăng nhập sau khi hủy liên kết tài khoản của mình.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
