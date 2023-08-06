@@ -484,8 +484,10 @@ la-heading = Prepojené účty
 la-description = Máte autorizovaný prístup k nasledujúcim účtom.
 la-unlink-button = Zrušiť prepojenie
 la-unlink-account-button = Zrušiť prepojenie
+la-set-password-button = Nastaviť heslo
 la-unlink-heading = Zrušenie prepojenia s účtom tretej strany
 la-unlink-content-3 = Naozaj chcete odpojiť svoj účet? Odpojením vášho účtu sa automaticky neodhlásite z pripojených služieb. Ak to chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
+la-unlink-content-4 = Pred odpojením účtu musíte nastaviť heslo. Bez hesla sa po odpojení účtu nemôžete prihlásiť.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
