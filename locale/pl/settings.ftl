@@ -483,8 +483,10 @@ la-heading = Powiązane konta
 la-description = Upoważniono dostęp do poniższych kont.
 la-unlink-button = Odwiąż
 la-unlink-account-button = Odwiąż
+la-set-password-button = Ustaw hasło
 la-unlink-heading = Odwiąż od konta innej firmy
 la-unlink-content-3 = Czy na pewno odwiązać konto? Nie spowoduje to automatycznego wylogowania z połączonych usług. Aby to zrobić, musisz ręcznie wylogować się w sekcji „Połączone usługi”.
+la-unlink-content-4 = Przed odwiązaniem konta musisz ustawić hasło. Bez hasła nie będzie możliwości zalogowania się po odwiązaniu konta.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
