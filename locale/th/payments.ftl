@@ -63,9 +63,13 @@ brand-name-firefox-logo = โลโก้ { -brand-name-firefox }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = มีบัญชี { -brand-name-firefox } แล้วหรือยัง? <a>ลงชื่อเข้า</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = ป้อนอีเมลของคุณ
 new-user-confirm-email =
     .label = ยืนยันอีเมลของคุณ
-new-user-subscribe-product-updates = ฉันต้องการรับข่าวสารผลิตภัณฑ์จาก { -brand-name-firefox }
 new-user-subscribe-product-assurance = เราใช้อีเมลของคุณเพื่อสร้างบัญชีของคุณเท่านั้น เราจะไม่ขายให้กับบุคคลที่สาม
 new-user-email-validate = อีเมลไม่ถูกต้อง
 new-user-email-validate-confirm = อีเมลไม่ตรงกัน
@@ -77,6 +81,9 @@ new-user-invalid-email-domain = พิมพ์อีเมลผิดหรื
 
 payment-confirmation-thanks-heading = ขอบคุณ!
 payment-confirmation-thanks-heading-account-exists = ขอบคุณ ทีนี้ตรวจสอบอีเมลของคุณเลย!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = อีเมลยืนยันถูกส่งไปที่ { $email } พร้อมรายละเอียดเกี่ยวกับการเริ่มต้นใช้งาน { $product_name } แล้ว
 payment-confirmation-order-heading = รายละเอียดการสั่งซื้อ
 payment-confirmation-invoice-number = ใบแจ้งหนี้ #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = ข้อมูลการชำระเงิน
@@ -144,6 +151,9 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>นโยบายความ�
 payment-processing-message = โปรดรอสักครู่ขณะที่เราดำเนินการชำระเงินของคุณ…
 
 ## Component - PaymentProviderDetails
+
+
+## Component - PayPalButton
 
 
 ## Component - PlanDetails
@@ -230,9 +240,9 @@ product-plan-not-found = ไม่พบแผน
 
 sub-update-payment-title = ข้อมูลการชำระเงิน
 
-## Routes - Checkout and Product/Subscription create
+## Routes - Product/AcceptedCards
+## Used in both Routes - Checkout and Product/SubscriptionCreate
 
-pay-with-heading-card-or = หรือชำระด้วยบัตร
 pay-with-heading-card-only = ชำระด้วยบัตร
 
 ## Routes - Product - IapRoadblock
@@ -257,6 +267,15 @@ sub-change-submit = ยืนยันการเปลี่ยนแปลง
 sub-update-current-plan-label = แผนปัจจุบัน
 sub-update-new-plan-label = แผนใหม่
 sub-update-total-label = ยอดรวมใหม่
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

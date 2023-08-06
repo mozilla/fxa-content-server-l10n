@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-06 00:40+0000\n"
+"PO-Revision-Date: 2023-08-06 00:48+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -1161,7 +1161,7 @@ msgstr "สมัครหรือลงชื่อเข้า"
 
 #: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "บัญชี Firefox ยังปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ปกป้องความเป็นส่วนตัวเพิ่มเติมจาก Mozilla"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1887,7 +1887,7 @@ msgstr "ไม่ใช่รหัสผ่านที่พบบ่อย"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">สร้างรหัสผ่านที่รัดกุม</a>เพิ่ม"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1927,7 +1927,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "บอลลูนบอกตำแหน่ง"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1950,7 +1950,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "ตอนนี้คุณสามารถเข้าถึงแท็บที่เปิดอยู่ รหัสผ่าน และที่คั่นหน้าของคุณได้แล้วจากอุปกรณ์ทุกเครื่องของคุณ"
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
