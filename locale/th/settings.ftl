@@ -489,7 +489,19 @@ tfa-button-finish = เสร็จสิ้น
 tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
+tfa-scan-this-code =
+    สแกนคิวอาร์โค้ดนี้โดยใช้หนึ่งใน<linkExternal>แอปยืนยันตัวตน
+    เหล่านี้</linkExternal>
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = ใช้รหัส { $secret } ในการตั้งค่าการยืนยันตัวตนสองขั้นตอนในแอปพลิเคชันที่รองรับ
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = ป้อนคีย์ลับนี้ลงในแอปยืนยันตัวตนของคุณ:
 
 ##
 
@@ -513,9 +525,26 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = ความปลอดภัย
+security-password =
+    .header = รหัสผ่าน
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = สร้างเมื่อ { $date }
+security-not-set = ไม่ได้ตั้งไว้
+security-action-create = สร้าง
+security-set-password = ตั้งรหัสผ่านเพื่อซิงค์และใช้คุณลักษณะด้านความปลอดภัยของบัญชีบางอย่าง
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = ปิด
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = เปิด
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = กำลังส่ง…
+switch-is-on = เปิด
+switch-is-off = ปิด
 
 ## Sub-section row Defaults
 
@@ -526,15 +555,25 @@ row-defaults-status = ไม่มี
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = คีย์กู้คืนบัญชี
 rk-enabled = ถูกเปิดใช้งาน
 rk-not-set = ไม่ได้ตั้งค่า
 rk-action-create = สร้าง
 rk-action-remove = เอาออก
+rk-key-removed-2 = ลบคีย์กู้คืนบัญชีแล้ว
 rk-cannot-remove-key = ไม่สามารถลบกุญแจกู้คืนบัญชีของคุณ
+rk-refresh-key-1 = รีเฟรชคีย์กู้คืนบัญชี
 rk-content-explain = เรียกคืนข้อมูลของคุณเมื่อคุณลืมรหัสผ่าน
+rk-cannot-verify-session-4 = ขออภัย เกิดปัญหาในการยืนยันวาระของคุณ
+rk-remove-modal-heading-1 = ลบคีย์กู้คืนบัญชีหรือไม่?
+rk-remove-error-2 = ไม่สามารถลบคีย์กู้คืนบัญชีของคุณได้
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = อีเมลสำรอง
+    .header = อีเมลสำรอง
+se-cannot-refresh-email = ขออภัย เกิดปัญหาในการรีเฟรชอีเมลนั้น
+se-cannot-resend-code-3 = ขออภัย เกิดปัญหาในการส่งรหัสยืนยันใหม่
 # Button to remove the secondary email
 se-remove-email =
     .title = ลบอีเมล

@@ -104,10 +104,6 @@ payment-plan-next-invoice = ใบแจ้งหนี้ถัดไป: { $ne
 payment-method = วิธีการชำระเงิน:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = บัตร { $cardType } ที่ลงท้ายด้วย { $lastFour }
-# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = หมายเลขใบแจ้งหนี้: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -309,6 +305,8 @@ postRemoveTwoStepAuthentication-title-2 = คุณได้ปิดการ�
 postRemoveTwoStepAuthentication-from-device = คุณได้ปิดใช้งานจาก:
 postRemoveTwoStepAuthentication-action = จัดการบัญชี
 postRemoveTwoStepAuthentication-not-required-2 = ไม่ต้องใช้รหัสความปลอดภัยจากแอปยืนยันตัวตนของคุณอีกต่อไปเมื่อคุณลงชื่อเข้า
+postVerify-sub-title-3 = เราดีใจที่ได้พบคุณ!
+postVerify-title-2 = ต้องการดูแท็บเดียวกันบนอุปกรณ์สองเครื่องไหม?
 postVerify-subject-3 = ยินดีต้อนรับสู่ { -brand-firefox }!
 postVerify-setup-2 = เชื่อมต่ออุปกรณ์อื่น:
 postVerify-action-2 = เชื่อมต่ออุปกรณ์อื่น
@@ -410,6 +408,7 @@ subscriptionUpgrade-upgrade-info = คุณได้อัปเกรดจา
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = ตั้งแต่การเรียกเก็บเงินครั้งถัดไป ค่าบริการของคุณจะเปลี่ยนจาก { $paymentAmountOld } ต่อ { $productPaymentCycleOld } เป็น { $paymentAmountNew } ต่อ { $productPaymentCycleNew } เมื่อถึงเวลานั้น คุณจะถูกเรียกเก็บค่าธรรมเนียมแบบจ่ายครั้งเดียวจำนวน { $paymentProrated } เพื่อให้สอดคล้องกับค่าใช้จ่ายที่สูงขึ้นสำหรับส่วนที่เหลือของ { $productPaymentCycleOld } นี้
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 unblockCode-subject = รหัสอนุญาตของบัญชี
