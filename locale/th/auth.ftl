@@ -388,6 +388,9 @@ subscriptionFirstInvoice-subject = ยืนยันการชำระเง
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = ขอบคุณที่สมัครสมาชิก { $productName }
 subscriptionFirstInvoice-content-processing = การชำระเงินของคุณกำลังดำเนินการอยู่และอาจใช้เวลาถึงสี่วันทำการ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = คุณจะได้รับอีเมลแยกต่างหากเกี่ยวกับการเริ่มใช้งาน { $productName }
 subscriptionFirstInvoice-content-auto-renew = การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -414,6 +417,13 @@ subscriptionReactivation-subject = ต่ออายุการสมัคร
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = ขอบคุณที่ต่ออายุการสมัครสมาชิก { $productName } ใหม่ของคุณ!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = เรียน ลูกค้า { $productName }
+subscriptionRenewalReminder-content-closing = ขอแสดงความนับถือ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = ทีมงาน { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว
@@ -436,6 +446,9 @@ subscriptionUpgrade-upgrade-info = คุณได้อัปเกรดจา
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 # remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = ตั้งแต่การเรียกเก็บเงินครั้งถัดไป ค่าบริการของคุณจะเปลี่ยนจาก { $paymentAmountOld } ต่อ { $productPaymentCycleOld } เป็น { $paymentAmountNew } ต่อ { $productPaymentCycleNew } เมื่อถึงเวลานั้น คุณจะถูกเรียกเก็บค่าธรรมเนียมแบบจ่ายครั้งเดียวจำนวน { $paymentProrated } เพื่อให้สอดคล้องกับค่าใช้จ่ายที่สูงขึ้นสำหรับส่วนที่เหลือของ { $productPaymentCycleOld } นี้
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = หากมีซอฟต์แวร์ใหม่ให้คุณติดตั้งเพื่อใช้ { $productName } คุณจะได้รับอีเมลแยกต่างหากพร้อมคำแนะนำในการดาวน์โหลด
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 unblockCode-subject = รหัสอนุญาตของบัญชี
 unblockCode-title = ใช่คุณที่ลงชื่อเข้าหรือไม่?
@@ -447,6 +460,7 @@ unblockCode-report = ถ้าไม่ใช่ ช่วยเรากำจ�
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
 confirm-account = ยืนยันบัญชี
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = ยินดีต้อนรับสู่ { -brand-firefox }!
 confirm-email-2 = ยืนยันบัญชี
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = ยืนยันบัญชี
@@ -462,10 +476,15 @@ verifyPrimary-description = คำขอเพื่อทำการเปล�
 verifyPrimary-subject = ยืนยันอีเมลหลัก
 verifyPrimary-action-2 = ยืนยันอีเมล
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = เมื่อยืนยันแล้ว การเปลี่ยนแปลงบัญชีอย่างการเพิ่มอีเมลสำรองจะทำได้บนอุปกรณ์นี้
 verifySecondaryCode-subject = ยืนยันอีเมลสำรอง
 verifySecondaryCode-title-2 = ยืนยันอีเมลสำรอง
 verifySecondaryCode-action-2 = ยืนยันอีเมล
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = คำขอเพื่อใช้ { $email } เป็นที่อยู่อีเมลสำรองถูกสร้างขึ้นจาก{ -product-firefox-account } นี้:
 verifySecondaryCode-prompt-2 = ใช้รหัสยืนยันนี้:
+verifySecondaryCode-expiry-notice-2 = จะหมดอายุใน 5 นาที เมื่อยืนยันแล้ว ที่อยู่นี้จะเริ่มได้รับการแจ้งเตือนด้านความปลอดภัยและการยืนยันต่างๆ
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = ยืนยันบัญชีของคุณ
