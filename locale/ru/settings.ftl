@@ -654,7 +654,7 @@ recent-activity-account-login-v2 = Инициирован вход в аккау
 recent-activity-account-reset-v2 = Инициирован сброс пароля
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
-recent-activity-emails-clearBounces-v2 = Отказы электронной почты удалены
+recent-activity-emails-clearBounces-v2 = Ошибки доставки электронной почты удалены
 recent-activity-account-login-failure = Попытка входа в аккаунт не удалась
 recent-activity-account-two-factor-added = Двухэтапная аутентификация включена
 recent-activity-account-two-factor-requested = Запрошена двухэтапная аутентификация
@@ -670,7 +670,7 @@ recent-activity-account-recovery-key-removed = Ключ восстановлен
 recent-activity-account-password-added = Добавлен новый пароль
 recent-activity-account-password-changed = Пароль изменён
 recent-activity-account-secondary-email-added = Добавлен дополнительный адрес электронной почты
-recent-activity-account-secondary-email-removed = Дополнительный адрес электронной почты удален
+recent-activity-account-secondary-email-removed = Дополнительный адрес электронной почты удалён
 recent-activity-account-emails-swapped = Основной и дополнительный адреса электронной почты поменялись местами
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Другая активность аккаунта
