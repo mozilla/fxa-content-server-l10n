@@ -25,6 +25,9 @@ link-expired-resent-code-error-message = มีบางอย่างผิด
 # Heading in the text file. No CSS styling will be applied to the text.
 # All caps is used in English to show this is a header.
 recovery-key-file-header = บันทึกคีย์กู้คืนบัญชีของคุณ
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+recovery-key-file-instructions = ให้เก็บไฟล์นี้ซึ่งประกอบด้วยคีย์กู้คืนบัญชีของคุณไว้ในตำแหน่งที่คุณจำได้ หรือพิมพ์ออกมาบนกระดาษแล้วเก็บไว้ คีย์กู้คืนบัญชีสามารถช่วยคุณกู้คืนข้อมูลใน { -brand-firefox } เมื่อคุณลืมรหัสผ่านของคุณได้
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -208,6 +211,11 @@ cs-disconnect-sync-opt-not-say = ไม่ระบุ
 
 cs-disconnect-advice-confirm = ตกลง เข้าใจแล้ว
 cs-disconnect-lost-advice-heading = อุปกรณ์ที่สูญหายหรือถูกขโมยถูกตัดการเชื่อมต่อ
+cs-disconnect-lost-advice-content-2 =
+    เนื่องจากอุปกรณ์ของคุณสูญหายหรือถูกขโมย เพื่อเป็นการปกป้องข้อมูลของคุณให้ปลอดภัย
+    คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account } ของคุณในการตั้งค่าบัญชีของคุณ
+    นอกจากนี้ คุณควรมองหาข้อมูลจากผู้ผลิตอุปกรณ์ของคุณเกี่ยวกับการลบข้อมูลของคุณ
+    จากระยะไกลด้วย
 cs-disconnect-suspicious-advice-heading = อุปกรณ์ที่น่าสงสัยถูกตัดการเชื่อมต่อ
 cs-disconnect-suspicious-advice-content =
     ถ้าอุปกรณ์ที่ตัดการเชื่อมต่อนั้นน่าสงสัยจริง ๆ
@@ -237,6 +245,7 @@ drop-down-menu-title = เมนู { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ลงชื่อเข้าแล้วในชื่อ</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ลงชื่อออก
+drop-down-menu-sign-out-error-2 = ขออภัย เกิดปัญหาในการลงชื่อออก
 
 ## Flow Container
 
@@ -349,6 +358,8 @@ pw-8-chars = อย่างน้อย 8 ตัวอักษร
 pw-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
 pw-commonly-used = ไม่ใช่รหัสผ่านที่พบบ่อย
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<linkExternal>สร้างรหัสผ่านที่รัดกุม</linkExternal>เพิ่ม
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
@@ -409,8 +420,11 @@ display-name-success-alert-2 = ปรับปรุงชื่อที่ใ�
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
+recent-activity-title = กิจกรรมในบัญชีล่าสุด
 
 # Account recovery key setup page
 
