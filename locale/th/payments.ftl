@@ -253,9 +253,15 @@ product-plan-not-found = ไม่พบแผน
 
 ## Hooks - coupons
 
+coupon-success = แผนของคุณจะต่ออายุโดยอัตโนมัติที่ราคาขายปลีก
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = แผนของคุณจะต่ออายุโดยอัตโนมัติหลังจาก { $couponDurationDate } ที่ราคาขายปลีก
 
 ## Routes - Checkout - New user
 
+new-user-step-1 = 1. สร้างบัญชี { -brand-name-firefox }
+new-user-card-title = ป้อนข้อมูลบัตรของคุณ
+new-user-submit = สมัครสมาชิกเลย
 
 ## Routes - Product and Subscriptions
 
@@ -356,6 +362,9 @@ sub-expires-on = จะหมดอายุใน { $date }
 pay-update-card-exp = หมดอายุ { $expirationDate }
 sub-route-idx-updating = กำลังอัปเดตข้อมูลการเรียกเก็บเงิน…
 sub-route-payment-modal-heading = ข้อมูลการเรียกเก็บเงินไม่ถูกต้อง
+sub-route-payment-modal-message = ดูเหมือนว่าจะมีข้อผิดพลาดกับบัญชี { -brand-name-paypal } ของคุณ เราต้องการให้คุณทำตามขั้นตอนที่จำเป็นเพื่อแก้ไขปัญหาการชำระเงินนี้
+sub-route-missing-billing-agreement-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ <div>จัดการ</div>
+sub-route-funding-source-payment-alert = ข้อมูลการชำระเงินไม่ถูกต้อง มีข้อผิดพลาดกับบัญชีของคุณ การแจ้งเตือนนี้อาจใช้เวลาสักครู่จึงจะหายไปหลังจากที่คุณอัปเดตข้อมูลเรียบร้อยแล้ว <div>จัดการ</div>
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -365,6 +374,8 @@ sub-item-no-such-subsequent-invoice = ไม่พบใบแจ้งหนี
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title = กำลังมองหาการสมัครสมาชิก { -brand-name-pocket } แบบพรีเมียมของคุณอยู่ใช่ไหม?
+manage-pocket-body-2 = หากต้องการจัดการ ให้<linkExternal>คลิกที่นี่</linkExternal>
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
