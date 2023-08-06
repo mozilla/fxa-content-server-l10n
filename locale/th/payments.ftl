@@ -84,8 +84,12 @@ payment-confirmation-thanks-heading-account-exists = ขอบคุณ ที�
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = อีเมลยืนยันถูกส่งไปที่ { $email } พร้อมรายละเอียดเกี่ยวกับการเริ่มต้นใช้งาน { $product_name } แล้ว
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = คุณจะได้รับอีเมลที่ { $email } พร้อมคำแนะนำในการตั้งค่าบัญชีของคุณ พร้อมทั้งรายละเอียดการชำระเงินของคุณ
 payment-confirmation-order-heading = รายละเอียดการสั่งซื้อ
 payment-confirmation-invoice-number = ใบแจ้งหนี้ #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = ข้อมูลการชำระเงิน
 payment-confirmation-amount = { $amount } ต่อ { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -116,6 +120,8 @@ payment-confirmation-download-button = ดำเนินการต่อเ�
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = ฉันอนุญาตให้ { -brand-name-mozilla } ผู้สร้างผลิตภัณฑ์ { -brand-name-firefox } เรียกเก็บเงินจากวิธีการชำระเงินของฉันเป็นจำนวนเงินที่แสดง ตาม<termsOfServiceLink>เงื่อนไขการให้บริการ</termsOfServiceLink>และ<privacyNoticeLink>ประกาศความเป็นส่วนตัว</privacyNoticeLink> จนกว่าฉันจะยกเลิกการสมัครสมาชิก
+payment-confirm-checkbox-error = คุณจะต้องทำเครื่องหมายในช่องนี้ก่อนจึงจะไปต่อได้
 
 ## Component - PaymentErrorView
 
@@ -124,6 +130,8 @@ payment-error-manage-subscription-button = จัดการการสมั�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = คุณมีการสมัครสมาชิก { $productName } ผ่านร้านค้าแอปของ { -brand-name-google } หรือ { -brand-name-apple } อยู่แล้ว
 iap-upgrade-get-help-button = รับความช่วยเหลือ
 
 ## Component - PaymentForm
@@ -141,10 +149,19 @@ payment-validate-name-error = โปรดป้อนชื่อของค�
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } ใช้ { -brand-name-stripe } และ { -brand-name-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
+payment-legal-link-stripe-paypal = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } ใช้ { -brand-name-paypal } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
+payment-legal-link-paypal-2 = <paypalPrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } ใช้ { -brand-name-stripe } สำหรับการทำธุรกรรมชำระเงินอย่างปลอดภัย
 payment-legal-link-stripe-3 = <stripePrivacyLink>นโยบายความเป็นส่วนตัวของ { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = เลือกวิธีการชำระเงินของคุณ
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = ก่อนอื่น คุณจะต้องอนุมัติการสมัครสมาชิกของคุณ
 
 ## Component - PaymentProcessing
 
@@ -152,9 +169,11 @@ payment-processing-message = โปรดรอสักครู่ขณะท
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = หมายเลขบัตรลงท้ายด้วย { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal = ชำระเงินด้วย { -brand-name-paypal }
 
 ## Component - PlanDetails
 
@@ -178,6 +197,8 @@ product-no-such-plan = ไม่มีแผนดังกล่าวสำห
 subscription-create-title = ตั้งค่าการสมัครสมาชิกของคุณ
 subscription-success-title = ยืนยันการสมัครสมาชิก
 subscription-processing-title = กำลังยืนยันการสมัครสมาชิก…
+subscription-error-title = เกิดข้อผิดพลาดในการยืนยันการสมัครสมาชิก…
+subscription-noplanchange-title = ไม่รองรับการเปลี่ยนแผนการสมัครสมาชิกนี้
 sub-guarantee = รับประกันคืนเงินภายใน 30 วัน
 
 ## Component - TermsAndPrivacy
