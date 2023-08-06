@@ -477,6 +477,7 @@ la-heading = Contos ligate
 la-description = Tu ha autorisate accesso al sequente contos.
 la-unlink-button = Disligar
 la-unlink-account-button = Disligar
+la-set-password-button = Definir contrasigno
 la-unlink-heading = Disligar ab conto de tertie parte
 la-unlink-content-3 = Desira tu vermente disligar tu conto? Disligante tu conto non te disconnecte automaticamente de tu servicios connexe. Pro facer lo tu debera manualmente clauder le connexiones ab le section Servicios connexe.
 nav-linked-accounts = { la-heading }
@@ -643,6 +644,21 @@ recent-activity-account-disable-v2 = Conto disactivate.
 recent-activity-account-enable-v2 = Conto activate.
 recent-activity-account-login-v2 = Connexion al conto initiate
 recent-activity-account-reset-v2 = Remontage de contrasigno initiate
+recent-activity-account-two-factor-added = Authentication a duo passos activate
+recent-activity-account-two-factor-requested = Authentication a duo passos requirite
+recent-activity-account-two-factor-failure = Authentication a duo passos fallite
+recent-activity-account-two-factor-success = Authentication a duo passos succedite
+recent-activity-account-two-factor-removed = Authentication a duo grados removite
+recent-activity-account-password-reset-requested = Le conto requireva le remontage del contrasigno
+recent-activity-account-password-reset-success = Contrasigno del conto remontate con successo
+recent-activity-account-recovery-key-added = Clave de recuperation del conto activate
+recent-activity-account-recovery-key-verification-failure = Clave de recuperation del conto fallite
+recent-activity-account-recovery-key-verification-success = Verification del clave de recuperation del conto succedite
+recent-activity-account-recovery-key-removed = Clave de recuperation del conto removite
+recent-activity-account-password-added = Nove contrasigno addite
+recent-activity-account-password-changed = Contrasigno cambiate
+recent-activity-account-secondary-email-added = Adresse email secundari addite
+recent-activity-account-secondary-email-removed = Adresse email secundari removite
 
 # Account recovery key setup page
 
