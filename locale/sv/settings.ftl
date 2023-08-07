@@ -483,8 +483,10 @@ la-heading = Länkade konton
 la-description = Du har auktoriserad åtkomst till följande konton.
 la-unlink-button = Ta bort länk
 la-unlink-account-button = Ta bort länk
+la-set-password-button = Välj lösenord
 la-unlink-heading = Ta bort länken från tredje parts konto
 la-unlink-content-3 = Är du säker på att du vill ta bort länken till ditt konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dina anslutna tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
+la-unlink-content-4 = Innan du tar bort länken till ditt konto måste du ange ett lösenord. Utan ett lösenord finns det inget sätt för dig att logga in efter att du har tagit bort länken till ditt konto.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
