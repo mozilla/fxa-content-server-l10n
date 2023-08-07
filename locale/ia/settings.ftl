@@ -480,6 +480,7 @@ la-unlink-account-button = Disligar
 la-set-password-button = Definir contrasigno
 la-unlink-heading = Disligar ab conto de tertie parte
 la-unlink-content-3 = Desira tu vermente disligar tu conto? Disligante tu conto non te disconnecte automaticamente de tu servicios connexe. Pro facer lo tu debera manualmente clauder le connexiones ab le section Servicios connexe.
+la-unlink-content-4 = Ante disligar tu conto, tu debe predefinir un contrasigno. Sin contrasigno, il non ha maniera pro authenticar te post disligar tu conto.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -644,6 +645,10 @@ recent-activity-account-disable-v2 = Conto disactivate.
 recent-activity-account-enable-v2 = Conto activate.
 recent-activity-account-login-v2 = Connexion al conto initiate
 recent-activity-account-reset-v2 = Remontage de contrasigno initiate
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Emails refusate clarate
+recent-activity-account-login-failure = Tentativa de accesso al conto fallite
 recent-activity-account-two-factor-added = Authentication a duo passos activate
 recent-activity-account-two-factor-requested = Authentication a duo passos requirite
 recent-activity-account-two-factor-failure = Authentication a duo passos fallite
@@ -659,6 +664,9 @@ recent-activity-account-password-added = Nove contrasigno addite
 recent-activity-account-password-changed = Contrasigno cambiate
 recent-activity-account-secondary-email-added = Adresse email secundari addite
 recent-activity-account-secondary-email-removed = Adresse email secundari removite
+recent-activity-account-emails-swapped = Emails primari e secundari excambiate
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Altere activitate de conto
 
 # Account recovery key setup page
 
@@ -795,6 +803,8 @@ security-password-created-date = Create le { $date }
 security-not-set = Non definite
 security-action-create = Crear
 security-set-password = Defini un contrasigno pro synchronisar e usar certe functionalitates de securitate del conto.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vider activitate de conto recente
 
 ## Switch component
 

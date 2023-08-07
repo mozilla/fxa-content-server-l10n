@@ -70,6 +70,10 @@ new-user-enter-email =
     .label = Insere tu email
 new-user-confirm-email =
     .label = Confirma tu email
+new-user-subscribe-product-updates-mozilla = Il me placerea reciper novas e actualisationes de productos per { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Il me placerea reciper novas e actualisationes de securitate e confidentialitate per { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Il me placerea reciper novas e actualisationes de productos per { -product-mozilla-hubs } e { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Il me placerea reciper novas e actualisationes de productos per { -product-mdn-plus } e { -brand-mozilla }
 new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear tu conto. Nos mais lo vendera a tertie parte.
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
@@ -441,6 +445,7 @@ sub-change-submit = Confirmar le cambio
 sub-update-current-plan-label = Plano actual
 sub-update-new-plan-label = Nove plano
 sub-update-total-label = Nove total
+sub-update-prorated-upgrade = Promotion proportionate
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
