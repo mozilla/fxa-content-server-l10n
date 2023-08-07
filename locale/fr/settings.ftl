@@ -264,7 +264,7 @@ ready-start-browsing-button = Commencer la navigation
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 ready-use-service = { $serviceName } est maintenant prêt à être utilisé.
 # The user successfully accomplished a task (password reset, confirm email) that lets them use their account
-ready-use-service-default = Vous pouvez maintenant utiliser les paramètres du compte
+ready-use-service-default = Vous pouvez maintenant accéder aux paramètres du compte
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = Votre compte est prêt !
 ready-continue = Continuer
