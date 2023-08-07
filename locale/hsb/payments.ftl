@@ -572,7 +572,7 @@ pay-update-manage-btn = Rjadować
 
 sub-next-bill = Přichodna zličbowanka: { $date }
 sub-next-bill-no-tax = Waša přichodna zličbowanka <strong>{ $priceAmount }</strong> dyrbi so <strong>{ $date }</strong> płaćić
-sub-next-bill-tax = Waša přichodna zličbowanka <strong>{ $priceAmount } + { $taxAmount } dawka</strong> dyrbi so <strong>{ $date } płaćić</strong>
+sub-next-bill-tax = Waša přichodna zličbowanka <strong>{ $priceAmount } + { $taxAmount } dawka</strong> dyrbi so <strong>{ $date }</strong> płaćić
 sub-expires-on = Spadnje { $date }
 
 ## Routes - Subscription - PaymentUpdate
