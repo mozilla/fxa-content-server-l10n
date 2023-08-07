@@ -403,6 +403,13 @@ flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Pśidajśo pokaz, aby swój kluc zasej namakał
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Zapódajśo pokaz (na žycenje)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Dokóńcyś
@@ -414,6 +421,9 @@ flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontowy wótnowjeński kluc jo se napórał
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Pokaz musy mjenjej ako 255 znamuškow wopśimowaś.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -439,6 +449,7 @@ la-heading = Zwězane konta
 la-description = Smy awtorizěrowali pśistup k slědujucym kontam.
 la-unlink-button = Zwisk źěliś
 la-unlink-account-button = Zwisk źěliś
+la-set-password-button = Gronidło nastajiś
 la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
 la-unlink-content-3 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót swójich zwězanych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
 nav-linked-accounts = { la-heading }
@@ -604,6 +615,9 @@ recent-activity-title = Nejnowša kontowa aktiwita
 recent-activity-account-create-v2 = Konto załožone
 recent-activity-account-disable-v2 = Konto znjemóžnjone
 recent-activity-account-enable-v2 = Konto zmóžnjone
+recent-activity-account-login-v2 = Kontowe pśizjawjenje jo se iniciěrowało
+recent-activity-account-reset-v2 = Slědkstajenje jo se iniciěrowało
+recent-activity-account-login-failure = Wopyt kontowego pśizjawjenja njejo se raźiło
 recent-activity-account-two-factor-added = Dwójokšacowa awtentifikacija jo se zmóžniła
 recent-activity-account-two-factor-requested = Dwójokšacowa awtentifikacija jo se pominała
 recent-activity-account-two-factor-failure = Dwójokšacowa awtentifikacija njejo se raźiła
@@ -857,6 +871,10 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Wužywańske wuměnjenja</firefoxTos> a <firefoxPrivacy>powěźeńka priwatnosći</firefoxPrivacy> { -brand-firefox }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

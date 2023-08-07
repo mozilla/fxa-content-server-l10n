@@ -498,6 +498,10 @@ sub-update-copy =
     Waš plan se ned změnijo, a za zbytk wótliceńskeje periody se wam
     pśiměrjona suma woblicujo. Zachopinajucy z { $startingDate }
     se połna suma woblicujo.
+sub-update-acknowledgment =
+    Waš plan se ned změnijo, a za zbytk toś teje wótliceńskeje periody se wam źinsa
+    późělna suma woblicujo. Zachopinajucy z { $startingDate }
+    se połna suma woblicujo.
 sub-change-submit = Změnu wobkšuśiś
 sub-update-current-plan-label = Aktualny plan
 sub-update-new-plan-label = Nowy plan
@@ -567,6 +571,8 @@ pay-update-manage-btn = Zastojaś
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Pśiduca zliceńka: { $date }
+sub-next-bill-no-tax = Waša pśiduca zliceńka <strong>{ $priceAmount }</strong> musy se <strong>{ $date }</strong> płaśiś
+sub-next-bill-tax = Waša pśiduca zliceńka <strong>{ $priceAmount } + { $taxAmount }</strong> danka musy se <strong>{ $date }</strong> płaśiś
 sub-expires-on = Spadnjo { $date }
 
 ## Routes - Subscription - PaymentUpdate
