@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-07 15:55+0000\n"
+"PO-Revision-Date: 2023-08-07 16:03+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1496,6 +1496,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Si tu procede, tu concorda con le:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Aviso de confidentialitate</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de Firefox\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1623,7 +1628,7 @@ msgstr "Scheda non arrivate? Inviar un e-mail in vice"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Crea un contrasigno pro continuar sur Firefox Sync. Tu datos es cryptate con tu contrasigno pro proteger tu confidentialitate."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
