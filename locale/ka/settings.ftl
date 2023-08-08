@@ -33,9 +33,6 @@ recovery-key-file-header = შეინახეთ თქვენი ანგ
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = შეინახეთ თქვენი ანგარიშის აღდგენის გასაღების შემცველი ფაილი ისეთ ადგილას, რომელიც კარგად გემახსოვრებათ. ან ამობეჭდეთ და შეინახეთ ფიზიკური ასლი. თქვენი ანგარიშის აღდგენის გასაღები დაგეხმარებათ { -brand-firefox }-მონაცემების დაბრუნებაში, თუ პაროლი დაგავიწყდებათ.
-# { $recoveryKeyValue } is the account recovery key, a randomly generated code in latin characters
-# "Key" here refers to the term "account recovery key"
-recovery-key-file-key-value-v2 = გასაღები: { $recoveryKeyValue }
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -370,7 +367,6 @@ cs-disconnect-suspicious-advice-content =
     პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
     პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
 cs-sign-out-button = გამოსვლა
-cs-recent-activity = ანგარიშის ბოლო მოქმედებები
 
 ##
 
@@ -428,8 +424,6 @@ flow-recovery-key-download-next-link-v2 = განაგრძეთ ჩამ�
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = დაამატეთ მინიშნება გასაღების ადვილად საპოვნელად
-# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
-flow-recovery-key-hint-message-v2 = ეს მინიშნება დაგეხმარებათ, გაიხსენოთ, სად შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები. ჩვენ მას გაჩვენებთ, როდესაც დაგჭირდებათ თქვენი მონაცემების აღსადგენად.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -642,15 +636,11 @@ display-name-success-alert-2 = გამოსაჩენი სახელი
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = ანგარიშის ბოლო მოქმედებები
-recent-activity-account-create = ანგარიში შეიქმნა
-recent-activity-account-disable = ანგარიში გაითიშა
-recent-activity-account-enable = ანგარიში ამოქმედდა
-recent-activity-account-login = ანგარიშზე დაიწყო შესვლა
-recent-activity-account-reset = ანგარიშზე დაიწყო პაროლის განულება
-recent-activity-emails-clearBounces = ანგარიშზე გასუფთავდა ელფოსტის უარყოფილი წერილები
 
 # Account recovery key setup page
 
@@ -1079,7 +1069,7 @@ pair-auth-complete-heading = მოწყობილობა დაკავ�
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = ახლა დასინქრონებულია: { $deviceFamily } მოწყობილობაზე { $deviceOS }
-pair-auth-complete-sync-benefits-text = ახლა უკვე შეგიძლიათ წვდომა თქვენს გახსნილ ჩანართებთან, პაროლებსა და სანიშნეებთან ყველა მოწყობილობიდან.
+pair-auth-complete-sync-benefits-text = ახლა უკვე შეგიძლიათ წვდომა თქვენს გახსნილ ჩანართებთან, პაროლებსა და სანიშნებთან ყველა მოწყობილობიდან.
 pair-auth-complete-see-tabs-button = იხილეთ ჩანართები დასინქრონებული მოწყობილობებიდან
 pair-auth-complete-manage-devices-link = მოწყობილობების მართვა
 
