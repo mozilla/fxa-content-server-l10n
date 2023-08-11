@@ -483,8 +483,10 @@ la-heading = Contos colliads
 la-description = Ti has autorisà l'access als suandants contos.
 la-unlink-button = Distatgar
 la-unlink-account-button = Distatgar
+la-set-password-button = Definir in pled-clav
 la-unlink-heading = Distatgar dal conto da terzas partidas
 la-unlink-content-3 = Vuls ti propi schliar l'associaziun cun tes conto? Cun distatgar na sortas ti betg automaticamain dals servetschs connectads. Per far quai stos ti sortir manualmain en la secziun «Servetschs connectads».
+la-unlink-content-4 = Avant che allontanar l'associaziun cun tes conto, stos ti definir in pled-clav. Senza in pled-clav n'has ti nagina pussaivladad da s'annunziar suenter avair allontanà l'associaziun cun tes conto.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
