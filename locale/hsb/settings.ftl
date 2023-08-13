@@ -646,13 +646,17 @@ recent-activity-account-two-factor-requested = Dwukročelowa awtentifikacija po�
 recent-activity-account-two-factor-failure = Dwukročelowa awtentifikacija je so nimokuliła
 recent-activity-account-two-factor-success = Dwukročelowa awtentifikacija wuspěšna
 recent-activity-account-two-factor-removed = Dwukročelowa awtentifikacija wotstronjena
+recent-activity-account-password-reset-requested = Konto je wróćostajenje hesła požadało
 recent-activity-account-password-reset-success = Kontowe hesło je so wuspěšnje wróćo stajiło
 recent-activity-account-recovery-key-added = Kontowy wobnowjenski kluč zmóžnjeny
+recent-activity-account-recovery-key-verification-failure = Přepruwowanje kontoweho wobnowjenskeho kluča njeje so poradźiło
+recent-activity-account-recovery-key-verification-success = Přepruwowanje kontoweho wobnowjenskeho kluča wuspěšne
 recent-activity-account-recovery-key-removed = Kontowy wobnowjenski kluč je so wotstronił
 recent-activity-account-password-added = Nowe hesło je so přidało
 recent-activity-account-password-changed = Hesło je so změniło
 recent-activity-account-secondary-email-added = Sekundarna e-mejlowa adresa je so přidała
 recent-activity-account-secondary-email-removed = Sekundarna e-mejlowa adresa je so wotstroniła
+recent-activity-account-emails-swapped = Primarne a sekundarne e-mejlowe adresy su zaměnjene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
 
@@ -896,10 +900,14 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Hdyž pokročujeće, zwoliće do:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Wužiwanske wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Wužiwanske wuměnjenja</firefoxTos> a <firefoxPrivacy>zdźělenka priwatnosće</firefoxPrivacy> { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Hdyž pokročujeće, zwoliće do <firefoxTos>wužiwanskich wuměnjenjow</firefoxTos> a <firefoxPrivacy>zdźělenki priwatnosće</firefoxPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -931,6 +939,7 @@ auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozezn
 auth-error-155 = TOTP-token njeje so namakał
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-999 = Njewočakowany zmylk
+auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
 
@@ -972,6 +981,7 @@ connect-another-device-ios-complete-setup-message = Přizjewće so pola { -brand
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Local storage a placki su trěbne
 cookies-disabled-enable-prompt = Prošu zmóžńće placki a lokalny składowak we wašim wobhladowaku, zo byšće přistup na konta { -product-firefox-accounts } měł. To funkcije zmóžnja, kaž na přikład spomjatkowanje přez posedźenja.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Hišće raz spytać
@@ -1152,6 +1162,7 @@ pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Prošu čakajće, budźeće so k awtorizowanemu nałoženju dale posrědkować.
 
 ## AccountRecoveryConfirmKey page
 
