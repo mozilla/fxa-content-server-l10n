@@ -429,6 +429,7 @@ flow-recovery-key-hint-cta-text = Dokónčić
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašeho kluča:
 flow-recovery-key-download-storage-ideas-folder-v2 = Rjadowak na wěstym graće
+flow-recovery-key-download-storage-ideas-cloud = Dowěryhódny składowak w cloudźe
 flow-recovery-key-download-storage-ideas-print-v2 = Wućišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
@@ -439,8 +440,14 @@ flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješko
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Wutworće kontowy wobnowjenski kluč, jeli swoje hesło zabywaće
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Změńće swój kontowy wobnowjenski kluč
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Zaklučujemy přehladowanske daty – hesła, zapołožki a wjace. To je wulkotne za priwatnosć, ale móžeće tež swoje daty zhubić, jeli swoje hesło zabywaće.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Tohodla je tak wažnje, zo kontowy wobnowjenski kluč wutworjeće – móžeće jón wužiwać, zo byšće swoje daty wobnowił.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Prěnje kroki
 # Link to cancel account recovery key change and return to settings
@@ -599,6 +606,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać
+pocket-delete-notice = Jeli Pocket Premium abonujeće, zawěsćće prošu, zo <a>swój abonement wupowědźiće</a>, prjedy hač swoje konto zhašeće.
 delete-account-cancel-button = Přetorhnyć
 delete-account-delete-button-2 = Zhašeć
 
@@ -629,6 +637,9 @@ recent-activity-account-disable-v2 = Konto znjemóžnjene
 recent-activity-account-enable-v2 = Konto zmóžnjene
 recent-activity-account-login-v2 = Kontowe přizjewjenje je so iniciěrowało
 recent-activity-account-reset-v2 = Wróćostajenje je so iniciěrowało
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-mejlowe wotpokazanja zhašane
 recent-activity-account-login-failure = Pospyt kontoweho přizjewjenja njeje so poradźiło
 recent-activity-account-two-factor-added = Dwukročelowa awtentifikacija zmóžnjena
 recent-activity-account-two-factor-requested = Dwukročelowa awtentifikacija požadana
