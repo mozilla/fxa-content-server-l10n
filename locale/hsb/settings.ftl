@@ -169,8 +169,17 @@ signin-totp-code-image-label =
     .aria-label = Grat ze schowanym 6-městnowym kodom.
 confirm-signup-aria-label =
     .aria-label = Wobalka, kotraž wotkaz wobsahuje
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustracija za kontowy wobnowjenski kluč.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustracija za kontowy wobnowjenski kluč.
 lock-image-aria-label =
     .aria-label = Ilustracija zamka
+lightbulb-aria-label =
+    .aria-label = Ilustracija za wutworjenje składowanskeje pokazki.
 
 ## Input Password
 
@@ -227,6 +236,8 @@ confirmation-link-reused-message = Tutón wobkrućenski wotkaz je so hižo wuži
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Trjebaće tute hesło za přistup k zaklučowanym datam, kotrež pola nas składujeće.
+password-info-balloon-reset-risk-info = Wróćostajenje rěka, zo so snano daty kaž hesła a zapołožki zhubja.
 
 ## PasswordStrengthBalloon component
 
@@ -396,6 +407,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjens
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Kontowy wobnowjenski kluč je so wutworił – sćehńće a składujće jón nětko
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 

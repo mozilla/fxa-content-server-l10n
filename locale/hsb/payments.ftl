@@ -137,6 +137,7 @@ payment-confirmation-download-button = Dale k sćehnjenju
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu za podatu sumu poćežić, doniž swój abonement njewupowědźu.
+payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móžeće pokročować
 
 ## Component - PaymentErrorView
 
