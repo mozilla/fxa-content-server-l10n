@@ -651,9 +651,26 @@ recent-activity-title = ანგარიშის ბოლო მოქმე
 recent-activity-account-create-v2 = ანგარიში შეიქმნა
 recent-activity-account-disable-v2 = ანგარიში გაითიშა
 recent-activity-account-enable-v2 = ანგარიში ამოქმედდა
+recent-activity-account-login-v2 = ანგარიშზე შესვლის წამოწყება
+recent-activity-account-reset-v2 = პაროლის განულების წამოწყება
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = ელფოსტის დაბრუნებული წერილები გასუფთავდა
 recent-activity-account-login-failure = ანგარიშში შესვლის უშედეგო მცდელობა
 recent-activity-account-two-factor-added = ორბიჯიანი დამოწმება ჩაირთო
-recent-activity-account-two-factor-requested = ორბიჯიანი შემოწმება მოთხოვნილია
+recent-activity-account-two-factor-requested = ორბიჯიანი დამოწმების მოთხოვნა
+recent-activity-account-two-factor-failure = ორბიჯიანი დამოწმების უშედეგო მცდელობა
+recent-activity-account-two-factor-success = ორბიჯიანი დამოწმების წარმატებული მცდელობა
+recent-activity-account-two-factor-removed = ორბიჯიანი დამოწმება მოცილებულია
+recent-activity-account-password-reset-requested = ანგარიშზე პაროლის განულების მოთხოვნა
+recent-activity-account-password-reset-success = ანგარიშის პაროლის წარმატებით განულება
+recent-activity-account-recovery-key-added = ანგარიშის აღდგენის გასაღები ამოქმედდა
+recent-activity-account-recovery-key-verification-failure = ანგარიშის აღდგენის გასაღების უშედეგო დამოწმება
+recent-activity-account-recovery-key-verification-success = ანგარიშის აღდგენის გასაღების წარმატებით დამოწმება
+recent-activity-account-recovery-key-removed = ანგარიშის აღდგენის გასაღები მოცილდა
+recent-activity-account-password-added = ახალი პაროლი დაემატა
+recent-activity-account-password-changed = პაროლი შეიცვალა
+recent-activity-account-secondary-email-added = ელფოსტის დამატებითი მისამართი დაერთო
 
 # Account recovery key setup page
 
