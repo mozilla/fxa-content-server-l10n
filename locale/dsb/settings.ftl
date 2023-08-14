@@ -232,6 +232,8 @@ confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Trjebaśo toś to gronidł za pśistup k skoděrowanym datam, kótarež pla nas składujośo.
+password-info-balloon-reset-risk-info = Slědkstajenje groni, až se snaź daty ako gronidła a cytańske znamjenja zgubiju.
 
 ## PasswordStrengthBalloon component
 
@@ -401,6 +403,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wótnowje�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Kontowy wótnowjeński kluc jo se napórał – ześěgniśo a składujśo jen něnto
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
 
@@ -422,6 +425,7 @@ flow-recovery-key-hint-cta-text = Dokóńcyś
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Městna za składowanje wašogo kluca:
 flow-recovery-key-download-storage-ideas-folder-v2 = Zarědnik na wěstem rěźe
+flow-recovery-key-download-storage-ideas-cloud = Dowěry gódny składowak w clouźe
 flow-recovery-key-download-storage-ideas-print-v2 = Wuśišćana kopija
 flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
@@ -432,8 +436,14 @@ flow-recovery-key-hint-char-limit-error = Pokaz musy mjenjej ako 255 znamuškow 
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Napórajśo kontowy wótnowjeński kluc, jolic swójo gronidło zabywaśo
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Změńśo swój kontowy wótnowjeński kluc
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Koděrujomy pśeglědowańske daty – gronidła, cytańske znamjenja a wěcej. To jo wjelicne za priwatnosć, ale móžośo teke swóje daty zgubiś, jolic swójo gronidło zabywa.śo
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Togodla jo tak wažnje, až kontowy wótnowjeński kluc napórajośo – móžośo jen wužywaś, aby swóje daty wótnowił.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Prědne kšace
 # Link to cancel account recovery key change and return to settings
@@ -592,6 +602,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Dalej
 delete-account-password-input =
     .label = Gronidło zapódaś
+pocket-delete-notice = Jolic Pocket Premium aboněrujośo, zawěsććo pšosym, až <a>swój abonement wupowěźejośo</a>, nježli až swójo konto wulašujośo.
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
