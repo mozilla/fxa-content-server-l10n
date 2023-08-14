@@ -18,35 +18,32 @@ link-expired-resent-link-error-message = Etwas ist schief gelaufen. Es konnte ke
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Herunterladen und fortfahren
     .title = Herunterladen und fortfahren
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = SICHERN SIE IHREN KONTO-WIEDERHERSTELLUNGSSCHLÜSSEL
+recovery-key-pdf-heading = Kontowiederherstellungsschlüssel
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Erzeugt: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Kontowiederherstellungsschlüssel
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Speichern Sie diese Datei mit Ihrem Kontowiederherstellungsschlüssel an einem Ort, den Sie sich merken können. Oder drucken Sie ihn aus und sichern Sie das Blatt Papier. Ihr Kontowiederherstellungsschlüssel kann Ihnen dabei helfen, { -brand-firefox }-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Schlüssel:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Schlüssel erzeugt: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Weitere Informationen über Ihren Kontowiederherstellungsschlüssel: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Mit diesem Schlüssel können Sie Ihre verschlüsselten Browser-Daten (einschließlich Passwörter, Lesezeichen und Chronik) wiederherstellen, wenn Sie Ihr Passwort vergessen. Bewahren Sie es an einem Ort auf, an den Sie sich erinnern werden.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Orte zum Speichern Ihres Schlüssels
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Erfahren Sie mehr über Ihren Kontowiederherstellungsschlüssel
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Entschuldigung, beim Herunterladen Ihres Kontowiederherstellungsschlüssels ist ein Problem aufgetreten.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +414,13 @@ flow-recovery-key-download-heading-v2 = Kontowiederherstellungsschlüssel erstel
 flow-recovery-key-download-info-v2 = Mit diesem Schlüssel können Sie Ihre Daten wiederherstellen, wenn Sie Ihr Passwort vergessen. Laden Sie ihn jetzt herunter und speichern Sie sie an einem Ort, an den Sie sich erinnern können – Sie können später nicht zu dieser Seite zurückkehren.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Weiter ohne Download
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Orte zum Speichern Ihres Schlüssels:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ordner auf sicherem Gerät
+flow-recovery-key-download-storage-ideas-cloud = Vertrauenswürdiger Cloud-Speicher
+flow-recovery-key-download-storage-ideas-print-v2 = Gedruckte Kopie
+flow-recovery-key-download-storage-ideas-pwd-manager = Passwort-Manager
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -435,13 +439,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Abschließen
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Orte zum Speichern Ihres Schlüssels:
-flow-recovery-key-download-storage-ideas-folder-v2 = Ordner auf sicherem Gerät
-flow-recovery-key-download-storage-ideas-cloud = Vertrauenswürdiger Cloud-Speicher
-flow-recovery-key-download-storage-ideas-print-v2 = Gedruckte Kopie
-flow-recovery-key-download-storage-ideas-pwd-manager = Passwort-Manager
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontowiederherstellungsschlüssel erstellt
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
