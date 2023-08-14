@@ -486,6 +486,7 @@ la-unlink-account-button = გამოთიშვა
 la-set-password-button = პაროლის მითითება
 la-unlink-heading = გამოთიშვა გარეშე ანგარიშიდან
 la-unlink-content-3 = ნამდვილად გსურთ გამოთიშოთ თქვენი ანგარიში? შედეგად, მაინც დარჩებით შესული დაკავშირებულ მომსახურებებზე. საჭირო იქნება თითოეულიდან ცალ-ცალკე გამოსვლა აღნიშნული მომსახურებების განყოფილებაში.
+la-unlink-content-4 = ანგარიშის გამოთიშვამდე პაროლი უნდა დააყენოთ. პაროლის გარეშე ვერ მოახერხებთ შესვლას გამოთიშვის შემდგომ.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -671,6 +672,10 @@ recent-activity-account-recovery-key-removed = ანგარიშის ა�
 recent-activity-account-password-added = ახალი პაროლი დაემატა
 recent-activity-account-password-changed = პაროლი შეიცვალა
 recent-activity-account-secondary-email-added = ელფოსტის დამატებითი მისამართი დაერთო
+recent-activity-account-secondary-email-removed = ელფოსტის დამატებითი მისამართი მოცილდა
+recent-activity-account-emails-swapped = პირველადი და დამატებით ელფოსტა შენაცვლდა
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = სხვა მოქმედებები ანგარიშზე
 
 # Account recovery key setup page
 
@@ -807,6 +812,8 @@ security-password-created-date = შექმნის თარიღი { $dat
 security-not-set = არაა დაყენებული
 security-action-create = შექმნა
 security-set-password = დააყენეთ პაროლი სინქრონიზაციისა და ანგარიშის უსაფრთხოების გარკვეული შესაძლებლობებით სარგებლობისთვის.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = ბოლო მოქმედებები ანგარიშზე
 
 ## Switch component
 
@@ -941,6 +948,9 @@ auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
 auth-error-105-2 = არასწორი დამადასტურებელი კოდი
 auth-error-110 = უმართებულო საცნობი
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = ზედმეტად ბევრი მცდელობა. კვლავ სინჯეთ მოგვიანებით.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
