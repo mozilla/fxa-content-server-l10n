@@ -70,7 +70,8 @@ new-user-enter-email =
     .label = შეიყვანეთ თქვენი ელფოსტა
 new-user-confirm-email =
     .label = ელფოსტის დადასტურება
-new-user-subscribe-product-updates = მსურს მივიღო სიახლეები { -brand-name-firefox }-ზე
+new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
+new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
 new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 new-user-email-validate = ელფოსტა არამართებულია
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
@@ -442,6 +443,15 @@ sub-change-submit = ცვლილების დადასტურებ�
 sub-update-current-plan-label = მიმდინარე გეგმა
 sub-update-new-plan-label = ახალი გეგმა
 sub-update-total-label = ახალი სულ
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

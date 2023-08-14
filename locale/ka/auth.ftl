@@ -104,10 +104,15 @@ payment-plan-next-invoice = შემდეგი ზედნადები: {
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = გადახდის საშუალება:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType } ბარათი დაბოლოებით { $lastFour }
+credit-card-ending-in = { $cardName } ბარათი დაბოლოებით { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = უცნობი ბარათი დაბოლოებით { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = ზედნადების ნომერი: <b>{ $invoiceNumber }</b>
@@ -515,6 +520,7 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდ�
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = მომდევნო საანგარიშიო პერიოდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } შუალედისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ { $paymentProrated } გაზრდილი გადასახადის ასახვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთში.
 subscriptionUpgrade-content-charge-info-different-cycle = თქვენ ჩამოგეჭრებათ ერთჯერადად { $paymentProrated } გაზრდილი გადასახადის ასასხვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთისთვის. მომდევნო საანგარიშიო პერიოდიდან დაწყებული ჩამოსაჭერილი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის.
 # Variables:
