@@ -72,6 +72,8 @@ new-user-confirm-email =
     .label = ელფოსტის დადასტურება
 new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -product-mozilla-hubs } და { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -product-mdn-plus } და { -brand-mozilla }
 new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 new-user-email-validate = ელფოსტა არამართებულია
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
@@ -90,6 +92,8 @@ payment-confirmation-thanks-subheading = დასტურის წერი�
 payment-confirmation-thanks-subheading-account-exists = თქვენ მიიღებთ წერილს ელფოსტაზე { $email } ანგარიშის შექმნის მითითებებით, ასევე გადახდის შესახებ მონაცემებით.
 payment-confirmation-order-heading = შეკვეთის მონაცემები
 payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = გადახდის მონაცემები
 payment-confirmation-amount = { $amount } ყოველი { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -439,16 +443,25 @@ sub-update-copy =
     თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ შესწორებული
     ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
     კი ჩამოგეჭრებათ სრული ოდენობა.
+sub-update-acknowledgment =
+    თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ სათანადო წილის
+    ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
+    კი ჩამოგეჭრებათ სრული ოდენობა.
 sub-change-submit = ცვლილების დადასტურება
 sub-update-current-plan-label = მიმდინარე გეგმა
 sub-update-new-plan-label = ახალი გეგმა
 sub-update-total-label = ახალი სულ
+sub-update-prorated-upgrade = დანაწილების განახლება
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (ყოველდღიური)
+sub-update-new-plan-weekly = { $productName } (ყოველკვირეული)
+sub-update-new-plan-monthly = { $productName } (ყოველთვიური)
+sub-update-new-plan-yearly = { $productName } (ყოველწლიური)
 
 ##
 

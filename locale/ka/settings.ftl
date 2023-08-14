@@ -33,6 +33,9 @@ recovery-key-file-header = შეინახეთ თქვენი ანგ
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 recovery-key-file-instructions = შეინახეთ თქვენი ანგარიშის აღდგენის გასაღების შემცველი ფაილი ისეთ ადგილას, რომელიც კარგად გემახსოვრებათ. ან ამობეჭდეთ და შეინახეთ ფიზიკური ასლი. თქვენი ანგარიშის აღდგენის გასაღები დაგეხმარებათ { -brand-firefox }-მონაცემების დაბრუნებაში, თუ პაროლი დაგავიწყდებათ.
+# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
+# containing a mix of numbers and letters (excluding I, L, O, U)
+recovery-key-file-key-value-v3 = გასაღები:
 # { $email }  - The primary email associated with the account
 recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
 # Date when the account recovery key was created and this file was downloaded
@@ -424,6 +427,9 @@ flow-recovery-key-download-next-link-v2 = განაგრძეთ ჩამ�
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = დაამატეთ მინიშნება გასაღების ადვილად საპოვნელად
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = ეს მინიშნება დაგეხმარებათ, გაიხსენოთ, სად შეინახეთ თქვენი ანგარიშის აღდგენის გასაღები. იხილავთ, პაროლის განულებისას მონაცემების აღსადგენად.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -477,6 +483,7 @@ la-heading = მიბმული ანგარიშები
 la-description = თქვენ ნებადართული გაქვთ წვდომა მოცემულ ანგარიშებზე.
 la-unlink-button = გამოთიშვა
 la-unlink-account-button = გამოთიშვა
+la-set-password-button = პაროლის მითითება
 la-unlink-heading = გამოთიშვა გარეშე ანგარიშიდან
 la-unlink-content-3 = ნამდვილად გსურთ გამოთიშოთ თქვენი ანგარიში? შედეგად, მაინც დარჩებით შესული დაკავშირებულ მომსახურებებზე. საჭირო იქნება თითოეულიდან ცალ-ცალკე გამოსვლა აღნიშნული მომსახურებების განყოფილებაში.
 nav-linked-accounts = { la-heading }
@@ -641,6 +648,12 @@ display-name-success-alert-2 = გამოსაჩენი სახელი
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = ანგარიშის ბოლო მოქმედებები
+recent-activity-account-create-v2 = ანგარიში შეიქმნა
+recent-activity-account-disable-v2 = ანგარიში გაითიშა
+recent-activity-account-enable-v2 = ანგარიში ამოქმედდა
+recent-activity-account-login-failure = ანგარიშში შესვლის უშედეგო მცდელობა
+recent-activity-account-two-factor-added = ორბიჯიანი დამოწმება ჩაირთო
+recent-activity-account-two-factor-requested = ორბიჯიანი შემოწმება მოთხოვნილია
 
 # Account recovery key setup page
 
