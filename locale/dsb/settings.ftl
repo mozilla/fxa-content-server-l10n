@@ -169,6 +169,10 @@ signin-totp-code-image-label =
     .aria-label = Rěd ze schowanym 6-městnowym kodom.
 confirm-signup-aria-label =
     .aria-label = Wobalka, kótaraž wótkaz wopśimujo
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustracija za kontowy wótnowjeński kluc.
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Ilustracija za kontowy wótnowjeński kluc.
@@ -633,19 +637,26 @@ recent-activity-account-disable-v2 = Konto znjemóžnjone
 recent-activity-account-enable-v2 = Konto zmóžnjone
 recent-activity-account-login-v2 = Kontowe pśizjawjenje jo se iniciěrowało
 recent-activity-account-reset-v2 = Slědkstajenje jo se iniciěrowało
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-mailowe wótpokazanja wulašowane
 recent-activity-account-login-failure = Wopyt kontowego pśizjawjenja njejo se raźiło
 recent-activity-account-two-factor-added = Dwójokšacowa awtentifikacija jo se zmóžniła
 recent-activity-account-two-factor-requested = Dwójokšacowa awtentifikacija jo se pominała
 recent-activity-account-two-factor-failure = Dwójokšacowa awtentifikacija njejo se raźiła
 recent-activity-account-two-factor-success = Dwójokšacowa awtentifikacija wuspěšna
 recent-activity-account-two-factor-removed = Dwójokšacowa awtentifikacija jo se wótwónoźeła
+recent-activity-account-password-reset-requested = Konto jo pominało slědkstajenje gronidła
 recent-activity-account-password-reset-success = Kontowe gronidło jo se wuspěšnje slědk stajiło
 recent-activity-account-recovery-key-added = Kontowy wótnowjeński kluc zmóžnjony
+recent-activity-account-recovery-key-verification-failure = Pśeglědanje kontowego wótnowjeńskego kluca njejo se raźiło
+recent-activity-account-recovery-key-verification-success = Pśeglědanje kontowego wótnowjeńskego kluca wuspěšne
 recent-activity-account-recovery-key-removed = Kontowy wótnowjeński kluc jo se wótwónoźeł
 recent-activity-account-password-added = Nowe gronidło pśidane
 recent-activity-account-password-changed = Gronidło změnjone
 recent-activity-account-secondary-email-added = Sekundarna e-mailowa adresa pśidana
 recent-activity-account-secondary-email-removed = Sekundarna e-mailowa adresa wótwónoźona
+recent-activity-account-emails-swapped = Primarne a sekundarne e-mailowe adrese su zaměnjone
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
@@ -887,10 +898,14 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Gaž pókšacujośo, zwólijośo do:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Wužywańske wuměnjenja</firefoxTos> a <firefoxPrivacy>powěźeńka priwatnosći</firefoxPrivacy> { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Gaž pókšacujośo, zwólijośo do <firefoxTos>wužywańskich wuměnjenjow</firefoxTos> a <firefoxPrivacy>powěźeńki priwatnosći</firefoxPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -922,6 +937,7 @@ auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozezn
 auth-error-155 = TOTP-token njejo se namakał
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
 auth-error-999 = Njewótcakowana zmólka
+auth-error-1003 = Local Storage abo cookieje su hyšći znjemóžnjone
 auth-error-1008 = Wašo nowe gronidło musy druge byś
 auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
 
@@ -963,6 +979,7 @@ connect-another-device-ios-complete-setup-message = Pśizjawśo se pla { -brand-
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Local storage a cookieje su trjebne
 cookies-disabled-enable-prompt = Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup ku kontam { -product-firefox-accounts } měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Hyšći raz wopytaś
@@ -1143,6 +1160,7 @@ pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Pšosym cakajśo, buźośo se k awtorizěrowanemu nałoženjeju dalej pósrědnjaś.
 
 ## AccountRecoveryConfirmKey page
 
