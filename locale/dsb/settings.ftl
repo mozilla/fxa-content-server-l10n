@@ -169,8 +169,13 @@ signin-totp-code-image-label =
     .aria-label = Rěd ze schowanym 6-městnowym kodom.
 confirm-signup-aria-label =
     .aria-label = Wobalka, kótaraž wótkaz wopśimujo
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustracija za kontowy wótnowjeński kluc.
 lock-image-aria-label =
     .aria-label = Ilustracija pytka
+lightbulb-aria-label =
+    .aria-label = Ilustracija za napóranje składowańskeje pokazki.
 
 ## Input Password
 
