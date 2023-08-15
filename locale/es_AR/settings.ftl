@@ -27,23 +27,23 @@ link-expired-resent-code-error-message = Algo salió mal. No se pudo enviar un n
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Descargar y continuar
     .title = Descargar y continuar
-recovery-key-pdf-heading = Clave de recuperación de cuenta
+recovery-key-pdf-heading = Clave de recuperación de la cuenta
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
-recovery-key-pdf-download-date = Generado: { $date }
+recovery-key-pdf-download-date = Generada: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
-recovery-key-pdf-key-legend = Clave de recuperación de cuenta
+recovery-key-pdf-key-legend = Clave de recuperación de la cuenta
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Esta clave le permite recuperar los datos cifrados del navegador (incluidas las contraseñas, los marcadores y el historial) si olvida su contraseña. Guárdalo en un lugar que recordarás.
+recovery-key-pdf-instructions = Esta clave te permite recuperar los datos cifrados del navegador (incluidas las contraseñas, los marcadores y el historial) si te olvidás de tu contraseña. Guardala en un lugar que recordarás.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-recovery-key-pdf-storage-ideas-heading = Lugares para guardar tu clave
+recovery-key-pdf-storage-ideas-heading = Lugares para guardar la clave
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Conocer más sobre la clave de recuperación de tu cuenta
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Lo sentimos, hubo un problema descargando la clave de recuperación de la cuenta.
+recovery-key-pdf-download-error = Disculpá, hubo un problema al actualizar la clave de la recuperación de la cuenta.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
