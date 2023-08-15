@@ -277,7 +277,7 @@ passwordResetAccountRecovery-action-2 = Ustvari nov ključ za obnovitev računa
 passwordResetAccountRecovery-regen-required-mjml-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega:
-postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
+postAddAccountRecovery-subject-2 = Ključ za obnovitev računa ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Nov ključ je bil ustvarjen z naslednje naprave:
@@ -524,6 +524,7 @@ subscriptionUpgrade-upgrade-info = Uspešno ste nadgradili z { $productNameOld }
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
 subscriptionUpgrade-content-charge-info = Od naslednjega računa naprej se bo vaša zaračunana vrednost spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Takrat vam bomo zaračunali tudi enkratni strošek { $paymentProrated }, ki bo odražal višjo porabo do konca tega obdobja.
 subscriptionUpgrade-content-charge-info-different-cycle = Zaračunali vam bomo enkraten znesek { $paymentProrated }, ki odraža višjo ceno vaše naročnine do konca tega obdobja ({ $productPaymentCycleOld }). Od naslednjega računa naprej se bo vaša zaračunana vrednost spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
