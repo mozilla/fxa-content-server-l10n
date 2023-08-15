@@ -18,35 +18,32 @@ link-expired-resent-link-error-message = Algo deu errado. Não foi possível env
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Baixar e continuar
     .title = Baixar e continuar
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = SALVE SUA CHAVE DE RECUPERAÇÃO DE CONTA
+recovery-key-pdf-heading = Chave de recuperação de conta
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Gerada em: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Chave de recuperação de conta
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Guarde este arquivo que contém a chave de recuperação de conta em um local fácil de lembrar. Ou imprima e guarde uma cópia física. A chave de recuperação de conta pode ajudar a recuperar os dados do { -brand-firefox }, caso você esqueça sua senha.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Chave:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Chave gerada em: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Saiba mais sobre a chave de recuperação de conta: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Essa chave permite recuperar seus dados criptografados no navegador (incluindo senhas, favoritos e histórico) caso você esqueça sua senha. Guarde em um lugar que você vai lembrar.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Lugares onde guardar a chave
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Saiba mais sobre chave de recuperação de conta
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave de recuperação de conta.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -405,6 +402,13 @@ flow-recovery-key-download-heading-v2 = Chave de recuperação de conta criada �
 flow-recovery-key-download-info-v2 = Esta chave permite que você recupere seus dados caso esqueça sua senha. Baixe agora e guarde em algum lugar que você se lembre. Depois não poderá voltar a esta página.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuar sem baixar
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar a chave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Pasta em um dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Armazenamento confiável em nuvem
+flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
+flow-recovery-key-download-storage-ideas-pwd-manager = Gerenciador de senhas
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -423,13 +427,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Pronto
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar a chave:
-flow-recovery-key-download-storage-ideas-folder-v2 = Pasta em um dispositivo seguro
-flow-recovery-key-download-storage-ideas-cloud = Armazenamento confiável em nuvem
-flow-recovery-key-download-storage-ideas-print-v2 = Cópia física impressa
-flow-recovery-key-download-storage-ideas-pwd-manager = Gerenciador de senhas
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Criada chave de recuperação de conta
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
