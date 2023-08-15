@@ -36,14 +36,14 @@ recovery-key-pdf-key-legend = Kontowiederherstellungsschlüssel
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Mit diesem Schlüssel können Sie Ihre verschlüsselten Browser-Daten (einschließlich Passwörter, Lesezeichen und Chronik) wiederherstellen, wenn Sie Ihr Passwort vergessen. Bewahren Sie es an einem Ort auf, an den Sie sich erinnern werden.
+recovery-key-pdf-instructions = Mit diesem Schlüssel können Sie Ihre verschlüsselten Browser-Daten (einschließlich Passwörter, Lesezeichen und Chronik) wiederherstellen, wenn Sie Ihr Passwort vergessen. Bewahren Sie es ihm einem Ort auf, den Sie sich merken können.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Orte zum Speichern Ihres Schlüssels
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
-recovery-key-pdf-support = Erfahren Sie mehr über Ihren Kontowiederherstellungsschlüssel
+recovery-key-pdf-support = Weitere Informationen zu Ihrem Kontowiederherstellungsschlüssel
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Entschuldigung, beim Herunterladen Ihres Kontowiederherstellungsschlüssels ist ein Problem aufgetreten.
+recovery-key-pdf-download-error = Beim Herunterladen Ihres Kontowiederherstellungsschlüssels ist ein Fehler aufgetreten.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
