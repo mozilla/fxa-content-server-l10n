@@ -30,7 +30,7 @@ recovery-key-download-button-v3 = Scarica e continua
 recovery-key-pdf-heading = Chiave di recupero dell’account
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
-recovery-key-pdf-download-date = Generato: { $date }
+recovery-key-pdf-download-date = Generata: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Chiave di recupero dell’account
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
@@ -39,11 +39,11 @@ recovery-key-pdf-key-legend = Chiave di recupero dell’account
 recovery-key-pdf-instructions = Questa chiave consente di recuperare i dati crittati del browser (inclusi password, segnalibri e cronologia) se si dimentica la password. Conservalo in un posto che ricorderai.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-recovery-key-pdf-storage-ideas-heading = Luoghi in cui riporre la chiave
+recovery-key-pdf-storage-ideas-heading = Luoghi in cui conservare la chiave
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Ulteriori informazioni sulla chiave di recupero dell’account
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Spiacenti, si è verificato un problema durante il download della chiave di recupero dell’account.
+recovery-key-pdf-download-error = Siamo spiacenti, si è verificato un problema durante il download della chiave di recupero dell’account.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
