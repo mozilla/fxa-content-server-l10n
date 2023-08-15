@@ -30,7 +30,7 @@ recovery-key-download-button-v3 = Prenesi in nadaljuj
 recovery-key-pdf-heading = Ključ za obnovitev računa
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
-recovery-key-pdf-download-date = Ustvarjeno: { $date }
+recovery-key-pdf-download-date = Ustvarjen: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Ključ za obnovitev računa
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
@@ -43,7 +43,7 @@ recovery-key-pdf-storage-ideas-heading = Mesta za shranjevanje ključev
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Preberite več o ključu za obnovitev računa
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je žal prišlo do težave.
+recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je prišlo do težave.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -834,7 +834,7 @@ rk-action-create = Ustvari
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Spremeni
 rk-action-remove = Odstrani
-rk-key-removed-2 = Obnovitveni ključ za račun odstranjen
+rk-key-removed-2 = Ključ za obnovitev računa odstranjen
 rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key-1 = Osveži ključ za obnovitev računa
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
