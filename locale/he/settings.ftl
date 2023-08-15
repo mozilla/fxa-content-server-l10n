@@ -18,35 +18,32 @@ link-expired-resent-link-error-message = משהו השתבש. לא ניתן הי
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = הורדה והמשך
     .title = הורדה והמשך
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = יש לשמור את מפתח שחזור החשבון שלך
+recovery-key-pdf-heading = מפתח שחזור חשבון
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = נוצר בתאריך: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = מפתח שחזור חשבון
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = יש לאחסן את קובץ זה שמכיל את מפתח שחזור החשבון שלך במקום שתזכור, או להדפיס אותו ולשמור עותק פיזי. מפתח שחזור החשבון שלך יכול לעזור לך לשחזר את נתוני { -brand-firefox } אם ססמתך תישכח.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = מפתח:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account(case: "a") }: ‏{ $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * מפתח נוצר בתאריך: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * למידע נוסף על מפתח שחזור החשבון שלך: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = מפתח זה מאפשר לך לשחזר את נתוני הדפדפן המוצפנים שלך (הכוללים ססמאות, סימניות והיסטוריה) למקרה שהססמה שלך תישכח. יש לאחסן אותו במקום שקל לזכור.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = מקומות לאחסון המפתח שלך
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = מידע נוסף על מפתח שחזור החשבון שלך
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח שחזור החשבון, עמך הסליחה.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -405,6 +402,13 @@ flow-recovery-key-download-heading-v2 = מפתח שחזור חשבון נוצר 
 flow-recovery-key-download-info-v2 = מפתח זה מאפשר לך לשחזר את הנתונים שלך אם הססמה שלך תישכח. יש להוריד אותו עכשיו ולשמור אותו במקום שקל לזכור — לא תהיה לך אפשרות לחזור לדף זה מאוחר יותר.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = המשך ללא הורדה
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
+flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר מאובטח
+flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
+flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
+flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -423,13 +427,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = סיום
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = מקומות לאחסון המפתח שלך:
-flow-recovery-key-download-storage-ideas-folder-v2 = תיקייה במכשיר מאובטח
-flow-recovery-key-download-storage-ideas-cloud = אחסון ענן מהימן
-flow-recovery-key-download-storage-ideas-print-v2 = עותק פיזי מודפס
-flow-recovery-key-download-storage-ideas-pwd-manager = מנהל ססמאות
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = נוצר מפתח לשחזור החשבון
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -882,6 +879,9 @@ auth-error-102 = חשבון לא ידוע
 auth-error-103 = ססמה שגויה
 auth-error-105-2 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = ניסית  יותר מידי פעמים. נא לנסות שוב מאוחר יותר.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
