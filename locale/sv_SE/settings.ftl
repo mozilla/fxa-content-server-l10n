@@ -18,35 +18,32 @@ link-expired-resent-link-error-message = Något gick fel. En ny länk kunde inte
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte skickas.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Ladda ner och fortsätt
     .title = Ladda ner och fortsätt
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = SPARA DIN KONTOÅTERSTÄLLNINGSNYCKEL
+recovery-key-pdf-heading = Nyckel för kontoåterställning
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Skapad: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Nyckel för kontoåterställning
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Förvara den här filen som innehåller din kontoåterställningsnyckel på en plats du kommer ihåg. Eller skriv ut den och behåll en fysisk kopia. Din kontoåterställningsnyckel kan hjälpa dig att återställa { -brand-firefox }-data om du glömmer ditt lösenord.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Nyckel:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Nyckel genererad: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Läs mer om din kontoåterställningsnyckel: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Den här nyckeln låter dig återställa dina krypterade webbläsardata (inklusive lösenord, bokmärken och historik) om du glömmer ditt lösenord. Förvara den på en plats du kommer ihåg.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Platser att förvara din nyckel
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Läs mer om din kontoåterställningsnyckel
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Det gick tyvärr inte att ladda ned din kontoåterställningsnyckel.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -419,6 +416,13 @@ flow-recovery-key-download-heading-v2 = Kontoåterställningsnyckel skapad — L
 flow-recovery-key-download-info-v2 = Denna nyckel låter dig återställa dina data om du glömmer ditt lösenord. Ladda ner den nu och lagra den någonstans du kommer ihåg — du kommer inte att kunna återvända till den här sidan senare.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Fortsätt utan att ladda ner
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Platser att lagra din nyckel:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mapp på säker enhet
+flow-recovery-key-download-storage-ideas-cloud = Pålitlig molnlagring
+flow-recovery-key-download-storage-ideas-print-v2 = Utskrivet fysiskt exemplar
+flow-recovery-key-download-storage-ideas-pwd-manager = Lösenordshanterare
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -437,13 +441,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Slutför
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Platser att lagra din nyckel:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mapp på säker enhet
-flow-recovery-key-download-storage-ideas-cloud = Pålitlig molnlagring
-flow-recovery-key-download-storage-ideas-print-v2 = Utskrivet fysiskt exemplar
-flow-recovery-key-download-storage-ideas-pwd-manager = Lösenordshanterare
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontoåterställningsnyckel skapad
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
