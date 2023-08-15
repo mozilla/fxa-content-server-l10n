@@ -38,6 +38,8 @@ recovery-key-pdf-key-legend = Kontowy wótnowjeński kluc
 recovery-key-pdf-storage-ideas-heading = Městna za składowanje wašogo kluca
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Zgóńśo wěcej wó swójom kontowem wótnowjeńskem klucu
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Bóžko jo pśi ześěgowanju kontowego wótnowjeńskego kluca problem nastał
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
