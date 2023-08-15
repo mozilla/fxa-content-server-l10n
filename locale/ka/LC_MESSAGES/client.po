@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-08 22:25+0000\n"
+"PO-Revision-Date: 2023-08-15 10:07+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -866,7 +866,7 @@ msgstr "IP-მისამართი: %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ დაამოწმოთ ეს შესვლა, მოცემულ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
+msgstr "დამატებითი უსაფრთხოებისთვის გთხოვთ დაამოწმოთ ეს შესვლა, მოცემულ მოწყობილობასთან სინქრონიზაციის დასაწყებად:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -1809,7 +1809,7 @@ msgstr "თქვენი დასინქრონებული მონ�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "ვინაიდან, ეს მონაცემები გადამწყვეტია თქვენი უსაფრთხოებისთვის, Firefox წაშლის მათ თქვენი პაროლის განულების შემთხვევაში, რათა გარეშე პირებმა ვერ შეძლონ მათი მოპოვება."
+msgstr "ვინაიდან, ეს მონაცემები გადამწყვეტია თქვენი უსაფრთხოებისთვის Firefox წაშლის მათ თქვენი პაროლის განულების შემთხვევაში, რათა გარეშე პირებმა ვერ შეძლონ მათი მოპოვება."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
