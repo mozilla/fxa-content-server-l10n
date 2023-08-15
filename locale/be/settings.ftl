@@ -33,6 +33,10 @@ recovery-key-pdf-heading = Ключ аднаўлення ўліковага за
 recovery-key-pdf-download-date = Згенераваны: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Ключ аднаўлення ўліковага запісу
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Гэты ключ дазваляе аднавіць зашыфраваныя звесткі браўзера (уключаючы паролі, закладкі і гісторыю), калі вы забудзеце пароль. Захоўвайце яго ў месцы, якое вы запомніце.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Месцы для захоўвання вашага ключа
