@@ -27,19 +27,19 @@ link-expired-resent-code-error-message = Une erreur s’est produite. Impossible
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Télécharger et continuer
     .title = Télécharger et continuer
-recovery-key-pdf-heading = Clé de récupération de compte
+recovery-key-pdf-heading = Clé de récupération du compte
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
-recovery-key-pdf-download-date = Généré le : { $date }
+recovery-key-pdf-download-date = Générée le : { $date }
 # Shown directly above recovery key value and preceeded by a key icon
-recovery-key-pdf-key-legend = Clé de récupération de compte
+recovery-key-pdf-key-legend = Clé de récupération du compte
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Cette clé vous permet de récupérer les données chiffrées de votre navigateur (y compris les mots de passe, les marque-pages et l’historique) si vous oubliez votre mot de passe. Conservez-le dans un endroit dont vous vous souviendrez.
+recovery-key-pdf-instructions = Cette clé vous permet de récupérer les données chiffrées de votre navigateur (y compris les mots de passe, les marque-pages et l’historique) si vous oubliez votre mot de passe. Conservez-la à un endroit dont vous vous souviendrez.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-recovery-key-pdf-storage-ideas-heading = Emplacements de stockage de votre clé
+recovery-key-pdf-storage-ideas-heading = Où conserver votre clé :
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = En savoir plus sur la clé de récupération de compte
 # Error message displayed in an alert bar if the PDF download failed.
