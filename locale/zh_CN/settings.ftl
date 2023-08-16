@@ -33,6 +33,14 @@ recovery-key-pdf-heading = 账户恢复密钥
 recovery-key-pdf-download-date = 创建日期：{ $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = 账户恢复密钥
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = 如果您忘记了密码，可以使用此密钥来恢复加密的浏览器数据（包括密码、书签和历史记录）。请妥善保管密钥。
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = 详细了解账户恢复密钥
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = 很抱歉，下载您的账户恢复密钥时出现问题。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
