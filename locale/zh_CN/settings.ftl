@@ -37,6 +37,9 @@ recovery-key-pdf-key-legend = 账户恢复密钥
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
 recovery-key-pdf-instructions = 如果您忘记了密码，可以使用此密钥来恢复加密的浏览器数据（包括密码、书签和历史记录）。请妥善保管密钥。
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = 密钥存放位置
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = 详细了解账户恢复密钥
 # Error message displayed in an alert bar if the PDF download failed.
