@@ -33,6 +33,17 @@ recovery-key-pdf-heading = Clave de recuperación de cuenta
 recovery-key-pdf-download-date = Generada: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Clave de recuperación de cuenta
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Esta clave te permite recuperar los datos cifrados de tu navegador (incluidas las contraseñas, los marcadores y el historial) en caso de que olvides tu contraseña. Guárdala en un lugar que recordarás.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Lugares para guardar la clave
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Aprender más acerca de tu clave de recuperación de cuenta
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Lo sentimos, hubo un problema al descargar tu clave de recuperación de cuenta.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
