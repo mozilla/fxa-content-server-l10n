@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email inviata nuovamente. Aggiungi { $accountsEmail } ai tuoi contatti per garantire una consegna senza problemi.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Si è verificato un problema. Impossibile inviare un nuovo link.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Si è verificato un problema. Impossibile inviare un nuovo codice.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -932,6 +930,7 @@ auth-error-114 = Hai effettuato troppi tentativi errati. Riprova { $retryAfter }
 auth-error-138-2 = Sessione non confermata
 auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
 auth-error-155 = Token TOTP non trovato
+auth-error-159 = Chiave di recupero dell’account non valida
 auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-999 = Errore imprevisto
 auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
@@ -1184,10 +1183,6 @@ account-recovery-confirm-key-input =
     .label = Inserisci la chiave di recupero dell’account
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Conferma la chiave di recupero dell’account
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Chiave di recupero account non valida
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = È richiesta la chiave di recupero dell’account
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Non possiedi una chiave di recupero per l’account?
 
@@ -1213,7 +1208,8 @@ complete-reset-password-success-alert = Password impostata
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
-complete-reset-password-recovery-key-error = Si è verificato un problema durante il controllo della disponibilità di una chiave di recupero dell’account. <hasRecoveryKeyErrorLink>Reimposta la password con la chiave di recupero dell’account.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Spiacenti, si è verificato un problema durante la verifica della presenza di una chiave di recupero dell’account.
+complete-reset-password-recovery-key-link = Reimposta la password con la chiave di recupero dell’account.
 
 ## Confirm Reset Password Component
 
