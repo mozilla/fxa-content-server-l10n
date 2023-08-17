@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-Mail erneut gesendet. Fügen Sie { $accountsEmail } zu Ihren Kontakten hinzu, damit die E-Mail problemlos zugestellt wird.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Link gesendet werden.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -952,6 +950,7 @@ auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es { $retryAfte
 auth-error-138-2 = Unbestätigte Sitzung
 auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
 auth-error-155 = TOTP-Token nicht gefunden
+auth-error-159 = Ungültiger Kontowiederherstellungsschlüssel
 auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
 auth-error-999 = Unerwarteter Fehler
 auth-error-1003 = Local Storage oder Cookies sind weiterhin deaktiviert
@@ -1204,10 +1203,6 @@ account-recovery-confirm-key-input =
     .label = Kontowiederherstellungsschlüssel eingeben
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Kontowiederherstellungsschlüssel bestätigen
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Ungültiger Kontowiederherstellungsschlüssel
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Kontowiederherstellungsschlüssel erforderlich
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Haben Sie keinen Kontowiederherstellungsschlüssel?
 
@@ -1233,7 +1228,8 @@ complete-reset-password-success-alert = Passwort gesetzt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Beim Setzen Ihres Passworts ist ein Fehler aufgetreten.
-complete-reset-password-recovery-key-error = Entschuldigung, bei der Überprüfung, ob Sie einen Kontowiederherstellungsschlüssel haben, ist ein Problem aufgetreten. <hasRecoveryKeyErrorLink>Setzen Sie Ihr Passwort mit Ihrem Kontowiederherstellungsschlüssel zurück.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Bei der Überprüfung, ob Sie einen Kontowiederherstellungsschlüssel haben, ist ein Fehler aufgetreten.
+complete-reset-password-recovery-key-link = Setzen Sie Ihr Passwort mit Ihrem Kontowiederherstellungsschlüssel zurück.
 
 ## Confirm Reset Password Component
 
