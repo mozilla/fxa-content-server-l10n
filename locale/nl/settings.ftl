@@ -18,35 +18,32 @@ link-expired-resent-link-error-message = Er is iets misgegaan. Er kon geen nieuw
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Downloaden en doorgaan
     .title = Downloaden en doorgaan
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = BEWAAR UW ACCOUNTHERSTELSLEUTEL
+recovery-key-pdf-heading = Accountherstelsleutel
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Aangemaakt: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Accountherstelsleutel
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Bewaar dit bestand met uw accountherstelsleutel op een plek die u kunt onthouden. Of druk het af en bewaar een fysiek exemplaar. Uw accountherstelsleutel kan u helpen bij het herstellen van { -brand-firefox }-gegevens als u uw wachtwoord bent vergeten.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Sleutel:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Sleutel aangemaakt: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Meer info over uw accountherstelsleutel: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Met deze sleutel kunt u uw versleutelde browsergegevens (inclusief wachtwoorden, bladwijzers en geschiedenis) herstellen als u uw wachtwoord vergeet. Bewaar hem op een plek die u kunt onthouden.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Plaatsen om uw sleutel op te slaan
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Meer info over uw accountherstelsleutel
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Sorry, er is een probleem opgetreden bij het downloaden van uw accountherstelsleutel.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -370,7 +367,6 @@ cs-disconnect-suspicious-advice-content =
     te wijzigen in uw accountinstellingen. U kunt het beste ook alle overige wachtwoorden die
     u in { -brand-firefox } hebt opgeslagen wijzigen door in de adresbalk about:logins in te typen.
 cs-sign-out-button = Afmelden
-cs-recent-activity = Recente accountactiviteit
 
 ##
 
@@ -420,6 +416,13 @@ flow-recovery-key-download-heading-v2 = Accountherstelsleutel aangemaakt – Dow
 flow-recovery-key-download-info-v2 = Met deze sleutel kunt u uw gegevens herstellen als u uw wachtwoord bent vergeten. Download hem nu en bewaar hem op een plek die u kunt onthouden – u kunt later niet meer terugkeren naar deze pagina.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Doorgaan zonder downloaden
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plaatsen om uw sleutel op te slaan:
+flow-recovery-key-download-storage-ideas-folder-v2 = Map op beveiligd apparaat
+flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
+flow-recovery-key-download-storage-ideas-print-v2 = Afgedrukt fysiek exemplaar
+flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -438,13 +441,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Voltooien
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Plaatsen om uw sleutel op te slaan:
-flow-recovery-key-download-storage-ideas-folder-v2 = Map op beveiligd apparaat
-flow-recovery-key-download-storage-ideas-cloud = Vertrouwde cloudopslag
-flow-recovery-key-download-storage-ideas-print-v2 = Afgedrukt fysiek exemplaar
-flow-recovery-key-download-storage-ideas-pwd-manager = Wachtwoordenbeheerder
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Sleutel voor accountherstel aangemaakt
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -484,8 +480,10 @@ la-heading = Gekoppelde accounts
 la-description = U hebt toegang tot de volgende accounts geautoriseerd.
 la-unlink-button = Ontkoppelen
 la-unlink-account-button = Ontkoppelen
+la-set-password-button = Wachtwoord instellen
 la-unlink-heading = Ontkoppelen van externe account
 la-unlink-content-3 = Weet u zeker dat u uw account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij uw verbonden services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
+la-unlink-content-4 = Voordat u uw account ontkoppelt, moet u een wachtwoord instellen. Zonder wachtwoord kunt u niet aanmelden nadat u uw account hebt ontkoppeld.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -643,19 +641,38 @@ display-name-success-alert-2 = Schermnaam bijgewerkt
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Recente accountactiviteit
-recent-activity-account-create = Account is aangemaakt
-recent-activity-account-disable = Account is uitgeschakeld
-recent-activity-account-enable = Account is ingeschakeld
-recent-activity-account-login = Door account geïnitieerde aanmelding
-recent-activity-account-reset = Door account geïnitieerde wachtwoordherinitialisatie
-recent-activity-emails-clearBounces = Door account opgeloste e-mailberichtretournering
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
+recent-activity-account-create-v2 = Account aangemaakt
+recent-activity-account-disable-v2 = Account uitgeschakeld
+recent-activity-account-enable-v2 = Account ingeschakeld
+recent-activity-account-login-v2 = Accountaanmelding gestart
+recent-activity-account-reset-v2 = Wachtwoordherinitialisatie gestart
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-mailbounces gewist
+recent-activity-account-login-failure = Accountaanmeldingspoging mislukt
+recent-activity-account-two-factor-added = Authenticatie in twee stappen ingeschakeld
+recent-activity-account-two-factor-requested = Authenticatie in twee stappen aangevraagd
+recent-activity-account-two-factor-failure = Authenticatie in twee stappen mislukt
+recent-activity-account-two-factor-success = Authenticatie in twee stappen gelukt
+recent-activity-account-two-factor-removed = Authenticatie in twee stappen verwijderd
+recent-activity-account-password-reset-requested = Account heeft wachtwoordherinitialisatie aangevraagd
+recent-activity-account-password-reset-success = Accountwachtwoord met succes opnieuw ingesteld
+recent-activity-account-recovery-key-added = Accountherstelsleutel ingeschakeld
+recent-activity-account-recovery-key-verification-failure = Verificatie van accountherstelsleutel mislukt
+recent-activity-account-recovery-key-verification-success = Verificatie van accountherstelsleutel gelukt
+recent-activity-account-recovery-key-removed = Sleutel voor accountherstel verwijderd
+recent-activity-account-password-added = Nieuw wachtwoord toegevoegd
+recent-activity-account-password-changed = Wachtwoord gewijzigd
+recent-activity-account-secondary-email-added = Secundair e-mailadres toegevoegd
+recent-activity-account-secondary-email-removed = Secundair e-mailadres verwijderd
+recent-activity-account-emails-swapped = Primaire en secundaire e-mailadressen omgewisseld
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Overige accountactiviteit
 
 # Account recovery key setup page
 
@@ -792,6 +809,8 @@ security-password-created-date = Gemaakt op { $date }
 security-not-set = Niet ingesteld
 security-action-create = Aanmaken
 security-set-password = Stel een wachtwoord in om te synchroniseren en bepaalde accountbeveiligingsfuncties te gebruiken.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Recente accountactiviteit bekijken
 
 ## Switch component
 
