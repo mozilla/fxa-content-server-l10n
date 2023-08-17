@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mail újraküldve. Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Valami elromlott. Nem sikerült új hivatkozást küldeni.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -957,6 +955,7 @@ auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
+auth-error-159 = Érvénytelen fiók-helyreállítási kulcs
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-999 = Nem várt hiba
 auth-error-1003 = A helyi tároló vagy a sütik továbbra is le vannak tiltva
@@ -1209,10 +1208,6 @@ account-recovery-confirm-key-input =
     .label = Adja meg a fiók-helyreállítási kulcsot
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Erősítse meg a fiók-helyreállítási kulcsot
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Érvénytelen fiók-helyreállítási kulcs
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Fiók helyreállítási kulcs szükséges
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nincs fiók-helyreállítási kulcsa?
 
@@ -1238,7 +1233,8 @@ complete-reset-password-success-alert = Jelszó megadva
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
-complete-reset-password-recovery-key-error = Sajnáljuk, probléma lépett fel annak ellenőrzésekor, hogy rendelkezik-e fiók-helyreállítási kulccsal. <hasRecoveryKeyErrorLink>Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Elnézést, hiba történt annak ellenőrzésekor, hogy rendelkezik-e fiók-helyreállítási kulccsal.
+complete-reset-password-recovery-key-link = Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.
 
 ## Confirm Reset Password Component
 
