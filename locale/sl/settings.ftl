@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-pošta ponovno poslana. Dodajte { $accountsEmail } med svoje stike in si zagotovite nemoteno dostavo.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Prišlo je do napake. Nove povezave ni bilo mogoče poslati.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -954,6 +952,7 @@ auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
+auth-error-159 = Neveljaven ključ za obnovitev računa
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-999 = Nepričakovana napaka
 auth-error-1003 = Lokalna shramba ali piškotki so še vedno onemogočeni
@@ -1206,10 +1205,6 @@ account-recovery-confirm-key-input =
     .label = Vnesite ključ za obnovitev računa
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Potrdite ključ za obnovitev računa
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Neveljaven ključ za obnovitev računa
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Potreben je ključ za obnovitev računa
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nimate ključa za obnovitev računa?
 
@@ -1235,7 +1230,8 @@ complete-reset-password-success-alert = Geslo je nastavljeno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Pri nastavljanju gesla je prišlo do težave
-complete-reset-password-recovery-key-error = Pri preverjanju, ali imate ključ za obnovitev računa, je prišlo do težave. <hasRecoveryKeyErrorLink>Ponastavite geslo s ključem za obnovitev računa.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Pri preverjanju, ali imate ključ za obnovitev računa, je prišlo do težave.
+complete-reset-password-recovery-key-link = Ponastavite geslo s ključem za obnovitev računa.
 
 ## Confirm Reset Password Component
 
