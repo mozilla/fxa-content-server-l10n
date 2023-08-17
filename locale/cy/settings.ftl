@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-bost wedi ei ail-anfon. Ychwanegwch { $accountsEmail } i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon dolen newydd.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -953,6 +951,7 @@ auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { 
 auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
+auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-999 = Gwall anhysbys
 auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
@@ -1205,10 +1204,6 @@ account-recovery-confirm-key-input =
     .label = Rhowch allwedd adfer cyfrif
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Cadarnhewch allwedd adfer cyfrif
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Allwedd adfer cyfrif annilys
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Mae angen allwedd adfer cyfrif
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Dim allwedd adfer cyfrif?
 
@@ -1234,7 +1229,8 @@ complete-reset-password-success-alert = Wedi gosod y cyfrinair
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-complete-reset-password-recovery-key-error = Ymddiheuriadau, bu anhawster wrth wirio a oes gennych allwedd adfer cyfrif. <hasRecoveryKeyErrorLink>Ailosodwch eich cyfrinair gydag allwedd adfer eich cyfrif.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Mae'n ddrwg gennym, roedd problem wrth wirio a oes gennych allwedd adfer cyfrif.
+complete-reset-password-recovery-key-link = Ailosodwch eich cyfrinair gyda'ch allwedd adfer cyfrif.
 
 ## Confirm Reset Password Component
 
