@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mailbericht opnieuw verzonden. Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Er is iets misgegaan. Er kon geen nieuwe koppeling worden verzonden.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -959,6 +957,7 @@ auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opni
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
+auth-error-159 = Ongeldige accountherstelsleutel
 auth-error-183-2 = Ongeldige of verlopen bevestigingscode
 auth-error-999 = Onverwachte fout
 auth-error-1003 = Lokale opslag of cookies zijn nog steeds uitgeschakeld
@@ -1211,10 +1210,6 @@ account-recovery-confirm-key-input =
     .label = Voer accountherstelsleutel in
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Bevestig accountherstelsleutel
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Ongeldige accountherstelsleutel
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Accountherstelsleutel vereist
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Hebt u geen accountherstelsleutel?
 
@@ -1240,7 +1235,8 @@ complete-reset-password-success-alert = Wachtwoord ingesteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
-complete-reset-password-recovery-key-error = Sorry, er is een probleem opgetreden bij het controleren of u een accountherstelsleutel hebt. <hasRecoveryKeyErrorLink>Stel uw wachtwoord opnieuw in met uw accountherstelsleutel.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Sorry, er is een probleem opgetreden bij controleren of u een accountherstelsleutel hebt.
+complete-reset-password-recovery-key-link = Stel een nieuw wachtwoord in met uw accountherstelsleutel.
 
 ## Confirm Reset Password Component
 
