@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Đã gửi lại email. Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Đã xảy ra sự cố. Không thể gửi liên kết mới.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể gửi mã mới.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -957,6 +955,7 @@ auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $r
 auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
+auth-error-159 = Khóa khôi phục tài khoản không hợp lệ
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-999 = Lỗi không xác định
 auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
@@ -1209,10 +1208,6 @@ account-recovery-confirm-key-input =
     .label = Nhập khóa khôi phục tài khoản
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Xác nhận khóa khôi phục tài khoản
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Khóa khôi phục tài khoản không hợp lệ
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Cần có khóa khôi phục tài khoản
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Không có khóa khôi phục tài khoản?
 
@@ -1238,7 +1233,8 @@ complete-reset-password-success-alert = Đã đặt mật khẩu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
-complete-reset-password-recovery-key-error = Rất tiếc, đã xảy ra sự cố khi kiểm tra xem bạn có khóa khôi phục tài khoản hay không. <hasRecoveryKeyErrorLink>Đặt lại mật khẩu bằng khóa khôi phục tài khoản của bạn.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Rất tiếc, đã xảy ra sự cố khi kiểm tra xem bạn có khóa khôi phục tài khoản hay không.
+complete-reset-password-recovery-key-link = Đặt lại mật khẩu của bạn bằng khóa khôi phục tài khoản.
 
 ## Confirm Reset Password Component
 
