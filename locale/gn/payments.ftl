@@ -251,13 +251,13 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } jehepyme'ẽ aragua
-       *[other] { $priceAmount } + { $taxAmount }  jehepyme'ẽ aragua { $intervalCount } árape
+        [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ aragua
+       *[other] { $priceAmount } + { $taxAmount }  jehepyme’ẽ aragua { $intervalCount } árape
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } jehepyme'ẽ aragua
-           *[other] { $priceAmount } + { $taxAmount }  jehepyme'ẽ aragua { $intervalCount } árape
+            [one] { $priceAmount } + { $taxAmount } jehepyme’ẽ aragua
+           *[other] { $priceAmount } + { $taxAmount }  jehepyme’ẽ aragua { $intervalCount } árape
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
@@ -439,10 +439,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Ehecha ne moambuekue
 sub-change-failed = Ojavy ne moambue raperã
-sub-update-copy =
-    Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
-    ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
-    guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve.
 sub-update-acknowledgment =
     Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
     ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
