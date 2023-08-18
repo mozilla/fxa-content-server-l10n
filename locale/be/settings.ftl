@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Ліст дасланы паўторна. Дадайце { $accountsEmail } у спіс кантактаў для надзейнай дастаўкі.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Нешта пайшло не так. Не ўдалося адправіць новую спасылку.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Нешта пайшло не так. Не ўдалося адправіць новы код.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -960,6 +958,7 @@ auth-error-114 = Вы зрабілі дужа шмат спробаў. Пасп�
 auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
+auth-error-159 = Нядзейсны ключ аднаўлення ўліковага запісу
 auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
 auth-error-999 = Нечаканая памылка
 auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
@@ -1212,10 +1211,6 @@ account-recovery-confirm-key-input =
     .label = Увядзіце ключ аднаўлення ўліковага запісу
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Пацвердзіце ключ аднаўлення ўліковага запісу
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Нядзейсны ключ аднаўлення ўліковага запісу
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Патрабуецца ключ аднаўлення ўліковага запісу
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = У вас няма ключа аднаўлення ўліковага запісу?
 
@@ -1241,7 +1236,8 @@ complete-reset-password-success-alert = Пароль усталяваны
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
-complete-reset-password-recovery-key-error = На жаль, узнікла праблема пры праверцы, ці ёсць у вас ключ аднаўлення ўліковага запісу. <hasRecoveryKeyErrorLink>Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = На жаль, узнікла праблема пры праверцы, ці ёсць у вас ключ аднаўлення ўліковага запісу.
+complete-reset-password-recovery-key-link = Скіньце пароль з дапамогай ключа аднаўлення ўліковага запісу.
 
 ## Confirm Reset Password Component
 
