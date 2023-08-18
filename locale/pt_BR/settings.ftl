@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email reenviado. Adicione { $accountsEmail } nos seus contatos para assegurar uma entrega tranquila.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Algo deu errado. Não foi possível enviar um novo link.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -921,6 +919,7 @@ auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
+auth-error-159 = Chave de recuperação de conta inválida
 auth-error-183-2 = Código de confirmação inválido ou vencido
 auth-error-999 = Erro não esperado
 auth-error-1003 = Armazenamento local ou cookies ainda estão desativados
@@ -1173,10 +1172,6 @@ account-recovery-confirm-key-input =
     .label = Digite a chave de recuperação da conta
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confirmar chave de recuperação de conta
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Chave de recuperação de conta inválida
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Necessário chave de recuperação de conta
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Não tem uma chave de recuperação de conta?
 
@@ -1202,7 +1197,8 @@ complete-reset-password-success-alert = Senha definida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desculpe, houve um problema ao definir sua senha
-complete-reset-password-recovery-key-error = Desculpe, houve um problema ao verificar se você tem uma chave de recuperação de conta. <hasRecoveryKeyErrorLink>Redefina sua senha com sua chave de recuperação de conta.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Desculpe, houve um problema ao verificar se você tem uma chave de recuperação de conta.
+complete-reset-password-recovery-key-link = Redefina a senha com sua chave de recuperação de conta.
 
 ## Confirm Reset Password Component
 
