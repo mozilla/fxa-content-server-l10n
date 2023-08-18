@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mejlka je so znowa pósłała. Přidajće swojim kontaktam { $accountsEmail }, zo byšće dodaće bjez problemow zawěsćił.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Něšto je so nimokuliło. Nowy wotkaz njeda so słać.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Něšto je so nimokuliło. Nowy kod njeda so słać.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -581,6 +579,7 @@ delete-account-header =
     .title = Konto zhašeć
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+delete-account-confirm-title-3 = Sće snano swoje konto { -product-firefox-account } z jednym produktom abo z jedneju słužbu  { -brand-mozilla } abo z wjacorymi z nich zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -933,6 +932,7 @@ auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće
 auth-error-138-2 = Njewobkrućene posedźenje
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
+auth-error-159 = Njepłaćiwy kontowy wobnowjenski kluč
 auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-999 = Njewočakowany zmylk
 auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
@@ -1038,6 +1038,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Zapodajće kod z ruku, <span>z
 inline-totp-setup-show-qr-default-service-header-2 = Skenujće awtentifikaciski kod, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Zapodajće kod z ruku, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Zapodajće tutón tajny kluč do swojeho awtentifikaciskeho nałoženja. <toggleToQRButton>QR-kod město toho skenować?</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1066,6 +1068,9 @@ pair-auth-allow-heading-text = Sće so runje pola { -product-firefox } přizjewi
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Haj, grat schwalić
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Jeli njejsće to był wy, <link>změńće swoje hesło</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1176,10 +1181,6 @@ account-recovery-confirm-key-input =
     .label = Zapodajće kontowy wobnowjenski kod
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Kontowy wobnowjenski kluč wobkrućić
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Njepłaćiwy kontowy wobnowjenski kluč
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Kontowy wobnowjenski kluč trěbny
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nimaće kontowy wobnowjenski kluč?
 
@@ -1205,6 +1206,8 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
+complete-reset-password-recovery-key-error-v2 = Bohužel je při přepruwowanju, hač kontowy wobnowjenski kluč maće, problem nastał.
+complete-reset-password-recovery-key-link = Waše hesło z wašim kontowym wobnowjenskim klučom wróćo stajić
 
 ## Confirm Reset Password Component
 
