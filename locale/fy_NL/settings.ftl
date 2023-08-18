@@ -647,6 +647,12 @@ recent-activity-account-reset-v2 = Wachtwurdwerinitsjalisaasje start
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = E-mailbounces wiske
+recent-activity-account-login-failure = Accountoanmeldingsbesykjen mislearre
+recent-activity-account-two-factor-added = Twa-stapsautentikaasje ynskeakele
+recent-activity-account-two-factor-requested = Twa-stapsautentikaasje oanfrege
+recent-activity-account-two-factor-failure = Twa-stapsautentikaasje mislearre
+recent-activity-account-two-factor-success = Twa-stapsautentikaasje slagge
+recent-activity-account-two-factor-removed = Twa-stapsautentikaasje fuortsmiten
 recent-activity-account-password-changed = Wachtwurd wizige
 recent-activity-account-secondary-email-added = Sekundêr e-mailadres tafoege
 recent-activity-account-secondary-email-removed = Sekundêr e-mailadres fuortsmiten
