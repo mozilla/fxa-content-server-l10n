@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Oĩ nosẽporãiva. Noñemondokuaái juajuha ipyahúva.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -33,11 +31,17 @@ recovery-key-pdf-heading = Mba’ete mba’eñemi jeguerujeyrã
 recovery-key-pdf-download-date = Heñoipyre: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Mba’ete mba’eñemi jeguerujeyrã
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Ko ñe’ẽñemi omoneĩ eguerujey hag̃ua kundahára mba’ekuaarã ipapapýva (oĩhápe ñe’ẽñemi, techaukaha ha tembiasakue) nanemandu’áiramo ñe’ẽñemíre. Eñongatu eikuaa hag̃uáme.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Eñongatukuaaha mba’eñemi
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Eikuaave ne mba’ete mba’eñemi guerujeyrã rehegua
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -939,6 +943,7 @@ auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
+auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-999 = Jejavy eha’arõ’ỹva
 auth-error-1003 = Ñeñongatu pypegua terã umi kookie noñembojurujái gueteri
@@ -1191,10 +1196,6 @@ account-recovery-confirm-key-input =
     .label = Emoinge mba’ete mba’eñemi jeguerujeyrã
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Emoneĩ mba’ete mba’eñemi jeguerujeyrã
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Mba’eñemi jeguerujeyrã ndoikóiva
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Oñeikotevẽ mba’ete mba’eñemi jeguerujeyrã
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jeguerujeyrã?
 
@@ -1220,7 +1221,8 @@ complete-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
-complete-reset-password-recovery-key-error = Rombyasy, oiko apañuãi ehechakuévo erekoha mba’ete mba’eñemi guerujeyrã. <hasRecoveryKeyErrorLink>Erujey ñe’ẽñemi mba’ete mba’eñemi guerujeyrã ndive.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’ete mba’eñemi jeguerujeyrã.
+complete-reset-password-recovery-key-link = Erujey ñe’ẽñemi mba’ete mba’eñemi jeguerujeyrã ndive.
 
 ## Confirm Reset Password Component
 
