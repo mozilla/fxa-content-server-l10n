@@ -14,39 +14,27 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Письмо отправлено повторно. Добавьте { $accountsEmail } в свои контакты, чтобы обеспечить его корректную доставку.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Что-то пошло не так. Не удалось отправить новую ссылку.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Что-то пошло не так. Не удалось отправить новый код.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Загрузить и продолжить
     .title = Загрузить и продолжить
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = СОХРАНИТЕ КЛЮЧ ВОССТАНОВЛЕНИЯ АККАУНТА
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Сохраните этот файл, содержащий ключ восстановления вашего аккаунта, в месте, о котором вы будете помнить. Или распечатайте его и сохраните физическую копию. Ключ восстановления вашего аккаунта может помочь вам восстановить данные { -brand-firefox }, если вы забудете свой пароль.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Ключ:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Ключ сгенерирован: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Узнайте больше о ключе восстановления вашего аккаунта: { $supportURL }
+recovery-key-pdf-heading = Ключ восстановления аккаунта
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Ключ восстановления аккаунта
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Места для хранения вашего ключа:
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Узнать больше о ключе восстановления аккаунта
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = К сожалению, при загрузке ключа восстановления аккаунта произошла ошибка.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -417,6 +405,13 @@ flow-recovery-key-download-heading-v2 = Создан ключ восстанов
 flow-recovery-key-download-info-v2 = Этот ключ позволяет восстановить данные, если вы забудете пароль. Загрузите его сейчас и сохраните в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Продолжить без загрузки
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
+flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
+flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
+flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
+flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -435,13 +430,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Завершить
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
-flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
-flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
-flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
-flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Ключ восстановления аккаунта создан
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -1210,10 +1198,6 @@ account-recovery-confirm-key-input =
     .label = Введите ключ восстановления аккаунта
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Подтвердите ключ восстановления аккаунта
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Некорректный ключ восстановления аккаунта
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Требуется ключ восстановления аккаунта
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = У вас нет ключа восстановления аккаунта?
 
@@ -1239,7 +1223,6 @@ complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
-complete-reset-password-recovery-key-error = Извините, возникла проблема при проверке наличия у вас ключа восстановления аккаунта. <hasRecoveryKeyErrorLink>Сбросьте пароль с помощью ключа восстановления аккаунта.</hasRecoveryKeyErrorLink>.
 
 ## Confirm Reset Password Component
 
