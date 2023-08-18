@@ -1208,8 +1208,8 @@ complete-reset-password-success-alert = Password impostata
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Si è verificato un problema durante l’impostazione della password
-complete-reset-password-recovery-key-error-v2 = Spiacenti, si è verificato un problema durante la verifica della presenza di una chiave di recupero dell’account.
-complete-reset-password-recovery-key-link = Reimposta la password con la chiave di recupero dell’account.
+complete-reset-password-recovery-key-error-v2 = Siamo spiacenti, si è verificato un problema durante la verifica della presenza di una chiave di recupero dell’account.
+complete-reset-password-recovery-key-link = Reimposta la password con la tua chiave di recupero dell’account.
 
 ## Confirm Reset Password Component
 
