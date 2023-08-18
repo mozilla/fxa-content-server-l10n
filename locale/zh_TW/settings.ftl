@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = 已重新寄出郵件。請將 { $accountsEmail } 加到通訊錄以確保收信正常。
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = 有些東西怪怪的，無法寄出新的鏈結。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新的確認碼。
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -921,6 +919,7 @@ auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
+auth-error-159 = 帳號救援金鑰無效
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-999 = 未預期的錯誤
 auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
@@ -1173,10 +1172,6 @@ account-recovery-confirm-key-input =
     .label = 輸入帳號救援金鑰
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = 確認帳號救援金鑰
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = 帳號救援金鑰無效
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = 需要使用帳號救援金鑰
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = 沒有帳號救援金鑰嗎？
 
@@ -1202,7 +1197,8 @@ complete-reset-password-success-alert = 已設定密碼
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 很抱歉，設定您的密碼時發生問題
-complete-reset-password-recovery-key-error = 很抱歉，確認您是否已有帳號救援金鑰時發生錯誤。<hasRecoveryKeyErrorLink>點擊此處即可使用您的帳號救援金鑰重設密碼。</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = 很抱歉，確認您是否擁有帳號救援金鑰時發生問題。
+complete-reset-password-recovery-key-link = 使用您的帳號救援金鑰重設密碼。
 
 ## Confirm Reset Password Component
 
