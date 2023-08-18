@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Something went wrong. A new link could not be sent.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Something went wrong. A new code could not be sent.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -959,6 +957,7 @@ auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
+auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
@@ -1211,10 +1210,6 @@ account-recovery-confirm-key-input =
     .label = Enter account recovery key
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confirm account recovery key
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Invalid account recovery key
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Account recovery key required
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 
@@ -1240,7 +1235,8 @@ complete-reset-password-success-alert = Password set
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
-complete-reset-password-recovery-key-error = Sorry, there was a problem checking if you have an account recovery key. <hasRecoveryKeyErrorLink>Reset your password with your account recovery key.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Sorry, there was a problem checking if you have an account recovery key.
+complete-reset-password-recovery-key-link = Reset your password with your account recovery key.
 
 ## Confirm Reset Password Component
 
