@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Повідомлення повторно надіслано. Додайте { $accountsEmail } до своїх контактів, для правильного доставлення.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Щось пішло не так. Не вдалося надіслати нове посилання.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Щось пішло не так. Не вдалося надіслати новий код.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -960,6 +958,7 @@ auth-error-114 = Ви зробили надто багато спроб. Пов�
 auth-error-138-2 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
+auth-error-159 = Недійсний ключ відновлення облікового запису
 auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-999 = Несподівана помилка
 auth-error-1003 = Локальне сховище або куки все ще вимкнені
@@ -1212,10 +1211,6 @@ account-recovery-confirm-key-input =
     .label = Введіть ключ відновлення облікового запису
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Підтвердьте ключ відновлення облікового запису
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Недійсний ключ відновлення облікового запису
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Потрібен ключ відновлення облікового запису
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Не маєте ключа відновлення облікового запису?
 
@@ -1241,7 +1236,8 @@ complete-reset-password-success-alert = Пароль встановлено
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Перепрошуємо, але під час встановлення пароля виникла проблема
-complete-reset-password-recovery-key-error = На жаль, виникла проблема під час перевірки наявності ключа відновлення. <hasRecoveryKeyErrorLink>Скиньте свій пароль за допомогою ключа відновлення облікового запису.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = На жаль, виникла проблема під час перевірки наявності у вас ключа відновлення облікового запису.
+complete-reset-password-recovery-key-link = Відновіть пароль за допомогою ключа відновлення облікового запису
 
 ## Confirm Reset Password Component
 
