@@ -14,39 +14,31 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Mail sendt igen. Føj mailadressen { $accountsEmail } til din adressebog for at sikre en problemfri levering.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Noget gik galt. Et nyt link kunne ikke sendes.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Hent og fortsæt
     .title = Hent og fortsæt
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = GEM DIN GENOPRETTELSESNØGLE TIL KONTOEN
+recovery-key-pdf-heading = Genoprettelsesnøgle til kontoen
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Genoprettelsesnøgle til kontoen
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Denne fil indeholder din genoprettelsesnøgle til kontoen. Opbevar den et sted, du kan huske. Eller udskriv filen og gem en fysisk kopi. Din genoprettelsesnøgle til kontoen kan hjælpe dig med at gendanne { -brand-firefox }-data, hvis du glemmer din adgangskode.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Nøgle:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Nøgle oprettet: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Læs mere om din genoprettelsesnøgle til kontoen: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Med denne nøgle kan du gendanne dine krypterede browserdata (herunder adgangskoder, bogmærker og historik), hvis du glemmer din adgangskode. Gem den et sted, du kan huske.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Steder du kan gemme din nøgle
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Læs mere om din genoprettelsesnøgle til kontoen
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Der opstod desværre et problem med at hente din genoprettelsesnøgle til kontoen.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -419,6 +411,13 @@ flow-recovery-key-download-heading-v2 = Genoprettelsesnøgle til kontoen oprette
 flow-recovery-key-download-info-v2 = Med denne nøgle kan du gendanne dine data, hvis du glemmer din adgangskode. Hent den nu og gem den et sted, du kan huske — Du kan ikke vende tilbage til denne side senere.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Fortsæt uden at hente
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
+flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
+flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
+flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -437,13 +436,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Afslut
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Steder du kan gemme din nøgle:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på en sikker enhed
-flow-recovery-key-download-storage-ideas-cloud = Betroet opbevaring i skyen
-flow-recovery-key-download-storage-ideas-print-v2 = Udskrevet fysisk kopi
-flow-recovery-key-download-storage-ideas-pwd-manager = Adgangskode-håndtering
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Genoprettelsesnøgle til kontoen blev oprettet
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -483,6 +475,7 @@ la-heading = Tilknyttede konti
 la-description = Du har godkendt adgang til følgende konti.
 la-unlink-button = Fjern tilknytning
 la-unlink-account-button = Fjern tilknytning
+la-set-password-button = Angiv adgangskode
 la-unlink-heading = Fjern tilknytning til tredjeparts-konto
 la-unlink-content-3 = Er du sikker på, at du vil fjerne tilknytningen til din konto? Hvis du fjerner tilknytningen til din konto, logges du ikke automatisk ud af dine forbundne tjenester. For at gøre det, skal du manuelt logge ud i afsnittet Forbundne tjenester.
 nav-linked-accounts = { la-heading }
@@ -959,6 +952,7 @@ auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
+auth-error-159 = Ugyldig genoprettelsesnøgle til kontoen
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-999 = Uventet fejl
 auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
@@ -1211,10 +1205,6 @@ account-recovery-confirm-key-input =
     .label = Indtast genoprettelsesnøgle til kontoen
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Bekræft genoprettelsesnøgle til kontoen
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Ugyldig genoprettelsesnøgle til kontoen
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Genoprettelsesnøgle til kontoen påkrævet
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ikke en genoprettelsesnøgle til kontoen?
 
@@ -1240,7 +1230,8 @@ complete-reset-password-success-alert = Adgangskode oprettet
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Der opstod desværre et problem med at oprette din adgangskode
-complete-reset-password-recovery-key-error = Der opstod desværre et problem med at tjekke, om du har en genoprettelsesnøgle til kontoen. <hasRecoveryKeyErrorLink>Nulstil din adgangskode med din genoprettelsesnøgle til kontoen.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Der opstod desværre et problem med at tjekke, om du har en genoprettelsesnøgle til kontoen.
+complete-reset-password-recovery-key-link = Nulstil din adgangskode med din genoprettelsesnøgle til kontoen.
 
 ## Confirm Reset Password Component
 
