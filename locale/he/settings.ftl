@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = משהו השתבש. לא ניתן היה לשלוח קישור חדש.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -1123,10 +1121,6 @@ account-recovery-confirm-key-input =
     .label = נא להכניס מפתח לשחזור חשבון
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = נא לחזור שנית על מפתח שחזור החשבון
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = מפתח שחזור חשבון שגוי
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = נדרש מפתח שחזור חשבון
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = אין לך מפתח לשחזור חשבון?
 
@@ -1152,7 +1146,7 @@ complete-reset-password-success-alert = הססמה הוגדרה
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
-complete-reset-password-recovery-key-error = מצטערים, הייתה בעיה בבדיקה האם יש לך מפתח לשחזור חשבון. <hasRecoveryKeyErrorLink>באפשרותך לאפס את הססמה שלך עם המפתח לשחזור החשבון שלך.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = אירעה שגיאה בבדיקה האם יש לך מפתח לשחזור חשבון, עמך הסליחה.
 
 ## Confirm Reset Password Component
 
