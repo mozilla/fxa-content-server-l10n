@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = წერილი გაგზავნილია ახლიდან. დაამატეთ { $accountsEmail } ნაცნობ მისამართებში შეტყობინებების შეუფერხებლად მიღებისთვის.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი ბმულის გაგზავნა ვერ მოხერხდა.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -957,6 +955,7 @@ auth-error-114 = ზედმეტად ბევრი მცდელობ�
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საცნობი ვერ მოიძებნა
+auth-error-159 = ანგარიშის აღდგენის უმართებულო გასაღები
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1003 = ადგილობრივი საცავი ან ფუნთუშები კვლავ გათიშულია
@@ -1209,10 +1208,6 @@ account-recovery-confirm-key-input =
     .label = შეიყვანეთ ანგარიშის აღდგენის გასაღები
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = დაადასტურეთ ანგარიშის აღდგენის გასაღები
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = ანგარიშის აღდგენის უმართებულო გასაღები
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = ანგარიშის აღდგენის გასაღები აუცილებელია
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = არ გაქვთ ანგარიშის აღდგენის გასაღები?
 
@@ -1238,7 +1233,8 @@ complete-reset-password-success-alert = პაროლი დაყენებ
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
-complete-reset-password-recovery-key-error = სამწუხაროდ, ხარვეზი იყო ანგარიშის აღდგენის გასაღების გადამოწმებისას. <hasRecoveryKeyErrorLink>გაანულეთ პაროლი თქვენი ანგარიშის აღდგენის გასაღებით.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = სამწუხაროდ, ხარვეზი წარმოიშვა ანგარიშის აღდგენის გასაღების შემოწმებისას.
+complete-reset-password-recovery-key-link = გაანულეთ პაროლი თქვენი ანგარიშის აღდგენის გასაღებით.
 
 ## Confirm Reset Password Component
 
