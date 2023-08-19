@@ -14,39 +14,30 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Sähköposti lähetetty uudelleen. Lisää { $accountsEmail } yhteystietoihisi varmistaaksesi sujuvan toimituksen.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Jotain meni pieleen. Uutta linkkiä ei voitu lähettää.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Lataa ja jatka
     .title = Lataa ja jatka
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = TALLENNA TILIN PALAUTUSAVAIN
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Tallenna tämä tilin palautusavaimen sisältävä tiedosto paikkaan, jonka muistat. Tai tulosta se ja säilytä fyysinen kopio. Tilin palautusavain voi auttaa sinua palauttamaan { -brand-firefox }-tiedot, jos unohdat salasanasi.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Avain:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+recovery-key-pdf-heading = Tilin palautusavain
 # Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Avain luotu: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Lisätietoja tilisi palautusavaimesta: { $supportURL }
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Luotu: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Tilin palautusavain
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Avaimen säilytyspaikkoja
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Lue lisää tilin palautusavaimesta
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamisessa oli ongelma.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -419,6 +410,13 @@ flow-recovery-key-download-heading-v2 = Tilin palautusavain luotu — Lataa ja t
 flow-recovery-key-download-info-v2 = Tämän avaimen avulla voit palauttaa tietosi, jos unohdat salasanasi. Lataa avain nyt ja talleta se johonkin paikkaan, jonka muistat – et voi palata tälle sivulle myöhemmin.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Jatka lataamatta
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Avaimen säilytyspaikkoja:
+flow-recovery-key-download-storage-ideas-folder-v2 = Kansio suojatulla laitteella
+flow-recovery-key-download-storage-ideas-cloud = Luotettu pilvitallennustila
+flow-recovery-key-download-storage-ideas-print-v2 = Tulostettu fyysinen kopio
+flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -437,13 +435,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Valmis
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Avaimen säilytyspaikkoja:
-flow-recovery-key-download-storage-ideas-folder-v2 = Kansio suojatulla laitteella
-flow-recovery-key-download-storage-ideas-cloud = Luotettu pilvitallennustila
-flow-recovery-key-download-storage-ideas-print-v2 = Tulostettu fyysinen kopio
-flow-recovery-key-download-storage-ideas-pwd-manager = Salasanojen hallinta
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Tilin palautusavain luotu
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -483,8 +474,10 @@ la-heading = Linkitetyt tilit
 la-description = Olet valtuuttanut pääsyn seuraaville tileille.
 la-unlink-button = Poista linkitys
 la-unlink-account-button = Poista linkitys
+la-set-password-button = Aseta salasana
 la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
 la-unlink-content-3 = Haluatko varmasti poistaa tilisi linkityksen? Tilin linkityksen poistaminen ei kirjaa sinua automaattisesti ulos yhdistetyistä palveluista. Tätä varten sinun on kirjauduttava manuaalisesti ulos Yhdistetyt palvelut -osion kautta.
+la-unlink-content-4 = Ennen kuin poistat tilisi linkityksen, sinun on asetettava salasana. Ilman salasanaa et voi kirjautua sisään tilin linkityksen poistamisen jälkeen.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -955,6 +948,7 @@ auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yr
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
+auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-999 = Odottamaton virhe
 auth-error-1003 = Paikallinen tallennustila tai evästeet ovat edelleen poissa käytöstä
@@ -1207,10 +1201,6 @@ account-recovery-confirm-key-input =
     .label = Anna tilin palautusavain
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Vahvista tilin palautusavain
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Virheellinen tilin palautusavain
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Tilin palautusavain vaaditaan
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Eikö sinulla ole tilin palautusavainta?
 
@@ -1236,7 +1226,7 @@ complete-reset-password-success-alert = Salasana asetettu
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Valitettavasti salasanaa asettaessa ilmeni ongelma
-complete-reset-password-recovery-key-error = Valitettavasti tapahtui ongelma, kun tarkistettiin, onko sinulla tilin palautusavainta. <hasRecoveryKeyErrorLink>Nollaa salasanasi tilin palautusavaimella.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-link = Nollaa salasana tilin palautusavaimella.
 
 ## Confirm Reset Password Component
 
