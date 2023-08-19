@@ -14,39 +14,30 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-posta yeniden gönderildi. Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Bir sorun oluştu. Yeni bağlantı gönderilemedi.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = İndir ve devam et
     .title = İndir ve devam et
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = HESAP KURTARMA ANAHTARINIZI KAYDEDİN
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Hesap kurtarma anahtarınızı içeren bu dosyayı unutmayacağınız bir yerde saklayın veya yazdırıp fiziksel olarak saklayın. Parolanızı unutursanız { -brand-firefox } verilerinizi kurtarmak için hesap kurtarma anahtarınızı kullanabilirsiniz.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Anahtar:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+recovery-key-pdf-heading = Hesap kurtarma anahtarı
 # Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Oluşturulma tarihi: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Hesap kurtarma anahtarınız hakkında daha fazla bilgi için: { $supportURL }
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Oluşturma: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Hesap kurtarma anahtarı
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Anahtarınızı saklayabileceğiniz yerler
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Hesap kurtarma anahtarınız hakkında daha fazla bilgi alın
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir sorun oluştu.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -409,6 +400,13 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Yeni hesap kurtarma ana
 flow-recovery-key-download-heading-v2 = Hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = İndirmeden devam et
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Anahtarınızı saklayabileceğiniz yerler:
+flow-recovery-key-download-storage-ideas-folder-v2 = Güvenli bir cihazdaki bir klasör
+flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
+flow-recovery-key-download-storage-ideas-print-v2 = Yazdırılmış fiziksel kopya
+flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -427,13 +425,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Bitir
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Anahtarınızı saklayabileceğiniz yerler:
-flow-recovery-key-download-storage-ideas-folder-v2 = Güvenli bir cihazdaki bir klasör
-flow-recovery-key-download-storage-ideas-cloud = Güvenilir bulut depolama
-flow-recovery-key-download-storage-ideas-print-v2 = Yazdırılmış fiziksel kopya
-flow-recovery-key-download-storage-ideas-pwd-manager = Parola yöneticisi
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Hesap kurtarma anahtarı oluşturuldu
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -931,6 +922,7 @@ auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } yeniden deneyin.
 auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
+auth-error-159 = Geçersiz hesap kurtarma anahtarı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-999 = Beklenmeyen hata
 auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
@@ -1183,10 +1175,6 @@ account-recovery-confirm-key-input =
     .label = Hesap kurtarma anahtarını girin
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Hesap kurtarma anahtarını onaylayın
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Geçersiz hesap kurtarma anahtarı
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Hesap kurtarma anahtarı gerekiyor
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Hesap kurtarma anahtarınız yok mu?
 
@@ -1212,7 +1200,8 @@ complete-reset-password-success-alert = Parola ayarlandı
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Parolanız ayarlanırken bir sorun oluştu
-complete-reset-password-recovery-key-error = Hesap kurtarma anahtarınız olup olmadığı kontrol edilirken bir sorun oluştu. <hasRecoveryKeyErrorLink>Hesap kurtarma anahtarınızı kullanarak parolanızı sıfırlayın.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Hesap kurtarma anahtarınızın olup olmadığı kontrol edilirken bir sorun oluştu.
+complete-reset-password-recovery-key-link = Hesap kurtarma anahtarınızla parolanızı sıfırlayın.
 
 ## Confirm Reset Password Component
 

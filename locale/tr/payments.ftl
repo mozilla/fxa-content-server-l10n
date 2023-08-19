@@ -138,6 +138,8 @@ payment-error-manage-subscription-button = Aboneliğimi yönet
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Zaten { -brand-name-google } veya { -brand-name-apple } uygulama mağazaları aracılığıyla alınmış bir { $productName } aboneliğiniz var.
 iap-upgrade-no-bundle-support = Bu abonelikler için yükseltmeleri desteklemiyoruz ancak yakında destekleyeceğiz.
 iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 iap-upgrade-get-help-button = Yardım alın
