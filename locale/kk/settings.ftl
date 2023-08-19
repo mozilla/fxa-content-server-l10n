@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Бірнәрсе қате кетті. Жаңа сілтемені жіберу мүмкін емес.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Бірнәрсе қате кетті. Жаңа кодты жіберу мүмкін емес.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -958,6 +956,7 @@ auth-error-114 = Тым көп талаптар санын жасадыңыз. {
 auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
 auth-error-155 = TOTP токені табылмады
+auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-999 = Күтпеген қате
 auth-error-1003 = Жергілікті қойма немесе cookie файлдары әлі де сөндірілген
@@ -1210,10 +1209,6 @@ account-recovery-confirm-key-input =
     .label = Тіркелгіні қалпына келтіру кілтін енгізіңіз
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Тіркелгіні қалпына келтіру кілтін растаңыз
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Тіркелгіні қалпына келтіру кілті жарамсыз
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Тіркелгіні қалпына келтіру кілті керек
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Тіркелгіні қалпына келтіру кілтіңіз жоқ па?
 
@@ -1239,7 +1234,8 @@ complete-reset-password-success-alert = Пароль орнатылды
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
-complete-reset-password-recovery-key-error = Кешіріңіз, сізде тіркелгіні қалпына келтіру кілті бар-жоғын тексеру кезінде мәселе туындады. <hasRecoveryKeyErrorLink>Тіркелгіні қалпына келтіру кілтімен парольді тастаңыз.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Кешіріңіз, тіркелгіні қалпына келтіру кілтінің бар-жоғын тексеру кезінде мәселе орын алды.
+complete-reset-password-recovery-key-link = Тіркелгіні қалпына келтіру кілтімен пароліңізді қалпына келтіріңіз.
 
 ## Confirm Reset Password Component
 
