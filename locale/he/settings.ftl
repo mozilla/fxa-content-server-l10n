@@ -1147,6 +1147,7 @@ complete-reset-password-success-alert = הססמה הוגדרה
 # Displayed in an alert bar
 complete-reset-password-error-alert = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 complete-reset-password-recovery-key-error-v2 = אירעה שגיאה בבדיקה האם יש לך מפתח לשחזור חשבון, עמך הסליחה.
+complete-reset-password-recovery-key-link = איפוס הססמה שלך עם מפתח שחזור החשבון שלך.
 
 ## Confirm Reset Password Component
 
