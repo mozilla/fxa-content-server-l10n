@@ -14,39 +14,34 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Tramess anc ina giada l'e-mail. Agiuntescha { $accountsEmail } a tes contacts per far la segira che e-mails da quest speditur arrivian.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Insatge è ì mal. I n'è betg reussì da trametter ina nova colliaziun.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Insatge è ì mal. I n'è betg reussì da trametter in nov code.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Telechargiar e cuntinuar
     .title = Telechargiar e cuntinuar
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = MEMORISESCHA TIA CLAV DA RECUPERAZIUN DAL CONTO
+recovery-key-pdf-heading = Clav da recuperaziun dal conto
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Generà: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Clav da recuperaziun dal conto
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Memorisescha questa datoteca che cuntegna tia clav da recuperaziun dal conto en in lieu segir che ti tegnas endament. U che ti pos la stampar e tegnair en salv ina copia fisica. Tia clav da recuperaziun dal conto po ta gidar da recuperar tias datas da { -brand-firefox } sche ti emblidas tes pled-clav.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Clav:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account(capitalization: "uppercase") } : { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Clav generada: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Vegnir a savair dapli davart tia clav da recuperaziun dal conto: { $supportURL }
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Questa clav ta permetta da recuperar tias datas da navigaziun criptadas (inclusivamain ils pleds-clav, ils segnapaginas e la cronologia) sche ti emblidas tes pled-clav. La tegna en salv en in lieu che ti tegnas endament.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Lieus per tegnair en salv la clav
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Ve a savair dapli davart tia clav da recuperaziun dal conto
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Perstgisa, igl ha dà in problem cun telechargiar tia clav da recuperaziun dal conto.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -419,6 +414,13 @@ flow-recovery-key-download-heading-v2 = Creà ina clav da recuperaziun dal conto
 flow-recovery-key-download-info-v2 = Questa clav ta permetta da recuperar tias datas sche ti emblidas tes pled-clav. Telechargia ussa la clav e la tegna en salv en in lieu che ti tegnas endament – ti na vegns betg a pudair returnar tar questa pagina.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Cuntinuar senza telechargiar
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lieus per tegnair en salv la clav:
+flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat segirà
+flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
+flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -437,13 +439,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finir
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Lieus per tegnair en salv la clav:
-flow-recovery-key-download-storage-ideas-folder-v2 = Ordinatur sin in apparat segirà
-flow-recovery-key-download-storage-ideas-cloud = Arcun fidabel en la cloud
-flow-recovery-key-download-storage-ideas-print-v2 = Copia stampada
-flow-recovery-key-download-storage-ideas-pwd-manager = Administraziun da pleds-clav
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Creà la clav da recuperaziun dal conto
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -964,6 +959,7 @@ auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $
 auth-error-138-2 = Sesida betg confermada
 auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto
 auth-error-155 = Betg chattà il token TOTP
+auth-error-159 = Clav da recuperaziun dal conto nunvalida
 auth-error-183-2 = Code da conferma nunvalid u scadì
 auth-error-999 = Errur nunspetgada
 auth-error-1003 = Arcun local u cookies èn anc adina deactivads
@@ -1216,10 +1212,6 @@ account-recovery-confirm-key-input =
     .label = Endatescha la clav da recuperaziun dal conto
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confermar la clav da recuperaziun dal conto
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Clav da recuperaziun dal conto nunvalida
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Clav da recuperaziun dal conto necessaria
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Ti n'has nagina clav da recuperaziun dal conto?
 
@@ -1245,7 +1237,8 @@ complete-reset-password-success-alert = Definì il pled-clav
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Perstgisa, igl ha dà in problem cun definir tes pled-clav
-complete-reset-password-recovery-key-error = Perstgisa, igl ha dà in problem durant controllar sche ti hajas ina clav da recuperaziun dal conto. <hasRecoveryKeyErrorLink>Reinizialisescha tes pled-clav cun tia clav da recuperaziun dal conto.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Perstgisa, igl ha dà in problem cun controllar sche ti has ina clav da recuperaziun dal conto.
+complete-reset-password-recovery-key-link = Redefinescha tes pled-clav cun tia clav da recuperaziun dal conto.
 
 ## Confirm Reset Password Component
 
