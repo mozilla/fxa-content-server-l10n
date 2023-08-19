@@ -26,6 +26,9 @@ link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke s
 recovery-key-download-button-v3 = Hent og fortsæt
     .title = Hent og fortsæt
 recovery-key-pdf-heading = Genoprettelsesnøgle til kontoen
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Oprettet: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Genoprettelsesnøgle til kontoen
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
@@ -478,6 +481,7 @@ la-unlink-account-button = Fjern tilknytning
 la-set-password-button = Angiv adgangskode
 la-unlink-heading = Fjern tilknytning til tredjeparts-konto
 la-unlink-content-3 = Er du sikker på, at du vil fjerne tilknytningen til din konto? Hvis du fjerner tilknytningen til din konto, logges du ikke automatisk ud af dine forbundne tjenester. For at gøre det, skal du manuelt logge ud i afsnittet Forbundne tjenester.
+la-unlink-content-4 = Inden du fjerner tilknytningen til din konto, skal du angive en adgangskode. Uden en adgangskode er det umuligt at logge ind, efter du har fjernet tilknytningen til din konto.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
