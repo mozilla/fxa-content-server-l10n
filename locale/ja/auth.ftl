@@ -518,7 +518,6 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } から { $productName } �
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = 次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。その際、この { $productPaymentCycleOld } の残りの期間は余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。
 subscriptionUpgrade-content-charge-info-different-cycle = この { $productPaymentCycleOld } の残りの期間はサブスクリプションの余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -526,12 +525,12 @@ subscriptionUpgrade-install = { $productName } の使用に必要な新しいソ
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
-unblockCode-prompt = もしそうなら、ここに必要な認証コードがあります:
+unblockCode-prompt = あなた自身の場合は、こちらの認証コードを使用してください:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
-unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
-unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
-unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
+unblockCode-prompt-plaintext = あなた自身の場合は、こちらの認証コードを使用してください:: { $unblockCode }
+unblockCode-report = あなたではない場合は、侵入を防ぐため <a data-l10n-name="reportSignInLink">問題を報告</a> してください。
+unblockCode-report-plaintext = あなたではない場合は、侵入を防ぐため問題を報告してください。
 verificationReminderFinal-subject = 最終通知: アカウントの確認をしてください
 verificationReminderFinal-description = 数週間前に { -product-firefox-account }を作成されましたが、まだ確認されていません。安全のため、 24 時間以内に確認されない場合はアカウントを削除します。
 confirm-account = アカウントを確認

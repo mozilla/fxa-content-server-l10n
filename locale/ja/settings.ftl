@@ -14,39 +14,23 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = メールを再送信しました。確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = エラーが発生しました。新しいリンクを送信できませんでした。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = ダウンロードして続ける
     .title = ダウンロードして続ける
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = アカウント回復用キーを保管しましょう
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = このアカウント回復用キーを含むファイルを覚えやすい場所に保存してください。もしくは、これを印刷して安全な場所に保管してください。パスワードを忘れた場合に、アカウント回復用キーで { -brand-firefox } のデータを回復できます。
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = キー名:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+recovery-key-pdf-heading = アカウント回復用キー
 # Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * キーの生成日: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * アカウント回復用キーの詳細についてはこちら: { $supportURL }
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = 作成日: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = アカウント回復用キー
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -358,7 +342,6 @@ cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあった
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
-cs-recent-activity = 最近のアカウント利用情報
 
 ##
 
@@ -408,6 +391,13 @@ flow-recovery-key-download-heading-v2 = アカウント回復キーが作成さ�
 flow-recovery-key-download-info-v2 = パスワードを忘れた場合に、このキーを使用してデータを回復できます。今すぐダウンロードして、覚えやすい場所に保管してください。後でこのページに戻ることはできません。
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = ダウンロードせずに続ける
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = キーを保管する場所:
+flow-recovery-key-download-storage-ideas-folder-v2 = 安全な端末内のフォルダー
+flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
+flow-recovery-key-download-storage-ideas-print-v2 = 印刷された物理コピー
+flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -426,13 +416,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = 完了
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = キーを保管する場所:
-flow-recovery-key-download-storage-ideas-folder-v2 = 安全な端末内のフォルダー
-flow-recovery-key-download-storage-ideas-cloud = 信頼できるクラウドストレージ
-flow-recovery-key-download-storage-ideas-print-v2 = 印刷された物理コピー
-flow-recovery-key-download-storage-ideas-pwd-manager = パスワードマネージャー
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = アカウント回復用キーが生成されました
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -472,6 +455,7 @@ la-heading = リンクされたアカウント
 la-description = 次のアカウントへのアクセスを許可しました。
 la-unlink-button = リンク解除
 la-unlink-account-button = リンク解除
+la-set-password-button = パスワードを設定
 la-unlink-heading = サードパーティのアカウントとのリンクを解除する
 la-unlink-content-3 = 本当にアカウントとのリンクを解除しますか？ アカウントとのリンクを解除しても接続済みのサービスはログアウトされません。ログアウトするには、 [接続済みサービス] から手動でログアウトする必要があります。
 nav-linked-accounts = { la-heading }
@@ -628,19 +612,11 @@ display-name-success-alert-2 = 表示名が更新されました
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 最近のアカウント利用情報
-recent-activity-account-create = アカウントが作成されました
-recent-activity-account-disable = アカウントが無効化されました
-recent-activity-account-enable = アカウントが有効化されました
-recent-activity-account-login = アカウントへのログイン開始
-recent-activity-account-reset = アカウントのパスワードリセット
-recent-activity-emails-clearBounces = アカウントのバウンスメール (配信エラーのメール) が消去されました
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -1161,10 +1137,6 @@ account-recovery-confirm-key-input =
     .label = アカウント回復用キーを入力してください
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = アカウント回復用キーを確認
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = 無効なアカウント回復用キー
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = アカウント回復用キーが必要です
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = アカウント回復用キーを持っていませんか？
 
@@ -1190,7 +1162,6 @@ complete-reset-password-success-alert = パスワードを設定しました
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 申し訳ありませんが、パスワードの設定中に問題が発生しました
-complete-reset-password-recovery-key-error = アカウント回復用キーの確認時に問題が発生しました。<hasRecoveryKeyErrorLink>アカウント回復用キーでパスワードをリセットしてください。</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
