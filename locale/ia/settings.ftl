@@ -31,6 +31,10 @@ recovery-key-pdf-heading = Clave de recuperation del conto
 recovery-key-pdf-download-date = Generate: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Clave de recuperation del conto
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Iste clave te permitte de recuperar tu datos de navigator cryptate (includite contrasignos, marcapaginas, e historia) si tu oblida tu contrasigno.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Ubi conservar tu claves
