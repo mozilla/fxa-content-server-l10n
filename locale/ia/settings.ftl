@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Message reinviate. Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Alco errate eveniva. Un nove ligamine non pote esser inviate.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -945,6 +943,7 @@ auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
+auth-error-159 = Clave de recuperation del conto non valide
 auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-999 = Error inexpectate
 auth-error-1003 = Immagazinage e cookies local es ancora disactivate
@@ -1197,10 +1196,6 @@ account-recovery-confirm-key-input =
     .label = Insere clave de recuperation del conto
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confirma clave de recuperation del conto
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Clave de recuperation del conto non valide
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Clave de recuperation del conto necessari
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Non ha tu un clave de recuperation del conto?
 
@@ -1226,7 +1221,8 @@ complete-reset-password-success-alert = Configuration del contrasigno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Desolate, problema durante le definition de tu contrasigno
-complete-reset-password-recovery-key-error = Desolate, il habeva un problema verificante si tu ha un clave de recuperation del conto. <hasRecoveryKeyErrorLink>Reinitialisa tu contrasigno con tu clave de recuperation del conto.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Desolate, il habeva un problema controlante si tu ha un clave de recuperation del conto.
+complete-reset-password-recovery-key-link = Reinitialisa tu contrasigno con tu clave de recuperation del conto.
 
 ## Confirm Reset Password Component
 
