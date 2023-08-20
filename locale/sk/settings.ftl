@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu { $accountsEmail }. Zabezpečíte tým bezproblémové doručenie.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Niečo sa pokazilo. Nový odkaz sa nepodarilo odoslať.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Niečo sa pokazilo. Nový kód sa nepodarilo odoslať.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -956,6 +954,7 @@ auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryA
 auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
+auth-error-159 = Neplatný kľúč na obnovenie účtu
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-999 = Neočakávaná chyba
 auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
@@ -1208,10 +1207,6 @@ account-recovery-confirm-key-input =
     .label = Zadajte kľúč na obnovenie účtu
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Potvrďte kľúč na obnovenie účtu
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Neplatný kľúč na obnovenie účtu
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Vyžaduje sa kľúč na obnovenie účtu
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Nemáte kľúč na obnovenie účtu?
 
@@ -1237,7 +1232,8 @@ complete-reset-password-success-alert = Heslo bolo nastavené
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
-complete-reset-password-recovery-key-error = Ľutujeme, pri kontrole, či máte kľúč na obnovenie účtu, sa vyskytol problém. <hasRecoveryKeyErrorLink>Obnovte svoje heslo pomocou kľúča na obnovenie účtu.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Ľutujeme, pri kontrole, či máte kľúč na obnovenie účtu, sa vyskytol problém.
+complete-reset-password-recovery-key-link = Obnovte svoje heslo pomocou kľúča na obnovenie účtu.
 
 ## Confirm Reset Password Component
 
