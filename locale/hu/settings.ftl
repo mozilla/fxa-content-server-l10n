@@ -28,7 +28,7 @@ recovery-key-download-button-v3 = Letöltés és folytatás
 recovery-key-pdf-heading = Fiók-helyreállítási kulcs
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
-recovery-key-pdf-download-date = Létrehozva: { $date }
+recovery-key-pdf-download-date = Előállítva: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Fiók-helyreállítási kulcs
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
@@ -41,7 +41,7 @@ recovery-key-pdf-storage-ideas-heading = Helyek a kulcsok tárolására
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Tudjon meg többet a fiók-helyreállítási kulcsról
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Elnézést, hiba történt a fiók-helyreállítási kulcs letöltésekor.
+recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreállítási kulcs letöltése során.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -1233,7 +1233,7 @@ complete-reset-password-success-alert = Jelszó megadva
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sajnos probléma merült fel a jelszó megadásakor
-complete-reset-password-recovery-key-error-v2 = Elnézést, hiba történt annak ellenőrzésekor, hogy rendelkezik-e fiók-helyreállítási kulccsal.
+complete-reset-password-recovery-key-error-v2 = Sajnos probléma merült fel annak ellenőrzése során, hogy rendelkezik-e fiók-helyreállítási kulccsal.
 complete-reset-password-recovery-key-link = Állítsa vissza jelszavát a fiók-helyreállítási kulcsával.
 
 ## Confirm Reset Password Component
