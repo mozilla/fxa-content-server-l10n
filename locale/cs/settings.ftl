@@ -1216,6 +1216,8 @@ complete-reset-password-success-alert = Heslo nastaveno
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Vaše heslo se nepodařilo nastavit
+complete-reset-password-recovery-key-error-v2 = Omlouváme se, došlo k problému při kontrole, zda máte obnovovací klíč k účtu.
+complete-reset-password-recovery-key-link = Obnovte heslo pomocí obnovovacího klíče k účtu.
 
 ## Confirm Reset Password Component
 
