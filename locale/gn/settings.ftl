@@ -449,6 +449,10 @@ flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua
 flow-recovery-key-info-header = Emoheñói mba’ete mba’eñemi guerujeyrã nderesaráirõ ne ñe’ẽñemígui
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi guerujeyrã
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Rombopapapy kundahára mba’ekuaarã: ñe’ẽñemi, techaukaha ha hetave. Iporã añete tekorosãrã, hákatu okañykuaa mba’ekuaarã nde rasaráirõ ñe’ẽñemígui.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Upévare natekotevéi emoheñói mba’eñemi guerujeyrã mba’ete –– eipurukuaa erujey hag̃ua ne mba’ekuaarã
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Eñepyrũ
 # Link to cancel account recovery key change and return to settings
