@@ -439,6 +439,9 @@ flow-recovery-key-success-alert = Mba’ete mba’eñemi guerujeyrã moheñoimby
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Pe tape oguerekova’erã hetave 255 tairendágui.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua Unicode hekorosã’ỹva. Oñemoneĩ tai añónte, papapy, kyta aty ha ta’ãnga’i.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
