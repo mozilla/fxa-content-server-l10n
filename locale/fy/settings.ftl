@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-mailberjocht opnij ferstjoerd. Foegje { $accountsEmail } ta oan jo kontakten foar in soepele ôflevering.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Der is wat misgien. Der koe gjin nije keppeling ferstjoerd wurde.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -649,6 +647,18 @@ recent-activity-account-reset-v2 = Wachtwurdwerinitsjalisaasje start
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = E-mailbounces wiske
+recent-activity-account-login-failure = Accountoanmeldingsbesykjen mislearre
+recent-activity-account-two-factor-added = Twa-stapsautentikaasje ynskeakele
+recent-activity-account-two-factor-requested = Twa-stapsautentikaasje oanfrege
+recent-activity-account-two-factor-failure = Twa-stapsautentikaasje mislearre
+recent-activity-account-two-factor-success = Twa-stapsautentikaasje slagge
+recent-activity-account-two-factor-removed = Twa-stapsautentikaasje fuortsmiten
+recent-activity-account-password-changed = Wachtwurd wizige
+recent-activity-account-secondary-email-added = Sekundêr e-mailadres tafoege
+recent-activity-account-secondary-email-removed = Sekundêr e-mailadres fuortsmiten
+recent-activity-account-emails-swapped = Primêre en sekundêre e-mailadressen wiksele
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Oare accountaktiviteit
 
 # Account recovery key setup page
 
@@ -1185,10 +1195,6 @@ account-recovery-confirm-key-input =
     .label = Fier accountwerstelkaai yn
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Befêstigje accountwerstelkaai
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Unjildige accountwerstelkaai
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Accountwerstelkaai fereaske
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Hawwe jo gjin accountwerstelkaai?
 
@@ -1214,7 +1220,6 @@ complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
-complete-reset-password-recovery-key-error = Sorry, der is in probleem bard by it kontrolearjen oft jo in accountwerstelkaai hawwe. <hasRecoveryKeyErrorLink>Stel jo wachtwurd opnij yn mei jo accountwerstelkaai.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
