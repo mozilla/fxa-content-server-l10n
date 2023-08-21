@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = E-post skickat igen. Lägg till { $accountsEmail } till dina kontakter för att säkerställa en smidig leverans.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Något gick fel. En ny länk kunde inte skickas.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte skickas.
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -959,6 +957,7 @@ auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAft
 auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
+auth-error-159 = Ogiltig nyckel för kontoåterställning
 auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-999 = Oväntat fel
 auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
@@ -1211,10 +1210,6 @@ account-recovery-confirm-key-input =
     .label = Ange nyckel för kontoåterställning
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Bekräfta nyckel för kontoåterställning
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Ogiltig nyckel för kontoåterställning
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Kontoåterställningsnyckel krävs
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ingen kontoåterställningsnyckel?
 
@@ -1240,7 +1235,8 @@ complete-reset-password-success-alert = Lösenord satt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
-complete-reset-password-recovery-key-error = Det gick tyvärr inte att kontrollera om du har en kontoåterställningsnyckel. <hasRecoveryKeyErrorLink>Återställ ditt lösenord med din kontoåterställningsnyckel.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Det gick tyvärr inte att kontrollera om du har en kontoåterställningsnyckel.
+complete-reset-password-recovery-key-link = Återställ ditt lösenord med din kontoåterställningsnyckel.
 
 ## Confirm Reset Password Component
 
