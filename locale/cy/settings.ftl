@@ -34,14 +34,14 @@ recovery-key-pdf-key-legend = Allwedd Adfer Cyfrif
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Mae'r allwedd hon yn caniatáu ichi adfer data eich porwr wedi'i amgryptio (gan gynnwys cyfrineiriau, nodau tudalen, a hanes) os byddwch yn anghofio eich cyfrinair. Storiwch ef mewn man y byddwch yn ei gofio.
+recovery-key-pdf-instructions = Mae'r allwedd hon yn caniatáu ichi adfer data eich porwr wedi'i amgryptio (gan gynnwys cyfrineiriau, nodau tudalen, a hanes) os byddwch yn anghofio eich cyfrinair. Cadwch ef mewn man y byddwch yn ei gofio.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-recovery-key-pdf-storage-ideas-heading = Lleoedd i storio'ch allwedd
+recovery-key-pdf-storage-ideas-heading = Lleoedd i gadw'ch allwedd
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Dysgwch fwy am allwedd adfer eich cyfrif
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lawrlwytho allwedd adfer eich cyfrif.
+recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lwytho allwedd adfer eich cyfrif.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -1229,7 +1229,7 @@ complete-reset-password-success-alert = Wedi gosod y cyfrinair
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-complete-reset-password-recovery-key-error-v2 = Mae'n ddrwg gennym, roedd problem wrth wirio a oes gennych allwedd adfer cyfrif.
+complete-reset-password-recovery-key-error-v2 = Mae'n ddrwg gennym, roedd anhawster wrth wirio a oes gennych allwedd adfer cyfrif.
 complete-reset-password-recovery-key-link = Ailosodwch eich cyfrinair gyda'ch allwedd adfer cyfrif.
 
 ## Confirm Reset Password Component
