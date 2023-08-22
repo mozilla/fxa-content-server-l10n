@@ -410,6 +410,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Emoheñói mba’ete mb
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Mba’ete mba’eñemi guerujeyrã moheñoimbyre — Emboguejy ha eñongatu
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Ko mba’eñemi omoneĩ erujey hag̃ua ne mba’ekuaarã nderesaráirõ ñe’ẽñemígui. Emboguejy ko’ág̃a ha eñongatu nemandu’a hag̃uáme — nderejevykuaamo’ãvéima ko kuatiaroguépe upe rire.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Eku’ejey emboguejy’ỹre
 # This heading is shown above a list of options for storing the account recovery key
