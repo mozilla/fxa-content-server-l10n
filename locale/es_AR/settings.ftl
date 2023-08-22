@@ -1229,7 +1229,7 @@ complete-reset-password-success-alert = Contraseña establecida
 # Displayed in an alert bar
 complete-reset-password-error-alert = Disculpá, hubo un problema al establecer tu contraseña
 complete-reset-password-recovery-key-error-v2 = Disculpá, hubo un problema al verificar si tenés una clave de recuperación de cuenta.
-complete-reset-password-recovery-key-link = Restablece tu contraseña con la clave de recuperación de tu cuenta.
+complete-reset-password-recovery-key-link = Restablecé tu contraseña con la clave de recuperación de tu cuenta.
 
 ## Confirm Reset Password Component
 
