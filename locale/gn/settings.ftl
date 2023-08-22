@@ -429,6 +429,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Ñe’ẽñemi ñangareko
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Embojuaju tape roipytyvõ hag̃ua ne mba’eñemi guerujeyrã
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Ko tape nepytyvõta nemandu’a hag̃ua moõpa eñongatu mba’ete mba’eñemi guerujeyrã. Rohechaukakuaa erujey aja ne ñe’ẽñemi erekojey hag̃ua ne mba’ekuaarã.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -478,6 +481,7 @@ la-unlink-account-button = Pe’aite
 la-set-password-button = Emoĩ Ñe’ẽñemi
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
 la-unlink-content-3 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua upéicha, embotyraẽva’erã tembiapo nde pópe pe Mba’apuru jeikepyréva ndive.
+la-unlink-content-4 = Ejeiete mboyve ne mba’etégui, emoheñói ñe’ẽñemi. Ñe’ẽñemi’ỹre, neremoñepyrũkuaamo’ãi tembiapo ejei rire ne mba’etégui.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -614,6 +618,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
+pocket-delete-notice = Eñemboheraguapýramo Pocket Premium ndive, ejapóke <a>ñemboheraguapy jejoko</a> emboguete mboyve ne mba’ete.
 delete-account-cancel-button = Heja
 delete-account-delete-button-2 = Mboguete
 
