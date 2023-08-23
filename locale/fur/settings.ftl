@@ -31,6 +31,17 @@ recovery-key-pdf-heading = Clâf di recupar dal account
 recovery-key-pdf-download-date = Gjenerade: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Clâf di recupar dal account
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Cheste clâf ti permet di recuperâ i tiei dâts cifrâts dal browser (includudis passwords, segnelibris e cronologjie), tal câs che tu dismenteis la password. Archivile intun puest là che tu ti impensis.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Puescj dulà archiviâ la clâf
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Altris informazions su la clâf di recupar dal account
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Nus displâs, al è vignût fûr un probleme tal discjariâ la tô clâf di recupar dal account.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -285,16 +296,37 @@ bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
+connect-another-find-fx-mobile =
+    Cjate { -brand-firefox } in { -google-play } e { -app-store } o
+    <br /><linkExternal>mande un colegament par discjariâ sul to dispositîf.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Discjame { -brand-firefox } su { -google-play }
+connect-another-app-store-image-2 =
+    .title = Discjame { -brand-firefox } su { -app-store }
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Servizis conetûts
+cs-description = Ducj i servizis che tu âs fat l'acès e che tu stâs doprant.
+cs-cannot-refresh =
+    Nus displâs, al è vignût fûr un probleme tal inzornâ la liste dai
+    servizis conetûts.
+cs-cannot-disconnect = Client no cjatât, impussibil disconeti
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Disconetût di { $service }
+cs-refresh-button =
+    .title = Inzorne i servizis conetûts
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Elements doplis o che a mancjin?
+cs-disconnect-sync-heading = Disconet di Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
