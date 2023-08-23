@@ -14,36 +14,20 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Το email απεστάλη ξανά. Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου συνδέσμου.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Λήψη και συνέχεια
     .title = Λήψη και συνέχεια
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = ΑΠΟΘΗΚΕΥΣΗ ΚΛΕΙΔΙΟΥ ΑΝΑΚΤΗΣΗΣ ΛΟΓΑΡΙΑΣΜΟΥ
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Κλειδί:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Δημιουργία κλειδιού: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Μάθετε περισσότερα σχετικά με το κλειδί ανάκτησης του λογαριασμού σας: { $supportURL }
+recovery-key-pdf-heading = Κλειδί ανάκτησης λογαριασμού
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Κλειδί ανάκτησης λογαριασμού
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -402,6 +386,13 @@ flow-container-back = Πίσω
 
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
+flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
+flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
+flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -414,13 +405,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Τέλος
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
-flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
-flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
-flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
-flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κωδικών πρόσβασης
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -910,6 +894,7 @@ auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορ�
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
+auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
@@ -1117,10 +1102,6 @@ account-recovery-confirm-key-input =
     .label = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Επιβεβαίωση κλειδιού ανάκτησης λογαριασμού
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Απαιτείται κλειδί ανάκτησης λογαριασμού
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανάκτησης λογαριασμού;
 
