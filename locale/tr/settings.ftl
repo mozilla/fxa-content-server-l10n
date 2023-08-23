@@ -398,6 +398,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Yeni hesap kurtarma ana
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Parolanızı unutursanız bu anahtarı kullanarak verilerinizi kurtarabilirsiniz. Şimdi bu anahtarı indirin ve unutmayacağınız bir yerde saklayın. Daha sonra bu sayfaya geri dönemezsiniz.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = İndirmeden devam et
 # This heading is shown above a list of options for storing the account recovery key
