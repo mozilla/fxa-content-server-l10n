@@ -34,7 +34,7 @@ recovery-key-pdf-key-legend = Fiók-helyreállítási kulcs
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Ez a kulcs lehetővé teszi a titkosított böngészőadatok (beleértve a jelszavakat, könyvjelzőket és az előzményeket) helyreállítását, ha elfelejti a jelszavát. Tárolja egy olyan helyen, amelyre emlékezni fog.
+recovery-key-pdf-instructions = Ez a kulcs lehetővé teszi a titkosított böngészőadatok (beleértve a jelszavakat, könyvjelzőket és az előzményeket) helyreállítását, ha elfelejti a jelszavát. Tárolja olyan helyen, amelyre emlékezni fog.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Helyek a kulcsok tárolására
