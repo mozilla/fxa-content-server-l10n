@@ -14,8 +14,6 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = 电子邮件已重发。建议将 { $accountsEmail } 添加到您的通讯录以确保顺畅接收。
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = 出了点问题，无法发送新链接。
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 出了点问题，无法发送新验证码。
 
 ## ButtonDownloadRecoveryKeyPDF
@@ -923,6 +921,7 @@ auth-error-114 = 您已尝试太多次，请 { $retryAfter } 再试。
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
+auth-error-159 = 账户恢复密钥无效
 auth-error-183-2 = 验证码无效或已过期
 auth-error-999 = 意外错误
 auth-error-1003 = 本地存储或 Cookie 仍然未启用
@@ -1181,10 +1180,6 @@ account-recovery-confirm-key-input =
     .label = 请输入账户恢复密钥
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = 确认账户恢复密钥
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = 无效的账户恢复密钥
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = 需要使用账户恢复密钥
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = 没有账户恢复密钥？
 
@@ -1210,7 +1205,6 @@ complete-reset-password-success-alert = 密码已设置
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = 抱歉，设置密码时出现问题
-complete-reset-password-recovery-key-error = 抱歉，确认您是否已有账户恢复密钥时发生错误。<hasRecoveryKeyErrorLink>点此使用您的账户恢复密钥重置密码。</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 
