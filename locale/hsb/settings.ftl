@@ -579,7 +579,7 @@ delete-account-header =
     .title = Konto zhašeć
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-delete-account-confirm-title-3 = Sće snano swoje konto { -product-firefox-account } z jednym produktom abo z jedneju słužbu  { -brand-mozilla } abo z wjacorymi z nich zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
+delete-account-confirm-title-3 = Sće snano swoje konto { -product-firefox-account } z jednym produktom abo z jednej słužbu  { -brand-mozilla } abo z wjacorymi z nich zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -1207,7 +1207,7 @@ complete-reset-password-success-alert = Hesło je so nastajiło
 # Displayed in an alert bar
 complete-reset-password-error-alert = Bohužel je při stajenju wašeho hesła problem nastał
 complete-reset-password-recovery-key-error-v2 = Bohužel je při přepruwowanju, hač kontowy wobnowjenski kluč maće, problem nastał.
-complete-reset-password-recovery-key-link = Waše hesło z wašim kontowym wobnowjenskim klučom wróćo stajić
+complete-reset-password-recovery-key-link = Stajće swoje hesło ze swojim kontowym wobnowjenskim klučom wróćo.
 
 ## Confirm Reset Password Component
 
