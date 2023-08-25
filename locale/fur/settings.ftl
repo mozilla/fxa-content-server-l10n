@@ -371,22 +371,47 @@ cs-sign-out-button = Disconet
 
 dc-heading = Racuelte e utilizazion dâts
 dc-subheader = Judinus a miorâ i { -product-firefox-accounts }
+dc-subheader-content = Permet al servizi di { -product-firefox-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
+dc-opt-out-success = Disativazion lade a bon fin. { -product-firefox-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
+dc-opt-in-success = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-firefox-accounts }.
+dc-opt-in-out-error-2 = Nus displâs, al è vignût fûr un probleme tal cambiâ lis preferencis relativis ae racuelte dai dâts
+dc-learn-more = Plui informazions
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menù dal { -product-firefox-account(capitalization: "lowercase") }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Acès eseguît come</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Disconet
+drop-down-menu-sign-out-error-2 = Nus displâs, al è vignût fûr un probleme tal disconetiti
 
 ## Flow Container
 
+flow-container-back = Indaûr
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Torne inserìs la password par motîfs di sigurece
+flow-recovery-key-confirm-pwd-input-label = Inserìs la password
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Cree une clâf di recupar dal account
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Cree une gnove clâf di recupar dal account
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Clâf di recupar dal account creade — Discjamile e salvile daurman
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Cheste clâf ti permet di recuperâ i tiei dâts se tu dismenteis la password. Discjamile cumò e conservile là che tu ti impensis di vêle — un doman no tu podarâs tornâ a cheste pagjine.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Continue cence discjariâ
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
