@@ -437,6 +437,8 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fin
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = La clâf di recupar dal account e je stade creade
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
