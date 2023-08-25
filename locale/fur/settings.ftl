@@ -345,9 +345,11 @@ cs-disconnect-sync-opt-suspicious = Suspiet
 cs-disconnect-sync-opt-lost = Pierdût o robât
 cs-disconnect-sync-opt-old = Vecjo o sostituît
 cs-disconnect-sync-opt-duplicate = Dopli
+cs-disconnect-sync-opt-not-say = O preferìs no rispuindi
 
 ##
 
+cs-disconnect-advice-confirm = Va ben, capît
 
 ##
 
