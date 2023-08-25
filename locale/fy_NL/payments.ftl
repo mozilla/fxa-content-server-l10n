@@ -439,10 +439,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Jo wiziging besjen
 sub-change-failed = Abonnemintswiziging mislearre
-sub-update-copy =
-    Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
-    brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
-    wurdt jo it folsleine bedrach yn rekkening brocht.
 sub-update-acknowledgment =
     Jo abonnemint wiziget daliks, en der wurdt in grut bedrach yn rekkening
     brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
@@ -451,6 +447,7 @@ sub-change-submit = Wiziging befêstigje
 sub-update-current-plan-label = Aktuele skema
 sub-update-new-plan-label = Nij skema
 sub-update-total-label = Nij totaalbedrach
+sub-update-prorated-upgrade = Nei rato opwurdearje
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
