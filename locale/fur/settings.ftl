@@ -350,12 +350,27 @@ cs-disconnect-sync-opt-not-say = O preferìs no rispuindi
 ##
 
 cs-disconnect-advice-confirm = Va ben, capît
+cs-disconnect-lost-advice-heading = Dispositîf pierdût o robât disconetût
+cs-disconnect-lost-advice-content-2 =
+    Viodût che il to dispositîf al è stât pierdût o robât, par
+    tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password di { -product-firefox-account }
+    tes impostazions dal account. Tu varessis ancje di butâ un voli aes informazions dal
+    produtôr dal dispositîf in merit ae cancelazion di lontan dai tiei dâts.
+cs-disconnect-suspicious-advice-heading = Dispositîf suspiet disconetût
+cs-disconnect-suspicious-advice-content =
+    Se pardabon il dispositîf disconetût al è
+    suspiet, par tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password
+    di { -product-firefox-account } tes impostazions dal account. Tu varessis di cambiâ ancje dutis lis altris
+    passwords che tu âs salvât su { -brand-firefox } scrivint about:logins te sbare de direzion.
+cs-sign-out-button = Disconet
 
 ##
 
 
 ## Data collection section
 
+dc-heading = Racuelte e utilizazion dâts
+dc-subheader = Judinus a miorâ i { -product-firefox-accounts }
 
 # DropDownAvatarMenu component
 
