@@ -412,6 +412,11 @@ flow-recovery-key-download-heading-v2 = Clâf di recupar dal account creade — 
 flow-recovery-key-download-info-v2 = Cheste clâf ti permet di recuperâ i tiei dâts se tu dismenteis la password. Discjamile cumò e conservile là che tu ti impensis di vêle — un doman no tu podarâs tornâ a cheste pagjine.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continue cence discjariâ
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Puescj dulà archiviâ la tô clâf:
+flow-recovery-key-download-storage-ideas-folder-v2 = Cartele suntun dispositîf sigûr
+flow-recovery-key-download-storage-ideas-cloud = Spazi di archiviazion su cloud afidabil
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
