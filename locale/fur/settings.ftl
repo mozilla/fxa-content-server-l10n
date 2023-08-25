@@ -334,10 +334,17 @@ cs-disconnect-sync-heading = Disconet di Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = I dâts relatîfs ae navigazion a restaran tal dispositîf <span>{ $device }</span>, ma no vignaran plui sincronizâts cul to account.
+cs-disconnect-sync-reason-3 = Cuâl isal il motîf principâl pe disconession di <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Il dispositîf al è:
+cs-disconnect-sync-opt-suspicious = Suspiet
+cs-disconnect-sync-opt-lost = Pierdût o robât
+cs-disconnect-sync-opt-old = Vecjo o sostituît
+cs-disconnect-sync-opt-duplicate = Dopli
 
 ##
 
