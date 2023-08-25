@@ -417,11 +417,26 @@ flow-recovery-key-download-next-link-v2 = Continue cence discjariâ
 flow-recovery-key-download-storage-ideas-heading-v2 = Puescj dulà archiviâ la tô clâf:
 flow-recovery-key-download-storage-ideas-folder-v2 = Cartele suntun dispositîf sigûr
 flow-recovery-key-download-storage-ideas-cloud = Spazi di archiviazion su cloud afidabil
+flow-recovery-key-download-storage-ideas-print-v2 = Copie stampade te cjarte
+flow-recovery-key-download-storage-ideas-pwd-manager = Gjestôr di passwords
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Zonte un sugjeriment par judâti a cjatâ la clâf
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Chest sugjeriment al varès di judâti a visâti dulà che tu âs memorizât la tô clâf di recupar dal account. O podìn mostrâtal intant che tu ristabilissis la password par recuperâ i tiei dâts.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Inserìs un sugjeriment (facoltatîf)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fin
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
