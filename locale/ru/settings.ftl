@@ -26,8 +26,15 @@ link-expired-resent-code-error-message = Что-то пошло не так. Н�
 recovery-key-download-button-v3 = Загрузить и продолжить
     .title = Загрузить и продолжить
 recovery-key-pdf-heading = Ключ восстановления аккаунта
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Создан { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Ключ восстановления аккаунта
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Этот ключ позволит вам восстановить зашифрованные данные браузера (включая пароли, закладки и историю), если вы забудете свой пароль. Храните его в месте, о котором вы помните.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Места для хранения вашего ключа:
@@ -946,6 +953,7 @@ auth-error-114 = Вы сделали слишком много попыток. �
 auth-error-138-2 = Неподтверждённая сессия
 auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
 auth-error-155 = TOTP-токен не найден
+auth-error-159 = Некорректный ключ восстановления аккаунта
 auth-error-183-2 = Неверный или истёкший код подтверждения
 auth-error-999 = Непредвиденная ошибка
 auth-error-1003 = Локальное хранилище или куки по-прежнему отключены
@@ -1223,6 +1231,8 @@ complete-reset-password-success-alert = Пароль установлен
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = К сожалению, при установке вашего пароля возникла проблема
+complete-reset-password-recovery-key-error-v2 = К сожалению, при проверке наличия у вас ключа восстановления аккаунта произошла ошибка.
+complete-reset-password-recovery-key-link = Сбросьте свой пароль с помощью вашего ключа восстановления аккаунта.
 
 ## Confirm Reset Password Component
 
