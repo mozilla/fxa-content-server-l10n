@@ -31,6 +31,10 @@ recovery-key-pdf-heading = Tilin palautusavain
 recovery-key-pdf-download-date = Luotu: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Tilin palautusavain
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Tämän avaimen avulla voit palauttaa salatut selaintietosi (mukaan lukien salasanat, kirjanmerkit ja historian), jos unohdat salasanasi. Säilytä avainta paikassa, jonka muistat.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Avaimen säilytyspaikkoja
@@ -643,6 +647,8 @@ recent-activity-title = Viimeaikaiset tilitapahtumat
 recent-activity-account-create-v2 = Tili luotu
 recent-activity-account-disable-v2 = Tili poistettu käytöstä
 recent-activity-account-enable-v2 = Tili otettu käyttöön
+recent-activity-account-login-v2 = Tiliin kirjautuminen aloitettu
+recent-activity-account-reset-v2 = Salasanan nollaus aloitettu
 recent-activity-account-login-failure = Tilin kirjautumisyritys epäonnistui
 recent-activity-account-two-factor-added = Kaksivaiheinen todennus otettu käyttöön
 recent-activity-account-two-factor-requested = Kaksivaiheista todennusta pyydetty
