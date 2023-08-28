@@ -31,6 +31,10 @@ recovery-key-pdf-heading = Accountwerstelkaai
 recovery-key-pdf-download-date = Oanmakke: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Accountwerstelkaai
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Mei dizze kaai kinne jo jo fersifere browsergegevens (ynklusyf wachtwurden, blêdwizers en skiednis) weromhelje as jo jo wachtwurd ferjitte. Bewarje it op in plak dat jo ûnthâlde kinne.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Plakken om jo kaai te bewarjen
@@ -477,6 +481,7 @@ la-unlink-account-button = Untkeppelje
 la-set-password-button = Wachtwurd ynstelle
 la-unlink-heading = Untkeppelje fan eksterne account
 la-unlink-content-3 = Binne jo wis dat jo jo account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by jo ferbûne tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
+la-unlink-content-4 = Eardat jo jo account ûntkeppelje, moatte jo in wachtwurd ynstelle. Sûnder in wachtwurd kinne jo net oanmelde neidat jo jo account ûntkeppele hawwe.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -653,6 +658,13 @@ recent-activity-account-two-factor-requested = Twa-stapsautentikaasje oanfrege
 recent-activity-account-two-factor-failure = Twa-stapsautentikaasje mislearre
 recent-activity-account-two-factor-success = Twa-stapsautentikaasje slagge
 recent-activity-account-two-factor-removed = Twa-stapsautentikaasje fuortsmiten
+recent-activity-account-password-reset-requested = Account hat wachtwurdwerinisjalisaasje oanfrege
+recent-activity-account-password-reset-success = Accountwachtwurd mei sukses opnij ynsteld
+recent-activity-account-recovery-key-added = Accountwerstelkaai ynskeakele
+recent-activity-account-recovery-key-verification-failure = Ferifikaasje fan accountwerstelkaai mislearre
+recent-activity-account-recovery-key-verification-success = Ferifikaasje fan accountwerstelkaai slagge
+recent-activity-account-recovery-key-removed = Kaai foar accountwerstel fuortsmiten
+recent-activity-account-password-added = Nij wachtwurd tafoege
 recent-activity-account-password-changed = Wachtwurd wizige
 recent-activity-account-secondary-email-added = Sekundêr e-mailadres tafoege
 recent-activity-account-secondary-email-removed = Sekundêr e-mailadres fuortsmiten
@@ -795,6 +807,8 @@ security-password-created-date = Makke op { $date }
 security-not-set = Net ynsteld
 security-action-create = Oanmeitsje
 security-set-password = Stel in wachtwurd yn om te syngronisearjen en bepaalde accountbefeiligingsfunksjes te brûken.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Resinte accountaktiviteit besjen
 
 ## Switch component
 
@@ -943,6 +957,7 @@ auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opn
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
+auth-error-159 = Unjildige accountwerstelkaai
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-999 = Unferwachte flater
 auth-error-1003 = Lokale ûnthâld of cookies binne noch hieltyd útskeakele
@@ -1220,6 +1235,8 @@ complete-reset-password-success-alert = Wachtwurd ynsteld
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
+complete-reset-password-recovery-key-error-v2 = Sorry, der is in probleem bard by it kontrolearjen oft jo in accountwerstelkaai hawwe.
+complete-reset-password-recovery-key-link = Stel in nij wachtwurd yn mei jo accountwerstelkaai.
 
 ## Confirm Reset Password Component
 
