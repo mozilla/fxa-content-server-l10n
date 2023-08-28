@@ -205,7 +205,7 @@ cadReminderFirst-description-2 = Mbojuehe ipya’eterei.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
-cadReminderSecond-description-sync = Embojoaju ne kundaha, ñe’ẽñemi, vore ojepe’áva ha hetave mba’e — tembipuru’i rupi eipuruhápe { -brand-firefox }.
+cadReminderSecond-description-sync = Embojoaju ne kundaha, ñe’ẽñemi, vore ojepe’áva ha hetave mba’e — tembiporu’i rupi eipuruhápe { -brand-firefox }.
 cadReminderSecond-description-plus = Avei, ne marandu akóinte oñemboheko. Nde ha umi tembiporu reguerohorýva añoite ikatu rehecha umíva.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -333,7 +333,7 @@ postRemoveTwoStepAuthentication-title-2 = Oñembogue ñemoneĩ mokõi jeygua
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Oñembojuruja upe guive:
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
-postRemoveTwoStepAuthentication-not-required-2 = Natekotevẽvéima ayvu rekorosãrã tembipuru’i emoñepyrũnguévo tembiapo.
+postRemoveTwoStepAuthentication-not-required-2 = Natekotevẽvéima ayvu rekorosãrã tembiporu’i emoñepyrũnguévo tembiapo.
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
@@ -520,7 +520,6 @@ subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guiv
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua tuichaveháicha pe hembýva ko { $productPaymentCycleOld } guive.
 subscriptionUpgrade-content-charge-info-different-cycle = Rehepyme’ẽta peteĩ jeýnte { $paymentProrated }-pe ojehecha hag̃ua hepyvéva ne ñemboheraguapy hembýva ko { $productPaymentCycleOld } reheguágui. Ehepyme’ẽjeýtavo oútavape, pe tepykue ypyguáva iñambuéta { $paymentAmountOld } rupi { $productPaymentCycleOld } { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN

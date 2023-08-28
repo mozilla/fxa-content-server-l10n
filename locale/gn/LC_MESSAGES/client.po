@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-21 13:39+0000\n"
+"PO-Revision-Date: 2023-08-28 14:21+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -35,7 +35,7 @@ msgstr "Mba’ete oñemboguete apañuãi’ỹre"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Eipuru ayvu %(code)s emboheko hag̃ua ñemoneĩ mokõi jeku’épe tembipuru’ípe."
+msgstr "Eipuru ayvu %(code)s emboheko hag̃ua ñemoneĩ mokõi jeku’épe tembiporu’ípe."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -1215,7 +1215,7 @@ msgstr "Embojuruja ñemoneĩ mokõi jeku’épe"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Embojuaju tekorosãve ne mba’etépe ejerurévo tekorosã ayvu peteĩva <a %(escapedTotpSupportAttributes)s>ko’ã tembipuru’i ñemoneĩrãvape</a>."
+msgstr "Embojuaju tekorosãve ne mba’etépe ejerurévo tekorosã ayvu peteĩva <a %(escapedTotpSupportAttributes)s>ko’ã tembiporu’i ñemoneĩrãvape</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1549,7 +1549,7 @@ msgstr "Tysyi’ỹ"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr "¿Eikotevẽ pytyvõ tembipuru’i térã mba’epuru ha’etévape? (poravokuaáva)"
+msgstr "¿Eikotevẽ pytyvõ tembiporu’i térã mba’epuru ha’etévape? (poravokuaáva)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
@@ -2033,7 +2033,7 @@ msgstr "Jeike ñemoneĩ"
 
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
-msgstr "Eike eipurúvo tembipuru’i"
+msgstr "Eike eipurúvo tembiporu’i"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."

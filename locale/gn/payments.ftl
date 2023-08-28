@@ -139,7 +139,7 @@ payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed = Eñemboheraguapýma { $productName } tembipuru’i ñemuha rupive { -brand-name-google } térã { -brand-name-apple }.
+iap-upgrade-already-subscribed = Eñemboheraguapýma { $productName } tembiporu’i ñemuha rupive { -brand-name-google } térã { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemoheraguapýpe, hákatu vokóinte rojapóta.
 iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 iap-upgrade-get-help-button = Eipota pytyvõ
@@ -371,7 +371,7 @@ plan-price-interval-year =
 ## Error messages
 
 # App error dialog
-general-error-heading = Tembipuru’i jejavypaite
+general-error-heading = Tembiporu’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
@@ -569,6 +569,6 @@ reactivate-success-button = Mboty
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase = { -brand-name-google }: ejogua tembipuru’ípe
-sub-iap-item-apple-purchase = { -brand-name-apple }: ejogua tembipuru’ípe
+sub-iap-item-google-purchase = { -brand-name-google }: ejogua tembiporu’ípe
+sub-iap-item-apple-purchase = { -brand-name-apple }: ejogua tembiporu’ípe
 sub-iap-item-manage-button = Ñangareko

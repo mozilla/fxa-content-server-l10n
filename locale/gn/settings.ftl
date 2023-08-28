@@ -284,7 +284,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
-bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
+bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -752,7 +752,7 @@ tfa-scan-this-code =
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Eipuru { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
-    tembipuru’i ojokupytývape.
+    tembiporu’i ojokupytývape.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
