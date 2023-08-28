@@ -758,7 +758,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
-tfa-enter-totp-v2 = Emoinge ko’ág̃a tekorosã guerujeyrã tembipuru’i guerujeyrãpe.
+tfa-enter-totp-v2 = Emoinge ko’ág̃a tekorosã guerujeyrã tembiporu’i guerujeyrãpe.
 tfa-input-enter-totp-v2 =
     .label = Emoinge ayvu guerujeyrã
 tfa-save-these-codes-1 =
@@ -1047,7 +1047,7 @@ inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>e
 inline-totp-setup-cancel-setup-button = Eheja ñemboheko
 inline-totp-setup-continue-button = Ku’ejey
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Embojuaju tekorosãve ne mba’etépe ejerurevévo ayvu ñemoneĩrã peteĩva <authenticationAppsLink>ko’ã tembipuru’i ñemoneĩrãvape</authenticationAppsLink>.
+inline-totp-setup-add-security-link = Embojuaju tekorosãve ne mba’etépe ejerurevévo ayvu ñemoneĩrã peteĩva <authenticationAppsLink>ko’ã tembiporu’i ñemoneĩrãvape</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Embojuruja ñemoneĩrã mokõi jeku’épe <span>eku’e hag̃ua mba’ete ñembohekópe</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
@@ -1186,13 +1186,13 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
-pair-unsupported-header = Eike eipurúvo tembipuru’i
+pair-unsupported-header = Eike eipurúvo tembiporu’i
 pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembipuru’i rupive.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipuru’i oñemoneĩmbyrévape.
+third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembiporu’i oñemoneĩmbyrévape.
 
 ## AccountRecoveryConfirmKey page
 
