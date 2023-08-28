@@ -443,6 +443,7 @@ sub-change-submit = Değişikliği onaylayın
 sub-update-current-plan-label = Geçerli plan
 sub-update-new-plan-label = Yeni plan
 sub-update-total-label = Yeni toplam
+sub-update-prorated-upgrade = Orantılı yükseltme
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)

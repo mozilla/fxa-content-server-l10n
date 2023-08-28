@@ -466,8 +466,10 @@ la-heading = Bağlı hesaplar
 la-description = Aşağıdaki hesaplara erişim izni verdiniz.
 la-unlink-button = Bağlantıyı kes
 la-unlink-account-button = Bağlantıyı kes
+la-set-password-button = Parola belirle
 la-unlink-heading = Üçüncü taraf hesabıyla bağlantıyı kes
 la-unlink-content-3 = Hesabınızın bağlantısını kesmek istediğinizden emin misiniz? Hesabınızın bağlantısını kesmeniz bağlı hizmetlerden otomatik olarak çıkış yapmanızı sağlamaz. Bunu yapmak için "Bağlı hizmetler" bölümünden manuel olarak çıkış yapmanız gerekecektir.
+la-unlink-content-4 = Hesabınızın bağlantısını kaldırmadan önce bir parola belirlemelisiniz. Hesabınızın bağlantısını kaldırdıktan sonra parolanız olmadan giriş yapamazsınız.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
