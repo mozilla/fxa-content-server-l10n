@@ -129,7 +129,7 @@ payment-confirmation-download-button = Prosegui con il download
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static = Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare l’importo visualizzato utilizzando il metodo di pagamento da me scelto, in base alle <termsOfServiceLink>condizioni di utilizzo del servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
-payment-confirm-checkbox-error = È necessario completare questa operazione prima di procedere
+payment-confirm-checkbox-error = È necessario selezionare questa opzione per procedere
 
 ## Component - PaymentErrorView
 
@@ -439,7 +439,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Rivedi la tua modifica
 sub-change-failed = Modifica del piano non riuscita
-sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
 sub-update-acknowledgment = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato oggi un importo ripartito proporzionalmente per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’intero importo.
 sub-change-submit = Conferma modifica
 sub-update-current-plan-label = Piano attuale
@@ -469,7 +468,7 @@ sub-item-stay-sub = Resta abbonato
 ## $period (Date) - The last day of product access
 
 sub-item-cancel-msg = Non potrai più utilizzare { $name } dopo il { $period }, ultimo giorno del tuo ciclo di fatturazione.
-sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate in { $name } il { $period }
+sub-item-cancel-confirm = Disattiva il mio accesso e rimuovi le informazioni personali salvate in { $name } il { $period }
 
 ## Routes - Subscription
 
