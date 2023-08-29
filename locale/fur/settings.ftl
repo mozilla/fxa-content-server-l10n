@@ -452,6 +452,8 @@ flow-recovery-key-hint-unsafe-char-error = Il sugjeriment nol pues contignî car
 flow-recovery-key-info-header = Cree une clâf di recupar dal account tal câs che tu dismenteis la password
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Cambie la tô clâf di recupar dal account
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = O cifrìn i dâts di navigazion –– passwords, segnelibris e ancjemò altri. Al è fantastic pe riservatece, ma tu podaressis pierdi i tiei dâts se tu dismenteis la password.
 
 # HeaderLockup component
 
