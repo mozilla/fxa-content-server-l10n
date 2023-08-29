@@ -479,9 +479,12 @@ la-unlink-account-button = Discoleghe
 la-set-password-button = Stabilìs password
 la-unlink-heading = Discoleghe dal account di tiercis parts
 la-unlink-content-3 = Discolegâ pardabon il to account?
+la-unlink-content-4 = Prime di scolegâ il to account tu scugnis stabilî une password. Cence une password no tu varâs nissune maniere par jentrâ dopo vê discolegât il to account.
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
+modal-close-title = Siere
 
 ## Modal Verify Session
 
