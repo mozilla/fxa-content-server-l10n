@@ -511,7 +511,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Preglejte spremembo
 sub-change-failed = Sprememba načrta ni uspela
-sub-update-copy = Vaš paket se bo spremenil takoj in za preostanek obračunskega obdobja vam bomo zaračunali prilagojen znesek. Od { $startingDate } naprej vam bomo zaračunali celoten znesek.
 sub-update-acknowledgment = Vaš paket se bo spremenil takoj in danes vam bomo zaračunali sorazmeren znesek za preostanek tega obračunskega obdobja. Od { $startingDate } naprej vam bomo zaračunavali celoten znesek.
 sub-change-submit = Potrdite spremembo
 sub-update-current-plan-label = Trenutni načrt
