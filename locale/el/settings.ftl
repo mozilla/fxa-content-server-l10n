@@ -398,6 +398,11 @@ flow-container-back = Πίσω
 ## This screen asks the user to confirm their password before generating a new key
 
 flow-recovery-key-confirm-pwd-heading-v2 = Εισαγάγετε ξανά τον κωδικό πρόσβασής σας για ασφάλεια
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Δημιουργία κλειδιού ανάκτησης λογαριασμού
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -932,6 +937,7 @@ auth-error-1011 = Απαιτείται έγκυρο email
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Αδυναμία δημιουργίας λογαριασμού
+cannot-create-account-requirements = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-firefox-account(case: "gen", capitalization: "lower") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Μάθετε περισσότερα
 
@@ -948,7 +954,11 @@ connect-another-device-signin-to-complete-message = Συνδεθείτε σε α
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Σύνδεση
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Προσθέτετε ακόμα συσκευές; Συνδεθείτε στο { -brand-firefox } από μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = Συνδεθείτε στο { -brand-firefox } σε κάποια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Θέλετε να λάβετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας σε μια άλλη συσκευή;
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Σύνδεση άλλης συσκευής
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -978,6 +988,8 @@ inline-recovery-setup-header-default = Επιβεβαιώστε τον εφεδ�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-setup-header = Αποθηκεύστε τους εφεδρικούς κωδικούς ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ένα ασφαλές μέρος για την περίπτωση που δεν θα έχετε την κινητή συσκευή σας.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Ακύρωση
@@ -988,6 +1000,7 @@ inline-recovery-confirm-button = Επιβεβαίωση
 inline-recovery-back-link = Πίσω
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Εφεδρικός κωδικός ταυτοποίησης
+inline-recovery-confirmation-description = Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλούμε εισαγάγετε έναν από τους αποθηκευμένους εφεδρικούς κωδικούς ταυτοποίησης.
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1003,6 +1016,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Εισαγάγετε τον κ
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Σαρώστε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας. <toggleToQRButton>Σάρωση κωδικού QR;</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
@@ -1084,6 +1099,7 @@ pair-sync-your-device-button = Συγχρονισμός συσκευής
 pair-or-download-subheader = Ή λήψη
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Όχι τώρα
+pair-take-your-data-message = Μεταφέρετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Έναρξη
 # This is the aria label on the QR code image
@@ -1153,12 +1169,16 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
+complete-reset-password-recovery-key-error-v2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον έλεγχο για την ύπαρξη κλειδιού ανάκτησης λογαριασμού.
 
 ## Confirm Reset Password Component
 
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = Απεστάλη το email επαναφοράς
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Κάντε κλικ στον σύνδεσμο που απεστάλη στο { $email } μέσα στην επόμενη ώρα για να δημιουργήσετε έναν νέο κωδικό πρόσβασης.
 
 ## ResetPassword page
 
@@ -1182,6 +1202,8 @@ validating-signin = Επικύρωση σύνδεσης…
 ## ConfirmSignin component
 
 confirm-signin-header = Επιβεβαίωση σύνδεσης
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης εισόδου που απεστάλη στο { $email }
 
 ## Signin page
 
@@ -1197,6 +1219,8 @@ signin-header = Σύνδεση
 signin-use-a-different-account-link = Χρήση διαφορετικού λογαριασμού
 signin-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 signin-bounced-header = Συγγνώμη. Έχουμε κλειδώσει τον λογαριασμό σας.
+# $email (string) - The user's email.
+signin-bounced-message = Το email επιβεβαίωσης που στείλαμε στο { $email } επιστράφηκε και έχουμε κλειδώσει τον λογαριασμό σας για να προστατέψουμε τα δεδομένα του { -brand-firefox } σας.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
 signin-bounced-help = Αν αυτή είναι μια έγκυρη διεύθυνση email, <linkExternal>ενημερώστε μας</linkExternal> και θα σας βοηθήσουμε να ξεκλειδώσετε τον λογαριασμό σας.
 signin-bounced-create-new-account = Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό
@@ -1221,11 +1245,14 @@ signin-recovery-code-required-error = Απαιτείται εφεδρικός κ
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Σας ευχαριστούμε για την εγρήγορσή σας
+signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. Αναφορές σαν κι αυτή μάς βοηθούν να αποκλείουμε τους εισβολείς.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email } εντός 5 λεπτών.
 signin-token-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Επιβεβαίωση
