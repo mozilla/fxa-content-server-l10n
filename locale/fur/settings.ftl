@@ -605,12 +605,34 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizazion dâts in { -brand-firefox }
 delete-account-product-firefox-addons = Components adizionâi in { -brand-firefox }
 delete-account-acknowledge = Eliminant il to account tu ricognossis che:
+delete-account-chk-box-1-v3 =
+    .label = Ducj i tiei abonaments a paiament a vignaran anulâts (gjavât { -product-pocket })
+delete-account-chk-box-2 =
+    .label = Tu podaressis pierdi cualchi dât e funzionalitât che a fasin part dai prodots { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Ancje tornant a ativâ l’account cu la direzion e-mail atuâl, al è pussibil che no tu ripristinis lis informazions salvadis
+delete-account-chk-box-4 =
+    .label = Ducj i temis e lis estensions che tu âs publicât su addons.mozilla.org a vignaran eliminâts
+delete-account-continue-button = Continue
+delete-account-password-input =
+    .label = Inserìs la password
+pocket-delete-notice = Se tu âs l’abonament a Pocket Premium, verifiche di <a>anulâ l’abonament</a> prime di eliminâ il to account.
+delete-account-cancel-button = Anule
+delete-account-delete-button-2 = Elimine
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Non visualizât
+display-name-input =
+    .label = Inserìs il non visualizât
+submit-display-name = Salve
+cancel-display-name = Anule
+display-name-update-error-2 = Al è vignût fûr un probleme tal inzornâ il non visualizât
+display-name-success-alert-2 = In non visualizât al è stât inzornât
 
 ##
 
@@ -619,6 +641,12 @@ delete-account-acknowledge = Eliminant il to account tu ricognossis che:
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Ativitât resinte dal account
+recent-activity-account-create-v2 = Account creât
+recent-activity-account-disable-v2 = Account disativât
+recent-activity-account-enable-v2 = Account ativât
+recent-activity-account-login-v2 = Acès al account scomençât
+recent-activity-account-reset-v2 = Ripristinament password scomençât
 
 # Account recovery key setup page
 
