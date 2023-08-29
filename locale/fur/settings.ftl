@@ -485,18 +485,52 @@ nav-linked-accounts = { la-heading }
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Siere
+modal-cancel-button = Anule
+modal-default-confirm-button = Conferme
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Conferme la tô e-mail
+mvs-enter-verification-code-2 = Inserìs il codiç di conferme
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Inserìs dentri di 5 minûts il codiç di conferme che al è stât inviât a <email>{ $email }</email>.
+msv-cancel-button = Anule
+msv-submit-button-2 = Conferme
 
 ## Settings Nav
 
+nav-settings = Impostazions
+nav-profile = Profîl
+nav-security = Sigurece
+nav-connected-services = Servizis conetûts
+nav-data-collection = Racuelte e utilizazion dâts
+nav-paid-subs = Abonaments a paiament
+nav-email-comm = Comunicazions vie e-mail
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Al è vignût fûr un probleme tal sostituî i tiei codiçs di autenticazion di backup
+tfa-create-code-error = Al è vignût fûr un probleme tal creâ i tiei codiçs di autenticazion di backup
+tfa-replace-code-success-1 =
+    I gnûfs codiçs a son stâts creâts. Salve intun puest sigûr
+    chescj codiçs di autenticazion di backup che si puedin doprâ une volte sole — ti coventaran par 
+    acedi al to account se no tu varâs il to dispositîf mobil.
+tfa-replace-code-success-alert-3 = Codiçs di autenticazion di backup dal account inzornâts
+tfa-replace-code-1-2 = Passaç 1 di 2
+tfa-replace-code-2-2 = Passaç 2 di 2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Imagjin dal profîl
+avatar-page-add-photo = Zonte une foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fâs une foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
 
 ##
 
