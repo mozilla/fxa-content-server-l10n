@@ -454,12 +454,31 @@ flow-recovery-key-info-header = Cree une clâf di recupar dal account tal câs c
 flow-recovery-key-info-header-change-key = Cambie la tô clâf di recupar dal account
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = O cifrìn i dâts di navigazion –– passwords, segnelibris e ancjemò altri. Al è fantastic pe riservatece, ma tu podaressis pierdi i tiei dâts se tu dismenteis la password.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Ve ca parcè che al è cussì impuartant creâ une clâf di recupar dal account –– tu puedis doprâle par ripristinâ i tiei dâts.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Scomence
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Anule
 
 # HeaderLockup component
 
+header-menu-open = Siere menù
+header-menu-closed = Menù di navigazion dal sît
+header-back-to-top-link =
+    .title = Torne sù
+header-title = Account di Firefox
+header-help = Jutori
 
 ## Linked Accounts section
 
+la-heading = Accounts colegâts
+la-description = Tu âs autorizât l’acès a chescj accounts.
+la-unlink-button = Discoleghe
+la-unlink-account-button = Discoleghe
+la-set-password-button = Stabilìs password
+la-unlink-heading = Discoleghe dal account di tiercis parts
+la-unlink-content-3 = Discolegâ pardabon il to account?
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
