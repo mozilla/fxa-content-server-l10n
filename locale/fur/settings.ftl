@@ -531,24 +531,80 @@ avatar-page-add-photo-button =
 avatar-page-take-photo = Fâs une foto
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Gjave foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Torne fâs une foto
+avatar-page-cancel-button = Anule
+avatar-page-save-button = Salve
+avatar-page-saving-button = Daûr a salvâ…
+avatar-page-zoom-out-button =
+    .title = Impiçulìs
+avatar-page-zoom-in-button =
+    .title = Ingrandìs
+avatar-page-rotate-button =
+    .title = Volte
+avatar-page-camera-error = Impussibil inizializâ la fotocjamare
+avatar-page-new-avatar =
+    .alt = gnove imagjin di profîl
+avatar-page-file-upload-error-3 = Al è vignût fûr un probleme tal cjariâ in rêt la imagjin dal profîl
+avatar-page-delete-error-3 = Al è vignût fûr un probleme tal eliminâ la foto dal profîl
+avatar-page-image-too-large-error-2 = Il file de imagjin al è masse grant par podêlu cjariâ in rêt
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambie password
+pw-8-chars = Almancul 8 caratars
+pw-not-email = No compagne de to direzion e-mail
+pw-change-must-match = La gnove password e corispuint ae conferme
+pw-commonly-used = No une password di ûs comun
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Reste al sigûr — no sta tornâ a doprâ passwords. Viôt altris sugjeriments par <linkExternal>creâ passwords complessis</linkExternal>.
+pw-change-cancel-button = Anule
+pw-change-save-button = Salve
+pw-change-forgot-password-link = Password dismenteade?
+pw-change-current-password =
+    .label = Inserìs la password atuâl
+pw-change-new-password =
+    .label = Inserìs une gnove password
+pw-change-confirm-password =
+    .label = Conferme la gnove password
+pw-change-success-alert-2 = Password inzornade
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Creazion password
+pw-create-success-alert-2 = Password stabilide
+pw-create-error-2 = Nus diplâs, al è vignût fûr un probleme tal configurâ la password
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Elimine account
+delete-account-step-1-2 = Passaç 1 di 2
+delete-account-step-2-2 = Passaç 2 di 2
+delete-account-confirm-title-3 = Tu podaressis vê colegât il to { -product-firefox-account } a un o plui di chescj prodots o servizis { -brand-mozilla } che ti garantissin une esperience sul web sigure e produtive:
+delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-firefox-monitor = { -product-firefox-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Sincronizazion dâts in { -brand-firefox }
+delete-account-product-firefox-addons = Components adizionâi in { -brand-firefox }
+delete-account-acknowledge = Eliminant il to account tu ricognossis che:
 
 ##
 
