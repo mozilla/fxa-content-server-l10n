@@ -26,8 +26,22 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 recovery-key-download-button-v3 = Λήψη και συνέχεια
     .title = Λήψη και συνέχεια
 recovery-key-pdf-heading = Κλειδί ανάκτησης λογαριασμού
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Δημιουργία: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Κλειδί ανάκτησης λογαριασμού
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Αυτό το κλειδί σάς επιτρέπει να ανακτήσετε τα κρυπτογραφημένα δεδομένα του προγράμματος περιήγησής σας (συμπεριλαμβανομένων των κωδικών πρόσβασης, των σελιδοδεικτών και του ιστορικού) εάν ξεχάσετε τον κωδικό πρόσβασής σας. Αποθηκεύστε το σε ένα μέρος που θα θυμάστε.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Τοποθεσίες αποθήκευσης του κλειδιού σας
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Μάθετε περισσότερα σχετικά με το κλειδί ανάκτησης του λογαριασμού σας
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Δυστυχώς, προέκυψε πρόβλημα κατά τη λήψη του κλειδιού ανάκτησης του λογαριασμού σας.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -166,6 +180,8 @@ recovery-key-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα κλειδί ανάκτησης λογαριασμού.
 lock-image-aria-label =
     .aria-label = Απεικόνιση μιας κλειδαριάς
+lightbulb-aria-label =
+    .aria-label = Απεικόνιση που αναπαριστά μια υπόδειξη για δημιουργία χώρου.
 
 ## Input Password
 
@@ -184,6 +200,8 @@ reset-pwd-link-damaged-header = Ο σύνδεσμος επαναφοράς κω�
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Ο σύνδεσμος επιβεβαίωσης είναι κατεστραμμένος
+# The user followed a password reset or confirmation link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Ο σύνδεσμος στον οποίο κάνατε κλικ δεν είχε κάποιους χαρακτήρες και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά.
 
 ## LinkExpired component
 
@@ -379,6 +397,7 @@ flow-container-back = Πίσω
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Εισαγάγετε ξανά τον κωδικό πρόσβασής σας για ασφάλεια
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -398,6 +417,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κω
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Προσθέστε μια υπόδειξη για να βρείτε εύκολα το κλειδί σας
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -606,11 +628,17 @@ recent-activity-account-disable-v2 = Ο λογαριασμός απενεργο�
 recent-activity-account-enable-v2 = Ο λογαριασμός ενεργοποιήθηκε
 recent-activity-account-login-v2 = Ξεκίνησε η σύνδεση λογαριασμού
 recent-activity-account-reset-v2 = Ξεκίνησε η επαναφορά κωδικού πρόσβασης
+recent-activity-account-password-reset-requested = Ο λογαριασμός ζήτησε επαναφορά κωδικού πρόσβασης
+recent-activity-account-password-reset-success = Επιτυχής επαναφορά κωδικού πρόσβασης λογαριασμού
 recent-activity-account-recovery-key-added = Το κλειδί ανάκτησης λογαριασμού ενεργοποιήθηκε
+recent-activity-account-recovery-key-verification-failure = Αποτυχία επαλήθευσης κλειδιού ανάκτησης λογαριασμού
+recent-activity-account-recovery-key-verification-success = Επιτυχής επαλήθευση κλειδιού ανάκτησης λογαριασμού
+recent-activity-account-recovery-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 recent-activity-account-password-added = Προστέθηκε νέος κωδικός πρόσβασης
 recent-activity-account-password-changed = Ο κωδικός πρόσβασης άλλαξε
 recent-activity-account-secondary-email-added = Προστέθηκε δευτερεύουσα διεύθυνση email
 recent-activity-account-secondary-email-removed = Αφαιρέθηκε δευτερεύουσα διεύθυνση email
+recent-activity-account-emails-swapped = Έγινε εναλλαγή του κύριου email με το δευτερεύον
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
 
