@@ -647,6 +647,9 @@ recent-activity-account-disable-v2 = Account disativât
 recent-activity-account-enable-v2 = Account ativât
 recent-activity-account-login-v2 = Acès al account scomençât
 recent-activity-account-reset-v2 = Ripristinament password scomençât
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Notifichis di mancjât recapit de pueste netadis
 
 # Account recovery key setup page
 
