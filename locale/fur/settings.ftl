@@ -675,21 +675,85 @@ recent-activity-unknown = Altris ativitâts dal account
 recovery-key-cancel-button = Anule
 recovery-key-close-button = Siere
 recovery-key-continue-button = Continue
+recovery-key-created-1 = La tô clâf di recupar dal account e je stade creade. Viôt di salvâ la clâf intun puest sigûr che tu podarâs cjatâ cun facilitât plui indevant — la clâf ti coventarà par tornâ a otignî l’acès ai tiei dâts se tu dismenteis la password.
+recovery-key-enter-password =
+    .label = Inserî la password
+recovery-key-page-title-1 =
+    .title = Clâf di recupar dal account
+recovery-key-step-1 = Passaç 1 di 2
+recovery-key-step-2 = Passaç 2 di 2
+recovery-key-success-alert-3 = La clâf di recupar dal account e je stade creade
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clâf di recupar dal account
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Torne aes impostazions
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Passaç 1 di 2
+add-secondary-email-error-2 = Al è vignût fûr un probleme tal creâ cheste e-mail
+add-secondary-email-page-title =
+    .title = E-mail secondarie
+add-secondary-email-enter-address =
+    .label = Inserìs la tô direzion e-mail
+add-secondary-email-cancel-button = Anule
+add-secondary-email-save-button = Salve
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Passaç 2 di 2
+verify-secondary-email-error-3 = Al è vignût fûr un probleme tal inviâ il codiç di conferme
+verify-secondary-email-page-title =
+    .title = E-mail secondarie
+verify-secondary-email-verification-code-2 =
+    .label = Inserìs il codiç di conferme
+verify-secondary-email-cancel-button = Anule
+verify-secondary-email-verify-button-2 = Conferme
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Inserìs dentri di 5 minûts il codiç di conferme che al è stât mandât a <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = Direzion { $email } zontade cun sucès
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Elimine account
 
 ## Two Step Authentication
 
+tfa-title = Autenticazion in doi passaçs
+tfa-step-1-3 = Passaç 1 di 3
+tfa-step-2-3 = Passaç 2 di 3
+tfa-step-3-3 = Passaç 3 di 3
+tfa-button-continue = Continue
+tfa-button-cancel = Anule
+tfa-button-finish = Fin
+tfa-incorrect-totp = Codiç di autenticazion in doi passaçs sbaliât
+tfa-cannot-retrieve-code = Al è vignût fûr un probleme tal recuperâ il to codiç.
+tfa-cannot-verify-code-4 = Al è vignût fûr un probleme tal confermâ il to codiç di autenticazion di backup
+tfa-incorrect-recovery-code-1 = Codiç di autenticazion di backup sbaliât
+tfa-enabled = Autenticazion in doi passaçs ativade
+tfa-scan-this-code =
+    Scansione chest codiç QR doprant une di <linkExternal>chestis
+    aplicazions di autenticazion</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Dopre il codiç { $secret } par configurâ la autenticazion in doi passaçs tes aplicazions supuartadis.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Impussibil scansionâ il codiç?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Inserìs cheste clâf segrete te aplicazion di autenticazion:
 
 ##
 
