@@ -1054,13 +1054,32 @@ inline-totp-setup-ready-button = Pront
 inline-totp-setup-show-qr-custom-service-header-2 = Scansione il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Inserìs il codiç a man <span>par continuâ su { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scansione il codiç di autenticazion <span>par continuâ cu lis impostazions dal account</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Inserìs il codiç a man <span>par continuâ cu lis impostazions dal account</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Scrîf cheste clâf segrete te tô aplicazion di autenticazion. <toggleToQRButton>O preferissistu scansionâ il codiç QR?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scansione il codiç QR te tô aplicazion di autenticazion e inserìs il codiç che ti da. <toggleToManualModeButton>Nol è pussibil fâ la scansion dal codiç?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Une volte completât, al scomençarà a gjenerâ codiçs di autenticazion di inserî.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Codiç di autenticazion
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Notis legâls
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Cundizions di utilizazion dal servizi
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Informative su la riservatece
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Informative su la riservatece
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
