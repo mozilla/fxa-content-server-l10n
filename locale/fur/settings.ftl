@@ -653,9 +653,28 @@ recent-activity-emails-clearBounces-v2 = Notifichis di mancjât recapit de puest
 recent-activity-account-login-failure = Tentatîf di acès al account falît
 recent-activity-account-two-factor-added = Autenticazion in doi passaçs ativade
 recent-activity-account-two-factor-requested = Autenticazion in doi passaçs domandade
+recent-activity-account-two-factor-failure = Autenticazion in doi passaçs falide
+recent-activity-account-two-factor-success = Autenticazion in doi passaçs lade a bon fin
+recent-activity-account-two-factor-removed = Autenticazion in doi passaçs disativade
+recent-activity-account-password-reset-requested = Ripristinament de password domandade pal account
+recent-activity-account-password-reset-success = Ripristinament de password dal account lât a bon fin
+recent-activity-account-recovery-key-added = Clâf di recupar dal account ativade
+recent-activity-account-recovery-key-verification-failure = Verifiche de clâf di recupar dal account falide
+recent-activity-account-recovery-key-verification-success = Verifiche de clâf di recupar dal account lade a bon fin
+recent-activity-account-recovery-key-removed = Eliminade clâf di recupar dal account
+recent-activity-account-password-added = Gnove password zontade
+recent-activity-account-password-changed = Password modificade
+recent-activity-account-secondary-email-added = Direzion e-mail secondarie zontade
+recent-activity-account-secondary-email-removed = Direzion e-mail secondarie gjavade
+recent-activity-account-emails-swapped = Direzions e-mails primarie e secondarie scambiadis
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Altris ativitâts dal account
 
 # Account recovery key setup page
 
+recovery-key-cancel-button = Anule
+recovery-key-close-button = Siere
+recovery-key-continue-button = Continue
 
 ## PageRecoveryKeyCreate
 
