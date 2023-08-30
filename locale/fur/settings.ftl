@@ -1152,9 +1152,15 @@ pair-scan-to-download-message = Scansione par discjariâ { -brand-firefox } par 
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = No cumò
 pair-take-your-data-message = Puarte cun te schedis, segnelibris e passwords dapardut là che tu dopris { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Scomence
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Codiç QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dispositîf conetût
+pair-success-message-2 = Associazion lade ben.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
