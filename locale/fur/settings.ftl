@@ -754,30 +754,91 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Impussibil scansionâ il codiç?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Inserìs cheste clâf segrete te aplicazion di autenticazion:
+tfa-enter-totp-v2 = Cumò inserìs il codiç di autenticazion de aplicazion pe autenticazion.
+tfa-input-enter-totp-v2 =
+    .label = Inserìs il codiç di autenticazion
+tfa-save-these-codes-1 =
+    Salve chescj codiç di autenticazion di backup, che si puedin doprâ dome une volte,
+    intun puest sigûr par cuant che no tu âs a disposizion il to dispositîf mobil.
+tfa-enter-code-to-confirm-1 =
+    Inserìs cumò un dai tiei codiçs di autenticazion di backup par
+    confermâ di vêlu salvât. Ti coventarà un codiç par jentrâ se no tu âs a disposizion il to
+    dispositîf mobil.
+tfa-enter-recovery-code-1 =
+    .label = Inserìs un codiç di autenticazion di backup
 
 ##
 
 
 ## Profile section
 
+profile-heading = Profîl
+profile-picture =
+    .header = Imagjin
+profile-display-name =
+    .header = Non visualizât
+profile-primary-email =
+    .header = E-mail primarie
 
 ##
 
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Passaç { $currentStep } di { $numberOfSteps }.
 
 ## Security section of Setting
 
+security-heading = Sigurece
+security-password =
+    .header = Password
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Date di creazion: { $date }
+security-not-set = No configurade
+security-action-create = Cree
+security-set-password = Stabilìs une password par sincronizâ e doprâ ciertis funzions di sigurece dal account.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Visualize lis ativitâts resintis dal account
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Disative
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Ative
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Daûr a inviâ…
+switch-is-on = atîf
+switch-is-off = disativât
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Zonte
+row-defaults-action-change = Modifiche
+row-defaults-action-disable = Disative
+row-defaults-status = Nissun
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clâf di recupar dal account
+rk-enabled = Ativade
+rk-not-set = No configurade
+rk-action-create = Cree
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Modifiche
+rk-action-remove = Gjave
+rk-key-removed-2 = Eliminade clâf di recupar dal account
+rk-cannot-remove-key = Nol è pussibil gjavâ la clâf di recupar dal account.
+rk-refresh-key-1 = Inzorne la clâf di recupar dal account
+rk-content-explain = Ripristine i dâts tal câs di password dismenteade.
+rk-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
+rk-remove-modal-heading-1 = Gjavâ la clâf di recupar dal account?
 
 ## Secondary email sub-section on main Settings page
 
