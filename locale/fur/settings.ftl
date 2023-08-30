@@ -1100,11 +1100,26 @@ pair-auth-allow-refuse-device-link = Se no tu jeris tu, <link>cambie la tô pass
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Dispositîf conetût
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Cumò tu ti stâs sincronizant cun: { $deviceFamily } su { $deviceOS }
+pair-auth-complete-sync-benefits-text = Cumò tu puedis acedi aes schedis viertis, aes passwords e ai segnelibris su ducj i tiei dispositîfs.
+pair-auth-complete-see-tabs-button = Visualize lis schedis di altris dispositîfs sincronizâts
+pair-auth-complete-manage-devices-link = Gjestìs dispositîfs
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Inserìs il codiç di autenticazion <span>par continuâ cu lis impostazions dal account</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Inserìs il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
+auth-totp-instruction = Vierç la aplicazion di autenticazion e inserìs il codiç di autenticazion che ti da.
+auth-totp-input-label = Inserìs il codiç a 6 cifris
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
