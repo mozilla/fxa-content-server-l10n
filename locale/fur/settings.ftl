@@ -999,11 +999,23 @@ connect-another-device-ios-complete-setup-message = Jentre in { -brand-firefox }
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Al è necessari ativâ la archiviazion locâl e i cookies
+cookies-disabled-enable-prompt = Ative i cookies e la archiviazion locâl tal to navigadôr par acedi ai { -product-firefox-accounts }. Se tu lu fasis tu ativarâs lis funzionalitâts come la memorizazion dal utent tra lis sessions.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Torne prove
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Plui informazions
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Conferme il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-setup-header = Salve i codiçs di autenticazion di backup <span>par continuâ su { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
