@@ -894,6 +894,17 @@ tfa-row-enabled = Ativade
 tfa-row-not-set = No configurade
 tfa-row-action-add = Zonte
 tfa-row-action-disable = Disative
+tfa-row-button-refresh =
+    .title = Ripristine la autenticazion in doi passaçs
+tfa-row-cannot-refresh =
+    Nus displâs, al è vignût fûr un probleme tal inzornament
+    de autenticazion in doi passaçs.
+tfa-row-content-explain =
+    Impedìs a tierçs di jentrâ sul to account domandant ogni
+    volte un codiç univoc che tu cognossis dome tu.
+tfa-row-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
+tfa-row-disable-modal-heading = Disativâ la autenticazion in doi passaçs?
+tfa-row-disable-modal-confirm = Disative
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
