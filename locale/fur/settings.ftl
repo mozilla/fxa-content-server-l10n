@@ -918,10 +918,20 @@ tfa-row-change-modal-explain = No tu rivarâs a tornâ indaûr di cheste azion.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Se tu continuis tu acetis:
+# links to Pocket's Terms of Service and Privacy Notice
+terms-privacy-agreement-pocket = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-firefox = <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy> di { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Continuant tu acetis lis <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e la <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = Opûr
 
 ## Auth-server based errors that originate from backend service
 
