@@ -956,17 +956,49 @@ auth-error-155 = Gjeton TOTP no cjatât
 auth-error-159 = Clâf di recupar dal account no valide
 auth-error-183-2 = Codiç di conferme scjadût o no valit
 auth-error-999 = Erôr inspietât
+auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
+auth-error-1008 = La gnove password e scugne jessi diferente
+auth-error-1011 = Al è necessari inserî une direzion e-mail valide
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Impussibil creâ un account
+cannot-create-account-requirements = Par creâ un { -product-firefox-account } tu scugnis sodisfâ determinâts recuisîts di etât.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Plui informazions
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Tu âs fat l’acès a { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-mail confermade
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Acès confermât
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Jentre su chest { -brand-firefox } par completâ la configurazion
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Jentre
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Stâstu zontant ancjemò dispositîfs? Jentre in { -brand-firefox } suntun altri dispositîf par completâ la configurazion
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = jentre in { -brand-firefox } suntun altri dispositîf par completâ la configurazion
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Desideristu vê lis tôs schedis, i tiei segnelibris e lis tôs passwords suntun altri dispositîf?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Conet un altri dispositîf
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = No cumò
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Jentre in { -brand-firefox } par Android par completâ la configurazion
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Jentre in { -brand-firefox } par iOS par completâ la configurazion
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Al è necessari ativâ la archiviazion locâl e i cookies
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
