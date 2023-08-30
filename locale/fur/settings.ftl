@@ -839,15 +839,61 @@ rk-refresh-key-1 = Inzorne la clâf di recupar dal account
 rk-content-explain = Ripristine i dâts tal câs di password dismenteade.
 rk-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 rk-remove-modal-heading-1 = Gjavâ la clâf di recupar dal account?
+rk-remove-modal-content-1 =
+    Tal câs che tu decidis di ristabilî la tô password, no tu
+    rivarâs a doprâ la tô clâf di recupar dal account par acedi ai tiei dâts. Nol è pussibil tornâ indaûr di cheste azion.
+rk-remove-error-2 = Nol è pussibil gjavâ la clâf di recupar dal account
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Elimine la clâf di recupar dal account
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = E-mail secondarie
+    .header = E-mail secondarie
+se-cannot-refresh-email = Nus displâs, al è vignût fûr un probleme tal inzornâ chê e-mail.
+se-cannot-resend-code-3 = Nus displâs, al è vignût fûr un probleme tal tornâ a inviâ il codiç di conferme
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } e je cumò la tô e-mail primarie
+se-set-primary-error-2 = Nus displâs, al è vignût fûr un probleme tal cambiâ la tô e-mail primarie
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } eliminade cun sucès
+se-delete-email-error-2 = Nus displâs, al è vignût fûr un probleme tal eliminâ cheste e-mail
+se-verify-session-3 = Tu varâs di confermâ la session in cors par fâ cheste azion
+se-verify-session-error-3 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
+# Button to remove the secondary email
+se-remove-email =
+    .title = Gjave la e-mail
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Inzorne la e-mail
+se-unverified-2 = no confermade
+se-resend-code-2 =
+    Conferme necessarie. <button>Torne mande il codiç di conferme</button>
+    se no tu lu cjatis te casele di pueste in jentrade o tal spam.
+# Button to make secondary email the primary
+se-make-primary = Rint primarie
+se-default-content = Doprile par acedi al to account se no tu rivis a jentrâ cu la e-mail primarie.
+se-content-note-1 =
+    Note: nol è pussibil ripristinâ i dâts midiant la e-mail secondarie — par
+    chê operazion ti coventarà une <a>clâf di recupar dal account</a>.
+# Default value for the secondary email
+se-secondary-email-none = Nissune
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticazion in doi passaçs
+tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
+tfa-row-enabled = Ativade
+tfa-row-not-set = No configurade
+tfa-row-action-add = Zonte
+tfa-row-action-disable = Disative
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
