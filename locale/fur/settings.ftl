@@ -650,6 +650,9 @@ recent-activity-account-reset-v2 = Ripristinament password scomençât
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Notifichis di mancjât recapit de pueste netadis
+recent-activity-account-login-failure = Tentatîf di acès al account falît
+recent-activity-account-two-factor-added = Autenticazion in doi passaçs ativade
+recent-activity-account-two-factor-requested = Autenticazion in doi passaçs domandade
 
 # Account recovery key setup page
 
