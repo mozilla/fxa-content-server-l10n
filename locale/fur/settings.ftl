@@ -932,9 +932,30 @@ terms-privacy-agreement-default = Continuant tu acetis lis <firefoxTos>Cundizion
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = Opûr
+continue-with-google-button = Continue cun { -brand-google }
+continue-with-apple-button = Continue cun { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Account no cognossût
+auth-error-103 = Password sbaliade
+auth-error-105-2 = Codiç di conferme no valit
+auth-error-110 = Gjeton no valit
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
+auth-error-138-2 = Session no confermade
+auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
+auth-error-155 = Gjeton TOTP no cjatât
+auth-error-159 = Clâf di recupar dal account no valide
+auth-error-183-2 = Codiç di conferme scjadût o no valit
+auth-error-999 = Erôr inspietât
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
