@@ -905,10 +905,19 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 tfa-row-disable-modal-heading = Disativâ la autenticazion in doi passaçs?
 tfa-row-disable-modal-confirm = Disative
+tfa-row-disable-modal-explain-1 =
+    No tu rivarâs a tornâ indaûr di cheste azion. In
+    alternative tu puedis <linkExternal>sostituî i tiei codiçs di autenticazion di backup</linkExternal>.
+tfa-row-cannot-disable-2 = Impussibil disativâ la autenticazion in doi passaçs
+tfa-row-change-modal-heading-1 = Cambiâ i codiçs di autenticazion di backup?
+tfa-row-change-modal-confirm = Cambie
+tfa-row-change-modal-explain = No tu rivarâs a tornâ indaûr di cheste azion.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro = Se tu continuis tu acetis:
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

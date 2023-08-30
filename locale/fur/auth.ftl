@@ -11,7 +11,7 @@ fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo di { -brand-f
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronize dispositîfs">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositîfs">
 fxa-privacy-url = Informative su la riservatece di { -brand-mozilla }
-fxa-service-url = Condizions di ûs dal servizi di { -product-firefox-cloud }
+fxa-service-url = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo di { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo di { -brand-mozilla }">
 subplat-automated-email = Cheste e je une e-mail inviade di un servizi automatic; se tu le âs ricevude par erôr, nol covente fâ nuie.
@@ -31,7 +31,7 @@ subplat-manage-account = Gjestìs lis impostazions dal to { -product-firefox-acc
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gjestìs lis impostazions dal to { -product-firefox-account } visitant cheste pagjine: { $accountSettingsUrl }
-subplat-terms-policy = Tiermins e condizions di cancelazion
+subplat-terms-policy = Tiermins e cundizions di cancelazion
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anule l'abonament
 subplat-cancel-plaintext = { subplat-cancel }:
@@ -40,7 +40,7 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Inzorne lis informazions pe fature
 subplat-privacy-policy = Informative su la riservatece di { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = Condizions di ûs dal servizi di { -product-firefox-cloud }
+subplat-cloud-terms = Cundizions di ûs dal servizi di { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Notis legâls
 subplat-legal-plaintext = { subplat-legal }:
@@ -520,8 +520,6 @@ subscriptionUpgrade-upgrade-info = Tu âs inzornât cun sucès di { $productName
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
-subscriptionUpgrade-content-charge-info = Tacant de prossime fature, il to paiament al vignarà modificât di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }. Tal stes timp ti vignarà increditât un impuart una tantum di { $paymentProrated } par rifleti la tarife plui alte pal rest di chest { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Ti vignarà contizât un impuart una tantum di { $paymentProrated } par rifleti la tarife plui alte dal to abonament pal rest di chest { $productPaymentCycleOld }. Tacant de prossime fature, il to paiament al sarà modificât di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
