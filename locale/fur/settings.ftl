@@ -1120,17 +1120,38 @@ auth-totp-heading-w-default-service = Inserìs il codiç di autenticazion <span>
 auth-totp-heading-w-custom-service = Inserìs il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
 auth-totp-instruction = Vierç la aplicazion di autenticazion e inserìs il codiç di autenticazion che ti da.
 auth-totp-input-label = Inserìs il codiç a 6 cifris
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Conferme
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Codiç di autenticazion necessari
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = E je necessarie cumò la aprovazion <span>di chel altri dispositîf</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Associazion lade strucje
+pair-failure-message = Il procès di instalazion al è stât terminât.
 
 ## Pair index page
 
+pair-sync-header = Sincronize { -brand-firefox } sul to telefon o tablet
+pair-cad-header = Conet { -brand-firefox } suntun altri dispositîf
+pair-already-have-firefox-paragraph = Dopristu za { -brand-firefox } suntun telefon o tablet?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronize il to dispositîf
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Opûr discjamilu
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scansione par discjariâ { -brand-firefox } par dispositîfs mobii opûr manditi un <linkExternal>colegament par discjariâ</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = No cumò
+pair-take-your-data-message = Puarte cun te schedis, segnelibris e passwords dapardut là che tu dopris { -brand-firefox }.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
