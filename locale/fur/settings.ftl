@@ -1016,10 +1016,44 @@ inline-recovery-setup-header-default = Conferme il codiç di autenticazion di ba
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-setup-header = Salve i codiçs di autenticazion di backup <span>par continuâ su { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Conserve chescj codiçs, che si puedin doprâ une volte sole, intun puest sigûr tal câs che tu no tu vedis a puartade di man il to dispositîf mobil.
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Anule
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Continue
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Conferme
+inline-recovery-back-link = Indaûr
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Codiç di autenticazion di backup
+inline-recovery-confirmation-description = Par sigurâsi che tu podedis tornâ a cuistâ l’acès al to account, tal câs che tu pierdis il dispositîf, inserìs un dai tiei codiçs di autenticazion di backup che tu âs salvât.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Conferme il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Conferme il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Anule configurazion
+inline-totp-setup-continue-button = Continue
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Zonte un strât di sigurece al to account domandant i codiçs di autenticazion di une di <authenticationAppsLink>chestis aplicazions di autenticazion</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ative la autenticazion in doi passaçs <span>par continuâ cu lis impostazions dal account</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ative la autenticazion in doi passaçs <span>par continuâ su { $serviceName }</span>
+inline-totp-setup-ready-button = Pront
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scansione il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Inserìs il codiç a man <span>par continuâ su { $serviceName }</span>
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
