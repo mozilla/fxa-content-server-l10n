@@ -325,7 +325,7 @@ cs-logged-out-2 = Deconnectà da { $service }
 cs-refresh-button =
     .title = Actualisar ils servetschs connectads
 # Link text to a support page on missing or duplicate devices
-cs-missing-device-help = Elements cha mancan u elements duplitgads?
+cs-missing-device-help = Elements che mancan u elements duplitgads?
 cs-disconnect-sync-heading = Deconnectar da Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
