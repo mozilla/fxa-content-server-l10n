@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-30 08:57+0000\n"
+"PO-Revision-Date: 2023-08-31 10:55+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -700,7 +700,7 @@ msgstr "Inserìs il codiç di verifiche"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
-msgstr "Indreçament no valit"
+msgstr "Dirotament no valit"
 
 #: .es5/lib/auth-errors.js:604
 msgid "Mistyped email? %(domain)s does not offer email."

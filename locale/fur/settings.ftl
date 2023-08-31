@@ -1218,10 +1218,12 @@ account-restored-success-message = Tu âs ripristinât cun sucès il to account 
 account-recovery-reset-password-success-alert = Password stabilide
 # An error case was hit that we cannot account for.
 account-recovery-reset-password-unexpected-error = Si à vût un erôr inspietât
+account-recovery-reset-password-redirecting = Dirotament
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header = Cree gnove password
 
 ## Confirm Reset Password Component
 
