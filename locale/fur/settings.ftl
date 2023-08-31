@@ -1188,6 +1188,7 @@ pair-unsupported-message = Âstu doprât la fotocjamare di sisteme? Tu scugnis a
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Par plasê spiete, al è in cors il dirotament su la aplicazion autorizade.
 
 ## AccountRecoveryConfirmKey page
 
