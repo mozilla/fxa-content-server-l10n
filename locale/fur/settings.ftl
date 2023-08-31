@@ -1206,9 +1206,18 @@ account-recovery-confirm-key-input =
     .label = Inserìs la clâf di recupar dal account
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Conferme la clâf di recupar dal account
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link = No âstu une clâf di recupar dal account?
 
 ## Account recovery reset password page
 
+# Header for form to create new password
+create-new-password-header = Creazion gnove password
+account-restored-success-message = Tu âs ripristinât cun sucès il to account doprant la clâf di recupar dal account. Cree une gnove password par meti al sigûr i tiei dâts e tegnile intun puest sigûr.
+# Feedback displayed in alert bar when password reset is successful
+account-recovery-reset-password-success-alert = Password stabilide
+# An error case was hit that we cannot account for.
+account-recovery-reset-password-unexpected-error = Si à vût un erôr inspietât
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
