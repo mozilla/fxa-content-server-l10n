@@ -1201,6 +1201,11 @@ account-recovery-confirm-key-heading-w-default-service = Ristabilìs la password
 account-recovery-confirm-key-heading-w-custom-service = Ristabilìs la password cu la clâf di recupar dal account <span>par continuâ su { $serviceName }</span>
 account-recovery-confirm-key-instructions = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-firefox-account }.
 account-recovery-confirm-key-warning-message = <span>Note:</span> se tu ristabilissis la password e no tu âs salvade la clâf di recupar dal account, cualchi dât al vignarà eliminât (comprindûts i dâts sincronizâts sul servidôr come la cronologjie e i segnelibris).
+# Prompts the user to enter their account recovery code
+account-recovery-confirm-key-input =
+    .label = Inserìs la clâf di recupar dal account
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button = Conferme la clâf di recupar dal account
 
 ## Account recovery reset password page
 
