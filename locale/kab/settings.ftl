@@ -11,6 +11,11 @@
 banner-dismiss-button =
     .aria-label = Mdel
 
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -127,6 +132,7 @@ get-data-trio-print-2 =
     .aria-label = Siggez
 
 ## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 
 ## Input Password
@@ -324,6 +330,24 @@ drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg 
 
 flow-container-back = Uɣal ɣer deffir
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+
 # HeaderLockup component
 
 header-menu-open = Mdel umuɣ
@@ -483,11 +507,11 @@ display-name-success-alert-2 = Isem n uskan yettusnifel
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
-recent-activity-account-create = Yettwarna umiḍan
-recent-activity-account-disable = Yensa umiḍan
-recent-activity-account-enable = Yermed umiḍan
+recent-activity-account-password-changed = Awal uffir yettusneflen
 
 # Account recovery key setup page
 
@@ -502,6 +526,9 @@ recovery-key-page-title-1 =
 recovery-key-step-1 = Asurif 1 seg 2
 recovery-key-step-2 = Asurif 2 seg 2
 recovery-key-success-alert-3 = Tasarut n tririt n umiḍan tettwarna
+
+## PageRecoveryKeyCreate
+
 
 ## Add secondary email page
 
@@ -588,6 +615,9 @@ profile-primary-email =
 ##
 
 
+## Progress bar
+
+
 ## Security section of Setting
 
 security-heading = Taɣellist
@@ -625,7 +655,6 @@ rk-enabled = Yettwarmed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
-rk-cannot-refresh-1 = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt n umiḍan.
 rk-key-removed-2 = Tasarutt n tririt n umiḍan tettwakkes
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 rk-refresh-key-1 = Smiren tasarut n tririt n umiḍan
@@ -635,7 +664,6 @@ rk-remove-modal-heading-1 = Kkes tasarut n tririt n umiḍan
 rk-remove-modal-content-1 =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
     ad tesqedceḍ tasarut-ik·im n tririt n umian i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
-rk-refresh-error-1 = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt n umiḍan.
 rk-remove-error-2 = Tasarut n tririt n umiḍan ulamek ad tettwakkes
 
 ## Secondary email sub-section on main Settings page
@@ -707,6 +735,10 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
+
+
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
 
 ## Auth-server based errors that originate from backend service
@@ -866,6 +898,10 @@ pair-supp-allow-cancel-link = Sefsex
 
 pair-unsupported-header = Cudd s usnas
 
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+
 ## AccountRecoveryConfirmKey page
 
 # Prompts the user to enter their account recovery code
@@ -873,10 +909,6 @@ account-recovery-confirm-key-input =
     .label = Sekcem tasarut n tririt n umiḍan
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Sentem tasarut n tririt n umiḍan
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Yir tasarut n tririt n umiḍan
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Tasarutt n tririt n umiḍan tettwasra
 
 ## Account recovery reset password page
 
