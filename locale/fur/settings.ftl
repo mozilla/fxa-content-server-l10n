@@ -1224,6 +1224,7 @@ account-recovery-reset-password-redirecting = Dirotament
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Cree gnove password
+complete-reset-password-warning-message-2 = <span>Visiti:</span> Cuant che tu ripristinis la tô password, tu ripristinis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
 
 ## Confirm Reset Password Component
 
