@@ -1011,7 +1011,7 @@ inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用
 inline-totp-setup-cancel-setup-button = 取消设置
 inline-totp-setup-continue-button = 继续
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticationAppsLink>身份验证应用</authenticationAppsLink>所生成的验证码，让您的账户安全级别更上一层楼。
+inline-totp-setup-add-security-link = 通过须额外输入一组由<authenticationAppsLink>身份验证应用</authenticationAppsLink>所生成的验证码，更周全地保护您的账户。
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = 启用两步验证以<span>继续进行账户设置</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
