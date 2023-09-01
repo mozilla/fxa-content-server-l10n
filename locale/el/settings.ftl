@@ -398,6 +398,7 @@ flow-container-back = Πίσω
 ## This screen asks the user to confirm their password before generating a new key
 
 flow-recovery-key-confirm-pwd-heading-v2 = Εισαγάγετε ξανά τον κωδικό πρόσβασής σας για ασφάλεια
+flow-recovery-key-confirm-pwd-input-label = Εισαγάγετε τον κωδικό πρόσβασής σας
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Δημιουργία κλειδιού ανάκτησης λογαριασμού
 # For users with an existing account recovery key, clicking on this button will
@@ -582,6 +583,7 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
+delete-account-confirm-title-3 = Ίσως έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -972,6 +974,7 @@ connect-another-device-ios-complete-setup-message = Συνδεθείτε στο 
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Απαιτούνται cookies και τοπική αποθήκευση
+cookies-disabled-enable-prompt = Παρακαλούμε ενεργοποιήστε τα cookies και την τοπική αποθήκευση στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στο { -product-firefox-accounts }. Έτσι, θα ενεργοποιηθούν λειτουργίες, όπως η απομνημόνευση ανάμεσα σε συνεδρίες.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1140,6 +1143,7 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-instructions = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας.
 account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1207,6 +1211,8 @@ confirm-signin-message = Ελέγξτε το email σας για τον σύνδ
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Εισαγάγετε τον κωδικό πρόσβασης <span>του { -product-firefox-account(case: "gen", capitalization: "lower") } σας</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
@@ -1251,6 +1257,10 @@ signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. 
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email } εντός 5 λεπτών.
 signin-token-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
@@ -1297,6 +1307,10 @@ confirm-signup-instruction = Ελέγξτε το email σας για τον σύ
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email }, εντός 5 λεπτών.
 confirm-signup-code-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
