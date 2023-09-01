@@ -1225,6 +1225,13 @@ account-recovery-reset-password-redirecting = Dirotament
 
 complete-reset-pw-header = Cree gnove password
 complete-reset-password-warning-message-2 = <span>Visiti:</span> Cuant che tu ripristinis la tô password, tu ripristinis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Password stabilide
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Nus displâs, al è vignût fûr un probleme tal configurâ la tô password
+complete-reset-password-recovery-key-error-v2 = Nus displâs, al è vignût fûr un probleme tal verificâ se tu âs une clâf di recupar dal account.
 
 ## Confirm Reset Password Component
 
