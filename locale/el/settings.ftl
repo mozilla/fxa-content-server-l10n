@@ -953,6 +953,7 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-999 = Απροσδόκητο σφάλμα
+auth-error-1003 = Η τοπική αποθήκευση ή τα cookies εξακολουθούν να είναι απενεργοποιημένα
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 auth-error-1011 = Απαιτείται έγκυρο email
 
@@ -1038,6 +1039,8 @@ inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρ
 
 inline-totp-setup-cancel-setup-button = Ακύρωση ρύθμισης
 inline-totp-setup-continue-button = Συνέχεια
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Προσθέστε ένα επιπλέον επίπεδο ασφαλείας στον λογαριασμό σας με κωδικούς ταυτοποίησης από μία από <authenticationAppsLink>αυτές τις εφαρμογές ταυτοποίησης</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Ενεργοποιήστε την ταυτοποίηση δύο παραγόντων <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
@@ -1055,6 +1058,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Σαρώστε τον κω�
 inline-totp-setup-no-qr-default-service-header-2 = Εισαγάγετε τον κωδικό χειροκίνητα <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας. <toggleToQRButton>Σάρωση κωδικού QR;</toggleToQRButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Μόλις τελειώσετε, θα αρχίσει η δημιουργία των κωδικών ταυτοποίησής σας.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίησης
 
@@ -1077,10 +1082,13 @@ legal-terms-heading = Όροι υπηρεσίας
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Συνδεθείτε μόλις στο { -product-firefox };
+pair-auth-allow-heading-text = Συνδεθήκατε μόλις στο { -product-firefox };
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ναι, έγκριση συσκευής
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Εάν δεν το κάνατε εσείς, <link>αλλάξτε τον κωδικό πρόσβασής σας</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1134,6 +1142,8 @@ pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } 
 pair-sync-your-device-button = Συγχρονισμός συσκευής
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Ή λήψη
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Κάντε σάρωση για λήψη του { -brand-firefox } για κινητές συσκευές ή στείλτε στον εαυτό σας έναν <linkExternal>σύνδεσμο λήψης</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Όχι τώρα
 pair-take-your-data-message = Μεταφέρετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
