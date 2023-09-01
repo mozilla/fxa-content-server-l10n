@@ -900,8 +900,8 @@ terms-privacy-agreement-default = 继续操作即表示您同意我们的<firefo
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = 或者
-continue-with-google-button = 继续使用{ -brand-google }
-continue-with-apple-button = 继续使用 { -brand-apple }
+continue-with-google-button = 通过 { -brand-google } 登录
+continue-with-apple-button = 通过 { -brand-apple } 登录
 
 ## Auth-server based errors that originate from backend service
 
@@ -1198,7 +1198,7 @@ account-recovery-reset-password-redirecting = 正在重定向
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = 创建新密码
-complete-reset-password-warning-message-2 = <span>记住：</span>当您重置密码时，您也重置了您的帐户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保有您的订阅，并且 { -product-pocket } 数据不会受到影响。
+complete-reset-password-warning-message-2 = <span>记住：</span>当您重置密码时，您也重置了您的账户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保有您的订阅，并且 { -product-pocket } 数据不会受到影响。
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = 密码已设置
@@ -1226,7 +1226,7 @@ reset-password-heading-w-default-service = 重置密码以<span>继续设置账�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = 重置密码以<span>继续使用 { $serviceName } </span>
-reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了帐户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
+reset-password-warning-message-2 = <span>注意：</span>重置密码时，您也重置了账户。您可能会丢失一些个人信息（包括历史记录、书签和密码）。那是因为我们使用您的密码对您的数据进行加密以保护您的隐私。您仍将保留您的订阅，并且 { -product-pocket } 数据不会受到影响。
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = 邮箱地址
@@ -1259,17 +1259,17 @@ signin-password-needed-header = 请为<span>{ -product-firefox-account }</span>�
 signin-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
-signin-subheader-without-logo-with-servicename = 继续 { $serviceName }
-signin-subheader-without-logo-default = 继续帐户设置
+signin-subheader-without-logo-with-servicename = 继续使用 { $serviceName }
+signin-subheader-without-logo-default = 前往账户设置
 signin-button = 登录
 signin-header = 登录
 signin-use-a-different-account-link = 换个账户登录
 signin-forgot-password-link = 忘记密码？
 signin-bounced-header = 对不起。我们已锁定您的账户。
 # $email (string) - The user's email.
-signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的帐户以保护您的 { -brand-firefox } 数据。
+signin-bounced-message = 我们发送至 { $email } 的确认电子邮件已被退回，我们已锁定您的账户以保护您的 { -brand-firefox } 数据。
 # linkExternal is button which logs the user's action and navigates them to mozilla support
-signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的帐户。
+signin-bounced-help = 如果这是一个有效的电子邮件地址，请<linkExternal>告诉我们</linkExternal>，我们可以帮助解锁您的账户。
 signin-bounced-create-new-account = 不再拥有该邮箱？创建一个新账户吧
 back = 上一步
 
