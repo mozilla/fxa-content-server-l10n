@@ -409,6 +409,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Δημιουργία ν
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε — Κάντε λήψη και αποθήκευσή του τώρα
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
 # This heading is shown above a list of options for storing the account recovery key
@@ -426,6 +427,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Διαχείριση κω
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Προσθέστε μια υπόδειξη για να βρείτε εύκολα το κλειδί σας
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Αυτή η υπόδειξη θα σας βοηθήσει να θυμηθείτε πού αποθηκεύσατε το κλειδί ανάκτησης του λογαριασμού σας. Μπορούμε να σας την εμφανίσουμε κατά την επαναφορά του κωδικού πρόσβασης για να ανακτήσετε τα δεδομένα σας.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -635,6 +639,12 @@ recent-activity-account-disable-v2 = Ο λογαριασμός απενεργο�
 recent-activity-account-enable-v2 = Ο λογαριασμός ενεργοποιήθηκε
 recent-activity-account-login-v2 = Ξεκίνησε η σύνδεση λογαριασμού
 recent-activity-account-reset-v2 = Ξεκίνησε η επαναφορά κωδικού πρόσβασης
+recent-activity-account-login-failure = Η απόπειρα σύνδεση στον λογαριασμό απέτυχε
+recent-activity-account-two-factor-added = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
+recent-activity-account-two-factor-requested = Ζητήθηκε ταυτοποίηση δύο παραγόντων
+recent-activity-account-two-factor-failure = Η ταυτοποίηση δύο παραγόντων απέτυχε
+recent-activity-account-two-factor-success = Επιτυχής ταυτοποίηση δύο παραγόντων
+recent-activity-account-two-factor-removed = Η ταυτοποίηση δύο παραγόντων καταργήθηκε
 recent-activity-account-password-reset-requested = Ο λογαριασμός ζήτησε επαναφορά κωδικού πρόσβασης
 recent-activity-account-password-reset-success = Επιτυχής επαναφορά κωδικού πρόσβασης λογαριασμού
 recent-activity-account-recovery-key-added = Το κλειδί ανάκτησης λογαριασμού ενεργοποιήθηκε
@@ -735,6 +745,9 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Εισαγάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
+tfa-enter-totp-v2 = Τώρα, εισαγάγετε τον κωδικό ταυτοποίησης από την εφαρμογή ταυτοποίησης.
+tfa-input-enter-totp-v2 =
+    .label = Εισαγάγετε κωδικό ταυτοποίησης
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
@@ -900,6 +913,8 @@ terms-privacy-agreement-intro = Συνεχίζοντας, συμφωνείτε �
 terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
+# links to Firefox's Terms of Service and Privacy Notice
+terms-privacy-agreement-default = Συνεχίζοντας, αποδέχεστε τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1004,12 +1019,23 @@ inline-recovery-back-link = Πίσω
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Εφεδρικός κωδικός ταυτοποίησης
 inline-recovery-confirmation-description = Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλούμε εισαγάγετε έναν από τους αποθηκευμένους εφεδρικούς κωδικούς ταυτοποίησης.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Firefox accounts to authenticate
+inline-recovery-confirmation-header = Επιβεβαιώστε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 inline-totp-setup-cancel-setup-button = Ακύρωση ρύθμισης
 inline-totp-setup-continue-button = Συνέχεια
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Ενεργοποιήστε την ταυτοποίηση δύο παραγόντων <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Ενεργοποιήστε την ταυτοποίηση δύο παραγόντων <span>για να συνεχίσετε στο { $serviceName }</span>
 inline-totp-setup-ready-button = Έτοιμο
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1019,6 +1045,8 @@ inline-totp-setup-no-qr-custom-service-header-2 = Εισαγάγετε τον κ
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
 inline-totp-setup-show-qr-default-service-header-2 = Σαρώστε τον κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Εισαγάγετε τον κωδικό χειροκίνητα <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας. <toggleToQRButton>Σάρωση κωδικού QR;</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1143,6 +1171,10 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+account-recovery-confirm-key-heading-w-custom-service = Κάντε επαναφορά κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στο { $serviceName }</span>
 account-recovery-confirm-key-instructions = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας.
 account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
 # Prompts the user to enter their account recovery code
@@ -1157,6 +1189,7 @@ account-recovery-lost-recovery-key-link = Δεν έχετε κλειδί ανά�
 
 # Header for form to create new password
 create-new-password-header = Δημιουργία νέου κωδικού πρόσβασης
+account-restored-success-message = Έχετε ανακτήσει επιτυχώς τον λογαριασμό σας με το κλειδί ανάκτησης του λογαριασμού σας. Δημιουργήστε έναν νέο κωδικό πρόσβασης για την προστασία των δεδομένων σας και αποθηκεύστε τον σε ένα ασφαλές μέρος.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
 # An error case was hit that we cannot account for.
@@ -1174,6 +1207,7 @@ complete-reset-password-success-alert = Ο κωδικός πρόσβασης ο�
 # Displayed in an alert bar
 complete-reset-password-error-alert = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 complete-reset-password-recovery-key-error-v2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον έλεγχο για την ύπαρξη κλειδιού ανάκτησης λογαριασμού.
+complete-reset-password-recovery-key-link = Κάντε επαναφορά του κωδικού πρόσβασής σας με το κλειδί ανάκτησης του λογαριασμού σας.
 
 ## Confirm Reset Password Component
 
@@ -1237,6 +1271,13 @@ back = Πίσω
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Εισαγάγετε τον εφεδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Εισαγάγετε τον εφεδδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
 signin-recovery-code-input-label = Εισαγάγετε τον 10ψήφιο εφεδρικό κωδικό ταυτοποίησης
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
