@@ -442,9 +442,14 @@ flow-recovery-key-success-alert = Το κλειδί ανάκτησης λογα�
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να περιέχει λιγότερους από 255 χαρακτήρες.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Αλλαγή κλειδιού ανάκτησης λογαριασμού
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
@@ -609,6 +614,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Συνέχεια
 delete-account-password-input =
     .label = Εισαγωγή κωδικού πρόσβασης
+pocket-delete-notice = Εάν εγγραφήκατε στο Pocket Premium, παρακαλούμε βεβαιωθείτε ότι <a>έχετε ακυρώσει τη συνδρομή σας</a> προτού διαγράψετε τον λογαριασμό σας.
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
@@ -1337,6 +1343,7 @@ signin-totp-code-required-error = Απαιτείται κωδικός ταυτο
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Επιβεβαίωση του λογαριασμού σας
 # { $email } is the email entered by the user and where the signup confirmation link was sent
 confirm-signup-instruction = Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης που απεστάλη στο { $email }
 
@@ -1367,6 +1374,7 @@ confirm-signup-code-is-required-error = Απαιτείται κωδικός επ
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Ορισμός κωδικού πρόσβασης
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 # <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-info-banner-for-pocket = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό; <LinkExternal>Μάθετε εδώ</LinkExternal>
