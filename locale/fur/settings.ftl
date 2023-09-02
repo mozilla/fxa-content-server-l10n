@@ -1232,9 +1232,13 @@ complete-reset-password-success-alert = Password stabilide
 # Displayed in an alert bar
 complete-reset-password-error-alert = Nus displâs, al è vignût fûr un probleme tal configurâ la tô password
 complete-reset-password-recovery-key-error-v2 = Nus displâs, al è vignût fûr un probleme tal verificâ se tu âs une clâf di recupar dal account.
+complete-reset-password-recovery-key-link = Ripristine la tô password cu la tô clâf di recupar dal account.
 
 ## Confirm Reset Password Component
 
+# Second step of password reset flow for Firefox accounts
+# Header confirming that a password reset email has been sent to the user's email address
+confirm-pw-reset-header = E-mail par ristabilî la password inviade
 
 ## ResetPassword page
 
