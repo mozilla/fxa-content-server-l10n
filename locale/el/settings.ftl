@@ -410,6 +410,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Δημιουργία ν
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε — Κάντε λήψη και αποθήκευσή του τώρα
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Αυτό το κλειδί σάς επιτρέπει να ανακτήσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας. Αποθηκεύστε το κάπου που θα θυμάστε. Δεν θα μπορείτε να επιστρέψετε σε αυτήν τη σελίδα αργότερα.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Συνέχεια χωρίς λήψη
 # This heading is shown above a list of options for storing the account recovery key
@@ -1188,6 +1190,9 @@ third-party-auth-callback-message = Παρακαλούμε περιμένετε,
 ## AccountRecoveryConfirmKey page
 
 # Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Κάντε επαναφορά του κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Κάντε επαναφορά κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στο { $serviceName }</span>
@@ -1236,6 +1241,13 @@ confirm-pw-reset-instructions = Κάντε κλικ στον σύνδεσμο π
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στο { $serviceName }</span>
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Email
@@ -1294,6 +1306,7 @@ signin-recovery-code-heading-w-default-service = Εισαγάγετε τον ε�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Εισαγάγετε τον εφεδδρικό κωδικό ταυτοποίησης <span>για να συνεχίσετε στο { $serviceName }</span>
+signin-recovery-code-instruction = Παρακαλώ εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης που λάβατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
 signin-recovery-code-input-label = Εισαγάγετε τον 10ψήφιο εφεδρικό κωδικό ταυτοποίησης
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
