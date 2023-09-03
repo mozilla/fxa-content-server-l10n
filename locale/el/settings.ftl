@@ -454,6 +454,8 @@ flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορε
 flow-recovery-key-info-header = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Αλλαγή κλειδιού ανάκτησης λογαριασμού
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Κρυπτογραφούμε τα δεδομένα περιήγησης, τους κωδικούς πρόσβασης, τους σελιδοδείκτες και πολλά άλλα. Είναι εξαιρετικό για το απόρρητο, αλλά μπορεί να χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = Αυτός είναι ο λόγος για τον οποίο η δημιουργία ενός κλειδιού ανάκτησης λογαριασμού είναι τόσο σημαντική: μπορείτε να το χρησιμοποιήσετε για να επαναφέρετε τα δεδομένα σας.
 # The text of the "submit" button to start creating (or changing) an account recovery key
@@ -647,6 +649,9 @@ recent-activity-account-disable-v2 = Ο λογαριασμός απενεργο�
 recent-activity-account-enable-v2 = Ο λογαριασμός ενεργοποιήθηκε
 recent-activity-account-login-v2 = Ξεκίνησε η σύνδεση λογαριασμού
 recent-activity-account-reset-v2 = Ξεκίνησε η επαναφορά κωδικού πρόσβασης
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Οι ειδοποιήσεις αδυναμίας παράδοσης email διαγράφηκαν
 recent-activity-account-login-failure = Η απόπειρα σύνδεση στον λογαριασμό απέτυχε
 recent-activity-account-two-factor-added = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 recent-activity-account-two-factor-requested = Ζητήθηκε ταυτοποίηση δύο παραγόντων
@@ -1060,6 +1065,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Σαρώστε τον κω�
 inline-totp-setup-no-qr-default-service-header-2 = Εισαγάγετε τον κωδικό χειροκίνητα <span>για να συνεχίσετε στις ρυθμίσεις λογαριασμού</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας. <toggleToQRButton>Σάρωση κωδικού QR;</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Σαρώστε τον κωδικό QR στην εφαρμογή ταυτοποίησης και εισαγάγετε τον κωδικό που παρέχει. <toggleToManualModeButton>Δεν μπορείτε να σαρώσετε τον κωδικό;</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Μόλις τελειώσετε, θα αρχίσει η δημιουργία των κωδικών ταυτοποίησής σας.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1221,6 +1228,7 @@ account-recovery-reset-password-redirecting = Ανακατεύθυνση
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Δημιουργία νέου κωδικού πρόσβασης
+complete-reset-password-warning-message-2 = <span>Υπενθύμιση:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας στο { -product-pocket } δεν θα επηρεαστούν.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Ο κωδικός πρόσβασης ορίστηκε
@@ -1248,6 +1256,7 @@ reset-password-heading-w-default-service = Κάντε επαναφορά του 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Κάντε επαναφορά του κωδικού πρόσβασης <span>για να συνεχίσετε στο { $serviceName }</span>
+reset-password-warning-message-2 = <span>Σημείωση:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας στο { -product-pocket } δεν θα επηρεαστούν.
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = Email
