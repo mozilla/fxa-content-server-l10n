@@ -1245,6 +1245,13 @@ confirm-pw-reset-instructions = Fâs clic sul colegament mandât vie e-mail a { 
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Ristabilìs la password <span>par continuâ cu lis impostazions dal account</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Ristabilìs la password <span>par continuâ su { $serviceName }</span>
 
 ## CompleteSignin component
 
