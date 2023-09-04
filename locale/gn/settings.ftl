@@ -457,7 +457,7 @@ flow-recovery-key-info-header-change-key = Emoambue ne mba’ete mba’eñemi gu
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Rombopapapy kundahára mba’ekuaarã: ñe’ẽñemi, techaukaha ha hetave. Iporã añete tekorosãrã, hákatu okañykuaa mba’ekuaarã nde rasaráirõ ñe’ẽñemígui.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = Upévare natekotevéi emoheñói mba’eñemi guerujeyrã mba’ete –– eipurukuaa erujey hag̃ua ne mba’ekuaarã
+flow-recovery-key-info-key-bullet-point-v2 = Upévare natekotevéi emoheñói mba’eñemi guerujeyrã mba’ete –– eiporukuaa erujey hag̃ua ne mba’ekuaarã
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Eñepyrũ
 # Link to cancel account recovery key change and return to settings

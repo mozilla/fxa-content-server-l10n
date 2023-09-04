@@ -471,7 +471,7 @@ sub-item-stay-sub = Mboheraguapy guereko
 ## $period (Date) - The last day of product access
 
 sub-item-cancel-msg =
-    Ndojepurukuaamo’ãi { $name } pe
+    Ndojeporukuaamo’ãi { $name } pe
     { $period } rire, pe ára paha iñemuhakuatia hag̃ua.
 sub-item-cancel-confirm =
     Ehejarei che jeikeha ha che marandu ñongatupyre
