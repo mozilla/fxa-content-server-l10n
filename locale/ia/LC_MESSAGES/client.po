@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-08-07 16:03+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2023-09-04 13:21+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -114,11 +114,11 @@ msgstr "Altere"
 
 #: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escapedLowercaseTopic)s</b>. Nos te contingera via e-mail le plus tosto possibile."
+msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escapedLowercaseTopic)s</b>. Nos te contactara via e-mail le plus tosto possibile."
 
 #: .es5/views/support.js:233
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escapedLowercaseTopic)s</b> pro <b>%(escapedSelectedProduct)s</b>. Nos te contingera via e-mail le plus tosto possibile."
+msgstr "Gratias pro entrar in contacto con le supporto de Mozilla sur <b>%(escapedLowercaseTopic)s</b> pro <b>%(escapedSelectedProduct)s</b>. Nos te contactara via e-mail le plus tosto possibile."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
@@ -1516,11 +1516,11 @@ msgstr "Subscriptiones"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr "Continge nos"
+msgstr "Contacta nos"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr "Proque continge tu nos?"
+msgstr "Proque nos contacta tu?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"

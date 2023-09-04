@@ -219,10 +219,10 @@ fraudulentAccountDeletion-subject = Tu { -product-firefox-account } ha essite de
 fraudulentAccountDeletion-title = Tu conto ha essite delite
 fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
-fraudulentAccountDeletion-contact = Si tu ha ulle questiones, continge nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
+fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-fraudulentAccountDeletion-contact-plaintext = Si tu ha ulle questiones, continge nostre equipa de assistentia: { $mozillaSupportUrl }
+fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu ha terminate le codices de authentication de salvamento!
 codes-reminder-title-one = Tu es a tu ultime codice de authentication de salvamento
