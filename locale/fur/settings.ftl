@@ -1239,6 +1239,9 @@ complete-reset-password-recovery-key-link = Ripristine la tô password cu la tô
 # Second step of password reset flow for Firefox accounts
 # Header confirming that a password reset email has been sent to the user's email address
 confirm-pw-reset-header = E-mail par ristabilî la password inviade
+# Instructions to continue the password reset process
+# { $email } is the email entered by the user and where the password reset instructions were sent
+confirm-pw-reset-instructions = Fâs clic sul colegament mandât vie e-mail a { $email } dentri de prossime ore par creâ une gnove password.
 
 ## ResetPassword page
 
