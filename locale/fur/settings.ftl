@@ -1224,7 +1224,7 @@ account-recovery-reset-password-redirecting = Dirotament
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header = Cree gnove password
-complete-reset-password-warning-message-2 = <span>Visiti:</span> Cuant che tu ripristinis la tô password, tu ripristinis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
+complete-reset-password-warning-message-2 = <span>Visiti:</span> Cuant che tu ristabilissis la tô password, tu ristabilissis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Password stabilide
@@ -1252,6 +1252,10 @@ reset-password-heading-w-default-service = Ristabilìs la password <span>par con
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Ristabilìs la password <span>par continuâ su { $serviceName }</span>
+reset-password-warning-message-2 = <span>Note:</span> Cuant che tu ristabilissis la tô password, tu ristabilissis ancje il to account. Tu podaressis pierdi cualchidune des tôs informazions personâls (includûts cronologjie, segnelibris e passwords). Chest al sucêt parcè che o cifrìn i tiei dâts cu la tô password, par protezi la tô riservatece. Dut câs tu mantignarâs ducj i abonaments che tu varâs fat e i dâts di { -product-pocket } no vignaran tocjâts.
+# Users type their email address in this field to start a password reset
+reset-password-password-input =
+    .label = E-mail
 
 ## CompleteSignin component
 
