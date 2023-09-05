@@ -1256,9 +1256,19 @@ reset-password-warning-message-2 = <span>Note:</span> Cuant che tu ristabilissis
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = E-mail
+reset-password-button = Scomence ripristinament
+# Error message displayed in a tooltip when a user attempts to submit a password reset form without entering an email address
+reset-password-email-required-error = E-mail necessarie
+reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
+reset-password-with-recovery-key-verified-generate-new-key = Gjenere une gnove clâf di recupar dal account
+reset-password-with-recovery-key-verified-continue-to-account = Continue sul gno account
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Erôr:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Convalide dal acès…
 
 ## ConfirmSignin component
 
