@@ -1272,6 +1272,7 @@ validating-signin = Convalide dal acès…
 
 ## ConfirmSignin component
 
+confirm-signin-header = Conferme chest acès
 
 ## Signin page
 
