@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-09-05 14:29+0000\n"
+"PO-Revision-Date: 2023-09-05 14:35+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -332,7 +332,7 @@ msgstr "Mba’ete oĩmavoi"
 
 #: .es5/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr "Poruha ojekuaa’ỹva"
+msgstr "Mba’ete ojekuaa’ỹva"
 
 #: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -745,7 +745,7 @@ msgstr "Marandu ha tekopyahu tekorosã ha tekoñemirãve"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
-msgstr "Poruha ojekuaa’ỹva"
+msgstr "Joguaha ojekuaa’ỹva"
 
 #: .es5/lib/oauth-errors.js:31
 msgid "Incorrect redirect_uri"
