@@ -1273,6 +1273,8 @@ validating-signin = Convalide dal acès…
 ## ConfirmSignin component
 
 confirm-signin-header = Conferme chest acès
+# { $email } is the email entered by the user and where the signin confirmation link was sent
+confirm-signin-message = Controle la tô casele di pueste pe conferme di acès mandade a { $email }
 
 ## Signin page
 
