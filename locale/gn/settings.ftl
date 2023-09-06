@@ -201,7 +201,7 @@ reset-pwd-link-damaged-header = Juajuha eguerujey hag̃ua ñe’ẽñemi oñemby
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Juajuha hechajeyha oñembyai
 # The user followed a password reset or confirmation link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
 
 ## LinkExpired component
 

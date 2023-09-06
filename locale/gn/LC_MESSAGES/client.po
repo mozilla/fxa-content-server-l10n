@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-09-05 14:35+0000\n"
+"PO-Revision-Date: 2023-09-06 15:56+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -408,7 +408,7 @@ msgstr "Ndaikatúi emondo ñanduti veve"
 
 #: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
-msgstr "Ko ñanduti veve ohechajeýma ambue puruhára"
+msgstr "Ko ñanduti veve ohechajeýma ambue poruhára"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
@@ -797,15 +797,15 @@ msgstr "Ndojejuhúi ta’ãha OAuth: %(param)s"
 
 #: .es5/lib/oauth-errors.js:174
 msgid "User is not signed in"
-msgstr "Puruhára ñoñepyrũi tembiapo"
+msgstr "Poruhára ñoñepyrũi tembiapo"
 
 #: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
-msgstr "Puruhára ambuéva omoñepyrũ tembiapo"
+msgstr "Poruhára ambuéva omoñepyrũ tembiapo"
 
 #: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
-msgstr "Puruhára térã tembiapo jehechajey’ỹva"
+msgstr "Poruhára térã tembiapo jehechajey’ỹva"
 
 #: .es5/lib/oauth-errors.js:189
 msgid "Invalid id_token_hint"
@@ -945,7 +945,7 @@ msgstr "Juajuha eguerujey hag̃ua ñe’ẽñemi oñembyai"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve puruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire."
+msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1711,7 +1711,7 @@ msgstr "Mboheraguapy %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Noĩmbái taikuéra juajuha eikutuva’ekuépe ha ikatu kuri pe ñanduti veve puruhára omondoho."
+msgstr "Noĩmbái taikuéra juajuha eikutuva’ekuépe ha ikatu kuri pe ñanduti veve poruhára omondoho."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
