@@ -1278,6 +1278,14 @@ confirm-signin-message = Controle la tô casele di pueste pe conferme di acès m
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header = Inserìs la password <span>pal to { -product-firefox-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continue su { $serviceName }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
