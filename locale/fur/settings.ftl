@@ -1286,6 +1286,12 @@ signin-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continue su { $serviceName }
+signin-subheader-without-logo-default = Passe aes impostazions dal account
+signin-button = Jentre
+signin-header = Jentre
+signin-use-a-different-account-link = Dopre un altri account
+signin-forgot-password-link = Password dismenteade?
+signin-bounced-header = Nus displâs, l’account al è stât blocât.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
