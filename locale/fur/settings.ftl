@@ -1292,6 +1292,12 @@ signin-header = Jentre
 signin-use-a-different-account-link = Dopre un altri account
 signin-forgot-password-link = Password dismenteade?
 signin-bounced-header = Nus displâs, l’account al è stât blocât.
+# $email (string) - The user's email.
+signin-bounced-message = La e-mail di conferme che o vin mandât a { $email } e je tornade indaûr. Duncje o vin blocât il to account par protezi i tiei dâts di { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Se tu sâs di vê inseride une direzion e-mail valide, <linkExternal>contatinus</linkExternal> e ti judarìn a sblocâ l’account.
+signin-bounced-create-new-account = No tu controlis plui chê e-mail? Cree un gnûf account
+back = Indaûr
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
