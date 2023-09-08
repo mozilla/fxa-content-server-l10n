@@ -104,10 +104,15 @@ payment-plan-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Payment Method:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
 # Variables:
-#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType } card ending in { $lastFour }
+credit-card-ending-in = { $cardName } card ending in { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Unknown card ending in { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Invoice Number: <b>{ $invoiceNumber }</b>
@@ -515,7 +520,6 @@ subscriptionUpgrade-upgrade-info = You have successfully upgraded from { $produc
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }. At that time you will also be charged a one-time fee of { $paymentProrated } to reflect the higher charge for the remainder of this { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = You will be charged a one-time fee of { $paymentProrated } to reflect your subscription’s higher price for the remainder of this { $productPaymentCycleOld }. Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN

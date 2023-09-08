@@ -70,7 +70,10 @@ new-user-enter-email =
     .label = Enter your email
 new-user-confirm-email =
     .label = Confirm your email
-new-user-subscribe-product-updates = I’d like to receive product updates from { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = I’d like to receive product news and updates from { -brand-mozilla }
+new-user-subscribe-product-updates-snp = I’d like to receive security and privacy news and updates from { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = I’d like to receive product news and updates from { -product-mozilla-hubs } and { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = I’d like to receive product news and updates from { -product-mdn-plus } and { -brand-mozilla }
 new-user-subscribe-product-assurance = We only use your email to create your account. We will never sell it to a third party.
 new-user-email-validate = Email is not valid
 new-user-email-validate-confirm = Emails do not match
@@ -89,6 +92,8 @@ payment-confirmation-thanks-subheading = A confirmation email has been sent to {
 payment-confirmation-thanks-subheading-account-exists = You’ll receive an email at { $email } with instructions for setting up your account, as well as your payment details.
 payment-confirmation-order-heading = Order details
 payment-confirmation-invoice-number = Invoice #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Payment information
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -434,14 +439,28 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Review your change
 sub-change-failed = Plan change failed
-sub-update-copy =
-    Your plan will change immediately, and you’ll be charged an adjusted
-    amount for the rest of your billing cycle. Starting { $startingDate }
+sub-update-acknowledgment =
+    Your plan will change immediately, and you’ll be charged a prorated
+    amount today for the rest of this billing cycle. Starting { $startingDate }
     you’ll be charged the full amount.
 sub-change-submit = Confirm change
 sub-update-current-plan-label = Current plan
 sub-update-new-plan-label = New plan
 sub-update-total-label = New total
+sub-update-prorated-upgrade = Prorated Upgrade
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (Daily)
+sub-update-new-plan-weekly = { $productName } (Weekly)
+sub-update-new-plan-monthly = { $productName } (Monthly)
+sub-update-new-plan-yearly = { $productName } (Yearly)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 

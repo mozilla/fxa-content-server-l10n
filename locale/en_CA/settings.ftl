@@ -14,20 +14,34 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email resent. Add { $accountsEmail } to your contacts to ensure a smooth delivery.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Something went wrong. A new link could not be sent.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Something went wrong. A new code could not be sent.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = SAVE YOUR ACCOUNT RECOVERY KEY
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Download and continue
+    .title = Download and continue
+recovery-key-pdf-heading = Account Recovery Key
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Generated: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Account Recovery Key
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Store this file containing your account recovery key in a place you’ll remember. Or print it and keep a physical copy. Your account recovery key can help you recover { -brand-firefox } data if you forget your password.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = This key allows you to recover your encrypted browser data (including passwords, bookmarks, and history) if you forget your password. Store it in a place you’ll remember.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Places to store your key
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Learn more about your account recovery key
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Sorry, there was a problem downloading your account recovery key.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -373,24 +387,50 @@ flow-container-back = Back
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Re-enter your password for security
 flow-recovery-key-confirm-pwd-input-label = Enter your password
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Create account recovery key
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Create new account recovery key
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Account recovery key created — Download and store it now
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = This key allows you to recover your data if you forget your password. Download it now and store it somewhere you’ll remember — you won’t be able to return to this page later.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Continue without downloading
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Places to store your key:
+flow-recovery-key-download-storage-ideas-folder-v2 = Folder on secure device
+flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
+flow-recovery-key-download-storage-ideas-print-v2 = Printed physical copy
+flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the fourth step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Add a hint to help find your key
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = This hint should help you remember where you stored your account recovery key. We can show it to you during the password reset to recover your data.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Enter a hint (optional)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Finish
-flow-recovery-key-download-storage-ideas-cloud = Trusted cloud storage
-flow-recovery-key-download-storage-ideas-pwd-manager = Password manager
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Account recovery key created
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = The hint must contain fewer than 255 characters.
@@ -404,6 +444,12 @@ flow-recovery-key-hint-unsafe-char-error = The hint cannot contain unsafe unicod
 flow-recovery-key-info-header = Create an account recovery key in case you forget your password
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Change your account recovery key
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = We encrypt browsing data –– passwords, bookmarks, and more. It’s great for privacy, but you may lose your data if you forget your password.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = That’s why creating an account recovery key is so important –– you can use it to restore your data.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Get started
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancel
 
@@ -422,8 +468,10 @@ la-heading = Linked Accounts
 la-description = You have authorized access to the following accounts.
 la-unlink-button = Unlink
 la-unlink-account-button = Unlink
+la-set-password-button = Set Password
 la-unlink-heading = Unlink from third party account
 la-unlink-content-3 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of your Connected Services. To do that, you will need to manually sign out from the Connected Services section.
+la-unlink-content-4 = Before unlinking your account, you must set a password. Without a password, there is no way for you to log in after unlinking your account.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -586,6 +634,33 @@ display-name-success-alert-2 = Display name updated
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Recent account activity
+recent-activity-account-create-v2 = Account created
+recent-activity-account-disable-v2 = Account disabled
+recent-activity-account-enable-v2 = Account enabled
+recent-activity-account-login-v2 = Account login initiated
+recent-activity-account-reset-v2 = Password reset initiated
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Email bounces cleared
+recent-activity-account-login-failure = Account login attempt failed
+recent-activity-account-two-factor-added = Two-step authentication enabled
+recent-activity-account-two-factor-requested = Two-step authentication requested
+recent-activity-account-two-factor-failure = Two-step authentication failed
+recent-activity-account-two-factor-success = Two-step authentication successful
+recent-activity-account-two-factor-removed = Two-step authentication removed
+recent-activity-account-password-reset-requested = Account requested password reset
+recent-activity-account-password-reset-success = Account password reset successful
+recent-activity-account-recovery-key-added = Account recovery key enabled
+recent-activity-account-recovery-key-verification-failure = Account recovery key verification failed
+recent-activity-account-recovery-key-verification-success = Account recovery key verification successful
+recent-activity-account-recovery-key-removed = Account recovery key removed
+recent-activity-account-password-added = New password added
+recent-activity-account-password-changed = Password changed
+recent-activity-account-secondary-email-added = Secondary email address added
+recent-activity-account-secondary-email-removed = Secondary email address removed
+recent-activity-account-emails-swapped = Primary and secondary emails swapped
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Other account activity
 
 # Account recovery key setup page
 
@@ -718,6 +793,8 @@ security-password-created-date = Created { $date }
 security-not-set = Not Set
 security-action-create = Create
 security-set-password = Set a password to sync and use certain account security features.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = View recent account activity
 
 ## Switch component
 
@@ -850,6 +927,9 @@ auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
 auth-error-105-2 = Invalid confirmation code
 auth-error-110 = Invalid token
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = You’ve tried too many times. Please try again later.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
@@ -859,6 +939,7 @@ auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
+auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
 auth-error-999 = Unexpected error
 auth-error-1003 = Local storage or cookies are still disabled
@@ -1111,10 +1192,6 @@ account-recovery-confirm-key-input =
     .label = Enter account recovery key
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Confirm account recovery key
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Invalid account recovery key
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Account recovery key required
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Don’t have an account recovery key?
 
@@ -1140,7 +1217,8 @@ complete-reset-password-success-alert = Password set
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Sorry, there was a problem setting your password
-complete-reset-password-recovery-key-error = Sorry, there was a problem checking if you have an account recovery key. <hasRecoveryKeyErrorLink>Reset your password with your account recovery key.</hasRecoveryKeyErrorLink>
+complete-reset-password-recovery-key-error-v2 = Sorry, there was a problem checking if you have an account recovery key.
+complete-reset-password-recovery-key-link = Reset your password with your account recovery key.
 
 ## Confirm Reset Password Component
 
