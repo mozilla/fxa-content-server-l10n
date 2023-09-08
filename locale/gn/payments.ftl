@@ -74,7 +74,7 @@ new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñemb
 new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 new-user-subscribe-product-updates-hubs = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mozilla-hubs } ha { -brand-mozilla } apopyre rehegua
 new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mdn-plus } ha { -brand-mozilla } apopyre rehegua
-new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
+new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
 new-user-already-has-account-sign-in = Erekóma ne mba’ete. <a>Eñepyrũ tembiapo</a>
@@ -159,9 +159,9 @@ payment-validate-name-error = Emoinge nde réra
 
 ## Component - PaymentLegalBlurb
 
-payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oiporu { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua purureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }ñemigua purureko</paypalPrivacyLink>.
-payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-copy-paypal = { -brand-name-mozilla } oiporu { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink>.
