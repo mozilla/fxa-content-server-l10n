@@ -1320,24 +1320,60 @@ signin-recovery-code-back-link = Indaûr
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Al covente il codiç di autenticazion di backup
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Graciis pe tô atenzion
+signin-reported-message = Il nestri grup al è stât visât. Lis segnalazions come chestis nus judin a tignî lontans i intrûs.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+signin-token-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
+signin-token-code-input-label-v2 = Inserìs il codiç a 6 cifris
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Conferme
+signin-token-code-code-expired = Codiç scjadût?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Mande e-mail cul gnûf codiç.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Codiç di conferme necessari
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Inserìs il codiç di autenticazion <span>par continuâ cu lis impostazions dal account</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-totp-code-heading-w-custom-service-v2 = Inserìs il codiç di autenticazion <span>par continuâ su { $serviceName }</span>
+signin-totp-code-instruction-v2 = Vierç la aplicazion di autenticazion e inserìs il codiç di autenticazion che ti da.
+signin-totp-code-input-label-v2 = Inserìs il codiç a 6 cifris
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Conferme
+signin-totp-code-other-account-link = Dopre un altri account
+signin-totp-code-recovery-code-link = Problemis a inserî il codiç?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Codiç di autenticazion necessari
 
 ## Confirm page
 ## Users will see this page if a verification link was sent to their email address
 ## when setting up a new account
 
+confirm-signup-heading = Conferme il to account
+# { $email } is the email entered by the user and where the signup confirmation link was sent
+confirm-signup-instruction = Controle la tô casele di pueste pal colegament di conferme mandât a { $email }
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1345,7 +1381,38 @@ signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Inserìs il codiç di conferme
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
+# can stand alone as "{ -product-firefox-account }"
+confirm-signup-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
+confirm-signup-code-input-label = Inserìs il codiç a 6 cifris
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Conferme
+confirm-signup-code-code-expired = Codiç scjadût?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Mande e-mail cul gnûf codiç.
+confirm-signup-code-success-alert = Account confermât cun sucès
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Definìs la tô password
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+# <LinkExternal> leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-info-banner-for-pocket = Percè mi covential creâ chest account? <LinkExternal>Scuvierzilu achì</LinkExternal>
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Cambie e-mail
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = Trops agns âstu?
+# Error displayed in a tooltip when the user attempts to submit the form without filling in their age
+signup-age-check-input-error = Par completâ la regjistrazion tu scugnis inserî la tô etât
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Parcè ti domandìno?
