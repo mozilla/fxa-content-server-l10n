@@ -1304,6 +1304,22 @@ back = Indaûr
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Inserìs il codiç di autenticazion di backup <span>par continuâ cu lis impostazions dal account</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+signin-recovery-code-heading-w-custom-service = Inserìs il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
+signin-recovery-code-instruction = Inserìs un dai codiç di autenticazion di backup che ti son stâts dâts dilunc la configurazion de autenticazion in doi passaçs.
+signin-recovery-code-input-label = Inserìs il codiç di autenticazion di backup di 10 cifris
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Conferme
+# Link to return to signin with two-step authentication code
+signin-recovery-code-back-link = Indaûr
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
