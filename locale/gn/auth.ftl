@@ -200,12 +200,12 @@ cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
-cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eipurusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
+cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
 cadReminderFirst-description-2 = Mbojuehe ipya’eterei.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
-cadReminderSecond-description-sync = Embojoaju ne kundaha, ñe’ẽñemi, vore ojepe’áva ha hetave mba’e — tembiporu’i rupi eipuruhápe { -brand-firefox }.
+cadReminderSecond-description-sync = Embojoaju ne kundaha, ñe’ẽñemi, vore ojepe’áva ha hetave mba’e — tembiporu’i rupi eiporuhápe { -brand-firefox }.
 cadReminderSecond-description-plus = Avei, ne marandu akóinte oñemboheko. Nde ha umi tembiporu reguerohorýva añoite ikatu rehecha umíva.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -213,7 +213,7 @@ downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = ¡Eg̃uahẽporãite { $productName }-pe!
-downloadSubscription-content-2 = Ñañepyrũkatu jaipuru opaite tembiapoite oikéva ne ñemboheraguapýpe:
+downloadSubscription-content-2 = Ñañepyrũkatu jaiporu opaite tembiapoite oikéva ne ñemboheraguapýpe:
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
@@ -258,7 +258,7 @@ passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-acco
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
-passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
+passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
 passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
@@ -269,12 +269,12 @@ passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba�
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuãi’ỹre
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
-passwordResetAccountRecovery-description-2 = Eipuru ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
+passwordResetAccountRecovery-description-2 = Eiporu ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
-passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eipuruva’ekue.
+passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eipuruva’ekue.
+passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Information on the browser and device triggering this string follows.
@@ -295,14 +295,14 @@ postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Embojuruja upe guive:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
-postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembipuru’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
+postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembiporu’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Emoambue hekopete ne ñandutiveve eipuruvéva { $email }. Ko kundaharape ha’e nde poruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
+postChangePrimary-description = Emoambue hekopete ne ñandutiveve eiporuvéva { $email }. Ko kundaharape ha’e nde poruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 postChangePrimary-action = Mba’ete ñangareko
-postConsumeRecoveryCode-title-2 = Reipurureína auvu ñemoneĩ jeykekoha
+postConsumeRecoveryCode-title-2 = Reiporureína auvu ñemoneĩ jeykekoha
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ojepuru amo:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
