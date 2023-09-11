@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-09-08 15:00+0000\n"
+"PO-Revision-Date: 2023-09-11 18:14+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1227,7 +1227,7 @@ msgstr "Emoinge ayvu nde poitépe"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Emoha’ãnga QR ayvu ne rembipuru’i jeguerujeyrãpe ha emoinge pe ayvu rekorosã ome’ẽva."
+msgstr "Emoha’ãnga QR ayvu ne rembiporu’i jeguerujeyrãpe ha emoinge pe ayvu rekorosã ome’ẽva."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1239,7 +1239,7 @@ msgstr "Emoĩmba vove, oñepyrũta omoheñói ayvu rekorosãrã eikekuaa hag̃ua
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr "Ehai ko mba’eñemi ne rembipuru’i ñemoneĩgua"
+msgstr "Ehai ko mba’eñemi ne rembiporu’i ñemoneĩgua"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1439,7 +1439,7 @@ msgstr "Emoinge ayvu hekorosãva"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Embojuruja ne rembipuru’i ñemoneĩha ha emoinge tekorosã ayvu eipotáva."
+msgstr "Embojuruja ne rembiporu’i ñemoneĩha ha emoinge tekorosã ayvu eipotáva."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
@@ -1764,7 +1764,7 @@ msgstr "Ajapóta ag̃amieve, chemomandu’amína"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr "Emboguejy Firefox ne rembipuru’i ra’ãnohẽhápe"
+msgstr "Emboguejy Firefox ne rembiporu’i ra’ãnohẽhápe"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -1780,7 +1780,7 @@ msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Emyandy ne mba�
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr "Embojuruja ta’ãngamýi rembipuru’i ne mba’e’okápe"
+msgstr "Embojuruja ta’ãngamýi rembiporu’i ne mba’e’okápe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
@@ -1796,7 +1796,7 @@ msgstr "Eike ne mba’etépe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Embojuruja ta’ãngamýi rembipuru’i ne mba’e’okápe"
+msgstr "<span class=\"number\">1</span>Embojuruja ta’ãngamýi rembiporu’i ne mba’e’okápe"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
@@ -2037,4 +2037,4 @@ msgstr "Eike eipurúvo tembiporu’i"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru’i rupive."
+msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembiporu’i rupive."

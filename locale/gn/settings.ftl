@@ -745,7 +745,7 @@ tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
-    ñemoneĩrã rembipuru’i</linkExternal>.
+    ñemoneĩrã rembiporu’i</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -757,7 +757,7 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
 # When the user cannot use a QR code.
-tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
+tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembiporu’i ñemoneĩmbýpe:
 tfa-enter-totp-v2 = Emoinge ko’ág̃a tekorosã guerujeyrã tembiporu’i guerujeyrãpe.
 tfa-input-enter-totp-v2 =
     .label = Emoinge ayvu guerujeyrã
@@ -1064,9 +1064,9 @@ inline-totp-setup-show-qr-default-service-header-2 = Emoha’ãnga ayvu ñemone�
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Ehai ayvu nde pópe <span>eku’e hag̃ua mba’ete ñembohekópe</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Emoinge mba’e ñemi ñemoneĩrã rembipuru’ípe. <toggleToQRButton>¿ Emoha’ãnga QR ayvu hekovia?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Emoinge mba’e ñemi ñemoneĩrã rembiporu’ípe. <toggleToQRButton>¿ Emoha’ãnga QR ayvu hekovia?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Emoha’ãnga QR ayvu ñemoneĩrã rembipuru’ípe ha upéi emoinge pe ayvu me’ẽmbyre. <toggleToManualModeButton>¿Ndaikatúi oñemoha’ãnga pe ayvu?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Emoha’ãnga QR ayvu ñemoneĩrã rembiporu’ípe ha upéi emoinge pe ayvu me’ẽmbyre. <toggleToManualModeButton>¿Ndaikatúi oñemoha’ãnga pe ayvu?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Emoĩmba vove, oñepyrũta omoheñóifta ayvu rekorosãrã eikekuaa hag̃ua.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1122,7 +1122,7 @@ auth-totp-heading-w-default-service = Emoinge ayvu guerujeyrã <span>eku’e hag
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Ehai ayvu ñemoneĩgua jeykekoha <span>eku’e hag̃ua ndive { $serviceName }</span>
-auth-totp-instruction = Embojuruja ne rembipuru’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
+auth-totp-instruction = Embojuruja ne rembiporu’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
 auth-totp-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Moneĩ
@@ -1187,7 +1187,7 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Eike eipurúvo tembiporu’i
-pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembipuru’i rupive.
+pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembiporu’i rupive.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1362,7 +1362,7 @@ signin-totp-code-heading-w-default-service-v2 = Emoinge ayvu guerujeyrã <span>e
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-totp-code-heading-w-custom-service-v2 = Ehai ayvu ñemoneĩgua <span>eku’e hag̃ua { $serviceName }</span> peve
-signin-totp-code-instruction-v2 = Embojuruja ne rembipuru’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
+signin-totp-code-instruction-v2 = Embojuruja ne rembiporu’i ñemoneĩgua ha emoinge ayvu ñemoneĩgua eipotáva.
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
