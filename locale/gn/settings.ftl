@@ -762,7 +762,7 @@ tfa-enter-totp-v2 = Emoinge ko’ág̃a tekorosã guerujeyrã tembiporu’i guer
 tfa-input-enter-totp-v2 =
     .label = Emoinge ayvu guerujeyrã
 tfa-save-these-codes-1 =
-    Eñongatu ko’ã ayvu ñemoneĩrã ijepuru peteĩva tenda hekorosãvévape
+    Eñongatu ko’ã ayvu ñemoneĩrã ijeporu peteĩva tenda hekorosãvévape
     ndereguerekói jave ne pumbyry jeheguáva.
 tfa-enter-code-to-confirm-1 =
     Ikatúpa, emoinge peteĩva ayvu jeguerujeyrã jeykekoha
@@ -1021,7 +1021,7 @@ inline-recovery-setup-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span
 # $serviceName - the name of the service which is using Firefox accounts to authenticate
 inline-recovery-setup-header = Erujey ayvu jeguerujeyrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
 # Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry.
+inline-recovery-setup-message = Eñongatu ko’ã ayvu ijeporu peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Heja

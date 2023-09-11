@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 20:10+0000\n"
-"PO-Revision-Date: 2023-09-11 18:14+0000\n"
+"PO-Revision-Date: 2023-09-11 18:42+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1172,7 +1172,7 @@ msgstr "Eñongatu ayvu ñemoneĩrã jeykekoha"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry."
+msgstr "Eñongatu ko’ã ayvu ijeporu peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
