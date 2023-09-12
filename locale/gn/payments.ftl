@@ -376,11 +376,11 @@ basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
 payment-error-3b = Oiko peteĩ jejavy eha’arõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
-insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
-withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
-charge-exceeds-source-limit = Ko ne ñemungue ohasáma pe viru peteĩ aragua eguerekóvape. Eipuru ambue kuatia’atã térã ohasa rire 24 aravo.
-instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepyme’ẽrãicha. Eipuru kuatia’atã viruñongatuha térã ñemurãva.
+expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
+insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
+withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eiporu ambue kuatia’atã.
+charge-exceeds-source-limit = Ko ne ñemungue ohasáma pe viru peteĩ aragua eguerekóvape. Eiporu ambue kuatia’atã térã ohasa rire 24 aravo.
+instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepyme’ẽrãicha. Eiporu kuatia’atã viruñongatuha térã ñemurãva.
 duplicate-transaction = Épa. Oñemondoramoite peteĩ mba’e ojueheguaitéva. Ehecha ne ñehepyme’ẽ rembiasakue.
 coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
 card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñemurã rehegua ha eha’ãjey uperire.
@@ -544,7 +544,7 @@ manage-pocket-body-2 = Eñagareko hag̃ua, <linkExternal>eikutu ápe</linkExtern
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
-reactivate-confirm-dialog-header = ¿Eipuruse gueteri { $name }?
+reactivate-confirm-dialog-header = ¿Eiporuse gueteri { $name }?
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access

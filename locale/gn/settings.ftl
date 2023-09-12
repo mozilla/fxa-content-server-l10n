@@ -233,7 +233,7 @@ remember-pw-link = ¿Nemandu’a ne ñe’ẽñemíre? Eñepyrũ tembiapo
 primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
-confirmation-link-reused-message = Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eipuru.
+confirmation-link-reused-message = Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -247,7 +247,7 @@ password-strength-balloon-heading = Ñe’ẽñemi oikotevẽva
 password-strength-balloon-min-length = Michĩvéramo 8 tai
 password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
 password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojepurumeméva
-password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eipurujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
+password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
 ## Ready component
 
@@ -257,9 +257,9 @@ ready-start-browsing-button = Eikundaha ñepyrũ
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Ko’ág̃a eipurukuaáma { $serviceName }
+ready-use-service = Ko’ág̃a eiporukuaáma { $serviceName }
 # The user successfully accomplished a task (password reset, confirm email) that lets them use their account
-ready-use-service-default = Eipurukuaáma pe mba’ete ñemboheko
+ready-use-service-default = Eiporukuaáma pe mba’ete ñemboheko
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = ¡Ne mba’ete oĩmbáma!
 ready-continue = Ku’ejey
@@ -565,7 +565,7 @@ pw-not-email = Iñambue ne ñanduti veve kundaharapégui
 pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
 pw-commonly-used = Ndaha’éi ñe’ẽñemi ojepurumeméva
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-tips = Epyta porã — ani reipuru jey ñe’ẽñemi. Eikuaave ñe’ẽñemi <linkExternal>emoheñói hag̃ua ñe’ẽñemi mbarete</linkExternal>.
+pw-tips = Epyta porã — ani reiporu jey ñe’ẽñemi. Eikuaave ñe’ẽñemi <linkExternal>emoheñói hag̃ua ñe’ẽñemi mbarete</linkExternal>.
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
 pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
@@ -612,7 +612,7 @@ delete-account-chk-box-1-v3 =
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
-    .label = Ikatu eipurujeýrõ ko ñanduti veve ndogueruvéima marandu ñongatupyre
+    .label = Ikatu eiporujeýrõ ko ñanduti veve ndogueruvéima marandu ñongatupyre
 delete-account-chk-box-4 =
     .label = Oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe oñemboguepáta
 delete-account-continue-button = Ku’ejey
@@ -751,7 +751,7 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
-    Eipuru { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
+    Eiporu { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
     tembiporu’i ojokupytývape.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
@@ -806,7 +806,7 @@ security-password =
 security-password-created-date = Heñoipyre { $date }
 security-not-set = Heko’ỹva
 security-action-create = Moheñói
-security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eipuru peteĩva mba’ete rekorosã rembiapoite.
+security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eiporu peteĩva mba’ete rekorosã rembiapoite.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Ejecha mba’ete rembiapo ramoguavéva
 
@@ -845,7 +845,7 @@ rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiap
 rk-remove-modal-heading-1 = Embogue mba’ete mba’eñemi jeguerujeyrã
 rk-remove-modal-content-1 =
     Emoĩporãsejeýramo ne ñe’ẽñemi, ndaikatumo’ãi
-    eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
+    eiporu mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Embogue mba’ete mba’eñemi guerujeyrã
@@ -859,8 +859,8 @@ se-cannot-resend-code-3 = Ore ñyrõ, oiko apañuãi emondojeykuévo ayvu jehech
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful-2 = { $email } ha’e ñanduti veve eipuruvéva
-se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipuruvéva
+se-set-primary-successful-2 = { $email } ha’e ñanduti veve eiporuvéva
+se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eiporuvéva
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -905,7 +905,7 @@ tfa-row-cannot-refresh =
     mokõi jeku’egua.
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
-    ayvu peteĩva ndénte eipurukuaáva.
+    ayvu peteĩva ndénte eiporukuaáva.
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
@@ -947,13 +947,13 @@ auth-error-105-2 = Ayvu ñemoneĩrã oiko’ỹva
 auth-error-110 = Token oiko’ỹva
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
-auth-error-114-generic = Eipuruse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve.
+auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
-auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
+auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
@@ -1145,7 +1145,7 @@ pair-failure-message = Opáma pe ñemboheko rape.
 ## Pair index page
 
 pair-sync-header = Embojuehe { -brand-firefox } pumbyry térã tablétape
-pair-cad-header = Eipuru { -brand-firefox } ambue mba’e’okápe
+pair-cad-header = Eiporu { -brand-firefox } ambue mba’e’okápe
 pair-already-have-firefox-paragraph = Erekóma { -brand-firefox } ne pumbyry térã tablétape
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Embojuehe ne mba’e’oka
@@ -1155,7 +1155,7 @@ pair-or-download-subheader = Térã emboguejy
 pair-scan-to-download-message = Emoha’ãnga emboguejy hag̃ua { -brand-firefox } pumbyrýpe g̃uarã térã emondo <linkExternal>mboguejy juajuha</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ani ko’ág̃a
-pair-take-your-data-message = Egueraha ne rendayke, techaukaha ha ñe’ẽñemi eipuruhápe { -brand-firefox }.
+pair-take-your-data-message = Egueraha ne rendayke, techaukaha ha ñe’ẽñemi eiporuhápe { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Eñepyrũ
 # This is the aria label on the QR code image
@@ -1186,8 +1186,8 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
-pair-unsupported-header = Eike eipurúvo tembiporu’i
-pair-unsupported-message = ¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembiporu’i rupive.
+pair-unsupported-header = Eike eiporúvo tembiporu’i
+pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembiporu’i rupive.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1293,7 +1293,7 @@ signin-subheader-without-logo-with-servicename = Eku’ejey { $serviceName }
 signin-subheader-without-logo-default = Eku’ejey mba’ete mbohekopyahúpe
 signin-button = Eñemboheraguapy
 signin-header = Eñemboheraguapy
-signin-use-a-different-account-link = Eipuru ambuéva mba’ete
+signin-use-a-different-account-link = Eiporu ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
 signin-bounced-header = Rombyasy. Rojokóma ne mba’ete.
 # $email (string) - The user's email.
@@ -1366,7 +1366,7 @@ signin-totp-code-instruction-v2 = Embojuruja ne rembiporu’i ñemoneĩgua ha em
 signin-totp-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
-signin-totp-code-other-account-link = Eipuru ambuéva mba’ete
+signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
 signin-totp-code-recovery-code-link = ¿Apañuãi emoinge hag̃ua ayvu?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
