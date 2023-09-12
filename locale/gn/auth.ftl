@@ -416,8 +416,8 @@ subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } 
 subscriptionDowngrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycleOld } guive.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
-subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eiporu hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
+subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
@@ -434,8 +434,8 @@ subscriptionFirstInvoice-title = Aguyje eñemboheraguapýre { $productName }-pe
 subscriptionFirstInvoice-content-processing = Rehepyme’ẽva oku’éma ko’ag̃aite ha ikatu imbeguemi ohupytykuaáva irundy ára oĩmbávo.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install-2 = Og̃uahẽta ñanduti veve peteĩteĩ mba’éichapa eipurukuaáta { $productName }.
-subscriptionFirstInvoice-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+subscriptionFirstInvoice-content-install-2 = Og̃uahẽta ñanduti veve peteĩteĩ mba’éichapa eiporukuaáta { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
@@ -523,8 +523,8 @@ subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guiv
 subscriptionUpgrade-content-charge-info-different-cycle = Rehepyme’ẽta peteĩ jeýnte { $paymentProrated }-pe ojehecha hag̃ua hepyvéva ne ñemboheraguapy hembýva ko { $productPaymentCycleOld } reheguágui. Ehepyme’ẽjeýtavo oútavape, pe tepykue ypyguáva iñambuéta { $paymentAmountOld } rupi { $productPaymentCycleOld } { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
-subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eiporu hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
+subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
 unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
@@ -551,7 +551,7 @@ verificationReminderSecond-second-description = Nde { -product-firefox-account }
 verificationReminderSecond-sub-description-2 = Eike ore rembipotápe emoambuekuaa hag̃ua ñanduti peteĩ tenda ijurujáva opavavépe g̃uarã.
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
-verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
+verify-description = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action-2 = Emoneĩjey mba’ete
 # Variables:
@@ -568,9 +568,9 @@ verifyLoginCode-subject-line-2 = Emoneĩ tembiapo ñepyrũ { $serviceName } rupi
 verifyLoginCode-title-2 = ¿Emoñepyrũ tembiapo { $serviceName } ndive?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
-verifyLoginCode-prompt-3 = Upéicharõ, eipuru ko ayvu ñemoneĩrã:
+verifyLoginCode-prompt-3 = Upéicharõ, eiporu ko ayvu ñemoneĩrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
-verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
+verifyPrimary-title-2 = Emoneĩ ñanduti veve eiporuvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:
 verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action-2 = Ñanduti veve ñemoneĩ:
@@ -582,13 +582,13 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
-verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
+verifySecondaryCode-prompt-2 = Eiporu ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
 verifyShortCode-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
-verifyShortCode-prompt-3 = Eipuru ko ayvu ñemoneĩrã:
+verifyShortCode-title-subtext = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
+verifyShortCode-prompt-3 = Eiporu ko ayvu ñemoneĩrã:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
