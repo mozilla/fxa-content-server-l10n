@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 20:10+0000\n"
+"POT-Creation-Date: 2023-09-14 23:25+0000\n"
 "PO-Revision-Date: 2022-05-03 06:46+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "পাসওয়ার্ড সফলভাবে রিসেট হয়েছে। অব্যাহত রাখতে সাইন ইন করুন।"
 
 #. submit button
-#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "সাইন ইন"
 
-#: .es5/views/index.js:147
+#: .es5/views/index.js:148
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
@@ -105,7 +105,7 @@ msgstr "সংযুক্ত"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">সাইন আপ</a> "
 
-#: .es5/views/sign_up_password.js:62
+#: .es5/views/sign_up_password.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "অ্যাকাউন্টটি আর নেই। আবার খুলবেন?"
 
@@ -1080,7 +1080,7 @@ msgstr ""
 msgid "Email confirmed"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
 msgstr ""
 
@@ -1100,7 +1100,7 @@ msgstr "সেট আপ সম্পূর্ণ করতে অন্য ড�
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
 msgid "Not now"
 msgstr ""
 
@@ -1127,16 +1127,17 @@ msgstr ""
 msgid "Password"
 msgstr "পাসওয়ার্ড"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "ভিন্ন একটি অ্যাকাউন্ট ব্যবহার করুন"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
@@ -1160,7 +1161,7 @@ msgstr ""
 msgid "Sign up or sign in"
 msgstr ""
 
-#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr ""
 
@@ -1383,7 +1384,7 @@ msgstr ""
 msgid "No longer own that email? Create a new account"
 msgstr "আর সেই ইমেইলের মালিক নন? একটি নতুন অ্যাকাউন্ট তৈরি করুন"
 
-#: .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/sign_in_password.mustache:13
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
@@ -1742,7 +1743,7 @@ msgstr ""
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
 msgstr ""
 
@@ -1832,6 +1833,30 @@ msgstr "সম্পন্ন"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:2
+msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:3
+msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+msgid "Learn more"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:6
+msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
+msgid "Close Banner"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
@@ -1990,15 +2015,19 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
+msgid "Or download"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid ""
 "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:7
+#: .es5/templates/pair/index.mustache:8
 msgid "QR code"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr ""
 

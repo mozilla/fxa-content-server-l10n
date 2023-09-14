@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 20:10+0000\n"
+"POT-Creation-Date: 2023-09-14 23:25+0000\n"
 "PO-Revision-Date: 2023-08-05 02:48+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,12 +23,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Đã đặt lại mật khẩu. Đăng nhập để tiếp tục."
 
 #. submit button
-#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Đăng nhập"
 
-#: .es5/views/index.js:147
+#: .es5/views/index.js:148
 msgid "Account deleted successfully"
 msgstr "Đã xóa tài khoản thành công"
 
@@ -104,7 +104,7 @@ msgstr "Đã kết nối"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Không xác định được tài khoản. <a href=\"/signup\">Đăng ký</a>"
 
-#: .es5/views/sign_up_password.js:62
+#: .es5/views/sign_up_password.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Tài khoản không còn tồn tại. Tạo mới nó?"
 
@@ -503,9 +503,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
@@ -841,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -912,7 +912,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -1083,7 +1084,7 @@ msgstr "Bạn đã đăng nhập vào Firefox"
 msgid "Email confirmed"
 msgstr "Đã xác minh email"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
 msgstr "Hoàn thành thiết lập của bạn"
 
@@ -1103,7 +1104,7 @@ msgstr "Đăng nhập vào Firefox trên thiết bị khác để hoàn tất th
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "Bạn muốn nhận các thẻ, dấu trang và mật khẩu của mình trên một thiết bị khác?"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
 msgid "Not now"
 msgstr "Không phải bây giờ"
 
@@ -1133,15 +1134,19 @@ msgstr ""
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">chính sách riêng tư</a>."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">chính sách "
+"riêng tư</a>."
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Sử dụng một tài khoản khác"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Quên mật khẩu?"
 
@@ -1165,7 +1170,7 @@ msgstr "Tiếp tục đến <div class=\"graphic %(serviceLogo)s\">%(serviceName
 msgid "Sign up or sign in"
 msgstr "Đăng ký hoặc đăng nhập"
 
-#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Tài khoản Firefox cũng mở khóa quyền truy cập vào các sản phẩm bảo vệ quyền riêng tư hơn từ Mozilla."
 
@@ -1390,17 +1395,19 @@ msgstr "Nếu đây là địa chỉ email hợp lệ, <a %(escapedSupportLinkAt
 msgid "No longer own that email? Create a new account"
 msgstr "Không còn sở hữu email đó nữa? Tạo tài khoản mới"
 
-#: .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/sign_in_password.mustache:13
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Bằng cách tiếp tục, bạn đồng ý với:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo bảo mật</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo bảo mật</a> của Pocket<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a> của Firefox.\n"
 "          "
 
@@ -1492,13 +1499,15 @@ msgstr "Tạo tài khoản"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Bằng cách tiếp tục, bạn đã đồng ý với:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">thông báo bảo mật</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
+"\">thông báo bảo mật</a> của Pocket<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">thông báo bảo mật</a> của Firefox\n"
 "          "
 
@@ -1759,7 +1768,7 @@ msgstr "Đồng bộ hóa Firefox giữa các thiết bị"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Đồng bộ hóa dấu trang, lịch sử và mật khẩu với Firefox trên thiết bị di động của bạn. Nó chỉ mất một vài phút."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
 msgstr "Bắt đầu"
 
@@ -1850,6 +1859,30 @@ msgstr "Xong"
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Tại sao tôi cần tạo tài khoản này? <a %(escapedSuggestionAttrs)s>Tìm hiểu tại đây</a>"
+
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:2
+msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:3
+msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+msgid "Learn more"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:6
+msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
+msgid "Close Banner"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2010,16 +2043,21 @@ msgid "Sync your device"
 msgstr "Đồng bộ hóa thiết bị của bạn"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Or download"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Quét để tải xuống Firefox dành cho di động hoặc gửi chính bạn một <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">liên kết tải "
 "xuống.</a>"
 
-#: .es5/templates/pair/index.mustache:7
+#: .es5/templates/pair/index.mustache:8
 msgid "QR code"
 msgstr "Mã QR"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "Mang theo các thẻ, dấu trang và mật khẩu của bạn ở bất kỳ đâu bạn sử dụng Firefox."
 
