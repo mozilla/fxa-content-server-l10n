@@ -16,6 +16,33 @@ link-expired-resent-link-success-message = Email resent. Add { $accountsEmail } 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Something went wrong. A new code could not be sent.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+  .aria-label = Close
+
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } will be renamed { -product-mozilla-accounts } on Nov 1
+
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = You’ll still sign in with the same username and password, and there are no other changes to the products that you use.
+
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = We’ve renamed { -product-firefox-accounts } to { -product-mozilla-accounts }. You’ll still sign in with the same username and password, and there are no other changes to the products that you use.
+
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Learn more
+
+# Alt text for close banner image
+brand-close-banner = Close Banner
+
+# Alt text for 'm' logo in banner header
+brand-m-logo = Mozilla m logo
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -54,23 +81,23 @@ recovery-key-pdf-download-error = Sorry, there was a problem downloading your ac
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Practical knowledge is coming to your inbox. Sign up for more:
+choose-newsletters-prompt-2 = Get more from { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-  .label = Get the latest news about { -brand-mozilla } and { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+  .label = Help keep the internet healthy
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-  .label = Take action to keep the internet healthy
+choose-newsletters-option-security-privacy =
+  .label = Security & privacy news and updates
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-  .label = Be safer and smarter online
+choose-newsletters-option-test-pilot =
+  .label = Early access to test new products
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Choose what to sync:
+choose-what-to-sync-prompt-2 = Choose what to sync
 choose-what-to-sync-option-bookmarks =
   .label = Bookmarks
 choose-what-to-sync-option-history =
