@@ -35,6 +35,9 @@ brand-learn-more = Saiba mais
 # Alt text for close banner image
 brand-close-banner =
     .alt = Fechar aviso
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logotipo com m de { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -66,10 +69,24 @@ recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Obtenha mais da { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Ajude a manter a internet saudável
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Notícias e novidades sobre segurança e privacidade
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Acesso antecipado para testar novos produtos
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Escolha o que sincronizar
 choose-what-to-sync-option-bookmarks =
     .label = Favoritos
 choose-what-to-sync-option-history =
