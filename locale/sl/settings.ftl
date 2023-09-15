@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-pošta ponovno poslana. Dodajte { $
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Zapri
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } se bo 1. novembra preimenoval v { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = { -product-firefox-accounts } smo preimenovali v { -product-mozilla-accounts }. Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Več o tem
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Zapri pasico
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logotip { -brand-mozilla } m
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je pr
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktično znanje prihaja v vaš nabiralnik. Prijavite se za več:
+choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "rodilnik") }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Prejemajte najnovejše novice o { -brand-mozilla(sklon: "mestnik") } in { -brand-firefox(sklon: "mestnik") }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Pomagajte internet ohraniti zdrav
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Ukrepajte in ohranite internet zdrav
+choose-newsletters-option-security-privacy =
+    .label = Novice in posodobitve o varnosti in zasebnosti
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Bodite varnejši in pametnejši na spletu
+choose-newsletters-option-test-pilot =
+    .label = Zgodnji dostop za preizkušanje novih izdelkov
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Izberite, kaj želite sinhronizirati:
+choose-what-to-sync-prompt-2 = Izberite, kaj želite sinhronizirati
 choose-what-to-sync-option-bookmarks =
     .label = zaznamke
 choose-what-to-sync-option-history =
