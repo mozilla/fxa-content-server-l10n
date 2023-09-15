@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-mail újraküldve. Adja hozzá az {
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kódot küldeni.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Bezárás
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = A { -product-firefox-accounts } új neve { -product-mozilla-accounts } lesz november 1-én
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Átneveztük a { -product-firefox-accounts }t, erre: { -product-mozilla-accounts }. Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = További tudnivalók
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Banner bezárása
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m logó
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreál
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Gyakorlati ismeretek érkeznek a postafiókjába. Iratkozzon fel többért:
+choose-newsletters-prompt-2 = Kapjon ki többet a { -brand-mozilla(ending: "accented") }ból:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Kapja meg a legfrissebb híreket a { -brand-mozilla(ending: "accented") }ról és a { -brand-firefox }ról
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Segítsen, hogy az internet egészséges maradjon
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Tegyen lépéseket, hogy az internet egészséges maradjon
+choose-newsletters-option-security-privacy =
+    .label = Biztonsági és adatvédelmi hírek és frissítések
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Legyen nagyobb biztonságban és legyen okosabb online
+choose-newsletters-option-test-pilot =
+    .label = Korai hozzáférés az új termékek teszteléséhez
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Válassza ki, mit szeretne szinkronizálni:
+choose-what-to-sync-prompt-2 = Válassza ki, mit szeretne szinkronizálni
 choose-what-to-sync-option-bookmarks =
     .label = Könyvjelzők
 choose-what-to-sync-option-history =
