@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-15 20:51+0000\n"
+"PO-Revision-Date: 2023-09-15 21:02+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1857,19 +1857,19 @@ msgstr "As contas Firefox serão renomeadas para contas Mozilla em 1º de novemb
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Você continuará entrando na sua conta com o mesmo nome de usuário e senha. Não haverá nenhuma outra mudança nos produtos que você usa."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "Saiba mais"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Renomeamos contas Firefox para contas Mozilla. Você continuará entrando na sua conta com o mesmo nome de usuário e senha. Não haverá nenhuma outra mudança nos produtos que você usa."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "Fechar aviso"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2031,7 +2031,7 @@ msgstr "Sincronize seu dispositivo"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Or download"
-msgstr ""
+msgstr "ou baixar"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"

@@ -16,6 +16,26 @@ link-expired-resent-link-success-message = Email reenviado. Adicione { $accounts
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo deu errado. Não foi possível enviar um novo código.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Fechar
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } será renomeado para { -product-mozilla-accounts } em 1º de novembro
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Você continuará entrando na sua conta com o mesmo nome de usuário e senha. Não haverá nenhuma outra mudança nos produtos que você usa.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Renomeamos { -product-firefox-accounts } para { -product-mozilla-accounts }. Você continuará entrando na sua conta com o mesmo nome de usuário e senha. Não haverá nenhuma outra mudança nos produtos que você usa.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Saiba mais
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Fechar aviso
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +66,10 @@ recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Conhecimento prático em sua caixa de entrada. Inscreva-se para receber mais:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Receba novidades sobre a { -brand-mozilla } e o { -brand-firefox }
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Tome uma atitude para manter a internet saudável
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Fique mais seguro e esperto online
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Escolha o que sincronizar:
 choose-what-to-sync-option-bookmarks =
     .label = Favoritos
 choose-what-to-sync-option-history =
