@@ -16,6 +16,24 @@ link-expired-resent-link-success-message = Mejlka jo se znowego pósłała. Pśi
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Něco njejo se raźiło. Nowy code njedajo se słaś.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Zacyniś
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } se 1. nowembra do { -product-mozilla-accounts } pśemjenijo
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Dalšne informacije
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Chórgoj zacyniś
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo m { -brand-mozilla }
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -42,24 +60,22 @@ recovery-key-pdf-download-error = Bóžko jo pśi ześěgowanju kontowego wótno
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktiska wěda do wašogo postowego kašćika dójźo. Registrěrujśo se za wěcej:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Wobstarajśo se nejnowše informacije wó { -brand-mozilla } a { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Pomagajśo nam, aby internet strowy wóstał
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Zasajźćo se za strowy internet
+choose-newsletters-option-security-privacy =
+    .label = Nowosći a aktualizacije wó wěstośe a priwatnosći
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Buźćo wěsćejšy a z wěcej wědu online
+choose-newsletters-option-test-pilot =
+    .label = Docasny pśistup, aby nowe produkty testował
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Wubjeŕśo, což cośo synchronizěrowaś:
+choose-what-to-sync-prompt-2 = Wubjeŕśo, což ma se synchronizěrowaś
 choose-what-to-sync-option-bookmarks =
     .label = Cytańske znamjenja
 choose-what-to-sync-option-history =
