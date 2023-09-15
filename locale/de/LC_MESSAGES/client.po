@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-15 17:09+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2023-09-15 18:41+0000\n"
+"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1859,7 +1859,7 @@ msgstr "Warum muss ich dieses Konto erstellen? <a %(escapedSuggestionAttrs)s>Fin
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr "Mozilla S-Logo"
+msgstr "Mozilla-m-Logo"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"

@@ -37,7 +37,7 @@ brand-close-banner =
     .alt = Banner schließen
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = { -brand-mozilla } m-Logo
+    .alt = { -brand-mozilla }-m-Logo
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
