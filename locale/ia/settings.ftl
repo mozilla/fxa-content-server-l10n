@@ -23,8 +23,15 @@ link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = Clauder
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = Le { -product-firefox-accounts } sera renominate { -product-mozilla-accounts } desde le 1 de novembre
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Tu ancora accedera con le mesme nomine de usator e contrasigno, e il non ha alcun altere cambiamentos al productos que tu usa.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Pro saper plus
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo con le m de  { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
