@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 20:10+0000\n"
+"POT-Creation-Date: 2023-09-15 16:25+0000\n"
 "PO-Revision-Date: 2023-07-31 23:38+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Tókst að endurstilla lykilorð. Skráðu þig inn til að halda áfram."
 
 #. submit button
-#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Innskráning"
 
-#: .es5/views/index.js:147
+#: .es5/views/index.js:148
 msgid "Account deleted successfully"
 msgstr "Tókst að eyða reikningi"
 
@@ -105,7 +105,7 @@ msgstr "Tengt"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Óþekktur reikningur. <a href=\"/signup\">Skráðu þig</a>"
 
-#: .es5/views/sign_up_password.js:62
+#: .es5/views/sign_up_password.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Reikningurinn er ekki lengur til. Útbúa hann aftur?"
 
@@ -1088,7 +1088,7 @@ msgstr "Þú hefur skráð inn í Firefox"
 msgid "Email confirmed"
 msgstr "Tölvupóstur staðfestur"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
 msgstr "Ljúktu uppsetningunni þinni"
 
@@ -1108,7 +1108,7 @@ msgstr "Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningun
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "Viltu fá flipana þína, bókamerki og lykilorð yfir í annað tæki?"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
 msgid "Not now"
 msgstr "Ekki núna"
 
@@ -1138,18 +1138,19 @@ msgstr ""
 msgid "Password"
 msgstr "Lykilorð"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 "Með því að halda áfram samþykkir þú <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmálana</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
 "privacy\">persónuverndarstefnu</a> okkar."
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Nota annan notandaaðgang"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Gleymt lykilorð?"
 
@@ -1173,7 +1174,7 @@ msgstr "Halda áfram í <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</
 msgid "Sign up or sign in"
 msgstr "Nýskráðu þig eða skráðu þig inn"
 
-#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Firefox-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá Mozilla."
 
@@ -1399,7 +1400,7 @@ msgstr "Ef þetta er gilt tölvupóstfang, skaltu <a %(escapedSupportLinkAttrs)s
 msgid "No longer own that email? Create a new account"
 msgstr "Ert þú ekki lengur með þetta tölvupóstfang? Búðu til nýjan aðgang"
 
-#: .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/sign_in_password.mustache:13
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
@@ -1775,7 +1776,7 @@ msgstr "Samstilltu Firefox á milli tækja"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Samstilltu bókamerki, vafurferil og lykilorð í Firefox á snjalltækjunum þínum. Þetta tekur bara örfáar mínútur."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
 msgstr "Komast í gang"
 
@@ -1866,6 +1867,30 @@ msgstr "Lokið"
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Af hverju þarf ég að búa til þennan reikning? <a %(escapedSuggestionAttrs)s>Kynntu þér það hér</a>"
+
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:2
+msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:3
+msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+msgid "Learn more"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:6
+msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
+msgid "Close Banner"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2026,16 +2051,20 @@ msgid "Sync your device"
 msgstr "Samstilltu tækið þitt"
 
 #: .es5/templates/pair/index.mustache:6
+msgid "Or download"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid ""
 "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Skannaðu til að sækja Firefox fyrir farsíma, eða sendu þér <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">niðurhalstengil.</a>"
 
-#: .es5/templates/pair/index.mustache:7
+#: .es5/templates/pair/index.mustache:8
 msgid "QR code"
 msgstr "QR-kóði"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "Taktu flipana þína, bókamerki og lykilorð með þér hvert sem þú notar Firefox."
 
