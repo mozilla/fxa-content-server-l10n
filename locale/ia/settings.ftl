@@ -16,6 +16,16 @@ link-expired-resent-link-success-message = Message reinviate. Adde { $accountsEm
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non pote esser inviate.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Clauder
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Pro saper plus
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +56,22 @@ recovery-key-pdf-download-error = Desolate, il habeva un problema discargante tu
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Le cognoscentia practic veni a tu cassa de entrata. Inscribe te:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Recipe le ultime novas re { -brand-mozilla } e { -brand-firefox }.
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Adjuta a mantener Internet in salute
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Age pro mantener Internet in bon sanitate
+choose-newsletters-option-security-privacy =
+    .label = Novas e actualisationes de securitate & confidentialitate
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Sia plus secur e plus intelligente in linea
+choose-newsletters-option-test-pilot =
+    .label = Accesso precoce pro verificar nove productos
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Elige que synchronisar:
+choose-what-to-sync-prompt-2 = Elige lo que synchronisar
 choose-what-to-sync-option-bookmarks =
     .label = Marcapaginas
 choose-what-to-sync-option-history =
