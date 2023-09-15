@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = 已重新寄出郵件。請將 { $acc
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新的確認碼。
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = 關閉
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts } 將更名為 { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = 您仍可使用相同的帳號與密碼登入，能使用的產品服務內容也維持不變。
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = 我們已將 { -product-firefox-accounts }更名為 { -product-mozilla-accounts }。您仍可使用相同的帳號與密碼登入，能使用的產品服務內容也維持不變。
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = 更多資訊
+# Alt text for close banner image
+brand-close-banner =
+    .alt = 關閉橫幅
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m 標誌
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = 很抱歉，下載帳號救援金鑰時發生�
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = 將發送有用小知識給您。訂閱其他電子報：
+choose-newsletters-prompt-2 = 獲得 { -brand-mozilla } 的更多消息：
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = 獲得 { -brand-mozilla } 與 { -brand-firefox } 的最新資訊
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = 幫助維護網路生態安全
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = 採取行動，保護網際網路的健康
+choose-newsletters-option-security-privacy =
+    .label = 安全性與隱私權保護的最新消息
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = 更聰明、更安全上網
+choose-newsletters-option-test-pilot =
+    .label = 搶先體驗最新產品
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = 選擇要同步的內容：
+choose-what-to-sync-prompt-2 = 選擇要同步的內容
 choose-what-to-sync-option-bookmarks =
     .label = 書籤
 choose-what-to-sync-option-history =
