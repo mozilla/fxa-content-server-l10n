@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 20:10+0000\n"
+"POT-Creation-Date: 2023-09-15 16:25+0000\n"
 "PO-Revision-Date: 2023-08-01 02:49+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "成功重設密碼，請登入以繼續。"
 
 #. submit button
-#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "登入"
 
-#: .es5/views/index.js:147
+#: .es5/views/index.js:148
 msgid "Account deleted successfully"
 msgstr "已成功刪除帳號"
 
@@ -105,7 +105,7 @@ msgstr "已連線"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知的帳號。<a href=\"/signup\">註冊</a>"
 
-#: .es5/views/sign_up_password.js:62
+#: .es5/views/sign_up_password.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "帳號已不存在，要重新建立嗎？"
 
@@ -1081,7 +1081,7 @@ msgstr "您已登入 Firefox"
 msgid "Email confirmed"
 msgstr "已確認電子郵件地址"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
 msgstr "完成設定"
 
@@ -1101,7 +1101,7 @@ msgstr "在其他裝置登入 Firefox 完成設定"
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "想要在其他台裝置上，也能獲得相同的分頁、書籤、網站密碼等資料嗎？"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
 msgid "Not now"
 msgstr "現在不要"
 
@@ -1128,16 +1128,17 @@ msgstr "請輸入您 <span class=\"card-subheader\" id=\"subheader\">Firefox 帳
 msgid "Password"
 msgstr "密碼"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "若繼續，代表您同意<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "使用另一個帳號"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "忘記密碼？"
 
@@ -1161,7 +1162,7 @@ msgstr "繼續前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div
 msgid "Sign up or sign in"
 msgstr "註冊或登入"
 
-#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "註冊 Firefox 帳號，還能使用 Mozilla 更多與隱私保護相關的產品。"
 
@@ -1386,7 +1387,7 @@ msgstr "若這是有效的電子郵件地址，<a %(escapedSupportLinkAttrs)s>�
 msgid "No longer own that email? Create a new account"
 msgstr "那個信箱已經停用了嗎？請註冊新帳號"
 
-#: .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/sign_in_password.mustache:13
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
@@ -1753,7 +1754,7 @@ msgstr "在不同裝置間同步 Firefox"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "與行動裝置上的 Firefox 同步書籤、瀏覽紀錄、密碼，過程只要幾分鐘就能搞定。"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
 msgstr "開始使用"
 
@@ -1844,6 +1845,30 @@ msgstr "完成"
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "為什麼我要建立這組帳號？<a %(escapedSuggestionAttrs)s>點此了解</a>"
+
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:2
+msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:3
+msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+msgid "Learn more"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:6
+msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
+msgid "Close Banner"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2001,15 +2026,19 @@ msgid "Sync your device"
 msgstr "同步您的裝置"
 
 #: .es5/templates/pair/index.mustache:6
+msgid "Or download"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
 msgid ""
 "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr "掃描即可下載 Firefox 行動版，或者是將<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">下載鏈結</a>寄給自己。"
 
-#: .es5/templates/pair/index.mustache:7
+#: .es5/templates/pair/index.mustache:8
 msgid "QR code"
 msgstr "QR code"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "將您的 Firefox 分頁、書籤、網站密碼隨身帶著走。"
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 20:10+0000\n"
+"POT-Creation-Date: 2023-09-15 16:25+0000\n"
 "PO-Revision-Date: 2023-08-06 14:08+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Wachtwoord is opnieuw ingesteld. Meld u aan om door te gaan."
 
 #. submit button
-#: .es5/views/force_auth.js:167 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Aanmelden"
 
-#: .es5/views/index.js:147
+#: .es5/views/index.js:148
 msgid "Account deleted successfully"
 msgstr "Account met succes verwijderd"
 
@@ -105,7 +105,7 @@ msgstr "Verbonden"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Onbekende account. <a href=\"/signup\">Registreren</a>"
 
-#: .es5/views/sign_up_password.js:62
+#: .es5/views/sign_up_password.js:63
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestaat niet meer. Opnieuw aanmaken?"
 
@@ -840,7 +840,9 @@ msgid "Invalid Token"
 msgstr "Ongeldige token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Door verder te gaan, gaat u akkoord met de <a id=\"service-tos\" href=\"%(termsUri)s\">Servicevoorwaarden</a> en <a id=\"service-pp\" href=\"%(privacyUri)s\">Privacyverklaring</a> van "
 "%(serviceName)s (%(serviceUri)s)."
@@ -911,7 +913,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Voer de accountherstelsleutel voor eenmalig gebruik die u op een veilige plek hebt opgeslagen in om weer toegang tot uw Firefox-account te krijgen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOOT:</span> als u uw wachtwoord opnieuw instelt en geen sleutel voor accountherstel hebt opgeslagen, wordt een deel van uw gegevens gewist (waaronder gesynchroniseerde "
 "servergegevens zoals geschiedenis en bladwijzers)."
@@ -1082,7 +1085,7 @@ msgstr "U bent aangemeld bij Firefox"
 msgid "Email confirmed"
 msgstr "E-mailadres bevestigd"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:11
 msgid "Complete your set-up"
 msgstr "Voltooi uw instellingen"
 
@@ -1102,7 +1105,7 @@ msgstr "Meld u aan bij Firefox op een ander apparaat om de installatie te voltoo
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
 msgstr "Wilt u toegang tot uw tabbladen, bladwijzers en wachtwoorden op een ander apparaat?"
 
-#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:9
 msgid "Not now"
 msgstr "Niet nu"
 
@@ -1132,15 +1135,19 @@ msgstr ""
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Door verder te gaan, gaat u akkoord met de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a>."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Door verder te gaan, gaat u akkoord met de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Privacyverklaring</a>."
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Een andere account gebruiken"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:16
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Wachtwoord vergeten?"
 
@@ -1164,7 +1171,7 @@ msgstr "Doorgaan naar <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</di
 msgid "Sign up or sign in"
 msgstr "Registreren of aanmelden"
 
-#: .es5/templates/index.mustache:10 .es5/templates/index.mustache:13
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Een Firefox-account ontgrendelt ook de toegang tot meer privacybeschermende producten van Mozilla."
 
@@ -1390,17 +1397,19 @@ msgstr "Als dit een geldig e-mailadres is, <a %(escapedSupportLinkAttrs)s>laat d
 msgid "No longer own that email? Create a new account"
 msgstr "Hebt u dat e-mailadres niet meer? Maak een nieuwe account"
 
-#: .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/sign_in_password.mustache:13
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Als u doorgaat, stemt u in met:<br />\n"
-"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
+"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacyverklaring</a> van Pocket<br />\n"
 "            De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox.\n"
 "          "
 
@@ -1494,13 +1503,15 @@ msgstr "Account aanmaken"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Als u doorgaat, Stemt u in met:<br />\n"
-"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
+"            De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
+"\">Privacyverklaring</a> van Pocket<br />\n"
 "            De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox\n"
 "          "
 
@@ -1761,7 +1772,7 @@ msgstr "Synchroniseer Firefox tussen apparaten"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Synchroniseer bladwijzers, geschiedenis en wachtwoorden met Firefox op uw mobiele apparaten. Het duurt maar een paar minuten."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:13
 msgid "Get started"
 msgstr "Beginnen"
 
@@ -1854,6 +1865,30 @@ msgstr "Gereed"
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Waarom moet ik deze account aanmaken? <a %(escapedSuggestionAttrs)s>Lees het hier</a>"
+
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:2
+msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:3
+msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
+msgid "Learn more"
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:6
+msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
+msgstr ""
+
+#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
+msgid "Close Banner"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2014,14 +2049,21 @@ msgid "Sync your device"
 msgstr "Uw apparaat synchroniseren"
 
 #: .es5/templates/pair/index.mustache:6
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "Scan om Firefox voor mobiel te downloaden, of stuur uzelf een <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkoppeling.</a>"
+msgid "Or download"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+"Scan om Firefox voor mobiel te downloaden, of stuur uzelf een <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">downloadkoppeling.</a>"
+
+#: .es5/templates/pair/index.mustache:8
 msgid "QR code"
 msgstr "QR-code"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:12
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr "Neem uw tabbladen, bladwijzers en wachtwoorden overal mee waar u Firefox gebruikt."
 
