@@ -27,8 +27,14 @@ brand-banner-dismiss-button =
 brand-prelaunch-title = Le { -product-firefox-accounts } sera renominate { -product-mozilla-accounts } desde le 1 de novembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Tu ancora accedera con le mesme nomine de usator e contrasigno, e il non ha alcun altere cambiamentos al productos que tu usa.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Nos ha renominate { -product-firefox-accounts } a { -product-mozilla-accounts }. Tu ancora accedera con le mesme nomine de usator e contrasigno, e il non ha alcun altere cambiamentos al productos que tu usa.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Pro saper plus
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Clauder bandiera
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = Logo con le m de  { -brand-mozilla }
@@ -63,6 +69,8 @@ recovery-key-pdf-download-error = Desolate, il habeva un problema discargante tu
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Obtene plus de { -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Adjuta a mantener Internet in salute
