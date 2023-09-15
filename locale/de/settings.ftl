@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-Mail erneut gesendet. Fügen Sie { 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Schließen
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } wird am 1. November in { -product-mozilla-accounts } umbenannt
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Sie melden sich weiterhin mit dem gleichen Benutzernamen und Passwort an und es gibt keine weiteren Änderungen zu den von Ihnen verwendeten Produkten.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Wir haben { -product-firefox-accounts } in { -product-mozilla-accounts } umbenannt. Sie melden sich weiterhin mit dem gleichen Benutzernamen und Passwort an und es gibt keine weiteren Änderungen zu den von Ihnen verwendeten Produkten.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Weitere Informationen
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Banner schließen
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-Logo
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Beim Herunterladen Ihres Kontowiederherstellun
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktisches Wissen kommt in Ihren Posteingang. Mehr im Newsletter-Abo:
+choose-newsletters-prompt-2 = Holen Sie mehr von { -brand-mozilla } heraus:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Erhalten Sie die neuesten Nachrichten zu { -brand-mozilla } und { -brand-firefox }.
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Helfen Sie, damit das Internet gesund bleibt
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Setzen Sie sich für ein gesundes Internet ein
+choose-newsletters-option-security-privacy =
+    .label = Neuigkeiten und Updates zu Sicherheit und Datenschutz
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Sicherer und mit mehr Wissen im Internet
+choose-newsletters-option-test-pilot =
+    .label = Vorzeitiger Zugriff, um neue Produkte zu testen
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Auswählen, was synchronisiert werden soll:
+choose-what-to-sync-prompt-2 = Auswählen, was synchronisiert werden soll
 choose-what-to-sync-option-bookmarks =
     .label = Lesezeichen
 choose-what-to-sync-option-history =
