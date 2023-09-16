@@ -16,6 +16,26 @@ link-expired-resent-link-success-message = Đã gửi lại email. Thêm { $acco
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể gửi mã mới.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Đóng
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } sẽ được đổi tên thành { -product-mozilla-accounts } vào ngày 1 tháng 11
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Bạn sẽ vẫn đăng nhập với tên người dùng và mật khẩu hiện tại và không có thay đổi nào khác đối với các sản phẩm bạn sử dụng.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Chúng tôi đã đổi tên { -product-firefox-accounts } thành { -product-mozilla-accounts }. Bạn sẽ vẫn đăng nhập với tên người dùng và mật khẩu hiện tại và không có thay đổi nào khác đối với các sản phẩm bạn sử dụng.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Tìm hiểu thêm
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Đóng biểu ngữ
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +67,23 @@ recovery-key-pdf-download-error = Rất tiếc, đã xảy ra sự cố khi tả
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Kiến thức thực tế đang đến với hộp thư đến của bạn. Đăng ký để biết thêm:
+choose-newsletters-prompt-2 = Nhận thêm từ { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Nhận tin tức mới nhất về { -brand-mozilla } và { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Giúp giữ cho Internet lành mạnh
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Hãy hành động để giữ cho internet khỏe mạnh
+choose-newsletters-option-security-privacy =
+    .label = Tin tức và cập nhật về bảo mật & quyền riêng tư
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = An toàn hơn và thông minh hơn khi trực tuyến
+choose-newsletters-option-test-pilot =
+    .label = Truy cập sớm để kiểm tra sản phẩm mới
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Chọn những gì để đồng bộ hóa:
+choose-what-to-sync-prompt-2 = Chọn những gì để đồng bộ hóa
 choose-what-to-sync-option-bookmarks =
     .label = Dấu trang
 choose-what-to-sync-option-history =
