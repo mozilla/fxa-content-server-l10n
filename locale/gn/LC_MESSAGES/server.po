@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-08 15:00+0000\n"
+"PO-Revision-Date: 2023-09-16 16:46+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -54,7 +54,7 @@ msgstr "502 Javy"
 
 #: server/templates/pages/src/503.html:2
 msgid "Server busy, try again soon"
-msgstr "Ko mohendahavusu ojepuru, eha’ãjey uperire"
+msgstr "Ko mohendahavusu ojeporu, eha’ãjey uperire"
 
 #: server/templates/pages/src/503.html:3
 msgid ""

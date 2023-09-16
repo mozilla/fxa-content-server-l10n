@@ -244,7 +244,7 @@ lowRecoveryCodes-subject-2 =
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = Nde { -product-firefox-account } ojepuru tembiapo ñepyrũrã
+newDeviceLogin-title-2 = Nde { -product-firefox-account } ojeporu tembiapo ñepyrũrã
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = ¿Nandéipa? <a data-l10n-name="passwordChangeLink">Emoambue ne ñe’ẽñemi</a>.
@@ -304,7 +304,7 @@ postChangePrimary-description = Emoambue hekopete ne ñandutiveve eiporuvéva { 
 postChangePrimary-action = Mba’ete ñangareko
 postConsumeRecoveryCode-title-2 = Reiporureína auvu ñemoneĩ jeykekoha
 # After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Ojepuru amo:
+postConsumeRecoveryCode-description-2 = Ojeporu amo:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
@@ -413,7 +413,7 @@ subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycleOld } guive.
+subscriptionDowngrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe { $productPaymentCycleNew } rupi. Upe javete, avei oñeme’ẽta ndéve jeporurã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycleOld } guive.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eiporu hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
@@ -581,7 +581,7 @@ verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
+verifySecondaryCode-explainer = Ojejerure ojeporu hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eiporu ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
 # Variables:

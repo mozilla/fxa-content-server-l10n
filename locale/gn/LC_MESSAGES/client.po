@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-16 14:29+0000\n"
+"PO-Revision-Date: 2023-09-16 16:46+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -528,7 +528,7 @@ msgstr "Ayvu ñemoneĩrã ndoikói térã hekoru’ãma"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
-msgstr "Mohendahavusu ojepuru, eha’ãjey upéi"
+msgstr "Mohendahavusu ojeporu, eha’ãjey upéi"
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
@@ -1659,7 +1659,7 @@ msgstr "¿Eikotevẽ ambue ayvu? Emondojey"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "Emoambue ñanduti veve jepuru"
+msgstr "Emoambue ñanduti veve jeporu"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -1921,7 +1921,7 @@ msgstr " Aníke ne ñandutiveve kundaharape"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr "Ndaha’éi ñe’ẽñemi ojepurumeméva"
+msgstr "Ndaha’éi ñe’ẽñemi ojeporumeméva"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."

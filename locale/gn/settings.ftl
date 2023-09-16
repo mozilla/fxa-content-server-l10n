@@ -264,7 +264,7 @@ password-info-balloon-reset-risk-info = Ñemoñepyrũjey he’ise okañykuaaha m
 password-strength-balloon-heading = Ñe’ẽñemi oikotevẽva
 password-strength-balloon-min-length = Michĩvéramo 8 tai
 password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
-password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojepurumeméva
+password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojeporumeméva
 password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
 ## Ready component
@@ -389,7 +389,7 @@ cs-sign-out-button = Emboty tembiapo
 
 ## Data collection section
 
-dc-heading = Ñembyaty ha mba’ekuaarã jepuru
+dc-heading = Ñembyaty ha mba’ekuaarã jeporu
 dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
@@ -525,7 +525,7 @@ nav-settings = Ñemboheko
 nav-profile = Mba’ete
 nav-security = Tekorosã
 nav-connected-services = Mba’epytyvõrã mbojuajupyre
-nav-data-collection = Ñembyaty ha mba’ekuaarã jepuru
+nav-data-collection = Ñembyaty ha mba’ekuaarã jeporu
 nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
 nav-email-comm = Ñemongeta ñanduti veve rupive
 
@@ -581,7 +581,7 @@ pw-change-header =
 pw-8-chars = Michĩvéramo 8 tai
 pw-not-email = Iñambue ne ñanduti veve kundaharapégui
 pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
-pw-commonly-used = Ndaha’éi ñe’ẽñemi ojepurumeméva
+pw-commonly-used = Ndaha’éi ñe’ẽñemi ojeporumeméva
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-tips = Epyta porã — ani reiporu jey ñe’ẽñemi. Eikuaave ñe’ẽñemi <linkExternal>emoheñói hag̃ua ñe’ẽñemi mbarete</linkExternal>.
 pw-change-cancel-button = Heja
