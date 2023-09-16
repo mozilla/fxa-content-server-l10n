@@ -25,6 +25,11 @@ brand-banner-dismiss-button =
     .aria-label = Закрыть
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = 1 ноября { -product-firefox-accounts } будут переименованы в { -product-mozilla-accounts }.
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдет.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Мы переименовали { -product-firefox-accounts } в { -product-mozilla-accounts }. Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдет.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Подробнее
 # Alt text for close banner image
