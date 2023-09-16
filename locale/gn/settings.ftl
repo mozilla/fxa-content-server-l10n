@@ -16,6 +16,24 @@ link-expired-resent-link-success-message = Ñanduti veve mondojeypyre. Embojuaju
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Mboty
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla-accounts }  1 jasypateĩ guive
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Kuaave
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Emboty Banner
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m ra’ãnga’i
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +64,10 @@ recovery-key-pdf-download-error = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Kuaapy ha’evéva ou ne ñe’ẽmondo g̃uahẽhápe. Eñemboheraguapy eikuaave hag̃ua:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Og̃uahẽ marandu pyahu { -brand-mozilla } ha { -brand-firefox } rehegua
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Eñeha’ã ñanduti resãirã rehe
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Eime tekorosãme ñandutípe
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Eiporavo mba’épa embojuehéta:
 choose-what-to-sync-option-bookmarks =
     .label = Techaukaha
 choose-what-to-sync-option-history =
