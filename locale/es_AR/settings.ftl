@@ -26,10 +26,10 @@ brand-banner-dismiss-button =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } pasará a llamarse { -product-mozilla-accounts } el 1 de noviembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usas.
+brand-prelaunch-subtitle = Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usás.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Cambiamos el nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usas.
+brand-postlaunch-title = Cambiamos el nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usás.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Conocer más
 # Alt text for close banner image
