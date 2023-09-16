@@ -30,9 +30,27 @@
        *[nominative] аккаунты Firefox
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = аккаунт Mozilla
+-product-mozilla-account =
+    { $case ->
+        [nominative_uppercase] Аккаунт Mozilla
+        [genitive] аккаунта Mozilla
+        [dative] аккаунту Mozilla
+        [accusative] аккаунт Mozilla
+        [instrumental] аккаунтом Mozilla
+        [prepositional] аккаунте Mozilla
+       *[nominative] аккаунт Mozilla
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
--product-mozilla-accounts = аккаунты Mozilla
+-product-mozilla-accounts =
+    { $case ->
+        [nominative_uppercase] Аккаунты Mozilla
+        [genitive] аккаунтов Mozilla
+        [dative] аккаунтам Mozilla
+        [accusative] аккаунты Mozilla
+        [instrumental] аккаунтами Mozilla
+        [prepositional] аккаунтах Mozilla
+       *[nominative] аккаунты Mozilla
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
