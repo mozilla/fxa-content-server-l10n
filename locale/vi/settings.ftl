@@ -35,6 +35,9 @@ brand-learn-more = Tìm hiểu thêm
 # Alt text for close banner image
 brand-close-banner =
     .alt = Đóng biểu ngữ
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo { -brand-mozilla } m
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key

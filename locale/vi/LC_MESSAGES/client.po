@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-16 11:02+0000\n"
+"PO-Revision-Date: 2023-09-16 11:21+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -1854,7 +1854,7 @@ msgstr "Tại sao tôi cần tạo tài khoản này? <a %(escapedSuggestionAttr
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Logo m của Mozilla"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
