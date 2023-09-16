@@ -64,10 +64,24 @@ recovery-key-pdf-download-error = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Eguerekove { -brand-mozilla }-gui:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Eipytyvõkena ñanduti resãiverã
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Marandu ha tekopyahu tekorosã ha tekoñemirãve
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Eike pya’e eiporu hag̃ua apopyre pyahu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Eiporavo mba’épa embojuehéta
 choose-what-to-sync-option-bookmarks =
     .label = Techaukaha
 choose-what-to-sync-option-history =
