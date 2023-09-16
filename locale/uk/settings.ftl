@@ -16,6 +16,23 @@ link-expired-resent-link-success-message = Повідомлення повтор
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Щось пішло не так. Не вдалося надіслати новий код.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Закрити
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } буде перейменовано на { -product-mozilla-accounts } 1 листопада
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Ви й надалі можете входити, використовуючи те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Докладніше
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Закрити банер
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +64,23 @@ recovery-key-pdf-download-error = На жаль, виникла проблема
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Практичні знання у вашій поштовій скриньці. Підпишіться, щоб отримати більше:
+choose-newsletters-prompt-2 = Отримайте більше від { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Отримуйте останні новини про { -brand-mozilla } й { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Допоможіть зберегти здоров'я інтернету
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Зробіть крок для збереження здорового Інтернету
+choose-newsletters-option-security-privacy =
+    .label = Новини та поради щодо безпеки та приватності
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Будьте захищенішими й розумнішими в Інтернеті
+choose-newsletters-option-test-pilot =
+    .label = Ранній доступ до тестування нових продуктів
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Оберіть що синхронізувати:
+choose-what-to-sync-prompt-2 = Виберіть що синхронізувати
 choose-what-to-sync-option-bookmarks =
     .label = Закладки
 choose-what-to-sync-option-history =
