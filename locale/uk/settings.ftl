@@ -26,7 +26,7 @@ brand-banner-dismiss-button =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } буде перейменовано на { -product-mozilla-accounts } 1 листопада
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Ви й надалі можете входити, використовуючи те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
+brand-prelaunch-subtitle = Ви й надалі можете використовувати те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Докладніше
 # Alt text for close banner image
