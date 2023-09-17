@@ -71,42 +71,106 @@
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = Účet Mozilla
+-product-mozilla-account =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] účtu Mozilla
+               *[upper] Účtu Mozilla
+            }
+        [dat]
+            { $capitalization ->
+                [lower] účtu Mozilla
+               *[upper] Účtu Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] účet Mozilla
+               *[upper] Účet Mozilla
+            }
+        [loc]
+            { $capitalization ->
+                [lower] účte Mozilla
+               *[upper] Účte Mozilla
+            }
+        [ins]
+            { $capitalization ->
+                [lower] účtom Mozilla
+               *[upper] Účtom Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Mozilla
+               *[upper] Účet Mozilla
+            }
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
--product-mozilla-accounts = Účty Mozilla
+-product-mozilla-accounts =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] účtov Mozilla
+               *[upper] Účtov Mozilla
+            }
+        [dat]
+            { $capitalization ->
+                [lower] účtom Mozilla
+               *[upper] Účtom Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] účty Mozilla
+               *[upper] Účty Mozilla
+            }
+        [loc]
+            { $capitalization ->
+                [lower] účtoch Mozilla
+               *[upper] Účtoch Mozilla
+            }
+        [ins]
+            { $capitalization ->
+                [lower] účtami Mozilla
+               *[upper] Účtami Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účty Mozilla
+               *[upper] Účty Mozilla
+            }
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefox
-                [lower] účet Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Účtu Firefox
                 [lower] účtu Firefox
+               *[upper] Účtu Firefox
             }
         [dat]
             { $capitalization ->
-               *[upper] Účtu Firefox
                 [lower] účtu Firefox
+               *[upper] Účtu Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Účet Firefox
                 [lower] účet Firefox
+               *[upper] Účet Firefox
             }
         [loc]
             { $capitalization ->
-               *[upper] Účte Firefox
                 [lower] účte Firefox
+               *[upper] Účte Firefox
             }
         [ins]
             { $capitalization ->
-               *[upper] Účtom Firefox
                 [lower] účtom Firefox
+               *[upper] Účtom Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Firefox
+               *[upper] Účet Firefox
             }
     }
 -product-mozilla-vpn = Mozilla VPN
