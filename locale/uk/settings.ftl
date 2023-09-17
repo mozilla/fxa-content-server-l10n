@@ -35,6 +35,9 @@ brand-learn-more = Докладніше
 # Alt text for close banner image
 brand-close-banner =
     .alt = Закрити банер
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Логотип m { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
