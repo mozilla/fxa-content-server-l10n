@@ -20,6 +20,14 @@
 # "accounts" can and should be localized, "Firefox" must be treated as a brand.
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
+# "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
+-product-mozilla-account =
+    { $case ->
+        [the] חשבון ה־Mozilla
+       *[a] חשבון Mozilla
+    }
+# "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
+-product-mozilla-accounts = חשבונות Mozilla
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =

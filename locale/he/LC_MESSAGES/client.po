@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-06 19:47+0000\n"
+"PO-Revision-Date: 2023-09-17 16:51+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -840,9 +840,7 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -911,8 +909,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה לחשבון ה־Firefox שלך."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">הערה:</span> איפוס הססמה ללא שמירת מפתח שחזור החשבון יגרור מחיקה של חלק מהנתונים שלך (כולל נתונים מסונכרנים כמו היסטוריה וסימניות)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -957,8 +954,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה "
-"שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־Pocket שלך לא יושפעו."
+"<span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה שלך"
+" כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־Pocket שלך לא יושפעו."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1133,8 +1130,7 @@ msgstr "ססמה"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "בחירה להמשיך בתהליך מהווה הסכמה ל<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ול<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
@@ -1394,15 +1390,13 @@ msgstr "כתובת דוא״ל זו כבר לא בבעלותך? יצירת חשב
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "              המשך התהליך מהווה הסכמה ל:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת "
-"הפרטיות</a> של Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת הפרטיות</a> של Pocket<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox.\n"
 "            "
 
@@ -1494,15 +1488,13 @@ msgstr "יצירת חשבון"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              המשך התהליך מהווה הסכמה ל:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">הצהרת "
-"הפרטיות</a> של Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">הצהרת הפרטיות</a> של Pocket<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox.\n"
 "            "
 
@@ -1632,7 +1624,7 @@ msgstr "הלשונית לא מגיעה? ניתן לשלוח דוא״ל במקו�
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "נא ליצור ססמה כדי להמשיך ל־Firefox Sync. הנתונים שלך מוצפנים עם הססמה שלך כדי להגן על הפרטיות שלך."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
@@ -1859,7 +1851,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "חשבונות Firefox ישונו לחשבונות Mozilla ב־1 בנובמבר"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1867,7 +1859,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "מידע נוסף"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1875,7 +1867,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "סגירת באנר"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -2040,10 +2032,8 @@ msgid "Or download"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
-"יש לסרוק כדי להוריד את Firefox לנייד, או ניתן לשלוח לעצמך <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">קישור להורדה</a>."
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "יש לסרוק כדי להוריד את Firefox לנייד, או ניתן לשלוח לעצמך <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">קישור להורדה</a>."
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"
