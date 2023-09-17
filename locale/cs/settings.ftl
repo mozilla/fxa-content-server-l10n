@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-mail byl znovu odeslán. Pro jistot
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Nový kód se nepodařilo odeslat.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Zavřít
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } bude 1. listopadu přejmenován na { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Stále se budete přihlašovat stejným uživatelským jménem a heslem a nedojde k žádným dalším změnám v používaných produktech.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Přejmenovali jsme { -product-firefox-accounts } na { -product-mozilla-accounts }. Stále se budete přihlašovat pod stejným uživatelským jménem a heslem a nedojde k žádným dalším změnám v používaných produktech.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Zjistit více
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Zavřít oznámení
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo { -brand-mozilla } m
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Je nám líto, ale při stahování klíče pr
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více informací:
+choose-newsletters-prompt-2 = Získejte více od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Získejte nejnovější zprávy o { -brand-mozilla(case: "loc") } a { -brand-firefox(case: "loc") }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Pomáhejte udržovat zdravý internet
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Bojujte za zdravý internet
+choose-newsletters-option-security-privacy =
+    .label = Novinky a aktualizace týkající se zabezpečení a ochrany osobních údajů
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Zjistěte vše potřebné online
+choose-newsletters-option-test-pilot =
+    .label = Brzký přístup k testování nových produktů
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Vyberte, co chcete synchronizovat:
+choose-what-to-sync-prompt-2 = Vyberte obsah synchronizace
 choose-what-to-sync-option-bookmarks =
     .label = Záložky
 choose-what-to-sync-option-history =
