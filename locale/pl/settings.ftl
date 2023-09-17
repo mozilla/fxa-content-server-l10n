@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = Wysłano wiadomość e-mail. Dodaj { 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Coś się nie powiodło. Nie można wysłać nowego kodu.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Zamknij
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = 1 listopada nazwa „{ -product-firefox-accounts(case: "nom", capitalization: "lower") }” zostanie zmieniona na „{ -product-mozilla-accounts(case: "nom", capitalization: "lower") }”
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Nadal będziesz się logować przy użyciu tej samej nazwy użytkownika i hasła i nie będzie żadnych innych zmian w produktach, z których korzystasz.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Zmieniliśmy nazwę „{ -product-firefox-accounts(case: "nom", capitalization: "lower") }” na „{ -product-mozilla-accounts(case: "nom", capitalization: "lower") }”. Nadal będziesz się logować przy użyciu tej samej nazwy użytkownika i hasła i nie będzie żadnych innych zmian w produktach, z których korzystasz.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Więcej informacji
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Zamknij komunikat
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo „m” { -brand-mozilla(case: "gen") }
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Przepraszamy, wystąpił problem podczas pobie
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktyczna wiedza w Twojej skrzynce. Zapisz się po więcej:
+choose-newsletters-prompt-2 = Więcej od { -brand-mozilla(case: "gen") }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Najnowsze aktualności o { -brand-mozilla(case: "loc") } i { -brand-firefox(case: "loc") }.
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Pomóż utrzymać zdrowy Internet
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Podejmij działania, aby Internet pozostał zdrowy
+choose-newsletters-option-security-privacy =
+    .label = Aktualności i aktualizacje na temat bezpieczeństwa i prywatności
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Bezpieczniej i mądrzej korzystaj z Internetu
+choose-newsletters-option-test-pilot =
+    .label = Wczesny dostęp do testowania nowych produktów
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Wybierz, co synchronizować:
+choose-what-to-sync-prompt-2 = Wybierz, co synchronizować
 choose-what-to-sync-option-bookmarks =
     .label = Zakładki
 choose-what-to-sync-option-history =
