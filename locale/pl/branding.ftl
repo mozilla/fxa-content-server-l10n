@@ -68,6 +68,74 @@
                 [lower] kontach Firefoksa
             }
     }
+# "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
+-product-mozilla-account =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] konta Mozilli
+               *[upper] Konta Mozilli
+            }
+        [dat]
+            { $capitalization ->
+                [lower] kontu Mozilli
+               *[upper] Kontu Mozilli
+            }
+        [acc]
+            { $capitalization ->
+                [lower] konto Mozilli
+               *[upper] Konto Mozilli
+            }
+        [ins]
+            { $capitalization ->
+                [lower] kontem Mozilli
+               *[upper] Kontem Mozilli
+            }
+        [loc]
+            { $capitalization ->
+                [lower] koncie Mozilli
+               *[upper] Koncie Mozilli
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] konto Mozilli
+               *[upper] Konto Mozilli
+            }
+    }
+# "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
+-product-mozilla-accounts =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] kont Mozilli
+               *[upper] Kont Mozilli
+            }
+        [dat]
+            { $capitalization ->
+                [lower] kontom Mozilli
+               *[upper] Kontom Mozilli
+            }
+        [acc]
+            { $capitalization ->
+                [lower] konta Mozilli
+               *[upper] Konta Mozilli
+            }
+        [ins]
+            { $capitalization ->
+                [lower] kontami Mozilli
+               *[upper] Kontami Mozilli
+            }
+        [loc]
+            { $capitalization ->
+                [lower] kontach Mozilli
+               *[upper] Kontach Mozilli
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] konta Mozilli
+               *[upper] Konta Mozilli
+            }
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
