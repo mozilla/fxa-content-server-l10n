@@ -16,6 +16,26 @@ link-expired-resent-link-success-message = הודעת הדוא״ל נשלחה מ
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = סגירה
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } ישונו ל{ -product-mozilla-accounts } ב־1 בנובמבר
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = שינינו את { -product-firefox-accounts } ל{ -product-mozilla-accounts }. הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = מידע נוסף
+# Alt text for close banner image
+brand-close-banner =
+    .alt = סגירת באנר
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +67,23 @@ recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח ש
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = ידע חיוני בדרכו אל תיבת הדוא״ל שלך. להרשמה:
+choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = קבלת העדכונים האחרונים על { -brand-mozilla } ו־{ -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = סיוע בשמירה על בריאות האינטרנט
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = נקיטת פעולה לשמירת בריאות האינטרנט
+choose-newsletters-option-security-privacy =
+    .label = חדשות ועדכוני אבטחה ופרטיות
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = להיות בטוח וחכם יותר ברשת
+choose-newsletters-option-test-pilot =
+    .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = נא לבחור את הפריטים שיסונכרנו:
+choose-what-to-sync-prompt-2 = בחירת הפריטים לסנכרון
 choose-what-to-sync-option-bookmarks =
     .label = סימניות
 choose-what-to-sync-option-history =
@@ -889,6 +909,7 @@ auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנ
 auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
+auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-999 = שגיאה בלתי צפויה
 auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבתים
