@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-post skickat igen. Lägg till { $ac
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte skickas.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Stäng
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } kommer att döpas om till { -product-mozilla-accounts } den 1 november
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Du kommer fortfarande att logga in med samma användarnamn och lösenord, och det finns inga andra ändringar av de produkter du använder.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Vi har bytt namn på { -product-firefox-accounts } till { -product-mozilla-accounts }. Du kommer fortfarande att logga in med samma användarnamn och lösenord, och det finns inga andra ändringar av de produkter du använder.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Läs mer
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Stäng banner
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m logotyp
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Det gick tyvärr inte att ladda ned din konto�
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktisk kunskap kommer till din inkorg. Registrera dig för mer:
+choose-newsletters-prompt-2 = Få mer från { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Få de senaste nyheterna om { -brand-mozilla } och { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Hjälp till att hålla internet sunt
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Vidta åtgärder för att hålla internet hälsosamt
+choose-newsletters-option-security-privacy =
+    .label = Säkerhets- och integritetsnyheter och uppdateringar
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Bli säkrare och smartare på nätet
+choose-newsletters-option-test-pilot =
+    .label = Tidig tillgång till att testa nya produkter
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Välj vad som ska synkroniseras:
+choose-what-to-sync-prompt-2 = Välj vad som ska synkroniseras
 choose-what-to-sync-option-bookmarks =
     .label = Bokmärken
 choose-what-to-sync-option-history =
