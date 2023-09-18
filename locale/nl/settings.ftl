@@ -23,6 +23,13 @@ link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuw
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = Sluiten
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } wordt op 1 november omgedoopt naar { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = U meldt nog steeds aan met dezelfde gebruikersnaam en hetzelfde wachtwoord, en er zijn geen andere wijzigingen in de producten die u gebruikt.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = We hebben { -product-firefox-accounts } hernoemd naar { -product-mozilla-accounts }. U meldt nog steeds aan met dezelfde gebruikersnaam en hetzelfde wachtwoord, en er zijn geen andere wijzigingen in de producten die u gebruikt.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Meer info
 # Alt text for close banner image
