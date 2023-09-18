@@ -16,6 +16,19 @@ link-expired-resent-link-success-message = E-posta yeniden gönderildi. Sorunsuz
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilemedi.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Kapat
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Daha fazla bilgi alın
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m logosu
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -42,24 +55,10 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Pratik bilgiler gelen kutunuza geliyor. Daha fazlası için kaydolun:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = { -brand-mozilla } ve { -brand-firefox } ile ilgili güncel haberleri almak istiyorum
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = İnternetin sağlığını korumak için harekete geçin
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = İnterneti daha güvenli ve akıllıca kullanın
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Nelerin eşitleneceğini seçin:
 choose-what-to-sync-option-bookmarks =
     .label = Yer imleri
 choose-what-to-sync-option-history =

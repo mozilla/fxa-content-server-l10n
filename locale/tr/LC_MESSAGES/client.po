@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-08-22 23:47+0000\n"
-"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
+"PO-Revision-Date: 2023-09-16 10:51+0000\n"
+"Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -840,9 +840,7 @@ msgid "Invalid Token"
 msgstr "Geçersiz jeton"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşulları</a>'nı ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimi</a>'ni kabul "
 "etmiş oluyorsunuz."
@@ -913,8 +911,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Firefox Hesabınıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">NOT:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1135,11 +1132,8 @@ msgstr "Parola"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Devam ettiğinizde <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul "
-"etmiş olursunuz."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Devam ettiğinizde <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul etmiş olursunuz."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1398,15 +1392,13 @@ msgstr "Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "              Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"              Pocket’ın <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Gizlilik Bildirimi</a><br />\n"
+"              Pocket’ın <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Gizlilik Bildirimi</a><br />\n"
 "              Firefox’un <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
 "            "
 
@@ -1498,15 +1490,13 @@ msgstr "Hesap oluştur"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"              Pocket’ın <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
-"privacy/\">Gizlilik Bildirimi</a><br />\n"
+"              Pocket’ın <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Gizlilik Bildirimi</a><br />\n"
 "              Firefox’un <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
 "            "
 
@@ -1861,7 +1851,7 @@ msgstr "Neden hesap açmam gerekiyor? <a %(escapedSuggestionAttrs)s>Buradan öğ
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Mozilla m logosu"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -1873,7 +1863,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
-msgstr ""
+msgstr "Daha fazla bilgi alın"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -2046,8 +2036,7 @@ msgid "Or download"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Mobil cihazlar için Firefox’u indirmek için tarayın veya kendinize <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">indirme "
 "bağlantısını</a> gönderin."
