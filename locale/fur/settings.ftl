@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-mail mandade di gnûf. Zonte { $acc
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Alc al è lât strucj. Impussibil inviâ un gnûf codiç.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Siere
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = I { -product-firefox-accounts } a cambiaran non in { -product-mozilla-accounts } dal 1ⁿ di Novembar
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Dut câs tu jentrarâs cul stes non utent e password e no saran fatis altris modifichis ai prodots che tu dopris.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = O vin cambiât non ai { -product-firefox-accounts } in { -product-mozilla-accounts }. Dut câs tu jentrarâs cul stes non e password e no saran fatis altris modifichis ai prodots che tu dopris.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Plui informazions
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Siere strisson
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo cu la m di  { -brand-mozilla }
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Nus displâs, al è vignût fûr un probleme t
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Ricêf cognossincis pratichis su la tô casele di pueste. Regjistriti par savê di plui:
+choose-newsletters-prompt-2 = Oten di plui di { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Ricêf lis ultimis notiziis su { -brand-mozilla } e { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Judinus a tignî internet in salût
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Agjìs par mantignî internet in salût
+choose-newsletters-option-security-privacy =
+    .label = Novitâts e inzornaments su sigurece e riservatece
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Navigâ sigûrs e cul cjâf
+choose-newsletters-option-test-pilot =
+    .label = Acès in anteprime par provâ gnûfs prodots
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Sielç ce sincronizâ:
+choose-what-to-sync-prompt-2 = Sielç ce sincronizâ
 choose-what-to-sync-option-bookmarks =
     .label = Segnelibris
 choose-what-to-sync-option-history =
