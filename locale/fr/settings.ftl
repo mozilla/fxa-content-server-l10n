@@ -26,10 +26,10 @@ brand-banner-dismiss-button =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Les { -product-firefox-accounts } seront renommés { -product-mozilla-accounts } le 1er novembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Vous toujours vous connecterez avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
+brand-prelaunch-subtitle = Vous pourrez toujours vous connecter avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Nous avons renommé { -product-firefox-accounts } en { -product-mozilla-accounts }. Vous toujours vous connecterez avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
+brand-postlaunch-title = Nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts }. Vous pourrez toujours vous connecter avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = En savoir plus
 # Alt text for close banner image
@@ -69,8 +69,6 @@ recovery-key-pdf-download-error = Un problème est survenu lors du téléchargem
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obtenez plus de { -brand-mozilla } :
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Aidez à conserver un Internet sain
