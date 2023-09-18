@@ -23,8 +23,18 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = Κλείσιμο
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = Οι { -product-firefox-accounts(case: "nom", capitalization: "lower") } θα γίνουν { -product-mozilla-accounts(case: "nom", capitalization: "lower") } την 1η Νοεμβρίου
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Έχουμε μετονομάσει τους { -product-firefox-accounts(case: "acc", capitalization: "lower") } σε { -product-mozilla-accounts(case: "acc", capitalization: "lower") }. Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Μάθετε περισσότερα
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Κλείσιμο μηνύματος
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = Λογότυπο «m» της { -brand-mozilla }
@@ -59,10 +69,24 @@ recovery-key-pdf-download-error = Δυστυχώς, προέκυψε πρόβλ�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Περισσότερα από τη { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Βοηθήστε μας να διατηρήσουμε το διαδίκτυο υγιές
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Ειδήσεις και ενημερώσεις για την ασφάλεια και το απόρρητο
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Πρώιμη πρόσβαση σε δοκιμές νέων προϊόντων
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Επιλέξτε τι θα συγχρονίζεται
 choose-what-to-sync-option-bookmarks =
     .label = Σελιδοδείκτες
 choose-what-to-sync-option-history =
