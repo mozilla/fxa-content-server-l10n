@@ -593,7 +593,7 @@ pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 pw-change-current-password =
-    .label = Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης
+    .label = Εισαγωγή τρέχοντος κωδικού πρόσβασης
 pw-change-new-password =
     .label = Εισαγωγή νέου κωδικού πρόσβασης
 pw-change-confirm-password =
@@ -670,12 +670,12 @@ recent-activity-title = Πρόσφατη δραστηριότητα λογαρι
 recent-activity-account-create-v2 = Ο λογαριασμός δημιουργήθηκε
 recent-activity-account-disable-v2 = Ο λογαριασμός απενεργοποιήθηκε
 recent-activity-account-enable-v2 = Ο λογαριασμός ενεργοποιήθηκε
-recent-activity-account-login-v2 = Ξεκίνησε η σύνδεση λογαριασμού
+recent-activity-account-login-v2 = Έναρξη σύνδεσης στον λογαριασμό
 recent-activity-account-reset-v2 = Ξεκίνησε η επαναφορά κωδικού πρόσβασης
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Οι ειδοποιήσεις αδυναμίας παράδοσης email διαγράφηκαν
-recent-activity-account-login-failure = Η απόπειρα σύνδεση στον λογαριασμό απέτυχε
+recent-activity-account-login-failure = Αποτυχία απόπειρας σύνδεσης στον λογαριασμό
 recent-activity-account-two-factor-added = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 recent-activity-account-two-factor-requested = Ζητήθηκε ταυτοποίηση δύο παραγόντων
 recent-activity-account-two-factor-failure = Η ταυτοποίηση δύο παραγόντων απέτυχε
@@ -933,12 +933,12 @@ tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλ�
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain-1 =
-    Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
+    Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των εφεδρικών κωδικών ταυτοποίησής σας</linkExternal>.
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
 tfa-row-change-modal-heading-1 = Αλλαγή εφεδρικών κωδικών ταυτοποίησης;
 tfa-row-change-modal-confirm = Αλλαγή
-tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
+tfa-row-change-modal-explain = Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
