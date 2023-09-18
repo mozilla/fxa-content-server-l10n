@@ -25,6 +25,19 @@ brand-banner-dismiss-button =
     .aria-label = 关闭
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts }将更名为 { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = 您仍将使用原有的用户名和密码，所使用的产品内容也不会有其他变化。
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = 我们已将 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }。您仍将使用原有的用户名和密码，所使用的产品内容也不会有其他变化。
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = 详细了解
+# Alt text for close banner image
+brand-close-banner =
+    .alt = 关闭提示
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } 的“m”字徽标
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -56,10 +69,24 @@ recovery-key-pdf-download-error = 很抱歉，下载您的账户恢复密钥时�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = 接收 { -brand-mozilla } 的更多消息：
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = 一起守护互联网健康发展
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = 安全与隐私的最新动态
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = 抢先体验新产品
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = 选择要同步的项目
 choose-what-to-sync-option-bookmarks =
     .label = 书签
 choose-what-to-sync-option-history =
