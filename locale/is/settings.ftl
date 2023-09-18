@@ -16,6 +16,14 @@ link-expired-resent-link-success-message = Tölvupóstur endursendur. Bættu { $
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var hægt að senda nýjan kóða.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Loka
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +54,10 @@ recovery-key-pdf-download-error = Því miður kom upp vandamál við að sækja
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Nytsamleg þekking mun koma í pósthólfið þitt. Skráðu þig til að fá meira:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Fáðu nýjustu fréttir um { -brand-mozilla } og { -brand-firefox }
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Vertu með í að halda internetinu heilbrigðu
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Vertu öruggari og snjallari á netinu
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Veldu hvað á að samstilla:
 choose-what-to-sync-option-bookmarks =
     .label = Bókamerki
 choose-what-to-sync-option-history =
