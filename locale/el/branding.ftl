@@ -37,6 +37,44 @@
                 [lower] λογαριασμούς Firefox
             }
     }
+# "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
+-product-mozilla-account =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] λογαριασμού Mozilla
+               *[upper] Λογαριασμού Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] λογαριασμό Mozilla
+               *[upper] Λογαριασμό Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] λογαριασμός Mozilla
+               *[upper] Λογαριασμός Mozilla
+            }
+    }
+# "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
+-product-mozilla-accounts =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] λογαριασμών Mozilla
+               *[upper] Λογαριασμών Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] λογαριασμούς Mozilla
+               *[upper] Λογαριασμούς Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] λογαριασμοί Mozilla
+               *[upper] Λογαριασμοί Mozilla
+            }
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
