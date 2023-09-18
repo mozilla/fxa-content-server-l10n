@@ -16,6 +16,16 @@ link-expired-resent-link-success-message = 电子邮件已重发。建议将 { $
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 出了点问题，无法发送新验证码。
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = 关闭
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts }将更名为 { -product-mozilla-accounts }
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +56,10 @@ recovery-key-pdf-download-error = 很抱歉，下载您的账户恢复密钥时�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = 将发送实用小知识给您。订阅其他新闻通讯：
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = 获取 { -brand-mozilla } 和 { -brand-firefox } 的最新消息
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = 采取行动保持互联网健康
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = 上网更智能、更安全
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = 选择要同步的项目：
 choose-what-to-sync-option-bookmarks =
     .label = 书签
 choose-what-to-sync-option-history =
