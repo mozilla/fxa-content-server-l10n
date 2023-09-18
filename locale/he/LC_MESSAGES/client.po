@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-17 17:22+0000\n"
+"PO-Revision-Date: 2023-09-18 20:08+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1847,7 +1847,7 @@ msgstr "מדוע עליי ליצור חשבון זה? <a %(escapedSuggestionAttr
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "הסמל של Mozilla - האות m"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
