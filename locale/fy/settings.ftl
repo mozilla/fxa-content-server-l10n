@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = E-mailberjocht opnij ferstjoerd. Foeg
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Slute
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } wurdt op 1 novimber omneamd nei { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Jo melde noch hieltyd oan mei deselde brûkersnamme en itselde wachtwurd, en der binne gjin oare wizigingen yn de produkten dy’t jo brûke.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Wy hawwen { -product-firefox-accounts } omneamd nei { -product-mozilla-accounts }. Jo melde noch hieltyd oan mei deselde brûkersnamme en itselde wachtwurd, en der binne gjin oare wizigingen yn de produkten dy’t jo brûke.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Mear ynfo
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Banner slute
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-logo
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Sorry, der is in probleem bard by it downloade
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktyske kennis komt nei jo Postfek YN. Skriuw jo yn foar mear:
+choose-newsletters-prompt-2 = Mear fan { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Untfang it lêste nijs oer { -brand-mozilla } en { -brand-firefox }.
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Help it ynternet sûn te hâlden
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Set jo yn om it ynternet sûn te hâlden
+choose-newsletters-option-security-privacy =
+    .label = Befeiligings- en privacynijs en -updates
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Wês feiliger en tûker online
+choose-newsletters-option-test-pilot =
+    .label = Iere tagong om nije produkten te testen
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Kies wat jo syngronisearje wolle:
+choose-what-to-sync-prompt-2 = Kies wat jo syngronisearje wolle
 choose-what-to-sync-option-bookmarks =
     .label = Blêdwizers
 choose-what-to-sync-option-history =
