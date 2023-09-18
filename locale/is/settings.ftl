@@ -23,6 +23,21 @@ link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var h�
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = Loka
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } verða endurnefndir { -product-mozilla-accounts } þann 1. nóvember
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Þú munt samt skrá þig inn með sama notandanafni og lykilorði og það eru engar aðrar breytingar á hugbúnaðnum sem þú notar.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Við höfum endurnefnt { -product-firefox-accounts }-reikninga sem { -product-mozilla-accounts }-reikninga. Þú munt samt skrá þig inn með sama notandanafni og lykilorði og það eru engar aðrar breytingar á hugbúnaðnum sem þú notar.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Kanna nánar
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Loka borða
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-táknmerki
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -54,10 +69,24 @@ recovery-key-pdf-download-error = Því miður kom upp vandamál við að sækja
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Fáðu meira frá { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Hjálpaðu til við að halda internetinu heilbrigðu
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Fréttir og uppfærslur í öryggis- og persónuverndarmálum
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Snemmbúinn aðgangur til að prófa nýjan hugbúnað
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Veldu hvað á að samstilla
 choose-what-to-sync-option-bookmarks =
     .label = Bókamerki
 choose-what-to-sync-option-history =
