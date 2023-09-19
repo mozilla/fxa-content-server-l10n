@@ -25,6 +25,11 @@ brand-banner-dismiss-button =
     .aria-label = Zacyniś
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } se 1. nowembra do { -product-mozilla-accounts } pśemjenijo
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Pśizjawijośo se ze samskim wužywaŕskim mjenim a gronidłom a njebudu dalšne změny na produktach, kótarež wužywaśo.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Smy { -product-firefox-accounts } do { -product-mozilla-accounts } pśemjenili. Pśizjawijośo se ze samskim wužywaŕskim mjenim a gronidłom a njebudu dalšne změny na produktach, kótarež wužywaśo.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Dalšne informacije
 # Alt text for close banner image
