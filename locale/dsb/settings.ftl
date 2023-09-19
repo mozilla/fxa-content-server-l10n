@@ -452,6 +452,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Zastojnik gronidłow
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Pśidajśo pokaz, aby swój kluc zasej namakał
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Toś ten pokaz dejał wam pomagaś, se spomnjeś, źož sćo składł swój kluc kontowego wótnowjenja. Móžomy wam jen za slědkstajenje gronidła pokazaś, aby se waše daty wótnowili.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -464,6 +467,9 @@ flow-recovery-key-success-alert = Kontowy wótnowjeński kluc jo se napórał
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Pokaz musy mjenjej ako 255 znamuškow wopśimowaś.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Pokaz njesmějo njewěste znamuška Unicode wopśimowaś. Jano pismiki, licby, interpunkciske znamuška a symbole su dowólone.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -498,6 +504,7 @@ la-unlink-account-button = Zwisk źěliś
 la-set-password-button = Gronidło nastajiś
 la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
 la-unlink-content-3 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót swójich zwězanych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
+la-unlink-content-4 = Nježli až zwězanje ze swójim kontom wótwónoźujośo, musyśo gronidło nastajiś. Bźez gronidła njedajo móžnosć za was, se pó wótwónoźowanju zwězanja z wašym kontom pśizjawiś.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -774,6 +781,10 @@ tfa-enter-totp-v2 = Zapódajśo něnto awtentifikaciski kod z awtentifikaciskego
 tfa-input-enter-totp-v2 =
     .label = Awtentificěrowański kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+tfa-enter-code-to-confirm-1 =
+    Pšosym zapódajśo něnto jaden z wašych kodow zawěsćeńskeje awtentifikacije, aby
+    wobkšuśił, až sćo jen składł. Trjebaśo kod za pśizjawjenje, jolic njamaśo pśistup k swójomu
+    mobilnemu rědoju.
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
@@ -1071,6 +1082,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Skannujśo awtentifikaciski
 inline-totp-setup-no-qr-default-service-header-2 = Zapódajśo kod z ruku, <span>aby z kontowymi nastajenjami pókšacował</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Zapódajśo toś ten pótajmny kluc do swójogo awtentifikaciskego nałoženja. <toggleToQRButton>QR-kod město togo skannowaś?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skannujśo QR-kod w swójom awtentifikaciskem nałoženju a zapódajśo pón awtentifikaciski kod, kótaryž se k dispoziciji staja. <toggleToManualModeButton>Njamóžośo kod skannowaś?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Gaž proces jo dokóńcony, se awtentificěrowańske kody napóraju, kótarež móžośo zapódaś.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1155,6 +1168,8 @@ pair-already-have-firefox-paragraph = Maśo južo { -brand-firefox } na telefonj
 pair-sync-your-device-button = Synchronizěrujśo swój rěd
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Abo ześěgniśo
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skannujśo jen, aby { -brand-firefox } za mobilny rěd ześěgnuł, abo sćelśo se <linkExternal>ześěgnjeński wótkaz</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Nic něnto
 pair-take-your-data-message = Wzejśo swóje rejtariki, cytańske znamjenja a gronidła wšuźi, źož { -brand-firefox } wužywaśo.
@@ -1317,6 +1332,7 @@ signin-recovery-code-heading-w-default-service = Zapódajśo awtentifikaciski ko
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Zapódajśo awtentifikaciski kod za zawěsćenje, <span>aby z { $serviceName } pókšacował</span>
+signin-recovery-code-instruction = Pšosym zapódajśo kod zawěsćeńskeje awtentifikacije, kótaryž jo se wam stajił k dispoziciji za konfiguraciju dwójoschójźeńkoweje awtentifikacije k dispoziciji.
 signin-recovery-code-input-label = Zapódajśo 10-městnowy kod za zawěsćeńsku awtentifikaciju
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkšuśiś
