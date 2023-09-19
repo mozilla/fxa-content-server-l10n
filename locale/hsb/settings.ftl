@@ -54,6 +54,10 @@ recovery-key-pdf-heading = Kontowy wobnowjenski kluč
 recovery-key-pdf-download-date = Generowany: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontowy wobnowjenski kluč
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Tutón kluč wam zmóžnja, waše zaklučowane daty wobhladowaka (mjez nimi hesła, zapołožki a historiju) wobnowić, jeli swoje hesło zabywaće. Składujće je na městnje, kotrež móžeće sej spomjatkować.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Městna za składowanje wašeho kluča
@@ -65,6 +69,8 @@ recovery-key-pdf-download-error = Bohužel je při sćahowanju  kontoweho wobnow
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Wobstarajće sej wjace wot { -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Pomhajće nam, zo by internet strowy wostał
