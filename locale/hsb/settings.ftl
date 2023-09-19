@@ -186,6 +186,8 @@ get-data-trio-print-2 =
 
 hearts-broken-image-aria-label =
     .aria-label = Ličak a mobilny telefon a na kóždym wobraz złamaneje wutroby
+hearts-verified-image-aria-label =
+    .aria-label = Ličak, mobilny telefon a tablet a na kóždym wobraz bijaceje wutroby
 signin-recovery-code-image-description =
     .aria-label = Dokument, kotryž schowany tekst wobsahuje.
 signin-totp-code-image-label =
@@ -431,6 +433,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wobnowjens
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Kontowy wobnowjenski kluč je so wutworił – sćehńće a składujće jón nětko
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Tutón kluč wam zmóžnja, waše daty wobnowić, jeli swoje hesło zabywaće. Sćehńće jón nětko a składujće jón na městnje, kotrež móžeće sej spomjatkować – njemóžeće so pozdźišo k tutej stronje wróćić.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dale bjez sćehnjenja
 # This heading is shown above a list of options for storing the account recovery key
@@ -448,6 +452,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Zrjadowak hesłow
 # The header of the fourth step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Přidajće pokiw, zo byšće swój kluč zaso namakał
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Tutón pokiw dyrbjał wam pomhać, sej spomjatkować, hdźež sće swój kluč kontoweho wobnowjenja składował. Móžemy wam jón za wróćostajenje hesła pokazać, zo bychu so waše daty wobnowili.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -460,6 +467,9 @@ flow-recovery-key-success-alert = Kontowy wobnowjenski kluč je so wutworił
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Pokiw dyrbi mjenje hač 255 znamješkow wobsahować.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Pokiw njesmě njewěste znamješka Unicode wobsahować. Jenož pismiki, ličby, interpunkciske znamješka a symbole su dowolene.
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
