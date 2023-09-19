@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-19 13:41+0000\n"
+"PO-Revision-Date: 2023-09-19 13:48+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1629,7 +1629,7 @@ msgstr "Rajtark njedochadźa? Sćelće město toho mejlku"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Prošu wutworće hesło, zo byšće z Firefox Sync pokročował. Waše daty so z wašim hesłom zaklučuja, zo by so waša priwatnosć škitała."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
@@ -1857,11 +1857,11 @@ msgstr "Logo m Mozilla"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Konta Firefox so 1. nowembra do kontow Mozilla přemjenuja"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Přizjewiće so ze samsnym wužiwarskim mjenom a hesłom a njebudu dalše změny na produktach, kotrež wužiwaće."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
@@ -1869,7 +1869,7 @@ msgstr "Dalše informacije"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Smy konta Firefox do kontow Mozilla přemjenowali. Přizjewiće so ze samsnym wužiwarskim mjenom a hesłom a njebudu dalše změny na produktach, kotrež wužiwaće."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
