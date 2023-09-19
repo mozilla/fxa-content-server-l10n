@@ -504,6 +504,7 @@ la-unlink-account-button = Zwisk dźělić
 la-set-password-button = Hesło nastajić
 la-unlink-heading = Wot konta třećeho poskićowarja dźělić
 la-unlink-content-3 = Chceće woprawdźe zwisk ze swojim kontom dźělić? Hdyž zwisk ze swojim kontom dźěliće, njewotzjewiće so awtomatisce wot swojich zwjazanych słužbow. Zo byšće to činił, dyrbiće so manuelnje wot wotrězka zwjazanych słužbow wotzjewić.
+la-unlink-content-4 = Prjedy hač zwjazanje ze swojim kontom wotstronjeće, dyrbiće hesło nastajić. Bjez hesła njeje móžnosć za was, so po wotstronjenju zwjazanja z wašim kontom přizjewić.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -782,6 +783,10 @@ tfa-enter-totp-v2 = Zapodajće nětko awtentifikaciski kod z awtentifikaciskeho 
 tfa-input-enter-totp-v2 =
     .label = Awtentifikaciski kod zapodać
 tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+tfa-enter-code-to-confirm-1 =
+    Prošu zapodajće nětko jedyn z wašich kodow zawěsćenskeje awtentifikacije, zo byšće
+    wobkrućił, zo sće jón składował. Trjebaće kod za přizjewjenje, jeli nimaće přistup k swojemu
+    mobilnemu gratej.
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
