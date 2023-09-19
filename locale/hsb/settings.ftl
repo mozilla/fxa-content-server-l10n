@@ -1084,6 +1084,8 @@ inline-totp-setup-show-qr-default-service-header-2 = Skenujće awtentifikaciski 
 inline-totp-setup-no-qr-default-service-header-2 = Zapodajće kod z ruku, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Zapodajće tutón tajny kluč do swojeho awtentifikaciskeho nałoženja. <toggleToQRButton>QR-kod město toho skenować?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skenujće QR-kod w swojim awtentifikaciskim nałoženju a zapodajće potom awtentifikaciski kod, kotryž so k dispoziciji staja. <toggleToManualModeButton>Njemóžeće kod skenować?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Hdyž proces je dokónčeny, so awtentifikaciske kody wutworjeja, kotrež móžeće zapodać.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1168,6 +1170,8 @@ pair-already-have-firefox-paragraph = Maće hižo { -brand-firefox } na šmórat
 pair-sync-your-device-button = Synchronizujće swój grat
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Abo sćehńće
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skenujće jón, zo byšće { -brand-firefox } za mobilny grat sćahnył, abo sćelće sej <linkExternal>sćehnjenski wotkaz</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Nic nětko
 pair-take-your-data-message = Wzmiće swoje rajtarki, zapołožki a hesła wšudźe, hdźež { -brand-firefox } wužiwaće.
@@ -1330,6 +1334,7 @@ signin-recovery-code-heading-w-default-service = Zapodajće awtentifikaciski kod
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 signin-recovery-code-heading-w-custom-service = Zapodajće awtentifikaciski kod za zawěsćenje, <span>zo byšće z { $serviceName } pokročował</span>
+signin-recovery-code-instruction = Prošu zapodajće kod zawěsćenskeje awtentifikacije, kotryž je so wam za konfiguraciju dwuschodźenkoweje awtentifikacije k dispoziciji stajił.
 signin-recovery-code-input-label = Zapodajće 10-městnowy kod za zawěsćensku awtentifikaciju
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkrućić
