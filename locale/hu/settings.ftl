@@ -24,12 +24,12 @@ link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kó
 brand-banner-dismiss-button =
     .aria-label = Bezárás
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = A { -product-firefox-accounts } új neve { -product-mozilla-accounts } lesz november 1-én
+brand-prelaunch-title = A { -product-firefox-accounts } új neve { -product-mozilla-accounts } lesz november 1-jén
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Átneveztük a { -product-firefox-accounts }t, erre: { -product-mozilla-accounts }. Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
+brand-postlaunch-title = Átneveztük a { -product-firefox-accounts }at { -product-mozilla-accounts }ra. Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = További tudnivalók
 # Alt text for close banner image
@@ -70,7 +70,7 @@ recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreál
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Kapjon ki többet a { -brand-mozilla(ending: "accented") }ból:
+choose-newsletters-prompt-2 = Kapjon többet a { -brand-mozilla(ending: "accented") }ból:
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Segítsen, hogy az internet egészséges maradjon
