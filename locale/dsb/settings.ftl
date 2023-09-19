@@ -54,6 +54,10 @@ recovery-key-pdf-heading = Kontowy wótnowjeński kluc
 recovery-key-pdf-download-date = Generěrowany: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontowy wótnowjeński kluc
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Toś ten kluc wam zmóžnja, waše skoděrowane daty wobglědowaka (mjazy nimi gronidła, cytańske znamjenja a historiju) wótnowiś, jolic swój gronidło zabywaśo. Składujśo jo na městnje, kótarež móžośo se spomnjeś.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Městna za składowanje wašogo kluca
@@ -65,6 +69,8 @@ recovery-key-pdf-download-error = Bóžko jo pśi ześěgowanju kontowego wótno
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Wobstarajśo se wěcej wót { -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Pomagajśo nam, aby internet strowy wóstał
@@ -178,6 +184,10 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Licadło a mobilny telefon a na kuždem wobraz złamaneje wutšoby
+hearts-verified-image-aria-label =
+    .aria-label = Licadło, mobilny telefon a tablet a na kuždem wobraz bijuceje wutšoby
 signin-recovery-code-image-description =
     .aria-label = Dokument, kótaryž schowany tekst wopśimujo.
 signin-totp-code-image-label =
@@ -423,6 +433,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Nowy kontowy wótnowje�
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Kontowy wótnowjeński kluc jo se napórał – ześěgniśo a składujśo jen něnto
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Toś ten kluc wam zmóžnja, waše daty wótnowiś, jolic swójo gronidło zabywaśo. Ześěgniśo jen něnto a składujśo jen na městnje, kótarež móžośo se spomnjeś – njamóžośo se pózdźej toś tomu bokoju wrośiś.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Dalej bźez ześěgnjenja
 # This heading is shown above a list of options for storing the account recovery key
