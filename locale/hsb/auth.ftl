@@ -524,7 +524,6 @@ subscriptionUpgrade-upgrade-info = Sće wuspěšnje wot { $productNameOld } na {
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Započinajo z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } přez { $productPaymentCycleNew } změni. Potom dyrbiće tež jónkróćny popłatk { $paymentProrated } płaćić, zo by so wyši popłatk za zbytk { $productPaymentCycleOld } wotbłyšćował.
 subscriptionUpgrade-content-charge-info-different-cycle = Zběraja wam jónkróćny popłatk { $paymentProrated }, zo by so wyša płaćizna abonementa za zbytk tutoho { $paymentProrated } wotbłyšćował. Z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změni.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -552,6 +551,7 @@ verificationReminderFirst-action-2 = Konto wobkrućić
 verificationReminderSecond-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderSecond-title-2 = Popřejće sej { -brand-firefox }!
 verificationReminderSecond-description-3 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
+verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Budźće dźěl našeje misije, internet do městna přetworić, kotryž je wotewrjeny za kóždeho.
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }

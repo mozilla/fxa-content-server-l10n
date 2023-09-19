@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-16 15:14+0000\n"
+"PO-Revision-Date: 2023-09-19 13:41+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1411,7 +1411,7 @@ msgstr "Zapodajće kod za zawěsćensku awtentifikaciju"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Prošu zapodajće kod zawěsćenskeje awtentifikacije, kotryž je so wam za konfiguraciju dwuschodźenkoweje awtentifikacije k dispoziciji stajił."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
