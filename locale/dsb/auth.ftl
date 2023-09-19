@@ -524,8 +524,6 @@ subscriptionUpgrade-upgrade-info = Sćo wuspěšnje aktualizěrował wót { $pro
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
-subscriptionUpgrade-content-charge-info = Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } pśez { $productPaymentCycleNew } změnijo. Pótom teke musyśo jadnorazowe pśipisanje { $paymentProrated } płaśiś, aby se wušy płaśonk za zbytk { $productPaymentCycleOld } wótbłyšćował.
 subscriptionUpgrade-content-charge-info-different-cycle = Nakładaju wam jadnorazowy płaśonk { $paymentProrated }, aby se wuša płaśizna abonementa za zbytk toś togo { $paymentProrated } wótbłyšćował. Z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změnijo.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -553,6 +551,7 @@ verificationReminderFirst-action-2 = Konto wobkšuśiś
 verificationReminderSecond-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderSecond-title-2 = Njeskomuźćo { -brand-firefox }!
 verificationReminderSecond-description-3 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
+verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Buźćo źěl našeje misije, internet do městna pśetworiś, kótaryž jo wótwórjony za kuždego.
 verificationReminderSecond-action-2 = Konto wobkšuśiś
 verify-title-2 = Wócyńśo internet z { -brand-firefox }
