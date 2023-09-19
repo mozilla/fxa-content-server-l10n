@@ -23,6 +23,23 @@ link-expired-resent-code-error-message = Რაღაც ხარვეზი �
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = დახურვა
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts } 1 ნოემბრიდან.
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = კვლავ შეგეძლებათ შეხვიდეთ მომხმარებლის იმავე სახელითა და პაროლით, სხვა ცვლილება არ შეეხება პროდუქტებს, რომელთაც იყენებთ.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title =
+    { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }.
+    კვლავ შეგეძლებათ შეხვიდეთ მომხმარებლის იმავე სახელითა და პაროლით, სხვა ცვლილება არ შეეხება პროდუქტებს, რომელთაც იყენებთ.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = ვრცლად
+# Alt text for close banner image
+brand-close-banner =
+    .alt = სარკმლის დახურვა
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla }-m-ლოგო
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -54,10 +71,24 @@ recovery-key-pdf-download-error = სამწუხაროდ, ხარვ�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = მიიღეთ მეტი { -brand-mozilla }-სგან:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = დაგვეხმარეთ ინტერნეტის სიჯანსაღის შენარჩუნებაში
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = უსაფრთხოებისა და პირადულობის შესახებ ამბები და სიახლეები
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = ადრეული წვდომა ახალი პროდუქტების გამოსაცდელად
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = მონაცემების შერჩევა დასასინქრონებელად
 choose-what-to-sync-option-bookmarks =
     .label = სანიშნები
 choose-what-to-sync-option-history =
