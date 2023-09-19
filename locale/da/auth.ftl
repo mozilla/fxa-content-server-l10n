@@ -290,7 +290,7 @@ postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er blevet knyttet til din { -product-firefox-account }
 postAddLinkedAccount-action = Håndter konto
-postAddTwoStepAuthentication-subject-2 = Totrinsbekræftelse er slået til
+postAddTwoStepAuthentication-subject-2 = Totrinsgodkendelse er slået til
 postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Du har aktiveret det fra:
@@ -520,7 +520,6 @@ subscriptionUpgrade-upgrade-info = Du har opgraderet fra { $productNameOld } til
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }. På det tidspunkt vil du også blive opkrævet et engangsbeløb på { $paymentProrated } for at afspejle den højere opkrævning for resten af dette { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Du vil blive opkrævet et engangsgebyr på { $paymentProrated } for at afspejle dit abonnements højere pris for resten af denne { $productPaymentCycleOld }. Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
