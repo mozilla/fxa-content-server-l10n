@@ -26,10 +26,10 @@ brand-banner-dismiss-button =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Bydd { -product-firefox-accounts } yn cael ei ailenwi yn { -product-mozilla-accounts } ar Dachwedd 1
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynhyrchion rydych chi'n eu defnyddio.
+brand-prelaunch-subtitle = Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Rydym wedi ailenwi { -product-firefox-accounts } i { -product-mozilla-accounts }. Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynhyrchion rydych chi'n eu defnyddio.
+brand-postlaunch-title = Rydym wedi ailenwi { -product-firefox-accounts } i { -product-mozilla-accounts }. Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Dysgu rhagor
 # Alt text for close banner image
@@ -37,7 +37,7 @@ brand-close-banner =
     .alt = Caewch y Faner
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = { -brand-mozilla } m logo
+    .alt = Logo m { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key

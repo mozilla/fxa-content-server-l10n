@@ -1872,7 +1872,7 @@ msgstr "Dysgu rhagor"
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr ""
-"Rydym wedi ailenwi cyfrifon Firefox yn gyfrifon Mozilla. Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynhyrchion rydych chi'n eu "
+"Rydym wedi ailenwi cyfrifon Firefox yn gyfrifon Mozilla. Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu "
 "defnyddio."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
