@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = Correo reenviado. Añade { $accountsE
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Algo se fue a las pailas. No se pudo enviar un código nuevo.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Cerrar
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } pasará a llamarse { -product-mozilla-accounts } el 1 de noviembre
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Seguirás conectándote con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usas.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Cambiamos el nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirás conectándote con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usas.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Aprender más
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Cerrar anuncio
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logotipo de { -brand-mozilla } m
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Lo sentimos, hubo un problema al descargar tu 
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Conocimiento práctico en tu bandeja de entrada. Regístrate para recibir más:
+choose-newsletters-prompt-2 = Obtén más de { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Recibe las últimas noticias acerca de { -brand-mozilla } y { -brand-firefox }.
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Ayuda a mantener Internet saludable
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Toma acción para mantener al internet saludable
+choose-newsletters-option-security-privacy =
+    .label = Noticias y actualizaciones de seguridad y privacidad
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Mantente seguro y perspicaz en línea
+choose-newsletters-option-test-pilot =
+    .label = Acceso anticipado para probar nuevos productos
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Elige que sincronizar:
+choose-what-to-sync-prompt-2 = Escoge que sincronizar
 choose-what-to-sync-option-bookmarks =
     .label = Marcadores
 choose-what-to-sync-option-history =
