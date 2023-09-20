@@ -27,6 +27,9 @@ brand-banner-dismiss-button =
 brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla-accounts }  1 jasypateĩ guive
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Emoñepyrũta gueteri tembiapo nde puruhára réra ha ñe’ẽñemi eipurumeméva ndive, ha naiñambuéi apopyre eipuruvavoi.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde puruhára réra ha ñe’ẽñemi eipurúva ndive, ha naiñambuéi apopyre eipurúva.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Kuaave
 # Alt text for close banner image
