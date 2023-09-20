@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-15 17:11+0000\n"
-"Last-Translator: Translation Memory <pontoon-tm@example.com>\n"
+"PO-Revision-Date: 2023-09-20 10:32+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1855,7 +1855,7 @@ msgstr "Pam fod angen i mi greu'r cyfrif hwn? <a %(escapedSuggestionAttrs)s>Darg
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr "Mozilla m logo"
+msgstr "Logo m Mozilla"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -1863,7 +1863,7 @@ msgstr "Bydd cyfrifon Firefox yn cael eu hail-enwi yn gyfrifon Mozilla ar Dachwe
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynhyrchion rydych chi'n eu defnyddio."
+msgstr "Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"

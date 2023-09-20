@@ -21,7 +21,7 @@
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts = Cyfrifon Firefox
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = cyfrif Mozilla
+-product-mozilla-account = Cyfrif Mozilla
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 -product-mozilla-accounts = Cyfrifon Mozilla
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
