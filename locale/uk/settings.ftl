@@ -828,7 +828,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Створено { $date }
-security-not-set = Не встановлено
+security-not-set = Не налаштовано
 security-action-create = Створити
 security-set-password = Встановіть пароль для синхронізації та використання певних функцій безпеки облікового запису.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
@@ -856,7 +856,7 @@ row-defaults-status = Немає
 
 rk-header-1 = Ключ відновлення облікового запису
 rk-enabled = Увімкнено
-rk-not-set = Не встановлено
+rk-not-set = Не налаштовано
 rk-action-create = Створити
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Змінити
@@ -919,7 +919,7 @@ se-secondary-email-none = Немає
 tfa-row-header = Двоетапна перевірка
 tfa-row-disabled-2 = Двоетапна перевірка вимкнена
 tfa-row-enabled = Увімкнено
-tfa-row-not-set = Не встановлено
+tfa-row-not-set = Не налаштовано
 tfa-row-action-add = Додати
 tfa-row-action-disable = Вимкнути
 tfa-row-button-refresh =
