@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = Sähköposti lähetetty uudelleen. Li
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Sulje
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } saa uuden nimen 1. marraskuuta: { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Kirjaudut edelleen sisään samalla käyttäjätunnuksella ja salasanalla, eikä käyttämiisi tuotteisiin tapahdu muita muutoksia.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Olemme nimenneet { -product-firefox-accounts } uudelleen: { -product-mozilla-accounts }. Kirjaudut edelleen sisään samalla käyttäjätunnuksella ja salasanalla, eikä käyttämiisi tuotteisiin tapahdu muita muutoksia.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Lue lisää
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Sulje ilmoitus
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla }n m-logo
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -46,24 +69,13 @@ recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamise
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Hyödyllistä tietoa on tulossa sähköpostiisi. Tilaa lisää:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Vastaanota viimeisimmät uutiset { -brand-mozilla }sta ja { -brand-firefox }ista
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Aktivoidu pitääksesi internetin terveenä
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Pysy turvassa ja fiksuna verkossa
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Valitse, mitä synkronoidaan:
+choose-what-to-sync-prompt-2 = Valitse synkronoitavat tiedot
 choose-what-to-sync-option-bookmarks =
     .label = Kirjanmerkit
 choose-what-to-sync-option-history =
