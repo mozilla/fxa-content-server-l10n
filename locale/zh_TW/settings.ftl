@@ -24,7 +24,7 @@ link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新
 brand-banner-dismiss-button =
     .aria-label = 關閉
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts } 將更名為 { -product-mozilla-accounts }
+brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts }將更名為 { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = 您仍可使用相同的帳號與密碼登入，能使用的產品服務內容也維持不變。
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
