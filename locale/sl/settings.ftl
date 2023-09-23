@@ -24,7 +24,7 @@ link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo
 brand-banner-dismiss-button =
     .aria-label = Zapri
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } se bo 1. novembra preimenoval v { -product-mozilla-accounts }
+brand-prelaunch-title = { -product-firefox-accounts(zacetnica: "velika") } se bodo s 1. novembrom preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that

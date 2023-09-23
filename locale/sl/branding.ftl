@@ -45,9 +45,73 @@
        *[imenovalnik] Firefox računi
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = Mozillin račun
+-product-mozilla-account =
+    { $sklon ->
+        [rodilnik]
+            { $zacetnica ->
+                [velika] Računa Mozilla
+               *[mala] računa Mozilla
+            }
+        [dajalnik]
+            { $zacetnica ->
+                [velika] Računu Mozilla
+               *[mala] računu Mozilla
+            }
+        [tozilnik]
+            { $zacetnica ->
+                [velika] Račun Mozilla
+               *[mala] račun Mozilla
+            }
+        [mestnik]
+            { $zacetnica ->
+                [velika] Računu Mozilla
+               *[mala] računu Mozilla
+            }
+        [orodnik]
+            { $zacetnica ->
+                [velika] Računom Mozilla
+               *[mala] računom Mozilla
+            }
+       *[imenovalnik]
+            { $zacetnica ->
+                [velika] Račun Mozilla
+               *[mala] račun Mozilla
+            }
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
--product-mozilla-accounts = Mozillini računi
+-product-mozilla-accounts =
+    { $sklon ->
+        [rodilnik]
+            { $zacetnica ->
+                [velika] Računov Mozilla
+               *[mala] računov Mozilla
+            }
+        [dajalnik]
+            { $zacetnica ->
+                [velika] Računom Mozilla
+               *[mala] računom Mozilla
+            }
+        [tozilnik]
+            { $zacetnica ->
+                [velika] Račune Mozilla
+               *[mala] račune Mozilla
+            }
+        [mestnik]
+            { $zacetnica ->
+                [velika] Računih Mozilla
+               *[mala] računih Mozilla
+            }
+        [orodnik]
+            { $zacetnica ->
+                [velika] Računi Mozilla
+               *[mala] računi Mozilla
+            }
+       *[imenovalnik]
+            { $zacetnica ->
+                [velika] Računi Mozilla
+               *[mala] računi Mozilla
+            }
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
