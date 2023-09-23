@@ -23,8 +23,18 @@ link-expired-resent-code-error-message = Bir sorun oluştu. Yeni kod gönderilem
 # This text is for screen-readers
 brand-banner-dismiss-button =
     .aria-label = Kapat
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts }nın adı 1 Kasım’da { -product-mozilla-accounts } olarak değiştirilecek
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Aynı kullanıcı adı ve parolanızı kullanmaya devam edeceksiniz. Kullandığınız ürünlerde başka hiçbir değişiklik olmayacak.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = “{ -product-firefox-accounts }”nın adını “{ -product-mozilla-accounts }” olarak değiştirdik. Aynı kullanıcı adı ve parolanızı kullanmaya devam edebilirsiniz. Kullandığınız ürünlerde herhangi bir değişiklik olmayacak.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Daha fazla bilgi alın
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Duyuruyu kapat
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = { -brand-mozilla } m logosu
