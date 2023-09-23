@@ -70,7 +70,7 @@ recovery-key-pdf-download-error = Pri prenosu ključa za obnovitev računa je pr
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "rodilnik") }:
+choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "tozilnik") }:
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Pomagajte internet ohraniti zdrav
