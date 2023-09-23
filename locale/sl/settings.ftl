@@ -29,7 +29,7 @@ brand-prelaunch-title = { -product-firefox-accounts(zacetnica: "velika") } se bo
 brand-prelaunch-subtitle = Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts } smo preimenovali v { -product-mozilla-accounts }. Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
+brand-postlaunch-title = { -product-firefox-accounts(sklon: "tozilnik") } smo preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }. Prijavite se lahko z istim uporabniškim imenom in geslom kot doslej, izdelki, ki jih uporabljate, pa se niso spremenili.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Več o tem
 # Alt text for close banner image
@@ -37,7 +37,7 @@ brand-close-banner =
     .alt = Zapri pasico
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = Logotip { -brand-mozilla } m
+    .alt = Logotip { -brand-mozilla(sklon: "rodilnik") } "m"
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
