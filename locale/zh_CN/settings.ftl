@@ -573,7 +573,7 @@ pw-not-email = 不可以与邮箱地址相同
 pw-change-must-match = 新密码和确认密码输入需一致
 pw-commonly-used = 不可以是常见密码
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-tips = 安全无小事，杜绝复用密码。更多创建高强度密码的小技巧，详见<linkExternal>此处</linkExternal>。
+pw-tips = 安全无小事，杜绝复用密码。查看更多<linkExternal>创建高强度密码的小技巧</linkExternal>。
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
