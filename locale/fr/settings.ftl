@@ -69,6 +69,8 @@ recovery-key-pdf-download-error = Un problème est survenu lors du téléchargem
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Recevez plus d’informations de la part de { -brand-mozilla } :
 # Newsletter checklist item
 choose-newsletters-option-take-action-for-the-internet-2 =
     .label = Aidez à conserver un Internet sain
