@@ -54,6 +54,10 @@ recovery-key-pdf-heading = Hesap kurtarma anahtarı
 recovery-key-pdf-download-date = Oluşturma: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Hesap kurtarma anahtarı
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Parolanızı unutursanız şifrelenmiş tarayıcı verilerinizi (parolalar, yer imleri ve geçmiş dahil) bu anahtarla kurtarabilirsiniz. Anahtarınızı unutmayacağınız bir yerde saklayın.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Anahtarınızı saklayabileceğiniz yerler
@@ -65,6 +69,8 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = { -brand-mozilla } bültenlerine kaydolun:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
