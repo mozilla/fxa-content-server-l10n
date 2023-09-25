@@ -71,10 +71,22 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla } bültenlerine kaydolun:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = İnternetin sağlığını birlikte koruyalım
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Güvenlik ve gizlilik haberleri ve duyuruları
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Yeni ürünleri test etmek için erken erişim
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Nelerin eşitleneceğini seçin
 choose-what-to-sync-option-bookmarks =
     .label = Yer imleri
 choose-what-to-sync-option-history =
