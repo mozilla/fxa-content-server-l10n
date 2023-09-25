@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-25 12:23+0000\n"
+"PO-Revision-Date: 2023-09-25 12:38+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -75,7 +75,7 @@ msgstr "あなたは Firefox アカウントに変更を加える準備ができ
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr "主要メールアドレスを確認しました"
+msgstr "優先メールアドレスを確認しました"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -285,7 +285,7 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
-msgstr "主要メールアドレスの確認が完了しました"
+msgstr "優先メールアドレスの確認が完了しました"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
@@ -429,7 +429,7 @@ msgstr "このメールはアカウントに既に存在します"
 
 #: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
-msgstr "ログインにはアカウントの主要メールアドレスが必要です"
+msgstr "ログインにはアカウントの優先メールアドレスが必要です"
 
 #: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
@@ -437,7 +437,7 @@ msgstr "アドレスは他のアカウントに使われています"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
-msgstr "リセットにはアカウントの主要メールアドレスが必要です"
+msgstr "リセットにはアカウントの優先メールアドレスが必要です"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
@@ -445,11 +445,11 @@ msgstr "不正なログインコード"
 
 #: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
-msgstr "主要メールアドレスを未認証アドレスに変えることはできません"
+msgstr "優先メールアドレスを未認証アドレスに変えることはできません"
 
 #: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "主要メールアドレスをこのアカウントに紐付けられていないアドレスに変えることはできません"
+msgstr "優先メールアドレスをこのアカウントに紐付けられていないアドレスに変えることはできません"
 
 #: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
@@ -975,7 +975,7 @@ msgstr "パスワードを覚えていますか？ ログイン"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "主要メールアドレスは既に確認されています"
+msgstr "優先メールアドレスは既に確認されています"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"

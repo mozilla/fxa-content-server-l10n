@@ -295,11 +295,11 @@ postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
 postAddTwoStepAuthentication-from-device = 次の端末から有効にしました:
 postAddTwoStepAuthentication-action = アカウント管理
 postAddTwoStepAuthentication-code-required-2 = 今後はログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
-postChangePrimary-subject = 主要アドレスが更新されました
-postChangePrimary-title = 新しい主要アドレス
+postChangePrimary-subject = 優先メールアドレスが更新されました
+postChangePrimary-title = 新しい優先メールアドレス
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
+postChangePrimary-description = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
 postConsumeRecoveryCode-title-2 = バックアップ認証コードを使用しました
 # After the colon, there is description of the device that the backup authentication code was used on

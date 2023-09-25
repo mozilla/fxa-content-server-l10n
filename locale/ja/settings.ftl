@@ -228,7 +228,7 @@ remember-pw-link = パスワードを覚えている場合はログインして�
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = 主要メールアドレスは既に確認されています
+primary-email-confirmation-link-reused = 優先メールアドレスは既に確認されています
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
@@ -263,7 +263,7 @@ ready-account-ready = アカウントの準備が整いました。
 ready-continue = 続ける
 sign-in-complete-header = ログインが確認されました
 sign-up-complete-header = アカウントを確認しました
-primary-email-verified-header = 主要メールアドレスを確認しました
+primary-email-verified-header = 優先メールアドレスを確認しました
 
 ## Alert Bar
 
@@ -627,8 +627,8 @@ display-name-success-alert-2 = 表示名が更新されました
 
 recent-activity-title = 最近のアカウント利用情報
 recent-activity-account-create-v2 = アカウントを作成しました
-recent-activity-account-disable-v2 = アカウントを無効化しました
-recent-activity-account-enable-v2 = アカウントを有効化しました
+recent-activity-account-disable-v2 = アカウントが無効になりました
+recent-activity-account-enable-v2 = アカウントが有効になりました
 recent-activity-account-login-v2 = アカウントのログインが開始されました
 recent-activity-account-reset-v2 = パスワードのリセットが開始されました
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
@@ -644,6 +644,15 @@ recent-activity-account-password-reset-requested = パスワードのリセッ�
 recent-activity-account-password-reset-success = パスワードのリセットが完了しました
 recent-activity-account-recovery-key-added = アカウント回復用キーが有効になりました
 recent-activity-account-recovery-key-verification-failure = アカウント回復用キーの検証に失敗しました
+recent-activity-account-recovery-key-verification-success = アカウント回復用キーの検証が完了しました
+recent-activity-account-recovery-key-removed = アカウント回復用キーを削除しました
+recent-activity-account-password-added = 新しいパスワードを追加しました
+recent-activity-account-password-changed = パスワードを変更しました
+recent-activity-account-secondary-email-added = 予備のメールアドレスを追加しました
+recent-activity-account-secondary-email-removed = 予備のメールアドレスを削除しました
+recent-activity-account-emails-swapped = 優先メールアドレスと予備メールアドレスを交換しました
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = その他のアカウント利用情報
 
 # Account recovery key setup page
 
@@ -748,7 +757,7 @@ profile-picture =
 profile-display-name =
     .header = 表示名
 profile-primary-email =
-    .header = 主要アドレス
+    .header = 優先メールアドレス
 
 ##
 
@@ -773,6 +782,8 @@ security-password-created-date = { $date } に作成
 security-not-set = 未設定
 security-action-create = 作成
 security-set-password = パスワードを設定して同期し、特定のアカウントのセキュリティ機能を使用してください。
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = 最近のアカウント利用情報を見る
 
 ## Switch component
 
@@ -823,8 +834,8 @@ se-cannot-resend-code-3 = 申し訳ありませんが、確認コードの再送
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful-2 = { $email } が主要アドレスになりました
-se-set-primary-error-2 = 主要アドレスの変更時に問題が発生しました
+se-set-primary-successful-2 = { $email } が優先アドレスになりました
+se-set-primary-error-2 = 優先アドレスの変更時に問題が発生しました
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -841,8 +852,8 @@ se-refresh-email =
 se-unverified-2 = 未確認
 se-resend-code-2 = 確認が必要です。受信トレイまたは迷惑メールフォルダーに見つからない場合は、<button>確認コードを再送</button> してください。
 # Button to make secondary email the primary
-se-make-primary = 主要アドレスに設定
-se-default-content = 主要アドレスでログインできない場合の予備アカウントです。
+se-make-primary = 優先アドレスに設定
+se-default-content = 優先アドレスでログインできない場合の予備アカウントです。
 se-content-note-1 =
     注記: 予備アドレスは情報を復元しません — 復元するには、
     <a>アカウント回復用キー</a> が必要です。
