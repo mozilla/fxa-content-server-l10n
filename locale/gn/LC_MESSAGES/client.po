@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-20 14:28+0000\n"
+"PO-Revision-Date: 2023-09-25 15:15+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1399,7 +1399,7 @@ msgstr ""
 " \n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
 "              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Ñemigua jehaipy</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’epuru purureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu purureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1497,7 +1497,7 @@ msgstr ""
 " \n"
 "              Eku’ejeývo, emoneĩ:<br />\n"
 "              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Temiñemi purureko</a> ha <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Ñemigua jehaipy</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’epuru purureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Mba’eporu purureko</a> ha <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
 "            "
 
 #: .es5/templates/support.mustache:1
@@ -1550,7 +1550,7 @@ msgstr "Tysyi’ỹ"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr "¿Eikotevẽ pytyvõ tembiporu’i térã mba’epuru ha’etévape? (poravokuaáva)"
+msgstr "¿Eikotevẽ pytyvõ tembiporu’i térã mba’eporu ha’etévape? (poravokuaáva)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
@@ -1672,7 +1672,7 @@ msgstr "eku’ejey %(serviceName)s ndive"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Rohecha jeiko ivaikuaáva nde Firefox mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojepurúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’epuru nde Firefox mba’ete pegua."
+msgstr "Rohecha jeiko ivaikuaáva nde Firefox mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojepurúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’eporu nde Firefox mba’ete pegua."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."

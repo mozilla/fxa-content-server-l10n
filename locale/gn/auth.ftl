@@ -40,7 +40,7 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Embohekopyahu marandu kuatiañemugua
 subplat-privacy-policy = { -brand-mozilla } Ñemigua Purureko
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
-subplat-cloud-terms = { -product-firefox-cloud } Mba’epururã rehegua
+subplat-cloud-terms = { -product-firefox-cloud } Mba’eporurã rehegua
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Añete
 subplat-legal-plaintext = { subplat-legal }:
@@ -84,9 +84,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Neremoambuéiramo, embojevyjey ne ñe’ẽñemi ko’ág̃a { $resetLink } ndive
-cancellationSurvey = Orepytyvõna romoĩporãvévo mba’epuru ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
+cancellationSurvey = Orepytyvõna romoĩporãvévo mba’eporu ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
-cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’epururã rojapóvo ko ñeporandu:
+cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’eporurã rojapóvo ko ñeporandu:
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
 manage-account = Mba’ete ñangareko
 manage-account-plaintext = { manage-account }:
@@ -156,9 +156,9 @@ subscriptionUpdateBillingEnsure-plaintext = Eikuaáta mba’éichapa ehepyme’�
 subscriptionUpdateBillingTry = Rohechajeýta nde jehepyme’ẽ tenondeve, hákatu oikotevẽkuaa ore pytyvõ oĩporã hag̃ua <a data-l10n-name="updateBillingUrl">embohekopyahúvo nde jehepyme’ẽ marandu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Rohechajeýta nde jehepyme’ẽ tenondeve, hákatu oikotevẽkuaa ore pytyvõ oĩporã hag̃ua embohekopyahúvo nde jehepyme’ẽ marandu:
-subscriptionUpdatePayment = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko <a data-l10n-name="updateBillingUrl">embohekopyahumi ne marandu tepyme’ẽguáva</a> pya’e porã.
+subscriptionUpdatePayment = Emboykekuaa hag̃ua pe mba’eporu ñekytĩ, ikatúpiko <a data-l10n-name="updateBillingUrl">embohekopyahumi ne marandu tepyme’ẽguáva</a> pya’e porã.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
+subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’eporu ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Eñemomaranduve hag̃ua eike { -brand-mozilla } pytyvõhápe: { $supportUrl }.
@@ -258,7 +258,7 @@ passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-acco
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
-passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
+passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
 passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
@@ -399,7 +399,7 @@ subscriptionCancellation-content-2 = Roipe’a ndereraguapy { $productName }-gui
 subscriptionCancellation-outstanding-content-2 = Roipe’a ndereraguapy { $productName }-gui. Ne ñehepyme’ẽ paha { $invoiceTotal } rehegua oñehepyme’ẽta ag̃a { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content-continue = Ne mba’epuru ohóta opa peve kuatiañemure ko’ag̃aguáva, oikótava { $serviceLastActiveDateOnly } peve.
+subscriptionCancellation-content-continue = Ne mba’eporu ohóta opa peve kuatiañemure ko’ag̃aguáva, oikótava { $serviceLastActiveDateOnly } peve.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Eñemoambuéma { $productName }-pe

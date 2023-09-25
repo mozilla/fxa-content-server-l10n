@@ -334,7 +334,7 @@ connect-another-app-store-image-2 =
 
 ## Connected services section
 
-cs-heading = Mba’epuru mbojuajupyre
+cs-heading = Mba’eporu mbojuajupyre
 cs-description = Eipurúva guive ha emoñepyrũhápe tembiapo.
 cs-cannot-refresh =
     Rombyasy, oĩ apañuãi hekopyahúvo mba’epytyvõrã rysýi
@@ -348,7 +348,7 @@ cs-logged-out-2 = Osẽma { $service }-gui.
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
 # Link text to a support page on missing or duplicate devices
-cs-missing-device-help = ¿Mba’epuru oĩ’ỹva térã ikõiva?
+cs-missing-device-help = ¿Mba’eporu oĩ’ỹva térã ikõiva?
 cs-disconnect-sync-heading = Sync-gui ñesẽ
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -619,7 +619,7 @@ delete-account-header =
     .title = Embogue mba’ete
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
-delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’epuru { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
+delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’eporu { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -946,11 +946,11 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’epururã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
+terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
+terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’epururã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
+terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
