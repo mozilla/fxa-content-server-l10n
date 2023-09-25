@@ -35,6 +35,9 @@ brand-learn-more = מידע נוסף
 # Alt text for close banner image
 brand-close-banner =
     .alt = סגירת באנר
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = סמל ה־m של { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key

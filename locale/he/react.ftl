@@ -19,6 +19,11 @@ app-default-title-2 = { -product-mozilla-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
 app-page-title = ‏{ $title } | ‏{ -product-firefox-accounts }
+# This string is used as the title of the page, displayed in the browser tab.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-step authentication")
+app-page-title-2 = ‏{ $title } | ‏{ -product-mozilla-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
@@ -34,3 +39,5 @@ app-loading-spinner-aria-label-loading = בטעינה…
 
 app-logo-alt =
     .alt = הלוגו של { -brand-firefox }
+app-logo-alt-2 =
+    .alt = הסמל של { -brand-mozilla }
