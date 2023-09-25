@@ -411,10 +411,12 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = 変更を確認してください
 sub-change-failed = プラン変更に失敗しました
+sub-update-acknowledgment = プランはすぐに変更されます。請求サイクルの残りは本日からの日割りで料金が請求され、{ $startingDate } から全額が請求されます。
 sub-change-submit = 変更を確認
 sub-update-current-plan-label = 現在のプラン
 sub-update-new-plan-label = 変更後のプラン
 sub-update-total-label = 変更後の料金
+sub-update-prorated-upgrade = 日割りアップグレード
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)

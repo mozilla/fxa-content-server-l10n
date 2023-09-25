@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = メールを再送信しました。�
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = エラーが発生しました。新しいコードを送信できませんでした。
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = 閉じる
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts }が 11 月 1 日から { -product-mozilla-accounts }に名称変更されます
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = { -product-firefox-accounts }を { -product-mozilla-accounts }に名称変更しました。これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = 詳細情報
+# Alt text for close banner image
+brand-close-banner =
+    .alt = バナーを閉じる
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m ロゴ
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -35,24 +58,10 @@ recovery-key-pdf-key-legend = アカウント回復用キー
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = 実用的な知識が受信トレイに届きます。登録して詳細を見る:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = { -brand-mozilla } と { -brand-firefox } に関する最新情報を入手してください
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = インターネットを健全に保つために行動しましょう
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = オンラインをより安全でスマートに
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = 同期するデータを選択してください:
 choose-what-to-sync-option-bookmarks =
     .label = ブックマーク
 choose-what-to-sync-option-history =
@@ -617,6 +626,24 @@ display-name-success-alert-2 = 表示名が更新されました
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 最近のアカウント利用情報
+recent-activity-account-create-v2 = アカウントを作成しました
+recent-activity-account-disable-v2 = アカウントを無効化しました
+recent-activity-account-enable-v2 = アカウントを有効化しました
+recent-activity-account-login-v2 = アカウントのログインが開始されました
+recent-activity-account-reset-v2 = パスワードのリセットが開始されました
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = メールのバウンスが解消されました
+recent-activity-account-login-failure = アカウントへのログイン試行が失敗しました
+recent-activity-account-two-factor-added = 2 段階認証が有効になりました
+recent-activity-account-two-factor-requested = 2 段階認証が要求されました
+recent-activity-account-two-factor-failure = 2 段階認証に失敗しました
+recent-activity-account-two-factor-success = 2 段階認証に成功しました
+recent-activity-account-two-factor-removed = 2 段階認証が削除されました
+recent-activity-account-password-reset-requested = パスワードのリセットが要求されました
+recent-activity-account-password-reset-success = パスワードのリセットが完了しました
+recent-activity-account-recovery-key-added = アカウント回復用キーが有効になりました
+recent-activity-account-recovery-key-verification-failure = アカウント回復用キーの検証に失敗しました
 
 # Account recovery key setup page
 
