@@ -309,9 +309,13 @@ postAddAccountRecovery-action = Správa účtu
 postAddAccountRecovery-delete-key = Smazat nový klíč:
 postAddAccountRecovery-changd-password = Změňte si své heslo:
 postAddLinkedAccount-subject = Nový účet propojený s { -brand-firefox(case: "ins") }
+postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lowercase") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Váš účet { $providerName } byl propojen s vaším účtem { -product-firefox-account(case: "ins") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Váš účet { $providerName } byl propojen s vaším účtem { -product-mozilla-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
 postAddTwoStepAuthentication-subject-2 = Dvoufázové ověření je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
@@ -324,6 +328,9 @@ postChangePrimary-title = Nová hlavní e-mailová adresa
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-firefox-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Vaše hlavní e-mailová adresa byla úspěšně změněna na { $email }. Tato adresa bude nyní použita pro přihlašování k vašemu { -product-mozilla-account(case: "dat") } a na zasílání bezpečnostních upozornění a potvrzení.
 postChangePrimary-action = Správa účtu
 postConsumeRecoveryCode-title-2 = Použili jste záložní ověřovací kód
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -352,6 +359,9 @@ postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Úspěšně jste z vašeho účtu { -product-firefox-account } odebrali { $secondaryEmail } coby záložní e-mailovou adresu. Nadále už nebudou na tuto adresu doručovány bezpečnostní oznámení a potvrzování přihlášení.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Úspěšně jste z vašeho účtu { -product-mozilla-account } odebrali { $secondaryEmail } coby záložní e-mailovou adresu. Nadále už nebudou na tuto adresu doručovány bezpečnostní oznámení a potvrzování přihlášení.
 postRemoveSecondary-action = Správa účtu
 postRemoveTwoStepAuthentication-subject-line-2 = Dvoufázové ověření je vypnuté
 postRemoveTwoStepAuthentication-title-2 = Vypnuli jste dvoufázové ověření
@@ -364,6 +374,7 @@ postVerify-title-2 = Chcete vidět stejné panely na dvou zařízeních?
 postVerify-description-2 = Je to snadné! Stačí nainstalovat { -brand-firefox } na jiné zařízení a přihlásit se k synchronizaci. Je to jako kouzlo!
 postVerify-sub-description = (Psst… To také znamená, že své záložky, hesla a další data { -brand-firefox(case: "gen") } můžete získat všude, kde jste přihlášeni.)
 postVerify-subject-3 = Vítá vás { -brand-firefox }!
+postVerify-subject-4 = Vítá vás { -brand-mozilla }!
 postVerify-setup-2 = Připojit další zařízení:
 postVerify-action-2 = Připojte další zařízení
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
@@ -371,12 +382,18 @@ postVerifySecondary-title = Záložní e-mailová adresa byla přidána
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Úspěšně jste potvrdili { $secondaryEmail } jako záložní e-mailovou adresu pro váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostní oznámení a potvrzení o přihlášení budou nyní doručována na obě e-mailové adresy.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Úspěšně jste potvrdili { $secondaryEmail } jako záložní e-mailovou adresu pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }. Bezpečnostní oznámení a potvrzení o přihlášení budou nyní doručována na obě e-mailové adresy.
 postVerifySecondary-action = Správa účtu
 recovery-subject = Obnovit heslo
 recovery-title-2 = Zapomněli jste heslo?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Obdrželi jsme žádost o změnu hesla k vašemu { -product-firefox-account(case: "dat") } z:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat") } z:
 recovery-new-password-button = Vytvořte si nové heslo klepnutím na tlačítko níže. Platnost tohoto odkazu vyprší v průběhu následující hodiny.
 recovery-copy-paste = Vytvořte si nové heslo zkopírováním a vložením adresy URL níže do vašeho prohlížeče. Platnost tohoto odkazu vyprší během následující hodiny.
 recovery-action = Vytvořit nové heslo
@@ -389,6 +406,11 @@ subscriptionAccountDeletion-title = Je nám líto, že odcházíte
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Nedávno jste smazali svůj { -product-firefox-account(case: "acc") }. Proto jsme zrušili vaše předplatné produktu { $productName }. Vaše poslední platba ve výši{ $invoiceTotal } byla uhrazena dne { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Nedávno jste smazali svůj { -product-mozilla-account(case: "acc") }. Proto jsme zrušili vaše předplatné produktu { $productName }. Vaše poslední platba ve výši{ $invoiceTotal } byla uhrazena dne { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte si prosím heslo.
@@ -397,16 +419,20 @@ subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte 
 subscriptionAccountFinishSetup-title = Vítá vás { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte.
 subscriptionAccountFinishSetup-content-create-2 = Dále si vytvoříte heslo pro { -product-firefox-account(case: "acc") }, abyste mohli začít používat své nové předplatné.
+subscriptionAccountFinishSetup-content-create-3 = Dále si vytvoříte heslo pro { -product-mozilla-account(case: "acc") }, abyste mohli začít používat své nové předplatné.
 subscriptionAccountFinishSetup-action-2 = Začít
 subscriptionAccountReminderFirst-subject = Připomínka: dokončete nastavení vašeho účtu
 subscriptionAccountReminderFirst-title = Zatím nemáte přístup ke svému předplatnému
 subscriptionAccountReminderFirst-content-info-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
+subscriptionAccountReminderFirst-content-info-3 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
 subscriptionAccountReminderFirst-content-select-2 = Vyberte „Vytvořit heslo“ pro nastavení nového hesla a dokončení potvrzování účtu.
 subscriptionAccountReminderFirst-action = Vytvoření hesla
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Poslední připomenutí: Nastavte si svůj účet
 subscriptionAccountReminderSecond-title = Vítá vás { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Vítá vás { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
+subscriptionAccountReminderSecond-content-info-3 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.
 subscriptionAccountReminderSecond-content-select-2 = Vyberte „Vytvořit heslo“ pro nastavení nového hesla a dokončení potvrzování účtu.
 subscriptionAccountReminderSecond-action = Vytvoření hesla
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -560,23 +586,31 @@ unblockCode-report = Pokud ne, pomozte nám odrazit útočníky a <a data-l10n-n
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
 verificationReminderFinal-subject = Poslední připomenutí k potvrzení vašeho účtu
 verificationReminderFinal-description = Před několika týdny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Pro vaši bezpečnost účet smažeme, pokud nebude ověřen během následujících 24 hodin.
+verificationReminderFinal-description-2 = Před několika týdny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Pro vaši bezpečnost účet smažeme, pokud nebude ověřen během následujících 24 hodin.
 confirm-account = Potvrdit účet
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nezapomeňte potvrdit svůj účet
 verificationReminderFirst-title-2 = Vítá vás { -brand-firefox }!
+verificationReminderFirst-title-3 = Vítá vás { -brand-mozilla }!
 verificationReminderFirst-description-2 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 15 dní, jinak bude automaticky smazán.
+verificationReminderFirst-description-3 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 15 dní, jinak bude automaticky smazán.
 verificationReminderFirst-sub-description-3 = Nenechte si ujít prohlížeč, který staví vás a vaše soukromí na první místo.
 confirm-email-2 = Potvrdit účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdit účet
 verificationReminderSecond-subject-2 = Nezapomeňte potvrdit svůj účet
 verificationReminderSecond-title-2 = Nenechte si ujít { -brand-firefox }!
+verificationReminderSecond-title-3 = Nenechte si ujít { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před několika dny jste vytvořili { -product-firefox-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
+verificationReminderSecond-description-4 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Potvrďte svůj účet během následujících 10 dní, jinak bude automaticky smazán.
 verificationReminderSecond-second-description = Váš { -product-firefox-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
+verificationReminderSecond-second-description-2 = Váš { -product-mozilla-account } vám umožňuje synchronizovat vaše informace mezi zařízeními a odemyká přístup k produktům { -brand-mozilla }, které ještě více chrání soukromí.
 verificationReminderSecond-sub-description-2 = Staňte se součástí našeho poslání proměnit internet v místo, které je otevřené pro každého.
 verificationReminderSecond-action-2 = Potvrdit účet
 verify-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
+verify-title-3 = Pojďte na internet pomocí { -brand-mozilla(case: "acc") }
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
+verify-description-2 = Potvrďte svůj účet a využívejte výhody { -brand-mozilla(case: "gen") } všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
 verify-action-2 = Potvrdit účet
 # Variables:
@@ -607,13 +641,19 @@ verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Žádost o použití adresy { $email } jako záložní e-mailové adresy byla podána z následujícího { -product-firefox-account(case: "gen") }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Žádost o použití adresy { $email } jako záložní e-mailové adresy byla podána z následujícího { -product-mozilla-account(case: "gen") }:
 verifySecondaryCode-prompt-2 = Použijte tento potvrzovací kód:
 verifySecondaryCode-expiry-notice-2 = Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svůj účet
 verifyShortCode-title-2 = Pojďte na internet pomocí { -brand-firefox(case: "acc") }
+verifyShortCode-title-3 = Pojďte na internet pomocí { -brand-mozilla(case: "acc") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Potvrďte svůj účet a využívejte výhody { -brand-mozilla(case: "gen") } všude, kde se přihlásíte, počínaje:
 verifyShortCode-prompt-3 = Použijte tento potvrzovací kód:
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.
