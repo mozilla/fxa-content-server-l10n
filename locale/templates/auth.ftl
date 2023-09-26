@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logging in to { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logging in to your { -product-mozilla-account }?
 session-verify-send-push-body-2 = Click here to confirm it’s you
 
 
@@ -9,12 +10,16 @@ session-verify-send-push-body-2 = Click here to confirm it’s you
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization:"uppercase") } Privacy Policy
 fxa-service-url = { -product-firefox-cloud } Terms of Service
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization:"uppercase") } Terms of Service
 
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-automated-email = This is an automated email; if you received it in error, no action is required.
 subplat-privacy-notice = Privacy notice
@@ -26,13 +31,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = You’re receiving this email because { $email } has a { -product-mozilla-account } and you signed up for { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = You’re receiving this email because { $email } has a { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = You’re receiving this email because { $email } has a { -product-mozilla-account }.
 subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
+subplat-explainer-multiple-2 = You’re receiving this email because { $email } has a { -product-mozilla-account } and you have subscribed to multiple products.
 subplat-explainer-was-deleted = You’re receiving this email because { $email } was registered for a { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = You’re receiving this email because { $email } was registered for a { -product-mozilla-account }.
 subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
+subplat-manage-account-2 = Manage your { -product-mozilla-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Manage your { -product-firefox-account } settings by visiting your account page: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Manage your { -product-mozilla-account } settings by visiting your account page: { $accountSettingsUrl }
 subplat-terms-policy = Terms and cancellation policy
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
@@ -226,7 +244,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = It takes two to sync
 cadReminderFirst-description-1 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }. It’s like having magic in your { -brand-firefox } account!
-cadReminderFirst-description-2 = It only takes a sec to sync.
+cadReminderFirst-description-v2 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }.
 
 cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your sync setup
 cadReminderSecond-action = Sync another device
@@ -244,9 +262,12 @@ downloadSubscription-content-2 = Let’s get started using all the features incl
 downloadSubscription-link-action-2 = Get Started
 
 fraudulentAccountDeletion-subject = Your { -product-firefox-account } was deleted
+fraudulentAccountDeletion-subject-2 = Your { -product-mozilla-account } was deleted
 fraudulentAccountDeletion-title = Your account was deleted
 fraudulentAccountDeletion-content = Recently, a { -product-firefox-account } was created and a subscription was charged using this email address. As we do with all new accounts, we asked that you confirm your account by first validating this email address.
+fraudulentAccountDeletion-content-part1-v2 = Recently, a { -product-mozilla-account } was created and a subscription was charged using this email address. As we do with all new accounts, we asked that you confirm your account by first validating this email address.
 fraudulentAccountDeletion-content-2 = At present, we see that the account was never confirmed. Since this step was not completed, we are not sure if this was an authorized subscription. As a result, the { -product-firefox-account } registered to this email address was deleted and your subscription was canceled with all charges reimbursed.
+fraudulentAccountDeletion-content-part2-v2 = At present, we see that the account was never confirmed. Since this step was not completed, we are not sure if this was an authorized subscription. As a result, the { -product-mozilla-account } registered to this email address was deleted and your subscription was canceled with all charges reimbursed.
 fraudulentAccountDeletion-contact = If you have any questions, please contact our <a data-l10n-name="mozillaSupportUrl">support team</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -274,9 +295,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = New sign-in to { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Your { -product-firefox-account } was used to sign in
+newDeviceLogin-title-3 = Your { -product-mozilla-account } was used to sign in
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Not you? <a data-l10n-name="passwordChangeLink">Change your password</a>.
@@ -288,14 +308,15 @@ newDeviceLogin-action = Manage account
 passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
 passwordChanged-description = Your { -product-firefox-account } password was successfully changed from the following device:
+passwordChanged-description-2 = Your { -product-mozilla-account } password was successfully changed from the following device:
 
 passwordChangeRequired-subject = Suspicious activity detected
 passwordChangeRequired-title = Password Change Required
 passwordChangeRequired-suspicious-activity = We detected suspicious behavior on your { -product-firefox-account }. To prevent unauthorized access to your { -product-firefox-account }, we’ve disconnected all devices on your account and are requiring you to change your password as a precaution.
+passwordChangeRequired-suspicious-activity-2 = We detected suspicious behavior on your { -product-mozilla-account }. To prevent unauthorized access to your { -product-mozilla-account }, we’ve disconnected all devices on your account and are requiring you to change your password as a precaution.
 passwordChangeRequired-sign-in = Sign back into any device or service where you use your { -product-firefox-account } and follow the steps that will be presented to you.
+passwordChangeRequired-sign-in-2 = Sign back into any device or service where you use your { -product-mozilla-account } and follow the steps that will be presented to you.
 passwordChangeRequired-different-password = <b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account.
-passwordChangeRequired-signoff = Best,
-passwordChangeRequired-signoff-name = The { -product-firefox-accounts } team
 passwordChangeRequired-different-password-plaintext = Important: Pick a different password than what you were previously using and make sure that it is different from your email account.
 
 passwordReset-subject = Password updated
@@ -324,9 +345,13 @@ postAddAccountRecovery-delete-key = Delete the new key:
 postAddAccountRecovery-changd-password = Change your password:
 
 postAddLinkedAccount-subject = New account linked to { -brand-firefox }
+postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Your { $providerName } account has been linked to your { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to your { -product-mozilla-account }
 postAddLinkedAccount-action = Manage account
 
 postAddTwoStepAuthentication-subject-2 = Two-step authentication turned on
@@ -341,6 +366,9 @@ postChangePrimary-title = New primary email
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-firefox-account }, as well as receiving security notifications and sign-in confirmations.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-mozilla-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
 
 postConsumeRecoveryCode-title-2 = You used a backup authentication code
@@ -371,6 +399,9 @@ postRemoveSecondary-title = Secondary email removed
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = You have successfully removed { $secondaryEmail } as a secondary email from your { -product-firefox-account }. Security notifications and sign-in confirmations will no longer be delivered to this address.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = You have successfully removed { $secondaryEmail } as a secondary email from your { -product-mozilla-account }. Security notifications and sign-in confirmations will no longer be delivered to this address.
 postRemoveSecondary-action = Manage account
 
 postRemoveTwoStepAuthentication-subject-line-2 = Two-step authentication turned off
@@ -385,6 +416,7 @@ postVerify-title-2 = Want to see the same tab on two devices?
 postVerify-description-2 = It’s easy! Just install { -brand-firefox } on another device and log in to sync. It’s like magic!
 postVerify-sub-description = (Psst… It also means you can get your bookmarks, passwords, and other { -brand-firefox } data everywhere you’re signed in.)
 postVerify-subject-3 = Welcome to { -brand-firefox }!
+postVerify-subject-4 = Welcome to { -brand-mozilla }!
 postVerify-setup-2 = Connect another device:
 postVerify-action-2 = Connect another device
 
@@ -393,6 +425,9 @@ postVerifySecondary-title = Secondary email added
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = You have successfully confirmed { $secondaryEmail } as a secondary email for your { -product-firefox-account }. Security notifications and sign-in confirmations will now be delivered to both email addresses.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = You have successfully confirmed { $secondaryEmail } as a secondary email for your { -product-mozilla-account }. Security notifications and sign-in confirmations will now be delivered to both email addresses.
 postVerifySecondary-action = Manage account
 
 recovery-subject = Reset your password
@@ -400,6 +435,9 @@ recovery-title-2 = Forgot your password?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = We received a request for a password change on your { -product-firefox-account } from:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = We received a request for a password change on your { -product-mozilla-account } from:
 recovery-new-password-button = Create a new password by clicking the button below. This link will expire within the next hour.
 recovery-copy-paste = Create a new password by copying and pasting the URL below into your browser. This link will expire within the next hour.
 recovery-action = Create new password
@@ -413,6 +451,11 @@ subscriptionAccountDeletion-title = Sorry to see you go
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = You recently deleted your { -product-firefox-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = You recently deleted your { -product-mozilla-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -422,18 +465,22 @@ subscriptionAccountFinishSetup-subject = Welcome to { $productName }: Please set
 subscriptionAccountFinishSetup-title = Welcome to { $productName }
 subscriptionAccountFinishSetup-content-processing = Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel.
 subscriptionAccountFinishSetup-content-create-2 = Next, you’ll create a { -product-firefox-account } password to start using your new subscription.
+subscriptionAccountFinishSetup-content-create-3 = Next, you’ll create a { -product-mozilla-account } password to start using your new subscription.
 subscriptionAccountFinishSetup-action-2 = Get started
 
 subscriptionAccountReminderFirst-subject = Reminder: Finish setting up your account
 subscriptionAccountReminderFirst-title = You can’t access your subscription yet
 subscriptionAccountReminderFirst-content-info-2 = A few days ago you created a { -product-firefox-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
+subscriptionAccountReminderFirst-content-info-3 = A few days ago you created a { -product-mozilla-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
 subscriptionAccountReminderFirst-content-select-2 = Select “Create Password” to set up a new password and finish confirming your account.
 subscriptionAccountReminderFirst-action = Create Password
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 
 subscriptionAccountReminderSecond-subject = Final reminder: Setup your account
 subscriptionAccountReminderSecond-title = Welcome to { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Welcome to { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = A few days ago you created a { -product-firefox-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
+subscriptionAccountReminderSecond-content-info-3 = A few days ago you created a { -product-mozilla-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
 subscriptionAccountReminderSecond-content-select-2 = Select “Create Password” to set up a new password and finish confirming your account.
 subscriptionAccountReminderSecond-action = Create Password
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -606,12 +653,15 @@ unblockCode-report-plaintext = If no, help us fend off intruders and report it t
 
 verificationReminderFinal-subject = Final reminder to confirm your account
 verificationReminderFinal-description = A couple of weeks ago you created a { -product-firefox-account }, but never confirmed it. For your security, we will delete the account if not verified in the next 24 hours.
+verificationReminderFinal-description-2 = A couple of weeks ago you created a { -product-mozilla-account }, but never confirmed it. For your security, we will delete the account if not verified in the next 24 hours.
 confirm-account = Confirm account
 confirm-account-plaintext = { confirm-account }:
 
 verificationReminderFirst-subject-2 = Remember to confirm your account
 verificationReminderFirst-title-2 = Welcome to { -brand-firefox }!
+verificationReminderFirst-title-3 = Welcome to { -brand-mozilla }!
 verificationReminderFirst-description-2 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 15 days or it will be automatically deleted.
+verificationReminderFirst-description-3 = A few days ago you created a { -product-mozilla-account }, but never confirmed it. Please confirm your account in the next 15 days or it will be automatically deleted.
 verificationReminderFirst-sub-description-3 = Don’t miss out on the browser that puts you and your privacy first.
 confirm-email-2 = Confirm account
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -619,13 +669,18 @@ verificationReminderFirst-action-2 = Confirm account
 
 verificationReminderSecond-subject-2 = Remember to confirm your account
 verificationReminderSecond-title-2 = Don’t miss out on { -brand-firefox }!
+verificationReminderSecond-title-3 = Don’t miss out on { -brand-mozilla }!
 verificationReminderSecond-description-3 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
+verificationReminderSecond-description-4 = A few days ago you created a { -product-mozilla-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
 verificationReminderSecond-second-description = Your { -product-firefox-account } lets you sync your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Your { -product-mozilla-account } lets you sync your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Be part of our mission to transform the internet into a place that’s open for everyone.
 verificationReminderSecond-action-2 = Confirm account
 
 verify-title-2 = Open the internet with { -brand-firefox }
+verify-title-3 = Open the internet with { -brand-mozilla }
 verify-description = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
+verify-description-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
 verify-subject = Finish creating your account
 verify-action-2 = Confirm account
 
@@ -660,6 +715,9 @@ verifySecondaryCode-action-2 = Confirm email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A request to use { $email } as a secondary email address has been made from the following { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = A request to use { $email } as a secondary email address has been made from the following { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Use this confirmation code:
 verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, this address will begin receiving security notifications and confirmations.
 
@@ -667,7 +725,10 @@ verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, t
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirm your account
 verifyShortCode-title-2 = Open the internet with { -brand-firefox }
+verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
 verifyShortCode-prompt-3 = Use this confirmation code:
 verifyShortCode-expiry-notice = It expires in 5 minutes.
