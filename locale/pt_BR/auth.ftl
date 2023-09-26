@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Está entrando na conta no { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Está entrando na sua { -product-mozilla-account }?
 session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 
 ## Email content
@@ -8,10 +9,13 @@ session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logotipo do { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizar dispositivos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivos">
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
+moz-accounts-privacy-url = Política de privacidade das { -product-mozilla-accounts(capitalization: "lowercase") }
 fxa-service-url = Termos do serviço do { -product-firefox-cloud }
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Terms of Service
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotipo do { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
@@ -201,7 +205,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = São necessários dois para sincronizar
 cadReminderFirst-description-1 = Acesse suas abas em todos os seus dispositivos. Tenha seus favoritos, senhas e outros dados onde quer que use o { -brand-firefox }. É como ter magia em sua conta { -brand-firefox }!
-cadReminderFirst-description-2 = Leva apenas um segundo para sincronizar.
 cadReminderSecond-subject-2 = Não perca! Vamos terminar sua configuração de sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não esqueça de sincronizar!
@@ -242,8 +245,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Sua { -product-firefox-account } foi usada para entrar no
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +261,6 @@ passwordChangeRequired-title = Necessário mudar a senha
 passwordChangeRequired-suspicious-activity = Detectamos comportamento suspeito em sua { -product-firefox-account }. Para evitar acesso não autorizado à sua { -product-firefox-account }, por precaução desconectamos todos os dispositivos da sua conta e solicitamos que você mude sua senha.
 passwordChangeRequired-sign-in = Entre na sua conta novamente em qualquer dispositivo ou serviço em que use sua { -product-firefox-account } e siga as instruções.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
-passwordChangeRequired-signoff = Atenciosamente,
-passwordChangeRequired-signoff-name = A equipe de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
 passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
@@ -520,7 +519,6 @@ subscriptionUpgrade-upgrade-info = Você atualizou com sucesso de { $productName
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = A partir da próxima fatura, sua cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }. Nesse momento, também será cobrado um valor único de { $paymentProrated } para refletir a cobrança maior pelo restante desse { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Será cobrada uma taxa única de { $paymentProrated } para refletir o preço maior da sua assinatura pelo restante deste { $productPaymentCycleOld }. A partir da próxima fatura, sua cobrança mudará de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
