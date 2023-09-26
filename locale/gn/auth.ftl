@@ -10,13 +10,13 @@ session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
-fxa-privacy-url = { -brand-mozilla } Ñemigua Purureko
+fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
-subplat-privacy-plaintext = Ñemigua purureko:
+subplat-privacy-plaintext = Ñemigua porureko:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
@@ -31,14 +31,14 @@ subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete 
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Eñangareko { -product-firefox-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
-subplat-terms-policy = Ñemboguata ha jeheja purureko
+subplat-terms-policy = Ñemboguata ha jeheja porureko
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ñemboheraguapy jeheja
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Emyandyjey mboheraguapy
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Embohekopyahu marandu kuatiañemugua
-subplat-privacy-policy = { -brand-mozilla } Ñemigua Purureko
+subplat-privacy-policy = { -brand-mozilla } Ñemigua Porureko
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } Mba’eporurã rehegua
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
