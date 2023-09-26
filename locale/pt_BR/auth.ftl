@@ -15,8 +15,9 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivos">
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
 moz-accounts-privacy-url = Política de privacidade das { -product-mozilla-accounts(capitalization: "lowercase") }
 fxa-service-url = Termos do serviço do { -product-firefox-cloud }
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Terms of Service
+moz-accounts-terms-url = Termos do serviço das { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotipo do { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipo da { -brand-mozilla }">
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 subplat-privacy-notice = Aviso de privacidade
@@ -28,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Você recebeu este email porque { $email } tem uma { -product-firefox-account } e você assinou o { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Você recebeu este email porque { $email } tem uma { -product-mozilla-account } e você assinou o { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Você recebeu este email porque { $email } tem uma { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Você recebeu este email porque { $email } tem uma { -product-mozilla-account }.
 subplat-explainer-multiple = Você recebeu este email porque { $email } tem uma { -product-firefox-account } e você assinou vários produtos.
+subplat-explainer-multiple-2 = Você recebeu este email porque { $email } tem uma { -product-mozilla-account } e você assinou vários produtos.
 subplat-explainer-was-deleted = Você recebeu este email porque { $email } foi registrado em uma { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Você recebeu este email porque { $email } foi registrado em uma { -product-mozilla-account }.
 subplat-manage-account = Gerencie as configurações da sua { -product-firefox-account } na <a data-l10n-name="subplat-account-page">página da conta</a>.
+subplat-manage-account-2 = Gerencie as configurações da sua { -product-mozilla-account } na <a data-l10n-name="subplat-account-page">página da conta</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gerencie as configurações da sua { -product-firefox-account } na página da conta: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Gerencie as configurações da sua { -product-mozilla-account } na página da conta: { $accountSettingsUrl }
 subplat-terms-policy = Termos e política de cancelamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
@@ -205,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = São necessários dois para sincronizar
 cadReminderFirst-description-1 = Acesse suas abas em todos os seus dispositivos. Tenha seus favoritos, senhas e outros dados onde quer que use o { -brand-firefox }. É como ter magia em sua conta { -brand-firefox }!
+cadReminderFirst-description-v2 = Leve suas abas em todos os seus dispositivos. Tenha seus favoritos, senhas e outros dados em todo lugar onde você usa o { -brand-firefox }.
 cadReminderSecond-subject-2 = Não perca! Vamos terminar sua configuração de sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não esqueça de sincronizar!
@@ -219,9 +234,12 @@ downloadSubscription-title = Boas-vindas ao { $productName }
 downloadSubscription-content-2 = Vamos dar uma olhada em todos os recursos incluídos em sua assinatura:
 downloadSubscription-link-action-2 = Introdução
 fraudulentAccountDeletion-subject = Sua { -product-firefox-account } foi excluída
+fraudulentAccountDeletion-subject-2 = Sua { -product-mozilla-account } foi excluída
 fraudulentAccountDeletion-title = Sua conta foi excluída
 fraudulentAccountDeletion-content = Recentemente foi criada uma { -product-firefox-account } e uma assinatura foi cobrada usando este endereço de email. Como fazemos com todas as contas novas, pedimos que você confirme sua conta primeiro validando este endereço de email.
+fraudulentAccountDeletion-content-part1-v2 = Recentemente foi criada uma { -product-mozilla-account } e uma assinatura foi cobrada usando este endereço de email. Como fazemos com todas as contas novas, pedimos que você confirme sua conta primeiro validando este endereço de email.
 fraudulentAccountDeletion-content-2 = No momento, vemos que a conta nunca foi confirmada. Como esta etapa não foi concluída, não temos certeza se esta foi uma assinatura autorizada. Como resultado, a { -product-firefox-account } registrada com este endereço de email foi excluído, sua assinatura foi cancelada e todas as cobranças foram reembolsadas.
+fraudulentAccountDeletion-content-part2-v2 = No momento, vemos que a conta nunca foi confirmada. Como esta etapa não foi concluída, não temos certeza se esta foi uma assinatura autorizada. Como resultado, a { -product-mozilla-account } registrada com este endereço de email foi excluído, sua assinatura foi cancelada e todas as cobranças foram reembolsadas.
 fraudulentAccountDeletion-contact = Se você tiver alguma dúvida, entre em contato com nossa <a data-l10n-name="mozillaSupportUrl">equipe de suporte</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -246,6 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
 newDeviceLogin-title-2 = Sua { -product-firefox-account } foi usada para entrar no
+newDeviceLogin-title-3 = Sua { -product-mozilla-account } foi usada para entrar no
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Se não foi você, <a data-l10n-name="passwordChangeLink">mude sua senha</a>.
