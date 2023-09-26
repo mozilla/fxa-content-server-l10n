@@ -24,7 +24,7 @@ link-expired-resent-code-error-message = Algo deu errado. Não foi possível env
 brand-banner-dismiss-button =
     .aria-label = Fechar
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } será renomeado para { -product-mozilla-accounts } em 1º de novembro
+brand-prelaunch-title = { -product-firefox-accounts } será renomeado para { -product-mozilla-accounts(capitalization: "lowercase") } em 1º de novembro
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Você continuará entrando na sua conta com o mesmo nome de usuário e senha. Não haverá nenhuma outra mudança nos produtos que você usa.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
