@@ -1,7 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Se prijavljate v { -product-firefox-accounts(sklon: "tozilnik") }?
-session-verify-send-push-title-2 = Se prijavljate v { -product-mozilla-account }?
+session-verify-send-push-title-2 = Se prijavljate v { -product-mozilla-account(sklon: "tozilnik") }?
 session-verify-send-push-body-2 = Kliknite tukaj za potrditev, da ste to vi
 
 ## Email content
@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -bra
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinhronizirajte naprave">
 body-devices-image = <img data-l10n-name="devices-image" alt="Naprave">
 fxa-privacy-url = Politika zasebnosti { -brand-mozilla(sklon: "rodilnik") }
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Pravilnik o zasebnosti
+moz-accounts-privacy-url = Pravilnik o zasebnosti { -product-mozilla-accounts(sklon: "rodilnik") }
 fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Pogoji uporabe
+moz-accounts-terms-url = Pogoji uporabe { -product-mozilla-accounts(sklon: "rodilnik") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip { -brand-firefox(sklon: "rodilnik") }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -brand-mozilla(sklon: "rodilnik") }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -brand-mozilla(sklon: "rodilnik") }">
@@ -30,7 +30,7 @@ subplat-explainer-specific = To sporočilo ste prejeli, ker je na { $email } reg
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = To sporočilo ste prejeli, ker je na { $email } registriran { -product-mozilla-account } in ste se prijavili na { $productName }.
+subplat-explainer-specific-2 = To sporočilo ste prejeli, ker je na { $email } registriran { -product-mozilla-account } in ste se naročili na { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = To sporočilo ste prejeli, ker je na { $email } registriran { -product-firefox-account }.
@@ -38,7 +38,7 @@ subplat-explainer-reminder-form = To sporočilo ste prejeli, ker je na { $email 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = To sporočilo ste prejeli, ker je na { $email } registriran { -product-mozilla-account }.
 subplat-explainer-multiple = To sporočilo ste prejeli, ker je na { $email } registriran { -product-firefox-account } in ste naročeni na več izdelkov.
-subplat-explainer-multiple-2 = To sporočilo ste prejeli, ker ima { $email } registriran { -product-mozilla-account } in ste naročeni na več izdelkov.
+subplat-explainer-multiple-2 = To sporočilo ste prejeli, ker je na { $email } registriran { -product-mozilla-account } in ste naročeni na več izdelkov.
 subplat-explainer-was-deleted = To sporočilo ste prejeli, ker je bil na { $email } registriran { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = To sporočilo ste prejeli, ker je bil na { $email } registriran { -product-mozilla-account }.
 subplat-manage-account = Nastavitve { -product-firefox-account(sklon: "rodilnik") } lahko upravljate na <a data-l10n-name="subplat-account-page">strani svojega računa</a>.
@@ -277,13 +277,13 @@ newDeviceLogin-action = Upravljanje računa
 passwordChanged-subject = Geslo posodobljeno
 passwordChanged-title = Geslo uspešno spremenjeno
 passwordChanged-description = Geslo vašega { -product-firefox-account(sklon: "rodilnik") } je bilo uspešno spremenjeno z naslednje naprave:
-passwordChanged-description-2 = Vaše geslo za { -product-mozilla-account } je bilo uspešno spremenjeno z naslednje naprave:
+passwordChanged-description-2 = Geslo vašega { -product-mozilla-account(sklon: "rodilnik") } je bilo uspešno spremenjeno iz naslednje naprave:
 passwordChangeRequired-subject = Odkrita sumljiva aktivnost
 passwordChangeRequired-title = Zahtevana je sprememba gesla
 passwordChangeRequired-suspicious-activity = V vašem { -product-firefox-account(sklon: "mestnik") } smo zaznali sumljivo dejavnost. Da bi preprečili nepooblaščen dostop do vašega { -product-firefox-account(sklon: "rodilnik") }, smo iz njega odklopili vse naprave in iz previdnosti zahtevamo, da spremenite geslo.
-passwordChangeRequired-suspicious-activity-2 = Na vašem { -product-mozilla-account } smo zaznali sumljivo delovanje. Da bi preprečili nepooblaščen dostop do vašega { -product-mozilla-account(sklon: "rodilnik-mozilla-racun") }, smo na vašem računu odklopili vse naprave in preventivno prosimo, da spremenite geslo.
+passwordChangeRequired-suspicious-activity-2 = V vašem { -product-mozilla-account(sklon: "mestnik") } smo zaznali sumljivo dejavnost. Da bi preprečili nepooblaščen dostop do vašega računa, smo iz njega odklopili vse naprave in iz previdnosti zahtevamo, da spremenite geslo.
 passwordChangeRequired-sign-in = Znova se prijavite v katerokoli napravo ali storitev, kjer uporabljate svoj { -product-firefox-account }, in sledite korakom, ki vam bodo predstavljeni.
-passwordChangeRequired-sign-in-2 = Prijavite se v katero koli napravo ali storitev, kjer uporabljate svoj { -product-mozilla-account }, in sledite korakom, ki se vam bodo prikazali.
+passwordChangeRequired-sign-in-2 = Znova se prijavite v katerokoli napravo ali storitev, kjer uporabljate { -product-mozilla-account }, in sledite korakom, ki vam bodo predstavljeni.
 passwordChangeRequired-different-password = <b>Pomembno:</b> Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
 passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
 passwordReset-subject = Geslo posodobljeno
@@ -315,7 +315,7 @@ postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-
 postAddLinkedAccount-title = Vaš račun { $providerName } je povezan z vašim { -product-firefox-account(sklon: "orodnik") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title-2 = Vaš račun { $providerName } je bil povezan z vašim { -product-mozilla-account }
+postAddLinkedAccount-title-2 = Vaš račun { $providerName } se je povezal z vašim { -product-mozilla-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
 postAddTwoStepAuthentication-subject-2 = Overitev v dveh korakih vklopljena
 postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
@@ -330,7 +330,7 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-firefox-account }, kot tudi naslov za prejemanje varnostnih obvestil ter
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description-2 = Uspešno ste spremenili svoj primarni e-poštni naslov v { $email }. Ta naslov je zdaj vaše uporabniško ime za prijavo v { -product-mozilla-account } ter za prejemanje varnostnih obvestil in potrditev prijave.
+postChangePrimary-description-2 = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-mozilla-account(sklon: "tozilnik") }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
 postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -361,7 +361,7 @@ postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov iz svojega { -product-mozilla-account }a. Varnostna obvestila in potrditve prijave ne bodo več pošiljani na ta naslov.
+postRemoveSecondary-description-2 = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-mozilla-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveSecondary-action = Upravljanje računa
 postRemoveTwoStepAuthentication-subject-line-2 = Overitev v dveh korakih izklopljena
 postRemoveTwoStepAuthentication-title-2 = Izklopili ste overitev v dveh korakih
@@ -374,7 +374,7 @@ postVerify-title-2 = Želite imeti isti zavihek na dveh napravah?
 postVerify-description-2 = Preprosto je! Samo namestite { -brand-firefox } na drugo napravo in se prijavite v sinhronizacijo. Kot čarovnija!
 postVerify-sub-description = (Ššš … to pomeni tudi, da vam bodo vaši zaznamki, gesla in ostali podatki { -brand-firefox(sklon: "rodilnik") } dostopni povsod, kjer se boste prijavili.)
 postVerify-subject-3 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
-postVerify-subject-4 = Dobrodošli v { -brand-mozilla }!
+postVerify-subject-4 = Dobrodošli pri { -brand-mozilla(sklon: "mestnik") }!
 postVerify-setup-2 = Povežite drugo napravo:
 postVerify-action-2 = Poveži drugo napravo
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
@@ -384,7 +384,7 @@ postVerifySecondary-title = Pomožni e-poštni naslov dodan
 postVerifySecondary-content-2 = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = Uspešno ste potrdili { $secondaryEmail } kot sekundarni e-poštni naslov za vaš { -product-mozilla-account }. Varnostna obvestila in potrditve prijave bodo zdaj dostavljena na oba e-poštna naslova.
+postVerifySecondary-content-3 = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-mozilla-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title-2 = Ali ste pozabili geslo?
@@ -393,7 +393,7 @@ recovery-title-2 = Ali ste pozabili geslo?
 recovery-request-origin = Prejeli smo zahtevo za spremembo gesla vašega { -product-firefox-account(sklon: "rodilnik") } z:
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
-recovery-request-origin-2 = Prejeli smo zahtevo za spremembo gesla za vaš { -product-mozilla-account } od:
+recovery-request-origin-2 = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
 recovery-new-password-button = Ustvarite novo geslo s klikom na spodnji gumb. Ta povezava bo potekla v naslednji uri.
 recovery-copy-paste = Ustvarite novo geslo na spodnjem naslovu, ki ga kopirajte in prilepite v brskalnik. Ta povezava bo potekla v naslednji uri.
 recovery-action = Ustvarite novo geslo
@@ -424,15 +424,15 @@ subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
 subscriptionAccountReminderFirst-content-info-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
-subscriptionAccountReminderFirst-content-info-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Upamo, da ste dokončali nastavitev računa, da boste lahko uporabljali novo naročnino.
+subscriptionAccountReminderFirst-content-info-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Upamo, da boste dokončali nastavitev računa in si omogočili uporabo naročnine.
 subscriptionAccountReminderFirst-content-select-2 = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderFirst-action = Ustvari geslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Zadnji opomnik: Nastavite svoj račun
 subscriptionAccountReminderSecond-title = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
-subscriptionAccountReminderSecond-title-2 = Dobrodošli v { -brand-mozilla }!
+subscriptionAccountReminderSecond-title-2 = Dobrodošli pri { -brand-mozilla(sklon: "mestnik") }!
 subscriptionAccountReminderSecond-content-info-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
-subscriptionAccountReminderSecond-content-info-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Upamo, da ste dokončali nastavitev računa, da boste lahko uporabljali novo naročnino.
+subscriptionAccountReminderSecond-content-info-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Upamo, da boste dokončali nastavitev računa in si omogočili uporabo naročnine.
 subscriptionAccountReminderSecond-content-select-2 = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderSecond-action = Ustvari geslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -591,7 +591,7 @@ confirm-account = Potrdi račun
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ne pozabite potrditi svojega računa
 verificationReminderFirst-title-2 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
-verificationReminderFirst-title-3 = Dobrodošli v { -brand-mozilla }!
+verificationReminderFirst-title-3 = Dobrodošli pri { -brand-mozilla(sklon: "mestnik") }!
 verificationReminderFirst-description-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 15 dneh, sicer bo samodejno izbrisan.
 verificationReminderFirst-description-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 15 dneh, sicer bo samodejno izbrisan.
 verificationReminderFirst-sub-description-3 = Ne zamudite brskalnika, ki postavlja vas in vašo zasebnost na prvo mesto.
@@ -604,11 +604,11 @@ verificationReminderSecond-title-3 = Ne zamudite { -brand-mozilla(sklon: "rodiln
 verificationReminderSecond-description-3 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
 verificationReminderSecond-description-4 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
 verificationReminderSecond-second-description = { -product-firefox-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
-verificationReminderSecond-second-description-2 = Vaš { -product-mozilla-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
+verificationReminderSecond-second-description-2 = { -product-mozilla-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
 verificationReminderSecond-sub-description-2 = Bodite del našega poslanstva spreminjanja interneta v prostor, odprt za vsakogar.
 verificationReminderSecond-action-2 = Potrdi račun
 verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
-verify-title-3 = Odprite internet s { -brand-mozilla }
+verify-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 verify-description = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
 verify-description-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla } povsod, kjer se prijavite, začnite z:
 verify-subject = Dokončajte ustvarjanje računa
@@ -643,14 +643,14 @@ verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer-2 = Zahteva za uporabo { $email } kot pomožnega e-poštnega naslova je bila poslana z naslednjega { -product-mozilla-account }a:
+verifySecondaryCode-explainer-2 = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-mozilla-account(sklon: "rodilnik") }:
 verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potrdite račun
 verifyShortCode-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
-verifyShortCode-title-3 = Odprite internet s { -brand-mozilla }
+verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
 # Information on the browser and device triggering this confirmation email follows below this string.
