@@ -597,11 +597,15 @@ verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre de confirmar sua conta
 verificationReminderSecond-title-2 = Não fique sem o { -brand-firefox }!
 verificationReminderSecond-description-3 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
+verificationReminderSecond-description-4 = Há alguns dias você criou uma { -product-mozilla-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-second-description = Sua { -product-firefox-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Sua { -product-mozilla-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão de transformar a internet em um lugar aberto a todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Abra a internet com o { -brand-firefox }
+verify-title-3 = Abra a internet com a { -brand-mozilla }
 verify-description = Confirme sua conta e tire o máximo proveito do { -brand-firefox } onde quer que você acesse, começando com:
+verify-description-2 = Confirme sua conta e aproveite ao máximo a { -brand-mozilla } onde quer que acesse, começando com:
 verify-subject = Concluir a criação da sua conta
 verify-action-2 = Confirmar conta
 # Variables:
@@ -632,13 +636,19 @@ verifySecondaryCode-action-2 = Confirmar email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Foi feita uma solicitação para usar { $email } como endereço de email secundário da seguinte { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Foi feita uma solicitação para usar { $email } como endereço de email secundário da seguinte { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Use este código de confirmação:
 verifySecondaryCode-expiry-notice-2 = Ele expira em 5 minutos. Uma vez confirmado, este endereço começará a receber notificações e confirmações de segurança.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirme sua conta
 verifyShortCode-title-2 = Abra a internet com o { -brand-firefox }
+verifyShortCode-title-3 = Abra a internet com a { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirme sua conta e aproveite ao máximo o { -brand-firefox } onde quer que acesse, começando com:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirme sua conta e aproveite ao máximo a { -brand-mozilla } onde quer que acesse, começando com:
 verifyShortCode-prompt-3 = Use este código de confirmação:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
