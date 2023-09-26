@@ -160,11 +160,11 @@ payment-validate-name-error = Emoinge nde réra
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oiporu { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua purureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }ñemigua purureko</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua porureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }ñemigua porureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oiporu { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua porureko</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } oiporu { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua porureko</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
 
