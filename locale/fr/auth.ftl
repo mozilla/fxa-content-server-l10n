@@ -40,7 +40,7 @@ subplat-explainer-reminder-form-2 = Vous recevez ce message, car { $email } poss
 subplat-explainer-multiple = Vous recevez ce message car { $email } possède un { -product-firefox-account } et vous avez souscrit plusieurs abonnements.
 subplat-explainer-multiple-2 = Vous recevez ce message car { $email } possède un { -product-mozilla-account } et vous avez souscrit plusieurs abonnements.
 subplat-explainer-was-deleted = Vous recevez ce message car l’adresse { $email } est inscrite à un { -product-firefox-account }.
-subplat-explainer-was-deleted-2 = Vous recevez ce message car l’adresse { $email } est inscrite à un { -product-mozilla-account }.
+subplat-explainer-was-deleted-2 = Vous recevez ce message car l’adresse { $email } a été utilisée pour créer un { -product-mozilla-account }.
 subplat-manage-account = Gérez votre { -product-firefox-account } en visitant <a data-l10n-name="subplat-account-page">la page de votre compte</a>.
 subplat-manage-account-2 = Gérez votre { -product-mozilla-account } en visitant <a data-l10n-name="subplat-account-page">la page de votre compte</a>.
 # Variables:
