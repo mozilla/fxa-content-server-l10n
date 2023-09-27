@@ -420,12 +420,15 @@ subscriptionAccountFinishSetup-action-2 = Get started
 subscriptionAccountReminderFirst-subject = Reminder: Finish setting up your account
 subscriptionAccountReminderFirst-title = You can’t access your subscription yet
 subscriptionAccountReminderFirst-content-info-2 = A few days ago you created a { -product-firefox-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
+subscriptionAccountReminderFirst-content-info-3 = A few days ago you created a { -product-mozilla-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
 subscriptionAccountReminderFirst-content-select-2 = Select “Create Password” to set up a new password and finish confirming your account.
 subscriptionAccountReminderFirst-action = Create Password
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Final reminder: Setup your account
 subscriptionAccountReminderSecond-title = Welcome to { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Welcome to { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = A few days ago you created a { -product-firefox-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
+subscriptionAccountReminderSecond-content-info-3 = A few days ago you created a { -product-mozilla-account } but never confirmed it. We hope you’ll finish setting up your account, so you can use your new subscription.
 subscriptionAccountReminderSecond-content-select-2 = Select “Create Password” to set up a new password and finish confirming your account.
 subscriptionAccountReminderSecond-action = Create Password
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -579,23 +582,31 @@ unblockCode-report = If no, help us fend off intruders and <a data-l10n-name="re
 unblockCode-report-plaintext = If no, help us fend off intruders and report it to us.
 verificationReminderFinal-subject = Final reminder to confirm your account
 verificationReminderFinal-description = A couple of weeks ago you created a { -product-firefox-account }, but never confirmed it. For your security, we will delete the account if not verified in the next 24 hours.
+verificationReminderFinal-description-2 = A couple of weeks ago you created a { -product-mozilla-account }, but never confirmed it. For your security, we will delete the account if not verified in the next 24 hours.
 confirm-account = Confirm account
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Remember to confirm your account
 verificationReminderFirst-title-2 = Welcome to { -brand-firefox }!
+verificationReminderFirst-title-3 = Welcome to { -brand-mozilla }!
 verificationReminderFirst-description-2 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 15 days or it will be automatically deleted.
+verificationReminderFirst-description-3 = A few days ago you created a { -product-mozilla-account }, but never confirmed it. Please confirm your account in the next 15 days or it will be automatically deleted.
 verificationReminderFirst-sub-description-3 = Don’t miss out on the browser that puts you and your privacy first.
 confirm-email-2 = Confirm account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirm account
 verificationReminderSecond-subject-2 = Remember to confirm your account
 verificationReminderSecond-title-2 = Don’t miss out on { -brand-firefox }!
+verificationReminderSecond-title-3 = Don’t miss out on { -brand-mozilla }!
 verificationReminderSecond-description-3 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
+verificationReminderSecond-description-4 = A few days ago you created a { -product-mozilla-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
 verificationReminderSecond-second-description = Your { -product-firefox-account } lets you synchronise your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Your { -product-mozilla-account } lets you synchronise your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Be part of our mission to transform the internet into a place that’s open for everyone.
 verificationReminderSecond-action-2 = Confirm account
 verify-title-2 = Open the internet with { -brand-firefox }
+verify-title-3 = Open the internet with { -brand-mozilla }
 verify-description = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
+verify-description-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
 verify-subject = Finish creating your account
 verify-action-2 = Confirm account
 # Variables:
@@ -626,13 +637,19 @@ verifySecondaryCode-action-2 = Confirm email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A request to use { $email } as a secondary email address has been made from the following { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = A request to use { $email } as a secondary email address has been made from the following { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Use this confirmation code:
 verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, this address will begin receiving security notifications and confirmations.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirm your account
 verifyShortCode-title-2 = Open the internet with { -brand-firefox }
+verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:
 verifyShortCode-prompt-3 = Use this confirmation code:
 verifyShortCode-expiry-notice = It expires in 5 minutes.
