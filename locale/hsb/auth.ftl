@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Pola { -product-firefox-accounts } přizjewić?
+session-verify-send-push-title-2 = Pola { -product-mozilla-account(case: "gen") } přizjewić?
 session-verify-send-push-body-2 = Klikńće tu, zo byšće wobkrućił, zo ty to sy
 
 ## Email content
@@ -8,6 +9,7 @@ session-verify-send-push-body-2 = Klikńće tu, zo byšće wobkrućił, zo ty to
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizowane graty">
 body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
@@ -201,7 +203,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji přeco dwaj šłušetej
 cadReminderFirst-description-1 = Wužiwajće swoje rajtarki na wšěch wašich gratach. Wzmiće swoje zapołožki, hesła a druhe daty wšudźe sobu, hdźež { -brand-firefox } wužiwaće. Je, kaž by magija we wašim konće { -brand-firefox } była!
-cadReminderFirst-description-2 = Synchronizacija jenož jednu sekundu traje.
 cadReminderSecond-subject-2 = Njewuwostajejće ničo! Dajće nam konfiguraciju wašeje snychronizacije dokónčić
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title-2 = Njezabudźće synchronizować!
@@ -244,8 +245,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Waše konto { -product-firefox-account } je so za přizjewjenje wužiło
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -262,8 +261,6 @@ passwordChangeRequired-title = Změnjenje hesła trěbne
 passwordChangeRequired-suspicious-activity = Smy podhladne zadźerženje na wašim konće { -product-firefox-account } zwěsćili. Zo bychmy njeawtorizowanemu přistupej k wašemu kontu { -product-firefox-account } zadźěwali, smy wšě graty we wašim konće dźělili a namołwjamy was, waše hesło wěstoty dla změnić.
 passwordChangeRequired-sign-in = Přizjewće so zaso pola grata abo słužby, hdźež swoje konto { -product-firefox-account } wužiwaće a sćěhujće kroćele, kotrež so wam pokazuja.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
-passwordChangeRequired-signoff = Z přećelnym postrowom,
-passwordChangeRequired-signoff-name = Team { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
 passwordReset-subject = Hesło je so zaktualizowało
 passwordReset-title = Waše kontowe hesło je so změniło
