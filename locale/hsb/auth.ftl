@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji přeco dwaj šłušetej
 cadReminderFirst-description-1 = Wužiwajće swoje rajtarki na wšěch wašich gratach. Wzmiće swoje zapołožki, hesła a druhe daty wšudźe sobu, hdźež { -brand-firefox } wužiwaće. Je, kaž by magija we wašim konće { -brand-firefox } była!
+cadReminderFirst-description-v2 = Wužiwajće swoje rajtarki na wšěch wašich gratach. Wobstarajće sej zapołožki, hesła a druhe daty wšudźe tam, hdźež { -brand-firefox } wužiwaće.
 cadReminderSecond-subject-2 = Njewuwostajejće ničo! Dajće nam konfiguraciju wašeje snychronizacije dokónčić
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title-2 = Njezabudźće synchronizować!
@@ -233,9 +234,12 @@ downloadSubscription-title = Witajće k { $productName }
 downloadSubscription-content-2 = Započńće wšě funkcije w swojim abonemenće wužiwać:
 downloadSubscription-link-action-2 = Prěnje kroki
 fraudulentAccountDeletion-subject = Waše konto { -product-firefox-account } je so zhašało
+fraudulentAccountDeletion-subject-2 = Waše { -product-mozilla-account(captialization: "lower") } je so zhašało
 fraudulentAccountDeletion-title = Waše konto je so zhašało
 fraudulentAccountDeletion-content = Njedawno je so konto { -product-firefox-account } załožiło a abonement je so z pomocu tuteje e-mejloweje adresy wotličił. Kaž při wšěch kontach smy was prosyli, tutu e-mejlowa adresu wobkrućić, zo byšće swoje konto wobkrućił.
+fraudulentAccountDeletion-content-part1-v2 = Njedawno je so { -product-mozilla-account(capitalization: "lower") } załožiło a abonement je so z pomocu tuteje e-mejloweje adresy wotličił. Kaž při wšěch kontach smy was prosyli, tutu e-mejlowa adresu wobkrućić, zo byšće swoje konto wobkrućił.
 fraudulentAccountDeletion-content-2 = Tuchwilu widźimy, zo konto njeje so ženje wobkrućiło. Dokelž tutón krok njeje so dokónčił, njejsmy sej wěsći, hač to je awtorizowany abonement było. Tohodla je so konto { -product-firefox-account }, kotrež je so z tutej e-mejlowej adresu zregistrowało, zhašało a waš abonement je so wupowědźił zarunujo wšě popłatki.
+fraudulentAccountDeletion-content-part2-v2 = Tuchwilu widźimy, zo konto njeje so ženje wobkrućiło. Dokelž tutón krok njeje so dokónčił, njejsmy sej wěsći, hač to je awtorizowany abonement było. Tohodla je so { -product-mozilla-account(capitalization: "lower") }, kotrež je so z tutej e-mejlowej adresu zregistrowało, zhašało a waš abonement je so wupowědźił zarunujo wšě popłatki.
 fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a data-l10n-name="mozillaSupportUrl">teamom pomocy</a> do zwiska.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -262,6 +266,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
 newDeviceLogin-title-2 = Waše konto { -product-firefox-account } je so za přizjewjenje wužiło
+newDeviceLogin-title-3 = Waše { -product-mozilla-account(capitalization: "lower") } je so za přizjewjenje wužiło
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = To wy njejsće? <a data-l10n-name="passwordChangeLink">Změńće swoje hesło</a>.
@@ -272,6 +277,7 @@ newDeviceLogin-action = Konto rjadować
 passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
 passwordChanged-description = Hesło wašeho konta { -product-firefox-account } je so wuspěšnje ze slědowaceho grata změniło:
+passwordChanged-description-2 = Hesło wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } je so wuspěšnje ze slědowaceho grata změniło:
 passwordChangeRequired-subject = Podhladna aktiwita wotkryta
 passwordChangeRequired-title = Změnjenje hesła trěbne
 passwordChangeRequired-suspicious-activity = Smy podhladne zadźerženje na wašim konće { -product-firefox-account } zwěsćili. Zo bychmy njeawtorizowanemu přistupej k wašemu kontu { -product-firefox-account } zadźěwali, smy wšě graty we wašim konće dźělili a namołwjamy was, waše hesło wěstoty dla změnić.
