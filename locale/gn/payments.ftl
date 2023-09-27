@@ -405,7 +405,7 @@ product-plan-not-found = Ndojejuhúi tembiaporã
 
 coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Nde purupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
+coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
 
 ## Routes - Checkout - New user
 
