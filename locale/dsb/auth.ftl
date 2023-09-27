@@ -237,7 +237,9 @@ fraudulentAccountDeletion-subject = Wašo konto { -product-firefox-account } jo 
 fraudulentAccountDeletion-subject-2 = Wašo { -product-mozilla-account } jo se wulašowało
 fraudulentAccountDeletion-title = Wašo konto jo se wulašowało
 fraudulentAccountDeletion-content = Njedawno jo se załožyło konto { -product-firefox-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
+fraudulentAccountDeletion-content-part1-v2 = Njedawno jo se załožyło { -product-mozilla-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
 fraudulentAccountDeletion-content-2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se konto { -product-firefox-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
+fraudulentAccountDeletion-content-part2-v2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se { -product-mozilla-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
 fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym <a data-l10n-name="mozillaSupportUrl">teamom pomocy</a> do zwiska.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -264,6 +266,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
 newDeviceLogin-title-2 = Wašo konto { -product-firefox-account } jo se wužyło za pśizjeajenje
+newDeviceLogin-title-3 = Wašo { -product-mozilla-account } jo se wužyło za pśizjeajenje
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = To wy njejsćo? <a data-l10n-name="passwordChangeLink">Změńśo swójo gronidło</a>.
@@ -274,10 +277,13 @@ newDeviceLogin-action = Konto zastojaś
 passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
 passwordChanged-description = Gronidło wašogo konta { -product-firefox-account } jo se wuspěšnje ze slědujucego rěda změniło:
+passwordChanged-description-2 = Gronidło wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChangeRequired-subject = Zawózdatna aktiwita namakana
 passwordChangeRequired-title = Změnjanje gronidła trěbne
 passwordChangeRequired-suspicious-activity = Smy zwěsćili suspektne zaźaržanje na wašom konśe { -product-firefox-account }. Aby my njeawtorizěrowanemu pśistupoju k wašomu kontu { -product-firefox-account } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
+passwordChangeRequired-suspicious-activity-2 = Smy zwěsćili suspektne zaźaržanje na wašom { -product-mozilla-account(case: "loc", capitalization: "lower") }. Aby my njeawtorizěrowanemu pśistupoju k wašomu { -product-mozilla-account(case: "dat", capitalization: "lower") } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
 passwordChangeRequired-sign-in = Pśizjawśo se zasej pla rěda abo słužby, źož swójo konto { -product-firefox-account } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
+passwordChangeRequired-sign-in-2 = Pśizjawśo se zasej pla rěda abo słužby, źož swójo { -product-mozilla-account(case: "acc", capitalization: "lower") } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordReset-subject = Gronidło jo se zaktualizěrowało
@@ -303,9 +309,13 @@ postAddAccountRecovery-action = Konto zastojaś
 postAddAccountRecovery-delete-key = Wulašujśo nowy kluc:
 postAddAccountRecovery-changd-password = Změńśo swójo gronidło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
+postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Wašo konto { $providerName } jo se zwězało z wašym { -product-firefox-account }.
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 postAddLinkedAccount-action = Konto zastojaś
 postAddTwoStepAuthentication-subject-2 = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title-2 = Sćo zmóžnił dwójokšacowu awtentifikaciju
@@ -318,6 +328,9 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywaŕske mě za pśizjawjenje pla wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
 postConsumeRecoveryCode-title-2 = Sćo wužył kod za zawěsćeńsku awtentifikaciju
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -346,6 +359,9 @@ postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sćo { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo konta { -product-firefox-account } wuspěšnje wótwónoźeł. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja njebudu se wěcej na toś tu adresu słaś.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Sćo { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } wuspěšnje wótwónoźeł. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja njebudu se wěcej na toś tu adresu słaś.
 postRemoveSecondary-action = Konto zastojaś
 postRemoveTwoStepAuthentication-subject-line-2 = Dwójokšacowa awtentifikacija jo znjemóžnjona
 postRemoveTwoStepAuthentication-title-2 = Sćo znjemóžnił dwójokšacowu awtentifikaciju
@@ -358,6 +374,7 @@ postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
 postVerify-description-2 = To jo lažko! Instalštujśo jadnorje { -brand-firefox } na drugem rěźe a pśizawśo se za synchronizaciju. Na magisku wašnju!
 postVerify-sub-description = (Pst… Wóznamjenijo teke, až móžośo swóje cytańske znamjenja, gronidła a druge daty { -brand-firefox } dostaś, źožkuli sćo se pśizjawił.)
 postVerify-subject-3 = Witajśo k { -brand-firefox }!
+postVerify-subject-4 = Witajśo k { -brand-mozilla }!
 postVerify-setup-2 = Z drugim rědom zwězaś:
 postVerify-action-2 = Z drugim rědom zwězaś
 postVerifySecondary-subject = Druga e-mailowa adresa jo se pśidała
@@ -365,6 +382,9 @@ postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo konto { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
 recovery-title-2 = Sćo swójo gronidło zabył?
