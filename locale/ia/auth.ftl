@@ -8,11 +8,13 @@ session-verify-send-push-body-2 = Clicca hic pro confirmar que es tu
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronisar apparatos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparatos">
 fxa-privacy-url = Politica de confidentialitate de { -brand-mozilla }
 fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
 subplat-privacy-notice = Aviso de confidentialitate
@@ -24,13 +26,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu te inscribeva a { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Tu recipe iste e-mail perque { $email } tu ha un { -product-mozilla-account } e tu te inscribeva a { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Tu recipe iste e-mail perque { $email } ha un { -product-mozilla-account }.
 subplat-explainer-multiple = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu es abonate a plure productos.
+subplat-explainer-multiple-2 = Tu recipe iste e-mail perque { $email } ha un { -product-mozilla-account } e tu es abonate a plure productos.
 subplat-explainer-was-deleted = Tu recipe iste email perque { $email } es registrate pro un { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Tu recipe iste email perque { $email } es registrate pro un { -product-mozilla-account }.
 subplat-manage-account = Gere tu parametros del { -product-firefox-account } visitante tu <a data-l10n-name="subplat-account-page">pagina de conto</a>.
+subplat-manage-account-2 = Gere tu parametros del { -product-mozilla-account } visitante tu <a data-l10n-name="subplat-account-page">pagina de conto</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gere tu parametros de { -product-firefox-account } visitante le pagina de tu conto: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Gere tu parametros de { -product-mozilla-account } visitante le pagina de tu conto: { $accountSettingsUrl }
 subplat-terms-policy = Terminos e politica de cancellation
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancellar subscription
@@ -201,7 +216,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Il es necessari duos pro synchronisar
 cadReminderFirst-description-1 = Mantene tu schedas in tote tu apparatos. Porta tu marcapaginas, contrasignos e altere datos ubicunque tu usa { -brand-firefox }. Como per magia in tu conto { -brand-firefox }!
-cadReminderFirst-description-2 = Basta solo un secunda pro synchronisar.
 cadReminderSecond-subject-2 = Non perde lo! Que nos fini le installation de tu synchronisation
 cadReminderSecond-action = Synchronisar un altere apparato
 cadReminderSecond-title-2 = Non oblidar de synchronisar!
@@ -216,9 +230,12 @@ downloadSubscription-title = Benvenite a { $productName }.
 downloadSubscription-content-2 = Comencia a usar tote le functiones includite in tu abonamento:
 downloadSubscription-link-action-2 = Comenciar
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } ha essite delite
+fraudulentAccountDeletion-subject-2 = Tu { -product-mozilla-account } ha essite delite
 fraudulentAccountDeletion-title = Tu conto ha essite delite
 fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
+fraudulentAccountDeletion-content-part1-v2 = Recentemente, un { -product-mozilla-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
+fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
 fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -242,9 +259,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nove accesso a { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Tu { -product-firefox-account } era usate pro acceder
+newDeviceLogin-title-3 = Tu { -product-mozilla-account } era usate pro acceder
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Non tu? <a data-l10n-name="passwordChangeLink">Cambia tu contrasigno</a>.
@@ -255,13 +271,12 @@ newDeviceLogin-action = Gerer le conto
 passwordChanged-subject = Contrasigno actualisate
 passwordChanged-title = Contrasigno cambiate correctemente
 passwordChanged-description = Tu contrasigno de { -product-firefox-account } ha essite cambiate con successo cambiate ab le sequente apparato:
+passwordChanged-description-2 = Tu contrasigno de { -product-mozilla-account } ha essite cambiate con successo cambiate ab le sequente apparato:
 passwordChangeRequired-subject = Activitate suspecte detegite
 passwordChangeRequired-title = Cambio de contrasigno obligatori
 passwordChangeRequired-suspicious-activity = Nos ha revelate comportamento suspecte sur tu { -product-firefox-account }. Pro impedir accesso non autorisate a tu { -product-firefox-account }, nos ha disconnectite tote apparatos sur tu conto e nos te quere de cambiar tu contrasigno como precaution.
 passwordChangeRequired-sign-in = Re-accede a ulle dispositivo o servicio ubi tu usa tu { -product-firefox-account } e seque le passos que te sera presentate.
 passwordChangeRequired-different-password = <b>Importante:</b> elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
-passwordChangeRequired-signoff = Cordialmente,
-passwordChangeRequired-signoff-name = Le equipa de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 passwordReset-subject = Contrasigno actualisate
 passwordReset-title = Le contrasigno de tu conto ha essite cambiate
