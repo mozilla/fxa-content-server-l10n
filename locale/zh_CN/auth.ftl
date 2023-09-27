@@ -237,7 +237,7 @@ fraudulentAccountDeletion-title = 已删除您的账户
 fraudulentAccountDeletion-content = 最近有人使用此电子邮箱注册 { -product-firefox-account } 并支付订阅。根据我们对所有新账户的要求，需要您先验证此电子邮箱来确认账户。
 fraudulentAccountDeletion-content-part1-v2 = 最近有人使用此邮箱地址创建 { -product-mozilla-account }并支付订阅。根据我们对所有新账户的要求，需要您先验证此邮箱地址来确认账户。
 fraudulentAccountDeletion-content-2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，已删除此电子邮箱注册的 { -product-firefox-account }，您的订阅也将被取消，所有费用均已退还。
-fraudulentAccountDeletion-content-part2-v2 = 目前我们看到该账户从未得到确认。由于此步骤未完成，我们不确定是否为授权订阅。因此，使用此电子邮件地址注册的 { -product-mozilla-account }已被删除，您的订阅被取消，所有费用均已退还。
+fraudulentAccountDeletion-content-part2-v2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，我们已删除使用此邮箱地址注册的 { -product-mozilla-account }，并取消订阅，所有费用均已退还。
 fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10n-name="mozillaSupportUrl">用户支持团队</a>。
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
