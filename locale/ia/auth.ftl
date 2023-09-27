@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Accesso a { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Accesso a tu { -product-mozilla-account }?
 session-verify-send-push-body-2 = Clicca hic pro confirmar que es tu
 
 ## Email content
@@ -12,7 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronisar apparatos">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparatos">
 fxa-privacy-url = Politica de confidentialitate de { -brand-mozilla }
+moz-accounts-privacy-url = Politica de confidentialitate de { -product-mozilla-accounts }
 fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
+moz-accounts-terms-url = Terminos del servicio del { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
@@ -275,7 +278,9 @@ passwordChanged-description-2 = Tu contrasigno de { -product-mozilla-account } h
 passwordChangeRequired-subject = Activitate suspecte detegite
 passwordChangeRequired-title = Cambio de contrasigno obligatori
 passwordChangeRequired-suspicious-activity = Nos ha revelate comportamento suspecte sur tu { -product-firefox-account }. Pro impedir accesso non autorisate a tu { -product-firefox-account }, nos ha disconnectite tote apparatos sur tu conto e nos te quere de cambiar tu contrasigno como precaution.
+passwordChangeRequired-suspicious-activity-2 = Nos ha revelate comportamento suspecte sur tu { -product-mozilla-account }. Pro impedir accesso non autorisate a tu { -product-mozilla-account }, nos ha disconnectite tote le apparatos sur tu conto e nos te demanda de cambiar tu contrasigno como precaution.
 passwordChangeRequired-sign-in = Re-accede a ulle dispositivo o servicio ubi tu usa tu { -product-firefox-account } e seque le passos que te sera presentate.
+passwordChangeRequired-sign-in-2 = Re-accede a ulle dispositivo o servicio ubi tu usa tu { -product-mozilla-account } e seque le passos que te sera presentate.
 passwordChangeRequired-different-password = <b>Importante:</b> elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 passwordChangeRequired-different-password-plaintext = Importante: elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 passwordReset-subject = Contrasigno actualisate
@@ -301,9 +306,13 @@ postAddAccountRecovery-action = Gerer le conto
 postAddAccountRecovery-delete-key = Dele le nove clave:
 postAddAccountRecovery-changd-password = Cambia tu contrasigno:
 postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
+postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tu conto { $providerName } ha essite ligate a tu { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
 postAddTwoStepAuthentication-subject-2 = Le authentication a duo passos es activate
 postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passos
@@ -316,6 +325,9 @@ postChangePrimary-title = Nove e-mail primari
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-mozilla-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
 postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de salvamento
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -342,6 +354,9 @@ postRemoveSecondary-title = E-mail secundari removite
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tu ha removite con successo { $secondaryEmail }, como email secundari, de tu { -product-firefox-account }. Le notificationes de securitate e le confirmationes de authentication non sera plus livrate a iste adresse.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Tu ha removite con successo { $secondaryEmail }, como email secundari, de tu { -product-mozilla-account }. Le notificationes de securitate e le confirmationes de authentication non sera plus livrate a iste adresse.
 postRemoveSecondary-action = Gerer le conto
 postRemoveTwoStepAuthentication-subject-line-2 = Le authentication a duo passos es disactivate
 postRemoveTwoStepAuthentication-title-2 = Tu disactivava le authentication a duo passos
@@ -354,6 +369,7 @@ postVerify-title-2 = Vole tu vider le mesme scheda sur duo apparatos?
 postVerify-description-2 = Il es facile! Solo installa { -brand-firefox } sur un altere apparato e aperi session pro synchronisar. Illo es como magic!
 postVerify-sub-description = (Psst… Illo alsi significa que tu pote installar tu marcapaginas, contrasignos, e altere datos de { -brand-firefox } ubique tu ha accedite.)
 postVerify-subject-3 = Benvenite a { -brand-firefox }!
+postVerify-subject-4 = Benvenite a { -brand-mozilla }!
 postVerify-setup-2 = Connecter un altere apparato:
 postVerify-action-2 = Connecter un altere apparato
 postVerifySecondary-subject = Adresse de e-mail secundari addite
@@ -361,12 +377,18 @@ postVerifySecondary-title = Adresse de e-mail secundari addite
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Tu ha confirmate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Tu ha confirmate con successo { $secondaryEmail } como email secundari pro tu { -product-mozilla-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title-2 = Contrasigno oblidate?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-firefox-account } de:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
 recovery-new-password-button = Crea un nove contrasigno cliccante le button infra. Iste ligamine expirara in le proxime hora.
 recovery-copy-paste = Crea un nove contrasigno copiante e collante le URL infra in tu navigator. Iste ligamine expirara in le proxime hora.
 recovery-action = Crear le nove contrasigno
@@ -379,6 +401,11 @@ subscriptionAccountDeletion-title = Nos displace que tu vade
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Tu ha delite recentemente tu conto { -product-firefox-account }. In consequentia, nos ha cancellate tu subscription a { $productName }. Tu pagamento final de { $invoiceTotal } ha essite pagate le { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Tu ha delite recentemente tu conto { -product-mozilla-account }. In consequentia, nos ha cancellate tu subscription a { $productName }. Tu pagamento final de { $invoiceTotal } ha essite pagate le { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configura tu contrasigno.
@@ -387,16 +414,20 @@ subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configur
 subscriptionAccountFinishSetup-title = Benvenite a { $productName }.
 subscriptionAccountFinishSetup-content-processing = Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo cancellar.
 subscriptionAccountFinishSetup-content-create-2 = Postea, tu creara un contrasigno de { -product-firefox-account } pro initiar usar tu nove subscription.
+subscriptionAccountFinishSetup-content-create-3 = Postea, tu creara un contrasigno de { -product-mozilla-account } pro initiar usar tu nove abonamento.
 subscriptionAccountFinishSetup-action-2 = Comenciar
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
 subscriptionAccountReminderFirst-content-info-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
+subscriptionAccountReminderFirst-content-info-3 = Alcun dies retro tu ha create un { -product-mozilla-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
 subscriptionAccountReminderFirst-content-select-2 = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de confirmar tu conto.
 subscriptionAccountReminderFirst-action = Crear contrasigno
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Memento final: configura tu conto
 subscriptionAccountReminderSecond-title = Benvenite a { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Benvenite a { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
+subscriptionAccountReminderSecond-content-info-3 = Alcun dies retro tu ha create un { -product-mozilla-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
 subscriptionAccountReminderSecond-content-select-2 = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de confirmar tu conto.
 subscriptionAccountReminderSecond-action = Crear contrasigno
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -550,6 +581,7 @@ unblockCode-report = Si non, adjuta nos a parar le intrusos e <a data-l10n-name=
 unblockCode-report-plaintext = Si non, adjuta nos a parar le intrusos e reporta lo a nos.
 verificationReminderFinal-subject = Memento final pro confirmar tu conto
 verificationReminderFinal-description = Un par de septimanas retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Pro tu securitate, nos delera le conto si non verificate in le proxime 24 horas.
+verificationReminderFinal-description-2 = Un par de septimanas retro tu ha create un { -product-mozilla-account }, ma jammais lo ha confirmate. Pro tu securitate, nos delera le conto si non verificate in le proxime 24 horas.
 confirm-account = Confirmar conto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Rememora pro confirmar tu conto
