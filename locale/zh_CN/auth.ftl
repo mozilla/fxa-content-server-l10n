@@ -366,7 +366,7 @@ postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
 postVerify-sub-description = （嘘…… 这也意味着您可以在任何地方登录获取您的书签、密码和其他 { -brand-firefox } 数据。）
 postVerify-subject-3 = 欢迎使用 { -brand-firefox }！
-postVerify-subject-4 = 欢迎使用 { -brand-mozilla }！
+postVerify-subject-4 = { -brand-mozilla } 欢迎您！
 postVerify-setup-2 = 连接其他设备：
 postVerify-action-2 = 连接另一台设备
 postVerifySecondary-subject = 已绑定备用邮箱
@@ -376,7 +376,7 @@ postVerifySecondary-title = 已绑定备用邮箱
 postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录验证邮件也将发送至该邮箱。
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = 您已成功将 { $secondaryEmail } 设为 { -product-mozilla-account } 的备用邮箱。安全通知和登录确认现在将同时发送到两个电子邮件地址。
+postVerifySecondary-content-3 = 已成功将 { $secondaryEmail } 设为 { -product-mozilla-account }的备用邮箱。安全通知和登录确认现在将同时发送到这两个邮箱地址。
 postVerifySecondary-action = 管理账户
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
@@ -385,7 +385,7 @@ recovery-title-2 = 忘记密码？
 recovery-request-origin = 我们收到了要更改您的 { -product-firefox-account } 密码的请求：
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
-recovery-request-origin-2 = 我们收到了要更改 { -product-mozilla-account } 密码的请求，它来自：
+recovery-request-origin-2 = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
 recovery-new-password-button = 通过点击下面的按钮创建一个新密码。此链接将在一小时后失效。
 recovery-copy-paste = 通过复制和粘贴下面的 URL 到您的浏览器创建一个新密码。此链接将在一小时后失效。
 recovery-action = 创建新密码
@@ -402,7 +402,7 @@ subscriptionAccountDeletion-content-cancelled = 您最近删除了 { -product-fi
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = 您最近删除了 { -product-mozilla-account }。我们已取消您的 { $productName } 订阅。您的最后一笔款项 { $invoiceTotal } 已于 { $invoiceDateOnly } 支付。
+subscriptionAccountDeletion-content-cancelled-2 = 您最近删除了 { -product-mozilla-account }，因此我们也同步取消了您的 { $productName } 订阅。最后一笔款项金额为 { $invoiceTotal }，已于 { $invoiceDateOnly } 支付。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设置密码。
@@ -411,18 +411,17 @@ subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设�
 subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
 subscriptionAccountFinishSetup-content-create-2 = 接下来，请设置 { -product-firefox-account }密码，以开始使用您新订阅的项目。
-subscriptionAccountFinishSetup-content-create-3 = 接下来请设置 { -product-mozilla-account }密码以开始使用您新订阅的项目。
+subscriptionAccountFinishSetup-content-create-3 = 接下来请设置 { -product-mozilla-account }密码，完成后即可开始使用您新订阅的项目。
 subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
 subscriptionAccountReminderFirst-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
-subscriptionAccountReminderFirst-content-info-3 = 几天前您创建了 { -product-mozilla-account }但未进行确认。我们期待您完成账户设置，以便使用新订阅的项目。
 subscriptionAccountReminderFirst-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
 subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
-subscriptionAccountReminderSecond-title-2 = 欢迎使用 { -brand-mozilla }！
+subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } 欢迎您！
 subscriptionAccountReminderSecond-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
 subscriptionAccountReminderSecond-content-info-3 = 几天前您创建了 { -product-mozilla-account }但未进行确认。我们期待您完成账户设置，以便使用新订阅的项目。
 subscriptionAccountReminderSecond-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
@@ -583,7 +582,7 @@ confirm-account = 验证账户
 confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 记得验证您的账户
 verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
-verificationReminderFirst-title-3 = 欢迎使用 { -brand-mozilla }
+verificationReminderFirst-title-3 = { -brand-mozilla } 欢迎您！
 verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
 verificationReminderFirst-description-3 = 几天前您创建了 { -product-mozilla-account }但未进行确认。请在 15 天内确认您的账户，否则将被自动删除。
 verificationReminderFirst-sub-description-3 = 不要错过将您和您的隐私放在首位的浏览器。
