@@ -29,9 +29,18 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 subplat-explainer-specific = თქვენ მიიღეთ ეს წერილი, ვინაიდან { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = ეს წერილი იმიტომ მიიღეთ, რომ { $email } დაკავშირებულია { -product-mozilla-account(case: "add") } და გამოწერილი გაქვთ { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = ეს წერილი იმიტომ მიიღეთ, რომ { $email } მიბმულია { -product-firefox-account(case: "loc") }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = ეს წერილი იმიტომ მიიღეთ, რომ { $email } მიბმულია { -product-mozilla-account(case: "loc") }.
 subplat-explainer-multiple = თქვენ მიიღეთ ეს წერილი, { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ რამდენიმე პროდუქტი.
+subplat-explainer-multiple-2 = ეს წერილი იმიტომ მიიღეთ, რომ { $email } დაკავშირებულია { -product-mozilla-account(case: "add") } და გამოწერილი გაქვთ რამდენიმე პროდუქტი.
 subplat-explainer-was-deleted = ეს წერილი იმიტომ მიიღეთ, რომ { $email } მიბმული იყო { -product-firefox-account(case: "loc") }.
+subplat-explainer-was-deleted-2 = ეს წერილი იმიტომ მიიღეთ, რომ { $email } მიბმული იყო { -product-mozilla-account(case: "loc") }.
 subplat-manage-account = გამართეთ თქვენი { -product-firefox-account(case: "gen") } პარამეტრები <a data-l10n-name="subplat-account-page">ანგარიშის გვერდიდან</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
