@@ -237,9 +237,9 @@ fraudulentAccountDeletion-subject = Vaš { -product-firefox-account } je bil izb
 fraudulentAccountDeletion-subject-2 = Vaš { -product-mozilla-account } je bil izbrisan
 fraudulentAccountDeletion-title = Vaš račun je bil izbrisan
 fraudulentAccountDeletion-content = Pred kratkim je bil na ta e-poštni naslov ustvarjen { -product-firefox-account } in zaračunana naročnina. Kot to storimo z vsemi novimi računi, smo vas prosili, da svoj račun potrdite s potrditvijo tega e-poštnega naslova.
-fraudulentAccountDeletion-content-part1-v2 = Pred kratkim je bil s tega e-poštnega naslova ustvarjen { -product-mozilla-account } in zaračunana naročnina. Kot velja za vse nove račune, vas prosimo, da najprej potrdite svoj račun s potrditvijo tega e-poštnega naslova.
+fraudulentAccountDeletion-content-part1-v2 = Pred kratkim je bil na ta e-poštni naslov ustvarjen { -product-mozilla-account } in zaračunana naročnina. Kot to storimo z vsemi novimi računi, smo vas prosili, da svoj račun potrdite s potrditvijo tega e-poštnega naslova.
 fraudulentAccountDeletion-content-2 = Trenutno vidimo, da račun ni bil nikoli potrjen. Ker ta korak ni bil opravljen, nismo prepričani, ali ste to naročnino resnično nakazali vi. Zato je bil { -product-firefox-account }, registriran na ta e-poštni naslov, izbrisan, naročnina pa preklicana, pri čemer so bili vsi stroški povrnjeni.
-fraudulentAccountDeletion-content-part2-v2 = Trenutno vidimo, da račun ni bil nikoli potrjen. Ker ta korak ni bil dokončan, nismo prepričani, ali je šlo za pooblaščeno naročnino. Zaradi tega je bil { -product-mozilla-account }, registriran na ta e-poštni naslov, izbrisan, vaša naročnina pa preklicana s povračilom vseh stroškov.
+fraudulentAccountDeletion-content-part2-v2 = Trenutno vidimo, da račun ni bil nikoli potrjen. Ker ta korak ni bil opravljen, nismo prepričani, ali ste to naročnino resnično nakazali vi. Zato je bil { -product-mozilla-account }, registriran na ta e-poštni naslov, izbrisan, naročnina pa preklicana, pri čemer so bili vsi stroški povrnjeni.
 fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnite na našo <a data-l10n-name="mozillaSupportUrl">skupino za podporo</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -309,7 +309,7 @@ postAddAccountRecovery-action = Upravljanje računa
 postAddAccountRecovery-delete-key = Izbrišite novi ključ:
 postAddAccountRecovery-changd-password = Spremenite geslo:
 postAddLinkedAccount-subject = Nov račun je povezan s { -brand-firefox(sklon: "orodnik") }
-postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-account }
+postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-account(sklon: "orodnik") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Vaš račun { $providerName } je povezan z vašim { -product-firefox-account(sklon: "orodnik") }
