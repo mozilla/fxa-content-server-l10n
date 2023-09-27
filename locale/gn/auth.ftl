@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
 cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
+cadReminderFirst-description-v2 = Egueraha ne rendayke ne mba’e’okuéra rupive. Eraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eipuruhápe { -brand-firefox }.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
