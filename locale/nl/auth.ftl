@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Aanmelden bij { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Aanmelden bij uw { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klik hier om te bevestigen dat u het bent
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Klik hier om te bevestigen dat u het bent
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten synchroniseren">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybeleid
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Privacybeleid
 fxa-service-url = Servicevoorwaarden voor { -product-firefox-cloud }
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Servicevoorwaarden
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
 subplat-privacy-notice = Privacyverklaring
@@ -24,10 +29,20 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = U ontvangt dit bericht omdat { $email } een { -product-firefox-account } heeft en u bent ingeschreven voor { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = U ontvangt dit bericht omdat { $email } een { -product-mozilla-account } heeft en u bent ingeschreven voor { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = U ontvangt dit e-mailbericht omdat { $email } een { -product-firefox-account } heeft.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = U ontvangt dit e-mailbericht omdat { $email } een { -product-mozilla-account } heeft.
 subplat-explainer-multiple = U ontvangt dit bericht omdat { $email } een { -product-firefox-account } heeft en u bent geabonneerd op meerdere producten.
+subplat-explainer-multiple-2 = U ontvangt dit bericht omdat { $email } een { -product-mozilla-account } heeft en u bent geabonneerd op meerdere producten.
 subplat-explainer-was-deleted = U ontvangt dit e-mailbericht omdat { $email } is geregistreerd voor een { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = U ontvangt dit e-mailbericht omdat { $email } is geregistreerd voor een { -product-mozilla-account }.
 subplat-manage-account = Beheer uw { -product-firefox-account }-instellingen door naar uw <a data-l10n-name="subplat-account-page">accountpagina</a> te gaan.
+subplat-manage-account-2 = Beheer uw { -product-mozilla-account }-instellingen door naar uw <a data-l10n-name="subplat-account-page">accountpagina</a> te gaan.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Beheer de instellingen van uw { -product-firefox-account } door naar uw accountpagina te gaan: { $accountSettingsUrl }
@@ -201,7 +216,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Er zijn er twee nodig om te synchroniseren
 cadReminderFirst-description-1 = Neem uw tabbladen mee naar al uw apparaten. Ontvang uw bladwijzers, wachtwoorden en andere gegevens overal waar u { -brand-firefox } gebruikt. Het is alsof u magie in uw { -brand-firefox }-account hebt!
-cadReminderFirst-description-2 = Synchronisatie duurt maar even.
 cadReminderSecond-subject-2 = Mis het niet! Laten we uw synchronisatieconfiguratie voltooien
 cadReminderSecond-action = Nog een apparaat synchroniseren
 cadReminderSecond-title-2 = Vergeet niet te synchroniseren!
@@ -242,8 +256,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nieuwe aanmelding bij { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Uw { -product-firefox-account } is gebruikt om aan te melden
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +272,6 @@ passwordChangeRequired-title = Wachtwoordwijziging vereist
 passwordChangeRequired-suspicious-activity = We hebben verdacht gedrag in uw { -product-firefox-account } gedetecteerd. Om ongeoorloofde toegang tot uw { -product-firefox-account } te voorkomen, hebben we alle apparaten in uw account ontkoppeld en u dient uit voorzorg uw wachtwoord te wijzigen.
 passwordChangeRequired-sign-in = Meld u opnieuw aan op een van de apparaten of services waar u uw { -product-firefox-account } gebruikt en volg de gepresenteerde stappen.
 passwordChangeRequired-different-password = <b>Belangrijk:</b> kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
-passwordChangeRequired-signoff = Vriendelijke groeten,
-passwordChangeRequired-signoff-name = Het { -product-firefox-accounts }-team
 passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
 passwordReset-subject = Wachtwoord bijgewerkt
 passwordReset-title = Uw accountwachtwoord is gewijzigd
@@ -520,7 +530,6 @@ subscriptionUpgrade-upgrade-info = U bent met succes geüpgraded van { $productN
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Vanaf uw volgende factuur wijzigen uw kosten van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }. Er wordt u dan tevens eenmalig een bedrag van { $paymentProrated } in rekening gebracht ten gevolge van de hogere kosten voor de rest van deze { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Er wordt een eenmalige vergoeding van { $paymentProrated } in rekening gebracht om de hogere prijs van uw abonnement te weerspiegelen voor de rest van deze { $productPaymentCycleOld }. Vanaf uw volgende factuur wijzigt uw betaling van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
