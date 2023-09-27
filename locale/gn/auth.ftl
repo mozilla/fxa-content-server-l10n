@@ -15,7 +15,7 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
 moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Porureko Ñemigua
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’epuru reko
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’eporu reko
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
