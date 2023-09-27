@@ -46,6 +46,9 @@ subplat-manage-account-2 = Woglědajśo se k swójomu <a data-l10n-name="subplat
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Woglědajśo se k swójomu kontowemu bokoju, aby swóje nastajenja { -product-firefox-account } zastojał: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Woglědajśo se k swójomu kontowemu bokoju, aby nastajenja swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } zastojał: { $accountSettingsUrl }
 subplat-terms-policy = Wuměnjenja a wótwołańske pšawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowěźeś
@@ -216,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji pśecej dwa šłušatej
 cadReminderFirst-description-1 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wzejśo swóje cytańske znamjenja, gronidła a druge daty wšuźi sobu, źož { -brand-firefox } wužywaśo. Jo, ako by była magija we wašom konśe { -brand-firefox }!
+cadReminderFirst-description-v2 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wobstarajśo se cytańske znamjenja, gronidła a druge daty wšuźi tam, źož { -brand-firefox } wužywaśo.
 cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
@@ -230,6 +234,7 @@ downloadSubscription-title = Witajśo k { $productName }
 downloadSubscription-content-2 = Zachopśo wšykne funkcije w swójom abonemenśe wužywaś:
 downloadSubscription-link-action-2 = Prědne kšace
 fraudulentAccountDeletion-subject = Wašo konto { -product-firefox-account } jo se wulašowało
+fraudulentAccountDeletion-subject-2 = Wašo { -product-mozilla-account } jo se wulašowało
 fraudulentAccountDeletion-title = Wašo konto jo se wulašowało
 fraudulentAccountDeletion-content = Njedawno jo se załožyło konto { -product-firefox-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
 fraudulentAccountDeletion-content-2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se konto { -product-firefox-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
