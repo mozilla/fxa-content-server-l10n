@@ -69,6 +69,8 @@ recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamise
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Lisää { -brand-mozilla }lta:
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
