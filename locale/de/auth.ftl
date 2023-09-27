@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Geräte synchronisieren">
 body-devices-image = <img data-l10n-name="devices-image" alt="Geräte">
 fxa-privacy-url = { -brand-mozilla }-Datenschutzerklärung
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Datenschutzerklärung
+moz-accounts-privacy-url = Datenschutzerklärung von { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Nutzungsbedingungen für { -product-firefox-cloud }
 moz-accounts-terms-url = Nutzungsbedingungen von { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-Logo">
@@ -40,7 +40,7 @@ subplat-explainer-reminder-form-2 = Sie erhalten diese E-Mail, weil { $email } �
 subplat-explainer-multiple = Sie erhalten diese E-Mail, weil { $email } über ein { -product-firefox-account } verfügt und Sie sich für mehrere Produkte angemeldet haben.
 subplat-explainer-multiple-2 = Sie erhalten diese E-Mail, weil { $email } über ein { -product-mozilla-account } verfügt und Sie sich für mehrere Produkte angemeldet haben.
 subplat-explainer-was-deleted = Sie erhalten diese E-Mail, weil { $email } für ein { -product-firefox-account } registrriert wurde
-subplat-explainer-was-deleted-2 = Sie erhalten diese E-Mail, weil { $email } für ein { -product-mozilla-account } registrriert wurde
+subplat-explainer-was-deleted-2 = Sie erhalten diese E-Mail, weil { $email } für ein { -product-mozilla-account } registriert wurde
 subplat-manage-account = Verwalten Sie Ihre { -product-firefox-account }-Einstellungen, indem Sie Ihre <a data-l10n-name="subplat-account-page">Kontoseite</a> aufrufen.
 subplat-manage-account-2 = Verwalten Sie Ihre { -product-mozilla-account }-Einstellungen, indem Sie Ihre <a data-l10n-name="subplat-account-page">Kontoseite</a> aufrufen.
 # Variables:
