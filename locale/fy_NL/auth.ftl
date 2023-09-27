@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Oanmelde by { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Oanmelde by jo { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klik hjir om te befêstigjen dat jo it binne
 
 ## Email content
@@ -8,6 +9,7 @@ session-verify-send-push-body-2 = Klik hjir om te befêstigjen dat jo it binne
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten syngronisearje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybelied
@@ -201,7 +203,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Der binne twa nedich om te syngronisearjen
 cadReminderFirst-description-1 = Nim jo ljepblêden mei nei al jo apparaten. Krij jo blêdwizers, wachtwurden en oare gegevens oeral wêr’t jo { -brand-firefox } brûke. It is as it hawwen fan magy yn jo { -brand-firefox }-account!
-cadReminderFirst-description-2 = It duorret mar in amerijke om te syngronisearjen.
 cadReminderSecond-subject-2 = Mis it net! Litte wy jo syngronisaasjekonfiguraasje foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title-2 = Ferjit net syngronisearjen!
@@ -242,8 +243,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Jo { -product-firefox-account } is brûkt om oan te melden
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +259,6 @@ passwordChangeRequired-title = Wachtwurdwiziging fereaske
 passwordChangeRequired-suspicious-activity = Wy hawwe fertocht gedrach yn jo { -product-firefox-account }-account detektearre. Om net tastiene tagong ta jo { -product-firefox-account } op te kearen, hawwe wy alle apparaten yn jo account ûntkeppele en jo moatte út foarsoarch jo wachtwurd wizigje.
 passwordChangeRequired-sign-in = Meld jo opnij oan op ien fan de apparaten of services wêr’t jo jo { -product-firefox-account } brûke en folgje de presintearre stappen.
 passwordChangeRequired-different-password = <b>Wichtich:</b> kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
-passwordChangeRequired-signoff = Freonlike groetnis,
-passwordChangeRequired-signoff-name = It { -product-firefox-accounts }-team
 passwordChangeRequired-different-password-plaintext = Wichtich: kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
 passwordReset-subject = Wachtwurd bywurke
 passwordReset-title = Jo accountwachtwurd is wizige
@@ -520,7 +517,6 @@ subscriptionUpgrade-upgrade-info = Jo binne mei sukses oerskeakele fan { $produc
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } yn ’e { $productPaymentCycleOld } nei { $paymentAmountNew } yn ’e { $productPaymentCycleNew }. Der wurdt jo dan ek ienmalich in bedrach fan { $paymentProrated } yn rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Der wurdt in ienmalige fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint wer te jaan foar de rest fan dizze { $productPaymentCycleOld }. Fan jo folgjende faktuer ôf wiziget jo betelling fan { $paymentAmountOld } yn de { $productPaymentCycleOld } nei { $paymentAmountNew } yn de { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
