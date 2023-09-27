@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten syngronisearje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybelied
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }-privacybelied
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Privacybelied
 fxa-service-url = Brûkersbetingsten { -product-firefox-cloud }
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }-tsjinstbetingsten
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }-Tsjinstbetingsten
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Der binne twa nedich om te syngronisearjen
 cadReminderFirst-description-1 = Nim jo ljepblêden mei nei al jo apparaten. Krij jo blêdwizers, wachtwurden en oare gegevens oeral wêr’t jo { -brand-firefox } brûke. It is as it hawwen fan magy yn jo { -brand-firefox }-account!
+cadReminderFirst-description-v2 = Nim jo ljepblêden mei op al jo apparaten. Untfang jo blêdwizers, wachtwurden en oare gegevens oeral wêr’t jo { -brand-firefox } brûke.
 cadReminderSecond-subject-2 = Mis it net! Litte wy jo syngronisaasjekonfiguraasje foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title-2 = Ferjit net syngronisearjen!
