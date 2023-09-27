@@ -328,7 +328,7 @@ postChangePrimary-title = Nouvelle adresse e-mail principale
 postChangePrimary-description = Votre adresse e-mail principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre { -product-firefox-account } et elle recevra les notifications de sécurité et les confirmations de connexion.
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description-2 = Vous avez changé votre adresse électronique principale en { $email }. Cette adresse est désormais votre nom d’utilisateur pour vous connecter à votre { -product-mozilla-account }, ainsi que recevoir des notifications de sécurité et des confirmations de connexion.
+postChangePrimary-description-2 = Votre adresse e-mail principale est désormais { $email }. Vous pouvez à présent l’utiliser pour vous connecter à votre { -product-mozilla-account } et recevoir les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
 postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -370,7 +370,7 @@ postVerify-title-2 = Vous voulez consulter le même onglet sur deux appareils ?
 postVerify-description-2 = C'est facile ! Installez simplement { -brand-firefox } sur un autre appareil et connectez-vous pour synchroniser, comme par magie.
 postVerify-sub-description = (Psst… Cela signifie également que vous pouvez obtenir vos marque-pages, mots de passe et autres données de { -brand-firefox } partout où vous êtes connecté·e.)
 postVerify-subject-3 = Bienvenue dans { -brand-firefox } !
-postVerify-subject-4 = Bienvenue dans { -brand-mozilla } !
+postVerify-subject-4 = Bienvenue chez { -brand-mozilla } !
 postVerify-setup-2 = Connectez un autre appareil :
 postVerify-action-2 = Connecter un autre appareil
 postVerifySecondary-subject = Adresse e-mail secondaire ajoutée
@@ -380,7 +380,7 @@ postVerifySecondary-title = Adresse e-mail secondaire ajoutée
 postVerifySecondary-content-2 = L’adresse e-mail secondaire { $secondaryEmail } de votre { -product-firefox-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses e-mail.
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = L’adresse e-mail secondaire { $secondaryEmail } de votre { -product-mozilla-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses électroniques.
+postVerifySecondary-content-3 = L’adresse e-mail secondaire { $secondaryEmail } de votre { -product-mozilla-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses e-mail.
 postVerifySecondary-action = Gérer le compte
 recovery-subject = Réinitialiser le mot de passe
 recovery-title-2 = Mot de passe oublié ?
@@ -426,7 +426,7 @@ subscriptionAccountReminderFirst-action = Créer un mot de passe
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = Dernier rappel : configurez votre compte
 subscriptionAccountReminderSecond-title = Bienvenue dans { -brand-firefox } !
-subscriptionAccountReminderSecond-title-2 = Bienvenue dans { -brand-mozilla } !
+subscriptionAccountReminderSecond-title-2 = Bienvenue chez { -brand-mozilla } !
 subscriptionAccountReminderSecond-content-info-2 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais ne l’avez jamais confirmé. Nous espérons que vous finirez la configuration de votre compte afin que vous puissiez utiliser votre nouvel abonnement.
 subscriptionAccountReminderSecond-content-info-3 = Il y a quelques jours, vous avez créé un { -product-mozilla-account }, mais vous ne l’avez jamais confirmé. Nous espérons que vous finirez de configurer votre compte afin que vous puissiez utiliser votre nouvel abonnement.
 subscriptionAccountReminderSecond-content-select-2 = Sélectionnez « Créer un mot de passe » pour configurer un nouveau mot de passe et terminer la confirmation de votre compte.
@@ -587,7 +587,7 @@ confirm-account = Confirmer le compte
 confirm-account-plaintext = { confirm-account } :
 verificationReminderFirst-subject-2 = N’oubliez pas de confirmer votre compte
 verificationReminderFirst-title-2 = Bienvenue dans { -brand-firefox } !
-verificationReminderFirst-title-3 = Bienvenue dans { -brand-mozilla } !
+verificationReminderFirst-title-3 = Bienvenue chez { -brand-mozilla } !
 verificationReminderFirst-description-2 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 15 prochains jours ou il sera automatiquement supprimé.
 verificationReminderFirst-description-3 = Il y a quelques jours, vous avez créé un { -product-mozilla-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 15 prochains jours ou il sera automatiquement supprimé.
 verificationReminderFirst-sub-description-3 = Ne passez pas à côté du navigateur qui fait passer la confidentialité avant tout le reste.
@@ -598,7 +598,7 @@ verificationReminderSecond-subject-2 = N’oubliez pas de confirmer votre compte
 verificationReminderSecond-title-2 = Ne manquez rien de { -brand-firefox } !
 verificationReminderSecond-title-3 = Ne manquez rien de { -brand-mozilla } !
 verificationReminderSecond-description-3 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
-verificationReminderSecond-description-4 = Il y a quelques jours, vous avez créé un { -product-mozilla-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte d'ici 10 jours, sinon il sera automatiquement supprimé.
+verificationReminderSecond-description-4 = Il y a quelques jours, vous avez créé un { -product-mozilla-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
 verificationReminderSecond-second-description = Votre { -product-firefox-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
 verificationReminderSecond-second-description-2 = Votre { -product-mozilla-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
 verificationReminderSecond-sub-description-2 = Rejoignez notre mission pour transformer Internet en un lieu ouvert à tout le monde.
