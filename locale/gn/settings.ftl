@@ -29,7 +29,7 @@ brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla
 brand-prelaunch-subtitle = Emoñepyrũta gueteri tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde puruhára réra ha ñe’ẽñemi eipurúva ndive, ha naiñambuéi apopyre eipurúva.
+brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eipurúva ndive, ha naiñambuéi apopyre eipurúva.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Kuaave
 # Alt text for close banner image

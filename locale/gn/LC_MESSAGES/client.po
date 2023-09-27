@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 16:25+0000\n"
-"PO-Revision-Date: 2023-09-27 17:12+0000\n"
+"PO-Revision-Date: 2023-09-27 17:28+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1857,7 +1857,7 @@ msgstr "Umi Firefox mba’ete hérata ko’ág̃a Mozilla mba’ete 1 jasypateĩ
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Emoñepyrũjeýta tembiapo nde puruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
+msgstr "Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
@@ -1865,7 +1865,7 @@ msgstr "Kuaave"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Romoambue Firefox mba’ete réra ko’ág̃a guive ojehero Mozilla. Emoñepyrũjeýta tembiapo nde puruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
+msgstr "Romoambue Firefox mba’ete réra ko’ág̃a guive ojehero Mozilla. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
