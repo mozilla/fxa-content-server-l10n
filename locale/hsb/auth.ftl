@@ -34,12 +34,21 @@ subplat-explainer-specific-2 = Dóstawaće tutu mejlku, dokelž { $email } ma { 
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Dóstawaće tutu mejlku, dokelž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-explainer-multiple = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a sće wjacore produkty abonował.
+subplat-explainer-multiple-2 = Dóstawaće tutu mejlku, dokelž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a sće wjacore produkty abonował.
 subplat-explainer-was-deleted = Dóstawaće tutu mejlku, dokelž { $email } je so za konto { -product-firefox-account } zregistrowała.
+subplat-explainer-was-deleted-2 = Dóstawaće tutu mejlku, dokelž { $email } je so za { -product-mozilla-account(case: "acc", capitalization: "lower") } zregistrowała.
 subplat-manage-account = Wopytajće swoju <a data-l10n-name="subplat-account-page">kontowu stronu</a>, zo byšće swoje nastajenja { -product-firefox-account } rjadował.
+subplat-manage-account-2 = Wopytajće swoju <a data-l10n-name="subplat-account-page">kontowu stronu</a>, zo byšće swoje nastajenja { -product-mozilla-account(case: "acc", capitalization: "lower") } rjadował.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Wopytajće swoju kontowu stronu, zo byšće swoje nastajenja { -product-firefox-account } rjadował: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Wopytajće swoju kontowu stronu, zo byšće swoje nastajenja { -product-mozilla-account(case: "acc", capitalization: "lower") } rjadował: { $accountSettingsUrl }
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowědźić
