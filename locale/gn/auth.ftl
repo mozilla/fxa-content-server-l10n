@@ -13,8 +13,11 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Purureko Ñemigua
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Mba’epuru reko
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
@@ -26,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } ha eñemboheraguapy { $productName } peg̃uarã.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Og̃uahẽ ko ñanduti veve { $email } ereko rupi { -product-mozilla-account } ha eñemboheraguapy { $productName } peg̃uarã.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-mozilla-account }.
 subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
+subplat-explainer-multiple-2 = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-mozilla-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
 subplat-explainer-was-deleted = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-mozilla-account }.
 subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
+subplat-manage-account-2 = Eñangareko nde { -product-mozilla-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Eñangareko { -product-firefox-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Eñangareko { -product-mozilla-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
 subplat-terms-policy = Ñemboguata ha jeheja porureko
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ñemboheraguapy jeheja
@@ -217,6 +233,7 @@ downloadSubscription-title = ¡Eg̃uahẽporãite { $productName }-pe!
 downloadSubscription-content-2 = Ñañepyrũkatu jaiporu opaite tembiapoite oikéva ne ñemboheraguapýpe:
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
+fraudulentAccountDeletion-subject-2 = Nde { -product-mozilla-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
 fraudulentAccountDeletion-content = Oñemoheñoiramoite { -product-firefox-account } ha orekóta ñemboheraguapy ñanduti veve kundaharape ndive. Rojapoháicha mba’ete pyahu ndive, rojerure ndéve emoneĩ hag̃ua mba’ete emboajévo ñepyrũrã ñanduti veve kundaharape.
 fraudulentAccountDeletion-content-2 = Ko’ag̃aite, rohecha pe mba’e noñemboajeihague. Kóva ndojejapói haguére, ndoroikuaaporãi ha’épa ñemboheraguapy moneĩmbyrépa. Ha upéicha rupi, { -product-firefox-account } oñemboheraguapýva ko ñanduti veve kundaharapépe oñemboguéma ha ne ñemboheraguapy ojejokóma opaite mba’e heseguáva reheve.
@@ -244,6 +261,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
 newDeviceLogin-title-2 = Nde { -product-firefox-account } ojeporu tembiapo ñepyrũrã
+newDeviceLogin-title-3 = Nde { -product-mozilla-account } ojeporu tembiapo ñepyrũrã
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = ¿Nandéipa? <a data-l10n-name="passwordChangeLink">Emoambue ne ñe’ẽñemi</a>.
@@ -254,6 +272,7 @@ newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
 passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-account } ñe’ẽñemi peteĩva mba’e’oka guive:
+passwordChanged-description-2 = Oñemoambue hekoitépe nde { -product-mozilla-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
@@ -283,6 +302,7 @@ postAddAccountRecovery-action = Mba’ete ñangareko
 postAddAccountRecovery-delete-key = Embogue ñe’ẽñemi pyahu:
 postAddAccountRecovery-changd-password = Emoambue ne ñe’ẽñemi:
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
+postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-firefox-account } rehe
