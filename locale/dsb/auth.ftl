@@ -405,7 +405,7 @@ subscriptionAccountDeletion-title = Škóda, až wótejźośo
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Sćo njedawno wukašował swójo konto { -product-firefox-account }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Sćo njedawno wulašował swójo konto { -product-firefox-account }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
@@ -593,18 +593,24 @@ verificationReminderFirst-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderFirst-title-2 = Witajśo k { -brand-firefox }!
 verificationReminderFirst-title-3 = Witajśo k { -brand-mozilla }!
 verificationReminderFirst-description-2 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
+verificationReminderFirst-description-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderFirst-sub-description-3 = Njeskomuźćo wobglědowak, za kótaryž wy a waša priwatnosć na prědne městno stajatej.
 confirm-email-2 = Konto wobkšuśiś
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkšuśiś
 verificationReminderSecond-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderSecond-title-2 = Njeskomuźćo { -brand-firefox }!
+verificationReminderSecond-title-3 = Njeskomuźćo { -brand-mozilla }!
 verificationReminderSecond-description-3 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
+verificationReminderSecond-description-4 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Waš { -product-mozilla-account } wam zmóžnja, swóje informacije pśez rědy synchronizěrowaś a dowólujo pśistup k wěcej priwatnosć šćitajucym produktam wót { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Buźćo źěl našeje misije, internet do městna pśetworiś, kótaryž jo wótwórjony za kuždego.
 verificationReminderSecond-action-2 = Konto wobkšuśiś
 verify-title-2 = Wócyńśo internet z { -brand-firefox }
-verify-description = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
+verify-title-3 = Wócyńśo internet z { -brand-mozilla }
+verify-description = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
+verify-description-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-subject = Dokóńcćo załožowanje swójogo konta
 verify-action-2 = Konto wobkšuśiś
 # Variables:
@@ -635,13 +641,19 @@ verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Slědujuce konto { -product-mozilla-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondaryCode-prompt-2 = Toś ten wobkšuśeński kod wužywaś:
 verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Wubkšuśćo swójo konto
 verifyShortCode-title-2 = Wócyńśo internet z { -brand-firefox }
+verifyShortCode-title-3 = Wócyńśo internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
+verifyShortCode-title-subtext = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verifyShortCode-prompt-3 = Toś ten wobkšuśeński kod wužywaś:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
