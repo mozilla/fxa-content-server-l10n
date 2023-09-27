@@ -359,6 +359,9 @@ postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu ze swojeho konta { -product-firefox-account } wuspěšnje wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja njebudu so hižo na tutu adresu słać.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu ze swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } wuspěšnje wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja njebudu so hižo na tutu adresu słać.
 postRemoveSecondary-action = Konto rjadować
 postRemoveTwoStepAuthentication-subject-line-2 = Dwukročelowa awtentifikacija znjemóžnjena
 postRemoveTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju znjemóžnił
@@ -371,6 +374,7 @@ postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
 postVerify-sub-description = (Pst… Woznamjenja tež, zo móžeće swoje zapołožki, hesła a druhe daty { -brand-firefox } dóstać, hdźežkuli sće so přizjewił.)
 postVerify-subject-3 = Witajće k { -brand-firefox }!
+postVerify-subject-4 = Witajće k { -brand-mozilla }!
 postVerify-setup-2 = Z druhim gratom zwjazać:
 postVerify-action-2 = Z druhim gratom zwjazać
 postVerifySecondary-subject = Druha e-mejlowa adresa je so přidała
