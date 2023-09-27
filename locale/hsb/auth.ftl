@@ -13,8 +13,11 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizowane graty">
 body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
+moz-accounts-privacy-url = Prawidła priwatnosće { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
+moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-notice = Zdźělenka priwatnosće
@@ -24,6 +27,10 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a wy sće za { $productName } zregistrowany.
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Dóstawaće tutu mejlku, dokelž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a wy sće za { $productName } zregistrowany.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account }.
