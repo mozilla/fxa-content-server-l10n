@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchroniser les appareils">
 body-devices-image = <img data-l10n-name="devices-image" alt="Appareils">
 fxa-privacy-url = Politique de confidentialité de { -brand-mozilla }
-moz-accounts-privacy-url = Politique de confidentialité des { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-privacy-url = Politique de confidentialité des { -product-mozilla-accounts }
 fxa-service-url = Conditions d’utilisation de { -product-firefox-cloud }
-moz-accounts-terms-url = Conditions d’utilisation du { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = Conditions d’utilisation des { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
@@ -36,7 +36,7 @@ subplat-explainer-specific-2 = Vous recevez ce message car { $email } possède u
 subplat-explainer-reminder-form = Vous recevez cet e-mail, car { $email } possède un { -product-firefox-account }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form-2 = Vous recevez cet e-mail, car { $email } possède un { -product-mozilla-account }.
+subplat-explainer-reminder-form-2 = Vous recevez ce message, car { $email } possède un { -product-mozilla-account }.
 subplat-explainer-multiple = Vous recevez ce message car { $email } possède un { -product-firefox-account } et vous avez souscrit plusieurs abonnements.
 subplat-explainer-multiple-2 = Vous recevez ce message car { $email } possède un { -product-mozilla-account } et vous avez souscrit plusieurs abonnements.
 subplat-explainer-was-deleted = Vous recevez ce message car l’adresse { $email } est inscrite à un { -product-firefox-account }.
@@ -237,9 +237,9 @@ fraudulentAccountDeletion-subject = Votre { -product-firefox-account } a été s
 fraudulentAccountDeletion-subject-2 = Votre { -product-mozilla-account } a été supprimé
 fraudulentAccountDeletion-title = Votre compte a été supprimé
 fraudulentAccountDeletion-content = Récemment, un { -product-firefox-account } a été créé avec cette adresse e-mail et un abonnement facturé. Ainsi que nous le faisons pour tous les nouveaux comptes, nous vous demandons de confirmer votre compte en commençant par valider cette adresse e-mail.
-fraudulentAccountDeletion-content-part1-v2 = Récemment, un { -product-mozilla-account } a été créé et un abonnement facturé avec cette adresse électronique. Comme nous le faisons pour tous les nouveaux comptes, nous vous demandons de confirmer votre compte en validant d’abord cette adresse e-mail.
+fraudulentAccountDeletion-content-part1-v2 = Récemment, un { -product-mozilla-account } a été créé et un abonnement facturé avec cette adresse e-mail. Comme nous le faisons pour tous les nouveaux comptes, nous vous demandons de confirmer votre compte en validant d’abord cette adresse e-mail.
 fraudulentAccountDeletion-content-2 = Présentement, nous remarquons que ce compte n’a jamais été confirmé. Comme cette étape n’a pas été effectuée, nous ne pouvons être certains que l’abonnement était autorisé. En conséquence, le { -product-firefox-account } enregistré à cette adresse e-mail a été supprimé, votre abonnement annulé et tous les frais remboursés.
-fraudulentAccountDeletion-content-part2-v2 = Actuellement, nous constatons que le compte n’a jamais été confirmé. Étant donné que cette étape n’a pas été effectuée, nous ne savons pas s’il s’agit d’un abonnement autorisé. En conséquence, le { -product-mozilla-account } enregistré à cette adresse e-mail a été supprimé et votre abonnement annulé et tous les frais remboursés.
+fraudulentAccountDeletion-content-part2-v2 = Actuellement, nous constatons que le compte n’a jamais été confirmé. Étant donné que cette étape n’a pas été effectuée, nous ne savons pas s’il s’agit d’un abonnement autorisé. En conséquence, le { -product-mozilla-account } associé à cette adresse e-mail a été supprimé, votre abonnement annulé et tous les frais remboursés.
 fraudulentAccountDeletion-contact = Pour toute question, veuillez contacter notre <a data-l10n-name="mozillaSupportUrl">équipe d’assistance</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
