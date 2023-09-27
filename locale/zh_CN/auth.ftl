@@ -276,7 +276,7 @@ passwordChanged-description-2 = 已从下列设备成功更改您的 { -product-
 passwordChangeRequired-subject = 检测到可疑活动
 passwordChangeRequired-title = 需要更改密码
 passwordChangeRequired-suspicious-activity = 我们监测到您的 { -product-firefox-account }存在可疑行为。为了防止他人未经授权访问您的 { -product-firefox-account }，我们已断开该账户下所有设备的连接，并要求您更改密码。
-passwordChangeRequired-suspicious-activity-2 = 我们监测到您的 { -product-mozilla-account } 中存在可疑行为。为防止他人未经授权访问您的 { -product-mozilla-account }，我们已断开该账户下所有设备的连接并要求您更改密码。
+passwordChangeRequired-suspicious-activity-2 = 我们监测到您的 { -product-mozilla-account }存在可疑行为。为了防止他人未经授权访问您的 { -product-mozilla-account }，我们已断开该账户下所有设备的连接，并要求您更改密码，以防万一。
 passwordChangeRequired-sign-in = 请到常用设备或服务中重新登录 { -product-firefox-account }，并按照所显示步骤进行操作。
 passwordChangeRequired-sign-in-2 = 请到常用设备或服务中重新登录 { -product-mozilla-account }，并按照所显示步骤进行操作。
 passwordChangeRequired-different-password = <b>重要</b>：请改用您从未使用过的全新密码，并确保该密码不要与您的电子邮件账户密码相同。
@@ -353,7 +353,7 @@ postRemoveSecondary-title = 已移除备用邮箱
 postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = 您已成功移除 { -product-mozilla-account } 的备用邮箱 { $secondaryEmail }。安全通知和登录确认将不再发送到此地址。
+postRemoveSecondary-description-2 = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-mozilla-account }中删除。安全通知和登录确认将不再发送到此地址。
 postRemoveSecondary-action = 管理账户
 postRemoveTwoStepAuthentication-subject-line-2 = 两步验证已关闭
 postRemoveTwoStepAuthentication-title-2 = 您已关闭两步验证
