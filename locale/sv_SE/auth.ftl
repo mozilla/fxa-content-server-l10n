@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logga in på { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logga in på ditt { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klicka här för att bekräfta att det är du
 
 ## Email content
@@ -8,11 +9,13 @@ session-verify-send-push-body-2 = Klicka här för att bekräfta att det är du
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logotyp">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronisera enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotyp">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 subplat-automated-email = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
 subplat-privacy-notice = Sekretessmeddelande
@@ -201,7 +204,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det krävs två för att synkronisera
 cadReminderFirst-description-1 = Ta med dina flikar till alla dina enheter. Få dina bokmärken, lösenord och annan data överallt där du använder { -brand-firefox }. Det är som att ha magi i ditt { -brand-firefox }-konto!
-cadReminderFirst-description-2 = Det tar bara en sekund att synkronisera.
 cadReminderSecond-subject-2 = Missa inte! Låt oss avsluta din synkroniseringskonfiguration
 cadReminderSecond-action = Synkronisera en annan enhet
 cadReminderSecond-title-2 = Glöm inte att synkronisera!
@@ -242,8 +244,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ditt { -product-firefox-account } användes för att logga in
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +260,6 @@ passwordChangeRequired-title = Lösenordsbyte krävs
 passwordChangeRequired-suspicious-activity = Vi upptäckte misstänkt beteende på ditt { -product-firefox-account }. För att förhindra obehörig åtkomst till ditt { -product-firefox-account } har vi kopplat bort alla enheter på ditt konto och kräver att du ändrar ditt lösenord som en försiktighetsåtgärd.
 passwordChangeRequired-sign-in = Logga in på valfri enhet eller tjänst där du använder ditt { -product-firefox-account } och följ stegen som kommer att presenteras för dig.
 passwordChangeRequired-different-password = <b>Viktigt:</b> Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
-passwordChangeRequired-signoff = Bästa,
-passwordChangeRequired-signoff-name = Teamet { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
 passwordReset-subject = Lösenord uppdaterat
 passwordReset-title = Ditt lösenord till kontot ändrades
@@ -520,7 +518,6 @@ subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }. Då kommer du också att debiteras en engångsavgift på { $paymentProrated } för att återspegla den högre avgiften för återstoden av denna { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Du kommer att debiteras en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna { $productPaymentCycleOld }. Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
