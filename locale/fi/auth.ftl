@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Kirjautumassa { -product-firefox-accounts } -palveluun?
+session-verify-send-push-title-2 = Oletko kirjautumassa { -product-mozilla-account }-tilillesi?
 session-verify-send-push-body-2 = Napsauta tästä vahvistaaksesi, että se olet sinä
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Napsauta tästä vahvistaaksesi, että se olet
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }in logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronoi laitteet">
 body-devices-image = <img data-l10n-name="devices-image" alt="Laitteet">
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } -tietosuojakäytäntö
 fxa-service-url = { -product-firefox-cloud } -käyttöehdot
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } -käyttöehdot
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }in logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 subplat-privacy-notice = Tietosuojakäytäntö
@@ -201,7 +206,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Synkronointi vaatii kaksi
 cadReminderFirst-description-1 = Käytä välilehtiäsi kaikilla laitteillasi. Ota mukaan kirjanmerkkisi, salasanasi ja muut tietosi kaikkialle, missä käytät { -brand-firefox }ia. Se on kuin taikuutta { -brand-firefox }-tililläsi!
-cadReminderFirst-description-2 = Synkronointi kestää vain sekunnin.
 cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title-2 = Älä unohda synkronoida!
@@ -242,9 +246,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = { -product-firefox-account }äsi käytettiin sisäänkirjautumiseen
+newDeviceLogin-title-3 = { -product-mozilla-account }äsi käytettiin sisäänkirjautumiseen
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Etkö se ollut sinä? <a data-l10n-name="passwordChangeLink">Vaihda salasanasi</a>.
@@ -260,8 +263,6 @@ passwordChangeRequired-title = Salasanan vaihto vaaditaan
 passwordChangeRequired-suspicious-activity = Havaitsimme epäilyttävää toimintaa { -product-firefox-account }lläsi. Estääksemme { -product-firefox-account }si luvattoman käytön, olemme katkaisseet yhteyden kaikkiin laitteisiisi tilisi osalta. Vaadimme sinua vaihtamaan salasanan varotoimenpiteenä.
 passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -product-firefox-account }äsi ja seuraa näkyviin ilmestyviä ohjeita.
 passwordChangeRequired-different-password = <b>Tärkeää:</b> Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
-passwordChangeRequired-signoff = Terveisin
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } -tiimi
 passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 passwordReset-subject = Salasana päivitetty
 passwordReset-title = Tilisi salasana vaihdettiin
@@ -339,6 +340,7 @@ postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
 postVerify-sub-description = (Psst… Se tarkoittaa myös, että saat kirjanmerkkisi, salasanasi ja muut { -brand-firefox }in tiedot kaikkialle, mihin olet kirjautunut sisään.)
 postVerify-subject-3 = Tervetuloa { -brand-firefox }iin!
+postVerify-subject-4 = Tervetuloa { -brand-mozilla }an!
 postVerify-setup-2 = Yhdistä toinen laite:
 postVerify-action-2 = Yhdistä toinen laite
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
@@ -520,7 +522,6 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } on päivitetty tuotteesee
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Seuraavasta laskustasi alkaen veloitus muuttuu nykyisestä hinnasta { $paymentAmountOld } per { $productPaymentCycleOld } hintaan { $paymentAmountNew } per { $productPaymentCycleNew }. Tuolloin sinulta veloitetaan kertaluonteinen kulu, suuruudeltaan { $paymentProrated }, mikä vastaa tämän { $productPaymentCycleOld } jakson loppuosan suurempaa veloitusta.
 subscriptionUpgrade-content-charge-info-different-cycle = Sinulta veloitetaan kertaluonteinen maksu { $paymentProrated }, joka vastaa tilauksesi korkeampaa hintaa tämän { $productPaymentCycleOld } loppuosan ajalta. Seuraavasta laskustasi alkaen veloitus muuttuu nykyisestä { $paymentAmountOld } / { $productPaymentCycleOld }, uusi veloitus on { $paymentAmountNew } / { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
