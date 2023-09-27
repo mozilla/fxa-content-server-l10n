@@ -382,12 +382,18 @@ postVerifySecondary-title = Druha e-mejlowa adresa je so přidała
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu za swoje konto { -product-firefox-account } wuspěšnje přepruwował. Wěstotne zdźělenki a přizjewjenske wobkrućenja budu so nětko na wobě e-mejlowej adresy słać.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } wuspěšnje přepruwował. Wěstotne zdźělenki a přizjewjenske wobkrućenja budu so nětko na wobě e-mejlowej adresy słać.
 postVerifySecondary-action = Konto rjadować
 recovery-subject = Stajće swoje hesło wróćo
 recovery-title-2 = Sće swoje hesło zabył?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Smy próstwu wo změnjenje hesła za waše konto { -product-firefox-account } dóstali:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
 recovery-new-password-button = Klikńće na slědowace tłóčatko, zo byšće nowe hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.
 recovery-copy-paste = Kopěrujće slědowacy URL do swojeho wobhladowaka, zo byšće hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.
 recovery-action = Nowe hesło wutworić
@@ -400,6 +406,11 @@ subscriptionAccountDeletion-title = Škoda, zo woteńdźeće
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Sće njedawno swoje konto { -product-firefox-account } zhašał. Tohodla smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } zapłaćiło.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Sće njedawno swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } zhašał. Tohodla smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } zapłaćiło.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witajće k { $productName }: Nastajće prošu swoje hesło.
@@ -408,16 +419,20 @@ subscriptionAccountFinishSetup-subject = Witajće k { $productName }: Nastajće 
 subscriptionAccountFinishSetup-title = Witajće k { $productName }
 subscriptionAccountFinishSetup-content-processing = Waše płaćenje so předźěłuje a móže hač do štyri wšědnych dnjow trać. Waš abonement so w kóždym wotličenskim času awtomatisce podlěša, chibazo wupowědźeće.
 subscriptionAccountFinishSetup-content-create-2 = Jako dalše hesło konta { -product-firefox-account } wutworiće, zo byšće započał swój nowy abonement wužiwać.
+subscriptionAccountFinishSetup-content-create-3 = Jako dalše hesło { -product-mozilla-account(case: "gen", capitalization: "lower") } wutworiće, zo byšće započał swój nowy abonement wužiwać.
 subscriptionAccountFinishSetup-action-2 = Prěnje kroki
 subscriptionAccountReminderFirst-subject = Dopomnjeće: Dokónčće konfigurowanje swojeho konta
 subscriptionAccountReminderFirst-title = Hisće nimaće přistup k swojemu abonementej
 subscriptionAccountReminderFirst-content-info-2 = Před někotrymi dnjemi sće konto { -product-firefox-account } załožił, ale njejsće jo ženje wobkrućił. Nadźijamy so, zo konfigurowanje swojeho konta dokónčiće, zo byšće swój nowy abonement wužiwać móhł.
+subscriptionAccountReminderFirst-content-info-3 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo ženje wobkrućił. Nadźijamy so, zo konfigurowanje swojeho konta dokónčiće, zo byšće swój nowy abonement wužiwać móhł.
 subscriptionAccountReminderFirst-content-select-2 = Wubjerće „Hesło wutworić“, zo byšće nowe hesło nastajił a přepruwowanje swojeho konta dokónčił.
 subscriptionAccountReminderFirst-action = Hesło wutworić
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Poslednje dopomnjeće: Konfigurujće swoje konto
 subscriptionAccountReminderSecond-title = Witajće k { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Witajće k { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Před někotrymi dnjemi sće konto { -product-firefox-account } załožił, ale njejsće jo ženje wobkrućił. Nadźijamy so, zo konfigurowanje swojeho konta dokónčiće, zo byšće swój nowy abonement wužiwać móhł.
+subscriptionAccountReminderSecond-content-info-3 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo ženje wobkrućił. Nadźijamy so, zo konfigurowanje swojeho konta dokónčiće, zo byšće swój nowy abonement wužiwać móhł.
 subscriptionAccountReminderSecond-content-select-2 = Wubjerće „Hesło wutworić“, zo byšće nowe hesło nastajił a přepruwowanje swojeho konta dokónčił.
 subscriptionAccountReminderSecond-action = Hesło wutworić
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -571,23 +586,31 @@ unblockCode-report = Jeli nic, pomhajće nam zadobywarjow wotwobarać a <a data-
 unblockCode-report-plaintext = Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to.
 verificationReminderFinal-subject = Poslednje dopomnjeće: Wobkrućće swoje konto
 verificationReminderFinal-description = Před někotrymi njedźelemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Za wašu wěstotu zhašamy konto, jeli so za přichodne 24 hodźin njewobkrući.
+verificationReminderFinal-description-2 = Před někotrymi njedźelemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo wobkrućił. Za wašu wěstotu zhašamy konto, jeli so za přichodne 24 hodźin njewobkrući.
 confirm-account = Konto wobkrućić
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderFirst-title-2 = Witajće k { -brand-firefox }!
+verificationReminderFirst-title-3 = Witajće k { -brand-mozilla }!
 verificationReminderFirst-description-2 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 15 dnjow abo konto so awtomatisce zhaša.
+verificationReminderFirst-description-3 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 15 dnjow abo konto so awtomatisce zhaša.
 verificationReminderFirst-sub-description-3 = Njezapasće wobhladowak, za kotryž wy a waša priwatnosć na prěnje městno stejatej.
 confirm-email-2 = Konto wobkrućić
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
 verificationReminderSecond-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderSecond-title-2 = Popřejće sej { -brand-firefox }!
+verificationReminderSecond-title-3 = Popřejće sej { -brand-mozilla }!
 verificationReminderSecond-description-3 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
+verificationReminderSecond-description-4 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
 verificationReminderSecond-second-description = Waš { -product-firefox-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Waš { -product-mozilla-account } wam zmóžnja, swoje informacije přez graty synchronizować a dowoluje přistup k wjace priwatnosć škitacym produktam wot { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Budźće dźěl našeje misije, internet do městna přetworić, kotryž je wotewrjeny za kóždeho.
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
+verify-title-3 = Wočińće internet z { -brand-mozilla }
 verify-description = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
+verify-description-2 = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-mozilla }, wšudźe, hdźež so přizjewjeće, započinajo z:
 verify-subject = Dokónčće załoženje swojeho konta
 verify-action-2 = Konto wobkrućić
 # Variables:
@@ -618,13 +641,19 @@ verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědowace konto { -product-firefox-account } je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Slědowace konto { -product-mozilla-account } je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
 verifySecondaryCode-prompt-2 = Tutón wobkrućenski kod zapodać:
 verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je so wobkrućiła, tuta adresa započnje, wěstotne zdźělenki a wobkrućenja dóstawać.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Wobkrućće swoje konto
 verifyShortCode-title-2 = Wočińće internet z { -brand-firefox }
+verifyShortCode-title-3 = Wočińće internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-mozilla }, wšudźe, hdźež so přizjewjeće, započinajo z:
 verifyShortCode-prompt-3 = Tutón wobkrućenski kod zapodać:
 verifyShortCode-expiry-notice = Spadnje za 5 mjeńšin.
