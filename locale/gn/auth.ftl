@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = ¿Eñepyrũ tembiapo { -product-firefox-accounts } ndive?
+session-verify-send-push-title-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
 session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 
 ## Email content
@@ -8,6 +9,7 @@ session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Porureko
@@ -201,7 +203,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
 cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
-cadReminderFirst-description-2 = Mbojuehe ipya’eterei.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
@@ -242,8 +243,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Nde { -product-firefox-account } ojeporu tembiapo ñepyrũrã
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +259,6 @@ passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
 passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
-passwordChangeRequired-signoff = Maitei,
-passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
 passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
