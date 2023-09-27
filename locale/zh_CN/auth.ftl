@@ -13,7 +13,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步设备">
 body-devices-image = <img data-l10n-name="devices-image" alt="设备">
 fxa-privacy-url = { -brand-mozilla } 隐私政策
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } 隐私政策
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") }隐私政策
 fxa-service-url = { -product-firefox-cloud } 服务条款
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") }服务条款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 徽标">
@@ -42,13 +42,13 @@ subplat-explainer-multiple-2 = 您收到此邮件是因为 { $email } 注册了 
 subplat-explainer-was-deleted = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
 subplat-explainer-was-deleted-2 = 您收到这封邮件是因为 { $email } 注册了 { -product-mozilla-account }。
 subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
-subplat-manage-account-2 = 请访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-mozilla-account } 的设置。
+subplat-manage-account-2 = 请访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-mozilla-account }的设置。
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = 访问您的账户页面来管理 { -product-firefox-account } 设置：{ $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext-2 = 请访问您的账户页面来管理 { -product-mozilla-account } 的设置：{ $accountSettingsUrl }
+subplat-manage-account-plaintext-2 = 请访问您的账户页面管理 { -product-mozilla-account }的设置：{ $accountSettingsUrl }
 subplat-terms-policy = 条款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
