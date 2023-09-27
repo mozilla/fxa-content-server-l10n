@@ -219,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
 cadReminderFirst-description-1 = Egueraha tendake opaite mba’e’okápe. Egueraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporusehápe { -brand-firefox }. ¡Ha’e tuichave mba’éva ne mba’ete { -brand-firefox } pegua!
-cadReminderFirst-description-v2 = Egueraha ne rendayke ne mba’e’okuéra rupive. Eraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eipuruhápe { -brand-firefox }.
+cadReminderFirst-description-v2 = Egueraha ne rendayke ne mba’e’okuéra rupive. Eraha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã eiporuhápe { -brand-firefox }.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
@@ -606,7 +606,7 @@ verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
 verify-description = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
-verify-description-2 = Emoneĩ ne mba’ete ha eipuruporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
+verify-description-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action-2 = Emoneĩjey mba’ete
 # Variables:
@@ -650,6 +650,6 @@ verifyShortCode-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Emoneĩ ne mba’ete ha eiporuporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eipuruporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
+verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
 verifyShortCode-prompt-3 = Eiporu ko ayvu ñemoneĩrã:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
