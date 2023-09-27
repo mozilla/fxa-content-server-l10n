@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cydweddu dyfeisiau">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dyfeisiau">
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
-moz-accounts-privacy-url = { -product-mozilla-accounts(cyfalafu: "mawr") } Polisi Preifatrwydd
+moz-accounts-privacy-url = Polisi Preifatrwydd { -product-mozilla-accounts(cyfalafu: "mawr") }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
-moz-accounts-terms-url = { -product-mozilla-accounts(cyfalafu: "mawr") } Telerau Gwasanaeth
+moz-accounts-terms-url = Amodau Gwasanaeth { -product-mozilla-accounts(cyfalafu: "mawr") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
@@ -30,25 +30,25 @@ subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-mozilla-account } a gwnaethoch gofrestru ar gyfer { $productName }.
+subplat-explainer-specific-2 = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-mozilla-account } ac rydych wedi cofrestru ar gyfer { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }x
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form-2 = Rydych chi'n derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-mozilla-account }.
+subplat-explainer-reminder-form-2 = Rydych chi'n derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-mozilla-account }.
 subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
-subplat-explainer-multiple-2 = Rydych chi'n derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-mozilla-account } a'ch bod wedi tanysgrifio i fwy nag un cynnyrch.
+subplat-explainer-multiple-2 = Rydych chi'n derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-mozilla-account } a'ch bod wedi tanysgrifio i fwy nag un cynnyrch.
 subplat-explainer-was-deleted = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Rydych chi'n derbyn yr e-bost hwn oherwydd bod { $email } wedi'i gofrestru ar gyfer { -product-mozilla-account }.
 subplat-manage-account = Rheolwch osodiadau eich { -product-firefox-account } trwy ymweld â <a data-l10n-name="subplat-account-page">thudalen eich cyfrif </a>.
-subplat-manage-account-2 = Rheoli eich gosodiadau { -product-mozilla-account } drwy ymweld â'ch <a data-l10n-name="subplat-account-page">tudalen cyfrif</a>.
+subplat-manage-account-2 = Rheolwch eich gosodiadau cyfrif { -product-mozilla-account } drwy ymweld â'ch <a data-l10n-name="subplat-account-page">tudalen cyfrif</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Rheolwch eich gosodiadau { -product-firefox-account } drwy fynd i dudalen eich cyfrif: { $accountSettingsUrl }
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext-2 = Rheoli eich gosodiadau { -product-mozilla-account } drwy fynd i dudalen eich cyfrif: { $accountSettingsUrl }
+subplat-manage-account-plaintext-2 = Rheolwch eich gosodiadau cyfrif { -product-mozilla-account } drwy fynd i dudalen eich cyfrif: { $accountSettingsUrl }
 subplat-terms-policy = Polisi telerau a chanslo
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Canslo tanysgrifiad
@@ -219,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Mae'n cymryd dau i gydweddu
 cadReminderFirst-description-1 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }. Mae'n rhan o hudoliaeth eich cyfrif { -brand-firefox }!
-cadReminderFirst-description-v2 = Cymerwch eich tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }.
+cadReminderFirst-description-v2 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }.
 cadReminderSecond-subject-2 = Peidiwch â cholli allan! Gadewch i ni orffen eich gosodiad cydweddu
 cadReminderSecond-action = Cydweddu dyfais arall
 cadReminderSecond-title-2 = Peidiwch ag anghofio cydweddu!
@@ -234,12 +234,12 @@ downloadSubscription-title = Croeso i { $productName }
 downloadSubscription-content-2 = Gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:
 downloadSubscription-link-action-2 = Cychwyn Arni
 fraudulentAccountDeletion-subject = Cafodd eich { -product-firefox-account } ei ddileu
-fraudulentAccountDeletion-subject-2 = Cafodd eich { -product-mozilla-account } ei ddileu
+fraudulentAccountDeletion-subject-2 = Cafodd eich cyfrif { -product-mozilla-account } ei ddileu
 fraudulentAccountDeletion-title = Cafodd eich cyfrif ei ddileu
 fraudulentAccountDeletion-content = Yn ddiweddar, crëwyd { -product-firefox-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, gofynnom i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
-fraudulentAccountDeletion-content-part1-v2 = Yn ddiweddar, crëwyd { -product-mozilla-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, gofynnom i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
+fraudulentAccountDeletion-content-part1-v2 = Yn ddiweddar, crëwyd cyfrif { -product-mozilla-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, rydym wedi gofyn i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
 fraudulentAccountDeletion-content-2 = Ar hyn o bryd, rydym yn gweld na chadarnhawyd y cyfrif erioed. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y { -product-firefox-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddileu a chafodd yr holl daliadau eu had-dalu.
-fraudulentAccountDeletion-content-part2-v2 = Ar hyn o bryd, gwelwn na chadarnhawyd y cyfrif erioed. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y { -product-mozilla-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ganslo a chafodd yr holl daliadau eu had-dalu.
+fraudulentAccountDeletion-content-part2-v2 = Ar hyn o bryd, rydym yn gweld na chafodd y cyfrif byth ei gadarnhau. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y cyfrif { -product-mozilla-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddiddymu a chafodd yr holl daliadau eu had-dalu.
 fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -268,7 +268,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Mewngofnod newydd i { $clientName }
 newDeviceLogin-title-2 = Defnyddiwyd eich { -product-firefox-account } i fewngofnodi
-newDeviceLogin-title-3 = Defnyddiwyd eich { -product-mozilla-account } i fewngofnodi
+newDeviceLogin-title-3 = Defnyddiwyd eich cyfrif { -product-mozilla-account } i fewngofnodi
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Nid chi? <a data-l10n-name="passwordChangeLink">Newidiwch eich cyfrinair</a>.
@@ -279,11 +279,11 @@ newDeviceLogin-action = Rheoli cyfrif
 passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
 passwordChanged-description = Mae eich cyfrinair { -product-firefox-account } wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:
-passwordChanged-description-2 = Cafodd eich cyfrinair { -product-mozilla-account } ei newid yn llwyddiannus o'r ddyfais ganlynol:
+passwordChanged-description-2 = Cafodd eich cyfrinair cyfrif { -product-mozilla-account } ei newid yn llwyddiannus o'r ddyfais ganlynol:
 passwordChangeRequired-subject = Gweithgaredd amheus wedi’i ganfod
 passwordChangeRequired-title = Mae Angen Newid Cyfrinair
 passwordChangeRequired-suspicious-activity = Rydym wedi canfod ymddygiad amheus ar eich { -product-firefox-account }. Er mwyn atal mynediad heb awdurdod i'ch { -product-firefox-account }, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich cyfrinair rhag ofn.
-passwordChangeRequired-suspicious-activity-2 = Rydym wedi canfod ymddygiad amheus ar eich { -product-mozilla-account }. Er mwyn atal mynediad anawdurdodedig i'ch { -product-mozilla-account }, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich cyfrinair fel rhagofal.
+passwordChangeRequired-suspicious-activity-2 = Rydym wedi canfod ymddygiad amheus ar eich cyfrif { -product-mozilla-account }. Er mwyn atal mynediad anawdurdodedig i'ch cyfrif { -product-mozilla-account }, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich cyfrinair rhag ofn.
 passwordChangeRequired-sign-in = Mewngofnodwch i unrhyw ddyfais neu wasanaeth lle rydych chi'n defnyddio'ch { -product-firefox-account } a dilynwch y camau fydd yn cael eu cyflwyno i chi.
 passwordChangeRequired-sign-in-2 = Mewngofnodwch yn ôl i unrhyw ddyfais neu wasanaeth lle rydych yn defnyddio eich { -product-mozilla-account } a dilynwch y camau a gyflwynir i chi.
 passwordChangeRequired-different-password = <b>Pwysig:</b> Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
