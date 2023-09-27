@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = გსურთ, შეხვიდეთ ანგარიშზე { -product-firefox-accounts }?
+session-verify-send-push-title-2 = შეხვალთ { -product-mozilla-account(case: "loc") }?
 session-verify-send-push-body-2 = დაწკაპეთ აქ ვინაობის დასამოწმებლად
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = დაწკაპეთ აქ ვინა�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-ლოგო">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="დასინქ. მოწყობილობები">
 body-devices-image = <img data-l10n-name="devices-image" alt="მოწყობილობები">
 fxa-privacy-url = { -brand-mozilla } – პირადულობის დებულება
+moz-accounts-privacy-url = { -product-mozilla-accounts(case: "gen") } პირადულობის დებულება
 fxa-service-url = { -product-firefox-cloud } – მომსახურების პირობები
+moz-accounts-terms-url = { -product-mozilla-accounts(case: "gen") } მომსახურების პირობები
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-ლოგო">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 subplat-automated-email = ეს ავტომატური შეტყობინებაა; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
 subplat-privacy-notice = პირადულობის განაცხადი
@@ -201,7 +206,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = სინქრონიზაცია ორს შორისაა
 cadReminderFirst-description-1 = წაიყოლეთ თქვენი ჩანართები სხვა მოწყობილობებზეც. თან იქონიეთ ჩანართები, პაროლები და სხვა მონაცემები ყველგან, სადაც გიყენიათ { -brand-firefox }. ესაა თქვენი { -brand-firefox }-ანგარიშის ჯადოქრობა!
-cadReminderFirst-description-2 = სინქრონიზაციას მხოლოდ წამი სჭირდება.
 cadReminderSecond-subject-2 = არ გამოგრჩეთ! დაასრულეთ სინქრონიზაციის გამართვა
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
 cadReminderSecond-title-2 = არ დაგავიწყდეთ სინქრონიზაცია!
@@ -242,8 +246,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = თქვენი { -product-firefox-account } გამოყენებულია შესვლისთვის
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +262,6 @@ passwordChangeRequired-title = პაროლის შეცვლა აუ�
 passwordChangeRequired-suspicious-activity = თქვენს { -product-firefox-account(case: "add") } დაკავშირებით საეჭვო მოქმედება შევნიშნეთ. ამ { -product-firefox-account(case: "ins") } უნებართვო სარგებლობის აღსაკვეთად, ყველა მოწყობილობა გამოერთებულია და საჭიროა ახალი პაროლის შექმნა, უსაფრთხოების ზომების მისაღებად.
 passwordChangeRequired-sign-in = შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ { -product-firefox-account(case: "dat") } და მიჰყევით მოცემულ ნაბიჯებს.
 passwordChangeRequired-different-password = <b>მნიშვნელოვანია:</b> შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს.
-passwordChangeRequired-signoff = საუკეთესო სურვილებით,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } გუნდი
 passwordChangeRequired-different-password-plaintext = მნიშვნელოვანია: შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს.
 passwordReset-subject = პაროლი განახლდა
 passwordReset-title = თქვენი ანგარიშის პაროლი შეიცვალა
@@ -520,8 +520,6 @@ subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდ�
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
-subscriptionUpgrade-content-charge-info = მომდევნო საანგარიშიო პერიოდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } შუალედისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ { $paymentProrated } გაზრდილი გადასახადის ასახვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთში.
 subscriptionUpgrade-content-charge-info-different-cycle = თქვენ ჩამოგეჭრებათ ერთჯერადად { $paymentProrated } გაზრდილი გადასახადის ასასხვისთვის ნაშთში { $productPaymentCycleOld } მონაკვეთისთვის. მომდევნო საანგარიშიო პერიოდიდან დაწყებული ჩამოსაჭერილი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } დროის { $productPaymentCycleNew } მონაკვეთისთვის.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
