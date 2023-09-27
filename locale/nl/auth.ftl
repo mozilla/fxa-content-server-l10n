@@ -46,6 +46,9 @@ subplat-manage-account-2 = Beheer uw { -product-mozilla-account }-instellingen d
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Beheer de instellingen van uw { -product-firefox-account } door naar uw accountpagina te gaan: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Beheer de instellingen van uw { -product-mozilla-account } door naar uw accountpagina te gaan: { $accountSettingsUrl }
 subplat-terms-policy = Voorwaarden en opzeggingsbeleid
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonnement opzeggen
@@ -216,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Er zijn er twee nodig om te synchroniseren
 cadReminderFirst-description-1 = Neem uw tabbladen mee naar al uw apparaten. Ontvang uw bladwijzers, wachtwoorden en andere gegevens overal waar u { -brand-firefox } gebruikt. Het is alsof u magie in uw { -brand-firefox }-account hebt!
+cadReminderFirst-description-v2 = Neem uw tabbladen mee naar al uw apparaten. Ontvang uw bladwijzers, wachtwoorden en andere gegevens overal waar u { -brand-firefox } gebruikt.
 cadReminderSecond-subject-2 = Mis het niet! Laten we uw synchronisatieconfiguratie voltooien
 cadReminderSecond-action = Nog een apparaat synchroniseren
 cadReminderSecond-title-2 = Vergeet niet te synchroniseren!
@@ -230,9 +234,12 @@ downloadSubscription-title = Welkom bij { $productName }
 downloadSubscription-content-2 = Laten we aan de slag gaan met alle functies die bij uw abonnement zijn inbegrepen:
 downloadSubscription-link-action-2 = Aan de slag
 fraudulentAccountDeletion-subject = Uw { -product-firefox-account } is verwijderd
+fraudulentAccountDeletion-subject-2 = Uw { -product-mozilla-account } is verwijderd
 fraudulentAccountDeletion-title = Uw account is verwijderd
 fraudulentAccountDeletion-content = Onlangs is er een { -product-firefox-account } aangemaakt en is een abonnement in rekening gebracht via dit e-mailadres. Zoals we bij alle nieuwe accounts doen, hebben we u gevraagd uw account te bevestigen door eerst dit e-mailadres te valideren.
+fraudulentAccountDeletion-content-part1-v2 = Onlangs is er een { -product-mozilla-account } aangemaakt en is een abonnement in rekening gebracht via dit e-mailadres. Zoals we bij alle nieuwe accounts doen, hebben we u gevraagd uw account te bevestigen door eerst dit e-mailadres te valideren.
 fraudulentAccountDeletion-content-2 = Op dit moment zien we dat de account nooit is bevestigd. Aangezien deze stap niet is voltooid, weten we niet zeker of dit een geautoriseerd abonnement was. Als gevolg hiervan is de { -product-firefox-account } die is geregistreerd op dit e-mailadres verwijderd, is uw abonnement opgezegd en zijn alle kosten terugbetaald.
+fraudulentAccountDeletion-content-part2-v2 = Op dit moment zien we dat de account nooit is bevestigd. Aangezien deze stap niet is voltooid, weten we niet zeker of dit een geautoriseerd abonnement was. Als gevolg hiervan is de { -product-mozilla-account } die is geregistreerd op dit e-mailadres verwijderd, is uw abonnement opgezegd en zijn alle kosten terugbetaald.
 fraudulentAccountDeletion-contact = Neem bij vragen contact op met ons <a data-l10n-name="mozillaSupportUrl">ondersteuningsteam</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -257,6 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nieuwe aanmelding bij { $clientName }
 newDeviceLogin-title-2 = Uw { -product-firefox-account } is gebruikt om aan te melden
+newDeviceLogin-title-3 = Uw { -product-mozilla-account } is gebruikt om aan te melden
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Was u dit niet? <a data-l10n-name="passwordChangeLink">Wijzig uw wachtwoord</a>.
@@ -267,10 +275,13 @@ newDeviceLogin-action = Account beheren
 passwordChanged-subject = Wachtwoord bijgewerkt
 passwordChanged-title = Wachtwoord met succes gewijzigd
 passwordChanged-description = Uw { -product-firefox-account }-wachtwoord is met succes op het volgende apparaat gewijzigd:
+passwordChanged-description-2 = Uw { -product-mozilla-account }-wachtwoord is met succes op het volgende apparaat gewijzigd:
 passwordChangeRequired-subject = Verdachte activiteit gedetecteerd
 passwordChangeRequired-title = Wachtwoordwijziging vereist
 passwordChangeRequired-suspicious-activity = We hebben verdacht gedrag in uw { -product-firefox-account } gedetecteerd. Om ongeoorloofde toegang tot uw { -product-firefox-account } te voorkomen, hebben we alle apparaten in uw account ontkoppeld en u dient uit voorzorg uw wachtwoord te wijzigen.
+passwordChangeRequired-suspicious-activity-2 = We hebben verdacht gedrag in uw { -product-mozilla-account } gedetecteerd. Om ongeoorloofde toegang tot uw { -product-mozilla-account } te voorkomen, hebben we alle apparaten in uw account ontkoppeld en u dient uit voorzorg uw wachtwoord te wijzigen.
 passwordChangeRequired-sign-in = Meld u opnieuw aan op een van de apparaten of services waar u uw { -product-firefox-account } gebruikt en volg de gepresenteerde stappen.
+passwordChangeRequired-sign-in-2 = Meld u opnieuw aan op een van de apparaten of services waar u uw { -product-mozilla-account } gebruikt en volg de gepresenteerde stappen.
 passwordChangeRequired-different-password = <b>Belangrijk:</b> kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
 passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
 passwordReset-subject = Wachtwoord bijgewerkt
@@ -296,9 +307,13 @@ postAddAccountRecovery-action = Account beheren
 postAddAccountRecovery-delete-key = Verwijder de nieuwe sleutel:
 postAddAccountRecovery-changd-password = Wijzig uw wachtwoord:
 postAddLinkedAccount-subject = Nieuwe account gekoppeld aan { -brand-firefox }
+postAddLinkedAccount-subject-2 = Nieuwe account gekoppeld aan uw { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Uw { $providerName }-account is gekoppeld aan uw { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Uw { $providerName }-account is gekoppeld aan uw { -product-mozilla-account }
 postAddLinkedAccount-action = Account beheren
 postAddTwoStepAuthentication-subject-2 = Authenticatie in twee stappen ingeschakeld
 postAddTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen ingeschakeld
@@ -311,6 +326,9 @@ postChangePrimary-title = Nieuw primair e-mailadres
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-firefox-account }, evenals voor het ontvangen van beveiligingsmeldingen
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-mozilla-account }, evenals voor het ontvangen van beveiligingsmeldingen
 postChangePrimary-action = Account beheren
 postConsumeRecoveryCode-title-2 = U hebt een reserve-authenticatiecode gebruikt
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -337,6 +355,9 @@ postRemoveSecondary-title = Secundair e-mailadres verwijderd
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = U hebt { $secondaryEmail } met succes als secundair e-mailadres van uw { -product-firefox-account } verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = U hebt { $secondaryEmail } met succes als secundair e-mailadres van uw { -product-mozilla-account } verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd.
 postRemoveSecondary-action = Account beheren
 postRemoveTwoStepAuthentication-subject-line-2 = Authenticatie in twee stappen is uitgeschakeld
 postRemoveTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen uitgeschakeld
@@ -349,6 +370,7 @@ postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
 postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
 postVerify-sub-description = (Psst… Het betekent ook dat u overal waar u bent aangemeld toegang hebt tot uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens.)
 postVerify-subject-3 = Welkom bij { -brand-firefox }!
+postVerify-subject-4 = Welkom bij { -brand-mozilla }!
 postVerify-setup-2 = Nog een apparaat koppelen:
 postVerify-action-2 = Een ander apparaat verbinden
 postVerifySecondary-subject = Secundair e-mailadres toegevoegd
@@ -356,12 +378,18 @@ postVerifySecondary-title = Secundair e-mailadres toegevoegd
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = U hebt { $secondaryEmail } met succes als secundair e-mailadres voor uw { -product-firefox-account } bevestigd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = U hebt { $secondaryEmail } met succes als secundair e-mailadres voor uw { -product-mozilla-account } bevestigd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd.
 postVerifySecondary-action = Account beheren
 recovery-subject = Herinitialiseer uw wachtwoord
 recovery-title-2 = Uw wachtwoord vergeten?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-firefox-account } van:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-mozilla-account } van:
 recovery-new-password-button = Maak een nieuw wachtwoord aan door op onderstaande knop te klikken. Deze koppeling verloopt binnen een uur.
 recovery-copy-paste = Maak een nieuw wachtwoord aan door de onderstaande URL te kopiëren en in uw browser te plakken. Deze koppeling verloopt binnen een uur.
 recovery-action = Nieuw wachtwoord aanmaken
@@ -374,6 +402,11 @@ subscriptionAccountDeletion-title = Jammer dat u vertrekt
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = U heeft onlangs uw { -product-firefox-account } verwijderd. Als gevolg hiervan hebben we uw { $productName }-abonnement opgezegd. Uw laatste betaling van { $invoiceTotal } is betaald op { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = U heeft onlangs uw { -product-mozilla-account } verwijderd. Als gevolg hiervan hebben we uw { $productName }-abonnement opgezegd. Uw laatste betaling van { $invoiceTotal } is betaald op { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Welkom bij { $productName }: stel uw wachtwoord in.
@@ -382,16 +415,20 @@ subscriptionAccountFinishSetup-subject = Welkom bij { $productName }: stel uw wa
 subscriptionAccountFinishSetup-title = Welkom bij { $productName }
 subscriptionAccountFinishSetup-content-processing = Uw betaling wordt verwerkt en wordt binnen vier werkdagen voltooid. Uw abonnement wordt elke factureringsperiode automatisch verlengd, tenzij u opzegt.
 subscriptionAccountFinishSetup-content-create-2 = Hierna maakt u een { -product-firefox-account }-wachtwoord aan om uw nieuwe abonnement te gaan gebruiken.
+subscriptionAccountFinishSetup-content-create-3 = Hierna maakt u een { -product-mozilla-account }-wachtwoord aan om uw nieuwe abonnement te gaan gebruiken.
 subscriptionAccountFinishSetup-action-2 = Beginnen
 subscriptionAccountReminderFirst-subject = Herinnering: voltooi het instellen van uw account
 subscriptionAccountReminderFirst-title = U hebt nog geen toegang tot uw abonnement
 subscriptionAccountReminderFirst-content-info-2 = Een paar dagen geleden hebt u een { -product-firefox-account } aangemaakt, maar deze nog niet bevestigd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
+subscriptionAccountReminderFirst-content-info-3 = Een paar dagen geleden hebt u een { -product-mozilla-account } aangemaakt, maar deze nog niet bevestigd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
 subscriptionAccountReminderFirst-content-select-2 = Selecteer ‘Wachtwoord aanmaken’ om een nieuw wachtwoord in te stellen en de bevestiging van uw account te voltooien.
 subscriptionAccountReminderFirst-action = Wachtwoord aanmaken
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Laatste herinnering: stel uw account in
 subscriptionAccountReminderSecond-title = Welkom bij { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Welkom bij { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Een paar dagen geleden hebt u een { -product-firefox-account } aangemaakt, maar deze nog niet bevestigd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
+subscriptionAccountReminderSecond-content-info-3 = Een paar dagen geleden hebt u een { -product-mozilla-account } aangemaakt, maar deze nog niet bevestigd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
 subscriptionAccountReminderSecond-content-select-2 = Selecteer ‘Wachtwoord aanmaken’ om een nieuw wachtwoord in te stellen en de bevestiging van uw account te voltooien.
 subscriptionAccountReminderSecond-action = Wachtwoord aanmaken
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -545,23 +582,31 @@ unblockCode-report = Zo nee, help ons dan indringers tegen te houden en <a data-
 unblockCode-report-plaintext = Zo nee, help ons dan indringers tegen te houden en meld het aan ons.
 verificationReminderFinal-subject = Laatste herinnering om uw account te bevestigen
 verificationReminderFinal-description = U hebt een paar weken geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Voor uw veiligheid zullen we de account verwijderen als deze niet binnen 24 uur is geverifieerd.
+verificationReminderFinal-description-2 = U hebt een paar weken geleden een { -product-mozilla-account } aangemaakt, maar deze nooit bevestigd. Voor uw veiligheid zullen we de account verwijderen als deze niet binnen 24 uur is geverifieerd.
 confirm-account = Account bevestigen
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Vergeet niet om uw account te bevestigen
 verificationReminderFirst-title-2 = Welkom bij { -brand-firefox }!
+verificationReminderFirst-title-3 = Welkom bij { -brand-mozilla }!
 verificationReminderFirst-description-2 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 15 dagen, anders wordt deze automatisch verwijderd.
+verificationReminderFirst-description-3 = U hebt een paar dagen geleden een { -product-mozilla-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 15 dagen, anders wordt deze automatisch verwijderd.
 verificationReminderFirst-sub-description-3 = Mis de browser die u en uw privacy op de eerste plaats zet niet.
 confirm-email-2 = Account bevestigen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account bevestigen
 verificationReminderSecond-subject-2 = Vergeet niet om uw account te bevestigen
 verificationReminderSecond-title-2 = Mis niets van { -brand-firefox }!
+verificationReminderSecond-title-3 = Mis niets van { -brand-mozilla }!
 verificationReminderSecond-description-3 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account in de komende 10 dagen, anders wordt deze automatisch verwijderd.
+verificationReminderSecond-description-4 = U hebt een paar dagen geleden een { -product-mozilla-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 10 dagen, anders wordt deze automatisch verwijderd.
 verificationReminderSecond-second-description = Met uw { -product-firefox-account } kunt u uw gegevens tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Met uw { -product-mozilla-account } kunt u uw gegevens tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Maak deel uit van onze missie om het internet om te vormen tot een plek die openstaat voor iedereen.
 verificationReminderSecond-action-2 = Account bevestigen
 verify-title-2 = Open het internet met { -brand-firefox }
+verify-title-3 = Open het internet met { -brand-mozilla }
 verify-description = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
+verify-description-2 = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-mozilla }, te beginnen met:
 verify-subject = Aanmaken van uw account voltooien
 verify-action-2 = Account bevestigen
 # Variables:
@@ -592,13 +637,19 @@ verifySecondaryCode-action-2 = E-mailadres bevestigen
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Gebruik deze bevestigingscode:
 verifySecondaryCode-expiry-notice-2 = Deze verloopt over 5 minuten. Na bevestiging ontvangt dit adres beveiligingsmeldingen en bevestigingen.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bevestig uw account
 verifyShortCode-title-2 = Open het internet met { -brand-firefox }
+verifyShortCode-title-3 = Open het internet met { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-mozilla }, te beginnen met:
 verifyShortCode-prompt-3 = Gebruik deze bevestigingscode:
 verifyShortCode-expiry-notice = Deze verloopt over vijf minuten.
