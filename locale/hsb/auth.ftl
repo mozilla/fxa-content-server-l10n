@@ -281,7 +281,9 @@ passwordChanged-description-2 = Hesło wašeho { -product-mozilla-account(case: 
 passwordChangeRequired-subject = Podhladna aktiwita wotkryta
 passwordChangeRequired-title = Změnjenje hesła trěbne
 passwordChangeRequired-suspicious-activity = Smy podhladne zadźerženje na wašim konće { -product-firefox-account } zwěsćili. Zo bychmy njeawtorizowanemu přistupej k wašemu kontu { -product-firefox-account } zadźěwali, smy wšě graty we wašim konće dźělili a namołwjamy was, waše hesło wěstoty dla změnić.
+passwordChangeRequired-suspicious-activity-2 = Smy podhladne zadźerženje na wašim { -product-mozilla-account(case: "loc", capitalization: "lower") } zwěsćili. Zo bychmy njeawtorizowanemu přistupej k wašemu { -product-mozilla-account(case: "dat", capitalization: "lower") } zadźěwali, smy wšě graty we wašim konće dźělili a namołwjamy was, waše hesło wěstoty dla změnić.
 passwordChangeRequired-sign-in = Přizjewće so zaso pola grata abo słužby, hdźež swoje konto { -product-firefox-account } wužiwaće a sćěhujće kroćele, kotrež so wam pokazuja.
+passwordChangeRequired-sign-in-2 = Přizjewće so zaso pola grata abo słužby, hdźež swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } wužiwaće a sćěhujće kroćele, kotrež so wam pokazuja.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
 passwordReset-subject = Hesło je so zaktualizowało
@@ -307,9 +309,13 @@ postAddAccountRecovery-action = Konto rjadować
 postAddAccountRecovery-delete-key = Zhašejće nowy kluč:
 postAddAccountRecovery-changd-password = Změńće swoje hesło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
+postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Waše konto { $providerName } je so z wašim { -product-firefox-account } zwjazało.
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Waše konto { $providerName } je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało.
 postAddLinkedAccount-action = Konto rjadować
 postAddTwoStepAuthentication-subject-2 = Dwukročelowa awtentifikacija zmóžnjena
 postAddTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju zmóžnił
@@ -322,6 +328,9 @@ postChangePrimary-title = Nowa primarna e-mejlowa adresa
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta { -product-firefox-account } a zo byšće wěstotne powěsće a přizjewjenske
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } a zo byšće wěstotne powěsće a přizjewjenske
 postChangePrimary-action = Konto rjadować
 postConsumeRecoveryCode-title-2 = Sće kod za zawěsćensku awtentifikaciju wužił
 # After the colon, there is description of the device that the backup authentication code was used on
