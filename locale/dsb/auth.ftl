@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Pla { -product-firefox-accounts } pśizjawiś?
+session-verify-send-push-title-2 = Pla { -product-mozilla-account(case: "gen") } pśizjawiś?
 session-verify-send-push-body-2 = Klikniśo how, aby wobkšuśił, až ty to sy
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Klikniśo how, aby wobkšuśił, až ty to sy
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizěrowane rědy">
 body-devices-image = <img data-l10n-name="devices-image" alt="Rědy">
 fxa-privacy-url = Pšawidła priwatnosći { -brand-mozilla }
+moz-accounts-privacy-url = Pšawidła priwatnosći { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
+moz-accounts-terms-url = Słužbne wuměnjenja { -product-mozilla-accounts(case: "gen", capitalization: "lowercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 subplat-privacy-notice = Powěźeńka priwatnosći
@@ -24,10 +29,20 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a wy sćo za { $productName } zregistrěrowany.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a wy sćo za { $productName } zregistrěrowany.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-explainer-multiple = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a sćo aboněrował někotare produkty.
+subplat-explainer-multiple-2 = Dostawaśo toś tu mejlku, dokulaž { $email } ma { -product-mozilla-account(case: "acc", capitalization: "lower") } a sćo aboněrował někotare produkty.
 subplat-explainer-was-deleted = Dostawaśo toś tu mejlku, dokulaž { $email } jo se zregistrěrowała za konto { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Dostawaśo toś tu mejlku, dokulaž { $email } jo se zregistrěrowała za  { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-manage-account = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby swóje nastajenja { -product-firefox-account } zastojał.
+subplat-manage-account-2 = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby nastajenja swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } zastojał.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Woglědajśo se k swójomu kontowemu bokoju, aby swóje nastajenja { -product-firefox-account } zastojał: { $accountSettingsUrl }
@@ -201,7 +216,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji pśecej dwa šłušatej
 cadReminderFirst-description-1 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wzejśo swóje cytańske znamjenja, gronidła a druge daty wšuźi sobu, źož { -brand-firefox } wužywaśo. Jo, ako by była magija we wašom konśe { -brand-firefox }!
-cadReminderFirst-description-2 = Synchronizacija jano jadnu sekundu trajo.
 cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
@@ -244,8 +258,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Wašo konto { -product-firefox-account } jo se wužyło za pśizjeajenje
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -262,8 +274,6 @@ passwordChangeRequired-title = Změnjanje gronidła trěbne
 passwordChangeRequired-suspicious-activity = Smy zwěsćili suspektne zaźaržanje na wašom konśe { -product-firefox-account }. Aby my njeawtorizěrowanemu pśistupoju k wašomu kontu { -product-firefox-account } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
 passwordChangeRequired-sign-in = Pśizjawśo se zasej pla rěda abo słužby, źož swójo konto { -product-firefox-account } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
-passwordChangeRequired-signoff = Z pśijaśelnym póstrowom,
-passwordChangeRequired-signoff-name = Team { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
