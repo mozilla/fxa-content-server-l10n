@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cydweddu dyfeisiau">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dyfeisiau">
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
-moz-accounts-privacy-url = Polisi Preifatrwydd { -product-mozilla-accounts(cyfalafu: "mawr") }
+moz-accounts-privacy-url = Polisi Preifatrwydd { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
-moz-accounts-terms-url = Amodau Gwasanaeth { -product-mozilla-accounts(cyfalafu: "mawr") }
+moz-accounts-terms-url = Amodau Gwasanaeth { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
@@ -30,7 +30,7 @@ subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-mozilla-account } ac rydych wedi cofrestru ar gyfer { $productName }.
+subplat-explainer-specific-2 = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-mozilla-account } ac rydych wedi cofrestru ar gyfer { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }x
@@ -219,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Mae'n cymryd dau i gydweddu
 cadReminderFirst-description-1 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }. Mae'n rhan o hudoliaeth eich cyfrif { -brand-firefox }!
-cadReminderFirst-description-v2 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }.
+cadReminderFirst-description-v2 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cewch eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }.
 cadReminderSecond-subject-2 = Peidiwch â cholli allan! Gadewch i ni orffen eich gosodiad cydweddu
 cadReminderSecond-action = Cydweddu dyfais arall
 cadReminderSecond-title-2 = Peidiwch ag anghofio cydweddu!
@@ -239,7 +239,7 @@ fraudulentAccountDeletion-title = Cafodd eich cyfrif ei ddileu
 fraudulentAccountDeletion-content = Yn ddiweddar, crëwyd { -product-firefox-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, gofynnom i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
 fraudulentAccountDeletion-content-part1-v2 = Yn ddiweddar, crëwyd cyfrif { -product-mozilla-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, rydym wedi gofyn i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
 fraudulentAccountDeletion-content-2 = Ar hyn o bryd, rydym yn gweld na chadarnhawyd y cyfrif erioed. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y { -product-firefox-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddileu a chafodd yr holl daliadau eu had-dalu.
-fraudulentAccountDeletion-content-part2-v2 = Ar hyn o bryd, rydym yn gweld na chafodd y cyfrif byth ei gadarnhau. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y cyfrif { -product-mozilla-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddiddymu a chafodd yr holl daliadau eu had-dalu.
+fraudulentAccountDeletion-content-part2-v2 = Ar hyn o bryd, rydym yn gweld na chafodd y cyfrif byth ei chadarnhau. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad go-iawn. O ganlyniad, cafodd y cyfrif { -product-mozilla-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddiddymu a chafodd yr holl daliadau eu had-dalu.
 fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -436,7 +436,7 @@ subscriptionAccountReminderSecond-subject = Nodyn atgoffa terfynol: Crëwch eich
 subscriptionAccountReminderSecond-title = Croeso i { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Croeso i { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif { -product-firefox-account } ond heb  ei gadarnhau. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd.
-subscriptionAccountReminderSecond-content-info-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-mozilla-account } ond ni wnaethoch chi ei gadarnhau erioed. Gobeithiwn y byddwch yn gorffen sefydlu'ch cyfrif, fel y gallwch ddefnyddio'ch tanysgrifiad newydd.
+subscriptionAccountReminderSecond-content-info-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif { -product-mozilla-account } ond wnaethoch chi ddim ei gadarnhau. Rydym yn gobeithio y byddwch yn gorffen cwblhau'ch cyfrif, fel y gallwch ddefnyddio'ch tanysgrifiad newydd.
 subscriptionAccountReminderSecond-content-select-2 = Dewiswch “Creu Cyfrinair” i osod cyfrinair newydd a gorffen cadarnhau eich cyfrif.
 subscriptionAccountReminderSecond-action = Crëwch Gyfrinair
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -590,14 +590,14 @@ unblockCode-report = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a data-l10n
 unblockCode-report-plaintext = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni.
 verificationReminderFinal-subject = Atgoffwr terfynol i gadarnhau eich cyfrif
 verificationReminderFinal-description = Ychydig wythnosau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Er eich diogelwch, byddwn yn dileu'r cyfrif os na chaiff ei ddilysu yn ystod y 24 awr nesaf.
-verificationReminderFinal-description-2 = Ychydig wythnosau yn ôl fe wnaethoch chi greu { -product-mozilla-account }, ond ni chadarnhawyd erioed. Er eich diogelwch, byddwn yn dileu'r cyfrif os na chaiff ei ddilysu yn ystod y 24 awr nesaf.
+verificationReminderFinal-description-2 = Ychydig wythnosau yn ôl fe wnaethoch chi greu cyfrif { -product-mozilla-account }, ond heb ei chadarnhawyd. Er eich diogelwch, byddwn yn dileu'r cyfrif os na fydd yn cael ei ddilysu yn ystod y 24 awr nesaf.
 confirm-account = Cadarnhewch eich cyfrif
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Cofiwch gadarnhau eich cyfrif
 verificationReminderFirst-title-2 = Croeso i { -brand-firefox }!
 verificationReminderFirst-title-3 = Croeso i { -brand-mozilla }!
 verificationReminderFirst-description-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
-verificationReminderFirst-description-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-mozilla-account }, ond ni chadarnhawyd ef erioed. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
+verificationReminderFirst-description-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-mozilla-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu'n awtomatig.
 verificationReminderFirst-sub-description-3 = Peidiwch â cholli allan ar y porwr sy'n eich rhoi chi a'ch preifatrwydd yn gyntaf.
 confirm-email-2 = Cadarnhewch eich cyfrif
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -606,9 +606,9 @@ verificationReminderSecond-subject-2 = Cofiwch gadarnhau eich cyfrif
 verificationReminderSecond-title-2 = Peidiwch â cholli allan ar { -brand-firefox }!
 verificationReminderSecond-title-3 = Peidiwch â cholli allan ar { -brand-mozilla }!
 verificationReminderSecond-description-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
-verificationReminderSecond-description-4 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-mozilla-account }, ond ni chadarnhawyd ef erioed. Cadarnhewch eich cyfrif o fewn y 10 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
+verificationReminderSecond-description-4 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif { -product-mozilla-account }, ond heb ei chadarnhau. Cadarnhewch eich cyfrif o fewn y 10 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
 verificationReminderSecond-second-description = Mae eich cyfrif  { -product-firefox-account } yn gadael i chi gydweddu'ch manylion ar draws dyfeisiau ac yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
-verificationReminderSecond-second-description-2 = Mae eich { -product-mozilla-account } yn gadael i chi gysoni eich gwybodaeth ar draws dyfeisiau ac yn datgloi mynediad i fwy o gynhyrchion sy'n diogelu preifatrwydd o { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Mae eich cyfrif { -product-mozilla-account } yn caniatáu i chi gydweddu eich manylion ar draws dyfeisiau ac yn datgloi mynediad i ragor o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Byddwch yn rhan o’n cenhadaeth i drawsnewid y rhyngrwyd yn lle sy’n agored i bawb.
 verificationReminderSecond-action-2 = Cadarnhewch eich cyfrif
 verify-title-2 = Agorwch y rhyngrwyd gyda { -brand-firefox }
@@ -647,7 +647,7 @@ verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer-2 = Mae cais i ddefnyddio { $email } fel cyfeiriad e-bost eilaidd wedi'i wneud o'r { -product-mozilla-account } canlynol:
+verifySecondaryCode-explainer-2 = Mae cais i ddefnyddio { $email } fel cyfeiriad ail e-bost wedi'i wneud o'r cyfrif { -product-mozilla-account } canlynol:
 verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
 verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
 # Variables:
