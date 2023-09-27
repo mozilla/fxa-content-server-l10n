@@ -610,7 +610,7 @@ verificationReminderSecond-action-2 = Potrdi račun
 verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
 verify-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 verify-description = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
-verify-description-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla } povsod, kjer se prijavite, začnite z:
+verify-description-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla(sklon: "tozilnik") } na vseh napravah, začenši z:
 verify-subject = Dokončajte ustvarjanje računa
 verify-action-2 = Potrdi račun
 # Variables:
@@ -654,6 +654,6 @@ verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") 
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla } povsod, kjer se prijavite, začnite z:
+verifyShortCode-title-subtext-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla(sklon: "tozilnik") } na vseh napravah, začenši z:
 verifyShortCode-prompt-3 = Uporabite to potrditveno kodo:
 verifyShortCode-expiry-notice = Poteče čez 5 minut.
