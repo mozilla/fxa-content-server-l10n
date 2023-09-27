@@ -391,6 +391,9 @@ recovery-title-2 = Sćo swójo gronidło zabył?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Smy dostali pšosbu wó změnjanje gronidła za wašo konto { -product-firefox-account }:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 recovery-new-password-button = Klikniśo na slědujuce tłocašk, aby nowe gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.
 recovery-copy-paste = Kopěrujśo slědujucy URL do swójogo wobglědowaka, aby gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.
 recovery-action = Nowe gronidło napóraś
@@ -403,6 +406,11 @@ subscriptionAccountDeletion-title = Škóda, až wótejźośo
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Sćo njedawno wukašował swójo konto { -product-firefox-account }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Sćo njedawno wulašował swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witajśo k { $productName }: Nastajśo pšosym swójo gronidło.
@@ -411,16 +419,20 @@ subscriptionAccountFinishSetup-subject = Witajśo k { $productName }: Nastajśo 
 subscriptionAccountFinishSetup-title = Witajśo k { $productName }
 subscriptionAccountFinishSetup-content-processing = Wašo płaśenje se pśeźěłujo a móžo až do styri wšednych dnjow traś. Waš abonement se w kuždem wótliceńskem casu awtomatiski pódlejšujo, snaźkuli wupowěźejośo.
 subscriptionAccountFinishSetup-content-create-2 = Ako pśiducee gronidło konta { -product-firefox-account } napórajośo, aby zachopił swój nowy abonement wužywaś.
+subscriptionAccountFinishSetup-content-create-3 = Ako pśiduce gronidło { -product-mozilla-account(case: "gen", capitalization: "lower") } napórajośo, aby zachopił swój nowy abonement wužywaś.
 subscriptionAccountFinishSetup-action-2 = Prědne kšace
 subscriptionAccountReminderFirst-subject = Dopominanje: Dokóńcćo konfigurěrowanje swójogo konta
 subscriptionAccountReminderFirst-title = Hysći njamaśo pśistup k swójomu abonementoju
 subscriptionAccountReminderFirst-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
+subscriptionAccountReminderFirst-content-info-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderFirst-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderFirst-action = Gronidło napóraś
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Slědne dopominanje: Konfigurěrujśo swójo konto
 subscriptionAccountReminderSecond-title = Witajśo k { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Witajśo k { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
+subscriptionAccountReminderSecond-content-info-3 = Pśed někotarymi dnjami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
 subscriptionAccountReminderSecond-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderSecond-action = Gronidło napóraś
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -574,10 +586,12 @@ unblockCode-report = Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a data
 unblockCode-report-plaintext = Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći.
 verificationReminderFinal-subject = Slědne dopomnjeśe: Wobkšuśćo swójo konto
 verificationReminderFinal-description = Pśed někotarymi njeźelami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Za wašu wěstotu wulašujomy konto, jolic se za pśiduce 24 góźin njewobkšuśijo.
+verificationReminderFinal-description-2 = Pśed někotarymi njeźelami sćo załožył { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale njejsćo jo wobkšuśił. Za wašu wěstotu wulašujomy konto, jolic se za pśiduce 24 góźin njewobkšuśijo.
 confirm-account = Konto wobkšuśiś
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderFirst-title-2 = Witajśo k { -brand-firefox }!
+verificationReminderFirst-title-3 = Witajśo k { -brand-mozilla }!
 verificationReminderFirst-description-2 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 15 dnjow abo konto se awtomatiski wulašujo.
 verificationReminderFirst-sub-description-3 = Njeskomuźćo wobglědowak, za kótaryž wy a waša priwatnosć na prědne městno stajatej.
 confirm-email-2 = Konto wobkšuśiś
