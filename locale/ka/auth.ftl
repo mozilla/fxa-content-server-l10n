@@ -600,10 +600,13 @@ verificationReminderSecond-title-3 = არ გამოგრჩეთ { -brand
 verificationReminderSecond-description-3 = რამდენიმე დღის წინ შექმენით { -product-firefox-account }, მაგრამ ჯერ არ დაგიდასტურებიათ. გთხოვთ დაამოწმოთ მომდევნო 10 დღეში, თუ არადა ავტომატურად წაიშლება.
 verificationReminderSecond-description-4 = რამდენიმე დღის წინ შექმენით { -product-mozilla-account }, მაგრამ ჯერ არ დაგიმოწმებიათ. გთხოვთ დაადასტუროთ მომდევნო 10 დღეში, თუ არადა ავტომატურად წაიშლება.
 verificationReminderSecond-second-description = თქვენი { -product-firefox-account } საშუალებას გაძლევთ, დაასინქრონოთ მონაცემები მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
+verificationReminderSecond-second-description-2 = თქვენი { -product-mozilla-account } საშუალებას გაძლევთ, დაასინქრონოთ მონაცემები მოწყობილობებს შორის და წვდომა მიიღოთ პირადულობის უზრუნველმყოფ მეტ პროდუქტზე { -brand-mozilla }-ისგან.
 verificationReminderSecond-sub-description-2 = გახდით ჩვენი მიზნის მონაწილე, რომ ვაქციოთ ინტერნეტი საყოველთაოდ ღია და თავისუფალი.
 verificationReminderSecond-action-2 = ანგარიშის დადასტურება
 verify-title-2 = შეაღეთ ინტერნეტის კარი { -brand-firefox }-ით
+verify-title-3 = შეაღეთ ინტერნეტის კარი { -brand-mozilla }-თი
 verify-description = დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ { -brand-firefox }-ის შესაძლებლობებით:
+verify-description-2 = დაამოწმეთ თქვენი ანგარიში, რომ სრულყოფილად გამოიყენოთ { -brand-mozilla }-ს შესაძლებლობები ყველგან:
 verify-subject = დაასრულეთ ანგარიშის შექმნა
 verify-action-2 = ანგარიშის დადასტურება
 # Variables:
@@ -634,13 +637,19 @@ verifySecondaryCode-action-2 = ელფოსტის დადასტურ
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = მოთხოვნის წყარო, რომ { $email } მიეთითოს დამატებით ელფოსტად, არის შემდეგი { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = მოთხოვნის წყარო, რომ { $email } მიეთითოს დამატებით ელფოსტად, არის მოცემული { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = გამოიყენეთ დამადასტურებელი კოდი:
 verifySecondaryCode-expiry-notice-2 = ვადა გაუვა 5 წუთში. დამოწმების შემდეგ ამ მისამართზე მიიღებთ უსაფრთხოებისა და დადასტურების შეტყობინებებს.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = დაადასტურეთ თქვენი ანგარიში
 verifyShortCode-title-2 = შეაღეთ ინტერნეტის კარი { -brand-firefox }-ით
+verifyShortCode-title-3 = შეაღეთ ინტერნეტის კარი { -brand-mozilla }-თი
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = დაადასტურეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ { -brand-firefox }-ის შესაძლებლობებით:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = დაამოწმეთ თქვენი ანგარიში, რომ სრულყოფილად გამოიყენოთ { -brand-mozilla }-ს შესაძლებლობები ყველგან:
 verifyShortCode-prompt-3 = გამოიყენეთ დამადასტურებელი კოდი:
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.
