@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Il es necessari duos pro synchronisar
 cadReminderFirst-description-1 = Mantene tu schedas in tote tu apparatos. Porta tu marcapaginas, contrasignos e altere datos ubicunque tu usa { -brand-firefox }. Como per magia in tu conto { -brand-firefox }!
+cadReminderFirst-description-v2 = Apporta tu schedas sur tote tu apparatos. Obtene marcapaginas, contrasignos e altere datos ubique tu usa { -brand-firefox }.
 cadReminderSecond-subject-2 = Non perde lo! Que nos fini le installation de tu synchronisation
 cadReminderSecond-action = Synchronisar un altere apparato
 cadReminderSecond-title-2 = Non oblidar de synchronisar!
@@ -586,19 +587,26 @@ confirm-account = Confirmar conto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Rememora pro confirmar tu conto
 verificationReminderFirst-title-2 = Benvenite a { -brand-firefox }!
+verificationReminderFirst-title-3 = Benvenite a { -brand-mozilla }!
 verificationReminderFirst-description-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
+verificationReminderFirst-description-3 = Alcun dies retro tu ha creava un { -product-mozilla-account }, ma jammais lo confirmava. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
 verificationReminderFirst-sub-description-3 = Non perde te le navigator que primo antepone te e tu confidentialitate.
 confirm-email-2 = Confirmar conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conto
 verificationReminderSecond-subject-2 = Rememora de confirmar tu conto
 verificationReminderSecond-title-2 = Non te lassa escappar { -brand-firefox }!
+verificationReminderSecond-title-3 = Non te lassa escappar { -brand-mozilla }!
 verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 10 dies o illo sera automaticamente delite.
+verificationReminderSecond-description-4 = Alcun dies retro tu creava un { -product-mozilla-account }, ma jammais lo confirmava. Confirma tu conto in le proxime 10 dies o illo sera automaticamente delite.
 verificationReminderSecond-second-description = Tu { -product-firefox-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a plus productos de protection del confidentialitate de { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = Tu { -product-mozilla-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Contribue a nostre mission pro transformar internet in un placia aperte pro totes.
 verificationReminderSecond-action-2 = Confirmar conto
 verify-title-2 = Aperi internet con { -brand-firefox }
+verify-title-3 = Aperi internet con { -brand-mozilla }
 verify-description = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
+verify-description-2 = Confirma tu conto e tira le maximo de { -brand-mozilla } ubicunque tu aperi session, a comenciar per:
 verify-subject = Termina le creation de tu conto
 verify-action-2 = Confirmar conto
 # Variables:
@@ -629,13 +637,19 @@ verifySecondaryCode-action-2 = Confirmar email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Usa iste codice de confirmation:
 verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirmate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirma tu conto
 verifyShortCode-title-2 = Aperi internet con { -brand-firefox }
+verifyShortCode-title-3 = Aperi internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirma tu conto e tira le maximo de { -brand-mozilla } ubicunque tu aperi session, a comenciar per:
 verifyShortCode-prompt-3 = Usa iste codice de confirmation:
 verifyShortCode-expiry-notice = Illo expira in 5 minutas.
