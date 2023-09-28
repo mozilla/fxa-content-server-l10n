@@ -11,7 +11,9 @@ fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Логотип { -
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
+moz-accounts-privacy-url = Політика приватності { -product-mozilla-accounts(case: "gen") }
 fxa-service-url = Умови користування { -product-firefox-cloud }
+moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
@@ -201,7 +203,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для синхронізації потрібно два пристрої
 cadReminderFirst-description-1 = Отримайте доступ до своїх вкладок на всіх пристроях. Користуйтеся своїми закладками, паролями та іншими даними всюди, де ви користуєтеся { -brand-firefox }. Ця магія працює завдяки обліковому запису { -brand-firefox }.
-cadReminderFirst-description-2 = Синхронізація відбувається миттєво
 cadReminderSecond-subject-2 = Не пропустіть! Завершімо налаштування синхронізації
 cadReminderSecond-action = Синхронізувати інший пристрій
 cadReminderSecond-title-2 = Не забудьте про синхронізацію!
@@ -243,8 +244,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новий вхід у { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } було використано для входу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -261,8 +260,6 @@ passwordChangeRequired-title = Необхідно змінити пароль
 passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account(case: "loc", capitalization: "lower") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-firefox-account(case: "gen", capitalization: "lower") } ми від'єднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
 passwordChangeRequired-sign-in = Увійдіть знову на будь-якому пристрої або до служби, де ви користуєтеся своїм { -product-firefox-account(case: "gen", capitalization: "lower") }, і виконайте запропоновані вказівки.
 passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
-passwordChangeRequired-signoff = Всього найкращого,
-passwordChangeRequired-signoff-name = Команда { -product-firefox-accounts(case: "gen", capitalization: "lower") }
 passwordChangeRequired-different-password-plaintext = Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
@@ -522,7 +519,6 @@ subscriptionUpgrade-upgrade-info = Ви успішно перейшли з { $pr
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Починаючи з вашого наступного рахунку, сума платежу зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }. У той самий час з вас також буде стягнуто одноразовий платіж розміром { $paymentProrated } для покриття вищої вартості залишку цього { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = З вас буде стягнено одноразову комісію в розмірі { $paymentProrated }, щоб показати вищу ціну вашої передплати на решту { $productPaymentCycleOld }. Починаючи з наступної сплати рахунку, ваша плата зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
