@@ -59,10 +59,12 @@ input-error-is-required = { $label } აუცილებელია
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-ლოგო
+brand-name-mozilla-logo = { -brand-mozilla }-ლოგო
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
+new-user-sign-in-link-2 = უკვე გაქვთ { -product-mozilla-account }? <a>შესვლა</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = თქვენი გეგმა თავისი
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. შექმენით { -brand-name-firefox }-ანგარიში
+new-user-step-1-2 = 1. შექმენით { -product-mozilla-account }
 new-user-card-title = შეიყვანეთ თქვენი ბარათის ინფორმაცია
 new-user-submit = გამოწერა ახლავე
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = გადახედეთ თქვენს ცვლილებას
 sub-change-failed = გეგმის ცვლილება ვერ მოხერხდა
-sub-update-copy =
-    თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ შესწორებული
-    ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
-    კი ჩამოგეჭრებათ სრული ოდენობა.
 sub-update-acknowledgment =
     თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ სათანადო წილის
     ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
