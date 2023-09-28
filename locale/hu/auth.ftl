@@ -13,9 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Eszközök szinkronizálása">
 body-devices-image = <img data-l10n-name="devices-image" alt="Eszközök">
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
-moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Adatvédelmi irányelvek
+moz-accounts-privacy-url = { -product-mozilla-accounts } adatvédelmi irányelvei
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
-moz-accounts-terms-url = { -product-mozilla-accounts } Szolgáltatási feltételek
+moz-accounts-terms-url = { -product-mozilla-accounts } szolgáltatási feltételei
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logó">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logó">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logó">
@@ -219,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A szinkronizáláshoz két fél szükséges
 cadReminderFirst-description-1 = Vigye át lapjait az eszközei között. Mindenhol elérheti könyvjelzőit, jelszavait és egyéb adatait, ahol a { -brand-firefox(case: "accusative") } használja. Mintha varázslat lenne a { -brand-firefox }-fiókjában.
-cadReminderFirst-description-v2 = Vigye át lapjait az összes eszközén. Vigye magával a könyvjelzőit, jelszavait és egyéb adatait mindenhol, ahol a { -brand-firefox }ot használja.
+cadReminderFirst-description-v2 = Vigye át lapjait az összes eszköze között. Vigye magával a könyvjelzőit, jelszavait és egyéb adatait mindenhová, ahol a { -brand-firefox }ot használja.
 cadReminderSecond-subject-2 = Ne maradjon ki! Fejezze be a szinkronizálás beállítását.
 cadReminderSecond-action = Másik eszköz szinkronizálása
 cadReminderSecond-title-2 = Ne felejtsen el szinkronizálni!
@@ -234,12 +234,12 @@ downloadSubscription-title = Üdvözli a { $productName }
 downloadSubscription-content-2 = Kezdjük el használni az előfizetésében szereplő összes szolgáltatást:
 downloadSubscription-link-action-2 = Kezdő lépések
 fraudulentAccountDeletion-subject = A { -product-firefox-account }ja törölve lett
-fraudulentAccountDeletion-subject-2 = A { -product-mozilla-account }ját törölték
+fraudulentAccountDeletion-subject-2 = A { -product-mozilla-account }ja törölve lett
 fraudulentAccountDeletion-title = Fiókját törölték
 fraudulentAccountDeletion-content = A közelmúltban egy { -product-firefox-account } jött létre, és az előfizetést ezzel az e-mail-címmel fizették ki. Mint minden új fióknál, megkértük, hogy erősítse meg fiókját az e-mail-cím ellenőrzésével.
-fraudulentAccountDeletion-content-part1-v2 = A közelmúltban egy { -product-mozilla-account } jött létre, és az előfizetést kiszámlázták ezzel az e-mail-címmel. Mint minden új fióknál, most is megkértük, hogy erősítse meg fiókját ezen e-mail-cím ellenőrzésével.
+fraudulentAccountDeletion-content-part1-v2 = A közelmúltban egy { -product-mozilla-account } jött létre, és az előfizetést ezzel az e-mail-címmel fizették ki. Mint minden új fióknál, megkértük, hogy erősítse meg fiókját az e-mail-cím ellenőrzésével.
 fraudulentAccountDeletion-content-2 = Jelenleg azt látjuk, hogy a fiókot sosem erősítették meg. Mivel ez a lépés nem fejeződött be, így nem vagyunk biztosak abban, hogy ez egy engedélyezett előfizetés volt-e. Ennek eredményeként az e-mail-címre regisztrált { -product-firefox-account } törölve lett, az előfizetését pedig az összes költség visszatérítése mellett töröltük.
-fraudulentAccountDeletion-content-part2-v2 = Jelenleg azt látjuk, hogy a fiókot nem erősítették meg. Mivel ez a lépés nem fejeződött be, nem vagyunk biztosak abban, hogy ez egy engedélyezett előfizetés volt-e. Ennek eredményeként az erre az e-mail címre regisztrált { -product-mozilla-account } törölve lett, az előfizetését pedig minden költség visszatérítettük.
+fraudulentAccountDeletion-content-part2-v2 = Jelenleg azt látjuk, hogy a fiókot sosem erősítették meg. Mivel ez a lépés nem fejeződött be, így nem vagyunk biztosak abban, hogy ez egy engedélyezett előfizetés volt-e. Ennek eredményeként az e-mail-címre regisztrált { -product-mozilla-account } törölve lett, az előfizetését pedig az összes költség visszatérítése mellett töröltük.
 fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-name="mozillaSupportUrl">támogatási csapatunkhoz</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -264,7 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
 newDeviceLogin-title-2 = Bejelentkeztek a { -product-firefox-account }jával
-newDeviceLogin-title-3 = Az Ön { -product-mozilla-account }ját a bejelentkezéshez használták
+newDeviceLogin-title-3 = Bejelentkeztek a { -product-mozilla-account }jával
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Nem Ön volt? <a data-l10n-name="passwordChangeLink">Változtassa meg a jelszavát</a>.
@@ -275,11 +275,11 @@ newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
 passwordChanged-description = A { -product-firefox-account }ja jelszavát sikeresen megváltoztatva erről az eszközről:
-passwordChanged-description-2 = A { -product-mozilla-account }ja jelszavát sikeresen megváltoztatva erről az eszközről:
+passwordChanged-description-2 = A { -product-mozilla-account }jának jelszava sikeresen megváltoztatva erről az eszközről:
 passwordChangeRequired-subject = Gyanús tevékenység észlelve
 passwordChangeRequired-title = Jelszómódosítás szükséges
 passwordChangeRequired-suspicious-activity = Gyanús viselkedést észleltünk a { -product-firefox-account }jában. A { -product-firefox-account }jához való jogosulatlan hozzáférés megakadályozása érdekében leválasztottuk a fiókja összes eszközét, és elővigyázatosságként arra kérjük, hogy módosítsa a jelszavát.
-passwordChangeRequired-suspicious-activity-2 = Gyanús viselkedést észleltünk a { -product-mozilla-account }jában. A { -product-mozilla-account }jához való jogosulatlan hozzáférés megakadályozása érdekében leválasztottuk a fiókjához tartozó összes eszközt, és elővigyázatosságból módosítania kell a jelszavát.
+passwordChangeRequired-suspicious-activity-2 = Gyanús viselkedést észleltünk a { -product-mozilla-account }jában. A { -product-mozilla-account }jához való jogosulatlan hozzáférés megakadályozása érdekében leválasztottuk a fiókja összes eszközét, és elővigyázatosságként arra kérjük, hogy módosítsa a jelszavát.
 passwordChangeRequired-sign-in = Jelentkezzen újra be bármelyik eszközbe vagy szolgáltatásba, ahol a { -product-firefox-account }ját használja, és kövesse a bemutatott lépéseket.
 passwordChangeRequired-sign-in-2 = Jelentkezzen újra be bármelyik eszközbe vagy szolgáltatásba, ahol a { -product-mozilla-account }ját használja, és kövesse a bemutatott lépéseket.
 passwordChangeRequired-different-password = <b>Fontos:</b> Válasszon egy másik jelszót, mint amit korábban használt, és ellenőrizze, hogy az eltér-e az e-mail-címétől.
@@ -328,7 +328,7 @@ postChangePrimary-title = Új elsődleges e-mail cím
 postChangePrimary-description = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-firefox-account }ba bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description-2 = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-mozilla-account }ba bejelentkezéshez, valamint a biztonsági értesítések és a bejelentkezési visszaigazolások fogadásához.
+postChangePrimary-description-2 = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-mozilla-account }ba való bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
 postConsumeRecoveryCode-title-2 = Egy tartalék hitelesítési kódot használt
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -357,7 +357,7 @@ postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-description = Sikeresen eltávolította a következő másodlagos e-mail címet a { -product-firefox-account }jából: { $secondaryEmail }. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a címre.
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = Sikeresen eltávolította a(z) { $secondaryEmail } másodlagos e-mail címet a { -product-mozilla-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a címre.
+postRemoveSecondary-description-2 = Sikeresen eltávolította a következő másodlagos e-mail címet a { -product-mozilla-account }jából: { $secondaryEmail }. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a címre.
 postRemoveSecondary-action = Fiók kezelése
 postRemoveTwoStepAuthentication-subject-line-2 = Kétlépcsős hitelesítés kikapcsolva
 postRemoveTwoStepAuthentication-title-2 = Kikapcsolta a kétlépcsős hitelesítést
@@ -380,7 +380,7 @@ postVerifySecondary-title = Másodlagos e-mail hozzáadva
 postVerifySecondary-content-2 = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail-címet a { -product-firefox-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét címére el lesznek küldve.
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail címet a { -product-mozilla-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail-címre kézbesítve lesznek.
+postVerifySecondary-content-3 = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail-címet a { -product-mozilla-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét címére el lesznek küldve.
 postVerifySecondary-action = Fiók kezelése
 recovery-subject = Jelszó visszaállítása
 recovery-title-2 = Elfelejtette a jelszavát?
@@ -389,7 +389,7 @@ recovery-title-2 = Elfelejtette a jelszavát?
 recovery-request-origin = A(z) { -product-firefox-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
-recovery-request-origin-2 = Jelszómódosítási kérést kaptunk a { -product-mozilla-account }jához a következőtől:
+recovery-request-origin-2 = A(z) { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
 recovery-new-password-button = Hozzon létre egy új jelszót az alábbi gombra kattintva. Ez a hivatkozás egy órán belül lejár.
 recovery-copy-paste = Hozzon létre egy új jelszót az alábbi webcím másolásával és a böngészőbe történő beillesztésével. Ez a hivatkozás egy órán belül lejár.
 recovery-action = Új jelszó létrehozása
@@ -406,7 +406,7 @@ subscriptionAccountDeletion-content-cancelled = Nemrég törölte a { -product-f
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = Nemrég törölte a { -product-mozilla-account }ját. Ennek eredményeként töröltük a(z) { $productName } előfizetését. Az utolsó { $invoiceTotal } összegű befizetése ekkor történt: { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = Nemrég törölte a { -product-mozilla-account }ját. Ezért megszakítottuk a(z) { $productName } előfizetését. Az utolsó { $invoiceTotal } $ értékű befizetése ekkor történt: { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Üdvözli a { $productName }: Állítsa be a jelszavát.
@@ -415,12 +415,12 @@ subscriptionAccountFinishSetup-subject = Üdvözli a { $productName }: Állítsa
 subscriptionAccountFinishSetup-title = Üdvözli a { $productName }
 subscriptionAccountFinishSetup-content-processing = Fizetése feldolgozás alatt áll, és a befejezése akár négy munkanapot is igénybe vehet. Az előfizetés automatikusan megújul minden számlázási időszakban, hacsak nem dönt úgy, hogy lemondja.
 subscriptionAccountFinishSetup-content-create-2 = Ezután létre kell hoznia egy jelszót a { -product-firefox-account }jához, hogy megkezdje az új előfizetés használatát.
-subscriptionAccountFinishSetup-content-create-3 = Ezután létre kell hoznia egy { -product-mozilla-account } jelszavát, hogy elkezdje használni az új előfizetését.
+subscriptionAccountFinishSetup-content-create-3 = Ezután létre kell hoznia egy jelszót a { -product-mozilla-account }jához, hogy megkezdje az új előfizetés használatát.
 subscriptionAccountFinishSetup-action-2 = Kezdő lépések
 subscriptionAccountReminderFirst-subject = Emlékeztető: Fejezze be a fiókja beállítását
 subscriptionAccountReminderFirst-title = Még nem férhet hozzá az előfizetéséhez
 subscriptionAccountReminderFirst-content-info-2 = Néhány nappal ezelőtt létrehozott egy { -product-firefox-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.
-subscriptionAccountReminderFirst-content-info-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Reméljük, hogy befejezte a fiókja beállítását, hogy használhassa az új előfizetését.
+subscriptionAccountReminderFirst-content-info-3 = Néhány nappal ezelőtt létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.
 subscriptionAccountReminderFirst-content-select-2 = Válassza a „Jelszó létrehozása” lehetőséget, hogy új jelszót állítson be, és befejezze a fiókja megerősítését.
 subscriptionAccountReminderFirst-action = Jelszó létrehozása
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
@@ -428,7 +428,7 @@ subscriptionAccountReminderSecond-subject = Végső emlékeztető: Állítsa be 
 subscriptionAccountReminderSecond-title = Üdvözli a { -brand-firefox }!
 subscriptionAccountReminderSecond-title-2 = Üdvözli a { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Néhány nappal ezelőtt létrehozott egy { -product-firefox-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.
-subscriptionAccountReminderSecond-content-info-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Reméljük, hogy befejezte a fiókja beállítását, hogy használhassa az új előfizetését.
+subscriptionAccountReminderSecond-content-info-3 = Néhány nappal ezelőtt létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.
 subscriptionAccountReminderSecond-content-select-2 = Válassza a „Jelszó létrehozása” lehetőséget, hogy új jelszót állítson be, és befejezze a fiókja megerősítését.
 subscriptionAccountReminderSecond-action = Jelszó létrehozása
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -582,14 +582,14 @@ unblockCode-report = Ha nem, akkor segítsen kivédeni a behatolókat, és <a da
 unblockCode-report-plaintext = Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk.
 verificationReminderFinal-subject = Végső emlékeztető, hogy erősítse meg a fiókját
 verificationReminderFinal-description = Néhány hete létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
-verificationReminderFinal-description-2 = Néhány hete létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem kerül ellenőrzésre.
+verificationReminderFinal-description-2 = Néhány hete létrehozott egy { -product-mozilla-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
 confirm-account = Fiók megerősítése
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderFirst-title-2 = Üdvözli a { -brand-firefox }!
 verificationReminderFirst-title-3 = Üdvözli a { -brand-mozilla }!
 verificationReminderFirst-description-2 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
-verificationReminderFirst-description-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. A következő 15 napon belül erősítse meg fiókját, különben automatikusan törlésre kerül.
+verificationReminderFirst-description-3 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 15 napon belül nem igazolja vissza.
 verificationReminderFirst-sub-description-3 = Ne hagyja ki azt a böngészőt, amely Önt és a magánszféráját teszi az első helyre.
 confirm-email-2 = Fiók megerősítése
 confirm-email-plaintext-2 = { confirm-email-2 }:
