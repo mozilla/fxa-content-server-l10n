@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts } ішіне кіріп отырсыз ба?
+session-verify-send-push-title-2 = { -product-mozilla-account } тіркелгіңізге кіріп жатырсыз ба?
 session-verify-send-push-body-2 = Сіз екеніңізді растау үшін осында шертіңіз
 
 ## Email content
@@ -201,7 +202,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
 cadReminderFirst-description-1 = Барлық құрылғыларда браузер беттерін алыңыз. Бетбелгілер, парольдер және басқа деректерді { -brand-firefox } пайдаланатын барлық жерде алыңыз. Бұл сіздің { -brand-firefox } тіркелгіңіздегі сиқырға ұқсайды!
-cadReminderFirst-description-2 = Синхрондау үшін бар болғаны секунд қажет.
 cadReminderSecond-subject-2 = Жіберіп алмаңыз! Синхрондауды баптауды аяқтайық.
 cadReminderSecond-action = Басқа құрылғыны синхрондау
 cadReminderSecond-title-2 = Синхрондауды ұмытпаңыз!
@@ -242,8 +242,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ішіне жаңа кіру
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Сіздің { -product-firefox-account } жүйеге кіру үшін пайдаланылды
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +258,6 @@ passwordChangeRequired-title = Парольді өзгерту керек
 passwordChangeRequired-suspicious-activity = { -product-firefox-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-firefox-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
 passwordChangeRequired-sign-in = { -product-firefox-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
 passwordChangeRequired-different-password = <b>Маңызды:</b> Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
-passwordChangeRequired-signoff = Құрметпен,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } тобы
 passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
 passwordReset-subject = Пароль жаңартылды
 passwordReset-title = Тіркелгіңіздің паролі өзгертілді
@@ -520,8 +516,6 @@ subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен {
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-# remove subscriptionUpgrade-content-charge-info in FXA-7796; additionally remove in subscriptionUpgrade/index.txt
-subscriptionUpgrade-content-charge-info = Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді. Сол кезде сізден осы { $productPaymentCycleOld } қалған бөлігі үшін үлкенірек төлемді сипаттау үшін { $paymentProrated } бір реттік алым алынады.
 subscriptionUpgrade-content-charge-info-different-cycle = Осы { $productPaymentCycleOld } қалғанына жазылуңыздың үлкенірек бағасын сипаттау үшін сізден бір реттік { $paymentProrated } алым алынады. Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, енді әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
