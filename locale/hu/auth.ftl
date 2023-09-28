@@ -600,13 +600,13 @@ verificationReminderSecond-title-3 = Ne hagyja ki a { -brand-mozilla(ending: "ac
 verificationReminderSecond-description-3 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 10 napon belül nem igazolja vissza.
 verificationReminderSecond-description-4 = Néhány napja létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. A következő 10 napon belül erősítse meg fiókját, különben automatikusan törlésre kerül.
 verificationReminderSecond-second-description = A { -product-firefox-account }ja segítségével szinkronizálhatja adatait az eszközei között, és további { -brand-mozilla(ending: "accented", case: "lower") }s adatvédelmi eszközökhöz biztosít hozzáférést.
-verificationReminderSecond-second-description-2 = A { -product-mozilla-account }ja segítségével szinkronizálhatja adatait az eszközei között, és hozzáférést biztosít a { -brand-mozilla(ending: "accented") } további adatvédelmi termékeihez.
+verificationReminderSecond-second-description-2 = A { -product-mozilla-account }ja segítségével szinkronizálhatja adatait az eszközei között, és hozzáférést biztosít a { -brand-mozilla } további adatvédelmi termékeihez.
 verificationReminderSecond-sub-description-2 = Legyen része küldetésünknek, hogy az internetet mindenki számára nyitott hellyé alakítsuk.
 verificationReminderSecond-action-2 = Fiók megerősítése
 verify-title-2 = Tárja nyitva az internetet a { -brand-firefox(case: "instrumental") }
 verify-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "accented") }val
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
-verify-description-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla }ból mindenhol, ahol bejelentkezik:
+verify-description-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla(ending: "accented") }ból mindenhol, ahol bejelentkezik:
 verify-subject = A fiókja létrehozásának befejezése
 verify-action-2 = Fiók megerősítése
 # Variables:
@@ -639,7 +639,7 @@ verifySecondaryCode-action-2 = E-mail-cím megerősítése
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer-2 = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-mozilla-account }ból érkezett:
+verifySecondaryCode-explainer-2 = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail-címként a következő { -product-mozilla-account }ból érkezett:
 verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
 verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 # Variables:
@@ -650,6 +650,6 @@ verifyShortCode-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "a
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla }ból mindenhol, ahol bejelentkezik:
+verifyShortCode-title-subtext-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla(ending: "accented") }ból mindenhol, ahol bejelentkezik:
 verifyShortCode-prompt-3 = Használja ezt a megerősítő kódot:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
