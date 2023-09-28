@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logga in på { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logga in på ditt { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klicka här för att bekräfta att det är du
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Klicka här för att bekräfta att det är du
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logotyp">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronisera enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } användarvillkor
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotyp">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotyp">
 subplat-automated-email = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
 subplat-privacy-notice = Sekretessmeddelande
@@ -24,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-firefox-account } och du registrerade dig för { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-mozilla-account } och du registrerade dig för { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-mozilla-account }.
 subplat-explainer-multiple = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-firefox-account } och du har prenumererat på flera produkter.
+subplat-explainer-multiple-2 = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-mozilla-account } och du har prenumererat på flera produkter.
 subplat-explainer-was-deleted = Du får det här e-postmeddelandet eftersom { $email } har registrerats för ett { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Du får det här e-postmeddelandet eftersom { $email } har registrerats för ett { -product-mozilla-account }.
 subplat-manage-account = Hantera dina inställningar för { -product-firefox-account } genom att besöka din <a data-l10n-name="subplat-account-page">kontosida</a>.
+subplat-manage-account-2 = Hantera dina inställningar för { -product-mozilla-account } genom att besöka din <a data-l10n-name="subplat-account-page">kontosida</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Hantera dina inställningar för { -product-firefox-account } genom att besöka din kontosida: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Hantera dina inställningar för { -product-mozilla-account } genom att besöka din kontosida: { $accountSettingsUrl }
 subplat-terms-policy = Villkor och avbokningsregler
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt prenumeration
@@ -201,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det krävs två för att synkronisera
 cadReminderFirst-description-1 = Ta med dina flikar till alla dina enheter. Få dina bokmärken, lösenord och annan data överallt där du använder { -brand-firefox }. Det är som att ha magi i ditt { -brand-firefox }-konto!
-cadReminderFirst-description-2 = Det tar bara en sekund att synkronisera.
+cadReminderFirst-description-v2 = Ta med dina flikar mellan alla dina enheter. Få dina bokmärken, lösenord och annan data överallt där du använder { -brand-firefox }.
 cadReminderSecond-subject-2 = Missa inte! Låt oss avsluta din synkroniseringskonfiguration
 cadReminderSecond-action = Synkronisera en annan enhet
 cadReminderSecond-title-2 = Glöm inte att synkronisera!
@@ -216,9 +234,12 @@ downloadSubscription-title = Välkommen till { $productName }
 downloadSubscription-content-2 = Låt oss komma igång med alla funktioner som ingår i ditt abonnemang:
 downloadSubscription-link-action-2 = Kom igång
 fraudulentAccountDeletion-subject = Ditt { -product-firefox-account } raderades
+fraudulentAccountDeletion-subject-2 = Ditt { -product-mozilla-account } raderades
 fraudulentAccountDeletion-title = Ditt konto har raderats
 fraudulentAccountDeletion-content = Nyligen skapades ett { -product-firefox-account } och en prenumeration debiterades med den här e-postadressen. Precis som vi gör med alla nya konton bad vi dig att bekräfta ditt konto genom att först validera den här e-postadressen.
+fraudulentAccountDeletion-content-part1-v2 = Nyligen skapades ett { -product-mozilla-account } och en prenumeration debiterades med den här e-postadressen. Precis som vi gör med alla nya konton bad vi dig att bekräfta ditt konto genom att först validera den här e-postadressen.
 fraudulentAccountDeletion-content-2 = I dagsläget ser vi att kontot aldrig blev bekräftat. Eftersom det här steget inte slutfördes är vi inte säkra på om detta var en auktoriserad prenumeration. Som ett resultat av detta raderades { -product-firefox-account } som registrerats på den här e-postadressen och din prenumeration avslutades med alla avgifter återbetalda.
+fraudulentAccountDeletion-content-part2-v2 = I dagsläget ser vi att kontot aldrig blev bekräftat. Eftersom det här steget inte slutfördes är vi inte säkra på om detta var en auktoriserad prenumeration. Som ett resultat av detta raderades { -product-mozilla-account } som registrerats på den här e-postadressen och din prenumeration avbröts med alla avgifter återbetalda.
 fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a data-l10n-name="mozillaSupportUrl">supportteam</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -242,9 +263,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ditt { -product-firefox-account } användes för att logga in
+newDeviceLogin-title-3 = Ditt { -product-mozilla-account } användes för att logga in
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Inte du? <a data-l10n-name="passwordChangeLink">Ändra ditt lösenord</a>.
@@ -255,13 +275,14 @@ newDeviceLogin-action = Hantera konto
 passwordChanged-subject = Lösenord uppdaterat
 passwordChanged-title = Lösenord har ändrats
 passwordChanged-description = Ditt lösenord för { -product-firefox-account } har ändrats från följande enhet:
+passwordChanged-description-2 = Ditt lösenord för { -product-mozilla-account } har ändrats från följande enhet:
 passwordChangeRequired-subject = Misstänkt aktivitet upptäckt
 passwordChangeRequired-title = Lösenordsbyte krävs
 passwordChangeRequired-suspicious-activity = Vi upptäckte misstänkt beteende på ditt { -product-firefox-account }. För att förhindra obehörig åtkomst till ditt { -product-firefox-account } har vi kopplat bort alla enheter på ditt konto och kräver att du ändrar ditt lösenord som en försiktighetsåtgärd.
+passwordChangeRequired-suspicious-activity-2 = Vi upptäckte misstänkt beteende på ditt { -product-mozilla-account }. För att förhindra obehörig åtkomst till ditt { -product-mozilla-account } har vi kopplat bort alla enheter på ditt konto och kräver att du ändrar ditt lösenord som en försiktighetsåtgärd.
 passwordChangeRequired-sign-in = Logga in på valfri enhet eller tjänst där du använder ditt { -product-firefox-account } och följ stegen som kommer att presenteras för dig.
+passwordChangeRequired-sign-in-2 = Logga in på valfri enhet eller tjänst där du använder ditt { -product-mozilla-account } och följ stegen som kommer att presenteras för dig.
 passwordChangeRequired-different-password = <b>Viktigt:</b> Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
-passwordChangeRequired-signoff = Bästa,
-passwordChangeRequired-signoff-name = Teamet { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
 passwordReset-subject = Lösenord uppdaterat
 passwordReset-title = Ditt lösenord till kontot ändrades
@@ -286,9 +307,13 @@ postAddAccountRecovery-action = Hantera konto
 postAddAccountRecovery-delete-key = Ta bort den nya nyckeln:
 postAddAccountRecovery-changd-password = Ändra ditt lösenord:
 postAddLinkedAccount-subject = Nytt konto länkat till { -brand-firefox }
+postAddLinkedAccount-subject-2 = Nytt konto länkat till ditt { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ditt { $providerName }-konto har länkats till ditt { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Ditt { $providerName }-konto har länkats till ditt { -product-mozilla-account }
 postAddLinkedAccount-action = Hantera konto
 postAddTwoStepAuthentication-subject-2 = Tvåstegsautentisering har aktiverats
 postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
@@ -301,6 +326,9 @@ postChangePrimary-title = Ny primär e-post
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Du har ändrat din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-mozilla-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
 postConsumeRecoveryCode-title-2 = Du använde en reservautentiseringskod
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -327,6 +355,9 @@ postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har tagit bort { $secondaryEmail } som en sekundär e-post från ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den här adressen.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Du har tagit bort { $secondaryEmail } som en sekundär e-post från ditt { -product-mozilla-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den här adressen.
 postRemoveSecondary-action = Hantera konto
 postRemoveTwoStepAuthentication-subject-line-2 = Tvåstegsautentisering avstängd
 postRemoveTwoStepAuthentication-title-2 = Du stängde av tvåstegsautentisering
@@ -339,6 +370,7 @@ postVerify-title-2 = Vill du se samma flik på två enheter?
 postVerify-description-2 = Det är lätt! Installera bara { -brand-firefox } på en annan enhet och logga in för att synkronisera. Det är som magi!
 postVerify-sub-description = (Psst… Det betyder också att du kan få dina bokmärken, lösenord och annan { -brand-firefox }-data överallt där du är inloggad.)
 postVerify-subject-3 = Välkommen till { -brand-firefox }!
+postVerify-subject-4 = Välkommen till { -brand-mozilla }!
 postVerify-setup-2 = Anslut en annan enhet:
 postVerify-action-2 = Anslut en annan enhet
 postVerifySecondary-subject = Sekundär e-post tillagd
@@ -346,12 +378,18 @@ postVerifySecondary-title = Sekundär e-post tillagd
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Du har framgångsrikt bekräftat { $secondaryEmail } som en sekundär e-postadress för ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Du har framgångsrikt bekräftat { $secondaryEmail } som en sekundär e-post för ditt { -product-mozilla-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
 recovery-title-2 = Glömt ditt lösenord?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Vi fick en begäran om lösenordsändring på ditt { -product-firefox-account } från:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
 recovery-new-password-button = Skapa ett nytt lösenord genom att klicka på knappen nedan. Den här länken upphör att gälla inom den närmaste timmen.
 recovery-copy-paste = Skapa ett nytt lösenord genom att kopiera och klistra in webbadressen nedan i din webbläsare. Den här länken upphör att gälla inom den närmaste timmen.
 recovery-action = Skapa nytt lösenord
@@ -364,6 +402,11 @@ subscriptionAccountDeletion-title = Ledsen att se dig sluta
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du tog nyligen bort ditt { -product-firefox-account }. Som ett resultat av detta har vi avslutat din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Du raderade nyligen ditt { -product-mozilla-account }. Som ett resultat av detta har vi avslutat din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Välkommen till { $productName }: Ange ditt lösenord.
@@ -372,16 +415,20 @@ subscriptionAccountFinishSetup-subject = Välkommen till { $productName }: Ange 
 subscriptionAccountFinishSetup-title = Välkommen till { $productName }
 subscriptionAccountFinishSetup-content-processing = Din betalning behandlas och kan ta upp till fyra arbetsdagar att slutföra. Ditt abonnemang förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 subscriptionAccountFinishSetup-content-create-2 = Därefter skapar du ett lösenord för { -product-firefox-account } för att börja använda din nya prenumeration.
+subscriptionAccountFinishSetup-content-create-3 = Därefter skapar du ett { -product-mozilla-account } lösenord för att börja använda din nya prenumeration.
 subscriptionAccountFinishSetup-action-2 = Kom igång
 subscriptionAccountReminderFirst-subject = Påminnelse: Slutför konfigureringen av ditt konto
 subscriptionAccountReminderFirst-title = Du kan inte komma åt din prenumeration ännu
 subscriptionAccountReminderFirst-content-info-2 = För några dagar sedan skapade du ett{ -product-firefox-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
+subscriptionAccountReminderFirst-content-info-3 = För några dagar sedan skapade du ett { -product-mozilla-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
 subscriptionAccountReminderFirst-content-select-2 = Välj "Skapa lösenord" för att skapa ett nytt lösenord och för att slutföra bekräftandet av ditt konto.
 subscriptionAccountReminderFirst-action = Skapa lösenord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Sista påminnelse: Konfigurera ditt konto
 subscriptionAccountReminderSecond-title = Välkommen till { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Välkommen till { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = För några dagar sedan skapade du ett { -product-firefox-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
+subscriptionAccountReminderSecond-content-info-3 = För några dagar sedan skapade du ett { -product-mozilla-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
 subscriptionAccountReminderSecond-content-select-2 = Välj "Skapa lösenord" för att skapa ett nytt lösenord och slutföra bekräftandet av ditt konto.
 subscriptionAccountReminderSecond-action = Skapa lösenord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -520,7 +567,6 @@ subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }. Då kommer du också att debiteras en engångsavgift på { $paymentProrated } för att återspegla den högre avgiften för återstoden av denna { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Du kommer att debiteras en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna { $productPaymentCycleOld }. Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -536,23 +582,31 @@ unblockCode-report = Om nej, hjälp oss att avvärja inkräktare och <a data-l10
 unblockCode-report-plaintext = Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss.
 verificationReminderFinal-subject = Sista påminnelse om att bekräfta ditt konto
 verificationReminderFinal-description = För ett par veckor sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. För din säkerhet tar vi bort kontot om det inte verifieras inom de närmaste 24 timmarna.
+verificationReminderFinal-description-2 = För ett par veckor sedan skapade du ett { -product-mozilla-account }, men bekräftade det aldrig. För din säkerhet tar vi bort kontot om det inte verifieras inom de närmaste 24 timmarna.
 confirm-account = Bekräfta konto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Kom ihåg att bekräfta ditt konto
 verificationReminderFirst-title-2 = Välkommen till { -brand-firefox }!
+verificationReminderFirst-title-3 = Välkommen till { -brand-mozilla }!
 verificationReminderFirst-description-2 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderFirst-description-3 = För några dagar sedan skapade du ett { -product-mozilla-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
 verificationReminderFirst-sub-description-3 = Missa inte webbläsaren som sätter dig och din integritet främst.
 confirm-email-2 = Bekräfta konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekräfta konto
 verificationReminderSecond-subject-2 = Kom ihåg att bekräfta ditt konto
 verificationReminderSecond-title-2 = Missa inte { -brand-firefox }!
+verificationReminderSecond-title-3 = Missa inte { -brand-mozilla }!
 verificationReminderSecond-description-3 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 10 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderSecond-description-4 = För några dagar sedan skapade du ett { -product-mozilla-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 10 dagarna, annars kommer det att raderas automatiskt.
 verificationReminderSecond-second-description = Ditt { -product-firefox-account } låter dig synkronisera din information mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }
+verificationReminderSecond-second-description-2 = Ditt { -product-mozilla-account } låter dig synkronisera din information mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Bli en del av vårt uppdrag att förvandla internet till en plats som är öppen för alla.
 verificationReminderSecond-action-2 = Bekräfta konto
 verify-title-2 = Öppna internet med { -brand-firefox }
+verify-title-3 = Öppna internet med { -brand-mozilla }
 verify-description = Bekräfta ditt konto och få ut det mesta av { -brand-firefox } överallt du loggar in med:
+verify-description-2 = Bekräfta ditt konto och få ut det mesta av { -brand-mozilla } överallt där du loggar in, med början med:
 verify-subject = Slutför skapande av ditt konto
 verify-action-2 = Bekräfta konto
 # Variables:
@@ -583,13 +637,19 @@ verifySecondaryCode-action-2 = Bekräfta e-postadress
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Använd denna bekräftelsekod:
 verifySecondaryCode-expiry-notice-2 = Den upphör efter 5 minuter. När adressen har bekräftats kommer den att börja ta emot säkerhetsmeddelanden och bekräftelser.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekräfta ditt konto
 verifyShortCode-title-2 = Öppna internet med { -brand-firefox }
+verifyShortCode-title-3 = Öppna internet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Bekräfta ditt konto och få ut det mesta av { -brand-firefox } överallt du loggar in med:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Bekräfta ditt konto och få ut det mesta av { -brand-mozilla } överallt där du loggar in, med början med:
 verifyShortCode-prompt-3 = Använd denna bekräftelsekod:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2023-09-17 15:21+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -840,7 +840,9 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -911,7 +913,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Firefox тіркелгіңізге қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз (соның ішінде тарих және бетбелгілер сияқты синхрондалған "
 "сервер деректері) өшіріледі."
@@ -928,6 +931,10 @@ msgstr "Тіркелгіні қалпына келтіру кілтін раст
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
 msgstr "Тіркелгіні қалпына келтіру кілтіңіз жоқ па?"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1070,6 +1077,10 @@ msgstr "Кодтың мерзімі бітті ме?"
 msgid "Email new code."
 msgstr "Жаңа кодты эл. поштамен жіберу."
 
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgstr ""
+
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "Басқа құрылғыны байланыстыру"
@@ -1134,8 +1145,11 @@ msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</"
+"a> келісесіз."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1144,6 +1158,10 @@ msgstr "Басқа тіркелгіні қолдану"
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Пароліңізді ұмыттыңыз ба?"
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1168,6 +1186,14 @@ msgstr "Тіркелгіні жасау немесе кіру"
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Firefox тіркелгісі Mozilla-дан жекелігіңізді қорғайтын көбірек өнімдерге кіруге мүмкіндік береді."
+
+#: .es5/templates/index.mustache:15
+msgid "Continue to your Mozilla account"
+msgstr ""
+
+#: .es5/templates/index.mustache:16
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1394,14 +1420,17 @@ msgstr "Ол эл. пошта адресіне енді ие емессіз бе
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"            Firefox өнімінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>.\n"
+"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Firefox өнімінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
+"ескертуі</a>.\n"
 "          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1435,6 +1464,10 @@ msgstr "<span class=\"card-subheader\">Firefox тіркелгіңіз үшін</
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "%(email)s адресіне жіберілген кодты 5 минут ішінде енгізіңіз."
+
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1474,7 +1507,8 @@ msgstr "Парольді қайталау"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
+msgstr ""
+"Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1492,14 +1526,17 @@ msgstr "Тіркелгіні жасау"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"            Firefox өнімінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://"
+"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Firefox өнімінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
+"ескертуі</a>\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1569,6 +1606,10 @@ msgstr "Жіберу"
 #: .es5/templates/support.mustache:23
 msgid "Terms of Service"
 msgstr "Қолдану шарттары"
+
+#: .es5/templates/support.mustache:25
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1692,6 +1733,11 @@ msgstr "Пароліңізді қайта енгізіңіз"
 msgid "Change password"
 msgstr "Парольді өзгерту"
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:11
+msgid ""
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Бұл Firefox байланысқан"
@@ -1732,6 +1778,10 @@ msgstr "Парольді енгізіңіз"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Парольді растау"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2037,7 +2087,8 @@ msgid "Or download"
 msgstr "Немесе жүктеп алу"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Мобильдік құрылғыларға арналған Firefox қолданбасын жүктеп алу үшін сканерлеңіз немесе өзіңізге <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" "
 "class=\"link-blue\">жүктеп алу сілтемесін жіберіңіз.</a>"

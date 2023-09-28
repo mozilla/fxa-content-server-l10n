@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2021-08-12 03:45+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,10 @@ msgstr "읽는 중"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox 계정은 자바스트립트를 필요로 합니다."
 
+#: server/templates/pages/src/index.html:4
+msgid "Mozilla accounts require JavaScript."
+msgstr ""
+
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
 msgstr "Firefox 업데이트 필요"
@@ -91,3 +95,15 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "최신 다운로드"
+
+#: server/templates/pages/src/update_firefox.html:5
+msgid "Mozilla account"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid ""
+"Your Mozilla account makes use of features that are\n"
+"not supported in your version of Firefox. Please\n"
+"download and install the latest version of Firefox to\n"
+"continue."
+msgstr ""
