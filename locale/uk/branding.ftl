@@ -53,7 +53,39 @@
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = Обліковий запис Mozilla
+-product-mozilla-account =
+    { $case ->
+        [gen]
+            { $capitalization ->
+                [lower] облікового запису Mozilla
+               *[upper] Облікового запису Mozilla
+            }
+        [dat]
+            { $capitalization ->
+                [lower] обліковому запису Mozilla
+               *[upper] Обліковому запису Mozilla
+            }
+        [acc]
+            { $capitalization ->
+                [lower] обліковий запис Mozilla
+               *[upper] Обліковий запис Mozilla
+            }
+        [abl]
+            { $capitalization ->
+                [lower] обліковим записом Mozilla
+               *[upper] Обліковим записом Mozilla
+            }
+        [loc]
+            { $capitalization ->
+                [lower] обліковому записі Mozilla
+               *[upper] Обліковому записі Mozilla
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] обліковий запис Mozilla
+               *[upper] Обліковий запис Mozilla
+            }
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
 -product-mozilla-accounts =
