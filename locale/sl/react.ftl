@@ -41,3 +41,5 @@ app-logo-alt =
     .alt = Logotip { -brand-firefox(sklon: "rodilnik") }
 app-logo-alt-2 =
     .alt = Logotip { -brand-mozilla(sklon: "rodilnik") }
+app-logo-alt-3 =
+    .alt = Logotip { -brand-mozilla(sklon: "rodilnik") } "m"

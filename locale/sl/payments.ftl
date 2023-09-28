@@ -75,10 +75,12 @@ input-error-is-required = { $label } je zahtevan podatek
 ## Component - Header
 
 brand-name-firefox-logo = Logotip { -brand-name-firefox(sklon: "rodilnik") }
+brand-name-mozilla-logo = Logotip { -brand-mozilla(sklon: "rodilnik") }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Že imate { -brand-name-firefox } Račun? <a>Prijava</a>
+new-user-sign-in-link-2 = Že imate { -product-mozilla-account }? <a>Prijava</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -482,6 +484,7 @@ coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samodejno
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Ustvarite { -brand-name-firefox } Račun
+new-user-step-1-2 = 1. Ustvarite { -product-mozilla-account }
 new-user-card-title = Vnesite podatke o kartici
 new-user-submit = Naroči se zdaj
 
