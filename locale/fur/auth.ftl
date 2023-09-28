@@ -34,12 +34,21 @@ subplat-explainer-specific-2 = Tu ricevis cheste e-mail parcè che la direzion {
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tu ricevis cheste e-mail parcè che la direzion e-mail { $email } e je associade a un { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account }.
 subplat-explainer-multiple = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade a plui prodots.
+subplat-explainer-multiple-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account } e tu âs fat la sotscrizion a plui prodots.
 subplat-explainer-was-deleted = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e jere regjistrade par un { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je stade doprade par regjistrâ un { -product-mozilla-account }
 subplat-manage-account = Gjestìs lis impostazions dal to { -product-firefox-account } visitant la <a data-l10n-name="subplat-account-page">pagjine dal account</a>.
+subplat-manage-account-2 = Gjestìs lis impostazions dal to { -product-mozilla-account } visitant la <a data-l10n-name="subplat-account-page">pagjine dal account</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Gjestìs lis impostazions dal to { -product-firefox-account } visitant cheste pagjine: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Gjestìs lis impostazions dal to { -product-mozilla-account } visitant la pagjine dal to account: { $accountSettingsUrl }
 subplat-terms-policy = Tiermins e cundizions di cancelazion
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anule l'abonament
