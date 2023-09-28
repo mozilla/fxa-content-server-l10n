@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Увійти в { -product-firefox-accounts(case: "nom", capitalization: "lower") }?
+session-verify-send-push-title-2 = Хочете увійти в { -product-mozilla-account }?
 session-verify-send-push-body-2 = Натисніть тут, щоб підтвердити свою особу
 
 ## Email content
@@ -11,9 +12,9 @@ fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Логотип { -
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
-moz-accounts-privacy-url = Політика приватності { -product-mozilla-accounts(case: "gen") }
+moz-accounts-privacy-url = Політика приватності { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Умови користування { -product-firefox-cloud }
-moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen") }
+moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.

@@ -24,12 +24,12 @@ link-expired-resent-code-error-message = Щось пішло не так. Не �
 brand-banner-dismiss-button =
     .aria-label = Закрити
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } буде перейменовано на { -product-mozilla-accounts } 1 листопада
+brand-prelaunch-title = 1 листопада { -product-firefox-accounts } буде перейменовано на { -product-mozilla-accounts(capitalization: "upper") }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Ви й надалі можете використовувати те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Ми змінили назву { -product-firefox-accounts } на { -product-mozilla-accounts }. Ви й надалі можете використовувати те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
+brand-postlaunch-title = Ми змінили назву { -product-firefox-accounts } на { -product-mozilla-accounts(capitalization: "upper") }. Ви й надалі можете використовувати те саме ім'я користувача та пароль, а продукти, якими ви користуєтеся, не змінюватимуться.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Докладніше
 # Alt text for close banner image
