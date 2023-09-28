@@ -596,6 +596,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre de confirmar sua conta
 verificationReminderSecond-title-2 = Não fique sem o { -brand-firefox }!
+verificationReminderSecond-title-3 = Não perca nada da { -brand-mozilla }!
 verificationReminderSecond-description-3 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-description-4 = Há alguns dias você criou uma { -product-mozilla-account }, mas nunca a confirmou. Confirme sua conta nos próximos 10 dias ou ela será excluída automaticamente.
 verificationReminderSecond-second-description = Sua { -product-firefox-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
