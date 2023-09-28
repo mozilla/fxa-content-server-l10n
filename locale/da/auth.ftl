@@ -13,7 +13,9 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheder">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheder">
 fxa-privacy-url = { -brand-mozilla }s privatlivspolitik
+moz-accounts-privacy-url = Privatlivspolitik for { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Servicevilkår for { -product-firefox-cloud }
+moz-accounts-terms-url = Tjenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
@@ -36,6 +38,7 @@ subplat-explainer-reminder-form = Du modtager denne mail, fordi { $email } har e
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Du modtager denne mail, fordi { $email } har en { -product-mozilla-account }.
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har abonneret på flere produkter.
+subplat-explainer-multiple-2 = Du modtager denne mail, fordi { $email } har en { -product-mozilla-account }, og du har abonneret på flere produkter.
 subplat-explainer-was-deleted = Du modtager denne mail, fordi { $email } blev brugt til at registrere en { -product-firefox-account }.
 subplat-explainer-was-deleted-2 = Du modtager denne mail, fordi { $email } blev brugt til at registrere en { -product-mozilla-account }.
 subplat-manage-account = Håndter indstillingerne for din { -product-firefox-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
@@ -43,6 +46,9 @@ subplat-manage-account-2 = Håndter indstillingerne for din { -product-mozilla-a
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Håndter dine { -product-firefox-account }-indstillinger ved at besøge din kontoside: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Håndter indstillingerne for din { -product-mozilla-account } ved at besøge din kontoside: { $accountSettingsUrl }
 subplat-terms-policy = Betingelser og regler for annullering
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annuller abonnement
@@ -231,7 +237,9 @@ fraudulentAccountDeletion-subject = Din { -product-firefox-account } blev slette
 fraudulentAccountDeletion-subject-2 = Din { -product-mozilla-account } blev slettet
 fraudulentAccountDeletion-title = Din konto blev slettet
 fraudulentAccountDeletion-content = For nylig blev der oprettet en { -product-firefox-account }, og der blev opkrævet for et abonnement ved hjælp af denne mailadresse. Som vi gør med alle nye konti, bad vi dig bekræfte din konto ved først at validere denne mailadresse.
+fraudulentAccountDeletion-content-part1-v2 = For nylig blev en { -product-mozilla-account } oprettet ved hjælp af denne mailadresse, ligesom der blev opkrævet betaling for et abonnement. Som vi gør med alle nye konti, bad vi dig bekræfte din konto ved først at validere denne mailadresse.
 fraudulentAccountDeletion-content-2 = På nuværende tidspunkt kan vi se, at kontoen aldrig blev bekræftet. Da dette trin ikke er blevet fuldført, er vi ikke sikre på, om dette var et godkendt abonnement. Som følge heraf blev den { -product-firefox-account }, der er registreret med denne mailadresse, slettet, dit abonnement blev annulleret og alle opkrævninger blev refunderet.
+fraudulentAccountDeletion-content-part2-v2 = På nuværende tidspunkt kan vi se, at kontoen aldrig blev bekræftet. Da dette trin ikke er blevet fuldført, er vi ikke sikre på, om oprettelsen af abonnementet var autoriseret. Vi har derfor slettet den { -product-mozilla-account }, der er registreret med denne mailadresse, ligesom abonnementet blev annulleret og alle opkrævninger blev refunderet.
 fraudulentAccountDeletion-contact = Hvis du har spørgsmål, så kontakt vores <a data-l10n-name="mozillaSupportUrl">support-team</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
