@@ -57,33 +57,33 @@
     { $case ->
         [gen]
             { $capitalization ->
-                [lower] облікового запису Mozilla
-               *[upper] Облікового запису Mozilla
+                [upper] Облікового запису Mozilla
+               *[lower] облікового запису Mozilla
             }
         [dat]
             { $capitalization ->
-                [lower] обліковому запису Mozilla
-               *[upper] Обліковому запису Mozilla
+                [upper] Обліковому запису Mozilla
+               *[lower] обліковому запису Mozilla
             }
         [acc]
             { $capitalization ->
-                [lower] обліковий запис Mozilla
-               *[upper] Обліковий запис Mozilla
+                [upper] Обліковий запис Mozilla
+               *[lower] обліковий запис Mozilla
             }
         [abl]
             { $capitalization ->
-                [lower] обліковим записом Mozilla
-               *[upper] Обліковим записом Mozilla
+                [upper] Обліковим записом Mozilla
+               *[lower] обліковим записом Mozilla
             }
         [loc]
             { $capitalization ->
-                [lower] обліковому записі Mozilla
-               *[upper] Обліковому записі Mozilla
+                [upper] Обліковому записі Mozilla
+               *[lower] обліковому записі Mozilla
             }
        *[nom]
             { $capitalization ->
-                [lower] обліковий запис Mozilla
-               *[upper] Обліковий запис Mozilla
+                [upper] Обліковий запис Mozilla
+               *[lower] обліковий запис Mozilla
             }
     }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
@@ -92,33 +92,33 @@
     { $case ->
         [gen]
             { $capitalization ->
-                [lower] облікових записів Mozilla
-               *[upper] Облікових записів Mozilla
+                [upper] Облікових записів Mozilla
+               *[lower] облікових записів Mozilla
             }
         [dat]
             { $capitalization ->
-                [lower] обліковим записам Mozilla
-               *[upper] Обліковим записам Mozilla
+                [upper] Обліковим записам Mozilla
+               *[lower] обліковим записам Mozilla
             }
         [acc]
             { $capitalization ->
-                [lower] облікові записи Mozilla
-               *[upper] Облікові записи Mozilla
+                [upper] Облікові записи Mozilla
+               *[lower] облікові записи Mozilla
             }
         [abl]
             { $capitalization ->
-                [lower] обліковими записами Mozilla
-               *[upper] Обліковими записами Mozilla
+                [upper] Обліковими записами Mozilla
+               *[lower] обліковими записами Mozilla
             }
         [loc]
             { $capitalization ->
-                [lower] облікових записах Mozilla
-               *[upper] Облікових записах Mozilla
+                [upper] Облікових записах Mozilla
+               *[lower] облікових записах Mozilla
             }
        *[nom]
             { $capitalization ->
-                [lower] облікові записи Mozilla
-               *[upper] Облікові записи Mozilla
+                [upper] Облікові записи Mozilla
+               *[lower] облікові записи Mozilla
             }
     }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
