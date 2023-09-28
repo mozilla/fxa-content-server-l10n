@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-15 19:25+0000\n"
+"PO-Revision-Date: 2023-09-28 22:47+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -839,9 +839,7 @@ msgid "Invalid Token"
 msgstr "Token non valide"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -912,8 +910,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu Firefox Account."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como "
 "chronologia e marcapaginas)."
@@ -933,7 +930,7 @@ msgstr "Non ha tu un clave de recuperation del conto?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu conto Mozilla."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1078,7 +1075,7 @@ msgstr "Inviar per email nove codice."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Insere le codice de confirmation <span class=\"card-subheader\" id=\"subheader\"> pro tu conto Firefox</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1144,11 +1141,8 @@ msgstr "Contrasigno"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
-"confidentialitate</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1161,6 +1155,9 @@ msgstr "Contrasigno oblidate?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr ""
+"\n"
+"          Insere le contrasigno <span class=\"card-subheader\" id=\"subheader\">pro tu conto Mozilla </span>\n"
+"        "
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1188,11 +1185,11 @@ msgstr "Un conto Firefox alsi disbloca le accesso a plus productos protegente-co
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Continua a tu conto Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Un conto Mozilla alsi disbloca le accesso a plus productos protegente-confidentialitate de Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1419,17 +1416,14 @@ msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Si tu procede, tu concorda con le:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
-"\">Privacy Notice</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de "
-"Firefox.\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de Firefox.\n"
 "          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1466,7 +1460,7 @@ msgstr "Insere le codice inviate a %(email)s in 5 minutas."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Insere le codice de confirmation <span class=\"card-subheader\">pro tu conto Firefox</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1526,17 +1520,14 @@ msgstr "Crear un conto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Si tu procede, tu concorda con le:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
-"\">Aviso de confidentialitate</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de "
-"Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Aviso de confidentialitate</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1609,7 +1600,7 @@ msgstr "Terminos de servicio"
 
 #: .es5/templates/support.mustache:25
 msgid "Mozilla account"
-msgstr ""
+msgstr "Conto Mozilla"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1739,6 +1730,8 @@ msgstr "Cambiar le contrasigno"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Nos ha disvelate un comportamento suspecte sur tu Conto Mozilla. Pro proteger tu conto, crea un nove contrasigno. Tu usara iste contrasigno pro tornar a signar in tote le servicios de tu Conto "
+"Mozilla."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1783,7 +1776,7 @@ msgstr "Confirmar contrasigno"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Crear un conto Mozilla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2088,8 +2081,7 @@ msgid "Or download"
 msgstr "O discarga"
 
 #: .es5/templates/pair/index.mustache:7
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Scande pro discargar Firefox pro apparatos mobile o invia te un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ligamine de "
 "discargamento.</a>"
