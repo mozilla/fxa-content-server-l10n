@@ -59,10 +59,12 @@ input-error-is-required = Mae angen { $label }
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
+new-user-sign-in-link-2 = Oes gennych chi { -product-mozilla-account } yn barod? <a>Mewngofnodi</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -522,6 +524,7 @@ coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $
 ## Routes - Checkout - New user
 
 new-user-step-1 = Creu cyfrif { -brand-name-firefox }
+new-user-step-1-2 = 1. Creu { -product-mozilla-account }
 new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
 
@@ -551,10 +554,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Gwiriwch eich newid
 sub-change-failed = Methodd newid y cynllun
-sub-update-copy =
-    Bydd eich cynllun yn newid ar unwaith, a bydd y swm ar gyfer eich
-    cylch bilio'n cael ei addasu. Gan ddechrau { $startingDate }
-    bydd y swm llawn yn cael ei godi arnoch.
 sub-update-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $startingDate } byddwn yn codi'r swm llawn arnoch.
 sub-change-submit = Cadarnhau'r newid
 sub-update-current-plan-label = Cynllun cyfredol
