@@ -59,10 +59,12 @@ input-error-is-required = Le champ « { $label } » est nécessaire
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
+new-user-sign-in-link-2 = Vous avez déjà un { -product-mozilla-account } ? <a>Se connecter</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Créez un compte { -brand-name-firefox }
+new-user-step-1-2 = 1. Créez un { -product-mozilla-account }
 new-user-card-title = Saisissez les informations de votre carte
 new-user-submit = S’abonner maintenant
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Examinez vos modifications
 sub-change-failed = La modification de votre forfait a échoué
-sub-update-copy =
-    Votre forfait changera immédiatement et le montant de votre facture sera
-    ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
-    le montant total vous sera facturé.
 sub-update-acknowledgment = Votre forfait changera immédiatement et un montant calculé au prorata vous sera facturé aujourd’hui pour le reste du cycle de facturation. À partir du { $startingDate }, le montant total vous sera facturé.
 sub-change-submit = Confirmer la modification
 sub-update-current-plan-label = Forfait actuel
