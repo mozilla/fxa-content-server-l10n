@@ -576,13 +576,17 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekræft konto
 verificationReminderSecond-subject-2 = Husk at bekræfte din konto
 verificationReminderSecond-title-2 = Gå ikke glip af { -brand-firefox }!
+verificationReminderSecond-title-3 = Gå ikke glip af { -brand-mozilla }!
 verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-second-description = Din { -product-firefox-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
+verificationReminderSecond-second-description-2 = Din { -product-mozilla-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
 verify-title-2 = Åbn internettet med { -brand-firefox }
+verify-title-3 = Åbn internettet med { -brand-mozilla }
 verify-description = Bekræft din konto og få mest muligt ud af { -brand-firefox }, overalt hvor du logger ind, startende med:
+verify-description-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:
 verify-subject = Færdiggør oprettelsen af din konto
 verify-action-2 = Bekræft konto
 # Variables:
@@ -613,13 +617,19 @@ verifySecondaryCode-action-2 = Bekræft mailadresse
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Fra følgende { -product-mozilla-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekræft din konto
 verifyShortCode-title-2 = Åbn internettet med { -brand-firefox }
+verifyShortCode-title-3 = Åbn internettet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Bekræft din konto og få mest muligt ud af { -brand-firefox }, overalt hvor du logger ind:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:
 verifyShortCode-prompt-3 = Brug denne bekræftelseskode:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.

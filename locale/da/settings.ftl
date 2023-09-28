@@ -16,6 +16,29 @@ link-expired-resent-link-success-message = Mail sendt igen. Føj mailadressen { 
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Noget gik galt. En ny kode kunne ikke sendes.
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button =
+    .aria-label = Luk
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } ændrer navn til { -product-mozilla-accounts } den 1. november
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Du skal stadig logge ind med samme brugernavn og adgangskode, og der er ingen andre ændringer af de produkter, du bruger.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Vi har ændret navnet { -product-firefox-accounts } til { -product-mozilla-accounts }. Du skal stadig logge ind med samme brugernavn og adgangskode, og der er ingen andre ændringer af de produkter, du bruger.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Læs mere
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Luk banner
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-logo
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -47,23 +70,23 @@ recovery-key-pdf-download-error = Der opstod desværre et problem med at hente d
 ## Checklist of newsletters that the user can choose to sign up to
 
 # Prompt above a checklist of newsletters
-choose-newsletters-prompt = Tilmeld dig for at få nyttig viden i din indbakke:
+choose-newsletters-prompt-2 = Få mere fra { -brand-mozilla }:
 # Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Få seneste nyt om { -brand-mozilla } og { -brand-firefox }
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Hjælp med at holde internettet sundt
 # Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Vær med til til at holde internettet sundt
+choose-newsletters-option-security-privacy =
+    .label = Nyheder og opdateringer om sikkerhed og privatliv
 # Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Brug nettet bedre og mere sikkert
+choose-newsletters-option-test-pilot =
+    .label = Tidlig adgang til at teste nye produkter
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
 # Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
 # That users can choose to sync
-choose-what-to-sync-prompt = Vælg, hvad der skal synkroniseres:
+choose-what-to-sync-prompt-2 = Vælg, hvad der skal synkroniseres
 choose-what-to-sync-option-bookmarks =
     .label = Bogmærker
 choose-what-to-sync-option-history =
