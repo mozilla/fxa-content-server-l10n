@@ -9,11 +9,15 @@ session-verify-send-push-body-2 = Сіз екеніңізді растау үш�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } логотипі">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Құрылғыларды синхрондау">
 body-devices-image = <img data-l10n-name="devices-image" alt="Құрылғылар">
 fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } жекелік саясаты
 fxa-service-url = { -product-firefox-cloud } Қолдану шарттары
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } қолдану шарттары
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотипі">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 subplat-automated-email = Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес.
 subplat-privacy-notice = Жекелік ескертуі
@@ -25,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар және сіз { $productName } қызметіне тіркелгенсіз.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар және сіз { $productName } қызметіне тіркелгенсіз.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар.
 subplat-explainer-multiple = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар және сіз бірнеше өнімге жазылғансыз.
+subplat-explainer-multiple-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-mozilla-account } бар және сіз бірнеше өнімге жазылғансыз.
 subplat-explainer-was-deleted = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресі { -product-firefox-account } өніміне тіркелген.
+subplat-explainer-was-deleted-2 = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресі { -product-mozilla-account } өніміне тіркелген.
 subplat-manage-account = <a data-l10n-name="subplat-account-page">Тіркелгі парағын</a> шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз.
+subplat-manage-account-2 = <a data-l10n-name="subplat-account-page">Тіркелгі парағын</a> шолу арқылы өз { -product-mozilla-account } баптауларын басқарыңыз.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Тіркелгі парағын шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Тіркелгі парағын шолу арқылы өз { -product-mozilla-account } баптауларын басқарыңыз: { $accountSettingsUrl }
 subplat-terms-policy = Шарттар мен бас тарту саясаты
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Жазылудан бас тарту
@@ -218,7 +235,9 @@ downloadSubscription-link-action-2 = Бастау
 fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
 fraudulentAccountDeletion-content = { -product-firefox-account } жуырда жасалды және осы эл. пошта адресі арқылы жазылым ақысы алынды. Барлық жаңа тіркелгілермен сияқты, алдымен осы эл. пошта адресін растау арқылы тіркелгіңізді растауыңызды сұрадық.
+fraudulentAccountDeletion-content-part1-v2 = { -product-mozilla-account } жуырда жасалды және осы эл. пошта адресі арқылы жазылым ақысы алынды. Барлық жаңа тіркелгілермен сияқты, алдымен осы эл. пошта адресін растау арқылы тіркелгіңізді растауыңызды сұрадық.
 fraudulentAccountDeletion-content-2 = Қазіргі уақытта біз тіркелгінің ешқашан расталмағанын көріп отырмыз. Бұл қадам аяқталмағандықтан, бұл рұқсат етілген жазылу болғанына сенімді емеспіз. Нәтижесінде, осы эл. пошта адресіне тіркелген { -product-firefox-account } өшірілді және барлық төлемдер қайтарылып, жазылуыңыздан бас тартылды.
+fraudulentAccountDeletion-content-part2-v2 = Қазіргі уақытта біз тіркелгінің ешқашан расталмағанын көріп отырмыз. Бұл қадам аяқталмағандықтан, бұл рұқсат етілген жазылу болғанына сенімді емеспіз. Нәтижесінде, осы эл. пошта адресіне тіркелген { -product-mozilla-account } өшірілді және барлық төлемдер қайтарылып, жазылуыңыздан бас тартылды.
 fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біздің <a data-l10n-name="mozillaSupportUrl">қолдау көрсету тобымызға</a> хабарласыңыз.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -243,6 +262,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ішіне жаңа кіру
 newDeviceLogin-title-2 = Сіздің { -product-firefox-account } жүйеге кіру үшін пайдаланылды
+newDeviceLogin-title-3 = Сіздің { -product-mozilla-account } жүйеге кіру үшін пайдаланылды
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Сіз емессіз бе? <a data-l10n-name="passwordChangeLink">Пароліңізді өзгертіңіз</a>.
@@ -253,10 +273,13 @@ newDeviceLogin-action = Тіркелгіні басқару
 passwordChanged-subject = Пароль жаңартылды
 passwordChanged-title = Пароль сәтті өзгертілді
 passwordChanged-description = Сіздің { -product-firefox-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
+passwordChanged-description-2 = Сіздің { -product-mozilla-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-title = Парольді өзгерту керек
 passwordChangeRequired-suspicious-activity = { -product-firefox-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-firefox-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
+passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-mozilla-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
 passwordChangeRequired-sign-in = { -product-firefox-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
+passwordChangeRequired-sign-in-2 = { -product-mozilla-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
 passwordChangeRequired-different-password = <b>Маңызды:</b> Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
 passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
 passwordReset-subject = Пароль жаңартылды
