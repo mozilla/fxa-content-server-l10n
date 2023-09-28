@@ -59,10 +59,12 @@ input-error-is-required = { $label } es necessari
 ## Component - Header
 
 brand-name-firefox-logo = Logo de { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Ha tu jam un conto { -brand-name-firefox }? <a>Accede</a>
+new-user-sign-in-link-2 = Ha tu jam un { -product-mozilla-account }? <a>Accede</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Tu plano se renovara automaticamente depost le { $cou
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Crea un conto { -brand-name-firefox }
+new-user-step-1-2 = 1. Crear un { -product-mozilla-account }
 new-user-card-title = Insere informationes de tu carta
 new-user-submit = Abona te ora
 
