@@ -171,6 +171,7 @@ form-verify-code-default-error = Campo requirite.
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clave de recuperation del conto { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Codices de authentication de salvamento de { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Codices de authentication de salvamento
 get-data-trio-download-2 =
     .title = Discargar
     .aria-label = Discargar
@@ -308,6 +309,7 @@ avatar-default-avatar =
 
 bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
+bento-menu-mozilla-title = { -brand-mozilla } es technologia que lucta pro tu confidentialitate in linea.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -379,8 +381,14 @@ cs-disconnect-lost-advice-content-2 =
     mantener tu informationes secur, tu debe cambiar contrasigno de tu { -product-firefox-account }
     in le parametros de tu conto. Tu debe alsi cercar informationes ex le
     fabricante de tu dispositivo re cancellar tu datos a distantia.
+cs-disconnect-lost-advice-content-3 =
+    Pois que tu dispositivo ha essite perdite o robate, pro
+    mantener tu informationes secur, tu debe cambiar contrasigno de tu { -product-mozilla-account }
+    in le parametros de tu conto. Tu debe alsi cercar informationes ex le
+    fabricante de tu dispositivo re cancellar tu datos a distantia.
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-firefox-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
+cs-disconnect-suspicious-advice-content-2 = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-mozilla-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
 
 ##
@@ -390,15 +398,20 @@ cs-sign-out-button = Clauder session
 
 dc-heading = Recolta e uso de datos
 dc-subheader = Adjuta a meliorar { -product-firefox-accounts }
+dc-subheader-2 = Adjuta a meliorar { -product-mozilla-accounts }
 dc-subheader-content = Permitte a { -product-firefox-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
+dc-subheader-content-2 = Permitte a{ -product-mozilla-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
 dc-opt-out-success = Refusate con successo. { -product-firefox-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
+dc-opt-out-success-2 = Refusate con successo. { -product-mozilla-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
 dc-opt-in-success = Gratias! Compartir iste datos adjuta nos meliorar { -product-firefox-accounts }.
+dc-opt-in-success-2 = Gratias! Compartir iste datos adjuta nos meliorar { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Desolate, problema a cambiar tu preferentias de recolta de datos
 dc-learn-more = Pro saper plus
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
+drop-down-menu-title-2 = Menu de { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -480,13 +493,14 @@ flow-recovery-key-info-cta-text-v3 = Comenciar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancellar
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Clauder menu
 header-menu-closed = Menu de navigation del sito
 header-back-to-top-link =
     .title = Retornar al initio
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Adjuta
 
 ## Linked Accounts section
@@ -611,7 +625,9 @@ delete-account-header =
 delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
 delete-account-confirm-title-3 = Tu pote haber connectite tu { -product-firefox-account } a uno o plus del productos o servicios { -brand-mozilla } que te mantene secur e productive sur le web:
+delete-account-confirm-title-4 = Tu pote haber connectite tu { -product-mozilla-account } a uno o plus del productos o servicios { -brand-mozilla } que te mantene secur e productive sur le web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -935,8 +951,12 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Si tu procede, tu concorda con:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Terminos de servicio</firefoxTos> e <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy> de { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
@@ -982,6 +1002,7 @@ auth-error-1011 = Il es necessari un adresse email valide
 
 cannot-create-account-header = Impossibile crear le conto
 cannot-create-account-requirements = Tu debe satisfacer certe requisitos de etate pro crear un { -product-firefox-account }.
+cannot-create-account-requirements-2 = Tu debe satisfacer certe requisitos de etate pro crear un { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Pro saper plus
 
@@ -1017,6 +1038,7 @@ connect-another-device-ios-complete-setup-message = Accede a { -brand-firefox } 
 
 cookies-disabled-header = Il es necesse activar immagazinage local e cookies
 cookies-disabled-enable-prompt = Activa cookies e immagazinage local in tu navigator pro acceder a { -product-firefox-accounts }. Si faciente tu activara functionalitates tal como rememorar te inter sessiones.
+cookies-disabled-enable-prompt-2 = Activa cookies e immagazinage local in tu navigator pro acceder a tu { -product-mozilla-account }. Si faciente tu activara functionalitates tal como rememorar te inter sessiones.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Retenta
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1217,6 +1239,7 @@ account-recovery-confirm-key-heading-w-default-service = Remonta le contrasigno 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Remonta le contrasigno con le clave de recuperation del conto <span>pro continuar a configurar le { $serviceName }</span>
 account-recovery-confirm-key-instructions = Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Insere le clave de recuperation del conto provisori que tu ha immagazinate in un loco secur pro reganiar accesso a tu { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Nota:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como chronologia e marcapaginas).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1297,6 +1320,8 @@ confirm-signin-message = Consulta le ligamine de confirmation de accesso inviate
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Insere tu contrasigno <span>pro tu { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Insere tu contrasigno <span>pro tu { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
@@ -1353,6 +1378,10 @@ signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adju
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Insere codice de confirmation<span> pro tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 signin-token-code-input-label-v2 = Insere le codice de 6 cifras
@@ -1404,6 +1433,10 @@ confirm-signup-code-page-title = Insere le codice de confirmation
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Insere codice de confirmation<span> pro tu { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Insere codice de confirmation<span> pro tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 confirm-signup-code-input-label = Insere le codice de 6 cifras
