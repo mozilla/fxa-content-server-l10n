@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Jentrâ su { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Jentrâ tal to { -product-mozilla-account }?
 session-verify-send-push-body-2 = Fâs clic achì par confermâ la tô identitât
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Fâs clic achì par confermâ la tô identitâ
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo di { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronize dispositîfs">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositîfs">
 fxa-privacy-url = Informative su la riservatece di { -brand-mozilla }
+moz-accounts-privacy-url = Informative su la riservatece dai { -product-mozilla-accounts }
 fxa-service-url = Cundizions di ûs dal servizi di { -product-firefox-cloud }
+moz-accounts-terms-url = Cundizions di utilizazion dal servizi dai { -product-mozilla-accounts }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo di { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo di { -brand-mozilla }">
 subplat-automated-email = Cheste e je une e-mail inviade di un servizi automatic; se tu le âs ricevude par erôr, nol covente fâ nuie.
 subplat-privacy-notice = Informative su la riservatece
@@ -22,6 +27,10 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Tu ricevis cheste e-mail parcè che la direzion di pueste { $email } e je associade a un { -product-firefox-account } e tu ti sês regjistrât/regjistrade par { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Tu ricevis cheste e-mail parcè che la direzion { $email } e je associade a un { -product-mozilla-account } e tu âs fat la regjistrazion a { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tu ricevis cheste e-mail parcè che la direzion e-mail { $email } e je associade a un { -product-firefox-account }.
@@ -201,7 +210,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A coventin doi par sincronizâ
 cadReminderFirst-description-1 = Puartiti daûr lis tôs schedis su ducj i dispositîfs. Dopre i tiei segnelibris, lis passwords e altris dâts dapardut là che tu dopris { -brand-firefox }. Al è come vê la magjie tal to account { -brand-firefox }!
-cadReminderFirst-description-2 = Al puarte vie dome un secont par sincronizâ.
 cadReminderSecond-subject-2 = No sta pierdi nuie! Complete la configurazion par scomençâ a sincronizâ
 cadReminderSecond-action = Sincronize un altri dispositîf
 cadReminderSecond-title-2 = No sta dismenteâti di sincronizâ!
@@ -242,8 +250,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Gnûf acès a { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Al è stât doprât il to { -product-firefox-account } par jentrâ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +266,6 @@ passwordChangeRequired-title = Cambi di password necessari
 passwordChangeRequired-suspicious-activity = O vin rilevât ativitâts suspietis sul to { -product-firefox-account }. Par impedî acès no autorizâts al to { -product-firefox-account }, o vin disconetût ducj i dispositîfs associâts sul to account e, par precauzion, al è obligatori cambiâ la password.
 passwordChangeRequired-sign-in = Torne jentre su cualsisei dispositîf o servizi dulà che tu dopris il to { -product-firefox-account } e va daûr dai passaçs che ti vegnin presentâts.
 passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
-passwordChangeRequired-signoff = Cun cordialitât,
-passwordChangeRequired-signoff-name = Il grup pai { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Impuartant: sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 passwordReset-subject = Password inzornade
 passwordReset-title = La password dal to account e je stade modificade
