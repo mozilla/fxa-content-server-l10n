@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logger du ind på { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logger du ind på din { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klik her for at bekræfte, at det er dig
 
 ## Email content
@@ -8,11 +9,13 @@ session-verify-send-push-body-2 = Klik her for at bekræfte, at det er dig
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheder">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheder">
 fxa-privacy-url = { -brand-mozilla }s privatlivspolitik
 fxa-service-url = Servicevilkår for { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
 subplat-privacy-notice = Privatlivspolitik
@@ -24,10 +27,19 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har tilmeldt dig { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Du modtager denne mail, fordi { $email } har en { -product-mozilla-account }, og du har tilmeldt dig { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Du modtager denne mail, fordi { $email } har en { -product-mozilla-account }.
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har abonneret på flere produkter.
 subplat-explainer-was-deleted = Du modtager denne mail, fordi { $email } blev brugt til at registrere en { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Du modtager denne mail, fordi { $email } blev brugt til at registrere en { -product-mozilla-account }.
 subplat-manage-account = Håndter indstillingerne for din { -product-firefox-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
+subplat-manage-account-2 = Håndter indstillingerne for din { -product-mozilla-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Håndter dine { -product-firefox-account }-indstillinger ved at besøge din kontoside: { $accountSettingsUrl }
@@ -201,7 +213,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Der skal to til at synkronisere
 cadReminderFirst-description-1 = Se dine faneblade på alle af dine enheder. Få adgang til dine bogmærker, adgangskoder og andre data overalt, hvor du bruger { -brand-firefox }. Det er som at have magi i din { -brand-firefox }-konto!
-cadReminderFirst-description-2 = Det tager kun et sekund at synkronisere.
+cadReminderFirst-description-v2 = Se dine faneblade på alle af dine enheder. Få adgang til dine bogmærker, adgangskoder og andre data overalt, hvor du bruger { -brand-firefox }.
 cadReminderSecond-subject-2 = Gå ikke glip af noget! Lad os afslutte opsætningen af synkroniseringen
 cadReminderSecond-action = Synkroniser en enhed til
 cadReminderSecond-title-2 = Glem ikke at synkronisere!
@@ -216,6 +228,7 @@ downloadSubscription-title = Velkommen til { $productName }
 downloadSubscription-content-2 = Lad os komme i gang med at bruge alle funktionerne i dit abonnement:
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = Din { -product-firefox-account } blev slettet
+fraudulentAccountDeletion-subject-2 = Din { -product-mozilla-account } blev slettet
 fraudulentAccountDeletion-title = Din konto blev slettet
 fraudulentAccountDeletion-content = For nylig blev der oprettet en { -product-firefox-account }, og der blev opkrævet for et abonnement ved hjælp af denne mailadresse. Som vi gør med alle nye konti, bad vi dig bekræfte din konto ved først at validere denne mailadresse.
 fraudulentAccountDeletion-content-2 = På nuværende tidspunkt kan vi se, at kontoen aldrig blev bekræftet. Da dette trin ikke er blevet fuldført, er vi ikke sikre på, om dette var et godkendt abonnement. Som følge heraf blev den { -product-firefox-account }, der er registreret med denne mailadresse, slettet, dit abonnement blev annulleret og alle opkrævninger blev refunderet.
@@ -242,8 +255,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nyt login til { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Din { -product-firefox-account } blev brugt til at logge ind
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +271,6 @@ passwordChangeRequired-title = Ændring af adgangskode påkrævet
 passwordChangeRequired-suspicious-activity = Vi har konstateret mistænkelig adfærd på din { -product-firefox-account }. For at undgå uautoriseret adgang til din { -product-firefox-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
 passwordChangeRequired-sign-in = Log ind igen på en enheder eller tjeneste, hvor du bruger din { -product-firefox-account }. Følg derefter de beskrevne trin.
 passwordChangeRequired-different-password = <b>Vigtigt:</b> Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
-passwordChangeRequired-signoff = Med venlig hilsen
-passwordChangeRequired-signoff-name = Holdet bag { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordReset-subject = Adgangskode opdateret
 passwordReset-title = Adgangskoden til din konto blev er blevet ændret
