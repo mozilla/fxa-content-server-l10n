@@ -256,6 +256,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nyt login til { $clientName }
 newDeviceLogin-title-2 = Din { -product-firefox-account } blev brugt til at logge ind
+newDeviceLogin-title-3 = Din { -product-mozilla-account } blev brugt til at logge ind
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Var det ikke dig? <a data-l10n-name="passwordChangeLink">Skift din adgangskode</a>.
@@ -266,9 +267,11 @@ newDeviceLogin-action = Håndter konto
 passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
 passwordChanged-description = Adgangskoden til din { -product-firefox-account } blev ændret fra følgende enhed:
+passwordChanged-description-2 = Adgangskoden til din { -product-mozilla-account } blev ændret fra følgende enhed:
 passwordChangeRequired-subject = Mistænkelig aktivitet konstateret
 passwordChangeRequired-title = Ændring af adgangskode påkrævet
 passwordChangeRequired-suspicious-activity = Vi har konstateret mistænkelig adfærd på din { -product-firefox-account }. For at undgå uautoriseret adgang til din { -product-firefox-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
+passwordChangeRequired-suspicious-activity-2 = Vi har konstateret mistænkelig adfærd på din { -product-mozilla-account }. For at undgå uautoriseret adgang til din { -product-mozilla-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
 passwordChangeRequired-sign-in = Log ind igen på en enheder eller tjeneste, hvor du bruger din { -product-firefox-account }. Følg derefter de beskrevne trin.
 passwordChangeRequired-different-password = <b>Vigtigt:</b> Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
@@ -295,9 +298,13 @@ postAddAccountRecovery-action = Håndter konto
 postAddAccountRecovery-delete-key = Slet den nye nøgle:
 postAddAccountRecovery-changd-password = Skift din adgangskode:
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
+postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er blevet knyttet til din { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til din { -product-mozilla-account }
 postAddLinkedAccount-action = Håndter konto
 postAddTwoStepAuthentication-subject-2 = Totrinsgodkendelse er slået til
 postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
@@ -336,6 +343,9 @@ postRemoveSecondary-title = Sekundær mailadresse fjernet
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-mozilla-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveSecondary-action = Håndter konto
 postRemoveTwoStepAuthentication-subject-line-2 = Totrinsgodkendelse er slået fra
 postRemoveTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse fra
@@ -348,6 +358,7 @@ postVerify-title-2 = Vil du se det samme faneblad på to enheder?
 postVerify-description-2 = Det er nemt! Du skal bare installere { -brand-firefox } på en anden enhed og logge ind for at synkronisere. Det er som magi!
 postVerify-sub-description = (Psst… Det betyder også, at du kan få dine bogmærker, adgangskoder og andre { -brand-firefox }-data overalt, hvor du er logget ind).
 postVerify-subject-3 = Velkommen til { -brand-firefox }!
+postVerify-subject-4 = Velkommen til { -brand-mozilla }!
 postVerify-setup-2 = Forbind en anden enhed:
 postVerify-action-2 = Forbind andre enheder
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
@@ -355,6 +366,9 @@ postVerifySecondary-title = Sekundær mailadresse tilføjet
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-mozilla-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title-2 = Glemt din adgangskode?
@@ -381,16 +395,20 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Angiv d
 subscriptionAccountFinishSetup-title = Velkommen til { $productName }
 subscriptionAccountFinishSetup-content-processing = Din betaling behandles og kan tage op til fire arbejdsdage at gennemføre. Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 subscriptionAccountFinishSetup-content-create-2 = Opret herefter en adgangskode til { -product-firefox-account } for at begynde at bruge dit nye abonnement.
+subscriptionAccountFinishSetup-content-create-3 = Opret herefter en adgangskode til { -product-mozilla-account } for at begynde at bruge dit nye abonnement.
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påmindelse: Færdiggør opsætningen af din konto
 subscriptionAccountReminderFirst-title = Du kan ikke få adgang til dit abonnement endnu
 subscriptionAccountReminderFirst-content-info-2 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
+subscriptionAccountReminderFirst-content-info-3 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
 subscriptionAccountReminderFirst-content-select-2 = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
 subscriptionAccountReminderFirst-action = Opret adgangskode
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Sidste påmindelse: Opsæt din konto
 subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Velkommen til { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
+subscriptionAccountReminderSecond-content-info-3 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
 subscriptionAccountReminderSecond-content-select-2 = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
 subscriptionAccountReminderSecond-action = Opret adgangskode
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -544,11 +562,14 @@ unblockCode-report = Hvis det ikke er, så hjælp os med at afværge ubudne gæs
 unblockCode-report-plaintext = Hvis det ikke er, så hjælp os med at afværge ubudne gæster og rapportér det til os.
 verificationReminderFinal-subject = Sidste påmindelse om at bekræfte din konto
 verificationReminderFinal-description = For et par uger siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi vil af sikkerhedsmæssige årsager slette kontoen, hvis den ikke bekræftes inden for 24 timer.
+verificationReminderFinal-description-2 = For et par uger siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Vi vil af sikkerhedsmæssige årsager slette kontoen, hvis den ikke bekræftes inden for 24 timer.
 confirm-account = Bekræft konto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Husk at bekræfte din konto
 verificationReminderFirst-title-2 = Velkommen til { -brand-firefox }!
+verificationReminderFirst-title-3 = Velkommen til { -brand-mozilla }!
 verificationReminderFirst-description-2 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 15 dage, ellers bliver den slettet automatisk.
+verificationReminderFirst-description-3 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 15 dage, ellers bliver den slettet automatisk.
 verificationReminderFirst-sub-description-3 = Gå ikke glip af browseren, der sætter dig og dit privatliv i første række.
 confirm-email-2 = Bekræft konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -556,6 +577,7 @@ verificationReminderFirst-action-2 = Bekræft konto
 verificationReminderSecond-subject-2 = Husk at bekræfte din konto
 verificationReminderSecond-title-2 = Gå ikke glip af { -brand-firefox }!
 verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
+verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-second-description = Din { -product-firefox-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
