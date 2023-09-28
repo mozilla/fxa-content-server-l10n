@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-03-04 08:52+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2023-09-28 22:00+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "A Firefox fiókokhoz JavaScript szükséges."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "A Mozilla fiókokhoz JavaScript szükséges."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -98,7 +98,7 @@ msgstr "Legfrissebb letöltése"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-fiók"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -107,3 +107,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Mozilla-fiókja olyan szolgáltatásokat használ, mint\n"
+"nem támogatott a Firefox ezen verziójában. Kérem\n"
+"töltse le és telepítse a Firefox legújabb verzióját\n"
+"folytatás."

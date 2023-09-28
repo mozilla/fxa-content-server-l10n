@@ -64,10 +64,12 @@ input-error-is-required = { $label } szükséges
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } logó
+brand-name-mozilla-logo = { -brand-mozilla } logó
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
+new-user-sign-in-link-2 = Már van { -product-mozilla-account }ja? <a>Jelentkezzen be</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -415,6 +417,7 @@ coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan 
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
+new-user-step-1-2 = 1. Hozzon létre egy { -product-mozilla-account }ot
 new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
 
@@ -444,10 +447,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Módosítás áttekintése
 sub-change-failed = Az előfizetés módosítása sikertelen
-sub-update-copy =
-    A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
-    módosított összeget fog fizetni. A következő dátumtól kezdve a teljes összeg
-    kerül kiszámlázásra: { $startingDate }.
 sub-update-acknowledgment =
     A csomagja azonnal megváltozik, és a mai napon arányos összeget
     fog fizetni a számlázási időszak hátralévő részéből. A következő dátumtól
