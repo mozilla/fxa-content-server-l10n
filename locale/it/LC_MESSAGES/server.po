@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-02-19 17:19+0000\n"
-"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
+"PO-Revision-Date: 2023-09-28 22:01+0000\n"
+"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "Per poter utilizzare Account Firefox è necessario attivare JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Gli account Mozilla richiedono JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -88,7 +88,7 @@ msgstr "Scarica l’ultima versione"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "account Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -97,3 +97,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Il tuo account Mozilla utilizza funzionalità che sono\n"
+"non è supportato nella tua versione di Firefox. Per favore\n"
+"scarica e installa l’ultima versione di Firefox su\n"
+"continua."
