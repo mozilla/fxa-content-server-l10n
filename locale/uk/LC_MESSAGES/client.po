@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2023-09-15 19:06+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -840,7 +840,9 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами користування</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Положенням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -911,7 +913,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Введіть свій одноразовий ключ відновлення, щоб поновити доступ до облікового запису Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">ПРИМІТКА:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включаючи історію перегляду й закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -926,6 +929,10 @@ msgstr "Підтвердьте ключ відновлення обліково�
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
 msgstr "Не маєте ключа відновлення облікового запису?"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1068,6 +1075,10 @@ msgstr "Код застарів?"
 msgid "Email new code."
 msgstr "Надіслати новий код електронною поштою."
 
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgstr ""
+
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "Під'єднати інший пристрій"
@@ -1132,8 +1143,11 @@ msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про "
+"приватність</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1142,6 +1156,10 @@ msgstr "Використати інший обліковий запис"
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Забули пароль?"
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1166,6 +1184,14 @@ msgstr "Зареєструватися або увійти"
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Обліковий запис Firefox також відкриває доступ до більшої кількості продуктів Mozilla для захисту приватності."
+
+#: .es5/templates/index.mustache:15
+msgid "Continue to your Mozilla account"
+msgstr ""
+
+#: .es5/templates/index.mustache:16
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1333,8 +1359,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми шифруємо"
-" дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
+"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми "
+"шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1392,14 +1418,17 @@ msgstr "Ця адреса електронної пошти вам більше 
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Firefox.\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Firefox.\n"
 "          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1433,6 +1462,10 @@ msgstr "Введіть код підтвердження <span class=\"card-subh
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "Введіть код, надісланий на %(email)s упродовж 5 хвилин."
+
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1490,14 +1523,17 @@ msgstr "Створити обліковий запис"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Firefox.\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами користування</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами користування</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Firefox.\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1567,6 +1603,10 @@ msgstr "Надіслати"
 #: .es5/templates/support.mustache:23
 msgid "Terms of Service"
 msgstr "Умови користування"
+
+#: .es5/templates/support.mustache:25
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1692,6 +1732,11 @@ msgstr "Введіть новий пароль ще раз"
 msgid "Change password"
 msgstr "Змінити пароль"
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:11
+msgid ""
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Цей Firefox під'єднано"
@@ -1732,6 +1777,10 @@ msgstr "Введіть пароль"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Підтвердити пароль"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2037,7 +2086,8 @@ msgid "Or download"
 msgstr "Або завантажте"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Скануйте, щоб завантажити Firefox для мобільних пристроїв, або надішліть собі <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">посилання для завантаження.</a>"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2022-01-16 22:30+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,10 @@ msgstr "Cargando"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox Accounts requiere JavaScript."
 
+#: server/templates/pages/src/index.html:4
+msgid "Mozilla accounts require JavaScript."
+msgstr ""
+
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
 msgstr "Se necesita actualizar Firefox"
@@ -90,3 +94,15 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Descargar la última versión"
+
+#: server/templates/pages/src/update_firefox.html:5
+msgid "Mozilla account"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid ""
+"Your Mozilla account makes use of features that are\n"
+"not supported in your version of Firefox. Please\n"
+"download and install the latest version of Firefox to\n"
+"continue."
+msgstr ""

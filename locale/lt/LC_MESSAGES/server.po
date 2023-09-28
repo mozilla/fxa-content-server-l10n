@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2019-07-27 10:22+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,10 @@ msgstr "Įkeliama"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "„Firefox“ paskyroms reikia „Javascript“."
 
+#: server/templates/pages/src/index.html:4
+msgid "Mozilla accounts require JavaScript."
+msgstr ""
+
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
 msgstr "Būtinas „Firefox“ atnaujinimas"
@@ -85,3 +89,15 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Atsisiųsti paskiausią"
+
+#: server/templates/pages/src/update_firefox.html:5
+msgid "Mozilla account"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:6
+msgid ""
+"Your Mozilla account makes use of features that are\n"
+"not supported in your version of Firefox. Please\n"
+"download and install the latest version of Firefox to\n"
+"continue."
+msgstr ""

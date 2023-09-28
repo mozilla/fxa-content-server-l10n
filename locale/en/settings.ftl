@@ -185,6 +185,7 @@ form-verify-code-default-error = This field is required
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } account recovery key
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } backup authentication codes
+get-data-trio-title-backup-verification-codes = Backup authentication codes
 get-data-trio-download-2 =
   .title = Download
   .aria-label = Download
@@ -326,7 +327,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento Menu
+bento-menu-title-2 = { -brand-mozilla } Bento Menu
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
+bento-menu-mozilla-title = { -brand-mozilla } is tech that fights for your online privacy.
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -401,11 +404,13 @@ cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to
   keep your information safe, you should change your { -product-firefox-account } password
   in your account settings. You should also look for information from your
   device manufacturer about erasing your data remotely.
+cs-disconnect-lost-advice-content-3 = Since your device was lost or stolen, to keep your information safe, you should change your { -product-mozilla-account } password in your account settings. You should also look for information from your device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
 cs-disconnect-suspicious-advice-content = If the disconnected device is indeed
   suspicious, to keep your information safe, you should change your { -product-firefox-account }
   password in your account settings. You should also change any other
   passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
+cs-disconnect-suspicious-advice-content-2 = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-mozilla-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
 
 cs-sign-out-button = Sign out
 
@@ -415,15 +420,20 @@ cs-sign-out-button = Sign out
 
 dc-heading = Data Collection and Use
 dc-subheader = Help improve { -product-firefox-accounts }
+dc-subheader-2 = Help improve { -product-mozilla-accounts }
 dc-subheader-content = Allow { -product-firefox-accounts } to send technical and interaction data to { -brand-mozilla }.
+dc-subheader-content-2 = Allow { -product-mozilla-accounts } to send technical and interaction data to { -brand-mozilla }.
 dc-opt-out-success = Opt out successful. { -product-firefox-accounts } won’t send technical or interaction data to { -brand-mozilla }.
+dc-opt-out-success-2 = Opt out successful. { -product-mozilla-accounts } won’t send technical or interaction data to { -brand-mozilla }.
 dc-opt-in-success = Thanks! Sharing this data helps us improve { -product-firefox-accounts }.
+dc-opt-in-success-2 = Thanks! Sharing this data helps us improve { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Sorry, there was a problem changing your data collection preference
 dc-learn-more = Learn more
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menu
+drop-down-menu-title-2 = { -product-mozilla-account } menu
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -508,13 +518,14 @@ flow-recovery-key-info-cta-text-v3 = Get started
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancel
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Close menu
 header-menu-closed = Site navigation menu
 header-back-to-top-link =
   .title = Back to top
 header-title = Firefox Account
+header-title-2 = { -product-mozilla-account }
 header-help = Help
 
 ## Linked Accounts section
@@ -644,8 +655,10 @@ delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 
 delete-account-confirm-title-3 = You may have connected your { -product-firefox-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
+delete-account-confirm-title-4 = You may have connected your { -product-mozilla-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
 
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -671,7 +684,6 @@ delete-account-continue-button = Continue
 
 delete-account-password-input =
  .label = Enter password
- 
 pocket-delete-notice = If you subscribe to Pocket Premium, please make sure that you <a>cancel your subscription</a> before deleting your account.
 
 delete-account-cancel-button = Cancel
@@ -979,12 +991,20 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = By proceeding, you agree to:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = By proceeding, you agree to the:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }’s <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization:"uppercase") } <mozillaAccountsTos>Terms of Service</mozillaAccountsTos> and <mozillaAccountsPrivacy>Privacy Notice</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = By proceeding, you agree to the <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = By proceeding, you agree to the <mozillaAccountsTos>Terms of Service</mozillaAccountsTos> and <mozillaAccountsPrivacy>Privacy Notice</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1027,6 +1047,7 @@ auth-error-1011 = Valid email required
 
 cannot-create-account-header = Cannot create account
 cannot-create-account-requirements = You must meet certain age requirements to create a { -product-firefox-account }.
+cannot-create-account-requirements-2 = You must meet certain age requirements to create a { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Learn more
 
@@ -1061,6 +1082,7 @@ connect-another-device-ios-complete-setup-message = Sign in to { -brand-firefox 
 
 cookies-disabled-header = Local storage and cookies are required
 cookies-disabled-enable-prompt = Please enable cookies and local storage in your browser to access { -product-firefox-accounts }. Doing so will enable functionality such as remembering you between sessions.
+cookies-disabled-enable-prompt-2 = Please enable cookies and local storage in your browser to access your { -product-mozilla-account }. Doing so will enable functionality such as remembering you between sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Try again
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1274,6 +1296,7 @@ account-recovery-confirm-key-heading-w-default-service = Reset password with acc
 account-recovery-confirm-key-heading-w-custom-service = Reset password with account recovery key <span>to continue to { $serviceName }</span>
 
 account-recovery-confirm-key-instructions = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-mozilla-account }.
 
 account-recovery-confirm-key-warning-message = <span>Note:</span> If you reset your password and don’t have your account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks).
 # Prompts the user to enter their account recovery code
@@ -1357,6 +1380,8 @@ confirm-signin-message = Check your email for the sign-in confirmation link sent
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Enter your password <span>for your { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Enter your password <span>for your { -product-mozilla-account }</span>
 
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
@@ -1416,6 +1441,10 @@ signin-reported-message = Our team has been notified. Reports like this help us 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Enter confirmation code<span> for your { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Enter confirmation code<span> for your { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
 signin-token-code-input-label-v2 = Enter 6-digit code
@@ -1466,6 +1495,10 @@ confirm-signup-code-page-title = Enter confirmation code
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Enter confirmation code <span>for your { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Enter confirmation code <span>for your { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
 confirm-signup-code-input-label = Enter 6-digit code

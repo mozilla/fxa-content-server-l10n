@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 16:25+0000\n"
+"POT-Creation-Date: 2023-09-28 20:09+0000\n"
 "PO-Revision-Date: 2023-09-27 10:08+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -840,8 +840,11 @@ msgid "Invalid Token"
 msgstr "Virheellinen poletti"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojaselosteen</a>."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jatkamalla hyväksyt palvelun %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">käyttöehdot</a> ja <a id=\"service-pp\" href=\"%(privacyUri)s\">tietosuojaselosteen</a>."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -909,7 +912,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään Firefox-tiliäsi."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">HUOMAA:</span> Jos nollaat salasanasi etkä ole tallentanut palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja "
 "kirjanmerkit)."
@@ -926,6 +930,10 @@ msgstr "Vahvista tilin palautusavain"
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
 msgstr "Eikö sinulla ole tilin palautusavainta?"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:12
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
+msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -956,8 +964,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>MUISTA:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme"
-" tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta Pocketissa oleviin tietoihin."
+"<span>MUISTA:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että "
+"salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta Pocketissa oleviin tietoihin."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1068,6 +1076,10 @@ msgstr "Vanheniko koodi?"
 msgid "Email new code."
 msgstr "Lähetä uusi koodi sähköpostiin."
 
+#: .es5/templates/confirm_signup_code.mustache:8
+msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
+msgstr ""
+
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "Yhdistä toinen laite"
@@ -1132,7 +1144,8 @@ msgstr "Salasana"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Jatkamalla hyväksyt <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
@@ -1142,6 +1155,10 @@ msgstr "Käytä toista tiliä"
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
 msgid "Forgot password?"
 msgstr "Unohditko salasanan?"
+
+#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
+msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1166,6 +1183,14 @@ msgstr "Rekisteröidy tai kirjaudu sisään"
 #: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "Firefox-tili avaa myös pääsyn muihin Mozillan yksityisyyttä suojaaviin tuotteisiin."
+
+#: .es5/templates/index.mustache:15
+msgid "Continue to your Mozilla account"
+msgstr ""
+
+#: .es5/templates/index.mustache:16
+msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1333,8 +1358,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>HUOMIO:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että salaamme"
-" tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta Pocketissa oleviin tietoihin."
+"<span>HUOMIO:</span> Kun nollaat salasanasi, nollaat tilisi. Saatat menettää osan henkilökohtaisista tiedoistasi (mukaan lukien historia, kirjanmerkit ja salasanat). Tämä johtuu siitä, että "
+"salaamme tietosi salasanallasi suojellaksemme yksityisyyttäsi. Säilytät silti mahdolliset tilauksesi, eikä salasanan nollaus vaikuta Pocketissa oleviin tietoihin."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1392,13 +1417,15 @@ msgstr "Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? L
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "          "
 msgstr ""
 "\n"
 "            Jatkamalla hyväksyt:<br />\n"
-"            Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">tietosuojakäytännön</a><br />\n"
+"            Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">tietosuojakäytännön</a><br />\n"
 "            Firefoxin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>.\n"
 "          "
 
@@ -1433,6 +1460,10 @@ msgstr "Anna vahvistuskoodi <span class=\"card-subheader\">Firefox-tilillesi</sp
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr "Kirjoita osoitteeseen %(email)s lähetetty vahvistuskoodi 5 minuutin kuluessa."
+
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1472,7 +1503,8 @@ msgstr "Toista salasana"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Tarvitset tätä salasanaa, jotta voit käyttää palveluihimme tallennettuja salattuja tietojasi.<br class=\"mb-3\">Nollaus tarkoittaa, että saatat menettää tietosi, kuten salasanat ja kirjanmerkit."
+msgstr ""
+"Tarvitset tätä salasanaa, jotta voit käyttää palveluihimme tallennettuja salattuja tietojasi.<br class=\"mb-3\">Nollaus tarkoittaa, että saatat menettää tietosi, kuten salasanat ja kirjanmerkit."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1490,13 +1522,15 @@ msgstr "Luo tili"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Jatkamalla hyväksyt:<br />\n"
-"            Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">tietosuojakäytännön</a><br />\n"
+"            Pocketin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/"
+"\">tietosuojakäytännön</a><br />\n"
 "            Firefoxin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojakäytännön</a>\n"
 "          "
 
@@ -1567,6 +1601,10 @@ msgstr "Lähetä"
 #: .es5/templates/support.mustache:23
 msgid "Terms of Service"
 msgstr "Käyttöehdot"
+
+#: .es5/templates/support.mustache:25
+msgid "Mozilla account"
+msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1690,6 +1728,11 @@ msgstr "Kirjoita uusi salasana uudestaan"
 msgid "Change password"
 msgstr "Muuta salasana"
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:11
+msgid ""
+"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
+msgstr ""
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Tämä Firefox on yhdistetty"
@@ -1730,6 +1773,10 @@ msgstr "Kirjoita salasana"
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Vahvista salasana"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
+msgid "Create a Mozilla account"
+msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2034,8 +2081,11 @@ msgid "Or download"
 msgstr "Tai lataa"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "Skannaa ladataksesi Firefox mobiililaitteille tai lähetä itsellesi <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">latauslinkki.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+"Skannaa ladataksesi Firefox mobiililaitteille tai lähetä itsellesi <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">latauslinkki.</a>"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "QR code"
