@@ -281,6 +281,7 @@ passwordChangeRequired-title = Ændring af adgangskode påkrævet
 passwordChangeRequired-suspicious-activity = Vi har konstateret mistænkelig adfærd på din { -product-firefox-account }. For at undgå uautoriseret adgang til din { -product-firefox-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
 passwordChangeRequired-suspicious-activity-2 = Vi har konstateret mistænkelig adfærd på din { -product-mozilla-account }. For at undgå uautoriseret adgang til din { -product-mozilla-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
 passwordChangeRequired-sign-in = Log ind igen på en enheder eller tjeneste, hvor du bruger din { -product-firefox-account }. Følg derefter de beskrevne trin.
+passwordChangeRequired-sign-in-2 = Log ind igen på en enhed eller tjeneste, hvor du bruger din { -product-mozilla-account }. Følg derefter de beskrevne trin.
 passwordChangeRequired-different-password = <b>Vigtigt:</b> Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordReset-subject = Adgangskode opdateret
@@ -325,6 +326,9 @@ postChangePrimary-title = Ny primær mailadresse
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har ændret din primære mailadresse til { $email }. Den mailadresse er nu dit brugernavn, som du skal bruge til at logge ind på din { -product-firefox-account } og til at modtage sikkerhedsmeddelelser og login-bekræftelser.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Du har ændret din primære mailadresse til { $email }. Denne mailadresse fungerer nu som brugernavn, når du skal logge ind på din { -product-mozilla-account }. Vi bruger den også til at sende sikkerhedsmeddelelser og login-bekræftelser.
 postChangePrimary-action = Håndter konto
 postConsumeRecoveryCode-title-2 = Du har brugt en reserve-godkendelseskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -383,6 +387,9 @@ recovery-title-2 = Glemt din adgangskode?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Vi har modtaget en anmodning om at ændre adgangskoden på din { -product-firefox-account } fra:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
 recovery-new-password-button = Opret en ny adgangskode ved at klikke på knappen nedenfor. Dette link udløber inden for den næste time.
 recovery-copy-paste = Opret en ny adgangskode ved at kopiere og indsætte URL'en nedenfor i din browser. Dette link udløber inden for den næste time.
 recovery-action = Opret ny adgangskode
@@ -395,6 +402,11 @@ subscriptionAccountDeletion-title = Vi er kede af, at du opsiger dit abonnement
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du har for nylig slettet din { -product-firefox-account }. Derfor har vi annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Du har for nylig slettet din { -product-mozilla-account }. Vi har derfor annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Angiv din adgangskode.
@@ -627,7 +639,7 @@ verifySecondaryCode-action-2 = Bekræft mailadresse
 verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer-2 = Fra følgende { -product-mozilla-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
+verifySecondaryCode-explainer-2 = Den følgende { -product-mozilla-account } har anmodet om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
 # Variables:
