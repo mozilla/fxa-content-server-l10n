@@ -171,6 +171,7 @@ form-verify-code-default-error = Este campo é obrigatório
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Chave de recuperação de conta { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticação de backup do { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Códigos de autenticação de backup
 get-data-trio-download-2 =
     .title = Baixar
     .aria-label = Baixar
@@ -308,6 +309,7 @@ avatar-default-avatar =
 
 bento-menu-title = Menu de produtos e serviços { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } é tecnologia que defende sua privacidade online.
+bento-menu-mozilla-title = { -brand-mozilla } é tecnologia que defende sua privacidade online.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -371,8 +373,10 @@ cs-disconnect-sync-opt-not-say = Prefiro não dizer
 cs-disconnect-advice-confirm = Ok, entendi
 cs-disconnect-lost-advice-heading = Desconectado dispositivo perdido ou roubado
 cs-disconnect-lost-advice-content-2 = Como seu dispositivo foi perdido ou roubado, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve buscar informações do fabricante do dispositivo sobre como apagar seus dados remotamente.
+cs-disconnect-lost-advice-content-3 = Como seu dispositivo foi perdido ou roubado, para manter suas informações seguras, você deve alterar a senha da sua { -product-mozilla-account } nas configurações da conta. Também deve buscar informações do fabricante do dispositivo sobre como apagar seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Desconectado dispositivo suspeito
 cs-disconnect-suspicious-advice-content = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
+cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-mozilla-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
 cs-sign-out-button = Sair
 
 ##
@@ -382,15 +386,20 @@ cs-sign-out-button = Sair
 
 dc-heading = Coleta e uso de dados
 dc-subheader = Ajude a melhorar o { -product-firefox-accounts }
+dc-subheader-2 = Ajude a melhorar as { -product-mozilla-accounts }
 dc-subheader-content = Permita que { -product-firefox-accounts } envie dados técnicos e de interação para a { -brand-mozilla }.
+dc-subheader-content-2 = Permitir que { -product-mozilla-accounts } envie dados técnicos e de interação para a { -brand-mozilla }.
 dc-opt-out-success = Opção por não permitir feita com sucesso. { -product-firefox-accounts } não enviará dados técnicos ou de interação para a { -brand-mozilla }.
+dc-opt-out-success-2 = Opção por não permitir feita com sucesso. { -product-mozilla-accounts(capitalization: "uppercase") } não irá enviar dados técnicos ou de interação para a { -brand-mozilla }.
 dc-opt-in-success = Obrigado! Compartilhar esses dados nos ajuda a melhorar o { -product-firefox-accounts }.
+dc-opt-in-success-2 = Obrigado! Compartilhar esses dados nos ajuda a melhorar as { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Desculpe, houve um problema ao alterar sua preferência de coleta de dados
 dc-learn-more = Saiba mais
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu da { -product-firefox-account }
+drop-down-menu-title-2 = Menu da { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -472,13 +481,14 @@ flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Fechar menu
 header-menu-closed = Menu de navegação do site
 header-back-to-top-link =
     .title = Voltar ao início
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
 header-help = Ajuda
 
 ## Linked Accounts section

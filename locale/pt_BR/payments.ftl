@@ -64,6 +64,7 @@ brand-name-mozilla-logo = Logotipo da { -brand-mozilla }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Já tem uma Conta { -brand-name-firefox }? <a>Entre</a>
+new-user-sign-in-link-2 = Já tem uma { -product-mozilla-account }? <a>Entre</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
