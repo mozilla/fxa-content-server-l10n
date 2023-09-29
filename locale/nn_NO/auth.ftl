@@ -478,10 +478,12 @@ unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
 unblockCode-report = Om ikkje, hjelp oss med å avverje inntrengarar og <a data-l10n-name="reportSignInLink">rapporter dette til oss</a>.
 unblockCode-report-plaintext = Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss.
+verificationReminderFinal-subject = Siste påminning om å stadfeste kontoen din.
 confirm-account = Stadfest kontoen
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderFirst-title-2 = Velkomen til { -brand-firefox }!
+verificationReminderFirst-title-3 = Velkomen til { -brand-mozilla }!
 confirm-email-2 = Stadfest kontoen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Stadfest kontoen
@@ -489,6 +491,9 @@ verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verificationReminderSecond-title-2 = Gå ikkje glipp av { -brand-firefox }!
 verificationReminderSecond-action-2 = Stadfest kontoen
 verify-title-2 = Opne internett med { -brand-firefox }
+verify-title-3 =
+    Opne internett med
+     { -brand-mozilla }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
@@ -518,6 +523,9 @@ verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Stadfest kontoen din
 verifyShortCode-title-2 = Opne internett med { -brand-firefox }
+verifyShortCode-title-3 =
+    Opne internett med
+     { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verifyShortCode-prompt-3 = Bruk denne stadfestingskoden
