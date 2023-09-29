@@ -308,7 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox }ov meni
-bento-menu-title-2 = { -brand-mozilla } Meni Bento
+bento-menu-title-2 = { -brand-mozilla } Meni bento
 bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vašo zasebnost na spletu.
 bento-menu-mozilla-title = { -brand-mozilla } je tehnologija, ki se bori za vašo spletno zasebnost.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -384,7 +384,7 @@ cs-disconnect-lost-advice-content-2 =
     zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") } v
     nastavitvah računa. Prav tako pri proizvajalcu naprave preverite, ali
     obstaja možnost izbrisa podatkov na daljavo.
-cs-disconnect-lost-advice-content-3 = Ker je bila vaša naprava izgubljena ali ukradena, za zaščito vaših podatkov v nastavitvah računa spremenite geslo za { -product-mozilla-account }. Pri proizvajalcu naprave se obrnite tudi na informacije o brisanju podatkov na daljavo.
+cs-disconnect-lost-advice-content-3 = Ker je bila vaša naprava izgubljena oziroma ukradena, morate zaradi varnosti svojih podatkov spremeniti geslo { -product-mozilla-account(sklon: "rodilnik") } v nastavitvah. Prav tako pri proizvajalcu naprave preverite, ali obstaja možnost za izbris podatkov na daljavo.
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
 cs-disconnect-suspicious-advice-content =
     Če je naprava, ki ste jo odklopili, res sumljiva,
