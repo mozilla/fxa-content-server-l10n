@@ -963,7 +963,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Słužbne wuměnjenja</pocketTos> 
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Wužiwanske wuměnjenja</firefoxTos> a <firefoxPrivacy>zdźělenka priwatnosće</firefoxPrivacy> { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Wužiwanskr wuměnjenja</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Wužiwanske wuměnjenja</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Hdyž pokročujeće, zwoliće do <firefoxTos>wužiwanskich wuměnjenjow</firefoxTos> a <firefoxPrivacy>zdźělenki priwatnosće</firefoxPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
