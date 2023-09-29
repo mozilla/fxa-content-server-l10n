@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 16:26+0000\n"
+"PO-Revision-Date: 2023-09-29 16:35+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1465,7 +1465,7 @@ msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης που
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης <span class=\"card-subheader\">για τον λογαριασμό Mozilla σας</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"

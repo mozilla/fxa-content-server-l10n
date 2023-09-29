@@ -1314,6 +1314,8 @@ confirm-signin-message = Ελέγξτε το email σας για τον σύνδ
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Εισαγάγετε τον κωδικό πρόσβασης <span>του { -product-firefox-account(case: "gen", capitalization: "lower") } σας</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Εισαγάγετε τον κωδικό πρόσβασης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
@@ -1370,6 +1372,10 @@ signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email } εντός 5 λεπτών.
 signin-token-code-input-label-v2 = Εισαγάγετε τον 6-ψήφιο κωδικό
@@ -1421,6 +1427,10 @@ confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβα�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email }, εντός 5 λεπτών.
 confirm-signup-code-input-label = Εισαγάγετε τον 6-ψήφιο κωδικό
