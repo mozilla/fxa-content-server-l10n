@@ -57,6 +57,7 @@ input-error-is-required = { $label } er påkravd
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-logo
+brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
@@ -355,10 +356,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Sjå gjennom endringa
 sub-change-failed = Mislykka endring av plan
-sub-update-copy =
-    Planen din vil endrast med ein gong, og du vil bli belasta eit justert
-    beløp for resten av faktureringssyklusen. Frå og med { $startingDate }
-    vert du belasta med heile beløpet.
 sub-change-submit = Stadfest endring
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
