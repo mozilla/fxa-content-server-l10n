@@ -171,6 +171,7 @@ form-verify-code-default-error = Αυτό το πεδίο απαιτείται
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης
 get-data-trio-download-2 =
     .title = Λήψη
     .aria-label = Λήψη
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Μενού Bento του { -brand-firefox }
+bento-menu-title-2 = Μενού bento της { -brand-mozilla }
 bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
+bento-menu-mozilla-title = { -brand-mozilla }: τεχνολογία που μάχεται για το διαδικτυακό σας απόρρητο.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -405,6 +408,7 @@ dc-learn-more = Μάθετε περισσότερα
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capitalization: "lower") }
+drop-down-menu-title-2 = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,13 +490,14 @@ flow-recovery-key-info-cta-text-v3 = Έναρξη
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Ακύρωση
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Κλείσιμο μενού
 header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = Λογαριασμός Firefox
+header-title-2 = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 header-help = Βοήθεια
 
 ## Linked Accounts section
@@ -621,6 +626,7 @@ delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
 delete-account-confirm-title-3 = Ίσως έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -992,6 +998,7 @@ auth-error-1011 = Απαιτείται έγκυρο email
 
 cannot-create-account-header = Αδυναμία δημιουργίας λογαριασμού
 cannot-create-account-requirements = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-firefox-account(case: "gen", capitalization: "lower") }.
+cannot-create-account-requirements-2 = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-mozilla-account(case: "gen", capitalization: "lower") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Μάθετε περισσότερα
 
