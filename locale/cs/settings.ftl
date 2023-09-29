@@ -953,6 +953,8 @@ terms-privacy-agreement-pocket = <pocketTos>Podmínky poskytování služby</poc
 terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaTos>Podmínky poskytování služby</mozillaTos> a <mozillaPrivacy>Oznámení o ochraně osobních údajů</mozillaPrivacy> { -product-mozilla-accounts(case: "gen") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Pokračováním vyjadřujete souhlas s <firefoxTos>Podmínkami poskytování služby</firefoxTos> a <firefoxPrivacy>Oznámením o ochraně osobních údajů</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1034,6 +1036,7 @@ connect-another-device-ios-complete-setup-message = Pro dokončení nastavení s
 
 cookies-disabled-header = Je vyžadováno místní úložiště a cookies
 cookies-disabled-enable-prompt = Abyste mohli používat { -product-firefox-accounts(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
+cookies-disabled-enable-prompt-2 = Abyste mohli používat { -product-mozilla-account(case: "acc", capitalization: "lower") }, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Zkusit znovu
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1234,6 +1237,7 @@ account-recovery-confirm-key-heading-w-default-service = Obnovte heslo pomocí k
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Obnovte heslo pomocí obnovovacího klíče k účtu a <span>pokračujte do služby { $serviceName }</span>
 account-recovery-confirm-key-instructions = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou smazána.
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1314,6 +1318,8 @@ confirm-signin-message = Zkontrolujte potvrzovací odkaz, který jsme poslali na
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Zadejte své heslo <span>k účtu { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Zadejte své heslo <span>k účtu { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
@@ -1370,6 +1376,10 @@ signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pom�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Zadejte potvrzovací kód<span> pro váš { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Zadejte potvrzovací kód<span> pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
@@ -1421,6 +1431,10 @@ confirm-signup-code-page-title = Zadejte potvrzovací kód
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Zadejte potvrzovací kód<span>pro svůj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Zadejte potvrzovací kód<span>pro svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 confirm-signup-code-input-label = Zadejte šestimístný kód
