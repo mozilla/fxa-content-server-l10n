@@ -171,6 +171,7 @@ form-verify-code-default-error = Toto pole je povinné
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Klíč k obnovení účtu { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Záložní ověřovací kódy pro účet { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Záložní ověřovací kódy
 get-data-trio-download-2 =
     .title = Stáhnout
     .aria-label = Stáhnout
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Nabídka { -brand-firefox(case: "gen") }
+bento-menu-title-2 = Nabídka { -brand-mozilla(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za vaše soukromí na internetu.
+bento-menu-mozilla-title = { -brand-mozilla } je technologie, která bojuje za vaše soukromí na internetu.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -375,6 +378,10 @@ cs-disconnect-lost-advice-heading = Ztracené nebo ukradené zařízení bylo od
 cs-disconnect-lost-advice-content-2 =
     Pokud bylo vaše zařízení ztraceno nebo ukradeno,
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
+    Doporučujeme také u výrobce svého zařízení zjistit možnosti pro jeho vzdálené vymazání.
+cs-disconnect-lost-advice-content-3 =
+    Pokud bylo vaše zařízení ztraceno nebo ukradeno,
+    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-mozilla-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také u výrobce svého zařízení zjistit možnosti pro jeho vzdálené vymazání.
 cs-disconnect-suspicious-advice-heading = Podezřelé zařízení bylo odpojeno
 cs-disconnect-suspicious-advice-content =
@@ -480,7 +487,7 @@ flow-recovery-key-info-cta-text-v3 = Začít
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušit
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Zavřít nabídku
 header-menu-closed = Nabídka navigace na webu

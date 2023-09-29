@@ -41,3 +41,5 @@ app-logo-alt =
     .alt = Logo { -brand-firefox(case: "gen") }
 app-logo-alt-2 =
     .alt = logo { -brand-mozilla(case: "gen") }
+app-logo-alt-3 =
+    .alt = Logo { -brand-mozilla } m

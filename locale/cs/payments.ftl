@@ -134,6 +134,7 @@ brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
+new-user-sign-in-link-2 = Už máte { -product-mozilla-account(capitalization: "lower") }? <a>Přihlaste se</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -533,6 +534,7 @@ coupon-success-repeating = Vaše předplatné se po { $couponDurationDate } auto
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Vytvořte si účet { -brand-name-firefox(case: "gen") }
+new-user-step-1-2 = 1. Vytvoření { -product-mozilla-account(case: "gen", capitalization: "lower") }
 new-user-card-title = Zadejte informace o platební kartě
 new-user-submit = Odebírat
 
