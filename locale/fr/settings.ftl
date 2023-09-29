@@ -376,10 +376,10 @@ cs-disconnect-sync-opt-not-say = Je préfère ne rien indiquer
 cs-disconnect-advice-confirm = J’ai compris
 cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconnecté
 cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
-cs-disconnect-lost-advice-content-3 = Puisque votre appareil a été perdu ou volé, pour protéger vos informations, vous devriez changer le mot de passe de votre { -product-mozilla-account } dans les paramètres du compte. Vous devriez également consulter le fabricant de votre appareil pour obtenir des informations sur la manière d’effacer vos données à distance.
+cs-disconnect-lost-advice-content-3 = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-mozilla-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-disconnect-suspicious-advice-content = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-firefox-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
-cs-disconnect-suspicious-advice-content-2 = Si l’appareil déconnecté est suspect, pour protéger vos informations, vous devriez changer le mot de passe de votre { -product-mozilla-account } dans les paramètres de votre compte. Vous devriez également modifier tous les autres mots de passe que vous avez enregistrés dans { -brand-firefox } en saisissant about:logins dans la barre d’adresse.
+cs-disconnect-suspicious-advice-content-2 = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-mozilla-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
 cs-sign-out-button = Se déconnecter
 
 ##
@@ -393,7 +393,7 @@ dc-subheader-2 = Aidez à améliorer les { -product-mozilla-accounts }
 dc-subheader-content = Autoriser les { -product-firefox-accounts } à envoyer des données techniques et d’interaction à { -brand-mozilla }.
 dc-subheader-content-2 = Autoriser les { -product-mozilla-accounts } à envoyer des données techniques et d’interaction à { -brand-mozilla }.
 dc-opt-out-success = Désactivation réussie. Les { -product-firefox-accounts } n’enverront plus de données techniques ou d’interaction à { -brand-mozilla }.
-dc-opt-out-success-2 = Désactivation réussie. Les { -product-mozilla-accounts } n’enverront pas de données techniques ou d’interaction à { -brand-mozilla }.
+dc-opt-out-success-2 = Désactivation réussie. Les { -product-mozilla-accounts } n’enverront plus de données techniques ou d’interaction à { -brand-mozilla }.
 dc-opt-in-success = Merci ! Le partage de ces données nous aide à améliorer les { -product-firefox-accounts }.
 dc-opt-in-success-2 = Merci ! Le partage de ces données nous aide à améliorer les { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Un problème est survenu lors de la modification de vos préférences en matière de collecte de données
@@ -942,11 +942,11 @@ terms-privacy-agreement-intro-2 = En poursuivant, vous acceptez :
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = Les <pocketTos>Conditions d’utilisation</pocketTos> et la <pocketPrivacy>Politique de confidentialité</pocketPrivacy> de { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Conditions d’utilisation</pocketTos> et <pocketPrivacy>Politique de confidentialité</pocketPrivacy>
+terms-privacy-agreement-pocket-2 = Les <pocketTos>Conditions d’utilisation</pocketTos> et la <pocketPrivacy>Politique de confidentialité</pocketPrivacy> de { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy> de { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Conditions d’utilisation</mozillaAccountsTos> et <mozillaAccountsPrivacy>Politique de confidentialité</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = Les <mozillaAccountsTos>Conditions d’utilisation</mozillaAccountsTos> et la <mozillaAccountsPrivacy>Politique de confidentialité</mozillaAccountsPrivacy> des { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = En poursuivant, vous acceptez les <firefoxTos>Conditions d’utilisation</firefoxTos> et la <firefoxPrivacy>Politique de confidentialité</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1028,7 +1028,7 @@ connect-another-device-ios-complete-setup-message = Connectez-vous via { -brand-
 
 cookies-disabled-header = Le stockage local et les cookies sont nécessaires
 cookies-disabled-enable-prompt = Veuillez activer les cookies et le stockage local de votre navigateur afin d’accéder aux { -product-firefox-accounts }. Cela permettra notamment de mémoriser vos informations entre deux sessions.
-cookies-disabled-enable-prompt-2 = Veuillez activer les cookies et le stockage local de votre navigateur pour accéder à votre { -product-mozilla-account }. Cela activera des fonctionnalités telles que la mémorisation de vous entre deux sessions.
+cookies-disabled-enable-prompt-2 = Veuillez activer les cookies et le stockage local de votre navigateur afin d’accéder à votre { -product-mozilla-account }. Cela permettra notamment de mémoriser vos informations entre deux sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Réessayer
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1371,7 +1371,7 @@ signin-token-code-heading = Saisissez le code de confirmation<span> pour votre {
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Saisissez le code de confirmation<span> pour votre { -product-mozilla-account }</span>
+signin-token-code-heading-2 = Saisissez le code de confirmation <span>pour votre { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Saisissez le code envoyé à { $email } dans les 5 prochaines minutes.
 signin-token-code-input-label-v2 = Saisissez le code à 6 chiffres
