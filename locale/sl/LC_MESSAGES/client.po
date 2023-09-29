@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-28 22:01+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-09-29 15:47+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -929,7 +929,7 @@ msgstr "Nimate ključa za obnovitev računa?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "Vnesite ključ za enkratno uporabo, ki ste ga shranili na varnem mestu, da ponovno pridobite dostop do Mozillinega računa."
+msgstr "Da si povrnete dostop do računa Mozilla, vnesite obnovitveni ključ za enkratno uporabo, ki ste ga bili shranili na varnem mestu."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1153,7 +1153,7 @@ msgstr "Ste pozabili geslo?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Vnesite geslo <span class=\"card-subheader\" id=\"subheader\">za Mozilla račun</span>"
+msgstr "Vnesite geslo <span class=\"card-subheader\" id=\"subheader\">za račun Mozilla</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1181,11 +1181,11 @@ msgstr "Firefox račun omogoča tudi dostop do Mozillinih izdelkov, ki varujejo 
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr "Nadaljujte na svoj Mozilla račun"
+msgstr "Nadaljujte v svoj račun Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mozillin račun omogoča tudi dostop do Mozillinih izdelkov, ki bolj varujejo zasebnost."
+msgstr "Račun Mozilla omogoča tudi dostop do Mozillinih izdelkov, ki bolj varujejo zasebnost."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1456,7 +1456,7 @@ msgstr "Vnesite kodo, ki je bila poslana na %(email)s, v roku 5 minut."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "Vnesite potrditveno kodo <span class=\"card-subheader\">vašega računa Mozilla</span>"
+msgstr "Vnesite potrditveno kodo <span class=\"card-subheader\">za svoj račun Mozilla</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1721,7 +1721,7 @@ msgstr "Spremeni geslo"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "V vašem Mozillinem računu smo zaznali sumljivo delovanje. Za zaščito vašega računa ustvarite novo geslo. S tem geslom se boste prijavljali v vse storitve Mozillinega računa."
+msgstr "V vašem računu Mozilla smo zaznali sumljivo dejavnost. Za zaščito računa nastavite novo geslo. S tem geslom se boste znova prijavili v vse storitve svojega računa Mozilla."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1766,7 +1766,7 @@ msgstr "Potrdite geslo"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr "Ustvarite Mozilla račun"
+msgstr "Ustvarite račun Mozilla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
