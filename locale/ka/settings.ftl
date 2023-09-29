@@ -173,6 +173,7 @@ form-verify-code-default-error = ველის შევსება აუც
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-ანგარიშის აღდგენის გასაღები
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-ის დამოწმების სამარქაფო კოდები
+get-data-trio-title-backup-verification-codes = შესვლის სამარქაფო კოდები
 get-data-trio-download-2 =
     .title = ჩამოტვირთვა
     .aria-label = ჩამოტვირთვა
@@ -309,7 +310,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
+bento-menu-title-2 = { -brand-mozilla }-ს ცხრილური მენიუ
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
+bento-menu-mozilla-title = { -brand-mozilla } ტექკომპანიაა, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობის დასაცავად.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -383,6 +386,7 @@ cs-disconnect-lost-advice-content-2 =
     მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") } პაროლი
     თქვენი პარამეტრებიდან. აგრეთვე, სასურველია გაეცნოთ მითითებებს თავად
     მოწყობილობის მწარმოებლისგან, მონაცემების დაშორებულად წაშლის თაობაზე.
+cs-disconnect-lost-advice-content-3 = ვინაიდან თქვენი მოწყობილობა დაკარგული ან მოპარულია, მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-mozilla-account(case: "gen") } პაროლი თქვენი პარამეტრებიდან. აგრეთვე სასურველია, გაეცნოთ თავად მოწყობილობის მწარმოებლისგან მითითებებს მონაცემების დაშორებულად წაშლის შესახებ.
 cs-disconnect-suspicious-advice-heading = საეჭვო მოწყობილობა გამოთიშულია
 cs-disconnect-suspicious-advice-content =
     თუ გამოთიშული მოწყობილობა ნამდვილად
@@ -488,7 +492,7 @@ flow-recovery-key-info-cta-text-v3 = დაიწყეთ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = გაუქმება
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = მენიუს დახურვა
 header-menu-closed = საიტზე გადაადგილების მენიუ
