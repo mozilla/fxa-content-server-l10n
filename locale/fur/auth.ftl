@@ -604,7 +604,9 @@ verificationReminderSecond-second-description-2 = Il to { -product-mozilla-accou
 verificationReminderSecond-sub-description-2 = Partecipe ae nestre mission par trasformâ internet intun puest viert a ducj.
 verificationReminderSecond-action-2 = Conferme account
 verify-title-2 = Esplore internet cun { -brand-firefox }
+verify-title-3 = Esplore internet cun { -brand-mozilla }
 verify-description = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
+verify-description-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 verify-subject = Complete la creazion dal to account
 verify-action-2 = Conferme account
 # Variables:
@@ -635,13 +637,19 @@ verifySecondaryCode-action-2 = Conferme la direzion e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Chest { -product-firefox-account } al domande di doprâ { $email } tant che direzion e-mail secondarie:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Chest { -product-mozilla-account } al domande di doprâ { $email } come direzion e-mail secondarie:
 verifySecondaryCode-prompt-2 = Dopre chest codiç di conferme:
 verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte confermade, cheste direzion e-mail e ricevarà notifichis di sigurece e messaçs di conferme.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferme il to account
 verifyShortCode-title-2 = Esplore internet cun { -brand-firefox }
+verifyShortCode-title-3 = Esplore internet cun { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Conferme il to account e tire fûr il massim di { -brand-firefox } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
 verifyShortCode-prompt-3 = Dopre chest codiç di conferme:
 verifyShortCode-expiry-notice = Al scjât chi di 5 minûts.
