@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-02-22 21:47+0000\n"
+"PO-Revision-Date: 2023-09-29 00:11+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -74,7 +74,7 @@ msgstr "A conta Firefox requer JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Contas Mozilla requerem JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -98,7 +98,7 @@ msgstr "Baixar a versão mais recente"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Conta Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -106,4 +106,4 @@ msgid ""
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
-msgstr ""
+msgstr "Sua conta Mozilla usa recursos que não funcionam na sua versão do Firefox. Baixe e instale a versão mais recente do Firefox para continuar."

@@ -59,6 +59,7 @@ input-error-is-required = É necessário { $label }
 ## Component - Header
 
 brand-name-firefox-logo = Logotipo do { -brand-name-firefox }
+brand-name-mozilla-logo = Logotipo da { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -439,7 +440,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Confira sua alteração
 sub-change-failed = Falha na alteração do plano
-sub-update-copy = Seu plano mudará imediatamente e será cobrado um valor de ajuste para o restante do seu ciclo de cobrança. A partir de { $startingDate } será cobrado o valor integral.
 sub-update-acknowledgment = Seu plano mudará imediatamente. Será cobrado hoje um valor proporcional ao restante deste ciclo de faturamento. A partir de { $startingDate } será cobrado o valor total.
 sub-change-submit = Confirmar alteração
 sub-update-current-plan-label = Plano atual
