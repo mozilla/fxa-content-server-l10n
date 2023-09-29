@@ -403,14 +403,18 @@ dc-heading = Zběranje a wužywanje datow
 dc-subheader = Pomagajśo { -product-firefox-accounts } pólěpšyś
 dc-subheader-2 = Pomagajśo { -product-mozilla-accounts(case: "acc", capitalization: "lower") } pólěpšyś
 dc-subheader-content = { -product-firefox-accounts } dowóliś, aby techniske a interakciske daty na { -brand-mozilla } pósłał.
+dc-subheader-content-2 = { -product-mozilla-accounts(case: "dat", capitalization: "upper") } dowóliś, techniske a interakciske daty na { -brand-mozilla } pósłaś.
 dc-opt-out-success = Wótzjawjenje wuspěšne. { -product-firefox-accounts } njebuźo techniske abo interakciske daty na { -brand-mozilla } słaś.
+dc-opt-out-success-2 = Wótzjawjenje wuspěšne. { -product-mozilla-accounts } njebudu techniske abo interakciske daty na { -brand-mozilla } słaś.
 dc-opt-in-success = Wjeliki źěk! Źělenje toś tych datow nam pomaga, { -product-firefox-accounts } pólěpšyś.
+dc-opt-in-success-2 = Wjeliki źěk! Źělenje toś tych datow nam pomaga, { -product-mozilla-accounts(case: "acc", capitalization: "lower") } pólěpšyś.
 dc-opt-in-out-error-2 = Bóžko jo pśi změnjanju wašogo nastajenja datoweje zběrki problem nastał
 dc-learn-more = Dalšne informacije
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Meni { -product-firefox-account }
+drop-down-menu-title-2 = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -499,6 +503,7 @@ header-menu-closed = Meni sedłoweje nawigacije
 header-back-to-top-link =
     .title = Slědk górjej
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Pomoc
 
 ## Linked Accounts section
@@ -626,7 +631,9 @@ delete-account-header =
 delete-account-step-1-2 = Kšac 1 z 2
 delete-account-step-2-2 = Kšac 2 z 2
 delete-account-confirm-title-3 = Sćo snaź zwězał swójo konto { -product-firefox-account } z jednym produktom abo z jedneju słužbu  { -brand-mozilla } abo z někotarymi z nich, kótarež was wěsty a produktiwny we webje źarže:
+delete-account-confirm-title-4 = Sćo snaź zwězał swójo { -product-mozilla-account(case: "acc", capitalization: "lower") } z jednym produktom abo z jedneju słužbu  { -brand-mozilla } abo z někotarymi z nich, kótarež was wěsty a produktiwny we webje źarže:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -945,12 +952,20 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Gaž pókšacujośo, zwólijośo do:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Gaž pókšacujośo, zwólijośo do:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Wužywańske wuměnjenja</firefoxTos> a <firefoxPrivacy>powěźeńka priwatnosći</firefoxPrivacy> { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Wužywańske wuměnjenja</mozillaAccountsTos> a <mozillaAccountsPrivacy>powěźeńki priwatnosći</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Gaž pókšacujośo, zwólijośo do <firefoxTos>wužywańskich wuměnjenjow</firefoxTos> a <firefoxPrivacy>powěźeńki priwatnosći</firefoxPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Gaž pókšacujośo, zwólijośo do <mozillaAccountsTos>wužywańskich wuměnjenjow</mozillaAccountsTos> a <mozillaAccountsPrivacy>powěźeńki priwatnosći</mozillaAccountsPrivacy>
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -992,6 +1007,7 @@ auth-error-1011 = Płaśiwa e-mailowa adresa trěbna
 
 cannot-create-account-header = Konto njedajo se załožyś
 cannot-create-account-requirements = Musyśo wěste starstwowe pominanja docyniś, aby konto { -product-firefox-account } załožył.
+cannot-create-account-requirements-2 = Musyśo wěste starstwowe pominanja docyniś, aby konto { -product-mozilla-account(case: "acc", capitalization: "lower") } załožył.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Dalšne informacije
 
