@@ -65,10 +65,12 @@ input-error-is-required = { $label } vaaditaan
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }in logo
+brand-name-mozilla-logo = { -brand-mozilla }n logo
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
+new-user-sign-in-link-2 = Onko sinulla jo { -product-mozilla-account }? <a>Kirjaudu sisään</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -416,6 +418,7 @@ coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDuration
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
+new-user-step-1-2 = 1. Luo { -product-mozilla-account }
 new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
 

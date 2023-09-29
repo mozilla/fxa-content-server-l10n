@@ -477,7 +477,7 @@ flow-recovery-key-info-cta-text-v3 = Aloitetaan
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Peruuta
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Sulje valikko
 header-menu-closed = Sivuston navigointivalikko
@@ -612,6 +612,7 @@ delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
 delete-account-confirm-title-3 = Saatat olla yhdistänyt { -product-firefox-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }

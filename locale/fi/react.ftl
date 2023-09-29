@@ -41,3 +41,5 @@ app-logo-alt =
     .alt = { -brand-firefox }in logo
 app-logo-alt-2 =
     .alt = { -brand-mozilla }n logo
+app-logo-alt-3 =
+    .alt = { -brand-mozilla }n m-logo
