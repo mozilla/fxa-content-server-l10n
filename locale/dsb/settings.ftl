@@ -1043,6 +1043,7 @@ connect-another-device-ios-complete-setup-message = Pśizjawśo se pla { -brand-
 
 cookies-disabled-header = Local storage a cookieje su trjebne
 cookies-disabled-enable-prompt = Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup ku kontam { -product-firefox-accounts } měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja.
+cookies-disabled-enable-prompt-2 = Pšosym zmóžniśo cookieje a lokalny składowak we wašom wobglědowaku, aby pśistup ku { -product-mozilla-account(case: "dat", capitalization: "lower") } měł. To funkcije zmóžnja, ako na pśikład markowanje pśez pósejźenja.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Hyšći raz wopytaś
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1243,6 +1244,7 @@ account-recovery-confirm-key-heading-w-default-service = Stajśo gronidło z kon
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stajśo gronidło z kontowym wótnowjeńskim klucom slědk, <span>aby z { $serviceName } pókšacował</span>
 account-recovery-confirm-key-instructions = Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu kontoju { -product-firefox-account } měł.
+account-recovery-confirm-key-instructions-2 = Pšosym zapódajśo kontowy wótnowjeński kluc za jadnorazowe wužyśe, kótaryž sćo składł na wěstem městnje, aby pśistup k swójomu { -product-mozilla-account(case: "dat", capitalization: "lower") } měł.
 account-recovery-confirm-key-warning-message = <span>GLĚDAJŚO:</span> Jolic sćo swójo gronidło slědk stajił a njamaśo swój skłaźony kontowy wótnowjeński kluc, budu se někotare z wašych datow lašowaś (inkluziwnje synchronizěrowane serwerowe daty ako historiju a cytańske znamjenja).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1323,6 +1325,8 @@ confirm-signin-message = Pśepytujśo swóju e-mail za pśizjawjeńskim wóbkšu
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Zapódajśo swójo gronidło <span>za swójo konto { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Zapódajśo swójo gronidło <span>za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
@@ -1379,6 +1383,10 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Zapódajśo wobkšuśeński kod <span>za swójo konto { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Zapódajśo wobkšuśeński kod <span>za swójo  { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na { $email }.
 signin-token-code-input-label-v2 = 6-městnowy kod zapódaś
@@ -1430,6 +1438,10 @@ confirm-signup-code-page-title = Wobkšuśeński kod zapódaś
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Zapódajśo wobkšuśeński kod <span>za swójo konto { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Zapódajśo wobkšuśeński kod <span>za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na { $email }.
 confirm-signup-code-input-label = 6-městnowy kod zapódaś
