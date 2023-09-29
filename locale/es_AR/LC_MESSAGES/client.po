@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-28 22:02+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-09-29 05:31+0000\n"
+"Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -933,7 +933,7 @@ msgstr "¿No tenés una clave de recuperación de cuenta?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "Introduce la clave de recuperación de cuenta de un solo uso que guardaste en un lugar seguro para recuperar el acceso a tu cuenta de Mozilla."
+msgstr "Ingresá la clave de recuperación de cuenta que guardaste en un lugar seguro para recuperar el acceso a tu cuenta de Mozilla."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1078,7 +1078,7 @@ msgstr "Enviar código nuevo."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr "Ingresa el código de confirmación <span class = \"card-subheader\" id = \"subheader\"> para tu cuenta de Mozilla </span>"
+msgstr "Ingresa el código de confirmación <span class=\"card-subheader\" id=\"subheader\"> para tu cuenta de Mozilla</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1157,7 +1157,7 @@ msgstr "¿Te olvidaste la contraseña?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Ingresa la contraseña <span class = \"card-subheader\" id = \"subheader\"> para tu cuenta de Mozilla </span>"
+msgstr "Ingresa la contraseña <span class=\"card-subheader\" id=\"subheader\">para tu cuenta de Mozilla</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1189,7 +1189,7 @@ msgstr "Continuar a tu cuenta de Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Una cuenta de Mozilla también desbloquea el acceso a más productos de Mozilla para proteger la privacidad."
+msgstr "Una cuenta de Mozilla también desbloquea el acceso a más productos de protección de privacidad de Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1460,7 +1460,7 @@ msgstr "Ingresá el código de verificación que se envió a %(email)s en un pla
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "Ingresa el código de confirmación <span class = \"card-subheader\"> para tu cuenta de Mozilla </span>"
+msgstr "Ingresa el código de confirmación <span class=\"card-subheader\">para tu cuenta de Mozilla</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
