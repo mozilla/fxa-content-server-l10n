@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-28 21:59+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-09-29 07:01+0000\n"
+"Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1183,7 +1183,7 @@ msgstr "Un compte Firefox donne aussi accès à plus de produits de Mozilla qui 
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr "Continuez vers votre compte Mozilla"
+msgstr "Continuer vers votre compte Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1595,7 +1595,7 @@ msgstr "Conditions d’utilisation"
 
 #: .es5/templates/support.mustache:25
 msgid "Mozilla account"
-msgstr "compte Mozilla"
+msgstr "Compte Mozilla"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
