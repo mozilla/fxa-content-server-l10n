@@ -961,6 +961,8 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e
 terms-privacy-agreement-firefox = <firefoxTos>Terminos de servicio</firefoxTos> e <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy> de { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Si tu procede, tu accepta le <firefoxTos>Terminos de servicio</firefoxTos> e le <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Si tu procede, tu accepta le <mozillaAccountsTos>Terminos de servicio</mozillaAccountsTos>e le <mozillaAccountsPrivacy>Aviso de confidentialitate</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
