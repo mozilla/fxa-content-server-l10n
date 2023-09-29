@@ -403,6 +403,7 @@ dc-heading = Zbiranje in uporaba podatkov
 dc-subheader = Pomagajte izboljšati { -product-firefox-accounts(sklon: "tozilnik") }
 dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts }
 dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
+dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
 dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } ne bo pošiljala tehničnih podatkov ali podatkov o interakciji { -brand-mozilla(sklon: "rodilnik") }.
 dc-opt-in-success = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-firefox-accounts(sklon: "tozilnik") }.
