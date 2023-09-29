@@ -308,7 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-Menü
-bento-menu-title-2 = { -brand-mozilla } Bento-Menü
+bento-menu-title-2 = { -brand-mozilla }-Bento-Menü
 bento-menu-firefox-title = { -brand-firefox } ist eine Technologie, die für Ihre Privatsphäre im Internet kämpft.
 bento-menu-mozilla-title = { -brand-mozilla } ist eine Technologie, die für Ihre Privatsphäre im Internet kämpft.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -629,7 +629,7 @@ delete-account-header =
 delete-account-step-1-2 = Schritt 1 von 2
 delete-account-step-2-2 = Schritt 2 von 2
 delete-account-confirm-title-3 = Sie haben möglicherweise Ihr{ -product-firefox-account } mit einem oder mehreren der folgenden { -brand-mozilla }-Produkte oder Dienste verbunden, mit denen Sie im Web sicher und produktiv sind:
-delete-account-confirm-title-4 = Sie haben möglicherweise Ihr{ -product-mozilla-account } mit einem oder mehreren der folgenden { -brand-mozilla }-Produkte oder Dienste verbunden, mit denen Sie im Web sicher und produktiv sind:
+delete-account-confirm-title-4 = Sie haben möglicherweise Ihr { -product-mozilla-account } mit einem oder mehreren der folgenden { -brand-mozilla }-Produkte oder Dienste verbunden, mit denen Sie im Web sicher und produktiv sind:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }

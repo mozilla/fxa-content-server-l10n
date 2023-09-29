@@ -64,7 +64,7 @@ brand-name-mozilla-logo = { -brand-mozilla }-Logo
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Sie haben bereits einen { -brand-name-firefox } Account? <a>Melden Sie sich an</a>
-new-user-sign-in-link-2 = Du hast schon ein { -product-mozilla-account }? <a>Melden Sie sich an</a>
+new-user-sign-in-link-2 = Haben Sie schon ein { -product-mozilla-account }? <a>Melden Sie sich an</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
