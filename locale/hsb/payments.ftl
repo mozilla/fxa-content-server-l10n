@@ -59,10 +59,12 @@ input-error-is-required = { $label } je trěbne
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Maće hižo konto { -brand-name-firefox }? <a>Přizjewić</a>
+new-user-sign-in-link-2 = Maće hižo { -product-mozilla-account(case: "acc", capitalization: "lower") }? <a>Přizjewić</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -495,10 +497,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Přepruwujće swoju změnu
 sub-change-failed = Njeje so poradźiło, plan změnić
-sub-update-copy =
-    Waš plan so hnydom změni, a za zbytk wotličenskeje periody so wam
-    přiměrjena suma wobličuje. Započinajo z { $startingDate }
-    so połna suma wobličuje.
 sub-update-acknowledgment =
     Waš plan so hnydom změni, a za zbytk tuteje wotličenskeje periody so wam dźensa
     podźělna suma wobličuje. Započinajo z { $startingDate }
