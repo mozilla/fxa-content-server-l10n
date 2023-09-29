@@ -959,7 +959,7 @@ tfa-row-change-modal-explain = ეს ქმედება შეუქცე�
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = თუ განაგრძობთ, ეთანხმებით:
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = თუ განაგრძობთ, შედეგად თქვენთვის მისაღებია:
+terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამით თანახმა ხართ მიიღოთ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }-ის <pocketTos>მომსახურების პირობებსა</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადს</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
@@ -1013,6 +1013,7 @@ auth-error-1011 = მართებული ელფოსტის მით
 
 cannot-create-account-header = ანგარიშის შექმნა ვერ მოხერხდა
 cannot-create-account-requirements = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნილებებს, რომ შექმნათ { -product-firefox-account }.
+cannot-create-account-requirements-2 = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნებს { -product-mozilla-account(case: "gen") } შესაქმნელად.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = ვრცლად
 
@@ -1048,6 +1049,7 @@ connect-another-device-ios-complete-setup-message = შედით { -brand-fir
 
 cookies-disabled-header = საჭიროა ადგილობრივი საცავისა და ფუნთუშების გამოყენება
 cookies-disabled-enable-prompt = გთხოვთ ჩართოთ ბრაუზერში ფუნთუშებსა და საცავთან წვდომა { -product-firefox-accounts(case: "add") } დასაკავშირებლად. შედეგად ამოქმედდება სხვადასხვა შესაძლებლობა, მათ შორის თქვენი სეანსების დამახსოვრების საშუალება.
+cookies-disabled-enable-prompt-2 = გთხოვთ ჩართოთ ბრაუზერში ფუნთუშებსა და საცავთან წვდომა { -product-mozilla-account(case: "add") } დასაკავშირებლად. შედეგად ამოქმედდება სხვადასხვა შესაძლებლობა, მათ შორის თქვენი სეანსების დამახსოვრების საშუალება.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = ხელახლა ცდა
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1248,6 +1250,7 @@ account-recovery-confirm-key-heading-w-default-service = გაანულე�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = გაანულეთ პაროლი ანგარიშის აღდგენის გასაღებით, <span>რომ იხილოთ { $serviceName }</span>
 account-recovery-confirm-key-instructions = თქვენს { -product-firefox-account } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
+account-recovery-confirm-key-instructions-2 = თქვენს { -product-mozilla-account(case: "add") } წვდომის დასაბრუნებლად გთხოვთ, მიუთითოთ ანგარიშის აღდგენის ერთჯერადი გასაღები, რომელიც დაცულ ადგილას გქონდათ გადანახული.
 account-recovery-confirm-key-warning-message = <span>გაითვალისწინეთ:</span> თუ ანგარიშის აღდგენის გასაღები არ გაქვთ შენახული და მის გარეშე გაანულებთ პაროლს, თქვენი მონაცემების ნაწილი დაიკარგება (მათ შორის სერვერზე დასინქრონებული ისტორია და სანიშნები).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1328,6 +1331,8 @@ confirm-signin-message = შეამოწმეთ თქვენი ელ�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = შეიყვანეთ პაროლი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = შეიყვანეთ პაროლი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = განაგრძეთ, რომ იხილოთ <span>{ $serviceLogo }</span>
@@ -1384,6 +1389,10 @@ signin-reported-message = ჩვენი გუნდი უკვე გაფ
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-firefox-account(case: "ben") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-mozilla-account(case: "ben") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 signin-token-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
@@ -1435,6 +1444,10 @@ confirm-signup-code-page-title = შეიყვანეთ დადასტ�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-firefox-account(case: "ben") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
