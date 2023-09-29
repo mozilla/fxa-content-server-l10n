@@ -405,16 +405,16 @@ dc-subheader-2 = Pomagajte izboljšati { -product-mozilla-accounts }
 dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-subheader-content-2 = Dovoli { -product-mozilla-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
-dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } ne bo pošiljala tehničnih podatkov ali podatkov o interakciji { -brand-mozilla(sklon: "rodilnik") }.
+dc-opt-out-success-2 = Odjava je uspela. { -product-mozilla-accounts } { -brand-mozilla(sklon: "rodilnik") } ne bodo pošiljali tehničnih ali interakcijskih podatkov.
 dc-opt-in-success = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-firefox-accounts(sklon: "tozilnik") }.
-dc-opt-in-success-2 = Hvala! Deljenje teh podatkov nam pomaga izboljšati { -product-mozilla-accounts }.
+dc-opt-in-success-2 = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-mozilla-accounts(sklon: "tozilnik") }.
 dc-opt-in-out-error-2 = Oprostite, pri spreminjanju nastavitve o zbiranju podatkov je prišlo do težave
 dc-learn-more = Več o tem
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Meni { -product-firefox-account(sklon: "rodilnik") }
-drop-down-menu-title-2 = Meni { -product-mozilla-account }
+drop-down-menu-title-2 = Meni { -product-mozilla-account(sklon: "rodilnik") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -631,7 +631,7 @@ delete-account-header =
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
 delete-account-confirm-title-3 = Morda ste svoj { -product-firefox-account(sklon: "tozilnik") } povezali z enim ali več izmed naslednjih izdelkov ali storitev { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
-delete-account-confirm-title-4 = Morda ste svoj { -product-mozilla-account } povezali z enim ali več od naslednjih izdelkov ali storitev { -brand-mozilla }, ki vam zagotavljajo varnost in produktivnost na spletu:
+delete-account-confirm-title-4 = Morda ste svoj { -product-mozilla-account(sklon: "tozilnik") } povezali z enim ali več izmed naslednjih izdelkov ali storitev { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -961,7 +961,7 @@ terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> { -product-pocket }a
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy>
+terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
