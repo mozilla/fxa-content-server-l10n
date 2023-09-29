@@ -412,6 +412,7 @@ coupon-success-repeating = Seu plano será renovado automaticamente após { $cou
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
+new-user-step-1-2 = 1. Crie uma { -product-mozilla-account }
 new-user-card-title = Digite as informações do seu cartão
 new-user-submit = Assinar agora
 

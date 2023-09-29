@@ -1405,6 +1405,10 @@ confirm-signup-code-page-title = Digite o código de confirmação
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Digite o código de confirmação <span>da sua { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Digite o código de confirmação <span>da sua { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Digite o código enviado para { $email } em até 5 minutos.
 confirm-signup-code-input-label = Digite o código de 6 dígitos
