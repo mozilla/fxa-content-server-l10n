@@ -64,6 +64,7 @@ brand-name-mozilla-logo = Λογότυπο { -brand-mozilla }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
+new-user-sign-in-link-2 = Διαθέτετε ήδη { -product-mozilla-account(case: "acc", capitalization: "lower") }; <a>Συνδεθείτε</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -411,6 +412,7 @@ coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθε�
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Δημιουργήστε έναν λογαριασμό { -brand-name-firefox }
+new-user-step-1-2 = 1. Δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 new-user-submit = Συνδρομή τώρα
 

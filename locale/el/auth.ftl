@@ -324,6 +324,9 @@ postChangePrimary-title = Νέο κύριο email
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας και θα χρησιμοποιείται για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -350,6 +353,9 @@ postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Έχετε αφαιρέσει επιτυχώς το { $secondaryEmail } από δευτερεύον email από τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη διεύθυνση.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Έχετε αφαιρέσει επιτυχώς το { $secondaryEmail } από δευτερεύον email από τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη διεύθυνση.
 postRemoveSecondary-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-subject-line-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
@@ -369,12 +375,18 @@ postVerifySecondary-title = Προστέθηκε δευτερεύον email
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Έχετε επιβεβαιώσει επιτυχώς το { $secondaryEmail } ως δευτερεύον email για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο διευθύνσεις email.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Έχετε επιβεβαιώσει επιτυχώς το { $secondaryEmail } ως δευτερεύον email για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο διευθύνσεις email.
 postVerifySecondary-action = Διαχείριση λογαριασμού
 recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Λάβαμε ένα αίτημα για αλλαγή του κωδικού πρόσβασης του { -product-firefox-account(case: "gen", capitalization: "lower") } σας από:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:
 recovery-new-password-button = Δημιουργήστε έναν νέο κωδικό πρόσβασης κάνοντας κλικ στο παρακάτω κουμπί. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
 recovery-copy-paste = Δημιουργήστε έναν νέο κωδικό πρόσβασης αντιγράφοντας και επικολλώντας το παρακάτω URL στο πρόγραμμα περιήγησής σας. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
@@ -387,6 +399,11 @@ subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Διαγράψατε πρόσφατα τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο { $productName }. Η τελευταία πληρωμή των { $invoiceTotal } έγινε στις { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Διαγράψατε πρόσφατα τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο { $productName }. Η τελευταία πληρωμή των { $invoiceTotal } έγινε στις { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $productName }: Παρακαλούμε ορίστε τον κωδικό πρόσβασής σας.
@@ -395,16 +412,19 @@ subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $pro
 subscriptionAccountFinishSetup-title = Καλώς ορίσατε στο { $productName }
 subscriptionAccountFinishSetup-content-processing = Η πληρωμή σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός εάν επιλέξετε να την ακυρώσετε.
 subscriptionAccountFinishSetup-content-create-2 = Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον { -product-firefox-account(case: "acc", capitalization: "lower") }, ώστε να ξεκινήσετε τη χρήση της νέας σας συνδρομής.
+subscriptionAccountFinishSetup-content-create-3 = Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") }, ώστε να ξεκινήσετε τη χρήση της νέας σας συνδρομής.
 subscriptionAccountFinishSetup-action-2 = Έναρξη
 subscriptionAccountReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας
 subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
 subscriptionAccountReminderFirst-content-info-2 = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επιβεβαιώσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
+subscriptionAccountReminderFirst-content-info-3 = Πριν από λίγες ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") } αλλά δεν τον επιβεβαιώσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
 subscriptionAccountReminderFirst-content-select-2 = Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επιβεβαίωση του λογαριασμού σας.
 subscriptionAccountReminderFirst-action = Δημιουργία κωδικού πρόσβασης
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Τελική υπενθύμιση: Ρυθμίστε τον λογαριασμό σας
 subscriptionAccountReminderSecond-title = Καλώς ορίσατε στο { -brand-firefox }!
 subscriptionAccountReminderSecond-content-info-2 = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επιβεβαιώσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
+subscriptionAccountReminderSecond-content-info-3 = Πριν από λίγες ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") } αλλά δεν τον επιβεβαιώσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
 subscriptionAccountReminderSecond-content-select-2 = Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επιβεβαίωση του λογαριασμού σας.
 subscriptionAccountReminderSecond-action = Δημιουργία κωδικού πρόσβασης
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -558,11 +578,13 @@ unblockCode-report = Αν όχι, βοηθήστε μας να εμποδίσο�
 unblockCode-report-plaintext = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς.
 verificationReminderFinal-subject = Τελική υπενθύμιση για επιβεβαίωση του λογαριασμού σας
 verificationReminderFinal-description = Πριν από μερικές εβδομάδες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Για την ασφάλειά σας, θα διαγράψουμε τον λογαριασμό εάν δεν επαληθευτεί μέσα στις επόμενες 24 ώρες.
+verificationReminderFinal-description-2 = Πριν από μερικές εβδομάδες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Για την ασφάλειά σας, θα διαγράψουμε τον λογαριασμό εάν δεν επαληθευτεί μέσα στις επόμενες 24 ώρες.
 confirm-account = Επιβεβαίωση λογαριασμού
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderFirst-title-2 = Καλώς ορίσατε στο { -brand-firefox }!
 verificationReminderFirst-description-2 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Παρακαλούμε επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 15 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
+verificationReminderFirst-description-3 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 15 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
 verificationReminderFirst-sub-description-3 = Μη χάσετε το πρόγραμμα περιήγησης που έχει ως προτεραιότητα εσάς και το απόρρητό σας.
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -570,7 +592,9 @@ verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμο
 verificationReminderSecond-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderSecond-title-2 = Μη χάσετε τα οφέλη του { -brand-firefox }!
 verificationReminderSecond-description-3 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Παρακαλούμε επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 10 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
+verificationReminderSecond-description-4 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 10 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
 verificationReminderSecond-second-description = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας σάς επιτρέπει να συγχρονίζετε τις πληροφορίες σας μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα από τη { -brand-mozilla }, που προστατεύουν το απόρρητό σας.
+verificationReminderSecond-second-description-2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας σάς επιτρέπει να συγχρονίζετε τις πληροφορίες σας μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα, που προστατεύουν το απόρρητό σας, από τη { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Λάβετε μέρος στην αποστολή μας να μετατρέψουμε το διαδίκτυο σε ένα μέρος ανοικτό για όλους.
 verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
 verify-title-2 = Ανοίξτε το διαδίκτυο με το { -brand-firefox }
@@ -605,6 +629,9 @@ verifySecondaryCode-action-2 = Επιβεβαίωση email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 # Variables:
