@@ -59,10 +59,12 @@ input-error-is-required = { $label } jo trjebne
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
+new-user-sign-in-link-2 = Maśo južo { -product-mozilla-account(case: "acc", capitalization: "lower") }? <a>Pśizjawiś</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -466,6 +468,7 @@ coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lisćinow
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Załožćo konto { -brand-name-firefox }
+new-user-step-1-2 = 1. Załožćo { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
 
@@ -495,10 +498,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Pśeglědujśo swóju změnu
 sub-change-failed = Njejo se raźiło, plan změniś
-sub-update-copy =
-    Waš plan se ned změnijo, a za zbytk wótliceńskeje periody se wam
-    pśiměrjona suma woblicujo. Zachopinajucy z { $startingDate }
-    se połna suma woblicujo.
 sub-update-acknowledgment =
     Waš plan se ned změnijo, a za zbytk toś teje wótliceńskeje periody se wam źinsa
     późělna suma woblicujo. Zachopinajucy z { $startingDate }

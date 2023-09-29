@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 15:31+0000\n"
+"PO-Revision-Date: 2023-09-29 15:32+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1726,6 +1726,7 @@ msgstr "Gronidło změniś"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Smy zwěsćili suspektne zaźaržanje we wašom konśe Mozilla. Aby swójo konto šćitał, napórajśo pšosym nowe gronidło. Wužywajśo to gronidło, aby se zasej pla słužbow swójogo konta Mozilla pśizjawił."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1770,7 +1771,7 @@ msgstr "Gronidło wobkšuśiś"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Załožćo konto Mozilla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

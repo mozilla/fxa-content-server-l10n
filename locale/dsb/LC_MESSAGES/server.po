@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-03-04 16:22+0000\n"
+"PO-Revision-Date: 2023-09-29 15:35+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -74,7 +74,7 @@ msgstr "Firefox Accounts pomina se JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Konta Mozilla se JavaScript pomina."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -99,7 +99,7 @@ msgstr "Nejnowšu ześěgnuś"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Konto Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -108,3 +108,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Wašo konto Mozilla funkcije wužywa, kótarež\n"
+"waša wersija Firefox njepódpěra. Pšosym\n"
+"ześěgniśo a instalěrujśo nejnowšu wersiju Firefox,\n"
+"aby pókšacował."
