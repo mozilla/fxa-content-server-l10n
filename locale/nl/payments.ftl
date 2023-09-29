@@ -59,10 +59,12 @@ input-error-is-required = { $label } is verplicht
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-logo
+brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
+new-user-sign-in-link-2 = Hebt u al een { -product-mozilla-account }? <a>Aanmelden</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automa
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
+new-user-step-1-2 = 1. Maak een { -product-mozilla-account } aan
 new-user-card-title = Voer uw kaartgegevens in
 new-user-submit = Nu abonneren
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Uw wijziging bekijken
 sub-change-failed = Abonnementswijziging mislukt
-sub-update-copy =
-    Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
-    gebracht voor het restant van uw facturatieperiode. Vanaf { $startingDate }
-    wordt u het volledige bedrag in rekening gebracht.
 sub-update-acknowledgment =
     Uw abonnement wijzigt direct, en er wordt een proportioneel bedrag in rekening
     gebracht voor het restant van deze facturatieperiode. Vanaf { $startingDate }
