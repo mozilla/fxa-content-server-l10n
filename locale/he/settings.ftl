@@ -306,6 +306,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
+bento-menu-mozilla-title = ‏{ -brand-mozilla } היא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -371,8 +372,10 @@ cs-disconnect-sync-opt-not-say = אעדיף שלא לומר
 cs-disconnect-advice-confirm = בסדר, הבנתי
 cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נותק
 cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
+cs-disconnect-lost-advice-content-3 = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-mozilla-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
+cs-disconnect-suspicious-advice-content-2 = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-mozilla-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
 
 ##
@@ -382,15 +385,20 @@ cs-sign-out-button = התנתקות
 
 dc-heading = איסוף ושימוש בנתונים
 dc-subheader = עזרה בשיפור { -product-firefox-accounts }
+dc-subheader-2 = עזרה בשיפור { -product-mozilla-accounts }
 dc-subheader-content = לאפשר ל־{ -product-firefox-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
+dc-subheader-content-2 = לאפשר ל־{ -product-mozilla-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
 dc-opt-out-success = ביטול ההצטרפות הצליח. { -product-firefox-accounts } לא ישלח נתונים טכניים אל { -brand-mozilla }.
+dc-opt-out-success-2 = ביטול ההצטרפות הצליח. { -product-mozilla-accounts } לא ישלח נתונים טכניים אל { -brand-mozilla }.
 dc-opt-in-success = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-firefox-accounts }.
+dc-opt-in-success-2 = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = הייתה בעיה בשינוי העדפת איסוף הנתונים שלך, עמך הסליחה
 dc-learn-more = מידע נוסף
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = תפריט { -product-firefox-account(case: "a") }
+drop-down-menu-title-2 = תפריט { -product-mozilla-account(case: "a") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -472,13 +480,14 @@ flow-recovery-key-info-cta-text-v3 = תחילת עבודה
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ביטול
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = סגירת תפריט
 header-menu-closed = תפריט ניווט באתר
 header-back-to-top-link =
     .title = חזרה למעלה
 header-title = חשבון Firefox
+header-title-2 = { -product-mozilla-account(case: "a") }
 header-help = עזרה
 
 ## Linked Accounts section
@@ -593,7 +602,9 @@ delete-account-header =
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
 delete-account-confirm-title-3 = ייתכן שחיברת את { -product-firefox-account(case: "the") } שלך לאחד או יותר מהמוצרים או השירותים הבאים של { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
+delete-account-confirm-title-4 = ייתכן שחיברת את { -product-mozilla-account(case: "the") } שלך לאחד או יותר מהמוצרים או השירותים הבאים של { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
 delete-account-product-firefox-account = { -product-firefox-account(case: "a") }
+delete-account-product-mozilla-account = { -product-mozilla-account(case: "a") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -881,10 +892,16 @@ tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = המשך התהליך מהווה הסכמה ל:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = המשך התהליך מהווה הסכמה ל:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy> של { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy> של { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = המשך התהליך מהווה הסכמה ל<firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy>.
 

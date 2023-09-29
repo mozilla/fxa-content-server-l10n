@@ -63,6 +63,7 @@ brand-name-mozilla-logo = הסמל של { -brand-mozilla }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
+new-user-sign-in-link-2 = כבר יש לך חשבון { -product-mozilla-account }? <a>כניסה</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.

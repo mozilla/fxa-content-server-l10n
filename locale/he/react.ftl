@@ -41,3 +41,5 @@ app-logo-alt =
     .alt = הלוגו של { -brand-firefox }
 app-logo-alt-2 =
     .alt = הסמל של { -brand-mozilla }
+app-logo-alt-3 =
+    .alt = סמל ה־m של { -brand-mozilla }
