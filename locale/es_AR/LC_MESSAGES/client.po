@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 05:31+0000\n"
+"PO-Revision-Date: 2023-09-29 05:33+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1730,8 +1730,8 @@ msgstr "Cambiar contraseña"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
-"Detectamos un comportamiento sospechoso en tu cuenta de Mozilla. Para proteger su cuenta, cree una nueva contraseña. Usarás esta contraseña para volver a iniciar sesión en todos los servicios de tu "
-"cuenta de Mozilla."
+"Detectamos un comportamiento sospechoso en tu cuenta de Mozilla. Para proteger tu cuenta, creá una nueva contraseña. Se va a utilizaer esta contraseña para volver a iniciar sesión en todos los "
+"servicios de tu cuenta de Mozilla."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1776,7 +1776,7 @@ msgstr "Confirmar contraseña"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr "Crea una cuenta Mozilla"
+msgstr "Crear una cuenta de Mozilla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

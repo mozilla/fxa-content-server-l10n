@@ -64,7 +64,7 @@ brand-name-mozilla-logo = Logo de { -brand-mozilla }
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = ¿Ya tenés una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
-new-user-sign-in-link-2 = ¿Ya tenés una { -product-mozilla-account }? <a> Iniciar sesión </a>
+new-user-sign-in-link-2 = ¿Ya tenés una { -product-mozilla-account }? <a>Iniciar sesión</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -412,7 +412,7 @@ coupon-success-repeating = Tu plan se renovará automáticamente después de { $
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Creá una cuenta de { -brand-name-firefox }
-new-user-step-1-2 = 1. Crea una { -product-mozilla-account }
+new-user-step-1-2 = 1. Creá una { -product-mozilla-account }
 new-user-card-title = Ingresá la información de tu tarjeta
 new-user-submit = Suscribirse ahora
 
