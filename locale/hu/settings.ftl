@@ -308,7 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bentó menü
-bento-menu-title-2 = { -brand-mozilla } bento menü
+bento-menu-title-2 = { -brand-mozilla } bentó menü
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
 bento-menu-mozilla-title = A { -brand-mozilla } olyan technológia, amely az Ön online adatvédelméért harcol.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -384,14 +384,18 @@ cs-disconnect-lost-advice-content-2 =
     ezért hogy biztonságban tartsa az információit, változtassa meg a { -product-firefox-account }ja
     jelszavát a fiókbeállításokban. Érdemes megkeresni az eszköz gyártójának
     leírását az adatok távoli törléséről.
-cs-disconnect-lost-advice-content-3 = Mivel az eszközét elvesztette vagy ellopták, az adatai biztonsága érdekében módosítania kell a { -product-mozilla-account }ja jelszavát a fiókbeállításokban. Érdemes az eszköz gyártójának információkat is megkeresnie az adatai távoli törléséről.
+cs-disconnect-lost-advice-content-3 =
+    Mivel az eszközét elvesztette vagy ellopták, ezért hogy biztonságban tartsa az információit, változtassa meg a { -product-mozilla-account }ja
+    jelszavát a fiókbeállításokban. Érdemes megkeresni az eszköz gyártójának leírását az adatok távoli törléséről.
 cs-disconnect-suspicious-advice-heading = Gyanús eszköz leválasztva
 cs-disconnect-suspicious-advice-content =
     Ha a leválasztott eszköz valóban gyanús,
     akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-firefox-account }ja
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
     jelszavát is, az about:logins beírásával a címsávba.
-cs-disconnect-suspicious-advice-content-2 = Ha a leválasztott eszköz valóban gyanús, az Ön adatai biztonsága érdekében módosítania kell a { -product-mozilla-account }ja jelszavát a fiókbeállításokban. Érdemes megváltoztatnia a { -brand-firefox }ban mentett jelszavait is, az about:logins beírásával a címsorba.
+cs-disconnect-suspicious-advice-content-2 =
+    Ha a leválasztott eszköz valóban gyanús, akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-mozilla-account }ja
+    jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett jelszavát is, az about:logins beírásával a címsávba.
 cs-sign-out-button = Kijelentkezés
 
 ##
@@ -403,9 +407,9 @@ dc-heading = Adatgyűjtés és -felhasználás
 dc-subheader = Segítsen a { -product-firefox-accounts } fejlesztésében
 dc-subheader-2 = Segítsen a { -product-mozilla-accounts } fejlesztésében
 dc-subheader-content = Engedélyezés, hogy a { -product-firefox-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
-dc-subheader-content-2 = Engedélyezés, hogy a { -product-mozilla-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla }nak.
+dc-subheader-content-2 = Engedélyezés, hogy a { -product-mozilla-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-out-success = Sikeres leiratkozás. A { -product-firefox-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
-dc-opt-out-success-2 = A leiratkozás sikeres. A { -product-mozilla-accounts } nem küld műszaki vagy interakciós adatokat a { -brand-mozilla } részére.
+dc-opt-out-success-2 = Sikeres leiratkozás. A { -product-mozilla-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-in-success = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-firefox-accounts } fejlesztésében.
 dc-opt-in-success-2 = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-mozilla-accounts } fejlesztésében.
 dc-opt-in-out-error-2 = Sajnos probléma merült fel az adatgyűjtési beállítás megváltoztatásakor
@@ -414,7 +418,7 @@ dc-learn-more = További tudnivalók
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menü
-drop-down-menu-title-2 = { -product-mozilla-account } menüből
+drop-down-menu-title-2 = { -product-mozilla-account } menü
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
