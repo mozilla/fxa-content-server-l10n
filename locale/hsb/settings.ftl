@@ -384,7 +384,7 @@ cs-disconnect-lost-advice-content-2 =
     { -product-firefox-account } w swojich kontowych nastajenjach změnić, zo byšće waše informacije
     wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja
     pytać, zo by waše daty wotdaloka zhašał.
-cs-disconnect-lost-advice-content-3 = Dokelž waš grat je so zhubił abo kradnył, wy měł hesło wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich kontowych nastajenjach změnić, zo byšće waše informacije wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja pytać, zo by waše daty wotdaloka zhašał.
+cs-disconnect-lost-advice-content-3 = Dokelž waš grat je so zhubił abo kradnył, wy měł hesło swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich kontowych nastajenjach změnić, zo byšće waše informacije wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
 cs-disconnect-suspicious-advice-content =
     Jeli wotdźěleny grat je woprawdźe
