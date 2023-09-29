@@ -239,6 +239,7 @@ fraudulentAccountDeletion-title = Il to account al è stât eliminât
 fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
 fraudulentAccountDeletion-content-part1-v2 = Di resint al è stât creât un { -product-mozilla-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, par prime robe o vin domandât di confermâ il to account convalidant cheste direzion e-mail.
 fraudulentAccountDeletion-content-2 = Pal moment nus risulte che l'account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-firefox-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cul rimbors di ducj i adebits.
+fraudulentAccountDeletion-content-part2-v2 = Par cumò nus risulte che l’account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-mozilla-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cu la rifusion di ducj i adebitaments.
 fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a data-l10n-name="mozillaSupportUrl">grup di supuart</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -263,6 +264,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Gnûf acès a { $clientName }
 newDeviceLogin-title-2 = Al è stât doprât il to { -product-firefox-account } par jentrâ
+newDeviceLogin-title-3 = Il to { -product-mozilla-account } al è stât doprât par jentrâ
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = No jeristu tu? <a data-l10n-name="passwordChangeLink">Cambie la tô password</a>.
@@ -273,10 +275,13 @@ newDeviceLogin-action = Gjestìs account
 passwordChanged-subject = Password inzornade
 passwordChanged-title = Password modificade cun sucès
 passwordChanged-description = La password dal { -product-firefox-account } e je stade cambiade cun sucès doprant chest dispositîf:
+passwordChanged-description-2 = La password dal { -product-mozilla-account } e je stade modificade cun sucès di chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
 passwordChangeRequired-title = Cambi di password necessari
 passwordChangeRequired-suspicious-activity = O vin rilevât ativitâts suspietis sul to { -product-firefox-account }. Par impedî acès no autorizâts al to { -product-firefox-account }, o vin disconetût ducj i dispositîfs associâts sul to account e, par precauzion, al è obligatori cambiâ la password.
+passwordChangeRequired-suspicious-activity-2 = O vin rilevât un compuartament suspiet sul to { -product-mozilla-account }. Par impedî acès no autorizâts, ducj i dispositîfs a son stâts disconetûts dal to { -product-mozilla-account } e, par motîfs precauzionâi, al è obligatori cambiâ la password.
 passwordChangeRequired-sign-in = Torne jentre su cualsisei dispositîf o servizi dulà che tu dopris il to { -product-firefox-account } e va daûr dai passaçs che ti vegnin presentâts.
+passwordChangeRequired-sign-in-2 = Torne jentre in cualsisei dispositîf o servizi là che tu dopris il to { -product-mozilla-account } e va daûr dai passaçs che ti vegnin mostrâts.
 passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 passwordChangeRequired-different-password-plaintext = Impuartant: sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 passwordReset-subject = Password inzornade
