@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Κάνετε σύνδεση στους { -product-firefox-accounts(case: "acc", capitalization: "upper") };
+session-verify-send-push-title-2 = Κάνετε σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας;
 session-verify-send-push-body-2 = Κάντε κλικ εδώ για να επιβεβαιώσετε την ταυτότητά σας
 
 ## Email content
@@ -8,10 +9,13 @@ session-verify-send-push-body-2 = Κάντε κλικ εδώ για να επι�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Λογότυπο { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Συγχρονισμός συσκευών">
 body-devices-image = <img data-l10n-name="devices-image" alt="Συσκευές">
-fxa-privacy-url = Πολιτική απορρήτου της { -brand-mozilla }
+fxa-privacy-url = Πολιτική απορρήτου { -brand-mozilla }
+moz-accounts-privacy-url = Πολιτική απορρήτου { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 fxa-service-url = Όροι υπηρεσίας { -product-firefox-cloud }
+moz-accounts-terms-url = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Λογότυπο { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
 subplat-automated-email = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
@@ -24,13 +28,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-firefox-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί στο { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-mozilla-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί στο { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-firefox-account(case: "acc", capitalization: "lower") }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 subplat-explainer-multiple = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-firefox-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί σε πολλαπλά προϊόντα.
+subplat-explainer-multiple-2 = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-mozilla-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί σε πολλαπλά προϊόντα.
 subplat-explainer-was-deleted = Λαμβάνετε αυτό το email επειδή έχει δημιουργηθεί { -product-firefox-account(case: "nom", capitalization: "lower") } με το { $email }.
+subplat-explainer-was-deleted-2 = Λαμβάνετε αυτό το email επειδή έχει δημιουργηθεί { -product-mozilla-account(case: "nom", capitalization: "lower") } με το { $email }.
 subplat-manage-account = Διαχειριστείτε τις ρυθμίσεις του { -product-firefox-account(case: "gen", capitalization: "lower") } σας μεταβαίνοντας στη <a data-l10n-name="subplat-account-page">σελίδα λογαριασμού</a>.
+subplat-manage-account-2 = Διαχειριστείτε τις ρυθμίσεις του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας μεταβαίνοντας στη <a data-l10n-name="subplat-account-page">σελίδα λογαριασμού</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Διαχειριστείτε τις ρυθμίσεις του { -product-firefox-account(case: "gen", capitalization: "lower") } σας στην ακόλουθη σελίδα: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Διαχειριστείτε τις ρυθμίσεις του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στη σελίδα: { $accountSettingsUrl }
 subplat-terms-policy = Όροι και πολιτική ακύρωσης
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ακύρωση συνδρομής
@@ -201,7 +218,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
 cadReminderFirst-description-1 = Μεταφέρετε τις καρτέλες σας σε όλες τις συσκευές σας. Λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα οπουδήποτε χρησιμοποιείτε το { -brand-firefox }. Είναι σαν να κάνει μαγικά ο λογαριασμός { -brand-firefox } σας!
-cadReminderFirst-description-2 = Χρειάζεται ελάχιστος χρόνος για τον συγχρονισμό.
 cadReminderSecond-subject-2 = Μην το χάσετε! Ολοκληρώστε τη ρύθμιση του συγχρονισμού
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title-2 = Μην ξεχάσετε να κάνετε συγχρονισμό!
@@ -216,9 +232,12 @@ downloadSubscription-title = Καλώς ορίσατε στο { $productName }
 downloadSubscription-content-2 = Ας ξεκινήσουμε με τη χρήση όλων των δυνατοτήτων που περιλαμβάνονται στη συνδρομή σας:
 downloadSubscription-link-action-2 = Έναρξη
 fraudulentAccountDeletion-subject = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας διαγράφηκε
+fraudulentAccountDeletion-subject-2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας διαγράφηκε
 fraudulentAccountDeletion-title = Ο λογαριασμός σας διαγράφηκε
 fraudulentAccountDeletion-content = Πρόσφατα, δημιουργήθηκε ένας { -product-firefox-account(case: "nom", capitalization: "lower") } και χρεωθήκατε για μια συνδρομή με αυτήν τη διεύθυνση email. Όπως κάνουμε με όλους τους νέους λογαριασμούς, ζητήσαμε να επιβεβαιώσετε τον λογαριασμό σας επικυρώνοντας πρώτα αυτήν τη διεύθυνση email.
+fraudulentAccountDeletion-content-part1-v2 = Πρόσφατα, δημιουργήθηκε ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } και χρεωθήκατε για μια συνδρομή με αυτήν τη διεύθυνση email. Όπως κάνουμε με όλους τους νέους λογαριασμούς, ζητήσαμε να επιβεβαιώσετε τον λογαριασμό σας επικυρώνοντας πρώτα αυτήν τη διεύθυνση email.
 fraudulentAccountDeletion-content-2 = Προς το παρόν, βλέπουμε ότι ο λογαριασμός δεν επιβεβαιώθηκε ποτέ. Δεδομένου ότι αυτό το βήμα δεν ολοκληρώθηκε, δεν είμαστε σίγουροι εάν πρόκειται για εξουσιοδοτημένη συνδρομή. Συνεπώς, ο { -product-firefox-account(case: "nom", capitalization: "lower") } που δημιουργήθηκε με αυτήν τη διεύθυνση email διαγράφηκε και η συνδρομή σας ακυρώθηκε με επιστροφή όλων των χρεώσεων.
+fraudulentAccountDeletion-content-part2-v2 = Προς το παρόν, βλέπουμε ότι ο λογαριασμός δεν επιβεβαιώθηκε ποτέ. Δεδομένου ότι αυτό το βήμα δεν ολοκληρώθηκε, δεν είμαστε σίγουροι εάν πρόκειται για εξουσιοδοτημένη συνδρομή. Συνεπώς, ο { -product-mozilla-account(case: "nom", capitalization: "lower") } που δημιουργήθηκε με αυτήν τη διεύθυνση email διαγράφηκε και η συνδρομή σας ακυρώθηκε με επιστροφή όλου του ποσού.
 fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξής</a> μας.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -242,9 +261,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας χρησιμοποιήθηκε για σύνδεση
+newDeviceLogin-title-3 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιήθηκε για σύνδεση
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Δεν είστε εσείς; <a data-l10n-name="passwordChangeLink">Αλλάξτε τον κωδικό πρόσβασής σας</a>.
@@ -255,13 +273,14 @@ newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
 passwordChanged-description = Ο κωδικός πρόσβασης του { -product-firefox-account(case: "gen", capitalization: "lower") } σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:
+passwordChanged-description-2 = Ο κωδικός πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:
 passwordChangeRequired-subject = Εντοπίστηκε ύποπτη δραστηριότητα
 passwordChangeRequired-title = Απαιτείται αλλαγή κωδικού πρόσβασης
 passwordChangeRequired-suspicious-activity = Εντοπίσαμε ύποπτη συμπεριφορά στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Για να αποτρέψουμε τη μη εξουσιοδοτημένη πρόσβαση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, αποσυνδέσαμε όλες τις συσκευές του λογαριασμού σας και σας ζητούμε να αλλάξετε τον κωδικό πρόσβασής σας για προληπτικούς λόγους.
+passwordChangeRequired-suspicious-activity-2 = Εντοπίσαμε ύποπτη συμπεριφορά στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Για να αποτρέψουμε τη μη εξουσιοδοτημένη πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας, αποσυνδέσαμε όλες τις συσκευές του λογαριασμού σας και σας ζητούμε να αλλάξετε τον κωδικό πρόσβασής σας για προληπτικούς λόγους.
 passwordChangeRequired-sign-in = Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν.
+passwordChangeRequired-sign-in-2 = Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν.
 passwordChangeRequired-different-password = <b>Σημαντικό:</b> Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από αυτόν του λογαριασμού email σας.
-passwordChangeRequired-signoff = Σας ευχόμαστε τα καλύτερα,
-passwordChangeRequired-signoff-name = Η ομάδα των { -product-firefox-accounts(case: "gen", capitalization: "upper") }
 passwordChangeRequired-different-password-plaintext = Σημαντικό: Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από αυτόν του λογαριασμού email σας.
 passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
@@ -286,6 +305,7 @@ postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddAccountRecovery-delete-key = Διαγραφή του νέου κλειδιού:
 postAddAccountRecovery-changd-password = Αλλαγή κωδικού πρόσβασης:
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
+postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμός με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας
@@ -520,7 +540,6 @@ subscriptionUpgrade-upgrade-info = Κάνατε επιτυχή αναβάθμι�
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }. Θα χρεωθείτε επίσης { $paymentProrated } εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Θα χρεωθείτε εφάπαξ το ποσό των { $paymentProrated } που αντιστοιχεί στην υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτού του { $productPaymentCycleOld }. Ξεκινώντας με τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN

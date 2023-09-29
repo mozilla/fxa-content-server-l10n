@@ -22,7 +22,7 @@
 -brand-name-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 # 'Firefox Accounts' refers to the service
-project-brand = Λογαριασμός Firefox
+project-brand = Λογαριασμοί Firefox
 
 ## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
 
@@ -59,6 +59,7 @@ input-error-is-required = Απαιτείται το { $label }
 ## Component - Header
 
 brand-name-firefox-logo = Λογότυπο { -brand-name-firefox }
+brand-name-mozilla-logo = Λογότυπο { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -439,10 +440,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Ελέγξτε την αλλαγή σας
 sub-change-failed = Η αλλαγή προγράμματος απέτυχε
-sub-update-copy =
-    Το πλάνο σας θα αλλάξει αμέσως και θα χρεωθείτε με ένα προσαρμοσμένο
-    ποσό για το υπόλοιπο του κύκλου χρέωσής σας. Από τις { $startingDate }
-    θα χρεωθείτε με το πλήρες ποσό.
 sub-update-acknowledgment =
     Το πλάνο σας θα αλλάξει αμέσως και θα χρεωθείτε σήμερα με το ποσό που
     αναλογεί στο υπόλοιπο αυτού του κύκλου χρέωσης. Από τις { $startingDate }
