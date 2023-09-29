@@ -974,6 +974,7 @@ auth-error-1011 = É necessário um email válido
 
 cannot-create-account-header = Não foi possível criar conta
 cannot-create-account-requirements = Você deve atender a certos requisitos de idade para criar uma { -product-firefox-account }.
+cannot-create-account-requirements-2 = Você deve atender a certos requisitos de idade para criar uma { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Saiba mais
 
@@ -1009,6 +1010,7 @@ connect-another-device-ios-complete-setup-message = Entre na sua conta no { -bra
 
 cookies-disabled-header = É necessário armazenamento local e cookies
 cookies-disabled-enable-prompt = Ative cookies e armazenamento local em seu navegador para acessar { -product-firefox-accounts }. Fazer isso ativa funcionalidades como lembrar de você entre sessões.
+cookies-disabled-enable-prompt-2 = Ative cookies e armazenamento local em seu navegador para acessar sua { -product-mozilla-account }. Fazer isso ativa funcionalidades como lembrar de você entre sessões.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Tentar novamente
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1209,6 +1211,7 @@ account-recovery-confirm-key-heading-w-default-service = Redefina a senha com a 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Redefina a senha com a chave de recuperação de conta <span>para seguir para { $serviceName }</span>
 account-recovery-confirm-key-instructions = Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Insira a chave de recuperação de conta de uso único que você armazenou em um local seguro para recuperar o acesso à sua { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Nota:</span> Se você redefinir sua senha e não tiver salva uma chave de recuperação de conta, alguns dos seus dados serão apagados (incluindo dados sincronizados no servidor, como histórico e favoritos).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1289,6 +1292,8 @@ confirm-signin-message = Verifique se recebeu o email com o link de confirmaçã
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Digite a senha <span>da sua { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Digite a senha <span>da sua { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continuar para <span>{ $serviceLogo }</span>
@@ -1345,6 +1350,10 @@ signin-reported-message = Nossa equipe foi notificada. Relatos como este nos aju
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Digite o código de confirmação<span> da sua { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Digite o código de confirmação<span> da sua { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Digite o código enviado para { $email } em até 5 minutos.
 signin-token-code-input-label-v2 = Digite o código de 6 dígitos
