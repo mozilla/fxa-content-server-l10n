@@ -307,9 +307,13 @@ postAddAccountRecovery-action = Gjestìs account
 postAddAccountRecovery-delete-key = Elimine la gnove clâf:
 postAddAccountRecovery-changd-password = Cambie la tô password:
 postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
+postAddLinkedAccount-subject-2 = Gnûf account colegât al to { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Il to account { $providerName } al è stât colegât al to { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Il to account { $providerName } al è stât colegât al to { -product-mozilla-account }
 postAddLinkedAccount-action = Gjestìs account
 postAddTwoStepAuthentication-subject-2 = Autenticazion in doi passaçs ativade
 postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi passaçs
@@ -322,6 +326,9 @@ postChangePrimary-title = Gnove e-mail primarie
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-firefox-account } e par ricevi notifichis di sigurece e di conferme.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-mozilla-account } e par ricevi notifichis di sigurece e di conferme.
 postChangePrimary-action = Gjestìs account
 postConsumeRecoveryCode-title-2 = Tu âs doprât un codiç di autenticazion di backup
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -348,6 +355,9 @@ postRemoveSecondary-title = E-mail secondarie gjavade
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tu âs gjavât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Lis notifichis di sigurece e lis verifichis di acès no vignaran plui mandadis a cheste direzion.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Tu âs gjavât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-mozilla-account }. Lis notifichis di sigurece e lis verifichis di acès no vignaran plui mandadis a cheste direzion.
 postRemoveSecondary-action = Gjestìs account
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticazion in doi passaçs disativade
 postRemoveTwoStepAuthentication-title-2 = Tu âs disativât la autenticazion in doi passaçs
@@ -360,6 +370,7 @@ postVerify-title-2 = Vûstu visualizâ la stesse schede su doi dispositîfs?
 postVerify-description-2 = Al è facil! Ti baste instalâ { -brand-firefox } suntun altri dispositîf e jentrâ par ativâ la sincronizazion. E somee magjie!
 postVerify-sub-description = (Psst… Chest al significhe che tu puedis doprâ i tiei segnelibris, lis passwords e i altris dâts di { -brand-firefox } dapardut là che tu sês jentrât cu lis tôs credenziâls.)
 postVerify-subject-3 = Benvignûts in { -brand-firefox }
+postVerify-subject-4 = Benvignûts in { -brand-mozilla }!
 postVerify-setup-2 = Conet un altri dispositîf:
 postVerify-action-2 = Conet un altri dispositîf
 postVerifySecondary-subject = E-mail secondarie zontade
@@ -367,12 +378,18 @@ postVerifySecondary-title = E-mail secondarie zontade
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Tu âs confermât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-firefox-account }. Di ca indenant lis notifichis di sigurece e lis verifichis di acès a vignaran mandadis a dutis dôs lis direzions di pueste.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Tu âs confermât cun sucès la direzion { $secondaryEmail } tant che e-mail secondarie pal to { -product-mozilla-account }. Di ca indenant lis notifichis di sigurece e lis verifichis di acès a vignaran mandadis a dutis dôs lis direzions di pueste.
 postVerifySecondary-action = Gjestìs account
 recovery-subject = Ristabilìs la tô password
 recovery-title-2 = Password dismenteade?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = O vin ricevût une richieste di modifiche de tô password pal to { -product-firefox-account } di:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
 recovery-new-password-button = Fâs clic sul boton chi sot par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
 recovery-copy-paste = Cope e tache chest URL tal to navigadôr par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
 recovery-action = Cree gnove password
@@ -385,6 +402,11 @@ subscriptionAccountDeletion-title = Tu nus mancjarâs
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Di resint tu âs eliminât il to { -product-firefox-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Di resint tu âs eliminât il to { -product-mozilla-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: configure la tô password.
@@ -393,16 +415,20 @@ subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: config
 subscriptionAccountFinishSetup-title = Benvignûts in { $productName }
 subscriptionAccountFinishSetup-content-processing = Il paiament al è in fase di elaborazion, la operazion e podarès domandâ fin a cuatri dîs lavoratîfs. Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 subscriptionAccountFinishSetup-content-create-2 = Dopo, tu varâs di creâ une password par { -product-firefox-account } cussì di scomençâ a doprâ il to gnûf abonament.
+subscriptionAccountFinishSetup-content-create-3 = Dopo, tu varâs di creâ une password par { -product-mozilla-account } cussì di scomençâ a doprâ il to gnûf abonament.
 subscriptionAccountFinishSetup-action-2 = Scomence
 subscriptionAccountReminderFirst-subject = Pro memoria: complete la configurazion dal to account
 subscriptionAccountReminderFirst-title = No tu puedis ancjemò jentrâ tal to abonament
 subscriptionAccountReminderFirst-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
+subscriptionAccountReminderFirst-content-info-3 = Cualchi dì indaûr tu âs creât un { -product-mozilla-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderFirst-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
 subscriptionAccountReminderFirst-action = Cree password
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Pro memoria finâl: configure il to account
 subscriptionAccountReminderSecond-title = Benvignûts in { -brand-firefox }
+subscriptionAccountReminderSecond-title-2 = Benvignûts in { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Cualchi dì indaûr tu âs creât un { -product-firefox-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
+subscriptionAccountReminderSecond-content-info-3 = Cualchi dì indaûr tu âs creât un { -product-mozilla-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.
 subscriptionAccountReminderSecond-content-select-2 = Selezione “ Cree password” par configurâ une gnove password e completâ la conferme dal to account.
 subscriptionAccountReminderSecond-action = Cree password
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -556,11 +582,14 @@ unblockCode-report = In câs contrari, judinus a tignî lontans i intrûs <a dat
 unblockCode-report-plaintext = In câs contrari, judinus a tignî lontans i intrûs e segnalinus il fat.
 verificationReminderFinal-subject = Ultin pro memoria par confermâ il to account
 verificationReminderFinal-description = Un pâr di setemanis indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Pe tô sigurece o eliminarìn l'account se nol vignarà verificât tes prossimis 24 oris.
+verificationReminderFinal-description-2 = Un pâr di setemanis indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Pe tô sigurece o eliminarìn l'account se nol vignarà verificât tes prossimis 24 oris.
 confirm-account = Conferme account
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Visiti di confermâ il to account
 verificationReminderFirst-title-2 = Benvignûts in { -brand-firefox }
+verificationReminderFirst-title-3 = Benvignûts in { -brand-mozilla }!
 verificationReminderFirst-description-2 = Cualchi zornade indaûr tu âs creât un { -product-firefox-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 15 dîs, se no in automatic al vignarà eliminât.
+verificationReminderFirst-description-3 = Cualchi zornade indaûr tu âs creât un { -product-mozilla-account }, ma no tu lu âs mai confermât. Conferme il to account tai prossims 15 dîs, se no in automatic al vignarà eliminât.
 verificationReminderFirst-sub-description-3 = No sta fâti scjampâ il navigadôr che al met te e la tô riservatece al prin puest.
 confirm-email-2 = Conferme account
 confirm-email-plaintext-2 = { confirm-email-2 }:
