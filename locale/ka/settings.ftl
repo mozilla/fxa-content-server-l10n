@@ -393,6 +393,7 @@ cs-disconnect-suspicious-advice-content =
     საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") }
     პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
     პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
+cs-disconnect-suspicious-advice-content-2 = თუ გამოთიშული მოწყობილობა ნამდვილად საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის უმჯობესია, შეცვალოთ { -product-mozilla-account(case: "gen") } პაროლი თქვენი პარამეტრებიდან. აგრეთვე სასურველია, მისამართების ველში გადახვიდეთ about:logins გვერდზე და შეცვალოთ ყველა დანარჩენი პაროლიც, რომელთაც ინახავს { -brand-firefox }.
 cs-sign-out-button = გამოსვლა
 
 ##
@@ -402,15 +403,20 @@ cs-sign-out-button = გამოსვლა
 
 dc-heading = მონაცემთა აღრიცხვა და გამოყენება
 dc-subheader = დაგვეხმარეთ, გავაუმჯობესოთ { -product-firefox-accounts }
+dc-subheader-2 = დაგვეხმარეთ, გავაუმჯობესოთ { -product-mozilla-accounts }
 dc-subheader-content = ნების დართვა, რომ { -product-firefox-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს, ტექნიკური და გამოყენების მონაცემები.
+dc-subheader-content-2 = ნების დართვა, რომ { -product-mozilla-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს ტექნიკური და გამოყენების მონაცემები.
 dc-opt-out-success = უარი მიღებულია. { -product-firefox-accounts } არ გაუგზავნის { -brand-mozilla }-ს, ტექნიკურ და გამოყენების მონაცემებს.
+dc-opt-out-success-2 = უარი მიღებულია. { -product-mozilla-accounts } არ გაუგზავნის { -brand-mozilla }-ს ტექნიკურ და გამოყენების მონაცემებს.
 dc-opt-in-success = გმადლობთ! ამ მონაცემების გაზიარება, მეტად დაგვეხმარება, რომ განვავითაროთ { -product-firefox-accounts }
+dc-opt-in-success-2 = გმადლობთ! ამ მონაცემების გაზიარება მეტად წაადგება { -product-mozilla-accounts(case: "gen") } გაუმჯობესებას.
 dc-opt-in-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა მონაცემთა აღრიცხვის პარამეტრის ცვლილებისას
 dc-learn-more = ვრცლად
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
+drop-down-menu-title-2 = { -product-mozilla-account(case: "gen") } მენიუ
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -499,6 +505,7 @@ header-menu-closed = საიტზე გადაადგილების 
 header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = დახმარება
 
 ## Linked Accounts section
@@ -626,7 +633,9 @@ delete-account-header =
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
 delete-account-confirm-title-3 = შესაძლოა, თქვენი { -product-firefox-account } დაკავშირებული იყოს რომელიმე { -brand-mozilla }-პროდუქტთან ან მომსახურებასთან, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
+delete-account-confirm-title-4 = შესაძლოა, თქვენი { -product-mozilla-account } დაკავშირებული იყოს რომელიმე { -brand-mozilla }-პროდუქტთან ან მომსახურებასთან, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -949,12 +958,20 @@ tfa-row-change-modal-explain = ეს ქმედება შეუქცე�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = თუ განაგრძობთ, ეთანხმებით:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = თუ განაგრძობთ, შედეგად თქვენთვის მისაღებია:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }-ის <pocketTos>მომსახურების პირობებსა</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადს</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket }-ის <pocketTos>მომსახურების პირობები</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადი</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }-ის <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>მომსახურების პირობები</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადი</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = თუ განაგრძობთ, ეთანხმებით <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = თუ განაგრძობთ, ამით ეთანხმებით <mozillaAccountsTos>მომსახურების პირობებსა</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადს</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
