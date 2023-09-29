@@ -1254,6 +1254,7 @@ account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
 account-recovery-confirm-key-instructions = Fier de accountwerstelkaai foar ienmalich gebrûk, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-firefox-account } te krijen.
+account-recovery-confirm-key-instructions-2 = Fier de foar ien kear te brûken accountwerstelkaai, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-mozilla-account } te krijen.
 account-recovery-confirm-key-warning-message = <span>Noat:</span> as jo jo wachtwurd opnij ynstelle en jo kaai foar accountwerstel bewarre hawwe, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens lykas skiednis en blêdwizers).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1334,6 +1335,8 @@ confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foa
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Fier jo wachtwurd <span>foar jo { -product-firefox-account }</span> yn
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Fier jo wachtwurd <span>foar jo { -product-mozilla-account }</span> yn
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Trochgean nei <span>{ $serviceLogo }</span>
@@ -1390,6 +1393,10 @@ signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze h
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 signin-token-code-input-label-v2 = Fier 6-siferige koade yn
@@ -1441,6 +1448,10 @@ confirm-signup-code-page-title = Fier befêstigingskoade yn
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 confirm-signup-code-input-label = Fier 6-siferige koade yn
