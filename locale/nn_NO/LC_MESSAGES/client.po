@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 07:18+0000\n"
+"PO-Revision-Date: 2023-09-29 07:36+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1072,6 +1072,8 @@ msgstr "Send ny kode på e-post."
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
 msgstr ""
+"Skriv inn stadfestingskoden \n"
+"<span class=\"card-subheader\" id=\"subheader\"> for Mozilla-kontoen din</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1150,7 +1152,7 @@ msgstr "Gløymt passordet?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Skriv inn passordet ditt <span class=\"card-subheader\" id=\"subheader\">for Mozilla-kontoen din</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1182,7 +1184,7 @@ msgstr "Hald fram til Mozilla-kontoen din"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Ein Mozilla-konto låser også opp tilgang til fleire personvernbeskyttande produkt frå Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
