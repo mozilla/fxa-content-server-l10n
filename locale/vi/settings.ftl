@@ -37,7 +37,7 @@ brand-close-banner =
     .alt = Đóng biểu ngữ
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = Logo { -brand-mozilla } m
+    .alt = Logo m của { -brand-mozilla }
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -486,7 +486,7 @@ flow-recovery-key-info-cta-text-v3 = Bắt đầu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Hủy bỏ
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Đóng menu
 header-menu-closed = Menu dẫn hướng trang mạng
