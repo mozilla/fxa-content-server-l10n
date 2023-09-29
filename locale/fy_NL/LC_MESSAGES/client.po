@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 08:30+0000\n"
+"PO-Revision-Date: 2023-09-29 08:35+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -933,7 +933,7 @@ msgstr "Hawwe jo gjin accountwerstelkaai?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "Fier de accountwerstelkaai foar ienmalich gebrûk dy’t jo op in feilich plak bewarre hawwe yn om wer tagong ta jo Mozilla-account te krijen."
+msgstr "Fier de ien kear te brûken accountwerstelkaai dy’t jo op in feilich plak bewarre hawwe yn om wer tagong ta jo Mozilla-account te krijen."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1078,7 +1078,7 @@ msgstr "Nije koade ferstjoere."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Fier befêstigingskoade <span class=\"card-subheader\" id=\"subheader\">foar jo Mozilla-account</span> yn"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1159,7 +1159,7 @@ msgstr "Wachtwurd ferjitten?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Fier jo wachtwurd <span class=\"card-subheader\" id=\"subheader\">foar jo Mozilla-account</span> yn"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1187,11 +1187,11 @@ msgstr "In Firefox-account jout ek tagong ta mear privacy-beskermjende produkten
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Trochgean nei jo Mozilla-account"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "In Mozilla-account jout ek tagong ta mear privacybeskermjende produkten fan Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1462,7 +1462,7 @@ msgstr "Fier binnen 5 minuten de koade yn dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Fier befêstigingskoade <span class=\"card-subheader\">foar jo Mozilla-account</span> yn"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1602,7 +1602,7 @@ msgstr "Servicebetingsten"
 
 #: .es5/templates/support.mustache:25
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-account"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1732,6 +1732,8 @@ msgstr "Wachtwurd wizigje"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Wy hawwe fertocht gedrach op jo Mozilla-account detektearre. Meitsje in nij wachtwurd oan om jo account te beskermjen. Dit wachtwurd brûke jo om jo wer by al jo Mozilla-accounttsjinsten oan te "
+"melden."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1776,7 +1778,7 @@ msgstr "Befêstigje wachtwurd"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "In Mozilla-account oanmeitjse"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
