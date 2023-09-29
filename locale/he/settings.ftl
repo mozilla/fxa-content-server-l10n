@@ -387,9 +387,9 @@ dc-heading = איסוף ושימוש בנתונים
 dc-subheader = עזרה בשיפור { -product-firefox-accounts }
 dc-subheader-2 = עזרה בשיפור { -product-mozilla-accounts }
 dc-subheader-content = לאפשר ל־{ -product-firefox-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
-dc-subheader-content-2 = לאפשר ל־{ -product-mozilla-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
+dc-subheader-content-2 = לאפשר ל{ -product-mozilla-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
 dc-opt-out-success = ביטול ההצטרפות הצליח. { -product-firefox-accounts } לא ישלח נתונים טכניים אל { -brand-mozilla }.
-dc-opt-out-success-2 = ביטול ההצטרפות הצליח. { -product-mozilla-accounts } לא ישלח נתונים טכניים אל { -brand-mozilla }.
+dc-opt-out-success-2 = ביטול ההצטרפות הצליח. { -product-mozilla-accounts } לא ישלחו נתונים טכניים אל { -brand-mozilla }.
 dc-opt-in-success = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-firefox-accounts }.
 dc-opt-in-success-2 = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = הייתה בעיה בשינוי העדפת איסוף הנתונים שלך, עמך הסליחה
@@ -904,6 +904,8 @@ terms-privacy-agreement-firefox = <firefoxTos>תנאי השירות</firefoxTos>
 terms-privacy-agreement-mozilla = <mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy> של { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = המשך התהליך מהווה הסכמה ל<firefoxTos>תנאי השירות</firefoxTos> ו<firefoxPrivacy>הצהרת הפרטיות</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = המשך התהליך מהווה הסכמה ל<mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -941,6 +943,7 @@ auth-error-1011 = נדרשת כתובת דוא״ל חוקית
 
 cannot-create-account-header = לא ניתן ליצור חשבון
 cannot-create-account-requirements = עליך לעמוד בדרישות הגיל כדי ליצור { -product-firefox-account(case: "a") }.
+cannot-create-account-requirements-2 = עליך לעמוד בדרישות הגיל כדי ליצור { -product-mozilla-account(case: "a") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = מידע נוסף
 
@@ -974,6 +977,7 @@ connect-another-device-ios-complete-setup-message = יש להיכנס ל־{ -bra
 
 cookies-disabled-header = אחסון מקומי ועוגיות נדרשים
 cookies-disabled-enable-prompt = נא להפעיל עוגיות ואחסון מקומי בדפדפן שלך על מנת לגשת ל־{ -product-firefox-accounts }. הפעלתם תאפשר, לדוגמה, לזכור אותך בין הפעלות שונות.
+cookies-disabled-enable-prompt-2 = נא להפעיל עוגיות ואחסון מקומי בדפדפן שלך על מנת לגשת ל{ -product-mozilla-account(case: "the") } שלך. הפעלתם תאפשר, לדוגמה, לזכור אותך בין הפעלות שונות.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = לנסות שוב
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1156,6 +1160,7 @@ account-recovery-confirm-key-heading-w-default-service = איפוס ססמה ב�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = איפוס ססמה באמצעות מפתח שחזור חשבון <span>כדי להמשיך אל { $serviceName }</span>
 account-recovery-confirm-key-instructions = יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה ל{ -product-firefox-account(case: "the") } שלך.
+account-recovery-confirm-key-instructions-2 = יש להזין את מפתח שחזור החשבון החד פעמי ששמרת במקום בטוח כדי לקבל גישה ל{ -product-mozilla-account(case: "the") } שלך.
 account-recovery-confirm-key-warning-message = <span>לתשומת לבך:</span> אם יבוצע איפוס הססמה ולא שמרת את מפתח שחזור החשבון שלך, חלק מהנתונים שלך יימחקו (כולל נתוני שרת מסונכרנים כמו היסטוריה וסימניות).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1236,6 +1241,8 @@ confirm-signin-message = נא לבדוק את הדוא״ל שלך לאישור �
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = נא להכניס את הססמה שלך <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = נא להכניס את הססמה שלך <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
@@ -1279,6 +1286,10 @@ signin-reported-message = נשלחה הודעה לצוות שלנו. דיווח�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = נא להכניס קוד אימות <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
 signin-token-code-input-label-v2 = נא להזין קוד בן 6 ספרות
@@ -1330,6 +1341,10 @@ confirm-signup-code-page-title = נא להכניס את קוד האימות
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = נא להכניס קוד אימות <span>עבור { -product-firefox-account(case: "the") } שלך</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = נא להכניס קוד אימות <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
 confirm-signup-code-input-label = נא להזין קוד בן 6 ספרות
