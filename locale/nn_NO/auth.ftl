@@ -201,7 +201,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det må to til for å synkronisere
 cadReminderFirst-description-1 = Ta med deg fanene dine til alle einingane dine. Få bokmerke, passord og dei andre dataa dine overalt der du brukar { -brand-firefox }. Det er som å ha magi i { -brand-firefox }-kontoen din!
-cadReminderFirst-description-2 = Det tar berre eit sekund å synkronisere.
 cadReminderSecond-subject-2 = Ikkje gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
@@ -242,8 +241,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = { -product-firefox-account }en din vart brukt til å logge på
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +257,6 @@ passwordChangeRequired-title = Passordendring påkravd
 passwordChangeRequired-suspicious-activity = Vi oppdaga mistenkjeleg oppførsel på { -product-firefox-account }. For å hindre uautorisert tilgang til { -product-firefox-account }, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som ein førehandsregel.
 passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -product-firefox-account }en din, og følg stega som vil bli presenterte for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
-passwordChangeRequired-signoff = Venleg helsing
-passwordChangeRequired-signoff-name = Teamet { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
@@ -339,6 +334,7 @@ postVerify-title-2 = Vil du sjå den same fana på to einingar?
 postVerify-description-2 = Det er lett! Installer berre { -brand-firefox } på ei anna eining og logg på for å synkronisere. Det er som magi!
 postVerify-sub-description = (Psst… Det betyr også at du kan få bokmerke, passord og andre { -brand-firefox }-data overalt der du er logga inn.)
 postVerify-subject-3 = Velkomen til { -brand-firefox }!
+postVerify-subject-4 = Velkomen til { -brand-mozilla }!
 postVerify-setup-2 = Kople til ei anna eining:
 postVerify-action-2 = Kople til ei anna eining
 postVerifySecondary-subject = Sekundær e-post lagt til
@@ -381,6 +377,7 @@ subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
 subscriptionAccountReminderSecond-title = Velkomen til { -brand-firefox }
+subscriptionAccountReminderSecond-title-2 = Velkomen til { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = For nokre dager sidan oppretta du ein { -product-firefox-account }, men stadfesta han aldri. Vi håper du fullfører konfigureringa av kontoen din, slik at du kan bruke det nye abonnement ditt.
 subscriptionAccountReminderSecond-content-select-2 = Vel «Opprett passord» for å setje opp eit nytt passord og fullfør stadfestinga av kontoen din.
 subscriptionAccountReminderSecond-action = Opprett passord
@@ -448,6 +445,9 @@ subscriptionPaymentProviderCancelled-content-reason = Det kan vere at betalingsk
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonnementet på { $productName } er aktivert på nytt
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } automatisk fornyingsmerknad
 subscriptionRenewalReminder-title = Abonnentet ditt vil snart verte fornya
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
