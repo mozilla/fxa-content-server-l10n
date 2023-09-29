@@ -391,7 +391,7 @@ cs-disconnect-suspicious-advice-content =
     morate zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") }
     v nastavitvah računa. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili
     v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
-cs-disconnect-suspicious-advice-content-2 = Če je odklopljena naprava res sumljiva, v nastavitvah računa spremenite geslo za { -product-mozilla-account(sklon: "rodilnik") }, da zaščitite svoje podatke na varnem. Spremenite tudi morebitna druga gesla, ki ste jih shranili v { -brand-firefox }, tako da v naslovno vrstico vnesete about:logins.
+cs-disconnect-suspicious-advice-content-2 = Če je naprava, ki ste jo odklopili, res sumljiva, morate zaradi varnosti svojih podatkov spremeniti geslo { -product-mozilla-account(sklon: "rodilnik") } v nastavitvah. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-sign-out-button = Odjava
 
 ##
