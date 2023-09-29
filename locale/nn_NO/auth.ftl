@@ -495,6 +495,7 @@ verify-title-3 =
     Opne internett med
      { -brand-mozilla }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
+verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt derdu loggar inn:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
 # Variables:
