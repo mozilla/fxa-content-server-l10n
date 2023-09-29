@@ -388,6 +388,10 @@ cs-disconnect-suspicious-advice-content =
     Pokud je odpojované zařízení skutečně podezřejmé,
     pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
     Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
+cs-disconnect-suspicious-advice-content-2 =
+    Pokud je odpojované zařízení skutečně podezřejmé,
+    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-mozilla-account(case: "gen", capitalization: "lower") }.
+    Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-sign-out-button = Odhlásit se
 
 ##
@@ -397,15 +401,20 @@ cs-sign-out-button = Odhlásit se
 
 dc-heading = Sběr dat a jejich použití
 dc-subheader = Pomozte vylepšit { -product-firefox-accounts(case: "acc", capitalization: "lower") }
+dc-subheader-2 = Pomozte vylepšit { -product-mozilla-accounts(case: "acc", capitalization: "lower") }
 dc-subheader-content = Povolte { -product-firefox-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
+dc-subheader-content-2 = Povolte { -product-mozilla-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
 dc-opt-out-success = Sdílení dat bylo úspěšně zrušeno. { -product-firefox-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
+dc-opt-out-success-2 = Sdílení dat bylo úspěšně zrušeno. { -product-mozilla-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
 dc-opt-in-success = Díky! Sdílení těchto dat nám pomáhá vylepšovat { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
+dc-opt-in-success-2 = Díky! Sdílení těchto dat nám pomáhá vylepšovat { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Při změně předvolby shromažďování dat došlo k problému
 dc-learn-more = Zjistit více
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Nabídka { -product-firefox-account(case: "gen", capitalization: "lower") }
+drop-down-menu-title-2 = Nabídka { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -494,6 +503,7 @@ header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Nápověda
 
 ## Linked Accounts section
@@ -621,7 +631,9 @@ delete-account-header =
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
 delete-account-confirm-title-3 = Možná jste svůj { -product-firefox-account(case: "acc", capitalization: "lower") }  připojili k jednomu nebo více z následujících produktů nebo služeb od { -brand-mozilla(case: "gen") }, které vám zajišťují bezpečnost a produktivitu na webu:
+delete-account-confirm-title-4 = Možná jste svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }  připojili k jednomu nebo více z následujících produktů nebo služeb od { -brand-mozilla(case: "gen") }, které vám zajišťují bezpečnost a produktivitu na webu:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -933,12 +945,18 @@ tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračováním souhlasíte s:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Pokračováním vyjadřujete souhlas s <firefoxTos>Podmínkami poskytování služby</firefoxTos> a <firefoxPrivacy>Oznámením o ochraně osobních údajů</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Pokračováním vyjadřujete souhlas s <mozillaTos>Podmínkami poskytování služby</mozillaTos> a <mozillaPrivacy>Oznámením o ochraně osobních údajů</mozillaPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -980,6 +998,7 @@ auth-error-1011 = Je požadován platný e-mail
 
 cannot-create-account-header = Účet nelze vytvořit
 cannot-create-account-requirements = Pokud si chcete vytvořit { -product-firefox-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
+cannot-create-account-requirements-2 = Pokud si chcete vytvořit { -product-mozilla-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Zjistit více
 
