@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = A coventin doi par sincronizâ
 cadReminderFirst-description-1 = Puartiti daûr lis tôs schedis su ducj i dispositîfs. Dopre i tiei segnelibris, lis passwords e altris dâts dapardut là che tu dopris { -brand-firefox }. Al è come vê la magjie tal to account { -brand-firefox }!
+cadReminderFirst-description-v2 = Puarte lis tôs schedis su ducj i tiei dispositîfs. Oten segnelibris, passwords e altris dâts dapardut là che tu dopris { -brand-firefox }.
 cadReminderSecond-subject-2 = No sta pierdi nuie! Complete la configurazion par scomençâ a sincronizâ
 cadReminderSecond-action = Sincronize un altri dispositîf
 cadReminderSecond-title-2 = No sta dismenteâti di sincronizâ!
@@ -233,8 +234,10 @@ downloadSubscription-title = Benvignûts in { $productName }
 downloadSubscription-content-2 = Scomence a doprâ dutis lis funzionalitâts includudis tal to abonament:
 downloadSubscription-link-action-2 = Scomence
 fraudulentAccountDeletion-subject = Il to { -product-firefox-account } al è stât eliminât
+fraudulentAccountDeletion-subject-2 = Il to { -product-mozilla-account } al è stât eliminât
 fraudulentAccountDeletion-title = Il to account al è stât eliminât
 fraudulentAccountDeletion-content = Di resint al è stât creât un { -product-firefox-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, ti vin domandât di confermâ il to account, convalidant cheste direzion e-mail.
+fraudulentAccountDeletion-content-part1-v2 = Di resint al è stât creât un { -product-mozilla-account } e al è stât regjistrât un abonament a paiament doprant cheste direzion e-mail. Come che o fasìn par ducj i gnûfs accounts, par prime robe o vin domandât di confermâ il to account convalidant cheste direzion e-mail.
 fraudulentAccountDeletion-content-2 = Pal moment nus risulte che l'account nol è mai stât confermât. Viodût che chest passaç nol è stât completât, no podìn jessi sigûrs che al sedi un abonament autorizât. Duncje, l’{ -product-firefox-account } regjistrât cun cheste direzion e-mail al è stât eliminât e l’abonament al è stât anulât cul rimbors di ducj i adebits.
 fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a data-l10n-name="mozillaSupportUrl">grup di supuart</a>.
 # Variables:
