@@ -613,7 +613,9 @@ delete-account-header =
 delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
 delete-account-confirm-title-3 = Você pode ter conectado sua { -product-firefox-account } a um ou mais dos seguintes produtos ou serviços { -brand-mozilla } que mantêm você protegido e produtivo na web:
+delete-account-confirm-title-4 = Você pode ter conectado sua { -product-mozilla-account } a um ou mais dos seguintes produtos ou serviços { -brand-mozilla } que mantêm você protegido e produtivo na web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "uppercase") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -917,12 +919,20 @@ tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Ao prosseguir, você concorda com os:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Ao prosseguir, você concorda com os:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Termos do serviço</firefoxTos> e <firefoxPrivacy>Aviso de privacidade</firefoxPrivacy> do { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Ao prosseguir, você concorda com os <firefoxTos>Termos do serviço</firefoxTos> e <firefoxPrivacy>Aviso de privacidade</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ao prosseguir, você concorda com os <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
