@@ -129,6 +129,7 @@ input-error-is-required = Pole „{ $label }“ je povinné
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
+brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
@@ -561,7 +562,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Zkontrolujte změnu předplatného
 sub-change-failed = Nepodařilo se změnit vaše předplatné
-sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
 sub-update-acknowledgment = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
 sub-change-submit = Potvrdit změnu
 sub-update-current-plan-label = Stávající předplatné

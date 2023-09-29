@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 07:22+0000\n"
+"PO-Revision-Date: 2023-09-29 07:27+0000\n"
 "Last-Translator: Pavel Cvrček <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1076,7 +1076,7 @@ msgstr "Zaslat e-mailem nový kód."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Zadejte potvrzovací kód <span class=\"card-subheader\" id=\"subheader\">pro váš účet Mozilla</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1156,6 +1156,8 @@ msgstr "Zapomněli jste heslo?"
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr ""
+"Zadejte heslo <span class=\"card-subheader\" id=\"subheader\">ke svému účtu Mozilla</span>\n"
+"        "
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1183,11 +1185,11 @@ msgstr "Účet Firefoxu odemyká přístup i k dalším soukromí chránícím p
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Pokračovat na účet Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Účet Mozilla odemyká přístup i k dalším soukromí chránícím produktům Mozilly."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1458,7 +1460,7 @@ msgstr "Vložte během 5 minut kód, který vám byl zaslán na %(email)s."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Zadejte potvrzovací kód <span class=\"card-subheader\">pro váš účet Mozilla</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1594,7 +1596,7 @@ msgstr "Podmínky poskytování služby"
 
 #: .es5/templates/support.mustache:25
 msgid "Mozilla account"
-msgstr ""
+msgstr "Účet Mozilla"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1721,7 +1723,7 @@ msgstr "Změnit heslo"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "Váš účet Mozilla se chová podezřele. Abychom svůj účet ochránili, nastavte si prosím nové heslo a přihlaste se pomocí něj znovu ke všem službám Mozilly."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1766,7 +1768,7 @@ msgstr "Potvrdit heslo"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Vytvořit účet"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
