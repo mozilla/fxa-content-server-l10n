@@ -58,6 +58,7 @@ input-error-is-required = ‏{ $label } נדרש
 ## Component - Header
 
 brand-name-firefox-logo = הלוגו של { -brand-name-firefox }
+brand-name-mozilla-logo = הסמל של { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -454,10 +455,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = סקירת השינוי שלך
 sub-change-failed = שינוי התוכנית נכשל
-sub-update-copy =
-    התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
-    לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
-    יבוצע חיוב בסכום המלא.
 sub-change-submit = אישור השינוי
 sub-update-current-plan-label = תוכנית נוכחית
 sub-update-new-plan-label = תוכנית חדשה
