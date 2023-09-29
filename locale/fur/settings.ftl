@@ -171,6 +171,7 @@ form-verify-code-default-error = Chest cjamp al è obligatori
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Clâf di recupar dal account { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Codiçs di autenticazion di backup par { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Codiçs di autenticazion di backup
 get-data-trio-download-2 =
     .title = Discjame
     .aria-label = Discjame
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menù bento di { -brand-firefox }
+bento-menu-title-2 = Menù bento di { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } e je une tecnologjie che e combat pe tô riservatece in rêt.
+bento-menu-mozilla-title = { -brand-mozilla } e je la tecnologjie che e combat pe tô riservatece in rêt.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -484,7 +487,7 @@ flow-recovery-key-info-cta-text-v3 = Scomence
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anule
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Siere menù
 header-menu-closed = Menù di navigazion dal sît

@@ -59,10 +59,12 @@ input-error-is-required = { $label } al è un cjamp obligatori
 ## Component - Header
 
 brand-name-firefox-logo = Logo di { -brand-name-firefox }
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Âstu za un account { -brand-name-firefox }? <a>Jentre</a>
+new-user-sign-in-link-2 = Âstu za un { -product-mozilla-account }? <a>Jentre</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDu
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Cree un account { -brand-name-firefox }
+new-user-step-1-2 = 1. Cree un { -product-mozilla-account }
 new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di credit
 new-user-submit = Aboniti cumò
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Riviôt la tô modifiche
 sub-change-failed = Modifiche dal plan falide
-sub-update-copy =
-    Il to plan al vignarà cambiât daurman e ti vignarà contizât un impuart
-    calcolât pe part che e reste dal cicli di faturazion. A partî di { $startingDate }
-    ti vignarà contizât l’impuart intîr.
 sub-update-acknowledgment = Il to plan al vignarà cambiât daurman e vuê ti vignarà contizât un impuart ripartît in mût proporzionâl pe part che e reste dal cicli di faturazion. A partî di { $startingDate } ti vignarà contizât l’impuart intîr.
 sub-change-submit = Conferme modifiche
 sub-update-current-plan-label = Plan atuâl
