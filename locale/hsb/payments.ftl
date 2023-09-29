@@ -468,6 +468,7 @@ coupon-success-repeating = Waš plan so po { $couponDurationDate } za lisćinowu
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Załožće konto { -brand-name-firefox }
+new-user-step-1-2 = 1. Załožće { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Zapodajće swoje kartowe informacije
 new-user-submit = Nětko abonować
 

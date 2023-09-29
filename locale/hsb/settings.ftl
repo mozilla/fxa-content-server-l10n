@@ -171,6 +171,7 @@ form-verify-code-default-error = Tute polo je trěbne
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontowy wobnowjenski kluč { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Zawěsćenske awtentifikaciske kody { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Zawěsćenske awtentifikaciske kody
 get-data-trio-download-2 =
     .title = Sćahnyć
     .aria-label = Sćahnyć
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Bento-meni { -brand-firefox }
+bento-menu-title-2 = Meni Bento { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu priwatnosć online wojuje.
+bento-menu-mozilla-title = { -brand-mozilla } je technologija, kotraž za wašu priwatnosć online wojuje.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     { -product-firefox-account } w swojich kontowych nastajenjach změnić, zo byšće waše informacije
     wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja
     pytać, zo by waše daty wotdaloka zhašał.
+cs-disconnect-lost-advice-content-3 = Dokelž waš grat je so zhubił abo kradnył, wy měł hesło wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich kontowych nastajenjach změnić, zo byšće waše informacije wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
 cs-disconnect-suspicious-advice-content =
     Jeli wotdźěleny grat je woprawdźe
     podhladny, wy dyrbjał swoje hesło { -product-firefox-account } w swojich nastajenjach
     změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
     adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
+cs-disconnect-suspicious-advice-content-2 = Jeli wotdźěleny grat je woprawdźe podhladny, wy dyrbjał hesło swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich nastajenjach změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
 
 ##
@@ -396,6 +401,7 @@ cs-sign-out-button = Wotzjewić
 
 dc-heading = Zběranje a wužiwanje datow
 dc-subheader = Pomhajće { -product-firefox-accounts } polěpšić
+dc-subheader-2 = Pomhajće { -product-mozilla-accounts(case: "acc", capitalization: "lower") } polěpšić
 dc-subheader-content = { -product-firefox-accounts } dowolić, zo byšće techniske a interakciske daty na { -brand-mozilla } pósłał.
 dc-opt-out-success = Wotzjewjenje wuspěšne. { -product-firefox-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
 dc-opt-in-success = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-firefox-accounts } polěpšić.
@@ -486,7 +492,7 @@ flow-recovery-key-info-cta-text-v3 = Prěnje kroki
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Přetorhnyć
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Meni začinić
 header-menu-closed = Meni sydłoweje nawigacije
