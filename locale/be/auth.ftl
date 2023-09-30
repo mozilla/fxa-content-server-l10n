@@ -8,11 +8,13 @@ session-verify-send-push-body-2 = Націсніце тут, каб пацвер
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Лагатып { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Сінхранізацыя прылад">
 body-devices-image = <img data-l10n-name="devices-image" alt="Прылады">
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
 fxa-service-url = Умовы выкарыстання { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Лагатып { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
 subplat-automated-email = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 subplat-privacy-notice = Паведамленне аб прыватнасці
@@ -201,7 +203,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
 cadReminderFirst-description-1 = Атрымайце доступ да сваіх картак на ўсіх сваіх прыладах. Карыстайцеся сваімі закладкамі, паролямі і іншымі данымі ўсюды, дзе вы карыстаецеся { -brand-firefox }. Гэта магія працуе дзякуючы ўліковаму запісу { -brand-firefox }!
-cadReminderFirst-description-2 = Сінхранізацыя адбываецца імгненна
 cadReminderSecond-subject-2 = Не прапусціце! Давайце скончым наладку сінхранізацыі
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-title-2 = Не забудзьцеся сінхранізаваць!
@@ -243,8 +244,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ваш { -product-firefox-account } быў выкарыстаны для ўваходу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -261,8 +260,6 @@ passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-suspicious-activity = Мы выявілі падазроную актыўнасць у вашым { -product-firefox-account }. Каб прадухіліць несанкцыянаваны доступ да { -product-firefox-account }, мы адлучылі ўсе прылады вашага ўліковага запісу і патрабуем ад вас змяніць пароль у якасці меры засцярогі.
 passwordChangeRequired-sign-in = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-firefox-account }, і выканайце крокі, якія будуць вам прапанаваны.
 passwordChangeRequired-different-password = <b>Важна</b>: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
-passwordChangeRequired-signoff = Усяго найлепшага,
-passwordChangeRequired-signoff-name = Каманда { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Важна: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
@@ -522,7 +519,6 @@ subscriptionUpgrade-upgrade-info = Вы паспяхова перайшлі з 
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Пачынаючы з наступнага перыяду аплаты, ваш плацеж складзе { $paymentAmountNew } за { $productPaymentCycleNew } замест { $paymentAmountOld } за { $productPaymentCycleOld }. Пры гэтым з вас таксама здымаецца аднаразовая плата ў памеры { $paymentProrated } для пакрыцця больш высокага кошту за гэты { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Вам будзе патрэбна аплаціць { $paymentProrated }, каб адбіць больш высокую цану вашай падпіскі за астатнюю частку гэтага { $productPaymentCycleOld }. Пачынаючы з наступнага перыяду аплаты, ваш плацеж зменіцца з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
