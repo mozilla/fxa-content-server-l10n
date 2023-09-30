@@ -59,10 +59,12 @@ input-error-is-required = { $label } обов'язково
 ## Component - Header
 
 brand-name-firefox-logo = Логотип { -brand-name-firefox }
+brand-name-mozilla-logo = Логотип { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
+new-user-sign-in-link-2 = Вже маєте { -product-mozilla-account }? <a>Увійти</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -438,6 +440,7 @@ coupon-success-repeating = Ваш тарифний план буде автом�
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Створіть обліковий запис { -brand-name-firefox }
+new-user-step-1-2 = 1. Створіть { -product-mozilla-account }
 new-user-card-title = Введіть дані своєї картки
 new-user-submit = Передплатити
 
@@ -467,10 +470,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Переглянути свої зміни
 sub-change-failed = Помилка зміни тарифного плану
-sub-update-copy =
-    Ваш тарифний план зміниться негайно і з вас буде стягнуто скориговану
-    суму за решту оновленого циклу передплати. Починаючи з { $startingDate }
-    з вас буде стягнуто повну суму.
 sub-update-acknowledgment =
     Ваш тарифний план зміниться негайно і сьогодні з вас буде стягнено пропорційну
     суму за решту оновленого циклу передплати. Починаючи з { $startingDate }

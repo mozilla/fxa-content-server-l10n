@@ -354,6 +354,9 @@ postRemoveSecondary-title = Альтернативну електронну по
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Сповіщення безпеки та підтвердження входу більше не  надсилатимуться на цю адресу.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-mozilla-account(case: "gen") }. Сповіщення безпеки та підтвердження входу більше не надсилатимуться на цю адресу.
 postRemoveSecondary-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-subject-line-2 = Двоетапну перевірку вимкнено
 postRemoveTwoStepAuthentication-title-2 = Ви вимкнули двоетапну перевірку
@@ -366,6 +369,7 @@ postVerify-title-2 = Хочете бачити одну вкладку на дв
 postVerify-description-2 = Це легко! Просто встановіть { -brand-firefox } на інший пристрій і ввійдіть, щоб почати синхронізацію. Це як магія!
 postVerify-sub-description = (Пссс… Це також означає, що ви можете отримати свої закладки, паролі та інші дані { -brand-firefox } скрізь, де ви ввійшли.)
 postVerify-subject-3 = Вітаємо у { -brand-firefox }!
+postVerify-subject-4 = Вітаємо в { -brand-mozilla }!
 postVerify-setup-2 = Під'єднати інший пристрій:
 postVerify-action-2 = Під'єднати інший пристрій
 postVerifySecondary-subject = Альтернативну електронну пошту додано
@@ -373,12 +377,18 @@ postVerifySecondary-title = Альтернативну електронну по
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Відтепер сповіщення безпеки та підтвердження входу надсилатимуться на обидві адреси.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-mozilla-account(case: "gen") }. Відтепер сповіщення безпеки та підтвердження входу надсилатимуться на обидві адреси.
 postVerifySecondary-action = Керування обліковим записом
 recovery-subject = Відновити свій пароль
 recovery-title-2 = Забули свій пароль?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Ми отримали запит на зміну пароля до вашого { -product-firefox-account(case: "gen", capitalization: "lower") } від:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Ми отримали запит на зміну пароля до вашого { -product-mozilla-account(case: "gen") } від:
 recovery-new-password-button = Створіть новий пароль, натиснувши кнопку нижче. Термін дії цього посилання закінчиться протягом години.
 recovery-copy-paste = Створіть новий пароль, скопіювавши та вставивши наведену нижче URL-адресу у свій браузер. Термін дії цього посилання закінчиться протягом наступної години.
 recovery-action = Створити новий пароль
@@ -391,6 +401,11 @@ subscriptionAccountDeletion-title = Шкода, що ви йдете
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Ви нещодавно видалили свій { -product-firefox-account(case: "nom", capitalization: "lower") }, тому ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Ви нещодавно видалили свій { -product-mozilla-account }, тому ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Будь ласка, встановіть пароль.
@@ -399,16 +414,20 @@ subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Б�
 subscriptionAccountFinishSetup-title = Вітаємо в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, доки ви її не скасуєте.
 subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account(case: "gen", capitalization: "lower") }, щоб почати використовувати нову передплату.
+subscriptionAccountFinishSetup-content-create-3 = Далі вам необхідно створити пароль { -product-mozilla-account(case: "gen") }, щоб почати використовувати нову передплату.
 subscriptionAccountFinishSetup-action-2 = Розпочати
 subscriptionAccountReminderFirst-subject = Нагадування: Завершіть налаштування свого облікового запису
 subscriptionAccountReminderFirst-title = Ви поки що не можете отримати доступ до своєї передплати
 subscriptionAccountReminderFirst-content-info-2 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
+subscriptionAccountReminderFirst-content-info-3 = Кілька днів тому ви створили { -product-mozilla-account }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
 subscriptionAccountReminderFirst-content-select-2 = Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису.
 subscriptionAccountReminderFirst-action = Створити пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Останнє нагадування: Налаштуйте свій обліковий запис
 subscriptionAccountReminderSecond-title = Вітаємо у { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Вітаємо в { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
+subscriptionAccountReminderSecond-content-info-3 = Кілька днів тому ви створили { -product-mozilla-account }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
 subscriptionAccountReminderSecond-content-select-2 = Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису.
 subscriptionAccountReminderSecond-action = Створити пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -562,23 +581,31 @@ unblockCode-report = Якщо ні, допоможіть нам не допус�
 unblockCode-report-plaintext = Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас.
 verificationReminderFinal-subject = Останнє нагадування про підтвердження облікового запису
 verificationReminderFinal-description = Кілька тижнів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Для вашої безпеки ми видалимо обліковий запис, якщо його не буде підтверджено протягом наступних 24 годин.
+verificationReminderFinal-description-2 = Кілька тижнів тому ви створили { -product-mozilla-account }, але досі не підтвердили його. Для вашої безпеки ми видалимо обліковий запис, якщо його не буде підтверджено протягом наступних 24 годин.
 confirm-account = Підтвердити обліковий запис
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте підтвердити свій обліковий запис
 verificationReminderFirst-title-2 = Вітаємо у { -brand-firefox }!
+verificationReminderFirst-title-3 = Вітаємо в { -brand-mozilla }!
 verificationReminderFirst-description-2 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 15 днів, інакше його буде автоматично видалено.
+verificationReminderFirst-description-3 = Кілька днів тому ви створили { -product-mozilla-account }, але досі його не підтвердили. Якщо ви не підтвердите свій обліковий запис протягом наступних 15 днів, його буде автоматично видалено.
 verificationReminderFirst-sub-description-3 = Не проґавте браузер, який цінує вас і вашу приватність понад усе.
 confirm-email-2 = Підтвердити обліковий запис
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Підтвердити обліковий запис
 verificationReminderSecond-subject-2 = Не забудьте підтвердити свій обліковий запис
 verificationReminderSecond-title-2 = Не пропустіть { -brand-firefox }!
+verificationReminderSecond-title-3 = Не пропустіть { -brand-mozilla }!
 verificationReminderSecond-description-3 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 10 днів, інакше його буде автоматично видалено.
+verificationReminderSecond-description-4 = Кілька днів тому ви створили { -product-mozilla-account }, але досі його не підтвердили. Якщо ви не підтвердите свій обліковий запис протягом наступних 10 днів, його буде автоматично видалено.
 verificationReminderSecond-second-description = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } дає можливість синхронізувати ваші дані на різних пристроях і відкриває доступ до більшої кількості продуктів для захисту приватності від { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = { -product-mozilla-account(capitalization: "upper") } дає можливість синхронізувати ваші дані на різних пристроях і відкриває доступ до більшої кількості продуктів для захисту приватності від { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Станьте частиною нашої місії з перетворення Інтернету на місце, відкрите для всіх.
 verificationReminderSecond-action-2 = Підтвердити обліковий запис
 verify-title-2 = Відкрийте Інтернет за допомогою { -brand-firefox }
+verify-title-3 = Відкрийте інтернет разом з { -brand-mozilla }
 verify-description = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-firefox } усюди де ви зайдете, починаючи з:
+verify-description-2 = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-mozilla } всюди де ви зайдете, починаючи з:
 verify-subject = Завершіть створення свого облікового запису
 verify-action-2 = Підтвердити обліковий запис
 # Variables:
@@ -609,13 +636,19 @@ verifySecondaryCode-action-2 = Підтвердьте електронну по�
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Запит на використання { $email } альтернативною адресою електронної пошти було зроблено з такого { -product-firefox-account(case: "gen", capitalization: "lower") }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Запит використання { $email }, як альтернативної електронної пошти, було зроблено з такого { -product-mozilla-account(case: "gen") }:
 verifySecondaryCode-prompt-2 = Використати цей код підтвердження:
 verifySecondaryCode-expiry-notice-2 = Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Підтвердження облікового запису
 verifyShortCode-title-2 = Відкрийте Інтернет за допомогою { -brand-firefox }
+verifyShortCode-title-3 = Відкрийте інтернет разом з { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-firefox } усюди де ви зайдете, починаючи з:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-mozilla } всюди де ви зайдете, починаючи з:
 verifyShortCode-prompt-3 = Використати цей код підтвердження:
 verifyShortCode-expiry-notice = Термін його дії спливає через 5 хвилин.

@@ -171,6 +171,7 @@ form-verify-code-default-error = Це поле обов'язкове
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Резервні коди автентифікації
 get-data-trio-download-2 =
     .title = Завантажити
     .aria-label = Завантажити
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Меню продуктів { -brand-firefox }
+bento-menu-title-2 = { -brand-mozilla } – меню Bento
 bento-menu-firefox-title = { -brand-firefox } - це технологія, яка захищає вашу приватність у мережі.
+bento-menu-mozilla-title = { -brand-mozilla } – це технологія, яка захищає вашу приватність онлайн.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,6 +384,7 @@ cs-disconnect-lost-advice-content-2 =
     захистити свої дані, вам варто змінити пароль { -product-firefox-account(case: "gen", capitalization: "lower") }
     у його налаштуваннях. Вам також треба переглянути поради
     виробника пристрою щодо віддаленого стирання даних.
+cs-disconnect-lost-advice-content-3 = Оскільки ваш пристрій було втрачено або викрадено, щоб захистити свої дані, вам варто змінити пароль { -product-mozilla-account(case: "gen") } у його налаштуваннях. Вам також варто переглянути поради виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
 cs-disconnect-suspicious-advice-content =
     Якщо від'єднаний пристрій справді підозрілий,
@@ -388,6 +392,7 @@ cs-disconnect-suspicious-advice-content =
     у його налаштуваннях, щоб зберегти свою інформацію в безпеці.
     Вам також треба змінити будь-які інші паролі,
     збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
+cs-disconnect-suspicious-advice-content-2 = Якщо від'єднаний пристрій справді підозрілий, вам варто змінити пароль { -product-mozilla-account(case: "gen") } у його налаштуваннях, щоб зберегти свою інформацію в безпеці. Вам також варто змінити будь-які інші паролі, збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
 
 ##
@@ -397,15 +402,20 @@ cs-sign-out-button = Вийти
 
 dc-heading = Збір та використання даних
 dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts(case: "nom", capitalization: "lower") }
+dc-subheader-2 = Допоможіть вдосконалити { -product-mozilla-accounts }
 dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat", capitalization: "lower") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-subheader-content-2 = Дозволити { -product-mozilla-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success = Відмова пройшла успішно. { -product-firefox-accounts } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-opt-out-success-2 = Відмова пройшла успішно. { -product-mozilla-accounts(capitalization: "upper") } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts(case: "nom", capitalization: "lower") }.
+dc-opt-in-success-2 = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Перепрошуємо, виникла проблема зі зміною параметрів збору даних
 dc-learn-more = Докладніше
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Меню { -product-firefox-account(case: "gen", capitalization: "lower") }
+drop-down-menu-title-2 = Меню { -product-mozilla-account(case: "gen") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -622,6 +632,7 @@ delete-account-header =
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
 delete-account-confirm-title-3 = Можливо, ви під'єднали свій { -product-firefox-account } до одного або більше зазначених продуктів або сервісів { -brand-mozilla }, які забезпечують ваш захист і продуктивність в інтернеті.
+delete-account-confirm-title-4 = Можливо, ви під'єднали свій { -product-mozilla-account } до одного або більше зазначених продуктів або сервісів { -brand-mozilla }, які забезпечують ваш захист і продуктивність в інтернеті.
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "upper") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -948,6 +959,8 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Продовжуючи, ви погоджуєтеся з:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджуєтеся з:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
