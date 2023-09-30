@@ -308,6 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu Bento de { -brand-firefox }
+bento-menu-title-2 = Menu Bento de { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
 bento-menu-mozilla-title = { -brand-mozilla } es technologia que lucta pro tu confidentialitate in linea.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -959,6 +960,8 @@ terms-privacy-agreement-pocket = <pocketTos>Terminos de servicio</pocketTos> e <
 terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Terminos de servicio</firefoxTos> e <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy> de { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Terminos de servicio</mozillaAccountsTos>e <mozillaAccountsPrivacy>Aviso de confidentialitate</mozillaAccountsPrivacy> de { -product-mozilla-accounts(capitalization: "uppercase") }.
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Si tu procede, tu accepta le <firefoxTos>Terminos de servicio</firefoxTos> e le <firefoxPrivacy>Aviso de confidentialitate</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
