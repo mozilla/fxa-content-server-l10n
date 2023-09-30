@@ -307,6 +307,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
+bento-menu-title-2 = { -brand-mozilla } Bento мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -406,6 +407,7 @@ dc-learn-more = Көбірек білу
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } мәзірі
+drop-down-menu-title-2 = { -product-mozilla-account } мәзірі
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -487,13 +489,14 @@ flow-recovery-key-info-cta-text-v3 = Бастау
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Бас тарту
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Мәзірді жабу
 header-menu-closed = Сайттың навигация мәзірі
 header-back-to-top-link =
     .title = Жоғарыға оралу
 header-title = Firefox тіркелгісі
+header-title-2 = { -product-mozilla-account }
 header-help = Көмек
 
 ## Linked Accounts section
@@ -622,6 +625,7 @@ delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
 delete-account-confirm-title-3 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді интернетте қауіпсіздік пен өнімділікті қамтамасыз ететін келесі { -brand-mozilla } өнімдерінің немесе қызметтерінің біріне немесе бірнешеуіне қосқан болуыңыз мүмкін:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -944,6 +948,8 @@ tfa-row-change-modal-explain = Бұл әрекетті кері қайтара �
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Жалғастыру арқылы сіз келесіге келісесіз:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Жалғастыру арқылы сіз келесімен келісесіз:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
