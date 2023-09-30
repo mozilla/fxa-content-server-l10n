@@ -401,14 +401,18 @@ dc-heading = Racuelte e utilizazion dâts
 dc-subheader = Judinus a miorâ i { -product-firefox-accounts }
 dc-subheader-2 = Judinus a miorâ i { -product-mozilla-accounts }
 dc-subheader-content = Permet al servizi di { -product-firefox-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
+dc-subheader-content-2 = Permet al servizi di { -product-mozilla-accounts } di inviâ a { -brand-mozilla } dâts tecnics e di interazion.
 dc-opt-out-success = Disativazion lade a bon fin. { -product-firefox-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
+dc-opt-out-success-2 = Disativazion lade a bon fin. { -product-mozilla-accounts } nol mandarà a { -brand-mozilla } dâts tecnics o di interazion.
 dc-opt-in-success = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-firefox-accounts }.
+dc-opt-in-success-2 = Graciis! La condivision di chescj dâts nus jude a miorâ i { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Nus displâs, al è vignût fûr un probleme tal cambiâ lis preferencis relativis ae racuelte dai dâts
 dc-learn-more = Plui informazions
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menù dal { -product-firefox-account(capitalization: "lowercase") }
+drop-down-menu-title-2 = Menù { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -497,6 +501,7 @@ header-menu-closed = Menù di navigazion dal sît
 header-back-to-top-link =
     .title = Torne sù
 header-title = Account di Firefox
+header-title-2 = { -product-mozilla-account }
 header-help = Jutori
 
 ## Linked Accounts section
@@ -624,7 +629,9 @@ delete-account-header =
 delete-account-step-1-2 = Passaç 1 di 2
 delete-account-step-2-2 = Passaç 2 di 2
 delete-account-confirm-title-3 = Tu podaressis vê colegât il to { -product-firefox-account } a un o plui di chescj prodots o servizis { -brand-mozilla } che ti garantissin une esperience sul web sigure e produtive:
+delete-account-confirm-title-4 = Tu podaressis vê colegât il to { -product-mozilla-account } a un o plui di chescj prodots o servizis { -brand-mozilla } che ti garantissin une esperience sul web sigure e produtive:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -947,12 +954,20 @@ tfa-row-change-modal-explain = No tu rivarâs a tornâ indaûr di cheste azion.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Se tu continuis tu acetis:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Se tu continuis tu acetis:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy> di { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Tiermins dal servizi</mozillaAccountsTos> e <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy> dai { -product-mozilla-accounts }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Continuant tu acetis lis <firefoxTos>Cundizions di utilizazion dal servizi</firefoxTos> e la <firefoxPrivacy>Informative su la riservatece</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Se tu continuis tu acetis lis <mozillaAccountsTos>cundizions di utilizazion dal servizi</mozillaAccountsTos> e la <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -994,6 +1009,7 @@ auth-error-1011 = Al è necessari inserî une direzion e-mail valide
 
 cannot-create-account-header = Impussibil creâ un account
 cannot-create-account-requirements = Par creâ un { -product-firefox-account } tu scugnis sodisfâ determinâts recuisîts di etât.
+cannot-create-account-requirements-2 = Par creâ un { -product-mozilla-account } tu scugnis sodisfâ determinâts recuisîts di etât.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Plui informazions
 
