@@ -965,7 +965,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <po
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>Obvestilo o zasebnosti</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilo o zasebnosti</mozillaAccountsPrivacy> { -product-mozilla-accounts(zacetnica: "velika", sklon: "rodilnik") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Z nadaljevanjem se strinjate s <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilom o zasebnosti</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1011,7 +1011,7 @@ auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 
 cannot-create-account-header = Ni mogoče ustvariti računa
 cannot-create-account-requirements = Za ustvarjanje računa { -product-firefox-account } morate izpolnjevati starostne pogoje.
-cannot-create-account-requirements-2 = Za ustvarjanje { -product-mozilla-account(sklon: "tozilnik") } morate izpolniti določene starostne zahteve.
+cannot-create-account-requirements-2 = Za ustvarjanje { -product-mozilla-account(sklon: "rodilnik") } morate izpolniti starostne pogoje.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Več o tem
 
@@ -1047,7 +1047,7 @@ connect-another-device-ios-complete-setup-message = Za dokončanje namestitve se
 
 cookies-disabled-header = Lokalna shramba in piškotki so zahtevani
 cookies-disabled-enable-prompt = Za dostop do { -product-firefox-accounts(sklon: "rodilnik") } v svojem brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami.
-cookies-disabled-enable-prompt-2 = Za dostop do { -product-mozilla-account(sklon: "rodilnik") } v svojem brskalniku omogočite piškotke in lokalno shrambo podatkov. S tem boste omogočili funkcije, kot je zapomnitev vas med sejami.
+cookies-disabled-enable-prompt-2 = Za dostop do { -product-mozilla-account(sklon: "rodilnik") } v brskalniku omogočite piškotke in lokalno shrambo. Na ta način boste med drugim omogočili, da si vas bo brskalnik zapomnil med sejami.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Poskusi znova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
