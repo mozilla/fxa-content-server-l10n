@@ -59,6 +59,7 @@ input-error-is-required = { $label } абавязковае
 ## Component - Header
 
 brand-name-firefox-logo = Лагатып { -brand-name-firefox }
+brand-name-mozilla-logo = Лагатып { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -467,10 +468,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Праглядзіце свае змены
 sub-change-failed = Не атрымалася змяніць план
-sub-update-copy =
-    Ваш тарыфны план неадкладна зменіцца,  і з вас будзе спісана скарэкціраваная
-    сума за астатнюю частку плацежнага цыкла. Пачынаючы з { $startingDate }
-    з вас будзе здымацца поўная сума.
 sub-update-acknowledgment =
     Ваш тарыфны план неадкладна зменіцца,  і сёння з вас будзе спісана прапарцыйная
     сума за астатнюю частку гэтага плацежнага цыкла. Пачынаючы з { $startingDate }

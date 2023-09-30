@@ -487,13 +487,14 @@ flow-recovery-key-info-cta-text-v3 = Пачаць
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасаваць
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Закрыць меню
 header-menu-closed = Меню навігацыі па сайце
 header-back-to-top-link =
     .title = Вярнуцца ўгару
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Даведка
 
 ## Linked Accounts section
@@ -622,6 +623,7 @@ delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
 delete-account-confirm-title-3 = Магчыма, вы падключылі свой { -product-firefox-account } да аднаго ці некалькіх з наступных прадуктаў або паслуг { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
