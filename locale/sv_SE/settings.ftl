@@ -171,6 +171,7 @@ form-verify-code-default-error = Detta fält är obligatoriskt
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reservautentiseringskoder
+get-data-trio-title-backup-verification-codes = Säkerhetskopiera autentiseringskoder
 get-data-trio-download-2 =
     .title = Hämta
     .aria-label = Hämta
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
+bento-menu-title-2 = { -brand-mozilla } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din integritet online.
+bento-menu-mozilla-title = { -brand-mozilla } är teknik som kämpar för din integritet online.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -486,7 +489,7 @@ flow-recovery-key-info-cta-text-v3 = Kom igång
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Avbryt
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Stäng meny
 header-menu-closed = Menyn för webbplatsnavigering

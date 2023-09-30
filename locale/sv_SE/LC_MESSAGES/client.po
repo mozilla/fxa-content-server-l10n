@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 03:47+0000\n"
+"PO-Revision-Date: 2023-09-30 01:09+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1768,7 +1768,7 @@ msgstr "Bekräfta lösenord"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Skapa ett Mozilla-konto"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

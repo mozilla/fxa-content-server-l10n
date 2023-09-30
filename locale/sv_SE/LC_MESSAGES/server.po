@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-03-04 21:50+0000\n"
+"PO-Revision-Date: 2023-09-30 01:10+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -74,7 +74,7 @@ msgstr "Firefox-konton kräver JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla-konton kräver JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -99,7 +99,7 @@ msgstr "Ladda ner senaste"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-konto"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -108,3 +108,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Ditt Mozilla-konto använder funktioner som inte\n"
+"stöds i din version av firefox. Ladda ner\n"
+"och installera den senaste versionen av Firefox\n"
+"för att fortsätta."
