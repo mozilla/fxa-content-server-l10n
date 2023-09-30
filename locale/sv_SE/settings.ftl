@@ -384,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     för { -product-firefox-account } i dina kontoinställningar för att skydda din
     information. Du bör också leta efter information från enhetstillverkaren om
     hur du raderar dina data på distans.
+cs-disconnect-lost-advice-content-3 = Eftersom din enhet har tappats bort eller blivit stulen bör du ändra ditt lösenord för { -product-mozilla-account } i dina kontoinställningar för att skydda din information. Du bör också leta efter information från din enhetstillverkare om att radera dina data på distans.
 cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
 cs-disconnect-suspicious-advice-content =
     Om den frånkopplade enheten verkligen är
     misstänkt bör du ändra lösenordet för { -product-firefox-account } i dina kontoinställningar
     för att skydda din information. Du bör också ändra alla andra lösenord som du har
     sparat i { -brand-firefox } genom att skriva about:logins in i adressfältet.
+cs-disconnect-suspicious-advice-content-2 = Om den frånkopplade enheten verkligen är misstänkt bör du ändra ditt lösenord för { -product-mozilla-account } i dina kontoinställningar för att skydda din information. Du bör också ändra alla andra lösenord som du sparat i { -brand-firefox } genom att skriva about:logins i adressfältet.
 cs-sign-out-button = Logga ut
 
 ##
@@ -399,15 +401,20 @@ cs-sign-out-button = Logga ut
 
 dc-heading = Datainsamling och användning
 dc-subheader = Hjälp till att förbättra { -product-firefox-accounts }
+dc-subheader-2 = Hjälp till att förbättra { -product-mozilla-accounts }
 dc-subheader-content = Tillåt { -product-firefox-accounts } att skicka teknisk data och användningsdata till { -brand-mozilla }.
+dc-subheader-content-2 = Tillåt { -product-mozilla-accounts } att skicka teknisk data och interaktionsdata till { -brand-mozilla }.
 dc-opt-out-success = Lyckad avanmälan. { -product-firefox-accounts } kommer inte att skicka några tekniska data eller interaktionsdata till { -brand-mozilla }.
+dc-opt-out-success-2 = Valet lyckades. { -product-mozilla-accounts } skickar inte teknisk data eller interaktionsdata till { -brand-mozilla }.
 dc-opt-in-success = Tack! Att dela denna data hjälper oss att förbättra { -product-firefox-accounts }.
+dc-opt-in-success-2 = Tack! Att dela denna data hjälper oss att förbättra { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Tyvärr, det uppstod ett problem med att ändra din inställning för datainsamling
 dc-learn-more = Läs mer
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-meny
+drop-down-menu-title-2 = { -product-mozilla-account }-meny
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -496,6 +503,7 @@ header-menu-closed = Menyn för webbplatsnavigering
 header-back-to-top-link =
     .title = Tillbaka till toppen
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Hjälp
 
 ## Linked Accounts section
@@ -623,7 +631,9 @@ delete-account-header =
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
 delete-account-confirm-title-3 = Du kan ha kopplat ditt { -product-firefox-account } till en eller flera av följande { -brand-mozilla }-produkter eller tjänster som håller dig säker och produktiv på webben:
+delete-account-confirm-title-4 = Du kan ha kopplat ditt { -product-mozilla-account } till en eller flera av följande { -brand-mozilla } produkter eller tjänster som håller dig säker och produktiv på webben:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -948,12 +958,20 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Genom att fortsätta godkänner du:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Genom att fortsätta godkänner du:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>användarvillkor</pocketTos> och <pocketPrivacy>sekretesspolicy</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Användarvillkor</pocketTos> och <pocketPrivacy>sekretessmeddelande</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }s <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Användarvillkor</mozillaAccountsTos> och <mozillaAccountsPrivacy>sekretessmeddelande</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Genom att fortsätta godkänner du <firefoxTos>användarvillkor</firefoxTos> och <firefoxPrivacy>sekretesspolicy</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Genom att fortsätta godkänner du <mozillaAccountsTos>användarvillkoren</mozillaAccountsTos> och <mozillaAccountsPrivacy>sekretessmeddelande</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -995,6 +1013,7 @@ auth-error-1011 = Giltig e-postadress krävs
 
 cannot-create-account-header = Kan inte skapa konto
 cannot-create-account-requirements = Du måste uppfylla vissa ålderskrav för att skapa ett { -product-firefox-account }.
+cannot-create-account-requirements-2 = Du måste uppfylla vissa ålderskrav för att skapa ett { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Läs mer
 
@@ -1030,6 +1049,7 @@ connect-another-device-ios-complete-setup-message = Logga in på { -brand-firefo
 
 cookies-disabled-header = Lokal lagring och kakor krävs
 cookies-disabled-enable-prompt = Vänligen aktivera kakor och lokal lagring i din webbläsare för att komma åt { -product-firefox-accounts }. Om du gör det aktiveras funktioner som att komma ihåg dig mellan sessionerna.
+cookies-disabled-enable-prompt-2 = Vänligen aktivera kakor och lokal lagring i din webbläsare för att komma åt ditt { -product-mozilla-account }. Om du gör det aktiveras funktioner som att komma ihåg dig mellan sessionerna.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Försök igen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1230,6 +1250,7 @@ account-recovery-confirm-key-heading-w-default-service = Återställ lösenordet
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Återställ lösenordet med kontoåterställningsnyckeln <span>för att fortsätta till { $serviceName }</span>
 account-recovery-confirm-key-instructions = Ange engångsnyckeln för kontoåterställning som du lagrade på ett säkert ställe för att återfå åtkomst till ditt { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Ange engångsnyckeln för kontoåterställning som du lagrade på ett säkert ställe för att återfå åtkomst till ditt { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Obs:</span> Om du återställer ditt lösenord och inte har din kontoåterställningsnyckel sparad kommer en del av dina data att raderas (inklusive synkroniserad serverdata som historik och bokmärken).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1310,6 +1331,8 @@ confirm-signin-message = Kontrollera din e-post för inloggningsbekräftelselän
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Ange ditt lösenord <span>för ditt { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Ange ditt lösenord <span>för ditt { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Fortsätt till <span>{ $serviceLogo }</span>
@@ -1366,6 +1389,10 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Ange bekräftelsekod<span> för ditt { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Ange bekräftelsekod<span> för ditt { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
 signin-token-code-input-label-v2 = Ange 6-siffrig kod
@@ -1417,6 +1444,10 @@ confirm-signup-code-page-title = Ange bekräftelsekod
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Ange bekräftelsekoden <span>för ditt { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Ange bekräftelsekoden <span>för ditt { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
 confirm-signup-code-input-label = Ange 6-siffrig kod
