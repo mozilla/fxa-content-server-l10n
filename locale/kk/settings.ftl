@@ -392,6 +392,9 @@ cs-disconnect-suspicious-advice-content =
     ақпаратыңызды қауіпсіз сақтау үшін тіркелгі параметрлерінде { -product-firefox-account }
     паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы
     { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
+cs-disconnect-suspicious-advice-content-2 =
+    Егер ажыратылған құрылғы шынымен де күмәнді болса, ақпаратыңызды қауіпсіз сақтау үшін тіркелгі параметрлерінде { -product-mozilla-account }
+    паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
 cs-sign-out-button = Шығу
 
 ##
@@ -401,9 +404,13 @@ cs-sign-out-button = Шығу
 
 dc-heading = Деректерді жинау және қолдану
 dc-subheader = { -product-firefox-accounts } жақсартуға көмектесу
+dc-subheader-2 = { -product-mozilla-accounts } жақсартуға көмектесу
 dc-subheader-content = { -product-firefox-accounts } үшін техникалық және өзара әрекеттесу деректерін { -brand-mozilla } адресіне жіберуге рұқсат беру.
+dc-subheader-content-2 = { -product-mozilla-accounts } үшін техникалық және өзара әрекеттесу деректерін { -brand-mozilla } адресіне жіберуге рұқсат беру.
 dc-opt-out-success = Бас тарту сәтті болды. { -product-firefox-accounts } техникалық немесе өзара әрекеттесу деректерін { -brand-mozilla } адресіне жібермейтін болады.
+dc-opt-out-success-2 = Бас тарту сәтті болды. { -product-mozilla-accounts } техникалық немесе өзара әрекеттесу деректерін { -brand-mozilla } адресіне жібермейтін болады.
 dc-opt-in-success = Рахмет! Бұл деректермен бөлісу { -product-firefox-accounts } қызметін жақсартуға көмектеседі.
+dc-opt-in-success-2 = Рахмет! Бұл деректермен бөлісу { -product-mozilla-accounts } қызметін жақсартуға көмектеседі.
 dc-opt-in-out-error-2 = Кешіріңіз, деректерді жинау параметрін өзгерту кезінде мәселе орын алды
 dc-learn-more = Көбірек білу
 
@@ -627,6 +634,7 @@ delete-account-header =
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
 delete-account-confirm-title-3 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді интернетте қауіпсіздік пен өнімділікті қамтамасыз ететін келесі { -brand-mozilla } өнімдерінің немесе қызметтерінің біріне немесе бірнешеуіне қосқан болуыңыз мүмкін:
+delete-account-confirm-title-4 = Сіз өзіңіздің { -product-mozilla-account } тіркелгіңізді интернетте қауіпсіздік пен өнімділікті қамтамасыз ететін келесі { -brand-mozilla } өнімдерінің немесе қызметтерінің біріне немесе бірнешеуіне қосқан болуыңыз мүмкін:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -955,10 +963,16 @@ terms-privacy-agreement-intro = Жалғастыру арқылы сіз кел�
 terms-privacy-agreement-intro-2 = Жалғастыру арқылы сіз келесімен келісесіз:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } өнімінің <firefoxTos>Қолдану шарттары</firefoxTos> және <firefoxPrivacy>Қауіпсіздік ескертуі</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Қолдану шарттары</mozillaAccountsTos> және <mozillaAccountsPrivacy>Қауіпсіздік ескертуі</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Жалғастыру арқылы сіз <firefoxTos>Қолдану шарттары</firefoxTos> және <firefoxPrivacy>Қауіпсіздік ескертуі</firefoxPrivacy> шарттарымен келісесіз.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Жалғастыру арқылы сіз <mozillaAccountsTos>Қолдану шарттары</mozillaAccountsTos> және <mozillaAccountsPrivacy>Қауіпсіздік ескертуі</mozillaAccountsPrivacy> шарттарымен келісесіз.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1000,6 +1014,7 @@ auth-error-1011 = Жарамды эл. пошта адресі керек
 
 cannot-create-account-header = Тіркелгіні жасау мүмкін емес
 cannot-create-account-requirements = { -product-firefox-account } жасау үшін жасыңыз белгілі шамадан асуы тиіс.
+cannot-create-account-requirements-2 = { -product-mozilla-account } жасау үшін жасыңыз белгілі шамадан асуы тиіс.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Көбірек білу
 
@@ -1035,6 +1050,7 @@ connect-another-device-ios-complete-setup-message = Баптауды аяқта�
 
 cookies-disabled-header = Жергілікті қойма және cookie файлдары қажет
 cookies-disabled-enable-prompt = { -product-firefox-accounts } қатынау үшін, браузеріңізде cookies және жергілікті қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау сияқты мүмкіндіктер іске қосылады.
+cookies-disabled-enable-prompt-2 = { -product-mozilla-account } тіркелгіңізге қол жеткізу үшін, браузеріңізде cookies және жергілікті қойманы іске қосыңыз. Оның нәтижесінде сессиялар арасында сізді есте сақтау сияқты мүмкіндіктер іске қосылады.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Қайтадан көру
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1235,6 +1251,7 @@ account-recovery-confirm-key-heading-w-default-service = <span>Тіркелгі 
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> тіркелгіні қалпына келтіру кілтімен парольді қалпына келтіріңіз
 account-recovery-confirm-key-instructions = { -product-firefox-account } ішіне қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз.
+account-recovery-confirm-key-instructions-2 = { -product-mozilla-account } ішіне қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз.
 account-recovery-confirm-key-warning-message = <span>ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз өшіріледі (соның ішінде тарих және бетбелгілер сияқты синхрондалған сервер деректері).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1315,6 +1332,8 @@ confirm-signin-message = Эл. поштаңызды { $email } адресіне 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін парольді енгізіңіз
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін парольді енгізіңіз
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
@@ -1371,6 +1390,10 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 signin-token-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
@@ -1422,6 +1445,10 @@ confirm-signup-code-page-title = Растау кодын енгізіңіз
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Өзіңіздің <span>{ -product-firefox-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 confirm-signup-code-input-label = 6-цифрлық кодты енгізіңіз

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-30 05:18+0000\n"
+"PO-Revision-Date: 2023-09-30 05:37+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1155,7 +1155,7 @@ msgstr "Пароліңізді ұмыттыңыз ба?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla тіркелгіңіз үшін</span> пароліңізді енгізіңіз"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1183,11 +1183,11 @@ msgstr "Firefox тіркелгісі Mozilla-дан жекелігіңізді �
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Mozilla тіркелгіңізге жалғастыру"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Mozilla тіркелгісі Mozilla-дан жекелігіңізді қорғайтын көбірек өнімдерге кіруге мүмкіндік береді."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1458,7 +1458,7 @@ msgstr "%(email)s адресіне жіберілген кодты 5 минут 
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">Mozilla тіркелгіңіз үшін</span> растау кодын енгізіңіз"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1723,7 +1723,7 @@ msgstr "Парольді өзгерту"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "Mozilla тіркелгіңізде күмәнді әрекетті анықтадық. Тіркелгіңізді қорғау үшін жаңа паролді жасаңыз. Бұл парольді барлық Mozilla тіркелгісі қызметтеріне қайта кіру үшін пайдаланасыз."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
