@@ -1008,6 +1008,7 @@ auth-error-1011 = Потрібна дійсна адреса електронн�
 
 cannot-create-account-header = Неможливо створити обліковий запис
 cannot-create-account-requirements = Щоб створити обліковий запис { -product-firefox-account }, ваш вік має відповідати вимогам.
+cannot-create-account-requirements-2 = Щоб створити { -product-mozilla-account }, ваш вік має відповідати вимогам.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Докладніше
 
@@ -1043,6 +1044,7 @@ connect-another-device-ios-complete-setup-message = Увійдіть у { -brand
 
 cookies-disabled-header = Доступ до локального сховища та збереження кук обов'язковий
 cookies-disabled-enable-prompt = Щоб отримати доступ до { -product-firefox-accounts }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
+cookies-disabled-enable-prompt-2 = Щоб отримати доступ до { -product-mozilla-account(case: "gen") }, увімкніть куки та локальне сховище у своєму браузері. Це дозволить пам'ятати вас між сеансами.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Спробувати знову
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1243,6 +1245,7 @@ account-recovery-confirm-key-heading-w-default-service = Відновіть па
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Відновіть пароль за допомогою ключа відновлення облікового запису, <span>щоб перейти до { $serviceName }</span>
 account-recovery-confirm-key-instructions = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-firefox-account(case: "gen", capitalization: "lower") }.
+account-recovery-confirm-key-instructions-2 = Введіть свій одноразовий ключ відновлення, щоб поновити доступ до { -product-mozilla-account(case: "gen") }.
 account-recovery-confirm-key-warning-message = <span>Примітка:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включно з історією перегляду й закладками).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1323,6 +1326,8 @@ confirm-signin-message = Знайдіть лист із посиланням д�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Введіть пароль <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Введіть пароль <span>для свого { -product-mozilla-account(case: "gen") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
@@ -1379,6 +1384,10 @@ signin-reported-message = Наша команда була сповіщена. �
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Введіть код підтвердження<span> для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Введіть код підтвердження<span> для свого { -product-mozilla-account(case: "gen") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
 signin-token-code-input-label-v2 = Введіть 6-значний код
@@ -1430,6 +1439,10 @@ confirm-signup-code-page-title = Введіть код підтвердженн�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Введіть код підтвердження <span>для свого { -product-firefox-account(case: "gen", capitalization: "lower") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Введіть код підтвердження <span>для свого { -product-mozilla-account(case: "gen") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Протягом 5 хвилин уведіть код, надісланий на { $email }.
 confirm-signup-code-input-label = Введіть 6-значний код
