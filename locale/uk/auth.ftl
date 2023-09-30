@@ -9,6 +9,7 @@ session-verify-send-push-body-2 = Натисніть тут, щоб підтве
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Логотип { -brand-firefox }">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
@@ -16,6 +17,7 @@ moz-accounts-privacy-url = Політика приватності { -product-mo
 fxa-service-url = Умови користування { -product-firefox-cloud }
 moz-accounts-terms-url = Умови використання { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
 subplat-privacy-notice = Положення про приватність
@@ -27,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") } і ви передплатили { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Ви отримали цей лист, тому що { $email } пов'язано з { -product-mozilla-account(case: "abl") } і ви передплатили { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Ви отримали цей лист, тому що { $email } пов'язано з { -product-mozilla-account(case: "abl") }.
 subplat-explainer-multiple = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") } і ви передплатили декілька продуктів.
+subplat-explainer-multiple-2 = Ви отримали цей лист, тому що { $email } пов'язано з { -product-mozilla-account(case: "abl") } і ви передплатили декілька продуктів.
 subplat-explainer-was-deleted = Ви отримали цей лист, тому що { $email } зареєстровано для { -product-firefox-account(case: "abl", capitalization: "lower") }.
+subplat-explainer-was-deleted-2 = Ви отримали цей лист, тому що { $email } зареєстровано в { -product-mozilla-account(case: "loc") }.
 subplat-manage-account = Керуйте налаштуваннями { -product-firefox-account(case: "gen", capitalization: "lower") } зі своєї <a data-l10n-name="subplat-account-page">сторінки облікового запису</a>.
+subplat-manage-account-2 = Керуйте налаштуваннями { -product-mozilla-account(case: "gen") } на своїй <a data-l10n-name="subplat-account-page">сторінці облікового запису</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Керуйте налаштуваннями свого { -product-firefox-account(case: "gen", capitalization: "lower") } на сторінці: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Керуйте налаштуваннями свого { -product-mozilla-account(case: "gen") } на сторінці: { $accountSettingsUrl }
 subplat-terms-policy = Умови та політика відмови від послуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Скасувати передплату
@@ -204,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для синхронізації потрібно два пристрої
 cadReminderFirst-description-1 = Отримайте доступ до своїх вкладок на всіх пристроях. Користуйтеся своїми закладками, паролями та іншими даними всюди, де ви користуєтеся { -brand-firefox }. Ця магія працює завдяки обліковому запису { -brand-firefox }.
+cadReminderFirst-description-v2 = Отримайте доступ до своїх вкладок, закладок, паролів та інших даних на всіх пристроях, де ви користуєтеся { -brand-firefox }.
 cadReminderSecond-subject-2 = Не пропустіть! Завершімо налаштування синхронізації
 cadReminderSecond-action = Синхронізувати інший пристрій
 cadReminderSecond-title-2 = Не забудьте про синхронізацію!
@@ -218,9 +234,12 @@ downloadSubscription-title = Вітаємо в { $productName }
 downloadSubscription-content-2 = Розпочніть користуватися всіма функціями, включеними у вашу передплату:
 downloadSubscription-link-action-2 = Розпочнімо
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } було видалено
+fraudulentAccountDeletion-subject-2 = Ваш { -product-mozilla-account } видалено
 fraudulentAccountDeletion-title = Ваш обліковий запис видалено
 fraudulentAccountDeletion-content = Нещодавно було створено { -product-firefox-account(case: "nom", capitalization: "lower") } і стягнуто передплату з використанням цієї адреси електронної пошти. Як і для всіх нових облікових записів, ми попросили вас підтвердити цю адресу електронної пошти.
+fraudulentAccountDeletion-content-part1-v2 = Нещодавно було створено { -product-mozilla-account } і стягнуто передплату з використанням цієї адреси електронної пошти. Оскільки це новий обліковий запис, необхідно підтвердити пов'язану з ним адресу електронної пошти.
 fraudulentAccountDeletion-content-2 = Наразі ми бачимо, що обліковий запис ще не було підтверджено. Оскільки цей крок не завершено, ми не впевнені в тому, що це була авторизована передплата. Як наслідок, зареєстрований з цією адресою електронної пошти { -product-firefox-account(case: "nom", capitalization: "lower") } було видалено, а передплату скасовано з усіма поверненнями коштів.
+fraudulentAccountDeletion-content-part2-v2 = Цей обліковий запис ще не підтверджено. Оскільки цей крок не завершено, ми не впевнені в тому, що це була авторизована передплата. Як наслідок, зареєстрований з цією адресою електронної пошти { -product-mozilla-account } було видалено, а передплату скасовано з поверненням коштів.
 fraudulentAccountDeletion-contact = Якщо у вас виникли запитання, зв’яжіться з нашою <a data-l10n-name="mozillaSupportUrl">службою підтримки</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -246,6 +265,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новий вхід у { $clientName }
 newDeviceLogin-title-2 = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } було використано для входу
+newDeviceLogin-title-3 = Ваш { -product-mozilla-account } було використано для входу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Це були не ви? <a data-l10n-name="passwordChangeLink">Змініть свій пароль</a>.
@@ -256,10 +276,13 @@ newDeviceLogin-action = Керування обліковим записом
 passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
 passwordChanged-description = Пароль вашого { -product-firefox-account(case: "gen", capitalization: "lower") } був успішно змінений з такого пристрою:
+passwordChanged-description-2 = Пароль вашого { -product-mozilla-account(case: "gen") } успішно змінено з такого пристрою:
 passwordChangeRequired-subject = Виявлено підозрілу активність
 passwordChangeRequired-title = Необхідно змінити пароль
 passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account(case: "loc", capitalization: "lower") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-firefox-account(case: "gen", capitalization: "lower") } ми від'єднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
+passwordChangeRequired-suspicious-activity-2 = Ми помітили підозрілу діяльність у вашому { -product-mozilla-account(case: "loc") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-mozilla-account(case: "gen") } ми від'єднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
 passwordChangeRequired-sign-in = Увійдіть знову на будь-якому пристрої або до служби, де ви користуєтеся своїм { -product-firefox-account(case: "gen", capitalization: "lower") }, і виконайте запропоновані вказівки.
+passwordChangeRequired-sign-in-2 = Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій { -product-mozilla-account }, і виконайте запропоновані настанови.
 passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordChangeRequired-different-password-plaintext = Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordReset-subject = Пароль оновлено
@@ -285,9 +308,13 @@ postAddAccountRecovery-action = Керування обліковим запис
 postAddAccountRecovery-delete-key = Видаліть новий ключ:
 postAddAccountRecovery-changd-password = Змініть свій пароль:
 postAddLinkedAccount-subject = Новий обліковий запис, пов’язаний з { -brand-firefox }
+postAddLinkedAccount-subject-2 = До вашого { -product-mozilla-account(case: "gen") } прив'язано новий сторонній обліковий запис
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Обліковий запис { $providerName } було пов’язано з вашим { -product-firefox-account(case: "abl", capitalization: "lower") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Обліковий запис { $providerName } було прив'язано до вашого { -product-mozilla-account(case: "gen") }
 postAddLinkedAccount-action = Керувати обліковим записом
 postAddTwoStepAuthentication-subject-2 = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title-2 = Ви увімкнули двоетапну перевірку
