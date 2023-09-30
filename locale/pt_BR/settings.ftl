@@ -308,6 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu de produtos e serviços { -brand-firefox }
+bento-menu-title-2 = Menu bento da { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } é tecnologia que defende sua privacidade online.
 bento-menu-mozilla-title = { -brand-mozilla } é tecnologia que defende sua privacidade online.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
