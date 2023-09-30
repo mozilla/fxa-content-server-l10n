@@ -1045,6 +1045,7 @@ connect-another-device-ios-complete-setup-message = Jentre in { -brand-firefox }
 
 cookies-disabled-header = Al è necessari ativâ la archiviazion locâl e i cookies
 cookies-disabled-enable-prompt = Ative i cookies e la archiviazion locâl tal to navigadôr par acedi ai { -product-firefox-accounts }. Se tu lu fasis tu ativarâs lis funzionalitâts come la memorizazion dal utent tra lis sessions.
+cookies-disabled-enable-prompt-2 = Ative i cookies e la archiviazion locâl tal to navigadôr par acedi al { -product-mozilla-account }. Se tu lu fasis tu ativarâs lis funzionalitâts come la memorizazion dal utent tra lis sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Torne prove
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1245,6 +1246,7 @@ account-recovery-confirm-key-heading-w-default-service = Ristabilìs la password
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Ristabilìs la password cu la clâf di recupar dal account <span>par continuâ su { $serviceName }</span>
 account-recovery-confirm-key-instructions = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Inserìs la clâf di recupar dal account (che si pues doprâ dome une volte) che tu âs salvât intun puest sigûr par tornâ a otignî l’acès al to { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Note:</span> se tu ristabilissis la password e no tu âs salvade la clâf di recupar dal account, cualchi dât al vignarà eliminât (comprindûts i dâts sincronizâts sul servidôr come la cronologjie e i segnelibris).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1325,6 +1327,8 @@ confirm-signin-message = Controle la tô casele di pueste pe conferme di acès m
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Inserìs la password <span>pal to { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Inserìs la password <span>pal to { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
@@ -1381,6 +1385,10 @@ signin-reported-message = Il nestri grup al è stât visât. Lis segnalazions co
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
 signin-token-code-input-label-v2 = Inserìs il codiç a 6 cifris
@@ -1432,6 +1440,10 @@ confirm-signup-code-page-title = Inserìs il codiç di conferme
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Inserìs il codiç di conferme <span>pal to { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
 confirm-signup-code-input-label = Inserìs il codiç a 6 cifris
