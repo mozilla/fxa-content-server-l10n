@@ -59,6 +59,7 @@ input-error-is-required = { $label } міндетті түрде керек
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } логотипі
+brand-name-mozilla-logo = { -brand-mozilla } логотипі
 
 ## Component - NewUserEmailForm
 
@@ -439,10 +440,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Өзгерісіңізді қарап шығыңыз
 sub-change-failed = Жоспарды өзгерту сәтсіз аяқталды
-sub-update-copy =
-    Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің
-    қалған бөлігі үшін түзетілген сома алынады.
-    { $startingDate } күнінен бастап сізден толық сома алынады.
 sub-update-acknowledgment =
     Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің
     қалған бөлігі үшін пропорционалды сома бүгін алынады.
