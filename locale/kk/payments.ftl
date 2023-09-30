@@ -64,6 +64,7 @@ brand-name-mozilla-logo = { -brand-mozilla } логотипі
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = { -brand-name-firefox } тіркелгіңіз бар ма? <a>Жүйеге кіру</a>
+new-user-sign-in-link-2 = Сізде { -product-mozilla-account } бар ма? <a>Жүйеге кіру</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -411,6 +412,7 @@ coupon-success-repeating = Жоспарыңыз тізім бағасы бойы
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
+new-user-step-1-2 = 1. { -product-mozilla-account } жасау
 new-user-card-title = Карта ақпаратын енгізіңіз
 new-user-submit = Қазір жазылу
 

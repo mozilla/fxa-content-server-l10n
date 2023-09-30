@@ -171,6 +171,7 @@ form-verify-code-default-error = Бұл өріс міндетті түрде к�
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } тіркелгіні қалпына келтіру кілті
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } аутентификация кодтарының сақтық көшірмесі
+get-data-trio-title-backup-verification-codes = Сақтық аутентификация кодтары
 get-data-trio-download-2 =
     .title = Жүктеп алу
     .aria-label = Жүктеп алу
@@ -309,6 +310,7 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-title-2 = { -brand-mozilla } Bento мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
+bento-menu-mozilla-title = { -brand-mozilla } — желідегі жекелігіңіз үшін күресетін технологиялар.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -383,6 +385,7 @@ cs-disconnect-lost-advice-content-2 =
     { -product-firefox-account } паролін өзгертуіңіз керек.
     Сондай-ақ, деректеріңізді қашықтан өшіру туралы
     құрылғы өндірушісінен ақпаратты іздеуіңіз керек.
+cs-disconnect-lost-advice-content-3 = Құрылғы жоғалған немесе ұрланғандықтан, ақпаратыңызды қауіпсіз сақтау үшін тіркелгі параметрлерінде { -product-mozilla-account } паролін өзгертуіңіз керек. Сондай-ақ, деректеріңізді қашықтан өшіру туралы құрылғы өндірушісінен ақпаратты іздеуіңіз керек.
 cs-disconnect-suspicious-advice-heading = Күмәнді құрылғы ажыратылды
 cs-disconnect-suspicious-advice-content =
     Егер ажыратылған құрылғы шынымен де күмәнді болса,
