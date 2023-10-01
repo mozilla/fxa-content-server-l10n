@@ -963,10 +963,16 @@ terms-privacy-agreement-intro = Продовжуючи, ви погоджуєт�
 terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджуєтеся з:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Умовами користування</pocketTos> та <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy> { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "upper") } – <mozillaAccountsTos>Умови користування</mozillaAccountsTos> та <mozillaAccountsPrivacy>Положення про приватність</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Продовжуючи, ви погоджуєтеся з <firefoxTos>Умовами користування</firefoxTos> та <firefoxPrivacy>Положенням про приватність</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Продовжуючи, ви погоджуєтеся з <mozillaAccountsTos>Умовами користування</mozillaAccountsTos> та <mozillaAccountsPrivacy>Положенням про приватність</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
