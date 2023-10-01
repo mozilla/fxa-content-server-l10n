@@ -402,6 +402,7 @@ dc-learn-more = 详细了解
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } 菜单
+drop-down-menu-title-2 = { -product-mozilla-account } 菜单
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -490,6 +491,7 @@ header-menu-closed = 网站导航菜单
 header-back-to-top-link =
     .title = 回到顶端
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = 帮助
 
 ## Linked Accounts section
@@ -614,7 +616,9 @@ delete-account-header =
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
 delete-account-confirm-title-3 = 该 { -product-firefox-account }可能已关联至以下一项或多项 { -brand-mozilla } 产品或服务，它们正助力您安全、高效地畅游网络：
+delete-account-confirm-title-4 = 此 { -product-mozilla-account }可能已关联至以下一项或多项 { -brand-mozilla } 产品或服务，它们正助力您安全、高效地畅游网络：
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -918,12 +922,20 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = 继续操作即表示您同意：
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = 继续操作即表示您同意：
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") }<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 继续操作即表示您同意我们的<firefoxTos>服务条款</firefoxTos>和<firefoxPrivacy>隐私声明</firefoxPrivacy>。
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = 继续操作即表示您同意<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>。
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -965,6 +977,7 @@ auth-error-1011 = 需要有效的邮箱地址
 
 cannot-create-account-header = 无法创建账户
 cannot-create-account-requirements = 您必须符合年龄要求才能创建 { -product-firefox-account }。
+cannot-create-account-requirements-2 = 您必须符合年龄要求才能创建 { -product-mozilla-account }。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 详细了解
 
@@ -1000,6 +1013,7 @@ connect-another-device-ios-complete-setup-message = 登录 iOS 版 { -brand-fire
 
 cookies-disabled-header = 需要本地存储和 Cookie
 cookies-disabled-enable-prompt = 请在您的浏览器中启用 Cookie 和本地存储功能以访问 { -product-firefox-accounts }。这样才能使会话间记住信息等功能正常运行。
+cookies-disabled-enable-prompt-2 = 请在浏览器中启用 Cookie 和本地存储功能以访问 { -product-mozilla-account }，这样您就可以使用记住登录状态等功能。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 重试
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1206,6 +1220,7 @@ account-recovery-confirm-key-heading-w-default-service = 使用账户恢复密�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 使用账户恢复密钥重置密码以<span>继续使用 { $serviceName }</span>
 account-recovery-confirm-key-instructions = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-firefox-account }的访问权限。
+account-recovery-confirm-key-instructions-2 = 请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 { -product-mozilla-account }的访问权限。
 account-recovery-confirm-key-warning-message = <span>注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1286,6 +1301,8 @@ confirm-signin-message = 请查收发送至您邮箱 { $email } 的登录确认�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = 请为<span>{ -product-firefox-account }</span>输入您的密码
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span>请输入密码
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
@@ -1342,6 +1359,10 @@ signin-reported-message = 我们已收到您的反馈，感谢您帮助我们防
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = 输入确认码以<span>登录 { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span>请输入确认码
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
 signin-token-code-input-label-v2 = 请输入 6 位验证码
@@ -1393,6 +1414,10 @@ confirm-signup-code-page-title = 输入验证码
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = 输入您的<span>{ -product-firefox-account }验证码</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span>请输入确认码
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = 请在 5 分钟内输入发送到 { $email } 的验证码。
 confirm-signup-code-input-label = 请输入 6 位验证码
