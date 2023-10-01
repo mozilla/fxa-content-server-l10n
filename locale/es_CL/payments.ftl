@@ -59,10 +59,12 @@ input-error-is-required = { $label } es requerido
 ## Component - Header
 
 brand-name-firefox-logo = Logo de { -brand-name-firefox }
+brand-name-mozilla-logo = Logo de { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Conéctate</a>
+new-user-sign-in-link-2 = ¿Ya tienes una { -product-mozilla-account }? <a>Conéctate</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Tu plan se renovará automáticamente después de { $
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
+new-user-step-1-2 = 1. Crea una { -product-mozilla-account }
 new-user-card-title = Ingresa la información de tu tarjeta
 new-user-submit = Suscríbete ahora
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Revisa tu cambio
 sub-change-failed = Falló el cambio del plan
-sub-update-copy =
-    Tu plan cambiará de inmediato y se te cobrará una tarifa ajustada
-    para el resto de tu ciclo de facturación. A partir del { $startingDate }
-    se te cobrará el importe total.
 sub-update-acknowledgment =
     Tu plan cambiará de inmediato y se te cobrará hoy una tarifa prorrateada
     para el resto de este ciclo de facturación. A partir del { $startingDate }
