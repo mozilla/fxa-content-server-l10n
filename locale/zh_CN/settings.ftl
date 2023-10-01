@@ -171,6 +171,7 @@ form-verify-code-default-error = 此字段必填
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
+get-data-trio-title-backup-verification-codes = 备用验证码
 get-data-trio-download-2 =
     .title = 下载
     .aria-label = 下载
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 产品菜单
+bento-menu-title-2 = { -brand-mozilla } 产品菜单
 bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
+bento-menu-mozilla-title = { -brand-mozilla } 用技术为您的隐私而战。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -373,8 +376,10 @@ cs-disconnect-sync-opt-not-say = 我不想说
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已断开连接
 cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
+cs-disconnect-lost-advice-content-3 = 鉴于您的设备已丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-mozilla-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改保存在 { -brand-firefox } 的所有网站密码。
+cs-disconnect-suspicious-advice-content-2 = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到账户设置中更改 { -product-mozilla-account }密码，以及在地址栏输入 about:logins，更改所有保存在 { -brand-firefox } 中的网站密码。
 cs-sign-out-button = 退出
 
 ##
@@ -384,9 +389,13 @@ cs-sign-out-button = 退出
 
 dc-heading = 数据收集与使用
 dc-subheader = 帮助我们改进 { -product-firefox-accounts }
+dc-subheader-2 = 帮助我们改进 { -product-mozilla-accounts }
 dc-subheader-content = 允许 { -product-firefox-accounts }向 { -brand-mozilla } 发送技术与交互数据。
+dc-subheader-content-2 = 允许 { -product-mozilla-accounts }向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-out-success = 成功退出，{ -product-firefox-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
+dc-opt-out-success-2 = 退出成功，{ -product-mozilla-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-in-success = 感谢！共享此数据可帮助我们改进 { -product-firefox-accounts }。
+dc-opt-in-success-2 = 感谢！共享此数据可帮助我们改进 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 抱歉，更改您的数据收集首选项时遇到问题
 dc-learn-more = 详细了解
 
@@ -474,7 +483,7 @@ flow-recovery-key-info-cta-text-v3 = 新手上路
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = 关闭菜单
 header-menu-closed = 网站导航菜单

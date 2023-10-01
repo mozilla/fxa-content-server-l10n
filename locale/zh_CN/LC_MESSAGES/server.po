@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-01-12 18:56+0000\n"
-"Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
+"PO-Revision-Date: 2023-09-30 12:02+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "启用 JavaScript 后才能使用 Firefox 账户。"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "启用 JavaScript 后才能使用 Mozilla 账户。"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -91,7 +91,7 @@ msgstr "下载最新版本"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla 账户"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -99,4 +99,4 @@ msgid ""
 "not supported in your version of Firefox. Please\n"
 "download and install the latest version of Firefox to\n"
 "continue."
-msgstr ""
+msgstr "Mozilla 账户需要用到您的 Firefox 版本尚不支持的特性。请下载并安装最新版本的 Firefox 以继续。"
