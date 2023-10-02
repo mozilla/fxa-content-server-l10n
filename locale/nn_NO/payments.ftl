@@ -149,12 +149,14 @@ payment-validate-name-error = Skriv inn namnet ditt
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } brukar { -brand-name-stripe } for sikker betalingsprosessering.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernpraksis</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
 payment-method-header = Vel betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Først må du godkjenne abonnementet ditt
 
 ## Component - PaymentProcessing
 

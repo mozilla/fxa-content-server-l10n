@@ -411,6 +411,7 @@ header-menu-closed = Meny for nettstadnavigering
 header-back-to-top-link =
     .title = Tilbake til toppen
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Hjelp
 
 ## Linked Accounts section
@@ -932,6 +933,9 @@ pair-unsupported-header = Paring via ein app
 
 ## AccountRecoveryConfirmKey page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+account-recovery-confirm-key-heading-w-default-service = Tilbakestill passordet med kontogjenopprettingsnøkkelen <span>for å halde fram til kontoinnstillingar</span>
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
     .label = Skriv inn kontogjenopprettingsnøkkel
@@ -964,6 +968,9 @@ confirm-pw-reset-header = E-post for tilbakestilling er sendt
 
 ## ResetPassword page
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Tilbakestill passordet <span>for å halde fram til kontoinnstillingar</span>
 # Users type their email address in this field to start a password reset
 reset-password-password-input =
     .label = E-post
@@ -1005,6 +1012,9 @@ back = Tilbake
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-recovery-code-heading-w-default-service = Skriv inn godkjenningskode <span>for å halde fram til kontoinnstillingar</span>
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
 # Link to return to signin with two-step authentication code
