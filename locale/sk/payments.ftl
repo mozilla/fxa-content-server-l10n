@@ -69,10 +69,12 @@ input-error-is-required = Pole "{ $label }" je povinné
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox(case: "gen") }
+brand-name-mozilla-logo = Logo { -brand-mozilla(case: "gen") }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste sa</a>
+new-user-sign-in-link-2 = Už máte { -product-mozilla-account(capitalization: "lower") }? <a>Prihláste sa</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -448,6 +450,7 @@ coupon-success-repeating = Váš plán sa automaticky obnoví po { $couponDurati
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Vytvorte si účet { -brand-name-firefox }
+new-user-step-1-2 = 1. Vytvorte si { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Zadajte informácie o svojej karte
 new-user-submit = Predplatiť
 
@@ -477,9 +480,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Skontrolujte požadovanú zmenu
 sub-change-failed = Zmena plánu zlyhala
-sub-update-copy =
-    Váš plán sa okamžite zmení a po zvyšok fakturačného cyklu vám bude
-    účtovaná upravená suma. Od dňa { $startingDate } vám bude účtovaná celá suma.
 sub-update-acknowledgment = Váš plán sa okamžite zmení a dnes vám bude účtovaná pomerná suma za zvyšok tohto fakturačného cyklu. Od { $startingDate } vám bude účtovaná plná suma.
 sub-change-submit = Potvrdiť zmenu
 sub-update-current-plan-label = Súčasný plán
