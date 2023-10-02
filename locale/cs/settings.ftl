@@ -954,11 +954,11 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</p
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmínky používání služby</firefoxTos> a <firefoxPrivacy>Oznámení o ochraně osobních údajů</firefoxPrivacy> prohlížeče { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaTos>Podmínky poskytování služby</mozillaTos> a <mozillaPrivacy>Oznámení o ochraně osobních údajů</mozillaPrivacy> { -product-mozilla-accounts(case: "gen") }
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmínky poskytování služby</mozillaAccountsTos>a <mozillaAccountsPrivacy>Oznámení o ochraně osobních údajů</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "gen") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Pokračováním vyjadřujete souhlas s <firefoxTos>Podmínkami poskytování služby</firefoxTos> a <firefoxPrivacy>Oznámením o ochraně osobních údajů</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Pokračováním vyjadřujete souhlas s <mozillaTos>Podmínkami poskytování služby</mozillaTos> a <mozillaPrivacy>Oznámením o ochraně osobních údajů</mozillaPrivacy>.
+terms-privacy-agreement-default-2 = Pokračováním vyjadřujete souhlas s <mozillaAccountsTos>Podmínkami poskytování služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Oznámením o ochraně osobních údajů</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
