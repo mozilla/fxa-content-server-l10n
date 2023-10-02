@@ -164,6 +164,10 @@ signin-recovery-code-image-description =
     .aria-label = Dokument som inneheld skjult tekst.
 signin-totp-code-image-label =
     .aria-label = Ei eining med ein skjult 6-sifra kode.
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
 
 ## Input Password
 
@@ -1043,6 +1047,9 @@ signin-token-code-resend-code-link = Send ny kode på e-post.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+signin-totp-code-heading-w-default-service-v2 = Skriv inn godkjenningskoden <span>for å halde fram til kontoinnstillingar</span>
 signin-totp-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest

@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Loggar inn på { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Loggar du inn på { -product-mozilla-account }-en din?
 session-verify-send-push-body-2 = Klikk her for å stadfeste at det er du
 
 ## Email content
@@ -8,10 +9,13 @@ session-verify-send-push-body-2 = Klikk her for å stadfeste at det er du
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">3
 body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
+moz-accounts-terms-url = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
