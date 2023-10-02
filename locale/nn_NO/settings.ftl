@@ -11,57 +11,38 @@
 banner-dismiss-button =
     .aria-label = Lat att
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = { -product-firefox-accounts } endrar namn til { -product-mozilla-accounts } den 1. november
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Les meir
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Lat att banner
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-logo
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Last ned og hald fram
     .title = Last ned og hald fram
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = LAGRE KONTOGJENOPPRETTINGSNØKKELEN DIN
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = Lagre denne fila som inneheld kontogjenopprettingsnøkkelen din, på ein trygg plass, eller skriv ut og behald ein fysisk kopi. Kontogjenopprettingsnøkkelen din kan hjelpe deg med å tilbakestille { -brand-firefox }-data om du gløymer passordet ditt.
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Nøkkel:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
-# Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Nøkkel generert: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Les meir om kontogjenopprettingsnøkkelen din: { $supportURL }
+recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Praktisk info i innboksen din. Registrer deg for meir:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Få siste nytt om { -brand-mozilla } och { -brand-firefox }
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Gjer noko for å halde nettet friskt og raskt
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Ver sikrare og smartare på nettet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Vel kva som skal synkroniserast:
 choose-what-to-sync-option-bookmarks =
     .label = Bokmerke
 choose-what-to-sync-option-history =
@@ -366,6 +347,13 @@ flow-recovery-key-download-heading-v2 = Kontogjenopprettingsnøkkel oppretta —
 flow-recovery-key-download-info-v2 = Denne nøkkelen lèt deg tilbakestille dataa dine om du gløymer passordet ditt. Last ned og lagre han på ein trygg plass — du vil ikkje kunne gå tilbake til denne sida seinare.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Hald fram utan å laste ned
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
+flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
+flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
+flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -381,13 +369,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fullfør
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Plassar å lagre nøkkelen din:
-flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker eining
-flow-recovery-key-download-storage-ideas-cloud = Påliteleg skylagring
-flow-recovery-key-download-storage-ideas-print-v2 = Utskriven fysisk kopi
-flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = Kontogjenopprettingsnøkkel oppretta
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -403,7 +384,7 @@ flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Avbryt
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Lat att meny
 header-menu-closed = Meny for nettstadnavigering
@@ -936,10 +917,6 @@ account-recovery-confirm-key-input =
     .label = Skriv inn kontogjenopprettingsnøkkel
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Stadfest kontogjenopprettingsnøkkel
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Ugyldig kontogjenopprettingsnøkkel
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Kontogjenopprettingsnøkkel påkravd
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = Har du ikkje ein kontogjenopprettingsnøkkel?
 
