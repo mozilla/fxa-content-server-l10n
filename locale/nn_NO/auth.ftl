@@ -29,7 +29,14 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du har registrert deg for { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = DU får denne e-posten fordi { $email } har ein { -product-mozilla-account } og du har meldt deg på { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Du får denne e-posten fordi { $email } har ein { -product-mozilla-account }.
 subplat-explainer-multiple = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du abonnerer på fleire produkt.
 subplat-explainer-was-deleted = Du får denne e-posten fordi { $email } vart registrert for ein { -product-firefox-account }.
 subplat-manage-account = Handsam { -product-firefox-account }innstillingane dine ved å gå til <a data-l10n-name="subplat-account-page">konto-sida</a> di.
