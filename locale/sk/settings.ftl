@@ -397,15 +397,20 @@ cs-sign-out-button = Odhlásiť sa
 
 dc-heading = Zbieranie údajov a ich použitie
 dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalization: "lower", case: "acc") }
+dc-subheader-2 = Pomôžte nám vylepšiť { -product-mozilla-accounts(capitalization: "lower", case: "acc") }
 dc-subheader-content = Povoliť { -product-firefox-accounts(capitalization: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-subheader-content-2 = Povoliť { -product-mozilla-accounts(capitalization: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebudú posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-opt-out-success-2 = Odhlásenie bolo úspešné. { -product-mozilla-accounts } nebudú posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
+dc-opt-in-success-2 = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-mozilla-accounts(capitalization: "lower", case: "acc") }.
 dc-opt-in-out-error-2 = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém
 dc-learn-more = Ďalšie informácie
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitalization: "lower") }
+drop-down-menu-title-2 = Ponuka { -product-mozilla-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -487,13 +492,14 @@ flow-recovery-key-info-cta-text-v3 = Začíname
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Zrušiť
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Zavrieť ponuku
 header-menu-closed = Navigačná ponuka stránok
 header-back-to-top-link =
     .title = Návrat hore
 header-title = Účet Firefox
+header-title-2 = { -product-mozilla-account }
 header-help = Pomocník
 
 ## Linked Accounts section
@@ -621,7 +627,9 @@ delete-account-header =
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
 delete-account-confirm-title-3 = Možno ste svoj { -product-firefox-account(case: "acc", capitalization: "lower") } pripojili k jednému alebo viacerým z nasledujúcich produktov alebo služieb od { -brand-mozilla(case: "gen") }, ktoré vám zabezpečujú bezpečnosť a produktivitu na webe:
+delete-account-confirm-title-4 = Možno ste svoj { -product-mozilla-account(case: "acc", capitalization: "lower") } pripojili k jednému alebo viacerým z nasledujúcich produktov alebo služieb od { -brand-mozilla(case: "gen") }, ktoré vám zabezpečujú bezpečnosť a produktivitu na webe:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -942,8 +950,12 @@ tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Pokračovaním súhlasíte s:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Pokračovaním súhlasíte s:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Podmienky používania služby</pocketTos> a <pocketPrivacy>Vyhlásenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Podmienky používania služby</pocketTos> a <pocketPrivacy>Vyhlásenie o ochrane osobných údajov</pocketPrivacy> služby { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Podmienky používania služby</firefoxTos> a <firefoxPrivacy>Vyhlásenie o ochrane osobných údajov</firefoxPrivacy> prehliadača { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
@@ -1304,6 +1316,8 @@ confirm-signin-message = Potvrdzovací odkaz sme odoslali na e-mailovú adresu {
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Zadajte heslo<span> pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Zadajte heslo<span> pre svoj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = A pokračovať do služby <span>{ $serviceLogo }</span>

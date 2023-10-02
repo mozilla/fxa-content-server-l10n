@@ -602,10 +602,13 @@ verificationReminderSecond-title-3 = Nenechajte si ujsť { -brand-mozilla(case: 
 verificationReminderSecond-description-3 = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(capitalization: "lower", case: "acc") }, no nikdy ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 10 dní, inak bude automaticky vymazaný.
 verificationReminderSecond-description-4 = Pred niekoľkými dňami ste si vytvorili { -product-mozilla-account(capitalization: "lower", case: "acc") }, no doteraz ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 10 dní, inak bude automaticky vymazaný.
 verificationReminderSecond-second-description = Váš { -product-firefox-account(capitalization: "lower") } vám umožňuje synchronizovať informácie naprieč zariadeniami a odomyká vám prístup k produktom { -brand-mozilla(case: "gen") }, ktoré ešte viac chránia súkromie.
+verificationReminderSecond-second-description-2 = Váš { -product-mozilla-account(capitalization: "lower") } vám umožňuje synchronizovať informácie naprieč zariadeniami a odomyká vám prístup k produktom { -brand-mozilla(case: "gen") }, ktoré ešte viac chránia súkromie.
 verificationReminderSecond-sub-description-2 = Staňte sa súčasťou nášho poslania premeniť internet na miesto, ktoré je otvorené pre každého.
 verificationReminderSecond-action-2 = Potvrdiť účet
 verify-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
+verify-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox(case: "gen") } čo najviac, začínajúc s:
+verify-description-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action-2 = Potvrdiť účet
 # Variables:
@@ -636,13 +639,19 @@ verifySecondaryCode-action-2 = Potvrdiť e-mailovú adresu
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-mozilla-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Použite tento potvrdzovací kód:
 verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po potvrdení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svoj účet
 verifyShortCode-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
+verifyShortCode-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox(case: "gen") } čo najviac, začínajúc s:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:
 verifyShortCode-prompt-3 = Použite tento potvrdzovací kód:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
