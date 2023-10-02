@@ -308,7 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
-bento-menu-title-2 = { -brand-mozilla } Bento Menu
+bento-menu-title-2 = Dewislen Bento { -brand-mozilla }
 bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
 bento-menu-mozilla-title = Mae { -brand-mozilla } yn dechnoleg sy'n ymladd dros eich preifatrwydd ar-lein.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -382,7 +382,7 @@ cs-disconnect-lost-advice-content-2 =
     ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
     yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
     gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
-cs-disconnect-lost-advice-content-3 = Ers i'ch dyfais gael ei cholli neu ei dwyn, er mwyn cadw'ch gwybodaeth yn ddiogel, dylech newid eich cyfrinair { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd edrych am wybodaeth gan wneuthurwr eich dyfais ynglŷn â dileu eich data o bell.
+cs-disconnect-lost-advice-content-3 = Ers i'ch dyfais gael ei cholli neu ei dwyn, er mwyn cadw'ch manylion yn ddiogel, dylech newid eich cyfrinair { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd edrych am wybodaeth gan wneuthurwr eich dyfais ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
 cs-disconnect-suspicious-advice-content =
     Os yw'r ddyfais sydd wedi'i datgysylltu wir 

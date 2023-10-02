@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-28 22:03+0000\n"
-"Last-Translator: Google Translate <pontoon-gt@example.com>\n"
+"PO-Revision-Date: 2023-10-02 10:33+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -1186,7 +1186,7 @@ msgstr "Ewch ymlaen i'ch cyfrif Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mae cyfrif Mozilla hefyd yn datgloi mynediad i ragor o gynhyrchion sy'n diogelu preifatrwydd gan Mozilla."
+msgstr "Mae cyfrif Mozilla hefyd yn datgloi mynediad i ragor o gynnyrch sy'n diogelu preifatrwydd gan Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1728,7 +1728,7 @@ msgstr "Newid cyfrinair"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
-"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Mozilla. I amddiffyn eich cyfrif, crewch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i fewngofnodi eto i'ch holl wasanaethau cyfrif "
+"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Mozilla. I ddiogelu eich cyfrif, crëwch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i fewngofnodi eto i'ch holl wasanaethau cyfrif "
 "Mozilla."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
