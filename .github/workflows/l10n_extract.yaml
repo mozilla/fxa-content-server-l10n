@@ -48,7 +48,7 @@ jobs:
             --content-repo ./packages/fxa-content-server \
             --settings-repo ./packages/fxa-settings \
             --react-repo ./packages/fxa-react \
-            --shared-repo ./packages/fxa-shared \
+            --shared-repo ./libs/shared \
             --l10n-repo ../fxa-l10n
       - name: Commit changes and open pull request
         run: |

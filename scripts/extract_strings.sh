@@ -29,7 +29,7 @@ CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
 SETTINGS_DIR="./fxa-settings"
 REACT_DIR="./fxa-react"
-SHARED_DIR="./fxa-shared"
+SHARED_DIR="../libs/shared"
 L10N_DIR="./fxa-content-server-l10n"
 
 while [[ $# > 1 ]]
@@ -136,7 +136,7 @@ cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
 cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
-cp $SHARED_DIR/l10n/branding.ftl $L10N_DIR/locale/templates
+cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
 
 # Pontoon will read from the "templates" directory but we must copy the FTL files
 # into "en" to ensure users with English will always see good fallback text.
