@@ -13,6 +13,7 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 subplat-privacy-notice = Personvernmerknad
@@ -215,6 +216,7 @@ downloadSubscription-title = Velkomen til { $productName }
 downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonane i abonementet ditt.
 downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }-en din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
 fraudulentAccountDeletion-content = Nyleg vart ein { -product-firefox-account } oppretta og eit abonnement  vart belasta med denne e-postadressa. Og som vi gjer med alle nye kontoar, ba vi deg stadfeste kontoen din ved først å validere denne e-postadressa.
 fraudulentAccountDeletion-content-2 = Førebels ser vi at kontoen aldri vart stadfesta. Sidan dette steget ikkje vart fullført, er vi ikkje sikre på om dette var eit autorisert abonnement. Som eit resultat vart { -product-firefox-account } registrert på denne e-postadressa sletta og abonnementet ditt vart avslutta med alle kostnadar refunderte.
@@ -242,6 +244,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
 newDeviceLogin-title-2 = { -product-firefox-account }en din vart brukt til å logge på
+newDeviceLogin-title-3 = { -product-mozilla-account }-en din vart brukt til å logge inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Ikkje deg? <a data-l10n-name="passwordChangeLink">Endre passordet ditt</a>.
@@ -495,7 +498,7 @@ verify-title-3 =
     Opne internett med
      { -brand-mozilla }
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
-verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt derdu loggar inn:
+verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt der du loggar inn:
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
 # Variables:
@@ -529,5 +532,7 @@ verifyShortCode-title-3 =
      { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mozilla }, overalt der du loggar inn:
 verifyShortCode-prompt-3 = Bruk denne stadfestingskoden
 verifyShortCode-expiry-notice = Den går ut om 5 minutt.

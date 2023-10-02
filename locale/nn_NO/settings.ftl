@@ -35,14 +35,33 @@ brand-m-logo =
 recovery-key-download-button-v3 = Last ned og hald fram
     .title = Last ned og hald fram
 recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Generert: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Få meir frå { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Hjelp til med å halde internettet sunt
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Sikkerheit- og personvern-nytt, og oppdateringar
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Tidleg tilgang til å teste nye produkt
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Vel kva som skal synkroniserast
 choose-what-to-sync-option-bookmarks =
     .label = Bokmerke
 choose-what-to-sync-option-history =
@@ -127,6 +146,7 @@ form-verify-code-default-error = Dette feltet er påkravd
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontogjenopprettingsnøkkel for { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkjenningskode
+get-data-trio-title-backup-verification-codes = Reserve-godkjenningskodar
 get-data-trio-download-2 =
     .title = Last ned
     .aria-label = Last ned

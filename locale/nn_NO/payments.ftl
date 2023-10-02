@@ -79,6 +79,7 @@ new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Takk skal du ha!
+payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din no!
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
@@ -147,6 +148,7 @@ payment-validate-name-error = Skriv inn namnet ditt
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } brukar { -brand-name-stripe } for sikker betalingsprosessering.
 
 ## Component - PaymentMethodHeader
 
