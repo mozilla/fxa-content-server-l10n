@@ -171,6 +171,7 @@ form-verify-code-default-error = Dit fjild is ferplichte
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountwerstelkaai
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-autentikaasjekoaden
+get-data-trio-title-backup-verification-codes = Reserve-autentikaasjekoaden
 get-data-trio-download-2 =
     .title = Downloade
     .aria-label = Downloade
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-title-2 = { -brand-mozilla } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar jo online privacy.
+bento-menu-mozilla-title = { -brand-mozilla } is in technology dy’t fjochtet foar jo online privacy.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,12 +384,18 @@ cs-disconnect-lost-advice-content-2 =
     jo gegevens feilich te hâlden, jo wachtwurd fan { -product-firefox-account } wizigje
     yn jo accountynstellingen. Jo kinne it beste ek ynformaasje by de produsint fan jo
     apparaat opsykje oer it op ôfstân wiskjen fan jo gegevens.
+cs-disconnect-lost-advice-content-3 =
+    Omdat jo apparaat ferlern of stellen is moatte jo, om jo gegevens feilich te hâlden, jo wachtwurd fan { -product-mozilla-account } wizigje
+    yn jo accountynstellingen. Jo kinne it beste ek ynformaasje by de produsint fan jo apparaat opsykje oer it op ôfstân wiskjen fan jo gegevens.
 cs-disconnect-suspicious-advice-heading = Fertocht apparaat ûntkeppele
 cs-disconnect-suspicious-advice-content =
     As it ûntkeppele apparaat yndie
     fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-firefox-account }
     wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t
     jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
+cs-disconnect-suspicious-advice-content-2 =
+    As it ûntkeppele apparaat yndied fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-mozilla-account }
+    wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
 
 ##
@@ -396,15 +405,20 @@ cs-sign-out-button = Ofmelde
 
 dc-heading = Gegevenssamling en gebrûk
 dc-subheader = Help { -product-firefox-accounts } te ferbetterjen
+dc-subheader-2 = Help { -product-mozilla-accounts } te ferbetterjen
 dc-subheader-content = { -product-firefox-accounts } tastean om technyske en ynteraksjegegevens nei { -brand-mozilla } te ferstjoeren.
+dc-subheader-content-2 = { -product-mozilla-accounts } tastean om technyske en ynteraksjegegevens nei { -brand-mozilla } te ferstjoeren.
 dc-opt-out-success = Ofmelden suksesfol. { -product-firefox-accounts } stjoert gjin technyske of ynteraksjegegevens nei { -brand-mozilla }.
+dc-opt-out-success-2 = Ofmelden suksesfol. { -product-mozilla-accounts } stjoert gjin technyske of ynteraksjegegevens nei { -brand-mozilla }.
 dc-opt-in-success = Tank! Troch dizze gegevens te dielen helpe jo ús { -product-firefox-accounts } te ferbetterjen.
+dc-opt-in-success-2 = Tank! Troch dizze gegevens te dielen helpe jo ús { -product-mozilla-accounts } te ferbetterjen.
 dc-opt-in-out-error-2 = Sorry, der is in probleem bard by it wizigjen fan jo foarkar foar gegevenssamling
 dc-learn-more = Mear ynfo
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }menu
+drop-down-menu-title-2 = { -product-mozilla-account }-menu
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,13 +500,14 @@ flow-recovery-key-info-cta-text-v3 = Begjinne
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annulearje
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Menu slute
 header-menu-closed = Websitenavigaasjemenu
 header-back-to-top-link =
     .title = Nei boppe
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Help
 
 ## Linked Accounts section
@@ -620,7 +635,9 @@ delete-account-header =
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
 delete-account-confirm-title-3 = Jo hawwe miskien jo { -product-firefox-account } ferbûn mei ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it ynternet:
+delete-account-confirm-title-4 = Jo hawwe miskien jo { -product-mozilla-account } ferbûn mei ien of mear fan de folgjende { -brand-mozilla }-produkten of -tsjinsten dy’t jo feilich en produktyf hâlde op it ynternet:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -945,12 +962,20 @@ tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Troch troch te gean geane jo akkoard mei:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Troch troch te gean geane jo akkoard mei de:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = De <pocketTos>Tsjinstbetingsten</pocketTos> en <pocketPrivacy>Privacyferklearring</pocketPrivacy> fan { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = De <firefoxTos>Tsjinstbetingsten</firefoxTos> en <firefoxPrivacy>Privacyferklearring</firefoxPrivacy> fan { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Tsjinstbetingsten</mozillaAccountsTos> en <mozillaAccountsPrivacy>Privacyferklearring</mozillaAccountsPrivacy> fan { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Troch fierder te gean, geane jo akkoard mei de <firefoxTos>Tsjinbetingsten</firefoxTos> en de <firefoxPrivacy>Privacyferklearring</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Troch fierder te gean, geane jo akkoard mei de <mozillaAccountsTos>Tsjinbetingsten</mozillaAccountsTos> en de <mozillaAccountsPrivacy>Privacyferklearring</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -992,6 +1017,7 @@ auth-error-1011 = Jildich e-mailadres fereaske
 
 cannot-create-account-header = Kin gjin account oanmeitsje
 cannot-create-account-requirements = Jo moatte oan bepaalde leeftiidskritearia foldwaan om in { -product-firefox-account } oan te meitsjen.
+cannot-create-account-requirements-2 = Jo moatte oan bepaalde leeftiidskritearia foldwaan om in { -product-mozilla-account } oan te meitsjen.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Mear ynfo
 
@@ -1027,6 +1053,7 @@ connect-another-device-ios-complete-setup-message = Meld jo oan by { -brand-fire
 
 cookies-disabled-header = Lokale opslach en cookies binne ferplicht
 cookies-disabled-enable-prompt = Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta { -product-firefox-accounts }. Hjirtroch wurde funksjonaliteiten lykas it ûnthâlden fan jo, tusken sesjes ynskeakele.
+cookies-disabled-enable-prompt-2 = Skeakel cookies en lokale opslach yn jo browser yn foar tagong ta { -product-mozilla-account }. Hjirtroch wurde funksjonaliteiten lykas it ûnthâlden fan jo, tusken sesjes ynskeakele.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Opnij probearje
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1227,6 +1254,7 @@ account-recovery-confirm-key-heading-w-default-service = Stel jo wachtwurd opnij
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Stel jo wachtwurd opnij yn mei in accountwerstelkaai <span>om troch te gean nei { $serviceName }</span>
 account-recovery-confirm-key-instructions = Fier de accountwerstelkaai foar ienmalich gebrûk, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-firefox-account } te krijen.
+account-recovery-confirm-key-instructions-2 = Fier de foar ien kear te brûken accountwerstelkaai, dy’t jo op in feilich plak bewarre hawwe, yn om wer tagong ta jo { -product-mozilla-account } te krijen.
 account-recovery-confirm-key-warning-message = <span>Noat:</span> as jo jo wachtwurd opnij ynstelle en jo kaai foar accountwerstel bewarre hawwe, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens lykas skiednis en blêdwizers).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1307,6 +1335,8 @@ confirm-signin-message = Kontrolearje jo e-mail op de befêstigingskeppeling foa
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Fier jo wachtwurd <span>foar jo { -product-firefox-account }</span> yn
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Fier jo wachtwurd <span>foar jo { -product-mozilla-account }</span> yn
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Trochgean nei <span>{ $serviceLogo }</span>
@@ -1363,6 +1393,10 @@ signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze h
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 signin-token-code-input-label-v2 = Fier 6-siferige koade yn
@@ -1414,6 +1448,10 @@ confirm-signup-code-page-title = Fier befêstigingskoade yn
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Fier befêstigingskoade <span>foar jo { -product-firefox-account }</span> yn
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 confirm-signup-code-input-label = Fier 6-siferige koade yn

@@ -59,10 +59,12 @@ input-error-is-required = { $label } krävs
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } logotyp
+brand-name-mozilla-logo = { -brand-mozilla } logotyp
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
+new-user-sign-in-link-2 = Har du redan ett { -product-mozilla-account }? <a>Logga in</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDuration
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Skapa ett { -brand-name-firefox }-konto
+new-user-step-1-2 = 1. Skapa ett { -product-mozilla-account }
 new-user-card-title = Ange din kortinformation
 new-user-submit = Prenumerera nu
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Granska din ändring
 sub-change-failed = Planändring misslyckades
-sub-update-copy =
-    Din plan kommer att ändras omedelbart och du kommer att debiteras ett justerat
-    belopp för resten av din faktureringscykel. Från och med { $startingDate }
-    debiteras du hela beloppet.
 sub-update-acknowledgment =
     Din plan kommer att ändras omedelbart och du kommer att debiteras
     ett proportionellt belopp idag för resten av denna faktureringsperiod.

@@ -59,10 +59,12 @@ input-error-is-required = { $label } is ferplicht
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-logo
+brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanmelde</a>
+new-user-sign-in-link-2 = Hawwe jo al in { -product-mozilla-account }? <a>Oanmelde</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } autom
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Meitsje in { -brand-name-firefox }-account oan
+new-user-step-1-2 = 1. Meitsje in { -product-mozilla-account } oan
 new-user-card-title = Fier jo kaartgegevens yn
 new-user-submit = No abonnearje
 
