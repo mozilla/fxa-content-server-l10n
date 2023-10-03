@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Skrá þig inn á { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Skrá þig inn á { -product-mozilla-account }?
 session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sért þú
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sé
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } merki">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Samstilla tæki">
 body-devices-image = <img data-l10n-name="devices-image" alt="Tæki">
 fxa-privacy-url = Persónuverndarstefna { -brand-mozilla }
+moz-accounts-privacy-url = Persónuverndarstefna { -product-mozilla-accounts(capitalization: "uppercase") }
 fxa-service-url = Þjónustuskilmálar { -product-firefox-cloud }
+moz-accounts-terms-url = Þjónustuskilmálar { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } merki">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } merki">
 subplat-automated-email = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
 subplat-privacy-notice = Meðferð persónuupplýsinga
@@ -24,8 +29,16 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú hefur skráð þig á { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account } og þú hefur skráð þig á { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account }.
 subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
+subplat-explainer-multiple-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account } og þú ert áskrifandi að ýmsum þjónustum.
 subplat-explainer-was-deleted = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-firefox-account }.
 subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
 # Variables:
@@ -201,7 +214,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Það þarf tvennt til að samstilla
 cadReminderFirst-description-1 = Taktu með þér flipana á öllum tækjunum þínum. Hafðu bókamerkin þín, lykilorð og önnur gögn hvar sem þú notar { -brand-firefox }. { -brand-firefox } reikningurinn þinn getur gert galdra!
-cadReminderFirst-description-2 = Það tekur aðeins augnablik að samstilla.
 cadReminderSecond-subject-2 = Ekki missa af! Ljúkum við uppsetningu samstillingar hjá þér
 cadReminderSecond-action = Samstilla annað tæki
 cadReminderSecond-title-2 = Ekki gleyma að samstilla!
@@ -242,8 +254,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ný innskráning á { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = { -product-firefox-account } þinn var notaður til að skrá þig inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -260,8 +270,6 @@ passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
 passwordChangeRequired-suspicious-activity = Við fundum grunsamlega virkni á { -product-firefox-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-firefox-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
 passwordChangeRequired-sign-in = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-firefox-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
 passwordChangeRequired-different-password = <b>Mikilvægt:</b> Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
-passwordChangeRequired-signoff = Bestu kveðjur,
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } teymið
 passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 passwordReset-subject = Lykilorð uppfært
 passwordReset-title = Lykilorð reikningsins þíns breyttist
@@ -520,7 +528,6 @@ subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $produc
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti verður þú einnig krafin/n um { $paymentProrated } eins-skiptis upphæð til að endurspegla hærra gjald fyrir það sem eftir er af þessum { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Þú færð rukkun um eins-skiptis-greiðslu sem nemur { $paymentProrated } til að endurspegla hærra verð áskriftarinnar þinnar fyrir það sem eftir er af { $productPaymentCycleOld }. Frá og með næsta reikningi breytist gjaldið þitt úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
