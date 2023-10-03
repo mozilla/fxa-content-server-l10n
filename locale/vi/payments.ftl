@@ -59,10 +59,12 @@ input-error-is-required = { $label } là bắt buộc
 ## Component - Header
 
 brand-name-firefox-logo = Logo { -brand-name-firefox }
+brand-name-mozilla-logo = Biểu tượng { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
+new-user-sign-in-link-2 = Đã có { -product-mozilla-account }? <a>Đăng nhập</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -382,6 +384,7 @@ coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $c
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
+new-user-step-1-2 = 1. Tạo { -product-mozilla-account }
 new-user-card-title = Nhập thông tin thẻ của bạn
 new-user-submit = Theo dõi ngay
 
@@ -411,10 +414,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Xem lại thay đổi của bạn
 sub-change-failed = Thay đổi gói không thành công
-sub-update-copy =
-    Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ phải trả một khoản tiền
-    được điều chỉnh cho phần còn lại của chu kỳ thanh toán.
-    Bắt đầu { $startingDate }, bạn sẽ phải trả toàn bộ số tiền.
 sub-update-acknowledgment =
     Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ bị tính phí theo tỷ lệ
     ngày hôm nay cho phần còn lại của chu kỳ thanh toán này. Bắt đầu
