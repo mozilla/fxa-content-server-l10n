@@ -40,10 +40,15 @@ subplat-explainer-reminder-form-2 = Þú færð þennan tölvupóst vegna þess 
 subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
 subplat-explainer-multiple-2 = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-mozilla-account } og þú ert áskrifandi að ýmsum þjónustum.
 subplat-explainer-was-deleted = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-mozilla-account }.
 subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
+subplat-manage-account-2 = Sýslaðu með stillingar { -product-mozilla-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Stjórnaðu stillingum { -product-firefox-account } með því að fara á reikningssíðuna þína: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Stjórnaðu stillingum { -product-mozilla-account } með því að fara á reikningssíðuna þína: { $accountSettingsUrl }
 subplat-terms-policy = Skilmálar og afbókunarreglur
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hætta áskrift
@@ -228,9 +233,12 @@ downloadSubscription-title = Velkomin í { $productName }
 downloadSubscription-content-2 = Við skulum byrja á að nota alla eiginleikana sem fylgja áskriftinni þinni:
 downloadSubscription-link-action-2 = Komast í gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } þínum var eytt
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } þínum var eytt
 fraudulentAccountDeletion-title = Reikningnum þínum var eytt
 fraudulentAccountDeletion-content = Nýlega var { -product-firefox-account } stofnað og áskrift sett í innheimtu með þessu póstfangi. Eins og við gerum með alla nýja reikninga, báðum við þig um að staðfesta reikninginn þinn með því að staðfesta þetta tölvupóstfang fyrst.
+fraudulentAccountDeletion-content-part1-v2 = Nýlega var stofnaður { -product-mozilla-account } og áskrift sett í innheimtu með þessu póstfangi. Eins og við gerum með alla nýja reikninga, báðum við þig um að staðfesta reikninginn þinn með því að staðfesta þetta tölvupóstfang fyrst.
 fraudulentAccountDeletion-content-2 = Sem stendur sjáum við að reikningurinn hefur aldrei verið staðfestur. Þar sem ekki var lokið við þetta skref, getum við ekki verið viss um hvort þetta hafi verið heimil áskrift. Þess vegna var { -product-firefox-account } sem skráð var á þetta póstfang eytt og áskriftinni sagt upp auk þess að allar kröfur hafa verið endurgreiddar.
+fraudulentAccountDeletion-content-part2-v2 = Sem stendur sjáum við að reikningurinn hefur aldrei verið staðfestur. Þar sem ekki var lokið við þetta skref, getum við ekki verið viss um hvort þetta hafi verið heimil áskrift. Þess vegna var { -product-mozilla-account } sem skráður var á þetta póstfang eytt og áskriftinni sagt upp auk þess að allar kröfur hafa verið endurgreiddar.
 fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skaltu hafa samband við <a data-l10n-name="mozillaSupportUrl">aðstoðarteymið okkar</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -255,6 +263,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ný innskráning á { $clientName }
 newDeviceLogin-title-2 = { -product-firefox-account } þinn var notaður til að skrá þig inn
+newDeviceLogin-title-3 = { -product-mozilla-account } þinn var notaður til að skrá þig inn
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Ekki þú? <a data-l10n-name="passwordChangeLink">Breyttu lykilorðinu þínu</a>.
@@ -265,10 +274,13 @@ newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
 passwordChanged-description = Lykilorðinu fyrir { -product-firefox-account } reikninginn þinn var breytt af eftirfarandi tæki:
+passwordChanged-description-2 = Lykilorðinu fyrir { -product-mozilla-account } þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
 passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
 passwordChangeRequired-suspicious-activity = Við fundum grunsamlega virkni á { -product-firefox-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-firefox-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
+passwordChangeRequired-suspicious-activity-2 = Við fundum grunsamlega virkni á { -product-mozilla-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-mozilla-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
 passwordChangeRequired-sign-in = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-firefox-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
+passwordChangeRequired-sign-in-2 = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-mozilla-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
 passwordChangeRequired-different-password = <b>Mikilvægt:</b> Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 passwordReset-subject = Lykilorð uppfært
@@ -294,9 +306,13 @@ postAddAccountRecovery-action = Sýsla með reikning
 postAddAccountRecovery-delete-key = Eyddu nýja lyklinum:
 postAddAccountRecovery-changd-password = Breyttu lykilorðinu þínu:
 postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
+postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-firefox-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-mozilla-account }
 postAddLinkedAccount-action = Sýsla með aðgang
 postAddTwoStepAuthentication-subject-2 = Kveikt er á tveggja-þrepa auðkenningu
 postAddTwoStepAuthentication-title-2 = Þú kveiktir á tveggja-þrepa auðkenningu
@@ -309,6 +325,9 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-mozilla-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
 postConsumeRecoveryCode-title-2 = Þú notaðir varaauðkenningarkóða
 # After the colon, there is description of the device that the backup authentication code was used on
