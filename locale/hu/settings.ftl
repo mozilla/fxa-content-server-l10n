@@ -298,9 +298,9 @@ alert-bar-close-message = Üzenet bezárása
 ## User's avatar
 
 avatar-your-avatar =
-    .alt = Saját avatár
+    .alt = Saját profilkép
 avatar-default-avatar =
-    .alt = Alapértelmezett avatár
+    .alt = Alapértelmezett profilkép
 
 ##
 
