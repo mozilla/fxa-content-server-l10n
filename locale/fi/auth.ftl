@@ -29,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja olet rekisteröitynyt palveluun { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-mozilla-account } ja olet rekisteröitynyt palveluun { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-mozilla-account }.
 subplat-explainer-multiple = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja sinulla on useiden tuotteiden tilauksia.
+subplat-explainer-multiple-2 = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-mozilla-account } ja sinulla on useiden tuotteiden tilauksia.
 subplat-explainer-was-deleted = Saat tämän viestin, koska sähköpostiosoitteella { $email } rekisteröitiin { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = Saat tämän viestin, koska sähköpostiosoitteella { $email } rekisteröitiin { -product-mozilla-account }.
 subplat-manage-account = Hallinnoi { -product-firefox-account } -asetuksia <a data-l10n-name="subplat-account-page">tilisivullasi</a>.
+subplat-manage-account-2 = Hallinnoi { -product-mozilla-account }n asetuksia <a data-l10n-name="subplat-account-page">tilisivullasi</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Hallinnoi { -product-firefox-account }n asetuksia käymällä tilisivullasi: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Hallinnoi { -product-mozilla-account }n asetuksia käymällä tilisivullasi: { $accountSettingsUrl }
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Peru tilaus
@@ -220,6 +233,7 @@ downloadSubscription-title = Tervetuloa, käytössäsi on { $productName }
 downloadSubscription-content-2 = Aloitetaan kaikkien tilauksesi ominaisuuksien käyttö:
 downloadSubscription-link-action-2 = Aloitetaan
 fraudulentAccountDeletion-subject = Sinun { -product-firefox-account } poistettiin
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account }si poistettiin
 fraudulentAccountDeletion-title = Tilisi poistettiin
 fraudulentAccountDeletion-content = Äskettäin { -product-firefox-account } luotiin ja siihen liittyvä tilaus veloitettiin tällä sähköpostiosoitteella. Kuten kaikkien uusien tilien kohdalla, pyysimme sinua vahvistamaan tilisi vahvistamalla ensin tämän sähköpostiosoitteen.
 fraudulentAccountDeletion-content-2 = Tällä hetkellä näemme, että tiliä ei koskaan vahvistettu. Koska tätä vaihetta ei suoritettu loppuun, emme ole varmoja, oliko tämä valtuutettu tilaus. Tämän seurauksena tähän sähköpostiosoitteeseen rekisteröity { -product-firefox-account } poistettiin, tilauksesi peruttiin ja kaikki kulut palautettiin.
@@ -258,6 +272,7 @@ newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
 passwordChanged-description = { -product-firefox-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
+passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-title = Salasanan vaihto vaaditaan
 passwordChangeRequired-suspicious-activity = Havaitsimme epäilyttävää toimintaa { -product-firefox-account }lläsi. Estääksemme { -product-firefox-account }si luvattoman käytön, olemme katkaisseet yhteyden kaikkiin laitteisiisi tilisi osalta. Vaadimme sinua vaihtamaan salasanan varotoimenpiteenä.
@@ -287,6 +302,7 @@ postAddAccountRecovery-action = Hallinnoi tiliä
 postAddAccountRecovery-delete-key = Poista uusi avain:
 postAddAccountRecovery-changd-password = Vaihda salasanasi:
 postAddLinkedAccount-subject = Uusi tili linkitetty { -brand-firefox }iin
+postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account }isi
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName }-tilisi on linkitetty { -product-firefox-account }in
@@ -374,15 +390,18 @@ subscriptionAccountFinishSetup-subject = Tervetuloa, tämä on { $productName }:
 subscriptionAccountFinishSetup-title = Tervetuloa, käytössäsi on { $productName }
 subscriptionAccountFinishSetup-content-processing = Maksuasi käsitellään, ja sen suorittaminen voi kestää neljä arkipäivää. Tilauksesi uusiutuu automaattisesti joka laskutusjakso, ellet peru sitä.
 subscriptionAccountFinishSetup-content-create-2 = Luo seuraavaksi { -product-firefox-account }n salasana aloittaaksesi uuden tilauksesi käytön.
+subscriptionAccountFinishSetup-content-create-3 = Luo seuraavaksi { -product-mozilla-account }n salasana aloittaaksesi uuden tilauksesi käytön.
 subscriptionAccountFinishSetup-action-2 = Aloitetaan
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
 subscriptionAccountReminderFirst-content-info-2 = Muutama päivä sitten loit { -product-firefox-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.
+subscriptionAccountReminderFirst-content-info-3 = Muutama päivä sitten loit { -product-mozilla-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.
 subscriptionAccountReminderFirst-content-select-2 = Valitse "Luo salasana" asettaaksesi uuden salasanan ja viimeistelläksesi tilisi vahvistamisen.
 subscriptionAccountReminderFirst-action = Luo salasana
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Viimeinen muistutus: määritä tilisi
 subscriptionAccountReminderSecond-title = Tervetuloa, käytössäsi on { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Tervetuloa { -brand-mozilla }an!
 subscriptionAccountReminderSecond-content-info-2 = Muutama päivä sitten loit { -product-firefox-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.
 subscriptionAccountReminderSecond-content-select-2 = Valitse "Luo salasana" asettaaksesi uuden salasanan ja viimeistelläksesi tilisi vahvistamisen.
 subscriptionAccountReminderSecond-action = Luo salasana
@@ -537,11 +556,14 @@ unblockCode-report = Jos et, auta meitä torjumaan tunkeutujia ja <a data-l10n-n
 unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille.
 verificationReminderFinal-subject = Viimeinen muistutus tilisi vahvistamisesta
 verificationReminderFinal-description = Loit pari viikkoa sitten { -product-firefox-account }n, mutta et vahvistanut sitä. Turvallisuutesi vuoksi poistamme tilin, jos et vahvista sitä seuraavan 24 tunnin kuluessa.
+verificationReminderFinal-description-2 = Loit pari viikkoa sitten { -product-mozilla-account }n, mutta et vahvistanut sitä. Turvallisuutesi vuoksi poistamme tilin, jos et vahvista sitä seuraavan 24 tunnin kuluessa.
 confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
 verificationReminderFirst-title-2 = Tervetuloa, käytössäsi on { -brand-firefox }!
+verificationReminderFirst-title-3 = Tervetuloa { -brand-mozilla }an!
 verificationReminderFirst-description-2 = Loit muutama päivä sitten { -product-firefox-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 15 päivän kuluessa tai se poistetaan automaattisesti.
+verificationReminderFirst-description-3 = Loit muutama päivä sitten { -product-mozilla-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 15 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderFirst-sub-description-3 = Älä jää paitsi selaimesta, joka asettaa sinut ja yksityisyytesi etusijalle.
 confirm-email-2 = Vahvista tili
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -549,10 +571,12 @@ verificationReminderFirst-action-2 = Vahvista tili
 verificationReminderSecond-subject-2 = Muista vahvistaa tilisi
 verificationReminderSecond-title-2 = Älä jää paitsi { -brand-firefox }ista!
 verificationReminderSecond-description-3 = Loit muutama päivä sitten { -product-firefox-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
+verificationReminderSecond-description-4 = Loit muutama päivä sitten { -product-mozilla-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderSecond-second-description = { -product-firefox-account }si avulla voit synkronoida tietosi eri laitteiden välillä, lisäksi se avaa pääsyn muihin yksityisyyttä suojaaviin { -brand-mozilla }n tuotteisiin.
 verificationReminderSecond-sub-description-2 = Ole osa tehtäväämme muuttaa internet kaikille avoimeksi paikaksi.
 verificationReminderSecond-action-2 = Vahvista tili
 verify-title-2 = Avaa internet { -brand-firefox }illa
+verify-title-3 = Avaa Internet { -brand-mozilla }lla
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
@@ -590,6 +614,7 @@ verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen j�
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Vahvista tilisi
 verifyShortCode-title-2 = Avaa internet { -brand-firefox }illa
+verifyShortCode-title-3 = Avaa Internet { -brand-mozilla }lla
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verifyShortCode-prompt-3 = Käytä tätä vahvistuskoodia:

@@ -71,6 +71,15 @@ recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamise
 
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Lisää { -brand-mozilla }lta:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Auta pitämään Internet terveenä
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Tietoturva- ja tietosuojauutiset sekä päivitykset
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Varhainen pääsy uusien tuotteiden testaamiseen
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -396,6 +405,7 @@ dc-learn-more = Lue lisää
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } -valikko
+drop-down-menu-title-2 = { -product-mozilla-account }en valikko
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -484,6 +494,7 @@ header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Ohje
 
 ## Linked Accounts section
@@ -934,12 +945,18 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Jatkamalla hyväksyt:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Jatkamalla hyväksyt:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytäntö</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytännön</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }in <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytäntö</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Jatkamalla hyväksyt <firefoxTos>käyttöehdot</firefoxTos> ja <firefoxPrivacy>tietosuojakäytännön</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Jatkamalla hyväksyt <mozillaAccountsTos>käyttöehdot</mozillaAccountsTos> ja <mozillaAccountsPrivacy>tietosuojakäytännön</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -981,6 +998,7 @@ auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
 
 cannot-create-account-header = Tiliä ei voida luoda
 cannot-create-account-requirements = Sinun on oltava riittävän vanha luodaksesi { -product-firefox-account }n.
+cannot-create-account-requirements-2 = Sinun on oltava riittävän vanha luodaksesi { -product-mozilla-account }n.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Lue lisää
 
