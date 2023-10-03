@@ -171,6 +171,7 @@ form-verify-code-default-error = Trường này là bắt buộc
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Khóa khôi phục tài khoản { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Mã xác thực dự phòng { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Mã xác thực dự phòng
 get-data-trio-download-2 =
     .title = Tải xuống
     .aria-label = Tải xuống
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu { -brand-firefox } Bento
+bento-menu-title-2 = Menu Bento { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
+bento-menu-mozilla-title = { -brand-mozilla } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     để bảo về dữ liệu bạn, bạn nên thay đổi mật khẩu { -product-firefox-account }
     trong cài đặt tài khoản của bạn. Bạn nên tìm kiếm thông tin từ công ty sản xuất 
     điện thoại của bạn để tìm hiểu cách xóa dữ liệu của bạn từ xa.
+cs-disconnect-lost-advice-content-3 = Vì thiết bị của bạn bị mất hoặc bị đánh cắp nên để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-mozilla-account } trong cài đặt tài khoản của mình. Bạn cũng nên tìm kiếm thông tin từ nhà sản xuất thiết bị về việc xóa dữ liệu của bạn từ xa.
 cs-disconnect-suspicious-advice-heading = Đã ngắt kết nối thiết bị khả nghi
 cs-disconnect-suspicious-advice-content =
     Nếu thiết bị đã ngắt kết nối thực sự đáng ngờ,
     để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-firefox-account }
     trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác
     mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:login vào thanh địa chỉ.
+cs-disconnect-suspicious-advice-content-2 = Nếu thiết bị bị ngắt kết nối thực sự đáng ngờ, để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-mozilla-account } trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:logins vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
 
 ##
@@ -396,15 +401,20 @@ cs-sign-out-button = Đăng xuất
 
 dc-heading = Thu thập và sử dụng dữ liệu
 dc-subheader = Giúp cải thiện { -product-firefox-accounts }
+dc-subheader-2 = Giúp cải thiện { -product-mozilla-accounts }
 dc-subheader-content = Cho phép { -product-firefox-accounts } gửi dữ liệu kỹ thuật và tương tác tới { -brand-mozilla }.
+dc-subheader-content-2 = Cho phép { -product-mozilla-accounts } để gửi dữ liệu kỹ thuật và tương tác tới { -brand-mozilla }.
 dc-opt-out-success = Đã thoát thành công. { -product-firefox-accounts } sẽ không gửi dữ liệu kỹ thuật hoặc dữ liệu tương tác tới { -brand-mozilla }.
+dc-opt-out-success-2 = Đã tắt thành công. { -product-mozilla-accounts } sẽ không gửi dữ liệu kỹ thuật hoặc tương tác tới { -brand-mozilla }.
 dc-opt-in-success = Cảm ơn! Dữ liệu được chia sẻ này giúp chúng tôi cải thiện { -product-firefox-accounts }.
+dc-opt-in-success-2 = Cảm ơn! Chia sẻ dữ liệu này sẽ giúp chúng tôi cải thiện { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Xin lỗi, đã xảy ra sự cố khi thay đổi tùy chọn thu thập dữ liệu của bạn
 dc-learn-more = Tìm hiểu thêm
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
+drop-down-menu-title-2 = Menu { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -493,6 +503,7 @@ header-menu-closed = Menu dẫn hướng trang mạng
 header-back-to-top-link =
     .title = Về đầu trang
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Trợ giúp
 
 ## Linked Accounts section
@@ -620,7 +631,9 @@ delete-account-header =
 delete-account-step-1-2 = Bước 1/2
 delete-account-step-2-2 = Bước 2/2
 delete-account-confirm-title-3 = Bạn có thể đã kết nối { -product-firefox-account } của mình với một hoặc nhiều sản phẩm hoặc dịch vụ { -brand-mozilla } sau đây giúp bạn an toàn và làm việc hiệu quả trên web:
+delete-account-confirm-title-4 = Bạn có thể đã kết nối { -product-mozilla-account } của mình với một hoặc nhiều sản phẩm hoặc dịch vụ { -brand-mozilla } sau đây để giúp bạn an toàn và làm việc hiệu quả trên web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -943,12 +956,20 @@ tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Bằng cách tiếp tục, bạn đồng ý:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Bằng cách tiếp tục, bạn đồng ý với:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo quyền riêng tư</pocketPrivacy> của { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo về quyền riêng tư</pocketPrivacy> của { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Điều khoản dịch vụ</firefoxTos> và <firefoxPrivacy>thông báo quyền riêng tư</firefoxPrivacy> của { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Điều khoản dịch vụ</mozillaAccountsTos> và <mozillaAccountsPrivacy>thông báo về quyền riêng tư</mozillaAccountsPrivacy> của { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Bằng cách tiếp tục, bạn đồng ý với <firefoxTos>Điều khoản dịch vụ</firefoxTos> và <firefoxPrivacy>thông báo về quyền riêng tư</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Bằng cách tiếp tục, bạn đồng ý với <mozillaAccountsTos>điều khoản dịch vụ</mozillaAccountsTos> và <mozillaAccountsPrivacy>thông báo về quyền riêng tư</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -990,6 +1011,7 @@ auth-error-1011 = Yêu cầu email hợp lệ
 
 cannot-create-account-header = Không thể tạo tài khoản
 cannot-create-account-requirements = Bạn phải đáp ứng các yêu cầu nhất định về độ tuổi để tạo { -product-firefox-account }.
+cannot-create-account-requirements-2 = Bạn phải đáp ứng các yêu cầu về độ tuổi nhất định để tạo { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Tìm hiểu thêm
 
@@ -1025,6 +1047,7 @@ connect-another-device-ios-complete-setup-message = Đăng nhập vào { -brand-
 
 cookies-disabled-header = Yêu cầu bộ nhớ cục bộ và cookie
 cookies-disabled-enable-prompt = Vui lòng bật cookie và bộ nhớ cục bộ trong trình duyệt của bạn để truy cập { -product-firefox-accounts }. Làm như vậy sẽ bật chức năng như ghi nhớ bạn giữa các phiên.
+cookies-disabled-enable-prompt-2 = Vui lòng bật cookie và bộ nhớ cục bộ trong trình duyệt của bạn để truy cập vào { -product-mozilla-account } của bạn. Làm như vậy sẽ kích hoạt chức năng như ghi nhớ bạn giữa các phiên.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Thử lại
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1225,6 +1248,7 @@ account-recovery-confirm-key-heading-w-default-service = Đặt lại mật kh�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Đặt lại mật khẩu bằng khóa khôi phục tài khoản <span>để tiếp tục đến { $serviceName }</span>
 account-recovery-confirm-key-instructions = Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào { -product-firefox-account } của bạn.
+account-recovery-confirm-key-instructions-2 = Vui lòng nhập khóa khôi phục tài khoản sử dụng một lần mà bạn đã lưu ở nơi an toàn để lấy lại quyền truy cập vào { -product-mozilla-account } của mình.
 account-recovery-confirm-key-warning-message = <span>Lưu ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và dấu trang).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1305,6 +1329,8 @@ confirm-signin-message = Kiểm tra email của bạn để biết liên kết x
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Nhập mật khẩu <span>cho { -product-firefox-account }</span> của bạn
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Nhập mật khẩu của bạn <span>cho { -product-mozilla-account } của bạn</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
@@ -1361,6 +1387,10 @@ signin-reported-message = Nhóm của chúng tôi đã được thông báo. Cá
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Nhập mã xác nhận<span> cho { -product-firefox-account }</span> của bạn
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Nhập mã xác minh<span> cho { -product-mozilla-account } của bạn</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Nhập mã đã được gửi tới { $email } trong vòng 5 phút.
 signin-token-code-input-label-v2 = Nhập mã gồm 6 chữ số
@@ -1412,6 +1442,10 @@ confirm-signup-code-page-title = Nhập mã xác nhận
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Nhập mã xác thực <span>cho { -product-firefox-account } của bạn</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Nhập mã xác minh <span>cho { -product-mozilla-account } của bạn</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Nhập mã đã được gửi tới { $email } trong vòng 5 phút.
 confirm-signup-code-input-label = Nhập mã gồm 6 chữ số

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-03-07 03:49+0000\n"
+"PO-Revision-Date: 2023-10-03 06:41+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -73,7 +73,7 @@ msgstr "Tài khoản Firefox yêu cầu JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Tài khoản Mozilla yêu cầu JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -97,7 +97,7 @@ msgstr "Tải xuống"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Tài khoản Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -106,3 +106,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Tài khoản Mozilla của bạn sử dụng các tính năng\n"
+"không được hỗ trợ trong phiên bản Firefox của bạn.\n"
+"Vui lòng tải xuống và cài đặt phiên bản Firefox\n"
+"mới nhất để tiếp tục."
