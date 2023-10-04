@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-04 10:42+0000\n"
+"PO-Revision-Date: 2023-10-04 11:09+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -929,7 +929,7 @@ msgstr "¿Ndereguerekói mba’eñemi jeguerujeyrã?"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde Mozilla mba’etépe."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1074,7 +1074,7 @@ msgstr "Emondo ayvu pyahu ñanduti veve rupive."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Emoinge ayvu ñemoneĩrã <span class=\"card-subheader\" id=\"subheader\">  Mozilla mba’etépe g̃uarã</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1153,7 +1153,7 @@ msgstr "¿Nderesarái ne ñe’ẽñemi?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Emoinge ne ñe’ẽñemi <span class=\"card-subheader\" id=\"subheader\"> Mozilla mba’etépe g̃uarã</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1181,7 +1181,7 @@ msgstr "Firefox mba’ete ombojurujakuaa heta apopyrépe jeike Mozilla ñemigua 
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Eikejey Mozilla mba’ete ndive"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
