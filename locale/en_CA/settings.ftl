@@ -995,6 +995,7 @@ auth-error-1011 = Valid email required
 
 cannot-create-account-header = Cannot create account
 cannot-create-account-requirements = You must meet certain age requirements to create a { -product-firefox-account }.
+cannot-create-account-requirements-2 = You must meet certain age requirements to create a { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Learn more
 
@@ -1030,6 +1031,7 @@ connect-another-device-ios-complete-setup-message = Sign in to { -brand-firefox 
 
 cookies-disabled-header = Local storage and cookies are required
 cookies-disabled-enable-prompt = Please enable cookies and local storage in your browser to access { -product-firefox-accounts }. Doing so will enable functionality such as remembering you between sessions.
+cookies-disabled-enable-prompt-2 = Please enable cookies and local storage in your browser to access your { -product-mozilla-account }. Doing so will enable functionality such as remembering you between sessions.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Try again
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1230,6 +1232,7 @@ account-recovery-confirm-key-heading-w-default-service = Reset password with acc
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Reset password with account recovery key <span>to continue to { $serviceName }</span>
 account-recovery-confirm-key-instructions = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Please enter the one time use account recovery key you stored in a safe place to regain access to your { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Note:</span> If you reset your password and don’t have your account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1310,6 +1313,8 @@ confirm-signin-message = Check your email for the sign-in confirmation link sent
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Enter your password <span>for your { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Enter your password <span>for your { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
@@ -1366,6 +1371,10 @@ signin-reported-message = Our team has been notified. Reports like this help us 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Enter confirmation code<span> for your { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Enter confirmation code <span>for your { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
 signin-token-code-input-label-v2 = Enter 6-digit code
@@ -1417,6 +1426,10 @@ confirm-signup-code-page-title = Enter confirmation code
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Enter confirmation code <span>for your { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Enter confirmation code <span>for your { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Enter the code that was sent to { $email } within 5 minutes.
 confirm-signup-code-input-label = Enter 6-digit code
