@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logging in to { -product-firefox-accounts }?
+session-verify-send-push-title-2 = Logging in to your { -product-mozilla-account }?
 session-verify-send-push-body-2 = Click here to confirm it’s you
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = Click here to confirm it’s you
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } Privacy Policy
 fxa-service-url = { -product-firefox-cloud } Terms of Service
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Terms of Service
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-automated-email = This is an automated email; if you received it in error, no action is required.
 subplat-privacy-notice = Privacy notice
@@ -24,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = You’re receiving this email because { $email } has a { -product-mozilla-account } and you signed up for { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = You’re receiving this email because { $email } has a { -product-firefox-account }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = You’re receiving this email because { $email } has a { -product-mozilla-account }.
 subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
+subplat-explainer-multiple-2 = You’re receiving this email because { $email } has a { -product-mozilla-account } and you have subscribed to multiple products.
 subplat-explainer-was-deleted = You’re receiving this email because { $email } was registered for a { -product-firefox-account }.
+subplat-explainer-was-deleted-2 = You’re receiving this email because { $email } was registered for a { -product-mozilla-account }.
 subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
+subplat-manage-account-2 = Manage your { -product-mozilla-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = Manage your { -product-firefox-account } settings by visiting your account page: { $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Manage your { -product-mozilla-account } settings by visiting your account page: { $accountSettingsUrl }
 subplat-terms-policy = Terms and cancellation policy
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
@@ -201,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = It takes two to sync
 cadReminderFirst-description-1 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }. It’s like having magic in your { -brand-firefox } account!
-cadReminderFirst-description-2 = It only takes a sec to sync.
+cadReminderFirst-description-v2 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }.
 cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your sync setup
 cadReminderSecond-action = Sync another device
 cadReminderSecond-title-2 = Don’t forget to sync!
@@ -216,9 +234,12 @@ downloadSubscription-title = Welcome to { $productName }
 downloadSubscription-content-2 = Let’s get started using all the features included in your subscription:
 downloadSubscription-link-action-2 = Get Started
 fraudulentAccountDeletion-subject = Your { -product-firefox-account } was deleted
+fraudulentAccountDeletion-subject-2 = Your { -product-mozilla-account } was deleted
 fraudulentAccountDeletion-title = Your account was deleted
 fraudulentAccountDeletion-content = Recently, a { -product-firefox-account } was created and a subscription was charged using this email address. As we do with all new accounts, we asked that you confirm your account by first validating this email address.
+fraudulentAccountDeletion-content-part1-v2 = Recently, a { -product-mozilla-account } was created and a subscription was charged using this email address. As we do with all new accounts, we asked that you confirm your account by first validating this email address.
 fraudulentAccountDeletion-content-2 = At present, we see that the account was never confirmed. Since this step was not completed, we are not sure if this was an authorized subscription. As a result, the { -product-firefox-account } registered to this email address was deleted and your subscription was cancelled with all charges reimbursed.
+fraudulentAccountDeletion-content-part2-v2 = At present, we see that the account was never confirmed. Since this step was not completed, we are not sure if this was an authorized subscription. As a result, the { -product-mozilla-account } registered to this email address was deleted and your subscription was canceled with all charges reimbursed.
 fraudulentAccountDeletion-contact = If you have any questions, please contact our <a data-l10n-name="mozillaSupportUrl">support team</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -242,9 +263,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = New sign-in to { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Your { -product-firefox-account } was used to sign in
+newDeviceLogin-title-3 = Your { -product-mozilla-account } was used to sign in
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Not you? <a data-l10n-name="passwordChangeLink">Change your password</a>.
@@ -260,8 +280,6 @@ passwordChangeRequired-title = Password Change Required
 passwordChangeRequired-suspicious-activity = We detected suspicious behaviour on your { -product-firefox-account }. To prevent unauthorized access to your { -product-firefox-account }, we’ve disconnected all devices on your account and are requiring you to change your password as a precaution.
 passwordChangeRequired-sign-in = Sign back into any device or service where you use your { -product-firefox-account } and follow the steps that will be presented to you.
 passwordChangeRequired-different-password = <b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account.
-passwordChangeRequired-signoff = Best,
-passwordChangeRequired-signoff-name = The { -product-firefox-accounts } team
 passwordChangeRequired-different-password-plaintext = Important: Pick a different password than what you were previously using and make sure that it is different from your email account.
 passwordReset-subject = Password updated
 passwordReset-title = Your account password was changed
