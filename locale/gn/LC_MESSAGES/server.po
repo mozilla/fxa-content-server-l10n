@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-16 16:46+0000\n"
+"PO-Revision-Date: 2023-10-04 10:44+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -74,7 +74,7 @@ msgstr "Firefox Accounts oikotevẽ JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla mba’ete oikotevẽ JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -98,7 +98,7 @@ msgstr "Emboguejy tembiapo ipyahuvéva"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla mba’ete"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""

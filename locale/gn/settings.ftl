@@ -171,6 +171,7 @@ form-verify-code-default-error = Ko korápe ahaiva’erã
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
+get-data-trio-title-backup-verification-codes = Ayvu ñemoneĩrã jeykekoha
 get-data-trio-download-2 =
     .title = Mboguejy
     .aria-label = Mboguejy
@@ -307,6 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
+bento-menu-title-2 = Bento Poravorã { -brand-mozilla } mba’e
 bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -396,7 +398,9 @@ cs-sign-out-button = Emboty tembiapo
 
 dc-heading = Ñembyaty ha mba’ekuaarã jeporu
 dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
+dc-subheader-2 = Eipytyvõ oiko porãvévo { -product-mozilla-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
+dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
 dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuãi emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
@@ -405,6 +409,7 @@ dc-learn-more = Kuaave
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } poravopyrã
+drop-down-menu-title-2 = { -product-mozilla-account } poravorã
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,13 +491,14 @@ flow-recovery-key-info-cta-text-v3 = Eñepyrũ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Heja
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Emboty poravorã
 header-menu-closed = Tenda kundahára poravorã
 header-back-to-top-link =
     .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Pytyvõ
 
 ## Linked Accounts section
@@ -621,6 +627,7 @@ delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’eporu { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }

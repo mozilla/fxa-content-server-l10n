@@ -59,10 +59,12 @@ input-error-is-required = Oñeikotevẽ { $label }
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } ra’ãnga’i
+brand-name-mozilla-logo = { -brand-mozilla } ra’ãnga’i
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>Eñepyrũ tembiapo</a>
+new-user-sign-in-link-2 = Erekómapa { -product-mozilla-account }? <a>Eñepyrũ tembiapo</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDat
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Emoheñói mba’ete { -brand-name-firefox }-pe
+new-user-step-1-2 = 1. Emoheñói { -product-mozilla-account }
 new-user-card-title = Emoinge marandu kuatia’atã rehegua
 new-user-submit = Eñemboheraguapy Ko’ág̃a
 
