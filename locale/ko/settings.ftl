@@ -14,42 +14,24 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = 이메일이 다시 전송되었습니다. 원활한 전송을 위해 { $accountsEmail }을 연락처에 추가하세요.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = 문제가 발생했습니다. 새 링크를 보낼 수 없습니다.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = 계정 복구 키 저장
-# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
-# Password resets without this account recovery key can result in data loss.
-recovery-key-file-instructions = 계정 복구 키를 포함하는 이 파일을 기억할 수 있는 곳에 보관하세요. 혹은 인쇄하여 물리적 사본을 보관하세요. 비밀번호를 잊어버렸을 때 계정 복구 키로 { -brand-firefox } 데이터를 복구할 수 있습니다.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = 유용한 정보가 받은 편지함으로 전송됩니다. 더 많은 것을 위해 가입하세요:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = 최신 { -brand-mozilla }와 { -brand-firefox } 뉴스를 받아보세요.
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = 인터넷을 건강하게 유지하기 위한 행동을 취하세요.
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = 더 안전하고 똑똑한 인터넷
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = 동기화할 대상 선택:
 choose-what-to-sync-option-bookmarks =
     .label = 북마크
 choose-what-to-sync-option-history =
@@ -225,7 +207,6 @@ cs-disconnect-suspicious-advice-content =
     변경 해야 합니다. { -brand-firefox }에 저장된 다른 암호도 
     주소창에 about:logins를 입력해서 변경해야 합니다.
 cs-sign-out-button = 로그아웃
-cs-recent-activity = 최근 계정 활동
 
 ##
 
@@ -272,7 +253,7 @@ flow-container-back = 이전
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = 메뉴 닫기
 header-menu-closed = 사이트 탐색 메뉴
@@ -425,7 +406,9 @@ display-name-success-alert-2 = 표시 이름 업데이트됨
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = 최근 계정 활동
 
@@ -539,6 +522,8 @@ security-password-created-date = { $date }에 생성됨
 security-not-set = 설정되지 않음
 security-action-create = 생성
 security-set-password = 특정 계정 보안 기능을 사용하고 동기화하려면 비밀번호를 설정하세요.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = 최근 계정 활동 보기
 
 ## Switch component
 
