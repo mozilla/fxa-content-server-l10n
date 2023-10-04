@@ -378,8 +378,10 @@ cs-disconnect-sync-opt-not-say = Rather not say
 cs-disconnect-advice-confirm = Okay, got it
 cs-disconnect-lost-advice-heading = Lost or stolen device disconnected
 cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to keep your information safe, you should change your { -product-firefox-account } password in your account settings. You should also look for information from your device manufacturer about erasing your data remotely.
+cs-disconnect-lost-advice-content-3 = Since your device was lost or stolen, to keep your information safe, you should change your { -product-mozilla-account } password in your account settings. You should also look for information from your device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
 cs-disconnect-suspicious-advice-content = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-firefox-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
+cs-disconnect-suspicious-advice-content-2 = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-mozilla-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
 cs-sign-out-button = Sign out
 
 ##
@@ -389,15 +391,20 @@ cs-sign-out-button = Sign out
 
 dc-heading = Data Collection and Use
 dc-subheader = Help improve { -product-firefox-accounts }
+dc-subheader-2 = Help improve { -product-mozilla-accounts }
 dc-subheader-content = Allow { -product-firefox-accounts } to send technical and interaction data to { -brand-mozilla }.
+dc-subheader-content-2 = Allow { -product-mozilla-accounts } to send technical and interaction data to { -brand-mozilla }.
 dc-opt-out-success = Opt out successful. { -product-firefox-accounts } won’t send technical or interaction data to { -brand-mozilla }.
+dc-opt-out-success-2 = Opt out successful. { -product-mozilla-accounts } won’t send technical or interaction data to { -brand-mozilla }.
 dc-opt-in-success = Thanks! Sharing this data helps us improve { -product-firefox-accounts }.
+dc-opt-in-success-2 = Thanks! Sharing this data helps us improve { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Sorry, there was a problem changing your data collection preference
 dc-learn-more = Learn more
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menu
+drop-down-menu-title-2 = { -product-mozilla-account } menu
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,6 +493,7 @@ header-menu-closed = Site navigation menu
 header-back-to-top-link =
     .title = Back to top
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Help
 
 ## Linked Accounts section
@@ -613,7 +621,9 @@ delete-account-header =
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 delete-account-confirm-title-3 = You may have connected your { -product-firefox-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
+delete-account-confirm-title-4 = You may have connected your { -product-mozilla-account } to one or more of the following { -brand-mozilla } products or services that keep you secure and productive on the web:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -930,12 +940,20 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = By proceeding, you agree to:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = By proceeding, you agree to the:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket }’s <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Terms of Service</pocketTos> and <pocketPrivacy>Privacy Notice</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }’s <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Terms of Service</mozillaAccountsTos> and <mozillaAccountsPrivacy>Privacy Notice</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = By proceeding, you agree to the <firefoxTos>Terms of Service</firefoxTos> and <firefoxPrivacy>Privacy Notice</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = By proceeding, you agree to the <mozillaAccountsTos>Terms of Service</mozillaAccountsTos> and <mozillaAccountsPrivacy>Privacy Notice</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
