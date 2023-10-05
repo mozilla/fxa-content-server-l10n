@@ -59,6 +59,7 @@ input-error-is-required = { $label } gereklidir
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox } logosu
+brand-name-mozilla-logo = { -brand-mozilla } logosu
 
 ## Component - NewUserEmailForm
 

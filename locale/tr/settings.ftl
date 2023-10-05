@@ -171,6 +171,7 @@ form-verify-code-default-error = Bu alanı doldurmalısınız
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
+get-data-trio-title-backup-verification-codes = Yedek kimlik doğrulama kodları
 get-data-trio-download-2 =
     .title = İndir
     .aria-label = İndir
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bento menüsü
+bento-menu-title-2 = { -brand-mozilla } bento menüsü
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
+bento-menu-mozilla-title = { -brand-mozilla } çevrimiçi gizliliğiniz için savaşır.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -397,6 +400,7 @@ dc-learn-more = Daha fazla bilgi al
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menüsü
+drop-down-menu-title-2 = { -product-mozilla-account } menüsü
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -478,13 +482,14 @@ flow-recovery-key-info-cta-text-v3 = Başla
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = İptal
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Menüyü kapat
 header-menu-closed = Site gezinti menüsü
 header-back-to-top-link =
     .title = Başa dön
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Yardım
 
 ## Linked Accounts section
@@ -610,6 +615,7 @@ delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-confirm-title-3 = { -product-firefox-account }nızı, internette güvenliğinizi ve verimliliğinizi artıran aşağıdaki { -brand-mozilla } ürün ve hizmetlerine bağlamış olabilirsiniz:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -918,8 +924,12 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Devam ettiğinizde şunları kabul etmiş olursunuz:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Devam ettiğinizde şunları kabul etmiş olursunuz:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşulları</firefoxTos> ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
