@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Synkronointi vaatii kaksi
 cadReminderFirst-description-1 = Käytä välilehtiäsi kaikilla laitteillasi. Ota mukaan kirjanmerkkisi, salasanasi ja muut tietosi kaikkialle, missä käytät { -brand-firefox }ia. Se on kuin taikuutta { -brand-firefox }-tililläsi!
+cadReminderFirst-description-v2 = Käytä välilehtiäsi kaikilla laitteillasi. Varmista pääsy kirjanmerkkeihin, salasanoihin ja muihin tietoihin kaikkialla, missä käytät { -brand-firefox }ia.
 cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title-2 = Älä unohda synkronoida!
@@ -354,6 +355,9 @@ postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Olet poistanut toissijaisen sähköpostiosoitteen { $secondaryEmail } { -product-firefox-account }ltäsi. Tietoturvailmoituksia ja kirjautumisvahvistuksia ei enää lähetetä tähän osoitteeseen.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Olet poistanut toissijaisen sähköpostiosoitteen { $secondaryEmail } { -product-mozilla-account }ltäsi. Tietoturvailmoituksia ja kirjautumisvahvistuksia ei enää lähetetä tähän osoitteeseen.
 postRemoveSecondary-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-subject-line-2 = Kaksivaiheinen todennus poistettu käytöstä
 postRemoveTwoStepAuthentication-title-2 = Poistit kaksivaiheisen todennuksen käytöstä
@@ -374,6 +378,9 @@ postVerifySecondary-title = Toissijainen sähköpostiosoite lisätty
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Olet vahvistanut osoitteen { $secondaryEmail } toissijaiseksi sähköpostiosoitteeksi { -product-firefox-account }llesi. Tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään nyt molempiin sähköpostiosoitteisiin.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Olet vahvistanut osoitteen { $secondaryEmail } toissijaiseksi sähköpostiosoitteeksi { -product-mozilla-account }llesi. Tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään nyt molempiin sähköpostiosoitteisiin.
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
 recovery-title-2 = Unohditko salasanasi?
@@ -589,6 +596,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Vahvista tili
 verificationReminderSecond-subject-2 = Muista vahvistaa tilisi
 verificationReminderSecond-title-2 = Älä jää paitsi { -brand-firefox }ista!
+verificationReminderSecond-title-3 = Älä jää paitsi { -brand-mozilla }sta!
 verificationReminderSecond-description-3 = Loit muutama päivä sitten { -product-firefox-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderSecond-description-4 = Loit muutama päivä sitten { -product-mozilla-account }n, mutta et vahvistanut sitä. Vahvista tilisi seuraavan 10 päivän kuluessa tai se poistetaan automaattisesti.
 verificationReminderSecond-second-description = { -product-firefox-account }si avulla voit synkronoida tietosi eri laitteiden välillä, lisäksi se avaa pääsyn muihin yksityisyyttä suojaaviin { -brand-mozilla }n tuotteisiin.

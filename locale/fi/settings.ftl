@@ -396,9 +396,13 @@ cs-sign-out-button = Kirjaudu ulos
 
 dc-heading = Tietojen keruu ja käyttö
 dc-subheader = Auta parantamaan palvelua { -product-firefox-accounts }
+dc-subheader-2 = Auta parantamaan { -product-mozilla-accounts } -palvelua
 dc-subheader-content = Salli palvelun { -product-firefox-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
+dc-subheader-content-2 = Salli palvelun { -product-mozilla-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success = Poistuminen onnistui. { -product-firefox-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
+dc-opt-out-success-2 = Poistuminen onnistui. { -product-mozilla-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-firefox-accounts } -palvelua.
+dc-opt-in-success-2 = Kiitos! Tämän tiedon jakaminen auttaa parantamaan { -product-mozilla-accounts } -palvelua.
 dc-opt-in-out-error-2 = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma
 dc-learn-more = Lue lisää
 
