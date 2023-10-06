@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-01 08:50+0000\n"
+"PO-Revision-Date: 2023-10-06 07:56+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1978,7 +1978,7 @@ msgstr "或"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
-msgstr "Google 账户登录"
+msgstr "Google 账号登录"
 
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
