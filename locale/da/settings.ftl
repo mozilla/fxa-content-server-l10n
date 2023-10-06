@@ -171,6 +171,7 @@ form-verify-code-default-error = Dette felt er påkrævet
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
+get-data-trio-title-backup-verification-codes = Reserve-godkendelseskoder
 get-data-trio-download-2 =
     .title = Hent
     .aria-label = Hent
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-title-2 = { -brand-mozilla } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
+bento-menu-mozilla-title = { -brand-mozilla } er teknologi, der kæmper for at beskytte dit privatliv på nettet.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     du ændre adgangskoden til din { -product-firefox-account }
     i dine kontoindstillinger for at beskytte dine informationer. Du skal også kigge efter
     oplysninger fra producenten af din enhed om fjernsletning af dine data.
+cs-disconnect-lost-advice-content-3 = Da din enhed er mistet eller stjålet, skal du ændre adgangskoden til din { -product-mozilla-account } i dine kontoindstillinger for at beskytte dine informationer. Du skal også kigge efter oplysninger fra producenten af din enhed om fjernsletning af dine data.
 cs-disconnect-suspicious-advice-heading = Afbrudt forbindelsen til mistænkelig enhed
 cs-disconnect-suspicious-advice-content =
     Hvis den frakoblede enhed virkelig er mistænkelig,
     skal du ændre adgangskoden til din { -product-firefox-account }
     i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
     adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
+cs-disconnect-suspicious-advice-content-2 = Hvis den frakoblede enhed virkelig er mistænkelig, skal du ændre adgangskoden til din { -product-mozilla-account } i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-sign-out-button = Log ud
 
 ##
@@ -396,15 +401,20 @@ cs-sign-out-button = Log ud
 
 dc-heading = Dataindsamling og -brug
 dc-subheader = Hjælp med at forbedre { -product-firefox-accounts }
+dc-subheader-2 = Hjælp med at forbedre { -product-mozilla-accounts }
 dc-subheader-content = Tillad at { -product-firefox-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
+dc-subheader-content-2 = Tillad at { -product-mozilla-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-out-success = Fravalget lykkedes. { -product-firefox-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
+dc-opt-out-success-2 = Fravalget lykkedes. { -product-mozilla-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-in-success = Tak! Deling af disse data hjælper os med at forbedre { -product-firefox-accounts }.
+dc-opt-in-success-2 = Tak! Deling af disse data hjælper os med at forbedre { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Der opstod desværre et problem med at ændre din indstilling for dataindsamling
 dc-learn-more = Læs mere
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-menu
+drop-down-menu-title-2 = { -product-mozilla-account }-menu
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,13 +496,14 @@ flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Annuller
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Luk menu
 header-menu-closed = Menu til websteds-navigation
 header-back-to-top-link =
     .title = Tilbage til toppen
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Hjælp
 
 ## Linked Accounts section
@@ -619,7 +630,9 @@ delete-account-header =
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
 delete-account-confirm-title-3 = Du har muligvis knyttet din { -product-firefox-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
+delete-account-confirm-title-4 = Du har muligvis knyttet din { -product-mozilla-account } til en eller flere af følgende { -brand-mozilla }-produkter eller tjenester, der sikrer dit privatliv og øger din produktivitet på nettet:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -944,12 +957,20 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Ved at fortsætte accepterer du:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Ved at fortsætte accepterer du:
 # links to Pocket's Terms of Service and Privacy Notice
-terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivspolitik</pocketPrivacy>
+terms-privacy-agreement-pocket = { -product-pocket }s <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>tjenestevilkår</pocketTos> og <pocketPrivacy>privatlivserklæring</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivspolitik</firefoxPrivacy>
+terms-privacy-agreement-firefox = { -brand-firefox }' <firefoxTos>tjenestevilkår</firefoxTos> og <firefoxPrivacy>privatlivserklæring</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tjenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>privatlivserklæring</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
-terms-privacy-agreement-default = Ved at fortsætte accepterer du <firefoxTos>tjenestevilkårene</firefoxTos> og <firefoxPrivacy>privatlivspolitikken</firefoxPrivacy>.
+terms-privacy-agreement-default = Ved at fortsætte accepterer du <firefoxTos>tjenestevilkårene</firefoxTos> og <firefoxPrivacy>privatlivserklæringen</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ved at fortsætte accepterer du <mozillaAccountsTos>tjenestevilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>privatlivserklæringen</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

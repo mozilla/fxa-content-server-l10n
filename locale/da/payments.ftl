@@ -59,10 +59,12 @@ input-error-is-required = { $label } er påkrævet
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-logo
+brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Har du allerede en { -brand-name-firefox }-konto? <a>Log ind</a>
+new-user-sign-in-link-2 = Har du allerede en { -product-mozilla-account }? <a>Log ind</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -128,7 +130,7 @@ payment-confirmation-download-button = Fortsæt til hentning
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+payment-confirm-with-legal-links-static = Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
 payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Component - PaymentErrorView
@@ -306,7 +308,7 @@ sub-guarantee = 30-dages pengene-tilbage-garanti
 ## Component - TermsAndPrivacy
 
 terms = Tjenestevilkår
-privacy = Privatlivspolitik
+privacy = Privatlivserklæring
 terms-download = Betingelser for hentning
 
 ## App-level string(s) and messages shared by multiple components or routes
@@ -410,6 +412,7 @@ coupon-success-repeating = Din plan fornys automatisk til listeprisen efter { $c
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Opret en { -brand-name-firefox }-konto
+new-user-step-1-2 = 1. Opret en { -product-mozilla-account }
 new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Gennemgå dine ændringer
 sub-change-failed = Ændring af plan mislykkedes
-sub-update-copy =
-    Din plan bliver ændret med det samme og du vil blive opkrævet et justeret
-    beløb for resten af faktureringsperioden. Fra og med { $startingDate }
-    vil du blive opkrævet det fulde beløb.
 sub-update-acknowledgment =
     Din plan bliver ændret med det samme, og du vil blive opkrævet et forholdsmæssigt
     beløb i dag for resten af denne faktureringsperiode. Fra og med { $startingDate }

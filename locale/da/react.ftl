@@ -6,7 +6,7 @@ app-general-err-message = Noget gik galt. Prøv igen senere.
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Privatlivspolitik
+app-footer-privacy-notice = Privatlivserklæring
 app-footer-terms-of-service = Tjenestevilkår
 
 ## FxA React - Strings shared between multiple FxA products for application page title
@@ -41,3 +41,5 @@ app-logo-alt =
     .alt = { -brand-firefox }-logo
 app-logo-alt-2 =
     .alt = { -brand-mozilla }-logo
+app-logo-alt-3 =
+    .alt = { -brand-mozilla } m-logo

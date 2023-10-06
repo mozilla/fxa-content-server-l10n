@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2022-01-08 16:20+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2023-09-29 11:01+0000\n"
+"Last-Translator: Joergen <joradan0@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "Firefox-konti kræver JavaScript."
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla-konti kræver JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
@@ -98,7 +98,7 @@ msgstr "Hent seneste"
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-konto"
 
 #: server/templates/pages/src/update_firefox.html:6
 msgid ""
@@ -107,3 +107,7 @@ msgid ""
 "download and install the latest version of Firefox to\n"
 "continue."
 msgstr ""
+"Din Mozilla-konto gør brug af funktioner,\n"
+"der ikke understøttes i din version af Firefox.\n"
+"Hent og installer den seneste version af Firefox\n"
+"for at fortsætte."
