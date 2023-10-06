@@ -20,8 +20,8 @@ subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -bra
 subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
-subplat-privacy-notice = Privatlivspolitik
-subplat-privacy-plaintext = Privatlivspolitik:
+subplat-privacy-notice = Privatlivserklæring
+subplat-privacy-plaintext = Privatlivserklæring:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
