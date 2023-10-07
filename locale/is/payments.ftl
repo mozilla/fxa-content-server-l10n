@@ -59,10 +59,12 @@ input-error-is-required = { $label } er nauðsynlegt
 ## Component - Header
 
 brand-name-firefox-logo = { -brand-name-firefox }-táknmerki
+brand-name-mozilla-logo = { -brand-mozilla } táknmerki
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Ertu nú þegar með { -brand-name-firefox } reikning? <a>Skráðu þig inn</a>
+new-user-sign-in-link-2 = Ertu nú þegar með { -product-mozilla-account }? <a>Skráðu þig inn</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -410,6 +412,7 @@ coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $co
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Búðu til { -brand-name-firefox }-reikning
+new-user-step-1-2 = 1. Búðu til { -product-mozilla-account }
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
 new-user-submit = Gerast áskrifandi núna
 
@@ -439,10 +442,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Farðu yfir breytinguna þína
 sub-change-failed = Breyting á áskriftarleið mistókst
-sub-update-copy =
-    Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
-    upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
-    { $startingDate } færð þú kröfu um alla upphæðina.
 sub-update-acknowledgment =
     Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
     upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 

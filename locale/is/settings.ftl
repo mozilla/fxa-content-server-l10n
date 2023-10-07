@@ -171,6 +171,7 @@ form-verify-code-default-error = Þessi reitur er nauðsynlegur
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
+get-data-trio-title-backup-verification-codes = Varaauðkenningarkóðar
 get-data-trio-download-2 =
     .title = Sækja
     .aria-label = Sækja
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
+bento-menu-title-2 = { -brand-mozilla } Bento-valmynd
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
+bento-menu-mozilla-title = { -brand-mozilla } er tækni sem berst fyrir friðhelgi þinni á netinu.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -381,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     til að halda upplýsingum þínum öruggum ættirðu að breyta lykilorðinu þínu fyrir { -product-firefox-account }
     í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá
     framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarska.
+cs-disconnect-lost-advice-content-3 = Þar sem tækið þitt týndist eða því var stolið, til að halda upplýsingum þínum öruggum, ættirðu að breyta lykilorðinu þínu fyrir { -product-mozilla-account } í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarlægð.
 cs-disconnect-suspicious-advice-heading = Grunsamlegt tæki aftengt
 cs-disconnect-suspicious-advice-content =
     Ef ótengda tækið er örugglega
     grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-firefox-account }
     lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
     lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
+cs-disconnect-suspicious-advice-content-2 = Ef ótengda tækið er örugglega grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-mozilla-account } lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
 
 ##
@@ -396,15 +401,20 @@ cs-sign-out-button = Útskráning
 
 dc-heading = Gagnasöfnun og upplýsingar um notkun
 dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
+dc-subheader-2 = Hjálpaðu til við að bæta { -product-mozilla-accounts }
 dc-subheader-content = Leyfa { -product-firefox-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
+dc-subheader-content-2 = Leyfa { -product-mozilla-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
 dc-opt-out-success = Tókst að afþakka. { -product-firefox-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
+dc-opt-out-success-2 = Tókst að afþakka. { -product-mozilla-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
 dc-opt-in-success = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-firefox-accounts }.
+dc-opt-in-success-2 = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun
 dc-learn-more = Frekari upplýsingar
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } valmynd
+drop-down-menu-title-2 = { -product-mozilla-account }-valmynd
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -486,13 +496,14 @@ flow-recovery-key-info-cta-text-v3 = Hefjast handa
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Hætta við
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Loka valmynd
 header-menu-closed = Valmynd vefleiðsögu
 header-back-to-top-link =
     .title = Til baka efst
 header-title = Firefox-reikningur
+header-title-2 = { -product-mozilla-account }
 header-help = Hjálp
 
 ## Linked Accounts section
@@ -617,7 +628,9 @@ delete-account-header =
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
 delete-account-confirm-title-3 = Þú gætir hafa tengt { -product-firefox-account } við eina eða fleiri { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
+delete-account-confirm-title-4 = Þú gætir hafa tengt { -product-mozilla-account } við eina eða fleiri { -brand-mozilla }-þjónustur sem tryggja öryggi þitt og afköst á vefnum:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -939,10 +952,16 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Með því að halda áfram, samþykkir þú:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Með því að halda áfram, samþykkir þú:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Þjónustuskilmálar</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefna</pocketPrivacy> { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Þjónustuskilmála</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefnu</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Þjónustuskilmálar</firefoxTos> { -brand-firefox } og <firefoxPrivacy>persónuverndarstefna</firefoxPrivacy>.
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Þjónustuskilmálar</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefna</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Með því að halda áfram samþykkir þú <firefoxTos>þjónustuskilmála</firefoxTos> og <firefoxPrivacy>persónuverndarstefnuna</firefoxPrivacy>.
 

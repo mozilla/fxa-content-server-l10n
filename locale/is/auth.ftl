@@ -637,13 +637,19 @@ verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-mozilla-account }-reikningi:
 verifySecondaryCode-prompt-2 = Notaðu þennan staðfestingarkóða:
 verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Staðfestu reikninginn þinn
 verifyShortCode-title-2 = Opnaðu internetið með { -brand-firefox }
+verifyShortCode-title-3 = Opnaðu internetið með { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verifyShortCode-prompt-3 = Notaðu þennan staðfestingarkóða:
 verifyShortCode-expiry-notice = Hann rennur út eftir 5 mínútur.
