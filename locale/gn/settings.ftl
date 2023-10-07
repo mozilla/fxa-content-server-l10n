@@ -1384,6 +1384,10 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Emoinge ayvu ñemoneĩrã<span> ne { -product-mozilla-account }</span> peg̃uarã
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 signin-token-code-input-label-v2 = Emoinge ayvu 6 taíva
@@ -1435,6 +1439,10 @@ confirm-signup-code-page-title = Emoinge ayvu jehechajeyrã
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Emoinge ayvu ñemoneĩrã<span> ne { -product-firefox-account }</span> peg̃uarã
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Emoinge ayvu ñemoneĩrã <span>ne { -product-mozilla-account }</span> peg̃uarã
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 confirm-signup-code-input-label = Emoinge ayvu 6 taíva
