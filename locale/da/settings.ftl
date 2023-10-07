@@ -1012,6 +1012,7 @@ auth-error-1011 = Gyldig mailadresse påkrævet
 
 cannot-create-account-header = Kan ikke oprette en konto
 cannot-create-account-requirements = Du skal opfylde visse alderskriterier for at oprette en { -product-firefox-account }.
+cannot-create-account-requirements-2 = Du skal opfylde visse alderskriterier for at oprette en { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Læs mere
 
@@ -1047,6 +1048,7 @@ connect-another-device-ios-complete-setup-message = Log ind på { -brand-firefox
 
 cookies-disabled-header = Lokalt lager og cookies er påkrævet
 cookies-disabled-enable-prompt = Du skal aktivere cookies og lokalt lager i din browser for at tilgå { -product-firefox-accounts }. Dette vil aktivere funktioner som fx at huske dig mellem sessioner.
+cookies-disabled-enable-prompt-2 = Du skal aktivere cookies og lokalt lager i din browser for at tilgå din { -product-mozilla-account }. Dette vil aktivere funktioner som fx at huske dig mellem sessioner.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prøv igen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1122,11 +1124,11 @@ legal-header = Juridisk
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Tjenestevilkår
 # Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Privatlivspolitik
+legal-privacy-link = Privatlivserklæring
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
-legal-privacy-heading = Privatlivspolitik
+legal-privacy-heading = Privatlivserklæring
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
@@ -1247,6 +1249,7 @@ account-recovery-confirm-key-heading-w-default-service = Nulstil adgangskode med
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nulstil adgangskode med genoprettelsesnøgle til kontoen <span>for at fortsætte til { $serviceName }</span>
 account-recovery-confirm-key-instructions = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-firefox-account } igen.
+account-recovery-confirm-key-instructions-2 = Indtast engangs-genoprettelsesnøglen til kontoen, du gemte et sikkert sted, for at få adgang til din { -product-mozilla-account } igen.
 account-recovery-confirm-key-warning-message = <span>BEMÆRK:</span> Hvis du nulstiller din adgangskode, og ikke har gemt din genoprettelsesnøgle til kontoen, vil nogle af dine data blive slettet (herunder synkroniserede server-data som fx historik og bogmærker).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1327,6 +1330,8 @@ confirm-signin-message = Tjek din mail for det login-bekræfteleslink, der er se
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Indtast adgangskoden <span>til din { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Indtast adgangskoden <span>til din { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Fortsæt til <span>{ $serviceLogo }</span>
@@ -1383,6 +1388,10 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Indtast bekræftelseskode<span> til din { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
 signin-token-code-input-label-v2 = Indtast 6-cifret kode
@@ -1434,6 +1443,10 @@ confirm-signup-code-page-title = Indtast bekræftelseskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Indtast bekræftelseskode <span>til din { -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Indtast bekræftelseskoden <span>til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
 confirm-signup-code-input-label = Indtast 6-cifret kode
