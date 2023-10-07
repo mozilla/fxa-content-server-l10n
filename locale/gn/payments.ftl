@@ -89,7 +89,7 @@ payment-confirmation-thanks-heading = ¡Aguyje!
 payment-confirmation-thanks-heading-account-exists = ¡Aguyje, ko’ág̃a ehecha ne ñanduti veve!
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
-payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ rehegua { $email }-pe oje’ehápe mba’éichapa ojepurúta { $product_name }.
+payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ rehegua { $email }-pe oje’ehápe mba’éichapa ojeporúta { $product_name }.
 # $email (string) - The user's email.
 payment-confirmation-thanks-subheading-account-exists = Og̃uahẽta ndéve ñandutiveve { $email } rupive embohekokuaahápe ne mba’ete, avei mba’eichaitépa ehepyme’ẽta.
 payment-confirmation-order-heading = Mba’emimi jerurepyre

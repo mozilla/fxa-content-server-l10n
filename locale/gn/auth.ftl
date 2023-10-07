@@ -282,8 +282,8 @@ passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai
 passwordChangeRequired-suspicious-activity-2 = Rohecha jeku’e ikatúva oñembyai nde { -product-mozilla-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-mozilla-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
 passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-sign-in-2 = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-mozilla-account } ha tereho pe tape ehechátavape.
-passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
-passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
+passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
+passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
@@ -492,7 +492,7 @@ subscriptionPaymentExpired-subject-1 = Nde kuatia’atã ñemurã { $productName
 subscriptionPaymentExpired-title-1 = Nde kuatia’atã ñemurã ndoikói térã ndoikovéitama
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikói térã ndoikovéitama.
+subscriptionPaymentExpired-content-1 = Pe kuatia’atã ñemurã eiporúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikói térã ndoikovéitama.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Jejavy ehepyme’ẽkuévo { $productName }
@@ -538,7 +538,7 @@ subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 subscriptionRenewalReminder-content-signature = { $productName } atyguáva
 subscriptionsPaymentExpired-subject-1 = Nde kuatia’atã ñemurã ne ñemboheraguapýpe g̃uarã ndoikói térã ndokovéitama
 subscriptionsPaymentExpired-title-1 = Nde kuatia’atã ñemurã ndoikói térã ndoikovéitama.
-subscriptionsPaymentExpired-content-1 = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ne ñemboheraguapy tenondevegua ndoikói térã ndoikovéitama.
+subscriptionsPaymentExpired-content-1 = Pe kuatia’atã ñemurã eiporúva ehepyme’ẽ hag̃ua ne ñemboheraguapy tenondevegua ndoikói térã ndoikovéitama.
 subscriptionsPaymentProviderCancelled-subject = Marandu tepyme’ẽgua rekopyahu oikotevẽva { -brand-mozilla } mboheraguapýpe g̃uarã.
 subscriptionsPaymentProviderCancelled-title = Rombyasy, roguereko apañuãi ne ñehepyme’ẽ rekópe
 subscriptionsPaymentProviderCancelled-content-detected = Rohechakuaa peteĩ apañuãi ne ñehepyme’ẽ reko rehegua mboheraguapy tenondeve g̃uarãva.

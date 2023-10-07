@@ -29,7 +29,7 @@ brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla
 brand-prelaunch-subtitle = Emoñepyrũta gueteri tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eipurúva ndive, ha naiñambuéi apopyre eipurúva.
+brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporúva ndive, ha naiñambuéi apopyre eiporúva.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Kuaave
 # Alt text for close banner image
@@ -338,7 +338,7 @@ connect-another-app-store-image-2 =
 ## Connected services section
 
 cs-heading = Mba’eporu mbojuajupyre
-cs-description = Eipurúva guive ha emoñepyrũhápe tembiapo.
+cs-description = Eiporúva guive ha emoñepyrũhápe tembiapo.
 cs-cannot-refresh =
     Rombyasy, oĩ apañuãi hekopyahúvo mba’epytyvõrã rysýi
     juajupyre.
@@ -777,7 +777,7 @@ tfa-cannot-verify-code-4 = Oiko peteĩ apañuãi emoneĩnguévo nde ayvu ñemone
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
-    Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
+    Emoha’ãnga QR ayvu eiporúvo <linkExternal>peteĩva
     ñemoneĩrã rembiporu’i</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1259,7 +1259,7 @@ account-recovery-lost-recovery-key-link = ¿Ndereguerekói mba’eñemi jegueruj
 
 # Header for form to create new password
 create-new-password-header = Emoheñói ñe’ẽñemi pyahu
-account-restored-success-message = Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
+account-restored-success-message = Eruporãjey ne mba’ete eiporúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape.
 # Feedback displayed in alert bar when password reset is successful
 account-recovery-reset-password-success-alert = Ñe’ẽñemi moĩmbyre
 # An error case was hit that we cannot account for.

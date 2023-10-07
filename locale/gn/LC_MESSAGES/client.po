@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-07 13:44+0000\n"
+"PO-Revision-Date: 2023-10-07 15:20+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -965,7 +965,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Eruporãjey ne mba’ete eipurúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape."
+msgstr "Eruporãjey ne mba’ete eiporúvo mba’eñemi jeguerujeyrã mba’ete. Emoheñói ñe’ẽñemi pyahu emohekorosã hag̃ua ne mba’ekuaarã ha eñongatu tenda hekorosãvape."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1700,7 +1700,7 @@ msgstr "eku’ejey %(serviceName)s ndive"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Rohecha jeiko ivaikuaáva nde Firefox mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojepurúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’eporu nde Firefox mba’ete pegua."
+msgstr "Rohecha jeiko ivaikuaáva nde Firefox mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojeporúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’eporu nde Firefox mba’ete pegua."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1721,7 +1721,7 @@ msgstr "Emoambue ñe’ẽñemi"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "Rohecha jeiko ivaikuaáva ne Mozilla mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojepurúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’epuru nde Mozilla mba’ete pegua."
+msgstr "Rohecha jeiko ivaikuaáva ne Mozilla mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojeporúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’epuru nde Mozilla mba’ete pegua."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
