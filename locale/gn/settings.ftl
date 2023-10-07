@@ -959,10 +959,16 @@ terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
 terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’epururã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") }Mba’epururã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu ñemigua</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1004,6 +1010,7 @@ auth-error-1011 = Eikotevẽ ñanduti veve oikóva
 
 cannot-create-account-header = Ndaikatúi emoheñói mba’ete
 cannot-create-account-requirements = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-firefox-account }.
+cannot-create-account-requirements-2 = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Kuaave
 
@@ -1319,6 +1326,8 @@ confirm-signin-message = Eheka jeikeha juajuha ñemoneĩrãva mondopyre { $email
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Ehai ñe’ẽñemi <span>ne { -product-firefox-account }</span> peg̃uarã
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Ehai ñe’ẽñemi <span>ne { -product-mozilla-account }</span> peg̃uarã
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span>
