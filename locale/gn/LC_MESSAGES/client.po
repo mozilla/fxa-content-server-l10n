@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-04 11:09+0000\n"
+"PO-Revision-Date: 2023-10-07 13:41+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1185,7 +1185,7 @@ msgstr "Eikejey Mozilla mba’ete ndive"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Mozilla mba’ete ombojurujakuaa heta apopyrépe jeike Mozilla ñemigua omo’ãvape."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1456,7 +1456,7 @@ msgstr "Emoinge ayvu jehechajeyrã oñemondóva %(email)s 5 aravo’i oútavape.
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Emoinge ayvu ñemoneĩrã <span class=\"card-subheader\">Mozilla mba’etépe g̃uarã</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
