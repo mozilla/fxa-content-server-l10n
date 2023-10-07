@@ -964,6 +964,8 @@ terms-privacy-agreement-firefox = <firefoxTos>Þjónustuskilmálar</firefoxTos> 
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Þjónustuskilmálar</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefna</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Með því að halda áfram samþykkir þú <firefoxTos>þjónustuskilmála</firefoxTos> og <firefoxPrivacy>persónuverndarstefnuna</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Með því að halda áfram samþykkir þú <mozillaAccountsTos>þjónustuskilmála</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefnuna</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1005,6 +1007,7 @@ auth-error-1011 = Krafist er gilds tölvupóstfangs
 
 cannot-create-account-header = Get ekki stofnað notandareikning
 cannot-create-account-requirements = Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað { -product-firefox-account }-reikning.
+cannot-create-account-requirements-2 = Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað { -product-mozilla-account }-reikning.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Frekari upplýsingar
 
@@ -1040,6 +1043,7 @@ connect-another-device-ios-complete-setup-message = Skráðu þig inn í { -bran
 
 cookies-disabled-header = Heimild fyrir staðvært geymslurými og vefkökur eru nauðsynleg
 cookies-disabled-enable-prompt = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-firefox-accounts }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
+cookies-disabled-enable-prompt-2 = Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að { -product-mozilla-account }-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Reyna aftur
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1240,6 +1244,7 @@ account-recovery-confirm-key-heading-w-default-service = Endurstilltu aðgangsor
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Endurstilltu aðgangsorðið með endurheimtarlykli reikningsins <span>til að halda áfram í { $serviceName }</span>
 account-recovery-confirm-key-instructions = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-firefox-account }.
+account-recovery-confirm-key-instructions-2 = Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Athugaðu:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á netþjóni á borð við vafurferil og bókamerki).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1320,6 +1325,8 @@ confirm-signin-message = Skoðaðu í tölvupóstinum þínum hvort tengillinn h
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Sláðu inn lykilorðið þitt <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Sláðu inn lykilorðið þitt <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
@@ -1376,6 +1383,10 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn </span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Settu inn staðfestingarkóða <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
 signin-token-code-input-label-v2 = Settu inn 6-stafa kóða
@@ -1427,6 +1438,10 @@ confirm-signup-code-page-title = Settu inn staðfestingarkóða
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Settu inn staðfestingarkóða <span>fyrir { -product-firefox-account }-reikninginn þinn</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Settu inn staðfestingarkóða <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
 confirm-signup-code-input-label = Settu inn 6-stafa kóða
