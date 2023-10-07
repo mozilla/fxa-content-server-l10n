@@ -219,6 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Það þarf tvennt til að samstilla
 cadReminderFirst-description-1 = Taktu með þér flipana á öllum tækjunum þínum. Hafðu bókamerkin þín, lykilorð og önnur gögn hvar sem þú notar { -brand-firefox }. { -brand-firefox } reikningurinn þinn getur gert galdra!
+cadReminderFirst-description-v2 = Taktu flipana með þér yfir á öll tækin þín. Fáðu bókamerkin þín, lykilorð og önnur gögn hvert sem þú notar { -brand-firefox }.
 cadReminderSecond-subject-2 = Ekki missa af! Ljúkum við uppsetningu samstillingar hjá þér
 cadReminderSecond-action = Samstilla annað tæki
 cadReminderSecond-title-2 = Ekki gleyma að samstilla!
@@ -354,6 +355,9 @@ postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-mozilla-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
 postRemoveSecondary-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-subject-line-2 = Slökkt er á tveggja-þrepa auðkenningu
 postRemoveTwoStepAuthentication-title-2 = Þú slökktir á tveggja-þrepa auðkenningu
@@ -366,6 +370,7 @@ postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
 postVerify-description-2 = Það er einfalt! Settu bara { -brand-firefox } upp á öðru tæki og skráðu þig inn til að samstilla. Það virkar eins og galdrar!
 postVerify-sub-description = (Psst… Það þýðir líka að þú getur náð í bókamerkin þín, lykilorð og önnur { -brand-firefox } gögn hvar sem þú ert skráð/ur inn.)
 postVerify-subject-3 = Velkomin í { -brand-firefox }!
+postVerify-subject-4 = Velkomin í { -brand-mozilla }!
 postVerify-setup-2 = Tengja annað tæki:
 postVerify-action-2 = Tengja annað tæki
 postVerifySecondary-subject = Aukapóstfangi bætt við
@@ -373,12 +378,18 @@ postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-mozilla-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
 recovery-title-2 = Gleymt lykilorð?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Við fengum beiðni um breytingu á lykilorði á { -product-firefox-account }-reikningnum þínum frá:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
 recovery-new-password-button = Búðu til nýtt lykilorð með því að smella á hnappinn hér fyrir neðan. Þessi tengill mun renna út innan klukkustundar.
 recovery-copy-paste = Búðu til nýtt lykilorð með því að afrita og líma slóðina hér að neðan í vafrann þinn. Þessi tengill mun renna út innan klukkustundar.
 recovery-action = Búa til nýtt lykilorð
@@ -391,6 +402,11 @@ subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Þú eyddir { -product-firefox-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Þú eyddir { -product-mozilla-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu lykilorðið þitt.
@@ -399,16 +415,20 @@ subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu l
 subscriptionAccountFinishSetup-title = Velkomin í { $productName }
 subscriptionAccountFinishSetup-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni. Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 subscriptionAccountFinishSetup-content-create-2 = Næst muntu búa til { -product-firefox-account } lykilorð til að geta byrjað að nota nýju áskriftina þína.
+subscriptionAccountFinishSetup-content-create-3 = Næst muntu búa til { -product-mozilla-account }-lykilorð til að geta byrjað að nota nýju áskriftina þína.
 subscriptionAccountFinishSetup-action-2 = Komast í gang
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
 subscriptionAccountReminderFirst-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderFirst-content-info-3 = Fyrir nokkrum dögum síðan bjóstu til { -product-mozilla-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderFirst-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderFirst-action = Búa til lykilorð
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lokaáminning: Settu upp reikninginn þinn
 subscriptionAccountReminderSecond-title = Velkomin í { -brand-firefox }!
+subscriptionAccountReminderSecond-title-2 = Velkomin í { -brand-mozilla }!
 subscriptionAccountReminderSecond-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderSecond-content-info-3 = Fyrir nokkrum dögum síðan bjóstu til { -product-mozilla-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
 subscriptionAccountReminderSecond-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderSecond-action = Búa til lykilorð
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -562,23 +582,31 @@ unblockCode-report = Ef nei, hjálpaðu okkur að verjast boðflennum með því
 unblockCode-report-plaintext = Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta.
 verificationReminderFinal-subject = Lokaáminning um að staðfesta reikninginn þinn
 verificationReminderFinal-description = Fyrir nokkrum vikum síðan stofnaðir þú { -product-firefox-account } en staðfestir hann aldrei. Til að gæta öryggis þíns, munum við eyða reikningnum ef hann er ekki staðfestur innan 24 klukkustunda.
+verificationReminderFinal-description-2 = Fyrir nokkrum vikum síðan stofnaðir þú { -product-mozilla-account } en staðfestir hann aldrei. Til að gæta öryggis þíns, munum við eyða reikningnum ef hann er ekki staðfestur innan 24 klukkustunda.
 confirm-account = Staðfesta reikning
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mundu að staðfesta reikninginn þinn
 verificationReminderFirst-title-2 = Velkomin í { -brand-firefox }!
+verificationReminderFirst-title-3 = Velkomin í { -brand-mozilla }!
 verificationReminderFirst-description-2 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
+verificationReminderFirst-description-3 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
 verificationReminderFirst-sub-description-3 = Ekki missa af tækni sem setur þig og friðhelgi þína í fyrsta sæti.
 confirm-email-2 = Staðfesta reikning
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Staðfesta reikning
 verificationReminderSecond-subject-2 = Mundu að staðfesta reikninginn þinn
 verificationReminderSecond-title-2 = Ekki missa af { -brand-firefox }!
+verificationReminderSecond-title-3 = Ekki missa af { -brand-mozilla }!
 verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
+verificationReminderSecond-description-4 = Fyrir nokkrum dögum bjóstu til { -product-mozilla-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
 verificationReminderSecond-second-description = { -product-firefox-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
+verificationReminderSecond-second-description-2 = { -product-mozilla-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Vertu hluti af verkefni okkar að breyta internetinu í stað sem er opinn fyrir alla.
 verificationReminderSecond-action-2 = Staðfesta reikning
 verify-title-2 = Opnaðu internetið með { -brand-firefox }
+verify-title-3 = Opnaðu internetið með { -brand-mozilla }
 verify-description = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
+verify-description-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-subject = Ljúktu við að búa til reikninginn þinn
 verify-action-2 = Staðfesta reikning
 # Variables:
