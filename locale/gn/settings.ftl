@@ -310,6 +310,7 @@ avatar-default-avatar =
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-title-2 = Bento Poravorã { -brand-mozilla } mba’e
 bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
+bento-menu-mozilla-title = { -brand-mozilla } rembipurupyahu oñeha’ã nde rekoñemíre ñandutípe.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -402,7 +403,9 @@ dc-subheader-2 = Eipytyvõ oiko porãvévo { -product-mozilla-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
+dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
+dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
 dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuãi emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
 dc-learn-more = Kuaave
 
@@ -952,6 +955,8 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Eku’ejeývo, emoneĩ:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
