@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-09-29 11:25+0000\n"
-"Last-Translator: Joergen <joradan0@gmail.com>\n"
+"PO-Revision-Date: 2023-10-06 17:23+0000\n"
+"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -1076,7 +1076,7 @@ msgstr "Send en ny kode."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\" id=\"subheader\"> til din Mozila-konto</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1458,7 +1458,7 @@ msgstr "Indtast koden, der blev sendt til %(email)s, indenfor 5 minutter."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\">til din Mozilla-konto</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
