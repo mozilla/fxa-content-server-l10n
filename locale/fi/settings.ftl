@@ -308,6 +308,7 @@ avatar-default-avatar =
 
 bento-menu-title = { -brand-firefox }-valikko
 bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
+bento-menu-mozilla-title = { -brand-mozilla } on teknologiaa, joka taistelee yksityisyytesi puolesta.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -626,6 +627,7 @@ delete-account-header =
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
 delete-account-confirm-title-3 = Saatat olla yhdistänyt { -product-firefox-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
+delete-account-confirm-title-4 = Saatat olla yhdistänyt { -product-mozilla-account }si ainakin yhteen { -brand-mozilla }n tuotteeseen tai palveluun, joka pitää sinut verkossa turvassa ja tuotteliaana:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -1038,6 +1040,7 @@ connect-another-device-ios-complete-setup-message = Kirjaudu { -brand-firefox }i
 
 cookies-disabled-header = Paikallinen tallennustila ja evästeet vaaditaan
 cookies-disabled-enable-prompt = Ota evästeet ja paikallinen tallennustila käyttöön selaimessasi käyttääksesi { -product-firefox-accounts } -palvelua. Tämä mahdollistaa toiminnot, joiden ansiosta sinut esimerkiksi muistetaan istuntojen välillä.
+cookies-disabled-enable-prompt-2 = Ota evästeet ja paikallinen tallennustila käyttöön selaimessasi käyttääksesi { -product-mozilla-account }-palvelua. Tämä mahdollistaa toiminnot, joiden ansiosta sinut esimerkiksi muistetaan istuntojen välillä.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Yritä uudelleen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1238,6 +1241,7 @@ account-recovery-confirm-key-heading-w-default-service = Nollaa salasana tilin p
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Nollaa salasana tilin palautusavaimella <span>jatkaaksesi palveluun { $serviceName }</span>
 account-recovery-confirm-key-instructions = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-firefox-account }äsi.
+account-recovery-confirm-key-instructions-2 = Kirjoita turvalliseen paikkaan tallettamasi kertakäyttöinen tilin palautusavain, jotta pääset jälleen käyttämään { -product-mozilla-account }äsi.
 account-recovery-confirm-key-warning-message = <span>Huomaa:</span> Jos nollaat salasanasi etkä ole tallentanut tilin palautusavainta, osa tiedoistasi poistetaan (mukaan lukien palvelimelle synkronoidut tiedot, kuten historia ja kirjanmerkit).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1317,6 +1321,8 @@ confirm-signin-message = Katso osoitteeseen { $email } lähetetty kirjautumisen 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Syötä <span>{ -product-firefox-account }si</span> salasana
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Anna <span>{ -product-mozilla-account }si</span> salasana
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
@@ -1373,6 +1379,10 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Anna vahvistuskoodi<span> { -product-firefox-account }llesi</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-account }llesi</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Syötä osoitteeseen { $email } lähetetty vahvistuskoodi viiden minuutin kuluessa.
 signin-token-code-input-label-v2 = Kirjoita 6-numeroinen koodi
@@ -1424,6 +1434,10 @@ confirm-signup-code-page-title = Kirjoita vahvistuskoodi
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Syötä <span>{ -product-firefox-account }si</span> vahvistuskoodi
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-account }llesi</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Syötä osoitteeseen { $email } lähetetty vahvistuskoodi viiden minuutin kuluessa.
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
