@@ -389,6 +389,7 @@ cs-disconnect-suspicious-advice-content =
     подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-firefox-account(case: "genitive") }
     в настройках. Вам также следует сменить любые другие
     пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
+cs-disconnect-suspicious-advice-content-2 = Если отсоединённое устройство действительно подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-mozilla-account } в настройках. Вам также следует сменить любые другие пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
 
 ##
@@ -398,15 +399,20 @@ cs-sign-out-button = Выйти
 
 dc-heading = Сбор и использование данных
 dc-subheader = Помогите улучшить { -product-firefox-accounts(case: "nominative") }
+dc-subheader-2 = Помогите улучшить { -product-mozilla-accounts }
 dc-subheader-content = Разрешить { -product-firefox-accounts(case: "dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-subheader-content-2 = Разрешить { -product-mozilla-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "nominative") } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "nominative") }.
+dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Меню { -product-firefox-account(case: "genitive") }
+drop-down-menu-title-2 = Меню { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -495,6 +501,7 @@ header-menu-closed = Меню навигации по сайту
 header-back-to-top-link =
     .title = Наверх
 header-title = Аккаунт Firefox
+header-title-2 = { -product-mozilla-account }
 header-help = Помощь
 
 ## Linked Accounts section
@@ -622,7 +629,9 @@ delete-account-header =
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
 delete-account-confirm-title-3 = Возможно, вы подключили свои { -product-firefox-account(case: "nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
+delete-account-confirm-title-4 = Возможно, вы подключили свои { -product-mozilla-account } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -945,12 +954,20 @@ tfa-row-change-modal-explain = Вы не сможете отменить это 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Продолжая, вы принимаете:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Продолжая, вы соглашаетесь с:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Условия использования</pocketTos> и <pocketPrivacy>Уведомление о конфиденциальности</pocketPrivacy> { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Условия использования</pocketTos> и <pocketPrivacy>Уведомление о конфиденциальности</pocketPrivacy> { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Условия использования</firefoxTos> и <firefoxPrivacy>Уведомление о конфиденциальности</firefoxPrivacy> { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Продолжая, вы принимате <firefoxTos>Условия использования</firefoxTos> и <firefoxPrivacy>Уведомление о конфиденциальности</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Продолжая, вы соглашаетесь с <mozillaAccountsTos>Условиями обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомлением о конфиденциальности</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -992,6 +1009,7 @@ auth-error-1011 = Введите действующий адрес электр�
 
 cannot-create-account-header = Не удалось создать аккаунт
 cannot-create-account-requirements = Для создания { -product-firefox-account(case: "genitive") } вы должны удовлетворять определённым возрастным требованиям.
+cannot-create-account-requirements-2 = Для создания { -product-mozilla-account } вы должны удовлетворять определённым возрастным требованиям.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Подробнее
 
@@ -1027,6 +1045,7 @@ connect-another-device-ios-complete-setup-message = Войдите в { -brand-f
 
 cookies-disabled-header = Требуется локальное хранилище и куки
 cookies-disabled-enable-prompt = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-firefox-accounts(case: "dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
+cookies-disabled-enable-prompt-2 = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-mozilla-account }. Если вы включите их, браузер сможет запоминать ваши сессии.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Попробовать снова
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1227,6 +1246,7 @@ account-recovery-confirm-key-heading-w-default-service = Сбросьте пар
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Сбросьте пароль с помощью ключа восстановления аккаунта, <span>чтобы перейти к { $serviceName }</span>
 account-recovery-confirm-key-instructions = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своим { -product-firefox-account(case: "dative") }
+account-recovery-confirm-key-instructions-2 = Пожалуйста, введите одноразовый ключ восстановления аккаунта, который вы сохранили в безопасном месте, чтобы восстановить доступ к своим { -product-mozilla-account }.
 account-recovery-confirm-key-warning-message = <span>Примечание:</span> Если вы сбросите пароль и у вас не сохранился ваш ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, такие как история и закладки).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1307,6 +1327,8 @@ confirm-signin-message = Проверьте свой почтовый ящик �
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = Введите пароль <span> для вашего { -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Перейти к <span>{ $serviceLogo }</span>
@@ -1363,6 +1385,10 @@ signin-reported-message = Наша команда оповещена. Ваши �
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = Введите код подтверждения<span> для вашего { -product-firefox-account(case: "genitive") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 signin-token-code-input-label-v2 = Введите код из 6 цифр
@@ -1414,6 +1440,10 @@ confirm-signup-code-page-title = Введите код подтверждени�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = Введите код подтверждения <span>для вашего { -product-firefox-account(case: "genitive") }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 confirm-signup-code-input-label = Введите код из 6 цифр
