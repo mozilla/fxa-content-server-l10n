@@ -171,6 +171,7 @@ form-verify-code-default-error = 此欄位必填
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
+get-data-trio-title-backup-verification-codes = 備用驗證碼
 get-data-trio-download-2 =
     .title = 下載
     .aria-label = 下載
@@ -307,6 +308,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 產品選單
+bento-menu-title-2 = { -brand-mozilla } 便當選單
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
@@ -382,6 +384,7 @@ cs-sign-out-button = 登出
 
 dc-heading = 資料收集與使用
 dc-subheader = 幫助我們改善 { -product-firefox-accounts }
+dc-subheader-2 = 幫助我們改善 { -product-mozilla-accounts }
 dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
 dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
@@ -391,6 +394,7 @@ dc-learn-more = 了解更多
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } 選單
+drop-down-menu-title-2 = { -product-mozilla-account } 選單
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -472,13 +476,14 @@ flow-recovery-key-info-cta-text-v3 = 開始使用
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = 取消
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = 關閉選單
 header-menu-closed = 網站導航選單
 header-back-to-top-link =
     .title = 回到頁面頂端
 header-title = Firefox 帳號
+header-title-2 = { -product-mozilla-account }
 header-help = 說明
 
 ## Linked Accounts section
@@ -604,6 +609,7 @@ delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
 delete-account-confirm-title-3 = 您可能曾經將 { -product-firefox-account } 連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -907,12 +913,20 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = 使用本服務，代表您同意：
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } 的<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = 使用本服務，代表您同意<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = 使用本服務，代表您同意：<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -954,6 +968,7 @@ auth-error-1011 = 請輸入有效的電子郵件信箱
 
 cannot-create-account-header = 無法註冊帳號
 cannot-create-account-requirements = 您需要符合年齡需求才能註冊 { -product-firefox-account }。
+cannot-create-account-requirements-2 = 您需要符合年齡需求才能註冊 { -product-mozilla-account }。
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = 了解更多
 

@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = 有要登入 { -product-firefox-accounts } 嗎？
+session-verify-send-push-title-2 = 要登入您的 { -product-mozilla-account } 嗎？
 session-verify-send-push-body-2 = 請點擊此處確認是您
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = 請點擊此處確認是您
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 圖樣">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
 body-devices-image = <img data-l10n-name="devices-image" alt="裝置">
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
+moz-accounts-privacy-url = { -product-mozilla-accounts(capitalization: "uppercase") } 隱私權保護政策
 fxa-service-url = { -product-firefox-cloud } 服務條款
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } 服務條款
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 圖樣">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 標誌">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 圖樣">
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-notice = 隱私權公告
@@ -199,7 +204,6 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 需要有兩台裝置才能同步
 cadReminderFirst-description-1 = 讓分頁在所有裝置間同步。隨時隨地在您使用的所有 { -brand-firefox } 之間同步書籤、密碼與其他資料，就像是讓您的 { -brand-firefox } 帳號擁有魔法一樣！
-cadReminderFirst-description-2 = 只需花幾秒鐘，即可進行同步
 cadReminderSecond-subject-2 = 別錯過！一起完成同步功能設定吧！
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title-2 = 別忘了同步功能！
@@ -239,8 +243,6 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -257,8 +259,6 @@ passwordChangeRequired-title = 需要更改密碼
 passwordChangeRequired-suspicious-activity = 我們偵測到您的 { -product-firefox-account } 有可疑行為。為了防止您的 { -product-firefox-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
 passwordChangeRequired-sign-in = 請到您會使用 { -product-firefox-account } 的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-different-password = <b>重要：</b>請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
-passwordChangeRequired-signoff = 順頌　時祺
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } 團隊
 passwordChangeRequired-different-password-plaintext = 重要：請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
@@ -377,6 +377,7 @@ subscriptionAccountReminderFirst-action = 設定密碼
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }：
 subscriptionAccountReminderSecond-subject = 這是最後一次提醒囉：註冊帳號
 subscriptionAccountReminderSecond-title = 歡迎使用 { -brand-firefox }！
+subscriptionAccountReminderSecond-title-2 = 歡迎來到 { -brand-mozilla }！
 subscriptionAccountReminderSecond-content-info-2 = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
 subscriptionAccountReminderSecond-content-select-2 = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderSecond-action = 設定密碼
@@ -516,7 +517,6 @@ subscriptionUpgrade-upgrade-info = 您已成功從 { $productNameOld } 升級到
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = 從下一期開始，我們就會從每 { $productPaymentCycleOld } 收費 { $paymentAmountOld } 調整為每 { $productPaymentCycleNew } 收費 { $paymentAmountNew }。屆時我們將向您一次收取剩餘期間 { $productPaymentCycleOld } 的差額 { $paymentProrated }，以反應較高的收費金額。
 subscriptionUpgrade-content-charge-info-different-cycle = 我們將向您一次收取差額 { $paymentProrated }，以反應剩餘期間 { $productPaymentCycleOld }，訂閱項目較高的收費金額。從下一期出帳開始，我們就會從每 { $productPaymentCycleOld } 收費 { $paymentAmountOld } 調整為每 { $productPaymentCycleNew } 收費 { $paymentAmountNew }。
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
@@ -536,6 +536,7 @@ confirm-account = 確認帳號
 confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 請記得要確認帳號
 verificationReminderFirst-title-2 = 歡迎使用 { -brand-firefox }！
+verificationReminderFirst-title-3 = 歡迎來到 { -brand-mozilla }！
 verificationReminderFirst-description-2 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 15 天內完成確認，否則帳號將被自動刪除。
 verificationReminderFirst-sub-description-3 = 別錯過將您與您的隱私視為最優先的瀏覽器。
 confirm-email-2 = 確認帳號
