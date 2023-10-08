@@ -64,6 +64,7 @@ brand-name-mozilla-logo = { -brand-mozilla } logosu
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
+new-user-sign-in-link-2 = Zaten  { -product-mozilla-account }nız var mı? <a>Giriş yapın</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -411,6 +412,7 @@ coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra l
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
+new-user-step-1-2 = 1. { -product-mozilla-account } oluşturun
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
 

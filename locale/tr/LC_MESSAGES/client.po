@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-05 22:30+0000\n"
+"PO-Revision-Date: 2023-10-08 12:32+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1074,7 +1074,7 @@ msgstr "E-posta ile yeni kod gönder."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla hesabınızın</span> onay kodunu girin"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1768,7 +1768,7 @@ msgstr "Parolayı onaylayın"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Mozilla hesabı aç"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
