@@ -380,6 +380,7 @@ cs-disconnect-sync-opt-not-say = Söylemek istemiyorum
 cs-disconnect-advice-confirm = Tamam, anladım
 cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı kesildi
 cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
+cs-disconnect-lost-advice-content-3 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-mozilla-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-disconnect-suspicious-advice-content-2 = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-mozilla-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
@@ -942,6 +943,8 @@ terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Kullanım Koşu
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos> ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Devam ederek <firefoxTos>Hizmet Koşulları</firefoxTos>’nı ve <firefoxPrivacy>Gizlilik Bildirimi</firefoxPrivacy>’ni kabul etmiş olursunuz.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos>’nı ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>’ni kabul etmiş olursunuz.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

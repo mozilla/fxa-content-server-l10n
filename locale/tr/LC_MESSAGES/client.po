@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-08 12:32+0000\n"
+"PO-Revision-Date: 2023-10-08 12:33+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1153,7 +1153,7 @@ msgstr "Parolanızı unuttunuz mu?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla hesabınızın</span> parolasını girin"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1456,7 +1456,7 @@ msgstr "%(email)s adresine gönderdiğimiz kodu 5 dakika içinde girin."
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">Mozilla hesabınızın</span> onay kodunu girin"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1724,6 +1724,8 @@ msgstr "Parolayı değiştir"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Mozilla hesabınızda şüpheli bir davranış tespit ettik. Hesabınızı korumak için lütfen yeni bir parola oluşturun. Tüm Mozilla hesap hizmetlerinize tekrar giriş yapmak için bu parolayı "
+"kullanacaksınız."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
