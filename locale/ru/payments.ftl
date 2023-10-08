@@ -59,10 +59,12 @@ input-error-is-required = { $label } обязательное
 ## Component - Header
 
 brand-name-firefox-logo = Логотип { -brand-name-firefox }
+brand-name-mozilla-logo = Логотип { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
+new-user-sign-in-link-2 = У вас уже есть { -product-mozilla-account }? <a>Войти</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -438,6 +440,7 @@ coupon-success-repeating = Ваш тарифный план будет авто�
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Создайте аккаунт { -brand-name-firefox }
+new-user-step-1-2 = 1. Создайте { -product-mozilla-account }
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
 
@@ -467,10 +470,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Проверьте свое изменение
 sub-change-failed = Не удалось изменить план
-sub-update-copy =
-    Ваш план сменится сразу, и с вас будет списана скорректированная
-    сумма за оставшуюся часть вашего платёжного цикла. Начиная с { $startingDate },
-    с вас будет сниматься полная сумма.
 sub-update-acknowledgment =
     Ваш план сменится сразу, и с вас будет списана сегодня пропорциональная
     сумма за оставшуюся часть вашего платёжного цикла. Начиная с { $startingDate },

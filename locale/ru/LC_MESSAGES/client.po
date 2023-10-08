@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-08 21:24+0000\n"
+"PO-Revision-Date: 2023-10-08 21:35+0000\n"
 "Last-Translator: Valery Ledovskoy <valery@ledovskoy.com>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -1156,7 +1156,7 @@ msgstr "Забыли пароль?"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Введите пароль <span class=\"card-subheader\" id=\"subheader\">для своего аккаунта Mozilla</span>"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1184,11 +1184,11 @@ msgstr "Аккаунт Firefox также открывает доступ к д�
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Перейдите в свой аккаунт Mozilla"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Аккаунт Mozilla также открывает доступ к другим продуктам Mozilla для защиты приватности."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1459,7 +1459,7 @@ msgstr "Введите код, отправленный на %(email)s, в те�
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Введите код подтверждения <span class=\"card-subheader\">своего аккаунта Mozilla</span>"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1599,7 +1599,7 @@ msgstr "Условия использования"
 
 #: .es5/templates/support.mustache:25
 msgid "Mozilla account"
-msgstr ""
+msgstr "Аккаунт Mozilla"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1728,6 +1728,7 @@ msgstr "Сменить пароль"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Мы обнаружили подозрительную активность в вашем аккаунте Mozilla. Чтобы защитить его, создайте новый пароль. Вы будете использовать этот пароль для входа во все службы своего аккаунта Mozilla."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
@@ -1772,7 +1773,7 @@ msgstr "Подтвердите пароль"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:12
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Создать аккаунт Mozilla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

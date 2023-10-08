@@ -171,6 +171,7 @@ form-verify-code-default-error = Это обязательное поле
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ восстановления аккаунта { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Резервные коды аутентификации { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Резервные коды аутентификации
 get-data-trio-download-2 =
     .title = Загрузить
     .aria-label = Загрузить
@@ -307,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Меню продуктов { -brand-firefox }
+bento-menu-title-2 = Меню { -brand-mozilla } Бенто
 bento-menu-firefox-title = { -brand-firefox } — технологии, которые борются за вашу приватность в Интернете.
+bento-menu-mozilla-title = { -brand-mozilla } — технологии, которые борются за вашу приватность в Интернете.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -379,6 +382,7 @@ cs-disconnect-lost-advice-content-2 =
     для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-firefox-account(case: "genitive") }
     в настройках. Вам также следует изучить информацию производителя 
     своего устройства об удалённом стирании своих данных.
+cs-disconnect-lost-advice-content-3 = Поскольку ваше устройство было утеряно или украдено, для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-mozilla-account } в настройках. Вам также следует изучить информацию производителя своего устройства об удалённом стирании своих данных.
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
 cs-disconnect-suspicious-advice-content =
     Если отсоединённое устройство действительно
@@ -484,7 +488,7 @@ flow-recovery-key-info-cta-text-v3 = Начать
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Отмена
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Закрыть меню
 header-menu-closed = Меню навигации по сайту
