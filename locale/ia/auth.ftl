@@ -238,8 +238,8 @@ fraudulentAccountDeletion-subject-2 = Tu { -product-mozilla-account } ha essite 
 fraudulentAccountDeletion-title = Tu conto ha essite delite
 fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-part1-v2 = Recentemente, un { -product-mozilla-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
-fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
-fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
+fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto ha essite un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
+fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto ha essite un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
 fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -581,15 +581,15 @@ unblockCode-prompt-plaintext = Si si, ecce le codice de autorisation que te beso
 unblockCode-report = Si non, adjuta nos a parar le intrusos e <a data-l10n-name="reportSignInLink">reporta lo a nos</a>.
 unblockCode-report-plaintext = Si non, adjuta nos a parar le intrusos e reporta lo a nos.
 verificationReminderFinal-subject = Memento final pro confirmar tu conto
-verificationReminderFinal-description = Un par de septimanas retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Pro tu securitate, nos delera le conto si non verificate in le proxime 24 horas.
+verificationReminderFinal-description = Qualque de septimanas retro tu ha create un { -product-firefox-account }, ma non lo ha jammais confirmate. Pro tu securitate, nos delera le conto si non es verificate in le proxime 24 horas.
 verificationReminderFinal-description-2 = Un par de septimanas retro tu ha create un { -product-mozilla-account }, ma jammais lo ha confirmate. Pro tu securitate, nos delera le conto si non verificate in le proxime 24 horas.
 confirm-account = Confirmar conto
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Rememora pro confirmar tu conto
 verificationReminderFirst-title-2 = Benvenite a { -brand-firefox }!
 verificationReminderFirst-title-3 = Benvenite a { -brand-mozilla }!
-verificationReminderFirst-description-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
-verificationReminderFirst-description-3 = Alcun dies retro tu creava un { -product-mozilla-account }, ma jammais lo confirmava. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
+verificationReminderFirst-description-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma non lo ha jammais confirmate . Confirma tu conto in le proxime 15 dies o illo essera automaticamente delite.
+verificationReminderFirst-description-3 = Alcun dies retro tu ha create un { -product-mozilla-account }, ma non lo ha jammais confirmate. Confirma tu conto in le proxime 15 dies o illo essera automaticamente delite.
 verificationReminderFirst-sub-description-3 = Non perde te le navigator que primo antepone te e tu confidentialitate.
 confirm-email-2 = Confirmar conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -597,8 +597,8 @@ verificationReminderFirst-action-2 = Confirmar conto
 verificationReminderSecond-subject-2 = Rememora de confirmar tu conto
 verificationReminderSecond-title-2 = Non te lassa escappar { -brand-firefox }!
 verificationReminderSecond-title-3 = Non te lassa escappar { -brand-mozilla }!
-verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 10 dies o illo sera automaticamente delite.
-verificationReminderSecond-description-4 = Alcun dies retro tu creava un { -product-mozilla-account }, ma jammais lo confirmava. Confirma tu conto in le proxime 10 dies o illo sera automaticamente delite.
+verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma non lo ha jammais confirmate . Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
+verificationReminderSecond-description-4 = Alcun dies retro tu creava un { -product-mozilla-account }, ma non lo ha jammais confirmate. Confirma tu conto in le proxime 10 dies o illo essera automaticamente delite.
 verificationReminderSecond-second-description = Tu { -product-firefox-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a plus productos de protection del confidentialitate de { -brand-mozilla }.
 verificationReminderSecond-second-description-2 = Tu { -product-mozilla-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Contribue a nostre mission pro transformar internet in un placia aperte pro totes.
