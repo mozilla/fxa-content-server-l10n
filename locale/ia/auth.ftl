@@ -81,7 +81,7 @@ another-device-2 = Installa { $productName } sur <a data-l10n-name="anotherDevic
 android-download-plaintext = Obtene { $productName } sur Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-ios-download-plaintext = Discarga { $productName } super le App Store:
+ios-download-plaintext = Discarga { $productName } sur le App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installa { $productName } sur un altere apparato:
@@ -239,7 +239,7 @@ fraudulentAccountDeletion-title = Tu conto ha essite delite
 fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-part1-v2 = Recentemente, un { -product-mozilla-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto ha essite un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
-fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto ha essite un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
+fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto es un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
 fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
