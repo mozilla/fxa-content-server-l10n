@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-08 12:07+0000\n"
+"PO-Revision-Date: 2023-10-09 15:29+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -927,7 +927,7 @@ msgstr "沒有帳號救援金鑰嗎？"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:12
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "請輸入您先前產生的單次使用帳號救援金鑰，以取回 Mozilla 帳號的使用權限。"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -1070,7 +1070,7 @@ msgstr "重寄新驗證碼。"
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "請輸入<span class=\"card-subheader\" id=\"subheader\">您 Mozilla 帳號</span>的確認碼"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1146,7 +1146,7 @@ msgstr "忘記密碼？"
 
 #: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "請輸入<span class=\"card-subheader\" id=\"subheader\">您 Mozilla 帳號</span>的密碼"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1174,11 +1174,11 @@ msgstr "註冊 Firefox 帳號，還能使用 Mozilla 更多與隱私保護相關
 
 #: .es5/templates/index.mustache:15
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "繼續前往 Mozilla 帳號"
 
 #: .es5/templates/index.mustache:16
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "註冊 Mozilla 帳號，即可使用 Mozilla 更多隱私保護相關產品。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1445,7 +1445,7 @@ msgstr "請於 5 分鐘內輸入寄送到 %(email)s 的驗證碼。"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "請輸入<span class=\"card-subheader\">您 Mozilla 帳號</span>的確認碼"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1708,7 +1708,7 @@ msgstr "修改密碼"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "我們偵測到您的 Mozilla 帳號有可疑的動作。為了保護您的帳號，請更改密碼。之後必須使用這組密碼重新登入所有 Mozilla 帳號相關服務。"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"

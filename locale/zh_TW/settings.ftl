@@ -310,6 +310,7 @@ avatar-default-avatar =
 bento-menu-title = { -brand-firefox } 產品選單
 bento-menu-title-2 = { -brand-mozilla } 便當選單
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
+bento-menu-mozilla-title = { -brand-mozilla } 是一間為您的線上隱私而戰的科技公司。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -373,8 +374,10 @@ cs-disconnect-sync-opt-not-say = 我不想說
 cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
 cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
+cs-disconnect-lost-advice-content-3 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
+cs-disconnect-suspicious-advice-content-2 = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
 
 ##
