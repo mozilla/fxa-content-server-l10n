@@ -85,12 +85,12 @@ ios-download-plaintext = Discarga { $productName } sur le App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installa { $productName } sur un altere apparato:
-automated-email-change-2 = Si tu non interprendeva iste action, <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a> immediatemente.
+automated-email-change-2 = Si non es tu qui prendeva iste action, <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a> immediatemente.
 automated-email-support = Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext-2 = Si tu non interprendeva iste action, cambia tu contrasigno immediatemente:
+automated-email-change-plaintext-2 = Si non es tu qui prendeva iste action, cambia tu contrasigno immediatemente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-support-plaintext = Pro altere informationes, visita { -brand-mozilla } Supporto:
+automated-email-support-plaintext = Pro plus informationes, visita le sito de supporto de { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
 automated-email-no-action-plaintext = Isto es un email automatisate. Si tu ha recipite illo per error, tu non besonia de facer alco.
@@ -239,7 +239,6 @@ fraudulentAccountDeletion-title = Tu conto ha essite delite
 fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-part1-v2 = Recentemente, un { -product-mozilla-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
 fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto ha essite un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
-fraudulentAccountDeletion-content-part2-v2 = Actualmente, nos vide que le conto non ha jammais essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto es un abonamento autorisate. In consequentia, le { -product-mozilla-account } registrate con iste adresse de e-mail ha essite delite e tu abonamento ha essite cancellate con reimbursamento de tote le costos.
 fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
