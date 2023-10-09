@@ -24,12 +24,12 @@ link-expired-resent-code-error-message = Si è verificato un problema. Impossibi
 brand-banner-dismiss-button =
     .aria-label = Chiudi
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Gli { -product-firefox-accounts } cambieranno nome in { -product-mozilla-accounts } dal 1° novembre
+brand-prelaunch-title = Gli { -product-firefox-accounts } cambieranno nome in { -product-mozilla-accounts } dal 1° novembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Accederai comunque con lo stesso nome utente e password e non ci saranno altre modifiche ai prodotti che utilizzi.
+brand-prelaunch-subtitle = Continuerai ad accedere con lo stesso nome utente e password e non ci saranno altre modifiche ai prodotti che utilizzi.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Abbiamo cambiato il nome degli { -product-firefox-accounts } in { -product-mozilla-accounts }. Accederai comunque con lo stesso nome utente e password e non ci saranno altre modifiche ai prodotti che utilizzi.
+brand-postlaunch-title = Abbiamo cambiato il nome degli { -product-firefox-accounts } in { -product-mozilla-accounts }. Continuerai ad accedere con lo stesso nome utente e password e non ci saranno altre modifiche ai prodotti che utilizzi.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Ulteriori informazioni
 # Alt text for close banner image
