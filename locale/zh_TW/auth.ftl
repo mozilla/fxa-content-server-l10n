@@ -29,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = 您會收到這封信，是因為 { $email } 註冊了 { -product-mozilla-account }，並且訂閱了 { $productName }。
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-mozilla-account }。
 subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了多套產品。
+subplat-explainer-multiple-2 = 您會收到這封信，是因為 { $email } 註冊了 { -product-mozilla-account }，並且訂閱了多套產品。
 subplat-explainer-was-deleted = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
+subplat-explainer-was-deleted-2 = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-mozilla-account }。
 subplat-manage-account = 可以到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account }設定。
+subplat-manage-account-2 = 到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-mozilla-account }設定。
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = 可到您的帳號頁面來管理 { -product-firefox-account } 設定：{ $accountSettingsUrl }
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = 可到您的帳號頁面來管理 { -product-mozilla-account }設定：{ $accountSettingsUrl }
 subplat-terms-policy = 條款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消訂閱
@@ -218,9 +231,12 @@ downloadSubscription-title = 歡迎使用 { $productName }。
 downloadSubscription-content-2 = 讓我們開始使用訂閱中包含的各種功能：
 downloadSubscription-link-action-2 = 開始使用
 fraudulentAccountDeletion-subject = 已刪除您的 { -product-firefox-account }
+fraudulentAccountDeletion-subject-2 = 已刪除您的 { -product-mozilla-account }
 fraudulentAccountDeletion-title = 已刪除您的帳號
 fraudulentAccountDeletion-content = 最近有人使用此電子郵件信箱註冊 { -product-firefox-account } 並付費訂閱。如我們對所有新帳號所要求的，需請您先確認此電子郵件地址。
+fraudulentAccountDeletion-content-part1-v2 = 最近有人使用此電子郵件信箱註冊 { -product-mozilla-account }並付費訂閱。如我們對所有新帳號所要求的，需請您先確認此電子郵件地址。
 fraudulentAccountDeletion-content-2 = 目前此帳號尚未經過確認，無法確認這是不是經過授權的訂閱行為。因此，已刪除使用此電子郵件信箱註冊的 { -product-firefox-account }，並將取消已訂閱的項目並完全退費。
+fraudulentAccountDeletion-content-part2-v2 = 目前此帳號尚未經過確認，無法確認這是不是經過授權的訂閱行為。因此，已刪除使用此電子郵件信箱註冊的 { -product-mozilla-account }，並將取消已訂閱的項目並完全退費。
 fraudulentAccountDeletion-contact = 若您有其他問題，請聯絡我們的<a data-l10n-name="mozillaSupportUrl">技術支援團隊</a>。
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -244,6 +260,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
 newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用於登入
+newDeviceLogin-title-3 = 您的 { -product-mozilla-account }已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您嗎？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
@@ -254,9 +271,11 @@ newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
 passwordChanged-description = 已從下列裝置成功更改您的 { -product-firefox-account } 密碼：
+passwordChanged-description-2 = 已從下列裝置成功更改您 { -product-mozilla-account }的密碼：
 passwordChangeRequired-subject = 偵測到可疑行為
 passwordChangeRequired-title = 需要更改密碼
 passwordChangeRequired-suspicious-activity = 我們偵測到您的 { -product-firefox-account } 有可疑行為。為了防止您的 { -product-firefox-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
+passwordChangeRequired-suspicious-activity-2 = 我們偵測到您的 { -product-mozilla-account }有可疑行為。為了防止您的 { -product-mozilla-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
 passwordChangeRequired-sign-in = 請到您會使用 { -product-firefox-account } 的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-different-password = <b>重要：</b>請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
 passwordChangeRequired-different-password-plaintext = 重要：請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
