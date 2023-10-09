@@ -389,8 +389,11 @@ dc-heading = 資料收集與使用
 dc-subheader = 幫助我們改善 { -product-firefox-accounts }
 dc-subheader-2 = 幫助我們改善 { -product-mozilla-accounts }
 dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
+dc-subheader-content-2 = 允許 { -product-mozilla-accounts }傳送技術與互動資料給 { -brand-mozilla }。
 dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
+dc-opt-out-success-2 = 成功退出。{ -product-mozilla-accounts }將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
+dc-opt-in-success-2 = 感謝您！分享此資料可協助我們改進 { -product-mozilla-accounts }。
 dc-opt-in-out-error-2 = 很抱歉，更改您的資料收集偏好設定時發生問題
 dc-learn-more = 了解更多
 
@@ -611,6 +614,7 @@ delete-account-header =
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
 delete-account-confirm-title-3 = 您可能曾經將 { -product-firefox-account } 連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
+delete-account-confirm-title-4 = 您可能曾經將 { -product-mozilla-account }連結到下列一個或多個可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -1007,6 +1011,7 @@ connect-another-device-ios-complete-setup-message = 登入 { -brand-firefox } fo
 
 cookies-disabled-header = 必須開啟本機儲存空間與 Cookie 功能
 cookies-disabled-enable-prompt = 請開啟 Cookie 與本機儲存空間以讓瀏覽器存取 { -product-firefox-accounts }。這麼做可讓帳號系統在每次使用時記住您的登入狀態。
+cookies-disabled-enable-prompt-2 = 請開啟瀏覽器的 Cookie 與本機儲存空間功能，才能使用 { -product-mozilla-account }。這麼做可讓帳號系統在每次使用時記住您的登入狀態。
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = 重試
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1207,6 +1212,7 @@ account-recovery-confirm-key-heading-w-default-service = 請使用帳號救援�
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = 請使用帳號救援金鑰重設密碼，<span>繼續前往 { $serviceName }</span>
 account-recovery-confirm-key-instructions = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-firefox-account }的使用權限。
+account-recovery-confirm-key-instructions-2 = 請輸入您先前產生的單次使用帳號救援金鑰，以取回 { -product-mozilla-account }的使用權限。
 account-recovery-confirm-key-warning-message = <span>註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
@@ -1287,6 +1293,8 @@ confirm-signin-message = 請到 { $email } 信箱收信，點擊登入確認鏈�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header = 請輸入您的密碼 <span>{ -product-firefox-account }</span>
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = 請輸入您的密碼 <span>{ -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
@@ -1343,6 +1351,10 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 signin-token-code-heading = 請輸入您的確認碼 <span>{ -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的確認碼
 signin-token-code-input-label-v2 = 請輸入六位數的安全碼
@@ -1394,6 +1406,10 @@ confirm-signup-code-page-title = 請輸入確認碼
 # If more appropriate in a locale, the string within the <span>, "for your { -product-firefox-account }"
 # can stand alone as "{ -product-firefox-account }"
 confirm-signup-code-heading = 請輸入您的驗證碼 <span>{ -product-firefox-account }</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的驗證碼
 confirm-signup-code-input-label = 請輸入六位數的驗證碼
