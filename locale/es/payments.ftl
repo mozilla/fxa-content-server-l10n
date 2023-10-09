@@ -70,7 +70,6 @@ new-user-enter-email =
     .label = Escribe tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
-new-user-subscribe-product-updates = Me gustaría recibir noticias de productos de { -brand-name-firefox }
 new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Las direcciones de correo electrónico no coinciden
@@ -436,10 +435,6 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Revisa tu cambio
 sub-change-failed = El cambio de plan ha fallado
-sub-update-copy =
-    Tu plan cambiará inmediatamente y se te cobrará un importe ajustado
-    para el resto de tu ciclo de facturación. A partir del { $startingDate }
-    se te cobrará el importe total.
 sub-update-acknowledgment =
     Tu plan cambiará inmediatamente y se te cobrará un importe prorrateado
     hoy para el resto de este ciclo de facturación. A partir del { $startingDate }
@@ -448,6 +443,18 @@ sub-change-submit = Confirmar cambio
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nuevo plan
 sub-update-total-label = Nuevo total
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (diario)
+sub-update-new-plan-weekly = { $productName } (semanal)
+sub-update-new-plan-monthly = { $productName } (mensual)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
