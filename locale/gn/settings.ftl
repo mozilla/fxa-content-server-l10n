@@ -384,12 +384,14 @@ cs-disconnect-lost-advice-content-2 =
     hag̃ua ne marandu tekorosãme, emoambue ñe’ẽñemi { -product-firefox-account } pegua
     ne mba’ete ñembohekópe. Avei eheva’erã pe marandu
     mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã mombyry guive.
+cs-disconnect-lost-advice-content-3 = Ojehechávo ne mba’e’oka okañy térã oñemonaha, ereko hag̃ua ne marandu tekorosãme, emoambue ñe’ẽñemi { -product-mozilla-account } pegua ne mba’ete ñembohekahápe. Avei eheka pe marandu mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã oka guive.
 cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
 cs-disconnect-suspicious-advice-content =
     Pe mba’e’oka pe’apyre ehecháramo
     ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-firefox-account } pegua
     ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
     ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
+cs-disconnect-suspicious-advice-content-2 = Pe mba’e’oka pe’apyre ehecháramo ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-mozilla-account } pegua ne mba’ete ñembohekohápe. Avei emoambue oimeraẽva ambue ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
 
 ##
@@ -629,6 +631,7 @@ delete-account-header =
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’eporu { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
+delete-account-confirm-title-4 = Ikatu kuri embojuaju ne { -product-mozilla-account } peteĩ térã hetaiteve apopyre térã mba’epuru { -brand-mozilla } mba’etéva rehe nemohekorosã ha nemboha’evétava ñandutípe:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -1046,6 +1049,7 @@ connect-another-device-ios-complete-setup-message = Emoñepyrũ tembiapo { -bran
 
 cookies-disabled-header = Eikotevẽ ñembyaty pepeguáva ha kookie
 cookies-disabled-enable-prompt = Emyandy umi kookie ha mbyatyha pypegua kundahárape eikekuaa hag̃ua { -product-firefox-accounts }-pe. Ejapóramo péicha hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
+cookies-disabled-enable-prompt-2 = Emyandy umi kookie ha ñembyatyha pypegua ne kundahárape eikekuaa hag̃ua { -product-mozilla-account }-pe. Ejapóramo péicha, hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Eha’ãjey
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
