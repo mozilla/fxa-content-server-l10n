@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-10 10:43+0000\n"
+"PO-Revision-Date: 2023-10-10 12:33+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -657,7 +657,7 @@ msgstr "Mba’ekuaarã rekome’ẽ oĩmba’ỹva: %(property)s"
 
 #: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "Ojepurúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu."
+msgstr "Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu."
 
 #: .es5/lib/auth-errors.js:498
 msgid "This is a required field"
