@@ -310,7 +310,7 @@ avatar-default-avatar =
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-title-2 = Bento Poravorã { -brand-mozilla } mba’e
 bento-menu-firefox-title = Tembiporupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
-bento-menu-mozilla-title = { -brand-mozilla } rembipurupyahu oñeha’ã nde rekoñemíre ñandutípe.
+bento-menu-mozilla-title = { -brand-mozilla } rembiporupyahu oñeha’ã nde rekoñemíre ñandutípe.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -631,7 +631,7 @@ delete-account-header =
 delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-3 = Ikatu kuri embojuaju ne { -product-firefox-account } peteĩ térã hetave apopyre térã mba’eporu { -brand-mozilla } mba’éva rehe nemohekorosã ha nemboha’evéva ñandutípe:
-delete-account-confirm-title-4 = Ikatu kuri embojuaju ne { -product-mozilla-account } peteĩ térã hetaiteve apopyre térã mba’epuru { -brand-mozilla } mba’etéva rehe nemohekorosã ha nemboha’evétava ñandutípe:
+delete-account-confirm-title-4 = Ikatu kuri embojuaju ne { -product-mozilla-account } peteĩ térã hetaiteve apopyre térã mba’eporu { -brand-mozilla } mba’etéva rehe nemohekorosã ha nemboha’evétava ñandutípe:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
@@ -963,11 +963,11 @@ terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’epururã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Mba’epururã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Eku’ejeývo, emoneĩ umi <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice

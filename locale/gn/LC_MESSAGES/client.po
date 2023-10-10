@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 20:09+0000\n"
-"PO-Revision-Date: 2023-10-07 15:20+0000\n"
+"PO-Revision-Date: 2023-10-10 10:43+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1721,7 +1721,7 @@ msgstr "Emoambue ñe’ẽñemi"
 #: .es5/templates/post_verify/password/force_password_change.mustache:11
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "Rohecha jeiko ivaikuaáva ne Mozilla mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojeporúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’epuru nde Mozilla mba’ete pegua."
+msgstr "Rohecha jeiko ivaikuaáva ne Mozilla mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojeporúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’eporu nde Mozilla mba’ete pegua."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
