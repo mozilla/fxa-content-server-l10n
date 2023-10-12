@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 20:09+0000\n"
+"POT-Creation-Date: 2023-10-12 20:10+0000\n"
 "PO-Revision-Date: 2023-09-29 07:32+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "A jelszó sikeresen visszaállítva. Jelentkezzen be a folytatáshoz."
 
 #. submit button
-#: .es5/views/force_auth.js:168 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
-#: .es5/views/index.js:148
+#: .es5/views/index.js:152
 msgid "Account deleted successfully"
 msgstr "Fiók sikeresen törölve"
 
@@ -105,7 +105,7 @@ msgstr "Kapcsolódva"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ismeretlen fiók. <a href=\"/signup\">Feliratkozás</a>"
 
-#: .es5/views/sign_up_password.js:63
+#: .es5/views/sign_up_password.js:64
 msgid "Account no longer exists. Recreate it?"
 msgstr "A fiók már nem létezik. Újra létrehozza?"
 
@@ -841,7 +841,9 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -912,10 +914,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Adja meg az egyszer használatos fiók-helyreállítási kulcsát, amit biztonságos helyen tartott, hogy újra hozzáférjen a Firefox fiókjához."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, mint"
-" az előzmények és a könyvjelzők)."
+"<span class=\"note\">MEGJEGYZÉS:</span> Ha a jelszót helyreállítja, és nincs mentett fiók helyreállítási kulcsa, akkor az adatai törlésre kerülnek (beleértve a szinkronizált kiszolgálóadatokat, "
+"mint az előzmények és a könyvjelzők)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1141,20 +1144,42 @@ msgstr ""
 msgid "Password"
 msgstr "Jelszó"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/index.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatot</a>."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:16 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"A folytatással elfogadja a <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi "
+"nyilatkozatot</a>."
+
+#: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Használjon másik fiókot"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:17
+#: .es5/templates/force_auth.mustache:14 .es5/templates/sign_in_password.mustache:19
 msgid "Forgot password?"
 msgstr "Elfelejtette a jelszót?"
 
-#: .es5/templates/force_auth.mustache:11 .es5/templates/sign_in_password.mustache:18
+#: .es5/templates/force_auth.mustache:15 .es5/templates/sign_in_password.mustache:20
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr "Adja meg a jelszavát <span class=\"card-subheader\" id=\"subheader\">a Mozilla-fiókjához</span>"
 
@@ -1178,17 +1203,53 @@ msgstr "Tovább a következőhöz: <div class=\"graphic %(serviceLogo)s\">%(serv
 msgid "Sign up or sign in"
 msgstr "Regisztráljon vagy jelentkezzen be"
 
-#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:14
+#: .es5/templates/index.mustache:11 .es5/templates/index.mustache:12
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "A Firefox-fiók a Mozilla több adatvédelmi termékéhez is hozzáférést biztosít."
 
-#: .es5/templates/index.mustache:15
+#: .es5/templates/index.mustache:14
+msgid ""
+"\n"
+"          By proceeding, you agree to:<br />\n"
+"          Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/index.mustache:16
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
 msgstr "Tovább a Mozilla-fiókjához"
 
-#: .es5/templates/index.mustache:16
+#: .es5/templates/index.mustache:20
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
 msgstr "A Mozilla-fiók a Mozilla további adatvédelmi termékeihez is hozzáférést biztosít."
+
+#: .es5/templates/index.mustache:21
+msgid ""
+"\n"
+"  By proceeding, you agree to:<br />\n"
+"  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+msgstr ""
+
+#: .es5/templates/index.mustache:22
+msgid ""
+"\n"
+"  By proceeding, you agree to:<br />\n"
+"  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
+"  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1411,20 +1472,6 @@ msgstr "Ha ez egy érvényes e-mail cím, <a %(escapedSupportLinkAttrs)s>tudassa
 msgid "No longer own that email? Create a new account"
 msgstr "Már nem az Öné az e-mail cím? Hozzon létre új fiókot"
 
-#: .es5/templates/sign_in_password.mustache:13
-msgid ""
-"\n"
-"            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
-"          "
-msgstr ""
-"\n"
-"              A folytatással beleegyezik a továbbiakba:<br />\n"
-"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és az <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>.\n"
-"            "
-
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
 msgstr "Adjon meg egy tartalék hitelesítési kódot"
@@ -1512,20 +1559,6 @@ msgstr "Kiválasztom, mit szeretnék szinkronizálni"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Fiók létrehozása"
-
-#: .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"              A folytatással beleegyezik a továbbiakba:<br />\n"
-"              A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/privacy/\">Adatvédelmi nyilatkozatába</a><br />\n"
-"              A Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>.\n"
-"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1659,9 +1692,9 @@ msgstr "A lap nem érkezik meg? Küldjön inkább e-mailt"
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
 msgstr "A Firefox Syncre való továbblépéshez hozzon létre egy jelszót. Az adatait a jelszavával titkosítjuk az adatvédelme érdekében."
 
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "Create Password"
-msgstr "Jelszó létrehozása"
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+msgid "Create password"
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1754,19 +1787,19 @@ msgstr "Feliratkozás a(z) %(email)s címmel"
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
 msgstr "A hivatkozásból, amelyre kattintott, karakterek hiányoznak, és előfordulhat, hogy az e-mail kliense rontotta el."
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Firefox Account"
 msgstr "Firefox fiók létrehozása"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
 msgstr "Tovább erre: %(productName)s"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Enter a password"
 msgstr "Adjon meg egy jelszót"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Jelszó megerősítése"
@@ -2078,7 +2111,8 @@ msgid "Or download"
 msgstr "Vagy letöltés"
 
 #: .es5/templates/pair/index.mustache:7
-msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 "Olvassa le, hogy letöltse a Firefoxot mobilra, vagy küldjön magának egy <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
 "blue\">letöltési hivatkozást.</a>"

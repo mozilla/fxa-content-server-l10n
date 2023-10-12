@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 20:09+0000\n"
+"POT-Creation-Date: 2023-10-12 20:10+0000\n"
 "PO-Revision-Date: 2023-09-29 07:03+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,8 @@ msgid ""
 "                        continue."
 msgstr ""
 "\n"
-"                        Les comptes Firefox utilisent des fonctionnalités qui ne sont pas prises en charge par votre version de Firefox. Veuillez télécharger et installer la dernière version de Firefox pour continuer."
+"                        Les comptes Firefox utilisent des fonctionnalités qui ne sont pas prises en charge par votre version de Firefox. Veuillez télécharger et installer la dernière version de "
+"Firefox pour continuer."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
