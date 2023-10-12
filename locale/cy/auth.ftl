@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Am ragor o w
 automated-email-no-action-plaintext = Mae hwn yn e-bost awtomataidd. Os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen i chi wneud dim.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = E-bost awtomataidd yw hwn; os na wnaethoch awdurdodi'r weithred hon, yna newidiwch eich cyfrinair:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Daeth y cais hwn gan { $uaBrowser } ar { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Daeth y cais hwn gan { $uaBrowser } ar { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Daeth y cais hwn o { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Daeth y cais hwn o { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Daeth y cais hwn gan { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Os nad chi oedd hwn, <a data-l10n-name="revokeAccountRecoveryLink">dilëwch yr allwedd newydd</a> a <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>.
+automatedEmailRecoveryKey-change-pwd-only = Os nad chi oedd hwn, <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>.
+automatedEmailRecoveryKey-more-info = Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Daeth y cais hwn o:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Os nad chi oedd hwn, dilëwch yr allwedd newydd:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Os nad chi oedd hwn, newidiwch eich cyfrinair:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = a newidiwch eich cyfrinair:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth:
 automated-email-reset =
     Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="resetLink"> newidiwch eich cyfrinair</a>.
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair yn syth yn { $resetLink }
+brand-banner-message = Oeddech chi'n gwybod ein bod wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Dysgu rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r arolwg byr hwn:
@@ -300,16 +339,13 @@ passwordResetAccountRecovery-action-2 = Crëwch allwedd adfer cyfrif newydd
 passwordResetAccountRecovery-regen-required-mjml-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Bydd angen i chi fewngofnodi eto ar bob un o'ch dyfeisiau wedi'u cydweddu. Cofiwch greu allwedd adfer cyfrif newydd yn lle'r un rydych wedi'i ddefnyddio.
-postAddAccountRecovery-subject-2 = Crëwyd yr allwedd adfer cyfrif.
+postAddAccountRecovery-subject-3 = Allwedd adfer cyfrif newydd wedi'i chreu
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Crëwyd allwedd newydd o:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Nid chi?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Dilëwch yr allwedd newydd</a> a <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Arbedwch yr allwedd hon mewn man diogel - bydd ei angen arnoch i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Dim ond unwaith y gellir defnyddio'r allwedd hon. Ar ôl i chi ei ddefnyddio, byddwn yn creu un newydd i chi yn awtomatig. Neu gallwch greu un newydd unrhyw bryd o osodiadau eich cyfrif.
 postAddAccountRecovery-action = Rheoli cyfrif
-postAddAccountRecovery-delete-key = Dilëwch yr allwedd newydd:
-postAddAccountRecovery-changd-password = Newidiwch eich cyfrinair:
 postAddLinkedAccount-subject = Cyfrif newydd yn gysylltiedig â { -brand-firefox }
 postAddLinkedAccount-subject-2 = Cyfrif newydd yn gysylltiedig â'ch cyfrif { -product-mozilla-account }
 #  Variables:
@@ -325,6 +361,11 @@ postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlae
 postAddTwoStepAuthentication-from-device = Rydych chi wedi'i alluogi o:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
 postAddTwoStepAuthentication-code-required-2 = Bellach bydd angen codau diogelwch o'ch ap dilysu bob tro y byddwch chi'n mewngofnodi.
+postChangeAccountRecovery-subject = Allwedd adfer cyfrif wedi'i newid
+postChangeAccountRecovery-title = Rydych wedi newid eich allwedd adfer cyfrif
+postChangeAccountRecovery-body-part1 = Mae gennych bellach allwedd adfer cyfrif newydd. Cafodd eich allwedd flaenorol ei dileu.
+postChangeAccountRecovery-body-part2 = Arbedwch yr allwedd newydd hon mewn man diogel - bydd ei hangen arnoch i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
+postChangeAccountRecovery-action = Rheoli cyfrif
 postChangePrimary-subject = Diweddarwyd y prif e-bost
 postChangePrimary-title = Prif e-bost newydd
 # Variables:
@@ -353,11 +394,10 @@ postNewRecoveryCodes-title-2 = Rydych wedi creu codau dilysu wrth gefn newydd
 postNewRecoveryCodes-description-2 = Fe'u crëwyd ar:
 postNewRecoveryCodes-action = Rheoli cyfrif
 postRemoveAccountRecovery-subject-2 = Diëwyd yr allwedd adfer cyfrif.
-postRemoveAccountRecovery-title-2 = Rydych wedi dileu eich allwedd adfer cyfrif.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Cafodd ei ddileu o:
+postRemoveAccountRecovery-title-3 = Rydych wedi dileu allwedd adfer eich cyfrif
+postRemoveAccountRecovery-body-part1 = Mae angen eich allwedd adfer cyfrif i adfer eich data pori wedi'i amgryptio os byddwch yn anghofio eich cyfrinair.
+postRemoveAccountRecovery-body-part2 = Os nad ydych wedi gwneud hynny eisoes, crëwch allwedd adfer cyfrif newydd yng ngosodiadau eich cyfrif i atal colli eich cyfrineiriau sydd wedi'u cadw, nodau tudalen, hanes pori, a mwy.
 postRemoveAccountRecovery-action = Rheoli cyfrif
-postRemoveAccountRecovery-invalid-2 = Mae angen allwedd adfer cyfrif arnoch i adfer eich data { -brand-firefox } os byddwch yn anghofio eich cyfrinair.
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:

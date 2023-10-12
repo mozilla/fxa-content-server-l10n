@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Aeth rhywbeth o'i le. Nid oedd modd anf
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Cau
+brand-banner-dismiss-button-2 =
+    .aria-label = Caewch y faner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Bydd { -product-firefox-accounts } yn cael ei ailenwi yn { -product-mozilla-accounts } ar Dachwedd 1
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -958,6 +958,10 @@ terms-privacy-agreement-intro-2 = Drwy barhau, rydych yn cytuno i:
 terms-privacy-agreement-pocket = <pocketTos>Telerau Gwasanaeth</pocketTos> a <pocketPrivacy>Hysbysiad Preifatrwydd</pocketPrivacy> { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Amodau Gwasanaeth</pocketTos> a <pocketPrivacy>Hysbysiad Preifatrwydd</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Telerau Gwasanaeth a Hysbysiad Preifatrwydd</monitorTos> { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Telerau Gwasanaeth a Hysbysiad Preifatrwydd</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Telerau Gwasanaeth</firefoxTos> a <firefoxPrivacy>Hysbysiad Preifatrwydd</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
