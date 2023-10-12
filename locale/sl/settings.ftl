@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Prišlo je do napake. Nove kode ni bilo
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Zapri
+brand-banner-dismiss-button-2 =
+    .aria-label = Zapri pasico
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts(zacetnica: "velika") } se bodo s 1. novembrom preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -962,6 +962,10 @@ terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
 terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> { -product-pocket }a
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }a
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

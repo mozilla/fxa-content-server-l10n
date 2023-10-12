@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Za več info
 automated-email-no-action-plaintext = To sporočilo je bilo poslano samodejno. Če ste ga prejeli pomotoma, vam ni treba storiti ničesar.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je samodejno sporočilo. Če niste sprožili tega dejanja, spremenite geslo:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Ta zahteva je prišla iz { $uaBrowser } v sistemu { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Ta zahteva je prišla iz { $uaBrowser } v sistemu { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Ta zahteva je prišla iz { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Ta zahteva je prišla iz { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Ta zahteva je prišla iz { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">izbrišite novi ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
+automatedEmailRecoveryKey-change-pwd-only = Če to niste bili vi, <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
+automatedEmailRecoveryKey-more-info = Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Ta zahteva prihaja iz:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Če to niste bili vi, izbrišite novi ključ:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Če to niste bili vi, spremenite svoje geslo:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = in spremenite geslo:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Za več informacij obiščite Podporo { -brand-mozilla }:
 automated-email-reset =
     To je samodejno sporočilo. Če niste sprožili tega dejanja, <a data-l10n-name="resetLink">ponastavite svoje geslo</a>.
     Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Če ga niste spremenili vi, nemudoma ponastavite geslo na { $resetLink }
+brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomagajte nam izboljšati naše storitve, tako da izpolnite to kratko anketo.
@@ -298,16 +337,13 @@ passwordResetAccountRecovery-action-2 = Ustvari nov ključ za obnovitev računa
 passwordResetAccountRecovery-regen-required-mjml-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega:
-postAddAccountRecovery-subject-2 = Ključ za obnovitev računa ustvarjen
+postAddAccountRecovery-subject-3 = Nov ključ za obnovitev računa ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nov ključ je bil ustvarjen z naslednje naprave:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Niste bili vi?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbrišite novi ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite geslo</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Ta ključ shranite na varno mesto – potrebovali ga boste za obnovitev šifriranih podatkov brskanja, če pozabite geslo.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Ta ključ je mogoče uporabiti samo enkrat. Ko ga porabite, vam bomo samodejno ustvarili novega. Lahko pa kadar koli ustvarite novega v nastavitvah računa.
 postAddAccountRecovery-action = Upravljanje računa
-postAddAccountRecovery-delete-key = Izbrišite novi ključ:
-postAddAccountRecovery-changd-password = Spremenite geslo:
 postAddLinkedAccount-subject = Nov račun je povezan s { -brand-firefox(sklon: "orodnik") }
 postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-account(sklon: "orodnik") }
 #  Variables:
@@ -323,6 +359,11 @@ postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
 postAddTwoStepAuthentication-from-device = Omogočili ste jo z naslednje naprave:
 postAddTwoStepAuthentication-action = Upravljanje računa
 postAddTwoStepAuthentication-code-required-2 = Varnostne kode iz vaše aplikacije za overitev so odslej zahtevane ob vsaki prijavi.
+postChangeAccountRecovery-subject = Ključ za obnovitev računa spremenjen
+postChangeAccountRecovery-title = Spremenili ste ključ za obnovitev računa
+postChangeAccountRecovery-body-part1 = Zdaj imate nov ključ za obnovitev računa. Vaš prejšnji ključ je bil izbrisan.
+postChangeAccountRecovery-body-part2 = Shranite ta novi ključ na varno mesto – potrebovali ga boste za obnovitev šifriranih podatkov brskanja, če pozabite geslo.
+postChangeAccountRecovery-action = Upravljanje računa
 postChangePrimary-subject = Glavni e-poštni naslov posodobljen
 postChangePrimary-title = Nov glavni e-poštni naslov
 # Variables:
@@ -349,11 +390,10 @@ postNewRecoveryCodes-title-2 = Ustvarili ste nove rezervne overitvene kode
 postNewRecoveryCodes-description-2 = Ustvarjene so bile na naslednji napravi:
 postNewRecoveryCodes-action = Upravljanje računa
 postRemoveAccountRecovery-subject-2 = Ključ za obnovitev računa izbrisan
-postRemoveAccountRecovery-title-2 = Izbrisali ste svoj ključ za obnovitev računa.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Izbrisan je bil z naslednje naprave:
+postRemoveAccountRecovery-title-3 = Izbrisali ste ključ za obnovitev računa
+postRemoveAccountRecovery-body-part1 = Ključ za obnovitev računa je potreben za obnovitev šifriranih podatkov brskanja, če pozabite geslo.
+postRemoveAccountRecovery-body-part2 = Če tega še niste storili, v nastavitvah računa ustvarite nov obnovitveni ključ in preprečite izgubo shranjenih gesel, zaznamkov, zgodovine brskanja in drugega.
 postRemoveAccountRecovery-action = Upravljanje računa
-postRemoveAccountRecovery-invalid-2 = Ključ za obnovitev računa boste potrebovali za obnovitev svojih podatkov { -brand-firefox(sklon: "rodilnik") }, če pozabite geslo.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:
