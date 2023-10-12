@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext }Til að sjá 
 automated-email-no-action-plaintext = Þetta er sjálfvirkur tölvupóstur. Ef þú fékkst hann fyrir mistök þarftu ekki að gera neitt.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú leyfðir ekki þessa aðgerð skaltu endilega breyta lykilorðinu þínu:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Þessi beiðni kom frá { $uaBrowser } á { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Þessi beiðni kom frá { $uaBrowser } á { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Þessi beiðni kom frá { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Þessi beiðni kom frá { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Þessi beiðni kom frá { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Ef þetta varst ekki þú, <a data-l10n-name="revokeAccountRecoveryLink">skaltu eyða nýja lyklinum</a> og <a data-l10n-name="passwordChangeLink">breyta lykilorðinu þínu</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ef þetta varst ekki þú, <a data-l10n-name="passwordChangeLink">skaltu breyta lykilorðinu þínu</a>.
+automatedEmailRecoveryKey-more-info = Til að sjá nánari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } aðstoðargáttina</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Þessi beiðni kom frá:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ef þetta varst ekki þú, skaltu eyða nýja lyklinum:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ef þetta varst ekki þú, skaltu breyta lykilorðinu þínu:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og breyta lykilorðinu þínu:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Til að sjá nánari upplýsingar, skaltu fara á { -brand-mozilla } aðstoðargáttina:
 automated-email-reset =
     Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="resetLink">endurstilla lykilorðið þitt</a>.
     Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ef það varst ekki þú sem breyttir því, skaltu endurstilla lykilorðið þitt núna á { $resetLink }
+brand-banner-message = Vissir þú að við breyttum nafni okkar úr { -product-firefox-accounts } í { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Frekari upplýsingar</a>
 cancellationSurvey = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í <a data-l10n-name="cancellationSurveyUrl">stuttri könnun</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í stuttri könnun:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtulykil fyrir re
 passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir:
-postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
+postAddAccountRecovery-subject-3 = Nýr endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtulykil fyrir reikninginn
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Nýr lykill var búinn til á:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Ekki þú?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Eyddu nýja lyklinum</a> og <a data-l10n-name="passwordChangeLink">breyttu lykilorðinu þínu</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Vistaðu þennan lykil á öruggum stað - þú þarft hann til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Aðeins er hægt að nota þennan lykil einu sinni. Eftir að þú hefur notað hann munum við sjálfkrafa búa til nýjan fyrir þig. Eða þú getur búið til nýjan hvenær sem er í stillingunum reikningsins þíns.
 postAddAccountRecovery-action = Sýsla með reikning
-postAddAccountRecovery-delete-key = Eyddu nýja lyklinum:
-postAddAccountRecovery-changd-password = Breyttu lykilorðinu þínu:
 postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla-account }
 #  Variables:
@@ -321,6 +357,7 @@ postAddTwoStepAuthentication-title-2 = Þú kveiktir á tveggja-þrepa auðkenni
 postAddTwoStepAuthentication-from-device = Þú virkjaðir hana frá:
 postAddTwoStepAuthentication-action = Sýsla með reikning
 postAddTwoStepAuthentication-code-required-2 = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
+postChangeAccountRecovery-subject = Endurheimtulykli reiknings breytt
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
 # Variables:
@@ -345,11 +382,7 @@ postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
 postNewRecoveryCodes-description-2 = Þau voru búin til á:
 postNewRecoveryCodes-action = Sýsla með reikning
 postRemoveAccountRecovery-subject-2 = Endurheimtulykli reiknings eytt
-postRemoveAccountRecovery-title-2 = Þú eyddir endurheimtulykli fyrir reikninginn þinn.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Honum var eytt af:
 postRemoveAccountRecovery-action = Sýsla með reikning
-postRemoveAccountRecovery-invalid-2 = Þú þarft endurheimtulykil til að endurheimta { -brand-firefox } gögnin þín ef þú gleymir lykilorðinu þínu.
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
