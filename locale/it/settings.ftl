@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Si è verificato un problema. Impossibi
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Chiudi
+brand-banner-dismiss-button-2 =
+    .aria-label = Chiudi banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Gli { -product-firefox-accounts } cambieranno nome in { -product-mozilla-accounts } dal 1° novembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -937,6 +937,10 @@ terms-privacy-agreement-intro-2 = Proseguendo accetti:
 terms-privacy-agreement-pocket = <pocketTos>Condizioni di utilizzo del servizio</pocketTos> e <pocketPrivacy>Informativa sulla privacy</pocketPrivacy> di { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Condizioni di utilizzo del servizio</pocketTos> e <pocketPrivacy>informativa sulla privacy</pocketPrivacy> di { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Termini di servizio e Informativa sulla privacy</monitorTos> di { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Termini di servizio e Informativa sulla privacy</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Condizioni di utilizzo del servizio</firefoxTos> e <firefoxPrivacy>Informativa sulla privacy</firefoxPrivacy> di { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
