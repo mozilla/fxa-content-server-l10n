@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Etwas ist schief gelaufen. Es konnte ke
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Schließen
+brand-banner-dismiss-button-2 =
+    .aria-label = Banner schließen
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } wird am 1. November in { -product-mozilla-accounts } umbenannt
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -957,6 +957,10 @@ terms-privacy-agreement-intro-2 = Indem Sie fortfahren, stimmen Sie Folgendem zu
 terms-privacy-agreement-pocket = <pocketTos>Nutzungsbedingungen</pocketTos> und <pocketPrivacy>Datenschutzhinweis</pocketPrivacy> von { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Nutzungsbedingungen</pocketTos> und <pocketPrivacy>Datenschutzhinweis</pocketPrivacy> . { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Nutzungsbedingungen und Datenschutzhinweis von { -product-firefox-monitor }</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Nutzungsbedingungen und Datenschutzhinweis</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Nutzungsbedingungen</firefoxTos> und <firefoxPrivacy>Datenschutzhinweis</firefoxPrivacy> von { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
