@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } További inf
 automated-email-no-action-plaintext = Ez egy automatizált e-mail. Ha tévedésből kapta, akkor nincs teendője.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg jelszavát:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Ez a kérés a { $uaBrowser }tól érkezett, ekkor: { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Ez a kérés a(z) { $uaBrowser } részéről érkezett ekkor: { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = A kérés a(z) { $uaBrowser } felől érkezett.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = A kérés a következőtől érkezett: { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = A kérés ettől érkezett: { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">törölje az új kulcsot</a> és <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ha nem Ön volt, <a data-l10n-name="passwordChangeLink">változtassa meg jelszavát</a>.
+automatedEmailRecoveryKey-more-info = További információért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = A kérés innen érkezett:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ha ez nem Ön volt, törölje az új kulcsot:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ha ez nem Ön volt, változtassa meg a jelszavát:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = és változtassa meg a jelszavát:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = További információért keresse fel a { -brand-mozilla } Támogatást:
 automated-email-reset =
     Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a>.
     További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ha nem módosította, akkor állítsa helyre jelszavát itt: { $resetLink }
+brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti az alábbi rövid kérdőívet:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = Új fiók-helyreállítási kulcs létre
 passwordResetAccountRecovery-regen-required-mjml-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett:
-postAddAccountRecovery-subject-2 = Fiók-helyreállítási kulcs létrehozva
+postAddAccountRecovery-subject-3 = Új fiók-helyreállítási kulcs létrehozva
 postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kulcsot
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Új kulcs jött létre innen:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Nem Ön volt?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Törölje az új kulcsot</a> és <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Mentse el ezt a kulcsot – szüksége lesz rá a titkosított böngészési adatainak helyreállításához, ha elfelejtené a jelszavát.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Ez a kulcs csak egyszer használható. Miután használta, automatikusan létrehozunk egy újat. Vagy bármikor létrehozhat egy újat a fiókbeállításokban.
 postAddAccountRecovery-action = Fiók kezelése
-postAddAccountRecovery-delete-key = Törölje az új kulcsot:
-postAddAccountRecovery-changd-password = Változtassa meg a jelszavát:
 postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox(case: "instrumental") }
 postAddLinkedAccount-subject-2 = Új fiók kapcsolva a { -product-mozilla-account }jához
 #  Variables:
@@ -321,6 +357,11 @@ postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítés
 postAddTwoStepAuthentication-from-device = Innen engedélyezte:
 postAddTwoStepAuthentication-action = Fiók kezelése
 postAddTwoStepAuthentication-code-required-2 = A hitelesítő alkalmazásból származó biztonsági kódokra minden bejelentkezésnél szükség lesz.
+postChangeAccountRecovery-subject = A fiók-helyreállítási kulcs megváltozott
+postChangeAccountRecovery-title = Módosította a fiók-helyreállítási kulcsát
+postChangeAccountRecovery-body-part1 = Új fiók-helyreállítási kulcsa van. Az előző kulcsát törölték.
+postChangeAccountRecovery-body-part2 = Mentse biztonságos helyre ezt az új kulcsot – szüksége lesz rá a titkosított böngészési adatainak helyreállításához, ha elfelejtené a jelszavát.
+postChangeAccountRecovery-action = Fiók kezelése
 postChangePrimary-subject = Elsődleges e-mail frissítve
 postChangePrimary-title = Új elsődleges e-mail cím
 # Variables:
@@ -345,11 +386,10 @@ postNewRecoveryCodes-title-2 = Új tartalék hitelesítési kódokat hozott lét
 postNewRecoveryCodes-description-2 = A következőn lettek létrehozva:
 postNewRecoveryCodes-action = Fiók kezelése
 postRemoveAccountRecovery-subject-2 = Fiók-helyreállítási kulcs törölve
-postRemoveAccountRecovery-title-2 = Törölte a fiók-helyreállítási kulcsát.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = A következőn törölték:
+postRemoveAccountRecovery-title-3 = Törölte a fiók-helyreállítási kulcsát
+postRemoveAccountRecovery-body-part1 = A fiók-helyreállítási kulcsra szükség van a titkosított böngészési adatainak helyreállításához, ha elfelejti a jelszavát.
+postRemoveAccountRecovery-body-part2 = Ha még nem tette, hozzon létre egy új fiók-helyreállítási kulcsot a fiókbeállításokban, hogy megakadályozza a mentett jelszavak, könyvjelzők, böngészési előzmények és egyebek elveszítését.
 postRemoveAccountRecovery-action = Fiók kezelése
-postRemoveAccountRecovery-invalid-2 = Szüksége van egy fiók-helyreállítási kulcsra a { -brand-firefox } adatainak helyreállításához, ha elfelejti a jelszavát.
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 # Variables:

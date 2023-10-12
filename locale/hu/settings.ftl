@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Valami elromlott. Nem sikerült új kó
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Bezárás
+brand-banner-dismiss-button-2 =
+    .aria-label = Banner bezárása
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = A { -product-firefox-accounts } új neve { -product-mozilla-accounts } lesz november 1-jén
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -966,6 +966,10 @@ terms-privacy-agreement-intro-2 = A folytatással elfogadja a következőket:
 terms-privacy-agreement-pocket = A { -product-pocket } <pocketTos> Szolgáltatási feltételeit</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozatot</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Szolgáltatási feltételek</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozat</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = A { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételei és Adatvédelmi nyilatkozat</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Szolgáltatási feltételek és Adatvédelmi nyilatkozat</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = A { -brand-firefox } <firefoxTos>Szolgáltatási feltételeit</firefoxTos> és az <firefoxPrivacy>Adatvédelmi nyilatkozatot</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
