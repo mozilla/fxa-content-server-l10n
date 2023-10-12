@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Eitthvað fór úrskeiðis. Ekki var h�
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Loka
+brand-banner-dismiss-button-2 =
+    .aria-label = Loka borða
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } verða endurnefndir { -product-mozilla-accounts } þann 1. nóvember
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.

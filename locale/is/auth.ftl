@@ -340,7 +340,7 @@ postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtulykil fyrir re
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Vistaðu þennan lykil á öruggum stað - þú þarft hann til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Aðeins er hægt að nota þennan lykil einu sinni. Eftir að þú hefur notað hann munum við sjálfkrafa búa til nýjan fyrir þig. Eða þú getur búið til nýjan hvenær sem er í stillingunum reikningsins þíns.
+postAddAccountRecovery-body-part2 = Aðeins er hægt að nota þennan lykil einu sinni. Eftir að þú hefur notað hann munum við sjálfkrafa búa til nýjan fyrir þig. Eða þú getur búið til nýjan hvenær sem er í stillingum reikningsins þíns.
 postAddAccountRecovery-action = Sýsla með reikning
 postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla-account }
@@ -358,6 +358,10 @@ postAddTwoStepAuthentication-from-device = Þú virkjaðir hana frá:
 postAddTwoStepAuthentication-action = Sýsla með reikning
 postAddTwoStepAuthentication-code-required-2 = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
 postChangeAccountRecovery-subject = Endurheimtulykli reiknings breytt
+postChangeAccountRecovery-title = Þú breyttir endurheimtulykli reikningsins þíns
+postChangeAccountRecovery-body-part1 = Þú ert nú með nýjan endurheimtulykil. Fyrri lyklinum þínum var eytt.
+postChangeAccountRecovery-body-part2 = Vistaðu þennan nýja lykil á öruggum stað - þú þarft hann til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
+postChangeAccountRecovery-action = Sýsla með reikning
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
 # Variables:
@@ -382,6 +386,9 @@ postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
 postNewRecoveryCodes-description-2 = Þau voru búin til á:
 postNewRecoveryCodes-action = Sýsla með reikning
 postRemoveAccountRecovery-subject-2 = Endurheimtulykli reiknings eytt
+postRemoveAccountRecovery-title-3 = Þú eyddir endurheimtulykli fyrir reikninginn þinn
+postRemoveAccountRecovery-body-part1 = Endurheimtulykillinn þinn er nauðsynlegur til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
+postRemoveAccountRecovery-body-part2 = Ef þú hefur ekki gert það nú þegar skaltu búa til nýjan endurheimtulykil í stillingum reikningsins þíns til að koma í veg fyrir að vistuð lykilorð þín, bókamerki, vafurferill og fleira glatist.
 postRemoveAccountRecovery-action = Sýsla með reikning
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
