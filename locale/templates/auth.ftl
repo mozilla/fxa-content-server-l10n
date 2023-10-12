@@ -103,11 +103,58 @@ automated-email-no-action-plaintext = This is an automated email. If you receive
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = This is an automated email; if you did not authorize this action, then please change your password:
 
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = This request came from { $uaBrowser } on { $uaOS } { $uaOSVersion }.
+
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = This request came from { $uaBrowser } on { $uaOS }.
+
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = This request came from { $uaBrowser }.
+
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = This request came from { $uaOS } { $uaOSVersion }.
+
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = This request came from { $uaOS }.
+
+automatedEmailRecoveryKey-delete-key-change-pwd = If this wasn’t you, <a data-l10n-name="revokeAccountRecoveryLink">delete the new key</a> and <a data-l10n-name="passwordChangeLink">change your password</a>.
+automatedEmailRecoveryKey-change-pwd-only = If this wasn’t you, <a data-l10n-name="passwordChangeLink">change your password</a>.
+automatedEmailRecoveryKey-more-info = For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = This request came from:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = If this wasn’t you, delete the new key:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = If this wasn’t you, change your password:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = and change your password:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = For more info, visit { -brand-mozilla } Support:
+
 automated-email-reset = This is an automated email; if you did not authorize this action, then <a data-l10n-name="resetLink">please reset your password</a>.
   For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
+
+brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -333,16 +380,13 @@ passwordResetAccountRecovery-regen-required-mjml-1 = You’ll need to sign in ag
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = You’ll need to sign in again on all of your synced devices. Remember to create a new account recovery key to replace the one you used:
 
-postAddAccountRecovery-subject-2 = Account recovery key created
+postAddAccountRecovery-subject-3 = New account recovery key created
 postAddAccountRecovery-title2 = You created a new account recovery key
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = A new key was created from:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Not you?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Delete the new key</a> and <a data-l10n-name="passwordChangeLink">change your password</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Save this key in a safe place — you’ll need it to restore your encrypted browsing data if you forget your password.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = This key can only be used once. After you use it, we’ll automatically create a new one for you. Or you can create a new one any time from your account settings.
 postAddAccountRecovery-action = Manage account
-postAddAccountRecovery-delete-key = Delete the new key:
-postAddAccountRecovery-changd-password = Change your password:
 
 postAddLinkedAccount-subject = New account linked to { -brand-firefox }
 postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-account }
@@ -360,6 +404,12 @@ postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
 postAddTwoStepAuthentication-from-device = You enabled it from:
 postAddTwoStepAuthentication-action = Manage account
 postAddTwoStepAuthentication-code-required-2 = Security codes from your authentication app are now required every time you sign in.
+
+postChangeAccountRecovery-subject = Account recovery key changed
+postChangeAccountRecovery-title = You changed your account recovery key
+postChangeAccountRecovery-body-part1 = You now have a new account recovery key. Your previous key was deleted.
+postChangeAccountRecovery-body-part2 = Save this new key in a safe place — you’ll need it to restore your encrypted browsing data if you forget your password.
+postChangeAccountRecovery-action = Manage account
 
 postChangePrimary-subject = Primary email updated
 postChangePrimary-title = New primary email
@@ -388,11 +438,10 @@ postNewRecoveryCodes-description-2 = They were created on:
 postNewRecoveryCodes-action = Manage account
 
 postRemoveAccountRecovery-subject-2 = Account recovery key deleted
-postRemoveAccountRecovery-title-2 = You deleted your account recovery key.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = It was deleted from:
+postRemoveAccountRecovery-title-3 = You deleted your account recovery key
+postRemoveAccountRecovery-body-part1 = Your account recovery key is required to restore your encrypted browsing data if you forget your password.
+postRemoveAccountRecovery-body-part2 = If you haven’t already, create a new account recovery key in your account settings to prevent losing your saved passwords, bookmarks, browsing history, and more.
 postRemoveAccountRecovery-action = Manage account
-postRemoveAccountRecovery-invalid-2 = You need an account recovery key to recover your { -brand-firefox } data if you forget your password.
 
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
