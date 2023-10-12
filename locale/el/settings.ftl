@@ -951,8 +951,12 @@ tfa-row-change-modal-explain = Δεν μπορείτε να αναιρέσετε
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Συνεχίζοντας, συμφωνείτε με:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Συνεχίζοντας, συμφωνείτε με:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = τους <pocketTos>Όρους υπηρεσίας</pocketTos> και τη <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
