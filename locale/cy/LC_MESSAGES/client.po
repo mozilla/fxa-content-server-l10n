@@ -1241,10 +1241,6 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
-"\n"
-"  Drwy symud ymlaen, rydych yn cytuno i:<br />\n"
-"  <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Telerau Gwasanaeth</a> a dosbarth <a id=\"pocket-pp\" poced = \"link-grey\" href=\"https://getpocket.com/privacy/\">Hysbysiad Preifatrwydd</a><br />\n"
-"  Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp \" href = \"/cyfreithiol/preifatrwydd\">Hysbysiad Preifatrwydd</a>\n"
 
 #: .es5/templates/index.mustache:22
 msgid ""
