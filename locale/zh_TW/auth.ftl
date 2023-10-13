@@ -96,6 +96,44 @@ automated-email-no-action = { automated-email-no-action-plaintext } 若需更多
 automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 這是一封自動發出的郵件。若您並未進行此操作，請立刻修改密碼：
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = 此請求來自 { $uaOS } { $uaOSVersion } 上的 { $uaBrowser }。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = 此請求來自 { $uaOS } 上的 { $uaBrowser }。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = 此請求來自 { $uaBrowser }。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = 此請求來自 { $uaOS } { $uaOSVersion }。
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = 此請求來自 { $uaOS }。
+automatedEmailRecoveryKey-delete-key-change-pwd = 如果不是您操作的，請<a data-l10n-name="revokeAccountRecoveryLink">刪除這把金鑰</a>並<a data-l10n-name="passwordChangeLink">更改密碼</a>。
+automatedEmailRecoveryKey-change-pwd-only = 如果不是您操作的，請<a data-l10n-name="passwordChangeLink">更改密碼</a>。
+automatedEmailRecoveryKey-more-info = 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = 此請求來自：
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = 如果不是您操作的，請刪除新的金鑰：
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = 如果不是您操作的，請更改密碼：
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = 並且更改密碼：
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：
 automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
@@ -293,16 +331,9 @@ passwordResetAccountRecovery-action-2 = 產生新的帳號救援金鑰
 passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰：
-postAddAccountRecovery-subject-2 = 已建立救援金鑰
+postAddAccountRecovery-subject-3 = 已建立新帳號救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = 有人從下列位置建立新的金鑰：
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = 不是您嗎？
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">刪除這把金鑰</a>並<a data-l10n-name="passwordChangeLink">更改密碼</a>
 postAddAccountRecovery-action = 管理帳號
-postAddAccountRecovery-delete-key = 刪除這把金鑰：
-postAddAccountRecovery-changd-password = 更改密碼：
 postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozilla-account }
 #  Variables:
@@ -318,6 +349,8 @@ postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
 postAddTwoStepAuthentication-from-device = 您從下列位置開啟：
 postAddTwoStepAuthentication-action = 管理帳號
 postAddTwoStepAuthentication-code-required-2 = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
+postChangeAccountRecovery-subject = 已變更帳號救援金鑰
+postChangeAccountRecovery-action = 管理帳號
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
 # Variables:
@@ -341,11 +374,7 @@ postNewRecoveryCodes-title-2 = 您已產生新的備用驗證碼
 postNewRecoveryCodes-description-2 = 建立自：
 postNewRecoveryCodes-action = 管理帳號
 postRemoveAccountRecovery-subject-2 = 已刪除帳號救援金鑰
-postRemoveAccountRecovery-title-2 = 您已刪除帳號救援金鑰。
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = 刪除自：
 postRemoveAccountRecovery-action = 管理帳號
-postRemoveAccountRecovery-invalid-2 = 若您忘記密碼，需要帳號救援金鑰才可救回 { -brand-firefox } 帳號的資料。
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:

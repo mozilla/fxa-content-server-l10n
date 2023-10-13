@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = 有些東西怪怪的，無法寄出新
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = 關閉
+brand-banner-dismiss-button-2 =
+    .aria-label = 關閉橫幅
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts }將更名為 { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -926,6 +926,10 @@ terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
 terms-privacy-agreement-pocket = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor } 的<monitorTos>服務條款及隱私權公告</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } 的<monitorTos>服務條款及隱私權公告</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } 的<firefoxTos>服務條款</firefoxTos>與<firefoxPrivacy>隱私權公告</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
