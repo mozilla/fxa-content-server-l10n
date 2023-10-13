@@ -127,8 +127,6 @@ automatedEmailRecoveryKey-more-info = Pour plus d’informations, consultez <a d
 automatedEmailRecoveryKey-origin-plaintext = La requête provient de :
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = S’il ne s’agissait pas de vous, supprimez la nouvelle clé :
-# Colon is followed by a URL to the change password section of account settings
-automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = S’il ne s’agissait pas de vous, changez votre mot de passe :
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = et changez votre mot de passe :

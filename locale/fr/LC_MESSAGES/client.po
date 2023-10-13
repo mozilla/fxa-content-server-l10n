@@ -1231,11 +1231,6 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"            En poursuivant, vous acceptez :<br />\n"
-"            <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">conditions d’utilisation et politique de confidentialité</a>< br />\n"
-"            Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et les <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">Politique de confidentialité</a>\n"
-"          "
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
