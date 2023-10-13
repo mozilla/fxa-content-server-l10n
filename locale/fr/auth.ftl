@@ -127,6 +127,8 @@ automatedEmailRecoveryKey-more-info = Pour plus d’informations, consultez <a d
 automatedEmailRecoveryKey-origin-plaintext = La requête provient de :
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = S’il ne s’agissait pas de vous, supprimez la nouvelle clé :
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = S’il ne s’agissait pas de vous, changez de mot de passe :
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = et changez votre mot de passe :
@@ -138,7 +140,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Si vous ne l’avez pas changé, veuillez réinitialiser votre mot de passe immédiatement depuis { $resetLink }
-brand-banner-message = Saviez-vous que nous avons changé notre nom de { -product-firefox-accounts } en { -product-mozilla-accounts } ? <a data-l10n-name="learnMore">En savoir plus</a>
+brand-banner-message = Saviez-vous que nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts } ? <a data-l10n-name="learnMore">En savoir plus</a>
 cancellationSurvey = Aidez-nous à améliorer nos services en répondant à <a data-l10n-name="cancellationSurveyUrl">ce court questionnaire</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Aidez-nous à améliorer nos services en répondant à ce court questionnaire :
@@ -355,6 +357,7 @@ postAddTwoStepAuthentication-action = Gérer le compte
 postAddTwoStepAuthentication-code-required-2 = Un code de sécurité issu de votre application d’authentification est désormais requis à chaque connexion.
 postChangeAccountRecovery-subject = La clé de récupération du compte a été modifiée
 postChangeAccountRecovery-title = Vous avez modifié la clé de récupération de votre compte
+postChangeAccountRecovery-body-part1 = Vous disposez maintenant d’une nouvelle clé de récupération de compte. Votre clé précédente a été supprimée.
 postChangeAccountRecovery-body-part2 = Enregistrez cette nouvelle clé dans un endroit sûr — vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
 postChangeAccountRecovery-action = Gérer le compte
 postChangePrimary-subject = Adresse e-mail principale mise à jour
