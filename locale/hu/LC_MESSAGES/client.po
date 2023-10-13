@@ -1243,10 +1243,6 @@ msgid ""
 "  Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
-"\n"
-"  A továbblépéssel elfogadja a következőket:<br />\n"
-"  A Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">szolgáltatási feltételeit</a> és a <a id=\"pocket-pp\" osztályt =\"link-grey\" href=\"https://getpocket.com/privacy/\">Adatvédelmi nyilatkozat</a><br />\n"
-"  A Mozilla Fiók <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Általános szerződési feltételei</a> és <a class=\"link-grey\" id=\"fxa-pp \" href=\"/legal/privacy\">Adatvédelmi nyilatkozat</a>\n"
 
 #: .es5/templates/index.mustache:22
 msgid ""
