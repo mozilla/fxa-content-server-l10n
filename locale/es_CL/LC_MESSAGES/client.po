@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-13 11:42+0000\n"
-"Last-Translator: ravmn <ravmn@ravmn.cl>\n"
+"PO-Revision-Date: 2023-10-13 23:36+0000\n"
+"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
 "MIME-Version: 1.0\n"
@@ -1164,7 +1164,7 @@ msgid ""
 msgstr ""
 "              Al continuar,  aceptas:<br />\n"
 "              Los <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">términos del servicio y aviso de privacidad</a> de Firefox Monitor <br />\n"
-"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
+"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1229,7 +1229,7 @@ msgid ""
 msgstr ""
 "              Al continuar,  aceptas:<br />\n"
 "              Los <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">términos del servicio y aviso de privacidad</a> de Firefox Monitor <br />\n"
-"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
+"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
@@ -1259,7 +1259,7 @@ msgid ""
 msgstr ""
 "              Al continuar,  aceptas:<br />\n"
 "              Los <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">términos del servicio y aviso de privacidad</a> de Firefox Monitor <br />\n"
-"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">aviso de privacidad</a> de las Cuentas de Mozilla"
+"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de privacidad</a> de las Cuentas de Mozilla"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
