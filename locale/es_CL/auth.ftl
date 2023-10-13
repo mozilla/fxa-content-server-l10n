@@ -121,12 +121,26 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Esta solicitud provino
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Esta solicitud provino de { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Si no fuiste tu, <a data-l10n-name="revokeAccountRecoveryLink">elimina la nueva clave</a> y <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a>
+automatedEmailRecoveryKey-change-pwd-only = Si no fuiste tu, <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a>.
+automatedEmailRecoveryKey-more-info = Para obtener más información, visita el <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Esta solicitud provino de:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Si no fuiste tu, elimina la nueva clave:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Si no fuiste tu, cambia tu contraseña:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = y cambia tu contraseña:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Para obtener más información, visita el Soporte de { -brand-mozilla }:
 automated-email-reset =
     Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">por favor restablece tu contraseña</a>.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Si no la cambiaste, por favor reinicia tu contraseña ahora en { $resetLink }
+brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Aprender más</a>
 cancellationSurvey = Por favor, ayúdanos a mejorar nuestros servicios contestando esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:
@@ -321,7 +335,12 @@ passwordResetAccountRecovery-action-2 = Crear una nueva clave de recuperación d
 passwordResetAccountRecovery-regen-required-mjml-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste:
+postAddAccountRecovery-subject-3 = Nueva clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Guarda esta  clave en un lugar seguro; la necesitarás para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Esta clave sólo  puede ser utilizada una vez. Después de usarla, crearemos una nueva automáticamente para ti. O puedes crear una nueva en cualquier momento desde los ajustes de tu cuenta.
 postAddAccountRecovery-action = Administrar cuenta
 postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-account }
@@ -338,6 +357,11 @@ postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
 postAddTwoStepAuthentication-from-device = Lo activaste desde:
 postAddTwoStepAuthentication-action = Administrar cuenta
 postAddTwoStepAuthentication-code-required-2 = Los códigos de seguridad de tu aplicación de autenticación ahora son requeridos cada vez que te conectas.
+postChangeAccountRecovery-subject = Clave de recuperación de cuenta cambiada
+postChangeAccountRecovery-title = Cambiaste tu clave de recuperación de cuenta
+postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. Tu clave anterior fue eliminada.
+postChangeAccountRecovery-body-part2 = Guarda esta nueva clave en un lugar seguro; la necesitarás para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+postChangeAccountRecovery-action = Administrar cuenta
 postChangePrimary-subject = Correo primario actualizado
 postChangePrimary-title = Nuevo correo primario
 # Variables:
@@ -362,6 +386,9 @@ postNewRecoveryCodes-title-2 = Haz creado nuevos códigos de autenticación de r
 postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
 postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
+postRemoveAccountRecovery-title-3 = Has eliminado tu clave de recuperación de cuenta
+postRemoveAccountRecovery-body-part1 = Se requiere la clave de recuperación de tu cuenta para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en los ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
