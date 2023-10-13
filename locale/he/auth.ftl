@@ -87,6 +87,30 @@ automated-email-no-action = { automated-email-no-action-plaintext } למידע �
 automated-email-no-action-plaintext = זוהי הודעת דוא״ל אוטומטית. אם קיבלת אותה בטעות, אין צורך לעשות דבר.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = זאת הודעה אוטומטית, אם לא אישרת את הפעולה הזאת, נא להחליף את הסיסמה שלך:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = בקשה זו הגיעה מ־{ $uaBrowser } ב־{ $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = בקשה זו הגיעה מ־{ $uaBrowser } ב־{ $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = בקשה זו הגיעה מ־{ $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = בקשה זו הגיעה מ־{ $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = בקשה זו הגיעה מ־{ $uaOS }.
 automated-email-reset =
     זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="resetLink">לאפס את הססמה שלך</a>.
     למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
@@ -273,16 +297,8 @@ passwordResetAccountRecovery-action-2 = יצירת מפתח שחזור חשבו�
 passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
-postAddAccountRecovery-subject-2 = נוצר מפתח לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = מפתח חדש נוצר מ:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = פעולה זו לא בוצעה על ידך?
-postAddAccountRecovery-change = יש <a data-l10n-name="revokeAccountRecoveryLink">למחוק את המפתח החדש</a> ו<a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>
 postAddAccountRecovery-action = ניהול חשבון
-postAddAccountRecovery-delete-key = מחיקת המפתח החדש:
-postAddAccountRecovery-changd-password = שינוי הססמה שלך:
 postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
 postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozilla-account(case: "the") } שלך
 #  Variables:
@@ -310,11 +326,7 @@ postChangePrimary-action = ניהול חשבון
 postConsumeRecoveryCode-action = ניהול חשבון
 postNewRecoveryCodes-action = ניהול חשבון
 postRemoveAccountRecovery-subject-2 = מפתח לשחזור החשבון נמחק
-postRemoveAccountRecovery-title-2 = מחקת את מפתח שחזור החשבון שלך.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = הוא נמחק מהמכשיר:
 postRemoveAccountRecovery-action = ניהול חשבון
-postRemoveAccountRecovery-invalid-2 = יש צורך במפתח שחזור חשבון כדי לשחזר את נתוני ה־{ -brand-firefox } שלך אם הססמה שלך תישכח.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
