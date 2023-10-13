@@ -340,7 +340,7 @@ postAddAccountRecovery-title2 = Sie haben einen neuen Kontowiederherstellungssch
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Speichern Sie diesen Schlüssel an einem sicheren Ort – Sie benötigen ihn, um Ihre verschlüsselten Browser-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen haben.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Dieser Schlüssel kann nur einmal verwendet werden. Nachdem Sie ihn verwendet haben, erstellen wir automatisch einen neuen für Sie. Oder Sie können jederzeit in Ihren Kontoeinstellungen ein neues erstellen.
+postAddAccountRecovery-body-part2 = Dieser Schlüssel kann nur einmal verwendet werden. Nachdem Sie ihn verwendet haben, erstellen wir automatisch einen neuen für Sie. Sie können auch jederzeit in Ihren Kontoeinstellungen einen neuen erstellen.
 postAddAccountRecovery-action = Benutzerkonto verwalten
 postAddLinkedAccount-subject = Neues Konto verknüpft mit { -brand-firefox }
 postAddLinkedAccount-subject-2 = Neues Konto mit Ihrem { -product-mozilla-account } verknüpft
@@ -388,7 +388,7 @@ postNewRecoveryCodes-action = Benutzerkonto verwalten
 postRemoveAccountRecovery-subject-2 = Kontowiederherstellungsschlüssel gelöscht
 postRemoveAccountRecovery-title-3 = Sie haben Ihren Kontowiederherstellungsschlüssel gelöscht
 postRemoveAccountRecovery-body-part1 = Ihr Kontowiederherstellungsschlüssel wird benötigt, um Ihre verschlüsselten Browser-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
-postRemoveAccountRecovery-body-part2 = Falls Sie es noch nicht durchgeführt haben, erstellen Sie in Ihren Kontoeinstellungen einen neuen Kontowiederherstellungsschlüssel, um zu verhindern, dass Ihre gespeicherten Passwörter, Lesezeichen, Chronik und mehr verloren gehen.
+postRemoveAccountRecovery-body-part2 = Falls noch nicht geschehen, erstellen Sie in Ihren Kontoeinstellungen einen neuen Kontowiederherstellungsschlüssel, um zu verhindern, dass Ihre gespeicherten Passwörter, Lesezeichen, Chronik und mehr verloren gehen.
 postRemoveAccountRecovery-action = Benutzerkonto verwalten
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt
