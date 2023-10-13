@@ -514,7 +514,7 @@ la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
 la-set-password-button = Emoĩ Ñe’ẽñemi
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
-la-unlink-content-3 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua upéicha, embotyraẽva’erã tembiapo nde pópe pe Mba’eporu jeikepyréva ndive.
+la-unlink-content-3 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’eporúgui. Ejapo hag̃ua upéicha, embotyraẽva’erã tembiapo nde pópe pe Mba’eporu jeikepyréva ndive.
 la-unlink-content-4 = Ejeiete mboyve ne mba’etégui, emoheñói ñe’ẽñemi. Ñe’ẽñemi’ỹre, neremoñepyrũkuaamo’ãi tembiapo ejei rire ne mba’etégui.
 nav-linked-accounts = { la-heading }
 
