@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Alc al è lât strucj. Impussibil invi�
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Siere
+brand-banner-dismiss-button-2 =
+    .aria-label = Siere strisson
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = I { -product-firefox-accounts } a cambiaran non in { -product-mozilla-accounts } dal 1ⁿ di Novembar
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.

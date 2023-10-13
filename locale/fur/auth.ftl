@@ -388,6 +388,7 @@ postNewRecoveryCodes-action = Gjestìs account
 postRemoveAccountRecovery-subject-2 = Clâf di recupar dal account eliminade
 postRemoveAccountRecovery-title-3 = Tu âs eliminât la clâf direcupar dal account
 postRemoveAccountRecovery-body-part1 = La clâf di recupar dal account e je necessarie par ripristinâ i dâts di navigazion cifrâts se tu dismenteis la password.
+postRemoveAccountRecovery-body-part2 = Se no tu lu âs za fat, cree une gnove clâf di recupar dal account tes impostazions par evitâ di pierdi i tiei dâts salvâts come lis passwords, i segnelibris, la cronologjie di navigazion e ancjemò altri.
 postRemoveAccountRecovery-action = Gjestìs account
 postRemoveSecondary-subject = E-mail secondarie gjavade
 postRemoveSecondary-title = E-mail secondarie gjavade
