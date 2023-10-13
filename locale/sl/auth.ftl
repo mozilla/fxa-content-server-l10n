@@ -120,7 +120,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ta zahteva je prišla 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Ta zahteva je prišla iz sistema { $uaOS }.
-automatedEmailRecoveryKey-delete-key-change-pwd = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">izbrišite novi ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
+automatedEmailRecoveryKey-delete-key-change-pwd = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">izbrišite nov ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
 automatedEmailRecoveryKey-change-pwd-only = Če to niste bili vi, <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
 automatedEmailRecoveryKey-more-info = Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
