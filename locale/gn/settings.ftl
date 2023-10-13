@@ -964,6 +964,10 @@ terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
 terms-privacy-agreement-pocket = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu ñemigua</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Mba’epytyvõrã ñemboguata ha marandu’i ñemigua</monitorTos> { -product-firefox-monitor } mba’e
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Mba’epytyvõrã ñemboguata ha marandu’i ñemigua</monitorTos> { -product-firefox-monitor } mba’e
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } <firefoxTos>Mba’eporurã ñemboguata</firefoxTos> ha <firefoxPrivacy>Marandu ñemigua</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

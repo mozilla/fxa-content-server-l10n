@@ -120,6 +120,8 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ko mba’ejerure ou { 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Ko mba’ejerure ou { $uaOS }-gui.
+automatedEmailRecoveryKey-change-pwd-only = ¿Nandéiramo? <a data-l10n-name="passwordChangeLink">Emoambue ne ñe’ẽñemi</a>.
+automatedEmailRecoveryKey-more-info = Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõhápe</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Ko mba’ejerure ou:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -137,6 +139,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Neremoambuéiramo, embojevyjey ne ñe’ẽñemi ko’ág̃a { $resetLink } ndive
+brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 cancellationSurvey = Orepytyvõna romoĩporãvévo mba’eporu ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’eporurã rojapóvo ko ñeporandu:
@@ -376,6 +379,7 @@ postNewRecoveryCodes-title-2 = Emoheñói ayvu ñemoneĩrã pyahu jeykekoha
 postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
 postRemoveAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã:
+postRemoveAccountRecovery-title-3 = Emboguéma ne mba’ete mba’eñemi guerujeyrã
 postRemoveAccountRecovery-action = Mba’ete ñangareko
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
