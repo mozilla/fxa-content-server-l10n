@@ -295,16 +295,8 @@ passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδ
 passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
-postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Δημιουργήθηκε ένα νέο κλειδί από:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Δεν είστε εσείς;
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
-postAddAccountRecovery-delete-key = Διαγραφή του νέου κλειδιού:
-postAddAccountRecovery-changd-password = Αλλαγή κωδικού πρόσβασης:
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
 postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμός με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 #  Variables:
@@ -320,6 +312,8 @@ postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την τα�
 postAddTwoStepAuthentication-from-device = Ενεργοποιήθηκε από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-code-required-2 = Απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση.
+postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
+postChangeAccountRecovery-action = Διαχείριση λογαριασμού
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
 # Variables:
@@ -344,11 +338,7 @@ postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρ�
 postNewRecoveryCodes-description-2 = Δημιουργήθηκαν στο:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
-postRemoveAccountRecovery-title-2 = Διαγράψατε το κλειδί ανάκτησης λογαριασμού σας.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Διαγράφηκε από το:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
-postRemoveAccountRecovery-invalid-2 = Χρειάζεστε ένα κλειδί ανάκτησης λογαριασμού για να ανακτήσετε τα δεδομένα σας από το { -brand-firefox } εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
