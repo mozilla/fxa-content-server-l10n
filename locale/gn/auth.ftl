@@ -124,6 +124,13 @@ automatedEmailRecoveryKey-origin-device-OS-only = Ko mba’ejerure ou { $uaOS }-
 automatedEmailRecoveryKey-origin-plaintext = Ko mba’ejerure ou:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Nandéiramo, embogue mba’eñemi pyahu:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Nandéiramo, emoambue ne ñe’ẽñemi:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ha emoambue ne ñe’ẽñemi:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Eikuaave hag̃ua, eike { -brand-mozilla } pytyvõme:
 automated-email-reset =
     Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="resetLink">emoambue ne ñe’ẽñemi</a>.
     Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
@@ -324,6 +331,7 @@ passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã py
 passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
+postAddAccountRecovery-subject-3 = Mba’eñemi pyahu mba’ete guerujeyrã heñóima
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
@@ -341,6 +349,7 @@ postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 postAddTwoStepAuthentication-from-device = Embojuruja upe guive:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembiporu’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
+postChangeAccountRecovery-action = Mba’ete ñangareko
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 # Variables:

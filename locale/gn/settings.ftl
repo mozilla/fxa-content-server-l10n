@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Oĩ nosẽporãiva. Noñemondokuaái ay
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Mboty
+brand-banner-dismiss-button-2 =
+    .aria-label = Emboty banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla-accounts }  1 jasypateĩ guive
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
