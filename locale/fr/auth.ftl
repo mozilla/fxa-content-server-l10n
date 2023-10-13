@@ -339,8 +339,6 @@ postAddAccountRecovery-subject-3 = Une nouvelle clé de récupération de compte
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Enregistrez cette clé dans un endroit sûr — vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
-# Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Cette clé ne peut être utilisée qu’une fois. Une fois que vous l’utiliserez, nous en créerons un nouveau pour vous. Vous pouvez également en créer un nouveau à tout moment depuis les paramètres de votre compte.
 postAddAccountRecovery-action = Gérer le compte
 postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nouveau compte lié à votre { -product-mozilla-account }
@@ -359,7 +357,6 @@ postAddTwoStepAuthentication-action = Gérer le compte
 postAddTwoStepAuthentication-code-required-2 = Un code de sécurité issu de votre application d’authentification est désormais requis à chaque connexion.
 postChangeAccountRecovery-subject = La clé de récupération du compte a été modifiée
 postChangeAccountRecovery-title = Vous avez modifié la clé de récupération de votre compte
-postChangeAccountRecovery-body-part1 = Vous avez maintenant une nouvelle clé de récupération de compte. Votre clé précédente a été supprimée.
 postChangeAccountRecovery-body-part2 = Enregistrez cette nouvelle clé dans un endroit sûr — vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
 postChangeAccountRecovery-action = Gérer le compte
 postChangePrimary-subject = Adresse e-mail principale mise à jour
