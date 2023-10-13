@@ -111,6 +111,19 @@ automatedEmailRecoveryKey-origin-device-browser-os = Ko mba’ejerure ou { $uaBr
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Ko mba’ejerure ou { $uaBrowser }-gui.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Ko mba’ejerure ou { $uaOS } { $uaOSVersion }-gui.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Ko mba’ejerure ou { $uaOS }-gui.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Ko mba’ejerure ou:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Nandéiramo, embogue mba’eñemi pyahu:
 automated-email-reset =
     Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="resetLink">emoambue ne ñe’ẽñemi</a>.
     Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
