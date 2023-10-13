@@ -96,6 +96,21 @@ automated-email-no-action = { automated-email-no-action-plaintext } Par vê plui
 automated-email-no-action-plaintext = Cheste e je une e-mail mandade di un servizi automatic. Se tu âs ricevût cheste e-mail par erôr, nol covente fâ nuie.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Chest messaç al è stât mandât di un servizi automatic. Se no tu âs autorizât tu cheste operazion, cambie la tô password:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Cheste richieste e rive di { $uaBrowser } su { $uaOS }  { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Cheste richieste e rive di { $uaBrowser } su { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Cheste richieste e rive di { $uaBrowser }.
 automated-email-reset =
     Cheste e-mail e je stade inviade di un servizi automatic. Se no tu âs autorizât tu cheste azion, <a data-l10n-name="resetLink">ristabilìs la tô password</a>.
     Par vê plui informazions, visite la pagjine dal <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
@@ -296,16 +311,8 @@ passwordResetAccountRecovery-action-2 = Cree une gnove clâf di recupar dal acco
 passwordResetAccountRecovery-regen-required-mjml-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî chê che tu âs doprât.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Al coventarà jentrâ di gnûf su ducj i tiei dispositîfs sincronizâts. Visiti di creâ une gnove clâf di recupar dal account par sostituî che che tu âs doprât:
-postAddAccountRecovery-subject-2 = Creade clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = E je stade creade une gnove clâf di:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = No jeristu tu?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimine la gnove clâf</a> e <a data-l10n-name="passwordChangeLink">cambie la tô password</a>
 postAddAccountRecovery-action = Gjestìs account
-postAddAccountRecovery-delete-key = Elimine la gnove clâf:
-postAddAccountRecovery-changd-password = Cambie la tô password:
 postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Gnûf account colegât al to { -product-mozilla-account }
 #  Variables:
@@ -345,11 +352,7 @@ postNewRecoveryCodes-title-2 = Tu âs creât gnûfs codiçs di autenticazion di 
 postNewRecoveryCodes-description-2 = A son stâts creâts su:
 postNewRecoveryCodes-action = Gjestìs account
 postRemoveAccountRecovery-subject-2 = Clâf di recupar dal account eliminade
-postRemoveAccountRecovery-title-2 = Tu âs eliminât la tô clâf di recupar dal account.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = E je stade eliminade di:
 postRemoveAccountRecovery-action = Gjestìs account
-postRemoveAccountRecovery-invalid-2 = Se tu dismenteis la tô password, tu scugnis doprâ une clâf di recupar dal account par recuperâ i tiei dâts di { -brand-firefox }.
 postRemoveSecondary-subject = E-mail secondarie gjavade
 postRemoveSecondary-title = E-mail secondarie gjavade
 # Variables:
