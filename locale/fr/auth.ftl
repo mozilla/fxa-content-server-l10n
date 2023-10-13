@@ -335,10 +335,12 @@ passwordResetAccountRecovery-action-2 = Créer une nouvelle clé de récupérati
 passwordResetAccountRecovery-regen-required-mjml-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée :
-postAddAccountRecovery-subject-3 = Une nouvelle clé de récupération de compte a été créée.
+postAddAccountRecovery-subject-3 = Une nouvelle clé de récupération de compte a été créée
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = Enregistrez cette clé dans un endroit sûr — vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
+postAddAccountRecovery-body-part1 = Conservez cette clé en lieu sûr, vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Cette clé ne peut être utilisée qu’une seule fois. Après son utilisation, nous en génèrerons automatiquement une nouvelle pour vous. Vous pouvez également en créer une à tout moment depuis les paramètres de votre compte.
 postAddAccountRecovery-action = Gérer le compte
 postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nouveau compte lié à votre { -product-mozilla-account }
@@ -358,7 +360,7 @@ postAddTwoStepAuthentication-code-required-2 = Un code de sécurité issu de vot
 postChangeAccountRecovery-subject = La clé de récupération du compte a été modifiée
 postChangeAccountRecovery-title = Vous avez modifié la clé de récupération de votre compte
 postChangeAccountRecovery-body-part1 = Vous disposez maintenant d’une nouvelle clé de récupération de compte. Votre clé précédente a été supprimée.
-postChangeAccountRecovery-body-part2 = Enregistrez cette nouvelle clé dans un endroit sûr — vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
+postChangeAccountRecovery-body-part2 = Conservez cette nouvelle clé en lieu sûr, vous en aurez besoin pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
 postChangeAccountRecovery-action = Gérer le compte
 postChangePrimary-subject = Adresse e-mail principale mise à jour
 postChangePrimary-title = Nouvelle adresse e-mail principale
@@ -384,9 +386,9 @@ postNewRecoveryCodes-title-2 = Vous avez créé de nouveaux codes d’authentifi
 postNewRecoveryCodes-description-2 = Ils ont été créé sur :
 postNewRecoveryCodes-action = Gérer le compte
 postRemoveAccountRecovery-subject-2 = Clé de récupération de compte supprimée
-postRemoveAccountRecovery-title-3 = Vous avez supprimé votre clé de récupération de compte
+postRemoveAccountRecovery-title-3 = Vous avez supprimé la clé de récupération de votre compte
 postRemoveAccountRecovery-body-part1 = Votre clé de récupération de compte est nécessaire pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
-postRemoveAccountRecovery-body-part2 = Si ce n’est pas déjà fait, créez une nouvelle clé de récupération dans les paramètres de votre compte pour éviter de perdre vos mots de passe, marque-pages, historique de navigation, etc. enregistrés.
+postRemoveAccountRecovery-body-part2 = Si ce n’est pas déjà fait, créez une nouvelle clé de récupération depuis les paramètres de votre compte pour éviter de perdre vos mots de passe, marque-pages, historique de navigation et autres données enregistrées.
 postRemoveAccountRecovery-action = Gérer le compte
 postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
 postRemoveSecondary-title = L’adresse e-mail secondaire a été supprimée
