@@ -314,6 +314,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתח�
 passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
 postAddAccountRecovery-subject-3 = נוצר מפתח חדש לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = יש לשמור את מפתח זה במקום בטוח - יהיה בו צורך כדי לשחזר את נתוני הגלישה המוצפנים שלך אם הססמה שלך תישכח.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = ניתן להשתמש במפתח זה רק פעם אחת. לאחר השימוש בו, ניצור מפתח חדש עבורך. באפשרותך גם ליצור מפתח חדש בכל עת מהגדרות החשבון שלך.
 postAddAccountRecovery-action = ניהול חשבון
 postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
 postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozilla-account(case: "the") } שלך
