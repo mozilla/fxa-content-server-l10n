@@ -963,9 +963,9 @@ terms-privacy-agreement-pocket = <pocketTos>Pogoji storitve</pocketTos> in <pock
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
 # link to Firefox Monitor's Terms of Service and Privacy Notice
-terms-privacy-agreement-monitor = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }a
+terms-privacy-agreement-monitor = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }ja
 # link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos>
+terms-privacy-agreement-monitor-2 = <monitorTos>Pogoji storitve in obvestilo o zasebnosti</monitorTos> { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Pogoji storitve</firefoxTos> in <firefoxPrivacy>Obvestilo o zasebnosti</firefoxPrivacy> { -brand-firefox }a
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

@@ -126,7 +126,7 @@ automatedEmailRecoveryKey-more-info = Za več informacij obiščite <a data-l10n
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Ta zahteva prihaja iz:
 # Colon is followed by a URL to the account recovery key section of account settings
-automatedEmailRecoveryKey-notyou-delete-key-plaintext = Če to niste bili vi, izbrišite novi ključ:
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Če to niste bili vi, izbrišite nov ključ:
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Če to niste bili vi, spremenite svoje geslo:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
