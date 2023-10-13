@@ -138,6 +138,7 @@ automated-email-reset = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 若您沒有要求變更，請立即到 { $resetLink } 重設密碼。
+brand-banner-message = 您知道我們將 { -product-firefox-accounts }的名稱更改為 { -product-mozilla-accounts }了嗎？<a data-l10n-name="learnMore">更多資訊</a>
 cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl">簡短問卷</a>幫助我們改善服務品質。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 請填寫這份簡短問卷幫助我們改善服務品質：
@@ -333,6 +334,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步
 passwordResetAccountRecovery-regen-required-txt-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰：
 postAddAccountRecovery-subject-3 = 已建立新帳號救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = 請將這把金鑰存放在安全的地方，未來萬一忘記密碼時，需要使用此金鑰才可以取回加密的上網資料。
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = 這把金鑰只能使用一次，使用後我們會自動再產生一把新的金鑰。您也可以隨時到帳號設定當中更換。
 postAddAccountRecovery-action = 管理帳號
 postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozilla-account }
@@ -350,6 +355,9 @@ postAddTwoStepAuthentication-from-device = 您從下列位置開啟：
 postAddTwoStepAuthentication-action = 管理帳號
 postAddTwoStepAuthentication-code-required-2 = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
+postChangeAccountRecovery-title = 您已更換帳號救援金鑰
+postChangeAccountRecovery-body-part1 = 您已產生新的帳號救援金鑰，舊金鑰已刪除。
+postChangeAccountRecovery-body-part2 = 請將這把新的金鑰存放在安全的地方，未來萬一忘記密碼時，需要使用此金鑰才可以取回加密的上網資料。
 postChangeAccountRecovery-action = 管理帳號
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
@@ -374,6 +382,7 @@ postNewRecoveryCodes-title-2 = 您已產生新的備用驗證碼
 postNewRecoveryCodes-description-2 = 建立自：
 postNewRecoveryCodes-action = 管理帳號
 postRemoveAccountRecovery-subject-2 = 已刪除帳號救援金鑰
+postRemoveAccountRecovery-title-3 = 您已刪除帳號救援金鑰。
 postRemoveAccountRecovery-action = 管理帳號
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
