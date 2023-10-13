@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-13 01:50+0000\n"
+"PO-Revision-Date: 2023-10-13 11:41+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1162,6 +1162,9 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"              Al continuar,  aceptas:<br />\n"
+"              Los <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">términos del servicio y aviso de privacidad</a> de Firefox Monitor <br />\n"
+"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:18 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1212,6 +1215,9 @@ msgid ""
 "          Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"Al continuar, aceptas: <br />\n"
+"Las <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">condiciones del servicio </a> de Pocket y la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">política de privacidad</a><br />.\n"
+"Las <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">condiciones del servicio</a> y la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">política de privacidad</a> de Firefox"
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1221,6 +1227,9 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"              Al continuar,  aceptas:<br />\n"
+"              Los <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">términos del servicio y aviso de privacidad</a> de Firefox Monitor <br />\n"
+"              Los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">términos del servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" de Firefox href=\"/legal/privacy\">aviso de privacidad</a> de Firefox"
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
