@@ -21,7 +21,7 @@
 # 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = { -brand-name-mozilla } account
+-product-mozilla-account = Mozilla account
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
 -product-mozilla-accounts =
