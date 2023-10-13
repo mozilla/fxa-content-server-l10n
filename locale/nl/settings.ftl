@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Er is iets misgegaan. Er kon geen nieuw
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Sluiten
+brand-banner-dismiss-button-2 =
+    .aria-label = Banner sluiten
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } wordt op 1 november omgedoopt naar { -product-mozilla-accounts }
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -964,6 +964,10 @@ terms-privacy-agreement-intro-2 = Door verder te gaan, gaat u akkoord met de:
 terms-privacy-agreement-pocket = De <pocketTos>Servicevoorwaarden</pocketTos> en <pocketPrivacy>Privacyverklaring</pocketPrivacy> van { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = De <pocketTos>Servicevoorwaarden</pocketTos> en <pocketPrivacy>Privacyverklaring</pocketPrivacy> van { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = De <monitorTos>Servicevoorwaarden en Privacyverklaring</monitorTos> van { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } <monitorTos>Servicevoorwaarden en Privacyverklaring</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = De <firefoxTos>Servicevoorwaarden</firefoxTos> en <firefoxPrivacy>Privacyverklaring</firefoxPrivacy> van { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

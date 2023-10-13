@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Ga voor meer
 automated-email-no-action-plaintext = Dit is een geautomatiseerd bericht. Als u het per ongeluk hebt ontvangen, hoeft u niets te doen.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, wijzig dan uw wachtwoord:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Deze aanvraag is afkomstig van { $uaBrowser } op { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Deze aanvraag is afkomstig van { $uaBrowser } op { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Deze aanvraag is afkomstig van { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Deze aanvraag is afkomstig van { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Dit verzoek is afkomstig van { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Als u dit niet was, <a data-l10n-name="revokeAccountRecoveryLink">verwijder dan de nieuwe sleutel</a> en <a data-l10n-name="passwordChangeLink">wijzig uw wachtwoord</a>
+automatedEmailRecoveryKey-change-pwd-only = Als u dit niet was, <a data-l10n-name="passwordChangeLink">wijzig dan uw wachtwoord</a>.
+automatedEmailRecoveryKey-more-info = Bezoek voor meer info <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Deze aanvraag is afkomstig van:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Als u dit niet was, verwijder dan de nieuwe sleutel:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Als u dit niet was, wijzig dan uw wachtwoord:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = en wijzig uw wachtwoord:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Bezoek voor meer info { -brand-mozilla } Support:
 automated-email-reset =
     Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, <a data-l10n-name="resetLink">herinitialiseer dan uw wachtwoord</a>.
     Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Als u het niet hebt gewijzigd, stel uw wachtwoord dan nu opnieuw in via { $resetLink }
+brand-banner-message = Wist u dat we onze naam hebben gewijzigd van { -product-firefox-accounts } naar { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Meer info</a>
 cancellationSurvey = Help ons onze dienstverlening te verbeteren door deze <a data-l10n-name="cancellationSurveyUrl">korte enquête</a> in te vullen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Help ons onze dienstverlening te verbeteren door deze korte enquête in te vullen:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = Een nieuwe accountherstelsleutel aanmake
 passwordResetAccountRecovery-regen-required-mjml-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen:
-postAddAccountRecovery-subject-2 = Sleutel voor accountherstel aangemaakt
+postAddAccountRecovery-subject-3 = Nieuwe accountherstelsleutel aangemaakt
 postAddAccountRecovery-title2 = U hebt een nieuwe sleutel voor accountherstel aangemaakt
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Er is een nieuwe sleutel gemaakt op basis van:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Bent u dit niet?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Verwijder de nieuwe sleutel</a> en <a data-l10n-name="passwordChangeLink">wijzig uw wachtwoord</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Bewaar deze sleutel op een veilige plek – u hebt hem nodig om uw versleutelde navigatiegegevens te herstellen als u uw wachtwoord vergeet.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Deze sleutel kan maar één keer worden gebruikt. Nadat u deze hebt gebruikt, maken we automatisch een nieuwe voor u aan. Of u kunt op elk gewenst moment een nieuwe aanmaken vanuit uw accountinstellingen.
 postAddAccountRecovery-action = Account beheren
-postAddAccountRecovery-delete-key = Verwijder de nieuwe sleutel:
-postAddAccountRecovery-changd-password = Wijzig uw wachtwoord:
 postAddLinkedAccount-subject = Nieuwe account gekoppeld aan { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nieuwe account gekoppeld aan uw { -product-mozilla-account }
 #  Variables:
@@ -321,6 +357,11 @@ postAddTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen inge
 postAddTwoStepAuthentication-from-device = U hebt het ingeschakeld vanaf:
 postAddTwoStepAuthentication-action = Account beheren
 postAddTwoStepAuthentication-code-required-2 = Telkens als u zich aanmeldt zijn nu beveiligingscodes vanaf uw authenticatie-app vereist.
+postChangeAccountRecovery-subject = Accountherstelsleutel gewijzigd
+postChangeAccountRecovery-title = U hebt uw accountherstelsleutel gewijzigd
+postChangeAccountRecovery-body-part1 = U hebt nu een nieuwe accountherstelsleutel. Uw vorige sleutel is verwijderd.
+postChangeAccountRecovery-body-part2 = Bewaar deze nieuwe sleutel op een veilige plek – u hebt hem nodig om uw versleutelde navigatiegegevens te herstellen als u uw wachtwoord vergeet.
+postChangeAccountRecovery-action = Account beheren
 postChangePrimary-subject = Primair e-mailadres bijgewerkt
 postChangePrimary-title = Nieuw primair e-mailadres
 # Variables:
@@ -345,11 +386,10 @@ postNewRecoveryCodes-title-2 = U hebt nieuwe reserve-authenticatiecodes aangemaa
 postNewRecoveryCodes-description-2 = Ze zijn aangemaakt op:
 postNewRecoveryCodes-action = Account beheren
 postRemoveAccountRecovery-subject-2 = Sleutel voor accountherstel verwijderd
-postRemoveAccountRecovery-title-2 = U hebt uw sleutel voor accountherstel verwijderd.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Deze is verwijderd vanaf:
+postRemoveAccountRecovery-title-3 = U hebt uw accountherstelsleutel verwijderd
+postRemoveAccountRecovery-body-part1 = Uw accountherstelsleutel is vereist om uw versleutelde navigatiegegevens te herstellen als u uw wachtwoord vergeet.
+postRemoveAccountRecovery-body-part2 = Maak, als u dat nog niet hebt gedaan, een nieuwe accountherstelsleutel aan in uw accountinstellingen om te voorkomen dat u uw opgeslagen wachtwoorden, bladwijzers, navigatiegeschiedenis en meer kwijtraakt.
 postRemoveAccountRecovery-action = Account beheren
-postRemoveAccountRecovery-invalid-2 = U hebt een accountherstelsleutel nodig om uw { -brand-firefox }-gegevens te herstellen als u uw wachtwoord bent vergeten.
 postRemoveSecondary-subject = Secundair e-mailadres verwijderd
 postRemoveSecondary-title = Secundair e-mailadres verwijderd
 # Variables:
