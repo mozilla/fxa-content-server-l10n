@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Რაღაც ხარვეზი �
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = დახურვა
+brand-banner-dismiss-button-2 =
+    .aria-label = სარკმლის დახურვა
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts } 1 ნოემბრიდან.
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -964,6 +964,10 @@ terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამ�
 terms-privacy-agreement-pocket = { -product-pocket }-ის <pocketTos>მომსახურების პირობებსა</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადს</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket }-ის <pocketTos>მომსახურების პირობები</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადი</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor }-ის <monitorTos>მომსახურების პირობებისა და პირადულობის დებულება</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor }-ის <monitorTos>მომსახურების პირობებისა და პირადულობის დებულება</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox }-ის <firefoxTos>მომსახურების პირობებსა</firefoxTos> და <firefoxPrivacy>პირადულობის დაცვის განაცხადს</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

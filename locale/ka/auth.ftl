@@ -388,6 +388,7 @@ postNewRecoveryCodes-action = ანგარიშის მართვა
 postRemoveAccountRecovery-subject-2 = ანგარიშის აღდგენის გასაღები წაშლილია
 postRemoveAccountRecovery-title-3 = თქვენ წაშალეთ ანგარიშის აღდგენის გასაღები.
 postRemoveAccountRecovery-body-part1 = თქვენი ანგარიშის აღდგენის გასაღები საჭიროა ბრაუზერის დაშიფრული მონაცემების აღსადგენად, თუ დაგავიწყდებათ პაროლი.
+postRemoveAccountRecovery-body-part2 = თუ ჯერ არ გაქვთ, შექმენით ანგარიშის აღდგენის ახალი გასაღები თქვენი ანგარიშის პარამეტრებიდან, რომ აირიდოთ შენახული პაროლების, სანიშნების, ისტორიისა და სხვა მონაცემების დაკარგვა.
 postRemoveAccountRecovery-action = ანგარიშის მართვა
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
