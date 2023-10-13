@@ -86,7 +86,7 @@ ios-download-plaintext = ჩამოტვირთეთ { $productName } App 
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = დააყენეთ { $productName } სხვა მოწყობილობაზე:
 automated-email-change-2 = თუ ეს თქვენი ნამოქმედარი არაა, <a data-l10n-name="passwordChangeLink">შეცვალეთ პაროლი</a> დაუყოვნებლივ.
-automated-email-support = დამატებით, იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-ს მხარდაჭერის გვერდი</a>.
+automated-email-support = დამატებით იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-ს მხარდაჭერის გვერდი</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = თუ ეს თქვენი ნამოქმედარი არაა, შეცვალეთ პაროლი დაუყოვნებლივ:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -96,6 +96,37 @@ automated-email-no-action = { automated-email-no-action-plaintext } ვრცლ
 automated-email-no-action-plaintext = ეს წერილი ავტომატურად იგზავნება. თუ შეცდომით მიიღეთ, საჭირო არაა რამე მოიმოქმედოთ.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = ეს ავტომატური შეტყობინებაა; თუ ეს მოქმედება თქვენს უნებართვოდ შესრულდა, მაშინ გთხოვთ, შეცვალოთ პაროლი:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = მოთხოვნის წყაროა { $uaBrowser } სისტემიდან { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = მოთხოვნის წყაროა { $uaBrowser } სისტემიდან { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = მოთხოვნის წყაროა { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = მოთხოვნის წყაროა { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = მოთხოვნის წყაროა { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = თუ თქვენ არ ყოფილხართ, <a data-l10n-name="revokeAccountRecoveryLink">წაშალეთ ახალი გასაღები</a> და <a data-l10n-name="passwordChangeLink">შეცვალეთ თქვენი პაროლი</a>
+automatedEmailRecoveryKey-change-pwd-only = თუ თქვენ არ ყოფილხართ, <a data-l10n-name="passwordChangeLink">შეცვალეთ პაროლი</a>.
+automatedEmailRecoveryKey-more-info = დამატებით იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-ს მხარდაჭერის გვერდი</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = მოთხოვნის წყაროა:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = თუ თქვენ არ ყოფილხართ, წაშალეთ ახალი გასაღები:
 automated-email-reset =
     ეს ავტომატური შეტყობინებაა; თუ მოცემული მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, მაშინ <a data-l10n-name="resetLink">გთხოვთ, გაანულოთ პაროლი.</a>.
     ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } მხარდაჭერის გვერდი</a>.
@@ -296,16 +327,8 @@ passwordResetAccountRecovery-action-2 = ანგარიშის აღდგ
 passwordResetAccountRecovery-regen-required-mjml-1 = ახლიდან შესვლა დაგჭირდებათ ყველა დასინქრონებულ მოწყობილობაზე. არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებით ძველის ჩანაცვლება.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = ახლიდან შესვლა დაგჭირდებათ ყველა დასინქრონებულ მოწყობილობაზე. არ დაგავიწყდეთ ანგარიშის აღდგენის ახალი გასაღებით ძველის ჩანაცვლება:
-postAddAccountRecovery-subject-2 = ანგარიშის აღდგენის გასაღები შექმნილია
 postAddAccountRecovery-title2 = ანგარიშის აღდგენის ახალი გასაღები შეიქმნა
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = შეიქმნა ახალი გასაღები:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = თქვენ არ ყოფილხართ?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">წაშალეთ ახალი გასაღები</a> და <a data-l10n-name="passwordChangeLink">შეცვალოთ თქვენი პაროლი</a>
 postAddAccountRecovery-action = ანგარიშის მართვა
-postAddAccountRecovery-delete-key = ახალი გასაღების წაშლა:
-postAddAccountRecovery-changd-password = პაროლის შეცვლა:
 postAddLinkedAccount-subject = ახალ ანგარიშს დაუკავშირდა { -brand-firefox }
 postAddLinkedAccount-subject-2 = ახალი ანგარიში დაკავშირებულია თქვენს { -product-mozilla-account(case: "add") }
 #  Variables:
@@ -345,11 +368,7 @@ postNewRecoveryCodes-title-2 = შექმნილია შესვლის
 postNewRecoveryCodes-description-2 = შეიქმნა აქედან:
 postNewRecoveryCodes-action = ანგარიშის მართვა
 postRemoveAccountRecovery-subject-2 = ანგარიშის აღდგენის გასაღები წაშლილია
-postRemoveAccountRecovery-title-2 = ანგარიშის აღდგენის ახალი გასაღები წაიშალა.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = წაიშალა აქედან:
 postRemoveAccountRecovery-action = ანგარიშის მართვა
-postRemoveAccountRecovery-invalid-2 = ანგარიშის აღდგენის გასაღები დაგჭირდებათ { -brand-firefox }-მონაცემების დასაბრუნებლად პაროლის დავიწყებისას.
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
 # Variables:
