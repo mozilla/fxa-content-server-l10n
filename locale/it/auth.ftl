@@ -110,25 +110,25 @@ automatedEmailRecoveryKey-origin-device-browser-os = Questa richiesta è stata i
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
-automatedEmailRecoveryKey-origin-device-browser-only = Questa richiesta proviene da { $uaBrowser }.
+automatedEmailRecoveryKey-origin-device-browser-only = Questa richiesta è stata inviata da { $uaBrowser }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
-automatedEmailRecoveryKey-origin-device-OS-version-only = Questa richiesta proviene da { $uaOS } { $uaOSVersion }.
+automatedEmailRecoveryKey-origin-device-OS-version-only = Questa richiesta è stata inviata da { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Questa richiesta è stata inviata da { $uaOS }.
-automatedEmailRecoveryKey-delete-key-change-pwd = Se non sei stato tu, <a data-l10n-name="revokeAccountRecoveryLink">elimina la nuova chiave</a> e <a data-l10n-name="passwordChangeLink">cambia la password</a>.
-automatedEmailRecoveryKey-change-pwd-only = Se non sei stato tu, <a data-l10n-name="passwordChangeLink">cambia la password</a>.
+automatedEmailRecoveryKey-delete-key-change-pwd = Se questa operazione non è stata eseguita da te, <a data-l10n-name="revokeAccountRecoveryLink">elimina la nuova chiave</a> e <a data-l10n-name="passwordChangeLink">cambia la tua password</a>.
+automatedEmailRecoveryKey-change-pwd-only = Se questa operazione non è stata eseguita da te, <a data-l10n-name="passwordChangeLink">cambia la password</a>.
 automatedEmailRecoveryKey-more-info = Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
-automatedEmailRecoveryKey-origin-plaintext = Questa richiesta proveniva da:
+automatedEmailRecoveryKey-origin-plaintext = Questa richiesta è stata inviata da:
 # Colon is followed by a URL to the account recovery key section of account settings
-automatedEmailRecoveryKey-notyou-delete-key-plaintext = Se non sei stato tu, elimina la nuova chiave:
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Se questa operazione non è stata eseguita da te, elimina la nuova chiave:
 # Colon is followed by a URL to the change password section of account settings
-automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Se non eri tu, cambia la password:
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Se questa operazione non è stata eseguita da te, cambia la password:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e cambia la password:
