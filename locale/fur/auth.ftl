@@ -339,6 +339,8 @@ postAddAccountRecovery-subject-3 = Gjenerade gnove clâf di recupar dal account
 postAddAccountRecovery-title2 = Tu âs creât une gnove clâf di recupar dal account
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Salve cheste clâf intun puest sigûr: ti coventarà par ripristinâ i dâts di navigazion cifrâts se tu dismenteis la password.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Al è pussibil doprâ cheste clâf nome une volte. Dopo doprade, ti crearìn in automatic une gnove. Opûr, da lis impostazions dal account, tu puedis creâ une gnove clâf in cualsisei moment.
 postAddAccountRecovery-action = Gjestìs account
 postAddLinkedAccount-subject = Gnûf account colegât a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Gnûf account colegât al to { -product-mozilla-account }
