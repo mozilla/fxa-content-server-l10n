@@ -96,6 +96,21 @@ automated-email-no-action = { automated-email-no-action-plaintext } Eñemomarand
 automated-email-no-action-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva. Og̃uahẽrei rire ndéve, anínte ejapo mba’eve.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva; neremoneĩriramo ko mba’e, emoambue ne ñe’ẽñemi:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Ko mba’ejerure ou { $uaBrowser }-gui { $uaOS } { $uaOSVersion }-pe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Ko mba’ejerure ou { $uaBrowser }-gui { $uaOS }-pe.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Ko mba’ejerure ou { $uaBrowser }-gui.
 automated-email-reset =
     Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="resetLink">emoambue ne ñe’ẽñemi</a>.
     Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
@@ -296,16 +311,8 @@ passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã py
 passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eiporuva’ekue.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eiporuva’ekue.
-postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Oñemoheñói mba’eñemi jeguerujeyrã ko’águi:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = ¿Nderehóipiko?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Embogue ñe’ẽñemi pyahu</a> ha <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a>
 postAddAccountRecovery-action = Mba’ete ñangareko
-postAddAccountRecovery-delete-key = Embogue ñe’ẽñemi pyahu:
-postAddAccountRecovery-changd-password = Emoambue ne ñe’ẽñemi:
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
 #  Variables:
@@ -345,11 +352,7 @@ postNewRecoveryCodes-title-2 = Emoheñói ayvu ñemoneĩrã pyahu jeykekoha
 postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
 postRemoveAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã:
-postRemoveAccountRecovery-title-2 = Embogue pe mba’eñemi jeguerujeyrã ne mba’etégui.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Ñemboguepyre:
 postRemoveAccountRecovery-action = Mba’ete ñangareko
-postRemoveAccountRecovery-invalid-2 = Eikotevẽ ayvu mba’ete jeguerujeyrã erekojey hag̃ua mba’ekuaarã { -brand-firefox } guive nderesaáirõ ñe’ẽñemígui.
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 # Variables:
