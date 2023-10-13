@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Gean foar me
 automated-email-no-action-plaintext = Dit is in automatisearre berjocht. As jo it mei fersin ûntfongen hawwe, hoege jo neat te dwaan.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, wizigje dan jo wachtwurd:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Dizze oanfraach is ôfkomstich fan { $uaBrowser } op { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Dizze oanfraach is ôfkomstich fan { $uaBrowser } op { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Dizze oanfraach is ôfkomstich fan { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Dizze oanfraach is ôfkomstich fan { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Dizze oanfraach is ôfkomstich fan { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = As jo dit net wiene, <a data-l10n-name="revokeAccountRecoveryLink">smyt dan de nije kaai fuort</a> en <a data-l10n-name="passwordChangeLink">wizigje jo wachtwurd</a>
+automatedEmailRecoveryKey-change-pwd-only = As jo dit net wiene, <a data-l10n-name="passwordChangeLink">wizigje dan jo wachtwurd</a>.
+automatedEmailRecoveryKey-more-info = Besykje foar mear ynfo <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Dizze oanfraach is ôfkomstich fan:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = As dit jo net wiene, smyt dan de nije kaai fuort:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = As dit jo net wiene, wizigje dan jo wachtwurd:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = en wizigje jo wachtwurd:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Besykje foar mear ynfo { -brand-mozilla } Support:
 automated-email-reset =
     Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="resetLink">inisjalisearje dan jo wachtwurd opnij</a>.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = As jo it net wizige hawwe, stel jo wachtwurd dan no opnij yn fia { $resetLink }
+brand-banner-message = Wisten jo dat wy ús namme wizige hawwe fan { -product-firefox-accounts } nei { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mear ynfo</a>
 cancellationSurvey = Help ús de tsjinstferliening te ferbetterjen troch dizze <a data-l10n-name="cancellationSurveyUrl">koarte enkête</a> yn te foljen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Help ús de tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = In nije accountwerstelkaai oanmeitsje
 passwordResetAccountRecovery-regen-required-mjml-1 = Jo moatte opnij oanmelde op al jo syngronisearre apparaten. Ferjit net om in nije accountwerstelkaai oan te meitsjen om de brûkte kaai te ferfangen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Jo moatte opnij oanmelde op al jo syngronisearre apparaten. Ferjit net om in nije accountwerstelkaai oan te meitsjen om de brûkte kaai te ferfangen.
-postAddAccountRecovery-subject-2 = Kaai foar accountwerstel oanmakke
+postAddAccountRecovery-subject-3 = Nije accountwerstelkaai oanmakke
 postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Der is in nije kaai makke op basis fan:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Binne jo dit net?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Smyt de nije kaai fuort</a> en <a data-l10n-name="passwordChangeLink">wizigje jo wachtwurd</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Bewarje dizze kaai op in feilich plak – jo hawwe it nedich om jo fersifere navigaasjegegevens te werstellen as jo jo wachtwurd ferjitte.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Dizze kaai kin mar ien kear brûkt wurde. Neidat jo it brûkt hawwe, meitsje wy automatysk in nije foar jo oan. Of jo kinne op elk momint in nije meitsje fan jo accountynstellingen út.
 postAddAccountRecovery-action = Account beheare
-postAddAccountRecovery-delete-key = Smyt de nije kaai fuort:
-postAddAccountRecovery-changd-password = Wizigje jo wachtwurd:
 postAddLinkedAccount-subject = Nije account keppele oan { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nije account keppele oan jo { -product-mozilla-account }
 #  Variables:
@@ -321,6 +357,7 @@ postAddTwoStepAuthentication-title-2 = Jo hawwe autentikaasje yn twa stappen yns
 postAddTwoStepAuthentication-from-device = Jo hawwe it ynskeakele fanôf:
 postAddTwoStepAuthentication-action = Account beheare
 postAddTwoStepAuthentication-code-required-2 = Hieltyd as jo jo oanmelde binne no befeiligingskoaden fan jo autentikaasje-app ôf fereaske.
+postChangeAccountRecovery-subject = Accountwerstelkaai wizige
 postChangePrimary-subject = Primêr e-mailadres fernijd
 postChangePrimary-title = Nij primêr e-mailadres
 # Variables:
@@ -345,11 +382,7 @@ postNewRecoveryCodes-title-2 = Jo hawwe nije reserve-autentikaasjekoaden oanmakk
 postNewRecoveryCodes-description-2 = Se binne oanmakke op:
 postNewRecoveryCodes-action = Account beheare
 postRemoveAccountRecovery-subject-2 = Kaai foar accountwerstel fuortsmiten
-postRemoveAccountRecovery-title-2 = Jo hawwe jo kaai foar accountwerstel fuortsmiten.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Dizze is fuortsmiten fanôf:
 postRemoveAccountRecovery-action = Account beheare
-postRemoveAccountRecovery-invalid-2 = Jo hawwe in accountwerstelkaai nedich om jo { -brand-firefox }-gegevens werom te heljen as jo jo wachtwurd ferjitten binne.
 postRemoveSecondary-subject = Sekundêr e-mailadres fuortsmiten
 postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 # Variables:
