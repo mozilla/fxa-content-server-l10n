@@ -111,12 +111,27 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = בקשה זו הגיע
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = בקשה זו הגיעה מ־{ $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = אם לא ביצעת פעולה זו, יש <a data-l10n-name="revokeAccountRecoveryLink">למחוק את המפתח החדש</a> ו<a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>
+automatedEmailRecoveryKey-change-pwd-only = אם לא ביצעת פעולה זו, יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>.
+automatedEmailRecoveryKey-more-info = למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = בקשה זו הגיעה מ:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = אם לא ביצעת פעולה זו, יש למחוק את המפתח החדש:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = אם לא ביצעת פעולה זו, יש לשנות את הססמה שלך:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ולשנות את הססמה שלך:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = למידע נוסף, ניתן לבקר בתמיכה של { -brand-mozilla }:
 automated-email-reset =
     זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="resetLink">לאפס את הססמה שלך</a>.
     למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = אם לא החלפת את הססמה שלך, נא לאפס אותה כעת בכתובת { $resetLink }
+brand-banner-message = האם ידעת ששינינו את השם שלנו מ־{ -product-firefox-accounts } ל{ -product-mozilla-accounts }? <a data-l10n-name="learnMore">מידע נוסף</a>
 cancellationSurvey = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי <a data-l10n-name="cancellationSurveyUrl">סקר קצר</a> זה.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי סקר קצר זה:
@@ -297,6 +312,7 @@ passwordResetAccountRecovery-action-2 = יצירת מפתח שחזור חשבו�
 passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
+postAddAccountRecovery-subject-3 = נוצר מפתח חדש לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
 postAddAccountRecovery-action = ניהול חשבון
 postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
