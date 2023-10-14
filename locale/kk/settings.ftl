@@ -965,6 +965,10 @@ terms-privacy-agreement-intro-2 = Жалғастыру арқылы сіз ке�
 terms-privacy-agreement-pocket = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = { -product-firefox-monitor } өнімінің <monitorTos>Қолдану шарттары және Жекелік ескертуі</monitorTos>
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = { -product-firefox-monitor } өнімінің <monitorTos>Қолдану шарттары және Жекелік ескертуі</monitorTos>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } өнімінің <firefoxTos>Қолдану шарттары</firefoxTos> және <firefoxPrivacy>Қауіпсіздік ескертуі</firefoxPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
