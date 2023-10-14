@@ -99,6 +99,17 @@ automated-email-not-authorized-plaintext = Isto es un e-mail automatisate; si tu
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Iste requesta veni ab  { $uaBrowser } sur { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Iste requesta veni ab  { $uaBrowser } sur { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Iste requesta veni ab { $uaBrowser }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
@@ -110,8 +121,17 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Iste requesta veni ab 
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Iste requesta veni ab { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Si isto non era tu, <a data-l10n-name="revokeAccountRecoveryLink">dele le nove clave</a> e <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>.
+automatedEmailRecoveryKey-change-pwd-only = Si isto non era tu, <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>.
+automatedEmailRecoveryKey-more-info = Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Iste requeste veni ab:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Si isto non era tue, dele le nove clave:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Si isto non era tue, cambia tu contrasigno:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e cambia tu contrasigno:
 automated-email-reset =
     Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
