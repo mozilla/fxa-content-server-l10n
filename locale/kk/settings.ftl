@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Бірнәрсе қате кетті. �
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Жабу
+brand-banner-dismiss-button-2 =
+    .aria-label = Баннерді жабу
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } атауы 1 қарашада { -product-mozilla-accounts } болып өзгертіледі
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
