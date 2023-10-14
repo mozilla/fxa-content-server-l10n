@@ -132,12 +132,15 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Si isto non era tue
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e cambia tu contrasigno:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Pro altere informationes, visita le sito de supporto de { -brand-mozilla }:
 automated-email-reset =
     Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Si tu non lo cambia, per favor reinitialisa tu contrasigno ora a { $resetLink }
+brand-banner-message = Sape tu que nos cambiava nostre nomine ab { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saper plus</a>
 cancellationSurvey = Per favor adjuta nos a meliorar nostre servicios redigente iste <a data-l10n-name="cancellationSurveyUrl">breve questionario</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Per favor adjuta nos a meliorar nostre servicios redigente iste breve questionario:
@@ -332,7 +335,10 @@ passwordResetAccountRecovery-action-2 = Crear un nove clave recuperation del con
 passwordResetAccountRecovery-regen-required-mjml-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate:
+postAddAccountRecovery-subject-3 = Nove clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Iste es un clave a uso singule. Post que tu lo usara, nos automaticamente creara pro te un nove clave. O tu pote crear quandocunque uno nove per le parametros de tu conto.
 postAddAccountRecovery-action = Gerer le conto
 postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-account }
@@ -349,6 +355,10 @@ postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passo
 postAddTwoStepAuthentication-from-device = Tu lo activava de:
 postAddTwoStepAuthentication-action = Gerer le conto
 postAddTwoStepAuthentication-code-required-2 = Le codices de securitate ab tu application de authentication es ora requirite a cata apertura de session.
+postChangeAccountRecovery-subject = Clave de recuperation del conto cambiate
+postChangeAccountRecovery-title = Tu cambiava tu clave de recuperation del conto
+postChangeAccountRecovery-body-part1 = Tu ora ha un nove clave de recuperation del conto.Tu clave precedente era delite.
+postChangeAccountRecovery-action = Gerer le conto
 postChangePrimary-subject = E-mail primari actualisate
 postChangePrimary-title = Nove e-mail primari
 # Variables:
@@ -373,6 +383,7 @@ postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de salva
 postNewRecoveryCodes-description-2 = Illos era create sur:
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject-2 = Clave recuperation del conto delite
+postRemoveAccountRecovery-title-3 = Tu ha delite tu clave recuperation del conto
 postRemoveAccountRecovery-action = Gerer le conto
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite

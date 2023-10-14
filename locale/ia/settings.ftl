@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Alco errate eveniva. Un nove codice non
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Clauder
+brand-banner-dismiss-button-2 =
+    .aria-label = Clauder bandiera
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Le { -product-firefox-accounts } sera renominate { -product-mozilla-accounts } desde le 1 de novembre
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
