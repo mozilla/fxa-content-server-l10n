@@ -405,6 +405,7 @@ dc-subheader-content = Να επιτρέπεται στους { -product-firefox
 dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(case: "acc", capitalization: "lower") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-out-success = Επιτυχής αποχώρηση. Οι { -product-firefox-accounts(case: "nom", capitalization: "upper") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
+dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων
 dc-learn-more = Μάθετε περισσότερα
 
@@ -960,10 +961,16 @@ terms-privacy-agreement-intro-2 = Συνεχίζοντας, συμφωνείτε
 terms-privacy-agreement-pocket = <pocketTos>Όροι υπηρεσίας</pocketTos> και <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = τους <pocketTos>Όρους υπηρεσίας</pocketTos> και τη <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Όροι υπηρεσίας και Σημείωση απορρήτου</monitorTos> του { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Όροι υπηρεσίας και Σημείωση απορρήτου</monitorTos> του { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Συνεχίζοντας, αποδέχεστε τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy>.
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους υπηρεσίας</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
