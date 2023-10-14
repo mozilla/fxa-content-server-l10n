@@ -96,6 +96,22 @@ automated-email-no-action = { automated-email-no-action-plaintext } Pro altere i
 automated-email-no-action-plaintext = Isto es un email automatisate. Si tu ha recipite illo per error, tu non besonia de facer alco.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Isto es un e-mail automatisate; si tu non autorisa iste action, alora cambia tu contrasigno:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Iste requesta veni ab { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Iste requesta veni ab { $uaOS }{ $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Iste requesta veni ab { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Si isto non era tu, <a data-l10n-name="revokeAccountRecoveryLink">dele le nove clave</a> e <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>.
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Si isto non era tue, dele le nove clave:
 automated-email-reset =
     Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
@@ -296,16 +312,8 @@ passwordResetAccountRecovery-action-2 = Crear un nove clave recuperation del con
 passwordResetAccountRecovery-regen-required-mjml-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate:
-postAddAccountRecovery-subject-2 = Clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Un nove clave ha essite create ab:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Non tu?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Dele le nove clave</a> e <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>
 postAddAccountRecovery-action = Gerer le conto
-postAddAccountRecovery-delete-key = Dele le nove clave:
-postAddAccountRecovery-changd-password = Cambia tu contrasigno:
 postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-account }
 #  Variables:
@@ -345,11 +353,7 @@ postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de salva
 postNewRecoveryCodes-description-2 = Illos era create sur:
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject-2 = Clave recuperation del conto delite
-postRemoveAccountRecovery-title-2 = Tu ha delite tu clave recuperation del conto.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Illo era delite ex:
 postRemoveAccountRecovery-action = Gerer le conto
-postRemoveAccountRecovery-invalid-2 = Te besonia un clave recuperation del conto pro recuperar tu datos de { -brand-firefox } si tu oblida tu contrasigno.
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
 # Variables:
