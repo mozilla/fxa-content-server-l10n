@@ -1,6 +1,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts } にログインしますか？
+session-verify-send-push-title-2 = { -product-mozilla-account }にログインしますか？
 session-verify-send-push-body-2 = ここをクリックしてご自身であることを確認してください
 
 ## Email content
@@ -8,11 +9,15 @@ session-verify-send-push-body-2 = ここをクリックしてご自身である�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } ロゴ">
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="端末の同期">
 body-devices-image = <img data-l10n-name="devices-image" alt="端末">
 fxa-privacy-url = { -brand-mozilla } プライバシーポリシー
+moz-accounts-privacy-url = { -product-mozilla-accounts }プライバシーポリシー
 fxa-service-url = { -product-firefox-cloud } 利用規約
+moz-accounts-terms-url = { -product-mozilla-accounts }利用規約
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } ロゴ">
+subplat-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 subplat-privacy-notice = プライバシー通知
@@ -24,13 +29,26 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = このメールは { $email } の { -product-firefox-account }で { $productName } に登録されたため送信されました。
 # Variables:
 #  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = このメールは { $email } の { -product-mozilla-account }で { $productName } に登録されたため送信されました。
+# Variables:
+#  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = このメールは { $email } の { -product-firefox-account }宛に送信されています。
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = このメールは { $email } の { -product-mozilla-account }宛に送信されています。
 subplat-explainer-multiple = このメールは { $email } の { -product-firefox-account }で複数の製品を購読されているため送信されました。
+subplat-explainer-multiple-2 = このメールは { $email } の { -product-mozilla-account }で複数の製品を購読されているため送信されました。
 subplat-explainer-was-deleted = このメールは { $email } が { -product-firefox-account } に登録されたため送信されました。
+subplat-explainer-was-deleted-2 = このメールは { $email } が { -product-mozilla-account }に登録されたため送信されました。
 subplat-manage-account = { -product-firefox-account }の設定はあなたの <a data-l10n-name="subplat-account-page">アカウントのページ</a> で管理できます。
+subplat-manage-account-2 = { -product-mozilla-account }の設定はあなたの <a data-l10n-name="subplat-account-page">アカウントのページ</a> で管理できます。
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
 subplat-manage-account-plaintext = アカウントページ { $accountSettingsUrl } にアクセスして、{ -product-firefox-account } の設定を管理してください。
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = アカウントページ { $accountSettingsUrl } にアクセスして、{ -product-mozilla-account }の設定を管理してください。
 subplat-terms-policy = 利用規約とキャンセルポリシー
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 購読を解除
@@ -201,7 +219,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 同期には 2 台が必要
 cadReminderFirst-description-1 = タブをあなたの端末のすべてで使用可能に。{ -brand-firefox } を使用するところでブックマークやパスワード、その他のデータにアクセスできます。まるで { -brand-firefox } アカウントが魔法を使っているようです！
-cadReminderFirst-description-2 = 同期にかかる時間はわずか 1 秒です。
+cadReminderFirst-description-v2 = タブをご使用のすべて端末に持ち出せます。{ -brand-firefox } を使えば、どこでもブックマークやパスワード、その他のデータにアクセスできます。
 cadReminderSecond-subject-2 = 忘れずに同期の設定を完了しましょう
 cadReminderSecond-action = 別の端末を同期する
 cadReminderSecond-title-2 = データの同期を忘れずに！
@@ -216,9 +234,12 @@ downloadSubscription-title = { $productName } へようこそ。
 downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
 downloadSubscription-link-action-2 = はじめましょう
 fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } が削除されました
+fraudulentAccountDeletion-subject-2 = あなたの { -product-mozilla-account }が削除されました
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
 fraudulentAccountDeletion-content = このメールアドレスを使って { -product-firefox-account } が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
+fraudulentAccountDeletion-content-part1-v2 = このメールアドレスを使って { -product-mozilla-account }が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
 fraudulentAccountDeletion-content-2 = 現時点で、このアカウントはまだ確認されていません。確認手順が完了していないため、正規のサブスクリプションかどうか判断できません。そのため、このメールアドレスに登録した { -product-firefox-account } が削除されました。また、サブスクリプションがキャンセルされ、お支払いをすべて払い戻しました。
+fraudulentAccountDeletion-content-part2-v2 = 現時点で、このアカウントはまだ確認されていません。確認手順が完了していないため、正規のサブスクリプションかどうか判断できません。そのため、このメールアドレスに登録した { -product-mozilla-account }が削除されました。また、サブスクリプションがキャンセルされ、お支払いをすべて払い戻しました。
 fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10n-name="mozillaSupportUrl">サポートチーム</a> までお問い合わせください。
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -241,9 +262,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } への新規ログイン
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = あなたの { -product-firefox-account } がログインに使用されました
+newDeviceLogin-title-3 = あなたの { -product-mozilla-account }がログインに使用されました
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 覚えがない場合は <a data-l10n-name="passwordChangeLink">パスワードを変更</a> してください。
@@ -254,13 +274,12 @@ newDeviceLogin-action = アカウント管理
 passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
 passwordChanged-description = あなたの { -product-firefox-account }のパスワードは次の端末から変更されました:
+passwordChanged-description-2 = あなたの { -product-mozilla-account }のパスワードが次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-title = パスワードの変更が必要です
 passwordChangeRequired-suspicious-activity = { -product-firefox-account }で疑わしい動作が検出されました。 { -product-firefox-account }への不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
 passwordChangeRequired-sign-in = { -product-firefox-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
 passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
-passwordChangeRequired-signoff = ご利用ありがとうございます
-passwordChangeRequired-signoff-name = { -product-firefox-accounts } チーム
 passwordChangeRequired-different-password-plaintext = 重要: 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordReset-subject = パスワードを更新しました
 passwordReset-title = アカウントのパスワードが変更されました
@@ -274,16 +293,8 @@ passwordResetAccountRecovery-action-2 = 新しいアカウント回復用キー�
 passwordResetAccountRecovery-regen-required-mjml-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください:
-postAddAccountRecovery-subject-2 = アカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = 次の端末で新しいキーが生成されました:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = 覚えがないですか？
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">新しいキーを削除</a>し、<a data-l10n-name="passwordChangeLink">パスワードを変更</a>してください。
 postAddAccountRecovery-action = アカウント管理
-postAddAccountRecovery-delete-key = 新しいキーを削除する:
-postAddAccountRecovery-changd-password = パスワードを変更する:
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -315,11 +326,7 @@ postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生�
 postNewRecoveryCodes-description-2 = 次の端末で生成されました:
 postNewRecoveryCodes-action = アカウント管理
 postRemoveAccountRecovery-subject-2 = アカウント回復用キーが削除されました
-postRemoveAccountRecovery-title-2 = アカウント回復用キーが削除されました
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = 次の端末で削除されました:
 postRemoveAccountRecovery-action = アカウント管理
-postRemoveAccountRecovery-invalid-2 = パスワードを忘れた場合、{ -brand-firefox } のデータを回復させるにはアカウント回復用キーが必要です。
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
 # Variables:
