@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } Для по�
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Это автоматически созданное сообщение; если вы не совершали такого действия, пожалуйста, смените свой пароль:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Этот запрос поступил от { $uaBrowser } в { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Этот запрос поступил от { $uaBrowser } в { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Этот запрос поступил от { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Этот запрос поступил от { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Этот запрос поступил от { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Если это были не вы, <a data-l10n-name="revokeAccountRecoveryLink">удалите новый ключ </a> и <a data-l10n-name="passwordChangeLink">смените пароль</a>.
+automatedEmailRecoveryKey-change-pwd-only = Если это были не вы, <a data-l10n-name="passwordChangeLink">смените свой пароль</a>.
+automatedEmailRecoveryKey-more-info = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Этот запрос поступил от:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Если это были не вы, удалите новый ключ:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Если это были не вы, смените пароль:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = и смените свой пароль:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }:
 automated-email-reset =
     Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a data-l10n-name="resetLink">сбросьте свой пароль</a>.
     Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">Страницу поддержки { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Если вы его не меняли, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
+brand-banner-message = Знаете ли вы, что мы изменили наше название с { -product-firefox-accounts } на { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Подробнее</a>
 cancellationSurvey = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом <a data-l10n-name="cancellationSurveyUrl">кратком опросе</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом кратком опросе:
@@ -297,16 +336,13 @@ passwordResetAccountRecovery-action-2 = Создать новый ключ во�
 passwordResetAccountRecovery-regen-required-mjml-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали:
-postAddAccountRecovery-subject-2 = Ключ восстановления аккаунта создан
+postAddAccountRecovery-subject-3 = Новый ключ восстановления аккаунта создан
 postAddAccountRecovery-title2 = Вы создали новый ключ восстановления аккаунта
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Новый ключ был создан из:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Не вы?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Удалите новый ключ </a> и <a data-l10n-name="passwordChangeLink">смените пароль</a>.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Сохраните этот ключ в надежном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Этот ключ можно использовать только один раз. После того, как вы его используете, мы автоматически создадим для вас новый. Или вы можете создать новый в любое время в настройках своего аккаунта.
 postAddAccountRecovery-action = Управление аккаунтом
-postAddAccountRecovery-delete-key = Удалите новый ключ:
-postAddAccountRecovery-changd-password = Смените свой пароль:
 postAddLinkedAccount-subject = Новый аккаунт, связанный с { -brand-firefox }
 postAddLinkedAccount-subject-2 = Новый аккаунт, связанный с вашим { -product-mozilla-account }
 #  Variables:
@@ -322,6 +358,11 @@ postAddTwoStepAuthentication-title-2 = Вы включили двухэтапн�
 postAddTwoStepAuthentication-from-device = Вы включили её с:
 postAddTwoStepAuthentication-action = Управление аккаунтом
 postAddTwoStepAuthentication-code-required-2 = Коды безопасности от вашего приложения аутентификации теперь требуются каждый раз, когда вы входите в систему.
+postChangeAccountRecovery-subject = Ключ восстановления аккаунта изменён
+postChangeAccountRecovery-title = Вы изменили ключ восстановления своего аккаунта
+postChangeAccountRecovery-body-part1 = Теперь у вас есть новый ключ восстановления аккаунта. Ваш предыдущий ключ был удалён.
+postChangeAccountRecovery-body-part2 = Сохраните этот новый ключ в надежном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
+postChangeAccountRecovery-action = Управление аккаунтом
 postChangePrimary-subject = Основная электронная почта изменена
 postChangePrimary-title = Новая основная электронная почта
 # Variables:
@@ -347,11 +388,10 @@ postNewRecoveryCodes-title-2 = Вы создали новые резервные
 postNewRecoveryCodes-description-2 = Они были созданы на:
 postNewRecoveryCodes-action = Управление аккаунтом
 postRemoveAccountRecovery-subject-2 = Ключ восстановления аккаунта удалён
-postRemoveAccountRecovery-title-2 = Вы удалили свой ключ восстановления аккаунта.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Он был удалён с:
+postRemoveAccountRecovery-title-3 = Вы удалили свой ключ восстановления аккаунта
+postRemoveAccountRecovery-body-part1 = Ключ восстановления вашего аккаунта необходим для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
+postRemoveAccountRecovery-body-part2 = Если вы ещё этого не сделали, создайте новый ключ восстановления аккаунта в настройках своего аккаунта, чтобы не потерять сохранённые пароли, закладки, историю просмотров и многое другое.
 postRemoveAccountRecovery-action = Управление аккаунтом
-postRemoveAccountRecovery-invalid-2 = Вам нужен ключ восстановления аккаунта, чтобы восстановить данные своего { -brand-firefox }, если вы забудете свой пароль.
 postRemoveSecondary-subject = Удалена дополнительная электронная почта
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
