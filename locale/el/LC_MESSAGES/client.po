@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-14 01:21+0000\n"
+"PO-Revision-Date: 2023-10-14 02:40+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1223,11 +1223,11 @@ msgstr ""
 
 #: .es5/templates/index.mustache:19
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Συνέχεια στον λογαριασμό Mozilla σας"
 
 #: .es5/templates/index.mustache:20
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Ένας λογαριασμός Mozilla ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της Mozilla που προστατεύουν το απόρρητό σας."
 
 #: .es5/templates/index.mustache:21
 msgid ""
@@ -1244,6 +1244,11 @@ msgid ""
 "  Firefox Monitor’s <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Terms of Service and Privacy Notice</a><br />\n"
 "  Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 msgstr ""
+"\n"
+"  Συνεχίζοντας, αποδέχεστε:<br />\n"
+"  τους <a class=\"link-grey\" id=\"monitor-tos\" href=\"https://www.mozilla.org/privacy/firefox-monitor/\">Όρους υπηρεσίας και τη Σημείωση απορρήτου</a> του Firefox Monitor<br />\n"
+"  τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"  "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1759,6 +1764,8 @@ msgstr "Αλλαγή κωδικού πρόσβασης"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Ανιχνεύσαμε ύποπτη συμπεριφορά στον λογαριασμό Mozilla σας. Για να προστατεύσετε τον λογαριασμό σας, παρακαλούμε δημιουργήστε έναν νέο κωδικό πρόσβασης. Θα τον χρησιμοποιήσετε για τη σύνδεση σε όλες"
+" τις υπηρεσίες του λογαριασμού Mozilla σας."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"

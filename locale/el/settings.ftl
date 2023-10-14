@@ -972,6 +972,8 @@ terms-privacy-agreement-monitor = <monitorTos>Όροι υπηρεσίας και
 terms-privacy-agreement-monitor-2 = <monitorTos>Όροι υπηρεσίας και Σημείωση απορρήτου</monitorTos> του { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = Τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy> του { -brand-firefox }
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy> των { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-default = Συνεχίζοντας, αποδέχεστε τους <firefoxTos>Όρους υπηρεσίας</firefoxTos> και τη <firefoxPrivacy>Σημείωση απορρήτου</firefoxPrivacy>.
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1053,6 +1055,7 @@ connect-another-device-ios-complete-setup-message = Συνδεθείτε στο 
 
 cookies-disabled-header = Απαιτούνται cookies και τοπική αποθήκευση
 cookies-disabled-enable-prompt = Παρακαλούμε ενεργοποιήστε τα cookies και την τοπική αποθήκευση στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στο { -product-firefox-accounts }. Έτσι, θα ενεργοποιηθούν λειτουργίες, όπως η απομνημόνευση ανάμεσα σε συνεδρίες.
+cookies-disabled-enable-prompt-2 = Ενεργοποιήστε τα cookies και τον τοπικό χώρο αποθήκευσης στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Με αυτόν τον τρόπο, θα ενεργοποιήσετε λειτουργίες όπως η απομνημόνευση της σύνδεσής σας μεταξύ των συνεδριών.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1253,6 +1256,7 @@ account-recovery-confirm-key-heading-w-default-service = Κάντε επαναφ
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 account-recovery-confirm-key-heading-w-custom-service = Κάντε επαναφορά κωδικού πρόσβασης με το κλειδί ανάκτησης λογαριασμού <span>για να συνεχίσετε στο { $serviceName }</span>
 account-recovery-confirm-key-instructions = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας.
+account-recovery-confirm-key-instructions-2 = Εισαγάγετε το κλειδί ανάκτησης λογαριασμού μίας χρήσης που έχετε αποθηκεύσει σε κάποιο ασφαλές μέρος για να ανακτήσετε την πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 account-recovery-confirm-key-warning-message = <span>Σημείωση:</span> Εάν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει το κλειδί ανάκτησης λογαριασμού, κάποια από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες).
 # Prompts the user to enter their account recovery code
 account-recovery-confirm-key-input =
