@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Đã xảy ra sự cố. Không thể g
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Đóng
+brand-banner-dismiss-button-2 =
+    .aria-label = Đóng biểu ngữ
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } sẽ được đổi tên thành { -product-mozilla-accounts } vào ngày 1 tháng 11
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -962,6 +962,10 @@ terms-privacy-agreement-intro-2 = Bằng cách tiếp tục, bạn đồng ý v�
 terms-privacy-agreement-pocket = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo quyền riêng tư</pocketPrivacy> của { -product-pocket }
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo về quyền riêng tư</pocketPrivacy> của { -product-pocket }
+# link to Firefox Monitor's Terms of Service and Privacy Notice
+terms-privacy-agreement-monitor = <monitorTos>Điều khoản dịch vụ và thông báo quyền riêng tư</monitorTos> của { -product-firefox-monitor }
+# link to Firefox Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-2 = <monitorTos>Điều khoản dịch vụ và thông báo quyền riêng tư</monitorTos> của { -product-firefox-monitor }
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = <firefoxTos>Điều khoản dịch vụ</firefoxTos> và <firefoxPrivacy>thông báo quyền riêng tư</firefoxPrivacy> của { -brand-firefox }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list

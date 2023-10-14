@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext }Để biết 
 automated-email-no-action-plaintext = Đây là một email tự động. Nếu bạn nhận nhầm, bạn không cần phải làm gì cả.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Đây là email tự động; nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Yêu cầu này đến từ { $uaBrowser } trên { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Yêu cầu này đến từ { $uaBrowser } trên { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Yêu cầu này đến từ { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Yêu cầu này đến từ { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Yêu cầu này đến từ { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Nếu không phải là bạn, vui lòng <a data-l10n-name="revokeAccountRecoveryLink">xoá khoá mới tạo</a> hoặc <a data-l10n-name="passwordChangeLink">thay đổi mật khẩu của bạn</a>.
+automatedEmailRecoveryKey-change-pwd-only = Nếu không phải là bạn, vui lòng <a data-l10n-name="passwordChangeLink">đổi mật khẩu của bạn</a>.
+automatedEmailRecoveryKey-more-info = Để biết thêm thông tin, hãy truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Yêu cầu này đến từ:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Nếu đây không phải là bạn, hãy xóa khóa mới tạo:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Nếu đây không phải là bạn, hãy thay đổi mật khẩu của bạn:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = và thay đổi mật khẩu của bạn:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support:
 automated-email-reset =
     Đây là một tự động; nếu bạn không nhận ra hành động này, <a data-l10n-name="resetLink">vui lòng đặt lại mật khẩu của bạn </a>.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Nếu bạn không thay đổi mật khẩu, vui lòng đặt lại mật khẩu của bạn ngay bây giờ tại { $resetLink }
+brand-banner-message = Bạn có biết chúng tôi đã đổi tên từ { -product-firefox-accounts } thành { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Tìm hiểu thêm</a>
 cancellationSurvey = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện <a data-l10n-name="cancellationSurveyUrl">khảo sát ngắn</a> này.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện khảo sát ngắn này:
@@ -295,16 +334,13 @@ passwordResetAccountRecovery-action-2 = Tạo khóa khôi phục tài khoản m�
 passwordResetAccountRecovery-regen-required-mjml-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng:
-postAddAccountRecovery-subject-2 = Đã tạo khóa khôi phục tài khoản
+postAddAccountRecovery-subject-3 = Đã tạo khóa khôi phục tài khoản mới
 postAddAccountRecovery-title2 = Bạn đã tạo khóa khôi phục tài khoản mới
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = Khóa mới đã được tạo từ:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Không phải bạn?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Xóa khóa mới</a> và <a data-l10n-name="passwordChangeLink">thay đổi mật khẩu của bạn</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Lưu khóa này ở nơi an toàn — bạn sẽ cần nó để khôi phục dữ liệu duyệt web được mã hóa nếu bạn quên mật khẩu.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Khóa này chỉ có thể được sử dụng một lần. Sau khi bạn sử dụng nó, chúng tôi sẽ tự động tạo một cái mới cho bạn. Hoặc bạn có thể tạo một tài khoản mới bất kỳ lúc nào từ cài đặt tài khoản của mình.
 postAddAccountRecovery-action = Quản lý tài khoản
-postAddAccountRecovery-delete-key = Xóa khóa mới:
-postAddAccountRecovery-changd-password = Thay đổi mật khẩu của bạn:
 postAddLinkedAccount-subject = Tài khoản mới được liên kết với { -brand-firefox }
 postAddLinkedAccount-subject-2 = Tài khoản mới được liên kết với { -product-mozilla-account } của bạn
 #  Variables:
@@ -320,6 +356,11 @@ postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
 postAddTwoStepAuthentication-from-device = Bạn đã bật nó từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
 postAddTwoStepAuthentication-code-required-2 = Mã bảo mật từ ứng dụng xác thực của bạn hiện được yêu cầu mỗi khi bạn đăng nhập.
+postChangeAccountRecovery-subject = Khóa khôi phục tài khoản đã thay đổi
+postChangeAccountRecovery-title = Bạn đã thay đổi khóa khôi phục tài khoản của mình
+postChangeAccountRecovery-body-part1 = Bây giờ bạn đã có khóa khôi phục tài khoản mới. Khóa trước của bạn đã bị xóa.
+postChangeAccountRecovery-body-part2 = Lưu khóa mới này ở nơi an toàn — bạn sẽ cần nó để khôi phục dữ liệu duyệt web được mã hóa nếu bạn quên mật khẩu.
+postChangeAccountRecovery-action = Quản lý tài khoản
 postChangePrimary-subject = Email chính đã xác minh
 postChangePrimary-title = Email chính mới
 # Variables:
@@ -343,11 +384,10 @@ postNewRecoveryCodes-title-2 = Bạn đã tạo mã xác thực dự phòng mớ
 postNewRecoveryCodes-description-2 = Chúng được tạo vào:
 postNewRecoveryCodes-action = Quản lý tài khoản
 postRemoveAccountRecovery-subject-2 = Khóa khôi phục tài khoản đã bị xóa
-postRemoveAccountRecovery-title-2 = Bạn đã xóa khóa khôi phục tài khoản của mình.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Nó đã bị xóa vào:
+postRemoveAccountRecovery-title-3 = Bạn đã xóa khóa khôi phục tài khoản của mình
+postRemoveAccountRecovery-body-part1 = Khóa khôi phục tài khoản của bạn là bắt buộc để khôi phục dữ liệu duyệt web được mã hóa nếu bạn quên mật khẩu.
+postRemoveAccountRecovery-body-part2 = Nếu bạn chưa tạo, hãy tạo khóa khôi phục tài khoản mới trong cài đặt tài khoản của bạn để tránh mất mật khẩu, dấu trang, lịch sử duyệt web đã lưu, v.v.
 postRemoveAccountRecovery-action = Quản lý tài khoản
-postRemoveAccountRecovery-invalid-2 = Bạn cần có khóa khôi phục tài khoản để khôi phục dữ liệu { -brand-firefox } của mình nếu bạn quên mật khẩu của mình.
 postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ
 # Variables:
