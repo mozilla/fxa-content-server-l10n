@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 20:10+0000\n"
-"PO-Revision-Date: 2023-10-14 01:20+0000\n"
+"PO-Revision-Date: 2023-10-14 01:21+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1080,7 +1080,7 @@ msgstr "Αποστολή νέου κωδικού."
 
 #: .es5/templates/confirm_signup_code.mustache:8
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης <span class=\"card-subheader\" id=\"subheader\">για τον λογαριασμό Mozilla σας</span>"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
