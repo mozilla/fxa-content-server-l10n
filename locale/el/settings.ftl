@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Κάτι πήγε στραβά. Δεν 
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Κλείσιμο
+brand-banner-dismiss-button-2 =
+    .aria-label = Κλείσιμο μηνύματος
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Οι { -product-firefox-accounts(case: "nom", capitalization: "lower") } θα γίνουν { -product-mozilla-accounts(case: "nom", capitalization: "lower") } την 1η Νοεμβρίου
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.

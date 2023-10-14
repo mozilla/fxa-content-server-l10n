@@ -111,12 +111,36 @@ automatedEmailRecoveryKey-origin-device-browser-os = Αυτό το αίτημα 
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Αυτό το αίτημα προήλθε από το { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Αυτό το αίτημα προήλθε από { $uaOS }{ $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Αυτό το αίτημα προήλθε από { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Αν δεν το κάνατε εσείς, <a data-l10n-name="revokeAccountRecoveryLink">διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>.
+automatedEmailRecoveryKey-change-pwd-only = Αν δεν το κάνατε εσείς, <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>.
+automatedEmailRecoveryKey-more-info = Για περισσότερες πληροφορίες, επισκεφτείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Αυτό το αίτημα προήλθε από:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Αν δεν το κάνατε εσείς, διαγράψτε το νέο κλειδί:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Αν δεν το κάνατε εσείς, αλλάξτε τον κωδικό πρόσβασής σας:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = και αλλάξτε τον κωδικό πρόσβασής σας:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }:
 automated-email-reset =
     Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας</a>.
     Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο { $resetLink }
+brand-banner-message = Γνωρίζατε ότι αλλάξαμε το όνομά μας από «{ -product-firefox-accounts }» σε «{ -product-mozilla-accounts }»; <a data-l10n-name="learnMore">Μάθετε περισσότερα</a>
 cancellationSurvey = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτήν τη <a data-l10n-name="cancellationSurveyUrl">σύντομη έρευνα</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:
@@ -310,6 +334,7 @@ passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδ
 passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
+postAddAccountRecovery-subject-3 = Δημιουργήθηκε νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
@@ -328,6 +353,7 @@ postAddTwoStepAuthentication-from-device = Ενεργοποιήθηκε από �
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-code-required-2 = Απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση.
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
+postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-action = Διαχείριση λογαριασμού
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
@@ -353,6 +379,7 @@ postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρ�
 postNewRecoveryCodes-description-2 = Δημιουργήθηκαν στο:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
+postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί ανάκτησης του λογαριασμού σας
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
