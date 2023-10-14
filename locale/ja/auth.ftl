@@ -278,7 +278,9 @@ passwordChanged-description-2 = あなたの { -product-mozilla-account }のパ�
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-title = パスワードの変更が必要です
 passwordChangeRequired-suspicious-activity = { -product-firefox-account }で疑わしい動作が検出されました。 { -product-firefox-account }への不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
+passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account }で疑わしい動作が検出されました。 { -product-mozilla-account }への不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
 passwordChangeRequired-sign-in = { -product-firefox-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
+passwordChangeRequired-sign-in-2 = { -product-mozilla-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
 passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordChangeRequired-different-password-plaintext = 重要: 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordReset-subject = パスワードを更新しました
@@ -296,9 +298,13 @@ passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての�
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 postAddAccountRecovery-action = アカウント管理
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
+postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカウントがリンクされました
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } のアカウントが { -product-firefox-account }にリンクされています
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = { $providerName } のアカウントが { -product-mozilla-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
 postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
@@ -311,6 +317,9 @@ postChangePrimary-title = 新しい優先メールアドレス
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
 postConsumeRecoveryCode-title-2 = バックアップ認証コードを使用しました
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -332,6 +341,9 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = { $secondaryEmail } があなたの { -product-mozilla-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
 postRemoveTwoStepAuthentication-subject-line-2 = 2 段階認証がオフになりました
 postRemoveTwoStepAuthentication-title-2 = 2 段階認証をオフにしました
@@ -344,6 +356,7 @@ postVerify-title-2 = 2 台の端末で同じタブを表示したいですか？
 postVerify-description-2 = 簡単です！別の端末に { -brand-firefox } をインストールして同期するだけです。まるで魔法のようです！
 postVerify-sub-description = （ログインしたどの端末からでも、ブックマークやパスワード、{ -brand-firefox } の他のデータにアクセスできます。）
 postVerify-subject-3 = { -brand-firefox } へようこそ！
+postVerify-subject-4 = { -brand-mozilla } へようこそ！
 postVerify-setup-2 = 別の端末を接続:
 postVerify-action-2 = 別の端末を接続
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
@@ -351,12 +364,18 @@ postVerifySecondary-title = 予備のメールアドレスが追加されまし�
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスとして確認されました。セキュリティ通知やログイン確認は今後両方のメールアドレスに送られます。
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = { $secondaryEmail } があなたの { -product-mozilla-account }の予備アドレスとして確認されました。セキュリティ通知やログイン確認は今後両方のメールアドレスに送られます。
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
 recovery-title-2 = パスワードを忘れた場合
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = 次の端末で { -product-firefox-account } のパスワード変更がリクエストされました:
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin-2 = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 recovery-new-password-button = 以下のボタンをクリックして新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
 recovery-copy-paste = 以下の URL をコピーしてブラウザーに貼り付け、新しいパスワードを生成してください。このリンクは 1 時間以内に有効期限切れになります。
 recovery-action = 新しいパスワードを設定
@@ -369,6 +388,11 @@ subscriptionAccountDeletion-title = ご利用ありがとうございました
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = 最近、{ -product-firefox-account }が削除されたことにより、{ $productName } のサブスクリプションがキャンセルされました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われました。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = 最近、{ -product-mozilla-account }が削除されたことにより、{ $productName } のサブスクリプションがキャンセルされました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われました。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName } へようこそ: パスワードを設定してください。
@@ -377,16 +401,20 @@ subscriptionAccountFinishSetup-subject = { $productName } へようこそ: パ�
 subscriptionAccountFinishSetup-title = { $productName } へようこそ
 subscriptionAccountFinishSetup-content-processing = お支払いは処理中です。完了するまで最大 4 営業日かかる場合があります。キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 subscriptionAccountFinishSetup-content-create-2 = 次に、{ -product-firefox-account }のパスワードを作成して新しいサブスクリプションの使用を開始します。
+subscriptionAccountFinishSetup-content-create-3 = 次に、{ -product-mozilla-account }のパスワードを作成して新しいサブスクリプションの使用を開始します。
 subscriptionAccountFinishSetup-action-2 = はじめましょう
 subscriptionAccountReminderFirst-subject = 通知: アカウントのセットアップを完了してください
 subscriptionAccountReminderFirst-title = サブスクリプションにはまだアクセスできません
 subscriptionAccountReminderFirst-content-info-2 = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
+subscriptionAccountReminderFirst-content-info-3 = 数日前に { -product-mozilla-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
 subscriptionAccountReminderFirst-content-select-2 = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
 subscriptionAccountReminderFirst-action = パスワードを作成
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = 最終通知: アカウントをセットアップしてください
 subscriptionAccountReminderSecond-title = { -brand-firefox } へようこそ！
+subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } へようこそ！
 subscriptionAccountReminderSecond-content-info-2 = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
+subscriptionAccountReminderSecond-content-info-3 = 数日前に { -product-mozilla-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
 subscriptionAccountReminderSecond-content-select-2 = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
 subscriptionAccountReminderSecond-action = パスワードを作成
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -544,15 +572,20 @@ confirm-account = アカウントを確認
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = アカウントを確認してください
 verificationReminderFirst-title-2 = { -brand-firefox } へようこそ！
+verificationReminderFirst-title-3 = { -brand-mozilla } へようこそ！
 verificationReminderFirst-description-2 = 数日前に { -product-firefox-account } を作成されましたが、まだ確認が終わっていません。15 日以内に確認されない場合、アカウントが自動的に削除されます。
+verificationReminderFirst-description-3 = 数日前に{ -product-mozilla-account }を作成されましたが、まだ確認が終わっていません。15 日以内に確認されない場合、アカウントが自動的に削除されます。
 verificationReminderFirst-sub-description-3 = あなたとプライバシーを優先するブラウザーをお見逃しなく。
 confirm-email-2 = アカウントを確認
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = アカウントを確認
 verificationReminderSecond-subject-2 = アカウントを確認してください
 verificationReminderSecond-title-2 = { -brand-firefox } をお忘れなく！
+verificationReminderSecond-title-3 = { -brand-mozilla } をお忘れなく！
 verificationReminderSecond-description-3 = 数日前に { -product-firefox-account } を作成されましたが、まだ確認が終わっていません。10 日以内に確認されない場合、アカウントが自動的に削除されます。
+verificationReminderSecond-description-4 = 数日前に { -product-mozilla-account }を作成されましたが、まだ確認が終わっていません。10 日以内に確認されない場合、アカウントが自動的に削除されます。
 verificationReminderSecond-second-description = { -product-firefox-account } は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
+verificationReminderSecond-second-description-2 = { -product-mozilla-account }は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
 verificationReminderSecond-sub-description-2 = インターネットをすべての人に開かれ、アクセス可能な場所として形作っていく私たちの使命にご協力ください。
 verificationReminderSecond-action-2 = アカウントを確認
 verify-title-2 = { -brand-firefox } でインターネットをオープンに
