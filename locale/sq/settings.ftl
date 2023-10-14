@@ -14,58 +14,61 @@ banner-dismiss-button =
 # $accountsEmail is the senderʼs email address (origin of the email containing a new link). (e.g. accounts@firefox.com)
 link-expired-resent-link-success-message = Email-i u ridërgua. Shtoni te kontaktet tuaja { $accountsEmail }, që të sigurohet dërgim i rrjedhshëm.
 # Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
-link-expired-resent-link-error-message = Diç shkoi ters. S’u dërgua dot një lidhje e re.
-# Error message displayed in an error banner. This is a general message when the cause of the error is unclear.
 link-expired-resent-code-error-message = Diç shkoi ters. S’u dërgua dot një kod i ri.
 
-## ButtonDownloadRecoveryKey
-## Clicking on this button downloads a plain text file that contains the user's account recovery key
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Mbylle banderolën
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = Më 1 nëntor { -product-firefox-accounts } do të riemërtohen { -product-mozilla-accounts }
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Do të bëni hyrjen me të njëjtin emër përdoruesi dhe fjalëkalim dhe s’do të ketë ndryshime të tjera te produktet që përdorni.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = I riemërtuam { -product-firefox-accounts } si { -product-mozilla-accounts }. Prapë do të bëni hyrjen me të njëjtin emër përdoruesi dhe fjalëkalim dhe s’ka ndryshime të tjera te produktet që përdorni.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Mësoni më tepër
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Mbylle Banderolën
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Stemë { -brand-mozilla } m
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
-# Button to download the account recovery key as a plain text file and continue to the next step
-# "key" here refers to the "account recovery key"
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
 recovery-key-download-button-v3 = Shkarkoje dhe vazhdo
     .title = Shkarkoje dhe vazhdo
-# Heading in the text file. No CSS styling will be applied to the text.
-# All caps is used in English to show this is a header.
-recovery-key-file-header = RUANI KYÇIN E RIMARRJES SË LLOGARISË TUAJ
-# "Key" here refers to the term "account recovery key", a randomly generated 32-character code
-# containing a mix of numbers and letters (excluding I, L, O, U)
-recovery-key-file-key-value-v3 = Kyç:
-# { $email }  - The primary email associated with the account
-recovery-key-file-user-email-v2 = * { -product-firefox-account }: { $email }
+recovery-key-pdf-heading = Kyç Rimarrjeje Llogarie
 # Date when the account recovery key was created and this file was downloaded
-# "Key" here refers to the term "account recovery key"
-# { $downloadDate } is a formatted date in the user's preferred locale
-# e.g., "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
-recovery-key-file-download-date-v2 = * Kyç i prodhuar më: { $downloadDate }
-# Link to get more information and support
-# { $supportUrl } will be a URL such as https://mzl.la/3bNrM1I
-# The URL will not be hyperlinked and will be presented as plain text in the downloaded file
-recovery-key-file-support-v2 = * Mësoni më tepër mbi kyçin e rimarrjes së llogarisë tuaj: { $supportURL }
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Prodhuar më: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Kyç Rimarrjeje Llogarie
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Ky kyç ju lejon të rimerrni të dhëna shfletuesi tuajat të fshehtëzuara (përfshi fjalëkalime, faqerojtës dhe historik), nëse harroni fjalëkalimin tuaj. Depozitojeni diku ku do ta mbani mend.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Vende ku të depozitoni kyçin tuaj
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt = Dija praktike po vjen në të marrët tuaj. Regjistrohuni për më tepër:
-# Newsletter checklist item
-choose-newsletters-option-firefox-accounts-journey =
-    .label = Merrni lajmet më të reja mbi { -brand-mozilla }-n dhe { -brand-firefox }-in
-# Newsletter checklist item
-choose-newsletters-option-take-action-for-the-internet =
-    .label = Hidhuni në veprim për ta mbajtur Internetin të shëndetshëm
-# Newsletter checklist item
-choose-newsletters-option-knowledge-is-power =
-    .label = Jini më të parrezik dhe të mençur në internet
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt = Zgjidhni ç’të njëkohësohet:
 choose-what-to-sync-option-bookmarks =
     .label = Faqerojtës
 choose-what-to-sync-option-history =
@@ -365,7 +368,6 @@ cs-disconnect-suspicious-advice-content =
     tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
     tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-sign-out-button = Dilni
-cs-recent-activity = Veprimtari Llogarie Së Fundi
 
 ##
 
@@ -415,6 +417,13 @@ flow-recovery-key-download-heading-v2 = Kyçi i rimarrjes së llogarisë u kriju
 flow-recovery-key-download-info-v2 = Ky kyç ju lejon të rimerrni të dhënat tuaja, në rast se harroni fjalëkalimin tuaj. Shkarkoheni dhe depozitojeni diku ku e mbani mend — s’do të jeni në gjendje të ktheheni te kjo faqe më vonë.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Vazhdo pa e shkarkuar
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Vende ku të depozitoni kyçin tuaj:
+flow-recovery-key-download-storage-ideas-folder-v2 = Dosje në pajisje të siguruar
+flow-recovery-key-download-storage-ideas-cloud = Depozitim i besueshëm në re
+flow-recovery-key-download-storage-ideas-print-v2 = Kopje materiale e shtypur
+flow-recovery-key-download-storage-ideas-pwd-manager = Përgjegjës fjalëkalimesh
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow
@@ -433,13 +442,6 @@ flow-recovery-key-hint-input-v2 =
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Përfundoje
-# This heading is shown above a list of options for storing the account recovery key
-# "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Vende ku të depozitoni kyçin tuaj:
-flow-recovery-key-download-storage-ideas-folder-v2 = Dosje në pajisje të siguruar
-flow-recovery-key-download-storage-ideas-cloud = Depozitim i besueshëm në re
-flow-recovery-key-download-storage-ideas-print-v2 = Kopje materiale e shtypur
-flow-recovery-key-download-storage-ideas-pwd-manager = Përgjegjës fjalëkalimesh
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
 flow-recovery-key-success-alert = U krijua kyç rimarrjeje llogarie
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
@@ -453,7 +455,7 @@ flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuloje
 
-# HeaderLockup component
+## HeaderLockup component, the header in account settings
 
 header-menu-open = Mbylle menunë
 header-menu-closed = Menu lëvizje në sajt
@@ -625,19 +627,11 @@ display-name-success-alert-2 = Emri për në ekran u përditësua
 ##
 
 
-## Recent Activity
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Veprimtari Llogarie Së Fundi
-recent-activity-account-create = Llogaria u krijua
-recent-activity-account-disable = Llogaria u çaktivizua
-recent-activity-account-enable = Llogaria u aktivizua
-recent-activity-account-login = Hyrje e filluar nga llogaria
-recent-activity-account-reset = Ricaktim fjalëkalimi filluar nga llogaria
-recent-activity-emails-clearBounces = Kthime email-esh spastruar nga llogaria
-
-## $date (Date) - Date recent activity was created
-
-recent-activity-created-at = { $date }
 
 # Account recovery key setup page
 
@@ -1172,10 +1166,6 @@ account-recovery-confirm-key-input =
     .label = Jepni kyç rimarrjeje llogarie
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button = Ripohoni kyç rimarrjeje llogarie
-# Error displayed in an alert banner when the recovery key confirmation is unsuccessful
-account-recovery-confirm-key-error-general = Kyç rimarrjeje llogarie i pavlefshëm
-# Error displayed in a tooltip when then account recovery input field is left blank when the request is submitted
-account-recovery-confirm-key-empty-input-error = Lypset kyç rimarrjeje llogarie
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link = S’keni kyç rimarrjeje llogarie?
 
@@ -1201,7 +1191,6 @@ complete-reset-password-success-alert = Fjalëkalimi u caktua
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
-complete-reset-password-recovery-key-error = Na ndjeni, pati një problem me kontrollin për të parë nëse keni kyç rimarrjeje llogarie. <hasRecoveryKeyErrorLink>Ricaktoni fjalëkalimin tuaj me kyçin tuaj të rimarrjes së llogarisë.</hasRecoveryKeyErrorLink>
 
 ## Confirm Reset Password Component
 

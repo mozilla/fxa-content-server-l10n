@@ -59,10 +59,12 @@ input-error-is-required = { $label } është i domosdoshëm
 ## Component - Header
 
 brand-name-firefox-logo = Stemë e { -brand-name-firefox }-it
+brand-name-mozilla-logo = Stemë { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
+new-user-sign-in-link-2 = Keni tashmë një { -product-mozilla-account }? <a>Bëni hyrjen</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -70,7 +72,10 @@ new-user-enter-email =
     .label = Jepni email-in tuaj
 new-user-confirm-email =
     .label = Ripohoni email-in tuaj
-new-user-subscribe-product-updates = Do të doja të merrja përditësime produktesh nga { -brand-name-firefox }
+new-user-subscribe-product-updates-mozilla = Do të doja të merrja nga { -brand-mozilla } lajme dhe përditësime produktesh
+new-user-subscribe-product-updates-snp = Do të doja të merrja nga { -brand-mozilla } lajme mbi sigurinë dhe privatësinë
+new-user-subscribe-product-updates-hubs = Do të doja të merrja lajme dhe përditësime produktesh nga { -product-mozilla-hubs } dhe { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Do të doja të merrja lajme dhe përditësime nga { -product-mdn-plus } dhe { -brand-mozilla }
 new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
 new-user-email-validate = Email-i s’është i vlefshëm
 new-user-email-validate-confirm = Email-et nuk përputhen
@@ -407,6 +412,7 @@ coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDur
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. Krijoni një llogari { -brand-name-firefox }
+new-user-step-1-2 = 1. Krijoni një { -product-mozilla-account }
 new-user-card-title = Jepni hollësitë e kartës tuaj
 new-user-submit = Pajtohuni Tani
 
@@ -436,13 +442,23 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Shqyrtoni ndryshimin tuaj
 sub-change-failed = Ndryshimi i planit dështoi
-sub-update-copy =
-    Plani juaj do të ndryshojë menjëherë, dhe do t’ju faturohet vlera e ndryshuar për pjesën e mbetur të ciklit tuaj të faturimit. Duke filluar nga { $startingDate }
-    do t’ju faturohet vlera e plotë.
 sub-change-submit = Ripohoni ndryshimin
 sub-update-current-plan-label = Plani i tanishëm
 sub-update-new-plan-label = Plan i ri
 sub-update-total-label = Shumë e re
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (E përditshme)
+sub-update-new-plan-weekly = { $productName } (E përjavshme)
+sub-update-new-plan-monthly = { $productName } (E përmuajshme)
+sub-update-new-plan-yearly = { $productName } (E përvitshme)
+
+##
+
 
 ## Routes - Subscriptions - Cancel
 
