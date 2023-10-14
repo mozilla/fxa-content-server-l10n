@@ -96,12 +96,51 @@ automated-email-no-action = { automated-email-no-action-plaintext } För mer inf
 automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden, vänligen ändra ditt lösenord:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Denna begäran kom från { $uaBrowser } på { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Denna begäran kom från { $uaBrowser } på { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Denna begäran kom från { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Denna begäran kom från { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Denna begäran kom från { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Om det inte var du <a data-l10n-name="revokeAccountRecoveryLink">ta bort den nya nyckeln</a> och <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>.
+automatedEmailRecoveryKey-change-pwd-only = Om det här inte var du <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>.
+automatedEmailRecoveryKey-more-info = För mer information besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Denna begäran kom från:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Om det här inte var du, ta bort den nya nyckeln:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Om det här inte var du, ändra ditt lösenord:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = och ändra ditt lösenord:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = För mer information, besök { -brand-mozilla } Support:
 automated-email-reset =
     Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden <a data-l10n-name="resetLink">vänligen återställ ditt lösenord</a>.
     För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Om du inte ändrade det, vänligen återställ ditt lösenord nu på { $resetLink }
+brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjälp oss att förbättra våra tjänster genom att ta göra en kort undersökning:
@@ -296,16 +335,13 @@ passwordResetAccountRecovery-action-2 = Skapa en ny kontoåterställningsnyckel
 passwordResetAccountRecovery-regen-required-mjml-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde:
-postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
+postAddAccountRecovery-subject-3 = Ny nyckel för kontoåterställning skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
-# Information on the browser and device triggering this string follows.
-postAddAccountRecovery-description-2 = En ny nyckel skapades från:
-# This is asking whether the person who took the action is the recipient of the email.
-postAddAccountRecovery-not-you = Inte du?
-postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Ta bort den nya nyckeln</a> och <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Spara den här nyckeln på ett säkert ställe — du behöver den för att återställa dina krypterade webbläsardata om du glömmer ditt lösenord.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Denna nyckel kan endast användas en gång. När du har använt den skapar vi automatiskt en ny åt dig. Eller så kan du skapa en ny när som helst från dina kontoinställningar.
 postAddAccountRecovery-action = Hantera konto
-postAddAccountRecovery-delete-key = Ta bort den nya nyckeln:
-postAddAccountRecovery-changd-password = Ändra ditt lösenord:
 postAddLinkedAccount-subject = Nytt konto länkat till { -brand-firefox }
 postAddLinkedAccount-subject-2 = Nytt konto länkat till ditt { -product-mozilla-account }
 #  Variables:
@@ -321,6 +357,11 @@ postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
 postAddTwoStepAuthentication-from-device = Du aktiverade det från:
 postAddTwoStepAuthentication-action = Hantera konto
 postAddTwoStepAuthentication-code-required-2 = Säkerhetskoder från din autentiseringsapp krävs nu varje gång du loggar in.
+postChangeAccountRecovery-subject = Nyckeln för kontoåterställning har ändrats
+postChangeAccountRecovery-title = Du har ändrat din kontoåterställningsnyckel
+postChangeAccountRecovery-body-part1 = Du har nu en ny kontoåterställningsnyckel. Din tidigare nyckel raderades.
+postChangeAccountRecovery-body-part2 = Spara den här nya nyckeln på ett säkert ställe — du behöver den för att återställa dina krypterade webbläsardata om du glömmer ditt lösenord.
+postChangeAccountRecovery-action = Hantera konto
 postChangePrimary-subject = Primär e-post uppdaterad
 postChangePrimary-title = Ny primär e-post
 # Variables:
@@ -345,11 +386,10 @@ postNewRecoveryCodes-title-2 = Du skapade nya reservautentiseringskoder
 postNewRecoveryCodes-description-2 = De skapades på:
 postNewRecoveryCodes-action = Hantera konto
 postRemoveAccountRecovery-subject-2 = Nyckel för kontoåterställning har tagits bort
-postRemoveAccountRecovery-title-2 = Du raderade din kontoåterställningsnyckel.
-# After the colon, there is information about the device that the account recovery key was deleted from
-postRemoveAccountRecovery-description-2 = Den raderades från:
+postRemoveAccountRecovery-title-3 = Du raderade din kontoåterställningsnyckel
+postRemoveAccountRecovery-body-part1 = Din kontoåterställningsnyckel krävs för att återställa dina krypterade webbläsardata om du glömmer ditt lösenord.
+postRemoveAccountRecovery-body-part2 = Om du inte redan har gjort det, skapa en ny kontoåterställningsnyckel i dina kontoinställningar för att förhindra att du förlorar dina sparade lösenord, bokmärken, webbhistorik och mer.
 postRemoveAccountRecovery-action = Hantera konto
-postRemoveAccountRecovery-invalid-2 = Du behöver en kontoåterställningsnyckel för att återställa dina { -brand-firefox }-data om du glömmer ditt lösenord.
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:

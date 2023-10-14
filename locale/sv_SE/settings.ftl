@@ -21,8 +21,8 @@ link-expired-resent-code-error-message = Något gick fel. En ny kod kunde inte s
 
 # This aria-label applies to the dismiss/close button of the banner
 # This text is for screen-readers
-brand-banner-dismiss-button =
-    .aria-label = Stäng
+brand-banner-dismiss-button-2 =
+    .aria-label = Stäng banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } kommer att döpas om till { -product-mozilla-accounts } den 1 november
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
