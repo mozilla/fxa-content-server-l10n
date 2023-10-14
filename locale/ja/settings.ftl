@@ -19,6 +19,10 @@ link-expired-resent-code-error-message = エラーが発生しました。新し
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = バナーを閉じる
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts }が 11 月 1 日から { -product-mozilla-accounts }に名称変更されます
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
@@ -53,14 +57,25 @@ recovery-key-pdf-key-legend = アカウント回復用キー
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = キーを保管する場所
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = 申し訳ありませんが、アカウント回復用キーのダウンロード中に問題が発生しました。
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = セキュリティとプライバシーに関するニュースと最新情報
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = 新製品をテストするための早期アクセス
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = 同期するデータを選択する
 choose-what-to-sync-option-bookmarks =
     .label = ブックマーク
 choose-what-to-sync-option-history =
@@ -145,6 +160,7 @@ form-verify-code-default-error = この項目は必須です
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
+get-data-trio-title-backup-verification-codes = バックアップ認証コード
 get-data-trio-download-2 =
     .title = ダウンロード
     .aria-label = ダウンロード
@@ -281,7 +297,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 弁当メニュー
+bento-menu-title-2 = { -brand-mozilla } 弁当メニュー
 bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
+bento-menu-mozilla-title = { -brand-mozilla } は、オンラインプライバシーに立ち向かう技術です。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -347,8 +365,10 @@ cs-disconnect-sync-opt-not-say = 無回答
 cs-disconnect-advice-confirm = 了解しました
 cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を切断しました
 cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
+cs-disconnect-lost-advice-content-3 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-mozilla-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
+cs-disconnect-suspicious-advice-content-2 = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-mozilla-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
 
 ##
@@ -358,15 +378,20 @@ cs-sign-out-button = ログアウト
 
 dc-heading = データの収集と使用
 dc-subheader = { -product-firefox-accounts } の改善にご協力ください
+dc-subheader-2 = { -product-mozilla-accounts } の改善にご協力ください
 dc-subheader-content = { -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
+dc-subheader-content-2 = { -product-mozilla-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-opt-out-success = オプトアウトが完了しました。{ -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
+dc-opt-out-success-2 = オプトアウトが完了しました。{ -product-mozilla-accounts }が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-in-success = ご協力ありがとうございます。このデータを共有することで { -product-firefox-accounts }の改善に役立てられます。
+dc-opt-in-success-2 = ご協力ありがとうございます。このデータを共有することで { -product-mozilla-accounts }の改善に役立てられます。
 dc-opt-in-out-error-2 = データ収集設定の変更時に問題が発生しました
 dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } メニュー
+drop-down-menu-title-2 = { -product-mozilla-account }メニュー
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -455,6 +480,7 @@ header-menu-closed = サイトナビゲーションメニュー
 header-back-to-top-link =
     .title = トップに戻る
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = ヘルプ
 
 ## Linked Accounts section
@@ -578,7 +604,9 @@ delete-account-header =
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
 delete-account-confirm-title-3 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ次のいずれかの { -brand-mozilla } 製品と接続されている可能性があります:
+delete-account-confirm-title-4 = あなたの { -product-mozilla-account }が、ウェブ上の安全と生産性を保つ次のいずれかの { -brand-mozilla } 製品と接続されている可能性があります:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -890,8 +918,12 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = 続けることにより、次のことに同意したものとみなされます:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = 続けることにより、次のことに同意したものとみなされます:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = { -product-pocket } の <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
 terms-privacy-agreement-firefox = { -brand-firefox } の <firefoxTos>サービス利用規約</firefoxTos> および <firefoxPrivacy>プライバシー通知</firefoxPrivacy>
 # links to Firefox's Terms of Service and Privacy Notice
