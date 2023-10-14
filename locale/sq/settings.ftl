@@ -61,14 +61,32 @@ recovery-key-pdf-instructions = Ky kyç ju lejon të rimerrni të dhëna shfletu
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Vende ku të depozitoni kyçin tuaj
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Mësoni më tepër mbi kyçin tuaj të rimarrjes së llogarisë
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Na ndjeni, pati një problem me shkarkimin e kyçit tuaj të rimarrjes së llogarisë.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Merrni më tepër nga { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-take-action-for-the-internet-2 =
+    .label = Ndihmoni ta mbajmë Internetin të shëndetshëm
+# Newsletter checklist item
+choose-newsletters-option-security-privacy =
+    .label = Lajme dhe përditësime mbi sigurinë & privatësinë
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Mundësi për të testuar që herët produkte të reja
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Zgjidhni çfarë të njëkohësohet
 choose-what-to-sync-option-bookmarks =
     .label = Faqerojtës
 choose-what-to-sync-option-history =
@@ -153,6 +171,7 @@ form-verify-code-default-error = Kjo fushë është e domosdoshme
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kyç rimarrjeje llogarie { -brand-firefox }
 get-data-trio-title-firefox-backup-verification-codes = Kode mirëfilltësimi kopjeruajtje { -brand-firefox }-i
+get-data-trio-title-backup-verification-codes = Kode mirëfilltësimi kopjeruajtjeje
 get-data-trio-download-2 =
     .title = Shkarkoje
     .aria-label = Shkarkoje
@@ -289,7 +308,9 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Menu { -brand-firefox } Bento
+bento-menu-title-2 = Menu { -brand-mozilla }
 bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton për privatësinë tuaj internetore.
+bento-menu-mozilla-title = { -brand-mozilla } është shoqëri teknologjie që lufton për privatësinë tuaj internetore.
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-2 = { -product-firefox-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -361,12 +382,14 @@ cs-disconnect-lost-advice-content-2 =
     të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account } tuaj
     te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga
     prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
+cs-disconnect-lost-advice-content-3 = Meqë pajisja juaj qe vjedhur ose humbur, për të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-mozilla-account } tuaj, te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
 cs-disconnect-suspicious-advice-heading = U shkëput pajisje e dyshimtë
 cs-disconnect-suspicious-advice-content =
     Nëse pajisja e shkëputur është vërtet
     e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account }
     tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
     tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
+cs-disconnect-suspicious-advice-content-2 = Nëse pajisja e shkëputur është vërtet e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-mozilla-account } tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-sign-out-button = Dilni
 
 ##
@@ -376,7 +399,9 @@ cs-sign-out-button = Dilni
 
 dc-heading = Grumbullim dhe Përdorim të Dhënash
 dc-subheader = Ndihmoni të përmirësohet { -product-firefox-accounts }
+dc-subheader-2 = Ndihmoni të përmirësohet { -product-mozilla-accounts }
 dc-subheader-content = Lejoje { -product-firefox-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
+dc-subheader-content-2 = Lejojeni { -product-mozilla-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-opt-out-success = Lënie jashtë e suksesshme. { -product-firefox-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-firefox-accounts }.
 dc-opt-in-out-error-2 = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash
@@ -385,6 +410,7 @@ dc-learn-more = Mësoni më tepër
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
+drop-down-menu-title-2 = Menu { -product-mozilla-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -450,6 +476,8 @@ flow-recovery-key-hint-char-limit-error = Ndihmëza duhet të përmbajë më pak
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Ndryshoni kyçin e rimarrjes së llogarisë tuaj
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
@@ -462,6 +490,7 @@ header-menu-closed = Menu lëvizje në sajt
 header-back-to-top-link =
     .title = Mbrapsht te kreu
 header-title = { -product-firefox-accounts }
+header-title-2 = { -product-mozilla-account }
 header-help = Ndihmë
 
 ## Linked Accounts section
@@ -470,6 +499,7 @@ la-heading = Llogari të Lidhura
 la-description = Keni autorizuar hyrje te llogaritë vijuese.
 la-unlink-button = Shkëpute
 la-unlink-account-button = Shkëpute
+la-set-password-button = Caktoni Fjalëkalim
 la-unlink-heading = Shkëpute prej llogarie palësh të treta
 la-unlink-content-3 = Jeni i sigurt se doni të shkëputet llogaria juaj? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë Shërbimesh tuaja të Lidhura. Për ta bërë këtë, do t’ju duhet të dilni dorazi që nga ndarja Shërbime të Lidhura.
 nav-linked-accounts = { la-heading }
@@ -587,6 +617,7 @@ delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
 delete-account-confirm-title-3 = Munde të keni lidhur { -product-firefox-account } tuaj me një ose më tepër produkte ose shërbime vijues { -brand-mozilla } që ju mbajnë në internet të parrezik dhe prodhimtar në internet:
 delete-account-product-firefox-account = { -product-firefox-account }
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -632,6 +663,21 @@ display-name-success-alert-2 = Emri për në ekran u përditësua
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Veprimtari Llogarie Së Fundi
+recent-activity-account-create-v2 = Llogaria u krijua
+recent-activity-account-disable-v2 = Llogaria u çaktivizua
+recent-activity-account-enable-v2 = Llogaria u aktivizua
+recent-activity-account-login-failure = Dështoi përpjekje për hyrje në llogari
+recent-activity-account-two-factor-added = Mirëfilltësimi dyhapësh u aktivizua
+recent-activity-account-two-factor-requested = U kërkua mirëfilltësim dyhapësh
+recent-activity-account-two-factor-failure = Mirëfilltësimi dyhapësh dështoi
+recent-activity-account-two-factor-success = Mirëfilltësimi dyhapësh qe i suksesshëm
+recent-activity-account-two-factor-removed = Mirëfilltësimi dyhapësh u hoq
+recent-activity-account-password-added = U shtua fjalëkalim i ri
+recent-activity-account-password-changed = Fjalëkalimi u ndryshua
+recent-activity-account-secondary-email-added = U shtua adresë email dytësore
+recent-activity-account-secondary-email-removed = U hoq adresë email dytësore
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Tjetër veprimtari në llogari
 
 # Account recovery key setup page
 
@@ -766,6 +812,8 @@ security-password-created-date = Krijuar më { $date }
 security-not-set = I paujdisur
 security-action-create = Krijoje
 security-set-password = Caktoni një fjalëkalim për të njëkohësuar dhe përdorur disa veçori sigurie llogarie.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Shihni veprimtari së fundi në llogari
 
 ## Switch component
 
@@ -879,6 +927,8 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro = Duke vazhduar, pajtoheni me:
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
 # links to Pocket's Terms of Service and Privacy Notice
 terms-privacy-agreement-pocket = <pocketTos>Terma Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim Privatësie</pocketPrivacy> të { -product-pocket }
 # links to Firefox's Terms of Service and Privacy Notice
