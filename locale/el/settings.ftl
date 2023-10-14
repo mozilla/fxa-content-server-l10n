@@ -391,6 +391,9 @@ cs-disconnect-suspicious-advice-content =
     για την προστασία των δεδομένων σας, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
     { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
     όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
+cs-disconnect-suspicious-advice-content-2 =
+    Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
+    { -product-mozilla-account(case: "gen", capitalization: "lower") } σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αλλάξετε όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα «about:logins».
 cs-sign-out-button = Αποσύνδεση
 
 ##
@@ -404,6 +407,7 @@ dc-subheader-2 = Βοηθήστε στη βελτίωση των { -product-mozi
 dc-subheader-content = Να επιτρέπεται στους { -product-firefox-accounts(case: "acc", capitalization: "upper") } η αποστολή τεχνικών δεδομένων και αλληλεπίδρασης στη { -brand-mozilla }.
 dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(case: "acc", capitalization: "lower") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-out-success = Επιτυχής αποχώρηση. Οι { -product-firefox-accounts(case: "nom", capitalization: "upper") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
+dc-opt-out-success-2 = Επιτυχής απενεργοποίηση. Οι { -product-mozilla-accounts(case: "nom", capitalization: "lower") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
 dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων
@@ -629,6 +633,7 @@ delete-account-header =
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
 delete-account-confirm-title-3 = Ίσως έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
+delete-account-confirm-title-4 = Ίσως έχετε συνδέσει τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla }, που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-product-firefox-account = { -product-firefox-account }
 delete-account-product-mozilla-account = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }

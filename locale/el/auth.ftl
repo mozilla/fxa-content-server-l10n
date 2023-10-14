@@ -258,6 +258,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
 cadReminderFirst-description-1 = Μεταφέρετε τις καρτέλες σας σε όλες τις συσκευές σας. Λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα οπουδήποτε χρησιμοποιείτε το { -brand-firefox }. Είναι σαν να κάνει μαγικά ο λογαριασμός { -brand-firefox } σας!
+cadReminderFirst-description-v2 = Μεταφέρετε τις καρτέλες σας σε όλες τις συσκευές σας. Λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
 cadReminderSecond-subject-2 = Μην το χάσετε! Ολοκληρώστε τη ρύθμιση του συγχρονισμού
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title-2 = Μην ξεχάσετε να κάνετε συγχρονισμό!
@@ -336,6 +337,10 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί ν�
 passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
 postAddAccountRecovery-subject-3 = Δημιουργήθηκε νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Αποθηκεύστε αυτό το κλειδί σε ασφαλές μέρος· θα το χρειαστείτε για να επαναφέρετε τα κρυπτογραφημένα δεδομένα περιήγησής σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Αυτό το κλειδί μπορεί να χρησιμοποιηθεί μόνο μία φορά. Αφού το χρησιμοποιήσετε, θα δημιουργήσουμε αυτόματα ένα νέο για εσάς. Μπορείτε επίσης να δημιουργήσετε ένα νέο κλειδί ανά πάσα στιγμή από τις ρυθμίσεις του λογαριασμού σας.
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
 postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμός με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
@@ -355,6 +360,7 @@ postAddTwoStepAuthentication-code-required-2 = Απαιτούνται πλέον
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
 postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-body-part1 = Διαθέτετε πλέον ένα νέο κλειδί ανάκτησης λογαριασμού. Το προηγούμενο κλειδί σας έχει διαγραφεί.
+postChangeAccountRecovery-body-part2 = Αποθηκεύστε αυτό το νέο κλειδί σε ασφαλές μέρος· θα το χρειαστείτε για να επαναφέρετε τα κρυπτογραφημένα δεδομένα περιήγησής σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postChangeAccountRecovery-action = Διαχείριση λογαριασμού
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
@@ -382,6 +388,7 @@ postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
 postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί ανάκτησης του λογαριασμού σας
 postRemoveAccountRecovery-body-part1 = Το κλειδί ανάκτησης του λογαριασμού σας απαιτείται για την επαναφορά των κρυπτογραφημένων δεδομένων περιήγησής σας, εάν ξεχάσετε τον κωδικό πρόσβασής σας.
+postRemoveAccountRecovery-body-part2 = Εάν δεν το έχετε κάνει ήδη, δημιουργήστε ένα νέο κλειδί ανάκτησης λογαριασμού στις ρυθμίσεις του λογαριασμού σας για να αποτρέψετε την απώλεια των αποθηκευμένων κωδικών πρόσβασης, των σελιδοδεικτών, του ιστορικού περιήγησης και άλλων δεδομένων.
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
